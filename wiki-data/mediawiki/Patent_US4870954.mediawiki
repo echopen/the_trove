@@ -1,0 +1,64 @@
+# Patent US4870954
+
+
+
+
+
+=US4870954 : Ultrasonic diagnostic apparatus having pivotable and slidable operational table = 
+
+
+
+== Invention date ==
+
+Oct 3, 1989
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Tomohiro Satoh]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+A ultrasonically diagnostic apparatus including a ultrasonically diagnostic body for obtaining ultrasonic information, in which an operational table arranged in front of the body is rotatably supported by a pivotally supporting device which is slidably supported by a slidably supporting device secured to a front side of the body, and thus the operational table is pivotal in left and right hand side directions and also slidable frontwards and rearwards.
+= Patents Backwards =
+
+* [[Patent US2650871]]
+* [[Patent US3271020]]
+* [[Patent US3320800]]
+* [[Patent US3467455]]
+* [[Patent US3547101]]
+* [[Patent US3735755]]
+* [[Patent US3837720]]
+* [[Patent US4058001]]
+* [[Patent US4274685]]
+* [[Patent US4379429]]
+* [[Patent US4483572]]
+* [[Patent US4515086]]
+* [[Patent US4625731]]
+* [[Patent US4643547]]
+* [[Patent DE2511735A1]]
+* [[Patent FR2302079A1]]
+* [[Patent JPS639429A]]
+= Patents Forwards =
+
+* [[Patent US5072721]]
+* [[Patent US5129397]]
+* [[Patent US5696574]]
+* [[Patent US5717480]]
+* [[Patent US6095649]]
+* [[Patent US6264329]]
+* [[Patent US6648825]]
+* [[Patent US6663569]]
+* [[Patent US6699190]]
+* [[Patent US6709391]]
+* [[Patent US6821250]]
+* [[Patent CN100401987C]]
+* [[Patent EP2092892A1]]
+* [[Patent EP2578158A1]]
+* [[Patent EP2578161A1]]
+* [[Patent WO2003099126A1]]
+* [[Patent WO2003099128A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

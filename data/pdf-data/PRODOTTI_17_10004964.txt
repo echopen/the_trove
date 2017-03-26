@@ -1,0 +1,294 @@
+ULTRASOUND
+MOTOR
+PLASTIC CASE
+SILICONE MEMBRANE
+PLASTIC DOME
+ULTRASOUND
+TRANSDUCER
+MATCHING
+FLUID
+OPTICAL SENSOR
+TRANSDUCER AND
+SENSOR HOLDER
+Very Fast Scanning Probe for Ophthalmic
+Echography Using an Ultrasound Motor
+Riccardo Carotenuto
+Dipartimento I.M.E.T.
+Università degli Studi “Mediterranea” di Reggio Calabria
+Loc. Feo di Vito, 89069 Reggio Calabria, Italy
+r.carotenuto@ing.unirc.it
+Giosuè Caliano, Alessandro Caronti,
+Alessandro Savoia, Massimo Pappalardo
+Dipartimento di Ingegneria Elettronica
+Università degli Studi “Roma Tre”
+Via della Vasca Navale 84, 00146 Roma, Italy
+Abstract—High frequency transducers, up to 35-50 MHz, are
+widely used in ophthalmic echography to image fine eye
+structures. At such a high frequency, mechanical scanning probe
+are the only practical alternative. A good probe
+positioning-image evaluation feedback requires an image
+refresh-rate of 15-30 frames per second. In this work, we present
+the probe design and construction, the experimental
+characterization and a first high frequency echographic image
+obtained with a prototype probe based on an ultrasound motor.
+The prototype probe reaches a scanning rate of 15 frames per
+second, with very silent operation and little weight.
+Keywords-ultrasound motor; high frequency probe; ophthalmic
+echoraphy; mechanical scanning
+I. INTRODUCTION
+Ophthalmic diseases are frequent among persons over the
+age of 65. For example, glaucoma represents the third most
+frequently reported disease among all causes. Glaucoma is
+mainly caused by the alteration of some fine eye structures that
+control the intra ocular pressure. Fine eye structures can be
+imaged for diagnosis purposes using high frequency
+transducers, in the range 35-50 MHz, with high resolution and
+low penetration depth. In this frequency range, the
+element-to-element pitch of a phased array transducer becomes
+so small as to make the transducer hard to be manufactured [1].
+As a matter of fact, the element pitch should be less than half
+wavelength for phased array, in order to prevent the grating
+lobes from falling in the imaging field. At 35 MHz, the ideal
+pitch is only 22 µm, making the element blade cutting of a
+standard piezoelectric ceramic transducer very troublesome.
+On the other hand, good single element transducers are
+currently available, which are based on PVDF technology,
+showing very good sensitivity, around 80-100% fractional
+bandwidth with central frequency up to 50 MHz. Using single
+element transducers, B-Mode imaging can be obtained by
+means of mechanical scanning. Due to gear backlash and
+mechanical rotational inertia, commercial mechanical probe
+systems are limited to scanning rates up to 8-10 frames per
+second. However, good quality imaging, and good image
+evaluation and probe positioning feedback, requires an image
+refresh-rate of 15-30 frames per second.
+In a previous work [2], some of the authors described a
+piezomotor in which the stator and the rotor are not directly
+coupled, and the energy transfer from the stator to the rotor
+takes place via a steel axle. The main characteristics of this
+motor are: structural simplicity and relative high rotor speed
+(≈ 3000 rpm) and torque (≈ 18 µN⋅m).
+In this paper, we present a prototype of a mechanical
+scanning probe based on the previously described piezomotor.
+The prototype is mechanically characterized and a first high
+frequency ophthalmic echographic image is shown.
+II. THE MECHANICAL SCANNING PROBE
+The scanning probe is composed of the above mentioned
+piezoelectric motor, glued by means of silicone rubber drops
+on a printed circuit board (PCB), and a high frequency PVDF
+ultrasound transducer (Blatek, State College, PA, USA) (center
+frequency 35 MHz, -6 dB bandwidth about 110%, diameter 7
+mm, and 12.1 mm fixed focus). The ultrasound transducer is
+mounted on an aluminum holder together with an angular
+optical incremental sensor. The motor is excited with four
+properly delayed 30 VPP square signals at 87.5 kHz.
+Figure 1. The probe mechanical structure: the transducer is mounted together
+the optical sensor mask on the motor rotor; the transducer is immersed in a
+matching fluid sealed between a plastic dome and an elastic membrane that
+protects the motor and the optical sensor.
+In order to avoid acoustical impedance mismatch, the
+transducer can work in two ways: immersed in a water bath, or
+1310
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+2004 IEEE International Ultrasonics, Ferroelectrics,
+and Frequency Control Joint 50th Anniversary Conference
+2004 IEEE Ultrasonics Symposium
+PIEZOELECTRIC
+MOTOR
+ULTRASOUND
+TRANSDUCER
+OPTICAL
+SENSOR
+MICRO
+CONTROLLER
+PERSONAL
+COMPUTER
+PULSER/RECEIVER
+FEEDBACK
+CONTROL LOOP
+IMAGE DISPLAY
+fully immersed in silicone oil (Dow-Corning, USA) having an
+acoustical impedance similar to that of water, and contained in
+an acoustically transparent dome (see Fig. 1). The dome is
+properly shaped as to be put in contact safely with the patient’s
+eye through the usual matching water gel.
+Figure 2. Probe prototype photo: external view of the probe with the dome.
+The water of the bath, or the fluid inside the dome, are
+separated from the motor and the optical sensor by means of a
+thin elastic silicone rubber membrane. In fact, the membrane
+prevents the fluid to wet the contact interface between stator
+and rotor and consequently to decrease the friction coefficient,
+thus lowering the generated torque under the minimum level
+required for proper scanning operation. Moreover, the fluid
+between the LED and the photodiode of the optical sensor
+could modify the light path preventing the correct operation of
+the sensor. All the components described so far are enclosed in
+a suitable plastic case, as shown in Fig. 1.
+Figure 3. Probe prototype photo: the transducer and the membrane
+arrangement under the dome.
+The elastic membrane is glued to the rotor near the
+rotational axis to minimize the parasitic counter-torque due to
+the elastic reaction of the membrane. The proposed
+arrangement is a good trade-off between elastic counter-torque
+and hydrodynamic losses. Figure 2 shows the assembled
+prototype, with the plastic dome mounted and filled with the
+matching liquid. Figure 3 shows the probe without the dome:
+the arrangement of the elastic membrane around the ultrasound
+transducer is visible. Figure 4 shows the disassembled probe.
+Figure 4. Probe prototype photo: the probe is partially disassembled to show
+the internal arrangement: behind the reversed elastic membrane, it is possible
+to see the piezomotor glued on the PCB, the optical sensor, and the transducer
+coaxial cable.
+The probe is connected to a complete echographic system,
+whose echographic signal processing and image display
+sections have been developed by OPTIKON 2000 S. p. A.,
+Roma, Italy. The complete system architecture is shown in
+Fig. 5; the pulser/receiver electronics is hosted in a personal
+computer, and a suitable software allows us to control imaging
+parameters and display.
+Figure 5. Block diagram of the echographic system architecture. The
+pulser/receiver electronics is hosted on a personal computer, and a suitable
+software allows to control imaging parameters and display.
+The probe operates in a closed-loop controlled by a
+microcontroller (Scenix SX by Parallax, CA, USA), which
+controls the motor scanning direction and generates the
+synchronization signals for the echographic system. During the
+probe rotation, the optical sensor generates a sequence of
+digital trigger signals, each signal telling the controller when it
+1311
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+2004 IEEE International Ultrasonics, Ferroelectrics,
+and Frequency Control Joint 50th Anniversary Conference
+0 50 100 150
+-30
+-20
+-10
+0
+10
+20
+30
+40° SECTOR
+SCAN TIME
+15.4 ms
+SCAN START
+ROTOR
+ANGLE
+(°)
+TIME (ms)
+SCLERA
+IRIS
+CILIARY
+BODY
+LENS
+CORNEA
+is time to pulse the transducer and successively to acquire the
+echoes coming back from the target. The echographic system
+uses the acquired single record from the echo signals to build,
+after a suitable post-elaboration, a single view line of the
+imaging field. After all the view lines have been acquired, post-
+processed, and scan converted, they are displayed as a whole in
+one usual sector B-mode image. Our echographic system
+acquires 256 view lines to build a single frame, at a rate of 15
+frames per second. The probe controller circuitry and the
+power supply electronics are hosted externally to the personal
+computer.
+Figure 6. Rotor angle versus time experimental curve. After an acceleration
+interval, the rotor scans the 40° sector within about an average 15.4 ms.
+Bouncing around the resting position at -20° is due to the elastic membrane
+reaction and to the rotational inertia of the transducer-holder-sensor system.
+III. EXPERIMENTAL RESULTS
+The ability of the scanning probe to scan the desired sector
+imaging field within the required frame rate was tested with the
+transducer immersed in its matching fluid inside the sealed
+dome. Figure 6 shows the experimental angle versus time
+curve, computed starting from the measured output of the
+incremental optical sensor, which is actually a PWM square
+wave. The inverse of the time interval between two subsequent
+commutations of the squared wave, multiplied by the angle
+step (0.175°) of the optical sensor, yields the instantaneous
+rotor angular speed; a successive numerical integration gives
+the angle versus time curve. From this curve, it can be seen that
+the probe actually scans a wider sector, about 50°, and that the
+angular trajectory includes acceleration and deceleration
+intervals. In fact, once the rotor reaches each of the scanning
+sector ends, the rotor continues its run for a while during
+braking. In this way, the effective scan sector is wider than 40°.
+It can be also appreciated the fact that, within the desired sector
+of 40°, the scanning angular speed is constant with a good
+approximation.
+Although a constant angular speed is not a stringent
+requirement for this scanning system, given that the pulse-
+receive synchronism is based on a computed absolute position,
+however it indicates a good performance of the piezoelectric
+motor and of the overall mechanical arrangement, which
+operates quite smoothly.
+The curve shows a wide resting interval between two
+subsequent scans; the resting intervals indicate that the actual
+piezomotor torque exceeds the one strictly required to
+accomplish the task of 15 scans per second, and that there is a
+power reserve that could be utilized should the motor torque
+decrease for aging during the operating life, or used to reject
+external inertial disturbances. Alternatively, that power reserve
+could be used to increase the scanning rate up to 25 frames per
+second.
+Figure 7 shows an image acquired with the scanning probe
+prototype, without the dome and with the scanning transducer
+immersed in a water bath, displaying the fine structures of a pig
+eye; in this image, it is possible to appreciate the details of the
+anterior chamber, the cornea, surrounded by the external sclera,
+the iris, the lens, and the ciliary body. The good quality of the
+image, without apparent geometrical artifacts, confirms the
+correct operation of the mechanical closed loop scanning
+system.
+Figure 7. Fine structures of a pig eye: details of the anterior chamber, the
+cornea, surrounded by the external sclera, the iris, the lens, and the ciliary
+body, imaged with a circular 35 MHz transducer.
+IV. CONCLUSIONS
+The description of a mechanical scanning probe for high
+frequency ophthalmic ecography based on a piezoelectric
+motor is provided, and the experimental characterization is
+carried out. The probe transducer is fully immersed in a
+matching fluid, which is separated from the motor by a elastic
+silicone membrane. The scanning probe incorporates an optical
+angular sensor and operates within a closed-loop
+microprocessor controlled system. The probe is able of
+scanning 15 sectors per second as requested for a good image
+refresh rate, showing a good power margin to compensate
+aging and external disturbances. The angle versus time
+experimental curve and the good quality of the obtained
+echographic image demonstrate the feasibility and the smooth
+operation of employing a piezoelectric motor to drive a fast
+mechanical scanning probe. The constructed probe has little
+weight and operates in a very silent manner. However, the
+1312
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+2004 IEEE International Ultrasonics, Ferroelectrics,
+and Frequency Control Joint 50th Anniversary Conference
+prototype appears quite big with respect to other commercial
+competitors, due to the room required by the 30 mm diameter
+piezomembrane, which is the largest component of the motor.
+Currently, a reduction of the overall probe dimensions using a
+smaller piezoelectric membrane is under investigation.
+ACKNOWLEDGMENTS
+The authors gratefully acknowledge the support of MIUR
+for the project, and the valuable collaboration of Dr. Giacomo
+Pasqualitto and Dr. Claudio Reginelli, both at OPTIKON
+2000 S. p. A., Roma, Italy.
+REFERENCES
+[1] T. A. Ritter, T. R. Shrout, R. Tutwiler, and K. K. Shung, ”A 30-MHz
+piezo-composite ultrasound array for medical imaging applications,”
+IEEE Trans. on Ultrasonics, Ferroelectrics and Frequency Control, vol.
+49, n. 2, pp. 217-230, Feb. 2002.
+[2] R. Carotenuto, A. Iula, N. Lamberti, M. Pappalardo, “A new low voltage
+piezoelectric micromotor based on the stator precessional motion,” IEEE
+Trans. Ultrason., Ferroelec., Freq. Contr., vol. 45, n. 5, pp. 1427-1435,
+Sept. 1998.
+1313
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+0-7803-8412-1/04/$20.00 (c)2004 IEEE.
+2004 IEEE International Ultrasonics, Ferroelectrics,
+and Frequency Control Joint 50th Anniversary Conference
+

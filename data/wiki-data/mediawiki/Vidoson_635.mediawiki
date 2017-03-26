@@ -1,0 +1,54 @@
+# Vidoson 635
+
+[[Category:Historique]]
+[[Category:Sonde]]
+[[Category:Balayage]]
+
+= Vidoson 635 =
+== Informations ==
+Documentation Siemens : [[:File:P 86-5_220d (Vidoson 1967).pdf]] et [[:File:P 86-5_24D d (Vidoson 1968).pdf]].
+<br />
+<br />
+Mechanical real-time B-Mode system (15 frames/sec) with water coupling.
+Adjustable section plane, gray-scale display.
+(The ultrasonic impulses of a rotating transducer are first reflected by a parabolic mirror,
+then beamed parallel towards the body.)
+Origin: Lutz, Bayreuth
+<br />
+<br />
+Mechanical linear sector scanner
+Scanner unit of the first real-time ultrasound system
+(Vidoson 635).
+Three successively activated ultrasonic transmitters
+rotate in the focal plane of a parabolic reflector.
+This reflector transforms the original sector scan to a
+(linear) parallel scan. The reason for this unorthodox
+solution: The constant rotation of the transducers
+is – contrary to repetitive longitudinal motions - not
+subject to inertial force. Therefore scanning time and
+frame rate are not limited, as they would be in case
+of longitudinal motions of the transducer.
+The longitudinal axis of the rotating transducers can
+be shifted. In this way the section plane can be varied
+up to 3.5 cm without moving the complete scanning
+unit which is connected to the patient‘s skin. This
+method was intended to facilitate ultrasonic mamma
+inspections.
+<br />
+
+== Galerie d'images ==
+[[File:Vidoson1.png|600px|thumb|center|alt=The Scanning Principle|The Scanning Principle]]
+<br />
+[[File:Vidoson2.png|600px|thumb|center|alt=Coupe de la sonde|Coupe de la sonde]]
+<br />
+[[File:O2 1068i patienten VIDOSON(1966).jpg|600px|thumb|center|alt=Vidoson 635 en utilisation|Vidoson 635 en utilisation]]
+<br />
+[[File:O2_1068 e_Vidoson_1968.jpg|600px|thumb|center|alt=Vidoson 635 en utilisation|Vidoson 635 en utilisation]]
+<br />
+[[File:O2_1068h_Vidoson, US-Schnittbildgerat.jpg|600px|thumb|center|alt=Vidoson 635|Vidoson 635]]
+<br />
+[[File:O2_1070a_Vidoson Applikator 1971.jpg|600px|thumb|center|alt=Transmission onde sonore|Transmission onde sonore]]
+<br />
+[[File:Vidoson 635 a.jpg|600px|thumb|center|alt=Vidoson 635 en utilisation|Vidoson 635 en utilisation]]
+<br />
+[[File:F6711.97 (Untersuchung mit Vidoson).jpg|600px|thumb|center|alt=Vidoson 635 en utilisation|Vidoson 635 en utilisation]]

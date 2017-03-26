@@ -1,0 +1,131 @@
+The BBB cape project
+Codename Murgen
+24/11/15 till 24/01/16
+Web: murgen.echopen.org
+email: murgen@echopen.org
+ML: all@murgen.echopen.org
+All about Murgen : history
+• Birth on Nov 24th: need to get a prototype by Feb ‘16. 3 possible
+forks were discussed (CapTech)
+– Microcontroler – a good compromise
+• Analog signal processing, time efficient
+– FPGA – a full processing unit
+• Digital signal processing, more options, takes longer (hard + VHDL)
+• Preliminary work with MCooke
+– Beaglebone black – wanted to try =)
+• In the pipe since September, long discussion with FLK
+• The first choice went to an analog data processing / possibly using a
+microcontroler
+• Murgen:
+– Scope: a dev kit (academics, hackers, …) – not for medical design.
+– Target: release of a kit by Feb ‘16.
+Why the BBB ?
+• Fun and Powerful
+• Possibility to add capes / shields
+• Wanted to play on it, produce something
+physical to play with
+• A challenge: doing a board =)
+• Shared memories between PRUs and CPU–
+data transfer bottleneck isn’t anymore
+• the nature of Linux means that real-time
+control of high-speed external hardware may
+often still not be easily possible. The TI chip
+improves the situation by providing two
+additional CPUs (known as PRU-ICSS or
+PRUSSv2, I’ll call it PRU for short) on the
+same silicon. It means that separate software
+can be run on them, to offload hardware
+interfacing and processing of low-level
+protocols.
+• The chip has been likened to arduino but
+actually the additional CPUs run at a far
+higher speed (200MHz) which in many cases
+means that external logic
+devices, CPLDsor FPGAs may not be
+necessary.
+•
+OSH
+• Open source hardware is hardware whose
+design is made publicly available so that
+anyone can study, modify, distribute, make,
+and sell the design or hardware based on that
+design. The hardware’s source, the design
+from which it is made, is available in the
+preferred format for making modifications to
+it.
+• Ideally, open source hardware uses readily-
+available components and materials,
+standard processes, open infrastructure,
+unrestricted content, and open-source design
+tools to maximize the ability of individuals to
+make and use hardware.
+So, what did we do ?
+• A « fork and merge » idea
+: the analog part is
+common to all designs
+• Who ?
+– Inputs from lots of people:
+PHH, Bertrand, Sofian,
+Amit, and stack / tutos, …
+• What ?
+– Learning to play with
+Altium,
+• How ?
+– Documenting hardware is
+not easy =)
+• Rough process:
+– 11/24: Beginning
+– Writing specs (the Shield
+challenge)
+– Getting comments
+– Listing possible
+components
+– 12/20 : Assembling
+everything
+– 01/06: Getting the plans
+– Assembly !
+Process
+27/11
+20/12
+06/01
+Current tech deliverables and todos
+DONE
+• Block designs (HV, pulse,
+cap, TGC, ADC)
+• Schematics : OK
+• Gerbers: OK
+– « Source files », TAPR
+license
+• BOM: OK
+• Documentation: ~85%
+• Exchanges with main
+TODO
+• A pulser board
+• Fab
+• PRUs code
+• Code at large
+• Node.js code
+• Plugging a transducer
+• Plugging the motor
+• Using a µC ?
+Current other lessons and todos
+DONE
+• Notes on the wiki
+• A small experiment blog
+– Creates awareness
+– Drives traffic to wiki
+– #2 on HackerNews!
+– 25 stars on GitHub
+• A ML : unused to far
+• Better def. of OSH
+TODO
+• Polishing the wiki (or
+deleting the page? – all
+on github)
+• Getting to know more the
+OSH guys
+• Sourcing fabs..
+• Continue documenting
+OSH / failproofing it
+• Exploring CMS ?
+

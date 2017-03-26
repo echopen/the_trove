@@ -1,0 +1,121 @@
+D04271 Rev 2.0
+System
+Specifications
+Signostics Limited
+1284 South Road
+Clovelly Park, SA 5042 Australia
+www.signostics.com.au
+1-800-SIGNOS (1-800-744667)
+ABN: 44 081 578 378
+S3-5 Sector Annular S3 Unfocused Single Crystal
+TRANSDUCERS
+Weight
+Dimensions
+13.8 oz (392g)
+Display Unit
+4.5” H x 2.7” W x 0.8” D
+(11.5cm H x 6.8cm W x 2 cm D)
+Connecting Cable
+33.8” L (85.8cm L)
+Ultrasound Probe
+5.5” L x 2.4” W x 1.3” D
+(14cm L x ~6cm W x ~3.3cm D)
+PHYSICAL CHARACTERISTICS
+IMAGING MODES & PROCESSING
+B-Mode
+M-Mode
+System Dynamic
+Range
+Scanning Depth
+Image Processing
+Real-time imaging
+Time based image
+Approximately 120 dB
+0 to 18 cm (transducer dependent)
+Gain, grey scale transfer curve
+PW-Mode Pulsed Wave Doppler
+• Touch screen and scroll wheel
+• Onscreen alpha-numeric keyboard
+• Controls: Scan depth, near gain, far gain, gain rate, zoom, pan, doppler depth, doppler gain, doppler gate width, PRF
+• Annotation: Text and voice recording
+• Printing: PictBridge compatible USB port
+• Display: 2.7” TFT Colour LCD, 240 x 320 pixels, with brightness control
+• Grey Scale: 64 shades
+• Directly connect Probe to PC, Laptop or Windows based Tablet via USB
+• Security : Encryption of image storage, optional password protection
+• Stores patient and exam information for later review or transfer to PC
+USER INTERFACE
+MEDICAL APPLICATIONS
+Abdominal - Aortic Aneurysm, Urinary Bladder, Free Peritoneal Fluid
+FAST Scan
+Cardiothoracic - Pericardial Fluid, Pleural Fluid, Lung, BPM
+Fetal Presentation, Fetal Heart Rate
+Veterinary
+Musculoskeletal - Biofeedback
+Linear Distance callipers – 4 sets
+Ellipse and Polygon with area and circumference measurements
+Auto volume measurement using bladder sequence (0 - 999 mls +/- 15%)
+M-Mode time and Beats Per Minute (BPM) measurements
+MEASUREMENT TOOLS
+D04271 Rev 2.0
+System
+Specifications
+Signostics Limited
+1284 South Road
+Clovelly Park, SA 5042 Australia
+www.signostics.com.au
+1-800-SIGNOS (1-800-744667)
+ABN: 44 081 578 378
+Media
+Storage
+Storage
+PC Connectivity
+MicroSDTM
+card. 1Gb, 2Gb, Up to 32GB SDHC (4GB card included)
+4GB MicroSDTM
+card will store in excess of 10,000 B-Mode Images or 2,000 M-Mode images or 500 Video Images
+Urgent Mode. Internal memory will store 40 B-Mode Images
+Connects directly to a PC via USB cable. Images can be downloaded to a PC running SigViewerTM
+software
+IMAGE STORAGE
+Battery Operated
+AC
+USB
+Car charger
+2000mAh Lithium-ion polymer cell
+Recharge using Signostics AC power supply – Input : 100-240VAC, 50-60Hz, 0.4A, - Output : 5V, 2.0A
+Recharge using USB connection. Output 5V 0.5A
+Recharge using car charger. Output 5V 1.0A
+POWER
+Fully charge battery in 3.0 hours; 75% charge in 2 hours. (Using AC charger)
+Over 120 minutes of continuous scanning
+Typical use up to 30 hours (based on four 1 minute scans per hour)
+Operating Temperature
+0 - 40O
+C
+Operating Relative Humidity (non-condensing)
+10 – 90%
+ENVIRONMENTAL
+Default
+Abdomen
+Aorta
+Bladder
+Bladder Auto
+Lung
+Large Vessels
+Obstetric
+Obstetric Early
+Pelvic Floor
+TA
+Veterinary
+User Customised Presets
+PRESET SCAN SETTINGS
+SIGVIEWER PC SOFTWARE (Included with Signos RT purchase)
+Synchronize images and patient data to PC
+Search and manage patient study database
+Export image data
+Automatic update of Signos RT software
+Compatible with Windows XP, Windows Vista, Windows 7, Windows 8
+APPLICATION SPECIFIC SEQUENCES
+Automatic Bladder Volume Calculation
+

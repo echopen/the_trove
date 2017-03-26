@@ -1,0 +1,680 @@
+Mir/7a
+United States Patent [191
+I
+[11] 4,149,419
+Connell, Jr. et a1. [45] Apr. 17, 1979
+[54] ULTRASONIC TRANSDUCER PROBE 3,927,661 12/1975 Takemura 73/621 X
+4,034,744 7/1977 Goldberg ............................ 128/2 V‘
+[75] Inventors: Raymond S. Connell, Jr.; John M.
+Santacroce, both of San Jose, Calif. Primary Examiner-James J. Gill
+[73] Assignee: Smith Kline Instruments, Inc., [57] ABSTRACT
+l'f. ‘
+Sunnyvale’ Cal An ultrasonic transducer probe having a sealed rotor
+[21] APPL N°~= 854,902 housing, a plurality of transducers mounted on a rotor
+[22] Filed. No“ 25, 1977 disposed in said housing. A rotor shaft mounts the rotor
+2 and extends through the housing. A drive assembly
+[51] Int- Cl‘ """""""""""" G01N 29/04; A6313 10/ including commutating and position indicating means
+[52] us‘ Cl‘ """""""""""" 1721/622% receives said housing and rotor shaft and serves to drive
+_ / ’ ’ / the rotor, commutate electrical energy to and from said
+[58] Field of Search ................. 73/639, 641, 626, 621, . . . . .
+73/633 634 625 644' 128/2 V 205 Z transducers and indicate the angular posltlon of said
+’ ’ ’ ’ ’ rotor. A handle including means for driving said drive
+[56] References Cited assembly is attached to said drive assembly to position
+U_S_ PATENT DOCUMENTS ' the rotor housing and drive assembly against the body
+the rotate said rotor to cause the transducers to scan a
+3,130,577 4/1964 Cowan ................................... 73/633 secto'f'la‘f'the‘?‘dad
+3,423,991 1/1969 Collins ....... 73/639 y‘
+3,714,817 2/1973 Miller ............. 73/639
+3,779,234 12/1973 Eggleton et al. ............... 128/2 V 8 Claims, 10 Drawing Figures
+6 _ 7
+44 50486066644:l52‘l
+53 - _ 6|
+I 5 4| __ _-4‘ T _ 63
+L_ 56 7
+4s — i 384
+52 - — —_ —
+55 4? 43 ~_ _
+e5 _
+79 ,
+s
+66 _
+67 ©
+3 2a - |i ' h 3
+l6 .' " 27
+26' y | I 14
+24
+4 ' " 4
+2| *‘ "' I3
+‘I a I ll
+19 ' l _
+< IB
+‘ \l?
+U.S. Patent Apr. 17, 1979 Sheet 1 of 5 4,149,419
+FIG-l
+US. Patent Apr. 17, 1979 Sheet 2 of5 4,149,419
+ill.
+2
+44 5O 48 6O 66 64 42 6
+FIG-Z
+US. Patent Apr. 17, 1979 Sheet 3 of5 4,149,419
+US. Patent Apr. "17, 1979 Sheet4 0f5 4,149,419
+m
+37 38 2O
+US. Patent Apr. 17, 1979 Sheet 5 of5 4,149,419
+g SYSTEM x9‘ ;
+CLOCK / I03
+r
+ULTRASOUND SPOT
+XTMR-RECVR v 'NTERFACE WOBBLE MAM
+9|
+_J 9 II
+"X
+R MULTIPLIER
+89 98 V 1IOI
+7 2 R I ll
+SYN . SWEEP 'Y
+__.GENERA R ,eENERAToRs 9 MULTIPLIER
+1102
+88~
+‘ 406
+TR DUCER OPERATOR
+TOR CONTROLS
+CONTROL MODE
+8?) ‘ =
+b DATA CONDITIONING ‘077 VIDEO
+AND TAPE
+COMPOSITE VIDEO
+GENERATOR RECORDER
+96S ' PM
+DISPLAY DATA/SYNC.
+DATA
+SWITCH SEPARATOR
+FIG a 297 2
+III "3
+A.
+"2
+BL/
+C.
+54 54
+a m a =
+56\
+56
+7|~
+72 56
+56 ___ 73
+“" ‘~74
+751ml
+L324 F/6._/0
+4,149,419
+1
+ULTRASONIC TRANSDUCER PROBE
+BACKGROUND OF THE INVENTION
+This invention relates generally to an ultrasonic trans
+ducer probe for use in transmitting and receiving ultra
+sonic energy to and from a body being scanned and
+more particularly to a probe suitable for use in an ultra
+sonic sector scanning system.
+In recent years, ultrasonic scanning of regions of the
+human body have found wide applications. Among
+advantages of such scanning systems is that the energy
+required is low, thereby reducing the possibility of in
+jury to a patient. There are no radiation side effects. The
+body is not invaded.
+As is known, in such systems the ultrasound energy is
+transmitted in a beam of pulses each followed by a
+relatively long interval where no transmission occurs.
+During this interval the pulse energy is transmitted
+through the body. Whenever a pulse of energy strikes a
+boundary between two substances having different
+acoustic impedance, a portion of the ultrasound energy
+is re?ected. Some of the re?ected energy returns as an
+echo to the transmitting transducer. The beam produces
+additional echoes from deeper interfaces. The crystals
+which serve as transmitting transducers also serve as
+receiving transducers to convert the re?ected ultra
+sound energy into electrical signals. These signals are
+amplified and displayed as static or dynamic patterns on
+a cathode ray tube. The relative position of the inter
+faces in the body are displayed.
+A particular type of scanner used is a sector scanner.
+A sector scanner generally comprises an ultrasonic
+transducer (piezoelectric element) which is mounted to
+be driven. The drive moves the transducer, generally in
+the form of a ?at circular object, back and forth in an
+arc scanning motion. During this process the transducer
+is pulsed with high voltage pulses at pulse repetition
+rates in the order of 3000 Hz. These pulses cause the
+piezoelectric element to mechanically ring thereby
+emitting high frequency sound waves in a beam. As the
+transducer scans, it forms a plurality ofbeams in a fan or
+sector shape. The beams impinge upon the structure
+within the body and when differences in acoustic impe
+dance exist, energy is partially re?ected back to the
+transducer element to cause the transducer to mechani
+cally vibrate. At this point, the transducer element acts
+like a receiver and converts these mechanical vibrations
+to electrical energy. This energy is ampli?ed and pro
+cessed so that it can be displayed on a cathode ray tube.
+The mechanical driving arrangement not only drives
+the transducer but also includes means for generating an
+electrical output representative of transducer position.
+The electrical output from the driving arrangement is
+processed and utilized to create horizontal and vertical
+signals to drive the vertical and horizontal de?ection
+circuits of a cathode ray tube. The signals from the
+ultrasonic transducer are used to control the intensity of
+the cathode ray tube beam. The resultant image is a
+15
+20
+25
+40
+45
+sector shaped representation of the internal organs of 60
+the body.
+Another prior art system which allows real time ex
+amination of internal organs of the body such as the
+heart employs a catheter which has a rotating tip with a
+plurality of transducers. The transducers are selectively
+connected to a pulser to transmit ultrasonic sound into
+the body and to receive echoes therefrom. The echo
+pulses are processed and applied to a cathode ray tube
+65
+2
+whereby to provide sequential representations of the
+area at a rate which is dependent on the speed of rota
+tion of the transducers and with a resolution which is
+dependent upon the pulse rate.
+In copending application Ser. No. 807,438, entitled
+“Ultrasonic Transducer Probe” and assigned to the
+same assignee, there is described a rotary transducer
+probe including a head adapted to house drive means
+including bevel gears, commutating means including
+sliding contacts and position sensing means in the form
+of a light source and photodiode. Although the probe
+described in said copending application is satisfactory,
+the drive means introduces some jitter due to the en
+gagement of the bevel gear teeth. The sliding contacts
+are subject to wear.
+OBJECTS AND SUMMARY OF THE
+INVENTION
+It is a general object of the present invention to pro
+vide an improved ultrasonic transducer probe.
+It is another object of the present invention to pro
+vide a probe including transducers mounted on a belt
+driven rotor mounted in a sealed housing.
+It is a further object of the present invention to pro
+vide an ultrasonic transducer probe which efficiently
+couples ultrasonic energy between the transducers and
+the body being examined.
+It is a further object of the present invention to pro
+vide a continuous position sensing of a transducer rotor
+so that the transducer position may be accurately con
+trolled by a servo system.
+It is a further object of the present invention to pro
+vide an ultrasonic transducer probe which includes a
+rotor having a plurality oftransducer elements mounted
+on a rotor disposed in a sealed housing and rotary trans
+former means for electrically coupling electrical energy
+to and from said transducers.
+It is another object of the present invention to pro
+vide an ultrasonic transducer probe including a plural
+ity of transducers mounted on a rotor and saturable
+reactors for selectively connecting said transducers to
+associated electrical circuits.
+It is still another object of the present invention to
+provide an ultrasonic transducer probe including a
+rotor disposed in a sealed housing ?lled with a ?uid for
+coupling energy between the transducers and the body
+to which the housing is applied with the housing con?g
+ured to minimize the effect of ultrasound energy re
+?ected from the housing walls.
+The foregoing and other objects of the invention are
+achieved by a probe which includes a rotor housing, a
+rotor having a plurality oftransducers disposed thereon
+mounted for rotation within said housing and including
+a shaft extending from said housing, a drive assembly
+including commutating and position indicating'means
+adapted to receive said housing and drive said rotor,
+couple electrical energy to and from said transducers
+and indicate the position of the rotor, and means
+adapted to be detachably secured to said drive assembly
+to drive the rotor.
+BRIEF DESCRIPTION OF THE DRAWINGS
+FIG. 1 is a perspective view showing an ultrasonic
+transducer probe in accordance with the present inven
+tion.
+FIG. 2 is a view, partly in section, showing the trans
+ducer probe assembly of FIG. 1.
+4,149,419
+3
+FIG. 3 is a sectional view taken generally along the
+line 3-3 of FIG. 2.
+FIG. 4 is a sectional view taken generally along the
+line 4-4 of FIG. 3.
+FIG. 5 is a sectional view taken generally along the
+line 5——5 of FIG. 2.
+FIG. 6 is a sectional view taken generally along the
+line 6-6 of FIG. 2.
+FIG. 7 is a sectional view taken generally along the
+line 7-7 of FIG. 2.
+FIG. 8 is a block diagram of an electrical system
+suitable for use in connection with the probe of FIGS.
+1-7.
+FIG. 9 is a timing diagram showing the waveforms at
+various portions of the system of FIG. 8.
+FIG. 10 is a schematic circuit diagram illustrating the
+transducers, the rotary transformer and saturable reac
+tors and the position sensing means.
+DESCRIPTION OF PREFERRED
+EMBODIMENTS '
+Referring to FIG. 1, the probe includes a handle 11
+which is detachably secured to a scanning head desig
+nated generally by the numeral 12 by means ofa ring 13
+which has threads 14 adapted to engage threads 16
+formed on the end of the head 12, FIG. 2. The handle
+houses a motor 17 suitably mounted therein and having
+a shaft 18 extending through and journalled to the
+round block 19 secured to the end of the handle 11. The
+block 19 is held in place by means of a circular plate 21
+and screws 22, FIGS. 2 and 4. The shaft engages and
+drives the cross-shaped coupler 20. The block 19 also
+serves to securely mount electrical connectors 23 and
+24 which are adapted to engage the female connectors
+26 and 27 supported on the threaded block 28 mounted
+at the end of the head 12. The block 28 includes spaced
+bearings 29 and 31 with a beveled spring 32 which urges
+them apart, FIG. 6. The bearings receive shaft 34. A
+pulley 36 is mounted at one end of the shaft. The other
+end of the shaft includes a coupler 37 having two slots
+forming four ?ngers 38 which extend into and engage
+with the cross-like member 20. Thus, energization ofthe
+motor in the handle serves to rotate the pulley 36 in the
+end of the head.
+Thus, the handle includes means for attaching the
+handle to the head and providing mechanical connec
+tion between the head and driving motor and electrical
+connection between equipment associated with the han
+dle and the head for purposes to be presently described.
+The scanning head includes a rotary transducer hous
+ing 41 and a drive assembly 42. The transducer housing
+41 is detachably secured to the drive assembly by
+threads 43. The housing includes an outer conical
+shaped shell 44 which has a taper of about 5°. The shell
+end mounts a bearing 46 at its end and includes threads
+47 at the other end to receive a plug 48. The plug 48
+carries a bearing 49 and seal 51.
+A rotor shaft 52 has one end mounted in bearing 46
+and its other end extends through the bearing 49. The
+shaft mounts a rotary transducer assembly including
+rotor 53 adapted to mount a plurality of transducers 54,
+in this instance, four such transducers at 90°. The outer
+surface of each transducer is concave to provide a fo
+cusing action for the emitted ultrasonic energy. The
+plug includes threaded openings 50 and 55 which re
+ceive sealing screws 60 and 65 and provide for ?lling
+the interior of the housing with an ultrasound transmit
+ting fluid such as ethylene glycol and water. This solu
+l0
+15
+25
+30
+35
+45
+50
+55
+60
+65
+4
+tion substantially matches the body impedance whereby
+the ultrasound energy travels efficiently to and from the
+body. The cup-shaped housing walls are inclined at an
+angle or tapered with respect to the transducers to mini
+mize reverberations due to re?ection ofenergy from the
+walls. The wall thickness is substantially one-half wave
+length at the ultrasound frequency to increase transmis
+sion. The outer and inner surfaces of the wall have
+common centers whereby the emitted and received
+ultrasound energy is not refracted.
+The drive assembly includes a housing 61 which
+houses the drive and the commutating and positioning
+means. The drive includes a spool 62 which is secured
+to the shaft 52 by means of a set screw 63, FIG. 5. One
+end of the spool includes a pulley 64 adapted to receive
+belt 66 which extends towards the handle over spaced
+idler pulleys 67 and over the driven pulley 36 previ
+ously described. Thus, when the motor is energized, it
+serves to drive the belt to rotatably drive the spool and,
+in turn, drive the shaft 52 and rotor 53 with its transduc
+ers 54. The other end of the spool includes a housing for
+a plurality of saturable reactors 56 which are spaced
+equally around the periphery thereof and held in place
+in notches 57 by means of a plate 58 secured to the
+pulley face. The saturable reactors are connected in
+series one to each of the transducers as more clearly
+shown in FIG. 10. The other end of the transducers and
+the other end of the saturable reactors are connected in
+common to the lines 71 and 72, respectively. The lines
+71 and 72 are connected to the ends of the primary
+winding 73 of transformer 74 as shown.
+The primary winding 73 of the transformer is
+mounted on the outside of a hollow member 76 and
+rotates with the shaft and rotor. A stationary secondary
+winding 75 is mounted in drive housing on a cylinder
+77. It is mounted within the hollow member to be cou
+pled to winding 73 and has its leads extending out
+wardly to the connector 24. The windings 73 and 75
+form a rotary transformer which couple electrical sig
+nals into and out of the transducers.
+In accordance with the present invention, there is
+provided a permanent magnet 80 which includes a pair
+of spaced pole pieces 78 and 79 which straddle the
+toroid mounting member. The ends of the pole pieces
+extend approximately 90“ around the circumference. As
+each saturable reactor 56 comes into the magnetic ?eld
+produced between the pole pieces, its reluctance is re
+duced and signals can pass freely between the transduc
+ers through the winding 75. In this way signals coupled
+to the secondary of the transformer are coupled from
+the primary through the saturable reactor having low
+reluctance to the associated ultrasonic transducer. Pref
+erably, the magnet extends over an angle somewhat less
+than the switching arc to minimize switching overlap
+between transducers. For example, if four transducers
+are employed, the magnet arc is 90° less approximately
+7° to provide a scan angle of substantially 83°.
+The drive head also includes means for generating
+signals indicative of the position of the rotary trans
+ducer whereby to provide signals to a servo control.
+Preferably, the output signals are of a triangular wave
+shape. The signals are generated by means of a transpar
+ent disc 81 which has a plurality of concentric opaque
+rings 82 formed thereon as by photoetching. The rings
+82 vary in thickness from substantially zero thickness to
+substantially full thickness, FIG. 7. Associated with the
+transparent disc 81 is a light source 83 and a photodetec
+tor 84 disposed on opposite sides. Thus, the signals from
+4,149,419
+5
+the photodetector will be maximum when the thin por
+tions ofthe circles intercept the light, while they will be
+minimum when the thick portions of the circles inter
+cept the light to give a triangular waveshaped signal.
+Thus, it is seen that there has been provided a trans
+ducer probe including a plurality ofultrasonic transduc
+ers mounted upon a rotor in a transmitting ?uid and
+rotating in a plane substantially parallel to a plane
+through the axis of the handle. The rotary probe is
+driven by a belt providing a smooth drive. Means are
+provided for commutating signals between a rotary
+transformer and the transducers thereby eliminating the
+need for contacts and switches. A position sensing disc
+is provided which gives an output electrical wave of
+triangular waveshape.
+The transducer is schematically shown in FIG. 8
+connected to an electrical system for providing the
+motor control signals and the sensor display.
+The output of the phototransducer 84 is applied to a
+motor control 87 to which is also applied a reference
+frequency along the line 88 from sync generator 89
+which serves to synchronize the operation of the over
+all system as will be presently described. Input tothe
+sync generator is from a system clock 91 which may
+include a crystal together with appropriate dividers to
+provide a control frequency to the sync generator 89.
+The output of the line 88 may, for example, be a 60
+Hertz output which is applied to the motor control. The
+output pulses from the phototransducer 84 are em
+ployed in a servo system to servo control operation of
+the motor 17 and to control the position of the rotor 53
+whereby the position of the transducer is accurately
+determined as the rotor rotates. Ultrasonic pulses are
+applied sequentially to the individual transducers at a
+high rate so that they scan a plurality of lines in a fan or
+sector as the member rotates. This is schematically
+shown in FIG. 10 where the transducers 54 are shown
+with one side connected to a common input line 72 with
+the other side adapted to be connected to ground 71 as
+the rotor rotates by the action of the saturable reactors,
+previously described. Only one of the transducers is
+connected during each 90° of rotation. The arrange
+ment is such that as one transducer scans a 90° sector,
+the next transducer begins to scan the same 90° sector in
+sequence.
+The sync generator 89 applies trigger pulses along the
+line 91 to an interface 92 which drives a suitable trans
+mitter and receiver 93. For example, the transmitter
+receiver may be an Ekoline 20A/B which serves to
+receive trigger pulses and transmit ultrasonic pulses for
+application to the transducer. The transducer receives
+the echoes from the interfaces and the receiver pro
+cesses the same and provides ultrasound data along the
+line 94. The ultrasound data on the line 94 is applied to
+a data conditioning and composite video generator 96
+and to a display data switch 97. At the beginning of
+each trigger pulse, the sync generator 89 applies a sync
+pulse to the sweep generator 98 which serves to form a
+plurality of sawtooth voltage waves such as shown in
+FIG. 9C. The sawtooth voltage waves provide the
+so-called “R” sweep voltage which is modi?ed as will
+be presently described. In addition, the sync generator
+serves to generate a trigger pulse responsive to the
+output from the phototransducer 84 to thereby indicate
+the beginning of a sweep. This trigger pulse serves to
+form a sawtooth voltage such as shown in FIG. 9B
+which provides the 0 sweep voltage which is also modi
+?ed. The R and 0 sweep voltages are then applied to X
+15
+25
+30
+35
+45
+55
+65
+6
+and Y multipliers 101 and 102 which provide outputs
+equal to X=R sin 0 and Y=R cos 0, respectively. This
+causes the sweep of the oscilloscope to be such as
+shown at 103 comprising a 90° scan with a plurality of
+scan lines 104 each beginning with the application of a
+pulse to the transducer and each ?eld or scan represent
+ing 90° rotation of the transducer. The number of lines
+is, therefore, directly dependent upon the frequency of
+the ultrasonic pulses which are applied to the transduc
+ers. The ultrasound data on the line 94 is applied
+through the display switch to the monitor along the line
+106 and serves to modulate the intensity of the beam
+whereby the scan will be modulated in accordance with
+the ultrasound data which is received as a result of
+re?ections from the interfaces. The speed of rotation of
+the rotor 53 determines the number offields or displays
+which are available per unit oftime while the number of
+pulses applied determines the number of lines. It is ap
+parent, however, that the pulse rate is limited by the
+depth which the scan must reach since there must be
+enough time between pulses to receive echoes from the
+deepest portion observed.
+The sync signals from the sync generator 89 corre
+sponding both to the horizontal and vertical sync sig
+nals applied to the sweep generators are also applied to
+a data conditioner 96. The data conditioner also re
+ceives the ultrasound data. The unit processes the data
+in a manner similar to a television composite signal
+generator. It provides a composite video signal on the
+line 107. The signal is illustrated at FIG. 9A and in
+cludes vertical blanking pulses 111, horizontal sync
+pulses 112 and the ultrasound data 113 for each scan
+line.
+The video recorder may be any conventional video
+recorder such as a helical scan recorder which serves to
+record video signal. The rotation ofthe recording heads
+and the motion of the tape is synchronized with the
+timing system of the ultrasonic scanning system
+whereby to provide the recording ofsequential ?elds of
+information.
+During playback, the video recorder composite sig
+nal is applied along the line 114 to a data sync separator
+116 which separates out the X and Y sync pulses and
+applies them to the sweep generator 98 which provides
+the appropriate sweep signals through the multipliers
+101 and 102 for driving the de?ection circuits of the
+cathode ray tube. The separated ultrasound data on the
+line 117 is applied to the display switch and directly to
+the video display in the same manner as the original
+ultrasound pulses to modulate the intensity. Thus, the
+playback display is identical to the original display.‘
+What is claimed is:
+1. An ultrasonic transducer probe for examining a
+living body comprising a rotor shaft, a rotor mounted
+on said shaft, a plurality of ultrasonic transducers hav
+ing a transmitting and receiving face mounted 'on said
+rotor with the face directed radially outwardly there
+from, a sealed housing adapted to house said rotor and
+support said shaft for rotation, said housing including a
+thin wall adjacent the transducer face for transmitting
+ultrasonic energy to and from said transducers, a cou
+pling ?uid ?lling said housing, said fluid having an
+acoustic impedance corresponding gei‘ieraily to that of
+the body to be examined whereby to efficiently couple
+the transducer to the body, means serving to rotate‘ said
+shaft and rotor so that the transducers scan through a
+predetermined angle, a plurality of saturable reactors
+one for each transducer connected in series therewith,
+4,149,419
+7
+means for mounting said saturable reactors for rotation
+with said shaft, and means providing a magnetic ?eld to
+each of said saturable reactors as they rotate through a
+predetermined angle whereby the saturable reactor in
+the magnetic ?elds is saturated to lower its impedance
+so that it transmits electrical signals, and means con
+nected to said saturable reactors serving to supply and
+receive electrical signals from the transducers associ
+ated with the saturated saturable reactor.
+2. An ultrasonic transducer probe as in claim 1 includ
+ing position indicating means associated with said shaft,
+said position indicating means associated with said
+shaft, said position indicating means comprising a trans
+parent disc mounted for rotation on said shaft, a plural
+ity of concentric opaque circles formed on said disc,
+said circles varying in width from a wide portion to a
+thin portion, a light source disposed on one side of said
+disc and a phototransducer disposed on the other side of
+said disc to receive light transmitted through the disc
+from the light source whereby to generate electrical
+signals corresponding to the light transmitted as the
+wide and narrow portions intercept the light.
+3. An ultrasonic transducer probe for examining a
+living body comprising a rotor shaft, a rotor mounted
+on said shaft, a plurality of ultrasonic transducers hav
+ing a transmitting and receiving face mounted on said
+rotor with the face directed radially outwardly there
+from, a sealed housing adapted to house said rotor and
+support said shaft for rotation, said housing including a
+thin wall adjacent the transducer face for transmitting
+ultrasonic energy to and from said transducers, a cou
+pling ?uid ?lling said housing, said ?uid having an
+acoustic impedance corresponding generally to that of
+the body to be examined whereby to ef?ciently couple
+the transducer to the body, means serving to rotate said
+shaft and rotor so that the transducers scan through a
+predetermined angle, and position indicating means
+associated with said shaft, said position indicating
+means comprising a transparent disc mounted for rota
+tion on said shaft, a plurality of concentric opaque cir
+cles formed on said disc, said circles varying in width
+from a wide portion to a narrow portion, a light source
+disposed on one side of said disc and a phototransducer
+disposed on the other side of said disc to receive light
+transmitted through the disc from the light source
+whereby to generate electrical signals corresponding to
+the light transmitted as the wide and narrow portions
+intercept the light.
+4. An ultrasonic transducer probe for examining a
+living body comprising a rotor shaft, a rotor mounted
+on said shaft, a plurality of ultrasonic transducers hav
+ing a transmitting and receiving face mounted on said
+rotor with the face directed radially outwardly there
+from, a sealed housing adapted to house said rotor and
+support said shaft for rotation, said housing including a
+thin wall adjacent the transducer face for transmitting
+ultrasonic energy to and from said transducers, said thin
+wall being at an angle with respect to the face of the
+transducers to minimize the effect of re?ection of en~
+ergy from the interface between the ?uid and the win
+dow, a coupling ?uid ?lling said housing, said ?uid
+having an acoustic impedance corresponding generally
+to that of the body to be examined whereby to ef?
+ciently couple the transducer to the body, and means
+25
+30
+45
+55
+65
+8
+serving to rotate said shaft and rotor so that the trans
+ducers scan through a predetermined angle.
+5. An ultrasonic transducer probe for examining a
+living body comprising a rotor shaft, a rotor mounted
+on said shaft, a plurality of ultrasonic transducers hav
+ing a transmitting and receiving face mounted on said
+rotor with the face directed radially outwardly there
+from, a sealed housing adapted to house said rotor and
+support said shaft for rotation about an axis of rotation,
+said housing including a thin wall adjacent the trans
+ducer face for transmitting ultrasonic energy to and
+from said transducers, said thin wall lying on a conical
+surface with the center of the inner and outer surfaces
+of the wall on a common line coincident with the axis of
+rotation of the transducers whereby to minimize para
+lax, a coupling ?uid ?lling said housing, said ?uid hav
+ing an acoustic impedance corresponding generally to
+that of the body to be examined whereby to ef?ciently
+couple the transducer to the body, and means serving to
+rotate said shaft and rotor so that the transducers scan
+through a predetermined angle.
+6. An ultrasonic transducer probe comprising: a scan
+ning head including a rotor shaft, a rotor mounted on
+said shaft, a plurality of ultrasonic transducers mounted
+on said rotor, a sealed housing adapted to house said
+rotor with one end of the shaft extending therefrom; a
+drive assembly including a housing for driving said
+shaft to rotate said rotor, said drive housing‘ and said
+sealed housing including means for removably connect
+ing said scanning head to said drive housing whereby
+scanning heads having desired characteristics can be
+interchanged with the drive; a handle associated with
+said drive housing to permit placement of said scanning
+head on a body to be examined; saturable reactors
+mounted to rotate with said shaft, said ultrasonic trans
+ducers having ?rst and second terminals, a saturable
+reactor having one terminal connected to one terminal
+of each of said transducers and mounted on said support
+with their other terminal connected in common; means
+providing a magnetic ?eld to saturate a reactor passing
+therethrough positioned in said housing to cooperate
+with each saturable reactor as it rotates therethrough;
+and means for applying and receiving signals between
+the common terminal of the saturable reactors and the
+other terminal of the transducers whereby the trans
+ducer associated with a saturated saturable reactor is
+connected to said means for applying and receiving
+signals.
+7. An ultrasonic transducer probe as in claim 6 includ
+ing a rotary transformer for coupling the common ter
+minal of the saturable reactors and the other terminal of
+the transducers to means for applying signals to and
+receiving signals from the transducers.
+8. An ultrasonic transducer probe as in claim 6 includ
+ing position indicating means associated with said shaft,
+said position indicating means comprising a transparent
+disc mounted for rotation on said shaft, a plurality of
+concentric opaque circles formed on said disc, said
+circles varying in width from a wide portion to a nar
+row portion, a light source disposed on one side of said
+disc and a phototransducer disposed on the other side of
+said disc to receive light transmitted through the disc
+from the light source whereby to generate electrical
+signals corresponding to the light transmitted as the
+wide and narrow portions intercept the light.
+* 10‘ it it i
+

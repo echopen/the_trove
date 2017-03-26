@@ -1,0 +1,376 @@
+Echoscopy Atlas CFD 17.11.2015 17:44:17 1
+An atlas of echoscopy using a handheld device
+Christoph F Dietrich
+Correspondence:
+Prof. Dr. med. Christoph F. Dietrich
+Med Klinik 2, Caritas Krankenhaus
+Uhlandstr. 7
+D-97980 Bad Mergentheim, Germany
+Tel.: (+) 49-7931-58 2201
+Fax: (+) 49-7931-58 2290
+E-mail: christoph.dietrich@ckbm.de
+Table of contents
+Table of contents................................................................................................................... 1
+Introduction.......................................................................................................................... 2
+Anatomical structures that can be assessed using echoscopy ......................................................... 2
+Abdomen............................................................................................................................................................. 2
+Thorax ................................................................................................................................................................. 3
+Emergency examinations and FAST .................................................................................................................... 3
+Anatomical structures that cannot be assessed using echoscopy.................................................... 3
+Abdomen .............................................................................................................................. 3
+Liver ............................................................................................................................................. 3
+Confluence of the hepatic veins.......................................................................................................................... 3
+Confluence of the portal veins............................................................................................................................ 4
+Intrahepatic portal vein....................................................................................................................................... 5
+Hepatic veins....................................................................................................................................................... 6
+Gall bladder and bile ducts............................................................................................................ 7
+Gall bladder......................................................................................................................................................... 7
+Extrahepatic bile ducts........................................................................................................................................ 7
+Hepatic portal, lymph nodes dorsal in the ligamentum hepatoduodenale ........................................................ 8
+Hepatic portal, lymph nodes ventral in the ligamentum hepatoduodenale....................................................... 9
+Pancreas..................................................................................................................................... 10
+The pancreas in longitudinal section of the organ............................................................................................ 10
+Pancreatic head................................................................................................................................................. 11
+Cauda pancreatis............................................................................................................................................... 12
+Pancreas, Ductus Wirsungianus ........................................................................................................................ 13
+Retroperitoneum, large vessels ................................................................................................... 14
+Aorta longitudinal, cranial................................................................................................................................. 14
+Aorta longitudinal, cranial over the truncus coeliacus and arteria mesenterica superior................................ 15
+Aorta lateral over the truncus coeliacus ........................................................................................................... 16
+Arteria renalis dextra, longitudinal ................................................................................................................... 17
+Arteria renalis sinistra, longitudinal .................................................................................................................. 18
+Echoscopy Atlas CFD 17.11.2015 17:44:17 2
+Gastrointestinal tract .................................................................................................................. 19
+Oesophagus....................................................................................................................................................... 19
+Spleen ........................................................................................................................................ 20
+Urogenital tract........................................................................................................................... 22
+Kidneys.............................................................................................................................................................. 22
+Adrenal gland, right side ................................................................................................................................... 23
+Adrenal gland, left side ..................................................................................................................................... 24
+Pelvis, female .................................................................................................................................................... 25
+Urinary bladder, uterus, Douglas's cul de sac .............................................................................................. 25
+Ovary ............................................................................................................................................................ 26
+Urinary bladder, ureteral jet ........................................................................................................................ 27
+Thorax ................................................................................................................................ 28
+Mediastinum .............................................................................................................................. 28
+References .......................................................................................................................... 30
+Introduction
+The introduction of a new type of small handheld ultrasound device brings greater portability
+and affordability. The basic ultrasound approach with these handheld devices has been defined
+by European Federation of Societies of Ultrasound in Medicine and Biology (EFSUMB) as
+“EchoScopy” [(1)]. Currently the smallest device used in daily routine is the Vscan™ (GE
+Healthcare). The EchoScope provides conventional B-mode and colour Doppler imaging (CDI).
+The compact size of the EchoScope makes it possible to carry the ultrasound device almost like
+a stethoscope under most clinical circumstances including visiting patients. Owing to this
+convenience, the EchoScope could be used as adjunctive tool for the physical examination [(2)].
+An atlas in German has been recently published [(3)]. The presented paper is an updated atlas
+version demonstrating the use and limitation of the Vscan device.
+Anatomical structures that can be assessed using echoscopy
+Abdomen
+Echoscopy is particularly suitable for imaging the heart, vessels, and structures between the
+blood vessels (organ limits). For example, the size of the gall bladder, extensions of the extra-
+and intra-hepatic bile ducts and changes in the hepatic portal can be reliably visualised using
+echoscopy. It is possible to make statements on the blood flow in the portal vein and the
+hepatic veins. Perihepatic lymph nodes are imaged in the triangle between the portal vein and
+the lower caval vein at the height of the ductus cysticus. Practical experience on the pancreas is
+extraordinarily good, in particular in imaging the ductus wirsungianus and peripancreatic liquid
+behaviour. The sharpness of detail at deep levels is extraordinary. It is therefore often possible
+to detect the right adrenal gland with its 5 layers. Extensions of the abdominal aorta can be
+reliably detected. Backing up of urine can be diagnosed unambiguously. A bladder scan is one
+of the main indications. The examination of the prostate, uterus and vagina as well as the
+rectum is only for orientation.
+Echoscopy Atlas CFD 17.11.2015 17:44:17 3
+Thorax
+Another domain in echoscopy is formed by the assessment of the heart, the pericardium and
+the evaluation of contractility in the framework of required cardiolocial examinations. Pleural
+effusion and ascites can be reliably imaged. Excellent imaging is possible on the mediastinum
+(aortic arch, paratracheal region, aorto-pulmonary window but also the subcarinal region).
+Emergency examinations and FAST
+Imaging the Douglas's cul de sac in order to assess free liquid is sufficiently possible in almost all
+cases. Echoscopy has particular practical significance for assessing the urinary bladder and here
+in particular for the exclusion of overflow incontinence (bladder scan).
+Anatomical structures that cannot be assessed using echoscopy
+All near-surface anatomical structures cannot be sufficiently assessed using VScan echoscopy,
+for example the (not pathologically changed) iliocaecal region, colon sigmoideum, near-surface
+intestinal structures, the pleural cavity and the lateral and posterior recessus
+costodiaphragmaticus. The liver parenchyma also cannot be sufficiently assessed; in particular,
+it is neither possible to exclude nor sufficiently characterise liver tumours. The thyroid and
+cervical vessels cannot be sufficiently imaged and assessed because of their shallow position.
+Echoscopy is also not helpful in the assessment of surface lymph node stations. Echoscopy is
+not suitable for excluding hepatic, renal and pancreatic tumours. It is not possible to precisely
+define the size of the spleen and kidneys because of the relatively small field of view.
+Abdomen
+Liver
+In terms of echoscopy, no statement can be made on blood flow in the portal vein and in the
+hepatic veins. Perihepatic lymph nodes are imaged in the triangle between the portal vein and
+the lower caval vein at the height of the ductus cysticus. Echoscopy is not suitable for excluding
+hepatic, renal and pancreatic tumours. It is not possible to measure the liver size precisely
+because of the relatively small field of view.
+Confluence of the hepatic veins
+Figure 1 Confluence of the hepatic veins. SV: Segment V of the liver. SVI: Segment VI.
+SVII: Segment VII. Segment VI. SVIII: Segment VIII. RHV: Right hepatic vein.
+CHV: Central hepatic vein.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 4
+b
+c
+Confluence of the portal veins
+Figure 2 Confluence of the portal veins (C). PV: Portal vein. AH: Arteria hepatica. MA
+(M): Stomach. AO: Aorta. VCI: Vena cava inferior. CD: Crus diaphragmaticum.
+WS: Spine.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 5
+c
+Intrahepatic portal vein
+Figure 3 Intrahepatic portal vein. The ductus hepatocholedochus (DHC), portal vein (PV)
+and vena cava inferior (VCI) are shown. SS: Sonic shadow. RHV: Right hepatic
+vein. ART: Artefact.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 6
+Hepatic veins
+Figure 4 Display of the right hepatic vein, from intercostal in slightly left lateral position.
+RHV: Right hepatic vein. PV: Portal vein. K: Kidney. ART: Artefact.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 7
+Gall bladder and bile ducts
+The size of the gall bladder, extensions of the extra- and intra-hepatic bile ducts and changes in
+the hepatic portal can be reliably visualised using echoscopy.
+Gall bladder
+Figure 5 Gall bladder. VCI: Vena cava inferior. PV: Portal vein. DUO: Duodenum. L: Liver.
+Note the echoscopically smaller field of view.
+a
+b
+c
+Extrahepatic bile ducts
+Figure 6 Extrahepatic bile ducts from subcostal with a focus on the ductus
+hepatocholedochus (DHC). L: Liver. P: Pancreas. AH: Arteria hepatica,
+intrahepatic branch. PV: Portal vein. ARD: Arteria renalis dextra. FCI: Vena cava
+inferior. WS: Spine. PAP: Papille. DUO: Duodenum. P: Pancreatic head. A:
+Echoscopy Atlas CFD 17.11.2015 17:44:17 8
+Intrahepatic branch of the arteria gastrica.
+a
+b
+c
+Hepatic portal, lymph nodes dorsal in the ligamentum hepatoduodenale
+Figure 7 Ligamentum hepatoduodenale. Lymph node stations (LN) in the ligamentum
+hepatoduodenale dorsale in the aperture area of the ductus cysticus (DC) in the
+ductus hepatocholedochus (DHC). L: Liver. A: Arteria hepatica. VCI: Vena cava
+inferior. PH: Pancreatic head. ARD: Arteria renalis dextra. PV: Portal vein. MA:
+Stomach.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 9
+b
+c
+Hepatic portal, lymph nodes ventral in the ligamentum hepatoduodenale
+Figure 8 Ligamentum hepatoduodenale. Lymph node stations (LN) in the ligamentum
+hepatoduodenale ventrale. PUPA: Pars umbilicalis of the portal vein. LLL: Left
+lobe of the liver. LVA: Ligamentum venosum Arantii. AH: Arteria hepatica. VCI:
+Vena cava inferior. P: Pancreatic head. ARD: Arteria renalis dextra.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 10
+b
+c
+Pancreas.
+Practical experience on the pancreas is extraordinarily good, in particular in imaging the ductus
+wirsungianus and peripancreatic liquid behaviour. Echoscopy is not suitable for excluding
+pancreatic tumours.
+The pancreas in longitudinal section of the organ
+Figure 9 Upper abdominal section, pancreas. LLL: Left lobe of the liver. LTH: Ligamentum
+teres hepatis. MA: Stomach. DUO: Duodenum. GB: Gall bladder. PH: Pancreatic
+head. CO: Corpus pancreatis. Cauda: Cauda pancreatis. C: Confluence of the
+vena portae. DW: Ductus Wirsungianus. AO: Aorta. VCI: Vena cava inferior.
+AMS: Arteria mesenterica superior. J: Arteria jejunalis. WS: Spine. LK:
+interaortocaval lymph nodes.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 11
+c
+Pancreatic head
+Figure 10 Cranio-caudal diameter of the pancreatic head (between the markers). The
+caput pancreatis and the vena cava inferior (VCI) are marked. CO: Confluence
+of the vena portae. AH: Arteria hepatica.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 12
+Cauda pancreatis
+Figure 11 Cauda pancreatis (CP) with imaging of the spleen. VL: Vena lienalis. C: Colon.
+SS: Sonic shadow. WS: Spine. NN: Adrenal gland. D: Diaphragm. DD: Small
+intestine.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 13
+Figure 12 Cauda pancreatis, colour Doppler sonogram imaging of the splenic vein as a
+landmark of the cauda pancreatis. CP: Cauda pancreatis. VL: Vena lienalis. "Art
+vessels": Arterial vessels.
+a
+b
+c
+Pancreas, Ductus Wirsungianus
+Figure 13 Ductus Wirsungianus. AO: Aorta. VCI: Vena cava inferior. PH: Pancreatic head.
+LTH: Ligamentum teres hepatis. LLL: Left lobe of the liver. VL: Vena lienalis.
+AMS: Arteria mesenterica superior. Between the markers Ductus
+Wirsungianus. ART: Artefacts.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 14
+b
+c
+Retroperitoneum, large vessels
+Aorta longitudinal, cranial
+Figure 14 Aorta. Longitudinal section over the Aorta (AO) with imaging of the truncus
+coeliacus (TC) and the arteria mesenterica superior (AMS). AHC: Arteria
+hepatica communis. PUPA: Pars umbilicalis of the portal vein. On this image, it
+is easily recognisable that the field of view diverges significantly in the two
+procedures.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 15
+b
+c
+Aorta longitudinal, cranial over the truncus coeliacus and arteria mesenterica superior
+Figure 15 Aorta. Aorta (AO) longitudinal over the truncus coeliacus (TC) and arteria
+mesenterica superior (AMS). VMS: Vena mesenterica superior. D: Diaphragm.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 16
+c
+Aorta lateral over the truncus coeliacus
+Figure 16 Section over the Truncus coeliacus (TC). AHC: Arteria hepatis communis. AL:
+Arteria lienalis. LTH: Ligamentum teres hepatis.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 17
+Figure 17 Alternative. Section over the truncus coeliacus (TC). AHC: Arteria hepatis
+communis. AL: Arteria lienalis. AGS: Arteria gastrica sinistra.
+a
+b
+c
+Arteria renalis dextra, longitudinal
+Echoscopy Atlas CFD 17.11.2015 17:44:17 18
+Figure 18 Arteria renalis dextra in an upper abdominal section. AO: Aorta. ARD: Arteria
+renalis dextra. VCI: Vena cava inferior. DHC: Ductus hepatocholedochus. C:
+Confluence. AMS: Arteria mesenterica superior. VL: Vena lienalis. Cauda: Cauda
+pancreatis. MA: Stomach. LLL: Left lobe of the liver. AGD: Arteria
+gastroduodenalis superior.
+a
+b
+c
+Arteria renalis sinistra, longitudinal
+Figure 19 Arteria renalis sinistra: AO: Aorta. ARS: Arteria renalis sinistra. VCI: Vena cava
+inferior. PDLE: Pancreas dorsal less echoic, variant. PH: Pancreatic head. VL:
+Vena lienalis. Corpus: Corpus pancreatis. LLL: Left lobe of the liver. AGD: Arteria
+gastroduodenalis superior. WS: Spine. VRS: Vena renalis sinistra. VL: Vena
+lienalis.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 19
+b
+c
+Gastrointestinal tract
+Oesophagus
+Figure 20 Oesophagus. Imaging of the oesophago-cardial transition (OE). LLL: Left lobe of
+the liver. H: Heart. AO: Aorta. D: Diaphragm. TC: Truncus coeliacus.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 20
+c
+Spleen
+Figure 21 Spleen. It is only possible to measure the spleen to a limited extent using
+echoscopy.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 21
+Figure 22 Area around the spleen. RCL: Recessus costodiaphragmaticus lateralis. D:
+Diaphragm. 1: Interior muscle layer. 2: Exterior muscle layer. LPC: Ligamentum
+phrenicocolicum. Art: Artefacts.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 22
+Urogenital tract
+Kidneys
+Figure 23 Kidney, longitudinal. It is a challenge to precisely measure the kidney using the
+VScan due to the small angle of insonication which is depth dependent
+a
+b
+Figure 24 Kidney, lateral.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 23
+Figure 25 Renal cortical vessels.
+a
+b
+Adrenal gland, right side
+Figure 26 Adrenal gland, right side (between the markers). RHV: Right hepatic vein. PV:
+Portal vein. VCI: Vena cava inferior. D: Diaphragm. SA: Sonic shadow.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 24
+b
+c
+Adrenal gland, left side
+Figure 27 Left adrenal gland. NN: Adrenal gland. RF: Mass. D: Diaphragm. WS: Spine.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 25
+c
+Pelvis, female
+Urinary bladder, uterus, Douglas's cul de sac
+Figure 28 Urinary bladder (UB), uterus (U) and a small amount of free liquid in Douglas's
+cul de sac (FF). V: Vagina. R: Rectum.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 26
+c
+Ovary
+Figure 29 Ovary. Ovary, left, in the recess between the pelvic vessels. Between the
+markers, small physiological ovarian cyst of a young woman. AIE: Arteria iliaca
+externa. VIE: Vena iliaca externa. VII: Vasa iliaca interna.
+a
+b
+c
+Echoscopy Atlas CFD 17.11.2015 17:44:17 27
+Urinary bladder, ureteral jet
+Figure 30 Ureter. Ureter outlet, shown using colour Doppler sonogram with the ureteral
+jet (echoscopically left-sided, high-end device right side)
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 28
+Thorax
+Mediastinum
+Figure 31 Mediastinal sonography. Aorticopulmonary window (APF). VA: Vena anonyma.
+V: Vena jugularis. AA: Aorta ascendens. AOB: Aortic arch. AD: Aorta
+descendens. AS: Arteria subclavia. ACC: Arteria carotis communis. RSP:
+Recessus superior pericardii. TP: Truncus pulmonalis.
+a
+b
+c
+Figure 32 Paratracheal region, right side. With digits indicates the tracheal cartilage rings.
+PVR: Prevascular region. VA: Vena anonyma. AA: Aorta ascendens. AOB: Aortic
+arch. TPC: Truncus brachiocephalicus. BIF: Bifurcation. SCR: Subcarinal region.
+a
+Echoscopy Atlas CFD 17.11.2015 17:44:17 29
+b
+c
+Figure 33 Paratracheal region, venous sectional image. PVR: Prevascular region. VCS:
+Vena cava superior. VA: Vena anonyma. VBC: Vena brachiocephalica. SA: Sonic
+artefact. SCR: Subcarinal region. PV: Pulmonary vein. AA: Aorta ascendens.
+AOB: Aortic arch.
+a
+b
+Echoscopy Atlas CFD 17.11.2015 17:44:17 30
+c
+References
+Reference List
+1. Piscaglia F, Dietrich C.F., Nolsoe C, Gilja OH, Gaitini D. Birth of echoscopy. The EFSUMB
+point of view. Ultraschall 2013; 34(1):92.
+2. Barreiros AP, Cui XW, Ignee A, De Molo C, Pirri C, Dietrich CF. EchoScopy in scanning
+abdominal diseases: initial clinical experience. Z Gastroenterol 2014; 52(3):269-275.
+3. Dietrich C.F. Ultraschall in der Lehre, ein kleiner Atlas der Echoskopie. Gastroenterologie
+Up2Date 2014; 10:279-294.
+

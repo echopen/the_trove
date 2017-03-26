@@ -1,0 +1,965 @@
+0885–3010/$25.00 © 2009 IEEE
+1654 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 56, no. 8, August 2009
+Abstract—A fully hardware-based real-time digital wide-
+band quadrature demodulation processor based on the Hilbert
+transform is proposed to process ultrasound radio frequency
+signals. The presented architecture combines 2 finite impulse
+response (FIR) filters to process in-phase and quadrature sig-
+nals and includes a piecewise linear approximation architecture
+that performs the required square root operations. The pro-
+posed implementation enables flexibility to support different
+transducers with its ability to load on-the-fly different FIR
+filter coefficient sets. The complexity and accuracy of the de-
+modulator processor are analyzed with simulated RF data; a
+normalized residual sum-of-squares cost function is used for
+comparison with the Matlab Hilbert function. Three imple-
+mentations are integrated into a hand-held ultrasound sys-
+tem for experimental accuracy and performance evaluation.
+Real-time images were acquired from a reference phantom,
+demonstrating the feasibility of using the presented architec-
+ture to perform real-time digital quadrature demodulation of
+ultrasonic signal echoes. Experimental results show that the
+implementation, using only 2942 slices and 3 dedicated digi-
+tal multipliers of a low-cost and low-power field-programmable
+gate array (FPGA) is accurate relative to a comparable soft-
+ware-based system; axial and lateral resolution of 1 mm and
+2 mm, respectively, were obtained with a 12-mm piezoelectric
+transducer without postprocessing. Because the processing and
+sampling rates are the same, high-frequency ultrasound sig-
+nals can be processed as well. For a 15-frame-per-second dis-
+play, the hand-held ultrasonic imaging-processing core (FPGA,
+memory) requires only 45 mW (dynamic) when using a 5-MHz
+single-element piezoelectric transducer.
+I. Introduction
+Since its inception, medical ultrasound imaging has
+improved greatly and is now a well-established diag-
+nostic tool widely used in clinical applications [1]. Over
+the last several decades, research efforts have sought to
+reduce the size of devices supporting this technology to
+enable the deployment of low-power, low-cost, real-time,
+hand-held imaging systems [2]–[4]. Further miniaturiza-
+tion of these devices will motivate the expansion of nu-
+merous ultrasound imaging applications into the areas of
+emergency, itinerant, and veterinary medicine, to name a
+few. Furthermore, the low-cost aspect of miniaturization
+will facilitate the emergence of this technology in develop-
+ing countries.
+Today, to process ultrasound signals, most commercial-
+ly available systems are software-based and hence built
+around conventional microprocessors or digital signal
+processors [2], [5]. Currently, the enormous advantages in
+flexibility offered by software and the availability of a wide
+selection of embedded or soft-core processors have sup-
+ported this trend. However, software-based systems are
+implemented with powerful generic processor architecture,
+and in addition to their inconvenient physical dimensions,
+they require high power budgets [6]. Consequently, hard-
+ware/software partitioning of the ultrasound preprocess-
+ing architecture (Fig. 1) appears as a potential solution.
+Therefore, this paper presents the implementation of a
+flexible, fully hardware-based digital wideband quadrature
+demodulation processor into a real-time hand-held ultra-
+sound medical imaging device.
+A. Hardware/Software Partitioning
+Due to its complexity, hardware-based digital beam-
+former implementation has demonstrated proven benefits
+[2], [7], [8]. However, RF demodulation and digital scan
+converter algorithms are more suitable for software imple-
+mentation because of their lower computational complex-
+ity [9]–[11]. Nevertheless, the advantages of some of the
+new hardware-based implementations have been docu-
+mented in the literature [3], [12]–[16]. In preprocessing
+units, however, the hardware/software boundary is still at
+an early stage (Fig. 1). The proposed solution presents a
+complete hardware-based digital quadrature demodulator
+that pushes this boundary. Thus, the generic processor
+would be dedicated to user applications or postprocessing,
+with lower size and power requirements than a similar
+software-based system.
+B. Digital Quadrature Demodulation
+Because ultrasonic RF signals are broadband [1], 2 con-
+ventional methods for wideband quadrature demodulation
+can be used: digital mixing and the Hilbert transform
+(HT). Although the HT is more efficient than the mixing
+method, mixer algorithms are generally preferred over the
+HT because, albeit more accurate, the HT is a more com-
+plex method [12]. However, for reasons of overall system
+efficiency, the proposed solution is based on the Hilbert
+method.
+The Hilbert transform data processing system can be
+built using finite impulse response (FIR) filters, infinite
+Real-Time Hand-Held Ultrasound Medical-
+Imaging Device Based on a New Digital
+Quadrature Demodulation Processor
+Philippe Levesque and Mohamad Sawan, Fellow, IEEE
+Manuscript received August 5, 2008; accepted April 19, 2009.
+The authors are with Polystim Neurotechnologies Laboratory, École
+Polytechnique de Montréal, Québec, Canada (e-mail: philippe.levesque@
+polymtl.ca).
+Digital Object Identifier 10.1109/TUFFC.2009.1230
+impulse response (IIR) filters, complex filters, or other
+techniques [17]–[20]. Because FIR filter complexity is simi-
+lar to that of the IIR filter [17], latency is not critical, and
+FIR filters are more stable, FIR filters are used for this
+implementation. Furthermore, a hardware-based square
+root unit based on a piecewise linear function completes
+the proposed demodulator. A field programmable gate ar-
+ray (FPGA) implementation of a quadrature demodulator
+and its integration into a miniaturized ultrasound imag-
+ing system is also proposed. Finally, basic noise impact is
+integrated into the solution comparisons.
+C. System Platform Architecture
+The system platform architecture (see Fig. 2) is based
+on a single ultrasound channel composed of a probe, an
+analog front-end module, an analog-to-digital converter
+(ADC), a digital back-end module, and a user interface
+(keyboard and video display). The analog front-end mod-
+ule consists of a variable gain amplifier (VGA), a time-
+gain compensator (TGC), an ultrasound transmission
+block, an echo receiver, and a passive band-pass filter.
+The back-end consists of an RF signal demodulator, a
+scan converter, a frame buffer, and a system control unit.
+All required power supplies are onboard, with a DC input
+voltage range of 6  to 15  V. The system is designed to
+process acquired RF signals to perform real-time imag-
+ing with low power consumption. The digital demodulator
+can be implemented in a single FPGA using for input
+either digitized echoes from single-element transducers or
+the output of a real-time digital beamformer being used
+for dynamic focusing. The digital beamforming module
+can be designed to employ varying numbers of transducer
+elements in several different topologies. The reprogram-
+mability, flexibility, and low power characteristics of the
+latest FPGAs allow implementing an RF demodulator
+capable of advanced signal processing tasks such as gray-
+scale compression (see [11], [21]), filtering, and instanta-
+neous frequency-shift estimation.
+The remainder of this paper consists of a description
+in Section II of the hardware-based digital demodulator,
+including the mathematical background and circuit ar-
+chitecture. Section III presents the demodulator and the
+square root architectures. In Section IV, the simulation
+and experimental results are presented. Finally, the con-
+clusion is given in Section V.
+II. FIR Filter-Based HT Quadrature
+Demodulator
+A. The Hilbert Transform: Mathematical Background
+It has been proven that the HT is an efficient algorithm
+for processing nonlinear, nonstationary data series such as
+ultrasonic RF signals [1], [19], [22], [23]. Because the HT
+is a well-known algorithm and has been widely covered
+[19], [22]–[25], this section only briefly summarizes the HT
+theory as applied to RF demodulation.
+The HT ( })
+{
+ of a function f(t) is defined by
+	  f t
+f
+t
+d
+( )
+{ }
+( )
+-
+-¥
+¥
+ò
+
+1
+p
+t
+t
+t
+PV ,	 (1)
+where PV is the Cauchy principal value of the integral.
+For a data series x(t), this can be expressed as
+	 x t a t t
+( ) = ( ) ( )
+[ ]
+cos .
+q 	 (2)
+Taking the HT of x(t) gives
+	  
+x t a t t
+( )
+{ } = ( ) ( )
+[ ]
+{ }
+cos .
+q 	 (3)
+1655
+levesque and sawan: medical-imaging device based on digital quadrature demodulation
+Fig. 1. Hardware/software partitioning block diagram of a typical ultrasound imaging system.
+The Bedrosian theorem [24] states that, if the Fourier
+spectra for a(t) and cos[θ(t)] are nonoverlapping in the fre-
+quency space and if the frequency range of the spectrum
+for cos[θ(t)] is higher than that for a(t), then the HT for
+the product of these 2 functions can be written as
+	  
+a t t a t t
+( ) ( )
+[ ]
+{ } = ( ) ( )
+[ ]
+{ }
+cos cos .
+q q 	 (4)
+As the HT of cos[θ(t)] is sin[θ(t)], the HT of x(t) gives the
+conjugate of the pair as
+	  x t a t t
+( )
+{ } = ( ) ( )
+[ ]
+sin .
+q 	 (5)
+Ultrasonic RF signals follow the Bedrosian theorem
+because their frequency spectra is composed of a cen-
+tral frequency, defined by the mechanical properties of
+the piezoelectric element, and a bandwidth lower than
+100%—typically between 20 and 85% [1].
+For an analytic signal z(t),
+	 z t x t jy t a t e j
+j t
+( ) = ( ) + ( ) = ( ) = -
+( )
+q
+, 1	 (6)
+where the real part x(t) represents original data and the
+imaginary part y(t) represents the HT of the real part.
+The instantaneous amplitude of z(t) is
+	 a t x t y t
+( ) = ( ) + ( )
+2 2
+.	 (7)
+Powers demonstrated that, although a real HT is physi-
+cally impossible to realize, it is possible to build a Hilbert
+transformer that yields a close approximation of the trans-
+fer function [25]. Such an approximation is used in this
+paper to calculate the HT and is equivalent to 90° out of
+phase:
+	  w w
+{ } = - × ( )
+j sign .	 (8)
+B. Quadrature Demodulator Architecture
+Fig. 3 presents FIR filter-based HT quadrature de-
+modulator architecture designed to process ultrasonic RF
+signals. To synchronize the in-phase (I) signal with the
+quadrature (Q) signal and to achieve the same bandwidth
+windows on both signals, a band-pass FIR filter is used in
+parallel with the HT FIR filter.
+A conventional FIR filter-based HT quadrature demod-
+ulator requires high-order FIR filters due to their large
+bandwidth and small bandgap between passband and stop-
+band. Rather than using one fixed and large demodulator,
+the presented architecture implements a smaller demodu-
+lator that can be adapted for each supported transducer
+by loading different coefficient sets on the fly. This adapt-
+ed approach has been compared with 2 other methods of
+building an FIR filter-based HT quadrature demodulator.
+The first one is the conventional method that uses a real
+coefficient band-pass FIR filter with a unitary gain and
+a linear phase of 90°/decade over the entire bandwidth
+(0.1π to 0.9π). The second one is the Reilly generic ap-
+proach [19] based on complex coefficient FIR filter. The
+distinction between Reilly and the proposed implementa-
+tion depends on the filter bandwidth. Although Reilly’s
+approach results in the same bandwidth as the conven-
+tional method, our technique’s bandwidth is narrower and
+fitted to the ultrasonic transducer. Cutoff frequency of the
+low-pass filter used to build the band-pass filter is set to
+half the bandwidth of the ultrasonic transducer (normally
+50% of the central frequency) instead of fS/4 (π/2 for
+fS = Nyquist frequency) as presented by Reilly. In addi-
+tion, the low-pass filter coefficients are modulated by a
+complex exponential of frequency equal to the transducer
+central frequency instead of fS/4. Compared with conven-
+tional and Reilly’s approaches, higher stopband level and
+fewer ripples in the passband of the same filter order can
+be obtained with our method.
+1656 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 56, no. 8, August 2009
+Fig. 2. Block diagram of the overall hardware-based imaging system.
+In pulse mode (PM), ultrasonic signal transmission (ST)
+and signal reception (SR) with a bandwidth range from
+ωL = 2πfL to ωH = 2πfH centered at ω0 = (ωH − ωL)/2 and
+angular frequency-dependant amplitude Atω are
+	 s t A t t d
+tPW t
+( ) = ( ) ( )
+ò w
+w
+w
+w w
+cos
+L
+H
+and	 (9)
+	 s t A t t t d t
+rPW r
+( ) = ( ) + +
+( ) + ( )
+ò w w
+w
+w
+w dw f w h
+cos ,
+L
+H
+	
+(10)
+where η(t) is considered, for simplification purposes, to be
+the noise above or below the −3 dB associated band-pass
+frequencies; δω represents the Doppler frequency offset,
+and ϕ represents the phase offset.
+The sampled signal for PM mode with a sampling pe-
+riod of T0 is
+	
+s nT A nT nT nT
+nT
+rPW r
+L
+H
+0 0 0 0
+0
+( ) = ( ) + +
+( )
++ ( )
+=
+å w w
+w w
+w
+w dw f
+h
+cos
+.
+	
+(11)
+For the quadrature signal, we have
+	Q nT A nT nT nT
+PW r
+L
+H
+0 0 0 0
+( ) = ( ) + +
+( )
+=
+å w w
+w w
+w
+w dw f
+sin 	
+(12)
+and for the in-phase signal
+	I nT A nT nT nT
+PW r
+L
+H
+0 0 0 0
+( ) = ( ) + +
+( )
+=
+å w w
+w w
+w
+w dw f
+cos .	
+(13)
+At the multiplication outputs, we have
+	
+I nT A nT nT nT
+PW r
+L
+H
+2
+0
+2
+0
+2
+0 0
+( ) = ( ) + +
+( )
+=
+å w w
+w w
+w
+w dw f
+cos 	
+(14)
+	
+Q nT A nT nT nT
+PW r
+L
+H
+2
+0
+2
+0
+2
+0 0
+( ) = ( ) + +
+( )
+=
+å w w
+w w
+w
+w dw f
+sin .	
+(15)
+After the summations, we obtain
+	 s nT A nT
+rPW r
+add 0
+2
+0
+( ) = ( ).	 (16)
+Finally, the envelope amplitude is
+	
+A nT A nT
+PW r
+L
+H
+0 0
+( ) = ( )
+=
+å w
+w w
+w
+.
+	
+(17)
+III. Implementation of the Hand-Held
+Ultrasound System
+To implement a complete system, the digital back-end
+demodulator comprising the HT and the proposed square
+root architecture is integrated into a miniaturized ultra-
+sound-imaging platform (Fig. 2).
+A. Digital Back-End: The Hilbert Transform
+To reduce the number of shift registers, our design com-
+bines the FIR filter shift registers rather than implement-
+ing 2 conventional FIR filter architectures. In addition,
+with this topology, coefficient precision has no bearing
+on shift register bit size, so the multipliers are minimally
+complex. The proposed architecture also takes advantage
+of linear phase FIR filter symmetry to reduce the number
+1657
+levesque and sawan: medical-imaging device based on digital quadrature demodulation
+Fig. 3. Quadrature demodulator architecture.
+of multipliers by almost half (n/2+1). Various multiplier
+implementations can be used, such as the FPGA-dedicat-
+ed multiplier block, look-up-table (LUT)-based multipli-
+ers, or canonic signed digit (CSD) multipliers. With the
+FPGA-dedicated multipliers and LUT-based multipliers,
+different coefficient sets can be used, because they can be
+stored in a LUT. Furthermore, LUT and CSD multipli-
+ers enable building higher-order FIR filters because they
+can offset the limited availability of the FPGA-dedicated
+multipliers. To optimize space, dedicated techniques such
+as CSD representation should be used [26]–[29]. However,
+these implementations may require more than one clock
+cycle to perform the multiplication, and they do not offer
+the flexibility to modify coefficients on the fly. The FP-
+GA-dedicated multiplier block and LUT-based multiplier
+implementations are optimized to retain flexibility. Note
+that our approach requires this flexibility to support dif-
+ferent ultrasonic transducers.
+Parks-McClellan’s optimal equiripple FIR filter design
+method, also known as the Remez algorithm [30], available
+in Matlab (MathWorks, Natick, MA), is the most common
+method used to design FIR Hilbert transformers [31] and
+was applied to determine the coefficients. The least-square
+error minimization algorithm, also available in Matlab,
+was also used to determine the band-pass FIR filter coef-
+ficients, because the Remez algorithm failed to converge
+for some orders of the FIR filter. Because the 2 filters have
+a unitary gain and their coefficients are less than one, all
+coefficients are multiplied by the same power of 2 scaling
+factors to set the coefficient bit resolution. Therefore, the
+same quantity of bits as that for the coefficient bit resolu-
+tion is truncated at the FIR filter output to remove the
+gain factor. The Hilbert transformer architecture for an
+even FIR filter of order N is presented in Fig. 4.
+The number of bits (p) and the FIR filter order (N)
+must be high enough to ensure a good HT approximation.
+Unfortunately, hardware complexity increases as either p
+or N increases. As explained in [32], it is important to ex-
+plore different values for p and N, because it may be more
+advantageous to increase p rather than N with regard to
+hardware complexity. Note that it is not possible to de-
+fine an optimum value for p and N, because the targeted
+discrete solution is relative to the required performance,
+precision, size, and power consumption compared with
+software-based solutions. Consequently, part of the objec-
+tive of this paper is to propose p and N values that lead
+to a solution that can be effectively implemented with a
+single low-cost, low-power FPGA.
+To compare the 3 methods, normalized residual sum of
+squares (18) was used as a cost function (Fig. 5), where ht
+is a compared method and HT, the method used in this
+analysis. The latter was the Hilbert function, available in
+Matlab. A series of 2000 pseudorandom ultrasounds (τ1)
+of 600 samples (τ2) composed of a normalized Gaussian
+pulse having a central frequency of 5 MHz with a 50%
+bandwidth was used.
+	 NRSS
+HT
+HT
+serie serie
+serie
+serie
+N p
+N p
+n
+ht n n
+n
+,
+, ,
+=
+( ) - ( )
+=
+=
+å
+å
+2
+0
+0
+2
+1 t
+t
+(
+( )
+=
+=
+å
+å
+2
+0
+0
+2
+1
+n
+t
+t
+serie
+	
+(18)
+As presented in Fig. 6, wideband of 1 to 9 MHz was em-
+ployed for conventional (real coefficient FIR filter) and
+Reilly (complex coefficient FIR filter) methods, and 2.5
+to 7.5 MHz for our adapted method (adapted narrowband
+complex coefficient FIR filter).
+B. Digital Back-End: Square Root
+The proposed square root architecture required by the
+HT quadrature demodulator is based on a 2-stage pipe-
+lined piecewise linear approximation, which yields a result
+at every cycle with a latency of only 2 clock cycles (Fig. 7).
+Conventional architecture requires high frequency clock-
+ing, because it can process only one bit per clock cycle
+[5], needs more latency, and produces a lower throughput
+[33]. In addition, the proposed architecture clock runs at
+the same rate as the sample clock, enabling the option of
+either effective high sample-rate processing or lower clock
+frequency, and therefore lower power usage than a con-
+ventional implementation. As shown in Fig. 7, an encoder
+is used to map the slope and offset of 2 LUTs for each
+linear section of the approximation. The maximum error
+depends on the segmentation of the square root function:
+the greater the segmentation, the smaller the error, but
+the greater the amount of hardware required. For this im-
+plementation, an error of 1 LSB is reasonable.
+C. Digital Back-End: To the Display
+Due to the limited display resolution, some ultrasonic
+RF signal samples must be grouped during demodulation
+1658 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 56, no. 8, August 2009
+Fig. 4. Finite impulse response filter architecture.
+to define pixel intensity. Conventional ultrasound demod-
+ulator architectures use subsampling technique and low-
+pass filtering to group received RF samples [3]. In the
+proposed architecture, this task is performed by a data
+compressor unit that finds a pseudomean of all samples of
+the same ultrasonic line located at the same pixel:
+	 I x y
+I x y I x y
+k
+k k
+,
+, ,
+.
+( ) =
+( ) + ( )
+-1
+2
+	 (19)
+This method requires fewer interpolations and improves
+zooming capacity.
+IV. Simulation and Experimental Results
+Generated RF ultrasonic signals are used as the input
+to the VHDL testbench and Matlab simulations, and a
+general-purpose multi-tissue ultrasound phantom (Model
+040, CIRS, Norfolk, VA) is used as a stable medium to
+obtain real ultrasonic images. No image processing or data
+interpolations were added. However, as explained later in
+this section, a data compressor was implemented to re-
+duce data throughput to the frame buffer. It processes
+oversampled data on the same ultrasonic line to accommo-
+date the 320 × 240 LCD resolution. In addition, a gray-
+1659
+levesque and sawan: medical-imaging device based on digital quadrature demodulation
+Fig. 5. Normalized residual sum of squares: (a) n = 8 to 64 and P = 16 and (b) n = 16 and P = 5 to 16.
+Fig. 6. FIR filter magnitude and phase for n = 32, P = 12: (a) conventional band-pass FIR filter, (b) conventional HT FIR filter, (c) Reilly wideband
+complex FIR filter, and (d) adapted narrowband complex FIR filter.
+scale compression unit was implemented to achieve the
+intensity calibration and convert the 9-bit demodulated
+data to a 6-bit LCD contrast (Fig. 8).
+A. Simulation Results
+To compare performance in noisy signals processing,
+6 different levels of injected Gaussian white noise were
+applied to the test series (no noise, and 24, 12, 6, 3, and
+0.5 dB SNR). Each of 3 architecture configurations op-
+erating on the same generated RF ultrasonic signals in-
+jected with different noise levels are presented in Fig. 9.
+In addition, Fig. 10 presents some examples of simulated
+demodulation for different values of N and p. From this
+exploration and a comparison of normalized residual sum
+of squares, the architecture obtained with adapted meth-
+od, using n = 32 and P = 12, gives relatively good results
+for its small size compared with the others. As illustrated
+by Fig. 10, higher values of N and p do not seem to worth
+the additional hardware complexity.
+Because the bandgap between passband and stopband
+is wider in our adapted approach, fewer ripples are ob-
+tained in the passband compared with the same order FIR
+filter in the other tested solutions. Thus, adapted method
+scored better on the normalized residual sum of squares
+than the other compared methods (Fig. 5). Also, adapted
+implementation provides better noise rejection because it
+selects only the required bandwidth by having the same
+frequency support as the transceiver (Fig. 11), not to men-
+tion its higher stopband level. On the other hand, a maxi-
+mum error of ± 1 LSB was obtained for the square root
+linear approximation with only 16 zones for the 19-bit
+input data (Fig. 12).
+B. Implementation Results
+Table I presents the FPGA utilization summary and
+power estimation for the proposed demodulator architec-
+ture and the supporting digital system. Due to the limited
+number of multiplier blocks in low-cost FPGAs, a maxi-
+mum FIR filter order of 16 was achieved. The proposed
+digital quadrature demodulator requires 12 multiplier ele-
+ments with dedicated FPGA multiplier implementation
+and 1150 slices maximum. Higher FIR filter orders of 32
+and 64 were successfully implemented with LUT multi-
+pliers, requiring 2571 and 2942 slices, respectively. The
+sample frequency of the ultrasonic platform is 20 MHz.
+The proposed architecture can operate at 80 MHz without
+any special configuration of the synthesis tool (ISE 9.2i,
+Xilinx, San  Jose, CA) or architectural modification. In
+addition, for faster FPGA families, sample data could be
+processed at higher rates to demodulate high-frequency
+ultrasound RF signals.
+C. Experimental Results
+The complete hardware implementation of the hand-
+held ultrasound system occupies 160 cm2 (Fig. 13). The
+entire digital system, including the demodulator and
+the scan-converter, is implemented within a single Xil-
+inx FPGA (XC3S1500L-FG320). The analog front end
+and its required power supplies, on the other hand, are
+implemented with off-the-shelf components. An external
+memory (PSRAM MT45W2MW16BAFB-708, Micron
+Technology Inc., Boise, ID) is used as the video frame
+buffer, while the display controller is implemented within
+the same FPGA as the other digital circuitry. Finally, the
+real-time image is displayed on a 3.6-in. 320 × 240 × 6-bit
+color TFT-LCD (LQ036Q1DA01, Sharp Electronics Cor-
+poration, Romeoville, IL). It is important to mention that
+more that 50% of the area is used by several power sup-
+plies because off-the-shelf parts require a large number of
+different voltage levels (digital and analog) and could be
+reduced with ASIC implementation.
+The position references of the transducer (single-ele-
+ment 4.75 MHz, 85% bandwidth, focus at 5 cm), gener-
+ated by the mechanical scanning probe (GP2000 5 MHz,
+Interson Corporation, Pleasanton, CA), are used to pro-
+duce a 90° sector image composed of a maximum of 256
+real ultrasonic lines. For each new line, a trigger is sent to
+the pulser (MD1210 and TC6320, Supertex Inc., Sunny-
+vale, CA), which generates a selectable −100 V impulse of
+1660 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 56, no. 8, August 2009
+Fig. 8. Gray-scale compression look-up table.
+Fig. 7. SQRT piecewise linear function architecture.
+1661
+levesque and sawan: medical-imaging device based on digital quadrature demodulation
+Fig. 9. Demodulated signal with different noise levels for n  =  32, P  =  12: (a) no noise, (b) SNR  =  12.5  dB, (c) SNR  =  6.5  dB, and (d)
+SNR = 0.5 dB.
+TABLE I. Device Utilization Summary for the XILINX 3s1500lfg320–4 FPGA.
+Architecture Resources SQRT Demo.1 System2
+Max.3
+(100%)
+Adapted method
+n = 16, P = 14
+SQRT = 16 zones
+Number of slices 108 0% 1150 8% 3918 29% 13 
+313
+Number of BRAMs 0 0% 0 0% 4 12% 32
+Number of MULT18 × 18s 1 3% 12 37% 23 71% 32
+Number of DCMs 0 0% 0 0% 2 50% 4
+Adapted method
+n = 32, P = 12
+SQRT = 16 zones
+Number of slice 108 0% 2571 19% 5041 37% 13 
+313
+Number of BRAMs 0 0% 0 0% 4 12% 32
+Number of MULT18 × 18s 1 3% 3 9% 14 43% 32
+Number of DCMs 0 0% 0 0% 2 50% 4
+Adapted method
+n = 64, P = 10
+SQRT = 16 zones
+Number of slices 108 0% 2942 22% 5561 41% 13 
+313
+Number of BRAMs 0 0% 0 0% 4 12% 32
+Number of MULT18 × 18s 1 3% 3 9% 14 43% 32
+Number of DCMs 0 0% 0 0% 2 50% 4
+1Demo: includes SQRT.
+2System: complete digital hardware-based ultrasound system.
+3Max: available FPGA resources.
+12.5 to 400 ns duration. The received echoes are first am-
+plified by an ultra low-noise preamplifier (LNA) (AD8332,
+Analog Devices Inc., Norwood, MA) with a gain of 19 dB
+and a bandwidth of 130 MHz. Two VGAs, each with a
+gain range of 48 dB and a large signal (2VPP) bandwidth
+of 110 MHz (AD8332, Analog Devices Inc.) are used with
+a linear voltage ramp to form a TGC amplifier that pro-
+vides precise linear-in-dB scaling of 100dB/V for control
+voltages from 40mV to 1V. Before being digitized with a
+10-bit ADC (ADC10040, National Semiconductor, Santa
+Clara, CA) at 20 MHz, the amplified echoes are filtered
+through a passive second order band-pass filter with a
+−3 dB cutoff frequency of 1 to 10 MHz. The single chan-
+nel analog front-end occupies less than 25 cm2, including
+a high-voltage DC-DC converter. Note that attempts to
+integrate a similar architecture into a single ASIC are on-
+going [4].
+Experimental B-mode ultrasound images obtained from
+a phantom (Model 040, CIRS) using the proposed archi-
+tecture and a comparable software-based scanner (SVI,
+ScanView) are shown in Fig. 14. The SVI software-based
+1662 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 56, no. 8, August 2009
+Fig. 10. Demodulated signal with different configurations with SNR = 6.5 dB: (a) n = 4, P = 6, (b) n = 16, P = 14, (c) n = 64, P = 10, and (d)
+n = 128, P = 16.
+Fig. 11. Input/output noise analysis.
+system processes 128 real ultrasonic lines sampled at
+16 MS/s. Its analog front end is similar to the one present-
+ed above, and its demodulator is based on a conventional
+digital mixer. To obtain fair comparisons, only the near-
+est-neighbor interpolation postprocessing is enabled and
+all other postprocessings are disabled. The background
+material of the phantom is made of Zerdine, and sound
+speed is set at 1540 m/s. The attenuation coefficients are
+0.50  dB/cm/MHz for zone 1 and 0.70  dB/cm/MHz for
+zone 2. Wire targets are made from nylon monofilament
+with a diameter of 0.1 mm.
+According to GP2000 probe specifications, axial and
+lateral resolutions cannot be lower than 1 mm. Obtained
+images show that it is possible to obtain 2 mm and 1 mm
+for lateral and axial resolution, with the hardware-based
+system architecture of adapted approach with n = 64 and
+P = 10. Note that the moiré pattern is normal because no
+interpolation was applied with the hardware-based system
+but it soils the lateral resolution. On the other hand, the
+SV1 software-based system, having a lateral resolution of
+3 mm and an axial resolution of 2 mm, is comparable to
+the hardware-based system (Adapted method with n = 16
+and P = 14).
+The power requirements for the entire system are mea-
+sured at 2.36 W, including 500 mW for the probe motor
+and 600 mW for the TFT-LCD. The dynamic power break-
+down for the processing core is 5 mW for the PSRAM,
+60 mW for the FPGA core, and 120 mW for all digital IOs
+(Table II). Only 16.7% of the total power is consumed by
+the hardware-based digital ultrasound preprocessing core.
+The proposed architecture uses 9 times less power than a
+comparable software-based scanner (SVI), which requires
+an average of 20 W.
+V. Conclusion
+We present a digital FPGA-based, real-time, low-cost,
+low-power ultrasound RF quadrature demodulator proces-
+sor implemented within a hand-held ultrasonic medical
+imaging device. The architecture is completely implement-
+ed in a single low-cost FPGA with 3 different complexi-
+ties. A method to evaluate the system at a given complex-
+ity and algorithm is also presented. The results suggest
+that adapted bandwidth HT provides better noise filtering
+than the same order conventional HT. In addition, the
+proposed solution preserves software implementation flex-
+ibility, so that different coefficient sets can be loaded on
+the fly to support different probes. Furthermore, when im-
+plemented along the lines described here, the demodulator
+can also be used in a high-frequency ultrasound-imaging
+device, because its fully pipelined architecture operates at
+the sample frequency. For a 20 MHz sample clock and a
+15-frame-per-second display rate, the hand-held ultrasonic
+imaging-processing core (FPGA, memory) requires only
+45 mW (dynamic). Finally, the architecture was validated
+1663
+levesque and sawan: medical-imaging device based on digital quadrature demodulation
+Fig. 12. SQRT piecewise linear function results: (a) approximation and (b) error.
+Fig. 13. Hardware implementation of the overall imaging system.
+by the acquisition of experimental signals and images us-
+ing a 5-MHz single-element piezoelectric transducer and a
+reference ultrasound phantom.
+Acknowledgment
+The authors would like to thank Virginie Simard for
+her contribution to the VHDL system development, and
+ScanView for hardware contributions. Finally, this work
+could not have been accomplished without the financial
+and equipment support of Kyvox Technologies.
+References
+[1]	C. R. Hill, J. C. Bamber, and G. R. ter Haar, Physical Principles of
+Medical Ultrasonics, 2nd ed. Hoboken, NJ: Wiley, 2004, p. 511.
+[2]	C.-H. Hu, X.-C. Xu, J. M. Cannata, J. T. Yen, and K. K. Shung,
+“Development of a real-time, high-frequency ultrasound digital
+beamformer for high-frequency linear array transducers,” IEEE
+1664 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 56, no. 8, August 2009
+Fig. 14. Real ultrasonic image obtained with (a) hardware-based system n = 64 and P = 10, (b) hardware-based system n = 32 and P = 12, (c)
+hardware-based system n = 16 and P = 14, and (d) software-based system (postprocessing disabled).
+TABLE II. Hardware-Based Digital Ultrasound Preprocessing Core Power Usage.
+Digital Core
+Subdivision Static Dynamic Total Power % Digital core % System
+FPGA (1.2V) 55 mW 40 mW 95 mW 24.0 4.0
+PSRAM (1.8V) 0.15 mW 4.85 mW 5 mW 1.3 0.2
+Digital IOs (3.3V) 10 mW 120 mW 130 mW 32.9 5.5
+FPGA (2.5V) 90 mW 75 mW 165 mW 41.8 7.0
+Total 155.15 mW 239.85 mW 395 mW 100 16.7
+Trans. Ultrason. Ferroelectr. Freq. Control, vol. 53, pp. 317–323, Feb.
+2006.
+[3]	 J. M. P. Langlois, D. Al-Khalili, and R. J. Inkol, “A high perfor-
+mance, wide bandwidth, low cost FPGA-based quadrature demodu-
+lator,” in Proc. IEEE Conf. Electrical and Computer Engineering,
+vol. 1, 1999, pp. 497–502.
+[4]	R. Chebli and M. Sawan, “Fully integrated high-voltage front-end
+interface for ultrasonic sensing applications,” IEEE Trans. Circ.
+Syst., vol. 54, pp. 179–190, 2007.
+[5]	 H.-C. Kim, J.-H. Sim, H.-Y. Sohn, and T.-K. Song, “An optimized
+software-based echo-processing algorithm for small scale ultrasound
+systems,” in Proc. IEEE Ultrasonics Symp., vol. 3, 2004, pp. 2053–
+2056.
+[6]	 M. I. Fuller, K. Ranganathan, S. Zhou, T. N. Blalock, J. A. Hos-
+sack, and W. F. Walker, “Portable, low-cost medical ultrasound de-
+vice prototype,” in Proc. IEEE Ultrasonics Symp., vol. 1, 2004, pp.
+106–109.
+[7]	C.-H. Hu, K. A. Snook, X.-C. Xu, J. T. Yen, and K. K. Shung,
+“FPGA based digital high frequency beamformers for arrays,” in
+Proc. IEEE Ultrasonics Symp., vol. 2, 2004, pp. 1347–1350.
+[8]	C.-H. Hu, A. Snook, P.-J. Cao, and K. K. Shung, “High-frequency
+ultrasound annular array imaging. Part II: Digital beamformer de-
+sign and imaging,” IEEE Trans. Ultrason. Ferroelectr. Freq. Control,
+vol. 53, no. 2, pp. 309–316, Feb. 2006.
+[9]	 H.-C. Kim, J.-H. Sim, H.-Y. Sohn, and T.-K. Song, “An optimized
+software-based echo-processing algorithm for small scale ultrasound
+systems,” in Proc. IEEE Ultrason Symp., vol. 2, 2004, pp. 2053–
+2056.
+[10]	J. Ophir and N. F. Maklad, “Digital scan converters in diagnostic
+ultrasound imaging,” Proc. IEEE, vol. 67, pp. 654–664, 1979.
+[11]	I. Furukawa, J. Suzuki, and S. Ono, “Required quantizing resolution
+for perceptually linearized medical X-ray images on display moni-
+tor,” Syst. Comp. Jpn., vol. 34, no. 5, pp. 14–24, 2003.
+[12]	J. D. Owen, “A comparison of wide bandwidth quadrature demodu-
+lators using computer modeling,” in Radar 97, no. 449, Edinburgh,
+UK, 1997, pp. 506–511.
+[13]	C. Fritsch, A. Ibanez, and M. Parrilla, “A digital envelope detection
+filter for real-time operation,” IEEE Trans. Instrum. Meas., vol. 48,
+no. 6, pp. 1287–1293, 1999.
+[14]	C.-H. Tseng and H.-F. Chien, “Digital quadrature demodulation of
+multiple RF signals,” in Proc. IEEE 6th Workshop on Signal Process-
+ing Advances in Wireless Communications, Jun. 2005, pp. 37–41.
+[15]	H. Liu, A. Ghafoor, and P. H. Stockmann, “A new quadrature
+sampling and processing approach,” IEEE Trans. Aerosp. Electron.
+Syst., vol. 25, no. 5, pp. 733–748, 1989.
+[16]	L. Angrisani and R. S. Lo Moriello, “Estimating ultrasonic time-
+of-flight through quadrature demodulation,” IEEE Trans. Instrum.
+Meas., vol. 55, no. 1, pp. 54–62, 2006.
+[17]	I. Kollar, R. Pintelon, and J. Schoukens, “Optimal FIR and IIR Hil-
+bert transformer design via LS and minimax fitting,” IEEE Trans.
+Instrum. Meas., vol. 39, no. 6, pp. 847–852, 1990.
+[18]	G. Molnar and M. Vucic, “IIR Hilbert transformers based on sym-
+metry of time-domain response,” Electron. Lett., vol. 40, no. 20, pp.
+1309–1310, 2004.
+[19]	A. Reilly, G. Frazer, and B. Boashash, “Analytic signal generation—
+Tips and traps,” IEEE Trans. Signal Process., vol. 42, no. 11, pp.
+3241–3245, 1994.
+[20]	L. D. Milie, and M. D. Lutovac, “Approximate linear phase Hil-
+bert transformer,” in Proc. 4th Int. Conf. Telecommunications in
+Modern Satellite, Cable and Broadcasting Services, vol. 1, 1999, pp.
+129–132.
+[21]	Digital Imaging and Communications in Medicine (DICOM)—Part
+14: Grayscale Standard Display Function, NEMA Standard PS 3.14-
+2004, 2004.
+[22]	N. E. Huang and S. S. P. Shen, eds. Hilbert-Huang Transform and
+Its Applications. Hackensack, NJ: World Scientific, 2005, pp. 12–24,
+and 86–87.
+[23]	R. N. Bracewell, The Fourier Transform and Its Applications, 2nd
+ed. New York: McGraw-Hill, 1978, pp. 267–272.
+[24]	E. Bedrosian, “A product theorem for Hilbert transforms,” Proc.
+IEEE, vol. 51, no. 5, pp. 868–869, 1963.
+[25]	K. H. Powers, “The compatibility problem in single-sideband trans-
+mission,” Proc. IRE, vol. 48, pp. 1431–1435, 1960.
+[26]	M. A. Soderstrand, L. G. Johnson, H. Arichanthiran, M. D. Hoque,
+and R. Elangovan, “Reducing hardware requirement in FIR filter
+design,” in Proc. IEEE Conf. Acoustics, Speech, and Signal Process-
+ing, vol. 6, pp. 3275–3278, 2000.
+[27]	V. S. Rosa, E. Costa, J. C. Monteiro, and S. Bampi, “Performance
+evaluation of parallel FIR filter optimizations in ASICs and FPGA,”
+in Proc. 48th Midwest Symp. Circuits and Systems, vol. 2, 2005, pp.
+1481–1484.
+[28]	H. H. Dam, S. Nordebo, K. L. Teo, and A. Cantoni, “FIR filter de-
+sign over discrete coefficients and least square error,” IEE Proc. Vis.
+Image Signal Process., vol. 147, no. 6, pp. 543–548, 2000.
+[29]	K.-H. Tan, W. F. Leong, S. Kadam, M. A. Soderstrand, and L. G.
+Johnson, “Public-domain Matlab program to generate highly op-
+timized VHDL for FPGA implementation,” in Proc. IEEE Symp.
+Circuits and Systems, vol. 4, 2001, pp. 514–517.
+[30]	J. H. McClellan, T. W. Parks, and L. R. Rabiner, “A computer pro-
+gram for designing optimum FIR linear phase digital filters,” IEEE
+Trans. Audio Electroacoust., vol. AU-21, no. 6, pp. 506–526, 1973.
+[31]	M. Z. Komodromos, S. F. Russell, and P. T. P. Tang, “Design of FIR
+Hilbert transformers and differentiators in the complex domain,”
+IEEE Trans. Circ. Syst., vol. 45, no. 1, pp. 64–67, 1998.
+[32]	L. S. DeBrunner and Y. Wang, “Optimizing filter order and coef-
+ficient length in the design of high performance FIR filter for high
+throughput FPGA implementations,” in Proc. Digital Signal Pro-
+cessing Workshop, vol. 4, 2006, pp. 608–612.
+[33]	P. Soderquist and M. Leeser, “Division and square root: Choosing
+the right implementation,” IEEE Micro, vol. 17, no. 4, pp. 56–66,
+1997.
+Philippe Levesque was born in Rouyn-Noranda,
+Québec, Canada, in 1977. He received the B.Eng.
+and M.Eng. degrees in electrical engineering from
+Ecole Polytechnique de Montréal in 2000 and
+2004, respectively, and is currently a Ph.D. candi-
+date. From 2000 to 2003, he worked at Kontron
+Canada in the R&D Department and in 2006, he
+launched Kyvox Technologies, an R&D electronic
+systems company. His research interests include
+mixed-signal embedded system, real-time signal
+processing, and ultrasound medical imaging.
+Mohamad Sawan (S’88–M’89–SM’96–F’04) re-
+ceived Ph.D. degree from Université de Sher-
+brooke, Sherbrooke, QC, Canada, in 1990, in elec-
+trical engineering. He joined Ecole Polytechnique
+de Montréal in 1991, where he is currently a pro-
+fessor in microelectronics and biomedical engi-
+neering. His scientific interests are the design and
+test of mixed-signal circuits and systems, digital
+and analog signal processing, modeling, integra-
+tion, and assembly. He holds the Canada Research
+Chair in Smart Medical Devices, and he leads the
+Microsystems Strategic Alliance of Quebec (ReSMiQ). He is editor of the
+Mixed-Signal Letters and associate editor of Transactions on Biomedical
+Circuits and Systems. Dr. Sawan received the Barbara Turnbull 2003
+Award for spinal cord research, the Medal of Merit from the president of
+Lebanon, the Bombardier Medal of Merit from the French Canadian As-
+sociation for the Advancement of Sciences, and the American University
+of Science and Technology Medal of Merit. Dr. Sawan is a fellow of the
+IEEE, the Canadian Academy of Engineering, and the Engineering Insti-
+tutes of Canada. He is also an officer of the National Order of Quebec.
+1665
+levesque and sawan: medical-imaging device based on digital quadrature demodulation
+

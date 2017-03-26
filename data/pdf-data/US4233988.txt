@@ -1,0 +1,1443 @@
+iii/lakes mv 49233! 988
+United States Patent [191
+Dick et a1.
+[11] 4,233,988
+[45] Nov. 18, 1980
+[54] HIGH RESOLUTION ROTATING HEAD
+ULTRASONIC SCANNER
+Donald E. Dick, Boulder; Robert L.
+Metz, Superior; D. Scott RoJohn,
+Boulder; Raymond D. Elliott,
+Denver, all of C010.
+[75] Inventors:
+[73] Assignee: Life Instruments Corporation,
+Boulder, C010.
+[21] Appl. No.: 922,185
+[22] Filed: Jul. 5, 1978
+[51] Int. Cl.3 .............................................. A61B 10/00
+[52] US. Cl. ...................................... 128/660; 73/633;
+, 73/642
+[58] Field of Search ................................ 128/660-663;
+73/618-626, 633, 642; 367/104-105, 119-121
+[56] References Cited
+U.S. PATENT DOCUMENTS
+3,247,709 4/1966 Gordon .................................. 73/621
+3,308,652 3/1967 Appell et a1. ...... 73/626
+3,480,002 11/1969 Flaherty et a1. ...... 128/660
+3,886,490 5/1975 Green ............... .. .. 340/5 MP
+4,012,952 3/ 1977 Dory . . . . . . . . . . .. 367/105
+4,016,751 4/1977 Kossoff . . . . . . . . . . . . .. 73/626
+4,034,744 7/ 1977 Goldberg ...... 128/660
+4,075,883 2/1978 Glover . . . . . . . . . . . . . . . .. 128/660
+4,078,435 3/1978 Kossoff et a1. . ...... 128/660
+4,094,306 6/1978 Kossoff . . . . . . . . . . . . . . . . . . .. 128/660
+4,161,121 7/1977 Zitelli et a1. ........................... 73/626
+OTHER PUBLICATIONS
+Fry, E. K. et al., “A Combined Clinical & Research
+Approach to the Problem of UTS Visualization of the
+Breast,”. UTS in Med, vol. 1, Plenum Publ. 1975.
+Kossoff, G. et al., “Octoson: A New Rapid Multi-
+Transducer General Purpose Water-Coupling Echo
+scope,” Conference: Proceedings of the 2d Europ.
+,1 a)
+Cong. on UTS in Med., Munich, Germany, 12-16, May
+1975, pp. 90-95.
+Kisslo, J. et al., “A Phased Array UTS System for Car
+diac Imaging,” Conference: Proc. of the 2nd Europ.
+Congress on UTS in Med., Munich, Germany, 12—16
+May 1975, pp. 67—74.
+Primary Examiner-Robert W. Michell
+Assistant Examiner—Francis J. Jaworski
+Attorney, Agent, or Firm-—Sheridan, Ross, Fields &
+McIntosh
+[57] ABSTRACT
+An improved high resolution rotating head ultrasonic
+scanner is provided for use in an ultrasonic scanning
+subsystem of an ultrasonic breast scanning system. The
+scanning subsystem of the breast scanning system in
+cludes a pair ofhigh resolution ultrasonic rotating scan
+ning heads mounted on a transport mechanism. A scan
+is conducted by moving the transport mechanism while
+the scanning heads rotate so that a series of parallel
+uniformly spaced cross-sectional scans of the tissue of
+the breast are conducted from the inferior to the supe
+rior border' of the breast. Each scanning head has three '
+ultrasonic transducers uniformly spaced around its pe
+rimeter. The focal ranges of the transducers of a given
+scanning head are chosen so that a sector scan con
+ducted by each head is divided into slightly overlapping
+zones with the depth of each zone corresponding to the
+focal range of one of the transducers on each scanning
+head. The angular velocity and phase of the scanning
+heads are controlled so that during one revolution of
+the scanning heads each transducer of each head con
+ducts a sector scan primarily through its zone. How
+ever, only one such transducer will conduct such a scan
+at any one time.
+26 Claims, 11 Drawing Figures
+3
+US. Patent Nov. 18, 1980 Sheet 1 of6 4,233,988
+I- — — _ _ _ _ _ _ _ _ _ _]
+l %%T%ERRsvo TRANSPORT I
+__—’|MECHANISM , .
+-—:-< F/g_ 1
+|
+|
+I
+l
+/21
+TRANS
+DUCERS
+STATE
+RELAYS
+33x.
+KEY
+BOARD
+28?
+SIGNAL
+PROCESSOR
+VIDEO
+ULTRASOUND
+30
+2 361
+MODE SCAN
+CONVERTER RECORDER
+T.V. VIDEO
+x Y
+-—+
+sm 9 SWEEP T.V.
+COS 9 GENERATOR DISPLAY
+U.S. Patent Nov. 18, 1980 Sheet 2 of6 4,233,988
+A ( ' I I‘- 1
+'1 '. 96 95 97 ' ‘Ill.’ @
+171111111437’?!
+U.S. Patent Nov. 18, 1980 Sheet 3 of6 4,233,988
+5 42
+86 230 /080 I
+US. Patent Nov. 18, 1980 ' Sheet4 0f6 4,233,988
+4,233,988
+U.S. Patent Nov. 18, 1980 Sheet 6 of6
+4,233,988
+1
+HIGH RESOLUTION ROTATING HEAD
+ULTRASONIC SCANNER
+BACKGROUND OF THE INVENTION
+1. Field of the Invention
+This invention is in the ?eld of medical ultrasonic.
+diagnostic equipment and more particularly relates to
+improved high resolution rotating head ultrasonic scan
+ners particularly adapted for use in the scanning subsys
+tem of an ultrasonic breast scanning system.
+2. Description of the Prior Art
+There are statistical data up to and including the early
+1970’s to the effect that there has been essentially no
+change in the death rate from cancer of the breast of
+American women. Early detection is the most signi?
+cant factor in improving the probability of survival of a
+patient with breast cancer.
+The primary methods of detecting cancerous
+growths within the breast are manual palpation, X-ray
+examination, which includes mammography and xero
+radiography and thermography. Each of the foregoing
+techniques has its advantages but each has serious limi- -
+tations with respect to its use for the early detection of
+breast carcinoma. Fry, E. K., Kossof, G., Hindman, H.
+A., Jr., The Potential of Ultrasonic Visualization for
+Detecting of Abnormal Structure Within the Female
+Breast, IEEE, Ultrasonic Symposium Proceedings, pp.
+25-30, 1972.
+In the early 1950’s the potential for using ultrasound
+visualization systems to detect breast carcinoma was
+demonstrated. Some of the advantages of ultrasonic
+visualization techniques are that ultrasound is noninva
+sive, can be externally applied, is nontraumatic and is
+safe at the acoustical intensities and duty cycles encoun
+tered in existing diagnostic equipment. While the poten
+tial of ultrasound visualization of breast tissue has been
+recognized and the need for ultrasonic breast scanning
+instruments or systems is also recognized, the develop
+ment of such instruments for clinical use in screening
+large numbers of patients has not heretofore been ac
+complished.
+In order to detect as early as possible breast carci
+noma, or precancerous conditions, the resolution of
+visualizations of the tissue scanned must be good. Such
+resolution is improved by not distorting the breast tissue
+during the examination. One way of accomplishing this
+is to have the patient’s breasts freely ?oating in a liquid
+such as water, which liquid serves as the coupling me
+dium for transmitting ultrasonic energy from a trans
+ducer to the tissue and re?ections from transmitted
+pulses of such energy from sources within the tissue due
+primarily to changes in speed of transmission of the
+sound in the tissue back to the transducer. In addition,
+such an instrument should not cause the patient to suffer
+any discomfort and should require a minimum of time to
+prepare the patient for examination. Sucn an instrument
+should conduct an examination quickly and reliably
+without requiring highly skilled technicians or opera
+tors to operate the instrument.
+In conducting an ultrasonic examination of breast
+tissue, it is important that the liquid level in the examina
+tion tank in which the patient’s breasts are immersed be
+maximized so that the tissue under the patient’s arms
+can be examined to detect the possibility of the spread
+of breast cancer. Prior art ultrasonic breast scanners in
+which the patient’s breasts are immersed in a liquid have
+tried to con?ne the liquid by a liquid tight seal between
+5
+15
+35
+40
+45
+65
+2
+the patient and the tank. A problem with such prior art
+breast scanners is that they have not been successful in
+minimizing the amount of liquid escaping from the ex
+amination tank during an examination.
+Prior Art Statement
+The following references are submitted under the
+provisions of 37 CFR l.97(b):
+Patents: .
+U.S.‘Pat. No. 3,480,002 Flaherty et al
+U.S. Pat..No. 4,034,744 Goldberg
+Publications:
+Fry, E. K. et al., “A Combined Clinical and Research
+Approach to the Problem of Ultrasound Visualization
+of the Breast,” Ultrasound in Medicine, Volume 1, D.
+N. White, ed. Plenum 1975, pp. 309-320.
+Flaherty et al, U.S. Pat. No. 3,480,002, discloses an
+ultrasonic system especially designed for breast exami
+nation. A single transducer is mounted on a carriage so
+that the transducer can be moved relative to the patient
+while the transducer is oscillated to conduct a scan in
+one plane through a patient’s breast. The transducer is
+immersed in water within a water bag which is placed
+over one or both of the patient’s breasts as illustrated in
+FIGS. 1 and 2. As an alternative, in FIG. 5, the patient
+is prone on a table through which her breasts may ex
+tend into a tank ?lled with water within which the ,
+transducer is positioned. Echoes received by the trans
+ducer are converted to electrical signals and processed
+to produce images, or visualizations, of the scanned
+tissue on a cathode ray tube.
+Goldberg, U.S. Pat. No. 4,034,744, discloses an ultra
+sonic sector scanning system in which a scanner is pro
+vided with a rotor which in turn is provided with four
+transducers spaced around the periphery of the rotor
+which rotor is located within a spherical portion 109.
+The transducers are mounted so that they are perpen
+dicular to the axis of rotation ofthe rotor. In conducting
+a scan the window 83 in portion 109 is placed against
+the tissue to be visualized.
+The publication by Fry, E. K., Fry, F. J., Sanghvi, N.
+T., and Heimburger, R. F., entitled “A Combined Clini
+cal and Research Approach to the Problem of Ultra—
+sound Visualization of the Breast,” Ultrasound in Medi
+cine, Vol. 1, D. N. White, ed. Plenum, 1975, pp.
+309-320, has a good discussion of the state of the art and
+describes an ultrasonic breast scanning system which
+uses a single wide apertured focused transducer in pro
+viding each image ofthe tissue scanned. Improved reso
+lution of the images produced is accomplished with the
+aid of a digital computer which allows segmented con
+struction of echograms by moving the transducer rela
+tive to the patient’s skin and controlling receiver gain to
+select the depth range of interest.
+SUMMARY OF THE INVENTION
+The present invention provides an improved high
+resolution rotating head ultrasonic scanner particularly
+adapted for use in a scanning subsystem of an ultrasonic
+breast scanning system which is provided with a pair of
+such ultrasonic scanners with each scanner having a
+rotating scanning head. A plurality of wide apertured
+focused ultrasonic transducers are mounted on each
+head. The scanners are mounted on a transport assem
+bly and scanners and transport assembly make up the
+scanning subsystem. The scanning subsystem is de
+signed to operate while immersed in a liquid such as
+4,233,988
+3
+water in an examination tank which is positioned within
+an over?ow tank. The transport assembly has a pair of
+straight rails which are substantially parallel to each
+other. A truss or bridge runs on the rails. The bridge has
+a longitudinal axis which is normal to the direction of
+the rails. A movable carriage is mounted on the bridge
+to move in a direction parallel to the longitudinal axis of
+the bridge. The bridge and carriage are movable so that
+the carriage can be placed at any point within a prede- -
+termined area and substantially bounded by said rails.
+Pulleys are mounted on the rails and bridge and a pair of
+?exible cables are connected around them and to the
+carriage to control the direction and velocity of move
+ment of the carriage and the bridge or both. Means for
+applying power to selected ones of the pulleys or to the
+?exible cables to control the movement of the carriage
+and bridge are provided. A ?ipping mechanism is incor
+porated into the movable carriage to orient the scanning
+heads so that the beams of focused ultrasonic energy
+from each transducer will be substantially normal to the
+surface of the breast being scanned.
+The scanners are mounted at the end ofa pair of ?xed
+arms which are pivotally mounted on the carriage.
+Each scanner has a scanning head mounted for rotation
+on its body about an axis of rotation which is substan
+tially parallel to the longitudinal axis of the bridge.
+Each headmhas a plurality of ultrasonic wide apertured
+focused transducers and each transducer is adapted to
+be connected to an ultrasonic transmitter and receiver
+in sequence. Each transducer of a given scanning head
+has a different focal range. The transducers are con
+nected to the transmitter receivers so that they conduct
+overlapping sector scans with each sector being divided
+into slightly overlapping zones, the width of each zone
+substantially corresponding to the focal ranges of the
+transducers of each scanning head. The transducers of
+each scanning head are uniformly distributed around
+—0
+5
+35
+the perimeter of its scanning head and so that the axis of _
+its focused beam of ultrasonic energy when produced is
+substantially perpendicular to the axis of rotation-of the
+scanning head on which they are mounted and substan
+tially lie in the same plane. A motor is mounted in the
+body portion of each scanner to rotate the scanning
+heads at the same predetermined angular velocity in the
+same direction and at a predetermined phase angle, or
+relationship, to one another to provide overlapping
+sector scans of tissue which tissue is substantially uni
+formly distributed with respect to the perpendicular
+bisector of the line between the axes of rotation of the
+scanning heads. The scanners are constructed and con
+trolled so that only one transducer of any one scanning
+head will be operationally connected to the transmit
+ter/receiver at any one time and veach transducer will be
+so connected to the transmitter/receiver once during
+each revolution of each scanning head.
+The transport mechanism is controlled to position the
+scanners so that they are substantially equidistantly
+spaced from the breast to be scanned, so that the per
+pendicular bisector of a line between the axes of rota
+tion of the scanning heads of the scanners passes
+through the nipple at an angle substantially normal to
+the patient’s rib cage with the result that the beams of
+focused ultrasonic energy from each transducer will be
+substantially normal to the surface of the breast being
+scanned.
+It is therefore an object of this invention to provide
+an improved high resolution rotating head ultrasonic
+scanner.
+40
+45
+55
+60
+65
+4
+It is another object of this invention to provide in an
+ultrasonic breast scanning system an improved scanning
+. subsystem which provides images of a section of tissue
+of signi?cantly greater resolution.
+It is yet another object of this invention to provide an
+improved scanning subsystem for a medical examina
+tion system for conducting the screening of large num
+bers of patients to detect at the earliest time possible
+breast cancer or precancerous conditions of the breast.
+It is still another object ofthis invention to provide an
+improved scanning subsystem for an ultrasonic breast
+scanner which produces higher resolution visualization
+of breast tissue without distorting the tissue being
+scanned.
+It is a further object of this invention to provide an
+ultrasonic breast scanner system in which the escape of
+liquid from the system is substantially prevented.
+It is a still further object of this invention to provide
+an improved transport mechanism for the scanners of an
+ultrasonic breast scanner system which properly orients
+the scanners. '
+It is yet another object ofthis invention to provide an
+improved ultrasonic breast scanning system which does
+not cause discomfort to the patient being examined,
+does not require a skilled operator, and the positioning
+of the scanning heads and the carriage on which the
+scanning heads are mounted relative to the patient is
+easily, quickly and accurately accomplished for patients
+of substantially all sizes. -
+It is a further object of this invention to provide a
+scanning subsystem for an ultrasonic breast scanning
+system which permits the examination to be connected
+quickly while producing high resolution visualizations
+of the tissue scanned so that large numbers of patients
+can be examined in a relatively short period of time.
+BRIEF DESCRIPTION OF THE DRAWINGS
+Other objects, features and advantages of the inven
+tion will be readily apparent from the following de
+scription of certain preferred embodiments thereof,
+taken in conjunction with the accompanying drawings,
+although variations and modifications may be effected
+without departing from the spirit and scope ofthe novel
+concepts of the disclosure, and in which: 7
+FIG. 1 is a block diagram of an ultrasonic breast
+scanning system with which the scanning subsystem of
+the present invention can be used;
+FIG. 2 is a schematic side elevation illustrating the
+position of a patient relative to the scanning subsystem
+during an examination;
+FIG. 3 is an enlarged section taken on line 3--3 of
+FIG. 2;
+FIG. 4 is a section taken on line 4—4 of FIG. 3;‘
+FIG. 5 is a cross-sectional view taken on line 5-5 of
+FIG. 4;
+FIG. 6 is a schematic view ofthe slip ring assembly of
+the scanners; .
+FIG. 7 is a plan view of the transport mechanism of
+the scanning subsystem;
+FIGS. 8 and 9 are schematic views of the transport
+mechanism of FIG. 7 which illustrate how the mecha
+nism functions;
+FIG. 10 is an enlarged fragmentary view ofthe mech
+anism for providing power to the orienting portion of
+the transport mechanism; and
+FIG. 11 is a partial front elevation showing the rela
+tionship of the ultrasonic scanners of the invention and
+4,233,988
+5
+a patient’s breast which is to be scanned to produce a
+high resolution visualization of the tissue thereof.
+DETAILED DESCRIPTION OF THE
+INVENTION
+In FIG. 1, the subsystems and components of some of
+the subsystems of ultrasonic breast scanning system 19
+are illustrated. Some of the components of the scanning
+subsystem 12 are also illustrated in FIG. 1 such as the
+transport mechanism 14 and the motor, or motors, 16
+for the transport mechanism. In FIG. 1 motors 18 that
+drive or rotate the ultrasonic transducers 20 of scanning
+subsystem 12 are illustrated.
+The solid state relays 22 are used to control the ener
+gization of motors 18 and in particular to control the
+phase of the scanning heads which are not illustrated in
+FIG. 1 on which the ultrasonic transducers 20 are
+mounted as will be described later. Transducers 20
+which are in a preferred embodiment wide apertured
+focused ultrasonic transducers are operationally con
+nected by slip rings 23 to a conventional ultrasonic
+transmitter/receiver 24.
+System 10 operates in a pulse echo mode with trans- ,
+mitter/receiver 24 producing pulses of electrical en
+ergy. In a preferred embodiment the pulses produced by
+transmitter/receiver 24 have a pulse repetition rate of
+3.4133 kHz with each pulse having a pulse width of 0.1
+usec. The frequency of the ultrasound waves produced
+by transducers 20 in response to the electrical pulses
+applied to them from transmitter/receiver 24 is in the
+range of from 1 to 10 MHz in the preferred embodi
+ment. The pulses ofelectrical signals produced by trans
+mitter/receiver 24 are applied to one of the ultrasonic
+transducers 20 which in responseto the electrical sig
+nals applied to it produces acoustic energy having a
+frequency depending on the construction of the trans
+ducer and the material used. During periods of time
+between acoustic pulses, echoes produced by the re?ec
+tions of the transmitted pulses of acoustic energy pri
+marily from the interfaces within tissues having differ
+ent acoustical impedances are received by the trans
+ducer transmitting the pulse in the preferred embodi
+ment and are converted by that transducer to electrical
+signals, the amplitudes ofthe electrical signals produced
+being a function of the amplitude of the acoustic signals
+received. The electrical signals from the transducers are
+applied to transmitter/receiver 24 through slip ring
+assemblies 23.
+Control, including timing, of ultrasonic scanning
+system 10 is performed by a microcomputer 26 which in
+the preferred embodiment is a MOS Technology Model
+6502. The timing signals used by system 10 are derived
+from the clock of microcomputer 26 as is well known in
+the art. Typically the clock is a crystal controlled oscil
+lator together with appropriate frequency dividers to
+provide signals or pulses of the frequencies needed.
+Transmitter/receiver 24 produces a transmission pulse,
+when a transmit signal (Xmit) is applied to transmitter/
+receiver 24 by controller 26. Control computer 26 be
+ginning at the time it produces an Xmit signal will pro
+duce a time gain control signal (TGC) which varies the
+gain of the receiver of transmitter/receiver 24 to com
+pensate for the rapid attenuation of acoustic signals
+re?ected back to a transducer 201as a function of time as
+is well known in the art. The echoes received by a
+transducer 20 are converted or made into electrical
+signals, an A mode signal which is applied to signal
+processor 28. An A mode signal is one suitable for being
+5
+20
+25
+40
+45
+60
+65
+6
+applied to a time base oscilloscope for displaying the
+amplitudes of the received echoes. Signal processor 28
+converts the A mode signals from receiver 24 into ultra
+sonic video or intensity modulated signals.
+The ultrasonic video signals from processor 28 are
+applied to a conventional scan converter 30 to which‘
+also is applied signals “X” and “Y” from sweep genera
+tor 32. “X” and “Y” are the coordinates of the ultra~
+sonic video signal at any given instant in time so that an
+intensity or Z axis modulated display of the sources of
+the echoes received by a transducer or transducers can
+be mapped out as a two-dimensional cross-section view.
+The Xmit signal from controller 26 which ultimately
+causes a transducer 20 to produce a pulse of acoustic
+energy is also applied to sweep generator 32 so that the
+distance “r” of the source of an' echo received by a
+transducer can be determined since r=c t/2 where c
+equals the velocity of sound in the medium. The sine,
+cosine functions of 0, the angle of the scanning trans
+ducer at any given time is supplied to sweep generator
+32 by controller 26 using a table of the values of sin 0,
+cos 0 which are stored in the memory of computer 26.
+Knowing r, sin 6 and cos 6, sweep generator 32 calcu
+lates X and Y the coordinates of the ultrasound video
+signal applied to scan converter 30 at time t.
+Scan converter 30 accepts information in one mode
+such as random X-Y patterns which are intensity modu
+lated by the ultrasound video signals from signal proces- '
+sor 28 and converts this information into video signals,
+for example, suitable for display on conventional TV
+display 34 on a real time basis. The video signals from
+scan converter 30 can be stored on a video recorder 36
+so that the video signals of any or all images so recorded
+can be reproduced and displayed at a later time on TV
+display or monitor 34, for example. Keyboard 38 is used
+by the operator of the ultrasonic scanning system 10 to
+apply commands and to supply data to system 10.
+In FIG. 2 scanners 40, 42 of scanning subsystem 12
+can be seen. Scanners 40, 42 are mounted on a pair of
+supporting arms 44, 46, only arm 44 is seen in FIG. 2,
+which arms are mounted on a movable carriage 48 of
+the transport mechanism 14. Scanning subsystem 12 is
+located in examination tank 50. Examination tank 50 is
+located within over?ow tank 51. The capacity of tank
+51 is such that if conventional valve 52 in the bottom
+wall of examination tank 50 is opened all the liquid in
+tank 50 can drain into overflow tank 51. Overlying
+tanks 50, 51 is an examination table 53 which is provided
+with an examination opening 54. A drainage opening 55
+is formed in table 53 substantially surrounding examina
+tion tank 50 so that liquid from examination tank 50 that
+over?ows the top of examination tank 50 will ?ow into
+and be collected in over?ow tank 51. A submersible
+pump 56 is positioned in the bottom of over?ow tank
+51. Depending on the position of valve 57, pump 56 will
+pump liquid from over?ow tank 51 into examination
+tank 50 so that the level of the liquid, degassed water in
+a preferred embodiment, within tank 50 will be main
+tained at the maximum level so that the underarm areas
+of a patient can be examined to determine if breast can
+cer has spread to this part of a patient’s body; or to drain
+spigot 58 to empty both examination tank 50 and over
+?ow tank 51. The lower portion of over?ow tank 51
+can be covered with insulation 59 to minimize the loss
+of heat from liquid contained therein. A patient 60 lies
+prone on the upper surface of table 53 with her breasts
+61 freely ?oating in a liquid which substantially ?lls
+examination tank 50. In the preferred embodiment the
+4,233,988
+7
+liquid is water which is maintained substantially at a
+temperature which is not uncomfortable to the patient,
+a temperature in the range of 37° C., for example. The
+bene?ts of having the patient’s breasts immersed in
+water in this manner are that there is no distortion ofthe
+outer or internal structures of the breasts and the liquid
+?lling tank 50 provides a good coupling medium for
+ultrasonic sound from the transducers 20 of scanners 40,
+42 to the tissue to be visualized and, equally as well, a -
+good medium for the re?ected signals, or echoes, from
+the tissue scanned to the transducer 20 which of course
+enhances the resolution of the images of the tissue, or
+their visualization.
+The location of examination tank 50 within over?ow
+tank 51 and providing drainage opening 55 in the exami
+nation table 53 so that liquid from examination tank 50
+can ?ow into over?ow tank 51 has solved the prior art
+problem of trying to minimize the amount of liquid
+escaping from the examination tank while maintaining
+the level of the liquid in the tank at the highest possible
+level to assure that the examination is as thorough and
+complete as possible. The over?ow tank eliminates the
+need for water tight seals between the patient and the
+top of the examination tank and avoids the loss of sub
+stantial quantities of liquid which liquid is expensive
+both to heat and to degas.
+In FIG. 3 additional details of carriage 48, scanners
+40, 42 and arms 44, 46 are illustrated. Bridge, or truss, 62
+is provided with substantially planar surfaces 640, b, c, a’
+which intersect to form a groove within which a
+wedge-shaped portion 66a, b of carriage 48 project. A
+plurality of rollers 67a, 67b are mounted in wedges 660,
+b, preferably three in each wedge 66a and 66b for a total
+of six. Rollers 67 roll on surfaces 64a, b, c, a’ to permit
+carriage 48 to move smoothly and with little frictional
+drag along bridge 62.
+Arms 44, 46 are mounted on a four-member ?ipping,
+or orienting mechanism 68, more particularly top mem
+ber, or link, 69 which is connected to base member, or
+link, 70, the portion of carriage 48 between pivots 71a,
+71b by a pair of arms 72, 73. It should be noted that arms
+72 and 73 are of substantially equal length. The four
+links 69, 70, 72 and 73 are pivotally connected together.
+A pinion gear 74 is mounted for rotation about its longi
+tudinal axis 75 on a pair of shoulders 76a, 76b on bridge
+62. Only shoulder 76b is seen in FIG. 3. An orienting
+gear 77 is ?xedly secured to top member 69 and its
+dimensions are chosen so that the teeth of gear 77 mesh
+with the teeth of pinion gear 74 so that when pinion
+gear 74 rotates about its axis of rotation 75, the orienta
+tion of top member 69 changes in a predetermined man
+ner.
+The relationship between the lengths of arms 72, 73
+which in the preferred embodiment are equal and the
+length of top member 69 and base link 70 as well as the
+axis of rotation 75 of pinion gear 74 are chosen so that
+over a substantial angle of movement of top link 69, 45°
+in the preferred embodiment, or :22 %° on either side
+of vertical, the distance between the center 78 of gear 77
+and the axis of rotation 75 of pinion gear 74 is substan
+tially constant. Thus the locus of the point of contact
+between orienting gear 77 and pinion gear 74 coincides
+with the perimeter of pinion gear 74 as top member 69
+moves through an angle of up to 45°. ,
+Arms 44, 46 are in the preferred embodiment substan
+tially of the same length. At the ends of arms 44, 46
+scanner holders, or mounts, 78, 80 removably secure the
+body portions 81, 82 of scanners 40, 42 to arms 44, 46.
+35
+45
+60
+65
+8
+The hexagonal scanning heads 84, 86 are rotatably
+mounted on body portions 81, 82 for rotation about axis
+of rotation 88, 90.
+In FIG. 3 perpendicular bisector 91 of the line con
+necting the axes of rotation 88, 90 of scanners 40, 42
+passes through the center of gear 78 and is at an angle a
+with respect to vertical axis 92 with a equaling 22? in
+the preferred embodiment. Adjustable stop 93 is set to
+limit a to 22%". counterclockwise rotation of pinion
+gear 74 will cause flipping mechanism 68 to cause top
+member 69 to be reoriented so that perpendicular bisec
+tor 91 will be on the right-hand side of vertical axis 92.
+Adjustable stop 94 is positioned so that when the bot
+tom surface of arm 44 engages stop 94, a will have a
+value of -22§° in the preferred embodiment.
+A channel 95 is formed in the upper surface ofbridge
+62. Small diameter ?exible cables 96, 97 are attached to
+carriage 48 by conventional means to cause carriage 48
+to slide on, or more relative ‘to, bridge 62 as will be
+explained below.
+FIG. 4 is a cross-section of scanner 42. Within the
+body portion 82 is located motor 18b which, in a pre
+ferred embodiment, is a 24 volt synchronous AC motor
+that rotates at 3600 rpm. Motor 18b is connected to
+drive shaft 98 by reduction gears 100, which in the
+preferred embodiment reduces the rpms of shaft 98 to
+100 rpm. As can be best seen in FIG. 5 scanning head 86
+has three wide apertured focused ultrasonic transducers
+20a, b and c which are uniformly distributed, or posi
+tioned, around the perimeter of scanning head 86 with
+the angle B between the axes of the radiation patterns,
+or beams, of focused ultrasonic energy produced by
+transducers 20a, b, c being 120'’ in the preferred embodi
+ment, substantially normal to the axis of rotation 90 of
+scanning head 86. Scanning head 86 is mounted on shaft
+98 so that the axis of rotation of shaft 98 coincides with
+axis 90 with the result that the radiation patterns of
+transducers 200, b, c, substantially lie in a plane perpen
+dicular to axis 90. To provide an electrical connection
+between the transducers 200, b, c of scanning head 86,
+and transmitter/receiver 24, a slip ring assembly 230 is
+provided. Since scanner 42 is operated while immersed
+in a liquid such as water great care is taken to assure that
+the interior of housing 82 and scanning head 86 are
+constructed to prevent the entrance of moisture into the
+interior of housing 82 and of scanning head 86 particu
+larly around the bearings and where the wires connect
+ing scanner 42 with the rest of the system 10 enter into
+body or housing 82. In addition a compressed air line is
+connected to housing 82 so that air at a pressure greater
+than that of the liquid surrounding housing 82 is present
+within housing 82.
+Since the safety of the patient is paramount, the de
+sign of the scanner subsystem is ultraconservative with
+respect to minimizing the risk of electrical short circuits
+occurring in any portion of the system and particularly
+so with respect to the scanning subsystem. To further
+reduce the hazard, low voltages are used to supply
+power to subsystems located in examination tank 50
+such as 24 volts AC is used to power motors 18a, b. The
+wires which carry electrical power to motor 18b and
+the wires that connect the transducers 20 to transmit
+ter/receiver 24 and the wires for the necessary control
+signals needed by the scanners 40, 42 or other compo
+nents of system 10 and the compressed air lines are
+attached or are connected to the arms, such as arm 46
+for scanner 42 and then to the carriage 48 and from
+4,233,988
+9
+carriage 48 they then proceed outside of examination
+tank 50.
+In FIG. .6 slip ring assemblies 23a of scanner 42 and
+23b of scanner 40 are schematically illustrated. Assem
+bly 23a has a circular disc 102a on which are formed
+three conductive rings, inner ring 103a, transducer ring
+104a and outer ring 105a. Inner ring 103a is continuous
+and is at ground potential. Outer or ?duciary ring 105a
+has a ?ducial mark 106a which is at ground potential in
+the preferred embodiment. The balance of outer ring
+105a is ?oating; i.e. electrically isolated. Transducer
+ring 104a is divided into three substantially equal sized
+segments, or arcs, 1070, b, c. The central angles deter
+mined by arcs 107a, b, c are slightly less than 120°. The
+center of disc 110a lies on the axis of rotation 90 of
+scanning head 86. The wiper arm subassembly 108a,
+which is also illustrated schematically in FIG. 4, is
+mounted on body portion 82 of scanner 42 so that the
+wiper arms, or contacts, 109a, b, c“ride on or contact
+rings 103a, 104a, 105a. The direction‘ of rotation of
+scanning head 86 is the direction of arrow 110a, or
+clockwise.
+Slip ring assembly 23b is similar to vassembly 23a. It ,
+has a disc l02b on which are formed three conductive
+rings 103b, 104b, 105b. Inner ring 103b is at ground
+potential. Fiduciary ring 105b has a ?ducial mark 106b
+at ground potential. Transducer ring 104b is divided
+into three substantially equal sized segments, or arcs,
+107d, e, f with the central angles determined by arcs
+107d, e,fbeing slightly less than 120°. The center ofdisc
+l02b lies on the axis of rotation 88 of scanning head 84.
+The wiper arm subassembly 10812 is substantially identi
+cal to that of 108a. The direction of rotation ofscanning
+head 84 is the direction of arrow 110b.
+- Conductive arcs 107a, b, c of slip ring assembly 23a
+are connected to transducers 20a, b, c, respectively, and
+conductive arcs 107d, e, fare connected to transducers
+20d, e, f respectively. The center conductor, or wiper,
+10911 and 109e of wiper arm subassemblies 108a, b are
+connected to transmitter/receiver 24 by conductors
+that run down arms 44, 46 to carriage 48 and from
+carriage 48 along the sides of examination tank 50 until
+they pass out of the top of tank 50,- for example. Wiper
+arms 109a, 109d are connected to control processor 26,
+and wiper arms 109e, 109f are connected to electrical
+ground by wires which are run substantially parallel to
+the wires connecting wiper arms 109b, 109e to transmit
+ter/receiver 24 at least until they leave tank 50.
+In FIG. 6 the ?ducial marks 106a, 106b are positioned
+on ?duciary rings 105a, 105b so that they have a prede
+termined angular position with respect to the arcs 107 of
+transducer rings 104a, 1041) which arcs are electrically
+isolated from one another. Having ?duciary marks
+1060, 106b with a known relationship to the arcs 107 of
+transducer rings 1040, 104b makes it possible to have
+overlapping sector scans be conducted by the transduc
+ers of each scanner head 84, 86 while still making cer
+tain that only one transducer 20 is connected to trans
+mitter/receiver 24 at any one time and so that one trans
+ducer 20 is connected to transmitter/receiver 24 sub
+stantially at all times during each revolution of scanner
+heads 84, 86 as will be explained later.
+Referring to FIG. 7 transport mechanism 14 has a
+pair of rails 114, 116 which are ?xedly mounted in ex
+amination tank 50. Rails 114, 116 are parallel to each
+other and are spaced apart a ?xed distance and de?ne,
+or lie in, a plane that is substantially horizontal. Bridge,
+or truss, 62 is mounted on rails 114, 116 so that bridge 62
+5
+20
+25
+40
+45
+60
+65
+10
+can move on rails 114, 116 parallel to them and so that
+the longitudinal axis 118 ofbridge 62 is perpendicular to
+rails 114, 116. Carriage 48 is mounted on bridge 62 for
+movement parallel to longitudinal axis 118 ofbridge 62.
+Only an outline of carriage 48 is illustrated in FIG. 7
+since carriage 48 was illustrated in greater detail on
+FIG. 3 and has been described above. In the preferred
+embodiment bridge 62 and rails 114, 116 are provided
+with cooperating wedge shaped surfaces similar to the
+surfaces of bridge 62 and carriage 48 as well as rollers
+which are not illustrated which permit carriage bridge
+62 to move easily on rails 114, 116.
+Four bridge pulleys 120a, b, c, d are mounted on
+bridge 62, two substantially at each end of the bridge
+and the pulleys are so mounted that they are spaced
+equidistantly from the longitudinal axis 128 of truss 62.
+Four rail pulleys 1220, b, c, d are mounted on rails 114,
+116 with one pulley being positioned at each end of
+each rail. Pulleys 120, 122 are, in the preferred embodi
+ment, mounted so that their axes of rotation are parallel
+to each other and perpendicular to the plane of the rails
+114, 116. To avoid having cables 96, 97 which are
+- placed around pulleys 120, 122 from coming into
+contact with bridge 62 or carriage 48, or both, translat
+ing, or power pulleys, 124a, b, c, d are mounted one at
+each end of rails 114, 116. The axes of rotation of pul
+leys. 124 are parallel to each other and to the plane of
+rails 114, 116. The function of translating pulleys 124 -
+are to lower the portion of the cables 96, 97 which run
+diagonally from the corners of the rails so that they pass
+under bridge 62. Pulleys 124 can also be used to apply
+power to move bridge 62 and carriage 48. One way of
+doing this is by motors 1260, b which can be conven
+tional variable speed reversible dc servo motors.
+One end of cable 96 is fastened securely to carriage
+48. Cable 96 is then placed around pulleys 120a, 124a,
+122a, 122d, 124d, 120d and its other end is secured to
+carriage 48 by a coil spring 127 to maintain tension on
+cable 96. Similarly cable 97, one end of which is secured
+to carriage 48, is placed around pulleys 120b, 124b,
+122b, 122c, 124c, 1200 and its other end is attached by
+coil spring 127 to carriage 48. The function of coil
+spring 127 is to maintain the proper tension on cables 96
+and 97.
+FIG. 8 and 9 illustrate schematically the theory of
+operation of transport mechanism 14. Translating pul
+leys 124 which are provided to avoid problems due to
+the thickness of the rails, truss and carriage are omitted
+to simplify the illustration. In FIG. 8 if power is applied
+to cables 96, 97 to cause pulleys 122a, 122b, which in
+FIG. 8 are the equivalent of the pulleys 122a, 122b and
+translating pulleys 1240, 124b, to rotate in opposite
+directions and if the direction of rotation is in the direc
+tion of the solid arrows, carriage 48 will move in the
+direction of the solid arrow toward rail 116. If pulleys
+122a, b rotate in opposite directions as shown by the
+dashed line arrows of FIG. 8, carriage 48 will move in
+the direction of the dashed arrow toward rail 114.
+FIG. 9 illustrates what happens if cables 96, 97 are
+driven to cause pulleys 122a, b to rotate in the same
+direction. If in the direction of the solid arrows then
+bridge 62 will move to the right as indicated byvthe solid
+arrows and if pulleys 122a, b rotate in the direction of
+thedashed line arrows, then bridge 62 will move to the
+left in the direction of the dashed arrows.
+The motors which provide power to cables 96, 97, if
+they cause cables 96, 97 to move at the same speed, will
+cause either carriage 48 or bridge 62 to move depending
+4,233,988
+11
+upon the direction of movement of the cables but not
+both. If the speeds ofcables 96, 97 are not the same, then
+both the carriage 48 and bridge 62 will move.
+Transport mechanism 14 permits carriage 48 to be
+moved to any position substantially within the rectan
+gular area 128 which is seen in FIG. 7, which area lies
+within lines tangent to the rail pulleys 122. Instead of
+providing power to the ?exible cables 96, 97 by motors
+126a, b driving pulleys 1240, b, power could be pro- -
+vided by ?exible drive cables placed around drive pul
+leys 130a, b which are directly connected to translating
+pulleys 124a, d in the embodiment illustrated in FIG. 7
+which drive cables may be powered by motors located
+outside of examination tank 50. Other ways of provid
+ing the power to the cables 96, 97 are possible and fall
+within the scope of this invention.
+Orienting mechanism 68 of transport mechanism 14
+orients the scanners 40, 42 so that they are optimally
+positioned with respect to a patient’s breast to be
+scanned; i.e., so that the beams of acoustic energy pro
+duced by the ultrasonic transducers are as nearly per
+pendicular to the sides of the breast being scanned as
+possible. As described above, rotating pinion gear 74
+will cause top member 69 of the four link ?ipping mech
+anism 69 to change the angle of link 69 with respect to
+vertical. To cause pinion gear 74 to rotate, track 114 is
+provided with a rack 132 substantially in the center of
+track 114 as illustrated schematically in FIG. 7. Refer
+ring to FIG. 10, pinion gear 74 has one end extended so
+that it projects beyond shoulder 760 which is mounted
+substantially at one end of bridge 62. Gear 134 is
+mounted on pinion gear 74 by a conventional slip clutch
+136 so that the teeth of gear 134 will mesh with the teeth
+on rack 132. Thus as bridge 62 moves from right to left,
+as seen in FIG. 7, driving gear 134 will be caused to
+rotate in a counterclockwise direction which causes link
+69 to change its orientation with the result that scanner
+40 would be lower and scanner 42 will be higher. Mov
+ing bridge 62 from left to right would cause the ?ipping
+mechanism 68 to position the scanners as illustrated in
+FIG. 3. Since shaft 74 runs the full length of bridge 62,
+?ipping mechanism 68 will work independently of the
+position of carriage 48 on bridge 62. Slip clutch 136 is
+provided so that if scanners 40, 42 are repositioned by
+hand, for example, so that arm 44 is in contact with
+adjustable stop 94 and bridge 62 is moved from right to
+left as described above, driving gear 134 will rotate, but
+the torque applied to pinion gear 74 will be sufficiently
+low as to not damage ?ipping mechanism 68.
+Advantages of ?ipping mechanism 68 are that it pro
+vides an effective gear reduction, it takes only a short
+length of rack 132 to reorien't the scanners. The orienta
+tion of the scanners 40, 42 is stable when drive gear 134
+is no longer in contact with rack 132 since the center of
+gravity of the scanners has to be raised signi?cantly to
+change their orientation. In addition, the four link ?ip
+ping mechanism provides an essentially stable point for
+attaching the electrical conductors and compressed air
+lines to carriage 48 to minimize the length of such lines
+and conductors.
+To conduct an ultrasonic examination of a patient’s
+breasts, or more speci?cally to produce a series of cross
+sectional images of the tissue of each breast, the patient
+60 lies prone on examination table 53 with her breasts 61
+freely ?oating in the liquid with which examination
+tank 50 is ?lled, degassed water in the preferred exam
+ple. The side walls of tank 50 as well as those of over
+?ow tank 51, are transparent, or are provided with
+25
+40
+45
+65
+12
+windows, so that the operator can properly position
+carriage 48 relative to the patient. Referring to FIG. 11
+scanners 40, 42 are mounted on arms 44, 46 which in
+turn are mounted on carriage 48 of transport mechanism
+14. In scanning the patient’s left breast, for.example,
+scanner 42 which is between the breasts is lower than
+scanner 40. The operator positions the carriage 48 so
+that the perpendicular bisector 91 substantially passes
+through the nipple ofthe patient and is also substantially
+perpendicular to the patient’s rib cage 140. The scan
+ning heads 84, 86 are positioned as illustrated in FIG. 11
+so that the centerlines 142, 144 of the sector scans con
+ducted by scanning heads 84, 86 intersect perpendicular
+bisector 91 at a point substantially directly behind the
+nipple and between the nipple and the rib cage 140.
+Carriage 48 is positioned on bridge 62 so that ifscanning
+starts at the inferior border of the breast the carriage 48
+will be moved along bridge 62 toward rail116 at a
+constant speed until the superior border of the breast is
+scanned. Controls of the movement of carriage 48 is by
+controlling servo motors 16. Under overall control of
+the operator, control processor 26 in response to posi
+tion information received from servo motors 16 causes
+a dc voltage to be supplied to the motors which is a
+function of the desired velocity of motors 16. Servo
+motors 16 control the direction of movement of ?exible
+cables 96, 97 as described above and the speed of move
+ment is of course determined by the speed at which the
+cables are driven.
+When scanning subsystem 12 is properly positioned,
+motors 18a, 18b driving the scanning heads 84, 86 are
+energized. As described above, the motors 18a, 18b for
+scanners 40, 42 are, in the preferred embodiment, 3600
+rpm synchronous motors which are geared down to
+rotate scanning heads 84, 86 at 100 rpm each. At this
+angular velocity heads 84, 86 produce no cavitation or
+extraneous noise which would interfere with the opera
+tion of transducers 20 or have an- adverse effect on the
+resolution of the images produced. Transmitter/
+receiver 24 is energized. To produce the overlapping
+sector scan illustrated in FIG. 11 while avoiding having
+more than one transducer 20 of either scanning head 84,
+86 connected to transmitter/receiver 24 at the same
+time, it is necessary to maintain the phase angle 7 be
+tween the two scanning heads 84, 86 at the correct
+' valuefor 7 which equals the central angle of one of the
+conductive arcs 107 during which the ultrasonic trans
+ducers connected to the arc is energized, i.e., substan
+tially 60° plus 45'‘ so that the angle ‘)1 is 105° in the pre
+ferred embodiment.
+Fiducial marks 106a. 106b are used to determine or
+measure 7 and are positioned so that they produce a
+signal or pulse each time the wiper arms 109a, 109d
+contact ?ducial marks 106a, 106b. Knowing the angular
+velocity of scanning heads 84, 86, the angle 7 is then a
+function of the difference in time At between wiper
+109a contacting ?ducial mark 106a and wiper 109d
+contacting ?ducial mark 106b, for example. Computer
+controller 26 can measure At and if At does not have the
+right value, controller 26 causes one or the other of
+motors 18a, 18b to slow down momentarily, for exam
+ple. One way of doing this would be to use a variable
+frequency oscillator to provide the power to motors
+18a, 18b and by changing the frequency of the alternat
+ing current applied to one of the motors to produce the
+change necessary to obtain the desired phase angle 7.
+Another way is to momentarily interrupt the power
+supplied to one ofthe motors 180 or b by use of conven-v
+4,233,988
+13
+tional solid state relays 22. Obviously motors 18a and
+18b could also be variable speed dc motors so that the
+speed of one motor could be varied enough to produce
+the desired phase angle 'y.
+Once the scanning heads 84, 86 are properly synchro
+nized with the proper phase angle )1, the scanning com
+mences and the carriage 48 is caused to move by apply
+ing power to the ?exible cables 96, 97 to cause them to
+move at controlled velocities. The velocity of the car
+riage 48'or bridge 62 is chosen so that it advances at a
+rate of from 1 to 2 millimeters per revolution of scan
+ning head 84, for example. During each revolution of
+each scanning head 84, 86 each of the transducers 20a-f
+is connected to transmitter/receiver 24. Sectors 146,
+148 scanned by the scanning heads 84, 86 respectively as
+illustrated in FIG. 11 are divided into three‘contiguous
+zones A, B, C of sector 148 and zones D, E, F of sector
+146. The widths, or depths, of the sectors substantially
+correspond to the focal range of the transducer con
+ducting the scan of the zone with some overlap at the
+common boundaries; for example the scan of zone A of
+sector 148 may be conducted by transducer 20a of scan
+ning head 86. Similarly the scanning of different zones .
+of each sector by different transducer 20 results in sec
+tor scans of higher resolution which sector scans are
+overlapped in the area of greatest interest with respect
+to the detection of tissue abnormalities in the breast.
+The echoes received by each transducer 20a-f are
+converted by signal processor 28 from A mode to ultra
+sonic video signals which are applied to scan converter
+30 as described above. The scan converter 30 converts
+the signals applied to it into video signals suitable for
+display on TV monitor 34 and for recording by a video
+recorder 36. The operator controls how the images
+produced from the echoes will be displayed. For exam
+ple, the signals from each zone of each sector could be
+separately displayed. The signals from each scanning
+head can be displayed together to provide a sector scan
+or the signals can be combined to produce a composite
+image. Best resolution is obtained when the images of
+all zones of both sectors are combined to produce an
+overlapped, or composite, image or visualization. Reso
+lution is also improved by operating the scan converter
+30 in an integrating mode.
+After carriage 48 is moved from the inferior to the
+superior border of the patient’s left breast for example,
+the carriage is then moved by causing the bridge 62 to
+move until the scanning head 40 is between the breasts
+of the patient. As bridge 62 moves driving gear 134 will
+engage rack 132 mounted on rail 114 and rotate. Rota
+tion of pinion gear 74 in a counterclockwise direction as
+viewed in FIG. 3 will change the orientation of top
+member 69 so that arm 44 engages adjustable stop 94.
+Once arm 44 engages stop 94, slip clutch 136 permits
+drive gear 134 to continue to rotate as long as it engages
+rack 132 without applying excessive torque to pinion
+gear 74. '
+The operator controls the position of bridge 62 so
+that the perpendicular bisector 91 will pass through the
+nipple of the patient’s right breast, for example, and be
+substantially perpendicular to the patient’s rib cage 140.
+It has been noted that lines through the nipples of each
+breast perpendicular to the rib cage, which lines are also
+the axes of symmetry of the breast, diverge generally at
+an angle of 45° to one another. To properly position
+scanners 40, 42 for patient’s whose breasts diverge at
+substantially different angles, it is possible to adjust the
+angle that the perpendicular bisector 91 makes with
+15
+20
+25
+30
+45
+60
+65
+14
+vertical by changing the length of adjustable stops 93,
+94.
+Once bridge 62 is positioned so that the perpendicular
+bisector 91 will pass through the nipple of the patient’s
+right breast and again be substantially perpendicular to
+the patient’s rib cage 140 behind the second breast,‘
+carriage 48 is moved until it is at the inferior border of
+the breast. Then carriage 48 is caused to move toward
+the superior border at a constant rate of l to 12 millime
+ters per revolution of the scanning heads. A scan of the
+second breast is conducted in substantially the same
+way as the ?rst.
+In a preferred embodiment control processor 26 is a
+model 6502 made by the MOS Technology Company,
+scan converter 30 is a model 639H made by the Hughes
+Aircraft Company, TV-display or monitor 34 is a model
+VF02 made by the Conrac Company, video recorder 36
+is a model CR606OU made by the JVC Company and
+keyboard 38 is a model L1648 made by the Key-Tronic
+Company.
+From the foregoing it is believed obvious that this
+invention provides an improved high resolution rotat
+ing head ultrasonic scanner which is particularly useful
+in a scanning subsystem for an ultrasonic breast scanner
+that provides visualizations of breast tissue of signi?
+cantly improved resolution, which requires little time to
+conduct an examination, does not require a highly ‘
+skilled operator and conducts the examination with the
+minimum of discomfort to the patient so that many
+patients can be examined to increase the probability of
+the early detection ofbreast carcinoma or precancerous
+conditions and thus to minimize the death rate from
+cancer of the breast.
+It should be evident that various modi?cations can be
+made to the described embodiment without departing
+from the scope of the present invention.
+What is claimed is:
+1. An ultrasonic scanner comprising:
+a body portion;
+a scanning head having an axis of rotation;
+means for mounting the scanning head on the body
+portion for rotation about its axis of rotation;
+means mounted on said body portion for rotating the
+scanning head about its axis of rotation;
+a plurality of wide apertured focused ultrasonic trans
+ducers, each transducer being individually distinct
+from said other transducers, each transducer hav
+ing a predetermined focal range differentthan the
+predetermined focal ranges of each of said other
+transducers, said focal ranges being contiguous,
+each ofsaid transducers when energized producing
+a beam of acoustic energy having a beam axis, each
+of the beams of acoustic energy being produced
+only by one of said distinct energized transducers;
+means for mounting the transducers on the scanning
+head so that the beam axes of said transducers are
+substantially perpendicular to the axis ofrotation of
+the scanning head, said beam axes substantially
+lying in the same plane, and the angles between the
+beam axes being substantially equal; and I
+means for connecting the transducers to a transmit
+ter/receiver and for energizing the transducers so
+that the transducers scan a given sector, said sector
+being divided into contiguous zones with the depth
+of each zone of the given sector corresponding to
+the focal range of one of the transducers.
+4,233,988
+15
+2. The ultrasonic scanner of claim 1 in which the
+means for rotating the scanning head rotates the scan
+ning head at a substantially constant angular velocity.
+3. The ultrasonic scanner of claim 2 in which the
+number of ultrasonic transducers is three.
+4. The ultrasonic scanner of claim 3 in which the
+angle scanned of the given sector is substantially 60°.
+5. A scanning subsystem for an ultrasonic breast scan
+ner comprising:
+a pair of scanners, each scanner having a rotating
+scanning head, each scanning head having a perim
+eter;
+means for causing the scanning heads to rotate at
+substantially the same angular velocity about their
+axes of rotation;
+“n” ultrasonic transducers mounted on each scanning
+head, each transducer producing when energized a
+beam of acoustic energy having a beam axis, each
+transducer being a wide apertured focused trans
+ducer having a predetermined focal range, the
+focal ranges of the transducers of a scanning head
+not being the same, said transducers being substan
+tially uniformly spaced around the perimeters of
+the scanning heads and so that the axes of beams of
+acoustic energy produced by the transducers when
+energized are substantially perpendicular to the
+axis of rotation of the scanning heads;
+means for connecting the transducers of each scan
+ning head to a transmitter/receiver so that one and
+only one transducer is energized by the transmit
+ter/receiver at any one time, and so that each scan
+ning head conducts a sector scan, the sector,
+scanned by each scanning head being divided into
+“n” zones, each zone having a depth corresponding
+to the focal range of a different one ofthe transduc
+ers of a scanning head;
+‘a transport mechanism;
+means for mounting the scanners on the transport
+mechanism; and
+means for controlling the phase angle between the
+scanning heads of the scanners so that the phase
+angle has a predetermined value so that the sectors
+scanned by the scanning heads overlap.
+6. The scanning subsystem of claim 5 in which “n”
+equals three. ,
+7. The scanning subsystem of claim 6 in which the
+focal ranges of the transducers of a scanning head are
+contiguous. ,
+8._ The scanning subsystem of claim 5 in which the
+transport mechanism includes means for orienting the
+scanners so that the perpendicular bisector of a line
+between the axes of rotation of the scanning heads has a
+predetermined angle with respect to vertical.
+9. The scanning subsystem of claim 8 in which the
+means for orienting the scanners includes a four-link
+?ipping mechanism.
+10. A scanning subsystem for an ultrasonic breast
+scanner comprising:
+a transport mechanism including a movable carriage;
+orienting means mounted on the carriage;
+a pair of scanners, one scanner mounted on each arm,
+each scanner having a body and a scanning head
+mounted for rotation on said body about an axis of
+rotation, said axes of rotation being substantially
+parallel to each other;
+“n” wide apertured focused transducers mounted on
+each scanning head where “n” is an integer greater
+than 1.
+15
+20
+25
+40
+45
+60
+65
+16
+means for electrically connecting the transducers of
+each scanning‘head to a transmitter/receiver, each
+transducer when energized by the transmitter of
+the transmitter/receiver producing a beam of ultra
+sonic energy having a beam axis, and when con
+nected to the receiver said transducers producing
+electrical signals which are a function of the inten
+sity of the ultrasonic energy re?ected back from a
+transmitted beam;
+the “n” transducers of each scanning head being
+mounted so that the beam axis of each transducer
+lies in a plane of rotation substantially perpendicu
+lar to the axes of rotation ofthe scanning heads and
+so that the angle between the axes of the beams of
+the transducers mounted on a scanning head are
+substantially equal, each transducer of a scanning
+head having a different focal range;
+means for rotating the scanning heads at substantially
+the same angular velocity and in the same direc
+tion;
+means for causing the transducers of each scanning
+head'to conduct a sector scan, each sector being
+divided into “n” zones with the depth of each zone
+corresponding to a focal range of one of the trans
+ducers of each scanning head; and
+means for controlling the phase angle between the
+scanning heads of the scanners so that sectors
+scanned by the scanning heads overlap.
+11. The scanning subsystem of claim 10 in which “n”
+equals three.
+12. The scanning subsystem of claim 11 in which the
+focal ranges of the transducers of a scanning head are
+contiguous.
+13. The scanning subsystem of claim 10 in which the
+transport mechanism includes a pair of rails, a bridge
+movable on the rails, said movable carriage being
+mounted on the bridge, and means for moving the car
+riage and the bridge.
+14. The scanning subsystem of claim 13 in which the
+means for moving the carriage and the bridge include
+pulleys mounted on the rails and bridge, a pair of ?exi
+ble cables connected to the carriage and positioned on
+the pulleys, and means for applying force to the cables.
+15. The scanning subsystem of claim 10 in which the
+orienting means positions the scanners so that the per
+pendicular bisector of a line between the axes of rota
+tion of the scanning heads in the plane of rotation of the
+beam axes of the transducers of said heads has a prede
+termined angle with respect to vertical.
+16. The scanning subsystem of claim 15 in which the
+orienting means includes a four-link ?ipping mecha
+nism.
+17. An improved method for visualizing the tissue of
+female breasts comprising the seps of:
+immersing a patient’s breast in a liquid filled ‘con
+tainer;
+movably locating within the container a pair of scan
+ners, each scanner having a rotating scanning head,
+each scanning head having a plurality of ultrasonic
+transducers, each transducer of each scanning head
+having a predetermined focal range different than
+the other transducers of said scanning head, the
+transducers of each scanning head having substan
+tially contiguous focal ranges;
+positioning the scanners so that the breast to be
+scanned is between them;
+rotating the scanning heads at substantially the same
+angular velocity;
+~ 17
+maintaining a predetermined phase angle between the.
+rotating scanning heads;
+connecting the transducers to a transmitter/receiver
+so that only one transducer is energized by the
+transmitter/receiver at any one time and one trans
+ducer is substantially continuously energized by
+the transmitter/receiver; .
+moving the scanners from one border to the other of
+the ‘breast between; and
+producing visually observable images of the echoes
+received by the transducers.
+18. The improved method of claim 17 in which the
+number of ultrasonic transducers on each scanning head
+is three. ~
+19. An improved method for visualizing the tissue of
+the female breast comprising the steps of:
+immersing a patient’s breast in a liquid ?lled examina
+tion tank;
+positioning a pair of scanners in the examination tank
+so that the breast to be scanned is between them,
+each scanning head having three wide apertured
+focused ultrasonic transducers, the focal ranges of
+15
+the transducers'of a scanning head being substan- '
+tially contiguous;
+connecting the ultrasonic transducers of the scanning
+heads to a transmitter/receiver so that each scan
+ning head conducts a sector scan over an angle of
+substantially 60°, each sector being divided into
+three zones corresponding to the focal ranges of
+the transducers of a given scanning head;
+controlling the phase angle of the rotating scanning
+heads so that the sectors scanned by the ultrasonic ;
+transducers of each scanning head overlap;
+conducting an overlapped sector scan of the breast
+between the scanners from one border of the breast
+to the other; and
+producing cross-sectional images from the echoes
+received by the transducers.
+20. The improved method of claim 19 comprising the
+additional step of recording the cross-sectional images.
+21. An ultrasonic breast scanning system comprising:
+an examination tank open at the top;
+an over?ow tank open at the top, said examination
+! tank being mounted within the over?ow tank;
+5 an examination table overlying the examination and
+: over?ow tanks;
+an examination opening in the examination table over
+the examination tank so that a patient can lie prone
+on the table and the patient’s breasts can be im
+mersed in the liquid with which the examination
+tank is adapted to be ?lled;
+a drainage opening formed in the examination table
+over the over?ow tank so that liquid escaping from
+the examination tank is collected in the over?ow
+tank;
+pump means for pumping liquid from the over?ow
+tank into the examination tank to maintain the liq~
+uid level in the’ examination tank at its maximum
+height;
+25
+.40
+45
+55
+transport and orienting means mounted in the exami- '
+nation tank;
+a pair of scanners mounted on the transport and ori
+enting means;
+65
+4,233,988
+18
+each of said scanners having a rotating scanning head
+having an axis of rotation;
+a plurality of ultrasonic transducers mounted on each
+scanning head, each transducer of a scanning head
+having a different focal range, each transducer
+producing when energized a beam of acoustic en-
+ergy having a beam axis, said transducers being
+positioned on each scanning head so that the beam
+axes are substantially normal to the axis of rotation
+and lie in substantially the same plane of rotation;
+means for energizing the transducers to produce
+acoustic energy, Said means energizing only one
+transducer at a time;
+means for orienting the scanners so that the perpen
+dicular bisector of the line between the axes of
+rotation of the scanners lying in the plane of rota
+tion passes through the nipple of the patient’s
+breast to be scanned and is substantially normal to
+the patient’s rib cage;
+means for causing the scanners to conduct overlap
+ping sector scans;
+means for causing the transport mechanism to move
+the scanners from one border of the breast to be
+scanned to the other at a predetermined velocity;
+means for converting the re?ections of acoustic en
+ergy transmitted from and then received by a trans
+ducer into ultrasonic video signals; and
+means for displaying the ultrasonic video signals.
+22. An ultrasonic breast scanning system as de?ned in
+claim 21 in which the capacity of the over?ow tank is
+greater than that of the examination tank.
+23. An ultrasonic breast scanning system as de?ned in
+claim 25 in which the number of ultrasonic transducers
+mounted on each scanning head is three.
+24. An ultrasonic breast scanning system as de?ned in
+claim 23 in which the focal ranges of the transducers of
+each scanning head are contiguous.
+25. An ultrasonic breast scanning system as de?ned in
+claim 21 in which the means for orienting the scanners
+include a four-link ?ipping mechanism.
+26. An ultrasonic scanner for scanning an object,
+comprising:
+a body portion;
+a plurality of focused ultrasonic transducers, each
+transducer being individually distinct from said
+other transducers, each transducer having a prede
+termined focal range different than each of the
+predetermined focal ranges of said other transduc
+ers, said focal ranges being contiguous, each of said
+transducers when energized producing a beam of
+acoustic energy having a beam axis, each of the
+beams of acoustic energy being produced only by
+one of said distinct, energized transducers;
+means for mounting said transducers on said body
+portion; .
+means for moving said body portion so that the object
+is scanned by said transducers; and
+means for connecting the transducers to a transmit
+ter/receiver and for energizing said transducers so
+that said transducers scan a given sector, said sec
+tor being divided into contiguous zones with the
+depth of each zone of the given sector correspond
+ing to the focal range of one of said transducers.
+* * * * it
+F
+’ r- " :1 . 1 - '~
+info-Boo AU 34-): ml
+UNITED STATES PATENT AND TRADEMARK OFFICE
+CERTIFICATE OF CORRECTEON
+PATENT NO. 4,233,988
+DATED November 18, 1980
+INVENTOR(S) : Donald E. Dick; Robert L. Metz;
+D. Scott RoJohn; Raymond D. Elliott
+It is certi?ed that error appears in the above-identi?ed patent and that said Leriers Patent
+is hereby corrected as shown below:
+Column 8, line 19, delete "more" and insert --move--.
+line 33, delete "25" and insert -—22-—.
+Signed and Scaled this
+Third Day Of Marchlé‘gl
+Column 18,
+[SEAL]
+Arrest.
+RENE D. TEGTMEYER
+Arresting Officer Acting Commissioner ofPatents and Trademark;
+UNITED STATES PATENT A ()FFIQE
+(IEIIKTIFICL'XTv QF EQTIUN
+PATENT N0. 1 4,233,988
+DATED 3 November 18 , 1980
+HNVENTOR(S).: Donald E. Dick; Robert L. Metz;
+D‘. Scott RoJohn; Raymond Do Elliott
+It is certified that error appears in the above-identi?ed patent and that said Letters Patent
+is hereby corrected as shown below:
+Column 8, line 19, delete "more" and insert —-move--°
+Column 18, line 33, delete "25" and insert --22--—.
+gigncd and ?ea?e
+Third Day 6? Marcia i981’
+[SEAL]
+Attest:
+RENE D. TEGTMEYER
+Arresting Oj?cer Acting Commissioner ofPatents and Trademarks
+

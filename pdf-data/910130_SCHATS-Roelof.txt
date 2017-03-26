@@ -1,0 +1,3694 @@
+TRANSVAGINAL SONOGRAPHY IN EARLY HUMAN PREGNANCY
+(Transvaginale echoscopie in de vroege humane graviditeit)
+PROEFSCHRIFT
+TER VERKRIJGING VAN DE GRAAD VAN DOCTOR
+AAN DE ERASMUS UNIVERSITEIT ROTTERDAM
+OP GEZAG VAN DE RECTOR MAGNIFICUS
+PROF. DR. C.J. RIJNVOS
+EN VOLGENS BESLUIT VAN HET COLLEGE VAN DEKANEN.
+DE OPENBARE VERDEDIGING ZAL PLAATSVINDEN OP
+WOENSDAG 30 JANUARI 1991 OM 15.45 UUR
+DOOR
+ROELOF SCHATS
+GEBOREN TE LEIDEN
+PROMOTIECOMMISSIE
+PROMOTOR: Prof. Jhr. Dr. J.W. Wladimiroff
+CO-PROMOTOR: Dr. C.A.M. Jansen
+OVERIGE LEDEN: Prof. Dr. Ir. N. Born
+Prof. Dr. H.P. van Geijn
+Prof. Dr. J. Voogd
+Voor Wilma,
+Rachel & Tamar
+PASMANS OFFSETDRUKKERJJ B.V., 's-GRAVENHAGE
+CONTENTS
+Page
+CHAPTER 1
+GENERAL INTRODUCTION AND DEFINITION
+OF THE STUDY OBJECTIVES.................................7
+1.1. Introduction.............................................7
+1.2. Definition of the study objectives............................8
+1.3. References..............................................9
+CHAPTER 2
+TRANSVAGINAL SONOGRAPHY: technical and
+methodological aspects........................................11
+2.1. Introduction.............................................11
+2.2. Technical aspects.........................................11
+2.3. Acceptability............................................13
+2.4. The examination.........................................14
+2.5. Transvaginal ultrasound equipment used in the present study........20
+2.6. References.............................................21
+CHAPTER 3
+THE SAFETY OF DIAGNOSTIC ULTRASOUND
+WITH PARTICULAR REFERENCE TO
+THE TRANSVAGINAL APPLICATION...........................23
+3.1. Introduction............................................23
+3.2. Diagnostic applications.....................................23
+1
+Page
+3.3. The biological effects......................................25
+3.3.1. The generation of heat.................................25
+3.3.2. Radiation force......................................26
+3.3.3. Cavitation..........................................26
+3.3.4. Radiation torque.....................................26
+3.4. Combined thermal and non-thermal effects on tissues..............27
+3.5. Experimental results and diagnostic conditions...................27
+3.6. The problem stated........................................28
+3.7. References..............................................33
+CHAPTER 4
+MORPHOLOGICAL AND BIOMETRICAL ASPECTS OF
+NORMAL EARLY PREGNANCY DEVELOPMENT..................35
+Introductory remarks..........................................35
+4.1. Normal morphological development in early pregnancy............37
+4.1.1. Introduction....................................... .37
+4.1.2. Subjects and methods................................ .37
+4.1.3. Embryonic development.............................. .38
+4.1.4. Sonographic findings................................. .44
+4.1.5. Discussion..........................................50
+4.1.6. References.........................................52
+4.2. The crown-rump length in early human pregnancy: a reappraisal. ....55
+4.2.1. Summary..........................................55
+4.2.2. Introduction........................................56
+4.2.3. Subjects and methods................................ .56
+4.2.4. Results............................................57
+2
+Page
+4.2.5. Discussion..........................................58
+4.2.6. References.........................................59
+CHAPTER 5
+DIAGNOSTIC, MORPHOLOGICAL AND THERAPEUTIC
+ASPECTS OF ABNORMAL EARLY
+PREGNANCY DEVELOPMENT.................................61
+Introductory remarks..........................................61
+5.1. Morphological aspects of abnormal embryonic development.........63
+5.1.1. Introduction........................................63
+5.1.2. Subjects and methods.................................63
+5.1.3. Results............................................64
+5.1.3.1. Gestational sac................................65
+5.1.3.2. Yolk sac.....................................66
+5.1.3.3. Crown-rump length............................68
+5.1.3.4. Cardiac activity...............................69
+5.1.3.5. Pregnancy outcome.............................70
+5.1.4. Discussion.........................................70
+5.1.5. References.........................................75
+5.2. The role of transvaginal sonography in diagnosis and
+management of ectopic pregnancy............................79
+5.2.1. Introduction........................................79
+5.2.2. Subjects and methods.................................80
+5.2.3. Results................................ ·............83
+5.2.4. Discussion........................................•.92
+5.2.5. References.•.......................................96
+3
+Page
+CHAPTER 6
+FUNCTIONAL ASPECTS OF THE DEVELOPING EMBRYO..........101
+Introductory remarks.........................................101
+6.1. Embryonic cardiac activity: appearance and development
+in early human pregnancy..................................103
+6.1.1. Summary..........................................103
+6.1.2. Introduction.......................................104
+6.1.3. Subjects and methods................................104
+6.1.4. Results...........................................106
+6.1.5. Discussion.........................................111
+6.1.6. References........................................113
+6.2. Asynchronous appearance of embryonic cardiac activity
+in multiple pregnancies following in-vitro fertilisation............115
+6.2.1. Introduction.......................................115
+6.2.2. Subjects and methods................................116
+6.2.3. Results...........................................117
+6.2.4. Discussion.........................................118
+6.2.5. References........................................120
+6.3. Abnormal embryonic heart rate pattern in
+early pregnancy associated with Down's syndrome...............121
+6.3.1. Summary..........................................121
+6.3.2. Introduction.......................................122
+6.3.3. Case history.......................................122
+6.3.4. Discussion.........................................124
+4
+Page
+6.3.5. References........................................125
+CHAPTER 7
+CONCLUSIONS............................................127
+SUMMARY................................................129
+SAMENVATTING...........................................132
+ACKNOWLEDGEMENTS..................................... 135
+CURRICULUM VITAE. ......................................136
+5
+6
+Transvaginal sonography in early human pregnancy
+CHAPTER 1
+GENERAL INTRODUCTION AND DEFINITION
+OF THE STUDY OBJECTIVES
+1.1. INTRODUCTION
+Efforts to employ transvaginal sonography as a method to visualise the
+internal genitalia and their contents already date from the late 1960's, when
+it was used to detect the embryonic heart beat and to study the female genital
+tract1• 2• It was reported that embryonic cardiac activity could be detected as
+early as 46 days menstrual age or 32 days after ovulation, which is much
+earlier than by then available conventional abdominal ultrasound techniques.
+However, the equipment was bulky and consisted of a large device producing
+A-mode images. Creation of two-dimensional images was extremely difficult
+and soon the method was forgotten3
+•
+It was only after the introduction of the grey scale technique and of real-
+time imaging in the mid-seventies that transvaginal sonography became
+feasible again. However, it took a considerable time before its value was
+rediscovered. This was probably due more to apprehension on behalf of the
+investigator than to lack of acceptance by the patient.
+Although the significance of the transvaginal approach was recognised in
+the early eighties, notably in the German speaking countries and the United
+States, the major breakthrough came from IVF centres where it was first
+employed for the puncture of follicles and later for routine monitoring of
+induction of follicular growth4•10. It soon became clear that transvaginal
+sonography could give more detailed information in the field of early
+embryonic development and gynaecological disease. Recently, a host of data
+on the first topic has been reported9"17. Its role in late pregnancy is mainly
+determined by its accuracy in diagnosing placenta praevia18 • 19•
+Transvaginal sonography, because of its superior resolution, has changed
+our concepts about normal and abnormal early pregnancy. More detailed
+evaluation of normal and abnormal early pregnancy first became possible
+7
+General introduction
+with the introduction of sensitive radio-immuno assays for human chorionic
+gonadotropin (hCG). Transvaginal sonography has opened the possibility of
+more accurate differentiation between early failure of intra-uterine gestation
+and ectopic pregnancy. More insight is needed into the synergistic role of
+transvaginal sonography and serial hCG determinations in the diagnosis and
+subsequent management of early pregnancy pathology.
+The improved visualisation of the developing embryo permits imaging of
+organs shortly after their development. Its clinical application may, therefore,
+be determined by more accurate pregnancy dating and the detection of gross
+structural anomalies20. It is suggested that the neural tube can be reliably
+traced as early as eight weeks menstrual age21 . Accurate information on renal
+size can now be obtained as early as 11 - 12 weeks menstrual age22.
+Transvaginal sonography has also been claimed to improve the procedure
+of chorionic villus sampling using an automatic puncturing device23.Its role
+as a routine application has not been determined yet.
+Recently, the introduction of traditional pulsed Doppler and colour
+Doppler facilities in transvaginal sonographic equipment has provided the
+option of studying early fetal cardiovascular dynamics24 •25•
+1.2. DEFINITION OF THE STUDY OBJECTIVES
+In this thesis attention will be focused on the role of transvaginal sonography
+in early pregnancy development. The objectives of the present study were:
+a. to determine the safety of diagnostic ultrasound with particular reference
+to the transvaginal application,
+b. to define the role of transvaginal sonography in:
+(i) the visualisation of normal early pregnancy development with emphasis
+on embryonic anatomy and biometrical aspects,
+(ii) the recognition, diagnosis and management of abnormal development,
+in particular missed abortion and ectopic pregnancy,
+(iii) the functional development of early pregnancy with special reference
+to the appearance and development of embryonic cardiac activity in single
+and multiple pregnancies under physiological and pathophysiological
+8
+Transvaginal sonography in early human pregnancy
+circumstances.
+1.3. REFERENCES
+1. Kratochwil A, Eisenhut L. Der fruheste Nachweis der fetalen Herzaktion
+durch Ultraschall. Geburtshilfe Frauenheilkd 1967; 27: 176-80.
+2. Kratochwil A. Ein neues vaginales Ultraschall-Schnittbild-verfahren.
+Geburtshilfe Frauenheilkd 1969; 29: 379-84.
+3. Bernaschek G. Vorteile der endosonographischen Diagnostik in
+Gynacologie und Geburtshilfe. Geburtshilfe Frauenheilkd 1987; 47:471-6.
+4. Feichtinger W, Kemeter P. Transvaginal sector scan sonography for needle
+guided transvaginal follicle aspiration and other applications in
+gynaecologic routine and research. Fertil Steril1986; 45: 722-5.
+5. Meldrum D, Chetkowski RJ, Steingold KA, Randle D. Transvaginal
+ultrasound scanning of ovarian follicles. Fertil Steri11984; 42: 803-5.
+6. Popp LW, Lueken RP, Muller-Holve W, Lindemann HJ. Gynakologischen
+Endosonographie: erste Erfahrungen. Ultraschal11983; 4: 92-8.
+7. Schwimer SR, Lebovic J. Transvaginal pelvic ultrasonography. J
+Ultrasound Med 1984; 3: 381-4.
+8. Schwimer SR, Lebovic J. Transvaginal pelvic ultrasonography: accuracy
+in follicle and cyst size determination. J Ultrasound Med 1985; 4: 61-2.
+9. Deutinger J, Reinthaller A, Bernaschek G, Chaischek P, Fischl F, Muller-
+Tyl E. Comparison of the results of vaginal and abdominal follicle scans.
+Arch Gynecol Obstet 1987; 241: 171-6.
+10. Deutinger J, Reinthaller A, Riss P, Bernaschek G, Csaicsich P, Muller-
+Tyl E, Fischl F, Janisch H. Vergleich von vaginosonographischer,
+transabdominellersonographischer und laparoskopischerFollikelpunktion
+zur Gewinning von Eizellen in Rahmen eines In-vitro-
+Fertilizierungsprogrammes. Wien Med Wochenschr 1987; 137: 108-12.
+11. DeCrespigny LCh, Early diagnosis of pregnancy failure with transvaginal
+ultrasound. Am J Obstet Gynecol1988; 159: 408-9.
+12. Fossum GT, Davajan V, Kletzky OA. Early detection of pregnancy with
+transvaginal ultrasound. Fertil Steril1988; 49: 788-91.
+9
+General introduction
+13. Endovaginal Ultrasound. S.R. Goldstein (ed) A.R. Liss, New York 1988.
+14. Jain KA, Hamper UM, Sanders RC. Comparison of transvaginal and
+transabdominal sonography in the detection of early pregnancy and its
+complications. AJR 1988; 151: 1139-43.
+15. Pennell RG, Baltarowich OH, Kurtz AB, Vilaro MM, Rifkin MD,
+Needleman L, Mitchell DG, Mervis SA, Goldberg BB. Complicated first
+trimester pregnancies: evaluation with endovaginal US versus
+transabdominal technique. Radiology 1987; 165: 79-83.
+16. Timor-Tritsch IE, Farine D, Rosen MG. A close look at early embryonic
+development with the high-frequency transvaginal transducer. Am J
+Obstet Gynecol 1988; 159: 676-81.
+17. Transvaginal Sonography.I.E. Timor-Tritsch & S. Rottem (eds),
+Heinemann Medical Books, London, 1988.
+18. Farine D, Peisner DB, Timor-Tritsch IE. Placenta previa- is the
+traditional diagnostic approach satisfactory ? J Clin Ultrasound 1990; 18:
+328-30.
+19. Leerentveld RA, Gilberts ECAM, Arnold MJCJW, Wladimiroff JW.
+Placental localization by transvaginal sonography. submitted
+20. Rottem S, Bronshtein M. Transvaginal sonographic diagnosis of congenital
+anomalies between 9 weeks and 16 weeks, menstrual age. J Clin
+Ultrasound 1990; 18: 307-14.
+21. Timor-Tritsch IE, Peisner DB, Raju S. Sonoembryology: an organ-
+oriented approach using a high-frequency vaginal probe. J Clin
+Ultrasound 1990; 18: 286-98.
+22. Bronshtein M, Kushnir 0, Ben-Rafael Z, Shalev E, Nebel L, Mashiach
+S, Shalev J. Transvaginal sonographic measurements of fetal kidneys in
+the first trimester of pregnancy. J Clin Ultrasound 1990; 18: 299-301.
+23. Popp LW, Ghirardini G. The role of transvaginal sonography in chorionic
+villi sampling. J Clin Ultrasound 1990; 18: 315-22.
+24. Kurjak A, Jurkovic D, Akfirevic Z, Zalud I. Transvaginal color Doppler
+imaging. J Clin Ultrasound 1990; 18: 227-34.
+25. Wladimiroff JW, Huisman TWA, Stewart PA. Cardiac flow velocities in
+the late first trimester fetus; a transvaginal Doppler study. submitted.
+10
+Transvaginal sonography in early human pregnancy
+CHAPTER 2
+TRANSVAGINAL SONOGRAPHY:
+Technical and Methodological aspects
+2.1. INTRODUCTION
+Ultrasonography is a technology which is gaining rapid acceptance by
+clinicians. The development of transducers for vaginal use was the result of
+the discontent with the information that could be obtained with the
+traditional abdominal scanning techniques leading to the manufacturing of
+transducers so small that they could be inserted into the vagina. This chapter
+deals with the technical and methodological aspects of transvaginal
+sonography and its patients' acceptability.
+2.2. TECHNICAL ASPECTS
+Optimal ultrasound imaging of the female pelvic organs is difficult to
+achieve. This is due to the pelvis being "crowded" with various structures of
+similar acoustic impedance. The distance from an abdominal probe to these
+organs is relatively large, precluding the use of frequencies higher than 5.0
+MHz. This limits both axial and lateral resolution. Axial resolution is the
+minimum reflector separation required along the direction of sound travel so
+that separate reflections will be produced. The important parameter in
+determining axial resolution is the ultrasonic pulse length (spatial pulse
+length)1:
+axial resolution= spatial pulse length I 2
+Spatial pulse length can be decreased by increasing the frequency and/or
+reducing the number of cycles in each pulse. The latter is achieved by
+11
+Technical and Methodological aspects
+increasing the transducer damping. When damping is reduced to a minimum
+(e.g. 2- 3 cycles per pulse), the only way to improve axial resolution is to
+increase frequency. Lateral resolution is the minimum separation in the
+direction perpendicular to the course of the ultrasonic beam. This is the
+minimal distance between two reflectors that will produce two separate
+reflections when the beam is scanned across them. Lateral resolution is
+directly proportional to the beam diameter or width. Increasing the frequency
+reduces the beam diameter. A method of improving image quality is taking
+pelvic scans while the bladder is full. By introduction of a fluid-filled space,
+it is possible to observe more clearly some of the pelvic organs. However, it
+1.4 ..L2
+2.4
+1-0.3
+(:ll /1) -
+1 4
+7.5 MHz 1
+0.2
+3
+1-0.6
+2__L.4
+1.5' 7
+6.5 MHz 1
+0.3
+Resolution
+Focal Length ._
+6
+Focal Reg ion
+(mm)
+4~7
+/
+Lateral -1.5
+2 12
+Axial
+5.0 MHz 1
+0.4
+6_Ls 1-2.0
+p11 II) 5 • 11
+17
+3.5 MHz I
+0.6
+0 1 2 3 4 5 6 7 8 91011121314151617181920
+CENTIMETRES
+Figure 2.1. A representation of the physical properties (axial and lateral
+resolution, focal length and focal region) of transducers with different
+emission frequencies.
+12
+Transvaginal sonography in early human pregnancy
+appears that a full bladder distorts the anatomy2 and the problems discussed
+above are still present, so many fine details cannot be visualised. The concept
+of the vaginal transducer solved many of these problems and made it possible
+to obtain high-quality images of the pelvic anatomy. The main improvement
+is achieved by placing the ultrasonic probe closer to the pelvic structures. The
+relevant anatomical structures for transvaginal imaging are almost always
+within 9 em of the vaginal fornices. The closer the object of interest, the
+higher the frequency that can be utilised and, therefore, the better the axial
+resolution. It is possible to increase the transducer frequency up to 7.5 MHz,
+while attenuation is still acceptable. Axial resolution is improved by 40-50%
+compared with the resolutions obtained with the conventional2.5 to 5.0 MHz
+transducers used in abdominal scanning. Lateral resolution is also improved
+with the use of higher frequency, and stronger focusing is made possible by
+the proximity of the scanning head to the pelvic structures. A schematic
+representation of the physical properties of transducers with different
+emission frequencies is provided in Figure 2.13
+• Transvaginal sonography is
+preferably performed with an empty bladder. A full bladder may displace
+most of the pelvic organs beyond the reach of the focal zone of the
+transducer. Moreover it will distort pelvic anatomy.
+2.3. ACCEPTABILITY
+The advantages mentioned above completely cover the objectives of the
+examiner in trying to arrive at a more accurate diagnosis. Before embarking
+on a new technique the question of patients' acceptability has to be answered.
+With the introduction of transvaginal sonography an inquiry was conducted
+into the acceptance of this new method. A total of 100 patients in which both
+transabdominal and transvaginal sonography was planned was fully informed
+about both sonographic techniques. It is noted that at that time most patients
+do not associate ultrasound scanning with a vaginal examination. The
+similarity between the vaginal transducer and a speculum was mentioned.
+Only three patients experienced slight discomfort while introducing the probe
+into the vagina. In general, transvaginal sonography was far preferred to
+13
+Technical and Methodological aspects
+abdominal scanning. The answers revealed that this was mainly due to the
+fact that a full bladder was not necessary using the latter approach. Next to
+the discomfort experienced from pressure of the abdominal transducer on a
+tense bladder, this approach also means that patients have to drink about one
+litre of fluid one hour before the abdominal scan is performed. This may
+cause disruption of the daily routine, especially in patients who need serial
+sonographic evaluation such as monitoring of follicular growth. Particularly,
+these patients complained about this "necessary precaution" and they felt that
+it accentuated their (infertility) problem. Also the examiner may be faced
+with a problem. If a quick diagnosis is needed, there is no time to wait for a
+full bladder. Drinking can even be contraindicated when surgery is in
+question. In that case intravenous fluid application in combination with a
+diuretic drug or bladder filling through a catheter will provide a full bladder,
+but these are not the routine out-patient procedures.
+2.4. THE EXAMINATION
+For optimal imaging the following three main movements of the vaginal
+probe are available4:
+I
+I
+I·
+I
+A
+I
+I
+I
+/
+/
+/
+/
+/
+/
+....
+....
+'
+'
+' ....
+' '
+' ' ....
+....
+I
+I
+I
+I
+I
+______ _)
+Figure 2.2a. Rotating the probe along its longitudinal axis to get the right
+dimensions of a structure.
+14
+Transvaginal sonography in early human pregnancy
+1. rotating the handle slowly along the longitudinal axis of the probe to
+change the scanning plane along a 360 degrees range (Figure 2.2a),
+\
+\
+8
+\
+\
+\
+' ' ' ' ' '
+I
+I
+I
+-_;
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+'\
+1
+I
+>--------
+Figure 2.2b. Angling or tilting of the probe to point at the structure of
+interest.
+2. tilting or angling the shaft by its handle so as to point the tip of the probe
+in any direction in the pelvis (Figure 2.2b),
+3. pushing- pulling the entire probe to bring a deeper or a closer situated
+organ or structure into the focal region (Figure 2.2c).
+Pelvic structures should always be studied in a horizontal and vertical plane
+(Figure 2.3a and 2.3b). The first structure on the path of the vaginal probe to
+its final position for scanning the pelvis is the cervix (Figure 2.4). If the
+cervix has to be scanned it may be done as the probe penetrates 3 em into the
+15
+I
+I
+I
+/
+/
+I
+I
+I
+I
+I
+I
+I
+I
+I
+\
+c
+\
+\
+\
+\
+\
+' \
+'
+'Technical and Methodological aspects
+/-'"\
+'' ''
+/
+I
+I
+I
+'-.J
+\
+\
+\
+I
+I
+I
+\
+I
+'
+/
+/
+I
+\
+\
+\
+\
+Figure 2.2c. Pushing or pulling the probe to get deeper or closer
+structures in focus (2,a,b,c Reprinted with permission from Timor-Tritsch
+IE & Rottem (eds), Transvaginal sonography, 1988).
+Figures 2.3a & 2.3b. Illustration of a horizontal (A) and a vertical plane
+(B) of scanning (Reprinted with permission from Timor-Tritsch IE &
+Rottem S (eds), Transvaginal sonography, 1988).
+16
+Transvaginal sonography in early human pregnancy
+vagina, so before the tip of the transducer reaches the cervix itself. The most
+Figure 2.4. Sagittal plane of scanning of a normal cervix.
+prominent landmark in the pelvis is usually the uterus (Figure 2.5). If the
+Figure 2.5. Sagittal plane of scanning of an uterus with thick pre-
+ovulatory endometrium.
+17
+Technical and Methodological aspects
+uterus is detected on the screen, systematic scanning should start. The
+direction of the probe and the plane of scanning (horizontal or vertical) gives
+Figure 2.6. Normal amount of fluid in the cul-de-sac just before or after
+ovulation.
+information about the position of the uterus (anteflexed or retroflexed,
+anteverted or retroverted). After the uterus and its contents are examined, the
+pouch of Douglas should be sought. In many cases there is some fluid present
+in the cul-de-sac (Figure 2.6). Free fluid outlines the posterior wall of the
+uterus and sometimes even the ovaries. The tip of the transducer should now
+be pointed toward the side of the uterus to visualise the adnexa. The ovaries
+are the most prominent structures (Figure 2.7). If the uterus and the ovaries
+are localised, the tubes may be scanned. They should be sought posterior to
+the imaginary horizontal plane drawn at the level of the endometrial line at
+the sides of the uterus. If they are normal and healthy or no fluid surrounds
+them, they cannot be visualised5• If pathological (e.g. dilated, thickened,
+fluid-filled or housing a gestational sac), they are usually recognised easily
+(Figure 2.8)5. The next step is to look for space-occupying structures in the
+18
+Transvaginal sonography in early human pregnancy
+Figure 2.7. An ovary showing multifollicular development following
+stimulation with gonadotropins.
+Figure 2.8. Afluid-filled, dilated Falloppian tube (hydrosalpinx).
+19
+Technical and Methodological aspects
+pelvis. The entire pelvis must be systematically "covered" by horizontal and
+vertical sonographic planes, and a thorough search should be made along
+them. The effective focal zone of high frequency transducers ends at 7 - 8
+em. One may see structures further away than 8 em, but they appear "blurred"
+and are irregularly outlined. A fairly large mass may be missed by vaginal
+scanning if, because of its size, it does extend out of the reach of the vaginal
+transducer. If a pelvic mass has to be ruled out or is suspected, an additional
+transabdominal scan should be performed. Some special manoeuvres can
+improve the diagnostic potential of the technique6: The examiner may place
+his/her free hand on the lower abdomen to bring pelvic structures closer to
+the tip of the probe, as in a regular bimanual pelvic-abdominal examination.
+In case of pelvic pain, localisation of the point of maximal intensity may be
+attempted under direct vision and gentle pressure with the tip of the
+transducer. Diagnosis of pelvic adhesions becomes possible by the "sliding
+organs sign": the transducer tip is pointed at the uterus, ovaries, or any pelvic
+finding (e.g. ovarian mass, tuba-ovarian complex), and a gentle push-pull
+movement of several centimetres is started. If no adhesions are present, the
+organs will move freely in the pelvis. This displacement of organs is
+perceived on the screen as a sliding movement. One may, for instance,
+observe the free sliding of an ovarian mass over the lateral pelvic wall, which
+of course is static. In the case of a tuba-ovarian complex, the relative
+locations of the uterus, tube, and ovary will not change under the pushing
+motion of the probe, because of extensive adhesions preventing normal and
+physiological sliding of these organs.
+2.5. TRANSVAGINAL ULTRASOUND EQUIPMENT
+USED IN THE PRESENT STUDY
+1. Diasonics DRF 400 equipped with a 5.0 and a 7.5 MHz mechanical sector
+scan transducer. Ispta = 2.0 mW/cm2
+at a depth of 4.5 em for both
+frequencies.
+20
+Transvaginal sonography in early human pregnancy
+2. Toshiba SAL 77B equipped with a 5.0 MHz electronic convex sector scan
+transducer. Ispta = 8.0 mW/cm2
+at a depth of 4.5 em.
+3. Kretz Combison 310 equipped with a 5.0 and a 7.5 MHz mechanical sector
+scan transducer. Ispta = 7.8 mW/cm2
+, depth not specified for both
+frequencies.
+The ultrasound equipment mentioned under points 1 and 2 was used in the
+morphological, biometrical and dynamic studies, while the last apparatus was
+used in a few patients described in chapter 5.2. as well as for producing some
+photographic illustrations.
+2.6. REFERENCES
+1. Nyborg WL, Biophysical mechanisms of ultrasound. In: Essentials of
+medical ultrasound. M.H. Repacholi & D.A. Benwell (eds), Humana Press,
+Clifton 1982.
+2. Timor-Tritsch IE, Bar-Yam Y, Elgali S, Rottem S. The technique of
+transvaginal sonography with the use of a 6.5 MHz probe. Am J Obstet
+Gynecol 1988; 158: 1019-24.
+3. Thaler I, Manor D. Transvaginal imaging: applied physical principles and
+terms. J Clin Ultrasound 1990; 18: 235-8.
+4. Thaler I, Bruck A, Rottem S. The vaginal probe- physical considerations.
+In: Transvaginal Sonography. I.E. Timor-Tritsch & S. Rottem (eds),
+Heinemann Medical Books, London, 1988: 1-13.
+5. Timor-Tritsch IE, Rottem S. Transvaginal ultrasonographic study of the
+fallopian tube. Obstet Gynecol1987; 70: 424-8.
+6. Timor-Tritsch IE, Rottem S, Elgali S. How transvaginal sonography is
+done. In: Transvaginal Sonography. I.E. Timor-Tritsch & S. Rottem (eds),
+Heinemann Medical Books, London, 1988: 15-25.
+21
+22
+Transvaginal sonography in early human pregnancy
+CHAPTER 3
+THE SAFETY OF DIAGNOSTIC ULTRASOUND
+WITH PARTICULAR REFERENCE TO
+THE TRANSVAGINAL APPLICATION
+3.1. INTRODUCTION
+Ultrasound is a mechanical wave phenomenon: by definition it is made up of
+sound waves with a frequency beyond the upper physiological auditory limit
+(20.000 Hz). Generally, medical ultrasound is performed with frequencies
+higher than 1.0 MHz. During propagation of the ultrasound pulse the
+structures of the tissues are made to vibrate on both the molecular and the
+cellular level. In addition to density (specific mass), the elastic properties of
+the tissues determine the propagation of ultrasound and its biological effects.
+These effects differ from those caused by ionising radiation (X-rays, gamnia
+rays etc.). Ultrasound is neither ionising nor are its effects cumulative. The
+fact that it lacks mutagenic effects means that the cells suffer from reversible
+damage or are destroyed. Destruction is directly related to the radiation dose.
+Hence the biological effect of ultrasound may be viewed as an "all or none"
+phenomenon1. In general, the physical phenomena induced by ultrasound may
+be separated into thermal (heat generation) and non-thermal effects (radiation
+force, cavitation and microstreaming). A direct relationship between sound
+intensity and biological effects is not always present, moreover an increase in
+frequency does not always influence all effects uniformly. Consequently it is
+important to study the threshold values for the individual biological effects
+in order to draw up potential guidelines for safe use.
+3.2. DIAGNOSTIC APPLICATIONS
+The application of ultrasound in medical diagnosis is generally called
+echography. This comprises the imaging of anatomical structures and tissues
+23
+The safety of diagnostic transvaginal ultrasound
+on a screen (echoscopy) as well as detecting the movement of structures and
+measuring flow in blood vessels (Doppler technique). A wide variety of
+equipment has bef?n developed for both fields of application and various
+techniques are available for ultrasound imaging:
+A-Mode: a one-dimensional image of the echo magnitude as a function of
+depth,
+M-Mode: a one-dimensional image of the localisations of structures as a
+function of time,
+B-Mode: a two-dimensional image of a section of the body through which the
+magnitude of the echo is transformed into luminosity on the screen.
+There are two types of B mode equipment:
+1. Static B Scanners: the transducer is manually moved over the patient's
+body. The image on the monitor lasts one or more
+seconds. These scanners have been used in the early
+years of ultrasound in medicine and they are completely
+replaced by real time scanners,
+2. Real-time B scanners: the image is obtained in a short time, so that one to
+50 images per second are produced and the
+echoscopist is continuously able to follow all
+changes caused by movements of the transducer or
+patient (fetus, embryo).
+Real-time B scanners are also of two types based on the way in which the
+movement of the sound beam is obtained:
+A. Mechanical real-time scanners:
+the transducer makes a tilting movement or is rotated by means of an electric
+motor. These scanners provide a sector image,
+24
+Transvaginal sonography in early human pregnancy
+B. Electronic real-time scanners:
+they operate according to the "linear array" or "phased array" principle. The
+transducer consists of a series of small elements transmitting and receiving,
+either one after the other or in subgroups (linear array) or phased (phased
+array), resulting in a rectangular and a sector image respectively.
+The Doppler apparatus for velocity measurements can be either of the
+"continuous wave" (CW) or the "pulsed Doppler" (PD) type of equipment. The
+latter can also be used for two-dimensional velocity imaging in the colour
+Doppler mode. We did not use Doppler equipment in our study. Therefore
+we will not discuss the specific fields of application.
+3.3. THE BIOLOGICAL EFFECTS: physical aspects.
+3.3.1. The generation of heat
+The conversion of ultrasound energy into heat due to absorption may lead to
+a rise in temperature in the tissues. The absorption increases with a rise in
+frequency as well as a rise in ultrasound pressure (=intensity). This ratio is as
+follows2
+:
+8W = 0.23 a (f) I,
+where 8W =local generation of heat per second in a volume of 1 em3
+(J.cm· 3.s),
+and
+a (f)= absorption coefficient in decibels per centimetre (dB/em); in
+most tissues the coefficient is proportional to the frequency,
+I= local average intensity per time unit in W/cm2•
+Biological effects may be expected when the temperature in the tissues
+exceeds 42 ° C. Absorption in various tissues differs considerably, so that heat
+generation resulting from a specific intensity is also affected by the location
+and direction of the ultrasound beam. Since the intensity decreases
+25
+The safety of diagnostic transvaginal ultrasound
+exponentially with penetration due to absorption for non-focusing
+transducers, the heat effect will be greatest in those tissues which lie closest
+to the transducer. Finally, the rise in temperature due to absorption also
+depends on the blood flow and on the property of the tissues to conduct heat
+(heat release). Experimental studies revealed that tissues in mammals exposed
+to diagnostic ultrasound intensity levels show no significant rise in
+temperature3• 4.
+3.3.2. Radiation force
+Ultrasound generates a force on the surface between two tissues which may
+produce a biological effect. This radiation force may also cause effects in cell
+suspensions such as stasis and aggregation5• These phenomena usually occur
+when standing waves are generated, for example at the point of transition
+from soft tissue to bone.
+3.3.3. Cavitation
+Cavitation may occur during the use of a continuous wave (=CW) or pulsed
+wave (=PW). It can occur only if microscopically small gas bubbles are present
+in the tissue or blood. With CW ultrasound these bubbles may enlarge as a
+result of the radiation to a size that will cause resonance (stable cavitation).
+However, when pulsed ultrasound is used with a relatively high intensity the
+gas bubble may implode, resulting in locally very high temperatures
+(formation of radicals) and pressures (shock wave). This phenomenon is called
+transient cavitation. Some authors are of the opinion that, if the peak
+intensity of the ultrasound is less than 1500 WI em2 transient cavitation does
+not occur in-vivo6• 7• However, with a continuous wave intensity of 150 to
+500 mW/cm2 stable cavitation may occur in-vivo 5•8•
+3.3.4. Radiation torque
+A mechanical effect that causes microstreaming is the so-called radiation
+torque, which produces a rotating movement of cells and even intracellular
+structures. Consequently microstreaming will be present around the cells and
+the cell wall may well be damaged by hydrodynamic shear stresses. There are
+indications that an oblique sound beam when directed at blood vessel walls
+26
+Transvaginal sonography in early human pregnancy
+may produce microstreaming. A third cause of microstreaming is stable
+cavitation (also see 3.3.3.). High velocity gradients are established around the
+oscillating gas bubbles which may damage structures like blood cells. No
+direct evidence exists that microstreaming is of any importance in the range
+of intensities used in diagnostic ultrasound for in-vivo diagnosis9.
+3.4. COMBINED THERMAL AND NON-THERMAL
+EFFECTS ON TISSUES
+Krizian has shown that the processes mentioned above when combined may
+influence each other10. When the temperature is raised, red blood cells are
+more prone to dal;Ilage due to mechanical forces. In high intensity non-
+homogeneous sound fields the chance of red blood cells being damaged from
+the combined effects of elevated temperature due to absorption and
+mechanical forces provoked by the presence of pressure gradients, is much
+higher than when only one of these two processes influences the cells.
+3.5. EXPERIMENTAL RESULTS AND DIAGNOSTIC CONDITIONS
+The effects of ultrasound on biological systems have been described in
+approximately 800 publications. The American Institute of Ultrasound in
+Medicine (AlUM) Bioeffects Committee reviews periodically the literature
+concerning this topic and formulates guidelines for safe use11 . The following
+facts should be taken into account:
+A. The occurrence of a marked rise in temperature, stable cavitation,
+radiation force and (micro-) streaming has been observed only when
+continuous wave (Doppler) ultrasound of high intensities (~ 100
+mW/cm2) 11 or pulsed ultrasound of long pulse lengths(~ 1 microsecond)
+with high intensities(~ 100 mW/cm2) was used11. Thus it is reassuring to
+realise that the pulsed ultrasound used in clinical situations is emitted in
+pulses of one microsecond followed by a pause of one millisecond. In an
+27
+The safety of diagnostic transvaginal ultrasound
+examination lasting 15 minutes, the tissues are effectively exposed to
+ultrasound to a maximum of only one second. Therefore, medical
+diagnostic equipment should conform to the requirement that the intensity
+(Ispta) emitted does not exceed 100 mW/cm2
+as is recommended in a report
+of a committee of the Dutch Health Council12.
+B. The biological effects of ultrasound depend on local conditions during
+insonation. Certain cell types used in in-vitro experiments may be
+specifically sensitive to certain ultrasound effects.
+C. Extrapolation of the results of in-vitro studies to cover clinical results
+possesses questionable validity. In-vitro studies may produce various
+artificial situations, such as very high intensities in the tissues closest to
+the transducer due to non-uniformity of the sound beam, and the
+development of static waves and focusing due to ultrasound reflection
+from curved structures.
+D. A major problem arises if clinical studies are compared with animal
+studies. In the mouse an ultrasound intensity of 20 mWI em2 at the level of
+the maternal abdomen results in a virtually unchanged intensity at the
+level of the fetus. In humans, by contrast, a threefold reduction in
+intensity takes place between the maternal abdominal wall and the fetus12.
+In addition, the animal will lie absolutely still during the examination and
+the fetus will be fully insonated, whereas in humans the transducer is
+usually repositioned repeatedly.
+3.6. THE PROBLEM STATED
+The introduction of diagnostic ultrasound may be viewed as one of the most
+important developments in medical diagnosis during the past· 25 years.
+Extensive studies have been carried out to evaluate the potential biological
+effects of ultrasound. Extrapolation of the results of animal studies or tissue
+culture experiments into the possible effects of echoscopy in pregnancy
+28
+Transvaginal sonography in early human pregnancy
+presents a problem. In most publications no obvious evidence of any harmful
+effect of diagnostic imaging in pregnancy is provided, but it is still premature
+to state that it is harmless. There are no data available on possible deleterious
+effects of the transvaginal application of diagnostic ultrasound in early
+pregnancy. Before the start of our project we compared abdominal and
+vaginal real-time B mode transducers for the factors influencing the sound
+intensity (I) at the level of the embryo. The following factors have to be taken
+into account:
+1. I t , I t , I t , duration of the pulse and the pulse frequency.
+sa a spa sp p
+2. Distance between transducer and embryo, frequency of the transducer
+(MHz) and the absorption of ultrasound in the different tissues.
+Ad 1. There are, as already has been mentioned, different ultrasound systems
+with their own characteristics. The acoustic dosage is for example
+dependent on which area in a certain period of time is covered.
+Furthermore, intensity is determined by the pulse frequency and pulse
+duration. The intensity will have a peak value during the pulse, while
+the mean value in time is much lower. Three definitions are often used
+to indicate and define characteristics of transducers:
+SATA Intensity: Temporal mean intensity averaged over the beam
+cross-sectional area in Watt/em2• This intensity is
+often reported by manufacturers (SATA: ~patial
+Average, Temporal Average).
+SPTA Intensity: The local maximal and temporal average intensity in
+Watt/cm2 (SPTA: ~atial f.eak, Temporal Average).
+SPTP Intensity: The local maximal and ternporal peak intensity in Watt/
+em2• This intensity is of course higher than the SPTA
+or SATA value (SPTP: ~patial f.eak, Temporal f.eak).
+29
+The safety of diagnostic transvaginal ultrasound
+Table 2.I presents a classification of the two most used definitions of intensity
+in relation to the three different diagnostic methods of ultrasound systems.
+Table 2.1. Values for the intensities of the various
+diagnostic ultrasound systems (modified from
+Report No. 13 of the Dutch Health Counci112)
+TECHNIQUE
+Diagnostic *
+(pulse/echo imaging)
+Doppler
+continuous wave
+pulsed Doppler
+Isata
+(mW/cm2)
+0.01-15
+10-400
+5-32
+0.5-200
+10-1000
+20-290
+* The group diagnostic pulse/echo imaging includes
+both M-mode and real-time imaging systems.
+The start intensities mentioned above can be the same for transducers for
+abdominal and vaginal application, but the intensity at the level of the object
+of study (embryo, fetus) may be different (see Ad 2.).
+Ad 2. Figures 3.1 and 3.2 show the actual situation of transabdominal and
+transvaginal echography in early pregnancy. In order to calculate the
+sound pressure at the level of the embryo we used the graphics
+composed by Wells13, collecting the data from other publications. The
+absorption of sound pressure in the different tissues involved is as
+follows:
+Pat
+Muscle
+Water
+1 ·dB/cm/MHz,
+2 dB/cm/MHz,
+0.01 dB/cm/MHz.
+30
+Transvaginal sonography in early human pregnancy
+In order to make the comparison not too complicated we assume that
+the abdominal and vaginal transducers have the same start intensity and
+a frequency of 3.0 and 7.0 MHz respectively.
+BLADDER :!: 8 em
+:!: 4 em
+FIGURE 1
+DISTANCE :t 4 em
+5.0- 7.5 MHz
+FIGURE 2
+Figures 3.1 & 3.2. Schematic representation of transabdominal (Figure
+1) and transvaginal (Figure 2) sonography.
+31
+The safety of diagnostic transvaginal ultrasound
+Table 2.11. Absorption of sound intensity in dB in the
+various tissues employing transabdominal and
+transvaginal sonography in early pregnancy.
+Transabdominal (3.0 MHz)
+Fat 3 em -9 dB
+Muscle 2 em -12 dB
+Bladder 8 em -0.24 dB
+Uterus 2 em -12 dB
+TOTAL -30.24 dB
+Transvaginal (7.0 MHz)
+Uterus 4 em -56 dB
+TOTAL -56 dB
+From the data presented in Table 2.II one can conclude that compared
+with transabdominal sonography the application of transvaginal
+sonography results in higher absorption, mainly because of the use of
+a higher frequency which means a lower intensity at the level of the
+embryo. Recently introduced advanced techniques like beam narrowing
+(especially applicable to higher frequencies) and focusing can influence
+the result of the summation. However, these effects are relatively small
+and they will not affect the final conclusion. To our knowledge no
+studies are published in which the safety of mother and embryo
+following transvaginal sonography in early pregnancy is evaluated.
+Nevertheless, the literature on the effects of ultrasound on biological
+systems and the above presented calculation convinced us that our
+project would not have any deleterious effect on mother or embryo.
+The presented data indicate that early pregnancy scanning using high
+frequency transvaginal sonography is a safe procedure.
+32
+Transvaginal sonography in early human pregnancy
+3.7. REFERENCES
+1. Williams AR. Ultrasound: biological effects and potential hazards.
+Academic Press, London, 1983.
+2. Nyborg WL, Ziskin MC. Biological effects of ultrasound. In: Clinics in
+Diagnostic Ultrasound. W.L. Nyborg & M.C. Ziskin (eds), Churchill
+Livingstone, New York, 1985.
+3. Lele PP. An overview of ultrasound theory: measurement, medical
+applications and biological effects. U.S. Department of health and human
+service, 1982; 48 (HHS publication FDA 82 - 8190).
+4. Nyborg WL et al. Biological effects of ultrasound: mechanisms and clinical
+implications, 1983, NCRP report No 74.
+5. Dyson M, Woodward B, Pond JB. Flow of red blood cells stopped by
+ultrasound. Nature 1979; 232: 572-3.
+6. Lele PP. Cavitation and its effects on organized mammalian tissues- a
+summary. In: Ultrasound: its applications in Medicine and Biology. C.J.
+Fry (ed), Elsevier, Amsterdam, 1978; 178: 737-41.
+7. Gros DR, Miller DL, Williams AR. A search for ultrasonic cavitation
+within the canine cardiovascular system. Ultrasound Med Biol 1985; 11:
+85-97.
+8. TerHaar G, Daniels S, Eastaugh K, Hill CR. Ultrasonically induced
+cavitation in-vivo. Br J Cancer 1982; 45: 151-5.
+9. Kremkau FW. Biological effects and possible hazards. In: Ultrasound in
+Obstetrics and Gynaecology; recent advances. S. Campbell (ed), Saunders
+Company Ltd, London, 1983.
+10. Krizian JE, Williams AR, Biological membrane rupture and a phase
+transition model. Nature New Biol1973; 246: 121.
+11. American Institute of Ultrasound in Medicine Bioeffects Committee.
+Bioeffects considerations for the safety of diagnostic ultrasound. J
+Ultrasound Med 1988; 7: Suppl, whole issue.
+12. Ultrasound in Medicine, Recommendations on the subject of Ultrasound
+by a committee of the Health Council of the Netherlands, The Hague,
+1986; Report No. 13.
+13. Wells PNT. Biomedical Ultrasonics, Academic Press, London, 1977.
+33
+34
+Transvaginal sonography in early human pregnancy
+CHAPTER 4
+MORPHOLOGICAL AND BIOMETRICAL ASPECTS OF
+NORMAL EARLY PREGNANCY DEVELOPMENT
+INTRODUCTORY REMARKS
+Information on early morphological development of the embryo has been
+based on transabdominal ultrasound studies. Transvaginal sonography can be
+used earlier and a more detailed analysis of the embryo and its surroundings
+is possible. This is of clinical importance when a pathological development of
+pregnancy is suspected. This chapter consists of two parts. In the first part
+(4.1.) the role of transvaginal sonography in visualising embryonic structures
+as they develop during the first six weeks following conception (eight weeks
+menstrual age) will be determined. This will be preceded by an overview of
+what is known about early human embryonic morphology from animal and
+human post-mortem specimens. In the second part (4.2.), there will be a
+reappraisal of the embryonic crown-rump length measurement in early
+pregnancy using transvaginal sonography.
+35
+36
+Transvaginal sonography in early human pregnancy
+4.1. NORMAL MORPHOLOGICAL DEVELOPMENT
+IN EARLY PREGNANCY
+4.1.1. INTRODUCTION
+Transabdominal sonography has been used as an effective diagnostic and
+research tool in obstetrics. Its application is mainly in the second and third
+trimester of pregnancy. Its use in the first trimester is relatively limited and
+mainly diagnostic in nature. The introduction of the vaginal transducer which
+allows higher emission frequencies, leading to a better resolution has opened
+new possibilities in the study of early gestation. The present study describes
+in detail the information which can be gathered on embryonic morphology
+using transvaginal sonography in the first six weeks following conception.
+4.1.2. SUBJECTS AND METHODS
+Singleton and mult:jple pregnancies of 62 women (83 embryos) were studied.
+All patients became pregnant by means of IVF treatment; the duration of
+pregnancy was therefore exactly known. Twenty-three patients (28 gestational
+sacs, 28 embryos) were scanned from day 17 following follicle aspiration (FA)
+at two or three days intervals until day 23 after FA, then every day until the
+detection of embryonic cardiac activity. The other 39 patients (55 embryos)
+were examined daily from day 25 after FA until the appearance of embryonic
+cardiac activity, thereafter they were followed at intervals of two or three
+days until 42 days after FA. All examinations were performed using the
+Diasonics DRF 400 and the Toshiba SAL 77B, the former equipped with a 5.0
+and a 7.5 MHz mechanical sector scan transducers and the latter with a 5.0
+MHz electronic sector scan probe.
+37
+Aspects of normal early pregnancy development
+4.1.3. EMBRYONIC DEVELOPMENT
+Before providing a detailed description of the morphological features of early
+pregnancy as visualised by transvaginal sonography an overview of the
+highlights of embryonic development during the first six weeks following
+conception will be presented1
+•
+WEEKS 1 and 2: fertilisation and implantation
+Spermatozoa deposited in the vagina pass through the cervical canal, the
+uterine cavity and along the Falloppian tube to the ampulla, where
+fertilisation usually occurs. As the zygote passes down the Falloppian tube,
+B.
+--endometrial
+stroma
+cytotrophoblast
+embryonic
+~endoderm
+uterine cavity
+Figure 4.1.1. Blastocysts containing the embryoblast, a blastocyst cavity
+and the trophoblast (Reprinted with permission from Moore KL (ed), The
+developing human, 1973).
+38
+Transvaginal sonography in early human pregnancy
+it undergoes cleavage in a number of small blastomeres. About 3 to 5 days
+after fertilisation, a ball of approximately 16 blastomeres, called the morula,
+enters the uterus. Soon a cavity is formed within the morula converting it into
+a blastocyst consisting of: 1) an inner cell mass (embryoblast), which gives
+rise to the embryo; 2) a blastocyst cavity and 3) an outer layer of cells
+(trophoblast) which encloses the inner cell mass and blastocyst (Figure 4.1.1).
+Implantation of the blastocyst begins at the end of the first week and ends
+during the second week. The entire process may be summarised as follows:
+1. Zona pellucida disappears (days 4 - 5),
+2. Blastocyst attaches to endometrial epithelium (day 6),
+3. Trophoblast erodes epithelium and endometrial stroma (day 7),
+4. Trophoblast differentiates into cytotrophoblastic and
+syncytiotrophoblastic layers (days 7- 8),
+5. Lacunae appear in syncytiotrophoblast (days 8- 9),
+6. Blastocyst sinks beneath surface of the endometrial epithelium (days 9 -
+10),
+7. Lacunar networks are formed by fusion of adjacent lacunae (days 10 -11),
+8. Trophoblast invades endometrial sinusoids, allowing maternal blood to seep
+into the lacunar networks and establishes the uteroplacental circulation
+(days 11- 12),
+9. Endometrial epithelium completely re-forms over the implanted
+blastocyst (days 12 - 13),
+10.Marked decidual reaction occurs in the endometrium around the
+conceptus.
+References to days are given only as guidelines and thus are approximations
+of the truth because early stages of implantation of the human blastocyst have
+not been observed. Most knowledge about early implantation is based on
+studies in the Rhesus monkey, but the process is thought to be essentially
+similar in man2•
+WEEK 3:
+During this period rapid embryonic development coincides with the first
+39
+Aspects of normal early pregnancy development
+missed menstrual period. Major changes occur as the bilaminar embryonic
+disc is converted into a trilaminar embryo composed of three primary germ
+layers. The most important features of the third week are:
+1. Formation of the primitive streak and the intra-embryonic mesoderm,
+2. Notochord formation,
+3. Neural tube formation,
+4. Somite formation: division of the paraxial mesoderm into pairs of somites
+starts cranially by the end of the third week.
+5. Intra-embryonic coelom formation: the coelomic spaces subsequently
+coalesce to form a single horseshoe-shaped cavity which eventually gives
+rise to body cavities.
+6. Blood and blood vessel formation: blood vessels first appear on the yolk
+sac, on the allantois and in the chorion and develop in the embryo shortly
+dorsal intersegmental arteries
+anterior cardinal
+heart
+tubes
+vitelline
+veins
+dorsal
+aortae
+connecting
+stalk
+umbilical
+vein
+vitelline arteries
+vascular plexus on yolk sac
+Figure 4.1.2. Diagram of the primitive cardiovascular system in a 21-day
+embryo (Reprinted with permission from Moore KL (ed), The developing
+human, 1973)
+40
+Transvaginal sonography in early human pregnancy
+thereafter. At the end of the third week, the heart is represented by paired
+heart tubes which are joined to blood vessels in the embryo and in the
+extra-embryonic membranes (Figure 4.1.2).
+7. Villi formation: primary villi become secondary villi as they acquire
+mesenchymal cores. Before the end of the third week, capillaries develop
+in the villi; this transforms them into tertiary villi.
+WEEK4:
+Initially, the embryo is almost straight and the somites produce conspicuous
+surface elevations. The neural tube is closed opposite the somites, but is
+widely open at the rostral and caudal neuropores. By day 22 a single heart
+tube has formed. It elongates and develops alternate dilatations and
+constrictions. A slight curve is produced in the embryo by the head and tail
+folds and the heart produces a large ventral prominence (Figure 4.1.3). Three
+branchial arches are visible by 26 days, and the rostral neuropore is closed.
+somites
+tail
+24 ±!day 26 ± lday
+third branchial
+arch
+lens
+placode
+fourth branchial
+arch
+28 ± Jday
+Figure 4.1.3. A 24, 26 and 28-day embryo each showing a large ventral
+prominence caused by the heart (Reprinted with permission from Moore
+KL (ed), The developing human, 1973).
+41
+Aspects of normal early pregnancy development
+WEEK 5:
+Changes in shape of the body are minor compared with the fourth week, but
+growth of the head exceeds that of other regions. This extensive head growth
+is caused mainly by the rapid development of the brain. The face soon
+contacts the heart prominence (Figure 4.1.4). The limb buds show
+considerable regional differentiation, especially the forelimbs. The elbow and
+33 ±1 day
+Figure 4.1.4. A 33-day embryo: Note the contact of the face with the
+heart prominence and the limb buds (Reprinted with permission from
+Moore KL (ed), The developing human, 1973).
+wrist regions become identifiable and the paddle-shaped hand plates develop
+into digital ridges, called finger rays, indicating the future fingers. The
+development of the hindlimb occurs somewhat later than that of the forelimb
+in man. Several small swellings develop around the groove between the first
+two branchial arches; this groove becomes the external auditory meatus and
+the swellings eventually fuse to form the auricle of the ear. Largely because
+retinal pigments begin to appear the eye becomes more obvious.
+WEEK 6:
+The head is now much larger relative to the trunk and is more bent over the
+heart prominence. The head position results from bending (cervical flexure)
+42
+Transvaginal sonography in early human pregnancy
+of the brain in the cervical region. By day 42 the trunk and neck begin to
+straighten. The somites are visible in the lumbosacral region until the middle
+of this week, but cannot be used as criteria for estimating age at that time.
+The communication between the gut and the yolk sac has been reduced to a
+relatively small duct, the yolk stalk or vitelline duct. The intestines enter the
+extra-embryonic coelom in the proximal region of the umbilical cord; this is
+called umbilical herniation. The limbs undergo considerable change during
+the sixth week. At day 37 the forelimbs project over the heart (Figure 4.1.5).
+By day 38 they have lengthened and flexed slightly so that the future fingers
+reach the nose. Not.ches appear between the rays in the hand plates, indicating
+the future fingers. By day 42 short, webbed fingers are present and notches
+appear in the foot plates between the toe rays.
+cervical fle~x·
+u
+.. re
+'
+•.
+(
+. . . ~
+.. .. ·:-.-~
+·.·..,_
+~ '.' .
+external ear
+oo"h"'"'~t -
+between 1,:. ' •
+eyelid
+~i:~:r ~:
+early umbilical
+herniation ____
+toe rays
+37 _± 1 day 42 ±1 day
+Figure 4.1.5. A 37 and 42-day embryo: The forelimbs project over the
+heart (Reprinted with permission from Moore KL (ed), The developing
+human, 1973).
+43
+ear
+Aspects of normal early pregnancy development
+4.1.4. SONOGRAPHIC FINDINGS
+It will be obvious that no sonographic data of the first two weeks of
+embryonic development are available. The resolution properties of ultrasound
+Figure 4.1.6. Uterus with pre-ovulatory endometrium. The total thickness
+of the two layers of endometrium is 15 mm.
+waves, even of high frequency are far beyond the detection level of the size
+of the embryo and its surrounding structures at this stage of pregnancy. After
+ovulation the endometrium shows secretory changes. The pre-ovulatory
+appearance of the endometrium is illustrated in Figure 4.1.6. Close to
+ovulation the total sonographic thickness of the two layers of the
+endometrium is usually around 10 mm (range 7 - 15 mm). Its aspect at the
+end of the cycle, just around the expected menstrual period, is disorganised
+and inhomogeneous. However, the endometrium of a pregnant subject at that
+stage is thick (12 - 18 mm) and has a homogeneous and congested aspect
+44
+Transvaginal sonography in early human pregnancy
+Figure 4.1.7. Uterus with thick (15 mm) homogeneous, congested
+endometrium as can been seen in very early gestation.
+Figure 4.1.8. Uterus containing a small gestational sac 19 days after
+follicle aspiration.
+45
+Aspects of normal early pregnancy development
+(Figure 4.1.7). Soon after the menstrual period is missed i.e. between 16 and
+19 days after follicle aspiration (median 17 days) a gestational sac can be
+observed (Figure 4.1.8). Between 20 and 23 days after follicle aspiration
+(median 21 days) the yolk sac can be identified, but the embryonic pole is not
+discernible yet. The size of the gestational sac varies between 7.5 and 9.2 mm
+(median 8.1 mm) at that stage. The embryonic pole becomes visible between
+24 and 29 days (median 26 days) after follicle aspiration. The most striking
+evidence of the presence of a embryonic pole is the appearance of cardiac
+activity. The diameter of the gestational sac at that time varies between 9.0
+and 11.4 mm (median 10 mm). The embryonic heart beat appears at a crown-
+rump length (CRL) between 1.2 and 3.0 mm (median 2.0 mm) and between
+25 and 30 days following follicle aspiration (median 27 days). At this stage of
+pregnancy the embryo is closely attached to the yolk sac. This combined
+structure is always eccentrically positioned within the gestational sac (Figure
+4.1.9). During the first few days when cardiac activity is present, the yolk sac
+Figure 4.1.9. Uterus with a gestational sac in which eccentrically a yolk
+sac and an embryo are visible (yolk sac diameter 4.3 mm and embryonic
+length 6.9 mm).
+46
+Transvaginal sonography in early human pregnancy
+is larger than the embryo (Figure 4.1.10) with a diameter of 3.2 to 5.2 mm
+(median 4 mm). Lacunar structures of 2 to 3 mm at one side of the gestational
+Figure 4.1.10. M-mode registration of the embryonic heart rate (84 beats
+per minute) 27 days after follicle aspiration.
+Figure 4.1.11. Uterus containing a gestational sac. At one side (arrow)
+lacunar structures are evident.
+47
+Aspects of normal early pregnancy development
+sac may be seen and the blood flow in these lacunar structures may be spotted
+suggesting syncytiotrophoblastic invasion of maternal vessels (Figure 4.1.11).
+There is only a slight increase in the size of the yolk sac during the first six
+weeks following conception (0.5 to 1.5 mm; median 0.9 mm). The distance
+Figure 4.1.12. A· gestation, 33 days after follicle aspiration: the head of
+the embryo and the yolk sac stalk can be distinguished (embryonic length
+8.5 mm).
+between the embryo and yolk sac increases. Sometimes the stalk of the yolk
+sac can be visualised (Figure 4.1.12). The head becomes distinguishable at the
+end of week 5 after follicle aspiration (Figure 4.1.12). In week 6 the relative
+echogenicity inside the developing head is a normal sonographic appearance
+(Figure 4.1.13). Close to the head, embryonic cardiac activity is present. This
+is caused by the heart prominence and the bending of the embryo. At more
+or less the same time the limb buds can be seen. In week 6 the amniotic cavity
+and the chorionic cavity can be identified. The yolk sac is situated in the
+chorionic cavity near the insertion of the umbilical cord. This structure
+48
+Transvaginal sonography in early human pregnancy
+Figure 4.1.13. A pregnancy 39 days after follicle aspiration: note the
+relative echogenicity of the developing embryonic head.
+Figure 4.1.14. The umbilical cord is visible in a gestation 41 days after
+follicle aspiration. This lateral view of the embryo shows a pronounced
+fourth ventricle in the rhombencephalon.
+49
+Aspects of normal early pregnancy development
+becomes also visible at that time (Figure 4.1.14). A lateral view of the embryo
+sometimes clearly displays the rhombencephalon, with a relatively large
+cavity that later on becomes the fourth ventricle (Figure 4.1.14). In week 6
+gross body movements can be identified for the first time. However,
+quantitative and qualitative assessment are not yet feasible.
+4.1.5. DISCUSSION
+Transvaginal sonography provides detailed information on early human
+pregnancy. We were able to examine a group of patients in which the
+duration of pregnancy was exactly known, since all gestations emerged from
+IVF treatment. The question as to whether these pregnancies can be
+considered as normal and the results can be extrapolated to in-vivo fertilised
+oocytes remains open for discussion. In this chapter the development of the
+embryo and its surrounding structures is described in a semi-quantitative
+way. We were able to visualise by means of transvaginal sonography relevant
+embryonic features like chorionic cavity, yolk sac, cardiac activity, the head
+and limbs about one week earlier than with the conventional transabdominal
+scanning technique. Due to the resolution properties if high frequency vaginal
+transducers, a gestational sac in-utero can be seen almost immediately after
+the menstrual period has been missed. This implicates that this method of
+scanning is almost as sensitive as the modern commercially available
+pregnancy tests. There is a similarity between embryonic and follicular
+development, in that the oocyte as well as the embryo develop in a fluid-
+filled compartment. The resulting echogenicity allows detection of these
+structures as soon as their size equals the resolution properties of the vaginal
+probe, which is between 1 and 2 mm3•6•
+Another cyst-like structure which becomes visible is the yolk sac.
+Although the human secondary yolk sac is non-functional as far as yolk
+storage is concerned (it would be better to speak of urnbilical vesicle), its
+development is essential for several reasons. One assumes that it plays a role
+in the transport of nutrients during the second and third week while the
+utero-placental circulation is established1
+. Therefore, it acts as a primitive
+50
+Transvaginal sonography in early human pregnancy
+placenta. From the third until the sixth week blood cells are formed in the
+yolk sac wall. Primitive germ cells appear in its wall early in the third week
+and subsequently migrate to the developing gonads, where they become
+spermatogonia or oogonia1. An embryo can not develop without a structure
+supplying the necessary nutrients in the early stages of development.
+Therefore, presence of the yolk sac is of crucial importance6• It grows slowly
+and the size of the yolk sac is not very useful in pregnancy dating6· 9.
+Embryonic abnormalities may coincide with abnormal development or
+absence of this structure9-ll (see chapter 5.1. & 6.3.).
+One of the first signs of a viable pregnancy is the appearance of embryonic
+cardiac activity. S~veral investigators have shown the value of transvaginal
+sonography detecting the early heart beat12
+-
+14
+. Their data are in accordance
+with our findings (between 25 and 30 days after ovulation (median 27 days)).
+Only two authors reported embryonic cardiac activity as early as 2115 and
+2216
+days after conception. However, no mention was made as to how the date
+of conception was documented. The variability in the pre-ovulatory phase
+was not taken into account. As patients visited the clinic after the diagnosis
+of pregnancy was made, this early detection could well be due to early
+ovulation. Moreover, the size of the embryo is beyond the resolution
+properties of vaginal transducers and it can, therefore, be questioned if the
+heart tube already has started to contract at this stage of development1.
+DeCrespigny12
+examining 353 patients with a 5.0 MHz vaginal probe was
+always able to demonstrate cardiac activity if the mean diameter of the
+gestational sac exceeded 12 mm. Levi et al13 always identified a yolk sac in
+gestational sacs measuring 8 mm or greater in diameter and cardiac activity
+in gestational sacs measuring over 16 mm in diameter. Bree et al14 correlated
+size of the gestational sac with structures within that sac. A yolk sac was first
+seen in a gestational sac measuring between 6 and 9 mm and cardiac activity
+was seen in each patient with a gestational sac of 2' 9 mm. The results of a
+study dealing with the dynamics of embryonic cardiac activity in relation to
+gestational age are presented in Chapter 6.
+The results of our study indicate that transvaginal sonography is superior
+to transabdominal scanning techniques when the development of early
+pregnancy is studied. We were able to visualise embryonic structures in more
+51
+Aspects of normal early pregnancy development
+detail and about one week earlier in comparison with transabdominal
+sonography.
+4.1.6. REFERENCES
+1. Moore KL. The developing human- Clinically oriented embryology. WB
+Saunders Co., Philadelphia, 1973.
+2. Benirschke K. Principles and management of human reproduction. WB
+Saunders Co., Philadelphia, 1972; 179-96.
+3. Fossum GT, Davajan V, Kletzky OA. Early detection of pregnancy with
+transvaginal ultrasound. Fertil Steril 1988; 49: 788-91.
+4. Endovaginal Ultrasound. S.R. Goldstein (ed), A.R. Liss, New York, 1988.
+5. Timor-Tritsch IE, Farine D, Rosen MG. A close look at early embryonic
+development with the high-frequency transvaginal transducer. Am J
+Obstet Gynecol 1988; 159: 676-81.
+6. Nyberg DA, Mack LA, Harvey D, Wang K, Value of the yolk sac in
+evaluating early pregnancies. J Ultrasound Med 1988; 7: 129-35.
+7. Blumenfeld Z, Rottem S, Elgali S, Timor-Tritsch IE. Transvaginal
+sonographic assessment of early embryological development. In:
+Transvaginal Sonography. I.E. Timor-Tritsch & S. Rottem (eds),
+Heinemann Medical Books, London, 1988; 87-108.
+8. Crooij MJ, Westhuis M, Schoemaker J, Exalto N. Ultrasonographic
+measurement of the yolk sac. Br J Obstet Gynaecol1982; 89, 931-4.
+9. Reece EA, Scioscia AL, Pinter A, Hobbins JC, Green J, Mahoney MJ,
+Naftolin F. Prognostic significance of the yolk sac assessed by
+ultrasonography. Am J Obstet Gynecol1988; 159: 1191-4.
+10. Ferrazzi E, Bnimbati B, Lanzani A, Oldrini A, Stipparo L, Guerneri S,
+Makowski L. The yolk sac in early pregnancy failure. Am J Obstet
+Gynecol 1988; 158: 137-42.
+11. Rempen A. The embryonal yolk sac in disordered early pregnancy.
+Geburtshilfe Frauenheilkd 1988; 48: 804-8.
+12. DeCrespigny LCh, Early diagnosis of pregnancy failure with transvaginal
+ultrasound. Am J Obstet Gynecol 1988; 159: 408-9.
+52
+Transvaginal sonography in early human pregnancy
+13. Levi CS, Lyons EA, Lindsay DJ. Early diagnosis of nonviable pregnancy
+with endovaginal US. Radiology 1988; 167: 383-85.
+14. Bree RL, Edwards M, Bohm-Velez M, Beyler S, Mendelson EB.
+Transvaginal sonography in the evaluation of normal early pregnancy:
+correlation with HCG level. AJR 1989; 153: 75-9.
+15. Degenhardt F. Kontrolle von Friihschwangerschaften durch
+Vaginalsonographie. Z Geburtshilfe Perinatal 1987; 191: 96-8.
+16. Haid C, Zech H, Martin J. Verbesserte Friihdiagnose der intrauterinen
+Schwangerschaft durch Ultraschall-Vaginalsonde. Geburtshilfe
+Frauenheilk 1985; 45: 371-4.
+53
+54
+Transvaginal sonography in early human pregnancy
+4.2. THE CROWN-RUMP LENGTH IN EARLY HUMAN PREGNANCY:
+A REAPPRAISAL.
+R. Schats@, H.C. van Os'"', C.A.M. Jansen'"' and J.W. Wladimiroff+
+@Department of VEVO I IVF,
+Academisch Ziekenhuis Vrije Universiteit
+Amsterdam, The Netherlands.
+* Department of Obstetrics and Gynaecology I IVF,
+Diaconessenhuis Voorburg, The Netherlands.
++ Department of Obstetrics and Gynaecology,
+Academic Hospital Dijkzigt, Rotterdam,
+The Netherlands.
+Accepted for publication in:
+The British Journal of Obstetrics and Gynaecology
+4.2.1. SUMMARY
+The crown-rump length (CRL) was measured by means of transvaginal
+sonography in 41 pregnancies resulting from in-vitro fertilisation (IVF). The
+embryonic crown-rump length could be determined as early as 25 days after
+follicle aspiration. A reference chart was constructed relating the CRL to the
+number of days following follicle aspiration. Comparison with the current
+CRL chart by Robinson and Fleming1• 2 revealed that transvaginal sonography
+allows earlier and more accurate measurement of embryonic CRL.
+55
+The Crown-rump length in early human pregnancy
+4.2.2. INTRODUCTION
+The reference curve currently in use for crown-rump length (CRL)
+measurements was derived from data collected with compound B-scan
+equipment1• 2• Transvaginal sonography with its high resolution imaging
+might enable more accurate measurement of the CRL at an earlier stage of
+pregnancy.
+The object of the present study was to establish whether transvaginal
+measurement of CRL could provide a more accurate reference chart for this
+dimension.
+4.2.3. SUBJECTS and METHODS
+Forty-one women who were pregnant following in-vitro fertilisation agreed
+to participate in the study. The IVF procedure provides exact information on
+the time of ovulation and embryo transfer and, therefore, the duration of
+pregnancy. The study was approved by the local ethics review committee.
+Mean maternal age was 34 years (range 24- 40 years). A pilot-study in 23
+women showed that the CRL could not be measured until day 25 after follicle
+aspiration. Therefore, CRL measurements commenced on day 25 in the
+present study. CRL was measured daily until embryonic cardiac activity
+appeared, then at 2 or 3 day intervals, depending on patients' availability and
+travelling distance, until day 42.
+All patients were scanned between 10.00 and 12.00 a.m. using Diasonics
+DRF 400 and Toshiba SAL 77B transvaginal probes. The former was
+equipped with a 5.0 and a 7.5 MHz mechanical sector scan transducer and the
+latter with a 5.0 MHz electronic sector scan transducer. Scans were recorded
+by R.S. and C.A.M.J..
+A reference chart (mean +/-1 SD) was constructed of all the longitudinal
+CRL data. In 11 normal subjects with spontaneous pregnancies (15 embryos)
+four consecutive blind determinations of the CRL were obtained to establish
+the intra-observer variability of these measurements. Inter-observer variation
+was tested in 12 other normal subjects with single, spontaneous pregnancies.
+56
+Transvaginal sonography in early human pregnancy
+Intra-observer variability was determined by the coefficient of variation; the
+inter-observer variation was established by the Wilcoxon two-tailed signed
+ranks test.
+4.2.4. RESULTS
+The intra-observer variability showed a coefficient of variation of 6.6 %. The
+c
+R
+L
+i
+n
+M
+M
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+0
+2526 27 282930 31323334363637 383940 4142
+DAYS AFTER FOLLICLE ASPIRATION
+TVS DATA -8- +/- 1 SD
+ROBINSON'S CURVE +/- 1 SD
+Figure 4.2.1. CRL data gathered with transvaginal sonography (TVS ),
+superimposed with the data collected by Robinson & Fleming (1975).
+57
+The Crown-rump length in early human pregnancy
+inter-observer differences were not statistically significant (p = 0.38).
+In eight out of 41 women we were unable to time the onset of embryonic
+cardiac activity and therefore we also missed the first CRL measurements,
+due to personal factors such as non-availability of the women when required.
+Therefore, incomplete data from eight women (five singletons and three
+twins) and the complete data from 33 women (21 singletons, nine twins, three
+triplets) were available for further analysis. In total 293 CRL measurements
+were obtained from 59 embryos. The number of CRL measurements varied
+between four and eight per embryo (median six) and between 10 and 30 per
+day of gestation (median 17). Figure 4.2.1 depicts the CRL reference chart
+derived from all the transvaginally recorded CRL measurements, compared
+with the reference chart by Robinson and Fleming2•
+4.2.5. DISCUSSION
+Our transvaginal CRL measurements demonstrate an acceptable intra- and
+inter-observer variability. Particularly in the very early weeks of gestation
+there is a discrepancy between our data and those compiled by Robinson and
+Fleming2. We have referred, for comparison, to their original data instead of
+the chart constructed from linear regression analysis. Inclusion of part of the
+yolk sac may have been responsible for the larger CRL measurements in the
+beginning of the reference chart obtained by compound B-scan equipment.
+Degenhardt et al3. have also reported initially smaller CRL values using
+transvaginal sonography, though the number of CRL measurements per day
+of gestation was considerably smaller than that in our study: 225
+measurements in 209 subjects between 6 and 13 weeks menstrual age. The
+smaller standard deviation displayed in our chart can be explained by (i) the
+high resolution capability of modern transvaginal transducers allowing more
+detailed identification of embryonic structures, (ii) the larger number of CRL
+measurements per pregnancy and (iii) knowledge of the exact duration of the
+pregnancy. The advantage of studying IVF pregnancies is that the precise
+time of ovulation (follicle aspiration) and embryo transfer are known.
+Whether the results can be extrapolated to spontaneous pregnancies is
+58
+Transvaginal sonography in early human pregnancy
+uncertain. We included multiple pregnancies because the embryos behave like
+separate individuals with their own growth profile and developmental
+potential; in a number of cases we even observed a difference in the time of
+appearance of embryonic cardiac activity and in subsequent CRL values4• Of
+interest is that transvaginal CRL measurements were obtained approximately
+4 days earlier than reported previously, which could allow earlier pregnancy
+dating in the event of an unreliable menstrual history2• We conclude from the
+present study that transvaginal sonography allows more detailed recognition
+of embryonic anatomy and, therefore, earlier and more accurate
+measurements of embryonic CRL. A larger transverse study, preferably in
+women with spontaneous pregnancies, should be initiated to construct a new
+reference curve for this scanning technique.
+4.2.6. REFERENCES
+1. Robinson HP. Sonar measurements of fetal crown-rump length as means
+of assessing maturity in first trimester of pregnancy. Br Med J 1973; 4:
+28-31.
+2. Robinson HP, Fleming JEE. A critical evaluation of sonar "crown-rump"
+length measurements. Br J Obstet Gynaecol 1975; 82: 702-10.
+3. Degenhardt F, Bohmer S, Behrens 0, Muhlhaus K. Transvaginale
+Ultraschallbiometrie der Scheitel-SteiB-Lange im ersten Trimenon. Z
+Geburtshilfe Perinatol1988; 192: 249-52.
+4. Schats R, Brandsma G, Cleveringa LM, Lankhorst PFC, Vroegop IS,
+Jansen CAM. Evidence of asynchronous implantation in IVF multiple
+pregnancies. Hum Reprod 1988; 3: Suppl: Abstract 53, p 17.
+59
+60
+Transvaginal sonography in early human pregnancy
+CHAPTER 5
+DIAGNOSTIC, MORPHOLOGICAL AND THERAPEUTIC ASPECTS OF
+ABNORMAL EARLY PREGNANCY DEVELOPMENT
+INTRODUCTORY REMARKS
+In this chapter the value of transvaginal sonography as a diagnostic tool in
+abnormal development of early pregnancy will be described. This chapter
+consists of two parts. In the first part (5.1.) clinical signs and symptoms of
+threatening abortion in relation to transvaginal sonographic findings in intra-
+uterine pregnancies are presented. Results will be compared with those
+reported in literature. In the second part of this chapter (5.2.) the role of
+transvaginal sonography in the diagnosis and management of ectopic
+pregnancies will be discussed. The combination of sensitive hCG
+determinations and transvaginal sonography allows to the identification of
+ectopic pregnancy at a stage when it still may be asymptomatic. This may lead
+to more conservative modes of management.
+61
+62
+Transvaginal sonography in early human pregnancy
+5.1. MORPHOLOGICAL ASPECTS OF ABNORMAL
+EMBRYONIC DEVELOPMENT
+5.1.1. INTRODUCTION
+Approximately 25% of women experience vaginal bleeding during early
+pregnancy. About half of these pregnancies will end in a spontaneous
+abortion1• Despite the fact that non-viable gestations ultimately abort, it is
+important to identify correctly these pregnancies before they lead to
+prolonged vaginal bleeding, infection and/ or patient anxiety and to determine
+which patients merit dilatation and curettage1. Theoretically, the application
+of vaginal transducers with high emission frequencies and therefore high
+resolution imaging properties, should allow earlier and more detailed
+visualisation of normal and abnormal embryonic development than the
+standard transabdominal scanning techniques. Some authors compared the use
+of transabdominal and transvaginal sonography in normal and abnormal early
+gestation2•4. Others have published data concerning the transvaginal
+sonographic features in complicated first trimester pregnancies5· 9• The results
+of these studies together with our own sonographic findings in 54 subjects
+who became pregnant following long-term infertility will be discussed.
+5.1.2. SUBJECTS AND METHODS
+Between April 1987 and February 1988 234 transvaginal sonographic
+examinations were performed in 54 pregnant women with vaginal bleeding
+and a closed cervical os indicating threatening abortion. Three groups could
+be recognised: (i) women who had become pregnant following IVF treatment
+(Group 1; N = 19); (ii) women with well-documented duration of pregnancy
+(Group 2; N = 21); and (iii) pregnant women with an unreliable menstrual
+history (Group 3; N = 14). In each woman four parameters were determined:
+a) the size of the gestational sac (mm) (=mean of longitudinal, transverse and
+63
+Aspects of abnormal early pregnancy development
+antero-posterior diameters) until the embryo became visible; b) the yolk sac
+diameter, also the average of three dimensions (mm); c) the crown-rump
+length (mm); and d) the embryonic heart rate (bpm).
+All examinations were performed using the Diasonics DRF 400 and the
+Toshiba SAL 77B, the former equipped with a 5.0 and a 7.5 MHz mechanical
+sector scan transducer and the latter with a 5.0 MHz electronic sector scan
+probe. All examinations were recorded on video-tape.
+5.1.3. RESULTS
+Data on the numbers of the presence of the four above-mentioned parameters
+and the outcome of pregnancy are presented in Table 5.1.1.
+Table 5.1.1. Pregnancy outcome of the study-group in relation
+to the presence of embryonic landmarks is noted.
+No. Pat. Gest. Sac Yolk Sac Embryo Card. Act. Abortion Cont. Preg.
+Group 1 19 20 17 15 12 15 5
+Group 2 21 23 20 18 16 12 11
+Group 3 14 15 14 12 10 8 7
+TOTAL 54 58 51 45 38 35 23
+Group 1 = IVF patients, Group 2 =Patients with reliable menstrual history,
+Group 3 =Patients with unreliable menstrual history, No. Pat. =number of
+patients, Gest. =gestational, Card. Act. =cardiac activity present,
+Cont. Preg. =continuing pregnancy.
+64
+Transvaginal sonography in early human pregnancy
+5.1.3.1. GESTATIONAL SAC:
+Four twin pregnancies occurred in the group of 54 women and therefore, 58
+gestational sacs were present for evaluation. A total of 163 mean gestational
+sac diameter measurements were performed. The number of examinations in
+one women varied between one and six (median 3). The mean gestational sac
+diameter ranged between 3 and 15 mm (median 11 mm). This parameter by
+itself was not a useful predictor of pregnancy outcome. However, the
+combination with other distinctive features of embryonic development (yolk
+sac and embryonic cardiac activity) enables one to distinguish normal from
+abnormal gestational sacs. Our data suggest that:
+1. A yolk sac should be present if the mean gestational sac diameter exceeds
+10 mm.
+2. Embryonic cardiac activity should be present at a mean gestational sac
+diameter of 12 mm.
+The appearance of a yolk sac and/or embryonic cardiac activity above these
+Figure 5.1.1. Almost complete detachment of the gestational sac. The
+transonic space may represent blood.
+65
+Aspects of abnormal early pregnancy development
+cut-off limits always resulted in first trimester abortion. A yolk sac and
+cardiac activity were documented in two gestational sacs measuring only 6
+and 7 mm in diameter respectively. These pregnancies ended in first trimester
+abortion. A transonic area in the proximity of the gestational sac was
+observed in 37 out of 54 patients (68.5 %), giving the impression of at least
+partial trophoblast detachment (Figure 5.1.1). This feature alone was not of
+predictive value for pregnancy outcome, but if it was associated with a
+reduced heart rate and/or reduced CRL the pregnancy invariably ended in
+abortion.
+5.1.3.2. YOLK SAC:
+A total of 127 mean diameter measurements was performed in 51 yolk sacs
+(Table 5.1.1, Figure 5.1.2). The number of examinations ranged from one to
+10
+y
+0
+9
+L 8
+K
+s 7
+A -
+c 6
+s 5
+I
+z 4
+E
+I
+3
+N
+2
+M
+1
+M
+0
+20
+* .
+*
+* *
+*
+.. *
+** :* *·
+. ~ *
+* * . * *
+**· "* •
+*"*~·. . * ~ * *
+~- *'f''* . *
+* .
+. . *· *
+. ... *" *
+* *
+25
+*
+30 35 40 45 50 55 60
+NUMBER OF DAYS AFTER "OVULATION"
+• CONT. PREGN. * ABORTIONS
+65 70
+Figure 5.1.2. Serial mean yolk sac diameter measurementsfor continuing
+pregnancies and first trimester abortions with reliable menstrual
+histories.
+66
+Transvaginal sonography in early human pregnancy
+five (median 3). The diameter ranged from 3 to 9 mm. Yolk sac diameter
+increased only slightly during the first trimester (range 0.5-3.2 mm, median
+1.8 mm). Twenty-six yolk sacs consistently increased in size, 21 exhibited
+after an initial increase signs of involution and of four yolk sacs only one
+measurement was available. Last measurements of the mean yolk sac diameter
+were compared in continuing pregnancies and in pregnancies ending in
+abortion. There was no difference in mean value (5.3 versus 5.4 mm) or range
+(3.6- 8.3 mm versus 3.0- 9.0) (Figure 5.1.3). Yolk sac size was of no use in
+pregnancy dating (Figure 5.1.2). A collapse of the yolk sac was observed in
+one case. It coincided with development of an abnormal embryonic heart rate
+pattern and resulted in the birth of a male infant with Down's syndrome. This
+case is described in detail in chapter 6.3.
+10
+y 9
+0
+8
+L
+K
+7 .
+s ...
+A 6 • I •
+c • I •
+s 6 • I •
+I I
+z 4
+...
+• I • I
+E . .
+I 3
+N
+2
+M
+M 1
+0
+CONTINUING
+ABORTIONS
+PREGNANCIES
+Figure 5.1.3. Last measured mean yolk sac diameter of the continuing
+pregnancies and these which ended in first trimester abortions.
+67
+Aspects of abnormal early pregnancy development
+5.1.3.3. CROWN-RUMP LENGTH:
+The crown-rump length (CRL) was measured 143 times in a total of 45
+embryos. The number of determinations per embryo varied between one and
+six (median 3). The CRL for the embryos of the continuing pregnancies all
+fell within the normal range of our reference chart (chapter 4.2.) below a
+menstrual age of eight weeks and of the curve of Robinson and Fleming10• 11
+between eight and 14 weeks. However, the picture was different for
+20
+18
+16
+c 14
+R
+L 12
+10
+n
+8
+M
+M 6
+4
+2
+0
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
+DAYS AFTER FOLLICLE ASPIRATION
+-B- ABORTION SINGLETON """*'-ABORTION TWIN
+PREGNANCY PREGNANCY
+I NORMAL RANGE (MEAN +/- 1 SO)
+'----------'-'
+Figure 5.1.4. CRL curves relative to the reference chart of Chapter 4.2 in
+pregnancies of six IVF patients (seven embryos) which miscarried in the
+first trimester.
+68
+Transvaginal sonography in early human pregnancy
+pregnancies which miscarried, especially when our own reference chart was
+employed. As an example may serve the CRL curves depicted in Figure 5.1.4
+of the seven embryos with cardiac activity that arose from IVF treatment and
+miscarried. According to our reference chart two embryos exhibited normal
+growth, whereas the other five demonstrated a reduced growth rate.
+5.1.3.4. CARDIAC ACTIVITY:
+Normal and abnormal development of embryonic cardiac activity is discussed
+in chapter 6. Cardiac activity should be detected as soon as the embryonic
+pole has appeared. All continuing pregnancies were characterised by a very
+regular heart rate and absent beat to beat variation. In two pregnancies which
+miscarried an irregular heart rate was documented (Figure 5.1.5). The
+following day both embryos had died. At one occasion a regular heart rate
+pattern of 40 beats/min was observed. This embryo also died within 24 hours.
+Figure 5.1.5. Combined real-time and M-mode registration of an
+embryonic irregular heart rate.
+69
+Aspects of abnormal early pregnancy development
+5.1.3.5. PREGNANCY OUTCOME:
+Six of the IVF patients (Group 1, seven embryos) aborted after embryonic
+cardiac activity was established and eight IVF patients aborted without
+demonstration of this viability sign. In three of those eight women only a
+gestational sac could be detected, in the other five women a gestational sac
+as well as a yolk sac could be visualised, but no embryonic pole. Five patients
+had vaginal bleeding but the pregnancy went on uneventfully. Seventeen of
+the 35 remaining patients (Group 2 & 3) eventually aborted (18 gestational
+sacs, 14 yolk sacs; 10 embryos of which in six cases at least once cardiac
+activity was established). In two women vaginal bleeding was explained by
+the so-called "vanishing twin". At the time of the sonographic examination
+cardiac activity was (already) absent in the second gestational sac in these
+cases. The growth profile of the remaining embryo was normal in both
+instances. In 16 women the pregnancy proceeded without any further
+complications.
+5.1.4. DISCUSSION
+Vaginal bleeding in the first trimester of pregnancy is a common clinical
+feature. Also in our highly selected group of patients it was associated with
+a high abortion rate (60%).1t is logical to assume that transvaginal sonography
+is superior to transabdominal scanning in detecting abnormal early embryonic
+development on the basis of the proximity to the object of scanning and the
+application of high emission frequencies leading to a better image resolution.
+The superiority of transvaginal sonography in the early and detailed
+visualisation of embryonic structures and in biometry has been well
+documented (Table 5.1.11).
+The normal sequence in appearance of the distinctive features of
+embryonic development (gestational sac, yolk sac, embryonic pole and cardiac
+activity) as established by transvaginal sonography is described in chapter 4.1.
+Deviations of this rather fixed developmental pattern may have considerable
+implications for fetal outcome. If at a particular gestational age a certain stage
+of development has not been reached, the pregnancy probably ends in an
+70
+G'
+§
+So
+~
+~
+§
+f2
+~
+~
+;;:..,
+.....
+.....
+~
+~
+.s
+;;:..,
+~
+~
+~
+C)
+~
+.....
+~
+.s
+b()
+~
+~
+§
+~
+Table S.l.II. Summary of the studies comparing transabdominal
+versus transvaginal sonography.
+Author No. Pa I. Study Design Object of Study Par ameters
+Cullen et al 2 120 Comparative Normal Pregnancies BIometry,
+study Internal anatomy
+Image clarity
+Pennell et ai 3 38 TVS after Norma I, abnormal Yolk sac, cardiac
+Inconclusive and ectopic activity, absence
+TAS pregnancies or presence of
+intrauterine
+structures
+Jain et a1 4 90 Comparative Positive Yolk sac, Ieta I
+study pregnancy test, poI e, cardiac
+signs and symptoms actIvIty
+of threatening
+abortion or
+ectopic pregnancy
+TVS =transvaginal sonography, TAS =transabdominal sonography.
+Advantage Disadvantage
+Superior In Liml ted
+obesity, < 10 maneuver·
+weeks menstrual ab Ill ty
+age, retroverted
+uterus
+Diagnostic In Disadvantages
+earlier stage not mentioned
+pregnancy
+More sensitive Disadvantages
+and earlier not mentioned
+diagnosis
+Conclusion
+Valuable tool
+In IIrst
+trimester,
+complementing
+not replacing
+transabdominal
+sonography
+Transvaginal
+sonography Is
+more likely to
+be diagnostic
+In ear Iy
+pregnancy
+Transvaginal
+sonography Is
+more sensitive
+In detection
+of early preg·
+nancy and its
+complications
+T-i
+1:"--
+Aspects of abnormal early pregnancy development
+abortion (Figure 5.1.6). A single sonographic examination may be conclusive
+about the outcome in pregnancies in which there is no doubt about pregnancy
+STRUCTURES
+GESTATIONAL SAC
+YOLK SAC
+EMBRYONIC POLE
+CARDIAC ACTIVITY
+SINGLE VENTRICLE
+MENSTRUAL WEEKS
+4 5 6 7 8
+c:::=:========V>
+c::::::======V>
+Figure 5.1.6. Appearance of embryonic landmarks relative to gestational
+age as visualised with transvaginal sonography.
+duration, like those which emerged from IVF treatment or ovulation
+induction with gonadotropins. This is not so for women with an unreliable
+menstrual history. In these cases two scans with an interval of one week
+should reveal the correct diagnosis, since only then the growth pattern of the
+various components of embryonic development (gestational sac, yolk sac and
+crown-rump length) can be determined. Discussion on data in abnormal
+gestation from other authors relative to our own findings should focus on
+biometrical changes in each of the above-mentioned embryonic structures as
+well as the time dependent inter-relationship in the appearance of these
+structures including embryonic heart rate.
+Mean gestational sac diameter alone was not helpful in the prediction
+of pregnancy outcome. Nyberg et al performing transabdominal sonography
+in 168 women with threatening abortion, defined some characteristics of
+abnormal gestational sac development5:
+72
+Transvaginal sonography in early human pregnancy
+1. a gestational sac diameter~ 25 mm without an embryo;
+2. absence of yolk sac at a gestational sac diameter ~ 20 mm;
+3. distorted shape of the sac;
+4. thin (~ 2 mm) and slightly echogenic or irregular choriodecidual reaction;
+5. the typical "double sac" sign is lacking, at a sac diameter
+> 10 mm;
+6. gestational sac positioned in lower uterine region.
+Our own data demonstrate that some of the characteristics mentioned above
+should be redefined when transvaginal sonography is employed. Absence of
+the yolk sac at a mean gestational sac diameter of ~ 10 mm and I or absence
+of embryonic cardiac activity at a gestational diameter of ~ 12 mm indicates
+an abnormal development of pregnancy. Appearance of a yolk sac or cardiac
+activity above these limits is associated with a poor prognosis. The shape of
+the gestational sac and thickness of choriodecidual reaction are less important
+characteristics when transvaginal sonography is used, since they are regressive
+and consequently late signs of abnormal gestational development. A fluid-
+filled compartment with partial or complete detachment of the decidual ring
+may be seen and may actually reflect bleeding9.
+The present study shows that yolk sac size relative to gestational age is
+extremely variable. Increase in size was observed during the first trimester
+but a common pattern could not be detected. This is at variance with data
+reported by Reece et al12 who assumed a curvilinear relationship with
+gestational age. They found a weak correlation (r = 0.39) between gestational
+age and size of the yolk sac. However, analysis of their data shows that the
+number of measurements are not equally divided over the entire period of
+study. Furthermore the study did not include observations before eight weeks
+of gestational age. The absence of a yolk sac has been observed in a
+pregnancy which resulted in embryonic death at 10 weeks menstrual age; the
+embryo exhibited spina bifida13. In our study, we did not observe any
+difference in yolk ·Sac size between continuing and aborting pregnancies. In
+the light of these findings yolk sac size does not appear to be a sensitive
+predictor of embryonic integrity and pregnancy outcome. Too small as well
+as too large yolk sacs have been associated with impending spontaneous
+73
+Aspects of abnormal early pregnancy development
+abortion and karyotypic abnormalities12
+•
+14
+. Rempen15
+did find yolk sacs with
+diameters exceedi~g 7 mm only in pregnancies with a pathological course.
+A different picture emerged from embryonic CRL measurements. Here,
+reduced growth rate was highly associated with poor pregnancy outcome.
+Especially the combination of abnormal heart rate and reduced CRL relative
+to gestational age was a very strong predictor of abnormal pregnancy
+outcome.
+Reduced heart rate may herald embryonic demise. The detection and
+development of normal and abnormal embryonic cardiac activity is discussed
+and described in detail in chapter 6.
+Robinson16 was the first who used transabdominal (compound B-scan)
+ultrasound in the diagnosis of early pregnancy failure. Our own data and
+reports of other investigators suggest that transvaginal real-time sonography
+allows one to recognise normal and abnormal morphological and functional
+development about one week earlier than previously has been described using
+the transabdominal approach6•8• 17·
+20
+. A single transvaginal sonographic
+examination can reveal a considerable amount of information on the
+prognosis and may be even conclusive when the exact gestational age is
+known and all available sonographic parameters are evaluated. The sequence
+in appearance of the relevant structures of early gestation should be followed.
+If, for example, the yolk sac is not present at day 25 following ovulation or
+not present in a gestational sac of which the mean diameter exceeds 10 mm,
+it will not appear any more and the pregnancy will end in abortion.
+Correlation of sonographic findings with simultaneously determined
+maternal hCG levels has been found to be a useful method for evaluating
+early pregnancy complications. Nyberg et al21
+found that the serum hCG
+levels strongly correlated with gestational sac size up to a mean diameter of
+25 mm. A disproportionately low serum hCG level relative to gestational sac
+size indicates abnormal development of pregnancy21 • 22• Nyberg et al23
+performed transvaginal sonography in 84 women with suspected early
+pregnancy complications and determined hCG levels quantitatively. Their
+findings indicate that an intra-uterine gestational sac should normally be
+visualised when the hCG level (Second International Standard) exceeds 1000
+IU /L. Bree et al8 were able to detect a gestational sac by transvaginal
+74
+Transvaginal sonography in early human pregnancy
+sonography in all patients with a hCG levels of 1000 IU/L (First International
+Reference Preparation). A level of 7200 IU/L was necessary before the yolk
+sac could be visualised and 10800 IU/L for the detection of an embryo
+exhibiting cardiac activity. This implicates that there should be concordance
+between the transvaginal sonographic findings and the hCG level.
+It can be concluded from the results of the present study that transvaginal
+sonography allows the diagnosis of pregnancy failure by about one week
+earlier than with transabdominal sonography. Furthermore, disturbance of the
+sequence in appearance of the relevant structures of early gestation is
+indicative of poor pregnancy outcome.
+5.1.5. REFERENCES
+1. Pantel AG, Shepard TH. Basic aspects of early (first trimester) abortion.
+In: Principles and practice of obstetrics and perinatology. L. Iffy & H.A.
+Kaminetzky (eds), J. Wiley & Sons, New York 1981; Vol1: 553-63.
+2. Cullen MT, Green JJ, Reece EA, Hobbins JC. A comparison of
+transvaginal and abdominal ultrasound in visualizing the first trimester
+conceptus. J Ultrasound Med 1989; 8: 565-9.
+3. Pennell RG, Baltarowich OH, Kurtz AB, Vilaro MM, Rifkin MD,
+Needleman L, Mitchell DG, Mervis SA, Goldberg BB. Complicated first
+trimester pregnancies: evaluation with endovaginal US versus
+transabdominal technique. Radiology 1987; 165:79-83.
+4. Jain KA, Hamper UM, Sanders RC. Comparison of transvaginal and
+transabdominal sonography in the detection of early pregnancy and its
+complications. AJR 1988; 151: 1139-43.
+5. Nyberg DA, Laing PC, Filly RA. Threatened abortion: sonographic
+distinction of normal and abnormal gestation sacs. Radiology 1986; 158:
+397-400.
+6. DeCrespigny LCh. Early diagnosis of pregnancy failure with transvaginal
+ultrasound. Ani J Obstet Gynecol1988; 159: 408-9.
+7. Levi CS, Lyons EA, Lindsay DJ. Early diagnosis of nonviable pregnancy
+with endovaginal US. Radiology 1988; 167: 383-85.
+75
+Aspects of abnormal early pregnancy development
+8. Bree RL, Edwards M, Bohm-Velez M, Beyler S, Mendelson EB.
+Transvaginal sonography in the evaluation of normal early pregnancy:
+correlation with HCG leveL AJR 1989; 153: 75-9.
+9. Timor-Tritsch IE, Rottem S, Blumenfeld Z. Pathology of the early
+intrauterine pregnancy. In: Transvaginal Sonography. I.E. Timor-Tritsch
+& S. Rottem (eds) Heinemann Medical Books, London, 1988; 109-23.
+10. Robinson HP. Sonar measurements of fetal crown-rump length as means
+of assessing maturity in first trimester of pregnancy. Br Med J 1973; 4:
+28-31.
+11. Robinson HP, Fleming JEE. A critical evaluation of sonar "crown-rump"
+length measurements. Br J Obstet Gynaecol1975; 82: 702-10.
+12. Reece EA, Scioscia AL, Pinter A, Hobbins JC, Green J, Mahoney MJ,
+Naftolin F. Prognostic significance of the yolk sac assessed by
+ultrasonography. Am J Obstet Gynecol1988; 159: 1191-4.
+13. Crooij MJ, Westhuis M, Schoemaker J, Exalto N. Ultrasonographic
+measurement of the yolk sac. Br J Obstet Gynecol1982; 89, 931-4.
+14. Ferrazzi E, Brambati B, Lanzani A, Oldrini A, Stipparo L, Guerneri S,
+Makowski L. The yolk sac in early pregnancy failure. Am J Obstet
+Gynecol1988; 158: 137-42.
+15. Rempen A. The embryonal yolk sac in disordered early pregnancy.
+Geburtshilfe Frauenheilkd 1988: 48; 804-8.
+16. Robinson HP. The diagnosis of early pregnancy failure by sonar. Br J
+Obstet Gynaecol1975; 82: 849-56.
+17. Fossum GT, Davajan V, Kletzky DA. Early detection of pregnancy with
+transvaginal ultrasound. Fertil Steril 1988; 49: 788-91.
+18. Blumenfeld Z, Rottem S, Elgali S, Timor-Tritsch IE. Transvaginal
+assessment of early embryological development. In: Transvaginal
+Sonography. I.E. Timor-Tritsch & S. Rottem (eds), Heinemann Medical
+Books, London, 1988; 87-108.
+19. Warren WB, Timor-Tritsch IE, Peisner DB, Raju S, Rosen MG. Dating
+the early pregnancy by sequential appearance of embryonic structures.
+Am J Obstet Gynecol1989; 161: 747-53.
+76
+Transvaginal sonography in early human pregnancy
+20. Timor-Tritsch IE, Farine D, Rosen MG. A close look at early embryonic
+development with the high-frequency transvaginal transducer. Am J
+Obstet Gynecol 1988; 159: 676-81.
+21. Nyberg DA, Mack LA, Laing PC, Jeffrey RB. Early pregnancy
+complications: endovaginal sonographic findings correlated with human
+chorionic gonadotropin levels. Radiology 1988; 167; 619-22.
+22. Nyberg DA, Mack LA, Laing PC, Patten RM. Distinguishing normal from
+abnormal gestation sac growth in early pregnancy. J Ultrasound Med
+1987; 6: 23-7.
+23. Nyberg DA, Filly RA, Duarte Filho DL, Laing PC, Mahony BS.
+Abnormal pregnancy: early diagnosis by US and serum chorionic
+gonadotropin levels. Radiology 1986; 158: 393-6.
+77
+78
+Transvaginal sonography in early human pregnancy
+5.2. THE ROLE OF TRANSVAGINAL SONOGRAPHY IN
+DIAGNOSIS AND MANAGEMENT OF ECTOPIC PREGNANCY
+5.2.1. INTRODUCTION
+Ectopic pregnancy remains a diagnostic challenge to the gynaecologist. The
+clinal signs and symptoms are diverse. The fear of a potentially life
+threatening condition as well as the diagnostic problems have led to the fact
+that the diagnosis of ectopic pregnancy is made more frequently than it
+actually occurs1. Obviously there is an urge to diagnose an ectopic pregnancy
+as soon as possible to prevent calamities. Another advantage of early
+recognition is that if damage to the tubes and other structures can be
+minimised, the preservation of future fertility can be optimised and
+conservative modes of management can be pursued. In the past an ectopic
+pregnancy could only occasionally be diagnosed by transabdominal
+ultrasound. The introduction of transvaginal sonography has led to improved
+visualisation of ectopic pregnancy, even when it is asymptomatic2•4. Several
+comparative studies have been published showing the superiority of
+transvaginal to transabdominal scanning in diagnosing this entity5· 7• In most
+cases ectopic pregnancy can be ruled out by demonstrating an intra-uterine
+pregnancy. An exception to the rule may be a pregnancy which emerged from
+IVF treatment. The combined presence of both intra-uterine and ectopic
+pregnancy may be seen following the transfer of more than one embryo8•9•
+The recent introduction of sensitive serum and urine hCG determinations
+with commercially available kits, makes it possible to diagnose the state of
+pregnant at a very early stage. Serum hCG levels have been found to correlate
+with transvaginal sonographic findings in normal pregnancy and as such these
+techniques can be used in evaluating early pregnancy complications. Several
+authors have tried to find discriminatory levels for the various embryonic
+landmarks10 · 18. A problem in evaluating these studies is the application of
+two different WHO standards for determining hCG levels: the first
+international reference preparation (IRP) and the second international
+79
+Transvaginal sonography and ectopic pregnancy
+standard. Most investigators assume that the first IRP is equivalent to twice
+the value of the second international standard19. However, Fossum et al17
+found in their study only 34% higher values for the first IRP. An explanation
+for this finding has not been provided. Blumenfeld et al18 report a lowest
+value of 420 IU/L at which a gestational sac could be visualised.
+Unfortunately they do not specify which standard preparation was used. If
+all the values for hCG are corrected to the first IRP the following
+discriminatory zones can be defined for transvaginal sonography10 · 18: a
+gestational sac should be identified when the serum hCG level exceeds 1000
+IU/L, a yolk sac at a level that is equal or greater than 7000 IU /L, an
+embryonic pole above a level of 8500 IU/L and embryonic cardiac activity
+over 11000 IU/L. This implicates that there should be concordance between
+the transvaginal sonographic findings and the hCG level. If, for example a
+intra-uterine gestational sac can not be seen at a serum hCG level of 3000
+IU/L an ectopic pregnancy is very likely to be present. This should not lead
+to immediate surgery, instead this early diagnosis should give one time to
+consider the best possible management. The combination of these sensitive
+diagnostic tools makes it possible to diagnose an ectopic pregnancy more
+often at a stage that it is still asymptomatic2· 4• It is also possible that ectopic
+pregnancies are diagnosed that would have been missed altogether in the past,
+and would have resolved spontaneously. Many ectopic pregnancies turn out
+to be non-viable. Either this may be due to the quality of the trophoblast
+itself or to the inadequate site of nidation. However, viable ectopic
+pregnancies occur more often after IVF treatment, most likely because the
+mechanism of occurrence is different.
+The scope of this chapter will be to present the results of a pilot study and
+to illustrate with case histories new management options in case of ectopic
+pregnancy with special reference to the advent of transvaginal sonography as
+a diagnostic tool and its use in the treatment of ectopic pregnancy.
+5.2.2. SUBJECTS AND METHODS
+Ectopic pregnancy was diagnosed by transvaginal sonography in 14 patients
+80
+Transvaginal sonography in early human pregnancy
+in which clinical signs or symptoms were only mild (vaginal blood loss or
+abdominal pain without evidence of intra-abdominal bleeding) or even absent
+(Table 5.2.!). In nine of these patients the pregnancy was classified as vital
+Table 5.2.1. Characteristics of the 14 patients with an ectopic pregnancy.
+Vital Ectopic Pregnancies
+Patient Age at Age at Local MTX hCG level at Outcome
+No Detection Puncture Dosage Puncture
+29 FA 29 FA Resolution
+2 26 FA 28 FA 9300 IU/L Resolution
+42 LMP 43 LMP 10200 IU/L Salpingectomy
+4 44 LMP 45 LMP 8300 IU/L Salpingectomy
+29 FA 30 FA 10 mg 8800 IU/L Resolution
+6 46 LMP 47 LMP 10 mg 12300 IU/L Salpingectomy
+7 40 LMP 42 LMP 10 mg 6800 IU/L Resolution
+8 39 LMP 42 LMP 10 mg 11400 IU/L Salpingectomy
+9 28 FA 28 FA 40 mg 15600 IU/L Resolution
+Non-Vital Ectopic Pregnancies
+Patient Age .at hCG level at Highest Leve I Outcome
+No Detection Detection of hCG
+10 38 lUI 5000 IU/L 6500 IU/L Resolution
+11 so LMP 3600 IU/L 3600 IU/L Resolution
+12 52 LMP 1400 IU/L 1600 IU/L Tubal abortion
+13 30 FA 3100 IU/L 3400 IU/L Resolution
+14 55 LMP 1700 IU/L 2900 IU/L Resolution
+FA = days following follicle aspiration, LMP days from start of Iast menstrua I
+period, lUI =days following intra-uterine insemination, MTX =methotrexate.
+81
+Transvaginal sonography and ectopic pregnancy
+according to the following criteria: the presence of a gestational sac
+containing a yolk sac and embryo exhibiting cardiac activity outside the
+uterine cavity associated with rising hCG levels. Eight ectopic pregnancies
+were situated within the Falloppian tube and one in the intramural part of the
+right tube (No. 9, Table 5.2.I). In the remaining five patients the ectopic
+pregnancy was classified as non-vital because of the absence of embryonic
+cardiac activity and hCG levels below the lower limit for gestational age20.
+In one patient a vital intra-uterine pregnancy as well as a vital ectopic
+pregnancy was present (No.1, Table 5.2.I). A total of five ectopic pregnancies
+occurred after IVJ.:i treatment, one following intra-uterine insemination of
+capacitated spermatozoa and eight spontaneously of which three during an
+infertility work-up.
+According to the classification of ectopic pregnancies in vital and non-
+vital, transvaginal puncture was carried out or the natural course was
+monitored with transvaginal sonography and hCG determinations. In the vital
+ectopic pregnancies, except for patient No. 1, hCG determinations were
+carried out at least once before and at two or three day intervals in
+conjunction with transvaginal sonography after the transvaginal puncture.
+The hCG determination and scanning rate reduced as soon as the hCG level
+fell according to the half life time. In patients with a non-vital ectopic
+pregnancy the same follow-up scheme was employed. Three months after the
+puncture a hysterosalpingogram (HSG) was performed when suitable. In the
+hCG assays the first international reference preparation (IRP 75/537) was
+used as a standard.
+All examinations were performed using the Diasonics DRF 400 the
+Toshiba SAL 77B and the Kretz Combison 310 equipped with a 5.0 and a 7.5
+MHz mechanical sector scan transducer, a 5.0 MHz electronic sector scan
+probe and a 5.0 and a 7.5 MHz mechanical sector scan transducer
+respectively.
+Puncture Technique: In all nine patients with a vital ectopic pregnancy
+transvaginal puncture was performed under sonographic guidance and under
+local analgesia (lidocain 1%, 10 ml). The procedure can be compared with a
+follicle aspiration which is common practice in oocyte retrieval in IVF
+programs. The embryo was aimed at in order to cause cessation of cardiac
+82
+Transvaginal sonography in early human pregnancy
+activity, whereafter aspiration of the gestational sac and the yolk sac, if
+possible, followed. Transvaginal scanning was performed for at least another
+ten minutes to ensure that no cardiac activity reappeared. In the first four
+patients (No. 1-4, Table 5.2.I) puncture took place without instillation of the
+cytoreductive agent methotrexate (MTX) into the gestational sac. In the next
+four patients (No. 5-8, Table 5.2.I) transvaginal puncture was followed by
+instillation of 10 mg of MTX into the aspirated gestational sac. In patient No.
+9 40 mg of MTX was instilled.
+5.2.3. RESULTS
+The data of all14 patients are summarised in Table 5.2.I. The crown-rump
+length of the embryos ranged between 3 and 6 mm. The first two patients
+(No.1 & 2) displayed complete resolution of the ectopic pregnancy. The next
+two cases (No. 3 & 4) were less successful. Despite a correct puncture and
+cessation of cardiac activity, the hCG level started to rise again after an
+initial fall. Both patients had to undergo laparoscopy followed by laparotomy
+leading to salpingectomy of the affected side. In view of this and similar data
+reported by several other authors employing the aspiration technique
+alone21 • 22, as well as the suggestion made in by other reports that the
+instillation of substances such as, potassium chloride23
+•
+2
+4, MTX25
+·
+29
+,
+prostaglandin F2a26 or E227 may improve the success rate, the next four
+patients (No. 5 - 8) were subjected to a different therapeutic approach. A
+dosage of 10 mg of MTX was instilled into the emptied gestational sac.
+However, in two of these patients (No.6 & 8) an initial fall of the hCG level
+again was followed by a rise, and laparoscopy followed by laparotomy leading
+to salpingectomy of the affected side was required. In patient No. 9 with an
+intramural presentation of ectopic pregnancy a dosage of 40 mg of MTX was
+administered into the aspirated gestational sac. In addition, because of a
+plateauing of the hCG level one week after puncture and because of the
+intramural localisation of the ectopic pregnancy which is unattractive for
+surgical intervention, MTX was administered systemically.
+In the five patients with a non-vital ectopic pregnancy no major problems
+83
+Transvaginal sonography and ectopic pregnancy
+occurred. In one case (No. 12) symptomatic tubal abortion took place.
+Transvaginal sonography displayed the appearance of fluid in the pouch of
+Douglas indicating most likely the presence of blood which was confirmed by
+laparoscopy. Since the bleeding was self-limiting no further action was
+required. Tubal abortion occurred during the decline of the hCG level. In two
+patients (No. 5 & 7) without the suspicion of tubal pathology before the
+ectopic pregnancy occurred, a HSG was performed three months later. Both
+showed patent tubes. One of these patients became pregnant at a later stage,
+and transvaginal sonography revealed a vital intra-uterine gestation.
+In order to illustrate the diversity in diagnosis and initially non-operative
+management of ectopic pregnancy five cases presented in Table 5.2.I will be
+described in detail:
+Patient No. 1, aged 36 years was known with primary infertility due to
+inoperable tubal pathology. She had experienced an ectopic pregnancy in the
+first IVF treatment cycle, which was treated by conventional laparotomy and
+salpingectomy. In the subsequent cycle she became pregnant resulting in a
+vital intra-uterine pregnancy in conjunction with a vital ectopic pregnancy
+in the remaining tube. In an effort not to disrupt the intra-uterine pregnancy
+a puncture of the ectopic pregnancy as described above was performed.
+Following the puncture she was closely monitored by serial transvaginal
+ultrasound examinations; hCG determinations would not have been
+informative in this case. The ectopic pregnancy apparently resorbed
+completely and the intra-uterine pregnancy went on uneventfully and led to
+the birth of a healthy male infant at term by caesarean section due to
+cephalopelvic disproportion. At surgery no sequelae were found at the
+previous puncture site.
+Patient No. 2, aged 31 years with primary infertility due to tubal pathology
+underwent IVF treatment. She became pregnant in the second cycle. Sixteen
+days after follicle aspiration (FA) a sensitive urine pregnancy test (ICON) was
+positive. Twenty-six days following FA, transvaginal sonography revealed a
+congested thick endometrium containing fluid (Figure 5.2.1); no intra-uterine
+gestational sac could be visualised. On the right side of the uterus a
+84
+Transvaginal sonography in early human pregnancy
+Figure 5.2.1. Uterus with thick endometrium containing fluid, leading to .
+pseudo-ring formation.
+Figure 5.2.2. At the right side of the uterus an ectopic pregnancy
+(gestational sac containing a yolk sac) is present.
+85
+Transvaginal sonography and ectopic pregnancy
+gestational sac containing a yolk sac could be detected (Figure 5.2.2). The
+serum hCG level at that time was 6200 IU/L (first IRP). The ultrasound
+examination was repeated two days later and close to the yolk sac an embryo
+measuring 2 mm exhibiting cardiac activity at a rate of 96 beats per minute
+(BPM) was present. The hCG level had gone up to 9300 IU/L. A diagnosis of
+~PUNCTURE
+h
+c
+G 1000
+L
+E
+v
+E
+L 100
+i
+n
+I 10
+u
+I
+L
+10 20 30 40 50 60 70 80
+DAYS AFTER FOLLICLE ASPIRATION
+Figure 5.2.3. Course of the hCG level of Patient No. 2.
+vital ectopic pregnancy located in the right tube was made. It was decided to
+aspirate the gestational sac by means of transvaginal puncture under
+sonographic controL There were no complications. The hCG level
+subsequently started to fall and was normalised six weeks after the puncture.
+The course of the hCG level is shown in Figure 5.2.3. Admission of the
+patient was only instituted for the first 24 hours following the transvaginal
+puncture. Further check-ups were carried out on an out-patient basis.
+Patient No. 3, aged 27 years was referred by her general practitioner to the
+out-patient department because of vaginal bleeding and abdominal complaints
+86
+Transvaginal sonography in early human pregnancy
+at a menstrual age of six weeks. The first pregnancy was uneventful and
+resulted in the birth of a healthy male infant two years before. A routine
+bimanual gynaecological examination showed no obvious abnormalities but
+~SURGERY
+h
+10000
+c
+G
+L 1000
+E
+v
+E
+L
+100
+n
+I
+u 10
+I
+L
+40 50 60 70 80
+DAYS AFTER ONSET OF LMP
+Figure 5.2.4. Course of the hCG level of Patient No. 3. LMP = last
+menstrual period.
+was hindered by severe obesity. Transvaginal sonography revealed a vital
+ectopic pregnancy located on the left side of the uterus. Cardiac activity was
+present and the crown-rump length was 3 rom. Like in patient 1 the ectopic
+pregnancy was punctured under transvaginal sonographic guidance. After an
+initial fall of the serum hCG level one day after the puncture it started to rise
+again (Figure 5.2.4). The sonographic appearance of the punctured ectopic
+pregnancy showed no changes (Figure 5.2.5), although the hCG level was
+going up. The patient was admitted to the hospital, whereas clinical signs and
+symptoms were absent. The sonographic diagnosis was confirmed by
+laparoscopy. During manipulation, the left tube started to bleed and
+laparotomy was necessary whereby this tube had to be removed. During the
+87
+Transvaginal sonography and ectopic pregnancy
+Figure 5.2.5. Transvaginal sonographic presentation of a punctured
+ectopic pregnancy (Patient No. 3). EUG =ectopic pregnancy.
+next four weeks hCG levels returned to normal Eight months later she
+became pregnant again. Transvaginal sonography performed at a menstrual
+age of five weeks demonstrated an intra-uterine pregnancy. An uneventful
+pregnancy resulted in the delivery of a healthy male infant.
+Patient No. 9, aged 36 years with primary infertility caused by tubal
+pathology underwent IVF treatment. Three IVF treatment cycles in another
+hospital had not resulted in a pregnancy, although transfer of embryos of
+good quality took place in each cycle. In the fourth treatment cycle transfer
+of four embryos was carried out two days following FA. Fifteen days after
+FA a sensitive urine pregnancy test (ICON) was positive. The corresponding
+serum hCG level on that day was 235 IU/L. On day 19 following FA the level
+reached 1400 IU/L. Transvaginal sonography was performed 28 days after
+88
+Transvaginal sonography in early human pregnancy
+Figure 5.2.6. Ectopic pregnancy localised in the intramural part of the
+right tube (Patient No. 9).
+FA. Inside the uterus a very thick homogeneous endometrium measuring 18
+mm was present and outside the endometrium in the intramural part of the
+right tube a gestational sac with a yolk sac-embryo complex (Figure 5.2.6).
+The embryo measured 2 mm and displayed a heart rate of 112 BPM. A
+diagnosis of ectopic interstitial pregnancy was made. It was decided to
+puncture and to aspirate the gestational sac and to inject 40 mg of MTX
+locally. The intervention was without complications. The patient stayed in
+hospital for observation. Figure 5.2.7 depicts the course of the hCG level. In
+the first week there was a gradual rise in hCG level. It was decided to
+administer MTX systemically in three doses of 50 mg intramuscularly at three
+days intervals28 - 35 • A leucovorin rescue scheme was included. The hCG level
+started to fall immediately and the patient was discharged from the hospital
+after the last MTX injection. Despite a further drop in hCG level,
+sonographically a cyst like structure developed at the site of the former
+ectopic pregnancy (Figure 5.2.8). Transvaginal puncture of this cyst was
+89
+h
+c
+G
+L
+E
+v
+E
+L
+i
+n
+I
+u
+I
+L
+Transvaginal sonography and ectopic pregnancy
+10000
+1000
+100
+10
+1+---.--.--.--,r--r--T--.---.--~-.---.--~-.
+0 10 20 30 40 50 60 70 80 90 100 110 120 130
+DAYS AFTER FOLLICLE ASPIRATION
+Figure 5.2.7. Course of the hCG level of Patient No.9 (ectopic interstitial
+pregnancy).
+Figure 5.2.8. Cyst formation at the site of the previous ectopic interstitial
+pregnancy (Patient No. 9).
+90
+Transvaginal sonography in early human pregnancy
+followed by a transient slight rise in hCG level, but without any further
+treatment dropped to levels indicative of absent trophoblastic activity.
+Patient No. 10, aged 37 years with primary infertility due to oligoastheno-
+zoospermia was treated by means of intra-uterine insemination (lUI) of
+capacitated spermatozoa after ovulation induction with clomiphene citrate
+and hCG. lUI was carried out 40 hours after intramuscular injection of
+10.000 IE of hCG.. In the second treatment cycle a pregnancy occurred. On
+day 15 following lUI a urine pregnancy test (ICON) was negative. The
+amenorrhoea persisted and on day 24 the hCG level was 528 IU/L. On day 38
+after lUI an ectopic pregnancy could be visualised with transvaginal
+sonography. The ectopic gestational sac contained no yolk sac or embryo
+(Figure 5.2.9). The hCG level on that day was 5000 IU/L. Because of these
+sonographic characteristics in combination with a hCG level of 5000 IU/L
+Figure 5.2.9. Sonographic appearance of a non-vital ectopic pregnancy
+(Patient No. 10).
+91
+Transvaginal sonography and ectopic pregnancy
+indicating a non-vital ectopic pregnancy, it was decided to await spontaneous
+resorption under strict sonographic and biochemical monitoring. Figure 5.2.10
+h
+c
+G
+L
+E
+v
+E
+L
+n
+I
+u
+I
+L
+1000
+100
+10
+10 20 30 40 50 60 70 80 90 100 110 120 130
+DAYS AFTER INSEMINATION
+Figure 5.2.10. Course of the hCG level of Patient No. 10.
+depicts the course of the hCG levels. Apart from mild irregular vaginal
+bleeding, the patient never revealed any sign or symptom of ectopic
+pregnancy. The cycle disturbance corrected itself after hCG levels had
+returned to normal.
+5.2.4. DISCUSSION
+Combined transvaginal sonography in combination with hCG determinations
+allow the diagnosis of ectopic pregnancy at a stage, at which the condition
+still may be asymptomatic2· 4• This offers the opportunity to develop more
+conservative modes of management and should lead to a re-evaluation of the
+92
+Transvaginal sonography in early human pregnancy
+surgical approach. On the other hand, there is the danger that early diagnosis
+may result in more surgical interventions. Such a development should be
+particularly undesirable in non-vital ectopic pregnancies, which otherwise
+would have been missed in the past and would have resolved spontaneously.
+Transvaginal puncture was performed in nine patients in an effort to
+avitalise the ectopic pregnancy. However, in four out of nine patients no
+remission occurred and surgery was necessary at a later stage. Transvaginal
+sonography as a follow-up procedure after the puncture was not informative
+as illustrated by patient No.3. It was still possible to visualise the punctured
+ectopic pregnancy but it did not provide enough information about the
+presence of residual trophoblastic activity. This appears to be better reflected
+by serial hCG level monitoring. Management of a vital ectopic pregnancy
+through transvaginal puncture is feasible, although management was
+unsuccessful in four out of nine cases with or without the instillation of MTX
+in the punctured gestational sac. It is apparently not possible to remove all
+vital trophoblastic tissue. The actual dosage of 10 mg of MTX may not be
+sufficient27• 28. However, Pansky et al28 do not substantiate that the higher
+dosage of 25 mg of MTX yields better results than a dosage of 12.5 mg. In
+patient 9 the ectopic pregnancy was situated in the intramural part of the
+right tube and as such was not amenable to surgery due to increased risk of
+severe bleeding. The successful course in this case illustrates the possibility
+of combined local and systemic MTX therapy. This was also reported by
+Feichtinger & Kenieter27•
+We do not claim that transvaginal puncture of ectopic pregnancies is the
+therapy of choice in each patient, but since future fertility aspects are
+important it may be advocated in order to avoid surgery. Although four out
+of nine patients eventually underwent surgery, the other five did benefit
+from this conservative approach.
+In the five non-vital ectopic pregnancies spontaneous resorption was
+awaited. However, one should be aware of the risks of tubal abortion,
+especially when hCG levels are falling. This emphasises the need for
+monitoring the hCG levels until they have returned to normal.
+The place of systemic administration MTX in the management of ectopic
+pregnancy remains controversial. Failures and successes have been reported,
+93
+Transvaginal sonography and ectopic pregnancy
+but the number of patients is too limited in our view to draw conclusions30
+- 37.
+In a Dutch study of nine patients (10 ectopic pregnancies) the hCG level was
+below 500 IU/L in eight patients at a menstrual age of six to eight weeks,
+indicating the presence of non-vital or spontaneously regressing ectopic
+pregnancies35. It can be questioned, therefore, if it was justified to use a
+cytoreductive agent at these very low hCG levels. This also applies to studies
+reported by others in which systemic MTX treatment was implemented at
+hCG levels below 1000 IU/L at an amenorrhoea of six weeks or more.
+Moreover, at least two hCG determinations should be done in order to judge
+actual trophoblast activity before systemic MTX treatment is contemplated.
+Only Rodi et al34
+mention a rise or plateauing in hCG level as an inclusion
+criterium for systemic MTX treatment. The literature data concerning
+systemic MTX treatment in relation to ectopic pregnancy is summarised in
+Table 5.2.11.
+Our own experience and review of the literature lead to the following
+suggestions:
+1. In case of a non-vital ectopic pregnancy or uncertainty about the diagnosis,
+hCG assays and transvaginal sonography should be carried out every other
+day. In case of falling hCG levels await spontaneous resolution; in case of
+signs of tubal abortion laparoscopy may be necessary to exclude active
+intra-peritoneal bleeding.
+2. In case of a vital ectopic pregnancy, transvaginal aspiration of gestational
+sac and contents should be performed under sonographic guidance and
+local application of a maximum of 50 mg of MTX. In case of subsequent
+rise or plateauing in hCG level, systemic MTX treatment should be
+considered.
+3. At a CRL exceeding 10 mm the extensiveness of vital trophoblast may
+inhibit complete regression following gestational sac aspiration. Instead
+laparotomy is indicated.
+In conclusion, transvaginal sonography is a valuable adjunCt to hCG
+94
+Table 5.2.11. Literature review systemic MTX treatment.
+Author No. E. P. hCG level No. E. P. hCG MTX Dosage C. A. HSG + Res. Complications
+Range (IU/L) < 1000 IU/L l.m. Result
+;:..,
+'-l
+Ory et a1 33
+§ 6 103-25410(1) 3 1 mg/kg/ un np 5 I Salpingectomy
+~
+48hr/4x
+~
+,...,
+~I Rodl et a1
+34
+7 127-15000(2) 5 I mg/kg un 5, 4 7 2 "prittracted
+48hr/4x open courses"
+E
+;::$
+~I Kool et a1 35 10 20-17460(2) 9 50 mg/48hr un 1, open 9 I laparotomy
+4-9x 2 months later
+c::l
+~
+.s Stovall et a1 36 36 42-30966(2) I mg/kg/24 hr 1 34 2 laparotomy:
+tn
+;:.., un np 0\
+~
+l-4x hCG 15349 en
+c::l 30996 IU/L (2)
+,...,
+b.o
+lchlnoe et a1 37
+C) 23 80-16000 9 ? 0. 4 mg/kg/ un 19, 10 22 I tubal rupture
+~ (urinary !) 24hr/5x open
+"'
+......
+c::l
+-~I
+E. P. =ectopic pregnancies, MTX =methotrexate, i.m. =intramuscularly, C.A. =presence
+of embryonic cardiac activity, HSG = hysterosalpingogram, Res.= resolution,
+(1) =1st IRP, (2) =WHO standard not specified, un =unknown, np =not performed.
+"'
+§
+,...,
+h
+Transvaginal sonography and ectopic pregnancy
+determinations and to laparoscopy in the diagnosis of ectopic pregnancy.
+Aspiration under sonographic control of an ectopic pregnancy with local
+instillation of MTX, followed by serial sonographic and biochemical (hCG)
+monitoring of trophoblast resorption seems a promising management
+procedure. However, its success rate in terms of complete resorption and
+tubal patency afterwards, as well as its cost-effectiveness relative to
+conventional surgical intervention needs to be evaluated.
+5.2.5. REFERENCES
+1. Kadar N, Caldwell BV, Romero R. A method of screening for ectopic
+pregnancy and its indications. Obstet Gynecol1981; 58: 162-5.
+2. Degenhardt F. Endosonographie bei Extrauteringraviditat. Geburtshilfe
+Frauenheilkd 1988; 48: 352-4.
+3. Funk A, Fendel H. Verbesserte Diagnostik der Extrauteringraviditat durch
+die Endosongraphie. Z Geburtshilfe Perinatol1988; 192: 49-53.
+4. Nyberg DA, Mack LA, Jeffrey RB, Laing FC. Endovaginal sonographic
+evaluation of ectopic pregnancy. AJR 1987; 149: 1181-6.
+5. Pennell RG, Baltarowich OH, Kurtz AB, Vilaro MM, Rifkin MD,
+Needleman L, Mitchell DG, Mervis SA, Goldberg BB. Complicated first
+trimester pregnancies: evaluation with endovaginal US versus
+transabdominal technique. Radiology 1987; 165: 79-83.
+6. Shapiro BS, Cullen M, Taylor KJW, DeCherney AH. Transvaginal
+ultrasonography for the diagnosis of ectopic pregnancy. Fertil Steril1988;
+50: 425-9.
+7. Cacciatore B, Stenman UH, Yloestalo P. Comparison of abdominal and
+vaginal sonography in suspected ectopic pregnancy. Obstet Gynecol1989;
+73: 770-4.
+8. Y ovich JL, McColm SC, Turner SR, Matson PL. Heterotopic pregnancy
+from in vitro fertilization. J In Vitro Fertil Emb Trans 1985; 2: 146-50.
+9. Bearman DM, Vieta PA, Snipes RD, Gobien RP, Garcia JE, Rosenwaks
+Z. Heterotopic pregnancy after in vitro fertilization and embryo transfer.
+Fertil Steril 1986; 45: 719-22.
+96
+Transvaginal sonography in early human pregnancy
+10. Nyberg DA, Mack LA, Laing FC, Jeffrey RB. Early pregnancy
+complications: endovaginal sonographic findings correlated with human
+chorionic gonadotropin levels. Radiology 1988; 167: 619-22.
+11. Nyberg DA, Mack LA, Laing FC, Patten RM. Distinguishing normal from
+abnormal gestation sac growth in early pregnancy. J Ultrasound Med
+1987; 6: 23-7.
+12. Nyberg DA, Filly RA, Duarte Filho DL, Laing FC, Mahony BS.
+Abnormal pregnancy: early diagnosis by US and serum chorionic
+gonadotropin levels. Radiology 1986; 158: 393-6.
+13. Liu HC, Kreiner D, Muasher SJ, Jones G, Jones H Jr, Rosenwaks Z. [3-
+human chorionic gonadotropin as a monitor of pregnancy outcome in in
+vitro fertilization-embryo transfer patients. Fertil Steril1988; 50: 89-94.
+14. Bree RL, Edwards M, Bohm-Velez M, Beyler S, Mendelson EB.
+Transvaginal sonography in the evaluation of normal early pregnancy:
+correlation with HCG level. AJR 1989; 153: 75-9.
+15. Bernashek G, Rudelstorfer R, Csaicsich P. Vaginal sonography versus
+serum human chorionic gonadotropin in early detection of pregnancy. Am
+J Obstet Gynecol 1988; 158: 608-12.
+16. Goldstein SR, Snyder JR, Watson C, Danon M. Very early pregnancy
+detection with endovaginal ultrasound. Obstet Gynecol 1988; 72: 200-4.
+17. Fossum GT, Davajan V, Kletzky DA. Early detection of pregnancy with
+transvaginal ultrasound. Fertil Steril 1988; 49: 788-91.
+18. Blumenfeld Z, Rottem S, Elgali S, Timor-Tritsch IE. Transvaginal
+assessment of early embryological development. In: Transvaginal
+Sonography, I.E. Timor-Tritsch & S. Rottem (eds), Heinemann Medical
+Books, London, 1988; 87-108.
+19. Rasor JR, Farber S, Braunstein GD. An evaluation of 10 kits for the
+determination of human choriogonadotropin in serum. Clin Chern 1983;
+6: 1828-31.
+20. Veen van der F, Hamerlynck JVTH, Hogerzeil van H, Lammes FB.
+Nieuwe ontwikkelingen in diagnostiek en behandeling wegens extra-
+uteriene graviditeit. Ned Tijdschr Geneesk 1989; 133: 2020-3.
+97
+Transvaginal sonography and ectopic pregnancy
+21. Goswamy RK, Williams G, Macnamee M. Two years' experience using
+vaginal ultrasound as a diagnostic and therapeutic tool in the management
+of ectopic pregnancies. Hum Reprod 1988; 3 (suppl 1): 74.
+22. Jansen CAM, Brandsma G, Cleveringa LM, Schats R, Vroegop IS,
+Lankhorst PFC. Vaginal Ultrasound puncture in the management of early
+ectopic pregnancy. Hum Reprod 1988; 3 (suppl 1): 72.
+23. Timor-Tritsch IE, Baxi L, Peisner DB. Transvaginal salpingocentesis: a
+new technique for treating ectopic pregnancies. Am J Obstet Gynecol
+1989; 160:459-61.
+24. Feichtinger W, Kemeter P. Conservative treatment of ectopic pregnancy
+by transvaginal aspiration under sonographic control and methotrexate
+injection. Lancet 1987; i: 381-2.
+25. Robertson DE, Smith W, Moye MA, Brinsden PR, Hansen JN, Lewis PM,
+Serhal P, Simons EG, Craft IL. Reduction of ectopic pregnancy by
+injection under ultrasound control. Lancet 1987; i: 974-5.
+26. Robertson DE, Smith W, Craft I. Reduction of ectopic pregnancy by
+ultrasound methods. Lancet 1987; ii: 1524.
+27. Feichtinger W, Kemeter P. Treatment of unruptured ectopic pregnancy
+by needling of sac and injection of methotrexate or PG E2 under
+transvaginal sonography control. Arch Gynecol Obstet 1989; 246: 85-9.
+28. Pansky M, Bukovsky I, Golan A, Weinraub Z, Schneider D, Langer R,
+Arieli S, Caspi E. Tubal patency after local methotrexate injection for
+tubal pregnancy. Lancet 1989; ii: 967-8.
+29. Zakut H, Sadan 0, Katz A, Dreval D, Bernstein D. Management of tubal
+pregnancy with methotrexate. Br J Obstet Gynaecol 1989; 96: 725-8.
+30. Tanaka T, Haydshi H, Kutsuzawa T, Fujinoto S, Ichinoe K. Treatment of
+interstitial ectopic pregnancy with methotrexate: report of a successful
+case. Fertil Steril 1982; 37: 851-2.
+31. Haans LCF, Kessel PH van, Kock CLV. Treatment of ectopic pregnancy
+with methotrexate. Eur J Obstet Gynaecol Reprod Biol1987; 24: 63-7.
+32. Brandes MC, Youngs DD, Goldstein DP, Parmley THE. Treatment of
+cornual pregnancy with methotrexate: case report. Am J Obstet Gynecol
+1986; 155: 655-7.
+98
+Transvaginal sonography in early human pregnancy
+33. Ory SJ, Villanueva AL, Sand PK, Tamura RK. Conservative treatment of
+ectopic pregnancy with methotrexate. Am J Obstet Gynecol 1986; 154:
+1299-306.
+34. Rodi lA, Sauer MV, Gorril MJ, Bustillo M, Gunning JE, Marshall JR,
+Buster JE. The medical treatment of unruptured ectopic pregnancy with
+methotrexate and citrovorum rescue: preliminary experience. Fertil Steril
+1986; 46: 811-3.
+35. Kooi GS, Kock HCLV. De behandeling met methotrexaat wegens tubaire
+graviditeit. Ned Tijdschr Geneesk 1987; 131: 2359-64.
+36. Stovall G, Ling FW, Buster JE. Outpatient chemotherapy of unruptured
+ectopic pregnancy. Fertil Steril1989; 51: 435-8.
+37. Ichinoe K, WakeN, Shinkai N, Shiina Y, Miyazaki Y, Tanaka T.
+Nonsurgical therapy to preserve oviduct function in patients with tubal
+pregnancies. Am J Obstet Gynecol1987; 156: 484-7.
+99
+100
+Transvaginal sonography in early human pregnancy
+CHAPTER 6
+FUNCTIONAL ASPECTS OF THE DEVELOPING EMBRYO
+INTRODUCTORY REMARKS
+Embryonic cardiac activity is the first sign of embryonic viability in early
+pregnancy. Knowledge about the presence of a viable embryo will reduce
+mental anxiety in those women who are at increased risk of pregnancy
+pathology. Serial documentation of embryonic heart rate in early pregnancy
+will provide more insight into the role of the sympathetic and
+parasympathetic system in determining cardiac rate and rhythm during
+embryonic development. Information is nowadays available on embryonic
+heart rate patterns prior to early abortion. Both aspects will be discussed in
+chapter 6.1. Observations done in IVF single pregnancies revealed differences
+in first appearance of embryonic cardiac activity. In chapter 6.2., IVF
+multiple pregnancies serve as a model for studying discrepancies in first
+appearance of cardiac activity under standardised maternal conditions.
+Finally, in chapter 6.3. a case report is presented in which an abnormal
+embryonic heart rate pattern recorded in early pregnancy was associated with
+Down's syndrome.
+101
+102
+Transvaginal sonography in early human pregnancy
+6.1. EMBRYONIC HEART ACTIVITY : APPEARANCE AND
+DEVELOPMENT IN EARLY HUMAN PREGNANCY
+R. Schatss, C.A.M. Jansen"' and J.W. Wladimiroff+
+"' Department of Obstetrics and Gynaecology I IVF,
+Diaconessenhuis Voorburg, The Netherlands.
++ Department of Obstetrics and Gynaecology,
+Academic Hospital Dijkzigt, Rotterdam,
+The Netherlands.
+Accepted for publication in:
+The British Journal of Obstetrics and Gynaecology
+6.1.1. SUMMARY
+The appearance and development of embryonic cardiac activity was studied in
+early human pregnancies established by in-vitro fertilisation (IVF) using
+transvaginal sonography. Embryonic cardiac activity could be detected as early
+as 25 days after follicle aspiration. The range in appearance of embryonic
+cardiac activity in normal continuing pregnancies was 5 days. There was no
+correlation with maternal age, day of embryo transfer, or cell stage at embryo
+transfer. As the difference in appearance of embryonic cardiac activity was
+associated with a difference in crown-rump length whilst the subsequent
+growth curve was normal we ascribe these findings to different duration of the
+implantation stage. The later cardiac activity was detected the greater the risk
+of miscarriage. Reference curves were created relating embryonic heart rate
+to the number of days following follicle aspiration, the number of days that
+cardiac activity is present and the crown-rump length. In pregnancies ending
+in miscarriage heart rate patterns fell away from the reference curve.
+Embryonic factors seem to play an essential role in these observations.
+103
+Appearance and development of embryonic cardiac activity
+6.1.2. INTRODUCTION
+One of the first signs of a viable pregnancy is the appearance of embryonic
+heart activity. Using a standard abdominal ultrasound technique, Robinson1
+demonstrated this activity at 45 - 47 days of amenorrhoea. Ultrasound
+equipment has improved dramatically since then. The recent introduction of
+transvaginal sonography might enable detection of embryonic cardiac activity
+at a much earlier stage. The major advantage of this technique is that the
+distance between transducer and object of scanning, in this case the uterus
+and its contents is greatly reduced. This creates the opportunity to use high
+MHz frequencies with good resolving properties. Subjects' acceptance, despite
+previous reservation, has been remarkably good, especially as there is no need
+to endure a full bladder. The in-vitro fertilisation (IVF) procedure provides
+exact data on the time of ovulation (=follicle aspiration) and the subsequent
+embryo transfer, and therefore the duration of pregnancy. This allowed us to
+obtain more insight into the onset of embryonic cardiac activity and its
+development in early human pregnancy.
+6.1.3. SUBJECTS and METHODS
+A total of 47 women consented to participate in the study. All women became
+pregnant after IVF treatment in our clinic. The study was approved by the
+ethics committee of the institution. The procedure in our centre included the
+transport of oocytes to the laboratory of the Department of Physiology II at
+the Erasmus University of Rotterdam as has been described earlier2• The
+mean age of the women in the study group was 34 years (range 24- 40 years).
+A pilot-study in 23 women showed that embryonic cardiac activity could not
+be detected before the 25th day after follicle aspiration. Based on this we
+designed the following protocol: transvaginal sonography was performed 25
+days after follicle aspiration and repeated every day until embryonic heart
+activity appeared, then the women were scanned at intervals of 2 or 3 days
+until 42 days after follicle aspiration. The protocol implicates between five
+and eight recordings of cardiac activity for each embryo (median six). Two
+104
+Transvaginal sonography in early human pregnancy
+days or 3 days were chosen at random depending on personal factors such as
+availability and travelling distance.
+All the women were scanned between 10.00 and 12.00 a.m. using the
+Diasonics DRF 400 and the Toshiba SAL 77B vaginal probes. The former was
+equipped with a 5.0 and a 7.5 MHz mechanical sector scan transducer and the
+latter with a 5.0 MHz electronic sector scan probe. Scans were carried out by
+R.S. and C.A.M.J.. All observations were taped and when there was heart
+activity the frequency was nearly always documented by M-mode in
+conjunction with the real-time scan (Toshiba SAL 77B) (Figure 6.1.1). The
+embryonic heart rate was calculated from the M-mode or, if this was not
+possible, from the real-time image. Embryonic cardiac activity was defined
+as a distinct contractile pattern inside the embryo with a frequency different
+Figure 6.1.1. Combined real-time and M-mode registration of an
+embryonic heart rate 29 days after follicle aspiration.
+105
+Appearance and development of embryonic cardiac activity
+from that of the maternal heart. In case of doubt both frequencies were
+counted simultaneously to be absolutely sure of registering the embryonic
+heart beat.
+In 12 women the timing of onset of embryonic cardiac activity and the
+embryonic heart rate were determined by both R.S. and C.A.M.J. from the
+same M-mode recordings to exclude the possibility of inter-observer
+variability. Both observers also measured heart rate independently in 10
+women at intervals of 15 - 60 min to rule out differences in heart rate over
+a short period of time.
+The Kolmogorov-Smirnov two-sample test was used to test the distribution
+of embryonic heart rate and crown-rump length (CRL) of single and multiple
+pregnancies.
+Embryonic heart rate was expressed as means +/-1 SD. The Wilcoxon rank
+sum test was used to determine the difference in timing of onset of
+embryonic cardiac activity between continuing pregnancies and pregnancies
+which later miscarried in the first trimester.
+6.1.4. RESULTS
+There was complete agreement between the two observers for the timing of
+onset of embryonic cardiac activity. The inter-observer variation for
+embryonic heart rate determination from the same M-mode recordings was
+very low. The mean of the differences was 2.3 (SD 1.5, range 0 - 4, median
+2). There was almost no variation in the embryonic heart rate over a short
+period of time (15- 60 min). The mean of the differences was 2.9 (SD 1.7,
+range 0- 4, median 2).
+In eight out of 47 women we were not able to time the onset of embryonic
+cardiac activity due to personal factors such as non-availability on specific
+days and holidays of the women. This resulted in incomplete data from eight
+women (five singleton and three twin pregnancies) and complete data from
+39 women (26 singletons, ten twins, three triplets) for further analysis. We
+included also multiple pregnancies, because so early in gestation development
+of embryonic cardiac activity and growth rate of CRL is similar in singleton
+106
+Transvaginal sonography in early human pregnancy
+and multiple pregnancies. The cumulative frequency distribution for singleton
+and multiple pregnancies was virtually the same suggesting they can be
+regarded as one population (two-tailed P = 0.99). The mean of the absolute
+differences for embryonic heart rate(+/- SD) and mean CRL (+/- SD) were
+2.42 (SD 1.5, range -4.4 to 5.1), 3.23 (SD 2.76, range -11.3 to 5.1), 0.37 (SD
+0.27, range -1 to 0.6) and 0.29 (SD 0.28, range -0.7 to 0.6) respectively.
+Figure 6.1.2 shows the distribution in the appearance of embryonic cardiac
+activity over the days after follicle aspiration. A difference of up to 5 days
+was seen in the continuing pregnancies. A continuing pregnancy was defined
+as a gestation with a well-developed fetus identified by ultrasound
+examination 11 weeks after follicle aspiration. The time difference in
+appearance of embryonic cardiac activity between the group of continuing
+pregnancies (33 women, 48 embryos) and pregnancies that miscarried in the
+first trimester (six women, seven embryos) was statistically significant (p =
+0.0028). Figure 6.1.3 depicts embryonic heart rate relative to the number of
+N
+u
+25
+M 20
+B
+E
+R
+0
+F
+15
+E 10
+M
+B
+R
+y
+0
+s
+5
+24 25 26 27 28 29 30 31 32 33
+DAYS AFTER FOLLICLE ASPIRATION
+- ONGOING PREGNANCIES ~ 1st TRIM. ABORTIONS
+Figure 6.1.2. The detection of embryonic cardiac activity in relation to the
+number of days after follicle aspiration.
+107
+Appearance and development of embryonic cardiac activity
+days after follicle aspiration. The number of observations per day ranged
+180
+170
+E 160
+H 150
+R 140
+130
+i 120
+n 110
+8 '100
+p 90
+M so·
+70.
+60+--r~r-~-r~--~-r-,--~-r-,--~-.-,--.--.-.
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
+DAYS AFTER FOLLICLE ASPIRATION
+-MEAN -+/-1 SO
+Figure 6.1.3. Embryonic heart rate (EHR) (mean +I- 1 SD) in relation
+to the number of days after follicle aspiration. BPM =Beats per minute.
+between 10 and 31 (median 17). Mean embryonic heart rate rose from 90.5
+(SD 16.5) beats/min on day 26 to 163.3 (SD 4.3) beats/min on day 42 after
+follicle aspiration. Figure 6.1.4 shows the embryonic heart rate relative to the
+number of days following the first detection of embryonic cardiac activity.
+The number of observations per day varied between 10 and 48 (median 24).
+Mean embryonic heart rate gradually increased from 92.5 (SD 12.9) beats/min
+on day zero to 161.0 (SD 5.3) beats/min on day 15. The developmental pattern
+of embryonic heart rate in the six pregnancies which miscarried (seven
+embryos) was always abnormal when compared with the continuing
+pregnancies (Figure 6.1.5). In three pregnancies abnormal heart rates
+preceded intrauterine death by a number of days or even weeks (range 1 -17
+in days). In Figure 6.1.6, embryonic heart rate is related to the ultrasonically
+108
+E
+H
+R
+i
+n
+8
+p
+M
+E
+H
+R
+i
+n
+8
+p
+M
+Transvaginal sonography in early human pregnancy
+180
+170
+160
+150
+140
+130
+120
+110
+100
+90
+80
+70
+60
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+No OF DAYS FOLLOWING THE DETECTION OF CARDIAC ACTIVITY
+-MEAN -B-+/-1 SO
+DAY 0 • DAY OF DETECTION
+Figure 6.1.4. Embryonic heart rate (EHR) (mean +I- 1 SD) in relation
+to the number of days cardiac activity is present. BPM = Beats per
+minute.
+180
+170
+160
+150
+140
+130
+120
+110
+100
+90
+80
+70
+60
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
+DAYS AFTER FOLLICLE ASPIRATION
+- ABORTION SINGLETON ~ ABORTION TWIN
+NORMAL RANGE (MEAN +/- 1 SO)
+Figure 6.1.5. Embryonic heart rate patterns of all six first trimester
+abortions (seven embryos) relative to the normal range.
+109
+Appearance and development of embryonic cardiac activity
+determined CRL. The number of observations per day ranged between 11 and
+180
+170
+E 160
+H 150
+R 140
+i
+130
+120
+n 110
+8
+100
+p 90
+M 80
+70
+60
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+CRL in mm
+- MEAN -s- +/- 1 SO
+Figure 6.1.6. Embryonic heart rate (EHR) (Mean +I- 1 SD) relative to
+the crown-rump length (CRL) in mm. BPM =Beats per minute.
+35 (median 26). Mean embryonic heart rate increased from 93.8 (SD 12.9)
+beats/min at a CRL of 2 mm to 159.0 (SD 6.7) beats/min at a CRL of 15 mm.
+The distribution of the heart rate determinations as well as the CRL
+measurements was normal.
+In the present study embryo transfer was performed either 2 days (N=22)
+or three days (N=17) after follicle aspiration. There was no difference in
+timing of the first ~ardiac activity between these two groups (mean 27.3, SD
+1.6 days compared with mean 27.0, SD 1.2 days after follicle aspiration).
+However, six of the seven embryos that were miscarried were transferred 2
+days after follicle aspiration. Excluding the miscarriages, the corrected values
+are 26.7 (SD 0.7) and 27.0 (SD 1.3) days after follicle aspiration; the
+difference is not statistically significant.
+110
+Transvaginal sonography in early human pregnancy
+No correlation was found between the cell stage at embryo transfer (two
+to eight cell stage) and appearance of first embryonic cardiac activity (r =-
+0.16).
+Finally, there was a very weak correlation between the timing of first
+embryonic cardiac activity and maternal age (r = 0.18).
+6.1.5. DISCUSSION
+The more sensitive technique of transvaginal sonography has opened up a new
+field of research and provides the opportunity to study the very early stages
+in the development of human pregnancy.
+The advantage of studying IVF pregnancies is that some of the variables
+such as time of ovulation (=follicle aspiration) and embryo transfer are
+exactly known. Whether the results can be extrapolated to spontaneous
+pregnancies is uncertain.
+Most women in our study were older than average for pregnant women in
+the Netherlands, reflecting the population currently having IVF treatment.
+Embryonic cardiac activity could be detected as early as 25 days after
+follicle aspiration. The spread of five days in the detection of heart activity
+in continuing pregnancies is considerable. Five days represents between 16.7%
+and 20% of the duration of pregnancy at that time. There is no clear
+explanation. Maternal age, the time between follicle aspiration and embryo
+transfer and the cell stage of the embryos at embryo transfer do not seem to
+play a significant role. Although the timing of embryo transfer after follicle
+aspiration does not influence the appearance of embryonic cardiac activity,
+in five of the six (one twin) pregnancies that miscarried the six embryos were
+transferred two days after follicle aspiration. This observation accords with
+the findings by Os van et al3, who reported a statistically significant
+difference in the proportion of continuing pregnancies between embryos
+transferred two days and three days after follicle aspiration. Other factors,
+most likely embryonic, in conjunction with endometrial conditions at the sie?
+of implantation may play an important role in establishing a pregnancy.
+Moreover, in multiple pregnancies we often observed a variation in
+111
+Appearance and development of embryonic cardiac activity
+appearance of cardiac activity between embryos, which emphasizes the
+importance of embryonic factors, rather than maternal variables which under
+these circumstances are constant4• The growth potential of the embryo itself
+seems to be very important in the struggle for implantation. It is possible that
+fast dividing embryos stand a better chance of implantation, and we
+examined whether this division potential was related to the day of first
+detection of cardiac activity5, but we found no relation between cell stage at
+embryo transfer and the day at which cardiac activity was detected. Strong,
+normal embryos will implant fast, but it seems impossible to judge the quality
+of the embryos on morphological and cleavage characteristics alone5•7. If the
+asynchrony in appearance of cardiac activity in multiple pregnancies indeed
+reflects variability in embryonic rather than maternal factors, then it is easier
+to understand why a later appearance of embryonic cardiac activity is
+associated with a higher chance of miscarriage.
+Transvaginal sonography did not only enable us to detect the embryonic
+heart beat one week earlier than reported previously, but we also found a
+certain pattern in ·the development of the embryonic heart rate. This was
+about 90 beats/min on day 26 and gradually increased to about 165 beats/min
+on day 42. Further improvement in ultrasound equipment may elucidate the
+rate at which the heart tube really starts functioning. Embryonic heart
+rhythm appeared to be very regular, however, quantification of the beat to
+beat variation from M-mode recordings was not feasible. The subsequent
+increase in rate may be an expression of the maturation of the nervous system
+or an adaptation to the size of the embryo or both. This may explain the
+observed relation between crown-rump length and heart rate at this stage of
+pregnancy. The pregnancies ending in miscarriage all showed an abnormal
+heart rate pattern in relation to our reference curve. This deviating pattern
+seems to be a reflection of the reduced growth capacity of the embryo. Heart
+rate may start off normal, but after a few days it falls away from the
+reference curve.
+We conclude that m continuing IVF pregnancies the date of onset of
+embryonic cardiac activity may differ as much as five days. The later the
+onset of cardiac activity the greater the chance of miscarriage. The embryonic
+112
+Transvaginal sonography in early human pregnancy
+heart rate preceding miscarriage may initially be normal or lower, but
+ultimately falls away from the reference curve. Environmental factors do not
+seem to play a significant role in these findings, so we believe the factors
+determining onset of cardiac activity and subsequent increase in embryonic
+heart rate are mainly embryonic in origin.
+6.1.6. REFERENCES
+1. Robinson HP, Shaw-Dunn J. Fetal heart rates as determined by sonar
+in early pregnancy. J Obstet Gynaecol Br Cwlth 1973; 80: 805-9.
+2. Jansen CAM, Beek JJ van, Verhoeff A, Alberda ATh, Zeilmaker GH. In-
+vitro fertilisation and embryo transfer with transport of oocytes. Lancet
+1986; i: 676.
+3. Os HC van, Alberda ATh, Janssen-Caspers HAB, Leerentveld RA,
+Scholtes MCW, Zeilmaker GH. The influence of the interval between in-
+vitro fertilization and embryo transfer and some other variables on
+treatment outcome. Fertil Steril 1989; 51: 360-2.
+4. Schats R, Brandsma G, Cleveringa LM, Lankhorst PFC, Vroegop IS,
+Jansen CAM. Evidence of asynchronous implantation in IVF multiple
+pregnancies. Hum Reprod 1988; 3: Suppl: Abstract 53, p 17.
+5. Edwards RG, Purdy JM, Steptoe PC, Walters DE. The growth of human
+preimplantation embryos in-vitro. Am J Obstet Gynecol1981; 141: 408-
+15.
+6. Acosta AA, Moon SY, Oehninger S, Muasher SJ, Rosenwaks Z, Matta JF.
+Implantation potential of each pre-embryo in multiple pregnancies
+obtained by in vitro fertilization seems to be different. Fertil Steril1988;
+50: 906-11.
+7. Lopata A, Martin M, Oliva K, Johnston I. Embryonic development and
+blastocyst implantation following in vitro fertilization and embryo
+transfer. Fertil Steril1982; 38: 682-90.
+113
+114
+Transvaginal sonography in early human pregnancy
+6.2. ASYNCHRONOUS APPEARANCE OF EMBRYONIC CARDIAC
+ACTIVITY IN MULTIPLE PREGNANCIES
+FOLLOWING IN-VITRO FERTILISATION
+R. Schats"', C.A.M. Jansen"' and J.W. Wladimiroff+
+* Department of Obstetrics and Gynaecology I IVF,
+Diaconessenhuis Voorburg, The Netherlands.
++ Department of Obstetrics and Gynaecology,
+Academic Hospital Dijkzigt, Rotterdam,
+The Netherlands.
+Accepted for publication in:
+Ultrasound in Medicine and Biology
+(Letter to the Editor)
+6.2.1. INTRODUCTION
+Implantation is a continuing process that extends from day 5 or 6 up to about
+day 12 following ovulation. The embryo becomes a blastocyst on day 4 or 5
+after fertilisation. At this stage it is capable, after hatching, of attachment to
+the endometrium and of implantation. In single pregnancies following in-
+vitro fertilisation (IVF) a difference up to 5 days in the appearance of
+embryonic heart activity has been demonstrated1. The factors determining
+rapid or slow implantation and subsequent development are disputed.
+Multiple pregnancies provide the opportunity to study different embryos in
+the same individual, thereby standardising for maternal influences. The
+objective of the present study was to establish a difference in the duration of
+the implantation stage in the human through documentation of the first
+appearance of embryonic cardiac activity in multiple pregnancies.
+115
+Asynchronous appearance of embryonic cardiac activity
+6.2.2. SUBJECTS and METHODS
+Between September 1987 and April1988 a total of twelve pregnant subjects
+consented to participate in the study. There were nine twin pregnancies and
+three triple pregnancies. All arose from IVF treatment, providing exact
+knowledge of the time of "ovulation" and transfer of the embryos and thus of
+embryonic age. Only pregnancies with normally developed fetuses detected
+by ultrasound examination 11 weeks after follicle aspiration (FA) were
+included.
+All patients were scanned between 10.00 and 12.00 a.m. using the
+Diasonics DRF 400 and the Toshiba SAL 77B transvaginal probes. The former
+was equipped with a 5.0 and a 7.5 MHz mechanical sector scan transducer and
+the latter with a 5.0 MHz electronic sector scan probe. Following localisation
+of the embryos, a search for cardiac activity was made. If cardiac activity was
+N
+u
+M
+8
+E
+R
+10
+8
+6
+4
+2
+0
+0 1 2
+DIFFERENCE IN APPEARANCE OF
+EMBRYONIC CARDIAC ACTIVITY IN DAYS
+Figure 6.2.1. Difference in appearance of embryonic cardiac activity in
+days in IVF multiple pregnancies.
+116
+Transvaginal sonography in early human pregnancy
+present the heart rate was documented by .M-mode in conjunction with a
+real-time scan. The heart rate was calculated from theM-mode in beats per
+minute (BPM). Daily examinations for cardiac activity were started on day 25
+after follicle aspiration. This was based on a pilot study in 23 women in
+which cardiac activity could not be detected before day 25 after follicle
+aspiration. Following documentation of first cardiac activity in all chorionic
+sacs within the same pregnancy, further examinations of the heart rate and
+crown-rump length (CRL) were carried out in 2 - 3 day intervals until 42
+days after follicle aspiration.
+6.2.3. RESULTS
+Cardiac activity was first documented between day 26 and day 29 after FA
+(median day 27). The time difference in first appearance of cardiac activity
+c
+R
+L
+D
+I
+F
+2.6
+2
+F 1.5
+E
+R
+E
+~ 1
+E
+I
+N 0.5
+M
+M
+0 1 2
+DIFFERENCE IN APPEARANCE OF
+EMBRYONIC CARDIAC ACTIVITY IN DAYS
+Figure 6.2.2. Difference in CRL relative to the difference in appearance
+of embryonic cardiac activity in multiple IVF pregnancies.
+117
+Asynchronous appearance of embryonic cardiac activity
+between different embryos in one and the same pregnancy varied between
+zero and 2 days (median 1 day) (Figure 6.2.1). A significant increase (p < 0.05
+170
+H
+E 160
+A
+~ 150
+R 140
+A
+T 130
+E
+I
+120
+n 110
+~ 100
+M 90~-o--r-.-~--.--.-,--.--r-.,-,--.--r-.-~--.-~
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42
+DAYS AFTER FOLLICLE ASPIRATION
+170
+H
+E 160
+A
+R 150
+T
+R 140
+A
+T 130
+E
+I
+120
+n 110
+B 100
+p
+M
+90
+0 1
+-EMBRYO 1 -EMBRYO 2
+Fig. Sa
+2 3 4 5 a 7 8 e w ff n ~ u ~ ~ v
+CROWN RUMP LENGTH In MM
+-EMBRYO 1 -EMBRYO 2
+Fig. 3b
+Figure 6.2.3. A twin IVF pregnancy: the difference in heart rate
+determined by the sequential onset of cardiac activity (figure 3a) is
+merely reduced after standardisation for CRL (figure 3b).
+118
+Transvaginal sonography in early human pregnancy
+; Wilcoxon rank sum test) in CRL difference relative to the difference in
+appearance of embryonic cardiac activity was observed, when all multiple
+pregnancies were considered together (Figure 6.2.2). This is also demonstrated
+in Figure 6.2.3, in which for two embryos from the same pregnancy the
+difference in heart rate determined by the sequential onset of cardiac activity
+(Figure 6.2.3a) is merely reduced up to day 40 after follicle aspiration
+following standardisation for CRL (Figure 6.2.3b).
+6.2.4. DISCUSSION
+Until now it is impossible to judge, on morphological grounds alone the
+quality of oocytes after stimulation and harvesting, and the quality of the
+pre-embryos they produce after fertilisation2• Under in-vitro conditions the
+difference in developmental potential of pre-embryos has been documented
+from the cleavage rate3• 4• This finding cannot be extrapolated to the in-vivo
+situation because of the different environment in which the pre-embryos·
+develop, in particular the quality of the endometrium. Implantation is the
+means by which the early embryo establishes a fixed relationship with respect
+to the uterus. The nature of the implantation process varies considerably
+between species and may include such events as the activation, spacing and
+orientation of the blastocyst, adhesion of the trophoblast to the luminal
+epithelium, invasion of the endometrial stroma and the development of a
+decidual response. The successful completion of these events involves a
+complex series of synchronised changes in the blastocyst and endometrium
+under the control of ovarian steroids. The very complexity of implantation
+makes this an extremely critical stage of early pregnancy.
+A multiple IVF pregnancy offers the unique opportunity to study the
+development of two or even three embryos in the same subject, thus
+standardising for inter-individual differences such as maternal age, parity,
+and other environmental variables. The difference in appearance of cardiac
+activity between embryos from the same pregnancy may be determined by
+asynchrony in onset of maternal nutrient supply, although other factors such
+as micro-environmental differences cannot be ruled out. Howe'(er, after
+119
+Asynchronous appearance of embryonic cardiac activity
+implantation the growth potential for each of those embryos was virtually the
+same, as reflected by the increase of CRL and the heart rate. We therefore
+suggest that the difference in first appearance of cardiac activity between
+embryos from the same pregnancy may be determined by the variable
+duration of the implantation stage.
+6.2.5. REFERENCES
+1. Schats R, Brandsma G, Cleveringa LM, Lankhorst PFC, Vroegop IS,
+Jansen CAM. Detection and monitoring of fetal heart activity in early
+pregnancy. Hum Reprod 1988; 3: Suppl. 78 (Abstract).
+2. Acosta AA, Moon SY, Oehninger S, Muasher SJ, Rosenwaks Z, Matta JF.
+Implantation potential of each pre-embryo in multiple pregnancies
+obtained by in vitro fertilization seems to be different. Fertil Steril1988;
+50: 906-11.
+3. Edwards RG, Purdy JM, Steptoe PC, Walters DE. The growth of human
+preimplantation embryos in vitro. Am J Obstet Gynecol1981; 141: 408-
+15.
+4. Lopata A, Martin M, Oliva K, Johnston I. Embryonic development and
+blastocyst implantation following in vitro fertilization and embryo
+transfer. Fertil Steril 1982; 38: 682-90.
+120
+Transvaginal sonography in early human pregnancy
+6.3. ABNORMAL EMBRYONIC HEART RATE PATTERN IN EARLY
+PREGNANCY ASSOCIATED WITH DOWN'S SYNDROME
+R. Schats", C.A.M. Jansen" and J.W. Wladimiroff+
+"' Department of Obstetrics and Gynaecology I IVF,
+Diaconessenhuis Voorburg, The Netherlands.
++ Department of Obstetrics and Gynaecology,
+Academic Hospital Dijkzigt, Rotterdam,
+The Netherlands.
+Published in:
+Human Reproduction 1990; 5: 877-9.
+6.3.1. SUMMARY
+The case history of a 35-year-old woman with a pregnancy following IVF
+treatment is presented. Transvaginal sonography revealed an abnormal
+embryonic heart rate pattern between 28 and 50 days following follicular
+aspiration. At term, a male infant with the characteristics of Down's syndrome
+was born. The diagnosis was confirmed by chromosome analysis. The
+implications of this observation are discussed.
+121
+Down's syndrome associated with abnormal embryonic heart rate pattern
+6.3.2. INTRODUCTION
+Several ultrasonographic signs have been described in second trimester fetuses
+at high risk for Down's syndrome1· 7• Although parameters like a thickened
+nuchal fold, an increased biparietal diameter I femur length ratio and
+hypoplasia of the middle phalanx of the fifth digit are reported, there is no
+general agreement about the sensitivity and specificity of these signs1· 7• A
+great disadvantage of these features is that they are recognised late in
+pregnancy. It would be of great value if a reliable parameter could be
+identified early in pregnancy which can indicate fetuses at risk for Down's
+syndrome or other chromosome abnormalities. Transvaginal sonography
+enables detailed information to be obtained about early morphological and
+physiological deve~opment of the embryo, because probes with high emission
+frequencies (5.0 - 7.5 MHz) and therefore high resolution can be employed.
+This case history illustrates that a deviating development of the embryonic
+heart rate was associated with a chromosome abnormality.
+6.3.3. CASE HISTORY
+A 35-year-old woman requested IVF treatment in our clinic. Infertility
+analysis in another hospital had revealed tubal pathology to such a degree that
+the chance of a spontaneous pregnancy could be regarded as niL Following
+our routine controlled hyperstimulation scheme containing pure FSH, hMG,
+and hCG, oocyte recovery took place on day 12 of the cycle. Seven oocytes
+were obtained and three of them became fertilised. Transfer of the three
+embryos (8-,8- and 6-cell stage) was carried out three days after follicular
+aspiration. Fifteen days after oocyte collection, a pregnancy test (Predictor
+color) was positive. The patient consented to participate in a study on the
+appearance and development of embryonic cardiac activity. According to the
+study protocol daily transvaginal sonographic examinations were started on
+day 25 following oocyte recovery until the presence of embryonic cardiac
+activity was established, with documentation of the heart rate at two to three
+day intervals thereafter. The first embryonic heartbeats could be registered
+122
+Transvaginal sonography in early human pregnancy
+on day 28 after oocyte recovery. The heart rate was calculated using
+combined real-time and M-mode registration of cardiac activity. The actual
+heart rate pattern was plotted in the reference curve for normal heart rate
+180
+170
+E 160
+H 150
+R 140
+i
+130
+120
+n 110
+8 100
+p 90
+M 80
+70
+60
+COLLAPSE OF
+YOLK SAC
+BLOOD LOSS
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44
+DAYS AFTER FOLLICLE ASPIRATION
+- MEAN -e- +/- 1 SO '""*"'"DOWN'S SYNDROME
+Figure 6.3.1. Reference curve and serial plot of embryonic heart rate
+(EHR) in beats per minute (BPM) in a case of Down's syndrome.
+development8
+(Figure 6.3.1). On day 30, there was a slight vaginal blood loss,
+which was associated with a drop in heart rate below the lower limit of the
+reference curve. Following a slight recovery there was another marked drop
+in heart rate on day 37, which coincided with a sonographically visible
+collapse of the yolk sac (Figure 6.3.2). Whereas the yolk sac appeared to have
+regained its norma,l sonographic appearance three days later, the heart rate
+only returned to normal on day 50 according to the standard curve by
+Robinson and Shaw-Dunn9• From then, the pregnancy continued
+uneventfully. Transabdominal ultrasound examinations in the second and
+third trimester revealed no abnormalities and fetal growth was normal. There
+123
+Down's syndrome associated with abnormal embryonic heart rate pattern
+Figure 6.3.2. Chorionic sac with embryo and collapsed yolk sac.
+was a normal biparietal diameter I femur ratio according to the reference
+curves by Campbell and O'Brien et al10
+• 11 . At 39 weeks of gestation a male
+infant was born following forceps delivery because of persistent second stage
+fetal bradycardia. Apgar score at 5 min was 9, birth weight was 3060 g and
+the length 49 em. The newborn exhibited characteristics of Down's syndrome.
+Chromosome analysis confirmed the presence of trisomy 21. There were no
+cardiac structural anomalies.
+6.3.4. DISCUSSION
+In this case history, abnormal development of the embryonic heart rate
+pattern was associated with Down's syndrome. To our knowledge this is the
+124
+Transvaginal sonography in early human pregnancy
+first report of such an association. It would be interesting to know if this
+observation is just more than a coincidence. In a previous series of seven
+embryos with abnormal heart rate patterns between 25 and 42 days after
+oocyte recovery all embryos aborted in the first trimester8• Karyotyping in
+embryonic tissue was feasible in five cases, revealing an abnormal
+chromosomal pattern in two cases (45 XO and 46X-X + t(X;1)(q22;q23). Two
+cases showed a normal 46 XX chromosomal pattern and in one the tissue
+culture failed. In the case reported here vaginal blood loss and the temporary
+collapse of the yolk sac suggested threatening abortion. However, the
+pregnancy continu.ed. It is common knowledge that spontaneous abortion is
+often associated with chromosome abnormalities. If there is indeed a close
+relation between early abnormal heart rate patterns and chromosome
+anomalies, chorionic villus sampling or amniocentesis should be offered in
+these cases. Further evidence is needed, until then the natural history of these
+abnormal early heart rate patterns should be studied.
+6.3.5. REFERENCES
+1. Benecerraf BR, Gelman R, Prigoletto PD. Sonographic identification of
+second-trimester fetuses with Down's syndrome. N Engl J Med 1987; 317:
+1371-6.
+2. Benacerraf BR, Osathanondh R, Prigoletto PD. Sonographic demonstration
+of hypoplasia of the middle phalanx of the fifth digit: a finding associated
+with Down syndrome. Am J Obstet Gynecol1988; 159: 181-3.
+3. Brumfield CG, Hauth JC, Cloud GA, Davis RO, Henson, BV. Sonographic
+measurements and ratios in fetuses with Down syndrome. Obstet Gynecol
+1989; 73: 644-6.
+4. Lockwood C, Benacerraf B, Krinsky A, Blakemore K, Belanger K,
+Mahoney M, Hobbins J. A sonographic screening method for Down
+syndrome. Am J Obstet Gynecol 1987; 157: 803-8.
+5. Lynch L, Berkowitz GS, Chitkara U, Wilkins IA, Mechalek KE,
+Berkowitz RL. Ultrasound detection of Down syndrome: is it really
+possible? Obstet Gynecol1989; 73: 267-70.
+125
+Down's syndrome associated with abnormal embryonic heart rate pattern
+6. Perrella R, Duerinckx AJ, Grant EG, Tessler F, Tabsh K, Crandall BF.
+Second-trimester sonographic diagnosis of Down syndrome: role of
+femur-length shortening and nuchal fold thickening. Am J Radiol1988;
+151: 981-5.
+7. Toi A, Simpson GF, Filly RA. Ultrasonically evident fetal nuchal skin
+thickening: is it specific for Down syndrome? Am J Obstet Gynecol1987;
+156: 150-3.
+8. Schats R, Jansen CAM, Wladimiroff JW. Embryonic heart activity:
+appearance and development in early human pregnancy. Br J Obstet
+Gynaecol, 1990, in press.
+9. Robinson HP, Shaw-Dunn J. Fetal heart rates as determined by sonar
+in early pregnancy. J Obstet Gynaecol Br Commonw 1973; 80: 805-9.
+10. Campbell S. Fetal growth. In: Fetal physiology and medicine. R.W. Beard
+& P.W. Nathanielsz (eds). W.B. Saunders Co., Philadelphia 1976; 271-300.
+11. O'Brien GD, Queenan JT, Campbell S. Assessment of gestational age in
+the second trimester by real-time ultrasound measurement of the femur
+length. Am J Obstet Gynecol1981; 139: 540-7.
+126
+Transvaginal sonography in early human pregnancy
+CHAPTER 7
+CONCLUSIONS
+Transvaginal sonography can be regarded as a breakthrough in the
+visualisation of early pregnancy development. It allows the use of transducers
+with higher emission frequencies, resulting in better image resolution.
+The acceptance of this method by patients is excellent. Moreover, energy
+output at the level of the embryo is lower with transvaginal scanning than
+with transabdominal scanning.
+Anatomical as well as functional aspects of gestational development can be
+evaluated earlier than previously described with transabdominal scanning.
+The diagnosis of vital and non-vital intra-uterine pregnancy can now be
+made as early as 6Y2 weeks menstrual age.
+The introduction of transvaginal sonography allows more detailed
+visualisation of embryonic anatomy and, therefore, earlier and more accurate
+measurement of the crown-rump length (CRL). A reappraisal of the current
+reference chart for embryonic CRL demonstrates a smaller distribution of
+CRL measurements, allowing more accurate pregnancy dating. Moreover,
+transvaginal CRL measurements can be obtained approximately four days
+earlier than previously reported employing transabdominal scanning.
+Transvaginal sonography is also helpful in determining the fate of those
+pregnancies associated with vaginal bleeding. A rather fixed sequence of
+distinctive features of embryonic development (visualisation of the gestational
+sac and yolk sac; appearance of cardiac activity; embryonic growth (CRL
+measurement)) has to be followed between definite time limits.
+Transvaginal sonography m combination with sensitive hCG
+determinations permits the diagnosis of ectopic pregnancy before clinical
+signs or symptoms have appeared. This allows conservative management,
+which is of particular importance regarding future fertility. Transvaginal
+puncture under sonographic guidance with or without the instillation of
+cytoreductive agents may be successful. However, the failure rate of this
+approach is still too high to advocate general use. At present, the place of
+127
+Conclusions
+transvaginal sonography in the various modes of conservative management of
+ectopic pregnancy has not been established clearly.
+Embryonic cardiac activity is the first dynamic parameter that can be
+evaluated in early pregnancy development. The absence of cardiac activity
+after 30 days following ovulation or a heart rate falling away from the
+reference chart is associated with poor pregnancy outcome. A possible
+relationship between an abnormal heart rate pattern and chromosomal
+anomalies is suggested. Environmental factors do not seem to play an
+important role in the appearance and development of cardiac activity, as is
+illustrated by the variable onset of cardiac activity (difference up to two
+days) in multiple IVF pregnancies. Embryonic quality and subsequent growth
+potential seem to be the main determinant factors.
+128
+Transvaginal sonography in early human pregnancy
+SUMMARY
+Chapter 1
+In this chapter the history of transvaginal sonography is summarised. Whereas
+the vaginal approach was already suggested in the 1960's recent electronic
+advances have made renewed introduction feasible. In the early eighties
+transvaginal sonog:raphy was mainly used as method for monitoring follicle
+growth and later also to recover oocytes in IVF centres. Since then
+transvaginal sonography is used in several diagnostic procedures in Obstetrics
+and Gynaecology, which are discussed shortly. The objectives of the studies
+presented in this thesis are defined.
+Chapter 2
+In this chapter the technical and methodological aspects of transvaginal
+sonography are described. The main characteristic of transvaginal sonography
+is the "different" approach, allowing to use transducers with high emission
+frequencies leading to high resolution images. An inquiry was conducted into
+the patient acceptability of this new technique. The results were favourable
+for transvaginal sonography in comparison with transabdominal scanning,
+particularly since no full bladder is necessary using the vaginal approach.
+Chapter 3
+In this chapter the safety aspects of ultrasound and transvaginal sonography
+in particular are described. Approximately 800 publications have been
+published until now about the biological effects of ultrasound. From this
+overwhelming amount of literature it can be concluded that sound intensities,
+which so far have been employed for diagnostic procedures, are harmless to
+the developing embryo, although unlimited use should be avoided.
+Transvaginal sonography is associated with lower energy levels reaching the
+129
+Summary
+embryo than in the transabdominal approach under the assumption of the
+same start intensities.
+Chapter 4
+In the first part of this chapter (4.1) an overview is provided of embryonic
+development in the first six weeks following conception. This development
+is related to the transvaginal sonographic findings in normal developing
+gestations in this period. A number of embryonic landmarks (gestational sac,
+yolk sac and cardiac activity) can be visualised about one week earlier than
+previously reported. The second part (4.2.) shows that the reference chart
+currently in use for embryonic crown-rump length measurements derived
+from data obtained with transabdominal sonography (compound B-scan)
+needs to be adjusted, since it is possible to measure embryonic crown-rump
+length earlier and more accurate employing transvaginal sonography.
+Chapter 5
+In the first part of this chapter (5.1.) the transvaginal sonographic
+characteristics of abnormally developing intra-uterine gestations are
+described. The sonographic findings in a group of patients presenting with
+vaginal bleeding in the first trimester of pregnancy are described. Our own
+findings are compared with data reported by other authors. It is stated that
+the diagnosis of abnormal gestation can be made about one week earlier with
+transvaginal sonography. In the second part (5.2.) the role of transvaginal
+sonography in the diagnosis and management of ectopic pregnancy is
+discussed. The availability of sensitive hCG determinations in combination
+with transvaginal sonography permits the diagnosis of ectopic pregnancy
+before clinical signs and symptoms have appeared. This provides the
+opportunity to employ more conservative modes of treatment, which is
+especially important regarding aspects of future fertility. At presel?-t, the
+place of transvaginal sonography in the management of ectopic pregnancy
+130
+Transvaginal sonography in early human pregnancy
+still has to be established. The significance of transvaginal puncture of
+ectopic pregnancies with or without systemic or local administration of
+methotrexate is discussed.
+Chapter 6
+This chapter consists of three parts. In the first part (6.1.) several aspects of
+appearance and subsequent development of embryonic cardiac activity in IVF
+pregnancies is described. A spread of five days in the appearance of cardiac
+activity was observed. The later cardiac activity can be visualised, the higher
+the chance of abortion. Also abnormal development of embryonic heart rate
+is associated with an increased risk of abortion. The factors determining the
+onset and subsequent development of the heart rate are most likely embryonic
+in origin. Environmental factors like maternal age, do not seem to play a
+significant role. Arguments for these assumptions are provided in the second
+part of this chapter (6.2.). In IVF multiple pregnancies a difference of up to
+two days in the appearance of cardiac activity between embryos was found
+in a number of cases. The determining factor in this observation seems to be
+a different duration of the implantation stage, since the growth of the
+embryos following the appearance of cardiac activity was virtually the same.
+In the third part (6.3.) a case history is presented in which abnormal
+development of the embryonic heart rate in early pregnancy coincided with
+the birth of an infant with Down's syndrome. The implications of this
+observation are discussed.
+131
+Transvaginal sonography in early human pregnancy
+SAMENVATTING
+Hoofdstuk 1
+In dit hoofdstuk is de geschiedenis van transvaginale echoscopie beknopt
+weergegeven. De vaginale benadering werd reeds in de zestiger jaren
+nagestreefd, echter de recente elektronische ontwikkelingen maakten de
+feitelijke toepassing mogelijk en zinvol. In het begin van de jaren tachtig
+werd transvaginale echoscopie vooral gebruikt als methode voor monitoring
+van de follikelgroei en later ook om oocyten te verkrijgen in IVF centra.
+Sindsdien heeft transvaginale echoscopie diverse toepassingen gevonden in de
+Obstetrie en Gynaecologie. Deze worden in het kort aangegeven. De
+doelstellingen van dit proefschrift worden gedefinieerd.
+Hoofdstuk 2
+In dit hoofdstuk worden de technische en methodologische aspecten van
+transvaginale echoscopie besproken. Kenmerkend voor transvaginale
+echoscopie is de "andere" benadering die het mogelijk maakt om transducers
+te gebruiken met hoge emissie frequenties waardoor een hoog oplossend
+vermogen wordt gecreeerd. Hiermee kan een beeld verkregen worden met
+veel details. Een enquete naar de acceptatie van deze nieuwe techniek door
+de patient viel zeer gunstig uit voor transvaginale echoscopie in vergelijking
+met transabdominale echoscopie.
+Hoofdstuk 3
+In dit hoofdstuk komen de veiligheidsaspecten van ultrageluid en
+transvaginale echoscopie in het bijzonder aan de orde. Er zijn tot op heden
+ongeveer 800 publikaties verschenen die betrekking hebben op de biologische
+effecten van ultrageluid. Uit deze overstelpende hoeveelheid literatuur kan
+worden geconcludeerd, dat ultrageluid met intensiteiten zoals die worden
+132
+Samenvatting
+toegepast voor diagnostische doeleinden in de zwangerschap niet schadelijk
+is, maar ongelimiteerd gebruik moet worden vermeden. Indien de geluids-
+intensiteiten die bereikt worden ter plaatse van het embryo voor
+transabdominale en transvaginale echoscopie vergeleken worden valt op, dat
+bij gelijke startintensiteit van de transducers deze intensiteit bij transvaginale
+echoscopie lager ligt dan bij transabdominale echoscopie.
+Hoofdstuk 4
+In dit hoofdstuk wordt in het eerste gedeelte (4.1.) een overzicht gegeven van
+de embryonale ontwikkeling in de eerste zes weken na conceptie. Deze
+ontwikkeling wordt gekoppeld aan de transvaginale echoscopische
+bevindingen in zich normaal ontwikkelende graviditeiten in deze periode. Het
+blijkt, dat een aantal embryonale structuren waaronder de vruchtzak en
+dooierzak, alsmede hartactiviteit ongeveer een week eerder kunnen worden
+gedetecteerd met transvaginale echoscopie. In het tweede gedeelte (4.2.) wordt
+aangetoond, dat de curve die voor de kruin-romp lengte tot op heden in
+gebruik is en werd samengesteld uit gegevens die werden verkregen met
+behulp van transabdominale echoscopie (compound B-scan) aanpassing
+behoeft, omdat het mogelijk is geworden om de kruin-romp lengte via
+transvaginale echoscopie eerder en nauwkeuriger te meten.
+Hoofdstuk 5
+In het eerste gedeelte van dit hoofdstuk (5.1.) wordt ingegaan op de
+transvaginale echoscopische kenmerken van zich abnormaal ontwikkelende
+intra-uteriene graviditeiten. De bevindingen bij een groep patienten die zich
+met bloedverlies in het eerste trimester van de graviditeit presenteerden
+worden besproken. Onze onderzoeksresultaten worden vergeleken met de
+gegevens uit de literatuur. Ook de diagnose abnormale graviditeit kan met
+transvaginale echoscopie ongeveer een week eerder gesteld worden. In het
+tweede gedeelte (5.2.) wordt de rol van transvaginale echoscopie in de
+133
+Transvaginal sonography in early human pregnancy
+diagnostiek en behandeling van ectopische graviditeiten beschreven. Door het
+beschikbaar komen van gevoelige hCG bepalingen in combinatie met
+transvaginale echoscopie is het mogelijk geworden om de diagnose ectopische
+graviditeit in een eerder, vaak nog asymptomatisch stadium te stellen.
+Hierdoor wint men tijd om meer conservatieve methoden van behandeling,
+waarbij gelet kan worden op aspecten van toekomstige fertiliteit, te
+overwegen. Het is nog niet geheel duidelijk welke plaats transvaginale
+echoscopie in deze zal gaan innemen. Transvaginale punctie van de ectopische
+graviditeit als therapeutische ingreep al dan niet in combinatie met lokale of
+systemische toediening van methotrexaat wordt besproken.
+Hoofdstuk 6
+Dit hoofdstuk bestaat uit drie gedeelten. In het eerste deel (6.1.) worden de
+verschillende aspecten van verschijnen en ontwikkeling van de hartactiviteit
+van het embryo in IVF graviditeiten beschreven. Er blijkt een spreiding te
+bestaan van vijf dagen in het optreden van hartactiviteit. Naarmate de
+hartactie later wordt vastgesteld des te groter de kans dat er een abortus
+optreedt. Ook een abnormale ontwikkeling van de hartfrequentie van het
+embryo lijkt samen te gaan met een verhoogde kans op abortus. De factoren
+die het begin en de daaropvolgende ontwikkeling van de hartactiviteit
+bepalen zijn waarschijnlijk in het embryo zelf gelegen. Omgevingsfactoren
+zoals bijvoorbeeld leeftijd van de moeder, lijken van ondergeschikt belang.
+Argumenten voor deze veronderstellingen worden aangedragen in het tweede
+gedeelte (6.2.) van dit hoofdstuk. In IVF meerling graviditeiten kon tussen de
+embryo's in een aantal gevallen een verschil tot 2 dagen worden aangetoond
+in het optreden van hartactiviteit. Dit lijkt veroorzaakt te worden door een
+verschillende duur van de implantatiefase, omdat de groei van de embryo's
+na het verschijnen van hartactiviteit praktisch hetzelfde was. In het derde
+gedeelte (6.3.) wordt een casus gepresenteerd waarbij een abnormale
+ontwikkeling van de hartfrequentie van het embryo vroeg in de graviditeit
+werd vastgesteld. Uiteindelijk werd er een kind geboren met het syndroom
+van Down. De implicaties van deze observatie worden besproken.
+134
+ACKNOWLEDGEMENTS
+The study described in this thesis was carried out for a great deal in the
+Department of Obstetrics & Gynaecology I IVF of the Diaconessenhuis,
+Voorburg, The Netherlands.
+Dr. C.A.M. Jansen, dear Kees, you always speak with great enthusiasm
+about the exciting views of early human development that can be obtained
+with transvaginal sonography. You were the initiator of the study and
+therefore, I am particularly indebted to him for his continuous support,
+encouragement and advice.
+Prof. Jhr. Dr. J.W., dear Jura, I especially want to express my gratitude
+to you for your critical remarks and for giving the results of the study the
+shape of a thesis.
+I want to thank the patients who were so kind to participate in the study.
+The great majority of the patients wanted to have ultrasound
+examinations even more frequently than the protocol demanded because
+they were even more thrilled about this technique resulting in such
+beautiful pictures of their developing babies.
+I like to thank Prof. Dr. N. Bom, Prof. Dr. H.P. van Geijn and Prof. Dr.
+J. Voogd for their willingness to be members of the committee.
+Dr. P. Hummel, dear Piet, you are not (yet) an expert in transvaginal
+sonography but exactly that made you the ideal person to read critically
+and conscientiously the final phase of this thesis. Many thanks again !
+I like to thank my colleagues of the IVF-team of the Vrije Universiteit
+for their mental support during the final stages of this thesis. The special
+atmosphere in the VEVO I IVF department combined with the typical
+humour of Amsterdam was the excellent mixture creating the right
+climate for completing this task.
+I like to thank my computer, who always did what he had to do, but had
+the misfortune that he was conducted by an absolute beginner. He never
+complained about my rudeness and inconsiderate behaviour. I am glad
+that wordprocessing software programs exist, because I rewrote so many
+times sentences and whole pages and even chapters, that I certainly should
+have driven a few secretaries absolutely crazy.
+Dear Wilma you do not want to be thanked, honoured or whatever in this
+thesis, therefore I will not do so.
+135
+CURRICULUM VITAE
+12-05-1956 Roelof Schats born in Leiden
+1968- 1974 Secondary school education: Stedelijk Gymnasium, Leiden,
+Gymnasium-B.
+1974- 1980 State University of Leiden, Medical School.
+Medical Degree Cum Laude.
+1981 Research Fellow in the MRC Unit for Reproductive Biology,
+Edinburgh, Scotland (Prof. R.V. Short, Prof. D.T Baird,
+Mentor: Dr. R.J. Aitken).
+1982- 1987 Residency Obstetrics and Gynaecology:
+01-02-1982-31-07-1982 Zuiderziekenhuis, Rotterdam (Prof.
+Dr. F.B. Lammes).
+01-08-1982 - 31-10-1985 Academic Hospital Rotterdam -
+Dijkzigt (Prof. Dr. A.C. Drogendijk, Prof. Dr. H.C.S.
+Wallenburg and Prof. Dr. J.W. Wladimiroff).
+01-11-1985- 01-02-1987 Zuiderziekenhuis, Rotterdam (Dr.
+H.T. Lim).
+01-02-1987 Board Certification Obstetrics and Gynaecology.
+1987- 1988 Diaconessenhuis, Voorburg (Senior Registrar).
+1989 Dr. Daniel den Hoed Kliniek, Rotterdam (Gynaecological
+Oncology Fellow).
+1990 - Academic Hospital of the "Vrije Universiteit",Amsterdam,
+Gynaecologist especially for Reproductive Endocrinology,
+Infertility Investigation and Assisted Fertility.
+136
+

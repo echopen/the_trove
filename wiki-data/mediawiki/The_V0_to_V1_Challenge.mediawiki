@@ -1,0 +1,69 @@
+# The V0 to V1 Challenge
+
+== DEFI ==
+
+Au choix :
+
+Proposer une technique de détection de l’enveloppe du signal
+
+ou
+
+Exploiter la phase du signal pour améliorer la qualité du signal
+
+{| class="wikitable"
+|----
+|Issue
+|#tags
+|Skills
+|Difficulty (1-5)
+|Notes
+|----
+|Proposer une technique de détection de l’enveloppe du signal
+|#soft #display #traitement_du_signal #pre processing #mid-end processing
+|#traitement du signal #c/c++ #python
+|3
+|
+|----
+|}
+
+== MISSION ==
+
+=== PROBLEME ===
+
+Il existe de nombreuses techniques pour récupérer l’enveloppe du signal. En règle générale, on opère une transformation de Hilbert pour récupérer une représentation analytique du signal. 
+
+il apparaît que la phase du signal n’est en général pas exploitée. Il s’agit de proposer un usage pertinent de cette typologie de data
+
+* Pour mémoire, l'équipe d'Echopen a utilisé une pseudo-transformation de Hilbert, c'est-à-dire en écrasant à 0 les transformée de Fourier aux fréquences négatives.
+
+
+== REWARD ==
+*possibilité de résidence temporaire
+*echo-badge
+*hall of fame des projets Open Source
+
+== RESSOURCES ==
+
+# les data de simulations sont accessibles ici : https://github.com/echopen/project/tree/master/phantom
+vous y trouverez les raw data à filtrer. Précisément :
+
+          img_kydney/txt
+          img_obs/txt
+
+A des fins de réalisme, il s’agit d’images de foie et de foetus en gestation
+
+# librairies : les librairies servant la FFT
+
+== REPOS ==
+
+Soumission des pull-requests sur https://github.com/echopen/project
+
+== SUDOERS ==
+
+@jerôme [jerome@echopen.org]
+
+== ECHPERTS ==
+
+ @nowami [mehdi@echopen.org]
+
+[[Category:Challenge]]

@@ -1,0 +1,1673 @@
+two
+focu
+mec
+elec
+this
+alte
+piez
+ana
+def
+of f
+ma
+gre
+reso
+pha
+stab
+pos
+cos
+Ind
+Rea
+freq
+hig
+of
+sca
+4,5
+par
+mo
+elem
+inc
+cos
+freq
+like
+tran
+the
+a m
+bas
+arra
+tran
+thro
+sys
+A Lo
+Mech
+Abstract - Thi
+o dimensional
+used imaging
+chanism. A
+ctromagnetic m
+s mechanical sc
+ernative. The m
+zoelectric bimo
+alysis of the tr
+flections greater
+frequencies, fro
+ximum theoret
+eater than 20 m
+onance (110 Hz
+ase relative to
+bility (+/- 1.4
+sition encoders,
+t.
+dex Terms - Hig
+al-Time Imaging
+Although re
+quency ultraso
+gh frequency lin
+interest in d
+anned single-e
+]. Although l
+rts, higher fram
+otion artifacts,
+ment-count m
+reased hardwa
+st to the end
+quency ultraso
+ely that these
+nslating a line
+refore require
+The alternativ
+mechanically
+sed system. Th
+ays are limited
+nsducer, two d
+ough the comp
+stem for the lat
+w-Cos
+hanism
+is paper charac
+imaging syste
+transducer and
+As previous
+motors, for the m
+canning mechan
+mechanical scan
+orph as the act
+ransducer moti
+r than 10 mm c
+om 40 to 120
+tical frame rat
+mm can be obta
+z). Additionall
+the input volt
+degrees) poten
+, further reduc
+gh Frequency U
+g, Composite Tr
+I. INTROD
+cent trends i
+ound systems h
+near arrays [eg
+developing sys
+element and a
+linear arrays o
+me rates, more
+, the comple
+micro-arrays
+are demands,
+user. In ad
+ound shift towa
+images will b
+ear array in th
+a mechanical s
+ve to a high fr
+scanned singl
+hough single-e
+d to focusing on
+dimensional im
+pilation of adja
+eral translation
+t High
+m for H
+A. B
+D
+terizes a low co
+em based on
+d a novel mec
+designs have
+mechanical scan
+nism provides a
+nning mechanis
+tuating element
+ion has shown
+can be obtained
+Hz. This, in t
+te of 240 fps.
+ined at the scan
+ly, an analysis
+age has shown
+ntially elimina
+cing the device
+Ultrasound, Mech
+ransducer, Han
+DUCTION
+in the develo
+ave been in the
+g. 1-3] there is
+stems based o
+annular array
+ffer the promi
+flexible beam
+exity of manu
+combined wi
+result in sign
+dition, if the
+ards 3-D imagi
+be generated
+he azimuth di
+scanning mech
+requency linea
+le-element (or
+lement transdu
+nly down the c
+mages can eas
+acent A-scans.
+n of the transdu
+Frame
+igh-Fre
+B. Bezanson,
+Department of
+Dalho
+PO
+Halifax, NS
+ost high-frequen
+a single-eleme
+chanical scanni
+utilized cos
+nning translatio
+a highly simplifi
+m utilizes a sin
+t. Laser Dopp
+n that transduc
+d for a large ran
+turn, results in
+Peak deflectio
+nning mechani
+of the transduc
+n that high pha
+tes the need f
+e complexity a
+hanical Scannin
+ndheld Scanner.
+pment of hig
+e development
+s still a great de
+on mechanica
+transducers [e
+se of no movi
+profiles, and le
+ufacturing lar
+ith the huge
+nificantly high
+trends in hig
+ing systems, it
+by mechanica
+irection and w
+hanism.
+ar array system
+r annular arra
+ucers and annu
+central axis of t
+sily be generat
+This requires
+ucer.
+e-Rate P
+equenc
+R. Adamson
+Biomedical En
+ousie Universit
+O Box 15000
+S B3H 4R2 C
+ncy
+ent
+ing
+stly
+on,
+fied
+gle
+ler
+cer
+nge
+n a
+ons
+sm
+cer
+ase
+for
+and
+ng,
+gh-
+of
+eal
+ally
+eg.
+ing
+ess
+rge
+ely
+her
+gh-
+t is
+ally
+will
+m is
+ay)
+ular
+the
+ted
+s a
+Co
+imaging
+To date
+have be
+10 mm
+drawba
+they ar
+encode
+Additio
+coils,
+require
+T
+scannin
+transdu
+scanner
+Dopple
+bending
+conven
+a) Sca
+As
+consists
+frequen
+bimorp
+PA) vi
+'neck'.
+bends,
+bimorp
+wide sa
+as a lev
+the ultr
+Figure
+Piezoe
+cy Ultra
+n, J.A. Brown
+ngineering
+ty
+Canada
+onventionally,
+g systems hav
+e, the highest q
+een able to ac
+m at maximum f
+acks associated
+re expensive, r
+er in order to
+onally, the larg
+associated wi
+es the dissipatio
+This paper pre
+ng mechanism
+ucer. The res
+r has been ch
+er vibrometry
+g actuators c
+ntional electrom
+II. M
+anning Mechan
+s shown in Fig
+s of an in-h
+ncy ultrasonic
+ph actuator (OP
+a a lightweigh
+When voltag
+providing the
+ph consists of tw
+andwiched acro
+ver arm to incr
+rasonic transdu
+1: Scanning Me
+electric
+asound
+n
+scanning mech
+ve been based o
+quality mechan
+chieve lateral t
+frame-rates of
+d with these
+relatively bulk
+provide accu
+ge currents indu
+ith the electr
+on of considera
+sents the deve
+m based on
+sulting perform
+haracterized th
+(LDV), and
+can provide a
+magnetic-based
+MATERIALS AND
+nism
+gure 1, the pro
+house develop
+transducer a
+PT 45/10/0.6,
+ht stainless ste
+ge is applied
+actuating mec
+wo 150 μm pla
+oss a 200 μm b
+rease the transl
+ucer.
+echanism based
+Scann
+d System
+hanisms in hig
+on electromagn
+nical scanning
+translations on
+f up to 130 fps
+motors, howe
+ky, and typical
+urate position
+uced in the ele
+romagnetic m
+able amounts h
+elopment of a
+a piezoelectr
+mance of this
+hrough imagin
+shows that
+a promising a
+d scanning mec
+D METHODS
+oposed ultrason
+ped, single-el
+attached to a
+Omega Piezo
+eel tube, referr
+the piezoelec
+chanism of the
+ates 45 mm lon
+brass shim. Th
+lational tip dis
+d on a piezo bim
+ning
+ms
+gh-frequency
+netic motors.
+mechanisms
+n the order of
+[6-8]. Some
+ever, are that
+ly require an
+information.
+ectromagnetic
+motors, often
+heat.
+a mechanical
+ric bi-morph
+s mechanical
+ng and laser
+piezoelectric
+alternative to
+chanisms.
+nic scan head
+ement high-
+piezoelectric
+o, State Park,
+red to as the
+ctric actuator
+design. The
+ng by 10 mm
+he ‘neck’ acts
+splacement of
+morph
+458
+978-1-4577-1252-4/11/$26.00 ©2011 IEEE 2011 IEEE International Ultrasonics Symposium Proceedings
+10.1109/ULTSYM.2011.0110
+freq
+out
+Ho
+to
+wh
+mo
+ran
+low
+ine
+the
+wh
+nee
+the
+for
+fed
+geo
+MH
+ma
+geo
+dic
+The
+pitc
+larg
+deg
+flex
+geo
+the
+are
+ben
+tran
+mo
+bas
+from
+wit
+tran
+Fig
+atta
+The actuator
+quency or DC
+tput and hig
+wever, the ran
+the increasing
+hen operated at
+orph. As the l
+nge of motion a
+wering of the
+rtia seen at the
+neck was sele
+hile maintaining
+The neck wa
+edle to a length
+bimorph using
+4 hours). A 3
+d through the
+ometrically cur
+Hz single-elem
+anufactured us
+ometrically sha
+The composi
+e and fill techn
+e composite p
+ch pseudo-ran
+ge-pitch pseu
+grees. The 4
+xibility of t
+ometrically squ
+kerf spacing a
+avoided and tr
+Figure 2 sho
+nding actuator
+nsducer were
+oves under roug
+se of the bimor
+m figure 2, th
+thout the added
+nsducer is mou
+gure 2 Electrical
+ached.
+r experiences
+C driving con
+gh electrical
+nge of motion
+g force output)
+or near the fir
+length of the n
+also increases.
+bending reso
+e tip of the bim
+ected to provid
+g a high resona
+as constructed
+h of 30 mm an
+g Epotek 301 e
+300 μm diamet
+needle and a
+rved transduce
+ment transduce
+sing a piezo-
+aped to a 7 mm
+ite transducer w
+nique similar to
+attern consiste
+ndomly spaced
+udo-randomly
+45 degree ro
+the composit
+uare geometry
+and pillar geom
+ransducer band
+ows two elect
+r: a) before a
+attached to t
+ghly clamped-f
+rph is fixed in
+e bending reso
+d mass of the
+unted.
+l Impedance wi
+small deflect
+nditions due to
+impedance o
+increases with
+), and it does
+rst bending res
+neck is increase
+However, this
+nance due to
+morph. As su
+de at least 10 m
+ant frequency.
+by trimming d
+nd then adherin
+epoxy (cured @
+ter miniature c
+attached to the
+er on the oppos
+er was 3.5 m
+-composite pa
+m radius of curv
+was fabricated
+o that describe
+ed of a grid of
+d cuts overla
+spaced grid
+otated kerfs fu
+te while bre
+of the pillars.
+metries lateral
+dwidth is incre
+trical impedan
+and b) after th
+the bimorph.
+free boundary
+our scan head.
+onance decreas
+transducer, to
+ith and without
+tions under lo
+o the low for
+of the actuat
+h frequency (d
+so dramatica
+onance of the b
+ed the transduc
+s in turn cause
+the increase
+uch, the length
+mm of deflecti
+down a 22-gau
+ng it to the tip
+@ 65 deg Celsi
+coaxial cable w
+e single-eleme
+site end. The
+mm in diamet
+attern, and w
+vature (f/2).
+in-house using
+ed previously [
+f relatively lar
+id with anoth
+rotated at
+further increas
+eaking up t
+By randomizi
+vibration mod
+ased.
+nce plots of t
+he neck/imagi
+The cantilev
+conditions as t
+. As can be se
+ses from 180 H
+110Hz when t
+t the transducer
+ow
+rce
+tor.
+due
+ally
+bi-
+cer
+s a
+in
+of
+ion
+uge
+of
+ius
+was
+ent
+40
+ter,
+was
+g a
+9].
+rge
+her
+45
+sed
+the
+ing
+des
+the
+ing
+ver
+the
+een
+Hz
+the
+r
+Figure 3
+while be
+mounte
+Fig
+(a) wit
+driven
+In
+a LDV
+accurat
+and its
+bimorp
+b) Ima
+Th
+develop
+the ima
+field pr
+Xilinx,
+pulse
+(Alazar
+FPGA
+Clara,
+amplifi
+In
+fixed a
+comme
+Halifax
+the 100
+generat
+Since th
+the 100
+instead
+bimorp
+voltage
+program
+through
+wave).
+Figu
+3: Photograph
+eing driven wit
+ed imaging tran
+gure 3 shows a
+th the mounte
+at with a 100 H
+order to prope
+V (PSV-400,
+tely measure th
+phase relation
+ph.
+aging System
+he electronic ha
+ped in-house.
+aging setup. A
+rogrammable g
+San Jose, CA
+generator, an
+rTech ATS93
+triggers the si
+CA) to gene
+ied and connec
+the acquisitio
+at 100 Hz.
+ercially availab
+x, NS) and sy
+0 Hz scan sign
+tor outputs 10
+he bimorph tip
+0 pulses were
+d in equal po
+ph is proportio
+e sine wave, as
+mmed within t
+hout a half cyc
+ure 4 Functiona
+of the mechanic
+th a 100 Hz exci
+nsducer (b).
+a photograph o
+ed imaging tr
+Hz sinusoidal e
+erly characteriz
+Polytech, Ir
+he displacemen
+nship to the d
+ardware, requir
+Figure 4 show
+At the heart o
+gate array (FPG
+A) is connecte
+nd the data
+350, Alazar, P
+ignal generato
+erate a sinuso
+cted to the piez
+on setup, the b
+The FPGA
+ble pulser/recei
+ynchronizes the
+nals. In the pr
+00 pulses in ½
+p velocity varie
+e not output in
+osition interva
+onal to the ang
+s such, the pu
+the FPGA to p
+cle (negative t
+al diagram of th
+cal scanning me
+itation signal w
+of the scanning
+ransducer (b)
+excitation frequ
+ze the scanning
+rvine, CA) w
+nt of the imagin
+drive voltage a
+red to generate
+ws a functiona
+of the imaging
+GA). The FPG
+ed to a signal
+acquisition (
+Pointe-Claire,
+or (33220A, A
+oidal output si
+zoelectric bimo
+bimorph scann
+is also con
+iver unit (Dax
+e high-voltage
+eliminary desi
+½ of the bim
+es over the sine
+n equal time
+als. The pos
+gular position
+ulse generator t
+rovide equally
+to positive pea
+he imaging syste
+echanism (a)
+ith the
+g mechanism
+while being
+uency.
+g mechanism,
+was used to
+ng transducer
+acting on the
+e images was
+al diagram of
+g system is a
+GA (Virtex-4,
+generator, a
+(DAQ) card
+QC). The
+Agilent, Santa
+ignal that is
+orph.
+ning signal is
+nnected to a
+sonics BP10,
+e pulses with
+ign, the pulse
+morph period.
+e wave cycle,
+intervals but
+sition of the
+of the input
+triggers were
+y spaced lines
+ak of the sine
+em
+459 2011 IEEE International Ultrasonics Symposium Proceedings
+acq
+sign
+to d
+inte
+DA
+dem
+rate
+(ov
+plo
+per
+sof
+not
+rate
+the
+ana
+me
+tran
+osc
+tran
+sinu
+freq
+sca
+me
+tha
+pos
+an
+des
+sho
+pea
+am
+vol
+It s
+exc
+pow
+tha
+me
+the
+Fig
+The FPG
+quisition card
+nals. The Ala
+digitize up to 5
+erface for fast
+AQ was tran
+modulated, log
+Although it
+e of 100 Hz, an
+ver a full cycle
+otting delays in
+r second (fps).
+ftware these de
+ted that it is no
+es but only to
+y would need
+alysis.
+To characte
+chanism the
+nslational am
+cillation.
+Figure 5 s
+nsducer at va
+usoidal source
+quency of the
+an amplitude
+chanical reson
+at the phase la
+sition goes thro
+A critical fac
+understanding
+sired displacem
+ows the voltage
+ak deflections.
+mplifier (Crown
+ltage, in turn, w
+should be noted
+ceeded at app
+werful amplifie
+an we are cu
+chanical stren
+m to be driven
+gure 5: Constan
+GA also con
+d, allowing fo
+azarTech ATS9
+500 MS/s at 12
+data transmiss
+sferred back
+compressed, a
+was possible t
+nd could have
+e instead of a h
+n Matlab limite
+It is projecte
+elays would be
+ot important to
+capture it. If f
+d viewed at a
+III. RE
+erize the pe
+following p
+mplitude, pha
+shows the tr
+arious frequen
+e of constant
+drive voltage
+results, with
+nance of the b
+ag between the
+ough a 180 deg
+ctor in the imp
+of the driving
+ment, over a gi
+e required to re
+Our drive vo
+n 8-channel) to
+was the limiting
+d that the coerc
+proximately 10
+er could only a
+urrently able t
+ngth of the bim
+n at the full 80 V
+t Voltage Respo
+trolled the tr
+or digitization
+9350 DAQ car
+2 bit resolution
+sion. The data
+to the PC
+and plotted in M
+to capture the
+been easily ca
+half cycle). Co
+ed the frame r
+ed that by mov
+e minimized.
+o replot data at
+frames are acq
+a lower frame
+ESULTS
+erformance of
+arameters we
+se lag, and
+ranslational re
+ncies, when
+voltage (13.5
+e is raised a s
+a dramatic
+bimorph. Add
+e drive voltage
+gree phase shift
+lementation of
+g voltage requi
+ven frequency
+each 5 mm and
+oltage was limi
+o a voltage of
+g factor in driv
+cive field of th
+00 VRMS. A
+achieve ~25% h
+to obtain. A
+morphs was to
+VRMS when pas
+onse: 13.5 VRMS
+riggering of t
+n of the recei
+rd has the abil
+n, and has a PC
+a captured by t
+where it w
+Matlab.
+data at a fram
+aptured at 200 H
+omputational a
+rate to 32 fram
+ving to compil
+It should also
+such high fram
+quired at 200 H
+e for meaning
+f the scanni
+ere investigate
+frequency
+esponse of t
+excited with
+VRMS). As t
+slight increase
+increase at t
+itionally, we s
+e and the late
+ft at resonance.
+f such a device
+ired to achieve
+range. Figure
+d 10 mm peak-t
+ited by our aud
+f 80 VRMS. Th
+ving the bimorp
+e piezo would
+As such, a mo
+higher amplitu
+Additionally, t
+oo low to allo
+st resonance.
+drivesignal.
+the
+ive
+lity
+CIe
+the
+was
+me
+Hz
+and
+mes
+led
+be
+me
+Hz,
+ful
+ing
+ed:
+of
+the
+a
+the
+in
+the
+see
+ral
+e is
+e a
+e 6
+to-
+dio
+his
+ph.
+be
+ore
+ude
+the
+ow
+Figure 6
+Fig
+require
+bimorp
+frequen
+system
+Fig
+position
+when th
+phase r
+LDV s
+betwee
+constan
+the pea
+increas
+absolut
+absolut
+peak d
+below +
+Th
+mechan
+system
+generat
+glass p
+translat
+Figure 7
+mechan
+6: 10mm & 5m
+gure 6 shows
+ed to establish
+ph. Additional
+ncy associated
+.
+gure 7 shows th
+n of the transd
+he bimorph wa
+relative to the
+system. Over
+en the voltage
+nt phase lag ch
+ak to peak d
+sed velocity).
+te error when
+te error would
+displacement.
++/- 1.5 degrees
+he imaging
+nism were ho
+as described i
+ted of 100 μm
+phantoms wer
+ted 1 mm horiz
+7: Relative Pha
+nism when drive
+mm deflection ba
+a large decr
+h oscillation
+lly, we see a
+d with the in
+he measured m
+ducer and the
+as being driven
+e drive voltage
+r each oscilla
+and position w
+hanges in a lin
+displacement (
+There was
+n measured ov
+d shift slightly
+The absolute
+s over all of the
+transducer an
+ooked up to t
+in section II. R
+m glass fibres a
+re staggered
+zontally and 1
+ase vs peak Defl
+en at a 100 Hz.
+andwidths
+rease in the d
+at the reson
+reduction in th
+ncreased defle
+maximum error
+phase of the d
+n at 100 Hz. T
+e was measur
+ation cycle, th
+was a constant
+near fashion d
+(increased dis
+however som
+ver many cyc
+depending on
+e error howev
+e measured dis
+nd mechanic
+the FPGA ba
+Real-time imag
+as shown in Fi
+such that eac
+mm vertically.
+lection for the s
+drive voltage
+nance of the
+he resonance
+ction of the
+r between the
+drive voltage
+The positional
+red using the
+he phase lag
+t value. This
+depending on
+placement =
+me detectable
+cles and this
+n the peak to
+ver remained
+splacements.
+al scanning
+ased imaging
+ges were then
+igure 8. The
+ch wire was
+.
+scan
+460 2011 IEEE International Ultrasonics Symposium Proceedings
+Fig
+abo
+wat
+ma
+suf
+wo
+Ad
+of
+util
+me
+me
+com
+pos
+pie
+tha
+wid
+the
+rela
+pos
+pos
+Sin
+rem
+am
+ma
+gra
+sca
+ma
+The
+line
+of
+pos
+am
+gure 8: Real-Tim
+The scanning
+ove the phanto
+ter bath such t
+aterial. It was
+fficiently high
+uld not be stir
+dditionally, the
+the transduce
+lized.
+To provide
+chanical scan
+chanical scan
+mplex then cu
+sitional contro
+zoelectric scan
+an it’s electrom
+dth of 10 mm a
+Since the des
+transducer l
+ationship exist
+sition of the p
+sitioning will tr
+nce the absolu
+mains below
+mplitudes, up t
+aximum positio
+adually over se
+ans over 10 m
+aximum theoret
+erefore, since
+e spacing and e
+requiring feed
+sitioning accur
+mount of phase
+1 mm
+me Image of Gla
+g mechanism w
+ms. The phant
+that the water
+s important th
+above the tra
+rred into the fi
+low viscosity o
+er's motion th
+IV. DISC
+a solution tha
+nners it is
+nner is cheap
+urrent systems
+ol and a large
+nning mechani
+magnetic coun
+and a total com
+sign forgoes th
+location it is
+s between the
+iezoelectric bi
+ranslate directl
+te error betwe
++/- 1.5 deg
+to +/- 5 mm
+oning drift is
+everal frames.
+mm, our line
+tical lateral res
+the positionin
+exceeds the sc
+dback from a
+racy. It is ass
+e error results
+ass Fibre Phant
+was secured in
+toms were then
+acted as the a
+hat the water
+ansducer head
+ield of view o
+of water provid
+han when ultr
+CUSSION
+at is competiti
+essential that
+per, more com
+while still pr
+e translational
+ism is certainl
+nterpart as it h
+mbined length o
+he use of encod
+s essential th
+drive voltage
+imorph actuato
+ly to a loss in l
+een position an
+grees for mo
+deflection (a
+s +/- 80 μm
+Since we ar
+spacing is 1
+solution is +/-
+ng inaccuracy
+anner is right o
+position enco
+sumed howeve
+from some m
+toms
+a clamp and he
+n submerged in
+acoustic coupli
+r level was
+so that bubb
+of the transduc
+ded less dampi
+rasound gel w
+ive with curre
+t the propos
+mpact, and le
+oviding accura
+amplitude. T
+ly more compa
+has a maximu
+of 7 cm.
+ders to determi
+hat a repeatab
+and the resulti
+or. Any error
+lateral resolutio
+nd drive volta
+ost translation
+at 100 Hz), t
+and will occ
+re capturing 1
+00 μm and t
+38 μm ([f/2]*λ
+approaches o
+on the borderli
+oder to mainta
+er that this sm
+minor flexing
+eld
+n a
+ing
+set
+les
+cer.
+ing
+was
+ent
+sed
+ess
+ate
+The
+act
+um
+ine
+ble
+ing
+in
+on.
+age
+nal
+the
+cur
+00
+the
+λ).
+our
+ine
+ain
+mall
+or
+vibratio
+being u
+transdu
+phase e
+the ne
+therefo
+recomm
+We
+mechan
+displac
+transdu
+scanner
+fraction
+As
+non-inv
+frequen
+potentia
+lower c
+array im
+which
+scanned
+interest
+mechan
+we hav
+Th
+NSERC
+[1] M. L
+Mehi, F.S
+Microma
+53, pp.17
+[2] J. Ca
+a 35-MH
+Trans. U
+[3] J.A. B
+“Fabricat
+Composi
+54, pp. 1
+[4] J.
+Lizzi, ”D
+Trans. U
+[5] J.A.
+of Annul
+Vol. 51,
+[6] L. Su
+Shung, “A
+Imaging
+[7] S. Er
+Ultrasoun
+[8] J. Me
+Patent no
+[9] J.A. B
+Performa
+Pillar Ge
+Frequenc
+ons within the
+used to connec
+ucer. Therefo
+error by movin
+eck, this will
+ore moving to
+mended for futu
+e have dem
+nism, based
+ce a single
+ucer up to dist
+rs with potent
+n of the cost an
+s more pre-clin
+vasive invest
+ncy ultrasoun
+ally play an i
+cost market.
+maging system
+will likely in
+d in the azimu
+t to develop
+nical scanning
+ve presented.
+A
+he authors of th
+C Create progr
+Lukacs, J. Yin, G.
+S. Foster,” Perfor
+achined High-Freq
+719-1729, 2006
+annata, J. William
+Hz Piezo-Composit
+UFFC, Vol. 53, pp
+Brown, F.S. Foste
+tion and Performa
+ite with Geometric
+1888-1894, 2007.
+A. Ketterling, O
+Design and Fabrica
+UFFC, vol. 52, pp.
+Brown, C.E.M. D
+lar Arrays for Hig
+pp.1010-1017, 20
+un, W. Richard, J
+A High-Frame Ra
+in Mice, “IEEE Tr
+rickson, D. Kruse
+nd Scanner, “ IEE
+ehi et al, “High-Fr
+o. US 7,255, 678 B
+Brown, E. Cherin
+ance of High-Frequ
+eometry,” IEEE Tr
+cy Control
+e stainless stee
+ct the tip of th
+ore, it should b
+ng to a stiffer
+reduce the
+a titanium or
+ure designs.
+V. CONCLUS
+monstrated
+on a piezoel
+e-element hi
+tances compar
+tially higher f
+nd complexity.
+nical research g
+tigational tec
+nd, mechanica
+important role
+In addition, th
+ms will be in hig
+ncorporate a
+uth direction.
+an efficient,
+actuator simil
+ACKNOWLEDGM
+his paper would
+ram for its fund
+REFERENC
+Pang, R. Garcia,
+rmance and Charac
+quency Linear Arra
+ms, Q. Zhou, T. R
+te Ultrasound Arra
+p. 224-236, 2006
+er, A. Needles, E.
+ance of a 40 MHz L
+c Elevation Focuss
+O. Aristizábal,
+ation of a 40-MHz
+. 672-681, 2005
+Demore, G.R. Lo
+gh-Frequency Ultr
+004.
+. Cannata, C. Fen
+ate High-Frequency
+rans. UFFC, Vol.
+, K. Ferrara, “A H
+EE UFFC Symposi
+requency High Fra
+B2, 2007.
+n, J. Yin, F.S. Fos
+uency Composite
+ransactions on Ultr
+el needle or ‘n
+he bimorph to
+be possible to
+neck. If this
+resonance fre
+aluminum ne
+SION
+a mechanica
+lectric bimorp
+igh-frequency
+able to curren
+frame rates an
+groups move t
+chniques such
+ally scanned
+e in filling the
+he future of st
+gh-frame rate 3
+linear array m
+For these rea
+, compact an
+lar to the bimo
+MENTS
+d sincerely like
+ding along with
+CES
+, E. Cherin, R. W
+cterization of New
+ays,” IEEE Trans.
+itter, K. Shung, “D
+ay for Medical Ima
+. Cherin, G.R. Lo
+Linear Array based
+sing”, IEEE Trans
+D. H. Turnbu
+z annular array tra
+ockwood, “Design
+rasound,” IEEE Tr
+ng, J. Johnson, J.
+y Ultrasonic Syste
+54, pp. 1648-16
+Hand Held High-F
+um, 2001, pp. 146
+ame Rate Ultrasou
+ster, “Fabrication a
+Transducers with
+rasonics Ferroelec
+neck’ that is
+the imaging
+o reduce this
+adds mass to
+equency and
+eck would be
+al scanning
+ph, that can
+ultrasound
+nt mechanical
+nd at a small
+towards more
+h as high-
+transducers
+e needs of a
+tate-of-the-art
+3-D imaging,
+mechanically
+asons, it is of
+nd low cost
+orph actuator
+e to thank the
+h CHIR.
+Williams, J.
+w
+UFFC, Vol.
+Development of
+aging,” IEEE
+ockwood,
+d on a 1-3
+. UFFC, Vol.
+ull, and F. L.
+ansducer,” IEEE
+and Fabrication
+rans. on UFFC,
+Yen, K.
+em for Cardiac
+55, 2007.
+requency
+65 - 1468
+und System,” US
+and
+Triangular
+ctrics &
+461 2011 IEEE International Ultrasonics Symposium Proceedings
+

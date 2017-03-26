@@ -1,0 +1,800 @@
+IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 59, no. 7, July 2012
+1386
+0885–3010/$25.00 © 2012 IEEE
+A Single FPGA-Based Portable
+Ultrasound Imaging System
+for Point-of-Care Applications
+Gi-Duck Kim, Changhan Yoon, Sang-Bum Kye, Youngbae Lee, Jeeun Kang,
+Yangmo Yoo, and Tai-kyong Song
+Abstract—We present a cost-effective portable ultrasound
+system based on a single field-programmable gate array
+(FPGA) for point-of-care applications. In the portable ultra-
+sound system developed, all the ultrasound signal and image
+processing modules, including an effective 32-channel receive
+beamformer with pseudo-dynamic focusing, are embedded in
+an FPGA chip. For overall system control, a mobile proces-
+sor running Linux at 667 
+MHz is used. The scan-converted
+ultrasound image data from the FPGA are directly transferred
+to the system controller via external direct memory access
+without a video processing unit. The potable ultrasound sys-
+tem developed can provide real-time B-mode imaging with a
+maximum frame rate of 30, and it has a battery life of approxi-
+mately 1.5 
+h. These results indicate that the single FPGA-
+based portable ultrasound system developed is able to meet
+the processing requirements in medical ultrasound imaging
+while providing improved flexibility for adapting to emerging
+POC applications.
+I. Introduction
+Point-of-care (POC) diagnostic imaging systems al-
+low clinicians to access and diagnose a patient at the
+scene of an accident or at the patient’s bedside because of
+their improved accessibility [1], [2]. In addition, these POC
+imaging systems have the potential to effectively address
+the challenges in healthcare disparities arising from cur-
+rent central, provider-centric, and hospital-based health-
+care delivery. Desirable features of the POC diagnostic
+imaging systems include safety, price, portability, and ease
+of use [3]. Conventional X-rays, CT, and magnetic reso-
+nance imaging tools are not portable, and they are more
+suitable in centralized locations, e.g., hospitals and clinics,
+because of their size, cost, and the training required to
+operate them. On the other hand, ultrasound imaging is
+safe, noninvasive, portable, less expensive, relatively easy
+to use, and capable of real-time imaging [4].
+Several portable ultrasound machines have been devel-
+oped and deployed in various emerging POC applications,
+such as ambulatory and intensive care [5]. To achieve min-
+iaturization and cost reduction as well as longer battery
+life, these portable ultrasound machines take advantage of
+the continuing advances in solid-state technologies, such
+as application-specific integrated circuits (ASICs) [6].
+However, because the ASIC approach is typically benefi-
+cial to well-defined targeted applications (e.g., consumer
+electronics), its usefulness for the emerging POC diagnos-
+tic imaging systems would be limited [7]. Moreover, it is
+necessary to have improved functional flexibility in the
+POC imaging systems for adapting quickly to continu-
+ously evolving clinical applications.
+Previously, the programmable ultrasound system archi-
+tecture was proposed, in which digital signal processors
+(DSPs) are used for performing core ultrasound signal and
+image processing [8], [9]. Because of improved flexibility
+and efficiency, the programmable ultrasound system can
+quickly test new clinical imaging modes and algorithms
+[10]–[12]. In addition, the programmable approach has
+been evaluated for POC diagnostic imaging systems, espe-
+cially computational capabilities [13], [14]. However, these
+evaluations were inconclusive because they were conduct-
+ed with commercially available testing boards, instead of
+building a prototypical device. Furthermore, it is challeng-
+ing to perform front-end processing (i.e., beamforming)
+on a single DSP because of its limited data transfer band-
+width and processing performance [15].
+Various methods have been proposed to miniaturize the
+ultrasound imaging system [16], [17], [18]. The delta-sig-
+ma oversampled beamforming method was proposed and
+implemented in a field-programmable gate array (FPGA)
+[16], [17]. Because of its low hardware complexity (digital
+logic), the beamformer with up to 57 channels could be
+implemented in a single Virtex-E FPGA (Xilinx Inc., San
+Jose, CA). Although the delta-sigma oversampled beam-
+forming method can reduce the overall hardware com-
+plexity in the analog circuit and digital logic (i.e., beam-
+former), this method is not suitable for low-cost FPGA
+because it requires a high operating clock frequency to
+obtain a sufficient SNR [19]. The direct sampled in-phase/
+quadrature (DSIQ) beamforming method can also reduce
+the hardware complexity [18]. In DSIQ, the second-order
+sampling is used to obtain in-phase and quadrature com-
+ponents, and receive focusing is conducted by using phase
+rotation. However, the DSIQ beamforming method yields
+degraded image quality because it assumes a narrowband
+signal, which is typically not satisfied in medical ultra-
+sound imaging [20], [21].
+Manuscript received September 25, 2011; accepted February 15, 2012.
+This research was partially supported by the BK21 program, IC De-
+sign Education Center (IDEC), and the Converging Research Center
+Program through the Ministry of Education, Science and Technology
+(2011K000716), Republic of Korea.
+The authors are with the Department of Electronic Engineering, So-
+gang University, Seoul, Korea (e-mail: ymyoo@sogang.ac.kr and tksong@
+sogang.ac.kr).
+Y. Yoo is also with the Interdisciplinary Program of Integrated Bio-
+technology, Sogang University, Seoul, Korea.
+DOI http://dx.doi.org/10.1109/TUFFC.2012.2339
+kim et al.: FPGA-based portable ultrasound imaging system 1387
+In this paper, we present our low-cost portable ultra-
+sound system working as a standalone device, in which
+a single FPGA is employed. In the prototype portable
+system, all the ultrasound signal and image processing
+modules, including an effective 32-channel receive beam-
+former with extended aperture (EA), are embedded in a
+Spartan-3 FPGA (Xilinx Inc.). In addition, a Samsung
+S3C6410 mobile processor (Samsung Group, Suwon, Ko-
+rea) running Linux at 667 MHz serves as a system con-
+troller. Cost-effective algorithms, such as pseudo-dynamic
+receive beamforming and look-up table (LUT)-based pro-
+cessing, are used for reducing the hardware complexity in
+ultrasound signal and image processing. The performance
+of the low-cost portable ultrasound system developed was
+evaluated with Field II simulation and phantom experi-
+ments.
+II. Methods
+A. System Overview
+Fig. 1 shows an overall system block diagram of the
+developed low-cost portable ultrasound imaging system
+using a single FPGA. As shown in Fig. 1, the portable sys-
+tem developed is composed of an ultrasound scanner mod-
+ule and a power supply/battery module. The 16-channel
+ultrasound scanner module consists of analog front-end
+circuits [i.e., analog receivers, analog-to-digital converters
+(ADCs) and transmit pulsers], and a Spartan-3 FPGA
+chip. The ultrasound scanner presented can provide the
+equivalent image quality of a 32-channel ultrasound sys-
+tem by using an EA technique. The analog front-end cir-
+cuits in the developed portable ultrasound system include
+eight pulser drivers, 16 high-voltage (HV) pulsers, eight
+HV multiplexers (MUXs), and two eight-channel 12-bit
+ADC chips running at 40 MHz with a low-voltage dif-
+ferential signaling interface. The Spartan-3 FPGA is used
+for supporting receive beamforming and mid and back-
+end B-mode processing. In addition, it is used for gener-
+ating transmit pulse pattern for transmit focusing. The
+real-time controller is also incorporated in the FPGA for
+the interface between the system controller and the ultra-
+sound transmit and receive modules (e.g., pulse-repetition
+frequency clock generation and synchronization among
+various modules). The Samsung S3C6410 mobile proces-
+sor running Linux is used for controlling all the subsys-
+tems in the portable ultrasound system developed, includ-
+ing image display and communication.
+B. Front-End Module
+1) Pseudo-Dynamic Receive Beamforming: In medical
+ultrasound imaging, the receive beamforming is used for
+improving spatial and contrast resolution. As shown in
+Fig. 2, the receive beamforming can be represented by
+	 r n a r n n n N
+d d d
+d
+D
+bf ,
+( ) [ ( )] , , , ,
+= − = …
+=
+−
+∑ τ
+0
+1
+1 2 	(1)
+where rbf(n) is the beamformed receive signal, D is the
+number of the physical channels in receive beamforming,
+N is the number of focusing points along the receive scan-
+line, rd(n) is the receive signal from the dth channel, ad is
+the apodization coefficient, and τd is the receive focusing
+delay for the dth channel, respectively. The number of
+focusing points N is given by
+	 N
+Z
+c
+f
+= ×
+
+
+
+
+
+
+floor bf
+2
+,	(2)
+where Z is the imaging depth, c is the speed of sound and
+fbf is the beamforming frequency. The dth channel receive
+focusing delay τd can be obtained by
+	
+τd d d
+n
+c
+x x z z z n
+n N
+( ) ( ) ( ) ( )
+, , , ,
+= − + − −
+
+
+
+
+=
+1
+1 2
+2 2
+f f fp ,
+
+	(3)
+where (xd, zd) are the locations of the dth channel, (xf, zf)
+are the locations of the focal point, and zfp is the distance
+from the center channel to a focal point along the receive
+scanline. In dynamic receive beamforming, as shown in
+Fig. 3(a), the focusing delay at (3) is updated for each
+beamforming point (i.e., N times) at each channel, leading
+to increased hardware complexity.
+On the other hand, in the presented low-cost portable
+ultrasound imaging system, to lower its hardware com-
+plexity, the focusing delay value in (3) is not calculated at
+each focal point but updated only at the predetermined
+Fig. 1. System block diagram of the low-cost portable ultrasound based
+on a single field-programmable gate array (FPGA).
+Fig. 2. Receive beamforming in a medical ultrasound imaging system.
+IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 59, no. 7, July 2012
+1388
+focal points (i.e., pseudo-dynamic receive focusing) de-
+pending on the number of focal zones (M) as shown in
+Fig. 3(b). For example, as shown in Figs. 3(a) and 3(b),
+whereas, in dynamic receive focusing, 12 focusing delay
+values are necessary for 12 focal points, only 4 focusing
+delay values are required when the 4 focal zones (i.e., M =
+4, with 3 shared focusing points) are assumed.
+In addition, in our portable ultrasound system, for
+miniaturizing the overall system, the receive focusing de-
+lay values are generated based on the predetermined fo-
+cal zone number offline and stored in an LUT. Because
+the number of the updated focusing delay value is sub-
+stantially reduced, all the delay values for the proposed
+pseudo-dynamic receive focusing can be stored instead of
+calculating them on the fly. Although the number of focal
+zones is fixed, the shared focusing points at each zone can
+be varied, depending on imaging depth, to reduce the fo-
+cusing delay errors. Currently, to support the view depth
+of 30 cm, a 2-kB LUT is used to store the 1024 focusing
+delay values (2 bytes for each delay value) for linear and
+convex array transducers for each channel (i.e., total LUT
+size of 32 kB) in our portable ultrasound imaging system.
+2) Extended Aperture: In ultrasound receive beamform-
+ing, the spatial resolution in the lateral direction (i.e., per-
+pendicular to the ultrasound propagation direction) can
+be approximated by [22]
+	 SD
+z
+D
+lat
+fp
+∝
+λ
+,	(4)
+where λ is the wavelength. Therefore, as the number of
+physical receive channels corresponding to D increases,
+the lateral resolution can be improved. However, the hard-
+ware complexity in the receive beamformer is also rapidly
+increased. In our low-cost portable ultrasound imaging
+system, we adopted the EA technique, which has the po-
+tential to improve lateral resolution with a small number
+of physical receive channels. With the EA technique, the
+portable system developed can provide the equivalent im-
+age quality of a 32-channel receive beamformer by using
+16 channels while sacrificing the frame rate by reducing
+it to half of the previous frame rate. Fig. 4 shows the
+transmit and receive array patterns for the EA technique
+used in the portable system developed. As shown in Fig.
+4, the center 16-element array is transmitted twice in the
+same scanline direction. On the other hand, in receive,
+the center 16-element array is first used for detecting the
+backscattered ultrasound signal, and then the neighbor-
+ing 16-element array is used. Each scanline is generated
+by performing receive beamforming with two sequentially
+received signals.
+C. Mid and Back-End Processing Modules
+Fig. 5 shows the functional block diagram of mid and
+back-end processing for real-time ultrasound B-mode im-
+aging in the portable system developed.
+1) Mid Processing: As shown in Fig. 5, dc canceling is
+first applied to the post-beamformed data from a receive
+beamformer with pseudo-dynamic focusing and then time-
+gain compensation (TGC) and quadrature demodulation
+are conducted. In dc canceling, a 32-tap finite impulse
+response filter with 16-bit coefficient resolution is used
+to cancel out the undesired dc component from ADCs,
+and two sequentially received ultrasound data points are
+accumulated in the EA processing block. In addition, a
+user-defined TGC curve is applied to generate a well-bal-
+anced ultrasound B-mode image over the imaging depth.
+To obtain complex baseband data for further back-end
+processing, the quadrature demodulation is applied. In the
+quadrature demodulation, the sinusoidal values for mixing
+are precalculated and stored at an LUT. In the portable
+ultrasound system developed, the 640-byte LUT is used
+for storing one period of 125-kHz cosine and sine signals
+that are sampled at 40 MHz. With this LUT, we can gen-
+erate the multiple of a 125-kHz sinusoidal signal ranging
+from 125 to 20 MHz by increasing address (nnext) with
+nstep (i.e., nnext = ncurrent + nstep). For example, we can
+Fig. 3. Receive focusing delay update pattern for (a) conventional dy-
+namic receive focusing and (b) pseudo-dynamic focusing where only four
+focusing delay values are used.
+Fig. 4. Extended aperture (EA) technique.
+kim et al.: FPGA-based portable ultrasound imaging system 1389
+obtain 3-MHz cosine and sine values for mixing by setting
+nstep = 24. With this LUT-based approach, the dynamic
+quadrature demodulation can be achieved by dynamically
+changing nstep over the depth.
+2) Back-End B-Mode Processing: To extract the en-
+velope of the backscattered ultrasound signal, envelope
+detection is applied to complex baseband data from the
+mid processing module, and then log compression is con-
+ducted to reduce the dynamic range in the ultrasound
+envelope data. In the portable ultrasound imaging system
+developed, a 16-kB LUT is used for log compression. The
+LUT contains the 8-bit logarithm values of multiples of
+4 (e.g., 4, 8, 12, …, 65 
+532) for the 16-bit envelop echo
+data. Thus, the 14-bit address is used by truncating 2 bits
+in the least significant bit of the input data. In addition,
+downsampling is applied to reduce the data rate (e.g.,
+1024 samples per scanline), and image enhancement (e.g.,
+black-hole filter) and zone blending for multizone focusing
+are also applied, as shown in Fig. 5.
+3) Scan Conversion: In scan conversion, the ultrasound
+data with polar coordinates are geometrically transformed
+into the Cartesian raster display data. The addresses and
+coefficients for bilinear interpolation in scan conversion
+are computed in real time by using the coordinate rota-
+tion digital computer algorithm [23]. The scan-converted
+raster pixel data are temporally stored in two synchro-
+nous dynamic RAM (SDRAMs) for display. In the por-
+table system developed, these data are transferred into the
+system controller (i.e., Samsung S3C6410) via external
+DMA without a video processing unit to further reduce
+the hardware resource.
+D. CPU Module
+In the portable ultrasound imaging system developed, a
+Samsung S3C6410 mobile processor running at 667 MHz
+is used. A Linux kernel is stored in a flash memory for
+faster boot (<10 s). The portable system developed can
+support various peripheral interfaces, e.g., local access
+network (LAN), 16-gigabyte micro secure digital (SD),
+and universal serial bus (USB) 1.1. In addition, the digi-
+tal video interface (DVI) is provided to drive an external
+monitor. The system parameters (mode, gain, TGC, and
+dynamic range) can be adjusted by a user via a 10.2-inch
+touch-screen LCD monitor.
+E. Power Supply Module
+The power module used in our prototype portable sys-
+tem provides all the regulated power from a built-in 4-cell
+Li-ion battery, which can drive HV pulsers (i.e., maximum
+± 70 V), analog circuits, and digital circuits. The bat-
+tery is capable of providing 14.8 V with 2400 mAh. The
+HV is generated by using a quasi-resonance circuit with
+switching frequency of 65 kHz, transformer, and feedback
+circuit. Therefore, the maximum regulated voltage is de-
+termined by the transformer turns ratio (e.g., 16:42) and
+feedback circuit. The regulation circuit for HV is operated
+in the intermittent mode for the various HV levels.
+F. Experimental Setup
+Simulation and phantom experiments were conducted
+to evaluate the performance of the proposed efficient al-
+gorithms in the portable ultrasound imaging system de-
+veloped. A simulation model was generated by the Field
+II program [24]. In the simulation, an image of the point
+targets located at different depths and speckle patterns
+was obtained by using a 3.5-MHz convex array. The pa-
+rameters used in the simulation are summarized in Table
+I. As listed in Table I, to evaluate the EA technique, the
+center 16-element array was first used for transmission
+and reception. The next transmission was conducted on
+the same scanline with the same center 16-element array,
+whereas the neighboring 16-element array was used for re-
+ception. The beamforming was performed for each recep-
+tion, and two sequentially beamformed data points were
+accumulated to obtained one scanline. For the phantom
+experiment, while a multipurpose tissue-mimicking phan-
+tom (Model 539, ATS Laboratories Inc., Bridgeport, CT)
+was scanned with a 3.5-MHz convex array transducer, a
+near-field tissue-mimicking phantom (Model 551, ATS
+Laboratories Inc.) was scanned with a 7.5-MHz linear ar-
+ray transducer.
+G. Evaluation Metrics
+In the simulation, for quantitative evaluation, the −18-
+dB lateral resolution was measured with a contour map
+for a point target. In addition, the contrast-to-noise ratio
+(CNR) was calculated by
+	 CNR c s
+c s
+=
+−
++
+µ µ
+σ σ
+( )
+,
+2 2
+	(5)
+where μs and μc are the average intensities in the speckle
+and cyst regions, respectively, and σs
+2
+and σc
+2
+are the vari-
+ances of each region.
+III. Results and Discussion
+A. Simulation Results
+Fig. 6 shows the simulation results of an effective
+32-channel system with 60-dB dynamic range from the
+Fig. 5. Functional block diagram of the mid and back-end processing for
+real-time ultrasound B-mode imaging in the developed portable ultra-
+sound system.
+IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 59, no. 7, July 2012
+1390
+conventional dynamic receive focusing and pseudo-dy-
+namic focusing methods without receive apodization. In
+this study, although, in the conventional dynamic receive
+focusing, the focusing delay value in (3) is updated for ev-
+ery focusing point, it is shared for multiple focusing points
+within the same focusing zone in the pseudo-dynamic fo-
+cusing method. In addition, in the pseudo-dynamic fo-
+cusing method, the number of shared focusing points at
+each focal zone was dynamically adjusted depending on
+imaging depth to minimize the focusing errors. In other
+words, for the first 5-cm imaging depth, 32 focusing points
+use the same focusing delay value, i.e., 32 shared focusing
+points. In the next 5-cm imaging depth (i.e., 5 to 10 cm),
+the same focusing delay value is applied for 64 focusing
+points. In the simulation, for the imaging depth of 12 cm,
+the focusing delay values used in the conventional dynam-
+ic receive focusing method were 6144 (12 × 512), whereas
+those for the pseudo-dynamic focusing method were 128
+(80 zones for 0 to 5 cm, 40 zones for 5 to 10 cm, and 8
+zones for 10 to 12 cm). As shown in Figs. 6(a) and 6(b),
+with visual assessment, it is difficult to find the impact of
+using the different numbers of focusing delay values from
+the dynamic and pseudo-dynamic receive focusing meth-
+ods (i.e., 6144 versus 128, respectively).
+For a quantitative comparison, the −18-dB lateral reso-
+lutions of point targets at each depth were measured and
+are shown in Fig. 7. As illustrated in Fig. 7, the pseu-
+do-dynamic receive focusing method yielded a negligible
+degradation in lateral resolution (i.e., <0.2 mm). On the
+other hand, when the Hanning window was used for the
+apodization, the identical lateral resolution with broad-
+ened main lobe width was obtained at each depth from
+both methods. Similar results were obtained in the CNR
+for the region marked in Fig. 6(a) (i.e., 2.84 and 2.81 for
+the dynamic and pseudo-dynamic receive focusing meth-
+od, respectively). These results indicate that the proposed
+pseudo-dynamic focusing method is sufficient for the cur-
+rent portable ultrasound imaging system. However, the
+degradation of image quality from the pseudo-dynamic fo-
+cusing would be more pronounced with the higher channel
+ultrasound imaging system (e.g., 64 channels). Because
+of the nonlinear increase in the focusing delay values, the
+pseudo-dynamic focusing method will introduce a sub-
+stantial number of delay errors, especially in the near field
+[25]. Thus, for the higher channel ultrasound imaging sys-
+tem, the degradation in image quality can be reduced by
+assigning the small number of shared focusing points in
+the near field (e.g., 16, 64, and 128 shared focusing points
+for imaging depths of 0 to 2 cm, 2 to 6 cm, and 6 to
+12 cm, respectively).
+B. Prototype Low-Cost Portable Ultrasound System
+Fig. 8 shows a prototype of the low-cost portable ul-
+trasound system developed. The system specifications
+and parts of the portable ultrasound system developed
+are summarized in Table II. As listed in Table II, the
+prototype ultrasound system can support the B-mode and
+BM-mode, and the size (245 mm width × 190 mm height)
+and weight (about 560 g) are suitable for POC applica-
+tions. For display, a 10.2-inch touch screen LCD monitor
+is attached for displaying a B-mode image with single,
+TABLE I. Parameters Used for the Simulation.
+Parameter Value
+Sampling frequency (MHz) 40
+Number of channels 16
+Number of scanlines 192
+Center frequency (MHz) 3.5
+Field of view (degree) 85.256
+Radius of curvature (mm) 40
+Element pitch (mm) 0.31
+Element height (mm) 13
+Elevation focus (mm) 80
+Transmit focus (mm) 50
+Dynamic range (dB) 60
+Fig. 6. Field II simulation images of an effective 32-channel system us-
+ing (a) the conventional dynamic receive focusing method and (b) the
+pseudo-dynamic receive focusing method.
+kim et al.: FPGA-based portable ultrasound imaging system 1391
+dual, and quad screen formats. The dual and quad modes
+can display two and four images, respectively, to allow
+clinicians to evaluate multiple images side-by-side. In ad-
+dition, the cine mode with 256 frames is available, and
+the captured images can be directly exported via the USB
+interface. The keyboard-type buttons are used for menu
+navigation and the user text interface.
+Figs. 9(a) and 9(b) show the main board and the power
+supply module inside the prototype portable ultrasound
+system developed. As shown in Fig. 9(a), the main board
+consists of the ultrasound scanner module and the CPU
+module with LAN, USB, micro SD, and DVI. In the ultra-
+sound scanner module, there are eight HV multiplexers,
+16 HV pulsers, eight pulser drivers, two ADC chips, and
+a Spartan-3 FPGA chip. The connector at the top of the
+main board is used for interconnecting between the main
+board and the power module, whereas the left one con-
+nects the main board to the ultrasound probe. The power
+module provides all the power required in analog and digi-
+tal circuits, as shown in Fig. 9(b). Furthermore, the HV
+(i.e., ± 70 V) is supplied for driving the HV pulser. The
+voltage level in the HV pulser can be adjusted from the
+Spartan-3 FPGA for supporting various modes, e.g., B-
+mode, C-mode, and D-mode.
+C. Demonstration of the Portable
+Ultrasound Imaging System Developed
+Figs. 10(a) and 10(b) show the captured images us-
+ing a 3.5-MHz convex array transducer and a 7.5-MHz
+linear array transducer with the developed prototype por-
+table ultrasound system from two tissue-mimicking phan-
+toms with imaging depths of 14 and 4 cm, respectively.
+As shown in Fig. 10(a), with the 3.5-MHz convex array
+probe, the portable system developed can clearly show
+point targets up to 13 cm, and cystic lesions are also de-
+picted. Similarly, the portable system developed clearly
+visualized the point targets within 4 cm with the 7.5-MHz
+linear array transducer. Further evaluation of the portable
+Fig. 7. −18 dB lateral resolution from the Field II simulation at each
+imaging depth for the dynamic and pseudo-dynamic receive focusing
+methods.
+Fig. 8. Prototype low-cost portable ultrasound system.
+TABLE II. System Specifications.
+Mode B-mode, BM-mode
+Size 245-mm width × 190-mm height
+Weight 560 g
+Power External power module/battery
+Probe 3.5-MHz convex and 7.5-MHz linear array probes
+Display 10.2-inch TFT LCD (800 × 480) with touch panel
+CPU Samsung S3C6410 running at 667 MHz
+OS Linux kernel 2.6.21
+System memory 256 MB (SDRAM), 4 GB (flash)
+FPGA Xilinx Spartan-3 (XC3S4000)
+Peripherals USB1.1 host and client, microSD, LAN, DVI for external monitor
+Display mode Dual and quad B-mode
+Cine 256 frames
+LCD = liquid crystal display; OS = operating system; SDRAM = synchronous dynamic RAM; USB = universal
+serial bus; DVI = digital visual interface.
+IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 59, no. 7, July 2012
+1392
+ultrasound imaging system developed will be conducted
+for various POC applications (e.g., emergency medicine).
+The hardware complexity of each processing module in
+the portable system developed was analyzed by using the
+ISE9.2 synthesis tool (Xilinx), and the results are sum-
+marized in Table III, along with a list of the equivalent
+gate counts. Because of the proposed efficient beamform-
+ing algorithms (i.e., pseudo-dynamic receive focusing and
+LUT-based delay update), the hardware complexity in the
+front-end processing (i.e., beamforming) is comparable
+with the mid and back-end B-mode processing, as listed
+in Table III (2 
+612 
+565 versus 2 
+081 
+064 in equivalent gate
+counts). When all processing modules listed in Table III
+are embedded in the Spartan-3 FPGA chip, they use 46,
+41, 93, and 86% of slide flip-flops, 4-input LUTs, block
+RAMs, and multipliers. Thus, all the computational and
+data transfer rate requirements for the low-cost portable
+B-mode ultrasound imaging system can be handled by the
+cost-effective single FPGA chip (<$50). Furthermore, the
+portable system provides a battery lifetime of 1.5 h when
+scanning continuously.
+III. Conclusion
+In this paper, we present a low-cost portable ultra-
+sound imaging system based on a single FPGA for point-
+of-care applications. The prototype of the portable ultra-
+sound system developed showed that it can handle all the
+ultrasound signal and image processing requirements in
+real time. We believe the size (245 mm width × 190 mm
+height) and weight (about 560 g) as well as the functional-
+ity of the portable system would be a good fit for investi-
+gating its clinical benefits in emerging POC applications
+(e.g., emergency rooms and nursing care).
+Fig. 9. (a) Ultrasound scanner and CPU modules and (b) power and
+battery modules.
+Fig. 10. Phantom images by the prototype portable ultrasound imaging
+system with (a) a 3.5-MHz convex array probe and (b) a 7.5-MHz linear
+array probe.
+TABLE III. Hardware Complexity of Each Processing
+Module in the Developed Low-Cost Portable
+Ultrasound Imaging System
+Processing module
+Equivalent
+gate count
+Transmit and receive beamforming 2 612 565
+Mid and back-end B-mode processing 2 081 064
+Scan conversion 153 696
+Real-time control and others 1 806 177
+Total 6 653 502
+The equivalent gate count was estimated by using the Xilinx ISE9.2
+synthesis tool.
+kim et al.: FPGA-based portable ultrasound imaging system 1393
+References
+[1]	J. J. Hwang, J. Quistgaard, J. Souquet, and L. A. Crum, “Portable
+ultrasound device for battle field trauma,” in Proc. IEEE Ultrason.
+Symp., vol. 2, pp. 1663–1667, 1998.
+[2]	 M. Karaman, P. C. Li, and M. O’Donnell, “Synthetic aperture imag-
+ing for small scale systems,” IEEE Trans. Ultrason. Ferroelectr. Freq.
+Control, vol. 42, no. 3, pp. 429–442, 1995.
+[3]	Y. M. Yoo, F. K. Schneider, A. Agarwal, T. Fukuoka, L. M. Koh,
+and Y. Kim, “Ultrasound machine for distributed diagnosis and
+home use,” in Proc. 1st Distributed Diagnosis and Home Healthcare
+Conf., 2006, pp. 63–66.
+[4]	 P. N. T. Wells, “The prudent use of diagnostic ultrasound,” Ultra-
+sound Med. Biol., vol. 13, no. 7, pp. 391–400, 1987.
+[5]	 B. P. Nelson and K. Chason, “Use of ultrasound by emergency
+medical services: A review,” Int. J. Emerg. Med., vol. 1, no. 4, pp.
+253–259, 2008.
+[6]	J. J. Hwang and J. Quistgaard, “A portable ultrasound array imag-
+ing device,” Proc. SPIE, vol. 3664, pp. 194–201, 1999.
+[7]	S. Sikdar, R. Managuli, L. Gong, V. Shamdasani, T. Mitake, T.
+Hayashi, and Y. Kim, “A single mediaprocessor-based programma-
+ble ultrasound system,” IEEE Trans. Inf. Technol. Biomed., vol. 7,
+no. 1, pp. 64–70, 2003.
+[8]	Y. Kim, J. H. Kim, C. Basoglu, and T. C. Winter, “Programmable
+ultrasound imaging using multimedia technologies: A next-genera-
+tion ultrasound machine,” IEEE Trans. Inf. Technol. Biomed., vol.
+1, no. 1, pp. 19–29, 1997.
+[9]	 V. Shamdasani, R. Managuli, S. Sikdar, and Y. Kim, “Ultrasound
+color-flow imaging on a programmable system,” IEEE Trans. Inf.
+Technol. Biomed., vol. 8, no. 2, pp. 191–199, 2004.
+[10]	S. Sikdar, V. T. Shamdasani, M. S. Lidstrom, K. W. Beach, and Y.
+Kim, “Low-cost detection and monitoring of coronary artery dis-
+ease using ultrasound,” in Proc. 1st Distributed Diagnosis and Home
+Healthcare Conf., 2006, pp. 55–58.
+[11]	Y. M. Yoo, R. Managuli, and Y. Kim, “New multi-volume rendering
+technique for three-dimensional power Doppler imaging,” Ultrason-
+ics, vol. 46, no. 4, pp. 313–322, 2007.
+[12]	U. Bae, M. Dighe, V. Shamdasani, S. Minoshima, T. Dubinsky,
+and Y. Kim, “Thyroid elastography using carotid artery pulsation:
+A feasibility study,” in Proc. IEEE Ultrasonics Symp., 2006, pp.
+614–617.
+[13]	A. Agarwal, F. K. Schneider, Y. M. Yoo, and Y. Kim, “Image qual-
+ity evaluation with a new phase rotation beamformer,” IEEE Trans.
+Ultrason. Ferroelectr. Freq. Control, vol. 55, no. 9, pp. 1947–1955,
+2008.
+[14]	F. K. Schneider, Y. M. Yoo, A. Agarwal, L. M. Koh, and Y. Kim,
+“New demodulation filter in digital phase rotation beamforming,”
+Ultrasonics, vol. 44, no. 3, pp. 265–271, 2006.
+[15]	F. K. Schneider, A. Agarwal, Y. M. Yoo, T. Fukuoka, and Y. Kim,
+“A fully programmable computing architecture for medical ultra-
+sound machines,” IEEE Trans. Inf. Technol. Biomed., vol. 14, no. 2,
+pp. 538–540, 2010.
+[16]	B. G. Tomov and J. A. Jensen, “A new architecture for a single-chip
+multi-channel beamformer based in a standard FPGA,” in Proc.
+IEEE Ultrasonics Symp., 2001, pp. 1529–1533.
+[17]	B. G. Tomov and J. A. Jensen, “Compact FPGA-based beamformer
+using oversampling 1-bit A/D converters,” IEEE Trans. Ultrason.
+Ferroelectr. Freq. Control, vol. 52, no. 5, pp. 870–880, 2005.
+[18]	K. Ranganathan, M. Santy, T. N. Blalock, J. A. Hossack, and W.
+F. Walker, “Direct sampled I/Q beamforming for compact and very
+low-cost ultrasound imaging,” IEEE Trans. Ultrason. Ferroelectr.
+Freq. Control, vol. 51, no. 9, pp. 1082–1094, 2004.
+[19]	H. H. Han, J. J. Kim, and T.-K. Song, “Hardware-efficient methods
+for eliminating of signal distortion in sigma-delta based ultrasound
+beamformer,” Ultrason. Imaging, vol. 31, no. 2, pp. 101–119, 2009.
+[20]	A. Agarwal, Y. Yoo, F. K. Schneider, C. Gao, L. M. Koh, and Y.
+Kim, “New demodulation method for efficient phase rotation beam-
+forming,” IEEE Trans. Ultrason. Ferroelectr. Freq. Control, vol. 54,
+no. 8, pp. 1656–1668, 2007.
+[21]	C. Yoon, J. Lee, Y. Yoo, and T.-K. Song, “Display pixel based fo-
+cusing using multi-order sampling for medical ultrasound imaging,”
+Electron. Lett., vol. 45, no. 25, pp. 1292–1294, 2009.
+[22]	S. Stergiopoulos, Advanced Signal Processing Handbook: Theory and
+Implementation for Radar, Sonar, and Medical Imaging Real Time
+Systems. Boca Raton, FL: CRC Press, 2000.
+[23]	J. E. Volder, “The CORDIC trigonometric computing technique,”
+IRE Trans. Electron. Comput., vol. EC-8, no. 3, pp. 330–334, 1959.
+[24]	J. A. Jensen, “FIELD: A program for simulating ultrasound sys-
+tems,” Med. Biol. Eng. Comput., vol. 34, suppl. 1, pt. 1, pp. 351–353,
+1996.
+[25]	H.-Y. Sohn, J. Kang, J. Cho, T.-K. Song, and Y. Yoo, “Time-
+sharing bilinear delay interpolation for ultrasound dynamic receive
+beamformer,” Electron. Lett., vol. 47, no. 2, pp. 89–91, 2011.
+Gi-Duck Kim was born in Incheon, Korea, in
+1975. He received the M.S. and Ph.D. degrees in
+the Department of Electronic Engineering from
+Sogang University, Seoul, Korea, in 2000 and
+2008, respectively. From 1999 to 2003, he conduct-
+ed research and development in ultrasound echo
+processing at Medison, Seoul, Korea, and from
+2008 to 2010, he was a systems engineer for ultra-
+sound systems at Bionet, Seoul, Korea. He is cur-
+rently a research professor of Sogang Institute of
+Advanced Technology (SIAT) in Sogang Univer-
+sity, Seoul, Korea. His research interests include signal processing and
+low-cost system design for handheld ultrasound systems.
+Changhan Yoon received the Bachelor and
+Master of Science degrees in electronic engineering
+in 2007 and 2009 from Sogang University, Seoul,
+Korea. He is currently pursuing a Ph.D. degree in
+the Department of Electronic Engineering at So-
+gang University. His main research interests in-
+clude medical ultrasound imaging and therapy,
+portable ultrasound imaging systems, digital sig-
+nal processing, digital system design, and photo-
+acoustic imaging.
+Sang-Bum Kye was born in Seoul, Republic of
+Korea, in 1966. He received his B.S. degree in elec-
+trical engineering from Korea University in 1989,
+and the M.S degree in electrical and electronic
+engineering from Korea Advanced Institute of Sci-
+ence and Technology in 1992. From 1992 to 2007,
+he conducted research and development on ultra-
+sound scanners at Medison Co. Ltd., and from
+2007 to 2010 at Bionet Co. Ltd. He is currently
+pursuing a Ph.D. degree in the Department of
+Electronic Engineering at Sogang University,
+Seoul, Korea. His research interests include signal processing and low-
+cost system design of ultrasound systems for point of care.
+Youngbae Lee was born in Seoul, Republic of
+Korea, in 1965. He received the B.S. degree in
+electrical engineering from Yonsei University in
+1990 and the M.S. degree in electrical and elec-
+tronic engineering from Korea Advanced Institute
+of Science and Technology in 1992. He conducted
+research and development on medical ultrasound
+scanners from 1992 to 2002 at Medison Co. Ltd.,
+from 2003 to 2007 at the Siemens Ultrasound
+Group Korea, and from 2008 to 2010 at Bionet
+Co. Ltd. He is currently pursuing a Ph.D. degree
+in the Department of Electronic Engineering at Sogang University, Seoul,
+Korea. His research interests include signal processing and ultrasound
+scanners for point of care.
+IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 59, no. 7, July 2012
+1394
+Jeeun Kang received the Bachelor degree in
+electronic engineering in 2009 from Sogang Uni-
+versity, Seoul, Korea. He is currently a candidate
+for the Master degree in electronic engineering at
+Sogang University. His main research interests are
+focused on implementation of a portable ultra-
+sound system, and imaging algorithms of ultra-
+sound and photoacoustic imaging.
+Yangmo Yoo received the B.S. and M.S. degrees
+in electronics engineering in 1999 and 2001, re-
+spectively, from Sogang University, Seoul, Korea,
+and the Ph.D. degree in bioengineering in 2007
+from the University of Washington, Seattle. From
+2007 to 2009, he was a systems design engineer
+with Philips Healthcare, Bothell, WA. He is cur-
+rently an assistant professor of electronics engi-
+neering and is in the Interdisciplinary Program of
+Integrated Biotechnology at Sogang University.
+His research interests include medical ultrasound
+imaging and its clinical applications in diagnostics
+and therapy.
+Tai-Kyong Song (M’97) received his B.S. degree
+in electronic engineering from Sogang University,
+Seoul, Korea, in 1984, and his M.S. and Ph.D.
+degrees in the Department of Electrical and Elec-
+tronic Engineering from the Korea Advanced In-
+stitute of Science and Technology (KAIST), Seoul,
+Korea, in 1985 and 1990, respectively. He worked
+in the department of Physiology and Biophysics,
+Mayo Clinic, Rochester, MN, as a research fellow
+for 2 years before being appointed as an adjunct
+professor in the Department of Information and
+Communication Engineering at KAIST from 1993 through 1995. He
+worked at Siemens Medical-System Inc., Issaquah, WA, as a staff scien-
+tist from 1995 through 1997 and joined the Department of Electronic
+Engineering at Sogang University, Seoul, Korea, as an assistant professor
+in 1997. He was promoted to professor in 2006.
+Dr. Song has been the director of the Center for Medical Solution
+Research at Sogang University since 1997. He served as an associate edi-
+tor of IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency
+Control from 2002 through 2007. He is currently the vice president for
+research, dean of the Industry–University Cooperation Foundation, and
+the vice director of the Sogang Institute of Advanced Technology at
+Sogang University.
+His research interests include handheld ultrasound imaging systems,
+real-time 3-D scanning algorithm and system development, high-end
+digital ultrasound imaging systems, and ultrasound signal and imaging
+processing.
+

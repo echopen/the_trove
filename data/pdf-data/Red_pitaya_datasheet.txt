@@ -1,0 +1,221 @@
+ 
+ 
+ 
+ 
+ 
+ 
+     
+Red Pitaya Hardware Specifications V1.1.1 
+ 
+Product name: Red Pitaya, model V1.1 
+ 
+ 
+ 
+● RF inputs 
+○ Number of channels: 2 
+○ Bandwidth: 50 MHz (3 dB) 
+○ Sample rate: 125 Msps 
+○ ADC resolution 14 bits  
+○ Input coupling: DC 
+○ Input noise level: < ­119 dBm /Hz (D) 
+○ Input impedance: 1 MΩ // 10 pF   (A,B) 
+○ Full scale voltage: 2Vpp, (46 Vpp for low­gain jumper setting)  (T,V) 
+○ DC offset error: <5 % FS  (G)  
+○ gain error: < 3% (at high gain jumper setting), <10% (at low gain jumper setting) 
+(G) 
+○ Absolute maximum input voltage rating: 30 V (S) (1500 V ESD) 
+○ Overload protection: protection diodes (under the input voltage rating conditions) 
+○ Input channel isolation: typical performance 65 dB @ 10 kHz, 50 dB @ 100 kHz, 
+55 dB @ 1 M, 55 dB @ 10 MHz, 52 dB @ 20 MHz, 48 dB @ 30 MHz, 44 dB @ 40 
+MHz, 40 dB @ 50 MHz. (C) 
+○ Harmonics  
+■ at ­3 dBFS: typical performance <­45 dBc  (E)  
+■ at ­20 dBFS: typical performance <­60 dBc  (E)  
+○ Spurious frequency components: Typically <­90 dBFS  (F) 
+○ Connector type: SMA (U) 
+○ Frequency response is adjusted by digital compensation 
+ 
+● RF outputs 
+○ Number of channels: 2 
+○ Bandwidth: 50 MHz (3 dB) (K) 
+○ Sample rate: 125 Msps 
+○ DAC resolution: 14 bits 
+     
+ 
+ 
+ 
+ 
+○ Output coupling: DC 
+○ Load impedance: 50 Ω (J) 
+○ Output slew rate limit: 200 V/us  
+○ Connector type: SMA (U) 
+○ DC offset error: < 5% FS (G)  
+○ Gain error: < 5% (G)  
+○ Full scale power:  > 9 dBm (L)  
+○ Harmonics: typical performance: (at ­8 dBm) 
+■ ­51 dBc @ 1 MHz 
+■ ­49 dBc @ 10 MHz 
+■ ­48 dBc @ 20 MHz 
+■ ­53 dBc @ 45 MHz 
+ 
+● Auxiliary analog input channels: 
+○ Number of channels: 4 
+○ Nominal sampling rate: 100 ksps (H) 
+○ ADC resolution 12 bits  
+○ Connector: dedicated pins on IDC connector E2 (pins 13,14,15,16) 
+○ Input voltage range: 0 to +3.5 V 
+○ Input coupling: DC 
+○  
+● Auxiliary analog output channels 
+○ Number of channels: 4 
+○ Output type: Low pass filtered PWM (I) 
+○ PWM time resolution: 4ns (1/250 MHz) 
+○ Connector: dedicated pins on IDC connector E2 (pins 17,18,19,20) 
+○ Output voltage range: 0 to +1.8 V 
+○ Output coupling: DC 
+● General purpose digital input/output channels: (N) 
+○ Number of digital input/output pins: 16 
+○ Voltage level: 3.3 V  
+○ Direction: configurable  
+○ Location: IDC connector E1 (pins 3­24 ) 
+● Extension: 
+○ Connector: 2 x 26 pins IDC  (M) 
+○ Power supply: 
+■ Available voltages: +5V, +3.3V, ­3.3V 
+■ Current limitations: 500 mA for +5V and +3.3V (to be shared between 
+extension module and USB devices), 50 mA for ­3.3V supply. 
+● Serial connectivity: 
+○ Connector type: 2x “SATA type” connector 
+○ Two differential pairs per connector enabling up to 500 Mbps 
+● CPU / FPGA: Xilinx Zynq 7010 SoC  
+     
+ 
+ 
+ 
+ 
+○ 17,600 LUTs 
+○ 28k Logic Cells 
+○ 80 DSP slices  
+○ Dual ARM® Cortex™­A9  
+● Memory:  4 Gb DDR3 SDRAM (512 MB)  
+● SD card:  
+○ Card type: micro SD 
+○ Supported standard: SD/SDIO 2.0/MMC3.31 
+○ File System: FAT32 (255 heads, 63 sectors) 
+○ Maximum card size: 32 GB (tested with: Apacer microSD HC 4GB Class 4 and 
+others) 
+● WiFi: 
+○ WiFi USB dongles: tested with Edimax EW­7811Un 
+● Fan: Optional fan power supply (5V) 
+● Power supply: (O) 
+○ Voltage: 5 V 
+○ Current: 2 A 
+○ Connector type: micro USB 
+○ Compliant with relevant regulation standards 
+○ Recommended power supply:  HNP10I­microUSB 
+ 
+ 
+● Dimensions: 107 mm x 60 mm x 21 mm (W) 
+● Power consumption: typically < 0.9 A @ 5V (P)  
+● Environmental conditions: 
+○ Temperature: 
+■ Minimum ambient operating temperature: 5 °C  
+■ Maximum ambient operating temperature: 30 °C (P)  
+■ Storage temperature range from ­50 °C to 150 °C 
+■ Laboratory ambient temperature range: 22 °C  ± 2 °C (R) 
+■ Exposed surface temperature: < 70 °C (Q) 
+■ Maximum Zynq SoC IC operation temperature: 85 °C 
+○ Humidity: 15 % ­ 85 % (non condensing) 
+ 
+ 
+ 
+ 
+Notes: 
+A. Input capacitance depends on jumper settings and may vary.  
+B. A 50 Ω termination can be connected through an SMA tee in parallel to the input for 
+measurements in a 50 Ω system. 
+C. Crosstalk measured with high gain jumper setting on both channels. The SMA 
+connectors not involved in the measurement are terminated.   
+     
+ 
+ 
+ 
+ 
+D. Measurement referred to high gain jumper setting, with limited environmental noise, 
+inputs and outputs terminated, output signals disabled, PCB grounded through SMA 
+ground. The specified noise floor measurement is calculated from the standard deviation 
+of 16k contiguous samples at full rate. (Typically full bandwidth std(Vn) < 2 mV). Noise 
+floor specification does not treat separately spurious spectral components and 
+represents time domain noise average referred to a 1 Hz bandwidth. In presence of 
+spurious components the actual noise floor would result lower.   
+E. Measurement referred at high gain jumper setting, inputs matched and outputs 
+terminated, outputs signal disabled, PCB grounded through SMA ground. 
+F. Measurement referred to high gain jumper setting, inputs and outputs terminated, outputs 
+signal disabled, PCB grounded through SMA ground.   
+G. Further corrections can be applied through more precise gain and DC offset calibration.  
+H. Default software enables sampling at CPU dependent speed. The acquisition of 
+sequence at 100 ksps rate requires the implementation of additional FPGA processing. 
+I. First order low pass filter implementation. Additional filtering can be externally applied 
+according to application requirements. 
+J. The output channels are designed to drive 50 Ω loads. Terminate outputs when channels 
+are not used. Connect parallel 50 Ω load (SMA tee junction) in high impedance load 
+applications.  
+K. Measured at ­10 dBm output power level 
+L. Typical power level with 1 MHz sine is 9.5 dBm. Output power is subject to slew rate 
+limitations.  
+M. Detailed scheme available within documentation (Red_Pitaya_Schematics_v1.0.1.pdf) 
+N. To avoid speed limitations on digital General Purpose Input / Output pins are directly 
+connected to FPGA. FPGA decoupling and pin protection is to be addressed within 
+extension module designs. User is responsible for pin handling.  
+O. The use of not approved power supply may deteriorate performance or damage the 
+product.  
+P. Heatsink must be installed and board must be operated on a flat surface without airflow 
+obstructions. Operation at higher ambient temperatures, lower pressure conditions or 
+within enclosures to be addressed by means of adequate ventilation. The operation of the 
+product is automatically disabled at increased temperatures.  
+Q. Some parts may become hot during and after operation. Do not touch them.  
+R. Measurement performance is specified within this range. 
+S. Valid for low frequency signals. For input signals that contain frequency components 
+beyond 1 kHz, the full scale value defines the maximum admissible input voltage. 
+T.  Jumper settings are limited to the positions described in the user manual. Any other 
+configuration or use of different jumper type may damage the product.  
+U.  SMA connectors on the cables connected to Red Pitaya must correspond to the 
+standard MIL­C­39012. It’s Important that central pin is of suitable length, otherwise the 
+SMA connector installed in Red Pitaya will mechanically damage the SMA connector. 
+Central pin of the SMA connector on Red Pitaya will loose contact to the board and the 
+board will not be possible to repair due to the mechanical damage (separation of the pad 
+     
+ 
+ 
+ 
+ 
+from the board). 
+V. Jumpers are not symmetrical, they have latches. Always install jumpers with the latch on 
+its outer side in order to avoid problems with hard to remove jumpers. 
+W. Dimensions are rounded to the nearest millimeter. For exact dimensions, please see the 
+Technical drawings and product model. (Red_Pitaya_Dimensions_v1.0.1.pdf) 
+ 
+ 
+ 
+Information furnished by Red Pitaya d.o.o. is believed to be accurate and reliable.  
+However, no responsibility is assumed for its use. Contents may be subject to change without 
+any notice. 
+ 
+ 
+www.redpitaya.com 
+Red Pitaya Hardware Specifications V1.1.1,  April 2014 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+

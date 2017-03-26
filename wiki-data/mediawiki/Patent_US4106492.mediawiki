@@ -1,0 +1,64 @@
+# Patent US4106492
+
+
+
+
+
+=US4106492 : Real time two-dimensional mechanical ultrasonic sector scanner with electronic control of sector width = 
+
+
+
+== Invention date ==
+
+Aug 15, 1978
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[The United States Of America As Represented By The Secretary Of The Department Of Health]]
+* [[Education And Welfare]]
+=== Beneficiaires === 
+* * [[William H. Schuette]]
+* [[George F. Norris]]
+
+
+= Abstract =
+
+An ultrasonic scanning system for echocardiography or the like, the system including a pivoted transducer in a manually-held housing containing a reversible low-inertia servo motor drivingly connected to the transducer via reduction gearing for oscillating the transducer, and a photoelectric system for generating sine and cosine voltages representing the real time positions of the transducer. An electronic position control circuit controls the motor, and thus controls the position of the transducer, by feedback signals derived from the difference between the sine function generated in the photoelectric system and a triangular wave generated in the control circuit. This difference is used to determine the magnitude and polarity of the voltage applied to the servo motor. This makes it possible to program the sector position of the transducer as a function of time. The photoelectric system may consist of a slotted disc mounted on the motor shaft between light sources and arrays of photocells. The disc has respective slots arranged to permit light proportionate to the sine and cosine of the sector position angle of the transducer to pass through the disc to the photocell arrays. The generated sine and cosine voltages are used to derive X and Y sweep voltages for an associated cathode ray tube display.
+= Patents Backwards =
+
+* [[Patent US3086390]]
+* [[Patent US3096444]]
+* [[Patent US3403671]]
+* [[Patent US3406564]]
+* [[Patent US3447052]]
+* [[Patent US3482106]]
+* [[Patent US3654479]]
+* [[Patent US3775617]]
+* [[Patent US3927661]]
+* [[Patent US4034744]]
+= Patents Forwards =
+
+* [[Patent US4274421]]
+* [[Patent US4327739]]
+* [[Patent US4385521]]
+* [[Patent US4399822]]
+* [[Patent US4572202]]
+* [[Patent US4579122]]
+* [[Patent US5014756]]
+* [[Patent US5058628]]
+* [[Patent US5720285]]
+* [[Patent US6513394]]
+* [[Patent US6785007]]
+* [[Patent US7571656]]
+* [[Patent US7819809]]
+* [[Patent US8088070]]
+* [[Patent US8632467]]
+* [[Patent US8758255]]
+* [[Patent EP0016399A1]]
+* [[Patent EP0028325A1]]
+* [[Patent EP0030458A2]]
+* [[Patent EP1676531A1]]
+* [[Patent EP2475306A2]]
+* [[Patent WO2011031753A2]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

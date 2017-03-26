@@ -1,0 +1,47 @@
+# Patent US4228687
+
+
+
+
+
+=US4228687 : Ultrasonic transducers = 
+
+
+
+== Invention date ==
+
+Oct 21, 1980
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Emi Limited]]
+=== Beneficiaires === 
+* * [[Brian W. Fraser]]
+
+
+= Abstract =
+
+In a rotating probe ultrasonic system the effective PRF may not be sufficiently high for certain purposes, such as examination of the foetal heart. The invention combines fixed transducers looking at a limited region with a rotating probe scanning over a larger region to give a higher effective PRF in the limited region. The two displays are preferably separate although the display of the larger region may conveniently indicate the location of the limited region.
+= Patents Backwards =
+
+* [[Patent US3403671]]
+* [[Patent US4034744]]
+* [[Patent US4078435]]
+* [[Patent US4143554]]
+= Patents Forwards =
+
+* [[Patent US4287767]]
+* [[Patent US4398425]]
+* [[Patent US4409982]]
+* [[Patent US4431936]]
+* [[Patent US4453409]]
+* [[Patent US4454763]]
+* [[Patent US4476874]]
+* [[Patent US4850362]]
+* [[Patent US4893628]]
+* [[Patent US5465724]]
+* [[Patent US5680865]]
+* [[Patent US6888346]]
+* [[Patent WO1983003000A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

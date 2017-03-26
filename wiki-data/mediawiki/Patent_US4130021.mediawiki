@@ -1,0 +1,40 @@
+# Patent US4130021
+
+
+
+
+
+=US4130021 : Ultrasonic sector scanning search unit = 
+
+
+
+== Invention date ==
+
+Dec 19, 1978
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Picker Corporation]]
+=== Beneficiaires === 
+* * [[Peter G. Mueller]]
+* [[Albert S. Goodrich]]
+
+
+= Abstract =
+
+A sector scanning search unit which supports a transducer for oscillation about a virtual pivot axis extending medially across the face of the transducer. The scanner unit is an elongate hand held unit in which the transducer is supported near one end of a chassis. The transducer's face is oriented transversely of a longitudinal axis of the chassis and on a side of the transducer opposite its supporting structure. The sector scanner is also provided with a mechanism for readily adjusting the magnitude of the sector being scanned, even while such scanning is taking place.
+= Patents Backwards =
+
+* [[Patent US3257843]]
+* [[Patent US3308652]]
+* [[Patent US3369415]]
+* [[Patent US3547101]]
+* [[Patent US3752255]]
+* [[Patent US3996792]]
+= Patents Forwards =
+
+* [[Patent US4368644]]
+* [[Patent US4515017]]
+* [[Patent US6698279]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

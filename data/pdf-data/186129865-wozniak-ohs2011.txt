@@ -1,0 +1,206 @@
+OPEN-SOURCING THE
+ENGINEERING (DESIGN)
+PROCESS
+amanda wozniak,
+Staff Electrical Engineer, Wyss Institute
+Amanda.Wozniak@Wyss.Harvard.Edu
+Open Hardware Summit 2011
+FIRST OFF, WHAT IS THE ENGINEERING
+PROCESS?
+great idea
+for a project
+a miracle
+occurs!
+fabrication
+and
+assembly
+hardware
+IT’S ALL OF THIS.
+THE IDEA OF A DOCUMENTING A PROCESS IS
+DEAD SIMPLE. ACTUALLY DOCUMENTING A
+SPECIFIC PROCESS IS INCREDIBLY HARD.
+system
+description
+SCH
+BOM
+pcb
+layout
+design
+rules
+user
+guide
+source
+code
+manufacturing
+rules typical
+application
+note
+block
+diagram
+GERBER
+description
+of trade-offs &
+limitations
+bug list
+safety & reliability
+concerns
+potential
+hazards
+design for
+manufacturing
+test plan
+SCHEMATICS, GERBERS AND BOMS ARE A
+SUFFICIENT FOR MANUFACTURING. WHY
+BOTHER WITH A PROCESS? SHOULDN’T WHAT
+WE MAKE BE ENOUGH?
+WHAT’S SO OPEN ABOUT YOUR
+HARDWARE IF I HAVE TO REVERSE-
+ENGINEER IT TO CONTRIBUTE?
+INDUSTRY IS SO SUCCESSFUL, BECAUSE
+UNDERNEATH ALL THE NDAS, EVERYTHING IS
+EXPOSED.
+IN ADDITION TO BEING OPEN, FORMAL DESIGN
+PROCESSES OFTEN SAVE YOUR BACON
+SURE, SOCIETY COULD COLLAPSE FROM
+INSUFFICIENT DOCUMENTATION.
+DON’T LET THAT INTIMIDATE YOU.
+THIS IS THE STORIED ENGINEERING PROCESS
+LATHER. RINSE. REPEAT.
+THAT’S IT.
+PROJECT GOAL: AUTONOMOUS ROBOT
+FIRST, I ASKED SOME QUESTIONS…
+ Why are we making this?
+ Who is this for?
+ How will this be used?
+ What features does it need to have (now)?
+ What features does it need to have (later)?
+ What are the legacy requirements?
+ Who’s going to build this?
+ How many do we want to make?
+ What is the budget?
+ What is the timeline?
+ALL THE ANSWERS POINTED TO MAKING A
+SHIELD FOR THE ARDUINO MEGA.
+ All the benefits of open-source hardware
+ Enough resources to get the job done
+I GROUPED THE REQUIRED FEATURES INTO A
+BLOCK DIAGRAM AND LOOKED FOR EXISTING
+SOLUTIONS – REDUCE, REUSE, RECYCLE
+ application notes
+ vendor datasheets
+ old projects
+ cookbooks
+ open-source
+community
+HARDWARE DESIGN WORK-FLOW
+ Parts Selection and Schematic Capture
+ Schematic Review – REVISIT QUESTIONS
+ Layout Floor-planning (mechanical)
+ PCB Layout
+ Schematic + Layout Review – REVISIT QUESTIONS
+ Pre-Tapeout Verification
+ Manufacturing Tape-out
+ Test and Characterization
+ Iterate (if necessary)
+ Document
+ Release
+BEST PRACTICES: SCH/BOM
+ as you select parts for your schematic, curate
+your CAD library and update your Bill of
+Materials as you go. This helps you to avoid
+footprint and pinout mistakes
+ for every part on your BOM, take the extra
+time to find multiple vendors and list both the
+FUNCTION of the part and its CRITICAL
+SPECIFICATION (tolerance, size, cheapness,
+etc).
+ for each part make a note of any physical
+Design Rules for the PCB layout.
+BEST PRACTICES: PCB/PROTOTYPE
+ Take your Design Rules and follow them to the
+best of your ability.
+ Verify against Schematic.
+ Review with others. REVISIT QUESTIONS.
+ Built. Test.
+ Iterate until satisfied.
+PRE-TAPEOUT CHECKLIST
+ Have you fixed all DRC/ERC errors?
+ All part footprints on PCB match BOM?
+ All part pin-outs on schematic match data sheet?
+ Does your schematic match your working proto?
+ Did you verify the critical spec for each part?
+ Did you find the right vendor part number for
+each part?
+ Is your part in stock? (BUY IT NOW)
+ All Pin-1 designators correct?
+ All RefDes labels correct?
+FABRICATION PACKAGE CHECKLIST
+ GERBERS
+ NC Drill File
+ Assembly Drawing
+ Pick & Place Coordinates
+ BOM
+ Part ID
+ Reference Designator(s)
+ Part Type
+ Package Footprint
+ Value/Description/Critical Spec
+ Manufacturer’s Part Number
+ Vendor’s Part Number
+SO, NOW YOUR DESIGN DOCUMENTATION IS JUST
+COMPILING WHAT YOU ALREADY KNOW
+ Project Introduction (Goals, Overview)
+ System Block Diagram
+ Discussion of Essential Features/Trade-offs
+ Block-by-Block Breakdown
+ Function
+ Schematic block
+ Layout block
+ Parts selection (and critical specs)
+ Performance metrics (if applicable)
+ Software/Firmware Summary
+ Typical Application
+ User’s Quick-Start Guide
+ Errata
+WHY BOTHER WITH ALL OF THAT PROCESS
+AND DETAIL FOR A DEMO?
+WHEN YOU FOLLOW A PROCESS, YOU GAIN
+EFFICIENCY. WHEN WE NEEDED TO PROTOTYPE A
+DIAGNOSTIC MICROSCOPE, I HAD ALL THE PARTS.
+HOBBY PROJECT OR INDUSTRY PRODUCT, THE GIST
+OF THE PROCESS REMAINS THE SAME – ONLY THE
+DETAILS CHANGE
+ README.txt
+ Schematic
+ Gerber
+ BOM
+ Design History File
+ Hazard Analysis
+ Failure Mode Effects
+Analysis
+ Risk Mitigation
+ Statistical
+Performance
+ Margins/Tolerance
+ Lifetime Reliability
+ SOPs
+ etc… etc… etc…
+PROCESS TRANSPARENCY ALLOWS YOU TO
+CONQUER:
+ ANALYST BIAS – “The previous guy knew what
+he was doing better than I do.”
+ HUBRIS – “I know best, that other guy is an
+idiot.”
+ CARGO CULT THINKING – “Engineering must
+be magic. If we copy it and it looks the same, it’s
+got to work, right?”
+THE MORE WE SHARE, THE MORE OTHERS
+CAN QUESTION OUR DESIGN… THE FASTER
+WE CAN LEARN FROM OUR COLLECTIVE
+MISTAKES AND THE SOONER WE CAN
+CELEBRATE OUR COLLECTIVE SUCCESSES.
+QUESTIONS? COMMENTS? DROP A LINE.
+ professional contact:
+amanda.wozniak@wyss.harvard.edu
+ personal contact: woz@mit.edu
+

@@ -1,0 +1,75 @@
+Augustin BOUCHARD
+DE LA POTERIE
+ETAT CIVIL
+- 23 ans
+- Nationalité Française
+- Célibataire
+- Permis B
+COORDONNEES
+06 46 45 50 67
+adelapoterie@gmail.com
+10 Boulevard Voltaire
+92130 Issy-les-Moulineaux
+LANGUES
+
+Anglais : Lu, écrit, parlé
+Japonais : Notion
+
+INFORMATIQUE
+
+- Suite Office
+- Photoshop
+- Internet
+- HTML/CSS
+- PHP/Mysqli
+- VHDL
+- Matlab
+
+CENTRES D’INTERETS
+Sports: Tennis, karaté Artistique,
+Taekwondo
+Aéronautique : Titulaire du BIA
+passé en mai 2012
+FORMATION
+2014-2015 2eme année cycle ingénieur, ISEP.
+2014-2015 1ere année cycle ingénieur, ISEP.
+2011-2014 Classe préparatoire aux grandes écoles.
+2010-2011 Baccalauréat Technologique STI génie
+électronique. Mention assez bien
+EXPERIENCE PROFESSIONNELLE
+2015
+(4 mois)
+2015
+(3 mois)
+2014
+(3 mois)
+2011 – 2014
+(4 mois)
+Conseil régional de haute Normandie
+- Service Maintenance
+- Service Animation et Partenariats de la
+Formation Continue
+- Service Jeunesse, Citoyenneté et
+Sports
+- Service Environnement et Transport
+Stage de fin d’étude
+Projet ISEP en groupe de 6 étudiants.
+Création d’un site web d’échange de
+maison à but non lucratif.
+Initiation aux langages informatiques :
+HTML/CSS ainsi que PHP et mysqli
+Projet ISEP en groupe de 6 étudiants.
+Conception et réalisation d’un petit robot
+pouvant communiquer et détecter via des
+signaux infrarouge.
+Réalisation d’une carte électronique
+permettant d’émettre et de recevoir des
+signaux infrarouge.
+MC2-Technologies
+- Etude des potentialités d’une
+plateforme électronique appelée
+« Red Pitaya » basée autour d’un
+processeur et d’un FPGA
+- Réalisation d’une interface
+Graphique sous l’outil Matlab
+

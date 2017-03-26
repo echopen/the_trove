@@ -1,0 +1,75 @@
+Du stéthoscope à l’échographie, on passe
+des sons aux ultrasons et des oreilles aux
+yeux.
+On voit ce qui est invisible - grâce à des
+sons inaudibles.
+On n'écoute plus le cyur battre... on le
+VOIT battre !
+echOpen
+Contacts:
+www.echopen.org
+@echopenorg
+luc@echopen.org
+La vision du projet
+Rendre accessibles, ouvertes et
+collaboratives les technologies
+d'imagerie médicale par ultrasons.
+#santé, #collaboration, #libre, #décentralisé, #diy, #bottomup
+Pourquoi ?
+Une mine d’information.. et personne
+pour l’exploiter.
+L’echostéthoscope
+L’ échostéthoscope est dans l’air
+du temps:
+« Le stéthoscope a 200 ans, et il risque
+de ne pas passer l'hiver »
+« Le stéthoscope bientôt remplacé par
+l'échographie »
+« Vers la disparition du stéthoscope ? »
+« L'imagerie du cyur va-t-elle éclipser
+le stéthoscope? «
+« Échographie et Doppler : le
+stéthoscope de demain ? »
+Besoin d’un stéthoscope++
+Défis: leçons techniques
+• Des contraintes :
+#portable, #lowcost, #innoffensif, #open (hard/soft)
+• Faisabilité
+– Déjà fait par les grands industriels, par des
+chercheurs, …
+– Idée : reprendre des designs anciens.. avec les
+technos d’aujourd’hui.
+• Propriété Industrielle
+– Etat de l’art : des brevets de 1970-1980
+– Design « archaïque » mais …
+– Toujours protégé.
+Défis: accès la connaissance
+Projet basé sur le partage
+– Comment structurer les informations ?
+– Où trouver des informations ?
+– Comment les communiquer ?
+Pourquoi ne pas rendre public une technologie qui
+ne rentre plus en compétition avec aucun
+projet/produit/service ?
+Quels leviers pour « libérer » la connaissance?
+Défis: licences et normes
+• Comment aborder l’environnement du
+libre ?
+– Comment naviguer dans le marécages de
+normes d’équipement médical?
+– Comment sécuriser les usages ?
+– Quelle(s) licence(s) ?
+• Quel modèle pour la pérennisation ?
+Merci aux
+contributeurs historiques
+médecins de spécialités diverses
+designers
+facilitateurs
+physiciens
+dev
+participants des hackatons et camps
+chercheurs
+et bidouilleurs en tout genre…
+Et pourquoi pas vous ?
+Merci à l’équipe #echopen !
+

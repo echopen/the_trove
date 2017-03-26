@@ -1,0 +1,66 @@
+ 
+recrute un ingénieur ultrasons (imagerie médicale) 
+ 
+ 
+echOpen est une association 1901 et un projet open source hardware dont l’ambition est de créer la première
+                                   
+sonde d’échographie open source hardware, low cost, utilisable sur un smartphone à destination des
+                           
+professionnels de santé pour la transformation de l’orientation diagnostic.  
+ 
+Le bon candidat est capable d’avoir une vue d’ensemble du projet, en particulier sur la facette scientifique, pour
+                                   
+trouver des solutions aux problèmes techniques, dynamiser les actions des différents groupes de travail et
+                             
+coordonner une communauté.  
+ 
+Le projet comprend une dimension internationale.  
+ 
+Vous êtes :  
+ 
+● Motivé ! Vous aimez que les choses soient faites efficacement  
+● Autonome ! Vous avez des compétences d’organisation  
+● Curieux ! Vous êtes innovant, créatif et constamment à la recherche de moyens d’améliorer les choses 
+● Malin ! Vos compétences à l’écrit sont exceptionnelles et vous pouvez rédiger facilement des 
+newsletters, des articles de blogs, des guidelines et des résumés et vous pouvez vous adapter à 
+chaque situation 
+● Utile ! Vous aimez trouver des solutions et régler les questions rapidement et efficacement 
+ 
+Vos responsabilités :  
+ 
+● Key responsibility : prototypage d’une sonde échographique à bas coût au sein du projet echopen. 
+● Suivi des différents autres ateliers liés au prototypage (organisation, mobilisation et documentation)  
+● Suivi des partenaires techniques et travail auprès des fournisseurs 
+● Animateur de communautés d’experts et de bénévoles 
+● Documentation de l’ensemble des réalisations sur un wiki 
+ 
+Formation :  
+● Niveau Bac + 4/5 : école d’ingénieur  
+● Expérience en ondes acoustiques 
+● Culture générale de l’échographie et/ou du matériel d’échographie 
+● Connaissances en simulation de propagation d’ondes acoustiques ­ diffusion simple en milieu
+                       
+hétérogène (MatLab, …) appréciée 
+ 
+Bottom Line :  
+Soyez prêts pour une aventure hors du commun, sur une thématique exceptionnelle! Vous devez être motivés
+                               
+pour entrer dans le vif du sujet, vous serrez actif au rythme d’un monde en mutation et d’un groupe d’acteurs
+                                       
+motivés.. Expérience scientifique valorisante auprès d’une équipe de culture digitale et open­source.  
+ 
+Lieu de travail : Paris et proche banlieue  
+ 
+Pour postuler envoyer une lettre de motivation et un CV à ​
+contact@echopen.org  
+ 
+Les informations recueillies font l’objet d’un traitement informatique destiné à gérer les candidatures. Les destinataires des données
+                                 
+sont les porteurs du projet Epidemium de la Paillasse. Conformément à la loi « informatique et libertés » du 6 janvier 1978 modifiée en
+                                               
+2004, vous bénéficiez d’un droit d’accès et de rectification aux informations qui vous concernent, que vous pouvez exercer en vous
+                                       
+adressant à (mettre une adresse mail) . Vous pouvez également, pour des motifs légitimes, vous opposer au traitement des données
+                                       
+vous concernant. 
+

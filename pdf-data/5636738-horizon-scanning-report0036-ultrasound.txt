@@ -1,0 +1,293 @@
+NIHR Diagnostic Evidence Cooperative Oxford
+www.oxford.dec.nihr.ac.uk
+Diagnostic Evidence Co-operative
+Oxford
+Cooperative Oxford HR Diagnostics
+Evidence Cooperative Oxford
+Clinical Question: What are the current and potential future roles for portable
+ultrasound in primary care settings?
+Background
+Ultrasound technology has become progressively more portable since the 1970s, and now includes
+‘hand-held’ devices designed to complement clinical examination by non-radiologist clinicians. Such
+devices are marketed for use in a range of environments and have been described as ‘modern
+stethoscopes’ [1]. This Horizon Scanning Report focusses on portable ultrasound by non-radiologists
+with limited training and potentially relevant to primary care.
+Clinical areas and current literature
+Uses of portable ultrasound described in the literature fall into a number of categories, of which the
+current report will focus on the following clinical areas most relevant to primary care where
+evidence has been found:
+ musculoskeletal uses
+ screening for abdominal aortic aneurysm
+ measurement of bladder volume
+ screening/measurement of carotid artery stenosis
+ diagnosis of suspected deep vein thrombosis and assessment of the venous circulation.
+(Echocardiography will be considered in a separate report).
+Portable Ultrasound Devices
+Horizon Scan Report 0036
+January 2014
+Musculoskeletal uses
+Several studies evaluated the use of handheld ultrasound for shoulder disorders, largely to detect
+partial or complete rotator cuff tears. The only studies we identified involved orthopaedic surgeons
+rather than general practitioners (GPs). Jeyam et al studied the office-based use of portable
+ultrasound in 64 patients with acute or chronic shoulder pain [2]. They found agreement between
+the surgeon’s findings and that of arthroscopy in 59 cases (92% sensitivity), with 100% specificity for
+detection of a full thickness tear. In a similarly designed study, Al-Shawi et al compared portable
+ultrasound with either magnetic resonance imaging (MRI) or operative findings in a sample of 143
+patients, 78 of whom had a full thickness tear [3]. They reported 96.2% sensitivity and 95.4%
+specificity for detection of this pathology. One study introduced portable ultrasound at an
+orthopaedic clinic, operated by a surgeon who had received 15 hours of training. The 146 patients
+who received ultrasound were significantly less likely to have MRI (9.7% with ultrasonography vs
+14.4% without; p = 0.03) although equally likely to undergo surgery (33.6% with ultrasonography vs
+22.1% without, p = 0.77). No ultrasonography-examined patients had an incorrect diagnosis at
+surgery [4]. Another study assigned 77 patients attending a shoulder clinic to 2 groups, where
+patients were either assessed and had ultrasonography performed by a surgeon as outpatients
+(n=37), or were assessed and referred for departmental ultrasonography where appropriate (n=40)
+[5]. Patients receiving portable ultrasound completed their clinical episodes significantly quicker
+than those that were referred (p<0.02) and the savings in departmental imaging and follow-up
+appointments to discuss results and management amounted to nearly £200 per patient. The study
+concluded that the use of a portable ultrasonography device by an orthopaedic surgeon can
+significantly reduce the time to treatment and the financial cost for patients with rotator cuff tears.
+Portable ultrasound has been used to exclude effusion in acutely swollen joints in an emergency
+department (ED). In a retrospective study, 54 patients were identified who had presented with pain,
+erythema and swelling of the knee, elbow, ankle or metatarsophalangeal joint and had received
+portable ultrasound by an ED doctor trained in sonography [6]. Following sonography, joint
+aspiration was considered necessary in only 20 out of 39 patients in whom it was initially planned.
+However the cases selected for this study needed to have undergone ultrasound and might not be
+representative of all patients with all such joint abnormalities.
+Hand-held ultrasound has been used to exclude meniscal tears. Shetty et al [7] investigated 35
+patients who subsequently underwent knee arthroscopy and reported fairly high sensitivity (86.4%,
+comparable with MRI) but lower specificity (69.2%) for meniscal tear detection using portable
+ultrasound. The low specificity would risk unnecessary arthroscopies if ultrasound were used alone
+to screen patients, but the high sensitivity suggests that need for MRI might be reduced if only those
+screening positive underwent the more expensive MRI examination to confirm.
+In a study of 212 children and young adults with 348 suspected fractures (actual fracture prevalence
+24%), Wieberg et al reported an overall sensitivity of 73% and specificity 92% for fracture detection
+using ultrasound by paediatric emergency physicians who had received a 1h training session [8].
+Reviewing other literature in this area, this group concluded that ultrasound is more useful for
+‘ruling in’ than ‘ruling out’ fracture, and may have a place in settings with limited access to X-rays.
+Detection of Abdominal aortic aneurysm (AAA)
+AAA is common in older men particularly but occurs in both sexes. It is readily detected by
+ultrasound, including portable devices. Four similarly designed studies of AAA screening in an
+outpatient clinic [9,10], a vascular surgery clinic [11] and an echocardiography laboratory [12],
+respectively, using portable ultrasound by physicians for patients at risk of vascular disease all report
+high agreement with traditional ultrasonography (with sensitivity 89-93% and specificity 94-99%)
+and recommend its use as an extension of clinical examination in vascular patients. A recent
+systematic review of emergency department bedside ultrasonography for diagnosing suspected AAA
+reported pooled operating characteristics of ED US for the detection of AAA of sensitivity 99% (95%
+confidence interval [CI] = 96% to 100%) and specificity 98% (95% CI = 97% to 99%) [13].
+In the UK, a screening programme for AAA is underway and it is unclear to what extent hand-held
+ultrasound in primary care settings would contribute to this programme. One study evaluated the
+accuracy of a portable 3D ultrasound device that automatically measures the maximum diameter of
+the abdominal aorta without the need for a trained sonographer [14]. Forty-three patients with
+known AAA (confirmed by CT) and 48 control patients were selected from the UK National Screening
+programme. For all patients, the aorta was scanned using the hand-held device by a researcher
+trained to use the device according to the manufacturer and also received a CT. The sensitivity,
+specificity, positive and negative predictive values were 81%, 72%, 72% and 81%, respectively and
+the authors concluded that the hand-held device can detect AAA without the need for a trained
+operator but further technical improvement is required to increase sensitivity. Portable ultrasound
+use outside the screened populations (currently confined to 65 year old men and older men
+requesting it) may also improve AAA detection.
+Assessment of bladder volume
+Accurate measurement of bladder volume can be achieved through catheterisation, but this is
+invasive, unpleasant for patients, and carries risk of infection. Post-void residual (PVR) volume is
+measured in the investigation of recurrent urinary tract infection and of urinary incontinence. High
+PVRs are associated with outflow obstruction and with neuropathic bladder. These are common,
+treatable disorders carrying significant population morbidity. In a series of 95 women undergoing
+PVR measurement by portable ultrasound in an outpatient clinic, Goode et al reported a sensitivity
+of 66.7% and specificity of 96.5% for detection of PVR >100mls, using catheterisation as the gold
+standard [15]. Al-Shaikh et al assessed 101 women attending a urogynaecology unit [14]. The
+measurements correlated significantly with catheterisation volumes (r=0.79, 95% CI 0.70-0.85,
+P<0.001) and the mean difference between the two techniques was 12.9 ml. Cooperberg et al have
+reviewed the literature in this area and warn of the risk of over-estimation using portable devices in
+women when cystic pelvic pathology including ovarian cysts is present [17].
+Detection of carotid artery stenosis
+Carotid artery disease is a common risk factor for stroke and transient ischaemic attack. Detection of
+stenosis may occur opportunistically by auscultation, but accurate assessment is usually undertaken
+using duplex ultrasound or MRI in the context of an acute event (e.g. stroke or transient ischaemic
+attack). Portable ultrasound in primary care might assist in the identification of people at risk of
+stroke, enabling control of vascular risk factors, and in selection of candidates for endarterectomy. A
+number of studies have demonstrated the use of hand held ultrasound to investigate or screen for
+carotid artery disease. In the Office Practice Assessment of Carotid Atherosclerosis (OPACA) Study,
+10 non-sonographer clinicians (NSCs) were trained in basic carotid anatomy, in the use of a portable
+ultrasound device (including practical sessions using mock patients), and in the interpretation of
+images [18]. The NSCs included 3 physicians, 1 physician assistant, 2 registered nurses, 2 medical
+assistants, 1 emergency medical technician, and 1 nonmedical assistant. Each was certified on
+completion of training. Eight NSCs then scanned 150 participants to produce 900 images, of which
+97% were interpretable. There was a ≥90% agreement on the presence of carotid intima-media
+thickness (CIMT; defined as right and/or left CIMT ≥75th percentile of the Atherosclerosis Risk in
+Communities Study), and ≥80% agreement on plaque presence between the hand held
+measurements and the gold standard in terms of carotid intima-media thickness and plaque
+detection. Aboyans et al [19] and Kimura et al [20] have also investigated this area with encouraging
+results. The study of Aboyans et al enrolled 197 consecutive patients with a mean age of 67 years
+(range 35-94) and a past history of atherosclerotic disease or presence of risk factors. A carotid
+stenosis >60% was detected in 13 cases (6%). The sensitivity, specificity, positive and negative
+predictive value of hand-held sonography performed by a vascular physician was 100%, 64%, 17%
+and 100%, respectively, compared to standard complete carotid duplex ultrasound. In the study by
+Kimura et al., internal medicine residents, who had received a 1-hour training session on carotid
+ultrasonography, performed ultrasonography on 10 asymptomatic volunteer patients who had been
+selected based on findings of no or minimal disease on a previous carotid ultrasound examination.
+Hand-held screening ultrasound examinations compared to duplex ultrasound resulted in an average
+sensitivity of 67% (range 42% to 92%), specificity of 73% (range 38% to 100%), and accuracy of 70%
+(range 55% to 85%). However, Johnson and Stein recently reviewed relevant literature and
+emphasise both the technical challenge of accurately measuring carotid intima-media thickness by
+ultrasound and the current lack of evidence that assessing the carotid arteries of asymptomatic
+individuals improves clinical outcomes [21].
+Investigation of suspected deep vein thrombosis (DVT) and the venous circulation
+DVT is common and may trigger potentially fatal pulmonary embolism. Whilst traditionally hospital
+based, detection of DVT might be facilitated by ultrasound in general practice. Patients may be
+selected for imaging based on a D-dimer blood test (which could also be available in primary care
+[22]) or based only on clinical suspicion. The ability of non-sonographer clinicians to detect DVT
+using portable ultrasound and with very brief training has been demonstrated in an emergency
+department setting [23]. This prospective, cross-sectional study of a convenience sample of ED
+patients with a suspected lower extremity deep venous thrombosis was conducted at an urban,
+academic ED. Forty-seven physicians, who had received a 10-minute training session, performed
+199 2-point compression ultrasonographic examinations and results were compared to Radiology
+Department ultrasonography. The sensitivity and specificity of ED 2-point compression
+ultrasonography for deep venous thrombosis were 100% (95% CI: 92% to 100%) and 99% (95% CI:
+96% to 100%), respectively. A recent systematic review on the accuracy of portable ultrasound
+performed by emergency physicians compared to either colour-flow duplex ultrasound performed
+by a radiology department or vascular laboratory, or to angiography, in the diagnosis of DVT,
+reported a weighted mean sensitivity of 96.1% (95%CI: 90.6-98.5%) and weighted mean specificity of
+96.8% (95%CI: 94.6-98.1%) [24].
+Assessment of varicose veins by portable ultrasound has also been studied, with mixed results.
+Bradbury et al studied recurrent varicose veins following primary repair and demonstrated the
+benefit of hand-held ultrasound to complement clinical examination in demonstrating the site of
+recurrence [25]. This study assessed a consecutive series of 118 patients (148 legs) presenting with
+recurrent varicose veins who underwent preoperative clinical and hand-held Doppler
+ultrasonographic examination by a single surgeon. In one-third of cases there was uncertainty about
+the presence of saphenofemoral incompetence by clinical examination alone, compared with only 6
+cases of uncertainty after ultrasound examination. The authors concluded that hand-held Doppler
+ultrasonographic examination improved the overall accuracy of preoperative assessment of primary
+and recurring varices. However, Smith et al studied the hand-held ultrasound assessment of varicose
+veins prior to primary repair in a prospective randomised controlled trial of 149 consecutive patients
+presenting to a hospital vascular service and reported no improvement in post-surgical outcomes
+[26]. One prospective single blind study of 943 patients (1218 legs) with varicose veins attending
+outpatient clinics of vascular surgical units in the UK compared the accuracy of hand-held Doppler as
+a rapid screening test for selecting patients for duplex imaging [27]. The study showed that Duplex
+would not have been requested in 62% of limbs and among these hand-held Doppler missed
+significant reflux in the long saphenous vein in 3% and the short saphenous in 4%. The study
+concluded that selective use of hand-held Doppler can avoid duplex imaging for many patients, with
+a low failure rate for detecting correctable venous reflux. However they also observed variations
+between individuals and units in results of hand-held Doppler and duplex imaging.
+Identification of deep cubital fossa veins that are difficult to access for phlebotomy is a common
+problem in many health care settings. The potential benefits of Doppler in this situation have been
+discussed [28] but a definitive study in primary care using portable ultrasound imaging has not yet
+been conducted.
+Research questions
+While there is a growing literature on the use of point of care ultrasound devices, to date much of
+the evidence involves small studies, in focussed clinical areas, with undefined training and
+competencies, and outcomes largely limited to comparative accuracy. There are therefore several
+major research gaps that need to be filled prior to further implementation of this technology:
+1. What are the training needs for primary care clinicians who are not ultrasonographers or
+radiologists in order to safely use point of care ultrasound devices for specific indications?
+2. How do training needs vary between different types of generalist clinicians (GPs vs Nurses)
+and for different clinical aims (e.g. AAA screening vs diagnostic ultrasound for
+musculoskeletal abnormalities), and how do competencies need to be assessed to fulfil
+professional and medical legal standards?
+3. What is the impact of point of care ultrasound on subsequent clinical decision making and
+patient outcomes, and how does this compare with current ultrasound services and other
+imaging modalities? In particular in comparison to current practice, what is the impact of
+point of care ultrasound in terms of speed, cost effectiveness and appropriateness of
+subsequent patient management decisions?
+Suggested next steps
+The research gaps identified above are sufficiently large that we suggest the following as priority
+next steps for research. These should all be undertaken before further studies are undertaken on the
+clinical utility of point of care ultrasound, i.e. impact on clinical decision making or cost effectiveness
+evaluations.
+1) Identification of priority clinical needs for point of care ultrasound in primary care, taking into
+consideration diagnostic, screening, referral and monitoring needs, and differences among different
+types of primary care clinician, e.g. GP vs Nurse, GPs with specialised interests/expertise vs regular
+GPs. In addition this assessment would need to consider current facilitators and barriers to access to
+imaging in primary care including those identified by relevant guidelines. It would also need to
+consider modelling the cost implications of any changes to imaging services.
+2) Evaluation and comparison of the technical capabilities of point of care ultrasound in comparison
+to standard devices, including accuracy across multiple conditions with various types of end-users,
+abilities to record and document findings and integrate with electronic medical records, and need
+for multiple probes or processing software.
+3) Generation of consensus among primary care, secondary care and imaging specialists and their
+professional bodies in terms of training needs, competency demonstration, medical legal and
+regulatory approval for potential use of point of care ultrasound devices
+4) Further exploratory studies of the role of point of care ultrasound in primary care for teaching and
+training of medical students and GP trainees.
+Expected outcomes
+Portable ultrasound in the hands of non-specialists is not yet established but carries potential to
+complement clinical examination, improve diagnosis and screening, and potentially reduce the need
+for more formal imaging investigations. However, at present there are major gaps in the evidence
+base to support these devices, highlighted above, including training needs, comparative accuracy,
+role within existing imaging and diagnostic services currently offered. Once these are clearer, then
+studies within priority focussed clinical areas of the clinical utility of such devices are warranted. At
+present therefore, implementation of point of care ultrasound appears to be premature.
+References
+1. Vourvouri E, Poldermans D, De Sutter J, Sozzi F, Izzo P, Roelandt J. Experience with an ultrasound
+stethoscope. J Am Soc Echocardiogr 2002;15(1):80-5.
+2. Jeyam M, Funk L, Harris J. Are shoulder surgeons any good at diagnosing rotator cuff tears using
+ultrasound?: A comparative analysis of surgeon vs radiologist. International Journal of Shoulder Surgery
+2008;2(1):4-6.
+3. Al-Shawi A, Badge R, Bunker T. The detection of full thickness rotator cuff tears using ultrasound. Journal
+of Bone & Joint Surgery 2008;90(7):889-92.
+4. Adelman S, Fishman P. Use of portable ultrasound machine for outpatient orthopedic diagnosis: an
+implementation study.Perm J. 2013;17(3):18-22.
+5. Seagger R, Bunker T, Hamer P. Surgeon-operated ultrasonography in a one-stop shoulder clinic. Ann R Coll
+Surg Engl. 2011;93(7):528-31.
+6. Adhikari S, Blaivas M. Utility of bedside sonography to distinguish soft tissue abnormalities from joint
+effusions in the emergency department. Journal of Ultrasound in Medicine 2010;29(4):519-526.
+7. Shetty A, Tindall A, James K, Relwani J, Fernando K. Accuracy of hand-held ultrasound scanning in
+detecting meniscal tears. J Bone Joint Surg Br 2008;90(8):1045-8.
+8. Weinberg E R, Tunik MG, Tsung JW. Accuracy of clinician-performed point-of-care ultrasound for the
+diagnosis of fractures in children and young adults. Injury 2010;41(8):862-8.
+9. Vourvouri E, Poldermans D, Schinkel A, Sozzi F, Bax J, van Urk H, et al. Abdominal aortic aneurysm
+screening using a hand-held ultrasound device: A pilot study. Eur J Vasc Endovasc Surg 2001;22(4):352-4.
+10. Flu WJ, van Kuijk JP, Merks EJ, Kuiper R, Verhagen HJ, Bosch JG, Bom N, Bax JJ, Poldermans D. Screening
+for abdominal aortic aneurysms using a dedicated portable ultrasound system: early results. Eur J
+Echocardiogr. 2009;10(5):602-6.
+11. Lin P, Bush R, McCoy S, Felkai D, Pasnelli T, Nelson J, et al. A prospective study of a hand-held ultrasound
+device in abdominal aortic aneurysm evaluation. Am J Surg 2003;186(5):455
+12. Bruce CJ, Spitell PC, Montgomery SC, et al. Personal Ultrasound Imager: Abdominal Aortic Aneurysm
+Screening. Journal of the American Society of Echocardiography 2000;13(7):674-679.
+13. Rubano E, Mehta N, Caputo W, Paladino L, Sinert R. Systematic review: emergency department bedside
+ultrasonography for diagnosing suspected abdominal aortic aneurysm. Acad Emerg Med. 2013;20(2):128-
+38.
+14. Abbas A, Smith A, Cecelja M, Waltham M. Assessment of the accuracy of AortaScan for detection of
+abdominal aortic aneurysm (AAA). Eur J Vasc Endovasc Surg. 2012;43(2):167-70.
+15. Goode PS, Locher JL, Bryant RL, et al. Measurement of postvoid residual urine with portable
+transabdominal bladder ultrasound scanner and urethral catheterization. International Urogynecology
+Journal 2000;11(5):296-300.
+16. Al-Shaikh G, Larochelle A, Campbell CE, et al. Accuracy of bladder scanning in the assessment of postvoid
+residual volume. Journal of Obstetrics & Gynaecology Canada 2009;31(6):526-532.
+17. Cooperberg MR, Chambers SK, Rutherford TJ, Foster Jr HE. Cystic pelvic pathology presenting as falsely
+elevated postvoid residual urine measured by portable ultrasound bladder scanning: Report of 3 cases and
+review of the literature. Urology 2000;55(4):590.
+18. Korcarz CE, Hirsch AT, Bruce C, et al. Carotid intima-media thickness testing by non-sonographer clinicians:
+the office practice assessment of carotid atherosclerosis study. Journal of the American Society of
+Echocardiography 2008;21(2):117-22.
+19. Aboyans V, Lacroix P, Jeannicot A, et al. A new approach for the screening of carotid lesions: a 'fast-track'
+method with the use of new generation hand-held ultrasound devices. European Journal of Vascular &
+Endovascular Surgery 2004;24(3):317-22.
+20. Kimura B, Fowler S, Nguyen DT, et al. Detection of early carotid arterial atherosclerosis by briefly trained
+physicians using a hand-held ultrasound device. Am J Cardiol 2003;92(2):239-40.
+21. Johnson HM, Stein JH. Measurement of carotid intima-media thickness and carotid plaque detection for
+cardiovascular risk assessment. J Nucl Cardiol 2011;18:153–62.
+22. The D-Dimer Test for ruling out Deep Vein Thrombosis in Primary Care. Horizon scan report 0005, 14 April
+2009. http://madox.org/horizon-scanning-reports/20095/the-d-dimer-test-for-ruling-out-deep-vein-
+thrombosis-in-primary-care. Accessed on 21 January 2014.
+23. Crisp JG, Lovato LM, Jang TB, et al. Compression ultrasonography of the lower extremity with portable
+vascular ultrasonography can accurately detect deep venous thrombosis in the emergency department.
+Annals of Emergency Medicine 2010;56(6):601-10.
+24. Pomero F, Dentali F, Borretta V, Bonzini M, Melchio R, Douketis JD, Fenoglio LM. Accuracy of emergency
+physician-performed ultrasonography in the diagnosis of deep-vein thrombosis: a systematic review and
+meta-analysis. Thromb Haemost. 2013;109(1):137-45.
+25. Bradbury AW, Stonebridge PA, Ruckley CV, Beggs I. Recurrent varicose veins: correlation between
+preoperative clinical and hand-held Doppler ultrasonographic examination, and anatomical findings at
+surgery. British Journal of Surgery 1993;80(7):849-51.
+26. Smith JJ, Brown L, Greenhalgh RM, Davies AH. Randomised trial of pre-operative colour duplex marking in
+primary varicose vein surgery: outcome is not improved. European Journal of Vascular & Endovascular
+Surgery 2002;23(4):336-43.
+27. Campbell WB, Niblett PG, Peters AS, MacIntyre JB, Sherriff S, Palfreyman S, Michaels JA; REACTIV
+(Randomised and Economic Analysis of Conservative Treatment or Interventions for Varicose veins) Study
+Participants. The clinical effectiveness of hand held Doppler examination for diagnosis of reflux in patients
+with varicose veins. Eur J Vasc Endovasc Surg. 2005;30(6):664-9.
+28. Whiteley MS, Chang BY, Marsh HP, et al. Use of hand-held Doppler to identify 'difficult' forearm veins for
+cannulation. Ann Royal Coll Surg Engl 1995;77(3):224-6.
+Authors: Tim Holt, Matthew Thompson, Christopher P. Price, Carl Heneghan, Annette Plüddemann
+Contact details: Dr. Annette Plüddemann; Email: dec@phc.ox.ac.uk
+

@@ -1,0 +1,54 @@
+# Patent US4424813
+
+
+
+
+
+=US4424813 : Multi-mode ultrasound scanner = 
+
+
+
+== Invention date ==
+
+Jan 10, 1984
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Diasonics]]
+* [[Inc.]]
+=== Beneficiaires === 
+* * [[James F. Havlice]]
+* [[Albert S. Waxman]]
+* [[Henry L. Schwartz]]
+* [[David E. Stepner]]
+
+
+= Abstract =
+
+A multi-mode scanner head employing split (semicircular transducers) is described. In some modes such as simultaneous B-scan and M-scan each transducer moves independent of the other. For continuous Doppler mode the transducers move together. The relatively small, hand-held scanner head is particularly useful for cardiac examinations.
+= Patents Backwards =
+
+= Patents Forwards =
+
+* [[Patent US4517985]]
+* [[Patent US4579122]]
+* [[Patent US4579123]]
+* [[Patent US4601292]]
+* [[Patent US4807634]]
+* [[Patent US4826650]]
+* [[Patent US4841979]]
+* [[Patent US4850362]]
+* [[Patent US5022399]]
+* [[Patent US5247938]]
+* [[Patent US5329194]]
+* [[Patent US5351692]]
+* [[Patent US5373849]]
+* [[Patent US5402789]]
+* [[Patent US5531119]]
+* [[Patent US7255678]]
+* [[Patent US8827907]]
+* [[Patent EP0174167A2]]
+* [[Patent WO1994016625A1]]
+* [[Patent WO2009067740A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

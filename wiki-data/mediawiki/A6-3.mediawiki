@@ -1,0 +1,30 @@
+# A6-3
+
+[[Category:TechTeam]]
+[[Category:RetroEngineering]]
+
+Démontage d'une sonde abdominale, multi-éléments annulaires.
+
+== Schéma global de la sonde ==
+[[File:schema.png|thumb|500px|center|alt=Alt text|Photographie de la sonde S-VRW77AK.]]
+La sonde se décompose essentiellement en 2 parties :
+* Connectique : assure l'interface sonde-ordinateur selon un branchement spécifique
+* Enveloppe : regroupe l'élément piézoéletrique, la motorisation et l'électronique
+
+Beaucoup plus compacte que les deux autres sondes démontées par echOpen, elle se différencie particulièrement par la nature de sa motorisation, qui n'est pas générée par un mouvement de rotation mais par un mouvement de translation, au moyen d'un verin.
+
+==Démontage partie connectique==
+[[File:connecteur_A6-3.png|thumb|border|right|middle|300px|link=Link|alt=Alt|Boitier connecteur de la sonde et prises]]
+Le connecteur de la sonde est un boitier comprenant 2x130 petits picots, regroupés de part et d'autre d'un picot central. Ce connecteur est particulièrement grand, puisque sa taille est supérieure à celle de la sonde elle même, et les raisons de telles dimensions seraient de nature historiques.
+=== Partie interne ===
+
+
+==Démontage de l'enveloppe==
+Pics :
+
+<gallery>
+File:ATL.jpg
+File:ALT2.jpg
+File:Structure intérieure.jpg
+
+</gallery>

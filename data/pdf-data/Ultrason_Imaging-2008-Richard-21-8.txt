@@ -1,0 +1,270 @@
+A Low-Cost B-Mode USB Ultrasound Probe
+WILLIAM D. RICHARD,
+1
+DAVID M. ZAR
+1
+AND ROMAN SOLEK
+2
+1
+Z&R Technologies, L.L.C.
+282 Birchwood Crossing Lane
+Maryland Heights, MO 63043
+wdr@zandrtech.com
+2
+Interson Corporation, Inc.
+7026 Koll Center Parkway, #201
+Pleasanton, CA 94566
+TheUniversal Serial Bus(USB)isnow theubiquitousinterfacebus ofchoice forconnectingperipher-
+als to personal computers and laptops. USB 2.0 is a half-duplex bus running at 480 Mb/s and each pe-
+ripheral can draw as much as 500 mA of current at a nominal 5 V from the USB connector. We have
+developed a family of USB-based, B-mode probes that connect directly to a personal computer or laptop
+andthat drawas littleas250mA(1.25W)whenformingten5MHzimages/second. Thepulser/receiver,
+high voltage supply, analog-to-digital converter, servo and USB interface are implemented on a small
+circuit board inside the probe body. After raw data are transferred to the computer, gain compensation,
+interpolation, filtering and other data processing are performed by the host processor. This gives flexi-
+bility to developers and allows enhancements to the system to be incorporated via software updates. In
+addition, the raw data are available for storage and later postprocessing. There are several advantages to
+this architectural approach to B-mode imaging, including low cost, portability and optimal sig-
+nal-to-noise performance. This paper describes the advantages of the architecture of the probe family,
+discusses the hardware/software division of the required processing steps and presents example images
+from a 12.5 MHz ophthalmic probe.
+Key words: B-mode; low-cost; probe; ultrasound; universal serial bus.
+I. INTRODUCTION
+The Universal Serial Bus (USB)
+1
+is now the ubiquitous interfacebus of choice for connect-
+ing peripherals to personal computers and laptops. USB 2.0 is a half-duplex bus running at
+480 Mb/s, and each peripheral can draw as much as 500 mA of current at a nominal 5 V from
+the USB connector.
+The low-cost B-mode ultrasound probes described here are mechanical sector ultrasonic
+imaging probes that connect directly to a host computer via the USB without the need for ad-
+ditional interface boxes or power supplies. These probes leverage the availability of
+power-efficient scan heads produced by Interson Corporation of Pleasanton, California.
+The pulser/receiver, high voltage supply, analog-to-digital converter, servo and USB inter-
+face are all contained inside the probe body. This enables the host, via software running on
+the host, to form real-time ultrasonic images of human tissue or other materials without the
+need for any additional internal or external electronics, power supplies or support devices of
+any type. A unique feature of these probes is that they draw power exclusively from the host
+ULTRASONIC IMAGING 30, 21-28 (2008)
+21 0161-7346/08 $18.00
+Copyright 2008 by Dynamedia, Inc.
+All rights of reproduction in any form reserved.
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+via the USBand that all of the required electronicsare integrated into the probe. Theconnec-
+tion between the probe and the host is simply a passive USB cable.
+The probe transmits digitized, logarithmically-compressed, envelope-detected ultra-
+sound echo data from a single transducer in the probe to the host where Time Gain Compen-
+sation (TGC),
+2
+gray-scale mapping and scan conversion
+3
+are performed in software. The
+resultant image is displayed using the graphics subsystem of the host. No beam former or
+otherhardware processing subsystemis implemented insidethe probe or the host. The probe
+contains an interface to the peripheral bus, a servo loop for controlling the motor, a
+high-voltage power supply, an ultrasonic pulser, a Transmit/Receive Switch (T/R SW), a
+preamplifier, a logarithmic amplifier for dynamic range compression, an Analog-to-Digital
+Converter (A/D) and electronics for control and power supply generation and regulation.
+Power is supplied via the USB cable for all of the electronics in the probe, including the mo-
+tor.
+Figure 1 shows three members of the probe family. The 12.5 MHz probe (Fig. 1a) is de-
+signed for use in ophthalmic applications, and two example eye images taken using the
+probe are shown in figure 2. Figure 2a is an image of a normal human eye while figure 2b
+shows an image of an eye with a retinal tumor. The 5 MHz General Purpose (GP) probe is
+shown in figure 1b. The 7.5 MHz endocavity probe (Fig. 1c) is designed for use in
+transrectal and vaginal applications and an image of a triple yolk sack from a woman carry-
+ing triplets taken using this probeis shown in figure 3. Thehead of afetus is clearly visible in
+the center yolk sack.
+Figure 3 also illustrates the graphical user interface (GUI) implemented by the standard
+software application. The user can change the gain, intensity, contrast and zoom settings ap-
+plied to an image, change the pulser power setting, saveimagesand cine’ loops, print images
+and make measurements of anatomical structures. This example GUI is built on top of a set
+22 RICHARD ET AL
+FIG. 1 (a) 12.5 MHz ophthalmic probe; (b) 5 MHz general-purpose probe; (c) 7.5 MHz endocavity probe.
+(a)
+(b)
+(c)
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+of low-level Dynamic Linked Libraries (DLLs) that are supplied to Original Equipment
+Manufacturers (OEMs) who wish to develop their own GUI.
+USB ULTRASOUND PROBE 23
+FIG. 2 (a) Image of a normal human eye taken with the 12.5 MHz ophthalmic probe; (b) Image of a human eye
+with a retinal tumor taken with the 12.5 MHz ophthalmic probe. (Photograph courtesy of Accutome.)
+(a)
+(b)
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+II. PHYSICAL IMPLEMENTATION
+A photograph showing the two sides of the small 0.9 inch by 3.4 inch circuit board
+mounted inside the handle of ophthalmic probe of figure 1 is shown in figure 4. The circuit
+board makes extensive use of surface mount components, and a ‘mini-B’ type connector is
+used to connect the back of the circuit board, which extends out the back of the probe handle,
+to the host PC or laptop.
+A block diagram of the circuitry on the circuit board is shown in figure 5. The ‘USB IC
+W/8051 CPU’ block represents a Cypress CY7C68014A USB 2.0 interface IC.
+4
+This IC has
+24 RICHARD ET AL
+FIG. 3 Image of the triple yolk sack of a woman carrying triplets taken with the 7.5 MHz endocavity probe.
+FIG. 4 The two sides of the 0.9 inch by 3.4 inch circuit board mounted inside the probe handle.
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+a complete USB 2.0 interface, 4 KB of Static RAM (SRAM) for buffering high-speed USB
+data and an 8051 microprocessor with 16 KB of code/data SRAM all integrated into a single
+chip. ThisIC runs embedded 8051 codestored in the I
+2
+C Bus Serial PROM (SPROM) or that
+has been downloaded from the host via a process called ‘ReNumeration.’
+In figure 5, there is an implied mechanical connection between the motor/encoder shaft
+and the transducer that enables the transducer to pivot as the motor shaft turns. An encoder,
+either magnetic or optical depending on probe type, is used to provide feedback of motor
+shaft (and therefore transducer) position to the 8051 inside the USB IC and to the Complex
+Programmable Logic Device (CPLD). When imaging, a software routine running on the
+8051 microprocessor implements a servo control loop by monitoring the Index and Pulse
+signals from the encoder. The CPU generates a Pulse Width Modulated (PWM) control sig-
+nal that is used to drive a buck regulator to produce the correct motor voltage for the rota-
+tional speed desired. If the motor is running too slowly, the PWM signal is used to increase
+the motor voltage produced by the buck regulator, and, conversely, if the motor is running
+too fast, the PWM signal is used to decrease the motor voltage.
+The Index signal produced by the encoder is asserted once per motor rotation. The Pulse
+signal is asserted 512 times per rotation, or 256 times per left/right or right/left transducer
+sweep. The CPLD monitors the Pulse signal and performs a data acquisition cycle each time
+a new position (angle) is found. For each Pulse, the CPLD signals the bipolar pulser to pulse
+at one of several different available pulse frequencies and then transfers 2,048 bytes of data
+from theAnalog-to-Digital(A/D) converter to the high-speed datatransfer buffers insidethe
+USB IC. This data acquisition process happens without intervention from the 8051 or the re-
+mote host. Once in the buffers, the data samples can be read over the USB by the host.
+The bipolar pulser produces positive/negative high voltage pulses that can be as large as
+±100 V. The dual supply voltages required by the bipolar pulser are produced by the High
+Voltage Power Supply (HVPS). A Digital-to-Analog Converter (DAC) attached to the I
+2
+C
+Bus is used to set the peak voltage produced by the HVPS. The I
+2
+C Bus commands used to
+control the DAC are generated by the 8051.
+USB ULTRASOUND PROBE 25
+FIG. 5 Block diagram of the circuitry on the 0.9 inch by 3.4 inch circuit board showing connections to the
+Interson Corporation scan head.
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+An automatic Transmit/Receive Switch (T/R SW) is used to connect the transducer inside
+the probe head assembly to either the bipolar pulser or to the preamplifier. When the bipolar
+high voltage pulse is produced by the pulser, the T/R switch automatically blocks the high
+voltage from damaging the preamplifier while delivering the pulse to the transducer via a
+short (3-4 inch) coax. When the bipolar pulser is not pulsing, the automatic T/R Switch con-
+nects the transducer coax to the preamplifier and disconnects the pulser.
+The low noise preamplifier provides 20 dB of gain, and the output of the preamplifier drives a
+passive, four-pole, band-limiting Low Pass Filter (LPF). The output of the LPF feeds a Log-
+arithmic Amplifier (LOG) with 100 dB of dynamic range. By compressing the dynamic
+range, it is unnecessary to implement Time Gain Compensation (TGC) inside the probe.
+TGC functions are performed in the host by adding to and subtracting from the logarith-
+mically compressed raw data.
+2
+The logarithmic amplifier also performs envelope detection,
+eliminating the need for digitizing radiofrequency (rf) data. This approach to ultrasonic im-
+agingalsoeliminatestheneedforthebeamformerrequiredbyarray-basedimagingsystems.
+The log-compressed, envelope-detected ultrasound return echo is digitized using an 8-bit
+A/D converter sampling at either 30 or 48 MHz. To support different imaging depths,
+down-sampling is done by the CPLD. Down-sampling by 2, 3 and 4 is currently supported
+for each sample rate, resulting in effective sample rates of 30, 15, 10 and 7.5 MHz (when the
+30 MHz clock is used) and 48, 24, 16 and 12 MHz (when the 48 MHz clock is used). After
+down-sampling the CPLD always writes 2,048 bytes into the buffers inside the USB IC. For
+512´512 pixel images, 2,048 samples per return echo corresponds to a 4´ oversampling rate
+as described in our earlier work.
+3
+Assuming the speed of sound in tissue is 1,540 m/s, 2,048 samplestaken at 7.5 MHz corre-
+sponds to a maximum imaging depth of 21 cm while 2,048 samples taken at 48 MHz corre-
+sponds to a minimum imaging depth of 3.3 cm. While there is no hard constraint that only
+these eight (8) sample frequencies be used, this approach does simplify theimplementation.
+The 30/48 MHz clock is produced at the IFCLK output pin of the USB IC and the clock
+frequency can be selected via software. Several controls signals from the USB IC are used to
+set the pulse frequency, down-sampling rate and other parameters inside the CPLD. The
+CPLD uses the 30/48 MHz clock to produce the pulse control signals required by the bipolar
+pulser. The high and low times of the bipolar pulse produced by the pulser can each be 1, 2, 3
+or 4 clock periods in length, resulting in single-cycle bipolar pulses that are 2, 4, 6 or 8 clock
+periods in total length. These pulse periods correspond to bipolar pulse ‘frequencies’ of 15,
+7.5, 5.0 or 3.75 MHz (when the 30 MHz clock isused) or 24, 12,8.0 or 6.0 MHz (when the 48
+MHz clock is used).
+A commercial linear regulator IC with integrated power switches and low quiescent cur-
+rent requirements designed for USB applications is used to produce the 3.3 V digital and 3.3
+V analog voltage supplies required, as well as to switch the power to the encoder on and off.
+The 3.3 V digital supply powers the USB IC, the CPLD, the SPROM and the DAC. The 3.3
+V analog supply powers the preamp, thelogarithmicamplifier and the A/D. In USB suspend
+mode, the ‘shutdown’ signal turns off the 5 V power to the encoder and the 3.3 V analog sup-
+ply. A separate P-Channel Field Effect Transistor (PFET) is used to turn off power to the
+HVPS when the system is in suspend mode or simply in frozen mode and not imaging.
+The power for all of the circuitry inside the probe, as well as that required by the motor, is
+obtained from the USB cable. At most, a USB 2.0 compliant peripheral is allowed to draw ½
+amp at a nominal 5 V from the USB cable. The 5 MHz General Purpose (GP) probe draws ¼
+amp from the USB cable, which is equivalentto 1.25 W, when forming 20 cmdeep images at
+10 frames/second (5 revolutions per second on the motor). The smaller ophthalmic probe of
+figure 1 uses a smaller, less efficient motor and, consequently, slightly more power, al-
+though it operates well within the 2.5 W power envelope set by the USB2.0 specification.
+26 RICHARD ET AL
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+III. DISCUSSION
+There are several advantages to this architectural approach to B-mode imaging, including
+low cost and portability. Their low (retail) cost of a few thousand dollars has enabled the use
+of these USB probes in many applications for which traditional ultrasound systems have
+been considered too costly. One example is the use of a low-cost USB ultrasound probe to
+provide visualbiofeedback to strokevictims relearning to controlmuscles. Theability to see
+muscle fibers contract during physical therapy sessions has been shown to have tremendous
+benefits,
+5
+and the availability of a low-cost ultrasound probe puts this technology within the
+reach of almost every physical therapist.
+Since even low-end laptops are capable of forming images in real time using these probes,
+it is possible to image everything from soldiers on the battlefield to dolphins from a boat
+dock (Fig. 6) with nothing more than a laptop and a USB probe.
+Low cost and portability, however, are not the only advantages to this approach to ultra-
+sonic imaging. Placing the pulser/receiver within a few inches of the transducer eliminates
+signal loss in long cables and provides optimal signal-to-noise performance compared to
+more traditional implementations. After raw data are transferred to the computer, gain com-
+pensation, interpolation, filtering and other data processing are performed by the host pro-
+cessor. This gives flexibility to developers and allows enhancements to the system to be
+incorporated via software updates. In addition, the raw data are available for storage and
+later postprocessing.
+IV. CONCLUSIONS
+The ubiquitous universal serial bus, coupled with the processing power available on mod-
+ern PCs and laptops, has enabled the development of a complete, low cost B-mode imaging
+USB ULTRASOUND PROBE 27
+FIG. 6 Photograph of a dolphin imaged from a boat dock in Hawaii using a 5 MHz general-purpose USB probe
+and a standard laptop. (Photograph courtesy of Direct Medical Systems.)
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+system based on a self-contained USB ultrasound probe. When coupled with a laptop, the
+USB probe and laptop form a complete, easily-portable imaging system. With innovative
+hardware and software design, image quality acceptable for a wide range of applications can
+be achieved within the limits of the 2.5 W USB total power envelope. Many applications of
+ultrasound are now possible that were not possible previously due to the low cost of the USB
+ultrasound probe and of modern PCs and laptops.
+REFERENCES
+1. Compaq Computer Corporation, Hewlett-Packard Company, Intel Corporation, Lucent Technologies, Inc.,
+Microsoft Corporation, NEC Corporation, Koninklijke Philips Electronics N.V. Universal Serial Bus Specification
+Revision 2.0 (2000).
+2. Richard WD. A new time-gain correction method for standard B-mode ultrasound imaging, IEEE Trans Med
+Imag 8, 283-285 (1989).
+3. Richard WD, Arthur RM. Real-time ultrasonic scan conversion via linear interpolation of oversampled vec-
+tors, Ultrasonic Imaging 16, 109-123 (1994).
+4. Cypress Semiconductor Corporation, “EZ-USB FX2LP
+TM
+USB Microcontroller Datasheet,” Cypress Docu-
+ment Number 38-08032 Rev I, June 1, 2005.
+5. Whittaker JL, Teyhen DS, Elliott JM, et al. Rehabilitative ultrasound imaging: understanding the technology
+and its application, J Orthop Sports Phys Ther 37, 434-449 (2007).
+28 RICHARD ET AL
+at TELECOM & Man SudParis PARENT on July 7, 2015
+uix.sagepub.com
+Downloaded from
+

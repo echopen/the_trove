@@ -1,0 +1,309 @@
+English
+Transforming Health Systems:
+Gamechanging Business Models
+This Entry has been submitted.
+Sanjoe Jose
+Founder
+Year Founded:
+Organization type:
+Budget:
+2011
+for proÒt
+$50,000 - $100,000
+Website: http://www.emprenure.com
+• Health care • Infant health • Maternal health
+M-Ultra: Low Cost Cloud Based Ultra
+Sound Scan
+Bangalore, India Bangalore, India
+* Overall
+Innovation
+Impact
+Sustainability
+*
+Give Feedback
+Your insights will be sent
+privately to this project
+to help them improve.
+Rate This Project
+Write a Private
+Feedback
+Quick Tips:
+CHALLENGES PROJECTS LEARNING BLOG LOG IN
+Print
+Tumblr
+Email
+Facebook
+LinkedIn
+More... (292)
+Settings...
+AddThis Privacy
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+1 sur 11 01/06/2015 16:56
+Concise Summary: Help us pitch this solution! Provide an
+explanation within 3-4 short sentences.
+Emprenure Labs is a dynamic Indian technology Òrm providing emerging
+economies a×ordable access to technologies and products that make lives
+simpler and eÕ cient. Founded by group of dedicated technology
+enthusiasts from IIT-Bombay. It has several interesting technologies and
+tools in its portfolio and has been part of Government and Non-government
+initiatives since inception.
+Problem: What problem is this project trying to address?
+At the present time ultrasound is not available in peripheral health centers
+and FRUs in India. It is estimated that 70 % of people needing ultrasound
+have no access to it and the percentage is much more in the rural areas.
+Mobile technology including smart phones and networks are available in
+most parts of our country and we propose to harness the mobile
+technology to make a smart phone based ultrasound device. Conventionally
+ultrasound systems are housed in major medical centers and are expensive
+requiring experts on site. M-Ultra will be built as a tool for the last mile
+diagnostics i.e in PHCs and rural areas where having a full Óedged Ultra
+Sound Machine is not impossible due to cost and infrastructure constraints.
+Solution: What is the proposed solution? Please be speciÒc!
+Conventionally ultrasound systems are housed in major medical centers
+and are expensive requiring experts on site. We propose to take away the
+requirement of heavy duty processors with the use of cloud computing. The
+system can be used by doctors trained to use the system. The images will
+be processed by the cloud server providing analytical reports in
+emergencies. A web-interface application will be made in the cloud so that
+experts can access the stored data for formal reporting. The FRUs will be
+PROJECT SUMMARY
+ELEVATOR PITCH
+ABOUT PROJECT
+Clarity of Model
+Financial Sustainability
+Idea Originality
+Impact Measurement
+Impact Potential
+Partnerships
+Scalability
+Team
+Understanding of
+Marketplace
+Strength
+Need
+Improvement
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+2 sur 11 01/06/2015 16:56
+Example: Walk us through a speciÒc example(s) of how this
+solution makes a di×erence; include its primary activities.
+70 % of people needing ultrasound have no access to it. M-Ultra will be built as a
+tool for the last mile diagnostics i.e in PHCs and rural areas where having a full
+Óedged Ultra Sound Machine is not impossible due to cost and infrastructure
+constraints. The functionality will be lesser compared to standard tools in order
+to make it a×ordable for the target audience. The First Referral Units will be able
+to detect common medical, surgical and obstetric emergencies such as
+appendicitis, gall stones, kidney stones, and obstructed labor to name a few and
+take neccessary action. Using the power of general purpose probes,
+smartphones and cloud computing m-ultra will be able to provide the
+functionalities at 1/10th the cost of currently available products.
+Impact: What is the impact of the work to date? Also describe
+the projected future impact.
+We are the design stage and hence not applicable. However once implemented
+the major beneÒciary will be women and children since our product would be
+able to diagnose complications in pregnancy and thereby reduce Maternal
+Mortality Rate (MMR) and by early diagnosis reduce Infant mortality rate. In
+general People from lower income strata and bottom of the pyramid will also be
+beneÒted by early diagnosis of various ailments. People from Rural areas with
+limited access to healthcare facilities.
+IMPACT: HOW DOES IT WORK
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+3 sur 11 01/06/2015 16:56
+Financial Sustainability Plan: What is this solution's plan to
+ensure this initiative's Ònancial sustainability?
+Short term objectives of the project (upto three years) is to provide smart phone
+based ultra sound probes to more than 23900 Primary Health Centres and more
+than 4800 Community Health Centres (CHCs) in India through NRHM. In long
+term we want to provide smart phone based ultra sound probes to all types of
+Peripheral Health Clinics across the globe helping people needing ultrasound
+assistance to have access to it.
+Marketplace: Who else is addressing the problem outlined
+here? How does the proposed project di×er from these
+approaches?
+All the currently available portable products are priced heavily making them
+unÒt for use in PHCs and rural clinics. For example GE's VScan was launched
+with a price tag of $8000, high end features and with a launch function where all
+the major hospitals were targeted. There claim of it being built for last mile
+diagnostics contradicts with their actions.
+Founding Story
+In one of our discussions with Dr. Joseph he spoke about the potential of Ultra
+Sound as point of care diagnostics tool in savings millions of lives. He
+mentioned how the cost is an impediment. On further research we realized that
+cost of Ultra Sound Scan systems can be drastically brought down using the
+latest technologies and it can be made portable with remote connectivity too.
+Organization Name
+Emprenure Labs
+SUSTAINABILITY
+TEAM
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+4 sur 11 01/06/2015 16:56
+First Name
+Sanjoe
+Last Name
+Jose
+Email
+sanjoe@emprenure.com
+Twitter URL
+Facebook URL
+The information you provide here will be used to Òll in any parts of your proÒle
+that have been left blank, such as interests, organization information, and
+website. No contact information will be made public. Please uncheck here if you
+do not want this to happen..
+ABOUT YOU
+ABOUT YOU
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+5 sur 11 01/06/2015 16:56
+Explain what the "innovation" is about, e.g., is it the idea and/or the model
+you use to accomplish the idea, or your understanding of the target
+population, etc.?
+M-ultra is a low cost ultrasonic medical imaging device that can be used as a
+point of care diagnostic tool in low resource setting through seamless blend of
+technologies at a×ordable cost. The First Referral Units will be able to detect
+common medical, surgical and obstetric emergencies such as appendicitis, gall
+stones, kidney stones, and obstructed labor to name a few and take neccessary
+action. Using the power of general purpose probes, smartphones and cloud
+computing m-ultra will be able to provide the functionalities at 1/10th the cost of
+currently available products.
+Describe how your innovation model is distinct from any other organization
+in your Òeld?
+All the currently available portable ultra sound products are priced heavily
+making them unÒt for use in PHCs and rural clinics. For example GE's VScan as
+launched with a price tag of $8000, high end features and doesn't provide cloud
+connectivity which is essential to address lack of availability of experts in patient
+location. Regarding comparison of M-Ultra with standard products in the market,
+M-Ultra will be built as a tool for the last mile diagnostics i.e in PHCs and rural
+areas where having a full Óedged Ultra Sound Machine is not impossible due to
+cost and infrastructure constraints. The functionality will be lesser compared to
+standard tools in order to make it a×ordable for the target audience.
+What type of operating environment and internal organizational factors
+make your innovation successful?
+The team consists of a Doctor working closely with WHO and Indian
+Government in healthcare initiatives, IIT Bombay alumni, and engineers who
+have worked with esteemed R&D companies like National Instruments and
+DRDO Labs. Each of the technologies used are independently proven and
+available in market. The team is putting together these technologies in a
+platform which is easily accessible and a×ordable for everyone across the world.
+In addition to this we have already secured support of rural outreach programs
+run by organizations like NRHM (Govt of India), Biocon Foundation, Wockhardt
+Foundation, Aravind Eye, Dorabji Trust etc.
+How do you make sure you constantly innovate in light of (potential)
+external challenges, or your growth plan?
+The essence of our project lies in reaching out to the people in need of our
+product for diagnosis. Execution and the operation has to be of highest level to
+INNOVATION
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+6 sur 11 01/06/2015 16:56
+Organization Country
+, KA, Bangalore
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+7 sur 11 01/06/2015 16:56
+The systemic challenge you are trying to overcome (select one)
+Bring accessible healthcare to communities in emerging markets
+Health area (target market) where the need is [select only one]
+Primary healthcare services
+Categories along the health continuum you are covering [select all that
+apply]
+Detection, Intervention, Follow-up.
+Stage that best applies to your solution [select only one]
+Idea (poised to launch)
+Core strategies of your business model [select all that apply]
+Other.
+If other, specify here:
+Use of latest technology
+Most relevant tools you are using to implement the strategies outlined
+above [select only two]
+Technology.
+If other, specify here:
+What is your value proposition?
+M-Ultra will be built as a tool for the last mile diagnostics i.e in PHCs and rural
+areas where having a full Óedged Ultra Sound Machine is not impossible due to
+cost and infrastructure constraints. The First Referral Units will be able to detect
+common medical, surgical and obstetric emergencies such as appendicitis, gall
+stones, kidney stones, and obstructed labor to name a few and take neccessary
+action. Using the power of general purpose probes, smartphones and cloud
+computing m-ultra will be able to provide the functionalities at 1/10th the cost of
+currently available products.
+Who is your customer(s)?
+Targeted end users are doctors/sonographers at First Referral Units ( FRUs) of
+Government health systems which cater to Base of Pyramid Population in India
+and as well as in other low resource countries. The secondary targeted users are
+doctors/sonographers working at smaller hospitals or clinics and in
+mobile/outreach healthcare initiatives. As Ultrasound is becoming an extension
+BUSINESS MODEL
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+8 sur 11 01/06/2015 16:56
+What methods for quantiÒcation of social impact are you applying (if at all)?
+We would like to measure our impact by the number of FRUs which will
+equipped with M-ultra.
+Could your solution work in other geographies or regions? If so, where?
+NA.
+What is your projected impact over the next 1-3 years?
+The propensity to use preventive health services, such as regular medical check
+ups and participation in population screening programmes, is more prevalent
+among higher socioeconomic groups.In addition, Ònancial and other barriers to
+health services may perpetuate or further augment existing socioeconomic
+disparities in health.The inability of lower socioeconomic groups to purchase
+costly health services or insurance may prevent them from accessing care. This
+poses an important disadvantage for these groups, given their greater burden of
+disease and corresponding greater need for health services. We are trying to
+bridge this widening gap by providing easy accessibility to preventive healthcare
+at a×ordable costs.
+Organization's Country of Operation
+, KA, Bangalore
+SOCIAL IMPACT
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+9 sur 11 01/06/2015 16:56
+Elaborate on your current Ònancing strategy
+For Phase I of the project we will require $120,000 to complete the prototype. We
+have secured $60,000 from Grand Challenges Canada. On successful completion
+of Phase I we are eligible for second grant from GCC of $ 1 mn which will be
+suÕ cient to take us to production stage. Once we reach production stage we will
+be generating revenue through sale of the device. Since we propose to make
+m-ultra available at an a×ordable price and as the cost of the equipment will be
+very low, it can be borne by the health care systems or hospital itself.
+Share of revenue generation in total income of organization (in percent)
+100%
+Direct sales to patients or other beneÒciaries (in percent)
+30%
+Of the possible sources of these sales listed below, check all that apply to
+your current strategy
+Patients, Caregivers, Private businesses, Other beneÒciaries.
+Licensing fees, e.g., for technology/franchise model (in percent)
+30%
+Of the possible sources of these licensing opportunities listed below, check
+all that apply to your current strategy
+Foundations, Private businesses, Regional government, National government.
+Service contract with organizations, e.g., government, NGOs (in percent)
+40%
+Of the possible sources of the service contracts listed below, check all that
+apply to your current strategy
+Foundations, Private businesses, Regional government, National government.
+Explain your revenue generation strategy in more detail
+nce we reach production stage we will be generating revenue through sale of the
+device. Since we propose to make m-ultra available at an a×ordable price and as
+the cost of the equipment will be very low, it can be borne by the health care
+systems or hospital itself. Cost of cloud computing service which will be the
+operating cost for ‘M-ultra’, can be an annual subscription fee or as pay-per-use
+by the health systems. The health systems in turn charge their clients a nominal
+SUSTAINABILITY
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+10 sur 11 01/06/2015 16:56
+Years in Operation
+Operating 1-5 years
+Has the organization received awards or honors? Please tell us about them
+We have been selected for award in Grand Challenges Canada for the same project
+with funding.
+  
+
+© 2015 Ashoka
+Changemakers.
+Terms & Privacy Policy
+About
+What You Can Do Here
+Our Team
+Careers
+FAQs
+Partners
+Contact Us
+M-Ultra: Low Cost Cloud Based Ultra Sound Scan | Changemakers https://www.changemakers.com/healthbiz/entries/m-ultra-low-cost-clo...
+11 sur 11 01/06/2015 16:56
+

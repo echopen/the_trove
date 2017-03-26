@@ -1,0 +1,80 @@
+# Compressing with FFT
+
+== Rationale ==
+
+We're playing on the raw signal dataset coming from the EmileKit setup. ( all files can be found at https://github.com/kelu124/rechOpen/tree/master/FiltrageFrequentiel ). Parameters are as follows:
+* Sampling at 125MHz
+* 16*1024 points of acquisition (~131µs)
+
+The aim of this is to "see" the actual signal.
+
+{|style="border: none;"
+|-
+|width="50%" style="border: none;" | [[File:X-nofiltrage.png|500px]]
+
+The raw signal is 16k points long, and in this sample has 256 lines. 
+|width="50%" style="border: none;"| [[File:X-line76-raw.png|500px]]
+
+The image is barely visible - the echo for example barely is over the noise at position ~9000.
+|}
+
+== Filtering ==
+
+To clear the white noise, we'll take advantage that the piezo has only his own resonance - we can make this appear by applying a FFT to the signal, and zooming where it should be. All code is in octave/matlab format in the corresponding github repo.
+
+{|style="border: none;"
+|-
+|width="50%" style="border: none;" | [[File:FFT_1000to1000%2B2048.png|500px]]
+
+A first zoom between points 1000 and 1000+2048 of the FFT have them appear. 
+|width="50%" style="border: none;"| [[File:FFTImageSquared.png|500px]]
+
+Again, zooming between 1500 and 1500+1024, squaring the FFT to see the figures appear
+|}
+
+== Going back in the time domain ==
+With a reverse FFT, zeroing all "uninteresting" frequencies, we do obtain a filtered image:
+
+=== On a single line ===
+{|style="border: none;"
+|-
+|width="50%" style="border: none;" | [[File:X-line76-raw.png|500px]]
+
+Before the filter
+|width="50%" style="border: none;"| [[File:x-line76-squared-filtered.png|500px]]
+
+After the filter, squared, the echo appears better.
+|}
+
+=== On the image ===
+{|style="border: none;"
+|-
+|width="50%" style="border: none;" | [[File:X-filtrage-2048 large.png|500px]]
+
+Using the 2048-wide filter
+|width="50%" style="border: none;"| [[File:x-filtrage-1024 large.png|500px]]
+
+Using the 1024-wide filter
+|}
+
+== Next steps ==
+
+We have defined our image using only 2048 points out of the 16k points series, while at the same time enhancing the signal we were looking for. Isn't it some time of image compression?
+
+== Gallery of images ==
+
+<gallery>
+File:X-filtrage-2048 large.png
+File:x-filtrage-1024 large.png
+File:ImageScSquared.png
+File:x-line76-raw.png
+File:x-line76-squared-filtered.png
+File:X-nofiltrage.png
+File:raw.png
+File:FFTImageSquared.png
+File:UDPLOG.png
+File:FFT_1000to1000+2048.png
+</gallery>
+
+
+[[Category:Transmitting]] [[Category:SignalProcessing]]

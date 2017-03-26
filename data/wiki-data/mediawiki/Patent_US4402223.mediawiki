@@ -1,0 +1,48 @@
+# Patent US4402223
+
+
+
+
+
+=US4402223 : Ultrasonic sector scanner utilizing rotating transducer = 
+
+
+
+== Invention date ==
+
+Sep 6, 1983
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Ted F. Naumann]]
+* [[Jr.]]
+* [[Ronald C. Carnes]]
+* [[Axel F. Brisken]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An ultrasonic sector scanner using rotating transducers includes a transducer support wheel having a circumferential rim surface with a plurality of recessed seats within the circumferential surface for receiving inwardly facing transducers. The wheel and recessed seats provide accurate alignment of the transducers and acoustic mirrors direct ultrasonic energy between the transducers and ports.
+= Patents Backwards =
+
+* [[Patent US4102204]]
+* [[Patent US4143554]]
+* [[Patent US4185501]]
+* [[Patent US4315435]]
+= Patents Forwards =
+
+* [[Patent US4508121]]
+* [[Patent US4524622]]
+* [[Patent US4993416]]
+* [[Patent US5465724]]
+* [[Patent US5902245]]
+* [[Patent US6221015]]
+* [[Patent US6409673]]
+* [[Patent US6572554]]
+* [[Patent US6764450]]
+* [[Patent US7131948]]
+* [[Patent US7860581]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

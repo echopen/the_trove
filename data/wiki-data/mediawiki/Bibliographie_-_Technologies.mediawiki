@@ -1,0 +1,64 @@
+# Bibliographie - Technologies
+
+==Réunion ==
+
+=== Lieu === 
+(@LaPaillasse) - 19h à 21h
+
+===Les présents ===
+
+*Jean-François C(Paris Tech, CNRS)
+
+*Pierre B(Saint-Louis)
+
+*Régis M(P6)
+
+* Vincent L(ENS Cachan)
+
+* Andréi M(Pitié Salpêtrière, MIT)
+
+* Constant B(ESPCI)
+
+* Mehdi B
+
+=== Récap sur le Hackathon et tour de table===
+
+*Discussion Papier MIT Tech Review  : 100 millions de $ levés pour un device miniaturisé échographique mais l'idée est d'obtenir une image de qualité ++ et restera coûteux
+
+*Discussion sur la qualité de l'image attendue : image de qualité écho-stéthoscopique, les technologies de type CMUT sont trop intensives en tech, coûteuses et sur-dimensionnées par rapport aux besoins
+
+*Discussion sur la place du processing : soft ou hard
+
+**le SoftWare semble l'emporter sur différentes dimensions : coût, maintenance, update OS, dynamique communautaire
+
+===Discussion sur le design d'ensemble de la sonde ===
+
+*la solution : 3 piezzo-électriques entraînés par dispositif de balayage circulaire mécanique
+
+* Avantage : 
+
+** très peu coûteux (qqs euros)
+
+** toute l'intelligence passe dans le soft 
+
+** effet d'entraînement communautaire attendu : l'on pourrait facilement fournir une telle sonde à des dev/makers/hackers et les laisser performer l'algo/tt du signal 
+
+* Cette solution a été éprouvée par une boîte australienne (années 90-2000 mais nous n'avons pas le nom) et suffirait pour obtenir une image écho-stéthoscopique
+
+* Ce type de techo tournait dans les échographes des années 70 et pourrait fournir des images suffisantes étant données les performances des processeurs des mobiles
+
+* Cette techno semble être encore utilisé par les véto pour petits animaux
+
+=== Discussion sur le produit final===
+
+* Fournir la sonde uniquement ou bien la sonde avec un terminal dédié?
+* Proposition d'utilisation des tablettes (iPad, Archos etc) comme terminal.
+* Délivrer un soft tout-en-un : échographie (gestion de la sonde, of course) mais aussi des outils divers pour le médecin (Vidal, ECG, suivi du patient etc), le tout intégré dans un seul soft.
+
+== Todo ==
+
+* Mehdi + Constant  préparent un compte-rendu pour l'ensemble des EchOpeniens
+* Mehdi + Constant + Luc + Olivier : documenter les techno sondes mécaniques ([Balayage]) et l'adresser à Régis Marchiano
+* Mehdi + Constant + Luc + Olivier : updater le wiki (ai demandé à Vincent Loyau et Régis Marchiano d'updater aussi le wiki)
+* Constant + Pierre + si affinités : recherche de vieux échographes des années 70 (CHU, collectionneurs, vétérinaires...)
+* Luc : créer une adresse mail EchOpen pour Constant ;)

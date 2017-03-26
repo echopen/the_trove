@@ -1,0 +1,121 @@
+# Tweets for February 2015
+
+[[Category:Emission]]
+[[Category:Bibliographie]]
+[[Category:Sonde]]
+[[Category:Receiving]]
+[[Category:Transmitter]]
+
+
+<br />
+=Fully integrated CMOS ultrasound transceiver chip for high-frequency high-resolution ultrasonic imaging system= 
+<br /><br />
+[[File:Thesis_Insoo_Kim.pdf]]
+<br /><br />
+
+== Avis ==
+Document très riche. Présente la fabrication d'une sonde échographique haute fréquence (>10MHz) et haute résolution. Un historique des technologies est fait.
+<br />
+Le sujet est axé '''électronique'''.
+<br />
+
+== Images ==
+<br />
+[[File:digital-ultrasound-imaging-system.png]]
+<br /><br /><br />
+[[File:huygens-principle.png]][[File:imaging-system.png]]
+<br /><br /><br />
+[[File:dynamic-focusing-and-steering-delay.png]]
+<br /><br /><br />
+[[Image:abf-system.png]]
+<br /><br /><br />
+[[File:abf-system2.png]]
+<br /><br /><br />
+[[File:dbf-system.png]][[File:dbf-system2.png]]
+<br /><br /><br />
+[[File:ascan-bscan.png]]
+<br /><br /><br />
+[[File:preamplifier-core-circuit-scheme.png]]
+<br /><br /><br />
+[[File:receiver-block-diagram.png]]
+<br /><br /><br />
+[[File:sonicWindow.png]][[File:spectrum.png]]
+<br /><br /><br />
+[[File:fga-chip-simplified.png]][[File:FPGA.png]]
+<br /><br /><br />
+[[File:transceiver-chip.png]]
+<br /><br /><br />
+[[File:transceiver-chip-floor-plan.png]]
+<br /><br /><br />
+[[File:TIQ-ADC-block-diagram.png]]
+<br /><br />
+
+== Table des matières ==
+
+===LIST OF FIGURES===
+===LIST OF TABLES===
+===ACKNOWLEDGEMENTS===
+====Chapter 1 Introduction to High-frequency Ultrasound Imaging====
+=====Applications of Ultrasound=====
+=====Research Motivation and Goal=====
+=====Previous Related Work=====
+======Emergence of Ultrasound ASIC Chips and Digital Beamforming======
+======Closed-Coupled Electronics======
+======FPGA-based Systems======
+======Commercial Ultrasound Chipsets======
+=====Challenges and Approaches=====
+=====Thesis Organization=====
+====Chapter 2 Fundamentals of Ultrasonic Imaging Systems====
+=====Principles of Ultrasound Imaging=====
+======Ultrasound Wave Physics======
+======Brightness Mode (B-Mode) Ultrasound Imaging======
+======Resolution======
+=====Beamforming=====
+======Huygens Principle, Diffraction, and Beamforming======
+======Analog Beamforming vs. Digital Beamforming======
+=====B-Mode Ultrasound Imaging System=====
+======System Overview======
+======Ultrasound Front-end======
+====Chapter 3 Proposed High-frequency Ultrasound Imaging System====
+=====Configuration of the Proposed Ultrasound Imaging System=====
+=====Transceiver Chip Architecture=====
+======Closed-Coupled Electronics Scheme======
+======Proposed System’s Architectural Features======
+=====Function Definition=====
+======Major Functions======
+======Mode-set configuration======
+======Operational Flow======
+====Chapter 4 Design of the Ultrasound Transceiver Chip====
+=====Receiver=====
+======Required Specifications======
+======Circuit Diagram======
+=====A/D Converter=====
+======Required Specifications======
+======Configuration of the TIQ ADC======
+======TIQ Comparator======
+======Design Automation of the TIQ Comparator======
+======Analytical Model-based Design Methodology======
+======Encoder======
+=====SRAM=====
+======Required Specifications======
+======Design Details======
+=====Transmitter=====
+====Chapter 5 Simulation and Results====
+=====Transceiver Chip Characterization=====
+======First-generation Chip======
+======Second-generation Chip======
+=====Ultrasound Transducer Characterization=====
+======Thin Film Ultrasound Transducer Array======
+======Composite High Frequency Ultrasound Transducer Array======
+=====Pulse Echo Experiments=====
+======Pitch Mode Experiments======
+======Catch Mode Experiments======
+======Pitch–catch Mode Experiments======
+===Chapter 6 Future Work===
+=====Differential Input Quantization ADC=====
+=====Ultrasound Imaging System Simulation Model=====
+=====Integration of DBNS DSP=====
+===Chapter 7 Conclusions===
+===References===
+===Appendix A Auto-tuning Software C++ Code===
+===Appendix B MATLAB Programming Code for Channel Delay Calculation===

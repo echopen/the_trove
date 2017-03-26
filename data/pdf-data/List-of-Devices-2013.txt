@@ -1,0 +1,1135 @@
+From matter-testing to A-Scan 001 - 056
+B-Scan:
+Compound scanner 113 - 114
+Mechanical real-time systems 115 - 123
+Electronic real-time systems 124 - 135
+Milestones of development 136 - 142
+Special developments 140 - 160
+Doppler-systems 260 – 282
+Other objects 346 - 391
+Cut transducers without apparatuses 483 - 493
+German Ultrasound Museum
+Click on the equipment category of choice to get a description of the
+first device in the category. Scroll to open the descriptions of further
+devices.
+Collection of Devices, last update June 2013
+No. 001 description: Echoencephalography
+type of device: A-Mode producer/distributor : Krautkrämer/Siemens
+development: 1959-1960
+frequency: 2 MHz time of production: since 1961
+A-Mode-system with oscilloscope for determining time delay and amplitude of an echo.
+Modification of the ultrasonic testing device Krautkrämer USIP 10 by Siemens Co for
+brain scans. Oldest echoencephalography system in Germany (here with additional
+calibrator and camera). 36 x 23 x 56 cm
+Origin: Mann, Mainz.
+No. 002 description: Ophalmography
+type of device: A-Mode producer/distributor: Krautkrämer/Siemens
+development: 1959-1961
+frequency: 4-15 MHz time of production: since 1961
+A-Mode-system with oscilloscope for determining time delay and amplitude of the echo.
+Modification of the ultrasonic testing device USIP 10 from Krautkrämer by Siemens Co.
+for use in Ophthalmology. 36 x 23 x 56 cm
+Origin: Mann, Mainz.
+No. 003 description: Echocardiography
+type of device: A-Mode producer/distributor: Krautkrämer/Siemens
+development: 1959-1960
+frequency: 2-5 MHztime of production: since 1961
+Special version of oldest German echoencephalography-device
+converted for Cardiography. - The very first TM-system,
+however, was an echo material-machine from Siemens Co.
+modified by Hertz and Edler (Lund) for TM.
+A-Mode-system with oscilloscope for determining time delay and amplitude of the echo.
+TM – display by auxiliary unit.
+Modification of an ultrasonic testing device USIP 10 from Krautkrämer by Siemens Co.
+For use in cardiology.
+36 x 23 x 56 cm
+No. 011 description: Material testing
+type of device: A-Mode producer/distributor: Krautkrämer
+development:
+frequency: 0.5-10 MHz time of production: since 1960
+Material-testing device type USIP 10 from Krautkrämer Co., Cologne.
+This original device was later modified for medical diagnostics (Encephalography,
+Cardiography, Ophthalmography) in collaboration with Siemens Co.
+(bound by contract).
+No. 012 description: Material testing
+type of device: A-Mode producer/distributor: Krautkrämer
+development:
+frequency: 2 MHz time of production: since 1968
+Portable battery-powered non-destructive testing device of Krautkrämer Co., Cologne.
+Further modifications for medical applications were planned.
+Only a small number of these devices were ever tested.
+No. 004 description: Echopan
+type of device: A-Mode producer/distributor: Siemens AG, Erlangen
+development: 1973-1974
+frequency: 2-5 MHz time of production: since 1974
+Echoencephalography system with 2 channels for simultaneous bilateral echography
+of the skull. Used in Neurology (for identifying tumors or atrophy) and in Traumatology
+(hemorrhages). Equipped for calibration and compensation of depth; filters, camera.
+No. 005 description: Echopan KS
+type of device: A-Mode producer/distributor: Siemens AG, Erlangen
+development: 1973-1974
+frequency: 2-5 MHz time of production: since 1974
+A-Mode with M-Mode display via storage oscillograph und UV-recorder with glass-fiber optics.
+Developed for cardiological examinations.
+Later supplemented with mechanical sector-scanner for B-Mode display.
+30 x 50 x 60 cm
+No. 006 description: Echogerät Serie 1000
+type of device: A-Mode producer/distributor: Kretztechnik AG, Zipf
+development: 1955-1958
+frequency: 1-14 MHz time of production: 1958-1965
+This A-Mode device of the 1000 series, a tube model, was one of the first devices developed
+for non-destructive material testing. Starting in 1960 it was increasingly used for medical
+purposes; first in Ophthalmology und Neurology (Traumatology), and later in Obstetrics.
+Analysis of time delay and amplitude of the echo.
+No. 007 description: 4100 MGB
+type of device: A-Mode producer/distributor: Kretztechnik AG, Zipf
+development: 1966-1968
+frequency: 0.5-15 MHz time of production: 1968-1978
+Two-channel system, time-mark channel, compensation of depth, magnifier, quartz stabilized
+time scale. This modernized device was fully transistorized.
+Used for abdominal and obstetrical diagnostics (including a vaginal probe!). This device was
+also part of Compound-scan systems. Similar devices were used for echoencephalography,
+ophthalmography – and also for material testing.
+No. 008 description: Echoencephalograph 4200 ME
+type of device: A-Mode producer/distributor: Kretztechnik AG, Zipf
+development: 1972-1973
+frequency: 0.5-4 MHz time of production: 1973-1985
+A-Mode-Encephalograph with separate channels for simultaneous bilateral echo
+investigations. Visual documentation of the screen by retractable camera.
+Fully transistorized system.
+Echoencephalogram:
+Diameter of the
+3rd ventricle.
+Figure: Schiefer,
+Erlangen)
+No. 009 description: Echoophthalmograph 7200 MA
+type of device: A-Mode producer/distributor: Kretztechnik AG, Zipf
+development: 1969-1971
+frequency: 6-15 MHz time of production: 1971-1985
+A-Mode-ophthalmograph, integrated quartz oscillator, calibration, frequency filter.
+Horizontal resolution 0.3 µsec/mm.
+Equipped for standardized examinations – according to Ossoinig.
+Origin: Kretztechnik, Zipf.
+No. 010 description: Echoencephalograph Model C
+type of device: A-Mode producer: Radio & Electrical Lab., Canada
+development: 1965
+frequency: 3 MHz time of production: 1965
+A-Mode device, pocket sized, 14 x 10 x 4 cm.
+Probably custom-made for H. R. Müller, Basel.
+A numerical display (digits) can be switched to either echo amplitude or to time-
+delay of the echo.
+Origin: H. R. Müller, Basel
+No. 050 description: Materialprüfgerät 9020
+type of device: A-Mode producer/distributor: Funkwerk Erfurt
+development: 1956-1957
+frequency: 1-6 MHz time of production: since 1958
+with
+interchangeable
+probes
+A-Mode device, one channel.
+The GDR started development of material testing devices (type 608 was a precursor
+of this device) in 1951. This type 9020 was first used for medical diagnostics (Obstetrics and
+Traumatology).
+Origin: Institute for Medical Physics und Biophysics, Halle University.
+No. 051 description: Sonovisor 1
+type of device: A-Mode producer/distributor: Carl Zeiss Jena
+development: 1956
+frequency: 2-5 MHz time of production: 1957-1958
+A-Mode device, later converted to B-Mode, or Schwingschnittverfahren („swinging sections“).
+Originally developed for material testing. Later used for medical purposes with an add-on linear probe of
+about 5 MHz, sliding on circular rails. Mechanical vertical spacing. Control of synchronized image points
+by magnetic encoder. Water-coupling for the transducer (B-Mode add-on not present here).
+No. 052 description: Sonovisor 2
+type of device: A-Mode and producer/distributor: Carl Zeiss Jena
+mechanical B-Mode development: 1957-1958
+frequency: 2-5 MHz time of production: 1958-1959
+A- and B-Mode device, the so-called Schwingschnittverfahren („swinging sections“).
+Further development of Sonovisor 1. Partly transistorized.
+Scanner with no metal coupling disc. Still portable at 25 kg.
+Material testing:
+Fault in metal bar.
+No. 054 description: Echogerät GA 10
+type of device: A-Mode producer/distributor: VEB Ultraschalltechnik Halle
+development: 1967-1968
+frequency: 1-6 MHz time of production: 1968-1971
+Belongs to series A 10. Modules slide in and can be interchanged, enabling multifunctional use.
+Introduced as GA with 1-6 MHz probes for Obstetrics and Gynecology.
+Also available: EA 10 for Traumatology, OA 10 for Ophthalmology and KA 10 for Cardiology.
+2 channels; EA version 3 includes a calibrated scale and threshold regulation.
+Origin: R. Millner, U. Cobet Halle
+No. 054 z description: Echogeraet GA 10
+type of device: A-Mode producer/distributor: VEB Ultraschalltechnik Halle
+TM-Modedevelopment: 1967-1968
+frequency: 10-12 MHz time of production: 1968-1971
+Modules slide in and can easily be interchanged.
+With an added module this device could be used for an echo-glottographia, for example.
+Movements were recorded in M-Mode (TM-Mode) with a high sampling rate;
+transducer frequency 10-12 MHz.
+No. 055 description: Echogerät GA 10, older version
+type of device: A-Mode producer/distributor:VEB Ultraschalltechnik Halle
+development: 1966-1968
+frequency: 1-6 MHz time of production: 1968-1971
+Older version of the A 10 series. Developed at the Ultrasound Department, Institute of
+Medical Physics (later: Applied Biophysics), Halle University and at the Research Institute
+M. v. Ardenne, Dresden.
+Production of the pilot series by Strobl company, Berlin, later by VEB Ultraschalltechnik Halle.
+No. 056 description: Echogerät EA 20
+type of device: A-Mode producer/distributor: VEB Ultraschalltechnik Halle
+development: 1970
+frequency: 1-4 MHz time of production: 1970-1980
+Improved version of the A 10 series with magnifier, compensation of depth and
+auto-determination of the midlinee echo.
+No. 057 description: Echoencephalograph T
+type of device: A-Mode producer/distributor: Krautkrämer/Siemens
+development: ??
+frequency: ?? time of production: ??
+Origin: R. Soldner, Erlangen
+German Ultrasound Museum
+Collection of Devices (last update June 2013)
+From material-testing to A-Scan: 001 – 057
+B – Scan:
+Compound scanner 113 - 114
+Mechanical real-time systems 115 - 123
+Electronic real-time systems 124 – 135
+Milestones of development 136 - 142
+Special developments 140 - 160
+Doppler-systems 260 – 282:
+Other objects 346 - 391
+Cut transducers without apparatuses 483 - 493
+No. 113 description: Echoview 80 L
+type of device: Compound producer/distributor: Picker Int. Inc., USA
+development: approx. 1970
+frequency: 1-7.5 MHz time of production: 1974-1979
+Digital compound-scanner, built 1974. Real time (Linear Array 3.5 and 5 MHz) as an option.
+Displaying A-Mode, B-Mode und TM-scan.
+Origin: H.-J. Schultz, Picker International
+No. 114 description: Combison 202
+type of device: Compound producer/distributor: Kretztrechnik AG, Zipf
+development: 1978-1979
+frequency: 2 and 5 MHz time of production: 1979-1983
+Compound-Scanner, A- and B-Mode. Digital frame storage, grayscale-technique,
+automatic image evaluation (histogram).
+The improved type 202 R offered additional real-time technique (mechanical sector) for
+transcutaneous, transrectal und intravesical applications.
+cystic liver
+B-Scan
+A -Mode
+No. 114 SK description: Combison 202
+type of device: Compound producer/distributor: Kretztrechnik AG, Zipf
+development: 1978-1979
+frequency: time of production: 1979-1983
+Compound scanner
+Scan-arm with localizer for a compound system
+(Combison 202 Kretz) necessary for manual
+B-Scans.
+During the scan procedure information about the
+position and the direction of the transducer is
+gathered. These data are captured as analog
+electrical signals via mechanically-linked
+potentiometers and are simultaneously processed
+in the ultrasonic system.
+The accuracy of the data collected in this way
+substantially determines the precision and the
+quality of the ultrasound images.
+No. 115 description: Vidoson 635
+type of device: mechan. Sector producer/distributor: Siemens AG, Erlangen
+B-Mode development: 1961-1965
+frequency: 2.5 MHz time of production: 1965-1975
+Mechanical real-time B-Mode system (15 frames/sec) with water coupling.
+Adjustable section plane, gray-scale display.
+Originally developed for mamma-sonography, first used instead in Obstetrics by Holländer,
+later in abdominal diagnostics by Rettenmaier.
+Origin: Rücker, Roderbirken
+pancreatic tumor
+twins
+fig. Holländer, 1968
+Mechanical real-time B-Mode system (15 frames/sec) with water coupling.
+Adjustable section plane, gray-scale display.
+(The ultrasonic impulses of a rotating transducer are first reflected by a parabolic mirror,
+then beamed parallel towards the body.)
+Origin: Lutz, Bayreuth Principle of Vidoson
+No. 115 z description: Vidoson 635
+type of device: mechan. Sector producer/distributor: Siemens AG, Erlangen
+B-Mode development: 1961-1965
+frequency: 2.5 MHz time of production: 1965-1975
+Mechanical linear sector scanner
+Scanner unit of the first real-time ultrasound system
+(Vidoson 635).
+Three successively activated ultrasonic transmitters
+rotate in the focal plane of a parabolic reflector.
+This reflector transforms the original sector scan to a
+(linear) parallel scan. The reason for this unorthodox
+solution: The constant rotation of the transducers
+is – contrary to repetitive longitudinal motions - not
+subject to inertial force. Therefore scanning time and
+frame rate are not limited, as they would be in case
+of longitudinal motions of the transducer.
+The longitudinal axis of the rotating transducers can
+be shifted. In this way the section plane can be varied
+up to 3.5 cm without moving the complete scanning
+unit which is connected to the patient‘s skin. This
+method was intended to facilitate ultrasonic mamma
+inspections.
+No. 115 SK 1 description: Vidoson 635
+type of device: mechan. Sector producer/distributor: Siemens AG, Erlangen
+B-Mode development: 1961-1965
+frequency: 2.5 MHz time of production: 1965-1975
+Transducer for mechanical linear scanner
+(Vidoson 735)
+Rotating transducer mount with three
+identical periodically-activated transmitters
+for the Vidoson 735 series.
+The elliptic shape of the transducer is a
+consequence of the opto-acoustical
+characteristics of the corresponding
+parabolic reflector.
+No. 115 SK 2 description: Vidoson 735
+type of device: mechan. Sector producer/distributor: Siemens AG, Erlangen
+B-Mode
+frequency: 3.5 MHz time of production: 1978-1980
+No. 117 description: ATL Mark III
+type of device: B-Mode producer/distributor: Advanced Technology Labs.
+(with optional Doppler mode) development: before 1975
+frequency: 3.5 and 5 MHz time of production: 1975
+Mechanical B-scan with A- and M-Mode, sector-scanner. Pw-Doppler unit optional,
+3.5 and 5 MHz. Programs for measuring; video documentation.
+Used mainly for abdominal, cardiological, and vascular applications.
+No. 118 description: Combison 100
+type of device: B-Mode producer/distributor: Kretztechnik AG, Zipf
+development: 1976 – 1978
+frequency: 2.5 – 4 MHz time of production: 1978 – 1983
+Real-time sector scanner. 5, later 3 rotating elements. Omnidirectional measuring possible.
+Additional monitor.
+Transrectal and intravesical transducers. Used in Obstetrics/Gynecology, Internal Medicine
+and Urology. Origin: Frentzel-Beyme, Berlin
+concrement in bile duct
+No. 118 z description: Combison 100
+type of device: B – Mode producer/distributor: Kretztechnik AG, Zipf
+development: 1976 - 1978
+frequency: 2.5 - 4 MHz time of production: 1978 - 1983
+Real-time sector scanner. Automated mamma scanner:
+For imaging the scanner circled the mamma within a water bath – driven by an additional
+engine. These images were then assembled with the help of a computer, similar to
+computerized tomography in radiology.
+Mechanical Sector Scanner
+Mechanical sector scanner for
+Combison 100 with 5 identical rotating
+transducers (fix-focus).
+The transducer pointing to the
+connecting window was activated by a
+magnetic strip fixed at the cover.
+The accompanying switches, which were
+also activated by magnets, can be seen
+between the transducers.
+No. 118 SK description: Combison 100
+type of device: B-Mode producer/distributor: Kretztechnik AG, Zipf
+frequency: 3.5 MHz time of production: 1976 – 1979
+Mechanical sector scanner and electronic multi-array scanner. Intracavitary probes.
+Digital scan-converter for gray-scale storage. Software: coordinated operation, picture
+processing, gauging. Integrated instant-camera documentation. Spectral-Doppler as an option.
+Used for abdomen, obstetrics, transrectal, vaginal and intravesical.
+No. 120 description: Combison 1320-5
+type of device: B-Mode producer/distributor: Kretztechnik AG, Zipf
+development: 1983/1984
+frequency: 3.5 and 7 MHz time of production: 1984-1993
+Real-time sector-scanner with switch from 3 to 5 MHz. Storage function.
+No. 121 description: Sonoline 3000
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 3 and 5 MHz time of production: 1985
+Sector Scanner
+Prototype of a mechanical
+sector scanner with two identical
+transducers mounted on a rotating
+support.
+No. 121 SK description: Sonoline 3000
+type of device: B-Mode producer/distributor: Siemens AG Erlangen
+development:
+frequency: 5 MHz time of production: 1978-1980
+No. 122 description: B-Mode System SB 30
+type of device: B-Mode producer/distributor: VEB Ultraschalltechnik Halle
+development: ?
+frequency: 2 and 5 MHz time of production: 1979
+Ultrasound system with 2 rotating scanners, 2 und 5 MHz. 16 levels gray scale, variable TGC,
+gauging marks. This system was meant to cover the demands for B-mode devices in the German
+Democratic Republic (GDR), as devices from Western manufacturers could not be imported.
+However, because of inadequate technology (lack of electronic components), this system
+was not able to meet international quality standards.
+Origin: Institute for Biophysics, Halle
+Start
+left kidney, lateral
+No. 123 description: Mechanical Sector Scanner
+type of device: B-Mode producer/distributor: Halle???
+development: ?
+frequency: ? time of production:
+Mechanical Sector Scanner
+Mechanical sector scanner with 4
+identical transducer elements on a rotating
+disc to be placed directly on the skin.
+This may have been the transducer for
+the concept of a compound system with
+semi-automatic scanning – similar to the
+system of Jan Donald, Glasgow.
+B-Mode device, mechanical sector-scanner with 3.5 and 5 MHz. Also M-Mode and Doppler-
+Mode. Zoom. Measurements of distance and volume, calculation of delivery date.
+This scanner was developed parallel to the linear-scanner Sonoline LX with identical components
+as part of the „Sonoline“ series.
+With a size of only 30 x 24 x 40 cm it was a small, portable scanner-unit for universal use.
+Mechanical sector-scanner:
+The transducer mechanically
+"wobbeles" to and fro.
+No. 119 description: Sonoline SX
+type of device: B-, M-Mode producer/distributor: Siemens AG, Erlangen
+Doppler development: 1982/1983
+frequency: 3.5 and 5 MHz time of production: beginning 1983
+No. 119 SK description: Sonoline SX
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 3.5; 5 MHz time of production: 1982-1984
+Sector Scanner
+Sample mechanical sector scanner
+probes with varying ultrasound frequencies,
+each with three identical transducers on a
+rotating support.
+(With guidance for puncture tubes.)
+No. 124 description: ADR 2130
+type of device: B-Mode producer/distributor: ADR/Kranzbühler & Sohn
+development: 1969-1971
+frequency: 1-7.5 MHz time of production: beginning 1971
+Real-time B-Mode device, linear multi-element array probe with 64 single elements.
+10 gray scales, 20-40 frames/sec. , 50-120 lines. Freeze frame. Electronic caliper.
+This scanner was developed by ADR in Phoenix, Arizona, and very successfully distributed
+by Kretz, later by Kranzbühler. Used mainly in Obstetrics and Internal Medicine.
+14th week/gestation Non-Hodgkin Lymphoma
+No. 125 description: Sonolayer SAL – 20 A
+type of device: B-Mode producer/distributor: Toshiba, Tokyo
+development: 1977-1979
+frequency: 2.4 and 3.5 MHz time of production: beginning 1979
+B – mode, real time. Linear-scanner with electronic focusing. 8 gray scales.
+No storage of the screen images possible. Alphanumerical keys for patient’s data. Biopsy probe.
+No. 127 description: Multison 400
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development: c. 1975
+frequency: 2.5 and 3.5 MHz time of production: beginning 1977
+B-mode, real time, linear array technique.
+30 frames/s with 2.5 MHz,
+40 frames/s with 3.5 MHz.
+Electronic caliper.
+Origin: Dr. F. Lorenz, Berlin
+Array not yet with dynamic focusing, only
+one transformation layer. Already with micro
+divisions, however. The assembly was
+essentially aligned for separate modules.
+Image quality not satisfactory with 2.5 MHz
+No. 127 SK description: Multison 400
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 2.5 MHz time of production: beginning 1975
+Linear Array
+First generation linear array, not yet with
+dynamic focusing, with only one
+transformation layer, however already with
+micro divisions.
+The assembly was essentially aligned for
+separate modules.
+Image quality not satisfactory.
+No. 128 description: Imager 1000
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 2.5 and 3.5 MHz time of production: beginning 1977
+Early linear array system, fix focus in transmitting and receiving.
+No dynamic focusing yet.
+Only two frequencies: 2.5 and 3.5 MHz.
+No. 129 description: Imager Serie 2000
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development: 1979/1980
+frequency: 3.5 and 7 MHz time of production: 1980-1985
+Real-time B-mode, 3.5 and 7 MHz.
+Electronic focusing, microprocessor controlled. Alphanumerical input of patient’s data.
+Electronic measuring auf distances.
+Mainly used for Obstetrics and Gynecology, also for abdominal diagnostics.
+Fetal skull, 24th week of pregnancy
+(Holländer)
+No. 130 description: Imager 2380
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development: 1978/80
+frequency: 2.5 and 3.5 MHz time of production: since 1980
+Real Time B-Mode, 2.5 and 3.5 MHz.
+Dynamic focusing (receiver). Electronic multi-caliper for measuring distance,
+circumference, area and volume. Storage of measurements.
+chronic calcified pancreatitis
+Portable real-time system, linear array, 3 and 4 MHz. Dynamic focusing, zooming,
+caliper for measuring distance, circumference, area, volume, time and biometrical data.
+Mainly in use for Obstetrics.
+No. 131 description: Sonoline 1000
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 3 and 4 MHztime of production: 1983
+No. 133 description: Linear Scanner LS 1500
+type of device: B-Mode producer/distributor: Picker Int., USA
+development: 1979
+frequency: 3 and 5 MHz time of production: since 1979
+Real Time B – Mode, linear array, 3 and 5 MHz
+Display on X – Y monitor. Storage.
+Real-time B – Mode, linear array, 2 MHz. Portable. 64 elements, 8 of them active
+for one line of the image. Mainly in use for Obstetrics.
+No. 134 description: Axiscan 5 A
+type of device: B-Mode producer/distributor: Roche / Kontron
+development:
+frequency: 2 MHz time of production: 1976 - 1981
+Real-time B-Mode, linear phased array. Also TM-Mode.
+No. 135 description: Kontron Sigma 20
+type of device: B-Mode producer/distributor: Kontron Instruments
+development:
+frequency: 3.5 and 5 MHz time of production:
+No. 141 description: CS 9200
+type of device: B-Mode producer/distributor: Hitachi/Picker
+development:
+frequency: 3.5 - 7.5 MHz time of production: 1990-1995
+B-mode system with curved and linear array
+probes; here with 3.5 MHz curved array for
+appications in Internal Medicine.
+Origin: Klinikum Ibbenbueren
+German Ultrasound Museum
+Collection (Last Update June 2013)
+• From material-testing to A-Scan
+• B-Scan:
+- Compound scanner -
+Mechanical real-time devices
+- Electronic real-time devices
+Milestones of development 136 - 142
+• Special developments
+• Doppler-systems
+• Other objects
+• Cut transducers without apparatuses
+Real-time B-Mode. Mechanical sector scanner. The probe for „small parts“ is coupled with
+a pw-Doppler-probe (see No.136 SK1). Documentation by instant camera.
+In the 3.5 MHz probe three sector scanners are synchronized for a wide field of view (136 SK2).
+A special scanner arm enables automatic positioning. The RA1 was the first „high end“ system.
+Chronic pancreatitis.
+This cross section displays
+how 3 sector scans are
+joined to form 1 picture.
+No. 136 description: Diasonics RA1
+type of device: B-Mode producer/distributor: Diasonics/Siemens AG
+/ Doppler development: 1978 -1980
+frequency: 2 - 7.5 MHz time of production: since 1980
+"Small-Parts" Duplex Probe
+Mechanical sector scanner (wobbler) with
+high resolution; separate pw-Doppler.
+Both probes are joined in one oil-filled
+case.
+Position, size and angle of the Doppler
+sample volume can be adjusted within the
+field of view of the B-Mode probe.
+Crude spectral display.
+Frequencies: 7.5 MHz B-Mode
+2.0 MHz Doppler Mode
+No. 136 SK1 description: RA1 Small –Parts Probe
+type of device: B-Mode producer/distributor: Diasonics/Siemens AG
+Doppler development:
+frequency: 7.5 / 2 MHz time of production: 1978-1980
+carotid artery with extensive plaque
+stenosis with turbulent flow
+ICA CCA
+Mechanical multi transducer system
+Three synchronously rotating transducers
+for displaying larger body surfaces.
+Each transducer displays a pre-defined
+part of the sectional plane. The transducers
+are alternately activated.
+The whole picture is displayed by combining
+the three separate scans (see No. 136).
+Relatively low frame rate.
+No. 136 SK 2 description: RA1 Mehrfachsonde
+type of device: B-Mode producer/distributor: Diasonics/Siemens AG
+development:
+frequency: 3.5 MHz time of production: 1978-1980
+Real-time B-Mode, phased array technique with integrated color-Doppler (Color Coded Duplex).
+First system with integrated combination of A-Mode, TM-Mode, B-Mode, Doppler-Mode
+(cw- pw- and directional color Doppler).
+No. 137 description: Color Doppler SSD 880
+type of device: B-Mode, producer/distributor: Aloka Co, Tokyo
+Color-Doppler development: 1980-1985
+frequency: time of production: 1985-1992
+Real-time B-Mode, linear array technique. Dynamic focusing (transmitter and receiver).
+First fully digitalized ultrasound device.
+pancreas pseudo-cyst / chronic pancreatitis
+No. 138 description: Sonoline 8000
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development: 1979-1982
+frequency: 2.5-7.5 MHz time of production: 1982-1985
+gastric carcinoma
+Linear array for laparoscopy with 96 single elements. Sterilization possible with cold gas. Dynamic focusing
+by digital signal processing in 16 channels. Each element is connected to the Sonoline 8000 by a separate
+coaxial cable. This intricate requirement was not easy to fulfill, especially the connection between the
+flexible array and the fixed laparoscopic tube.
+No. 138 Z 1 description: Ultrasound Laparascope UM 2
+for Sonoline 8000
+type of device: B-Mode, producer/distributor: Siemens AG, Erlangen
+development: since 1982
+frequency: 7.5 MHz time of production: prototype 1983
+ultrasound-laparoscope in situ
+Ultrasound transducer at the end of a 30 cm long probe, which can be inserted through the 10 mm wide
+tube of a customary optical laparoscope. The linear transducer has an active length of 35 mm. It is
+maneuverable in the ultrasound plane from -10° to +45°. Dynamic focusing by digital signal processing in
+16 channels. Sterilization possible with cold gas.
+Each of the 96 single elements is connected to the Sonoline 8000 by a separate coaxial cable. This
+intricate requirement was not easy to fulfill, especially the connection between the flexible array and the
+fixed laparoscopic tube.
+No. 138 Z 2 description: Laparascope for Sonoline 80
+type of device: Linear Array producer/distributor: Siemens AG, Erlangen
+development: 1982
+frequency: 7.5 MHz time of production: prototype
+Linear Array
+Linear array for laparoscopy with 96 single
+elements. Sterilization possible with cold gas.
+Dynamic focusing by digital signal processing
+in 16 channels. Each element is connected to
+the Sonoline 8000 by a separate coaxial cable.
+This intricate requirement was not easy to fulfill,
+especially the connection between the
+flexible array and the fixed laparoscopic tube.
+No. 138 SK 1 description: Sonoline 8000
+type of device: B-Mode, producer/distributor: Siemens AG, Erlangen
+development: 1982-1983
+frequency: 7.5 MHz time of production: 1983-1985
+Linear Array
+Linear array, 5 MHz, with 128 single
+elements. First system with completely
+digitalized signal processing including
+beam forming.
+No. 138 SK 1 description: Sonoline 8000
+type of device: B-Mode, producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 5 MHz time of production: 1979 - 1982
+B-Mode with mechanical sector, linear und curved array technique. Volume calculation with
+color-coded images. First 3-dimensional ultrasound system with surface view, translucent
+display and volume calculation. Various special probes, e.g. for intracavitary applications,
+spectral- and color Doppler.
+No. 139 description: Combison 330 Voluson
+type of device: B-Mode, producer/distributor: Kretztechnik, Zipf
+3D-Imaging, Colorflow Doppler development: 1986
+frequency: 3.5-7.5 MHz time of production: since 1989
+No. 140 description: ATLUltramark 9 HDI
+type of device: B-Mode, producer/distributor: Advanced Technology Labs.
+M-, TM-Mode, Colorflow Doppler development:
+frequency: 2 - 10 MHz time of production: 1988-1992
+At that time ATL's top ultrasonic device, and with 565 lbs
+(256,3 kg) very impressive. For use in Obstetrics, Gynecology,
+Urology, Cardiology, small parts, vascular lab, Neurology.
+Probes with phased, annular, linear and curved arrays; also
+mechanical sector, TEE, vaginal endo-probes, intraoperative
+probes. B-mode triggering by ECG optional.
+Our system is equipped with a linear probe of 5-7 MHz
+and a sector probe of 2-3 MHz including software for intracranial
+investigations. M-mode also works in color.
+Separate monitors for black-and-white and for colored displays.
+Software-controlled multi-function switches at a touch-sensitive
+gas-discharge plasma display.
+Independent steering of B-Mode display, colorflow-Doppler and
+cw-Doppler.
+Frame rate up to 156/s, depending on depth and angle.
+Origin: Klinikum Ibbenbueren
+Very complex Compound system, simultaneous mechanical scanning by 8 large statically
+focused transducers within a water tank. Connection to patient by means of a large plastic
+examining surface upon which the patient lies. Originally designed for gynecological use,
+the Octoson was later modified for mamma inspections.
+No. 142 description: Octoson
+type of device: B-Mode producer/distributor: Ausonics, Sydney
+development: 1978
+frequency: 3 MHz time of production: since 1978
+German Ultrasound Museum
+Collection (Last Update June 2013)
+• From matter-testing to A-Scan
+• B-Scan:
+- Compound scanner -
+Mechanical real-time devices
+- Electronic real-time devices
+• Milestones of development
+• Special developments 140 - 160
+• Doppler-systems
+• Other objects
+• Cut transducers without apparatuses
+Echo-Detector, pocket-size.
+This device showed the existence (pathological finding) or none-existence of the echo of the
+back wall of the maxillary sinus via either a red or a green LED.
+No. 140 description: ENT - Detector
+type of device: Echo Detector producer/distributor: VEB
+Ultraschalltechnik, Halle
+development: 1978
+frequency: 4 MHz time of production: since 1979
+Portable Ultrasound Scanner
+Battery-powered scanner with integrated
+linear-array. Contrary to customary array
+systems with many elements, of which
+several were activated simultaneously
+during one sounding period, this array
+had only 20 elements of which just 1 at
+a time was activated – similar to the
+Eye-Scanner (system Buschmann / Kretz)
+with 12 single elements.
+At that time smallest scanner, 1,5 kg,
+c. 26 x 16 x 16 cm. Display only 33 x 43 mm.
+Just 1 switch for modulating amplification.
+Start
+No. 141 description: MiniVisor
+type of device: Echo Detector producer/distributor: Organon Teknika Corp.
+development:
+frequency: 3.12 MHz time of production: 1979
+Scanner to be connected to the A-Mode device series GA 10 for measuring the speed and
+the attenuation of sound at the tibia in vertical and in oblique direction.
+Model II
+See device No 54 GA 10
+Origin: R. Millner, Halle
+normal
+osteoporosis
+No. 054 z description: Device for Bone Scanning
+type of device: A-Mode producer/distributor: Institute for Biophysics, Halle
+development: 1968
+frequency: 2.5 to 7.5 MHz time of production: 1968
+Portable Doppler system for the detection of gestation.
+Also used in human medicine on an experimental basis.
+No. 144 description: Gestation detector TuR-TD 20S
+type of device: Doppler producer/distributor: VEB Transformatoren
+und Röhrenwerk Dresden
+frequency: 2 MHz time of production: 1979
+No. 145 description: Trans Rectal Scanner 9526
+type of device: B-Mode producer/distributor: Brüel & Kjaer, DK
+development: 1978 -1979
+frequency: 3.5 MHz time of production: 1979
+B-Mode, mechanically rotating scanner, exclusively for transrectal use.
+Coupling by a water-filled standoff.
+Origin: B. Frentzel-Beyme, Berlin
+T3Ca
+Mechanical 360° sector-scanner at the tip of a gastroscope with oblique optics for viewing.
+Originally developed for the inspection of organs next to the stomach, such as the pancreas;
+mostly used for the evaluation of the walls of the esophagus and the stomach - complementary
+to optical endoscopy.
+See also No. 138, Sonoline 8000.
+ultrasound transducer optics
+gastric carcinoma
+No. 146 description: Ultrasonic Endoscopic Probe UM 2
+type of device: 360° Sector Scanner producer/distributor: Aloka/Olympus
+development: since 1981
+frequency: 7.5 MHz time of production:
+A-, B- and C-system. The plane scanned is at right angle to sound propagation (C-plane).
+The transducer is moved in one line by a spindle. Line break by cograils.
+For sound generation a virtual punctiform sonic source is generated in the level of the object
+by a lens and this performs the scanning procedure.
+All echoes are depicted in the same focal intensity. Scanning time about 30 sec.
+If a stone was localized, a fragmentation could be tried, as the maximum power output was
+400 Watts. - Experimental device without clinical application.
+breast cancer
+No. 157 description: Focoscanner
+type of device: A-, B-, producer/distributor: Instit. M. von Ardenne, Dresden
+and C-Mode development: 1959/60
+frequency: 3 MHz time of production: 1960
+Phased array device specially constructed for cardiological diagnostics.
+To minimize electronic layout, the focusing is done by 2 x 48 channels
+with alternating transmission cycles.
+Color-coding of blood-flow (duplex mode).
+No. 160 description: Sonoline SI 1200
+type of device: B-Mode, producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 2.5-3 MHz time of production:
+• From matter-testing to A-Scan
+• B-Scan:
+- Compound scanner -
+Mechanical real-time devices
+- Electronic real-time devices
+• Milestones of development
+• Special developments
+• Doppler-systems 260 - 282
+• Other objects
+• Cut transducers without apparatuses
+German Ultrasound Museum
+Collection (Last Update June 2013)
+Cw-pocket Doppler, 8 MHz
+Simple yet highly-sensitive non-directional device.
+First investigations of the fronto-orbital arteries, so called indirect Doppler sonography.
+Origin: R. Müller, Basel
+No. 260 description: Pocket Doppler
+type of device: cw-Doppler producer/distributor: Mediatronics, Geneva
+development: 1967
+frequency: 8 MHz time of production: since 1968
+Cw–Doppler system with multiple elements transducer 1.5 MHz.
+Integrated thermal recorder.
+First device for continuous monitoring of fetal heartbeats.
+Origin: Kranzbühler, Solingen.
+No. 261 description: Fetal Puls Monitor FM 2
+type of device: cw-Doppler producer/distributor: Sonicaid/Kranzbühler
+development: 1968
+frequency: 1.5 MHz time of production: 1968-1971
+Cw-pocket Doppler system, non-directional, 5 MHz.
+Used for first recordings of intracardial flow (Seipel)
+Origin: L. Seipel, Tübingen.
+No. 262 description: Parks Model 802
+type of device: cw-Doppler producer/distributor: Parks Electronics, USA
+development: 1966-1968
+frequency: 5 MHz time of production: since 1968
+Bidirectional Doppler system, 5 MHz. Direction of blood flow is indicated by 2 separate gauges
+and by 2-chanel acoustics. Outlet for printer.
+Model 806 was the first bidirectional model by Parks, soon to be replaced by Model 906.
+Origin: R. M. Schütz, Lübeck.
+No. 263 description: Parks Model 806
+type of device: cw-Doppler producer/distributor: Parks Electronics, USA
+development: 1969
+frequency: 5 MHz time of production: 1969 - 1970
+Two frequency bidirectional cw-Doppler system, 5 and 10 MHz.
+Flow direction is indicated by two gauges as well as acoustically.
+Outlet for printer. Replacement of Model 806.
+Origin: R. M. Schütz, Lübeck.
+No. 264 description: Parks Model 906
+type of device: cw-Doppler producer/distributor: Parks Electronics, USA
+development: 1970
+frequency: 5, 10 MHz time of production: 1970
+Cw-Doppler with directional information, 4 MHz.
+Zero-crossing-technique displays sum of frequency shift. External recorder.
+With a pivot arm and an EDM, this system was deployed for „Doppler-angiography“.
+Origin: B. Widder, Ulm
+No. 265 description: DUD 02
+type of device: cw-Doppler producer/distributor: Delalande Electronique, F
+development: 1969
+frequency: 4 MHz time of production: since 1970
+Cw-Doppler, 4 MHz.
+Bidirectional system with integrated thermal printer; connections to external printer,
+EKG. Wall filter 10, 30 and 100 Hz. Display of averaged Vi and Vm.
+Origin: I. Neuerburg-Heusler, Engelskirchen.
+No. 266 description: DUD 400
+type of device: cw-Doppler producer/distributor: Delalande Electronique, F
+development: 1970-1972
+frequency: 4 MHz time of production: since 1972
+Cw-Doppler for fetal monitoring, 2 MHz.
+Acoustic information of fetal cardiac actions. First Doppler system in the GDR.
+The picture [left] displays a picoskope or oscilloscope used for optical visualization
+of the signal.
+Origin: A. Millner, Halle
+No. 267 description: UDOP 1
+type of device: cw-Doppler producer/distributor: Popp Elektronik, Halle
+development: 1960-1970
+frequency: 2 MHz time of production: 1970-1980
+Cw-Doppler system with acoustical information for monitoring of fetal heart actions, 2 MHz.
+Similar to UDOP 1, but further improved by addition of signal filters and outputs for tape
+recorder and printer for continuous monitoring.
+Origin: R. Millner, Halle
+No. 268 description: UDOP 2
+type of device: cw-Doppler producer/distributor: VEB US-Technik, Halle
+development: 1968-1969
+frequency: 2 MHz time of production: 1969-1975
+Cw-Doppler system, bidirectional, 2-10 MHz.
+Acoustical output, sockets for printer and PC.
+System for the center of a vascular Doppler lab, intended for registering flow and volumes,
+and for determining flow indices, spectral distribution and power.
+Origin: U. Cobet, Halle.
+No. 269 description: UBD 2
+type of device: cw-Doppler producer/distributor: Instit. for Biophysics, Halle
+development: 1974-1976
+frequency: 2-10 MHz time of production: 1976-1980
+Cw-Doppler system for fetal monitoring, 4 MHz. Sockets for printer and tape recorder.
+Used for continuous monitoring with special probes.
+Also deployed for blood flow monitoring (unidirectional).
+Origin: R. Millner, Halle
+No. 270 description: FD 410
+type of device: cw-Doppler producer/distributor: VEB US-Technik, Halle
+development: 1975
+frequency: 4 MHz time of production: since 1977
+Fetal pulse detector, revised version, 4 MHz
+Also deployed for blood flow monitoring (unidirectional).
+Origin: R. Millner, Halle.
+No. 271 description: FD 410 revised version
+type of device: cw-Doppler producer/distributor: VEB US-Technik, Halle
+development: 1977
+frequency: 4 MHz time of production: 1978-1985
+Simple cw-Doppler system for monitoring of fetal cardiac actions, 3-4 MHz.
+No. 272 description: Eucoton S
+type of device: cw-Doppler producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 3-4 MHz time of production: 1970
+Cw-Doppler system for monitoring of fetal heart actions, 2 MHz.
+Interchangeable probes; sockets for headsets and tape recorder.
+No. 273 description: MDG 2
+type of device: cw-Doppler producer/distributor: Kretztechnik, Zipf
+development: 1969
+frequency: 2 MHz time of production: since 1970
+Cw-Doppler system, pocket size, battery-powered.
+Small loudspeaker, socket for headset, replaceable probe.
+This sturdy device – an enhanced version of the „Minifeton“ (No. 278) - was mainly used in
+out-patient care, also in accidents.
+No. 274 description: Minivason 9
+type of device: cw-Doppler producer/distributor: Kretztechnik, Zipf
+development: 1972-1973
+frequency: 6-8 MHz time of production: 1973-1979
+No. 276 description: TC 2-64
+type of device: pw-Doppler producer/distributor: EME, Überlingen
+development: 1982
+frequency: 2 MHz time of production: since 1983
+Pw-Doppler system, 2 MHz, developed by Eden Medizinische Elektronik Überlingen in cooperation with
+Neurosurgeon Rune Aaslid. First commercially available Doppler system for recording of transcranial
+(intracranial) blood flow by pulsed Doppler (TCD). Also first to include a 64-point spectral display of the
+Doppler-signal after fast Fourier transformation (FFT) in the same device. TCD monitoring with the probe
+fitted to the skull by an elastic strap.– Type TC2-64B was also equipped with 4 and 8 MHz probes for
+peripheral vascular examinations.
+Origin: R. M. Schütz, Lübeck.
+Cw-Doppler system for detection and monitoring of fetal heart beats, 2 MHz.
+2 models: a) simple pocked Doppler device with acoustical output. b) later sized as an
+ordinary probe but equipped with remarkable functions: Automatic battery charging in a mount,
+acoustical output either by stethoscope or via a FM-transmitter by a standard radio.
+No. 278 description: Minifeton
+type of device: cw-Doppler producer/distributor: Kretztechnik, Zipf
+development: 1969
+frequency: 2 MHz time of production: 1970-1979
+Cw-Doppler system with frequency filter, calibration and integrated printer.
+Connects to "frequency analyzer 8106" for spectral analysis (FFT).
+No. 279 description: Doppler 762
+type of device: cw-Doppler producer/distributor: Kranzbühler
+development:
+frequency: 4 and 8 MHz time of production: since 1977
+Microview Duplex. Mechanical linear scanner with high resolution for small parts-
+scanning, including Doppler sonography for superficial blood vessels.
+The constructional design of the scanner allowed coupling without pressure.
+Origin: H. J. Schulz, Hamburg
+No. 280 description: Microview
+type of device: Doppler-, B-Mode producer/distributor: Picker
+development:
+frequency: 10 MHz time of production: since 1978
+Doppler – System
+No. 281 description: Doppler-Stethoscope
+type of device: cw-Doppler producer/distributor: Kranzbühler
+development:
+frequency: ?? time of production: ???
+No. 282 description: Vasoflo 2
+type of device: cw-Doppler producer/distributor: Sonicaid Ltd.
+development:
+frequency: 2, 4 and 8 MHz time of production: 1983-1988
+Bidirectional cw-Doppler System
+with three frequencies for vascular
+and for cardiological examinations.
+Battery/mains operation.
+Outphaser separation of forward
+and reverse flow. This separate flow
+can be displayed by printer on
+thermo-sensitive paper, by LEDs
+and on a none-fade digital memory
+scope. Acoustical output via
+integrated loudspeaker or headset
+(two channel).
+Calibration pulses and zero run at
+the end of every recording.
+Origin: Klinikum Ibbenbueren
+German Ultrasound Museum
+Collection (Last Updated June 2013)
+• From matter-testing to A-Scan
+• B-Scan:
+- Compound scanner -
+Mechanical real-time devices
+- Electronic real-time devices
+• Milestones of development
+• Special developments
+• Doppler-systems
+• Other objects 346 - 391
+• Cut transducers without apparatuses
+This measuring system was developed by Buschmann in the Ophthalmology department of the
+Charité Berlin, 1966. Our device was built 1985 in Würzburg for determining the sensitivity
+of the transducer.
+Origin: W. Buschmann, Würzburg.
+No. 346 description: Measuring track in oil bath
+(new)
+type of device: Accessory producer/distributor: Dept. of Ophthalmology, Würzburg University
+development:
+frequency: time of production: 1985
+No. 346 description: Measuring track in oil bath
+(old)
+type of device: Accessory producer/distributor: ??
+development: ??
+frequency: time of production: ??
+Early in the 1980s the Uni Quatro was introduced
+in (West) Germany. Before that, for documentation
+only Polaroid pictures could be shot (1 shot 1 € or
+≙
+1.4 $) - or negatives on 35 mm films (later correlation
+used to be somewhat difficult).
+The Uni Quatro documented on radiographic film
+- 4 frames, initially. Therefore it was first deployed
+in Radiology and later in other medical disciplines.
+As the camera improved, one could choose between
+8, 4, 2 or just 1 frame per sheet.
+No. 365 description: Uni Quatro
+type of device: Multiformat camera producer/distributor: for
+documentation development:
+frequency: time of production: since c. 1981
+Acoustic pressure scale for determining the acoustic power for therapy (> 9.1 Watts).
+The power or intensity is specified in Watts per square centimeter.
+Origin: R. Millner, Halle
+No. 380 description: Acoustic pressure scale
+type of device: producer/distributor: VEB Transformatoren-
+und Röhrenwerk, Dresden
+development:
+frequency: time of production: 1960
+Shock wave generator + Sector scanner
+US-therapy + B-scan. Combination of a
+shock wave generator for therapeutic use
+(here for pain treatment) with a mechanical
+sector scanner displaying the body surface
+being treated.
+The initially plane shock wave is focused on
+the zone to be treated by a polystyrene lens
+- patient coupling by a water-filled standoff.
+No. 390 SK description: Sonocur plus
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development:
+frequency: ?? time of production: 1984
+B-Mode-Device
+No. 391 description: Sterling
+type of device: B-Mode producer/distributor: Philips
+development:
+frequency: ?? time of production: 1990 - 1993
+German Ultrasound Museum
+Collection (Last Update June 2013)
+• From matter-testing to A-Scan
+• B-Scan:
+- Compound scanner -
+Mechanical real-time devices
+- Electronic real-time devices
+• Milestones of development
+• Special developments
+• Doppler-systems
+• Other objects
+• Cut transducers without apparatuses 483 -
+493
+Array transducer
+Example of adaptation layers
+No. 481 SK description:
+type of device: B-Mode producer/distributor:
+development:
+frequency: time of production:
+Array transducer
+Example of wiring
+No. 482 SK description:
+type of device: B-Mode producer/distributor:
+development:
+frequency: time of production:
+Phased Array Transducer
+Transducer of an electronic sector scanner
+(phased array) with 128 single elements.
+Each element is connected to the ultrasonic
+device by an individual coaxial cable with
+a diameter of about 0.6 mm,
+and each element is triggered by a
+separate cable.
+No. 483 SK description: Accuson transducer
+type of device: B-Mode producer/distributor: Accuson/Siemens AG
+development:
+frequency: 4 MHz time of production: 1995
+Phased array scanner
+Acoustical parts for transducers of an
+electronic sector scanner (phased array)
+with 64 single elements.
+Each element is connected to the ultrasonic
+device by an individual coaxial cable
+and is triggered by a separate cable.
+No. 484 SK description: Phased array
+type of device: B-Mode producer/distributor: Siemens AG
+development:
+frequency: 3.5 + 5 MHz time of production: 1984
+Curved Array (vaginal probe)
+Endoprobe for vaginal diagnostics.
+Curved array with 128 single elements
+and a 90° angle of view.
+Fixed image plane.
+Guide slot for visually controlled punctures.
+No. 485 SK description: Curved Array
+type of device: B-Mode producer/distributor: Accuson/Siemens AG
+development:
+frequency: 7.5 MHz time of production: 1998
+Mechanical sector scanner
+for teeth
+No. 486 SK description:
+type of device: B-Mode producer/distributor:
+development:
+frequency: ?? time of production:
+Endoprobe (rectal probe)
+Mechanical sector transducer
+for endosonography. Designated
+especially for transrectal scanning.
+The mechanical drive makes it possible
+to choose the location of the sectional
+plane.
+No. 487 SK description: Endoprobe
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+development:
+frequency: 5-7.5 MHz time of production: 1989-1990
+Sector scanner
+Mechanical sector scanner for intravasal
+sonography. The ultrasound transducer
+(20 MHz) is fixed to the tip of the
+catheter. A rotating tilted mirror provides
+a 360° scan. This mirror is driven by a
+guide wire at the entrance of the
+catheter. Catheter is built for single use only.
+No. 488 SK description: Sector Scanner
+type of device: B-Mode producer/distributor: IVUS/Siemens AG
+frequency: 20 MHz time of production: 1984-1986
+Curved Array
+Curved arrays are a variety of linear arrays.
+They only differ in the way the transducer elements
+are aligned. The same technology is applied in
+both cases.
+In linear arrays – as the name implies – the
+elements are arranged in a straight line, while in
+curved arrays this line is curved along a more or
+less rounded arc. The image format of the
+curved array thus resembles a ring segment.
+Curved arrays have the advantage – depending
+on the field of application – of combining the
+characteristics of both a sector scanner
+(small connecting area) and a
+linear array (large field of view).
+No. 490 SK description: Curved Array
+type of device: B-Mode producer/distributor: Picker
+frequency: 5 MHz time of production: 1983-1985
+Endoprobe (vaginal probe)
+Mechanical sector scanner for
+endosonography, especially designed
+for vaginal examinations.
+No. 491 SK description: Endoprobe
+type of device: B-Mode producer/distributor: Matsushita/Siemens
+frequency: 5-7.5 MHz time of production: 1985-1988
+Prototype of a the very first multiline
+array. By subdividing an array
+system into several parallel and separately-
+activated array lines, a dynamic focusing
+perpendicular to the direction of the
+scanning is possible (annular array) –
+unlike the array transducers with just one
+line of arrays which are still common today.
+In theory this method should have great
+diagnostic advantages. The high technolo-
+gical and electronic complexity of the
+method hasn’t found wide-spread use
+in ultrasound equipment.
+No. 492 SK description: Multiline Array
+type of device: B-Mode producer/distributor: Siemens AG, Erlangen
+frequency: 3.5 MHz time of production: 1981
+Linear Array
+Example of the delicate architecture of a linear array
+structure. Here each single circuit-relevant element
+is again mechanically subdivided, in order to suppress
+unwanted oscillations. For attenuation the ceramic
+elements are embedded at the back in a supporting
+cushion to prevent resonances.
+Furthermore, two transformational layers with different
+wave impedance are visible. They are necessary
+to adapt the acoustical impedance of the ceramic
+elements to biological tissues. This adaptation leads
+not only to better sound transmission; it also leads to
+an enlargement of the usable ultrasound frequencies
+and thus to better image quality. The top layer is
+formed by a so-called silicon lens, which not only
+protects the arrays but also helps focus the
+ultrasound beam at a right angle to the scan
+direction, contributing to better image quality.
+No. 493 SK description: Linear Array
+type of device: B-Mode producer/distributor: Matsushita/Siemens
+frequency: 5 MHz time of production: 1985
+

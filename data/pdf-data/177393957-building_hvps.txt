@@ -1,0 +1,320 @@
+Building the HVPS—High Voltage Power Supply
+Introduction
+Voltages higher than the LVPS provides—kilovolts—are needed in later experiments to
+get strong electric fields and to generate microwaves. The high-voltage power supply makes such
+experiments possible. You will have voltages from 100V to 1000V available to you, at a safe
+current of less than a milliampere.
+The HVPS is built on the empty space of the LVPS board and is powered by it. Some
+experiments in this course will need both the HVPS and another device, an amplifier, which will
+be built on the board of a second LVPS. You and your partner will have the necessary pair of
+LVPS’s between you; if you are working alone, you will eventually need two LVPS’s.
+Background
+To get adjustable high voltage, we will convert the adjustable dc from the LVPS into
+adjustable ac at a frequency of about , by means of an LC oscillator. Then, a step-up transformer
+will be used to get high voltage ac, which can be turned into dc with a half-wave voltage-doubler
+rectifier. Here is the block diagram:
+Figure 1: HVPS block diagram
+Figure 2: HVPS circuit diagram
+1
+
+The oscillator is powered by the 2N3055 transistor. The main feature of a transistor is that a
+small current from base to emitter results in a large current from collector to emitter (larger by a
+factor of order 100).
+Then the emitter current flows through an six turn primary winding on a transformer
+made by using the windings of a 5 millihenry inductor as the secondary, as shown below. The
+transformer is a device that converts an ac voltage across the primary coil winding into a
+different ac voltage across the secondary coil winding. This is accomplished by using two
+closely spaced coils of different number of turns, one is called the primary, and the other, the
+secondary. The primary coil has a number of turns denoted by NP , and the secondary coil has
+N number of turns. Then the voltage across the primary, VP , is related to the voltage across the
+s
+secondary, VS , according to
+VS
+VP
+= .
+NP N S
+The secondary has about 300 turns, so the secondary voltage is about 50 times the
+primary voltage.
+Figure 3: LC oscillator
+The secondary winding of the transformer is part of a parallel LC circuit with a resonant
+frequency
+f =
+1
+2π
+1
+LC
+The inductance is 5mH and the equivalent capacitance is 91 pF , so the resonant frequency is
+f =
+1
+2π
+1
+LC
+=
+1
+2π
+1
+(5× 10−3
+H )(9.1×10−11
+F)
+= 2.4× 105
+Hz.
+2
+
+Figure 4: capacitor voltage divider
+The two capacitors shown above make a voltage divider, such that 1/11 of the total
+voltage across the coil appears across the 1000 pF (.001 microfarad) capacitor. This voltage is
+fed back to the base of the 2N3055. If the transformer windings are properly connected, an
+increasing current through the transistor will produce an emf in the secondary of the resonant
+circuit which, when part of it is fed back to the base of the transistor, has the correct polarity to
+cause yet more current to flow in the 2N3055. This is positive feedback, rather than the negative
+feedback utilized in the LVPS regulator.
+The positive feedback tries to make the transistor current go to infinity, which, of course,
+is not possible. The voltage across the primary coil does increase to almost the positive power
+supply voltage, at which point it must stop increasing, and the voltage induced in the transformer
+secondary goes through zero and changes sign. Then the positive feedback makes the current
+through the transistor plunge in the opposite direction to zero. Thus, an alternating voltage
+almost equal to the LVPS voltage is produced at the primary, at the resonant frequency of the LC
+circuit of which the transformer is a part. This ac is stepped up to 1000V or more, peak-to-peak
+(maximum to minimum), by the transformer action.
+The high voltage ac is rectified so as to produce an output dc voltage approximately
+equal to its peak-to-peak voltage, by using two high voltage diodes in a voltage doubler circuit:
+Figure 5: voltage doubler
+3
+
+Here is how is how the voltage doubler works: if the sine wave voltage across the
+resonant circuit has a peak-to-peak value 2V0, then an alternating voltage of amplitude V0
+appears across the circuit composed of C1 and D1. Thus C1 and D1 act as a half-wave rectifier,
+which charges C1 to V0 . As a result the sine wave voltage at point A causes the voltage at A to
+oscillate from 0 to 2V0 . The second diode, acting as a half-wave rectifier, will then charge to a
+voltage approximately equal to 2V0 . Hence the name ‘doubler’.
+Following the voltage doubler, there is a filter capacitor, C2, and then each output lead is
+in series with a one megohm resistor. These are to isolate the supply from the long leads you
+may connect to it, and to reduce the intensity of the shock you can get by putting yourself across
+the output. The supply is safe, because the stored charge in the small filter capacitance is too
+small to be dangerous, and the steady output the supply can deliver is also too small to hurt you.
+However, if you touch it lightly you can feel the burn of the resulting spark.
+HVPS Parts
+•	 LVPS, already built
+•	 resistor, 8.2 kΩ 1 2W
+• 	 2N3055T transistor, TO-220 type
+• 	 TO-220 white transistor socket
+• 	 clip on heat sink
+• 	 2 - 1N5062 diodes, (max 800V peak inverse voltage, 750 mA max forward current)
+• 	 ferrite core inductor (5mH ), 3 segment
+• 	 1 ft - #26 insulated solid wire
+• 	 1 ft - #22 bare solid wire
+• 	 1 ft - #22 red insulated solid wire
+• 	
+2 - 1 MΩ resistors, 1 2W
+ceramic disc capacitors:
+• 	 100 pF , 1kV , [1 pF = 1 picofarad = 10
+−12
+F .]
+• 	 1000 pF , 500V
+• 	
+2 - 470 pF , 1kV
+4
+Recognizing the Parts
+Figure 6: Top view of HVPS
+Transistor: The transistor package looks like the regulator of the LVPS, and since it also
+produces heat that must be led away, you should mount a heat sink on it. The transistor is an
+amplifier of current, and in conjunction with the transformer produces ac at a frequency of about
+240 kHz .
+Figure 7: 2N3055T Transistor
+Inductor: Your inductor consists of three connected coils wound on a ferrite core (a magnetic
+sintered powder); the coils are about 45 feet in length, something under 500 turns of thin
+insulated wire. You will change the inductor into a “step-up” transformer converting low
+alternating voltage at relatively high current to high voltage at low current. (Your wall
+transformer, converting 120V ac to 12V ac, is a “step-down” transformer.)
+Figure 8: Inductor
+5
+
+Capacitors: The differences in shape and rating between these capacitors and the ones in the
+LVPS strongly suggest that they are made of different materials. That is true: also, this type of
+capacitor is not polarized as to current direction: it doesn’t matter which way around you place
+it. The physical size of capacitors is determined by their voltage rating capacitance and the
+materials used in their construction.
+Figure 9: Ceramic Disk Capacitors
+To tell which capacitor is which use the decoding system for disc capacitors. Numbers
+on the discs that don’t end with a zero in the units place, for example numbers like 102, have a
+code meaning: the “2” means “put 2 zeros here”. So, 102 = 1000, 101 = 100, and 471 = 470. In
+addition, numbers that are not decimal fractions should be read as picofarads (10-12
+F), whereas
+decimal fractions, like .001 in the figure, mean microfarads (10-6
+F). Thus .001 = .001 x 10-6
+farads or 1000 picofarads. The capital letters following these numbers indicate tolerances.
+Some of the other coding tells the factory name, the country of origin or the manufacturer.
+Diodes: The diodes pass current from the + anode, to the - cathode, the black end in the case of
+the 1N5062. (Placing the diode in the wrong direction can happen; so note carefully the black
+end).
+Figure 10: 1N5062 Diode
+6
+
+Construction Notes
+Making the Transformer
+To make the inductor into a transformer, you will need to wind six turns of the insulated
+First cut the wire to
+10 −1 2
+#26 solid wire onto the core of the inductor to act as the primary coil.
+inches and strip off the insulation from the two ends to expose the bare wire.
+Notice that the windings already on the inductor are in three parts; wind three of your
+turns in each of the two gaps between. Wind in the same direction as the winding already there.
+Here’s how; find the starting end of the inductor winding (see Figure 11), where the wire enters
+the coil at the inner core. Hold the inductor by that end and wind in a counterclockwise
+direction, three turns in the first gap and three in the second.
+The wire already on the inductor is thin, fragile and exposed. Breaking these wires is a
+common source of trouble with HVPS construction. Don’t wrap your turns so tightly as
+to break the wires already there.
+Figure 11: Winding the Transformer
+You have now made a transformer. Check for electrical continuity in both coils to make
+sure no wire got broken. If it is unbroken, you will see about 10-50 ohms (depending on the
+make of the inductor) across the inductor’s coil. The 6-turns you added, which become the
+“primary” of the transformer, have a small resistance (too small to measure). There should be no
+electrical connection between the two coils. You should certainly check for this if you run into
+any troubles.
+Perfboard Diagram for the Top of the HVPS
+The figure below shows the placement of HVPS parts on the top of the perfboard. Start
+with one of the boards on which you have already built a low-voltage power supply (LVPS).
+Follow the parts layout shown in the pictures and in the templates shown below.
+7
+
+Figure 12: Parts lay out for the HVPS
+Figure 13: Diode and inductor wiring
+A common mistake is to wire the diodes the wrong way. In Figure 13 the wiring for the
+diodes is shown. Notice that one end of the diode is dark. Make sure that these ends point in the
+correct direction.
+Another common mistake is to wrap the primary in the wrong direction with respect to
+the secondary wrappings of the ferrite core inductor. If the HVPS does not work correctly, you
+may want to rewrap the primary wire. You will need to unsolder the primary. Another way to
+correct this problem is to unsolder the wires that emerge from either end of the ferrite core
+inductor. Then flip the inductor and re-solder the ends so that it will now connect the other way.
+For this reason the ends of the secondary are soldered above the board. Once you are sure you
+have the wires the correct way you may want to solder the ends from the inductor underneath the
+board for more stability.
+8
+
+One leg of the 1000 pF capacitor first passes underneath the board then returns to the top
+side of the board where it soldered to the wire emerging from the end of the inductor. The other
+end of the inductor is soldered to the 470 pF capacitor.
+Perfboard Diagram for the Bottom of the HVPS
+The diagram below shows the wiring of HVPS parts on the bottom of the perfboard. The
+solid lines point to where the indicated components are soldered or go through the board. The
+positive and negative LVPS lines are marked.
+Figure 14: Bottom View
+When you assemble your HVPS make sure that connections are convenient and that
+shorts are not likely to occur. Be sure to get the diodes the right way around, and remember to
+connect to the outputs of the LVPS. The HVPS ends up with two 1-megohm resistors to limit
+the current to completely safe values, less than 1 mA (milliampere).
+Testing the HVPS
+Here are some procedures to follow for your circuit tests.
+Set your multimeter to the l K range and connect to the output leads. (You must use the
+appropriate input to the meter, labeled +DC1000 V.)
+9
+
+Figure 15: Test lead inputs to multimeter for 1 K range
+Insert the 2N3055T transistor into the clip on heat sink. Insert the transistor into the
+transistor socket. The writing on the transistor should face the opposite direction from the
+inductor. Insert your LM317 regulator into the LVPS and also make sure it is facing the correct
+direction (towards the rectifier). Plug in the wall transformer. You should be able to adjust the
+HVPS output voltage to anywhere from 100V to over 1000V by turning the pot of the LVPS.
+You can expect several components to get hot after a while. The transistor will probably be the
+most noticeable one.
+Because of the low power involved (about 1 watt), it is safe in this case to short the
+output with a clip lead. You’ll probably see small sparks when you do so. You can also put
+your fingers across the output (not usually a good practice!) because the current is limited to less
+than 1mA. If you do, you may feel a slight tingling sensation if you grasp firmly, or the burn of
+the spark if you hold it loosely.
+Troubles?
+If you get no output voltage:
+1) Did you plug in your transistors?
+2) Do you have a low-voltage input? Connect the multimeter on the 25V range to the LVPS
+output terminals; set the LVPS for 10V or so.
+3)	 Feel the 3055 transistor. It should warm up after a minute. (A film of water placed on it
+would evaporate in a few seconds -- but wouldn’t sizzle!)
+a)	 If the transistor’s not hot, measure the voltage between each of its terminals and the
+minus terminal of the LVPS. The base could read 0.5V positive and the emitter will
+read zero if the circuit is not oscillating; if it is oscillating you may get hard-to-
+interpret readings even with only one meter lead connected. The collector reading
+should match the output of the LVPS. Other readings might suggest wrong wiring
+or a bad transistor.
+10
+
+b)	 If the 3055 is hot but the circuit is not oscillating, reverse the primary leads of the
+transformer you wound. This makes the feedback positive as needed for oscillation.
+4) If you still see no high-voltage output, check the capacitative dividers for correct
+placement. (The 100 pF capacitor may be physically larger than the 1000 pF .) Could
+they be defective? Check the capacitors themselves: on the ohmmeter they should show
+infinite resistance.
+5) If the capacitors are OK, see if there is 240 kHz on the secondary of the transformer.
+Apply maximum voltage from the LVPS to the HVPS and touch the “hot” top-side of the
+transformer secondary with a regular wooden or plastic “lead” pencil. You should see a
+small spark. If not, reverse the transformer leads one more time and try again.
+Disconnect the first 470 pF capacitor. Now look again for 240 kHz . If you don’t see it,
+reverse the transformer leads one last time! If you still get no ac reading, the problem is
+too subtle for these techniques. (See an expert in the lab help sessions.)
+6) If you do have ac, check the 470 pF for shorts. Also use the ohmmeter to check the
+diodes.
+We tested several diodes and got these readings on the various ohmmeter ranges with the
+red lead (+) connected to the cathode: Rx1: 20Ω , Rx10: 180Ω, Rx1k: 9 kΩ. With the
+meter leads reversed we got ∞ on all ranges.
+Now it has to work, unless it is a really tricky problem. Rebuilding with greater care to
+follow the drawing of the perfboard often clears matters up. Sometimes the only recourse is a
+persevering expert.
+Try this
+Bring a transistor radio close to your HVPS. Turn the radio on and place it inches from
+the coil. On almost any AM dial setting the radio will reproduce a strong buzz that will
+disappear if you unplug the power supply, or even turn the pot down. If you make a spark at the
+output, you should hear it broadcast sharply.
+11
+
+Testing the HVPS
+Measurements:
+We will measure the voltage output of the HVPS with no-load and with the 1 MΩ
+resistors as loads. Adjust the pot on your LVPS so that the output voltage of the LVPS is
+between 1.5V and 12V . Use one of your multimeters to monitor the output voltage of the LVPS
+throughout the following measurements. Set the other multimeter to the l K range and connect
+the leads not at the output of the HVPS but just before the 1 MΩ resistors. (Use the appropriate
+input to the meter, labeled +DC1000 V.)
+1)	 Determine the range of output voltages for the HVPS.
+Now make five measurements of your HVPS between 100V to 1000V with three loads,
+MMM only, the MMM and the two 1 MΩ resistors, and the MMM and one 1MΩ resistor . For
+each setting of the pot:
+2)	 For each setting of the pot, measure the output voltage of the HVPS with your MMM
+(note that the MMM is the only load).
+3)	 Use a clip lead to connect the ends of the two 1 MΩ resistors together so as to put them
+in series across the output of the HVPS. For each setting of the pot, measure the new
+output load voltage of the HVPS.
+4)	 Use a clip lead to put only one of the 1 MΩ resistors as a load across the output of the
+HVPS. For each setting of the pot, measure the new output voltage of the HVPS.
+Record your results in the accompanying data table.
+12
+Data Table for HVPS Problem
+VLVPS VHVPS (no
+load) [V]
+VHVPS (2 MΩ
+load) [V]
+VHVPS (1 MΩ
+load) [V]
+Current HVPS
+(2 MΩ load)
+[I]
+Current HVPS
+(1 MΩ load)
+[I]
+5)	 The multi-meter, on the 1K scale, acts like a resistor with resistance of 20,000Ω/V DC .
+This means that to find the resistance you multiple 20,000Ω/V DC by the full scale
+voltage reading which is 1000V . What is the resistance RMMM of your multi-meter on the
+1K scale?
+6)	 Draw circuit diagrams of your HVPS, the multi-meter and the loads. Is your multi-meter
+in parallel or in series with the load?
+7)	 Is the multi-meter is in parallel or in series with the load equivalent resistance Req ? What
+is the equivalent resistance for loads of 2 MΩ and 1 MΩ loads?
+8)	 Calculate the current output of your HVPS is given by
+Voutput
+I = .
+Req
+9)	 Calculate the current output of your HVPS for each setting of the LVPS pot for both the
+2 MΩ load and 1 MΩ load. Record your results in the last two columns of the data table.
+13
+
+

@@ -1,0 +1,1511 @@
+HARDWARE AND SOFTWARE IMPROVEMENT OF LOW COST
+B-SCAN ULTRASOUND MACHINE
+LIM KHIM KHEUNG
+FACULTY OF ELECTRICAL ENGINEERING
+HARDWARE AND SOFTWARE IMPROVEMENT OF LOW COST B-
+SCAN ULTRASOUND MACHINE
+LIM KHIM KHEUNG
+A thesis submitted in fulfillment of the requirements for the award of the degree
+of Bachelor of Electrical-Electronic Medical Engineering (Electronics)
+Faculty of Electrical Engineering
+Universiti Teknologi Malaysia
+MAY 2011
+ii
+iii
+Specially dedicated to my beloved family and friends
+iv
+ACKNOWLEDGEMENT
+First and foremost, I would like to take the opportunity to offer my sincerest
+gratitude to my final year project supervisor, Mr. Camallil bin Omar for his
+encouragement, guidance and support from the initial to final level enabled me to
+complete this project successfully.
+Besides that, I would like to express my appreciation and gratefulness to other
+lecturers and friends who give their valuable and constructive suggestion especially Dr.
+EkoSupriyanto, Mr. Too Yuen Min and Mr. Tan MengKuan.
+Furthermore, I offer my regards and blessing to all of those who supported me
+in any respect during completion of the project. Last but not least, I would like to
+express my deepest love and thanks to my beloved parents, brother and sister, who give
+their support to me during my four year studies in University Teknologi Malaysia.
+v
+ABSTRACT
+Nowadays, ultrasound machine is widely used in medical sector of every
+country. Compared to other medical imaging modalities like CT-Scan, Magnetic
+Resonance Imaging (MRI) and Positron Emission Tomography (PET), ultrasound
+machine is easier and safer to be used. Besides that, the cost of an ultrasound machine
+is much cheaper than other medical imaging modalities. Hence, many people prefer to
+use ultrasound in imaging diagnosis compare to other medical imaging modalities.
+Currently, there are some low cost B-Scan ultrasound machines exist in the market.
+The price of a low cost B-Scan ultrasound machine is much cheaper than a high cost B-
+Scan ultrasound machine. However, the image quality of a low cost B-Scan ultrasound
+machine might not as good as high cost B-Scan ultrasound machine. Therefore, there is
+a need to develop a system to improve the image quality of a low cost B-Scan
+ultrasound machine. In this project, investigation about the low cost B-Scan ultrasound
+machine had been taken. How a low cost B-Scan ultrasound machine function had been
+observed. Besides that, the image quality of low cost B-Scan ultrasound machine had
+been identified and a system to improve the low cost B-Scan ultrasound machine had
+been developed.
+vi
+ABSTRAK
+Pada masa kini, mesin diagnostik ultrasound banyak digunakan dalam medan
+perubatan di semua negara. Dibandingkan dengan mesin diagnostik lain contohnya,
+CT-Scan, Magnetic Resonance Imaging (MRI) dan Positron Emission Tomography
+(PET), mesin ultrasound lebih senang dan selamat digunakan. Selain daripada itu,
+harga mesin ultrasound lebih murah daripada mesin diagnostik lain. Oleh sebab itu,
+ramai orang lebih suka menggunakan mesin ultrasound kalau dibandingkan dengan
+mesin diagnostik lain. Kini, terdapat banyak mesin ultrasound kos rendah di pasaran.
+Harga mesin ultrasound B-Scan kos rendah sangat murah jika dibandingkan dengan
+mesin ultrasound B-Scan kos tinggi. Tetapi, qualiti gambar mesin ultrasound B-Scan
+tidak standing dengan mesin ultrasound B-Scan kos tinggi. Oleh sebab itu, system
+untuk menaikkan qualiti gambar mesin ultrasound B-Scan kos rendah adalah
+diperlukan. Dalam project ini, mesin ultrasound B-Scan kos rendah dikaji dan
+bagaimana mesin ultrasound B-Scan kos rendah berfungsi diperhatikan. Selain
+daripada itu, qualiti gambar mesin ultrasound B-Scan kos rendah disemak dan system
+untuk menaikkan quality mesin ultrasound B-Scan kos rendah dicipta.
+vii
+TABLE OF CONTENT
+CHAPTER TITLE PAGE
+1
+2
+DECLARATION OF THESIS
+DEDICATION
+ACKNOWLEDGEMENT
+ABSTRACT
+ABSTRAK
+TABLE OF CONTENT
+LIST OF TABLES
+LIST OF FIGURES
+LIST OF ABBREVIATIONS
+LIST OF APPENDICES
+INTRODUCTION
+1.1 Introduction
+1.2 Problem Statement
+1.3 Background of study
+1.4 Objectives
+1.5 Scopes of Project
+1.6 Report Outline
+LITERATURE REVIEW
+2.1 Introduction
+2.2 Design of Portable Low Cost Ultrasound
+Machine
+2.3 Image Quality
+ii
+iii
+iv
+v
+vi
+vii
+x
+xi
+xiii
+xiv
+1
+2
+3
+4
+4
+5
+6
+7
+9
+viii
+3
+4
+5
+6
+2.4 Noise Reduction
+2.5 Image Coloring
+2.6 Data Saving
+METHODOLOGY
+3.1 Introduction
+3.2 Flow Chart
+3.3 Work Breakdown
+DESIGN AND IMPLEMENTATION
+4.1 Introduction
+4.2 Hardware Implementation
+4.3 Block Diagram
+4.4 Casing Design
+4.5 Software Design
+4.6 Patient Data
+4.7 Noise Reduction
+4.8 Image Coloring
+4.9 Graphical User Interface
+RESULT AND ANALYSIS
+5.1 Introduction
+5.2 Preliminary Image Quality Testing
+5.3 Image Quality Testing After Noise Reduction
+5.4 Image Quality Testing After Image Coloring
+CONCLUSION AND RECOMMENDATION
+6.1 Conclusion
+6.2 Recommendation
+10
+11
+12
+13
+14
+16
+19
+20
+22
+25
+27
+27
+28
+29
+31
+34
+35
+36
+38
+41
+42
+ix
+REFERENCES 43
+Appendices A - D 44 - 61
+x
+LIST OF TABLES
+TABLE
+NO.
+TITLE PAGE
+4.1 Technical specification of VGS 1000-1. 21
+xi
+LIST OF FIGURES
+FIGURE
+NO.
+TITLE PAGE
+2.1
+2.2
+3.1
+3.2
+4.1
+4.2
+4.3
+4.4
+Block diagram of a programmable low cost
+ultrasound machine.
+Gray scale color palette.
+Flow diagram for my final year project.
+Chart of work breakdown.
+Ultrasound scanner VGS1000-01.
+Block diagram of low cost B-Scan
+ultrasound machine after improvement.
+Photo of power supply board.
+Photo of control board.
+8
+11
+15
+18
+20
+22
+23
+24
+4.5
+4.6
+4.7
+4.8
+4.9
+4.10
+4.11
+Photo of output board.
+Image of new casing from in front.
+Image of new casing before install
+anything.
+Image of new casing from behind.
+Image of new casing from behind after
+install circuit board.
+Figure of patient data in Microsoft Access.
+Color palette of gray scale.
+24
+25
+25
+26
+26
+28
+29
+4.12
+4.13
+4.14
+4.15
+Color palette of RGB.
+Color palette for 3D fetus image.
+Color palette for inverse 3D fetus image.
+GUI of Patient Data.
+30
+30
+30
+31
+xii
+4.16 GUI of scan part. 32
+4.17
+5.1
+5.2
+5.3
+5.4
+5.5
+5.6
+5.7
+5.8
+5.9
+GUI of report part.
+Image of tissue mimicking phantom.
+Image of fetal phantom.
+Original ultrasound image before noise
+reduction.
+Ultrasound image after noise reduction
+with iteration value 1.
+Ultrasound image after noise reduction
+with iteration value 5.
+Ultrasound image after noise reduction
+with iteration value 10.
+Ultrasound image after RGB color palette
+coloring.
+Ultrasound image after 3D fetus color
+palette coloring.
+Ultrasound image after inverse 3D fetus
+color palette coloring.
+33
+35
+35
+36
+37
+37
+38
+39
+39
+40
+xiii
+LIST OF ABBREVIATION
+CT -
+C# -
+DICOM -
+GUI -
+IC -
+ICOV -
+JPEG -
+MRI -
+PACS -
+RGB -
+USB -
+3D -
+Computed Tomography
+C Sharp
+Digital Imaging and Communications in Medicine
+Graphical User Interface
+Identity Card
+Instantaneous Coefficient of Variation
+Joint Photographic Experts Group
+Magnetic Resonance Imaging
+Picture Archiving and Communication System
+Red, Green, Blue
+Universal Serial Bus
+3 Dimension
+xiv
+LIST OF APPENDICES
+APPENDIX TITLE PAGE
+A
+B
+C# Source Code for Patient Data Storing
+C# Source Code for Scanning and Image
+Processing
+44
+47
+C C# Source Code for Report Update 59
+CHAPTER 1
+PROJECT OVERVIEW
+1.1 Introduction
+In the modern day, ultrasound machine become a most widely used diagnostic
+tool in medical sector. Ultrasound is used to diagnosis the soft tissue in our body like
+muscle, tendon, and many other internal organs. Ultrasound is safer and easier to use
+because it is just transmit sound wave and receive it back without any radioactive
+material.
+Ultrasound is cyclic sound pressure with a high frequency that above human
+hearing. Hence, normal human cannot hear the ultrasound due to the limitation of the
+middle ear, which acts as a low pass filter. Middle ear let the sound that low frequency
+pass and block the high frequency sound. The audible range of sound for human is 20
+Hz-20 kHz while ultrasound frequency is greater than 20 kHz.
+Normally, the typical diagnostic sonographic scanners operate in the frequency
+range of 2 to 18 MHz, though frequencies up to 50-100 MHz has been used
+experimentally in a technique known as biomicroscopy in special regions like the
+anterior chamber of eye.
+2
+Sonography is very effective for imaging the soft tissue of the body.Sonography
+can provides better axial and lateral resolution for muscles, tendons, testes, breast and
+neonatal brain with using frequency 7-18 MHz.For some deeper structures like liver
+and kidney, a lower frequency 1-6 MHz is used. Even the axial and lateral resolution is
+lower, but the penetration is greater.
+1.2 Problem Statement
+Over the years, many researches had been done to improve the technology of
+ultrasound machine. Many designs had been created to more user friendly to user.
+Some low cost ultrasound machine designs are portable and user friendly to user.
+However, most of the low cost ultrasound machines have a main problems and
+limitation which are image quality very low.
+Normally, in the images of ultrasound machine have a lot of noises. The noises
+are unwantedresult, and it will influence the observation of radiologists or doctors.If the
+radiologists or doctors give the wrong diagnosis to patients, it is very danger to
+patients.Normally, the noises can be categorized into few types, which are speckles and
+artifacts.
+Speckles that occur in most of the medical imaging modalities are the noises
+that appear because of interference of energy or wave. Normally, speckles pattern are
+the random intensity pattern. This phenomenon was investigated by many scientists
+since the time of Newton. The noises of speckles are unwanted. However, its texture
+carries important information about the tissue being imaged.
+3
+Artifacts are the echoes that appear on the sonographic image which do not
+correspond with location, intensity or actual interface with patients. Normally, artifacts
+appear in the patterns of lines or dots.
+Currently, many researches are carried out to improve the low cost ultrasound
+machine including improve the resolution and decrease the noise.
+1.3 Background of Study
+There are some different modes of ultrasound used in medical imaging. There
+are 2 main modes which are A-mode (amplitude) and B-mode (brightness). A-mode
+scan ultrasound is the simplest type of ultrasound. A-mode scan ultrasound use a single
+transducer scans a line through the body with echoes and display out what it scan
+without telling the actual length or where the echoes bound off. For the B-mode scan
+ultrasound, a linear array of transducers simultaneously scans a plane through the body
+that can be view as a two-dimensional (2D) image on screen.
+In my project, I decide to improve the hardware and the software of a B-mode
+scan low cost ultrasound machine. The price for a B-Scan low cost ultrasound machine
+is about USD 1,000. It is much cheaper than high cost ultrasound machine which is
+about USD 50,000.
+4
+1.4 Objectives
+The objective of my final year project is to reverse engineering about a low cost
+B-Scan ultrasound machine. Investigation about how a low cost B-Scan ultrasound
+machine function had done. Besides that, the low cost B-Scan ultrasound machine
+image quality is not good enough. Hence, my next objective is to improve the hardware
+and software of a low cost B-Scan ultrasound machine.
+1.5 Scopes of Project
+The scope of my final year project is to concentrate on a low cost B-Scan
+ultrasound machine. In my project, the reverse engineering about how low cost B-Scan
+ultrasound machine function had been done. After that, the unused parts of the
+hardware were eliminated and replaced with some better parts. Then, the hardware had
+been miniature so that it will be more portable. Lastly, software was designed to reduce
+the noise using C# in Visual Studio.
+5
+1.6 Report Outline
+Chapter 1 mentions the introduction of the report. This chapter includes an
+overview of low cost ultrasound machine, problem statements, project objectives and
+scoped of the project.
+Chapter 2 discusses about the literature review that related to how a low cost
+ultrasound machine function and concept of ultrasound image quality. Noise reduction
+also discusses in this chapter.
+Chapter 3 describes about the methodology taken in my project. It includes the
+flow diagram and the breakdown chart.
+Chapter 4 mentions about the system designed implementation and the
+description for the hardware and the software approach used in the project.
+Chapter 5 shows the preliminary results in my project and the testing that I had
+done in my project.
+Chapter 6 describes the work that had been done in PSM 1 and the plan to do in
+PSM 2.
+CHAPTER 2
+LITERATURE REVIEW
+2.1 Introduction
+In this chapter, some theories that had been studied will be discussed and
+explained. All these concepts are very useful in completing the project.
+In this section, we will discuss briefly about the design of low cost ultrasound
+machine, image quality, noise reduction, image coloring and data saving. All this terms
+are important in this project.
+7
+2.2 Design of Portable Low Cost Ultrasound Machine
+Nowadays, many portable low cost ultrasound machines have been invented
+and exist in market. Users prefer to use smaller and lighter ultrasound machine because
+it is more convenient. Portable low cost ultrasound machine is the low cost ultrasound
+machine which can take by hand to use in everywhere.
+Based on the conference papers ofA Single Mediaprocessor-Based
+Programmable Ultrasound System, published bySiddhartha Sikdar, Ravi Managuli,
+Lixin Gong, Vijay Shamdasani,Tsuyoshi Mitake, Tetsuya Hayashi, and Yongmin Kim,
+many low cost ultrasound machines in market do not meet the requirement of
+flexibility and adaptability.[1]
+They design a new programmable low cost ultrasound machine with is more
+portable, flexibility and adaptability. The programmable low cost ultrasound system
+block diagram is shown as below.
+8
+Figure 2.1: Block diagram of a programmable low cost ultrasound machine.
+From the block diagram, we can know that beam former create sound wave to
+transducer and transducer transmit the sound wave to the patients and receive back.
+After that, the sound wave back to the beam former and go to RF demodulator to
+process.
+Then, a simple image processing will take place based on the image that was
+captured from the ultrasound machine. At last, the processed image will be shown on
+the display on the screen of the ultrasound machine.
+Scan
+Conversion
+Transducer
+Beam
+Former
+RF
+Demodulator
+B-mode
+Processing
+Color-Flow
+Processing
+M-mode
+Processing
+Doppler
+Processing
+Tissue
+Flow
+Division
+Display
+9
+2.3 Image Quality
+The term of “image quality” is very subjective. The image quality is based on
+personal perception of the person who sees on the image. The image quality is very
+important in determining an ultrasound machine quality. However, due to many aspects
+of quality, as perceived by human viewer, are difficult to define qualitatively.
+Hence, some image quality factors have been carried out to determine the image
+quality of an image. The image quality factors are sharpness, noise, contrast, brightness,
+distortion, color accuracy, and exposure accuracy.[2]
+Due to the image of low cost B-Scan ultrasound machine is just gray scale, so
+the image quality of a low cost B-scan ultrasound just considers the sharpness, noise,
+contrast and brightness. [9]
+There is some ways to improve the image quality. One of the ways is noise
+reduction. Noise reduction will reduce the noise that appear in the image of low cost B-
+Scan ultrasound machine and smooth the image. Without the noise, the image will be
+clearer. [3]
+Besides noise reduction, gray scale image also can fill in color so that become
+RGB image. In the RGB images, the details in the images can be shown out clearer. It
+is because the gradients of color in black and white already change become the gradient
+color with different color. Even small difference in image can be easily noticed if the
+gray scale image had changed become RGB image.
+10
+2.4 Noise Reduction
+Basically, there is a main problem or limitation for ultrasound diagnostic
+imaging which is inherent presence of noise. Due to the presence of noise, the
+diagnostic image might be not clear. The radiologist or doctor might give wrong
+diagnosis to the patients. This will cause the patients to be very dangerous. [7]
+According to the paper of Automatic Image Quality Monitoring System for
+Low Cost Ultrasound Machine which written by E. Supriyanto, E.X. Lau and S.C.
+Seow, there are two types of noise exist in ultrasound image which are speckles and
+artifacts.[11]
+Speckles that occur in most of the medical imaging modalities are the noises
+that appear because of interference of energy or wave. [10]Normally, speckles pattern
+are the random intensity pattern. This phenomenon was investigated by many scientists
+since the time of Newton. The noises of speckles are unwanted. However, its texture
+carries important information about the tissue being imaged.[5]
+Artifacts are the echoes that appear on the sonographic image which do not
+correspond with location, intensity or actual interface with patients. Normally, artifacts
+appear in the patterns of lines or dots. [6]
+11
+2.5 Image Coloring
+Ultrasound image is gray scale image. The color in the low cost B-Scan
+ultrasound image is just has black and white. In the gray scale image, the histrogram of
+the black and white is from 0 to 255. Black color is 0 and become brighter and brighter
+and at last 255 is white.[8]
+Figure 2.2: Gray scale color palette.
+Sometimes, in a gray scale image, the details will be hard to identify due to only
+black and white color. To improve an image, we can try to color the gray scale image
+to make the image become Red, Green, blue (RGB) image. Gray scale image can
+enhanced become RGB image with using histrogram distribution method. A color
+palette can be design to replace the gray scale color from 0 to 255.
+The RGB image is clearer and easy to differentiate the small difference of
+gradient in color. With that, doctor or radiologist can detect the sickness easier and
+faster. Patients can get correct treatment and recover faster.
+12
+2.6 Data Saving
+Nowadays, most of the medical modalities can save the medical images to the
+network. The electronic picture archiving and communication system (PACS) is used
+in medical field for storage and retrieval of medical images from multiple imaging
+modalities. Medical images will converted to electronics images before transmitted
+digitally via PACS. With PACS, doctors and radiologists no need retrieving and storing
+the data manually. [4]
+PACS contains four main parts which are imaging modalities, a network for
+transmission of patient data, workstations for interpreting and reviewing images and
+archives for the storage and retrieval of images and medical data. Besides that, PACS
+also can share the data using internet. This is very helpful for doctors to share their
+patient information when the patients change hospital.
+For low cost B-Scan ultrasound machine, doctors and radiologists can only
+direct scan and show to the patients. Doctors and radiologists cannot save the
+ultrasound images and print out the images.This will be a big problem for doctors and
+radiologist because they cannot refer back the patient history images.
+To solve this problem, the new system in this project able to save the ultrasound
+image as Joint Photographic Experts Group (JPEG). Besides that, doctors also can save
+the patient data and also the comments to patients in the software. This is very helpful
+for next treatment of patient.
+CHAPTER 3
+RESEARCH METHODOLOGY
+3.1 Introduction
+In this chapter, all the progresses of the study will be discussed. In previous
+chapter, the information about ultrasound machine, image quality of ultrasound
+machine and other important terms are well explained.
+This chapter will concentrate on how we implement the hardware and software
+improvement on the ultrasound machine. After that, some testing will be done on the
+machine to make sure the machine working well.
+14
+3.2 Flow Chart
+The flow diagram as shown in Figure 3.1 shows the process flow of my project.
+All the processes in the flow diagram are important in completing the project. Every
+step in the flow diagram needs to be followed step by step.
+First of all, I study do the literature review which is related to my title so that I
+can more understand about the project I am going to do. Next, the image quality
+checking was done. The image quality of the low cost ultrasound and high cost
+ultrasound were compared. Then, the reverse engineering was done. A low cost
+ultrasound machine was opened up and the circuit inside it was checked and studied.
+After that, hardware improvement was carried out. The unused parts were eliminated
+and replaced with better parts. Then, the hardware was miniature. Furthermore, a new
+casing design was done to put in the components after improvement. Moreover,
+software had been developed to reduce the noise of ultrasound machine and improve
+the image quality.
+After completing all the improvement of hardware and software of low cost
+ultrasound machine, a test need to be carried out. The result of the image quality before
+improvement and after improvement was checked. Next, optimization was done to
+finalize the project. Last but not least, the final year project report was done.
+15
+Figure 3.1: Flow diagram for my final year project.
+LITERATURE
+REVIEW
+IMAGE QUALITY
+CHECKING
+HARDWARE
+REVERSE
+ENGINEERING
+HARDWARE
+IMPROVEMENT
+AND MINIATURE
+NEW CASING
+DESIGN
+SOFTWARE DESIGN
+TESTING
+OPTIMIZATION
+REPORT WRITING
+16
+3.3 Work Breakdown
+The work breakdown chart of my project is shown in Figure 3.2. The main
+process in completing the project can be divided into study, design and implementation.
+Study is the continuous process throughout the project, from the beginning of
+the project until the end of the project. At the beginning of the project, a lot of study
+had been done. First of all, the principle of low cost ultrasound function had been
+studied. Besides that, the study about the block diagram of low cost ultrasound machine
+and ultrasound scanning mode also had been carried out.
+On the other hand, the concept of image quality testing method is being studied
+too. The concept of image quality testing is important because we need to compare the
+image before and after improvement. Several main parameters or indicators are studied.
+Moreover, hardware architecture of image processing is studied also. Hardware
+architecture of image processing is important when I want to improve the hardware of
+low cost B-Scan ultrasound machine.
+Most of the study resources are obtained from internet. Nowadays, the latest
+technologies and information can be easily obtained from internet. Besides that,
+journals and articles which are related to my project can be downloaded from internet
+for references. Other source of information is the books. The books in university library
+are very useful in providing the information.
+The design part is the core of this project. The design part can be divided into
+two parts which are hardware design and software design. For the hardware design, the
+block diagram of the replacement part is designed by referring the information
+available. The components replaced are based on the specifications stated in the
+datasheet and recommendations from other professionals.
+17
+For the software part, the C# in visual studio is chosen to use to improve the
+image quality. Source code in C# was developed and applied in image processing. The
+image processing part includes change the ultrasound image to gray scale, noise
+reduction and coloring the ultrasound image.
+Lastly, the implementation of the additional system which consist hardware and
+software is done. The hardware part is replaced with better components and then
+software coding is developed in C#. After completing both hardware and software, the
+software part is installed into the hardware. Finally, the low cost B-Scan ultrasound
+machine with better quality is created.
+18
+Figure 3.2: Chart of work breakdown.
+Main Processes
+Study Design Implementation
+ Principle of low
+cost ultrasound
+function
+ Block diagram
+of low cost
+ultrasound
+machine
+ Ultrasound
+scanning mode
+ Concept of
+image quality
+testing method
+ Hardware
+architecture of
+image
+processing
+ Replacement
+system block
+diagram
+ Additional
+hardware
+architecture
+ Software
+algorithm
+ Software coding
+ Image quality
+testing method
+ Software
+simulation
+ Additional
+hardware
+ Software
+loading
+ Image quality
+testing
+CHAPTER 4
+DESIGN AND IMPLEMENTATION
+4.1 Introduction
+This chapter will concentrate on how we implement the hardware and software
+improvement on the ultrasound machine. After that, some testing will be done on the
+machine to make sure the machine working well.
+This chapter will include hardware design and also software design to improve
+the low cost B-Scan ultrasound machine.
+20
+4.2 Hardware Implementation
+In this project, a low cost B-Scan ultrasound machine was bought from China
+and the parts was use to improve. The model of low cost B-Scan ultrasound machine
+(VGS 1000-1) is chosen to use in this project. The VGS 1000-1 ultrasound is
+manufactured by Chengdu Vigorous Science & Technology Co. Ltd.Table 4.1 shows
+the technical specifications.
+Figure 4.1: Ultrasound scanner VGS1000-01.
+21
+Table 4.1: Technical specifications of VGS 1000-1.
+Model VGS1000
+Standard probe Mechanical sector
+3.5 MHz mechanical sector probe
+Display depth (mm) ≥200
+Resolution (mm) Lateral ≤3 (depth ≤ 80mm)
+≤4 (80mm<depth≤130mm)
+Axial ≤2 (depth ≤ 80mm)
+≤3 (80mm<depth≤130mm)
+Dead zone (mm) ≤7
+Geometry precision
+(%)
+Horizontal ≤15
+Vertical ≤10
+Monitor screen 7 inch
+Display mode B, B+B, B+M, M
+Image grey scales 256 scales
+Magnification X1.0, X1.2, X1.5, X2.0
+Image reverse Black/white, up/down
+Zoom 2 times
+Depth shift B, B+B modes real time shift
+Frame correlation B, B+B modes 3 levels
+Measurement function Distance, circumference, area, heart rate,
+pregnant week, EDD
+Annotation Date, patient ID, age, sex
+Body mark 7 types
+Video out PAL-D
+Input power (VA) 70
+Dimensions (length x width x height) 353mm x 315mm x 253mm
+22
+4.3 Block Diagram
+Figure 4.2: Block diagram of low cost B-Scan ultrasound machine after improvement.
+Input Board
+Transducer
+Control Board
+Keyboard
+Video Output
+Computer System
+LCD Screen
+Power Supply
+Board
+Fan
+EMI Filter
+Input Voltage
+23
+After reverse engineering procedures, I manage to design a new simple block
+diagram of my low cost B-Scan ultrasound machine with some improvements. Due to
+the low resolution and the size of display screen of CRT is small (8 inches),I had
+replaced a LCD screen (12 inches) to the low cost B-Scan ultrasound machine. Besides
+that, I also add a computer system inside so that the image processing can be done
+using the computer system.
+The block diagram shown in Figure 4.2 shows the simple block diagram of a
+low cost B-Scan ultrasound machine after improvement.Besides that, there are 3
+important boards that need to be used in this project.
+Figure 4.3 is a power supply board. The power supply board has a transformer
+to convert the power input to a suitable power which is needed in the ultrasound
+machine. If the input voltage is too high, the power supply board will block the power
+by using a fius as protection.
+Figure 4.3: Photo of power supply board.
+24
+Figure 4.4 is a control board use to control the ultrasound image output. The
+control board will directly connect to control keyboard which can use to control the
+function of low cost ultrasound machine.
+Figure 4.4: Photo of control board.
+Figure 4.5 is an output board that will create output image after some digital
+image processing.
+Figure 4.5: Photo of output board.
+25
+4.4 Casing Design
+After improving the hardware and miniature assemblies, I had design a new
+casing for the low cost B-Scan ultrasound machine. The casing design is using the
+software Rhinoceros. Figure 4.6, Figure 4.7, Figure 4.8 and Figure 4.9 are the images
+of my new casing design.
+Figure 4.6: Image of new casing from in front.
+Figure 4.7: Image of new casing before install anything.
+26
+Figure 4.8: Image of new casing from behind.
+Figure 4.9: Image of new casing from behind after install circuit board.
+27
+4.5 Software Design
+In this study, C sharp (C#) in visual studio had been chosen to be use in the low
+cost B-Scan ultrasound machine. It is because C# is easy to use. However, C# does not
+have any image processing library in Visual Studio. Hence, extra libraries had to be
+added into visual studio before do the programming.
+The image processing library I had added are OpenCV and Emgu.CV. With
+these 2 libraries, image processing and real time vision in computer system can be done.
+There are three important steps in the software. First step is insert patient data.
+Second step is ultrasound image processing. Third step is update the patient report.
+4.6 Patient Data
+In this step, a Graphical User Interface (GUI) is design to let the patient to insert
+their information. Patients have to key in their data and the system will save the patient
+data in Microsoft Access. The data that need to key in are patient name, Identity Card
+(IC) number, date of birth, address and contact number.
+The designed software will automatically insert the patient data into the
+Microsoft Access file and save it. It using data binding table to save all the data. When
+doctors and radiologists want to check the patient data, they can direct access from the
+software. Figure 4.10 shows the Microsoft Access table.
+28
+Figure 4.10: Figure of patient data in Microsoft Access.
+4.7 Noise Reduction
+In the image processing part, one of the parts is noise reduction. There are a lot
+of noises in the ultrasound image captured from low cost B-Scan ultrasound machine.
+After review some researches that had been done, robust diffusion method had been
+chosen to be used in this project. It is because this filtering method will filter out the
+noise in the ultrasound image and preserve the sharpness of the edge in the image.
+Besides that, this method can make the ultrasound images more contrast.
+Mathematically, the edge preserving is done by equation 1 which known as
+instantaneous coefficient of variation (ICOV)
+29
+( ) √
+( )(
+| |
+) ( )( )
+[ ( )( )]
+(1)
+where I is input image, is gradient operator, | denotes the magnitude. In this function,
+the edge is shown in high value while homogeneous region shown in low value.
+4.8 Image Coloring
+After the image was enhanced with noise filtering, the ultrasound image can be
+colored. Low cost B-Scan ultrasound image is just gray scale. Human eye is hard to
+differentiate the gradient of black and white very sharp. To let the image can be shown
+sharper, the software can color the gray scale image become RGB image. This can help
+the user to see clearer image and identify the details in the ultrasound images.
+Figure 4.11: Color palette of gray scale.
+Figure 4.11 shows the color palette of gray scale which is being used in the
+ultrasound machine.
+30
+Figure 4.12: Color palette of RGB.
+Figure 4.12 shows the color palette of RGB which is chosen to use in the
+software.
+Figure 4.13: Color palette for 3D fetus image.
+Figure 4.13 shows the color palette for 3 dimension (3D) fetus image which is
+chosen to use in the software.
+Figure 4.14: Color palette for inverse 3D fetus image.
+Figure 4.14 shows the color palette for inverse 3 dimension (3D) fetus image
+which is chosen to use in the software.
+For coloring the image, user can choose one of these color palettes to
+implement in the gray scale image in low cost B-Scan ultrasound machine.Each of
+these color palettes has their own function.
+31
+For RGB color palette, user can use to detect the small gradient in gray scale.
+For 3D fetus color palette, user can use for fetus screening. If the doctors and
+radiologists cannot see clear enough, inverse 3D fetus color palette can be used.
+4.9 Graphical User Interface
+In the software C#, a simple Graphical User Interface (GUI) is created so that
+more user friendly. Figure 4.15, Figure 4.16 and Figure 4.17 are the GUI that created
+using C#.
+Figure 4.15: GUI of Patient Data.
+For Figure 4.15, users need to insert the patient data. After finish inserting
+patient’s data, usersneed to press Save button to save the data. After that, users can
+proceed to the Scan part by pressing the Scan button.
+32
+Figure 4.16: GUI of scan part.
+In Figure 4.16, users can either insert image that saved before or direct capture
+image from ultrasound machine. The image will come out in the Original Image
+column. After that, user can do some noise reduction and coloring. The processed
+image will be shown in the column Enhanced Image. For the inexperience doctors and
+radiologists, they can insert some reference image before capture the image from
+ultrasound. The reference image will be shown in the column Reference Image. After
+enhanced the image, users can save the image as a JPEG file.
+33
+Figure 4.17: GUI of report part.
+Figure 4.17 is the GUI for report part. After scanning, the doctors and the
+radiologists can insert the comments for the patients. The comments are very important
+especially for the patients that need a continuous treatment. After inserts the comments,
+the data will be updated and save as patients history. Users can refer back when the
+patients take next treatment.
+CHAPTER 5
+TESTING AND RESULTS
+5.1 Introduction
+In this chapter, some of the test results and analysis will be done. This chapter
+will show out the results that were obtained from the hardware and software
+improvement.
+This chapter includes preliminary image quality testing, image quality testing
+after noise reduction and also image quality testing after coloring.
+35
+5.2 Preliminary Image Quality Testing
+There is some preliminary tests had been carried out to test the images of low
+cost ultrasound machine and the high cost ultrasound machine. From the image of
+Figure 5.1and Figure 5.2, we can see the difference between low cost ultrasound
+machine image quality and high cost ultrasound image quality.
+Figure 5.1: Image of tissue mimicking phantom.
+From the image of tissue mimicking phantom, the low cost ultrasound image
+have a lot of noise around the measurement point. However for the high cost ultrasound
+image, the image is very clear and do not have noise around the measurement point.
+Figure 5.2: Image of fetal phantom.
+Low cost ultrasound image High cost ultrasound image
+Low cost ultrasound image High cost ultrasound image
+36
+From the image of fetal phantom, the low cost ultrasound image has a lot of
+speckles noise under the fetal while the speckles noise in the high cost ultrasound
+machine already smoothen out.
+5.3 Image Quality Testing After Noise Reduction
+After the software enhanced the low cost B-Scan ultrasound image, the noises
+in ultrasound image will be smoothen. Besides that, the edge inside the ultrasound
+image is preserved sharp. The contrast of the ultrasound image becomes stronger.
+Figure 5.3 show the original ultrasound image before noise reduction. Figure 5.4,
+Figure 5.5 and Figure 5.6 shows the enhanced ultrasound with using different number
+of iteration.
+Figure 5.3: Original ultrasound image before noise reduction.
+37
+Figure 5.4: Ultrasound image after noise reduction with iteration value 1.
+Figure 5.5: Ultrasound image after noise reduction with iteration value 5.
+38
+Figure 5.6: Ultrasound image after noise reduction with iteration value 10.
+From Figure 5.4, Figure 5.5 and Figure 5.6, we can see that the noise become
+smoothen. The contrast on the edge also becomes stronger. The image quality is
+improved. However, if the number of iteration is too high, the ultrasound image will
+become blurred. Hence, a suitable number of iteration should be chosen.
+5.4 Image Quality Testing After Image Coloring
+After noise reduction, ultrasound image can be colored. With the different color
+palette, the ultrasound image will also different. Figure 5.7, Figure 5.8 and Figure 5.9
+are the image coloring using different color palette.
+39
+Figure 5.7: Ultrasound image after RGB color palette coloring.
+Figure 5.8: Ultrasound image after 3D fetus color palette coloring.
+40
+Figure 5.9: Ultrasound image after inverse 3D fetus color palette coloring.
+Different color palette can use for different situation. Users can choose the most
+suitable color palette when using this software.
+CHAPTER 6
+CONCLUSION
+6.1 Conclusion
+In the first semester, I had done the literature reviews which are related with my
+project. Besides that, I had improved the hardware of low cost B-Scan ultrasound
+machine. I had eliminated the 8 inches CRT screen and replaced it with 12 inches LCD
+screen so that the display is bigger and clearer. After that, I also designed a new
+hardware casing which can install all the components inside it. The casing is smaller so
+the low cost B-Scan ultrasound machine becomes more portable.
+In the second semester, I concentrated on design software using C# in visual
+studio to improve the image quality of the low cost B-Scan ultrasound machine. The
+software can reduce the noise of the ultrasound image and coloring the ultrasound
+image so that the image is better for diagnostic.Besides that, the images can be saved.
+Users can refer the patients history and image when next treatment.
+Finally, my project is completed successfully. The objectives of the project are
+achieved.
+42
+6.2 Recommendation
+For future study, a system that can direct save the data online can be done. This
+will help the doctors from different department or hospital to get the patient data easier.
+Besides that, improvement can be done on the coloring parts. A system that can
+direct coloring out the ultrasound image based on the tissue is needed. As example, the
+system can direct identify out the tumor and coloring it.
+43
+REFERENCES
+[1] Siddhartha Sikdar, Ravi Managuli, Lixin Gong, Vijay
+Shamdasani,Tsuyoshi Mitake, Tetsuya Hayashi, and Yongmin Kim ,“ A
+Single Mediaprocessor-Based ProgrammableUltrasound System”, IEEE
+Transactions on Information Technology in Biomedicine, Vol. 7, No. 1,
+March 2003
+[2] Andreas Pommert et al,“Evaluation of Image Quality in Medical Volume
+Visualization”, The State Of The Art. MICCAI, 2002
+[3] J. C. Bamber and C. Daft.“Adaptive filtering for reduction of speckle in
+ultrasonic pulse-echo images”,Ultrasonics, pages 41-44, 1986.
+[4] S Bryan, GC Weatherburn, JR Watkins and MJ Buxton. The benefits of
+hospital- wide picture archiving and communication systems: a survey of
+clinical users of radiology services. The British Journal of Radiology, Vol
+72, Issue 857 469-478, 1999
+[5] EhsanNadernejad, Mohammad Reza Karami, “Despeckle Filtering in
+Medical Ultrasound Imaging”, Contemporary Engineering Sciences, Vol.
+2, 2009, no. 1, 17 - 36
+[6] D. C. Liu, “System and method for adaptive filtering of images based on
+similarity between histogram,” U.S. Patent 5,594,807, Jan. 14, 1997.
+[7] P. Perona and J. Malik, “Scale space and edge detection using anisotropic
+diffusion,” IEEE Trans. Pattern Anal. Machine Intell., vol. 12, pp. 629–
+639, 1990.
+[8] Dong Liu, Stephen Czenszak, Jin Kim, “Adaptive Speckle Reduction with
+Color Transparancy Display”, 1998 IEEE Ultrasonics Symposium - 1611
+[9] Riccardo Carotenuto, Member, IEEE, Gabriele Sabbi, and Massimo
+Pappalardo, Member, IEEE.AUGUST 2002. Spatial Resolution
+Enhancement of Ultrasound Images Using Neural Networks
+[10] Marwan M.AbdEllah, Alaa’A. Megawer, Dr. Yasser M. Kadah. Software
+Development for Low Cost,High Quality, Real-time 4D Ultrasound
+Imaging System on Personal Computers (PCs)
+[11] E. Supriyanto, E. X. Lau, S. C. Seow Shenzhen, China, May 30-31, 2008.
+Automatic Image Quality Monitoring System for Low Cost Ultrasound
+Machine
+44
+APPENDIX A
+C# Source Code for Patient Data Storing
+45
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.Data.OleDb;
+namespaceHWandSWImprovementOfUS
+{
+public partial class PatientData : Form
+{
+privateOleDbConnectionpatientdata;
+publicPatientData()
+{
+InitializeComponent();
+patientdata = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data
+Source=C:\\Users\\LIM KHIM KHEUNG\\Documents\\Visual Studio
+2010\\Projects\\HWandSWImprovementOfUS\\HWandSWImprovementOfUS\\patientdata.accdb");
+}
+private void button1_Click(object sender, EventArgs e)
+{
+Scan Scan = new Scan();
+Scan.Show();
+}
+private void PatientData_Load(object sender, EventArgs e)
+{
+// TODO: This line of code loads data into the
+'patientdataDataSet.patientdata' table. You can move, or remove it, as needed.
+this.patientdataTableAdapter.Fill(this.patientdataDataSet.patientdata);
+}
+private void buttonSave_Click(object sender, EventArgs e)
+{
+OleDbCommandcmd = new OleDbCommand();
+cmd.CommandType = CommandType.Text;
+cmd.CommandText = ("insert into patientdata (FULLNAME, ICNO,Birth, Address,
+Contact)Values('" + comboBoxName.Text + "', '" + textBoxIC.Text + "', '" +
+textBoxBirth.Text + "', '" + textBoxAddress.Text + "', '" + textBoxContact.Text + "' )");
+cmd.Connection = patientdata;
+patientdata.Open();
+cmd.ExecuteNonQuery();
+patientdata.Close();
+MessageBox.Show("Data Saved, Please Proceed For Scanning.", "Save", MessageBoxButtons.OK,
+MessageBoxIcon.Exclamation);
+}
+46
+private void buttonReport_Click(object sender, EventArgs e)
+{
+Report Report = new Report();
+Report.Show();
+}
+}
+}
+47
+APPENDIX B
+C# Source Code for Scanning and Image Processing
+48
+using System;
+using System.Collections.Generic;
+using System.Drawing.Imaging;
+using System.Runtime.InteropServices;
+using System.Drawing.Drawing2D;
+using System.ComponentModel;
+using System.Data;
+using System.IO;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using OtherLibs;
+using CxCore;
+using Cv;
+using Emgu.CV;
+using Emgu.Util;
+using Emgu.CV.Structure;
+using Emgu.CV.CvEnum;
+namespaceHWandSWImprovementOfUS
+{
+public partial class Scan : Form
+{
+privatebool _captureInProgress = true;
+//private IplImage frame = cxcore.CvCreateImage(new CvSize(257, 257),
+(int)cxtypes.IPL_DEPTH_8U, 3);
+//IplImage temp = cxcore.CvCreateImage(new CvSize(257,257),
+(int)cxtypes.IPL_DEPTH_8U, 3);
+// private CvCapturevideoCapture;
+private Capture videoCapture;
+private string patientName;
+//private Point LocalMousePosition;
+privateOtherLibs.highgui.OnMouseCallbackonMouse;
+privateCvRect box;
+privatebooldrawing_box = false;
+privateDialogResult result; // result for choosing the uniform speckle
+privatebool draw = false;
+privateuint[] imageShow = new uint[257 * 257];
+private string dir = Path.GetDirectoryName(Application.ExecutablePath);
+public string receivePatientName
+{
+set { patientName = value; }
+}
+49
+public Scan()
+{
+InitializeComponent();
+onMouse = new OtherLibs.highgui.OnMouseCallback(OnMouse);
+}
+private void processFrame(object sender, EventArgsarg)
+{
+//IplImage frame;
+//frame = GetCurrentImage(false);
+//IplImage image = highgui.CvQueryFrame(ref videoCapture);
+Image<Bgr, Byte>videoFrame = videoCapture.QueryFrame();
+Image<Bgr, Byte> image = videoFrame.Resize(pictureBoxOriginal.Width,
+pictureBoxOriginal.Height, INTER.CV_INTER_LINEAR);
+//cv.CvResize(ref image, ref frame,cv.CV_INTER_LINEAR);
+this.pictureBoxOriginal.Image = image.ToBitmap();
+// cxcore.CvReleaseImage(ref image);
+}
+private void buttonInsert_Click(object sender, EventArgs e)
+{
+stringdirDatabase = dir + @"\database\" + patientName;
+OpenFileDialogdlg = new OpenFileDialog();
+dlg.Title = "Open Image";
+dlg.InitialDirectory = dirDatabase + "\\";
+dlg.Filter = "JPEG files (jpg, jpeg, jpe)|*.jpg;*.jpeg;*jpe|" +
+"All Files (*.*)|*.jpg;*.jpeg;*jpe";
+if (dlg.ShowDialog() != DialogResult.OK)
+{
+return;
+}
+IplImageimageLoad;
+IplImageimageLoadResize = cxcore.CvCreateImage(new CvSize(pictureBoxOriginal.Width,
+pictureBoxOriginal.Height), (int)cxtypes.IPL_DEPTH_8U, 3);
+imageLoad = highgui.CvLoadImage(dlg.FileName, highgui.CV_LOAD_IMAGE_COLOR);
+if (imageLoad.height>pictureBoxOriginal.Height ||
+imageLoad.width>pictureBoxOriginal.Width)
+{
+cv.CvResize(ref imageLoad, ref imageLoadResize, cv.CV_INTER_LINEAR);
+pictureBoxOriginal.Image = (Image)imageLoadResize;
+cxcore.CvReleaseImage(ref imageLoadResize);
+}
+else
+pictureBoxOriginal.Image = (Image)imageLoad;
+//cxcore.CvCopy(ref imageLoad, ref frame);
+50
+//cv.CvResize(ref imageLoad, ref frame, cv.CV_INTER_LINEAR);
+cxcore.CvReleaseImage(ref imageLoad);
+}
+privateIplImageGetCurrentImage(bool dispose)
+{
+try
+{
+return highgui.ToIplImage((Bitmap)((PictureBox)pictureBoxOriginal).Image, dispose);
+}
+catch (Exception e)
+{
+throw e;
+}
+}
+privateIplImageGetCurrentImageEnh(bool dispose)
+{
+try
+{
+return highgui.ToIplImage((Bitmap)((PictureBox)pictureBoxEnhanced).Image, dispose);
+}
+catch (Exception e)
+{
+throw e;
+}
+}
+private void buttonUS_Click(object sender, EventArgs e)
+{
+//videoCapture = highgui.CvCreateCameraCapture(0);
+this.Cursor = Cursors.WaitCursor;
+#region if capture is not created, create it now
+if (videoCapture == null)
+{
+try
+{
+//videoCapture = highgui.CvCreateCameraCapture(0);
+videoCapture = new Capture(0);
+}
+catch (NullReferenceExceptionexcpt)
+{
+MessageBox.Show(excpt.Message + ". Please check the connection.", "No Input Video",
+MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+}
+}
+#endregion
+51
+if (videoCapture != null)
+{
+if (_captureInProgress)
+{
+Application.Idle += new EventHandler(processFrame);
+buttonUS.Text = "Freeze";
+}
+else
+{
+Application.Idle -= new EventHandler(processFrame);
+buttonUS.Text = "Start Capture";
+}
+_captureInProgress= !_captureInProgress;
+}
+this.Cursor = Cursors.Default;
+//highgui.CvReleaseCapture(ref videoCapture);
+}
+private void button1_Click(object sender, EventArgs e)
+{
+if (pictureBoxOriginal.Image == null)
+{
+MessageBox.Show("No input image.", "Error", MessageBoxButtons.OK,
+MessageBoxIcon.Exclamation);
+return;
+}
+IplImageframeOri;
+frameOri = GetCurrentImage(false);
+//reduce the size to make the iteration faster
+IplImage frame = cxcore.CvCreateImage(new CvSize(pictureBoxOriginal.Width / 2,
+pictureBoxOriginal.Height / 2), (int)cxtypes.IPL_DEPTH_8U, 3);
+cv.CvResize(ref frameOri, ref frame, cv.CV_INTER_LINEAR);
+IplImage temp = cxcore.CvCreateImage(cxcore.CvGetSize(ref frame),
+(int)cxtypes.IPL_DEPTH_8U, 3);
+while (draw == false)
+{
+OtherLibs.highgui.CvNamedWindow("Please choose an Homogenous ROI");
+OtherLibs.highgui.CvSetMouseCallback("Please choose an Homogenous ROI", onMouse,
+IntPtr.Zero);
+cxcore.CvCopy(ref frame, ref temp);
+if (drawing_box)
+draw_box(temp, box);
+highgui.CvShowImage("Please choose an Homogenous ROI", ref temp);
+52
+if (result == DialogResult.Yes)
+{
+buttonArea.BackColor = System.Drawing.Color.Silver;
+result = DialogResult.None;
+break;
+}
+if (highgui.CvWaitKey(15) == 27)
+{
+buttonArea.BackColor = System.Drawing.Color.Transparent;
+box.height = 0;
+box.width = 0;
+cxcore.CvReleaseImage(ref temp);
+highgui.CvDestroyWindow("Please choose an Homogenous ROI");
+return;
+}
+if (result == DialogResult.No)
+{
+buttonArea.BackColor = System.Drawing.Color.Transparent;
+box.height = 0;
+box.width = 0;
+result = DialogResult.None;
+cxcore.CvReleaseImage(ref temp);
+highgui.CvDestroyWindow("Please choose an Homogenous ROI");
+return;
+}
+}
+cxcore.CvReleaseImage(ref temp);
+highgui.CvDestroyWindow("Please choose an Homogenous ROI");
+}
+private void button2_Click(object sender, EventArgs e)
+{
+this.Cursor = Cursors.WaitCursor;
+double lambda = 0;
+int iteration = 0;
+if (pictureBoxOriginal.Image == null)
+{
+MessageBox.Show("No input image.", "Error", MessageBoxButtons.OK,
+MessageBoxIcon.Exclamation);
+this.Cursor = Cursors.Default;
+return;
+}
+if ((textBoxLambda.Text == "") || (textBoxNoOfIteration.Text == ""))
+{
+53
+MessageBox.Show("No input data.", "Error", MessageBoxButtons.OK,
+MessageBoxIcon.Exclamation);
+this.Cursor = Cursors.Default;
+return;
+}
+try
+{
+lambda = Convert.ToDouble(textBoxLambda.Text);
+iteration = Convert.ToInt16(textBoxNoOfIteration.Text);
+}
+catch (Exception ex)
+{
+MessageBox.Show(ex.Message, "Wrong input data", MessageBoxButtons.OK,
+MessageBoxIcon.Error);
+this.Cursor = Cursors.Default;
+return;
+}
+if (box.height == 0 &&box.width == 0)
+{
+MessageBox.Show("Please choose an Homogenous ROI.", "Homogenouse ROI",
+MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+this.Cursor = Cursors.Default;
+return;
+}
+IplImageframeOri;
+frameOri = GetCurrentImage(false);
+//reduce the resolution to produce a faster iteration
+IplImage frame = cxcore.CvCreateImage(new CvSize(pictureBoxOriginal.Width / 2,
+pictureBoxOriginal.Height / 2), (int)cxtypes.IPL_DEPTH_8U, 3);
+cv.CvResize(ref frameOri, ref frame, cv.CV_INTER_LINEAR);
+IplImageimageGray = cxcore.CvCreateImage(new CvSize(frame.width, frame.height),
+(int)cxtypes.IPL_DEPTH_8U, 1);
+cv.CvCvtColor(ref frame, ref imageGray, cvtypes.CV_BGR2GRAY);
+IplImageimageDisplay = cxcore.CvCreateImage(cxcore.CvGetSize(ref frame),
+(int)cxtypes.IPL_DEPTH_8U, 1);
+IplImageimageDisplayEq = cxcore.CvCreateImage(cxcore.CvGetSize(ref frame),
+(int)cxtypes.IPL_DEPTH_8U, 1);
+IplImageimageDisplayRGB = cxcore.CvCreateImage(cxcore.CvGetSize(ref frame),
+(int)cxtypes.IPL_DEPTH_8U, 3);
+SRAD srad = new SRAD(); //SRAD class
+//imageDisplay = srad.diffusion(imageGray, box, lambda, iteration);
+highgui.CvConvertImage(ref imageDisplay, ref imageDisplayRGB);
+54
+//
+IplImageimageDisplayRGBSize = cxcore.CvCreateImage(new CvSize(frameOri.width,
+frameOri.height), (int)cxtypes.IPL_DEPTH_8U, 3);
+cv.CvResize(ref imageDisplayRGB, ref imageDisplayRGBSize, cv.CV_INTER_LINEAR);
+pictureBoxEnhanced.Image = (Image)imageDisplayRGBSize;
+cxcore.CvReleaseImage(ref imageDisplayRGBSize);
+cxcore.CvReleaseImage(ref imageDisplayRGB);
+cxcore.CvReleaseImage(ref imageDisplay);
+cxcore.CvReleaseImage(ref imageGray);
+cxcore.CvReleaseImage(ref frameOri);
+cxcore.CvReleaseImage(ref frame);
+this.Cursor = Cursors.Default;
+}
+private void button1_Click_1(object sender, EventArgs e)
+{
+IplImageimagePicBox;
+if (pictureBoxEnhanced.Image == null &&pictureBoxOriginal.Image == null)
+{
+MessageBox.Show("No input image.", "Error", MessageBoxButtons.OK,
+MessageBoxIcon.Exclamation);
+return;
+}
+if (radioButtonBefore.Checked == false &&radioButtonAfter.Checked == false)
+{
+MessageBox.Show("Please select an image for colour mapping.", "Error",
+MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+return;
+}
+if (radioButtonAfter.Checked&&pictureBoxEnhanced.Image == null)
+{
+MessageBox.Show("No image after enhanced. Please select an image for colour mapping",
+"Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+return;
+}
+if (radioButtonBefore.Checked)
+{
+imagePicBox = GetCurrentImage(false);
+}
+else
+{
+imagePicBox = GetCurrentImageEnh(false);
+}
+IplImageimageHSV = cxcore.CvCreateImage(new CvSize(imagePicBox.width,
+imagePicBox.height), (int)cxtypes.IPL_DEPTH_8U, 3);
+55
+switch (comboBoxColor.Text)
+{
+case "":
+MessageBox.Show("No input lookup table. Please select a lookup table for colour mapping",
+"Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+return;
+case "Heat Map":
+IplImageimageLut = highgui.CvLoadImage(dir + @"\icon\palette1.bmp",
+highgui.CV_LOAD_IMAGE_COLOR);
+cxcore.CvLUT(ref imagePicBox, ref imageHSV, ref imageLut);
+break;
+case "Fetus":
+IplImage imageLut2 = highgui.CvLoadImage(dir + @"\icon\palette3d1.bmp",
+highgui.CV_LOAD_IMAGE_COLOR);
+cxcore.CvLUT(ref imagePicBox, ref imageHSV, ref imageLut2);
+break;
+case "Inverse Fetus":
+IplImage imageLut3 = highgui.CvLoadImage(dir + @"\icon\palette3d2.bmp",
+highgui.CV_LOAD_IMAGE_COLOR);
+cxcore.CvLUT(ref imagePicBox, ref imageHSV, ref imageLut3);
+break;
+default:
+MessageBox.Show("Invalid lookup table. Please select a lookup table for colour mapping",
+"Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+return;
+}
+pictureBoxEnhanced.Image = (Bitmap)imageHSV;
+}
+public byte[] imageToByteArray(System.Drawing.ImageimageIn)
+{
+MemoryStreamms = new MemoryStream();
+imageIn.Save(ms, System.Drawing.Imaging.ImageFormat.Gif);
+returnms.ToArray();
+}
+private void buttonReference_Click(object sender, EventArgs e)
+{
+stringdirDatabase = dir + @"\database\" + patientName;
+OpenFileDialogdlg = new OpenFileDialog();
+dlg.Title = "Open Image";
+dlg.InitialDirectory = dirDatabase + "\\";
+dlg.Filter = "JPEG files (jpg, jpeg, jpe)|*.jpg;*.jpeg;*jpe|" +
+56
+"All Files (*.*)|*.jpg;*.jpeg;*jpe";
+if (dlg.ShowDialog() != DialogResult.OK)
+{
+return;
+}
+IplImageimageLoad;
+IplImageimageLoadResize = cxcore.CvCreateImage(new CvSize(pictureBoxReference.Width,
+pictureBoxReference.Height), (int)cxtypes.IPL_DEPTH_8U, 3);
+imageLoad = highgui.CvLoadImage(dlg.FileName, highgui.CV_LOAD_IMAGE_COLOR);
+if (imageLoad.height>pictureBoxReference.Height ||
+imageLoad.width>pictureBoxReference.Width)
+{
+cv.CvResize(ref imageLoad, ref imageLoadResize, cv.CV_INTER_LINEAR);
+pictureBoxReference.Image = (Image)imageLoadResize;
+cxcore.CvReleaseImage(ref imageLoadResize);
+}
+else
+pictureBoxReference.Image = (Image)imageLoad;
+cxcore.CvReleaseImage(ref imageLoad);
+}
+private void buttonOrigin_Click(object sender, EventArgs e)
+{
+if (pictureBoxOriginal.Image == null)
+{
+MessageBox.Show("No input image.", "Error", MessageBoxButtons.OK,
+MessageBoxIcon.Exclamation);
+return;
+}
+pictureBoxEnhanced.Image = pictureBoxOriginal.Image;
+}
+voiddraw_box(IplImage temp, CvRectrect)
+{
+cxcore.CvRectangle(ref temp, cxtypes.CvPoint(box.x, box.y), cxtypes.CvPoint(box.x +
+box.width, box.y + box.height), new CvScalar(255, 0, 0));
+}
+private void OnMouse(intevnt, int x, int y, int flags, IntPtrparam)
+{
+int height = pictureBoxOriginal.Image.Height;
+int width = pictureBoxOriginal.Image.Width;
+57
+IplImage temp = cxcore.CvCreateImage(new CvSize(height, width),
+(int)cxtypes.IPL_DEPTH_8U, 3);
+switch (evnt)
+{
+casehighgui.CV_EVENT_MOUSEMOVE:
+if (drawing_box)
+{
+box.width = x - box.x;
+box.height = y - box.y;
+}
+break;
+casehighgui.CV_EVENT_LBUTTONDOWN:
+drawing_box = true;
+box = cxtypes.cvRect(x, y, 0, 0);
+break;
+casehighgui.CV_EVENT_LBUTTONUP:
+drawing_box = false;
+if (box.width< 0)
+{
+box.x += box.width;
+box.width *= -1;
+}
+if (box.height< 0)
+{
+box.y += box.height;
+box.height *= -1;
+}
+draw_box(temp, box);
+result = MessageBox.Show("This is the uniform speckle region you want to choose?",
+"Confirmation", MessageBoxButtons.YesNo);
+break;
+}
+}
+private void button1_Click_2(object sender, EventArgs e)
+{
+if (pictureBoxEnhanced.Image == null)
+{
+MessageBox.Show("No image after enhanced. Please process an image for image save.", "No
+Image", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+return;
+}
+IplImage frame;
+frame = GetCurrentImageEnh(false);
+stringdirDatabase = dir + @"\database";
+58
+stringdirPatient = dir + @"\database\" + patientName;
+SaveFileDialogsfd = new SaveFileDialog();
+sfd.Filter = "JPEG files (jpg, jpeg, jpe)|*.jpg;*.jpeg;*jpe|" +
+"All Files (*.*)|*.jpg;*.jpeg;*jpe";
+sfd.InitialDirectory = dirPatient + "\\";
+sfd.AddExtension = true;
+sfd.DefaultExt = "jpg";
+sfd.FileName = "*.jpg";
+if (sfd.ShowDialog() == DialogResult.OK)
+{
+highgui.CvSaveImage(sfd.FileName, ref frame);
+}
+}
+}
+}
+59
+APPENDIX C
+C# Source Code for Report Update
+60
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.Data.OleDb;
+namespaceHWandSWImprovementOfUS
+{
+public partial class Report : Form
+{
+privateOleDbConnectionpatientdata;
+public Report()
+{
+InitializeComponent();
+patientdata = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data
+Source=C:\\Users\\LIM KHIM KHEUNG\\Documents\\Visual Studio
+2010\\Projects\\HWandSWImprovementOfUS\\HWandSWImprovementOfUS\\patientdata.accdb");
+}
+private void Report_Load(object sender, EventArgs e)
+{
+// TODO: This line of code loads data into the
+'patientdataDataSet1.patientdata' table. You can move, or remove it, as needed.
+this.patientdataTableAdapter.Fill(this.patientdataDataSet1.patientdata);
+}
+private void button1_Click(object sender, EventArgs e)
+{
+OleDbCommandcmd = new OleDbCommand();
+cmd.CommandType = CommandType.Text;
+cmd.CommandText = ("insert into patientdata (FULLNAME, ICNO,Birth, Address, Contact,
+Comments)Values('" + comboBoxName.Text + "', '" + textBoxIC.Text + "', '" +
+textBoxBirth.Text + "', '" + textBoxAddress.Text + "', '" + textBoxContact.Text + "', '"
++ textBoxComments.Text + "' )");
+//cmd.CommandText = ("UPDATE `patientdata` SET `FULLNAME` = '" +
+comboBoxName.Text + "', `ICNO` = '" + textBoxIC.Text + "', `Birth` = '" +
+textBoxBirth.Text + "', `Address` = '" + textBoxAddress.Text + "', `Contact` = '" +
+textBoxContact.Text + "', `Comments` = '" + textBoxComments.Text + "' WHERE ( (('" +
+comboBoxName.Text + "' = 1 AND `FULLNAME` IS NULL) OR (`FULLNAME` = '" +
+comboBoxName.Text + "')) AND (('" + textBoxIC.Text + "' = 1 AND `ICNO` IS NULL) OR
+(`ICNO` = '" + textBoxIC.Text + "')) AND (('" + textBoxBirth.Text + "' = 1 AND `Birth`
+IS NULL) OR (`Birth` = '" + textBoxBirth.Text + "')) AND (( '" + textBoxAddress.Text +
+"'= 1 AND `Address` IS NULL) OR (`Address` = '" + textBoxAddress.Text + "')) AND (('" +
+textBoxContact.Text + "' = 1 AND `Contact` IS NULL) OR (`Contact` = '" +
+textBoxContact.Text + "')) AND (('" + textBoxComments.Text + "' = 1 AND `Comments` IS
+NULL) OR (`Comments` = '" + textBoxComments.Text + "')))");
+cmd.Connection = patientdata;
+patientdata.Open();
+61
+cmd.ExecuteNonQuery();
+patientdata.Close();
+MessageBox.Show("Data Updated. Thanks for using this system.", "Update",
+MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+}
+}
+}
+

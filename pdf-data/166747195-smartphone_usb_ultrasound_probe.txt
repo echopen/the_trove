@@ -1,0 +1,78 @@
+DEPLOYMENT GOALS
+Our Smartphone-enabled probes are
+based on USB ultrasound probes
+currently sold for use with laptops and
+desktops running Windows XP or Vista,
+so volume production of Smartphone-
+enabled probes could begin in a few
+months. The DLLs and driver required
+for application development will be
+placed in the public domain so
+developers can integrate ultrasound
+into their Smartphone-based medical
+applications.
+Smart Phone-Compatible USB Ultrasound Probe
+http://ultrasound.engineering.wustl.edu/index.php/Cell_Phone_SDK
+Washington University in St. Louis
+William D. Richard and David M. Zar
+PROJECT RESULTS
+We have developed a low-power, low-cost
+ultrasound probe that runs on Windows
+Mobile Smartphones. The probe can
+connect directly to, and be powered by,
+the Smartphone or connect through the
+Fone+ base. This technology can give
+people in many remote or poor regions
+access to ultrasound, a valuable tool in
+diagnosing numerous diseases and
+medical conditions, as well as enable new
+applications of medical ultrasound.
+On Left – two sides of the circuit board
+On Right – USB-based ultrasound probe
+Portable, Affordable
+Ultrasound
++
+Screen from the Fone+ video output
+showing the basic user interface.
+ENABLING BETTER HEALTHCARE EVERYWHERE
+• First responders have small, portable ultrasound probes
+they use with their cell phones to see, instantly, if the
+bullet/shrapnel is near an artery or nerve.
+• Nurses, with ultrasound probes in their pockets, use their
+cell phones to start IVs or central lines or to check the
+bladder volume of a patient with a catheter.
+• Patients with drug delivery implants can be shown how
+to image themselves to determine if their implant has
+caused an infection or cyst or moved too far. A baseline
+image can be compared to successive images taken by
+the patient, every month, in their own home with their
+own cell phone. With some image analysis, most people
+could be told, by the software, that they don’t need to
+have their implant checked at the clinic that month. If
+there is a problem, the data are sent, automatically, to a
+physician for analysis; The patient alerted only if there is
+a problem.
+• Patient data and images can be combined and posted to
+PHR or HER systems, automatically. No more lost exam
+data, and the patient would be in control of that data.
+BRINGING MEDICAL IMAGING TECHNOLOGY TO
+POOR AND REMOTE COMMUNITIES
+Medical imaging is used extensively in modern healthcare.
+Yet, 70% of the World’s population do not have access to
+any type of medical imaging. We desire to bring low-cost,
+portable, and easy-to-use medical ultrasound imaging to
+everyone, including:
+• Rural China, where it may take three days to get to a
+hospital, but where cell phones and televisions are
+pervasive.
+• India, where cell phones are becoming popular in rural
+areas, and where cell phone companies are actively
+pursuing the enormous market.
+• Brazil, where approximately 25% of the population live in
+small communities of under 20,000 people.
+• Indonesia, where over half the people still live without
+electricity, but where cell phones are gaining in
+popularity and where there has been tremendous
+investment in cell phone coverage since 2001.
+2009
+

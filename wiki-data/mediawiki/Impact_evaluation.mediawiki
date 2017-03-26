@@ -1,0 +1,141 @@
+# Impact evaluation
+
+Compte-rendu apéro Impact social avec Aude Serrano
+
+Comment définir l'impact social : définissons ensemble quel va être l'impact d'EchOpen
+
+== Tour de table ==
+* Karl S. : #ClearRoadmap
+* Jonathan K. : #Juriste, #Paillasse
+* Benoit V. : Guedzar, Hacker, Open, Ingénieur
+* Charlotte : CDM Fonderie, Adaweek
+* Issam Ingé,
+* Arida
+* Melanie Marcel: 
+* Na 
+* Sarah: Ingénieur, biomédical
+* Alex: space program
+*et al
+
+==  Qu'est ce que l'impact ==
+Montrer l'impact sur la société
+
+Prove and improve 
+- Montrer l'impact en externe -> financeurs, partenaires : évaluations faites par l'externe pour la légitimité
+
+Improve 
+- Améliorer un produit et améliorer l'impact : évaluations qui peuvent être faites en interne, pas de question de légitimité/crédibilité de l'évaluation
+
+Evaluation ex-ante: idée: comme un BP financier, projections financières, mais plutôt le faire avec les projections d'impact social. 
+
+== Quelle structure pour une évaluation d'impact ==
+
+Définir un besoin,
+*Répondre aux objectifs 
+** évaluer la pertinence entre les besoins et les objectifs
+* Ressources
+** Financieres
+** Humaines (dont bénévolat)
+** Nature (prêt de locaux, dons de matériel...)
+* Mise en place d'activités
+Puis on a
+* les réalisations  (ce que permet le projet)
+* les résultats (~changements) > prime dans l'évaluation. Comprendre ce que cela change concrètement pour les personnes ou les parties prenantes impactées  (toujours dans le contexte)
+Et au final,  
+* Impact Net (on enlève les causes périphériques)
+
+
+Il ne faut pas oublier du coup les impacts négatifs - comme par exemple dans le cas de l'Inde, de l'eugenisme sexuel.
+=> Il faut donc réfléchir non plus au global, mais par partie prenante.
+
+== Exemple de projet ==
+Prenons l'exemple de l'égalité des chances - on construit un project pour aider les jeunes à atteindre leur potentiel.
+
+Ce projet permet :
+*des réalisations (outputs): accompagnement de jeunes (X jeunes aidés), des formations,(X heures de formations), XX visites d'entreprises, .... c'est ce qu'on peut observer - mais rien ne précise si les objectifs ont été remplis on va donc s'intéresser plutôt aux
+*aux résultats (outcome) / changements: qu'est ce qui a été changé grâce aux activités du projet?
+
+Q: Quelles sont les variables d'impact social ? Au niveau santé par exemple? Comment quantifier ?
+A: En dehors de l'impact du projet, cela dépend des parties prenantes du projet. Par exemple, va t on focaliser sur les populations jeunes, aisées, âgées.. Il va falloir segmenter les parties prenantes.
+Il faut bien définir le périmètre d'évaluation -- et les variables peuvent être multiples --, ce que je veux évaluer.
+Nécessité que les médecins (ou du moins les populations cibles) soient dans la création du device afin que, à terme, ils l'utilisent. Il faut donc bien centrer les activités sur les activités, permettant de répondre aux besoins.
+
+Un des risques = créer un produit sans impliquer personne et donc ne pas comprendre réellement les besoins et penser les domaines d'application.
+
+Q : L'objet peut-il avoir des points négatifs ? 
+A : Il est toujours possible de penser à des détournements.. Un couteau coupe du saucisson, ou peut poignarder quelqu'un.
+
+Q : Quand un système a plusieurs besoins, comment choisir le besoin à évaluer ?
+A : Un projet peut vouloir répondre à plusieurs besoins, d'autant plus qu'il s'adresse à plusieurs populations qui ont chacune un besoin propre. Il est alors possible d'évaluer l'impact pour chacun des objectifs. On peut évaluer l'impact pour chacune des parties prenantes et/ou pour chacun des objectifs définis.
+
+
+Quand un projet n'est pas créé, il est nécessaire de faire des hypothèses sur le nombre de personnes impactées, ce que cela entraine en résultats sur la santé, etc.
+
+Q: Quelle est la fréquence?  
+A. Une règle globale est qu'il ne faut pas consacrer plus de 10% des ressources allouées au projet: de toute façon, il est nécessaire de faire des itérations en mode lean startup.
+-> Évaluation doit avoir un objectif sinon non-sens.
+
+Q : Évaluation doit-elle être constante ?
+Nécessaire. Nécessité de retours constants des utilisateurs pour penser une amélioration.
+Par exemple, possible d'envoyer des questionnaires réguliers. L'important est d'anticiper la collecte de données car cela peut faire gagner du temps ensuite. Mais pas besoin de faire une évaluation externe tout le temps (rappel de la règle : pas plus de 10% des ressources sur l'évaluation, l'objectif est de créer de l'impact pas uniquement de le mesurer !)
+On peut cumuler quali et quanti pour la même évaluation. Il faut souvent du quali pour comprendre le contexte, échanger avec les parties prenantes... Il est difficile de faire du quanti sans du quali. Mais on peut faire uniquement du quali.
+En revanche, il faut choisir clairement l'objectif de l'évaluation : externe (prove) ou interne (improve).
+
+Remarque : 
+Il est possible de penser que pour EchOpen, l'impact soit plus important dans les pays en voie de développement.
+
+Risque d'eugénisme comme impact négatif - de la même manière qu'à l'époque, le "stéthoscope avancé", qui ouvrait la porte des diagnostics prénataux, a posé la question de l'ouverture d'eugenisme.
+
+Restriction : cadre juridique strict français. Législateur est suffisamment vigilant pour que le plan sanitaire soit sûr.
+Néanmoins risque lié à l'open source.
+
+Sonde peut brûler les tissus ==> risque réel.
+
+== Quels impacts ==
+
+Q:  Quels sont les besoins sociaux auxquels souhaite répondre EchOpen ?
+Nécessité de démontrer, illustrer l'utilité du device pour l'insérer dans l'écosystème visé, dans les usages.
+
+Finalement, on a plutôt parlé des résultats souhaités que des besoins.
+
+=== Médecins ===
+Médecins: ils veulent avoir un outil pour les aider sur l'aide au diagnostic.
+Accès au matériel... ou plutôt à l'information
+Rassurer les patients : pouvoir apporter une réponse au patient plus rapidement : exemple, pouvoir écouter le cœur d'un bébé pour être sur qu'il est bien vivant (Important pour le relationnel) 
+Être rassuré dans sa pratique.
+Rapidité car outil diagnostic plus rapide
+Accessibilité car bas cout
+
+=== Systeme hospitalier ===
+Optimisation des consultations
+
+=== Etat  ===
+Economie pour la Sécurité sociale
+
+=== Population ===
+Empowerment des patients : Outil de souveraineté médical pour le citoyen ==> possible d'un auto-diagnostic
+Favorise la prise en charge des autres patients ==> impact indirect du fait d'une meilleure gestion du temps
+Impact sur la santé pour eux ? A creuser je pense car cela doit avoir des impacts sur la santé si le diagnostic est plus rapide et plus accessible
+
+=== Communauté open-source ===
+Contributeurs: l'impact: partage de connaissance, expérience, 
+savoir comment ça marche; par exemple, avoir le droit de savoir comment ça marche
+Empowerment : Transparence
+Crédibilité, sécurité, confiance >< Grand public : crainte car non sécu et bordélique
+
+=== Milieu académique ===
+faciliter l'accès a la connaissance liée aux ondes et acoustique
+apprendre les bases de l'acoustique, traitement du signal ==> ex : Arduino a démocratisé l'électronique / Lego : a démocratisé la robotique
+
+=== Milieu vétérinaire ===
+Vétérinaires : rapidité et accessibilité du diagnostic ?  
+Personnes dans l'élevage
+
+= Commercialisation =
+
+
+== OTHERS ==
+
+Pour rappel, il faut savoir où on va et quels sont les principaux changements.
+
+Enjeu majeur = la sécurité sanitaire.

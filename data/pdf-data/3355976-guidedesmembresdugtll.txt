@@ -1,0 +1,441 @@
+=>
+Guide des membres du GTLL
+Groupe thématique Logiciel Libre
+http://systematic-paris-region.org/fr/logiciel-libre
+Roberto Di Cosmo, Stéfane Fermigier
+(Mise à jour : Muriel Shan Sei Fan)
+Septembre 2015
+1. Pôles de compétitivité : quelques repères
+Initiés en 2004 et créés en 2005, les pôles de compétitivité ont pour but de développer la croissance
+et l’emploi sur les marchés porteurs en mobilisant la capacité d’innovation de leurs écosystèmes.
+1.1. Mission du Groupe thématique Logiciel Libre
+Le GTLL s’est fixé pour mission de développer durablement l’écosystème du logiciel libre en Île-de-
+France, à travers les axes d’action suivants :
+ Animer l’ensemble de l’écosystème du logiciel libre en Île-de-France, en facilitant la mise en
+relation, le partage d’expériences, la communication et la convivialité entre les membres :
+annuaire, newsletter, rencontres, conférences (Open Source Innovation Spring, Paris Open
+Source Summit, meetups, rencontres d’affaires, etc.
+ Susciter et faire croître des projets innovants sur le logiciel libre, en aidant ses membres à
+faire émerger, structurer et financer des projets de R&D collaborative porteurs de retombées
+économiques en France (emploi, investissement, création d’entreprises, croissance...),
+autour des grands défis que sont l’after PC (cloud, mobiles, tablettes, Internet des objets...),
+la qualité logicielle et le Big Data (voir plus bas la feuille de route technologique).
+ Aider à pérenniser et développer les industriels du logiciel libre, en leur apportant une
+assistance dans les domaines de la stratégie, du marketing, du recrutement, du financement,
+de l’accès au marché.
+ Faire progresser la réflexion sur les fondamentaux du logiciel libre en étant moteur du
+débat sur ses aspects techniques mais aussi économiques juridiques, sociétaux, etc.,
+notamment en lien avec l’IRILL, le Paris Open Source Summit, le CNLL, etc. (ex. : Livrets bleus
+du Logiciel libre "Qualité logicielle", "Modèles économiques", "Étudiants", etc.).
+Le GTLL promeut ainsi le logiciel libre et ses acteurs, en étant un relais crédible et audible pour
+évoquer le logiciel libre auprès des entreprises, administrations, décideurs politiques,
+établissements susceptibles de former les futurs talents du logiciel libre, médias, etc.
+1 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+Le pôle Systematic Paris-Region fournit, par ses moyens humains et financiers, par le réseau qu’il
+représente, et par les instruments de financement sur lesquels il a de l’influence, le cadre de l’action
+du GT en faveur de sa mission.
+1.2. Objectifs et fonctionnement d’un GT de Systematic
+En général, un GT dans Systematic partage les objectifs et les moyens du Pôle, tout en les déclinant
+sur le champ thématique qu’il s’est choisi.
+a) Objectifs
+Parmi les objectifs principaux d’un pôle de compétitivité, on peut mentionner :
+ rendre plus attrayant le territoire du pôle, plus compétitives ses entreprises, et obtenir une
+visibilité internationale ; pour cela
+ structurer le secteur en apportant de la cohérence, et une vision à moyen et long terme ;
+pour cela
+o construire une feuille de route technologique et business
+o fédérer les acteurs autour de cette feuille de route
+o catalyser la collaboration entre PME, grands groupes, enseignement supérieur et
+recherche
+o identifier les formations qui manquent, et en susciter l’émergence.
+b) Moyens
+Pour atteindre ses objectifs, un pôle dispose d’un certain nombre d’instruments, que l’on peut
+résumer ici :
+ le financement de projets de R&D dans la zone du pôle (FUI et FEDER)
+ la suggestion de thèmes prioritaires à l’ANR
+ des liaisons interpoles/internationales (Europe, ITEA)
+ un contact privilégié avec la BPI, la DGE et la DIRECCTE,
+ un budget pour des opérations d’animation et de communication.
+1.3. Le Groupe thématique Logiciel libre (GTLL)
+Au GTLL, nous avons un surplus de travail à faire, en raison de l’évolution rapide et de la jeunesse du
+domaine. Il nous faut notamment :
+ faire émerger des plates-formes intégrées, mettant en relation les diverses technologies
+disponibles dans la région ;
+ identifier et proposer un défi fédérateur à moyen terme.
+2 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+Autre spécificité : le GTLL possède une population plus importante de PME de taille moindre que les
+autres GT de Systematic, du fait de la relative jeunesse du marché et des modèles économiques. Il en
+résulte qu’elles ont moins souvent des ressources pouvant être dédiées au traitement de projets de
+R&D, ce qui nécessite un plus gros effort en amont dans l’émergence de projets et dans leur
+accompagnement.
+1.4. Le rôle et la nature des membres du GTLL
+Les membres de Systematic (et donc a fortiori du GTLL) ont vocation à faire évoluer la feuille de
+route, à initier des projets de R&D et et à y participer, à créer des startups, à contribuer à la création
+des programmes de formations.
+En retour, ils sont soutenus à travers des projets de R&D, trouvent un endroit (le GT ou le Pôle) où ils
+sont mis en relation entre eux, avec leurs clients potentiels, avec des partenaires internationaux, et
+bénéficient de la visibilité du GT ou du Pôle, et de ses actions d’animation.
+Il s’ensuit que pour adhérer au GT (donc au Pôle), une organisation doit de préférence
+avoir la capacité – ou du moins la volonté – d’avoir une activité de R&D.
+2. Les instances du GTLL
+La structure essentielle qui assure le fonctionnement du Groupe thématique Logiciel libre est son
+comité de pilotage, autrefois scindé en un comité de pilotage et un comité des projets pour la partie
+académique d’instruction des projets.
+2.1. Le comité de pilotage
+Le Comité de pilotage se réunit une fois par mois. Il est anime par un président (industriel) et un vice-
+président (académique) avec l’aide d’un(e) responsable de Groupe thématique.
+a) Missions du Copil
+Le Comité de Pilotage est constitué d’une vingtaine de membres pour moitié industriels et pour
+moitié académiques. Il assure les missions suivantes :
+ audition et accueil des nouveaux membres
+ définition des objectifs technologiques et des objectifs marché du GTLL
+ pré-labellisation des projets de R&D, qu’il propose au Bureau exécutif du Pôle
+ animation de la communauté
+3 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+ maintien des contacts interpôles/internationaux
+ représentation des membres
+ accueil des acteurs concernés par ses thématiques
+b) Modalités d’évolution du Copil
+Les nouveaux copilotes proposés à l’initiative d’au moins un membre du Copil (cooptation) sont
+auditionnés par le Comité de pilotage. Les départs sont actés en Copil.
+Le Bureau exécutif de Systematic est informé de toute évolution de la composition du Copil.
+2.2. Activité académique
+Le Comité de pilotage, dans sa partie académique, est également un réseau des membres actifs dans
+l’ensemble des établissements académiques et de recherche et des partenaires industriels membres
+du GTLL.
+En particulier les membres académiques du Comité de pilotage assurent les missions suivantes :
+ Ils veillent à la définition de la feuille de route technologique liée aux objectifs du GTLL. Ils
+sont à l’origine de l’élaboration de propositions de feuille de route ensuite validées en
+Comité de pilotage.
+ Ils assurent la liaison avec les différents Groupes thématiques de Systematic sur les aspects
+technologiques (exemples : Télécoms, Confiance numérique et Sécurité, OCDS, etc.) ;
+ Ils contribuent à la sélection des projets en fournissant l’expertise nécessaire à leur
+évaluation ainsi qu’à leur suivi (cf. procédure de labellisation Systematic).
+ Ils veillent à l’émergence de nouveaux projets et d’idées innovantes en s’appuyant
+principalement sur les membres du GTLL et avec le support du Pôle.
+ Afin de faciliter cette mission, ils établiront la cartographie des compétences, expertises et
+activités des différents membres.
+ Ils jouent un rôle important dans l’animation de la communauté de R&D.
+ Ils mènent des actions sur la formation afin de favoriser l’émergence de compétences
+adaptées aux besoins de la filière.
+3. Les instruments de financement et de visibilité
+Le GTLL dispose pour faire avancer son agenda d’un ensemble d’instruments de financement de
+différentes natures, avec des contextes, contraintes et attentes différents, ainsi que de la présence
+dans le catalogue annuel des produits issus de la R&D de Systematic.
+4 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+NB : CIR et aides financières à la R&D collaborative
+Il faut noter que, dans l’effort financier total qu’un partenaire investit sur un projet de
+R&D, il ne faut pas inclure dans l’assiette du CIR les subventions publiques (remboursables
+ou non) reçues au titre du projet.
+CIR p. 30 (article 244, quater B III, du CGI) Montant 4 à déduire de l’assiette :
+"Les subventions publiques, remboursables ou non, attribuées par l’Union européenne,
+l'État ou les collectivités territoriales à raison d'opérations ouvrant droit au CIR, doivent
+être déduites de la base de calcul du crédit d’impôt au prorata de l’assiette correspondant
+aux opérations ouvrant droit au CIR. Typiquement, si la subvention concerne un projet
+d’innovation, l’entreprise ne devra prendre en compte dans son assiette que les dépenses
+éligibles au CIR et en déduire la part de la subvention correspondant à des travaux de
+R&D."
+3.1. Les projets du Fonds unique interministériel (FUI)
+Les projets du FUI sont les principaux instruments de l’action d’un pôle de compétitivité. Avec une
+durée le plus souvent de 2 à 3 ans chez Systematic, ces projets de R&D mettent davantage l’accent
+sur le développement que sur la recherche, ils sont plus proches de l’application immédiate (« pré-
+compétitifs » dit-on), et plus proches du transfert de technologie que de sa création, avec une
+existence démontrée de débouchés commerciaux clairs sur le marché comme critère majeur de
+sélection.
+Le fonds unique interministériel (FUI) finance des projets de recherche et de
+développement (R&D) collaboratifs labellisés par les pôles de compétitivité. Le FUI a
+vocation à soutenir des projets de recherche appliquée portant sur le développement de
+produits, procédés ou services susceptibles d’être mis sur le marché à court ou moyen
+terme, généralement 5 ans. Les projets sont retenus à l’issue d’appels à projets (deux par
+an). Ils doivent être préalablement labellisés par la pôles de compétitivité. Ils sont
+collaboratifs, c’est à dire qu’ils associent au moins deux entreprises et un organisme de
+recherche ou de formation. Les projets sont obligatoirement pilotés par une entreprise.
+http://competitivite.gouv.fr/les-financements-des-projets-des-poles/les-appels-a-projets-de-r-d-fui-
+375.html
+a) Sélection du projet
+Le GTLL s’exprime sur le fond du projet et instruit :
+ le contenu scientifique et technique,
+5 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+ le positionnement stratégique du projet, et l’impact attendu en termes de marché et
+d’emplois,
+ l’adéquation avec les objectifs prioritaires du GTLL.
+Le GTLL ne se prononce pas de façon approfondie sur la partie financière, car le projet sera expertisé
+dans le détail par la Direction générale des entreprises, et les services de la BPI iront vérifier sur le
+terrain la nature et les capacités des entreprises qui y participent ; il arrive que le montant demandé
+pour ces projets subisse un redimensionnement suite à cette expertise.
+La labellisation est actée par le Directoire de Systematic, sur avis positif du Bureau exécutif, qui
+auditionne les projets retenus par le GTLL ; si la labellisation est obtenue, les porteurs de projets sont
+invités à déposer le dossier de leur projet auprès des services de l’État (extranet de BPIFrance). La
+décision finale de financement est alors prise dans les deux mois suivant, après examen par la DGE, la
+Région Île-de-France et les départements concernés. Cela fait bien quatre niveaux de filtre : trois qui
+sont internes à Systematic, et un au niveau des services de l’État et des collectivités.
+L’expérience montre qu’entre l’idée du projet et son financement effectif, il se passe de
+l’ordre de 12 mois.
+b) Montant des subventions
+Tout en gardant à l’esprit que le montant qu’on demande n’est pas forcément celui que l’on obtient,
+il vaut la peine de rappeler que le financement varie beaucoup selon les acteurs :
+ pour les laboratoires : 100 % des coûts additionnels ;
+ pour les PME d’Île-de-France : 45 % du coût total ;
+ pour les grands groupes : 25 % du coût total.
+Les modalités précises des financements sont soumises à des évolutions fréquentes, et revêtent une
+certaine technicité ; elles sont pour chaque appel à projets FUI consignées dans un cahier des
+charges. N’hésitez pas à consulter la page http://competitivite.gouv.fr/les-financements-des-projets-
+des-poles/les-appels-a-projets-de-r-d-fui-375.html .
+c) Les financeurs
+La complexité du FUI est due en partie au fait que le financement est multipartite : les fonds viennent
+de l’État et des Départements. Les entités financées peuvent avoir à signer des conventions
+différentes en fonction du financeur. Mais en pratique, les services publics veillent à optimiser
+l’allocation des ressources, et à minimiser le nombre de conventions à signer.
+6 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+d) Calendrier
+Deux appels à projets FUI ont lieu par an, avec une échéance vers fin avril, et l’autre vers fin
+novembre, le processus de labellisation et d’accompagnement (montage du projet, analyse par le
+GTLL et le pôle, finalisation du dossier) démarrant 2 à 3 mois plus tôt.
+e) Historique
+On utilise souvent le terme FUI n (avec n entier) pour indiquer le n-ième appel à projets du Fonds
+unique interministériel. Le GTLL y a participé depuis le FUI 5 avec, jusqu’au FUI 20 inclus (2015) : 21
+projets retenus pour plus de 85 M€ d’assiette pour 36,7 M€ de subventions.
+3.2. Les fonds FEDER
+Les appels à projets FEDER – repris par la Région Île-De-France – ont pour finalité de soutenir des
+projets de R&D collaboratifs (au moins 2 PME et 1 académique) moins ambitieux que le FUI (entre
+500 k€ et 1 500 k€ d’assiette de R&D collaborative) sans possibilité de financement pour les grands
+groupes (50 % pour les PME, 40 % pour les académiques, 30 % pour les ETI).
+La labellisation par un pôle francilien est obligatoire.
+a) Le rôle du GTLL dans la sélection
+Dans le cas des projets FEDER, le pôle assure l’ensemble de l’activité d’évaluation, avec une expertise
+sur le fond du projet, y compris les aspects financiers, et doit assurer le suivi du projet ensuite, en
+fournissant les experts qui valideront les résultats lors des réunions annuelles de suivi. Le GTLL se
+doit donc de regarder bien tous les aspects du projet parce qu’il n’y aura pas d’autre expertise
+ensuite, à part celle des autres instances du pôle (Bureau Exécutif et éventuellement Directoire).
+b) Calendrier
+Le calendrier est calqué sur celui du FUI, mais le financement est plus rapide, parce qu’il n’y a pas
+pluralité de financeurs.
+ Télécharger les documents types : www.europe.iledefrance.fr
+ Accompagnement possible par la cellule ingénierie de projet et animation territoriale dans la
+direction des financements européens de la région Ile de France :
+o Service AMO – Bénédicte Leray : bénédicte.leray@iledefrance.fr
+7 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+3.3. Les projets ANR
+Les projets financés par l’ANR (Agence Nationale de la Recherche) sont le plus souvent des projets de
+recherche en amont, aux débouchés incertains du point de vue de l’industrialisation, liés à des
+activités ou la Recherche est largement plus importante que le Développement, même si l’on peut
+voir l’inclusion d’industriels dans les consortiums des projets.
+a) Critères de labellisation par le GTLL
+Lorsqu’il recommande la labellisation d’un projet ANR, le GTLL indique que le résultat de ce projet
+(s’il est retenu et aboutit aux résultats attendus – ce qui n’est jamais garanti dans un projet aussi
+amont) sera utile (voire très utile) à la stratégie du GT. Le GTLL octroie ainsi son label aux projets
+ANR qui paraissent avoir des retombées à court, moyen, comme long termes sur l’écosystème de
+l’innovation en logiciel libre. À titre d’exemple, un projet centré sur la conception de langages
+avancés pour la manipulation sûre de données XML est d’un intérêt évident pour le GTLL, puisqu’en
+cas de succès il permettra d’améliorer significativement la qualité des logiciels développés par les
+acteurs du GTLL.
+Les partenaires du consortium d’un projet labellisé par le GTLL s’engagent notamment à respecter la
+charte du GTLL (voir annexe), qui concerne toute production logicielle financée dans le cadre du
+projet. Chaque partenaire francilien du projet signe (représentant légal) également une fiche
+l’engageant à devenir membre s’il ne l’était pas et à s’acquitter en cas de financement d’une
+cotisation variable qui dépend l’aide reçue (500 € jusqu’à 100 000 € d’aide reçue, 1 500 € au-delà).
+Sur ces dossiers, il n’est pas demandé au GT d’effectuer une évaluation sur le fond, ni scientifique, ni
+budgétaire, car celle-ci est réalisée par les experts ANR. La décision de labelliser un projet est du
+ressort du GTLL.
+b) Impact de la labellisation
+Le label d’un pôle n’est pas nécessaire pour soumettre un projet ANR. Pour mémoire, en 2015, sur
+20 prédossiers acceptés par le GTLL, plus d’un tiers (8) ont été présélectionnés puis labellisés, dont 4
+ont été retenus pour financement dont 3 sont sans partenaires industriels, et 1 avec des partenaires
+industriels (proches de la recherche). Tous ces projets ANR étaient sur le thème de la Qualité
+logicielle.
+c) Calendrier ANR
+Les appels ANR sont étalés au long de l’année. La date limite pour demander la labellisation auprès
+du GTLL est sensiblement la même que la date limite de dépôt du dossier auprès de l’ANR.
+En cas de labellisation, c’est le pôle Systematic qui transmet directement l’attestation à l’ANR.
+8 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+3.4. Autres appels à projets : Programme Investissements d’Avenir
+(PIA/FSN) et projets européens
+Les appels à projets du PIA/FSN diffèrent du FUI :
+ La moitié des aides est sous forme d’avance remboursable (intéressement de l’État aux
+retombées commerciales).
+ Le volume d’investissement R&D peut être bien plus important.
+ Le label d’un pôle est facultatif.
+ À noter, l’interopérabilité et l’ouverture des standards peuvent être des critères de sélection.
+Quant aux projets européens, des appels (calls) sont publiés régulièrement, sur toutes les
+thématiques traitées par Systematic et notamment celles du GTLL. À noter que là aussi, la nature
+open source des résultats du projet peut être un élément favorable dans la sélection.
+D’autres appels à projets peuvent être régulièrement lancés, dont la publicité est faite
+par le Secrétariat permanent de Systematic Paris-Region.
+4. Instruments de visibilité : catalogues annuels des
+projets et des produits issus de la R&D de Systematic
+4.1. Book des produits
+Le Book des produits issus de la R&D des membres de Systematic est une vitrine exceptionnelle
+internationale pour l’innovation francilienne en open source et logiciel libre. Ce book doit refléter
+aussi complètement que possible l’activité fertile en R&D des membres du GTLL pour plusieurs
+raisons :
+ C’est un outil de communication pour les structures et nombreux entrepreneurs de talent –
+notamment ceux qui sont le plus susceptibles de manquer de temps – dont l’activité de R&D
+est dense, car elle leur permet de rendre compte de ce travail en y exposant les produits
+issus directement ou indirectement de leurs projets de R&D.
+ Les fiches produits seront utilisées dans le cadre des missions du service international à des
+fins de prospection commerciale auprès de clients potentiels étrangers.
+ Il sert de première base de sélection pour ceux qui souhaitent exposer leur produit lors de la
+Convention annuelle de Systematic.
+9 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+ C’est la preuve de l’existence des retombées économiques de la R&D du GTLL, et un gage de
+la puissance de l’écosystème que vous constituez ensemble.
+Le renseignement d’un ou plusieurs produits est réservé aux industriels, les laboratoires devant
+simplement s’assurer que leurs partenaires industriels ont bien peuplé le catalogue avec le produit
+qu’ils ont commercialisé à partir des résultats d’une R&D commune.
+Dans l’annuaire 2015 des produits issus de la R&D de Systematic, 44 des 162 produits représentés
+sont issus de la R&D collaborative du GTLL (voir la totalité du book des produits Systematic en ligne).
+4.2. Book des projets
+Les académiques ne pouvant initier de fiches dans le book des produits, ils peuvent bien sûr utiliser
+le book des projets pour mettre en valeur leur activité de R&D collaborative. Ils peuvent notamment
+y donner de la visibilité à leurs articles.
+D’autres vecteurs de visibilité existent bien sûr, à travers le site web de Systematic, la
+newsletter du GTLL, la newsletter du pôle, les messages Twitter, etc.
+5. Animation du GTLL et calendrier annuel
+La vie du GTLL est marquée par une série d’événements annuels et occasionnels.
+5.1. Animation en continu
+Pour compléter ces événements, les actions d’animation suivantes sont menées :
+ Newsletter du GTLL : une à deux fois par mois. Vous pouvez en consulter les archives ou
+inviter toute personne pertinente à s’y inscrire.
+ Livrets bleus du Logiciel Libre : édités par le GTLL sous licence CC, ces livrets aident à faire
+comprendre les modèles économiques mais aussi le lien fort entre recherche académique et
+qualité logicielle, entre open innovation et modalités de collaboration du logiciel libre.
+5.2. Événements annuels
+a) Liés à la thématique Logiciel Libre
+ Plénières semestrielles : une réunion plénière se tient deux fois par an, environ trois mois
+avant les échéances des appels à projets FUI (en général en septembre-octobre et en
+10 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+janvier). Elle a vocation à réunir l’ensemble des membres du GTLL pour présenter les
+informations importantes et faire émerger des propositions de projets : c’est à cette
+occasion que les membres peuvent présenter leur projets et rencontrer des partenaires.
+ Paris Open Source Summit (POSS) : le GTLL a été le principal artisan de l’Open World Forum,
+initié par la Ville de Paris en 2008, et devenu en juin 2015 le Paris Open Source Summit,
+événement majeur représentant toute la dynamique de l’open source notamment en France.
+ L’Open Source Innovation Spring : ces journées sont un nouveau temps fort de l’animation
+de l’écosystème du logiciel libre en Île-de-France, et rapprochent les acteurs de l’innovation
+open source de leurs utilisateurs et clients potentiels. Initiée au printemps 2015 par le GTLL
+et l’Irill (Initiative de Recherche et Innovation sur le Logiciel libre), l’OSIS met en valeur des
+pépites innovantes issues de l’Industrie et de la Recherche française dont le succès est
+mondial.
+ Séminaires : des séminaires mixtes entre académiques et industriels se tiennent dans
+l’année ; ce sont des occasions de mettre en contact des technologies et des acteurs
+industriels.
+ Ces séminaires se complètent de meetups occasionnels.
+b) Pour l’ensemble du Pôle :
+ La Convention du pôle se tient autour du mois de juin, et réunit l’ensemble des membres du
+pôle et des financeurs institutionnels.
+ La Journée Ambition PME se tient autour du mois d’octobre, réunit l’ensemble des membres
+du pôle, tout en étant ouverte à un large public.
+11 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+6. Composition du comité de pilotage
+Le Comité de pilotage (« Copil ») du Groupe thématique Logiciel Libre est actuellement composé de
+21 membres et un suppléant, industriels et académiques du monde de l’open source. Il est présidé
+par Stéfane FERMIGIER, fondateur et président de la société d’édition de logiciels libres Abilian.
+Son vice-président est Roberto DI COSMO, directeur de l’IRILL et professeur à l’université Paris VII.
+Liste des membres du Copil du GTLL
+ APONTE Maria-Virginia, CNAM
+ BECUE Grégory, SMILE
+ CARRÉ Philippe, ALCATEL LUCENT (responsable de l’instruction des projets)
+ CHAILLOUX Emmanuel, UNIVERSITE PARIS 6 (PIERRE ET MARIE CURIE) (responsable de
+l’instruction des projets)
+ CHAUVAT Nicolas, LOGILAB
+ DELEBARRE Véronique, SAFE RIVER
+ DI COSMO Roberto, IRILL, UNIVERSITE PARIS 7 (PARIS-DIDEROT)
+ FERMIGIER Stéfane, ABILIAN
+ FICHEUX Pierre, OPEN WIDE
+ LE FESSANT Fabrice, INRIA (& OCamlPro)
+ LEHMANN Gilles, C-S
+ LEPIED Frédéric, eNOVANCE / RED HAT
+ MONTARGÈS Philippe, ALTER WAY
+ MOREAU Patrick, INRIA
+ MOULIN Camille, INNO3 (suppléant : JEAN Benjamin)
+ MOY Yannick, ADACORE
+ NURCAN Selmin, UNIVERSITE PARIS 1 (PANTHEON SORBONNE)
+ PETRUCCI Laure, UNIVERSITE PARIS 13 (PARIS NORD)
+ QUEINNEC Pierre, GLEETR
+ THOMAS Cédric, OW2
+ ZARA Florent, HENIX
+Responsable du Groupe thématique (depuis octobre 2013)
+ Muriel SHAN SEI FAN
+Personnes invitées
+ Représentant au Copil de l’IRT SystemX : Bruno FOYER (depuis septembre 2015)
+ Représentant du collège des investisseurs de Systematic : Guillaume MEULLE (IRIS Capital)
+12 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+7. Annexes
+7.1. Charte du Groupe thématique Logiciel Libre
+Tout membre entrant au GTLL ou participant à un projet accompagné et labellisé par le GTLL
+s’engage à respecter la charte du GTLL :
+Les résultats de nos travaux sont des logiciels libres
+Lorsque nous réaliserons de nouveaux composants logiciels, à travers des projets de R&D financés
+par le biais du pôle, nous les publierons sous une licence compatible avec les principes du logiciel
+libre, et notamment une licence reconnue par la FSF, l’OSI, ou qui épouse les principes énoncés par la
+FSF et/ou l’OSI, comme, par exemple, la famille de licences libres francophones CeCILL. Nous agirons
+en sorte que les travaux libres ainsi produits soient largement connus, distribués et utilisés.
+Engagement des membres vis-à-vis des brevets logiciels
+Doter d’une licence libre un logiciel développé ne suffit pas à garantir que ce logiciel pourra
+effectivement être librement diffusé, utilisé et modifié en accord avec la licence : si ce logiciel est
+soumis à des brevets, le détenteur de ces brevets peut en limiter ou interdire l’usage,
+indépendamment de la licence du logiciel. De telles restrictions ou limitations annuleraient l’effet
+d’avoir choisi une licence libre, et iraient donc contre la mission du Groupe thématique Logiciel Libre.
+Ce danger est déjà pris en compte dans certaines licences libres, mais pas dans toutes. Nous
+demanderons donc à tout acteur membre du Groupe thématique Logiciel Libre de s’engager
+formellement à ne faire valoir, contre tout logiciel libre qu’il développera dans le cadre d’un projet
+proposé par le Groupe thématique Logiciel Libre et labellisé par le pôle, aucun brevet qu’il détient et
+qui pourrait couvrir, en tout ou en partie, des fonctionnalités qu’il a incorporées au dit logiciel, ou qui
+y ont été incorporées par un tiers avec son accord et ceci tant que ce logiciel sera utilisé
+conformément à la licence.
+Nota bene
+On remarquera que cette charte permet à tous les acteurs de participer, même ceux qui développent
+d’importantes activités dans le domaine du logiciel propriétaire, ou qui détiennent des portefeuilles
+de brevets : la seule condition est de respecter les règles ici énoncées pour ce qui concerne les
+projets de R&D financés par le biais du Groupe thématique Logiciel Libre.
+Nom, date et signature
+13 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+=>
+7.2. Historique des modifications
+ 3/9/2009 : mise a jour des informations sur les CoPil
+ 17/2/2009 : corrige erreur dans le montant de financement des grands groupes au FUI8, qui
+est bien de 25
+ 6/6/2014 : premières corrections (MSSF)
+ 01/09/2015 : ajouts et mises à jour
+14 Guide des membres du GTLL, 2015
+Groupe thématique Logiciel libre – Systematic Paris-Region
+Licence Creative Commons CC by-sa : attribution, partage à l’identique
+

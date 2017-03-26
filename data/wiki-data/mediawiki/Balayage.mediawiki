@@ -1,0 +1,332 @@
+# Balayage
+
+[[Category:Historique]]
+[[Category:Sonde]]
+[[Category:Balayage]]
+
+Pour voir toutes les pages qui traitent du sujet, voir [[:Category:Balayage|la catégorie Balayage]]. On peut aussi les tagguer avec le shortcode '''Balayage'''.
+
+Une autre page intéressante est the [[Old Devices list]].
+
+Parmi les technologies de sondes ultra-sonores, nous choisissons de retenir celle qui nou permettra d'avoir un rapport coût-efficaicté maximale - nous entendons ici par efficacité l'obtention d'une image de qualité echo-sthétoscopique, ce qui sera suffisant pour les usages que nous visons (orientation diuagnostique).
+
+<br />
+
+Le principe de ces sondes est de balayer la surface à examiner grâce à un système mécanique. Typiquement, un ou plusieurs transducteurs ([http://en.wikipedia.org/wiki/Capacitive_micromachined_ultrasonic_transducers piézo-électrique ], [http://en.wikipedia.org/wiki/Capacitive_micromachined_ultrasonic_transducers cMUT]) sont fixés à un élément mobile que l'on anime via un moteur. On transforme le mouvement rotatif du moteur en translation dans la majorité des cas (type bielle-manivelle, voir [[#Neasham]]).
+<br />
+La qualité du signal reçu dépend à la fois du nombre de transducteurs, de la fréquence d'acquisition des transducteurs mais aussi de la vitesse de balayage de la sonde.
+<br />
+Obtenir une image de qualité en temps réel est essentiel, on visera donc un framerate supérieur à 30 images par seconde.
+
+<br />
+== Principe des Mechanical Transducers ==
+
+Mechanical scanning transducers use a single or multiple elements that are physically moved by a servomotor. The motor turns the transducer crystal to sweep the ultrasound beam through a sector scan arc, producing a pie shaped pattern.
+
+There are 3 common types of Mechanical Transducers.
+# 3 element rotor driven
+# Single element cocked back and forth
+# Stationary element aimed at a pivoting acoustic mirror
+
+All mechanical transducers require the use of a servo position feedback to coordinate the aiming of the ultrasound beam with the transducer pulse/receiver, scan converter and display.
+
+== Histoire des transducteurs rotatifs ==
+
+
+=== 1966 - Where it started: Vidoson ===
+''The innovation which had soon completely changed the practice of ultrasound scanning was the advent of the Real-time scanners. The first real-time scanner, better known as fast B-scanners at that time, was developed by Walter Krause and Richard [[Inventeurs#Richard_Soldner | Soldner ]] (with J Paetzold and and Otto Kresse) and manufactured as the '''[[Vidoson]]'''® by Siemens Medical Systems of Germany in 1965. D Hofmann, H Holländer and P Weiser published it's first use in Obstetrics and Gynecology in 1966 in the German language. Hofmann and Holländer's paper in 1968 on "Intrauterine diagnosis of hydrops fetus universalis using ultrasound" also in German, is probably the first paper in the medical literature describing formally the diagnosis of a fetal malformation using ultrasound.''
+
+'''The [[Vidoson]] used 3 rotating transducers housed in front of a parabolic mirror in a water coupling system and produced 15 images per second'''. ''The image was made up of 120 lines and basic gray-scaling was present. The use of fixed focus large face transducers produced a narrow beam to ensure good resolutions and image. Fetal life and motions could clearly be demonstrated. ''
+
+Prototypes of these devices were field-tested by Hans J. Hollander, Gynaecologist at the University of Munster in 1964 and by E Gerhard Rettenmaier, Internist at the Erlangen Medical Clinic in the following year. The real-time device was received with great enthusiasm. The models 635/635S, 635ST, 735 and 735SM were commercially available from 1965 onwards. More than 3000 units were sold.
+
+Malte Hinselmann, using the Vidoson, demonstrated in 1969 the universal visualization of fetal cardiac action from 12 weeks onwards. The [[Vidoson]] was popular in the ensuing 10 years or so and were used in many scientific work published from centers in Belgium, Italy, Germany, Vienna and North America. The initial popularity was not based on its image resolution but rather its ability to allow the operator to display and study movements, such as fetal cardiac motion, gross body movements and fetal breathing movements (see also Part 3). In the International Symposium on Real-time ultrasound in Perinatal Medicine held in Charleroi, Belgium in 1978, most of the presentations were based on results from the '''[[Vidoson]]'''.
+
+''' ......... For almost ten years, real-time ultrasound has been used in many obstetrics departments. By means of an apparatus which has since become technologically outdated many doctors, technicians and expectant mothers had, at the time, the moving experience of being able to observe the living fetus. This seems to me to have been a psychological break-through. For the first time, the human eye pierced the 'black box' of the womb...... Those who were present in obstetrics departments when this technique was first used soon realized how indispensable it was proving to be in providing a valid means of observation of the fetus and its health, in ascertaining its age and studying its morphology and growth........ . Over the last three years, the appearance of the multitransducer scanner has brought about substantial technical progress. At the same time, but quite independently of this, numerous studies on fetal breathing movements, fetal behavior and neonatal cardiology were published ....... ." '''
+
+--- R. Chef, Maternité Reine-Astrid, Charleroi (Belgium), in the foreword to the Proceedings of the International Symposium on Real-time Ultrasound in Perinatal Medicine held in 1978 at Charleroi.
+
+=== 1973 - James Griffith and Walter Henry===
+
+They produced a '''mechanical oscillating real-time scanning apparatus in 1973''' which was capable of producing clear 30 degree sectoral real-time images of good resolution. The transducer was employed extensively in cardiac scanners and the design was hailed as one of the significant milestones in the development of echocardiography.
+
+<br />
+
+"Echocardiography is a widely-used noninvasive diagnostic technique that is extremely valuable in evaluating patients with suspected heart disease. As routinely used, this technique utilizes a single ultrasound transducer that can be oriented so that the ultra-sound beam is directed through a specific region of the heart. With this method, rapidly moving structures can be easily visualized. The spatial orientation of cardiac structures, however, is more difficult to evaluate, a limitation that is particularly important when evaluating congenital heart disease where normal anatomic relations cannot be relied upon. In order to overcome this difficulty, several systems have been developed to image a larger region of the heart. These systems can be grouped into a) real-time systems (1-3); i.e., those that allow visualization of heart motion while it actually is occurring and b) non-real time systems (4,5); i.e., those that require multiple consecutive heart beats in order to construct images of the heart."
+<br />
+''Donald C. Harrison; Harry A. Miller, Cardiovascular Imaging and Image Processing: Theory and Practice, 1975''
+
+=== 1974 - EMI® Emisonic 4260===
+Other mechanical systems published included an oscillating design with membrane-oil coupling from W N McDicken in Edinburgh (1974, produced commercially as the '''EMI® Emisonic 4260'''), a continuously rotating wheel with radially-mounted transducers from Hans Hendrik Holm in Denmark (1975)
+
+=== 1975 - Eggleton ===
+
+A '''single transducer direct-contact design''', from Reginald [[Inventeurs#Eggleton | Eggleton ]] in Indiana (1975). 
+
+Voir le brevet ci dessous ( http://www.google.com/patents/US3817089 ) ou en PDF: [[File:US3817089.pdf]].
+
+An instrument and method which allows real time examination of internal organs of the body such as the heart comprising a catheter which has a rotating tip in which a number of ultrasonic transducers are mounted and which can be selectively connected to a pulser to transmit a ultrasonic pulse into the body and receive an echo from such pulse and including commutating, indexing and presentation means such that display of the conditions within the body may be obtained.
+
+=== 1975 - Toshiba===
+
+in Japan produced their first prototype real-time mechanical sector scanner in 1975, the '''[[SSL]]-51H'''. 
+
+=== 1977 - Kretztechnik===
+A number of others were available commercially soon afterwards and sold well such as the '''circular rotating system [[Combison 100]]''' of Austria (1977), produced under the ingenuity of Carl Kretz.
+
+'''The large hand-held circular rotating transducer [[Combison 100]] from KretzTechnik® and the resultant sector image.
+The transducer is connected to the main console by a flexible cable.''''
+
+[[File:Kretz.jpg]]
+<br /><br />
+[[File:Kretzimage.jpg]]
+
+<br />
+<br />
+[[File:Combison100With5Tranducteurs.png]]
+
+
+
+
+Although these have relatively heavy probes they produced outstanding real time resolution in the near and far field (because of highly focused beams resulting from the relatively large curvatured transducers and the lens apparatus) and with much less image-degrading electronic noise that was associated with electronic scanners that soon became available at around the same time.
+
+== Quelques brevets avec designs intéressants == 
+
+=== (1965) Ultrasonic transducer system ===
+
+Flaherty John J, Rosauer Peter J
+
+Specific features of the invention reside in a mechanical construction where the 'oscillating components have a low moment of inertia and on an electrical drive motor such as to facilitate quick reversal of the direction of rotation at each limit of the oscillatory movement and uniform angular velocity between the limits of oscillatory movement. With these features, a more uniform and accurate display of echo signals can be produced. 
+
+http://www.google.com/patents/US3403671
+
+=== (1971) Ultrasonic scanning apparatus (Hill) ===
+
+A pulse-echo method of ultrasonic scanning to investigate the interior of a body involves contacting the body with an ultrasonic transducer at a fixed point having a first axis therethrough which is fixed relative to the body, projecting a pulsed ultrasonic beam through the fixed point along a second axis which is fixed relative to the transducer, and rotating the transducer about the first axis while progressively varying the angular inclination of the second axis to the first axis.
+
+[[File:US3752255-1.png|300px|thumb|center|Description]]
+
+The beam path then describes a spirally wrapped conical surface with its apex at the fixed point, which means that the transducer does not track across the body, but simply rolls on it at the fixed point, and this alleviates the transducer/body coupling problems which otherwise arise. Apparatus for this purposes comprises a support structure to define the first axis, a circular arcuate carriageway rotatable about this axis to produce the wrapping motion and to define by its centre of curvature the fixed point, a carriage extending transversely from the carriageway to define the second axis and movable along the carriageway to produce the progressive angular variation or spiral effect, and a transducer with its periphery at the fixed point, its beam path along the second axis, and rotatably mounted in the carriage to effect a rolling action on the body.
+
+http://www.google.com/patents/US3752255
+
+=== (1971) Rotating probe high data acquistion rate apparatus ===
+
+('''[[Inventeurs#Eggleton | Eggleton ]] ''' R, Weidner A) [[File:US3817089.pdf]] (cf ci dessus http://echopen.org/index.php?title=Balayage#Eggleton )
+
+http://www.google.com/patents/US3817089
+
+=== (1974) Cardioscan probe ===
+
+Inventor: Reginald C. '''[[Inventeurs#Eggleton | Eggleton ]] ''' (Indianapolis, IN) Filed: Sep 16, 1974 - The invention is in the field of B-mode ultrasonic probe systems.
+Ultrasonic probe apparatus comprising:
+*   an elongated probe housing having a longest dimension; 
+*    a transducer pivotally mounted near an end of the housing and having a face adjacent the surface of the housing, the transducer being pivoted about an axis in a plane approximately perpendicular to the longest dimension of the housing; 
+*    linkage means in the housing for pivotally oscillating the transducer about its axis when the linkage means is activated; 
+*    motor means coupled to the linkage means for activating the linkage means; and 
+*    means coupled to the transducer for causing the transducer to produce ultrasonic pulses. 
+
+http://patents.justia.com/patent/3955561
+
+=== (1975) Ultrasonic scanning system with video recorder ===
+
+Paul R. Goldberg pour Smith Kline Instruments, Inc.
+
+PDF : [[File:US4034744.pdf]]
+An ultrasonic scanning system for observing the internal organs of the body including at least one ultrasonic transducer for sequentially scanning a region of the body and pulsing means for periodically pulsing said transducer as it begins a scan. Video recording means records a composite signal including scanning, pulse rate and echo information for reproduction. Display means are included for directly displaying the information or for displaying the play-back from the video recorder. The display is interlaced, providing minimum jitter and maximum resolution.
+
+https://www.google.fr/patents/US4034744
+
+=== (1975) Ultrasonic scanning apparatus ===
+
+(1975) John Stewart Paton, Alexander Shaw
+
+Voir aussi en interne: [[Introduction_to_Mechanical_probes]]
+
+An ultrasonic scanning device having an ultrasonic transmission/reception probe arranged for rapid scanning in a plane while a housing of the device is being held stationary so that real time ultrasonic "pictures" of moving organs such as the heart, can be obtained. The probe is arranged to scan through a window of the housing and mounting means for the probe ensure that ultrasonic signals from the probe have a constant reference point of departure which is at a well-defined small distance from the window. Ultrasonic coupling means are provided between the probe and window, and the window, coupling means and probe may form a sub-assembly removable from the housing.
+
+[[File:US4120291-1.png|400px|thumb|center|alt text]]
+
+http://www.google.com/patents/US4120291
+
+=== (1976) Ultrasonic section plane examination and display ===
+
+Inventor: Carl Kretz (Zipf)  - Filed: Dec 10, 1976
+
+Moving section plane pictures of a specimen are produced by contacting a predetermined peripheral portion of an ultrasonic transducer head with the specimen in the section plane. The transducer head has a ''circular internal cavity'' in which a wheel is mounted eccentrically for rotation about an axis. A plurality of ultrasonic transducers are mounted peripherally on the wheel. The gap formed between a transducer and the internal surface of the transducer head is a minimum along the peripheral portion where contact to the specimen occurs. Each transducer is energized only when passing through the sector subtended by the peripheral portion in contact with the specimen and echoes received by the transducer are displayed on a screen whose base line is synchronized to the movement of the ultrasonic beam. The transducers can be divided into two sets alternately spaced around the wheel, each transducer of one set having a predetermined characteristic differing from the corresponding characteristic of the transducers of the second set. Depending upon the application, transducers of one or the other set are energized selectively or time averages may be obtained by alternate energization of the two sets. 
+
+http://patents.justia.com/patent/US4102204
+
+
+=== (1977) Ultrasonic transducer probe ===
+
+Raymond S. Connell, Jr., John M. Santacroce pour Smith Kline Instruments, Inc.
+
+PDF : [[File:US4149419.pdf]]
+
+An ultrasonic transducer probe having a sealed rotor housing, a plurality of transducers mounted on a rotor disposed in said housing. A rotor shaft mounts the rotor and extends through the housing. A drive assembly including commutating and position indicating means receives said housing and rotor shaft and serves to drive the rotor, commutate electrical energy to and from said transducers and indicate the angular position of said rotor. A handle including means for driving said drive assembly is attached to said drive assembly to position the rotor housing and drive assembly against the body the rotate said rotor to cause the transducers to scan a sector of the body.
+
+https://www.google.fr/patents/US4149419 
+
+
+=== (1978) High resolution rotating head ultrasonic scanner ===
+(D Rojohn, D Dick, R Elliott, R Metz) 1978 PDF : [[File:US4233988.pdf]]
+
+http://www.google.com/patents/US4233988
+
+Each scanning head has three ultrasonic transducers (20a, b, c,) uniformly spaced around its perimeter. The focal ranges of the transducers of a given scanning head are chosen so that sector scan conducted by each head is divided into slightly overlapping zones with the depth of each zone corresponding to the focal range of one of the transducers on each scanning head. The angular velocity and phase of the scanning heads are controlled so that during one revolution of the scanning heads, each transducer of each head conducts a sector scan primarily through its zone. However only one such transducer will conduct such a scan at any one time.
+
+=== (1978) Ultrasonic sector scanner===
+
+Andrew P. Proudian, Arthur E. Nagy  ([[File:US4185501.pdf|PDF]])
+
+An ultrasonic sector scanner for producing a sector scan in an object to be examined in which one or more ultrasonic transducers are positioned to direct ultrasonic waves toward the surface of one or more movable reflectors. The movable reflectors traverse an arcuate path with respect to a stationary reflector which is positioned to receive the ultrasonic waves scanning the surface of the stationary reflector from each of the movable reflectors and converge such waves at a point in front of the stationary reflector.
+
+http://www.google.com/patents/US4185501
+
+=== (1979) Ultrasonic sensing apparatus ===
+
+Christopher L. Fischer
+
+PDF : [[File:US4269066.pdf]]
+
+An ultrasound sensing apparatus suitable for human body scanning, particularly regions which are difficult to scan with larger ultrasound heads. The ultrasound transducers are mounted for rotation in an off-axis configuration. With this configuration, transmission and reception of sound occurs without the sound being normal to the membrane contacting the body. This eliminates reverberation problems and permits viewing of shallow tissue with a relatively small apparatus.
+
+https://www.google.fr/patents/US4269066
+
+
+=== (1980) Ultrasonic scanning probe with mechanical sector scanning means ===
+
+Jacques Dory
+
+PDF : [[File:US4418698.pdf]]
+
+The probe has a casing provided with an ultrasonically transmissive window and containing a couplant liquid in which are immersed a piezoelectric disc, an electric motor and a mechanical coupling between the motor shaft and the disc. The mechanical coupling comprises a connecting rod driven at one end by the shaft in a conical motion about the shaft axis, which is at right angles to the disc and to the window. The disc is rotatably supported about a diametrical axis which is fixedly positioned with respect to the casing. A yoke which has a bracket secured to the connecting rod at the opposite end thereof, is rotatably supported about an axis which is fixedly positioned with respect to the disc and at right angles to the diametrical axis. The mechanical coupling transmits an oscillating motion to the disc about the diametrical axis.
+
+https://www.google.fr/patents/US4418698
+
+=== (1981) Ultrasonic sector scanner utilizing rotating transducer ===
+
+Ted F. Naumann, Jr., Ronald C. Carnes, Axel F. Brisken (pour General Electric Company)
+
+PDF : [[File:US4402223.pdf]]
+
+An ultrasonic sector scanner using rotating transducers includes a transducer support wheel having a circumferential rim surface with a plurality of recessed seats within the circumferential surface for receiving inwardly facing transducers. The wheel and recessed seats provide accurate alignment of the transducers and acoustic mirrors direct ultrasonic energy between the transducers and ports
+
+http://www.google.com/patents/US4402223
+
+=== (1981) Ultrasonic sector scanner utilizing rotating transducer === 
+
+Ted F. Naumann, Jr., Ronald C. Carnes, General Electrics[[File:US4453409.pdf]]
+
+An ultrasonic sector scanner using rotating transducers includes a transducer support wheel having a circumferential rim surface with a plurality of recessed seats within the circumferential surface for receiving inwardly facing transducers. The wheel and recessed seats provide accurate alignment of the transducers and acoustic mirrors direct ultrasonic energy between the transducers and ports.
+
+http://www.google.com.gh/patents/US4453409
+
+
+
+=== (1984) Fully wetted mechanical ultrasound scanhead ===
+
+Dwayne H. Putzke (pour Advanced Technology Laboratories, Inc.)
+
+PDF : [[File:US4567895.pdf]]
+
+A fully wetted ultrasound scanhead for medical applications is described in which the motor and the rotor are enclosed within a sealed housing filled with ultrasound coupling fluid. The invention includes a drive belt to drive the rotor from the motor, rather than a precision drive means. Speed adjustment means, including an encoder disk mounted on the rotor, provide feedback for an electronic speed controller. Accordingly, the speed of the motor can be adjusted as a direct consequence of the actual speed of the rotor.
+
+http://www.google.com/patents/US4567895 
+
+
+=== (1984) Ultrasonic compound scan with rotating transducer === 
+
+John G. Abbott, 4 autre(s) » 25 sept. 1984
+
+A real time method and apparatus is disclosed for scanning large body areas to produce an ultrasound cross-sectional picture of a body in which method at least two different and partially overlapping sector scans of the body are carried out in one scanning plane by the pulse-echo method utilizing single ultrasound array. The array is rotatable about an axis of rotation perpendicular to the scanning plane and comprises at least a first and a second transducer, disposed in spaced relationship along a circle which is situated in the scanning plane and which is concentric with the axis of rotation. Out of at least two different scans, one is performed with the first transducer and the other with the second, each transducer being used both for the emission of ultrasound pulses and for the reception of echo waves and the position of the axis of rotation with respect to the body remaining unchanged during all the scans.
+
+http://www.google.dj/patents/US4649926
+
+== Ressources wiki ==
+
+* Sonde à Balayage OpenSource [[Backup: LOCUP]]
+* Newcastle : Dr [[Neasham]]
+* Exemple via image et description du design : [[Mechanical/Conventional/fixed_focus]]
+* Pour l'aspect portable, voir le [[MiniVisor]]
+
+== Autres ressources pertinentes ==
+
+* Resources intéressantes:
+
+http://www.psychiatrictimes.com/articles/kretz-museum-tour-history-ultrasound-2
+
+
+
+[[File:Ultrasound-diagnostics-fin-25-728.jpg|400px|thumb|center|alt text]]
+
+Différents types de sondes mécaniques
+
+[[File:Img55.jpg|400px|thumb|center|alt text]]
+
+The first real-time mechanical sector transducer (1977) with attached stand-off device for near field scanning. This is a rotating type with 5 crystals mounted on a drum inside the housing. Used on C 202-R, C100, C 100-5, C 111. - See more at: http://www.psychiatrictimes.com/articles/kretz-museum-tour-history-ultrasound-2#sthash.3Tbp5ZUf.dpuf
+
+[[File:1953372.png]]
+<br /><br />
+[[File:1953376.png]]
+
+Special version of the rotor type for the examination of the eye. The housing was covered with a soft membrane with an inner water filling for coupling. - See more at: http://www.psychiatrictimes.com/articles/kretz-museum-tour-history-ultrasound-2#sthash.3Tbp5ZUf.dpuf
+<br /><br />
+[[File:1953380.png]]
+
+== Autres liens (moins ciblés) ==
+
+*''' Refs pour le Vidoson'''
+http://www.ob-ultrasound.net/history-realtime.html
+http://www.ob-ultrasound.net/soldner.html
+
+*'''Patent - High frequency, high frame-rate ultrasound imaging system''' 
+http://www.google.com/patents/US7255678
+
+*'''Implementation of a Rotational Ultrasound Biomicroscopy System Equipped with a High-Frequency Angled Needle Transducer — Ex Vivo Ultrasound Imaging of Porcine Ocular Posterior Tissues''' :
+http://www.mdpi.com/1424-8220/14/9/17807 ou article PDF :
+http://www.mdpi.com/1424-8220/14/9/17807/pdf
+
+*'''The effect of electronically steering a phased array ultrasound transducer on near-field tissue heating''' :
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3166338/
+
+*'''Brevet : Sonde d'échographie à balayage sectoriel mécanique''' :
+https://www.google.com.ar/patents/EP0045265B1?cl=fr
+
+*'''Liste INPI des brevets déposés''' :
+http://fr.espacenet.com/searchResults?ST=singleline&compact=false&query=sonde+balayage+%C3%A9lectronique&locale=fr_FR&DB=fr.espacenet.com
+
+*'''Liste google des brevets déposés''' :
+https://www.google.com.ar/search?tbm=pts&hl=fr&q=sonde+%C3%A0+balayage+sectoriel
+
+*'''Approche 3D utilisant une sonde à balayage motorisée''' :
+http://uscomp.inria.fr/resultas-obtenus/asservissement-visuel-base-sur-les-images-echographiques/approche-2d
+
+*'''Historique des 3 transducters'''
+http://books.google.fr/books?id=B2qkAgAAQBAJ&pg=PA340&lpg=PA340&dq=sonde+%22trois+transducteurs%22&source=bl&ots=YSCvNAoMVq&sig=Nfi3gp25zo_l6SPt6Xv3LX6f1nU&hl=fr&sa=X&ei=8mFsVJawJ4qxaaL4giA&ved=0CCsQ6AEwAg#v=onepage&q=sonde%20%22trois%20transducteurs%22&f=false
+
+*'''An outer sheath and an acoustic membrane surround the shaft and the ''ultrasound'' element such that the shaft and ultrasound element are rotatable therein. '''
+http://www.google.com/patents/US20110301508
+
+*'''In vitro evaluation of an oscillating dual-mode ultrasound probe for sector imaging and directive therapy.''' :
+http://www.ncbi.nlm.nih.gov/pubmed/19163506
+
+* '''Exemple de sonde wobbler'''
+http://www.ebay.com/itm/KONTRON-INSTRUMENTS-W-5-MHz-DS-Type-WOBBLER-Ultrasound-Transducer-Probe-/300995586499
+
+* '''Ressource sur les combison, premiers echographes à balayage'''
+https://translate.google.com/translate?sl=auto&tl=fr&js=y&prev=_t&hl=fr&ie=UTF-8&u=http%3A%2F%2Fwww.uzist.ru%2Fistoriya-uzi%2Fkretztechnik.html%23.VHHIkvmG81Y&edit-text=&act=url
+
+== Image ==
+
+=== Design === 
+En provenance de http://www.google.com/patents/US7255678 
+
+[[File:Balayage.png|600px|center]]
+
+=== Neasham ===
+
+En provenance de [[Neasham]] :
+
+[[File:article-2203114-14FEA4C1000005DC-434_634x433.jpg]]

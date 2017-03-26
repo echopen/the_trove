@@ -1,0 +1,84 @@
+# Article: Design of Low-Cost Portable Ultrasound Systems
+
+==Abstract==
+
+''Ultrasound continues to be one of the major imaging modalities used for the diagnosis and treatment of a number of medical conditions. Therefore there is innovation that is continually increasing the quality of the ultrasound system currently available. However focus is just beginning to shift into the field of low-cost portable ultrasound system. These systems present interesting considerations which must be taken into account to transform a standalone system into a portable version. This review takes a look at some of the attempts which have been published, as well as some of the issues which have still yet to be resolved. In conclusion, low-cost portable ultrasound has the capability to be developed, but until a suitable replacement to piezoelectric crystals has been developed (possibly CMUTs?) low-cost portable ultrasound system will be held back by the high cost burden associated with the cost of piezoceramics.''
+
+== I. INTRODUCTION ==
+Since its beginning in the 1950’s medical ultrasound has continued to grow and mature. As standalone machines become increasingly complex, a new segment of the engineering community is doing just the opposite, trying to make medical ultrasound machines smaller, more power-efficient and less costly than they have ever been (1). The two main companies which are focused on the development of portable ultrasound systems are GE Healthcare and Sonosite, which have systems that range in cost from $15,000 to $90,000. However, this paper will focus on the development of systems which are significantly less expensive, on the order of $5,000 or less.
+
+The market demand for portable ultrasound is becoming larger with applications in developing countries, military, and emergency purposes. According to Harvey Klein, President of Klein Biomedical Consultants, their latest report on the ultrasound market indicated that the handheld-ultrasound market grew by 42% in 2007 to $565 million (2). However, Klein the leading Ultrasound industry expert expects the global market to exceed $1.2 billion in five years. Currently the markets outside of the United States account for 42% of the sales. These figures show the increasing emphasis that the market may place on the miniaturization of medical ultrasound.
+
+However, in order to make ultrasound technology more portable and available at a lower cost a number of design parameters need to be addressed.
+First transducer design on stand-alone machines typically consists of intricate transducer arrays created with highly sensitive piezoceramics. These generally have a high cost associated with them, and therefore are not directly suited for low-cost applications.
+Secondly the hardware implementation of the ultrasound transmit and receive circuitry needs to be modified to become more portable. Traditionally ultrasound technology usually relies upon high voltages and currents to drive the transducer as well as sensitive circuitry to receive the acoustic waveform. Therefore to make a system portable, lower voltage and current power sources must be used.
+Finally the beamforming algorithm which is used to steer and focus acoustic signals must be simplified for use on a portable system. To meet these needs tradeoffs must be made in order to create the machine small enough to satisfy its reduce the cost and portability requirements, but also with enough resolution to provide the medical practitioner an image that can be clinically useful.
+
+== II. TRANSDUCER DESIGN ==
+Until advances in phase array transducers, single element probes were constructed and attached to mechanical motors in order to produce a 2-D image. However, this method had many problems including slow scanning, mechanical fragility, and insensitivity (3). With the optimization and construction array transducers (4), the mechanical arrays are more limited in usage.
+
+Initially 1-D array were created with an array of N elements (typically 64-128 elements), this was pragmatically useful because they translate well onto a 2D display and the designer had essentially “unlimited” space to design their transducer (3). However, these limitations lead to the belief that a 3-D image would be more beneficial. However with these N x N arrays, now all parameters get increased by a factor of N. Therefore, one of the major challenges becomes the creation of a PCB layout that will facilitate all the array elements.
+
+Girard et al. at the University of Virginia (3) developed a low-cost method for the creation of a printed circuit board (PCB) to facilitate 1024 surface pads for each element. A gold plated polyester sheet covered all 1024 transducers to complete the connection. Due to the PCB traces that crossed over each other crosstalk was a large portion of the overall signal, however sufficient proof of concept was generated.
+
+Eames et al. furthered the work by Girard et al. at the University of Virginia with the creation of a 60 x 60 (3600 element) transducer array. Eames et al. looked to improve upon the problems Girard et al. faced with crosstalk in their device by creating 3600 straight through holes as seen in figure 1.
+
+Eames et al. design resulted in a slightly lower frequency than anticipated, probably due to the element thickness. Further problems that were anticipated with a lower-aspect ratio, due to the dimensions of the transducer that included grating lobes.
+Transducer design has continued to progress and the type of transducer greatly depends upon the application of the ultrasound system. The frequency of ultrasound probes can vary roughly between 1 to 10 MHz depending on the application. Most of the systems have the ability to use transducers that range from 1 to 10 MHz.
+
+However, as progress in micro fabrication continues capacitive ultrasonic transducers are beginning to compete with piezoelectrics. These capacitive micro-machined ultrasonic transducers (CMUTs) hold the promise of dramatically reducing the cost associated with ultrasonic transducers along with providing revolutionary advances in current technology.
+Oralkan et al. (6) was the first to present a pulse-echo phased array B-scan sector image using 128 CMUT elements in a 1D transducer array. They also showed evidence that CMUTs can compete with piezoelectrics in terms of efficiency and bandwidth
+An overview of the CMUT technology is shown in figure 2 below.
+
+A direct current voltage is applied between the membrane and the substrate, pulls the two together by electrostatic forces. The pulsing of will generate an ultrasonic signal.
+The 128 element array used by Oralkan et al. was attached to a PCB in a similar fashion to its piezoelectric counterparts. The array showed 100% efficiency in the connection of the transducers compared with only 90% by Girard et al. and 98.3% with Eames et al.
+For low-cost applications CMUTs continue to offer promise for the field. Even though low-cost designs have been implemented piezoelectric transducers, they generally provide much of the cost associated with ultrasound systems, still cost >$1,000. Therefore in order to create a truly low-cost solution, new technology such as CMUTs has to get to the point of commercialization and become inexpensive.
+
+== III. TRANSMIT CIRCUITRY DESIGN ==
+Another major hurdle in the increase in portability is the design of power system which effectively use low voltage sources. Traditional ultrasound systems rely on high voltages and currents to drives the piezoelectric transducers.
+Owen et al (7). developed a 12 lb plug-in class D switch mode amplifier to drive single element high intensity focused ultrasound transducers. The system provided 140 W of acoustic energy to a 70% efficient PZT transducer. Owen el al. concluded their device was comparable to available commercial applications.
+According to Lewis et al (8). the majority of ultrasound drivers and RF amplifiers are generally built with an output impedance of 50 ohms. In order to obtain the maximum power transfer matching circuitry must be used to transfer power to the transducer. However, in matching impedances which are generally complex, systems incur additional costs and complexity. Lewis et al. worked to develop driving circuitry with an output impedance of 0.3 ohms which transferred with 95 % efficiency to the transducer.
+
+The system is composed of six 9.6 V NiCad batteries which can provide voltages to the transducer ranging from 19.2 to 57.6 V. The battery life of the system ranged from 0.7 hours to 1.7 hours. The system was able to provide 50W of power to a 1.54 MHz transducer with impedance matching. The total cost of the system was $150.00 80% of which was battery costs.
+
+== IV. RECEIVE CIRCUITRY DESIGN ==
+
+The receive circuitry has to be further adapted for the low-cost, portable use with tradeoffs that provide adequate signals but also increase the usability and battery life.
+The Sonic Window a low-cost portable ultrasound system by Fuller et al. has been looking to accomplish this. The project takes many of the suggestions from the transducer design, electronics, and beamforming (to be discussed later) into account in the design of this low-cost, portable system.
+
+The system was implemented with a 2D array (32 x 32) very similar to the array introduced by Girard et al. Each receive channel consists of on-chip transmit protection shunting device, a variable gain preamplifier (figure 5), a bandpass filter, a sample and hold circuit, an analog-to-digital circuit with memory. By placing the transmit protection devices on the chips eliminates the need for bulky, expensive power consuming switching elements.
+
+The design of the system allows the requirements of the ADC and the sample-and-hold-circuits to be stripped down. For instance, the S/H circuitry consists of two S/H units, which sample one quarter period with respect to the center frequency of the received pulse. This process approximates the I and Q components of the RF signal according the Direct Sampled In-Phase/Quadrature beamforming technique (to be discussed later). Finally since the system only generates C-scan images the sample-and-hold circuits are only required to capture one sample per image. These properties of the system allow ADC conversion rates to be as low as 10kHz with much less memory being used.
+
+Additional methods for incorporating receive circuitry include USB 2.0 functionality (9) and compatibility with proprietary software packages from the main commercial portable ultrasound companies Sonosite and General Electric.
+
+== V. BEAMFORMING ALGORITHMS ==
+Initially in order to form the 2-D B-mode image, mechanical transducers were used to mechanically rotate the transducer (10). Analog delay lines and fast analog processing units allowed the advent of phased array systems in the 1980’s. However, after advances in silicon technology which lead to more sophisticated analog-digital circuits, beamforming algorithms were programmed digitally. These digital signals soon replaced their mechanical counterparts.
+Traditionally three different methods were used to implement a time delay. 1) RF modulation onto an intermediate frequency (11). 2) Upsample the incoming signal using an interpolation filter (12). 3) Nonuniform sampling of the RF signal according to the needed time delay.
+The oversampling method of implementing time delays soon became the popular method to implement time delays because of their relative simplicity and ease of integration. General Electrical patented a delta-sigma oversampling A/D, which suffers from a major flaw which reduce image quality
+
+Freeman et al. (10) corrected this problem with the creation of the Delta-Sigma Oversampled ultrasound beamformer. This method, now serves as one of the best low-cost beamforming options available.
+Ranganathan et al. (13) looked to further develop beamforming algorithms by reducing the image quality for a large tradeoff in cost, thus determining the simplest beamforming algorithm which yielded reasonable results. Therefore he was able to develop the direct sampled I/Q (DSIQ) beamforming algorithm.
+
+The beamforming algorithm which was used was found to dramatically reduce the cost and burden on the system. The DSIQ beamforming algorithm was found to be robust enough to be usable for the majority of applications.
+
+== VI. COMPLETE SYSTEM ==
+
+The most complete non-commercial system which is currently in development is the Sonic Window. The Sonic Window is being produced by Fuller et al. at the University of Virginia. As previously mentioned the system combines aspects of design discussed in the aforementioned sections.
+The Sonic View is designed to target users which demand a low-cost portable ultrasound such as clinicians, veterinarians, and battlefield medics. In order to decrease the cost a simple C-scan format will be implemented. The potential applications of this specific system include: needle and catheter insertion, guiding biopsies, locating foreign bodies, identifying internal bleeding and supporting physical examinations.
+The ultimate goal of the Sonic Window is to design a pocket-sized unit consisting of a 2-D array, with transmit and receive circuitry, along with a digital signal processor (DSP) which will be responsible for the beamforming algorithms.
+In accordance with their small, low-cost philosophy the 2-D array will be manufactured in accordance with Girard et al. The receive circuitry will be designed as described above. The beamforming technique which will be implemented will be the direct sampled in-phase/quadrature beamforming algorithm described by Ranganathan et al.
+
+The current prototype was created with a 2-D array, where each element was connected to a surface mount pad, which then interfaced with the transmit/receive circuitry. These connections were then fed through a complex programmable logic device (CPLD). The data was then sent into a PC through a PCI interface where the signal processing occurred in MATLAB.
+
+Other specific low-cost design aspects include the transmit protection scheme as seen in figure 8. Expensive parts are generally used to protect the circuitry from high voltage transients. However, a method described by Fuller et al (14) was implemented in the design. The design uses an NMOS transistor which is connected between the preamplifier input and a low-impedance power supply serving as the analog ground. When a high-voltage transient occurs the transistor is turned on and the current is shunted from the preamplifier to the analog ground. This method reduces 100V transients down to voltages on the order of 100mV.
+Another method which has been incorporated into the design is the preamplifier circuitry which is seen in Figure 5. The preamplifier has the ability to adjust gain from 30-85 dB. The schematic also uses a scheme which can be used to reduce the 1/f noise as well as rejecting dc offset.
+The verification testing which was performed using the Sonic Window showed the initial technology to be a promising alternative to conventional ultrasound system. The system was however not without problems that included routing between the individual elements and their respective receive channels. This resulted in a 6.74% channel loses. This could have occurred due to the long PCD traces that induced parasitic inductances, capacitances, and resistances. These problems with the traces further induced low SNR which caused poor contrast and image artifacts in the signal.
+
+== VII. CONCLUSION ==
+
+Based upon the designs which have been discussed in the article ultrasound technology is reaching a point where low-cost options will soon become available. The main driving force behind the low-cost movement may be the introduction of CMUT technology in ultrasonic transducers. The standardization of these low-effective transducers will then be coupled with the work that has been done and previously examined in this article. However, if the CMUT technology fails to materialize concerns over the feasibility of the low-cost ultrasound will continue, as the piezoelectric crystals constitute a majority of the cost associated with the development of ultrasound systems.
+
+== ACKNOWLEDGEMENTS ==
+
+I would like to the thank all the support and encouragement which I received from University of Wisconsin’s MEDECAL Lab and Professor Tomy Varghese in the Medical Physics Department.

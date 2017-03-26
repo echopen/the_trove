@@ -1,0 +1,227 @@
+A FOCUSSED TRANSDUCERlSCATIERER MODEL FOR ULTRASONIC
+REFERENCE STANDARDS
+Lester W. Schmerr and
+Terry Lerch
+Center for NDE and the Department of Aerospace Engineering
+and Engineering Mechanics, Iowa State University
+Ames, Iowa 50011
+Alexander Sedov
+School of Engineering
+Lakehead University, Thunder Bay
+Ontario, Canada P7B 5El
+INTRODUCTION
+In ultrasonic NDE, spherically focussed transducers are often used because they possess
+higher sensitivity and spatial resolution than conventional planar transducers [1]. A common
+reference standard setup that can be used to obtain the effective radius, focal length, and
+transduction efficiency of a spherically focussed probe is the immersion configuration shown
+in Figure 1 where a scatterer of simple shape (such as a sphere or cylinder) is placed on the
+axis of the transducer and the pulse-echo response measured. A model is developed here that
+allows the use of this measured response to obtain the important transducer parameters. The
+model is computationally efficient and the methods of characterization are directly analogous
+to those that have been successfully used for planar probes [2].
+Ro = focal length
+~~---/---- -- -- .(£)
+~ r
+Figure 1 Reference scattering setup fol' the characterization of the parameters of a
+spherically focussed transducer.
+Review of Progress in Quantitative Nomkstructive Evaluation, Vol. 12
+Edited by D.O. Thompson and D.E. Chimenti, Plenum Press, New York, 1993 925
+THE MODEL
+Planar transducers radiating into a fluid are normally modelled as a uniform piston
+source using Rayleigh-Sommerfeld theory [3]. O'Neil [4] has shown that the
+Rayleigh-Sommerfeld formulation can also be used for spherically focussed probes provided
+that the probe is not too tightly focussed. In this case, the incident wavefield pressure, pillC,
+produced by the transducer is given by (Figure 1):
+pillC =-iOlpVo/2x i[eXP(ikr)!r]dS
+where p is the density of the fluid, Ol is the frequency in rad/sec, and Vo is the (uniform)
+velocity on the spherical surface S. At many wavelengths from the transducer surface, the
+spherical wave term in Eqn. (1) behaves locally like a plane wave. Therefore, the incident
+wave pressure in Eqn. (1) can be viewed as the superposition of suitably weighted plane
+waves over the transducer surface. Similarly, at many wavelengths from the scatterer, the
+scattered pressure wavefield, pscan, due to a plane wave of unit amplitude can be calculated,
+once the far-field scattering amplitude A ~;~), is known, i.e.
+(1)
+(2)
+where fj and!l.., are the incident and scattered wave directions, respectively. If we combine
+Eqns. (1), (2) then by superposition the scattered pressure due to the focussed transducer can
+be written explicitly as
+pscan = -iOlpV)2xi A~;~)[exp(ikr)/r] [exp(ikrs)/rJdS (3)
+In the reception process, the quantity that usually is measured is the voltage versus time, V,(t),
+on an oscilloscope screen. If we let V,(Ol) be the frequency components of this received
+voltage, then we assume that V,(Ol) is proportional to the average radial velocity received, i.e.
+where ~(Ol) is an "efficiency" factor. The outward (from the transducer) radial velocity at
+many wavelengths from the scatterer can be calculated from pscan as
+and the average radial velocity, <vR >is given by
+From Eqns. (3) - (5), therefore, we find
+V,(Ol) = ik~(Ol)l2xS ficosaA~;~)
+[exp(ikr)/r] [exp(ikr.)/rJdSdSs
+926
+(4)
+(5)
+(6)
+(7)
+where the unit vectors ~;~ and the angle a are shown explicitly in Figure 2. Equation (7) is
+the basis for our spherically focussed transducer model. However, because of the double
+surface integrals present, this equation is not particularly suitable even for direct numerical
+evaluations. Fortunately, the area elements dS, dSs• can be written in the forms [4]
+dS =rdrd~/qo (Sa)
+(8b)
+where qo = 1- zIRo' with z being the axial location of the scatterer, Ro is the geometrical focal
+length of the transducer, and ~ and ~s are angles measured in a plane perpendicular to the
+z-axis (Figure 3). In these coordinates
+.exp(ikr) exp(ikrs)drdrs (9)
+where
+(10)
+is the angular averaged far-field scattering amplitude of the scatterer and re is the distance
+from the scatterer to the transducer edge. Although Eqn. (9) still contains four integrations, it
+is in a form considerably more convenient than Eqn. (7) since the angular averaged scattering
+amplitude is a quantity that can be calculated explicitly in a number of important special
+cases. For example, for a rigid cylinder of radius b placed with one of its flat ends
+perpendicular to the transducer axis, we find, in the Kirchhoff approximation [5]:
+[k sin a/o(kb sinas)J,(kb sin a) - k sin as
+Similarly, for the front surface response of a rigid sphere of radius b in the Kirchhoff
+approximation [5]:
+«A >i'+,= bI2exp[-ikb"2+2cosajcoseJ
+·Jo(kbl-..j2+ 2cosej coses)
+(11)
+(12)
+When these scattering amplitudes are slowly varying in e, es (which is often the case in not
+too tightly focussed probes where Ro » a), then
+(13)
+where Ab.... is the "backscattered" scattering amplitude. Then the averages in Eqns. (11), (12)
+become
+927
+(140)
+for the cylinder, and
+Ab... = (b/2)exp(-2ikb) (14b)
+for the sphere, and the r, rs integrations can be done explicitly (cos U "" 1) to yield
+(15)
+In the paraxial approximation, Eqn. (15) is identical in fonn to that found by Thompson and
+Gray [6]. A particularly useful feature of Eqn. (15) is that it can seNe as the basis for a
+straightforward method to obtain experimentally the effective radius and focal length of the
+transducer, as will be shown in the next section.
+EFFECTIVE TRANSDUCER RADIUS AND FOCAL LENGTH
+As Figure 4 illustrates schematically, the on-axis response of a scatterer in the wavefield
+of a focussed probe consists of a maximum response and a preceding minimum. If the
+locations of these maxima and minima on the axis, Zmo. and Zmin' respectively, are measured
+experimentally then estimates of both the effective transducer radius and focal length can be
+obtained as follows. First, from Eqn. (15) it can be shown that the location of the particular
+minimum shown in Figure 4 occurs at
+S R
+~
+U . "
+:---===='.·.....·
+..J.ill.<.. - - - - __
+%fi!l
+e. r
+1
+Figure 2 Definition of unit vectors and geometric parameters in Eqn. (7).
+Figure 3 Definition of the angles <1>, e,ee and distances r, reO and qo. Similar definitions hold
+for the angles <1>.. es and the distance rs.
+928
+(a2+h2)-'A? 2Roh -'A?
+Zmin = 2(')...+ h) 2(')...+ h)
+where')... is the wavelength and h =Ro - (R; - a2)1I2. The maximum location satisfies
+where
+By placing Eqn. (16) into Eqn. (17), the latter equation can be rewritten in terms ofRo and
+measurable quantities only. Symbolically, we can rewrite Eqn. (17) in the form
+(16)
+(17)
+(18)
+(19)
+This non-linear equation can be solved iteratively for the best fit focal length, Ro, from
+measured values of Zmin and Zmax at the frequency J. Using this value ofR., we can then find
+the effective radius, a, from Eqn. (16) which can be written in the equivalent form, for
+a» ')..., as
+(20)
+Amin et al. [7] recently have proposed another non-linear fitting routine to determine the
+effective parameters R.,a. However, their method involves solving a rather complicated (and
+possibly ill-behaved) non-linear least squares problem and uses fitting data taken both on- and
+off-axis. In contrast, the above procedures uses only the discrete measured values, Zmin and
+ZmaX' and only requires the solution of Eqn. (19), which can be done with a simple root solver.
+Also, the above procedure is merely an extension of the methods previously used to determine
+the effective radius of unfocussed probes [8].
+Table 1 shows the results of this method for a typical commercially available focussed
+probe (Panametrics V309, nominal radius = 0.25 inches, nominal focal length =4.0 inches,
+"center" frequency - 5 MHz) using a 1/8" diameter steel sphere scanned along the transducer
+axis. Effective radius and focal length values were calculated at the nominal "center"
+frequency of the transducer (5 MHz) as well as at the "side" frequencies of 4 and 6 MHz. As
+z
+Figure 4 Response of a spherically focllssed transducer to an on-axis scatterer.
+929
+can be seen from Table 1, there is some variation of these effective parameters with
+frequency. This same phenomena was noted previously by Amin et al. [7] for focussed
+probes and by Chivers et al' [8] for planar transducers.
+TRANSDUCER SYSTEM EFFICIENCY FACTOR
+To completely characterize a spherically focussed transducer in a given ultrasonic setup,
+it is necessary to also have a means to calculate the efficiency factor, ~(ro). Once the
+equivalent parameters, Ro and a, are obtained, ~(ro) can be found by placing a scatterer, such
+as a sphere, at the geometrical focus, i.e. z =Ro. Unfortunately, in Eqn. (9) (or, equivalently,
+Eqn. (15», we cannot merely set z = Ro since these expressions lead to % indeterminant
+fonns. However, if we introduce a new set of angular coordinates, x = cos8, y = cos 8, in
+Eqn. (9), we find
+coset'
+Vr(ro) = 2xik~(ro)R:/S JJcosu «A >.>., rr,
+I
+which is now well-behaved even at z =Ro where we obtain
+with
+(9,
+[A]e= Jo A sin8d8
+Again, if A is slowly varying so that A~Ab... then Eqn. (22) simplifies even further and we
+have
+(22)
+(23)
+(24)
+EitherEqn. (22) or Eqn. (24) can be used directly to find P(ro) once Vr(ro) andRo,a are
+measured since the remaining tenns are easily calculated for simple scatterers and ~(ro) then
+obtained by a division-like process using the concept of a Wiener filter [9]. Attenuation
+corrections can also be included in this process if they are needed. Although we have not
+carried out any efficiency calculations yet via these equations, they are similar to those we
+have previously used for planar probes [9] and should be straightforward to employ.
+CONCLUSIONS
+We have described the model of a spherically focussed transducer/scatterer combination
+that allows the effective radius, focal length, and efficiency factor of the probe to be
+determined. The experimental Ro and a values were shown to be somewhat frequency
+dependent-a result that we are currently trying to understand with the use of more
+sophisticated models. Experimental efficiency factor calculations are also being conducted
+with this model. The calibration/standards methods derived from this model are simple and
+should be useful in a wide variety of practical applications.
+930
+Table 1. Effective radius and focal length calculations
+Frequency (MHz) a (in.)
+0.26
+0.26
+0.24
+4
+5
+6
+REFERENCES
+Ro (in.)
+3.49
+3.84
+4.43
+1. Krautkramer, J. and H. Krautkramer, Ultrasonic Testin& of Materials, 4th Ed.,
+Springer-Verlag, NY, 1990.
+2. Kino, G. S., Acoustic Waves: Devices. Ima&in&. and Analo~ Si~nal Processin&,
+Prentice Hall, Englewood Cliffs, NJ, 1987.
+3. Harris, G. R., "Review of Transient Field Theory for a Baffled Planar Piston", J.
+Acoust. Soc. Am., 70,10-20,1981.
+4. O'Neil, H. T., "Theory of Focussing Radiators", J. Acoust. Soc. Am., 21, 516-526,
+1949.
+5. Sedov, A., Schmerr, L. W. and S. J. Song, "A Bounded Beam Solution for the
+Pulse-Echo Transducer Response of an Arbitrary On-Axis Scatterer in a Fluid", (to
+appear).
+6. Thompson, R. B. and T. A. Gray, "Range of Applicability ofInversion Algorithms",
+Review of Promss in Ouantitatiye Nondestructive Evaluation, D. O. Thompson and D.
+E. Chimenti, Eds., Plenum Press, NY, 1,233-249, 1982.
+7. Amin, F., Gray, T. A., and F. J. Margetan, "A New Method to Estimate the Effective
+Focal Length and Radius of Ultrasonic Focussed Probes", Reyiew of PrOIm'SS in
+Ouantitative Nondestructive Evaluation, D. O. Thompson and D. E. Chimenti, Eds.,
+Plenum Press, NY, lOA, 861-865, 1991.
+8. Chivers, R. C., Bosselaar, L. and P. R. Filmore, "Effective Area to be Used in
+Diffraction Corrections", J. Acoust. Soc. Am., 68, 80-84, 1980.
+9. Song, S. J., Schmerr, L. W. and A. Sedov, "DGS Diagrams and Frequency Response
+Curves for a Flat-Bottom Hole: A Model-Based Approach", Res. Nondestr. Eval., 3,
+201-219,1991.
+931
+

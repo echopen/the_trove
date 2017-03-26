@@ -1,0 +1,43 @@
+# Patent US4453409
+
+
+
+
+
+=US4453409 : Ultrasonic sector scanner utilizing rotating transducer = 
+
+
+
+== Invention date ==
+
+Jun 12, 1984
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Ted F. Naumann]]
+* [[Jr.]]
+* [[Ronald C. Carnes]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An ultrasonic sector scanner which utilizes rotating transducers uses an optical encoder for generating indexing signals. A slip-ring and brush assembly interconnects the transducers and electronic circuitry within the scanner.
+= Patents Backwards =
+
+* [[Patent US3817089]]
+* [[Patent US4102204]]
+* [[Patent US4143554]]
+* [[Patent US4149419]]
+* [[Patent US4185501]]
+* [[Patent US4228687]]
+* [[Patent US4232556]]
+* [[Patent US4289025]]
+= Patents Forwards =
+
+* [[Patent US4876672]]
+* [[Patent US5465724]]
+* [[Patent EP1103222A2]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

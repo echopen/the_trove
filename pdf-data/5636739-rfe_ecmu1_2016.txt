@@ -1,0 +1,2253 @@
+Premier niveau de compétence pour l'échographie clinique
+en médecine d’urgence.
+Recommandations de la Société française de médecine d’urgence par
+consensus formalisé.
+TEXTE LONG
+Société française de médecine d’urgence
+2016
+ECMU niveau 1 - Version longue (v6) 08/05/2016 1
+Table des matières
+AUTEURS 3
+GROUPE DE TRAVAIL 3
+*Groupe de Pilotage : membres de la Commission des Référentiels (CREF) de la Société française
+de Médecine d’Urgence (SFMU) 3
+Groupe de cotation 3
+Comité de lecture : membres du conseil d’administration de la SFMU 3
+ABRÉVIATIONS 3
+INTRODUCTION 5
+Le contexte 5
+MÉTHODOLOGIE 5
+Recherche documentaire 6
+Cotation des recommandations 6
+RECOMMANDATIONS 7
+Champs de compétences 7
+Échographie abdominale 7
+Échographie abdomino-pelvienne 8
+Échographie pleuropulmonaire 9
+Échographie cardiaque 10
+Échographie oculaire 11
+Échographie veineuse 12
+Échographie-Doppler transcrânien 12
+Échographie ostéoarticulaire 12
+Échographie des tissus mous 13
+Spécificité pédiatrique 13
+Échographie contextuelle 15
+Échographie interventionnelle 17
+FORMATION 19
+MATÉRIEL 21
+BONNES PRATIQUES 22
+CONCLUSION 23
+Annexe 1 Compte rendu et cotation.........................................................................................24
+Annexe 2 Aspects juridiques
+Annexe 3 Équipement
+Annexe 4 liste des items retenus par les cotateurs
+BIBLIOGRAPHIE 28
+ECMU niveau 1 - Version longue (v6) 08/05/2016 2
+AUTEURS
+Jonathan Duchenne, Mikaël Martinez, Christophe Rothmann, Pierre-Géraud Claret, Jean-
+Philippe Desclefs, Julien Vaux, Patrick Miroux, Olivier Ganansia et les membres de la
+commission des référentiels de la SFMU*.
+GROUPE DE TRAVAIL
+*Groupe de Pilotage : membres de la Commission des Référentiels (CREF) de la
+Société française de Médecine d’Urgence (SFMU)
+Aurore Armand-Perroux (Angers), Bal-Dit-Solier Jean-Pierre (Aulnay-sous-Bois), Éric
+Cesareo (Lyon), Pierre-Géraud Claret (Nîmes), Benjamin Dahan (Paris), Jean-Philippe
+Desclefs (Corbeil-Essonnes), Jonathan Duchenne (Aurillac), Olivier Ganansia (Paris), Aurélie
+Gloaguen (Dijon), Didier Honnart (Dijon), Maxime Maignan (Grenoble), Mikaël Martinez
+(Montbrison), Patrick Miroux (Angers), Fatima Rayeh-Pelardy (Poitiers), Djamila Rerbal
+(Lyon), Christophe Rothmann (Metz), Nicolas Segal (Paris), Guillaume Valdenaire
+(Bordeaux), Julien Vaux (Créteil), Caroline Zanker (Levallois-Perret).
+Groupe de cotation
+Jean-Louis Chabernaud (Clamart), Perrine Dumanoir (La Tronche), Odile Dumont (Voiron),
+Olivier Helenon (Paris), Étienne Hinglais (Le Kremlin-Bicêtre), Frédéric Lapostolle
+(Bobigny), Hugues Lefort (Paris), Agnès Leuret-Barondeau (Chalon-sur-Saône), Christophe
+Perrier (Clermont-Ferrand), Philippe Pès (Nantes), Tomislav Petrovic (Bobigny), Emgan
+Querellou (Brest), Maurice Raphaël (Le Kremlin-Bicêtre), Frédéric Rouyer (Seclin), Carlos
+Sentias-Canellas (Saint-Lo), Karim Tazarourte (Lyon), Luigi Titomanlio (Paris).
+Comité de lecture : membres du conseil d’administration de la SFMU
+Frédéric Adnet (Bobigny), Frédéric Berthier (Nantes), Françoise Carpentier (Grenoble),
+Jacques Choukroun (Le Mans), Jean-Paul Fontaine (Paris), Bruno Garrigue (Corbeil-
+Essonnes), Patrick Goldstein (Lille), Pierre-Yves Gueugniaud (Lyon), Jacques Levraut (Nice),
+Dominique Pateron (Paris), Patrick Plaisance (Paris), Agnès Ricard-Hibon (Pontoise), Jeannot
+Schmidt (Clermont-Ferrand), Louis Soulat (Châteauroux), Pierre Taboulet (Paris), Gilles
+Viudes (Hyères), Mathias Wargon (Bry-sur-Marne).
+Nous remercions le Professeur Dominique Pateron pour son pilotage scientifique.
+ABRÉVIATIONS
+AAAAnévrisme de l’Aorte Abdominale
+AAP Académie Américaine de Pédiatrie
+ACEP American College of Emergency Physicians
+ACS American College of Surgeons
+ECMU niveau 1 - Version longue (v6) 08/05/2016 3
+ALR Anesthésie Loco Régionale
+ASAAmerican Society of Anesthesiologists
+BIF Bloc Ilio-Fascial
+BLUE-protocol Bedside Lung Ultrasound in Emergency protocol
+BPCO BronchoPneumopathie Chronique Obstructive
+CA Conseil d’Administration
+CESU Centre d’Enseignement des Soins d’Urgence
+DESCMU Diplômes d’Études Spécialisées Complémentaires de Médecine d’Urgence
+DIU Diplôme Inter-Universitaire
+DIUETUS Diplôme Inter Universitaire d’Échographie et de Technique Ultra Sonore
+DPC Développement Professionnel Continu
+EAU Échographie Appliquée à l’Urgence
+ECMU Échographie Clinique en Médecine d’Urgence
+ÉDU Échographie au Département d’Urgence
+eFAST extended Focused Assessment with Sonography for Trauma
+ERC European Resuscitation Council
+FAST Focused Assessment with Sonography for Trauma
+FE Fraction d’Ejection
+GEU Grossesse Extra Utérine
+GIU Grossesse Intra Utérine
+HAS Haute Autorité de Santé
+hCG human Chorionic Gonadotropin
+HTIC Hyper Tension Intra Crânienne
+IC Intervalle de Confiance
+NICE National Institute for Health and Clinical Excellence
+OAP Oedème Aigu Pulmonaire
+OR Odd Ratio
+PACS Picture Archiving and Communication System
+PAP Pression Artérielle Pulmonaire
+PIC Pression Intra Crânienne
+PREP Programme Rapide d’Échographie du Polytraumatisé
+RV+ Rapport de Vraisemblance Positif
+RV- Rapport de Vraisemblance Négatif
+SA Semaine d’Aménorrhée
+SAEM Society for Academic Emergency Medicine
+SCÉDU Société Canadienne d’Échographie au Département d’Urgence
+Se Sensibilité
+SFAR Société Française d’Anesthésie-Réanimation
+SFC Société Française de Cardiologie
+SFMU Société Française de Médecine d’Urgence
+SFR Société Française de Radiologie
+SMUR Service Mobile d’Urgence et Réanimation
+Sp Spécificité
+SMU Structures de Médecine d’Urgences
+UI Unité Internationale
+UMH Unité Mobile Hospitalière
+USLS BL Ultra Sound Life Support Basic Level
+VBP Voie Biliaire Principale
+VCI Veine Cave Inférieure
+VD Ventricule Droit
+ECMU niveau 1 - Version longue (v6) 08/05/2016 4
+VG Ventricule Gauche
+VPP Valeur Prédictive Positive
+VPN Valeur Prédictive Négative
+VVC Voie Veineuse Centrale
+VVP Voie Veineuse Périphérique
+WINFOCUS World Interactive Network Focused On Critical Ultrasound
+INTRODUCTION
+L’utilisation de l’échographie en médecine d’urgence est incontournable. La Société française
+de médecine d’urgence (SFMU) a pris l’initiative de l’élaboration de recommandations d’un
+premier niveau de compétences d’échographie clinique en médecine d’urgence (ECMU), dans
+son champ d’investigations et sur ses modalités d’enseignement et de maintien des
+compétences. Ces recommandations s’appliquent à la pratique de la médecine d’urgence dans
+ces différentes modalités d’exercice : intra et extrahospitalière, médecine de catastrophe,
+médecine d’exception, milieu isolé ou périlleux.
+Le contexte
+L’ECMU répond à certaines conditions [1] :
+— s’applique dans un contexte où il est admis qu’elle améliore la prise en charge du patient ;
+— est focale et répond à des questions le plus souvent binaires ;
+— nécessite des images cibles ou diagnostiques sans équivoque dans le contexte clinique ;
+— se réalise dans un temps court compatible avec celui de l’urgence vitale ;
+— est un élément décisionnel ;
+— se réalise au lit du patient.
+Pour accompagner la mise en place de ce nouvel outil clinique, la SFMU a participé à la
+création en 2006 du module d’échographie appliquée à l’urgence (EAU) au sein du diplôme
+inter universitaire d’échographie et de technique ultra sonore (DIUETUS, diplôme national).
+D’autres formations existent au sein des Centres d’enseignement des soins d’urgence (CESU),
+avec la World interactive network focused on critical ultrasound (WINFOCUS), de certains
+diplômes d’études spécialisées complémentaires de médecine d’urgence (DESCMU), ou dans
+un cadre plus autonome. La spécialisation de la filière de médecine d’urgence nous amène à
+définir un premier niveau de compétence en ECMU.
+MÉTHODOLOGIE
+La SFMU est le promoteur de ces recommandations. La méthodologie utilisée est issue de la
+méthode « Recommandations par consensus formalisé » publiée par la haute autorité de santé
+(HAS) et de la méthode Delphi pour quantifier l’accord professionnel [2, 3]
+. Ce choix a été fait devant l’insuffisance de littérature de fort niveau de preuve dans certaines
+thématiques et de l’existence de controverses [2]
+. Le groupe de pilotage, après discussion relative aux pratiques existantes et analyse critique
+des données bibliographiques, a rédigé des propositions qui ont été soumises au groupe de
+cotation. Le groupe de pilotage a rédigé, à partir des résultats de la cotation, la version initiale
+des recommandations. Il a ensuite finalisé le texte après la lecture du conseil d’administration
+de la SFMU qui a validé le document final.
+ECMU niveau 1 - Version longue (v6) 08/05/2016 5
+Recherche documentaire
+La recherche documentaire a été effectuée sur la base de données PubMed et les sites internet
+spécialisés en médecine d’urgence. Les différents champs d’investigation ultrasonore ont été
+sélectionnés au sein des programmes de formation à destination des urgentistes francophones
+(EAU du DIUETUS, ultra sound life support basic level de WINFOCUS, programme rapide
+d’échographie du polytraumatisé, échographie au département d’urgence de la société
+canadienne d’échographie au département d’urgence), du programme d’enseignement de
+l’American college of emergency physicians (ACEP). À partir de ces données, le comité de
+pilotage a rédigé des propositions de recommandations.
+Le niveau global de preuve de chaque recommandation a tenu compte des niveaux de preuve
+de chacune des références bibliographiques, de la cohérence des résultats entre les différentes
+études, du caractère direct ou non des preuves, de l’expérience et du consensus fort au sein du
+groupe de pilotage. Un niveau global de preuve fort, modéré ou faible, a permis
+respectivement de formuler une recommandation très forte (« il faut »), forte (« il est
+recommandé ») ou relative (« il est proposé »).
+Cotation des recommandations
+Le groupe de cotation a été constitué par la SFMU. Les cotateurs étaient des professionnels
+exerçant l’une des différentes disciplines concernées par ces recommandations (urgentistes,
+anesthésistes, réanimateurs, pédiatres et radiologues). Toutes les propositions de
+recommandations ont fait l’objet d’une cotation individuelle et ont été soumises à chacun des
+membres du groupe de cotation par voie informatique. Ces derniers ont coté les items à l’aide
+d’une échelle numérique discrète à neuf modalités. Les valeurs un et neuf correspondaient
+respectivement à des propositions jugées « totalement inappropriée » et « totalement
+appropriée ». Les réponses à chaque proposition ont été analysées en tenant compte de la
+médiane, puis de la dispersion des cotations. La présence d’un accord entre cotateurs était
+retenue si les cotations sont toutes ≤ 5 ou toutes ≥ 5. La dispersion des cotations permettait
+ensuite de préciser la force de cet accord [2]
+.
+Une proposition était jugée :
+— « appropriée avec accord fort », lorsque la valeur de la médiane était ≥ 7 et que toutes les
+cotations étaient comprises dans l’intervalle [7 – 9] ;
+— « appropriée avec accord relatif », lorsque la valeur de la médiane était ≥ 7 et que toutes
+les cotations étaient comprises dans l’intervalle [5 – 9] ;
+— « inappropriée avec accord fort », lorsque la valeur de la médiane était ≤ 3 et que toutes les
+cotations étaient comprises dans l’intervalle [1 – 3] ;
+— « inappropriée avec accord relatif », lorsque la valeur de la médiane était ≤ 3,5 et que
+toutes les cotations étaient comprises dans l’intervalle [1 – 5] ;
+— « incertaine avec indécision », lorsque la valeur de la médiane était comprise entre 4 et 6,5
+et que toutes les cotations étaient comprises dans l’intervalle [1 – 9] ;
+— « incertaine avec absence de consensus », dans toutes les autres situations.
+La cotation a été effectuée sur trois tours. Au terme du premier tour de cotation, toutes les
+propositions de recommandations qui n’avaient pas fait l’objet d’un accord ont été analysées
+et éventuellement reformulées par le groupe de pilotage selon les analyses des cotateurs. Les
+modifications ont été ensuite transmises et expliquées aux cotateurs concernés. Le second tour
+de cotation ne concernait que les propositions de recommandations n’ayant pas fait l’objet
+d’un accord lors du premier tour. Avec chaque item, les réponses de l’ensemble des cotations
+du tour précédent ont été transmises aux cotateurs. L’ensemble du cycle de cotation a ensuite
+été reproduit une fois avec les items ne faisant pas l’objet d’un accord fort au deuxième tour,
+ECMU niveau 1 - Version longue (v6) 08/05/2016 6
+portant ainsi à trois le nombre de tours de cotation.
+Ces recommandations définissent un premier niveau de compétence en ECMU.
+RECOMMANDATIONS
+Champs de compétences
+Échographie abdominale
+Il faut que l’urgentiste soit capable de détecter un épanchement péritonéal de moyenne à
+grande abondance (appropriée, accord fort). La détection de liquide libre dans la cavité
+abdominale est l’une des indications d’ECMU la plus étudiée, notamment dans le cadre du
+traumatisme. L’examen de type FAST constitue une aide indispensable à la recherche d’un
+épanchement péritonéal chez un polytraumatisé instable [145]. La pratique d’une échographie
+abdominale focalisée à la recherche de liquide libre permet d’augmenter la précision
+diagnostique, de guider la prise en charge et l’orientation du patient [236]. Cet avantage a été
+retrouvé dans le contexte pré hospitalier, notamment en France [46, 148, 299]. Cependant,
+aucun bénéfice sur la survie n’a été clairement établi [270].
+Dans cette indication, l’échographie a une sensibilité qui varie entre 64 et 98 % en fonction de
+l’importance du volume de l’épanchement et du niveau d’expérience de l’opérateur et une
+spécificité entre 95 et 100 % [100],[170].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter une lithiase vésiculaire (médiane = 8 : incertaine, absence de consensus). Sur la
+base des résultats de huit études (n = 710) de qualité variable, une méta analyse estime la
+sensibilité (Se) et la spécificité (Sp) de l’échographie faite par l’urgentiste pour la lithiase
+biliaire à respectivement 89,8 et 88 %, avec un RV+ de 7,5 et un RV- de 0,12 ne permettant
+pas de recommander l’utilisation de l’ECMU dans cette indication [242].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter une cholécystite aiguë (médiane = 7 : incertaine, absence de consensus).
+L’échographie permet un diagnostic positif dans plus de 90 % des cas pour des radiologues
+confirmés [274], [92]. Cette valeur prédictive n’est pas encore clairement évaluée pour
+l’urgentiste [95, 127, 128, 140, 241, 248, 277].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable
+d’identifier une dilatation des voies biliaires (médiane = 5 : incertaine, indécision).
+L’échographie est l’examen de première intention pour le diagnostic de dilation de la voie
+biliaire principale (VBP) d’origine lithiasique [61, 256, 286]. Sa Se dans la recherche des
+calculs enclavés dans la VBP est très variable, entre 20 et 80 %, selon l’expérience du
+praticien [290].
+Il faut que l’urgentiste soit capable de détecter une dilatation des cavités pyélocalicielles
+(appropriée, accord fort). Pour le diagnostic de dilatation des cavités pyélocalicielle l’ECMU
+a un rapport de vraisemblance positif (RV+) de 4,7 et un rapport de vraisemblance (RV-) de
+0,24 [96], [302].
+Dans cette indication l’échographie réalisée par l’urgentiste comparée à celle réalisée par le
+radiologue ou à la tomodensitométrie ne donne pas de résultats inférieurs en terme de
+ECMU niveau 1 - Version longue (v6) 08/05/2016 7
+détection de coliques néphrétiques compliquées, d’évènements indésirables graves ultérieurs
+par erreur diagnostique ou de réhospitalisation [261]. Elle permet de diminuer le taux
+d’irradiation et améliore la gestion des flux dans les SU [69, 261]
+Il faut que l’urgentiste soit capable de détecter une dilatation vésicale (appropriée, accord
+fort). En cas de doute lors de l’examen clinique, l’utilisation des ultrasons peut être utile,
+notamment en cas d’obésité ou de distension abdominale chronique.
+Il existe une corrélation entre le volume vésical estimé par échographie et celui recueilli par
+sondage urinaire lors d’une suspicion clinique de rétention aiguë d’urine [51]. Les méthodes
+automatiques (type bladder scan) sont également validées dans cette indication [107, 181]
+.
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter une lithiase urinaire (médiane = 3 : incertaine, absence de consensus). La
+tomodensitométrie a une plus grande Se que l’échographie pour détecter les calculs des voies
+urinaires [69]. La VPN de l’ECMU pour la détection des calculs visualisés en
+tomodensitométrie est de 85,7 % s’ils font moins de 5 mm et de 98,4 % s’ils font plus de
+5 mm [193].
+L’échographie réalisée par un radiologue a une Se de 57 % et une Sp de 97 % pour la
+détection d’un calcul urinaire. La Se augmente à 81 % en cas de dilatation pyélocalicielle. La
+petite taille du calcul (<5 mm) et sa présence dans l’uretère distal sont les facteurs d’échec de
+leur diagnostic échographique [136].
+Il faut que l’urgentiste soit capable de détecter un cathéter de Foley intravésical
+(appropriée, accord relatif). Peu de littérature sur la détection de la sonde urinaire à ballonnet
+est disponible. Seuls quelques articles ont été publiés sur l’aide de l’échographie pour la mise
+en place de la sonde urinaire à ballonnet chez l’homme [135, 231] ou chez l’enfant [305].
+Il faut que l’urgentiste soit capable de détecter un anévrisme de l’aorte abdominale
+(appropriée, accord fort). L’échographie est l’un des examens de référence pour l’exploration
+de l’aorte abdominale [188]. Pour la détection d’un anévrisme de l’aorte abdominale (AAA),
+l’ECMU a un RV+ compris entre 10,8 et l’infini et un RV- compris entre 0 et 0,025 [246]. Son
+intérêt est démontré chez le patient hémodynamiquement stable, mais aussi, et surtout chez le
+patient instable présentant une douleur lombaire ou abdominale aiguë [18].
+Échographie abdomino-pelvienne
+Il n’y a pas d’accord entre les cotateurs pour recommander que l’urgentiste soit capable
+de détecter le sac gestationnel intra-utérin à partir de 6 à 7 semaines d’aménorrhée (SA)
+par voie transpariétale (médiane = 9 : incertaine, absence de consensus). L’échographie
+transpariétale permet la détection d’un sac gestationnel intra-utérin autour d’un terme de 7 SA
+(soit un taux de bêta-hCG compris entre 4000 et 6500 UI) [211].
+La détection d’une grossesse intra-utérine (GIU) par l’ECMU (Sp de 98 %) chez une patiente
+présentant des douleurs pelviennes ou des saignements vaginaux lors du premier trimestre de
+grossesse, hémodynamiquement stable et n’ayant pas bénéficié d’une fécondation in vitro,
+permet un retour à domicile avec un suivi obstétrical ultérieur [188].
+Chez la patiente hémodynamiquement instable en âge de procréer, l’échographie
+transpariétale montrant un épanchement péritonéal abondant sans grossesse intra-utérine (ou
+la détection d’une grossesse extra-utérine [GEU]) permet d’orienter plus rapidement la
+patiente vers une prise en charge chirurgicale avec le diagnostic d’une GEU rompue [239].
+ECMU niveau 1 - Version longue (v6) 08/05/2016 8
+Au total, il existe un gain de temps dans la prise en charge de la patiente en début de grossesse
+présentant une douleur abdominale ou une métrorragie, quel que soit le diagnostic final (GIU
+ou GEU) [255]. Cependant, il n’y a pas de consensus entre les cotateurs, car la détection du
+sac gestationnel devrait s’associer à la recherche d’une activité cardiaque.
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter une GIU avec une sonde endovaginale (Médiane = 3, incertaine, absence de
+consensus). La voie endovaginale permet la détection d’une GIU plus précocement que par
+voie transpariétale, autour de 4,5 SA (soit 1500 UI/mL de bêta-hCG) [211].
+L’utilisation de cette technique permet un gain de temps dans la prise en charge, une
+diminution du recours à des avis spécialisés [47] et un retour à domicile dans des conditions
+de sécurité [183].
+Cependant, la réalisation d’une échographie pelvienne par voie endovaginale nécessite une
+formation spécifique, un coût supplémentaire par achat d’une sonde spécifique et une salle
+dédiée à sa réalisation.
+Échographie pleuropulmonaire
+Il faut que l’urgentiste soit capable de détecter un épanchement pleural liquidien de
+moyenne ou grande abondance (appropriée, accord fort). Grâce à l’échographie, il est
+possible de prédire l’abondance d’un épanchement pleural liquidien [238, 294].
+L’ECMU peut rapidement et précisément diagnostiquer un épanchement liquidien post-
+traumatique, avec une Se de 92 %, une Sp de 100 %, une VPP de 100 % et VPN de 98 % [44],
+accélérant ainsi le diagnostic et le traitement des patients polytraumatisés [169].
+Pour la détection des épanchements pleuraux liquidiens, l’échographie est plus précise que la
+radiographie [144, 152, 153] et aussi précise que le scanner [152, 237].
+Enfin, chez les patients présentant une douleur pleurale de cause inconnue, l’échographie
+permet de faire le diagnostic de lésions radio occultes pulmonaires et pleurales, avec une VPP
+de 94,7 % et VPN de 96,7 % [295].
+Il faut que l’urgentiste soit capable de détecter un épanchement pleural gazeux
+(appropriée, accord fort). Les urgentistes sont capables de distinguer les petits, de moyens ou
+de volumineux pneumothorax avec une bonne précision par comparaison au scanner [28, 243,
+268]. L’échographie est comparable au scanner pour déterminer le volume du
+pneumothorax [309].
+Dans 79 % des cas, l’échographie permet la mise en évidence d’un pneumothorax radio-
+occulte [160], [296].
+Il faut que l’urgentiste soit capable de reconnaitre les lignes A et B en particulier dans le
+cadre de l’œdème aigu du poumon (appropriée, accord fort). La recherche des lignes B est
+rapide, avec un RV+ de 13 et un RV- à 0 pour le diagnostic de syndrome interstitiel, celles-ci
+étant présentes dans 100 % des cas d’œdème aigu du poumon (OAP) et absentes dans 92 %
+des cas de bronchopneumopathie chronique obstructive (BPCO) et chez 98,75 % des sujets
+sains [155], permettant ces diagnostics différentiels.
+En cas de décompensation cardiaque, le compte du nombre de lignes B peut renseigner sur sa
+sévérité.
+L’échographie pulmonaire peut être utilisée pour la détection précoce de l’œdème interstitiel
+(lignes B) en cas de remplissage vasculaire excessif [162].
+ECMU niveau 1 - Version longue (v6) 08/05/2016 9
+La mise en évidence d’une insuffisance cardiaque congestive et la surveillance de l’efficacité
+d’un traitement diurétique par la recherche échographique des lignes B sont simples (courbe
+d’apprentissage inférieure à 10 examens) et rapides (moins de 3 min) [126, 222]. En cas
+d’admission pour dyspnée aiguë, les images échographiques en faveur d’une insuffisance
+cardiaque congestive sont corrélées avec les valeurs du NT-proBNP [94], [165].
+Il faut que l’urgentiste soit capable de détecter une condensation pulmonaire (appropriée,
+accord relatif). En fonction du contexte clinique, l’échographie pulmonaire permet de
+différencier une embolie pulmonaire, une pneumonie ou une atélectasie. L’échographie
+permet le diagnostic de pneumonie, 98,5 % des syndromes alvéolaires aigus touchant la paroi,
+mais ne permet pas d’exclure celles qui ne sont pas en contact avec la plèvre [159].
+L’échographie est un outil fiable pour le diagnostic de pneumopathie aux urgences,
+probablement supérieur à la radiographie thoracique, avec RV+ de 19,3, un RV- de 0,01 et une
+durée d’examen inférieure à cinq minutes [62]. L’échographie est plus précise que la
+radiographie, quel que soit le délai des symptômes, mais cette précision est plus grande dans
+les 24 premières heures, avec une Se de 95 % et une VPN de 67 % (60 % et 25 % pour la
+radiographie pulmonaire) [36]. L’échographie a un intérêt pour le suivi des malades, comme
+alternative à la radiographie pulmonaire [35, 307].
+Échographie cardiaque
+Il faut que l’urgentiste soit capable de détecter un épanchement péricardique de grande
+abondance (appropriée, accord fort). L’épanchement péricardique est une cible de l’examen
+échographique du traumatisé grave décrite dans l’eFAST et le 3P [20, 106, 245, 283].
+Fonction ventriculaire gauche
+Il existe une bonne corrélation entre l’évaluation semi-quantitative (normale, diminuée,
+effondrée) et l’évaluation quantitative de la Fraction d’éjection du ventricule gauche
+permettant de guider la prise en charge du patient [104, 116, 180, 189, 197, 233, 245].
+Il est recommandé que l’urgentiste soit capable d’évaluer la fraction d’éjection (FE) du
+ventricule gauche (VG) de façon empirique : effondrée, intermédiaire ou normale
+(appropriée, accord relatif)
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable
+d’évaluer la FE de façon calculée (médiane = 6,5 : incertaine, indécision).
+Contractilité segmentaire du ventricule gauche (VG)
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable
+d’évaluer la contractilité segmentaire du VG (médiane = 6,5 : incertaine, indécision).
+L’analyse de la contractilité segmentaire du VG est très informative dans l’évaluation d’une
+douleur thoracique quand les autres examens ne sont pas discriminants. Elle est néanmoins
+d’apprentissage plus long ce qui fait qu’elle ne peut être recommandée lors d’une formation
+initiale. Les tentatives de simplification ne sont pas évaluées [14, 87].
+Cœur pulmonaire aigu
+ECMU niveau 1 - Version longue (v6) 08/05/2016 10
+Le rapport VD/VG est d’obtention facile et reproductible et est corrélé à la gravité du patient.
+La mesure de la PAP requiert l’utilisation du Doppler cardiaque qui n’est pas dans les
+objectifs la formation initiale de premier niveau [88, 114, 138].
+Il est recommandé que l’urgentiste soit capable d’évaluer la dilatation du ventricule
+droit (VD) (appropriée, accord relatif).
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable
+d’évaluer la pression artérielle pulmonaire (PAP) (médiane = 7,5 : incertaine, absence de
+consensus).
+Exploration de la veine cave inférieure (VCI)
+Il faut que l’urgentiste soit capable de détecter et mesurer la VCI (VCI) (appropriée,
+accord fort). La mesure du diamètre de la VCI, réalisée chez un patient en décubitus dorsal
+strict et en ventilation spontanée, permet d’évaluer la volémie ou la surcharge cardiaque
+droite [73, 82, 134, 146, 168, 184, 200, 216, 226].
+Les modes B ou M peuvent être utilisés. Il existe une bonne corrélation interindividuelle pour
+l’estimation visuelle (taille, forme, variabilité) (Kappa 0,64, IC à 0,95 [0,53-0,73] pour le
+mode B) [86].
+Échographie oculaire
+Aucune étude n’a rapporté de complications liées à l’utilisation de l’échographie pour la
+mesure du diamètre du nerf optique. Cependant, les lésions par échauffement dues aux
+ultrasons demeurent une complication théorique possible.
+Il est donc prudent de se limiter à la plus basse émission d’ultrasons possibles, de ne pas
+prolonger le temps de l’examen [19] et de ne pas réaliser d’échographie oculaire en cas de
+plaie (risque infectieux et d’aggravation).
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter les lésions oculaires : décollement de rétine, décollement du vitré postérieur,
+hémorragie intra vitréenne, rupture du globe oculaire (médiane = 1, incertaine, absence de
+consensus). L’examen clinique ne permet pas de différencier un décollement de rétine d’une
+hémorragie intra vitréenne ou d’un décollement du vitré postérieur. En 2015, une méta
+analyse a retrouvé une Se de 97 à 100 % et une Sp de 83 à 100 % pour le diagnostic
+échographique de décollement de rétine, réalisé par des médecins urgentistes, après une
+formation courte [298].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+mesurer le diamètre de la gaine du nerf optique (médiane = 6 : incertaine, indécision). Il
+existe une corrélation entre la pression intra crânienne (PIC) et le diamètre des enveloppes du
+nerf optique mesuré par des urgentistes ayant une expérience de l’échographie [141]. Deux
+études réalisées en médecine d’urgence ont montré que la mesure du diamètre du nerf optique
+permettait le diagnostic d’hypertension intra crânienne (HTIC) avec une Se de 100 % avec
+une Sp de 63 à 95 %, lorsque la méthode diagnostique de référence était le scanner [29, 284].
+Deux méta analyses comparant l’échographie à des méthodes invasives pour le diagnostic
+d’HTIC, ont retrouvé une Se de 90 % avec une Sp de 85 % [76, 198]. L’échographie dans
+ECMU niveau 1 - Version longue (v6) 08/05/2016 11
+cette indication peut donc être utilisée par des médecins expérimentés et rapportée au contexte
+clinique. Cette mesure ne doit pas remplacer le monitorage continu de la PIC [192].
+Échographie veineuse
+Il faut que l’urgentiste soit capable de détecter par méthode de compression la non-
+vacuité veineuse aux quatre points : fémoral et poplité (appropriée, accord fort).
+L’échographie veineuse quatre points de compression (fémoraux et poplités) est l’examen non
+invasif de choix aux urgences pour le diagnostic des thromboses veineuses profondes à risque
+emboligène (RV+ 30, RV- 0,04) [60, 143, 150, 223, 303]. L’association au Doppler couleur
+réalisé par l’urgentiste ne présente pas un apport majeur (Se de 100 % et Sp de 98,5 %) [27,
+171].
+La stratégie est dictée par un risque emboligène très faible, voire inexistant, des thromboses
+des veines superficielles et des veines sous-poplitées et le raisonnement probabiliste [64, 90,
+142, 230, 278, 282, 300], [266].
+Échographie-Doppler transcrânien
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable
+d’effectuer un tir Doppler sur l’artère cérébrale moyenne (mesure des indices vitesse
+systolique, vitesse télé diastolique et calcul de l’indice de perfusion) dans le cadre du
+traumatisme crânien (médiane = 9 : incertaine, absence de consensus). Principalement
+utilisé dans les unités de réanimation, il existe peu de travaux évaluant le Doppler transcrânien
+dans les structures de médecine d’urgence (SMU) [285]. Associé au scanner cérébral dans les
+traumatismes crâniens légers à modérés, il semble avoir une capacité de prédiction de
+l’aggravation neurologique [37, 124]. Il permet de plus d’instaurer plus précocement les
+thérapeutiques améliorant la pression de perfusion cérébrale [232].
+Les cotateurs n’ont pas retenu l’utilisation du Doppler dans ces recommandations de l’ECMU.
+Échographie ostéoarticulaire
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter une fracture (médiane = 8 : incertaine, absence de consensus). La mise en évidence
+d’une fracture par échographie ne dispense pas toujours de la réalisation de radiographies.
+Cependant, elle permet un diagnostic d’exclusion pour les sites où elle a une très bonne
+sensibilité (diaphyse des os longs, os plats), ou lorsqu’il est préférable d’éviter une exposition
+aux rayons ionisants (croissance, femmes enceintes…). Sa faisabilité par des médecins
+urgentistes a été démontrée [206]. L’échographie peut également être une méthode
+diagnostique complémentaire aux rayons X, lorsque la suspicion de fracture persiste malgré
+l’absence de lésion radiographique [32, 247, 310].
+L’échographie comme méthode diagnostique pour les suspicions de fractures des extrémités a
+une Se qui varie entre 83,3 et 100 % et une Sp entre 73 et 100 % (RV+ de 3,2 à 56 et RV- de
+0,0 à 0,2) [133]. L’application clinique n’est donc pas clairement établie pour ces situations.
+Il est proposé que l’urgentiste soit capable de détecter un épanchement intra-articulaire
+(appropriée, accord relatif). L’ECMU est plus performante que l’examen clinique dans la
+détection d’un liquide intra-articulaire, d’autant plus que la collection est peu
+abondante [244]. L’échographie permet de distinguer une anomalie des tissus mous d’un
+ECMU niveau 1 - Version longue (v6) 08/05/2016 12
+épanchement articulaire. Elle augmente la spécificité diagnostique, évitant des ponctions non
+indiquées [2].
+Échographie des tissus mous
+Il est proposé que l’urgentiste soit capable de détecter un corps étranger des tissus mous
+(appropriée, accord fort). L’échographie permet de détecter des corps étrangers, en particulier
+ceux qui ne sont pas radio-opaques [71]. La détection se fait de manière directe, ou grâce au
+cône d’ombre, ou par un signe du halo [195, 209].
+Il est proposé que l’urgentiste soit capable de détecter une collection liquidienne
+(appropriée, accord relatif). La détection d’un abcès sous-cutané est améliorée par les
+ultrasons par rapport à la clinique seule (RV+ 2,9 et un RV- 0,04) [3, 23].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter un abcès amygdalien (médiane = 1 : incertaine, absence de consensus). La Se de
+l’ECMU dans la détection des abcès amygdaliens varie de 89 à 95 % et sa Sp de 79 à
+100 % [225]. Elle permet de diminuer le recours à la tomodensitométrie et à l’avis
+spécialisé et les complications dues à la ponction [63, 167]. Cependant, elle nécessite
+une sonde micro convexe et n’est pas réalisable en cas de trismus [225].
+Spécificité pédiatrique
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter une sténose du pylore (médiane = 1,5 : incertaine, absence de consensus).
+L’échographie est l’examen complémentaire de référence pour le diagnostic de sténose du
+pylore [111]. Elle possède une Se et une Sp proches de 100 % et permet la visualisation
+directe de l’hypertrophie du pylore, ainsi que l’inefficacité du péristaltisme gastrique à dilater
+le canal pylorique [111, 203, 304]. Une étude pilote sur une petite cohorte a démontré la
+faisabilité de l’échographie par des urgentistes pédiatres pour le diagnostic de sténose du
+pylore [260].
+Les cotateurs n’ont pas retenu cette proposition, en jugeant que ce type d’ECMU nécessitait
+un apprentissage plus approfondi (niveau 2 ou DIU).
+Il n’y a pas d’accord entre les cotateurs pour proposer que tout urgentiste soit capable
+de détecter une invagination intestinale aiguë (médiane = 7 : incertaine, absence de
+consensus). Plusieurs études ont objectivé une Se (98 à 100 %) et une Sp (88 à 98 %) élevées
+lorsque l’échographie est réalisée par un radiologue expérimenté [25, 109, 118, 292]. Après
+une formation courte (1 heure), l’échographie réalisée par des pédiatres urgentistes au lit du
+patient a montré dans une étude pilote une Se de 85 % et une Sp de 97 %, avec un RV+ de 29
+et un RV- de 0,16 [235].
+La faible prévalence des invaginations intestinales aiguës dans les services d’urgences, la
+faible Se et le faible niveau de preuve de l’échographie chez les non-radiologues ne
+permettent pas de retenir cette proposition.
+Il faut que l’urgentiste soit capable de détecter une dilatation des cavités pyélocalicielles
+(appropriée, accord fort). Dans le cadre des infections urinaires de l’enfant, une étude
+française a évalué la capacité des médecins urgentistes à détecter une dilatation des cavités
+ECMU niveau 1 - Version longue (v6) 08/05/2016 13
+pyélocalicielles par l’échographie rénale [105]. Les RV+ et RV- étaient respectivement de
+27,3 et de 0,24. Les auteurs ont conclu que l’échographie rénale focalisée pourrait être
+réalisée par les urgentistes pour exclure le diagnostic de dilatation pyélocalicielle dans le
+cadre d’infection urinaire. Trois autres études ont retrouvé un intérêt limité de l’échographie
+dans le cadre d’infections urinaires fébriles du nourrisson et du jeune enfant, comparativement
+aux données de la cystographie [182, 205, 215].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+détecter une pyélonéphrite ou un abcès rénal (médiane = 9 : incertaine, absence de
+consensus). En 2011, l’Académie américaine de pédiatrie (AAP) a émis des recommandations
+sur le diagnostic et la prise en charge des infections urinaires fébriles du nourrisson [276]. La
+réalisation d’une échographie est recommandée lors d’un premier épisode d’infection urinaire
+fébrile avec un grade C. L’objectif est de détecter des anomalies anatomiques nécessitant une
+évaluation plus approfondie, mais le rendement est faible. Cette échographie est préconisée
+dans les deux premiers jours de l’infection si celle-ci est sévère ou si elle ne s’améliore pas
+rapidement sous traitement. En cas de clinique peu sévère et d’évolution favorable, l’AAP
+préconise de différer cette imagerie pouvant identifier de nombreux faux positifs.
+Il est proposé que l’urgentiste soit capable de détecter une collection liquidienne des
+tissus mous (appropriée, accord relatif). Dans le cadre des infections des tissus mous de
+l’enfant, l’examen clinique seul ne permet pas toujours de déterminer avec fiabilité la
+présence d’un abcès ou la nécessité d’un drainage [120, 177]. Plusieurs études ont mis en
+évidence l’intérêt de l’échographie dans le cadre d’infections de la peau et des tissus mous,
+lorsqu’une collection n’est pas cliniquement évidente [120, 178, 259]. L’échographie a
+modifié la prise en charge de 13 à 22 % des patients. La faisabilité, après une formation
+courte, par des pédiatres urgentistes a été démontrée [176].
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise
+en charge du traumatisé grave (appropriée, accord fort). La précision diagnostique de
+l’examen échographique de type FAST est plus controversée chez l’enfant que chez l’adulte.
+En effet chez l’enfant, un plus grand nombre de lésions intra abdominales ne s’accompagnent
+pas d’hémopéritoine et, pour ce dernier, l’ECMU a une valeur diagnostique moindre chez
+l’enfant avec un RV- de 0,36 et un RV+ de 14,5 [115]. Il faut savoir intégrer ces données dans
+un protocole de démarche diagnostique chez l’enfant [236, 289].
+Il est proposé que l’urgentiste soit capable de détecter un épanchement intra-articulaire
+(appropriée, accord relatif). Dans le cadre de l’exploration d’une douleur de hanche ou d’une
+boiterie chez l’enfant, l’échographie de hanche permet le diagnostic d’épanchement. Il existe
+plusieurs cas rapportés et séries de cas concernant la réalisation d’une échographie de hanche
+par le médecin urgentiste [253, 287]. Une seule étude a évalué cette pratique réalisée par un
+pédiatre urgentiste, comparativement à un radiologue [293]. Le RV+ était de 12 et le RV- de
+0,16.
+L’échographie ne permet pas de distinguer une synovite aiguë transitoire d’une arthrite
+septique [308].
+Il est proposé que l’urgentiste soit capable de réaliser un échoguidage pour l’ablation de
+corps étranger des tissus mous (appropriée, accord relatif). L’échographie permet de guider
+en temps réel l’ablation d’un corps étranger et présente un intérêt particulier dans le cas des
+corps étrangers radio-transparents (par ex. plastique ou bois) [174]. Une seule étude a évalué
+ECMU niveau 1 - Version longue (v6) 08/05/2016 14
+son utilisation aux urgences pédiatriques. La Se et la Sp de l’échographie étaient similaires à
+celles de la radiographie [89].
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la réalisation d’une
+ponction pleurale (appropriée, accord relatif). Plusieurs études ont montré l’intérêt de
+l’échorepérage pour la réalisation des ponctions pleurales chez l’adulte [72, 112, 191]. En
+revanche, seule une série de cas aborde l’utilisation de l’échographie pour l’exsufflation de
+pneumothorax chez l’enfant [208]. L’échographie y est utilisée avec succès.
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la mise en place
+d’un cathéter sus-pubien (appropriée, accord fort). Nous n’avons pas trouvé de publication
+référencée sur ce sujet. Cependant, l’échoguidage de la ponction sus-pubienne pour
+prélèvement d’urine augmente son taux de réussite (92,3 vs 30,8 % chez le nourrisson de
+moins de 4 mois), notamment en permettant d’évaluer si le volume vésical est suffisant [38].
+De plus, la ponction n’apparaît pas plus douloureuse que le sondage chez le nourrisson [98].
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la
+mise en place d’une voie veineuse centrale fémorale (appropriée, accord relatif).
+L’échoguidage, s’il n’augmente pas le taux de succès global, permet de diminuer le nombre de
+tentatives sans augmenter le temps de procédure [11, 34, 79]. De plus, il réduit le risque de
+ponctions artérielles accidentelles plus fréquentes chez l’enfant du fait de ses particularités
+anatomiques [24, 301].
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la
+mise en place d’une voie veineuse périphérique (appropriée, accord relatif). Les résultats
+d’une méta analyse suggèrent que l’échoguidage augmente le taux de succès de canulation
+lors de la mise en place d’une voie veineuse périphérique (VVP) a priori difficile en
+pédiatrie [34]. L’échoguidage permettrait notamment de réduire le nombre de tentatives et la
+durée de la procédure [22, 75, 212], mais cela reste discuté [15, 65].
+Lorsqu’aucune veine n’est visible ou palpable, la veine céphalique au niveau proximal de
+l’avant-bras semble être le site le plus approprié pour un cathétérisme guidé par
+échographie [280].
+Cependant, l’absence de visualisation échographique de la veine périphérique est un critère
+prédictif d’échec de cathétérisation [249].
+Échographie contextuelle
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise
+en charge d’un état de choc (appropriée, accord fort). L’ECMU des patients en état de choc
+permet d’apporter une aide diagnostique et thérapeutique en évaluant la fonction cardiaque, en
+appréciant la volémie et en diagnostiquant certaines étiologies [106, 130, 132, 240, 297].
+Plusieurs algorithmes de prise en charge des patients en état de choc existent [151, 218, 311].
+La maitrise de différentes cibles est nécessaire : 3P, échographies ciblées cardiaque,
+pulmonaire, rénale et veineuse [154, 173].
+L’échographie permet aussi de guider le remplissage [53, 81, 154, 251].
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise
+en charge d’une dyspnée (appropriée, accord fort). L’examen clinique seul ou associé à la
+radiographie thoracique peut s’avérer insuffisant pour la prise en urgence du patient
+ECMU niveau 1 - Version longue (v6) 08/05/2016 15
+dyspnéique. Le recours à un examen de référence tel le scanner comporte des limites en terme
+de temps d’accès et de mobilisation du patient instable [157].
+L’échographie pulmonaire complète l’examen clinique chez le patient en détresse respiratoire
+et est basée sur l’analyse d’artéfacts (ligne A, ligne B, signe du glissement, pouls pulmonaire,
+point poumon, condensations, signe de la sinusoïde…) dont l’étude et la localisation sur le
+champ pulmonaire permettent de proposer des algorithmes de diagnostic [296].
+Par exemple, le « Bedside Lung Ultrasound in Emergency protocol » (BLUE-protocol) a été
+proposé comme algorithme diagnostic des détresses respiratoires [161] permettant de poser
+rapidement le bon diagnostic dans 90 % des cas. Le RV+ varie entre 14,8 et l’infini et le RV-
+entre 0,03 et 0,12 sur les six pathologies principales (OAP, bronchopneumopathie chronique
+obstructive, asthme, pneumothorax, embolie pulmonaire, pneumopathie) [157].
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise
+en charge d’une douleur thoracique (appropriée, accord fort). La douleur thoracique est un
+motif de recours fréquent aux urgences. L’utilisation de l’échographie cardiaque, pulmonaire,
+pleurale et VCI, intégrée dans un algorithme de prise en charge, peut offrir une aide
+diagnostique précieuse [263].
+Selon les circonstances, l’urgentiste recherchera des signes précoces de syndrome coronarien
+aigu, d’embolie pulmonaire, d’épanchement péricardique, de pneumothorax ou de pathologies
+pariétales [131, 156, 160, 214].
+Nombre de ces algorithmes intègrent l’analyse segmentaire cardiaque, qui n’a pas été retenue
+par les cotateurs pour ce premier niveau de compétence [87, 146].
+Il n’y a pas d’accord entre les cotateurs pour recommander que l’urgentiste soit capable
+d’intégrer l’échographie dans un algorithme de prise en charge de l’arrêt cardiaque
+(médiane = 8 : incertaine, absence de consensus). Plusieurs études ont examiné l’utilisation de
+l’échographie pendant un arrêt cardiaque. Aucun travail n’a pu démontrer que l’utilisation de
+cette technique d’imagerie améliore la survie [52, 229]. L’échocardiographie peut être utilisée
+pour détecter les causes potentiellement réversibles d’un arrêt cardiaque : tamponnade,
+embolie pulmonaire, dissection aortique, hypovolémie, pneumothorax, raison pour laquelle
+l’ERC propose d’envisager son utilisation [26, 83, 196, 210, 227].
+L’intégration de l’ECMU dans la réanimation cardio-pulmonaire exige une formation
+importante, car les interruptions de compressions thoraciques doivent être réduites au
+minimum lors de la réalisation du geste. Une position sous-xiphoïdienne de la sonde est
+recommandée [41, 42, 110, 227].
+L’ECMU peut servir à vérifier l’absence de pouls, en particulier lors d’une dissociation
+électromécanique [68, 250].
+L’ECMU ne peut pas servir seule à décider d’arrêter les manœuvres de réanimation cardio-
+pulmonaire [31].
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise
+en charge du traumatisé grave (appropriée, accord fort). L’eFAST ou 3 P (plèvre, péritoine,
+péricarde) sont des algorithmes de prise en charge du traumatisé grave, intégrant les
+ultrasons [8, 267]. Ces protocoles sont utilisables en pré comme en intra hospitalier, avec
+le même taux de réussite [46].
+Leur utilisation dans les traumatismes du tronc permet de diminuer la durée de prise en charge
+avant chirurgie, les complications, la durée de séjour et le coût de prise en charge [190,
+254].
+ECMU niveau 1 - Version longue (v6) 08/05/2016 16
+Cependant, l’amélioration du taux de survie des patients polytraumatisés n’est pas
+démontrée [267] et les preuves sont encore insuffisantes pour recommander leur utilisation
+systématique chez les patients avec un traumatisme abdominal fermé [271].
+Échographie interventionnelle
+Il faut que l’urgentiste soit capable de réaliser un échoguidage pour la mise en place des
+voies veineuses périphériques (appropriée, accord relatif). Trois méta-analyses, et les
+recommandations de la Société française d’anesthésie réanimation (SFAR) préconisent
+d’utiliser d’emblée une technique de ponction échoguidée chez les patients ayant un accès
+veineux périphérique a priori difficile, et dans un second temps chez ceux ayant subi un échec
+de la méthode standard [34, 78, 166, 273]. Une de ces méta-analyses reprenant 7 études (289
+patients) a montré que l’échographie augmente la probabilité de succès de pose de VVP chez
+les patients avec un abord veineux difficile (OR = 2,42 ; 95 % IC [1,26-4,68] ;
+p = 0,008) [78].
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la
+mise en place d’une voie artérielle (appropriée, accord fort). Trois méta-analyses, et les
+recommandations de la SFAR préconisent d’utiliser une technique d’échoguidage pour la
+mise en place d’une voie artérielle radiale [34, 93, 103, 281]. Dans ces trois méta-analyses, les
+risques relatifs de succès à la première tentative lors d’un échoguidage comparé à la palpation
+étaient de 1,47 (p < 0,0001), 1,51 (p = 0,02) et de 1,55 (p = 0,04). Elles retrouvent également
+une réduction du temps moyen de pose de la voie artérielle radiale, du nombre moyen de
+tentatives et du taux de survenue d’un hématome.
+Concernant la mise en place d’une voie artérielle fémorale, seuls deux essais randomisés,
+comparant la palpation à l’échoguidage dans un contexte de procédure interventionnelle, ont
+été identifiés [77, 97]. Lorsque le pouls fémoral est palpé, ils ne retrouvent pas d’avantage
+significatif à un échoguidage.
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la
+mise en place d’une voie veineuse centrale (appropriée, accord relatif). La pose de voie
+veineuse centrale (VVC) par échoguidage ou échorepérage doit être la méthode employée
+autant que possible [56, 113, 137, 147, 306]. La diminution du nombre de complications
+(pneumothorax, ponction artérielle) ainsi que le taux de réussite grâce à l’échographie en fait
+la technique priorisée par les médecins urgentistes [16, 40, 213]. Bien que pour les voies sous-
+clavières et fémorales, les gains de l’échoguidage soient discutés [40], plusieurs
+recommandations de sociétés savantes (NICE, ASA, ACEP, SFAR) préconisent cette
+technique en première intention [9, 34, 123, 201].
+Il est proposé que l’urgentiste soit capable de réaliser un échoguidage pour la réalisation
+d’une ponction péricardique (appropriée, accord fort). La péricardiocentèse est la technique
+de sauvetage utilisable par l’urgentiste pour le patient instable présentant une tamponnade.
+Guidée par l’échographie, elle permet de limiter le risque de complications lié à une ponction
+accidentelle du ventricule [164, 219, 291]. L’ECMU permet aussi d’envisager la ponction par
+des voies autres que sous xiphoïdienne [199].
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour une ponction
+d’ascite (appropriée, accord fort). L’échographie permet de mettre en évidence la présence
+d’ascite, d’identifier un éventuel cloisonnement et de visualiser une anse digestive interposée
+ECMU niveau 1 - Version longue (v6) 08/05/2016 17
+au point de ponction anatomique. Elle diminue le nombre de complications hémorragiques de
+la ponction de 68 % [191, 202].
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la mise en place
+d’un cathéter sus-pubien (appropriée, accord fort). Une des principales complications graves
+de la mise en place d’un cathéter sus-pubien est la lésion d’une anse digestive interposée dont
+le risque est estimé à 2,4 % et est majoré en cas d’obésité ou d’antécédents de
+laparotomies [6]. L’utilisation des ultrasons dans cette indication permet de limiter ce risque et
+de guider la procédure [121]. L’ECMU dans ce cadre permet de réaliser ce geste de manière
+simple, sûre et rapide dans un service d’urgence [5].
+Il est proposé que l’urgentiste soit capable de contrôler l’intubation intratrachéale
+(appropriée, accord relatif). La capnographie est considérée comme la technique de référence
+pour confirmer la position intra trachéale d’une sonde d’intubation. Cependant, l’échographie
+est un nouvel outil dans cette indication, rapide, permettant une vision directe en temps réel de
+la sonde d’intubation, indépendante de la circulation pulmonaire et ne nécessitant pas de
+ventilation. En urgence, sa Se est de 98 % (95 % IC 0,97 à 0,99) et sa Sp de 94 % (95 % IC
+0,86 à 0,98) [70]. L’échographie a également une valeur pour affirmer la position
+œsophagienne de la sonde d’intubation chez le sujet adulte, avec une Se de 93 % (95 % IC :
+0,86-0,96), une Sp de 97 % (95 % IC : 0,95-0,98), un RV + 26,98 (95 % IC : 19,32-37,66) et
+un RV- de 0.08 (95 % IC : 0,04-0,15) [57]. L’échographie peut aussi être utilisée dans cette
+indication chez l’enfant [17, 91]. L’échographie en temps réel est une méthode précise pour
+identifier la position endotrachéale de la sonde d’intubation pendant la réanimation cardio-
+pulmonaire, sans nécessité d’une interruption du massage cardiaque externe [58, 262].
+La recherche du glissement pleural bilatéral peut être envisagée [59, 258].
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la réalisation d’une
+ponction pleurale (appropriée, accord fort). L’échographie interventionnelle permet un
+guidage en temps réel pour la réalisation d’une ponction pleurale, qui doit être réalisée sans
+délai [152, 153]. L’échographie permet le repérage d’un épanchement pleural avant
+thoracocentèse, entraînant un taux de succès de 98 % et des complications inférieures à
+1,3 % [10, 72, 99, 112, 153, 186, 191].
+L’échographie permet une ponction sûre de tout épanchement pleural, y compris en présence
+d’un épanchement liquidien radio-occulte ou chez le malade ventilé artificiellement [43, 158].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+réaliser un échorepérage pour réaliser une ponction lombaire (médiane = 7 : incertaine,
+absence de consensus). Les études montrent des résultats discordants : diminution du nombre
+de tentatives, de ponctions traumatiques ou d’échecs pour certains et absence d’avantages
+pour d’autres [220, 252, 279]. Cependant, cette technique est réalisable aux urgences, rapide
+et permet de mesurer la profondeur de la dure-mère qui est corrélée à la profondeur
+d’enfoncement nécessaire de l’aiguille, notamment chez le sujet obèse [84, 85, 119, 194, 272,
+275].
+Il est proposé que l’urgentiste soit capable de réaliser un échoguidage pour la réalisation
+d’une ALR des nerfs cubital, radial, médian (appropriée, accord faible). Les nerfs
+périphériques sont facilement repérés et abordables en échographie [187]. Les blocs distaux
+du membre supérieur sont réalisables par l’urgentiste avec échoguidage lors de la prise en
+charge de lésions traumatiques de la main aux urgences [163]. L’échoguidage a montré son
+intérêt pour les blocs distaux, car il peut réduire la durée de la procédure, l’incidence des
+ECMU niveau 1 - Version longue (v6) 08/05/2016 18
+ponctions vasculaires accidentelles, le nombre de redirections d’aiguilles et la dose
+d’anesthésique local par rapport aux autres techniques de repérage et augmente le taux de
+succès des blocs en optimisant le confort des patients [1, 33, 66, 149, 224, 265]
+.
+Il est recommandé que l’urgentiste soit capable de réaliser un échoguidage en cas de
+réalisation d’un bloc du nerf fémoral (appropriée, accord relatif). Les nerfs périphériques
+sont facilement repérés et abordables en échographie [45]. L’utilisation de l’échoguidage pour
+la réalisation d’un bloc du nerf fémoral réduit le temps de procédure, la dose d’anesthésique
+local nécessaire, le délai d’installation du bloc, mais le taux de réussite global n’est pas
+statistiquement différent comparé à l’utilisation d’un neurostimulateur [50, 149, 175].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+réaliser un échoguidage en cas de réalisation d’un BIF (médiane = 8 : incertaine, absence
+de consensus). Bien que pour les blocs d’espace, l’échoguidage permet d’administrer
+l’anesthésique local plus précisément qu’avec les autres techniques, il n’y a pas de preuve de
+diminution des complications par rapport à un repérage anatomique sans guidage dans le
+cadre du BIF [33].
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’urgentiste soit capable de
+réaliser un échoguidage pour l’ablation d’un corps étranger des parties molles
+(médiane = 9 : incertaine, absence de consensus). La détection de corps étrangers des tissus
+mous par l’échographie est abondamment illustrée dans la littérature médicale [71, 101, 117,
+257, 269]. Concernant l’ablation de ces mêmes corps étrangers par échoguidage, les données
+probantes validant son efficacité sont plus rares [39, 48, 217].
+FORMATION
+L’échographie focale est justifiée par son efficience entre l’apport de sa réponse clinique et
+diagnostique et la facilité d’acquisition et d’entretien de la compétence [55]. Les sociétés
+scientifiques ont généralement recommandé la formation vers un premier niveau donnant une
+capacité à obtenir les images cibles pathologiques, alors que le second niveau est souvent
+défini par la capacité d’en affirmer l’absence [185, 207].
+Il faut que les médecins urgentistes qui pratiquent l’échographie aux urgences puissent
+justifier d’une formation (appropriée, accord fort).
+Il faut que les médecins urgentistes entretiennent leur compétence au minimum par le
+biais d’une pratique régulière (appropriée, accord fort).
+Il est recommandé que les urgentistes acquièrent leur compétence par une formation
+universitaire, une formation hospitalière formalisée ou s’inscrivant dans le
+développement professionnel continu (DPC) (appropriée, accord fort). Les formations à
+l’échographie focale sont composées d’une partie théorique et d’une partie pratique d’une
+durée variable selon le niveau exigé [80, 172].
+Il est recommandé le choix d’un médecin référent en échographie dans chaque structure
+d’urgence (appropriée, accord relatif). Il n’y a pas de preuve dans la littérature scientifique,
+mais il est apparu aux cotateurs qu’un médecin référent, possédant une compétence en
+ECMU niveau 1 - Version longue (v6) 08/05/2016 19
+échographie plus approfondie telle que le module EAU du DIUETUS, favorisait le processus
+d’apprentissage et d’appropriation de la technique au sein d’une équipe d’urgentiste en
+particulier pour l’analyse a posteriori des échographies focales [12].
+Il n’y a pas d’accord entre les cotateurs pour recommander une formation minimum de
+100 heures d’enseignement dont 2/3 pratiques sur une période de 12 mois (médiane = 6 :
+incertaine, indécision).
+Il n’y a pas d’accord entre les cotateurs pour recommander que la formation soit
+complétée par la réalisation de 20 à 50 examens par cible, supervisés sur une période de
+12 mois (médiane = 9 : incertaine, absence de consensus).
+Il est recommandé l’utilisation d’un carnet de stage lors de la période d’apprentissage
+(appropriée, accord fort). Le carnet de stage permet le suivi de l’apprentissage [12]. Il est
+difficile de déterminer le volume horaire ou le nombre d’examens nécessaire pour acquérir le
+premier niveau de l’ECMU. Définir un nombre d’examens à réaliser par image cible (ou
+focus) est envisageable [30].
+Pour un premier niveau, les courbes d’apprentissage par image cible ou focale retrouvées dans
+la littérature de ces 10 dernières années sont les suivantes :
+Focale
+Nombre
+d’examens
+Commentaires Références
+3P ou e-FAST et
+équivalent
+50, 30, 57, 50
+[4, 12, 30, 49]
+Échographie
+veineuse 4 points
+25, 20 [12, 122]
+AAA 25, 50 [12, 49]
+Échocardiographie
+focale
+30, 50-100
+[12, 20, 30, 49,
+228]
+FEVG empirique 20 [234]
+Épanchement
+péricardique
+Rapport VD/VG
+Analyse
+segmentaire du VG
+ECMU niveau 1 - Version longue (v6) 08/05/2016 20
+Épanchement
+pleural
+60, 50 [30, 49]
+Syndrome
+alvéolaire
+pulmonaire
+20 [12]
+Épanchement
+péritonéal
+10 [12]
+Cholécystite 50
+La courbe
+d’apprentissage
+pour l’évaluation
+par l’urgentiste
+implique une
+pratique soutenue :
+épanchements
+périvésiculaires,
+dilatation des voies
+biliaires principales
+(VBP), sludge,
+épaisseur de la
+paroi vésiculaire.
+[129]
+Dilatation
+pyélocalicielle
+25, 78 [12, 30]
+GIU 50 [49]
+VVC 10 [12]
+Contrôle de
+l’intubation
+2 [54]
+Tissus mous 27 [30]
+Il n’y a pas d’accord entre les cotateurs pour proposer que la formation aux techniques
+échographiques puisse être réalisée au laboratoire de simulation (médiane = 9 : incertaine,
+absence de consensus). L’évaluation des simulateurs haute fidélité d’échographie a montré
+qu’ils pouvaient être intégrés précocement dans le cursus universitaire [204]. La pertinence de
+leur emploi dans le processus d’apprentissage reste à ce jour empirique et justifie de plus
+amples investigations [21, 125, 179, 288].
+MATÉRIEL
+ECMU niveau 1 - Version longue (v6) 08/05/2016 21
+Il n’existe pas de donnée scientifique concernant le matériel d’ECMU. Les items listés ci-
+dessous constituent les recommandations relatives à l’appareil, aux sondes, au traitement et au
+stockage des images.
+Il faut que chaque SMU dispose d’au moins un échographe (appropriée, accord relatif).
+Il est recommandé que chaque SMU dispose exclusivement d’au moins un appareil
+d’échographie (appropriée, accord relatif).
+Il est recommandé que chaque UMH du SMUR puisse disposer d’un échographe
+(appropriée, accord relatif).
+Il faut que l’échographe dispose d’une sonde abdominale (convexe basse fréquence)
+(appropriée, accord fort).
+Il faut que l’échographe dispose d’une sonde cardiologique (phased array) (appropriée,
+accord relatif).
+Il faut que l’échographe dispose d’une sonde linéaire (haute fréquence) (appropriée,
+accord fort).
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’échographe dispose d’une
+sonde ostéoarticulaire (très haute fréquence) (médiane = 3,5 : incertaine, absence de
+consensus).
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’échographe dispose d’une
+sonde endovaginale (médiane = 1 : incertaine, absence de consensus).
+Il faut que l’échographe dispose d’un système de sauvegarde des images (appropriée,
+accord fort).
+Il est proposé que l’échographe soit connecté à un système de stockage des images
+(PACS) (appropriée, accord fort).
+Il est proposé que l’échographe dispose d’une connectique permettant l’export et la
+sauvegarde des données (appropriée, accord relatif).
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’échographe soit doté d’un
+module Doppler transcrânien (médiane = 9 : incertaine, absence de consensus).
+Il faut que l’échographe dispose d’un préréglage par typologie d’examen (preset)
+(appropriée, accord relatif).
+Il n’y a pas d’accord entre les cotateurs pour proposer que l’échographe dispose d’un
+préréglage par utilisateur (preset) (médiane = 9 : incertaine, absence de consensus).
+Il n’y a pas d’accord entre les cotateurs pour proposer que le changement de sonde
+puisse se réaliser sans manipulation de connectique (médiane = 9 : incertaine, absence de
+consensus).
+ECMU niveau 1 - Version longue (v6) 08/05/2016 22
+BONNES PRATIQUES
+L’ECMU n’est pas une échographie spécialisée d’organe qui nécessite un compte rendu
+standardisé [74, 102]. Son objectif est de répondre à une interrogation clinique, de façon
+binaire, par l’obtention d’images cibles. Une traçabilité de la question et de la réponse ainsi
+que les images cibles doivent figurer dans le dossier du patient.
+Il faut que chaque examen fasse l’objet d’une conclusion (note clinique) dans le dossier
+d’observation du patient (appropriée, accord relatif).
+Il n’y a pas d’accord entre les cotateurs pour recommander que chaque examen fasse
+l’objet d’un compte rendu standardisé (médiane = 9 : incertaine, indécision).
+Il est recommandé que les images cibles soient archivées dans le dossier médical du
+patient (appropriée, accord fort).
+Il faut qu’une procédure de désinfection de l’échographe soit disponible (appropriée,
+accord fort).
+Afin de prévenir la transmission d’agents pathogènes, des procédures de désinfection de
+l’échographe, des sondes et des opérateurs doivent être mises en œuvre entre chaque patient et
+quotidiennement [264].
+CONCLUSION
+Ces recommandations définissent un premier niveau de compétence en ECMU.
+Considérées comme relevant d’un degré de formation supérieur, des propositions n’ont pas
+été retenues par les cotateurs malgré un fort niveau de preuve scientifique. A l’inverse,
+d’autres propositions n’ont pas été retenues en raison d’un niveau de preuve insuffisant ce qui
+justifie le développement de la recherche clinique dans le domaine de l’ECMU. Un second
+niveau de compétence plus avancé en ECMU est en cours d’élaboration.
+1. ANNEXES
+ECMU niveau 1 - Version longue (v6) 08/05/2016 23
+Annexe 1 Compte rendu et cotation
+Chaque ECMU doit faire l’objet d’une note clinique dans l’observation du patient et fait
+partie intégrante de son dossier médical.
+Cette note, qui est la trace écrite de l’acte réalisé, a une valeur médico-légale et est nécessaire
+à la cotation.
+La note d’ECMU n’est pas un compte rendu d’échographie. Elle doit être rédigée par
+l’opérateur et contenir un certain nombre d’informations :
+1. Indication de l’ECMU : la question posée ?
+2. Images cibles contenant l’identité du patient.
+3. Conclusion : la réponse à la question posée.
+L’ECMU n’est pas une échographie visant à décrire l’intégralité d’un organe. Le groupe de
+travail a donc retenu une cotation unique au sein de la classification commune des actes
+médicaux (CCAM, version 40, juillet 2015) : Échographie transcutanée, au lit du malade
+(ZZQM004). Le guidage échographique lors de la pose d’un cathéter ne se cote pas en plus de
+l’acte de pose. Dans tous les autres cas, l’ECMU, étant utilisée comme acte diagnostique, peut
+être cotée (ZZQM004) en plus du geste technique. La cotation n’est possible que si une note
+clinique est réalisée.
+Annexe 2 Aspects juridiques
+La pratique de l’ECMU n’est soumise à aucun texte réglementaire spécifique. Cette technique
+représente un outil complémentaire de la démarche diagnostique et thérapeutique, différent de
+l’échographie, examen complémentaire d’imagerie, réalisé par ou sous l’autorité d’un
+médecin radiologue [7]. En ECMU, le recours à l’échographe est considéré comme un
+« second stéthoscope ». Mais cet usage ne doit pas être confondu avec l’examen
+échographique stricto sensu et toutes ses obligations [102]. La pratique de l’ECMU peut se
+référer aux articles du Code de la Santé Publique suivants :
+Tout patient a « le droit de recevoir les soins les plus appropriés [dont l’ECMU] et de
+bénéficier des thérapeutiques dont l’efficacité est reconnue et qui garantissent la meilleure
+sécurité sanitaire au regard des connaissances médicales avérées » (article L.1110-5 du Code
+de la Santé Publique).
+« Tout médecin est, en principe, habilité à pratiquer tous les actes de diagnostic, de prévention
+et de traitement. Mais il ne doit pas, sauf circonstances exceptionnelles, entreprendre ou
+poursuivre des soins, ni formuler des prescriptions dans des domaines qui dépassent ses
+connaissances, son expérience et les moyens dont il dispose » (article R.4127-70 du Code de
+la Santé Publique).
+« Dès lors qu’il a accepté de répondre à une demande, le médecin s’engage à assurer
+personnellement au patient des soins consciencieux, dévoués et fondés sur les données
+acquises de la science, en faisant appel, s’il y a lieu, à l’aide de tiers compétents »
+(article R.4127-32 du Code de la Santé Publique). « Le médecin doit toujours élaborer son
+diagnostic avec le plus grand soin, en y consacrant le temps nécessaire, en s’aidant dans toute
+la mesure du possible des méthodes scientifiques les mieux adaptées et, s’il y a lieu, de
+concours appropriés » (article R.4127-33 du Code de la Santé Publique).
+Dans le cas où une anomalie est, non recherchée ni décelée par le médecin urgentiste lors de
+son examen d’imagerie, mais visible sur les images archivées, sa responsabilité pourrait être
+engagée et il pourrait lui être reproché la négligence de n’avoir pas sollicité un médecin
+radiologue pour une deuxième lecture des images d’échographie. En termes juridiques, c’est
+la responsabilité civile ou administrative de l’établissement qui serait mise en jeu, pour défaut
+ECMU niveau 1 - Version longue (v6) 08/05/2016 24
+d’organisation du service, mais la responsabilité pénale du médecin urgentiste pourrait
+également être engagée pour homicide ou blessure involontaire en cas de défaut de diagnostic.
+Au niveau professionnel, pour la SFMU, « la réalisation de l’ECMU dans les institutions
+médicales où les radiologues ne la pratiquent pas » est possible, si les médecins urgentistes
+s’acquittent « d’un diplôme d’échographique qui rend cette technique accessible à tout
+médecin, et ceci quelle que soit sa spécialité » [221].
+Selon l’article R.4127-11 du Code de la Santé Publique, « tout médecin entretient et
+perfectionne ses connaissances dans le respect de son obligation de DPC ».
+Annexe 3 Équipement
+Les contraintes de la pratique de l’ECMU imposent le choix d’un équipement spécifique. Le
+matériel choisi est polyvalent, robuste, disponible en permanence, simple d’utilisation, peu
+encombrant, facilement mobilisable, autonome sur batteries et rechargeable. L’écran doit
+permettre la lecture des images dans une ambiance lumineuse intense, avec une qualité
+graphique suffisante.
+Des programmes d’utilisation spécifiques peuvent y être installés (échographie du
+polytraumatisé, évaluation volémique dans l’état de choc…). L’appareil est fourni avec
+plusieurs sondes (abdominale, cardiaque, linéaire). Le changement de sonde doit être aisé.
+L’appareil d’ECMU doit également permettre de réaliser des échographies de référence
+(cardiologue, radiologue…).
+L’échographe doit permettre l’édition d’un rapport avec impression des images. Une
+connectique permet l’exportation des images. Dans la mesure du possible, l’appareil d’ECMU
+doit pouvoir être connecté au PACS de l’hôpital.
+Pour répondre au mieux aux contraintes d’exercice dans les SMU et les SMUR, l’échographe
+démarre rapidement et il est possible de réaliser des échographies sans entrer au préalable
+l’identité du patient. Les réglages de l’appareil doivent être simples et des préréglages par
+type d’échographie doivent être disponibles.
+Le matériel sélectionné est facile d’entretien. La procédure de désinfection est parfaitement
+décrite.
+Afin de faciliter l’auto apprentissage, des modules d’apprentissage et une banque de boucles
+vidéo peuvent être fournis avec l’échographe.
+La SMU qui fait l’acquisition d’un nouvel échographe souscrit un contrat de maintenance
+auprès du constructeur. Le coût de ce dernier doit être inclus dans l’appel d’offres initial et
+pour une durée de 3 à 5 ans. De même, le délai de réparation et de mise à disposition d’une
+machine de prêt doit être spécifié.
+Annexe 4 liste des items retenus par les cotateurs.
+Il faut que l’urgentiste soit capable de détecter un épanchement péritonéal de moyenne à
+grande abondance.
+Il faut que l’urgentiste soit capable de détecter une dilatation des cavités pyélocalicielles.
+Il faut que l’urgentiste soit capable de détecter une dilatation vésicale.
+Il faut que l’urgentiste soit capable de détecter un cathéter de Foley intravésical.
+Il faut que l’urgentiste soit capable de détecter un anévrisme de l’aorte abdominale.
+Il faut que l’urgentiste soit capable de détecter un épanchement pleural liquidien de moyenne
+ou grande abondance.
+Il faut que l’urgentiste soit capable de détecter un épanchement pleural gazeux.
+Il faut que l’urgentiste soit capable de reconnaitre les lignes A et B en particulier dans le cadre
+de l’œdème aigu du poumon.
+Il faut que l’urgentiste soit capable de détecter une condensation pulmonaire.
+ECMU niveau 1 - Version longue (v6) 08/05/2016 25
+Il faut que l’urgentiste soit capable de détecter un épanchement péricardique de grande
+abondance.
+Il est recommandé que l’urgentiste soit capable d’évaluer la fraction d’éjection (FE) du
+ventricule gauche (VG) de façon empirique (effondrée, intermédiaire, normale).
+Il est recommandé que l’urgentiste soit capable d’évaluer la dilatation du ventricule droit
+(VD).
+Il faut que l’urgentiste soit capable de détecter et mesurer la VCI.
+Il faut que l’urgentiste soit capable de détecter par méthode de compression la non-vacuité
+veineuse aux 4 points (fémoral et poplité).
+Il est proposé que l’urgentiste soit capable de détecter un épanchement intra-articulaire.
+Il est proposé que l’urgentiste soit capable de détecter un corps étranger des tissus mous.
+Il est proposé que l’urgentiste soit capable de détecter une collection liquidienne.
+Pédiatrie
+Il faut que l’urgentiste soit capable de détecter une dilatation des cavités pyélocalicielles en
+pédiatrie.
+Il est proposé que l’urgentiste soit capable de détecter une collection liquidienne des tissus
+mous en pédiatrie.
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise en
+charge du traumatisé grave en pédiatrie.
+Il est proposé que l’urgentiste soit capable de détecter un épanchement intra-articulaire en
+pédiatrie.
+Il est proposé que l’urgentiste soit capable de réaliser un échoguidage pour l’ablation de corps
+étranger des tissus mous en pédiatrie.
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la réalisation d’une
+ponction pleurale en pédiatrie.
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la mise en place d’un
+cathéter sus-pubien en pédiatrie.
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la mise
+en place d’une VVC fémorale en pédiatrie.
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la mise
+en place d’une VVP en pédiatrie.
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise en
+charge d’un état de choc.
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise en
+charge d’une dyspnée.
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise en
+charge d’une douleur thoracique.
+Il faut que l’urgentiste soit capable d’intégrer l’échographie dans un algorithme de prise en
+charge du traumatisé grave.
+Il faut que l’urgentiste soit capable de réaliser un échoguidage pour la mise en place des voies
+veineuses périphériques.
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la mise
+en place d’une voie artérielle.
+Il faut que l’urgentiste soit capable de réaliser un échoguidage ou échorepérage pour la mise
+en place d’une voie veineuse centrale.
+Il est proposé que l’urgentiste soit capable de réaliser un échoguidage pour la réalisation d’une
+ponction péricardique.
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour une ponction d’ascite.
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la mise en place d’un
+cathéter sus-pubien.
+ECMU niveau 1 - Version longue (v6) 08/05/2016 26
+Il est proposé que l’urgentiste soit capable de contrôler l’intubation intratrachéale.
+Il faut que l’urgentiste soit capable de réaliser un échorepérage pour la réalisation d’une
+ponction pleurale.
+Il est proposé que l’urgentiste soit capable de réaliser un échoguidage pour la réalisation d’une
+ALR des nerfs cubital, radial, médian.
+Il est recommandé que l’urgentiste soit capable de réaliser un échoguidage en cas de
+réalisation d’un bloc du nerf fémoral.
+Il faut que les médecins urgentistes qui pratiquent l’échographie aux urgences puissent
+justifier d’une formation.
+Il faut que les médecins urgentistes entretiennent leur compétence au minimum par le biais
+d’une pratique régulière.
+Il est recommandé que les urgentistes acquièrent leur compétence par une formation
+universitaire, une formation hospitalière formalisée ou s’inscrivant dans le développement
+professionnel continu (DPC).
+Il est recommandé le choix d’un médecin référent en échographie dans chaque structure
+d’urgence.
+Il est recommandé l’utilisation d’un carnet de stage lors de la période d’apprentissage.
+Il faut que chaque SMU dispose d’au moins un échographe.
+Il est recommandé que chaque SMU dispose exclusivement d’au moins un appareil
+d’échographie.
+Il est recommandé que chaque UMH du SMUR puisse disposer d’un échographe.
+Il faut que l’échographe dispose d’une sonde abdominale (convexe basse fréquence).
+Il faut que l’échographe dispose d’une sonde cardiologique (phased array).
+Il faut que l’échographe dispose d’une sonde linéaire (haute fréquence).
+Il faut que l’échographe dispose d’un système de sauvegarde des images.
+Il est proposé que l’échographe soit connecté à un système de stockage des images (PACS).
+Il est proposé que l’échographe dispose d’une connectique permettant l’export et la
+sauvegarde des données.
+Il faut que l’échographe dispose d’un préréglage par typologie d’examen (preset).
+Il faut que chaque examen fasse l’objet d’une conclusion (note clinique) dans le dossier
+d’observation du patient.
+Il est recommandé que les images cibles soient archivées dans le dossier médical du patient.
+Il faut qu’une procédure de désinfection de l’échographe soit disponible.
+ECMU niveau 1 - Version longue (v6) 08/05/2016 27
+BIBLIOGRAPHIE
+1. Abrahams MS, Aziz MF, Fu RF, Horn JL (2009) Ultrasound guidance compared
+with electrical neurostimulation for peripheral nerve block: a systematic review
+and meta-analysis of randomized controlled trials. Br J Anaesth 102:408–417.
+doi: 10.1093/bja/aen384
+2. Adhikari S, Blaivas M (2010) Utility of bedside sonography to distinguish soft
+tissue abnormalities from joint effusions in the emergency department. J
+Ultrasound Med 29:519–526.
+3. Adhikari S, Blaivas M (2012) Sonography first for subcutaneous abscess and
+cellulitis evaluation. J Ultrasound Med 31:1509–1512.
+4. Adnet F, Galinski M, Lapostolle F (2004) Fast echography in the emergency
+setting. Réanimation 13:465–470. doi: 10.1016/j.reaurg.2004.09.002
+5. Aguilera PA, Choi T, Durham BA (2004) Ultrasound-guided suprapubic
+cystostomy catheter placement in the emergency department. J Emerg Med
+26:319–321. doi: 10.1016/j.jemermed.2003.11.016
+6. Ahluwalia RS, Johal N, Kouriefs C, Kooiman G, Montgomery BSI, Plail RO
+(2006) The surgical risk of suprapubic catheter insertion and long-term sequelae.
+Ann R Coll Surg Engl 88:210–213. doi: 10.1308/003588406X95101
+7. American College of Emergency Physicians (2009) Emergency ultrasound
+guidelines. Ann Emerg Med 53:550–570. doi:
+10.1016/j.annemergmed.2008.12.013
+8. American Institute of Ultrasound in Medicine, American College of Emergency
+Physicians (2014) AIUM practice guideline for the performance of the focused
+assessment with sonography for trauma (FAST) examination. J Ultrasound Med
+33:2047–2056. doi: 10.7863/ultra.33.11.2047
+9. American Society of Anesthesiologists Task Force on Central Venous Access,
+Rupp SM, Apfelbaum JL, Blitt C, Caplan RA, Connis RT, Domino KB, Fleisher
+LA, Grant S, Mark JB, Morray JP, Nickinovich DG, Tung A (2012) Practice
+guidelines for central venous access: a report by the American Society of
+Anesthesiologists Task Force on Central Venous Access. Anesthesiology
+116:539–573. doi: 10.1097/ALN.0b013e31823c9569
+10. Ampère A (2001) Evaluation et apport de l'échographie thoracique systématique
+dans les ponctions pleurales.
+11. Aouad MT, Kanazi GE, Abdallah FW, Moukaddem FH, Turbay MJ, Obeid MY,
+Siddik-Sayyid SM (2010) Femoral vein cannulation performed by residents: a
+comparison between ultrasound-guided and landmark technique in infants and
+children undergoing cardiac surgery. 111:724–728. doi:
+ECMU niveau 1 - Version longue (v6) 08/05/2016 28
+10.1213/ANE.0b013e3181e9c475
+12. Arntfield R, Millington S, Ainsworth C, Arora R, Boyd J, Finlayson G, Gallagher
+W, Gebhardt C, Goffi A, Hockman E, Kirkpatrick A, McDermid R, Waechter J,
+Wong N, Zavalkoff S, Beaulieu Y (2014) Canadian recommendations for critical
+care ultrasound training and competency. Can Respir J 21:341–345.
+13. Assurance Maladie Sécurité (2015) Classification Commune des Actes Médicaux
+- Version 40. 1–1.
+14. Authors Task Force Members, Roffi M, Patrono C, Collet J-P, Mueller C,
+Valgimigli M, Andreotti F, Bax JJ, Borger MA, Brotons C, Chew DP, Gencer B,
+Hasenfuss G, Kjeldsen K, Lancellotti P, Landmesser U, Mehilli J, Mukherjee D,
+Storey RF, Windecker S (2015) 2015 ESC Guidelines for the management of
+acute coronary syndromes in patients presenting without persistent ST-segment
+elevation: Task Force for the Management of Acute Coronary Syndromes in
+Patients Presenting without Persistent ST-Segment Elevation of the European
+Society of Cardiology (ESC). European heart journal. doi:
+10.1093/eurheartj/ehv320
+15. Avelar AFM, Peterlini MAS, da Luz Gonçalves Pedreira M (2015)
+Ultrasonography-Guided Peripheral Intravenous Access in Children: A
+Randomized Controlled Trial. J Infus Nurs 38:320–327. doi:
+10.1097/NAN.0000000000000126
+16. Backlund BH, Hopkins E, Kendall JL (2012) Ultrasound guidance for central
+venous access by emergency physicians in colorado. West J Emerg Med 13:320–
+325. doi: 10.5811/westjem.2011.11.6821
+17. Bae J-Y, Byon H-J, Han S-S, Kim H-S, Kim J-T (2011) Usefulness of ultrasound
+for selecting a correctly sized uncuffed tracheal tube for paediatric patients.
+Anaesthesia 66:994–998. doi: 10.1111/j.1365-2044.2011.06900.x
+18. Barkin AZ, Rosen CL (2004) Ultrasound detection of abdominal aortic aneurysm.
+Emerg Med Clin North Am 22:675–682. doi: 10.1016/j.emc.2004.04.009
+19. Barnett SB, Haar Ter GR, Ziskin MC, Rott HD, Duck FA, Maeda K (2000)
+International recommendations and guidelines for the safe use of diagnostic
+ultrasound in medicine. Ultrasound Med Biol 26:355–366.
+20. Beaulieu Y (2007) Specific skill set and goals of focused echocardiography for
+critical care clinicians. Crit Care Med 35:S144–9. doi:
+10.1097/01.CCM.0000260682.62472.67
+21. Beaulieu Y, Laprise R, Drolet P, Thivierge RL, Serri K, Albert M, Lamontagne A,
+Bélliveau M, Denault A-Y, Patenaude J-V (2015) Bedside ultrasound training
+using web-based e-learning and simulation early in the curriculum of residents.
+Crit Ultrasound J 7:1. doi: 10.1186/s13089-014-0018-9
+22. Benkhadra M, Collignon M, Fournel I, Oeuvrard C, Rollin P, Perrin M, Volot F,
+Girard C (2012) Ultrasound guidance allows faster peripheral IV cannulation in
+children under 3 years of age with difficult venous access: a prospective
+ECMU niveau 1 - Version longue (v6) 08/05/2016 29
+randomized study. Paediatr Anaesth 22:449–454. doi: 10.1111/j.1460-
+9592.2012.03830.x
+23. Berger T, Garrido F, Green J, Lema PC, Gupta J (2012) Bedside ultrasound
+performed by novices for the detection of abscess in ED patients with soft tissue
+infections. Am J Emerg Med 30:1569–1573. doi: 10.1016/j.ajem.2011.08.002
+24. Bhatia N, Sivaprakasam J, Allford M, Guruswamy V (2014) The relative position
+of femoral artery and vein in children under general anesthesia--an ultrasound-
+guided observational study. Paediatr Anaesth 24:1164–1168. doi:
+10.1111/pan.12486
+25. Bhisitkul DM, Listernick R, Shkolnik A, Donaldson JS, Henricks BD, Feinstein
+KA, Fernbach SK (1992) Clinical application of ultrasonography in the diagnosis
+of intussusception. J Pediatr 121:182–186.
+26. Blaivas M, Fox JC (2001) Outcome in cardiac arrest patients found to have
+cardiac standstill on the bedside emergency department echocardiogram.
+Academic Emergency Medicine 8:616–621.
+27. Blaivas M, Lambert MJ, Harwood RA, Wood JP, Konicki J (2000) Lower-
+extremity Doppler for deep venous thrombosis--can emergency physicians be
+accurate and fast? Academic Emergency Medicine 7:120–126.
+28. Blaivas M, Lyon M, Duggal S (2005) A prospective comparison of supine chest
+radiography and bedside ultrasound for the diagnosis of traumatic pneumothorax.
+Acad Emerg Med 12:844–849. doi: 10.1197/j.aem.2005.05.005
+29. Blaivas M, Theodoro D, Sierzenski PR (2003) Elevated intracranial pressure
+detected by bedside emergency ultrasonography of the optic nerve sheath. Acad
+Emerg Med 10:376–381.
+30. Blehar DJ, Barton B, Gaspari RJ (2015) Learning curves in emergency
+ultrasound education. Acad Emerg Med 22:574–582. doi: 10.1111/acem.12653
+31. Blyth L, Atkinson P, Gadd K, Lang E (2012) Bedside Focused Echocardiography
+as Predictor of Survival in Cardiac Arrest Patients: A Systematic Review.
+Academic Emergency Medicine 19:1119–1126. doi: 10.1111/j.1553-
+2712.2012.01456.x
+32. Botchu R, Lee KJ, Bianchi S (2012) Radiographically undetected coracoid
+fractures diagnosed by sonography. Report of seven cases. Skeletal Radiol
+41:693–698. doi: 10.1007/s00256-011-1277-1
+33. Bouaziz H, Aubrun F, Belbachir AA, Cuvillon P, Eisenberg E, Jochum D, Aveline
+C, Biboulet P, Binhas M, Bloc S, Boccara G, Carles M, Choquet O, Delaunay L,
+Estebe JP, Fuzier R, Gaertner E, Gnaho A, Nouette-Gaulain K, Nouvellon E,
+Ripart J, Tubert V, Société française d'anesthésie et de réanimation (2011)
+[Locoregional anaesthesia and echography]. Ann Fr Anesth Reanim 30:e33–5.
+doi: 10.1016/j.annfar.2011.06.008
+34. Bouaziz H, Zetlaoui PJ, Pierre S, Desruennes E, Fritsch N, Jochum D, Lapostolle
+ECMU niveau 1 - Version longue (v6) 08/05/2016 30
+F, Pirotte T, Villiers S (2015) Guidelines on the use of ultrasound guidance for
+vascular access. Anaesth Crit Care Pain Med 34:65–69. doi:
+10.1016/j.accpm.2015.01.004
+35. Bouhemad B, Zhang M, Lu Q, Rouby J-J (2007) Clinical review: Bedside lung
+ultrasound in critical care practice. Crit Care 11:205. doi: 10.1186/cc5668
+36. Bourcier J-E, Paquet J, Seinger M, Gallard E, Redonnet J-P, Cheddadi F, Garnier
+D, Bourgeois J-M, Geeraerts T (2014) Performance comparison of lung
+ultrasound and chest x-ray for the diagnosis of pneumonia in the ED. Am J
+Emerg Med 32:115–118. doi: 10.1016/j.ajem.2013.10.003
+37. Bouzat P, Francony G, Declety P, Genty C, Kaddour A, Bessou P, Brun J, Jacquot
+C, Chabardes S, Bosson J-L, Payen J-F (2011) Transcranial Doppler to screen on
+admission patients with mild to moderate traumatic brain injury. Neurosurgery
+68:1603–9– discussion 1609–10. doi: 10.1227/NEU.0b013e31820cd43e
+38. Božičnik S, Díez Recinos A, Moreno Cantó MC, Pavlovič S, García-Muñoz
+Rodrigo F (2013) [Ultrasound-guided suprapubic bladder aspiration increases the
+success of the technique in infants less than 4 months-old]. An Pediatr (Barc)
+78:321–325. doi: 10.1016/j.anpedi.2012.09.004
+39. Bradley M (2012) Image-guided soft-tissue foreign body extraction - success and
+pitfalls. Clinical Radiology 67:531–534. doi: 10.1016/j.crad.2011.10.029
+40. Brass P, Hellmich M, Kolodziej L, Schick G, Smith AF (2015) Ultrasound
+guidance versus anatomical landmarks for subclavian or femoral vein
+catheterization. Cochrane Database Syst Rev 1:CD011447. doi:
+10.1002/14651858.CD011447
+41. Breitkreutz R, Price S, Steiger HV, Seeger FH, Ilper H, Ackermann H, Rudolph
+M, Uddin S, Weigand MA, Müller E, Walcher F, from the Emergency Ultrasound
+Working Group of the Johann Wolfgang Goethe-University Hospital, Frankfurt
+am Main1 (2010) Focused echocardiographic evaluation in life support and peri-
+resuscitation of emergency patients: A prospective trial. Resuscitation 81:1527–
+1533. doi: 10.1016/j.resuscitation.2010.07.013
+42. Breitkreutz R, Walcher F, Seeger FH (2007) Focused echocardiographic
+evaluation in resuscitation management: concept of an advanced life support-
+conformed algorithm. Crit Care Med 35:S150–61. doi:
+10.1097/01.CCM.0000260626.23848.FC
+43. Briend G, Maitre B, Remy-Jardin M, Richard P (2013) Le pneumologue et
+l'échographie pleurale. Rev Mal Respir 5:113–116. doi: 10.1016/S1877-
+1203(13)70373-2
+44. Brooks A, Davies B, Smethhurst M, Connolly J (2004) Emergency ultrasound in
+the acute assessment of haemothorax. Emergency Medicine Journal 21:44–46.
+45. Bruhn J, van Geffen GJ, Gielen MJ, Scheffer GJ (2008) Visualization of the
+course of the sciatic nerve in adult volunteers by ultrasonography. Acta
+Anaesthesiol Scand 52:1298–1302. doi: 10.1111/j.1399-6576.2008.01695.x
+ECMU niveau 1 - Version longue (v6) 08/05/2016 31
+46. Brun P-M, Bessereau J, Chenaitia H, Pradel A-L, Deniel C, Garbaye G, Melaine
+R, Bylicki O, Lablanche C (2014) Stay and play eFAST or scoop and run eFAST?
+That is the question! Am J Emerg Med 32:166–170. doi:
+10.1016/j.ajem.2013.11.008
+47. Burgher SW, Tandy TK, Dawdy MR (1998) Transvaginal ultrasonography by
+emergency physicians decreases patient time in the emergency department. Acad
+Emerg Med 5:802–807.
+48. Callegari L, Leonardi A, Bini A, Sabato C, Nicotera P, Spano E, Mariani D,
+Genovese EA, Fugazzola C (2009) Ultrasound-guided removal of foreign bodies:
+personal experience. Eur Radiol 19:1273–1279. doi: 10.1007/s00330-008-1266-5
+49. Canadian Emergency Ultrasound Society Certification de base (PI-1). In: ceus.ca.
+http://www.ceus.ca/fr/ceus-certifications/levels-certification/basic-ip-1-
+certification. Accessed 21 Oct 2015
+50. Casati A, Baciarello M, Di Cianni S, Danelli G, De Marco G, Leone S, Rossi M,
+Fanelli G (2007) Effects of ultrasound guidance on the minimum effective
+anaesthetic volume required to block the femoral nerve. Br J Anaesth 98:823–
+827. doi: 10.1093/bja/aem100
+51. Chan H (1993) Noninvasive bladder volume measurement. J Neurosci Nurs
+25:309–312.
+52. Chardoli M, Heidari F, Rabiee H, Sharif-Alhoseini M, Shokoohi H, Rahimi-
+Movaghar V (2012) Echocardiography integrated ACLS protocol versus
+conventional cardiopulmonary resuscitation in patients with pulseless electrical
+activity cardiac arrest. Chin J Traumatol 15:284–287.
+53. Charron C, Caille V, Jardin F, Vieillard-Baron A (2006) Echocardiographic
+measurement of fluid responsiveness. Curr Opin Crit Care 12:249–254. doi:
+10.1097/01.ccx.0000224870.24324.cc
+54. Chenkin J, McCartney CJL, Jelic T, Romano M, Heslop C, Bandiera G (2015)
+Defining the learning curve of point-of-care ultrasound for confirming
+endotracheal tube placement by emergency physicians. Crit Ultrasound J 7:14.
+doi: 10.1186/s13089-015-0031-7
+55. Chiem AT, Chan CH, Ander DS, Kobylivker AN, Manson WC (2015)
+Comparison of expert and novice sonographers' performance in focused lung
+ultrasonography in dyspnea (FLUID) to diagnose patients with acute heart failure
+syndrome. Acad Emerg Med 22:564–573. doi: 10.1111/acem.12651
+56. Chittoodan S, Breen D, O'Donnell BD, Iohom G (2011) Long versus short axis
+ultrasound guided approach for internal jugular vein cannulation: a prospective
+randomised controlled trial. Med Ultrason 13:21–25.
+57. Chou EH, Dickman E, Tsou P-Y, Tessaro M, Tsai Y-M, Ma MH-M, Lee C-C,
+Marshall J (2015) Ultrasonography for confirmation of endotracheal tube
+placement: a systematic review and meta-analysis. Resuscitation 90:97–103. doi:
+10.1016/j.resuscitation.2015.02.013
+ECMU niveau 1 - Version longue (v6) 08/05/2016 32
+58. Chou H-C, Chong K-M, Sim S-S, Ma MH-M, Liu S-H, Chen N-C, Wu M-C, Fu
+C-M, Wang C-H, Lee C-C, Lien W-C, Chen S-C (2013) Real-time tracheal
+ultrasonography for confirmation of endotracheal tube placement during
+cardiopulmonary resuscitation. Resuscitation 84:1708–1712. doi:
+10.1016/j.resuscitation.2013.06.018
+59. Chun R, Kirkpatrick AW, Sirois M, Sargasyn AE, Melton S, Hamilton DR,
+Dulchavsky S (2004) Where's the tube? Evaluation of hand-held ultrasound in
+confirming endotracheal tube placement. Prehosp Disaster Med 19:366–369.
+60. Cogo A, Lensing AW, Koopman MM, Piovella F, Siragusa S, Wells PS, Villalta S,
+Buller HR, Turpie AG, Prandoni P (1998) Compression ultrasonography for
+diagnostic management of patients with clinically suspected deep vein
+thrombosis: prospective cohort study. BMJ 316:17–20. doi:
+10.1136/bmj.316.7124.17
+61. Coppola R, Riccioni ME, Ciletti S, Cosentino L, Ripetti V, Magistrelli P,
+Picciocchi A (2001) Selective use of endoscopic retrograde
+cholangiopancreatography to facilitate laparoscopic cholecystectomy without
+cholangiography. A review of 1139 consecutive cases. Surg Endosc 15:1213–
+1216. doi: 10.1007/s004640080019
+62. Cortellaro F, Colombo S, Coen D, Duca PG (2012) Lung ultrasound is an
+accurate diagnostic tool for the diagnosis of pneumonia in the emergency
+department. Emergency Medicine Journal 29:19–23. doi:
+10.1136/emj.2010.101584
+63. Costantino TG, Satz WA, Dehnkamp W, Goett H (2012) Randomized trial
+comparing intraoral ultrasound to landmark-based needle aspiration in patients
+with suspected peritonsillar abscess. Acad Emerg Med 19:626–631. doi:
+10.1111/j.1553-2712.2012.01380.x
+64. Crisp JG, Lovato LM, Jang TB (2010) Compression Ultrasonography of the
+Lower Extremity With Portable Vascular Ultrasonography Can Accurately Detect
+Deep Venous Thrombosis in the Emergency Department. Ann Emerg Med
+56:601–610. doi: 10.1016/j.annemergmed.2010.07.010
+65. Curtis SJ, Craig WR, Logue E, Vandermeer B, Hanson A, Klassen T (2015)
+Ultrasound or near-infrared vascular imaging to guide peripheral intravenous
+catheterization in children: a pragmatic randomized controlled trial. CMAJ
+187:563–570. doi: 10.1503/cmaj.141012
+66. Cuvillon P, Diaz J, Blum B, Armissoglio G (2013) Comment éviter les accidents
+de l'anesthésie locorégionale sous échoguidage? Le praticien en anesthésie …
+17:296–302. doi: 10.1016/j.pratan.2013.10.005
+67. Dalkey N (1969) The delphi method, an experimental study of group reaction.
+doi: 10.1029/EO057i009p00625/pdf
+68. Dallon DS, Jones JS (2011) Bedside echocardiography for prognosis of
+emergency department cardiac arrest. Emergency Medicine Journal 28:990–991.
+doi: 10.1136/emermed-2011-200721
+ECMU niveau 1 - Version longue (v6) 08/05/2016 33
+69. Dalziel PJ, Noble VE (2013) Bedside ultrasound and the assessment of renal
+colic: a review. Emergency Medicine Journal 30:3–8. doi: 10.1136/emermed-
+2012-201375
+70. Das SK, Choupoo NS, Haldar R, Lahkar A (2015) Transtracheal ultrasound for
+verification of endotracheal tube placement: a systematic review and meta-
+analysis. Can J Anaesth 62:413–423. doi: 10.1007/s12630-014-0301-z
+71. Davis J, Czerniski B, Au A, Adhikari S, Farrell I, Fields JM (2015) Diagnostic
+Accuracy of Ultrasonography in Retained Soft Tissue Foreign Bodies: A
+Systematic Review and Meta-analysis. Acad Emerg Med 22:777–787. doi:
+10.1111/acem.12714
+72. Diacon AH, Brutsche MH, Solèr M (2003) Accuracy of pleural puncture sites: a
+prospective comparison of clinical examination with ultrasound. Chest 123:436–
+441. doi: 10.1378/chest.123.2.436
+73. Dipti A, Soucy Z, Surana A, Chandra S (2012) Role of inferior vena cava
+diameter in assessment of volume status: a meta-analysis. Am J Emerg Med
+30:1414–1419.e1. doi: 10.1016/j.ajem.2011.10.017
+74. Donal E, Lafitte S, Tribouilloy C, Roudaut R, Malergue MC, Monin JL, Gallet B,
+Dehant P, Brochet E (2010) Recommandations de la Filiale d“Echocardiographie
+de la Société Française de Cardiologie sur la pratique de l”échocardiographie en
+2010. In: Disponible sur: www. ….
+http://sfcardio5test.sfcardio.fr/sites/default/files/pdf/reco_filiale_echo_version_fi
+nale.pdf. Accessed 21 Oct 2015
+75. Doniger SJ, Ishimine P, Fox JC, Kanegaye JT (2009) Randomized controlled trial
+of ultrasound-guided peripheral intravenous catheter placement versus traditional
+techniques in difficult-access pediatric patients. Pediatr Emerg Care 25:154–159.
+doi: 10.1097/PEC.0b013e31819a8946
+76. Dubourg J, Javouhey E, Geeraerts T, Messerer M, Kassai B (2011)
+Ultrasonography of optic nerve sheath diameter for detection of raised
+intracranial pressure: a systematic review and meta-analysis. Intensive Care Med
+37:1059–1068. doi: 10.1007/s00134-011-2224-2
+77. Dudeck O, Teichgraeber U, Podrabsky P, Lopez Haenninen E, Soerensen R,
+Ricke J (2004) A randomized trial assessing the value of ultrasound-guided
+puncture of the femoral artery for interventional investigations. Int J Cardiovasc
+Imaging 20:363–368.
+78. Egan G, Healy D, O'Neill H, Clarke-Moloney M, Grace PA, Walsh SR (2013)
+Ultrasound guidance for difficult peripheral venous access: systematic review and
+meta-analysis. Emerg Med J 30:521–526. doi: 10.1136/emermed-2012-201652
+79. Eldabaa AA, Elhafz A (2012) Comparison of ultrasound-guided vs. anatomical
+landmark-guided cannulation of the femoral vein at the optimum position in
+infant. Southern African Journal of Anaesthesia and Analgesia 18:162–167–166.
+80. Expert Round Table on Ultrasound in ICU (2011) International expert statement
+ECMU niveau 1 - Version longue (v6) 08/05/2016 34
+on training standards for critical care ultrasonography. Intensive Care Med
+37:1077–1083. doi: 10.1007/s00134-011-2246-9
+81. Feissel M, Michard F, Faller J-P, Teboul J-L (2004) The respiratory variation in
+inferior vena cava diameter as a guide to fluid therapy. Intensive Care Med
+30:1834–1837. doi: 10.1007/s00134-004-2233-5
+82. Ferrada P, Murthi S, Anand RJ, Bochicchio GV, Scalea T (2011) Transthoracic
+focused rapid echocardiographic examination: real-time evaluation of fluid status
+in critically ill trauma patients. The Journal of trauma 70:56–62– discussion 62–
+4. doi: 10.1097/TA.0b013e318207e6ee
+83. Ferrada P, Wolfe L, Anand RJ, Whelan J, Vanguri P, Malhotra A, Goldberg S,
+Duane T, Aboutanos M (2014) Use of Limited Transthoracic Echocardiography
+in Patients With Traumatic Cardiac Arrest Decreases the Rate of Nontherapeutic
+Thoracotomy and Hospital Costs. Journal of Ultrasound in Medicine 33:1829–
+1832. doi: 10.7863/ultra.33.10.1829
+84. Ferre RM, Sweeney TW (2007) Emergency physicians can easily obtain
+ultrasound images of anatomical landmarks relevant to lumbar puncture.
+American Journal of Emergency Medicine 25:291–296. doi:
+10.1016/j.ajem.2006.08.013
+85. Ferre RM, Sweeney TW, Strout TD (2009) Ultrasound identification of
+landmarks preceding lumbar puncture: a pilot study. Emergency Medicine
+Journal 26:276–277. doi: 10.1136/emj.2007.057455
+86. Fields JM, Lee PA, Jenq KY, Mark DG, Panebianco NL, Dean AJ (2011) The
+interrater reliability of inferior vena cava ultrasound by bedside clinician
+sonographers in emergency department patients. Acad Emerg Med 18:98–101.
+doi: 10.1111/j.1553-2712.2010.00952.x
+87. Frenkel O, Riguzzi C, Nagdev A (2014) Identification of high-risk patients with
+acute coronary syndrome using point-of-care echocardiography in the ED. Am J
+Emerg Med 32:670–672. doi: 10.1016/j.ajem.2014.03.003
+88. Frémont B, Pacouret G, Jacobi D, Puglisi R, Charbonnier B, de Labriolle A
+(2008) Prognostic value of echocardiographic right/left ventricular end-diastolic
+diameter ratio in patients with acute pulmonary embolism: results from a
+monocenter registry of 1,416 patients. Chest 133:358–362. doi: 10.1378/chest.07-
+1231
+89. Friedman DI, Forti RJ, Wall SP, Crain EF (2005) The utility of bedside
+ultrasound and patient perception in detecting soft tissue foreign bodies in
+children. Pediatr Emerg Care 21:487–492.
+90. Gaitini D (2006) Current approaches and controversial issues in the diagnosis of
+deep vein thrombosis via duplex Doppler ultrasound. J Clin Ultrasound 34:289–
+297. doi: 10.1002/jcu.20236
+91. Galicinao J, Bush AJ, Godambe SA (2007) Use of bedside ultrasonography for
+endotracheal tube placement in pediatric patients: a feasibility study. Pediatrics
+ECMU niveau 1 - Version longue (v6) 08/05/2016 35
+120:1297–1303. doi: 10.1542/peds.2006-2959
+92. Gandolfi L, Torresan F, Solmi L, Puccetti A (2003) The role of ultrasound in
+biliary and pancreatic diseases. Eur J Ultrasound 16:141–159.
+93. Gao Y-B, Yan J-H, Gao F-Q, Pan L, Wang X-Z, Lv C-J (2015) Effects of
+ultrasound-guided radial artery catheterization: an updated meta-analysis. Am J
+Emerg Med 33:50–55. doi: 10.1016/j.ajem.2014.10.008
+94. Gargani L, Frassi F, Soldati G, Tesorio P, Gheorghiade M, Picano E (2008)
+Ultrasound lung comets for the differential diagnosis of acute cardiogenic
+dyspnoea: a comparison with natriuretic peptides. Eur J Heart Fail 10:70–77. doi:
+10.1016/j.ejheart.2007.10.009
+95. Gaspari RJ, Dickman E, Blehar D (2006) Impact of bedside right upper quadrant
+ultrasonography on radiology imaging. Emerg Radiol 13:3–5. doi:
+10.1007/s10140-006-0495-7
+96. Gaspari RJ, Horst K (2005) Emergency ultrasound and urinalysis in the
+evaluation of flank pain. Acad Emerg Med 12:1180–1184. doi:
+10.1197/j.aem.2005.06.023
+97. Gedikoglu M, Oguzkurt L, Gur S, Andic C, Sariturk C, Ozkan U (2013)
+Comparison of ultrasound guidance with the traditional palpation and
+fluoroscopy method for the common femoral artery puncture. Catheter
+Cardiovasc Interv 82:1187–1192. doi: 10.1002/ccd.24955
+98. Ghaffari V, Fattahi S, Taheri M, Khademloo M, Farhadi R, Nakhshab M (2014)
+The comparison of pain caused by suprapubic aspiration and transurethral
+catheterization methods for sterile urine collection in neonates: a randomized
+controlled study. ScientificWorldJournal 2014:946924–6. doi:
+10.1155/2014/946924
+99. Gordon CE, Feller-Kopman D, Balk EM, Smetana GW (2010) Pneumothorax
+following thoracentesis: a systematic review and meta-analysis. Arch Intern Med
+170:332–339. doi: 10.1001/archinternmed.2009.548
+100. Gracias VH, Frankel HL, Gupta R, Malcynski J, Gandhi R, Collazzo L,
+Nisenbaum H, Schwab CW (2001) Defining the learning curve for the Focused
+Abdominal Sonogram for Trauma (FAST) examination: implications for
+credentialing. Am Surg 67:364–368.
+101. Graham DD (2002) Ultrasound in the emergency department: detection of
+wooden foreign bodies in the soft tissues. J Emerg Med 22:75–79.
+102. Groupe de travail SFR - CRR (2007) [General recommendations for drawing up a
+radiological report]. J Radiol 88:304–306.
+103. Gu W-J, Tie H-T, Liu J-C, Zeng X-T (2014) Efficacy of ultrasound-guided radial
+artery catheterization: a systematic review and meta-analysis of randomized
+controlled trials. Crit Care 18:R93. doi: 10.1186/cc13862
+ECMU niveau 1 - Version longue (v6) 08/05/2016 36
+104. Gudmundsson P, Rydberg E, Winter R, Willenheimer R (2005) Visually estimated
+left ventricular ejection fraction by echocardiography is closely correlated with
+formal quantitative methods. Int J Cardiol 101:209–212. doi:
+10.1016/j.ijcard.2004.03.027
+105. Guedj R, Escoda S, Blakime P, Patteau G, Brunelle F, Cheron G (2015) The
+accuracy of renal point of care ultrasound to detect hydronephrosis in children
+with a urinary tract infection. Eur J Emerg Med 22:135–138. doi:
+10.1097/MEJ.0000000000000158
+106. Gunst M, Sperry J, Ghaemmaghami V, O'Keeffe T, Friese R, Frankel H (2008)
+Bedside echocardiographic assessment for trauma/critical care: the BEAT exam. J
+Am Coll Surg 207:e1–3. doi: 10.1016/j.jamcollsurg.2008.05.027
+107. Haute Autorité de Santé (2008) Mesure du contenu vésical par technique
+ultrasonique (système déchographie portable pour la vessie)
+. 1–34.
+108. Haute Autorité de Santé (2010) Élaboration de recommandations de bonne
+pratique. Méthode« Recommandations par consensus formalisé »
+. http://www.has-sante.fr/portail/jcms/c_272505/fr/recommandations-par-consensus-
+formalise-rcf. Accessed 9 Oct 2015
+109. Henderson AA, Anupindi SA, Servaes S, Markowitz RI, Aronson PL,
+McLoughlin RJ, Mistry RD (2013) Comparison of 2-view abdominal radiographs
+with ultrasound in children with suspected intussusception. Pediatr Emerg Care
+29:145–150. doi: 10.1097/PEC.0b013e3182808af7
+110. Hernandez C, Shuler K, Hannan H, Sonyika C, Likourezos A, Marshall J (2008)
+C.A.U.S.E.: Cardiac arrest ultra-sound exam—A better approach to managing
+patients in primary non-arrhythmogenic cardiac arrest. Resuscitation 76:198–206.
+doi: 10.1016/j.resuscitation.2007.06.033
+111. Hernanz-Schulman M (2003) Infantile hypertrophic pyloric stenosis. Radiology
+227:319–331. doi: 10.1148/radiol.2272011329
+112. Hibbert RM, Atwell TD, Lekah A, Patel MD, Carter RE, McDonald JS, Rabatin
+JT (2013) Safety of Ultrasound-Guided Thoracentesis in Patients With Abnormal
+Preprocedural Coagulation Parameters. Chest 144:456–8. doi: 10.1378/chest.12-
+2374
+113. Hind D, Calvert N, McWilliams R, Davidson A, Paisley S, Beverley C, Thomas S
+(2003) Ultrasonic locating devices for central venous cannulation: meta-analysis.
+BMJ 327:361. doi: 10.1136/bmj.327.7411.361
+114. Holm JH, Frederiksen CA, Juhl-Olsen P, Sloth E (2012) Perioperative use of
+focus assessed transthoracic echocardiography (FATE). Anesth Analg 115:1029–
+1032. doi: 10.1213/ANE.0b013e31826dd867
+115. Holmes JF, Gladman A, Chang CH (2007) Performance of abdominal
+ECMU niveau 1 - Version longue (v6) 08/05/2016 37
+ultrasonography in pediatric blunt trauma patients: a meta-analysis. J Pediatr Surg
+42:1588–1594. doi: 10.1016/j.jpedsurg.2007.04.023
+116. Hope MD, la Pena de E, Yang PC, Liang DH, McConnell MV, Rosenthal DN
+(2003) A visual approach for the accurate determination of echocardiographic left
+ventricular ejection fraction by medical students. J Am Soc Echocardiogr 16:824–
+831. doi: 10.1067/S0894-7317(03)00400-0
+117. Horton LK, Jacobson JA, Powell A, Fessell DP, Hayes CW (2001) Sonography
+and radiography of soft-tissue foreign bodies. AJR Am J Roentgenol 176:1155–
+1159. doi: 10.2214/ajr.176.5.1761155
+118. Hryhorczuk AL, Strouse PJ (2009) Validation of US as a first-line diagnostic test
+for assessment of pediatric ileocolic intussusception. Pediatr Radiol 39:1075–
+1079. doi: 10.1007/s00247-009-1353-z
+119. Huang M-Y, Lin AP, Chang W-H (2008) Ultrasound-assisted localization for
+lumbar puncture in the ED. Am J Emerg Med 26:955–957. doi:
+10.1016/j.ajem.2008.03.007
+120. Iverson K, Haritos D, Thomas R, Kannikeswaran N (2012) The effect of bedside
+ultrasound on diagnosis and management of soft tissue infections in a pediatric
+ED. Am J Emerg Med 30:1347–1351. doi: 10.1016/j.ajem.2011.09.020
+121. Jacob P, Rai BP, Todd AW (2012) Suprapubic catheter insertion using an
+ultrasound-guided technique and literature review. BJU Int 110:779–784. doi:
+10.1111/j.1464-410X.2011.10882.x
+122. Jacoby J, Cesta M, Axelband J, Melanson S, Heller M, Reed J (2007) Can
+emergency medicine residents detect acute deep venous thrombosis with a
+limited, two-site ultrasound examination? J Emerg Med 32:197–200. doi:
+10.1016/j.jemermed.2006.06.008
+123. Jacquet JM, Hong C (2014) Ultrasound-Guided Central Venous Access. Critical
+Decisions in Emergency Medicine 28:15–22.
+124. Jaffres P, Brun J, Declety P, Bosson J-L, Fauvage B, Schleiermacher A, Kaddour
+A, Anglade D, Jacquot C, Payen J-F (2005) Transcranial Doppler to detect on
+admission patients at risk for neurological deterioration following mild and
+moderate brain trauma. Intensive Care Med 31:785–790. doi: 10.1007/s00134-
+005-2630-4
+125. Jafri F, Runde D, Saul T, Lewiss RE (2011) An inexpensive and easy simulation
+model of ocular ultrasound that mimics normal anatomy as well as abnormal
+ophthalmologic conditions. J Ultrasound Med 30:569–573.
+126. Jambrik Z, Monti S, Coppola V, Agricola E, Mottola G, Miniati M, Picano E
+(2004) Usefulness of ultrasound lung comets as a nonradiologic sign of
+extravascular lung water. Am J Cardiol 93:1265–1270. doi:
+10.1016/j.amjcard.2004.02.012
+127. Jang T, Aubin C, Naunheim R (2004) Minimum training for right upper quadrant
+ECMU niveau 1 - Version longue (v6) 08/05/2016 38
+ultrasonography. American Journal of Emergency Medicine 22:439–443. doi:
+10.1016/j.ajem.2004.07.025
+128. Jang TB (2010) Bedside biliary sonography: advancement and future horizons.
+Ann Emerg Med 56:123–125. doi: 10.1016/j.annemergmed.2010.03.031
+129. Jang TB, Ruggeri W, Dyne P, Kaji AH (2010) The Learning Curve of Resident
+Physicians Using Emergency Ultrasonography for Cholelithiasis and
+Cholecystitis. Academic Emergency Medicine 17:1247–1252. doi:
+10.1111/j.1553-2712.2010.00909.x
+130. Jensen MB, Sloth E, Larsen KM, Schmidt MB (2004) Transthoracic
+echocardiography for cardiopulmonary monitoring in intensive care. Eur J
+Anaesthesiol 21:700–707.
+131. Jin W, Yang DM, Kim HC, Ryu KN (2006) Diagnostic values of sonography for
+assessment of sternal fractures compared with conventional radiography and bone
+scans. J Ultrasound Med 25:1263–8– quiz 1269–70.
+132. Jones AE, Tayal VS, Sullivan DM, Kline JA (2004) Randomized, controlled trial
+of immediate versus delayed goal-directed ultrasound to identify the cause of
+nontraumatic hypotension in emergency department patients*. Crit Care Med
+32:1703–1708. doi: 10.1097/01.CCM.0000133017.34137.82
+133. Joshi N, Lira A, Mehta N, Paladino L, Sinert R (2013) Diagnostic accuracy of
+history, physical examination, and bedside ultrasound for diagnosis of extremity
+fractures in the emergency department: a systematic review. Acad Emerg Med
+20:1–15. doi: 10.1111/acem.12058
+134. Juhl-Olsen P, Vistisen ST, Christiansen LK, Rasmussen LA, Frederiksen CA,
+Sloth E (2013) Ultrasound of the inferior vena cava does not predict
+hemodynamic response to early hemorrhage. J Emerg Med 45:592–597. doi:
+10.1016/j.jemermed.2013.03.044
+135. Kameda T, Murata Y, Fujita M, Isaka A (2014) Transabdominal ultrasound-
+guided urethral catheterization with transrectal pressure. J Emerg Med 46:215–
+219. doi: 10.1016/j.jemermed.2013.08.072
+136. Kanno T, Kubota M, Sakamoto H, Nishiyama R, Okada T, Higashi Y, Yamada H
+(2014) Determining the efficacy of ultrasonography for the detection of ureteral
+stone. Urology 84:533–537. doi: 10.1016/j.urology.2014.04.047
+137. Karakitsos D, Labropoulos N, De Groot E, Patrianakos AP, Kouraklis G, Poularas
+J, Samonis G, Tsoutsos DA, Konstadoulakis MM, Karabinis A (2006) Real-time
+ultrasound-guided catheterisation of the internal jugular vein: a prospective
+comparison with the landmark technique in critical care patients. Crit Care
+10:R162. doi: 10.1186/cc5101
+138. Kasper W, Konstantinides S, Geibel A, Tiede N, Krause T, Just H (1997)
+Prognostic significance of right ventricular afterload stress detected by
+echocardiography in patients with clinically suspected pulmonary embolism.
+Heart 77:346–349.
+ECMU niveau 1 - Version longue (v6) 08/05/2016 39
+139. Kendall JL, Hoffenberg SR, Smith RS (2007) History of emergency and critical
+care ultrasound: The evolution of a new imaging paradigm. Crit Care Med
+35:S126–S130. doi: 10.1097/01.CCM.0000260623.38982.83
+140. Kendall JL, Shimp RJ (2001) Performance and interpretation of focused right
+upper quadrant ultrasound by emergency physicians. J Emerg Med 21:7–13.
+141. Kimberly HH, Shah S, Marill K, Noble V (2008) Correlation of optic nerve
+sheath diameter with direct measurement of intracranial pressure. Acad Emerg
+Med 15:201–204. doi: 10.1111/j.1553-2712.2007.00031.x
+142. Kleinjan A, Di Nisio M, Beyer-Westendorf J, Camporese G, Cosmi B,
+Ghirarduzzi A, Kamphuisen PW, Otten H-M, Porreca E, Aggarwal A, Brodmann
+M, Guglielmi MD, Iotti M, Kaasjager K, Kamvissi V, Lerede T, Marschang P,
+Meijer K, Palareti G, Rickles FR, Righini M, Rutjes AWS, Tonello C, Verhamme
+P, Werth S, van Wissen S, Büller HR (2014) Safety and feasibility of a diagnostic
+algorithm combining clinical probability, d-dimer testing, and ultrasonography
+for suspected upper extremity deep venous thrombosis: a prospective
+management study. Ann Intern Med 160:451–457. doi: 10.7326/M13-2056
+143. Kline JA, O'Malley PM, Tayal VS, Snead GR, Mitchell AM (2008) Emergency
+clinician-performed compression ultrasonography for deep venous thrombosis of
+the lower extremity. Ann Emerg Med 52:437–445. doi:
+10.1016/j.annemergmed.2008.05.023
+144. Kocijancic I, Vidmar K, Ivanovi-Herceg Z (2003) Chest sonography versus
+lateral decubitus radiography in the diagnosis of small pleural effusions. J Clin
+Ultrasound 31:69–74. doi: 10.1002/jcu.10141
+145. Körner M, Krötz MM, Degenhart C, Pfeifer K-J, Reiser MF, Linsenmaier U
+(2008) Current Role of Emergency US in Patients with Major Trauma.
+Radiographics 28:225–242. doi: 10.1148/rg.281075047
+146. Labovitz AJ, Noble VE, Bierig M, Goldstein SA, Jones R, Kort S, Porter TR,
+Spencer KT, Tayal VS, Wei K (2010) Focused cardiac ultrasound in the emergent
+setting: a consensus statement of the American Society of Echocardiography and
+American College of Emergency Physicians. In: J Am Soc Echocardiogr. pp
+1225–1230
+147. Lalu MM, Fayad A, Ahmed O, Bryson GL, Fergusson DA, Barron CC, Sullivan
+P, Thompson C, Canadian Perioperative Anesthesia Clinical Trials Group (2015)
+Ultrasound-Guided Subclavian Vein Catheterization: A Systematic Review and
+Meta-Analysis. Crit Care Med 43:1498–1507. doi:
+10.1097/CCM.0000000000000973
+148. Lapostolle F, Petrovic T, Lenoir G, Catineau J, Galinski M, Metzger J, Chanzy E,
+Adnet F (2006) Usefulness of hand-held ultrasound devices in out-of-hospital
+diagnosis performed by emergency physicians. American Journal of Emergency
+Medicine 24:237–242. doi: 10.1016/j.ajem.2005.07.010
+149. Lewis SR, Price A, Walker KJ, McGrattan K, Smith AF (2015) Ultrasound
+guidance for upper and lower limb blocks. Cochrane Database Syst Rev
+ECMU niveau 1 - Version longue (v6) 08/05/2016 40
+9:CD006459. doi: 10.1002/14651858.CD006459.pub3
+150. Lewiss RE, Kaban NL, Saul T (2013) Point-of-Care Ultrasound for a Deep
+Venous Thrombosis. Glob Heart 8:329–333. doi: 10.1016/j.gheart.2013.11.002
+151. Lichtenstein D (2012) Fluid administration limited by lung sonography: the place
+of lung ultrasound in assessment of acute circulatory failure (the FALLS-
+protocol). Expert Rev Respir Med 6:155–162. doi: 10.1586/ers.12.13
+152. Lichtenstein D, Goldstein I, Mourgeon E, Cluzel P, Grenier P, Rouby J-J (2004)
+Comparative diagnostic performances of auscultation, chest radiography, and
+lung ultrasonography in acute respiratory distress syndrome. Anesthesiology
+100:9–15.
+153. Lichtenstein D, Hulot JS, Rabiller A, Tostivint I, Mézière G (1999) Feasibility
+and safety of ultrasound-aided thoracentesis in mechanically ventilated patients.
+Intensive Care Med 25:955–958.
+154. Lichtenstein D, Karakitsos D (2012) Integrating lung ultrasound in the
+hemodynamic evaluation of acute circulatory failure (the fluid administration
+limited by lung sonography protocol). Journal of Critical Care 27:533.e11–9. doi:
+10.1016/j.jcrc.2012.03.004
+155. Lichtenstein D, Mézière G (1998) A lung ultrasound sign allowing bedside
+distinction between pulmonary edema and COPD: the comet-tail artifact.
+Intensive Care Med 24:1331–1334.
+156. Lichtenstein DA (2007) Ultrasound in the management of thoracic disease. Crit
+Care Med 35:S250–61. doi: 10.1097/01.CCM.0000260674.60761.85
+157. Lichtenstein DA (2014) Lung ultrasound in the critically ill. Annals of Intensive
+Care 4:1. doi: 10.1186/2110-5820-4-1
+158. Lichtenstein DA (2014) Échographie thoracique. EMC 9:1–15. doi:
+10.1016/S1879-8535(14)52727-4
+159. Lichtenstein DA, Lascols N, Mezière G, Gepner A (2004) Ultrasound diagnosis
+of alveolar consolidation in the critically ill. Intensive Care Med 30:276–281. doi:
+10.1007/s00134-003-2075-6
+160. Lichtenstein DA, Mezière G, Lascols N, Biderman P, Courret J-P, Gepner A,
+Goldstein I, Tenoudji-Cohen M (2005) Ultrasound diagnosis of occult
+pneumothorax. Crit Care Med 33:1231–1238. doi:
+10.1097/01.CCM.0000164542.86954.B4
+161. Lichtenstein DA, Mezière GA (2008) Relevance of Lung Ultrasound in the
+Diagnosis of Acute Respiratory Failure*. Chest 134:117–125. doi:
+10.1378/chest.07-2800
+162. Lichtenstein DA, Mezière GA, Lagoueyte J-F, Biderman P, Goldstein I, Gepner A
+(2009) A-lines and B-lines: lung ultrasound as a bedside tool for predicting
+pulmonary artery occlusion pressure in the critically ill. Chest 136:1014–1020.
+ECMU niveau 1 - Version longue (v6) 08/05/2016 41
+doi: 10.1378/chest.09-0001
+163. Liebmann O, Price D, Mills C, Gardner R, Wang R, Wilson S, Gray A (2006)
+Feasibility of forearm ultrasonography-guided nerve blocks of the radial, ulnar,
+and median nerves for hand procedures in the emergency department. Ann Emerg
+Med 48:558–562. doi: 10.1016/j.annemergmed.2006.04.014
+164. Lindenberger M, Kjellberg M (2003) Pericardiocentesis guided by 2‐D
+echocardiography: the method of choice for treatment of pericardial effusion.
+Journal of internal …
+165. Liteplo AS, Marill KA, Villen T, Miller RM, Murray AF, Croft PE, Capp R,
+Noble VE (2009) Emergency thoracic ultrasound in the differentiation of the
+etiology of shortness of breath (ETUDES): sonographic B-lines and N-terminal
+pro-brain-type natriuretic peptide in diagnosing congestive heart failure. Acad
+Emerg Med 16:201–210. doi: 10.1111/j.1553-2712.2008.00347.x
+166. Liu YT, Alsaawi A, Bjornsson HM (2014) Ultrasound-guided peripheral venous
+access: a systematic review of randomized-controlled trials. Eur J Emerg Med
+21:18–23. doi: 10.1097/MEJ.0b013e328363bebc
+167. Lyon M, Blaivas M (2005) Intraoral ultrasound in the diagnosis and treatment of
+suspected peritonsillar abscess in the emergency department. Academic
+Emergency Medicine 12:85–88. doi: 10.1197/j.aem.2004.08.045
+168. Lyon M, Blaivas M, Brannam L (2005) Sonographic measurement of the inferior
+vena cava as a marker of blood loss. The American journal of emergency …
+23:45–50. doi: 10.1016/j.ajem.2004.01.004
+169. Ma OJ, Mateer JR (1997) Trauma ultrasound examination versus chest
+radiography in the detection of hemothorax. Ann Emerg Med 29:312–5–
+discussion 315–6.
+170. MacKenzie EJ, Rivara FP, Jurkovich GJ, Nathens AB, Frey KP, Egleston BL,
+Salkever DS, Scharfstein DO (2006) A national evaluation of the effect of
+trauma-center care on mortality. N Engl J Med 354:366–378. doi:
+10.1056/NEJMsa052049
+171. Magazzini S, Vanni S, Toccafondi S, Paladini B, Zanobetti M, Giannazzo G,
+Federico R, Grifoni S (2007) Duplex ultrasound in the emergency department for
+the diagnostic management of clinically suspected deep vein thrombosis. Acad
+Emerg Med 14:216–220. doi: 10.1197/j.aem.2006.08.023
+172. Mandavia DP, Aragona J, Chan L, Chan D, Henderson SO (2000) Ultrasound
+training for emergency physicians--a prospective study. Academic Emergency
+Medicine 7:1008–1014.
+173. Manno E, Navarra M, Faccio L, Motevallian M, Bertolaccini L, Mfochivè A,
+Pesce M, Evangelista A (2012) Deep impact of ultrasound in the intensive care
+unit: the “ICU-sound” protocol. Anesthesiology 117:801–809. doi:
+10.1097/ALN.0b013e318264c621
+ECMU niveau 1 - Version longue (v6) 08/05/2016 42
+174. Manthey DE, Storrow AB, Milbourn JM, Wagner BJ (1996) Ultrasound versus
+radiography in the detection of soft-tissue foreign bodies. Ann Emerg Med 28:7–
+9.
+175. Marhofer P, Schrögendorfer K, Wallner T, Koinig H, Mayer N, Kapral S (1998)
+Ultrasonographic guidance reduces the amount of local anesthetic for 3-in-1
+blocks. Reg Anesth Pain Med 23:584–588.
+176. Marin JR, Alpern ER, Panebianco NL, Dean AJ (2011) Assessment of a training
+curriculum for emergency ultrasound for pediatric soft tissue infections. Acad
+Emerg Med 18:174–182. doi: 10.1111/j.1553-2712.2010.00990.x
+177. Marin JR, Bilker W, Lautenbach E, Alpern ER (2010) Reliability of clinical
+examinations for pediatric skin and soft-tissue infections. Pediatrics 126:925–
+930. doi: 10.1542/peds.2010-1039
+178. Marin JR, Dean AJ, Bilker WB, Panebianco NL, Brown NJ, Alpern ER (2013)
+Emergency ultrasound-assisted examination of skin and soft tissue infections in
+the pediatric emergency department. Acad Emerg Med 20:545–553. doi:
+10.1111/acem.12148
+179. Marin JR, Lewiss RE, American Academy of Pediatrics, Committee on Pediatric
+Emergency Medicine, 2013-2014, Society for Academic Emergency Medicine
+(Reviewers), American College of Emergency Physicians, Pediatric Emergency
+Medicine Committee, 2013-2014, World Interactive Network Focused on Critical
+Ultrasound Board of Directors (reviewers), American Academy of Pediatrics
+Committee on Pediatric Emergency Medicine 2013-2014, Society for Academic
+Emergency Medicine Reviewers, American College of Emergency Physicians
+Pediatric Emergency Medicine Committee 2013-2014, World Interactive
+Network Focused on Critical Ultrasound Board of Directors reviewers (2015)
+Point-of-care ultrasonography by pediatric emergency physicians. Policy
+statement. Ann Emerg Med 65:472–478. doi:
+10.1016/j.annemergmed.2015.01.028
+180. Mark DG, Hayden GE, Ky B, Paszczuk A, Pugh M, Matthews S, Horan A,
+Gracias VH, Kirkpatrick JN, Dean AJ (2009) Hand-carried echocardiography for
+assessment of left ventricular filling and ejection fraction in the surgical intensive
+care unit. Journal of Critical Care 24:470.e1–7. doi: 10.1016/j.jcrc.2008.07.003
+181. Marks LS, Dorey FJ, Macairan ML, Park C, deKernion JB (1997) Three-
+dimensional ultrasound device for rapid determination of bladder volume.
+Urology 50:341–348. doi: 10.1016/S0090-4295(97)00293-8
+182. Massanyi EZ, Preece J, Gupta A, Lin SM, Wang M-H (2013) Utility of screening
+ultrasound after first febrile UTI among patients with clinically significant
+vesicoureteral reflux. Urology 82:905–909. doi: 10.1016/j.urology.2013.04.026
+183. Mateer JR, Valley VT, Aiman EJ, Phelan MB, Thoma ME, Kefer MP (1996)
+Outcome analysis of a protocol including bedside endovaginal sonography in
+patients at risk for ectopic pregnancy. Ann Emerg Med 27:283–289.
+184. Matsumoto S, Sekine K, Yamazaki M, Sasao K, Funabiki T, Shimizu M, Yoshii
+ECMU niveau 1 - Version longue (v6) 08/05/2016 43
+H, Kishikawa M, Kitano M (2010) Predictive value of a flat inferior vena cava on
+initial computed tomography for hemodynamic deterioration in patients with
+blunt torso trauma. The Journal of trauma 69:1398–1402. doi:
+10.1097/TA.0b013e3181fc406f
+185. Mayo PH, Beaulieu Y, Doelken P, Feller-Kopman D, Harrod C, Kaplan A,
+Oropello J, Vieillard-Baron A, Axler O, Lichtenstein D, Maury E, Slama M,
+Vignon P (2009) American College of Chest Physicians/La Société de
+Réanimation de Langue Française statement on competence in critical care
+ultrasonography. In: Chest. pp 1050–1060
+186. Mayo PH, Goltz HR, Tafreshi M, Doelken P (2004) Safety of ultrasound-guided
+thoracentesis in patients receiving mechanical ventilation. Chest 125:1059–1062.
+187. McCartney CJL, Xu D, Constantinescu C, Abbas S, Chan VWS (2007)
+Ultrasound examination of peripheral nerves in the forearm. Reg Anesth Pain
+Med 32:434–439. doi: 10.1016/j.rapm.2007.02.011
+188. McRae A, Murray H, Edmonds M (2009) Diagnostic accuracy and clinical utility
+of emergency department targeted ultrasonography in the evaluation of first-
+trimester pelvic pain and bleeding: a systematic review. CJEM 11:355–364. doi:
+10.1017/S1481803500011416
+189. Melamed R, Sprenkle MD, Ulstad VK, Herzog CA, Leatherman JW (2009)
+Assessment of left ventricular function by intensivists using hand-held
+echocardiography. Chest 135:1416–1420. doi: 10.1378/chest.08-2440
+190. Melniker LA, Leibner E, McKenney MG, Lopez P, Briggs WM, Mancuso CA
+(2006) Randomized Controlled Clinical Trial of Point-of-Care, Limited
+Ultrasonography for Trauma in the Emergency Department: The First
+Sonography Outcomes Assessment Program Trial. Ann Emerg Med 48:227–235.
+doi: 10.1016/j.annemergmed.2006.01.008
+191. Mercaldi CJ, Lanes SF (2013) Ultrasound guidance decreases complications and
+improves the cost of care among patients undergoing thoracentesis and
+paracentesis. Chest 143:532–538. doi: 10.1378/chest.12-0447
+192. Messerer M, Berhouma M, Messerer R, Dubourg J (2013) [Interest of optic nerve
+sheath diameter ultrasonography in dectecting non-invasively raised intracranial
+pressure]. Neurochirurgie 59:55–59. doi: 10.1016/j.neuchi.2013.02.001
+193. Moak JH, Lyons MS, Lindsell CJ (2012) Bedside renal ultrasound in the
+evaluation of suspected ureterolithiasis. Am J Emerg Med 30:218–221. doi:
+10.1016/j.ajem.2010.11.024
+194. Mofidi M, Mohammadi M, Saidi H, Kianmehr N, Ghasemi A, Hafezimoghadam
+P, Rezai M (2013) Ultrasound guided lumbar puncture in emergency department:
+Time saving and less complications. J Res Med Sci 18:303–307.
+195. Mohammadi A, Ghasemi-Rad M, Khodabakhsh M (2011) Non-opaque soft tissue
+foreign body: sonographic findings. BMC Medical Imaging 11:9. doi:
+10.1186/1471-2342-11-9
+ECMU niveau 1 - Version longue (v6) 08/05/2016 44
+196. Monsieurs KG, Bossaert LL, Greif R, Maconochie IK, Nikolaou NI, Truhlar A,
+Zideman DA, Khalifa GEA, Alfonzo A, Arntz H-R, Askitopoulou H, Bellou A,
+Beygui F, Biarent D, Bingham R, Bierens JJLM, Böttiger BW, Bossaert LL,
+Brattebø G, Brugger H, Bruinenberg J, Cariou A, Carli P, Cassan P, Castrèn M,
+Chalkias AF, Conaghan P, Deakin CD, De Buck EDJ, Dunning J, De Vries W,
+Evans TR, Eich C, Gräsner J-T, Greif R, Hafner CM, Handley AJ, Haywood KL,
+Hunyadi-Antičević S, Koster RW, Lippert A, Lockey DJ, Lockey AS, López-
+Herce J, Lott C, Maconochie IK, Mentzelopoulos SD, Meyran D, Monsieurs KG,
+Nikolaou NI, Nolan JP, Olasveengen T, Paal P, Pellis T, Perkins GD, Rajka T,
+Raffay VI, Ristagno G, Rodríguez-Núñez A, Roehr CC, Rüdiger M, Sandroni C,
+Schunder-Tatzber S, Singletary EM, Skrifvars MB, Smith GB, Smyth MA, Soar
+J, Thies K-C, Trevisanuto D, Vandekerckhove PG, Van de Voorde P, Sunde K,
+Urlesberger B, Wenzel V, Wyllie J, Xanthos TT, Zideman DA, De
+BuckJoelDunningWiebeDe VriesThomas R EvansChristophEichJan-
+ThorstenGräsnerRobertGreifChristina M HafnerAnthony J HandleyKirstie L
+HaywoodSilvijaHunyadi-AntičevićRudolph W KosterAnneLippertDavid J
+LockeyAndrew S LockeyJesúsLópez-HerceCarstenLottIan K MaconochieSpyros
+D MentzelopoulosDanielMeyranKoenraad G MonsieursNikolaos I NikolaouJerry
+P NolanTheresaOlasveengenPeterPaalTommasoPellisGavin D
+PerkinsThomasRajkaVioletta I RaffayGiuseppeRistagnoAntonioRodríguez-
+NúñezCharles ChristophRoehrMarioRüdigerClaudioSandroniSusanneSchunder-
+TatzberEunice M SingletaryMarkus B SkrifvarsGary B SmithMichael A
+SmythJasmeetSoarKarl-
+ChristianThiesDanieleTrevisanutoAnatolijTruhlářPhilippe G
+VandekerckhovePatrick Vande
+VoordeKjetilSundeBerndtUrlesbergerVolkerWenzelJonathanWyllieTheodoros T
+XanthosDavid A Zideman OBOTEG2WGEA-RJLMBWBLBFCDDDJ (2015)
+European Resuscitation Council Guidelines for Resuscitation 2015: Section 1.
+Executive summary. Resuscitation 95:1–80. doi:
+10.1016/j.resuscitation.2015.07.038
+197. Moore CL, Rose GA, Tayal VS (2002) Determination of left ventricular function
+by emergency physician echocardiography of hypotensive patients. Acad Emerg
+Med 9:186–193. doi: 10.1197/aemj.9.3.186
+198. Moretti R, Pizzi B (2011) Ultrasonography of the optic nerve in neurocritically ill
+patients. Acta Anaesthesiol Scand 55:644–652. doi: 10.1111/j.1399-
+6576.2011.02432.x
+199. Nagdev A, Mantuani D (2013) A novel in-plane technique for ultrasound-guided
+pericardiocentesis. Am J Emerg Med 31:1424.e5–9. doi:
+10.1016/j.ajem.2013.05.021
+200. Nagdev AD, Merchant RC, Tirado-Gonzalez A, Sisson CA, Murphy MC (2010)
+Emergency department bedside ultrasonographic measurement of the caval index
+for noninvasive determination of low central venous pressure. Ann Emerg Med
+55:290–295. doi: 10.1016/j.annemergmed.2009.04.021
+201. National Institute for Clinical Excellence… (2002) Guidance on the use of
+ultrasound locating devices for placing central venous catheters.
+ECMU niveau 1 - Version longue (v6) 08/05/2016 45
+202. Nazeer SR, Dewbre H, Miller AH (2005) Ultrasound-assisted paracentesis
+performed by emergency physicians vs the traditional technique: a prospective,
+randomized study. Am J Emerg Med 23:363–367. doi:
+10.1016/j.ajem.2004.11.001
+203. Neilson D, Hollman AS (1994) The ultrasonic diagnosis of infantile hypertrophic
+pyloric stenosis: technique and accuracy. Clinical Radiology 49:246–247.
+204. Nelson BP, Sanghvi A (2013) Point-of-Care Cardiac Ultrasound: Feasibility of
+Performance by Noncardiologists. Glob Heart 8:293–297. doi:
+10.1016/j.gheart.2013.12.001
+205. Nelson CP, Johnson EK, Logvinenko T, Chow JS (2014) Ultrasound as a
+screening test for genitourinary anomalies in children with UTI. Pediatrics
+133:e394–403. doi: 10.1542/peds.2013-2109
+206. Neri E, Barbi E, Rabach I, Zanchi C, Norbedo S, Ronfani L, Guastalla V, Ventura
+A, Guastalla P (2014) Diagnostic accuracy of ultrasonography for hand bony
+fractures in paediatric patients. Arch Dis Child 99:1087–1090. doi:
+10.1136/archdischild-2013-305678
+207. Neri L, Storti E, Lichtenstein D (2007) Toward an ultrasound curriculum for
+critical care medicine. Crit Care Med 35:S290–S304. doi:
+10.1097/01.CCM.0000260680.16213.26
+208. Ng C, Tsung JW (2014) Point-of-care ultrasound for assisting in needle aspiration
+of spontaneous pneumothorax in the pediatric ED: a case series. Am J Emerg
+Med 32:488.e3–8. doi: 10.1016/j.ajem.2013.11.011
+209. Nienaber A, Harvey M, Cave G (2010) Accuracy of bedside ultrasound for the
+detection of soft tissue foreign bodies by emergency doctors. Emerg Med
+Australas 22:30–34. doi: 10.1111/j.1742-6723.2009.01255.x
+210. Niendorff DF, Rassias AJ, Palac R, Beach ML, Costa S, Greenberg M (2005)
+Rapid cardiac ultrasound of inpatients suffering PEA arrest performed by
+nonexpert sonographers. Resuscitation 67:81–87. doi:
+10.1016/j.resuscitation.2005.04.007
+211. Noble VE, Nelson B, Sutingco AN (2009) Manuel d“échographie en réanimation
+et service d”urgence.
+212. Oakley E, Wong A-M (2010) Ultrasound-assisted peripheral vascular access in a
+paediatric ED. Emerg Med Australas 22:166–170. doi: 10.1111/j.1742-
+6723.2010.01281.x
+213. Oner B, Karam AR, Surapaneni P (2012) Pneumothorax Following Ultrasound-
+Guided Jugular Vein Puncture for Central Venous Access in Interventional
+Radiology 4 Years of Experience. Journal of intensive care … 27:370–372. doi:
+10.1177/0885066611415494
+214. Parato VM, Mehta A, Delfino D, Amabili S, Partemi M, Grossi P, Nardini E
+(2010) Resting echocardiography for the early detection of acute coronary
+ECMU niveau 1 - Version longue (v6) 08/05/2016 46
+syndromes in chest pain unit patients. Echocardiography 27:597–602. doi:
+10.1111/j.1540-8175.2010.01166.x
+215. Park Y-W, Kim M-J, Han SW, Kim DW, Lee M-J (2015) Meaning of ureter
+dilatation during ultrasonography in infants for evaluating vesicoureteral reflux.
+Eur J Radiol 84:307–311. doi: 10.1016/j.ejrad.2014.11.013
+216. Paugam-Burtz C, Petrovic T, Hamada S, La Coussaye De J-E (2010)
+Traumatisme abdominopelvien. In: Société Française de Médecine d'Urgence
+(ed) Urgences vitales traumatiques. SFEM éditions, Paris, pp 223–247
+217. Paziana K, Fields JM, Rotte M, Au A, Ku B (2012) Soft tissue foreign body
+removal technique using portable ultrasonography. Wilderness Environ Med
+23:343–348. doi: 10.1016/j.wem.2012.04.006
+218. Perera P, Mailhot T, Riley D, Mandavia D (2012) The RUSH exam 2012: rapid
+ultrasound in shock in the evaluation of the critically ill patient. Ultrasound
+Clinics 7:255–278. doi: 10.1016/j.cult.2011.12.010
+219. Peters C, Schwarz SKW, Yarnold CH, Kojic K, Kojic S, Head SJ (2014)
+Ultrasound guidance versus direct palpation for radial artery catheterization by
+expert operators: a randomized trial among Canadian cardiac anesthesiologists.
+Can J Anesth/J Can Anesth 62:1161–1168. doi: 10.1007/s12630-015-0426-8
+220. Peterson MA, Pisupati D, Heyming TW, Abele JA, Lewis RJ (2014) Ultrasound
+for routine lumbar puncture. Acad Emerg Med 21:130–136. doi:
+10.1111/acem.12305
+221. Petrovic T, Hélenon O, Tazarourte K, Hinglais E, Pès P, Lapostolle F (2011)
+Échographie de l’urgentiste In: Actualités en Médecine d’Urgence, L’imagerie et
+l’urgence. Journées Scientifiques de la SFMU, Vittel, pp 97–136
+222. Picano E, Frassi F, Agricola E, Gligorova S, Gargani L, Mottola G (2006)
+Ultrasound lung comets: a clinically useful sign of extravascular lung water. J Am
+Soc Echocardiogr 19:356–363. doi: 10.1016/j.echo.2005.05.019
+223. Poley RA, Newbigging JL, Sivilotti MLA (2014) Estimated effect of an
+integrated approach to suspected deep venous thrombosis using limited-
+compression ultrasound. Acad Emerg Med 21:971–980. doi: 10.1111/acem.12459
+224. Ponrouch M, Bouic N, Bringuier S, Biboulet P, Choquet O, Kassim M, Bernard
+N, Capdevila X (2010) Estimation and pharmacodynamic consequences of the
+minimum effective anesthetic volumes for median and ulnar nerve blocks: a
+randomized, double-blind, controlled comparison between ultrasound and nerve
+stimulation guidance. Anesth Analg 111:1059–1064. doi:
+10.1213/ANE.0b013e3181eb6372
+225. Powell J, Wilson JA (2012) An evidence-based review of peritonsillar abscess.
+Clin Otolaryngol 37:136–145. doi: 10.1111/j.1749-4486.2012.02452.x
+226. Prekker ME, Scott NL, Hart D, Sprenkle MD, Leatherman JW (2013) Point-of-
+care ultrasound to estimate central venous pressure: a comparison of three
+ECMU niveau 1 - Version longue (v6) 08/05/2016 47
+techniques. Crit Care Med 41:833–841. doi: 10.1097/CCM.0b013e31827466b7
+227. Price S, Uddin S, Quinn T (2010) Echocardiography in cardiac arrest. Curr Opin
+Crit Care 16:211–215. doi: 10.1097/MCC.0b013e3283399d4c
+228. Price S, Via G, Sloth E, Guarracino F, Breitkreutz R, Catena E, Talmor D, World
+Interactive Network Focused On Critical UltraSound ECHO-ICU Group (2008)
+Echocardiography practice, training and accreditation in the intensive care:
+document for the World Interactive Network Focused on Critical Ultrasound
+(WINFOCUS). Cardiovasc Ultrasound 6:49. doi: 10.1186/1476-7120-6-49
+229. Querellou E, Leyral J, Brun C, Levy D, Bessereau J, Meyran D, Le Dreff P
+(2009) [In and out-of-hospital cardiac arrest and echography: a review]. Ann Fr
+Anesth Reanim 28:769–778. doi: 10.1016/j.annfar.2009.06.020
+230. Quéré I, Galanaud JP, Becker F, Laroche JP, Righini M, Lévesque H (2008)
+[Distal deep-venous thrombosis: diagnostic and therapeutic issues]. Rev Med
+Interne 29:491–497. doi: 10.1016/j.revmed.2008.02.017
+231. Raber M (2014) Transrectal ultrasound guidance for early transurethral
+recatheterization after radical prostatectomy. J Ultrasound 17:203–206. doi:
+10.1007/s40477-014-0084-7
+232. Ract C, Le Moigno S, Bruder N, Vigué B (2007) Transcranial Doppler ultrasound
+goal-directed therapy for the early management of severe traumatic brain injury.
+Intensive Care Med 33:645–651. doi: 10.1007/s00134-007-0558-6
+233. Randazzo MR, Snoey ER, Levitt MA (2003) Accuracy of emergency physician
+assessment of left ventricular ejection fraction and central venous pressure using
+echocardiography. Acad Emerg Med 10:973–977. doi: 10.1197/S1069-
+6563(03)00317-8
+234. Razi R, Estrada JR, Doll J, Spencer KT (2011) Bedside hand-carried ultrasound
+by internal medicine residents versus traditional clinical assessment for the
+identification of systolic dysfunction in patients admitted with decompensated
+heart failure. J Am Soc Echocardiogr 24:1319–1324. doi:
+10.1016/j.echo.2011.07.013
+235. Riera A, Hsiao AL, Langhan ML, Goodman TR, Chen L (2012) Diagnosis of
+intussusception by physician novice sonographers in the emergency department.
+Ann Emerg Med 60:264–268. doi: 10.1016/j.annemergmed.2012.02.007
+236. Rippey JCR, Royse AG (2009) Ultrasound in trauma. Best Practice & Research
+Clinical Anaesthesiology 23:343–362. doi: 10.1016/j.bpa.2009.02.011
+237. ROCCO M, CARBONE I, MORELLI A, BERTOLETTI L, ROSSI S, VITALE
+M, MONTINI L, PASSARIELLO R, PIETROPAOLI P (2008) Diagnostic
+accuracy of bedside ultrasonography in the ICU: feasibility of detecting
+pulmonary effusion and lung contusion in patients on respiratory support after
+severe blunt thoracic trauma. Acta Anaesthesiol Scand 52:776–784. doi:
+10.1111/j.1399-6576.2008.01647.x
+ECMU niveau 1 - Version longue (v6) 08/05/2016 48
+238. Roch A, Bojan M, Michelet P, Romain F, Bregeon F, Papazian L, Auffray J-P
+(2005) Usefulness of ultrasonography in predicting pleural effusions > 500 mL in
+patients receiving mechanical ventilation. Chest 127:224–232. doi:
+10.1378/chest.127.1.224
+239. Rodgerson JD, Heegaard WG, Plummer D, Hicks J, Clinton J, Sterner S (2001)
+Emergency department right upper quadrant ultrasound is associated with a
+reduced time to diagnosis and treatment of ruptured ectopic pregnancies. Acad
+Emerg Med 8:331–336.
+240. Rose JS, Bair AE, Mandavia D, Kinser DJ (2001) The UHP ultrasound protocol:
+a novel ultrasound approach to the empiric evaluation of the undifferentiated
+hypotensive patient. American Journal of Emergency Medicine 19:299–302. doi:
+10.1053/ajem.2001.24481
+241. Rosen CL, Brown DF, Chang Y, Moore C, Averill NJ, Arkoff LJ, McCabe CJ,
+Wolfe RE (2001) Ultrasonography by emergency physicians in patients with
+suspected cholecystitis. American Journal of Emergency Medicine 19:32–36. doi:
+10.1053/ajem.2001.20028
+242. Ross M, Brown M, McLaughlin K, Atkinson P, Thompson J, Powelson S, Clark
+S, Lang E (2011) Emergency physician-performed ultrasound to diagnose
+cholelithiasis: a systematic review. Acad Emerg Med 18:227–235. doi:
+10.1111/j.1553-2712.2011.01012.x
+243. Rowan KR, Kirkpatrick AW, Liu D, Forkheim KE, Mayo JR, Nicolaou S (2002)
+Traumatic pneumothorax detection with thoracic US: correlation with chest
+radiography and CT--initial experience. Radiology 225:210–214. doi:
+10.1148/radiol.2251011102
+244. Royall NA, Farrin E, Bahner DP, Stawicki SP (2011) Ultrasound-assisted
+musculoskeletal procedures: A practical overview of current literature. World J
+Orthop 2:57–66. doi: 10.5312/wjo.v2.i7
+245. Rozycki GS, Feliciano DV, Schmidt JA, Cushman JG, Sisley AC, Ingram W,
+Ansley JD (1996) The role of surgeon-performed ultrasound in patients with
+possible cardiac wounds. Ann Surg 223:737–44– discussion 744–6.
+246. Rubano E, Mehta N, Caputo W, Paladino L, Sinert R (2013) Systematic review:
+emergency department bedside ultrasonography for diagnosing suspected
+abdominal aortic aneurysm. Acad Emerg Med 20:128–138. doi:
+10.1111/acem.12080
+247. Safran O, Goldman V, Applbaum Y, Milgrom C, Bloom R, Peyser A, Kisselgoff
+D (2009) Posttraumatic painful hip: sonography as a screening test for occult hip
+fractures. J Ultrasound Med 28:1447–1452.
+248. Schlager D, Lazzareschi G, Whitten D, Sanders AB (1994) A prospective study of
+ultrasonography in the ED by emergency physicians. American Journal of
+Emergency Medicine 12:185–189.
+249. Schnadower D, Lin S, Perera P, Smerling A, Dayan P (2007) A pilot study of
+ECMU niveau 1 - Version longue (v6) 08/05/2016 49
+ultrasound analysis before pediatric peripheral vein cannulation attempt. Acad
+Emerg Med 14:483–485. doi: 10.1197/j.aem.2006.12.016
+250. Schonberger RB, Lampert RJ, Mandel EI, Feinleib J, Gong Z, Honiden S (2014)
+Handheld Doppler to Improve Pulse Checks during Resuscitation of Putative
+Pulseless Electrical Activity Arrest. Anesthesiology 120:1042–1045. doi:
+10.1097/ALN.0000000000000106
+251. Sefidbakht S, Assadsangabi R, Abbasi HR, Nabavizadeh A (2007) Sonographic
+measurement of the inferior vena cava as a predictor of shock in trauma patients.
+Emerg Radiol 14:181–185. doi: 10.1007/s10140-007-0602-4
+252. Shaikh F, Brzezinski J, Alexander S, Arzola C, Carvalho JCA, Beyene J, Sung L
+(2013) Ultrasound imaging for lumbar punctures and epidural catheterisations:
+systematic review and meta-analysis. BMJ 346:f1720. doi: 10.1136/bmj.f1720
+253. Shavit I, Eidelman M, Galbraith R (2006) Sonography of the hip-joint by the
+emergency physician: its role in the evaluation of children presenting with acute
+limp. Pediatr Emerg Care 22:570–573. doi:
+10.1097/01.pec.0000230705.51151.40
+254. Sheng AY, Dalziel P, Liteplo AS, Fagenholz P, Noble VE (2013) Focused
+Assessment with Sonography in Trauma and Abdominal Computed Tomography
+Utilization in Adult Trauma Patients: Trends over the Last Decade. Emergency
+Medicine International 2013:678380–7. doi: 10.1155/2013/678380
+255. Shih CH (1997) Effect of emergency physician-performed pelvic sonography on
+length of stay in the emergency department. Ann Emerg Med 29:348–51–
+discussion 352.
+256. Shiozawa S, Tsuchiya A, Kim DH, Usui T, Masuda T, Kubota K, Hosokawa T,
+Oishi T, Naritaka Y, Ogawa K (2005) Useful predictive factors of common bile
+duct stones prior to laparoscopic cholecystectomy for gallstones.
+Hepatogastroenterology 52:1662–1665.
+257. Shrestha D, Sharma UK, Mohammad R, Dhoju D (2009) The role of
+ultrasonography in detection and localization of radiolucent foreign body in soft
+tissues of extremities. JNMA J Nepal Med Assoc 48:5–9.
+258. Sim S-S, Lien W-C, Chou H-C, Chong K-M, Liu S-H, Wang C-H, Chen S-Y, Hsu
+C-Y, Yen Z-S, Chang W-T, Huang C-H, Ma MH-M, Chen S-C (2012)
+Ultrasonographic lung sliding sign in confirming proper endotracheal intubation
+during emergency intubation. Resuscitation 83:307–312. doi:
+10.1016/j.resuscitation.2011.11.010
+259. Sivitz AB, Lam SHF, Ramirez-Schrempp D, Valente JH, Nagdev AD (2010)
+Effect of bedside ultrasound on management of pediatric soft-tissue infection. J
+Emerg Med 39:637–643. doi: 10.1016/j.jemermed.2009.05.013
+260. Sivitz AB, Tejani C, Cohen SG (2013) Evaluation of Hypertrophic Pyloric
+Stenosis by Pediatric Emergency Physician Sonography. Acad Emerg Med
+20:646–651. doi: 10.1111/acem.12163
+ECMU niveau 1 - Version longue (v6) 08/05/2016 50
+261. Smith-Bindman R, Aubin C, Bailitz J, Bengiamin RN, Camargo CA, Corbo J,
+Dean AJ, Goldstein RB, Griffey RT, Jay GD, Kang TL, Kriesel DR, Ma OJ,
+Mallin M, Manson W, Melnikow J, Miglioretti DL, Miller SK, Mills LD, Miner
+JR, Moghadassi M, Noble VE, Press GM, Stoller ML, Valencia VE, Wang J,
+Wang RC, Cummings SR (2014) Ultrasonography versus computed tomography
+for suspected nephrolithiasis. N Engl J Med 371:1100–1110. doi:
+10.1056/NEJMoa1404446
+262. Soar J, Nolan JP, Böttiger BW, Perkins GD, Lott C, Carli P, Pellis T, Sandroni C,
+Skrifvars MB, Smith GB, Sunde K, Deakin CD, Adult advanced life support
+section Collaborators (2015) European Resuscitation Council Guidelines for
+Resuscitation 2015: Section 3. Adult advanced life support. Resuscitation
+95:100–147. doi: 10.1016/j.resuscitation.2015.07.016
+263. Sobczyk D, Nycz K, Andruszkiewicz P (2015) Validity of a 5-minute focused
+echocardiography with A-F mnemonic performed by non-echocardiographers in
+the management of patients with acute chest pain. Cardiovasc Ultrasound 13:16.
+doi: 10.1186/s12947-015-0010-y
+264. Société d'Imagerie Ultrasonore, Société Françcaise de Radiologie, Société
+d'Imagerie Génito-Urinaire (2009) Recommandations d’hygiène lors des
+examens échographiques. sfrnetorg 1–4.
+265. Société Française d'Anesthésie et de Réanimation (2003) Recommandations
+pour la pratique clinique. Les blocs périphériques des membres chez l'adulte
+. 1–27.
+266. Société Française de Médecine d'Urgence (2015) Urgences vasculaires.
+Lavoisier-médecine sciences, Paris
+267. Sofia S (2013) Bedside US imaging in multiple trauma patients. Part 1: US
+findings and techniques. J Ultrasound 16:147–159. doi: 10.1007/s40477-013-
+0047-4
+268. Soldati G, Testa A, Sher S, Pignataro G, La Sala M, Silveri NG (2008) Occult
+traumatic pneumothorax: diagnostic accuracy of lung ultrasonography in the
+emergency department. Chest 133:204–211. doi: 10.1378/chest.07-1595
+269. Soudack M, Nachtigal A, Gaitini D (2003) Clinically unsuspected foreign bodies:
+the importance of sonography. J Ultrasound Med 22:1381–1385.
+270. Stengel D, Bauwens K, Rademacher G, Ekkernkamp A, Güthoff C (2013)
+Emergency ultrasound-based algorithms for diagnosing blunt abdominal trauma.
+Cochrane Database Syst Rev 7:CD004446. doi:
+10.1002/14651858.CD004446.pub3
+271. Stengel D, Rademacher G, Ekkernkamp A, Güthoff C, Mutze S (2015)
+Emergency ultrasound-based algorithms for diagnosing blunt abdominal trauma.
+Cochrane Database Syst Rev 9:CD004446. doi:
+10.1002/14651858.CD004446.pub4
+ECMU niveau 1 - Version longue (v6) 08/05/2016 51
+272. Stiffler KA, Jwayyed S, Wilber ST, Robinson A (2007) The use of ultrasound to
+identify pertinent landmarks for lumbar puncture. American Journal of
+Emergency Medicine 25:331–334. doi: 10.1016/j.ajem.2006.07.010
+273. Stolz LA, Stolz U, Howe C, Farrell IJ, Adhikari S (2015) Ultrasound-guided
+peripheral venous access: a meta-analysis and systematic review. J Vasc Access
+16:321–326. doi: 10.5301/jva.5000346
+274. Strasberg SM (2008) Clinical practice. Acute calculous cholecystitis. N Engl J
+Med 358:2804–2811. doi: 10.1056/NEJMcp0800929
+275. Strony R (2010) Ultrasound-assisted lumbar puncture in obese patients. Crit Care
+Clin 26:661–664. doi: 10.1016/j.ccc.2010.07.002
+276. Subcommittee on Urinary Tract Infection, Steering Committee on Quality
+Improvement and Management, Roberts KB (2011) Urinary tract infection:
+clinical practice guideline for the diagnosis and management of the initial UTI in
+febrile infants and children 2 to 24 months. Pediatrics 128:595–610. doi:
+10.1542/peds.2011-1330
+277. Summers SM, Scruggs W, Menchine MD, Lahham S, Anderson C, Amr O,
+Lotfipour S, Cusick SS, Fox JC (2010) A prospective evaluation of emergency
+department bedside ultrasonography for the detection of acute cholecystitis. Ann
+Emerg Med 56:114–122. doi: 10.1016/j.annemergmed.2010.01.014
+278. Sutter ME, Turnipseed SD, Diercks DB, Samuel P, White RH (2009) Venous
+ultrasound testing for suspected thrombosis: incidence of significant non-
+thrombotic findings. J Emerg Med 36:55–59. doi:
+10.1016/j.jemermed.2007.08.066
+279. Swaminathan A, Hom J (2014) Does ultrasonographic imaging reduce the risk of
+failed lumbar puncture? Ann Emerg Med 63:33–34. doi:
+10.1016/j.annemergmed.2013.04.019
+280. Takeshita J, Nakayama Y, Nakajima Y, Sessler DI, Ogawa S, Sawa T, Mizobe T
+(2015) Optimal site for ultrasound-guided venous catheterisation in paediatric
+patients: an observational study to investigate predictors for catheterisation
+success and a randomised controlled study to determine the most successful site.
+Crit Care 19:15. doi: 10.1186/s13054-014-0733-4
+281. Tang L, Wang F, Li Y, Zhao L, Xi H, Guo Z, Li X, Gao C, Wang J, Zhou L (2014)
+Ultrasound guidance for radial artery catheterization: an updated meta-analysis of
+randomized controlled trials. PLoS ONE 9:e111527. doi:
+10.1371/journal.pone.0111527
+282. Tapson VF, Carroll BA, Davidson BL, Elliott CG, Fedullo PF, Hales CA, Hull
+RD, Hyers TM, Leeper KV, Morris TA, Moser KM, Raskob GE, Shure D,
+Sostman HD, Taylor Thompson B (1999) The diagnostic approach to acute
+venous thromboembolism. Clinical practice guideline. American Thoracic
+Society. Am J Respir Crit Care Med 160:1043–1066. doi:
+10.1164/ajrccm.160.3.16030
+ECMU niveau 1 - Version longue (v6) 08/05/2016 52
+283. Tayal VS, Kline JA (2003) Emergency echocardiography to detect pericardial
+effusion in patients in PEA and near-PEA states. Resuscitation 59:315–318. doi:
+10.1016/S0300-9572(03)00245-4
+284. Tayal VS, Neulander M, Norton HJ, Foster T, Saunders T, Blaivas M (2007)
+Emergency department sonographic measurement of optic nerve sheath diameter
+to detect findings of increased intracranial pressure in adult head injury patients.
+Ann Emerg Med 49:508–514. doi: 10.1016/j.annemergmed.2006.06.040
+285. Tazarourte K, ATCHABAHIAN A, Tourtier JP, David JS, RACT C, Savary D,
+MONCHI M, Vigué B (2011) Pre-hospital transcranial Doppler in severe
+traumatic brain injury: a pilot study. Acta Anaesthesiol Scand 55:422–428. doi:
+10.1111/j.1399-6576.2010.02372.x
+286. Tse F, Barkun JS, Romagnuolo J, Friedman G, Bornstein JD, Barkun AN (2006)
+Nonoperative imaging techniques in suspected biliary tract obstruction. HPB
+(Oxford) 8:409–425. doi: 10.1080/13651820600746867
+287. Tsung JW, Blaivas M (2008) Emergency Department Diagnosis of Pediatric Hip
+Effusion and Guided Arthrocentesis Using Point-of-Care Ultrasound. J Emerg
+Med 35:393–399. doi: 10.1016/j.jemermed.2007.10.054
+288. Turner EE, Fox JC, Rosen M, Allen A, Rosen S, Anderson C (2015)
+Implementation and assessment of a curriculum for bedside ultrasound training. J
+Ultrasound Med 34:823–828. doi: 10.7863/ultra.34.5.823
+289. van Schuppen J, Olthof DC, Wilde JCH, Beenen LFM, van Rijn RR, Goslings JC
+(2014) Diagnostic accuracy of a step-up imaging strategy in pediatric patients
+with blunt abdominal trauma. Eur J Radiol 83:206–211. doi:
+10.1016/j.ejrad.2013.09.024
+290. Varghese JC, Liddell RP, Farrell MA, Murray FE, Osborne DH, Lee MJ (2000)
+Diagnostic accuracy of magnetic resonance cholangiopancreatography and
+ultrasound compared with direct cholangiography in the detection of
+choledocholithiasis. Clinical Radiology 55:25–35. doi: 10.1053/crad.1999.0319
+291. Vayre F, Lardoux H, Pezzano M, Bourdarias JP, Dubourg O (2000) Subxiphoid
+pericardiocentesis guided by contrast two-dimensional echocardiography in
+cardiac tamponade: experience of 110 consecutive patients. European Journal of
+Echocardiography 1:66–71. doi: 10.1053/euje.1999.0003
+292. Verschelden P, Filiatrault D, Garel L, Grignon A, Perreault G, Boisvert J, Dubois
+J (1992) Intussusception in children: reliability of US in diagnosis--a prospective
+study. Radiology 184:741–744. doi: 10.1148/radiology.184.3.1509059
+293. Vieira RL, Levy JA (2010) Bedside ultrasonography to identify hip effusions in
+pediatric patients. Ann Emerg Med 55:284–289. doi:
+10.1016/j.annemergmed.2009.06.527
+294. Vignon P, Chastagner C, Berkane V, Chardac E, François B, Normand S,
+Bonnivard M, Clavel M, Pichon N, Preux P-M, Maubon A, Gastinne H (2005)
+Quantitative assessment of pleural effusion in critically ill patients by means of
+ECMU niveau 1 - Version longue (v6) 08/05/2016 53
+ultrasonography. Crit Care Med 33:1757–1763. doi:
+10.1097/01.CCM.0000171532.02639.08
+295. Volpicelli G, Caramello V, Cardinale L, Cravino M (2008) Diagnosis of radio-
+occult pulmonary conditions by real-time chest ultrasonography in patients with
+pleuritic pain. Ultrasound Med Biol 34:1717–1723. doi:
+10.1016/j.ultrasmedbio.2008.04.006
+296. Volpicelli G, ElBarbary M, Blaivas M, Lichtenstein DA, Mathis G, Kirkpatrick
+AW, Melniker L, Gargani L, Noble VE, Via G, Dean A, Tsung JW, Soldati G,
+Copetti R, Bouhemad B, Reissig A, Agricola E, Rouby J-J, Arbelot C, Liteplo A,
+Sargsyan A, Silva F, Hoppmann R, Breitkreutz R, Seibel A, Neri L, Storti E,
+Petrovic T, International Liaison Committee on Lung Ultrasound (ILC-LUS) for
+International Consensus Conference on Lung Ultrasound (ICC-LUS) (2012)
+International evidence-based recommendations for point-of-care lung ultrasound.
+Intensive Care Med 38:577–591. doi: 10.1007/s00134-012-2513-4
+297. Volpicelli G, Lamorte A, Tullio M, Cardinale L, Giraudo M, Stefanone V, Boero
+E, Nazerian P, Pozzi R, Frascisco MF (2013) Point-of-care multiorgan
+ultrasonography for the evaluation of undifferentiated hypotension in the
+emergency department. Intensive Care Med 39:1290–1298. doi: 10.1007/s00134-
+013-2919-7
+298. Vrablik ME, Snead GR, Minnigan HJ, Kirschner JM, Emmett TW, Seupaul RA
+(2015) The diagnostic accuracy of bedside ocular ultrasonography for the
+diagnosis of retinal detachment: a systematic review and meta-analysis. Ann
+Emerg Med 65:199–203.e1. doi: 10.1016/j.annemergmed.2014.02.020
+299. Walcher F, Weinlich M, Conrad G, Schweigkofler U, Breitkreutz R, Kirschning
+T, Marzi I (2006) Prehospital ultrasound imaging improves management of
+abdominal trauma. Br J Surg 93:238–242. doi: 10.1002/bjs.5213
+300. Ward MJ, Sodickson A, Diercks DB, Raja AS (2011) Cost-effectiveness of lower
+extremity compression ultrasound in emergency department patients with a high
+risk of hemodynamically stable pulmonary embolism. Acad Emerg Med 18:22–
+31. doi: 10.1111/j.1553-2712.2010.00957.x
+301. Warkentine FH, Clyde Pierce M, Lorenz D, Kim IK (2008) The anatomic
+relationship of femoral vein to femoral artery in euvolemic pediatric patients by
+ultrasonography: implications for pediatric femoral central venous access. Acad
+Emerg Med 15:426–430. doi: 10.1111/j.1553-2712.2008.00087.x
+302. Watkins S, Bowra J, Sharma P, Holdgate A, Giles A, Campbell L (2007)
+Validation of emergency physician ultrasound in diagnosing hydronephrosis in
+ureteric colic. Emerg Med Australas 19:188–195. doi: 10.1111/j.1742-
+6723.2007.00925.x
+303. West JR, Shannon AW, Chilstrom ML (2015) What is the accuracy of emergency
+physician-performed ultrasonography for deep venous thrombosis? Ann Emerg
+Med 65:699–701. doi: 10.1016/j.annemergmed.2014.06.025
+304. White MC, Langer JC, Don S, DeBaun MR (1998) Sensitivity and cost
+ECMU niveau 1 - Version longue (v6) 08/05/2016 54
+minimization analysis of radiology versus olive palpation for the diagnosis of
+hypertrophic pyloric stenosis. J Pediatr Surg 33:913–917.
+305. Witt M, Baumann BM, McCans K (2005) Bladder ultrasound increases
+catheterization success in pediatric patients. Acad Emerg Med 12:371–374. doi:
+10.1197/j.aem.2004.11.023
+306. Wu TS, Dameff CJ, Tully JL (2014) Ultrasound-guided central venous access
+using Google Glass. J Emerg Med 47:668–675. doi:
+10.1016/j.jemermed.2014.07.045
+307. Yang PC, Luh KT, Chang DB, Yu CJ, Kuo SH, Wu HD (1992) Ultrasonographic
+evaluation of pulmonary consolidation. Am Rev Respir Dis 146:757–762. doi:
+10.1164/ajrccm/146.3.757
+308. Zamzam MM (2006) The role of ultrasound in differentiating septic arthritis from
+transient synovitis of the hip in children. J Pediatr Orthop B 15:418–422. doi:
+10.1097/01.bpb.0000228388.32184.7f
+309. Zhang M, Liu Z-H, Yang J-X, Gan J-X, Xu S-W, You X-D, Jiang G-Y (2006)
+Rapid detection of pneumothorax by ultrasonography in patients with multiple
+trauma. Crit Care 10:R112. doi: 10.1186/cc5004
+310. Zuazo I, Bonnefoy O, Tauzin C, Borocco A, Lippa A, Legrand M, Chateil J-F
+(2008) Acute elbow trauma in children: role of ultrasonography. Pediatr Radiol
+38:982–988. doi: 10.1007/s00247-008-0935-5
+311. (2009) Abdominal and Cardiac Evaluation with Sonography in Shock (ACES):
+an approach by emergency physicians for the use of ultrasound in patients with
+undifferentiated hypotension. Emergency Medicine Journal 26:87–91. doi:
+10.1136/emj.2007.056242
+ECMU niveau 1 - Version longue (v6) 08/05/2016 55
+

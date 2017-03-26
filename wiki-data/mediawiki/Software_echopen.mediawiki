@@ -1,0 +1,11 @@
+# Software echopen
+
+Le développement du software est disponible et ouvert à participation sur le [https://github.com/echopenorg/project github echopen]. Dans le wiki, sont référencées les images et les formats de data correspondant aux data brutes dont ces images seront déduites à la sortie du signal hardware. 
+
+[:File:Image_kydney.png]
+[[:File:image_obs.png]]
+
+
+== Ressources ==
+* [http://www-sop.inria.fr/asclepios/software/MedINRIA/ MedInria]
+* [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2442597/ OSPACS: Ultrasound image management system]

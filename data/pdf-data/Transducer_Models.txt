@@ -1,0 +1,832 @@
+Transducer Modeling
+Learning Objectives
+Two port and three port transducer models
+Sittig model
+Mason model
+KLM Model
+Acoustic radiation impedance
+Transducer sensitivity, impedance
+The sound generation process
+Transducer model - fields
+Reciprocity :
+( ) ( ) ( ) ( ) ( ) ( ) ( ) ( )
+( )
+2 1 1 2 2 1 1 2
+S
+V I V I p p dS
+− = − ⋅
+∫ v v n
+Consider a P-wave
+immersion
+transducer:
+pressure,
+velocity fields
+p, v
+V
+I
+n
+S
+voltage
+current
+compressive force
+velocity, v(x,ω)
+( ) ( )
+( ) ( )
+,
+,
+S
+v
+F p dS
+ω ω
+ω ω
+=
+= ∫
+v x n
+x
+Transducer model- ‘lumped’ parameters
+so reciprocity becomes:
+( ) ( ) ( ) ( ) ( ) ( ) ( ) ( )
+2 1 1 2 2 1 1 2
+V I V I F v F v
+− = −
+For
+piston
+behavior
+( ) ( ) ( ) ( )
+, ,
+p dS F v
+ω ω ω ω
+⋅ =
+∫ x v x n
+V
+I
+F
+v
+pressure, p(x,ω)
+[TA]
+V
+I
+F
+v
+Transducer model - transfer matrix
+V
+I
+⎧
+⎨
+⎩
+⎫
+⎬
+⎭
+=
+T11
+A
+T12
+A
+T21
+A
+T22
+A
+⎡
+⎣
+⎢
+⎤
+⎦
+⎥
+F
+v
+⎧
+⎨
+⎩
+⎫
+⎬
+⎭
+, det T
+A
+[ ]= 1
+2-Port Transducer Model
+From reciprocity
+force
+V
+I
+F
+v velocity
+A
+I
+[TA]
+V F
+v
+Transducer model - transfer matrix
+Sittig model: T A
+[ ]= Te
+A
+[ ]Ta
+A
+[ ]
+Te
+A
+[ ]=
+1 / n n / iωCo
+−iωCo 0
+⎡
+⎣
+⎢
+⎤
+⎦
+⎥
+Ta
+A
+[ ]=
+1
+Zb
+a
+− iZ0
+a
+tan kd / 2
+( )
+Zb
+a
++ iZ0
+a
+cot kd
+( ) Z0
+a
+( )
+2
++ iZ0
+a
+Zb
+a
+cot kd
+( )
+1 Zb
+a
+− 2iZ0
+a
+tan kd / 2
+( )
+⎡
+⎣
+⎢
+⎢
+⎤
+⎦
+⎥
+⎥
+Transducer model - transfer matrix
+0
+0 33
+33
+33 0
+33
+0
+33
+0 0
+/
+/
+/
+,
+D
+p
+D
+p
+S
+ss
+D
+a
+p
+a
+b
+k v
+v c
+c
+n h C
+h
+C S d
+S d
+Z v S
+Z
+ω
+ρ
+ρ
+β
+β
+ρ
+=
+=
+=
+=
+=
+wave number of piezoelectric plate
+wave speed of the plate, defined in terms of:
+plate elastic constant at constant flux density
+plate density
+constant, defined in terms of:
+plate stiffness
+clamped capacitance, defined in terms of:
+plate area, thickness
+plate dielectric impermeability at constant
+strain
+plate acoustic impedance
+backing acoustic impedance
+Transducer - three port model
+I
+V
+F2 , v2
+F1 , v1
+transducer crystal
+Plating
+(thickness neglected)
+F
+1
+F2
+V
+⎧
+⎨
+⎪
+⎩
+⎪
+⎫
+⎬
+⎪
+⎭
+⎪
+= i
+Z0
+a
+cot kl
+( ) Z0
+a
+/ sin kl
+( ) h33 / ω
+Z0
+a
+/ sin kl
+( ) Z0
+a
+cot kl
+( ) h33 / ω
+h33 / ω h33 / ω 1/ ωC0
+⎡
+⎣
+⎢
+⎢
+⎢
+⎤
+⎦
+⎥
+⎥
+⎥
+v1
+v2
+I
+⎧
+⎨
+⎪
+⎩
+⎪
+⎫
+⎬
+⎪
+⎭
+⎪
+V
+I
+F2
+v2
+F1
+v1
+3x3 impedance matrix
+Transducer - Mason equivalent circuit
+v1 v2
+V
+I
+F1
+F2
+1: n
+C0
+- C0
+iZ0 /sin(kl)
+a
+- iZ0 tan(kl/2)
+a
+- iZ0 tan(kl/2)
+a
+Transducer - KLM equivalent circuit model
+1 : φ
+- i X
+C0
+V
+I
+F1
+v1
+F2
+v2
+l/2 l/2
+Z0
+Z0
+a a
+φ =
+2M sin(kl/2)
+1
+X = Z0 M2 sin(kl)
+a
+M = h33 / (ωZ0 )
+a
+Sittig model with crystal facing layers
+Backing (Zb )
+a
+crystal
+facing layers
+(epoxy bonding, wear plate, etc.)
+Acoustic layer: F1
+v1
+F2
+v2
+[Tl]
+Commercial transducer:
+[TA] = [TA] [TA] [Tl] ...
+F
+1
+v1
+⎧
+⎨
+⎩
+⎫
+⎬
+⎭
+=
+cos kala
+( ) −iZ0
+a
+sin kala
+( )
+−isin kala
+( )/ Z0
+a
+cos kala
+( )
+⎡
+⎣
+⎢
+⎤
+⎦
+⎥
+F2
+v2
+⎧
+⎨
+⎩
+⎫
+⎬
+⎭
+e a
+[TA]
+V
+I
+Ft
+v
+Transducer – radiation into a fluid
+At the acoustic port the force and velocity parameters
+are not independent. We can write ( ) ( ) ( )
+;
+A a
+t r
+F Z v
+ω ω ω
+=
+;
+A a
+r
+Z … acoustic radiation impedance (a "lumped"parameter
+that depends on the velocity and pressure distribution
+at the acoustic port, the port geometry, and the fluid properties)
+;
+A a
+r
+Z
+A
+Acoustic radiation impedance
+Rayleigh-Sommerfeld integral model of radiation of
+waves into a fluid by a piston transducer
+( )
+( ) ( )
+( )
+exp
+,
+2 S
+i v ikr
+p dS
+r
+r
+ω ρ ω
+ω
+π
+−
+=
+= −
+∫
+x y
+x y
+( )
+( )
+( )
+( )
+( ) ( )
+,
+exp
+2
+a s
+r
+S S
+p dS
+ikr
+i
+Z dS dS
+v r
+ω
+ωρ
+ω
+ω π
+⎧ ⎫
+−
+= = ⎨ ⎬
+⎩ ⎭
+∫
+∫ ∫
+x
+y x
+( )
+v ω
+x
+y
+ρ… fluid density
+c … fluid wave speed
+k = ω/c
+pressure
+Greenspan, 1979: showed that for a circular piston transducer
+of radius a the acoustic radiation impedance obtained from
+the Rayleigh-Sommerfeld model could be found explicitly in
+the form
+.
+J1 … Bessel function
+S1 … Struve function
+SA = πa2
+Acoustic radiation impedance
+( ) ( )
+;
+1 1
+/ 1 /
+A a
+r A
+Z cS J ka iS ka ka
+ρ = − −
+⎡ ⎤
+⎣ ⎦
+Acoustic radiation impedance
+>> ka=linspace(0, 25, 100);
+>> ka = ka + eps*( ka ==0);
+>> Z = 1 -(besselj(1,ka)-i*struve(ka))./ka;
+>> plot(ka, abs(Z))
+>> xlabel(' ka ')
+>> ylabel( ' V/\rhocS')
+>> ylabel( ' Z/\rhocS')
+0 5 10 15 20 25
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+1.1
+1.2
+;
+A a
+r
+A
+Z
+cS
+ρ
+ka
+Greenspan model of a circular piston transducer
+velocity
+F
+v
+Acoustic radiation impedance
+Most NDE transducers operate at high frequencies
+(ka >> 1). At such high frequencies if we can
+assume piston behavior, for any shaped transducer it
+can be shown that
+;
+A a
+r A
+Z cS
+ρ
+≅
+density, wave speed, area
+A
+function y = struve(z)
+num = length(z);
+y=zeros(1,num);
+for k = 1:num
+y(k) = quadl(@struve_arg, 0, 1, [ ],[ ], z(k));
+end
+function y = struve_arg(x, z)
+y = (4./pi).*z.*x.^2.*sin(z.*(1-x.^2)).*sqrt(2-x.^2);
+Acoustic radiation impedance
+( ) ( )
+( )
+1
+2 2
+1
+0
+1
+2 2 2
+0
+2
+1 sin 1
+4
+sin 1 2
+z
+H z t zt dt t x
+z
+x z x x dx
+π
+π
+= − = −
+⎡ ⎤
+= − −
+⎣ ⎦
+∫
+∫
+this uses
+Sensitivity, Impedance
+Vin
+Iin
+;
+A a
+r
+Z
+A
+T
+⎡ ⎤
+⎣ ⎦ t
+F
+t
+v
+;
+A a
+t r t
+F Z v
+=
+;
+; 11 12
+;
+21 22
+A a A A
+A e in r
+in A a A A
+in r
+V Z T T
+Z
+I Z T T
++
+= =
++
+in
+V
+in
+I
+the electrical characteristics of the transducer
+can be completely described by its input
+impedance:
+Iin
+Vin ( )
+;
+A e
+in
+Z ω
+A
+Sensitivity, Impedance
+in
+V
+in
+I
+The particular sensitivity we will use is:
+;
+21 22
+1
+A t
+vI A a A A
+in r
+v
+S
+I Z T T
+≡ =
++
+to describe the conversion of electrical signals
+into acoustic signals, we could use the
+transducer's sensitivity, SOI, where
+t
+v
+t
+F
+OI
+O
+S
+I
+=
+O … an output (force or velocity)
+I … an input (voltage or current)
+A
+Sensitivity, Impedance
+;
+A a
+t r t
+F Z v
+=
+All the other sensitivities can be found from this sensitivity
+if the transducer electrical impedance and acoustic radiation
+impedance are known:
+;
+;
+; ;
+/
+/
+A t
+vI
+in
+A A a A
+t
+FI r vI
+in
+A A A e
+t
+vV vI in
+in
+A A a A A e
+t
+FV r vI in
+in
+v
+S
+I
+F
+S Z S
+I
+v
+S S Z
+V
+F
+S Z S Z
+V
+=
+= =
+= =
+= =
+in
+V
+in
+I
+t
+F
+t
+v
+A
+;
+A e
+in
+Z
+in
+I
+in
+V
+A
+t vI in
+v S I
+=
+in
+V
+in
+I
+t
+v
+t
+F
+A
+Sensitivity, Impedance
+Thus, we can replace the transfer matrix model of the transducer
+by a model consisting of an electrical impedance and an ideal
+"converter" that is defined by the transducer sensitivity:
+;
+A a A
+t r vI in
+F Z S I
+=
+Entire Sound Generation Process
+( )
+t
+F ω
+transmitting
+transducer
+cable
+pulser
+( )
+i
+V ω
+output
+force
+( )
+i
+V ω ( )
+t
+F ω
+( )
+G
+t ω
+Thevenin
+input voltage
+A
+( )
+i
+V ω
+( )
+e
+i
+Z ω
+[ ]
+T ;
+A e
+in
+Z
+;
+A
+t vI in
+A a
+t r t
+v S I
+F Z v
+=
+=
+pulser
+cable
+transducer
+sound generation
+transfer function
+=
+=
+Entire Sound Generation Process
+( )
+t
+F ω
+transmitting
+transducer
+cable
+pulser
+( )
+i
+V ω
+output
+force
+Thevenin
+input voltage
+A
+( )
+i
+V ω ( )
+t
+F ω
+( )
+G
+t ω
+( )
+( )
+( ) ( ) ( )
+;
+; ;
+11 12 21 22
+A a A
+t r vI
+G A e A e e
+i in in i
+F Z S
+t
+V Z T T Z T T Z
+ω
+ω
+ω
+= =
++ + +
+sound generation
+transfer function
+References
+Ristic, V.M., Principles of Acoustic Devices, John Wiley, 1983
+Kino. G.S., Acoustic Waves - Devices, Imaging and Analog
+Signal Processing, Prentice-Hall, 1987.
+Auld, B.A., Acoustic Fields and Waves in Solids, 2nd Ed.,
+Vols. I and II, Krieger Publishing Co. , 1990.
+Sacshe, W., and N.N. Hsu,” Ultrasonic transducers for materials
+testing and their characterization,” in Physical Acoustics, Vol. XIV,
+Eds. W.P. Mason and R.N. Thurston, 277-406, 1979.
+Greeenspan, M., “Piston radiator: some extension of the theory,”
+J. Acoust. Soc. Am., 65, 608-621, 1979.
+

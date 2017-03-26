@@ -1,0 +1,440 @@
+iPhone
+Ultrasound
+Jonathan Adam
+Adam Keen
+Dean Santarinala
+Ultrasound Background
+•Ultrasound devices use a pulse-echo imaging technique with sound
+frequencies above human hearing limit
+•Piezoelectric transducer generates an ultrasonic pulse
+-Echoes occur as ultrasonic pulse passes between diﬀerent media
+-Timing of echo receptions yield distance to media interfaces
+•Axial resolution is inversely proportional to frequency
+-Medical ultrasound devices typically operate in the MHz range to
+achieve resolution of less than 1mm
+A-scan Biometry
+•A-scan biometry is a 1D ultrasound that measures axial lengths
+between components within the eye. Measurements are used to
+calculate the power of a lens to be implanted during cataract surgery.
+•Typical A-scan operating frequency is 10MHz
+-Average velocity of sound in eye = 1,500 m/s
+-Average eye length = 23.6 mm
+cornea : a
+Anterior Lens Capsule : b
+Posterior Lens Capsule : c
+Retina : d
+Sclera : e
+Project Objectives
+•Create a portable A-scan ultrasound device using an iOS device as the
+user interface and patient data repository
+•Achieve lower device cost by using a doctor’s existing hardware
+(iPhone, iPad, or iPod touch)
+•Demonstrate an improved user interface over existing devices
+•Simplify sharing of scan data between doctors and to patients
+Design Overview
+AFE
+Pulser
+FPGA
+T/R Switch
+Probe
+iPhone
+Power Electronics
+Power
+Control
+Data
+iPhone
+initiate, view, and stop scans
+manage patient records
+intuitive user interface
+iPhone
+Communication Protocol
+Ground
+Mic In
+Right Out
+Left Out
+iPhone
+Communication Protocol (Sending)
+FPGA
+Why an FPGA?
+10 MHz x 2.5 x 12bits/sample = 300 Mbps
+LVDS I/O Support
+FPGA
+Manchester
+Decoder
+Command
+Decoder
+Pulse
+Generator
+Fractional
+Clock Divider
+System
+Clock
+iPhone
+Commands
+3.3V 50ns
+Pulses
+HV Pulser
+MAX4940 High-Voltage Digital Pulser
+HV Pulser
+•Generates a high-voltage, high-frequency, unipolar pulse from a logic-
+level voltage pulse
+•Satisfies pulsing frequencies necessary for ultrasound applications
+•High-impedance output during non-pulse intervals to allow echoing
+pulses to drive the transmit/receive line
+•Will transmit a +30V, 50ns pulse every second while scanning
+•A 50ns pulse width corresponds to a unipolar 10MHz half-period
+Transducer Probe Physics
+•Ceramic crystal undergoes mechanical vibration when stimulated by
+electrical energy
+•Longitudinal ultrasound beam propagates through material
+•Pulses are partially reflected back at interfaces of diﬀerent material
+•Returning (echoed) mechanical vibrations transduce back into
+electrical signals sent to receiver
+•Damping material attached to back of crystal shortens pulse width and
+improves axial resolution
+Transducer Probe Physics
+Transducer Probe
+•DGH 6000 Scanmate A Transducer
+•Weakly Focused to ~23mm
+•10-12MHz Nominal Operating Frequency
+•Characteristic Impedance of 55 Ohms
+•Fixation LED to aid patient during procedure
+Transmit/Receive Switch
+TX810 T/R Switch
+Transmit/Receive Switch
+•Protects the amplifiers in receiver
+from high voltage pulses
+•Diode bridge & diode clamp limit
+output voltage when high input
+voltage Tx signals applied
+•Program bits control bias current for
+diﬀerent performance and power
+requirements
+Analog Front End (AFE)
+AFE5801 Analog Front End Chip
+Analog Front End (AFE)
+•Receives echoed voltage signal
+-amplifies the signal to compensate for attenuation in the eye over time
+-digitizes the data for the FPGA & iPhone to analyze
+•Variable Gain Amplifiers
+-Time Gain Control
+--5dB to 31dB gain digitally controlled
+-Gain vs Time curve stored in memory using Serial Peripheral Interface (SPI)
+•Analog to Digital data conversion
+-12bit, 25MSPS ADC
+-Low Voltage Diﬀerential Signaling (LVDS) output
+FPGA
+Serial
+Programmer
+EPCS16
+Altera Cyclone III
+EP3C10
+Abracon 30MHz
+Oscillator
+AS Header Pins I/O Pins
+LM311 Voltage
+Comparator
+Audio
+Communication
+Jack
+FPGA
+Frame Clock
+FCLK
+Freq = fCLKIN
+Input Clock
+CLKIN
+Freq = fCLKIN
+SAMPLE N – 1 SAMPLE
+N + 1
+Data Bit in MSB First Mode
+Data Bit in LSB First Mode
+Bit Clock
+DCLK
+Freq = 6 x fCLKIN
+Output Data
+ChnOUT
+Data rate = 12 x fCLKIN
+SAMPLE N
+tpdi
+Input Signal
+ta
+Sample N
+Sample
+N + 10
+Sample
+N + 11
+11 Clock Cycles Latency
+SAMPLE N – 11
+D1
+(D10)
+D0
+(D11)
+D11
+(D0)
+D10
+(D1)
+D9
+(D2)
+D8
+(D3)
+D7
+(D4)
+D6
+(D5)
+D5
+(D6)
+D4
+(D7)
+D3
+(D8)
+D2
+(D9)
+D1
+(D10)
+D0
+(D11)
+D11
+(D0)
+D10
+(D1)
+D9
+(D2)
+D8
+(D3)
+D7
+(D4)
+D6
+(D5)
+D5
+(D6)
+D4
+(D7)
+D2
+(D9)
+D3
+(D8)
+D1
+(D10)
+D0
+(D11)
+D11
+(D0)
+D10
+(D1)
+D9
+(D2)
+D8
+(D3)
+D7
+(D4)
+D6
+(D5)
+D5
+(D6)
+D4
+(D7)
+D3
+(D8)
+D2
+(D9)
+D1
+(D10)
+D0
+(D11)
+D11
+(D0)
+D10
+(D1)
+D13
+(D2)
+T
+T0434-01
+Bit Clock
+DCLKP
+Output Data Pair
+tsu
+CHi out
+th
+th tsu
+DCLKM
+Dn + 1
+Dn
+Low-Voltage Diﬀerential Signaling (LVDS)
+FPGA
+Data Acquisition/Output
+1. Detect initial spike with threshold
+2. Buﬀer window of samples (40us or 60mm)
+3. Downsample to 10MHz
+4. Decrease intensity resolution to 8 bits
+5. Read out buﬀer to iPhone serially
+iPhone
+Communication Protocol (Receiving)
+iPhone
+decode Manchester-encoded serial data
+view live echograms
+save scans to memory
+export scans via email or other application
+built in IOL calculator
+iPhone
+Intraocular Lens (IOL) Calculations
+threshold
+gates
+vphakic =
+1550 m/s
+vaphakic =
+1532 m/s
+vcornea,lens =
+1641 m/s
+ACD
+LT
+AXL
+iPhone
+SRK II Formula: P = A1-0.9K-2.5L
+Typical K = 43 diopters
+Typical L = 23.5 mm
+Intraocular Lens (IOL) Calculations
+A1 = A+3 for L<20
+A1 = A+2 for 20≤L<21
+A1 = A+1 for 21≤L<22
+A1 = A for 22≤L<24.5
+A1 = A-0.5 for 24.5<L
+Power Electronics
+Power Electronics
+Regulates nine diﬀerent voltage levels from a 9V battery
++30V: High-voltage supply for Transmit Pulser
+±10V: Output driver supply for Transmit Pulser
+±5V: Output supply for T/R Switch
++3.3V: Digital logic supply for all system components
++2.5V: PLL supply for FPGA
++1.8V: LVDS supply for AFE and FPGA
++1.2V: Internal logic supply for FPGA
+Power Electronics
+Power electronics design balances eﬃciency and area
+Over 2 hours of battery life
+TL497ACN +30V DC/DC
+boost converter
+KA78L10AZTA +10V
+fixed positive voltage
+regulator
+TL497ACN -10V D
+inverting conve
+TL497ACN 5V DC/DC buck
+converter
++2.5V fixed positive
+voltage regulator
++1.2V fixed positive
+voltage regulator
+Power Electronics
+Results and Verifications
+HV Pulser
+FPGA configured to generate an appropriate pulse every 5ms
+HV Pulser
+Digital input pin on the Transmit Pulser correctly receives a
+50ns-wide, logic-level voltage pulse
+HV Pulser
+Digital input pin on the Transmit Pulser correctly receives a
+50ns-wide, logic-level voltage pulse
+HV Pulser
+High-voltage output pin on the Transmit Pulser correctly generates a 50ns-
+wide, +30V pulse
+HV Pulser
+High-voltage output pin on the Transmit Pulser correctly generates a 50ns-
+wide, +30V pulse
+Transducer Probe
+Tested with Prof. Bill O’Brien’s group in the Bioacoustics Research Laboratory
+Used Olympus Panametrics 5900 Pulser/Receiver and Labview DAQ system to
+observe correct focus and frequency of operation
+Transducer Probe
+Transducer Probe
+Transmit/Receive Switch
+Applied a 50ns, 23V pulse to the input
+Transmit/Receive Switch
+Observed <2Vpp pulse output analogous to inputs
+Analog Front End (AFE)
+SPI Interface:
+Verified SPI data lines were sending correct programming
+sequences at 3.3V logic level
+Analog Front End (AFE)
+SPI Interface:
+Verified SPI data lines were sending correct programming
+sequences at 3.3V logic level
+Analog Front End (AFE)
+SPI Interface:
+Verified TGC registers were getting programmed by sending commands to
+read register contents on DE2 FPGA board seven-segment display
+Analog Front End (AFE)
+LVDS Output:
+Verified data is transferred diﬀerentially at low voltage (1-1.3V) and ~25MSPS
+Ran out of time to implement a DAC that could interpret the output data
+FPGA
+Could not implement LVDS reception protocol for demo
+Serial programmer chip correctly saves configuration file
+Initialization of Cyclone III FPGA unsuccessful
+Used Altera DE2 board to fulfill other requirements
+FPGA
+Correctly receives pulse commands (2 distinct start and stop bytes)
+Correctly sends buﬀered data to iPhone (verified in XCode console)
+Baud rate set at 4900 Hz for data integrity (1.5 seconds/scan)
+Power Electronics
+Performed a DC sweep of the input voltage from 6.5V to 9.5V, the operating
+range of a 9V battery
+Measured minimum and maximum output voltages of each power electronics
+component
+Calculated maximum error, verified that none exceeded 5%
+Component
+Nominal
+Voltage (V)
+Min. Voltage
+Measured (V)
+Max. Voltage
+Measured (V)
+Max. Error
+Boost
+Converter
+Buck Converter
+Buck
+Converter
+Inverting
+Converter
+Positive
+Regulator
+Positive
+Regulator
+Positive
+Regulator
+Positive
+Regulator
+Negative
+Regulator
++30.00 +31.40 +31.40 4.7%
++5.00 +5.17 +5.17 3.4%
++1.80 +1.80 +1.80 0.0%
+-10.00 -10.11 -10.10 1.1%
++10.00 +10.09 +10.09 0.9%
++3.30 +3.32 +3.32 0.6%
++2.50 +2.53 +2.53 1.2%
++1.20 +1.22 +1.22 1.7%
+-5.00 -4.98 -4.98 0.4%
+iPhone
+Demo
+Reflections
+Have backup DAC
+Make our own breakout boards earlier
+Understand technical details/scope earlier
+Order parts (and backups) earlier
+Future Work
+Get FPGA board functional
+Verify correct output of AFE
+Put all components on one PCB
+Optimize TGC amplification and sampling timing
+Acknowledgments
+Prof. Carney
+Mustafa Mir
+Mark Smart
+Skot Weidman
+Prof. O’Brien
+Michael Kurowski
+Alex Suchko
+DGH Technologies
+Questions
+

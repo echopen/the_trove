@@ -1,0 +1,1948 @@
+Dispositifs	médicaux	
+et	
+réglementation
+Mines	Novembre	2015
+Copyright
+©
+2010
+-
+SNITEM
+-
+Tous
+droits
+réservés
+Une	Grande	variété	de	produits
+Matériel	à	usage	Unique
+• Seringue
+• Dispositif	de	perfusion
+• Pansement…
+Matériel	réutilisable
+• Ancillaire
+• Instrument	de	chirurgie…
+Equipement
+• Scanner
+• Lit	médical…
+2
+Des	utilisateurs	finaux	très	différents
+Etablissements	de	santé
+Professionnels	de	santé	libéraux
+Patients
+3
+Des	circuits	de	distribution	Libres
+Peu	de	produits	sont	soumis	à	monopole	(lentilles	de	
+contact,	radionucléides..)
+Vente	libre	pour	la	majorité	des	produits	(SMQ)
+– Grande	distribution
+– Pharmacies
+– Prestataires	de	service
+– Vente	directe
+– Vente	en	ligne
+4
+Le	point	de	croisement	de	toutes	les	technologies
+§ Mécanique,
+§ Electrique,	
+§ Electronique,
+§ Informatique,	
+§ Biomatériaux,	
+§ Textile,
+§ Chimie…..
+5
+Le	Vocabulaire	du	DM
+§ Revendication
+§ Classe	du	dispositif
+§ Exigences	essentielles
+§ Normes	harmonisées
+§ Analyse	de	risque
+§ Données	cliniques
+§ Dossier	technique
+§ Organismes	notifiés
+Les	Opérateurs	Economiques
+§ Fabricant
+§ Mandataire
+§ Distributeur
+Les	Acteurs
+§ Organismes	notifiés
+§ Organismes	de	normalisation
+§ Commission	européenne
+§ Autorités	compétentes
+Nouveau	cadre	
+législatif
+Les	règlements	et	décisions
+§ DÉCISION	No	768/2008/CE	DU	PARLEMENT	EUROPÉEN	ET	DU	CONSEIL
+§ du	9	juillet	2008	relative	à	un	cadre	commun	pour	la	commercialisation	 des	
+produits	et	abrogeant	la	décision	93/465/CEE	du	Conseil
+§ RÈGLEMENT	(CE)	No	765/2008	DU	PARLEMENT	EUROPÉEN	ET	DU	CONSEIL
+§ du	9	juillet	2008	fixant	les	prescriptions	relatives	à	l'accréditation	 et	à	la	
+surveillance	du	marché	pour	la	commercialisation	 des	produits	et	abrogeant	le	
+règlement	(CEE)	no	339/93	du	Conseil
+§ RÈGLEMENT	(CE)	No	764/2008	DU	PARLEMENT	EUROPÉEN	ET	DU	CONSEIL
+§ du	9	juillet	2008	établissant	 les	procédures	relatives	à	l'application	 de	certaines	
+règles	techniques	 nationales	à	des	produits	commercialisés	 légalement	 dans	un	
+autre	État	membre	et	abrogeant	la	décision	no	3052/95/CE
+Les	principes
+§ Réglementer	 la	mise	sur	le	marché
+• D’une	infinité	de	produits	 très	différents
+• Selon	une	règle	unique
+§ Par	un	principe	basé	sur	la	« nouvelle	 approche »,	c’est-à-dire	 :
+• La	libre	circulation	des	produits	et	des	services	dans	l’EEE
+• La	responsabilité	 du	Fabricant
+• L’assistance	par	un	Tiers	habilité
+• Le	contrôle	à	posteriori	 par	les	autorités	compétentes
+§ En	répondant	 à	des	exigences	essentielles
+§ En	s’appuyant	sur	des	spécifications	 techniques	 définies	par	des	normes	
+harmonisées
+Nouveau	cadre	législatif
+§ Evolution	du	cadre	législatif	« Nouvelle	approche»	
+• Un	règlement	et	des	décisions
+• Renforcement	du	système	d’accréditation
+• Renforcement	de	la	surveillance	du	marché
+• Précision	sur	les	responsabilités	 respectives	des	opérateurs	économiques
+• Renforcement	du	marquage	CE
+§ L’intégrations		dans	les	directives	DM	devrait	se	faire	lors	de	la	
+prochaine	révision	des	directives
+Les	directives	
+sectorielles
+Les	directives	spécifiques
+§ Directive	93/42	relative	aux	dispositifs	médicaux
+§ Directive	90/385	relative	aux	dispositifs	médicaux	
+implantables	actifs
+ØAinsi	que	leurs	amendements	dont	le	plus	récent	
+Directive	2007/47
+Des	disposition	pour	certains	DM
+§ Implant	mammaires
+§ Implants	articulaires
+§ DM	contenant	des	dérivés	animaux
+§ E-labelling…
+Les	textes	collatéraux
+§ Directive	2003/32	Produits	d’origine	animale
+§ Directive	2001/83	médicament
+§ Directive	2006/42	Machine
+§ Directive	89/686	EPI
+§ Directive	Euratom
+Les	principes
+§ Précisent	les	objectifs,	les	définitions,	les	acteurs
+§ Détaillent	les	règles	de	certification
+§ Enumèrent	les	exigences	essentielles
+§ Définissent	des	exigences	spécifiques:
+• Classification
+• Evaluation	clinique,	essais	cliniques
+• Matériogilance
+§ Renvoient	à	des	référentiels	techniques
+§ Les	directives	détaillent	les	objectifs	à	atteindre	mais	
+ne	détaillent	pas	les	moyens	et	les	organisations	à	
+mettre	en	œuvre	pour	atteindre	ces	objectifs.
+§ Les	directives	sont	générales	et	nécessitent	des	
+guides	d’application	destinés	à	tous	les	acteurs	
+(autorités,	ON,	fabricants)		pour	leur	mise	en	oeuvre
+Les	organisations
+Contexte	européen
+Commission
+CEN
+CENELEC
+MDEG EMA
+NB	
+MED
+NBOG
+Expert	
+Group
+NBRG
+CMC
+EMA	
+CAT	NB
+MDEG
+§ Medical device Expert	Group
+• Composition
+• groupe	de	représentants	des	États	membres,	des	industries	et	
+d'autres	parties	prenantes
+• Objectif
+• Aider	à	la	mise	en	œuvre	des	directives	relatives	aux	dispositifs	
+médicaux
+• Documents	Emis	:	MEDDEV
+• Lignes	directrices	de	la	Commission	concernant	les	directives	relatives	
+aux	dispositifs	médicaux.	Les	documents	MEDDEV	visent	à	favoriser	
+une	approche	commune	par	les	États	membres,	les	fabricants	et	les	
+organismes	notifiés	et	sont	rédigés	au	travers	d'un	processus	de	
+consultation	avec	diverses	parties	intéressées.
+• Valeur
+NBOG
+§ Notified Bodies	Operational Group
+• Objectif
+• Le	NBOG	améliore	les	processus	 liés	à	la	désignation	et	au	contrôle	
+des	organismes	notifiés	par	les	autorités	nationales.
+• Document	Emis
+• Guide	de	bonne	pratiques	pour	les	ON	et	AC
+Experts	group
+§ Classification	and	borderline
+§ CIE	:	Clinical Investigation	and	Evaluation
+• Le	Groupe	de	travail	sur	l'investigation	et	l'évaluation	
+cliniques	travaille	sur	une	interprétation	et	une	mise	en	
+œuvre	homogènes	des	directives	relatives	aux	dispositifs	
+médicaux	en	ce	qui	concerne	l'évaluation	et	l'investigation	
+cliniques	(anciennement	CETF	['clinical evaluation task
+force']).
+Co-EN
+§ Compliance and	Enforcement Group
+• Objectif
+• La	tâche	du	COEN	réside	dans	le	champ	d'application	et	la	
+meilleure	coordination	des	contrôles,	et	vise	à	améliorer	 la	
+communication	et	la	coopération	entre	les	États	membres	
+(anciennement	 MSOG).
+NB-MED
+§ Notified Bodies	medical device
+• Composition
+• Coordination	européenne	 des	organismes	notifiés
+• Objectif
+• Etablir	des	recommandations	 pour	leur	propre	usage
+• Document	Emis
+• recommandations
+NBRG
+§ Notified Bodies	Recommandation	Group
+• Composition
+• Membres	des	ON
+• Objectif
+• Faire	des	propositions	 de	recommandation	 qui	seront	adoptées	ou	
+non	par	le	NB	MED
+CMC
+§ Central	management	committee
+• Composition
+• Autorités	compétentes
+• Objectif
+• Améliorer	 et	harmoniser	 l’interprétation	 des	textes	et	leur	
+application	au	niveau	des	états	membres
+EMA
+§ Agence	européenne	du	médicament
+• Composition
+• Membres	des	ON
+• Objectif	dans	le	cadre	des	dispositifs	médicaux
+• Emet	des	recommandations	 sur	l’évaluation	des	dispositifs	
+médicaux	combinés	EMA/	CAT	NB
+• Participe	à	l’évaluation	des	dispositifs	médicaux	combinée	à	des	
+thérapeutiques	 avancées	 (ATMP)
+Les	référentiels	
+réglementaires
+Règlement	
+Nouveau	cadre	
+législatif
+Directives	
+sectorielles
+Transposition	en	droit	national
+Les	référentiels	
+techniques
+Contexte	européen
+Règlement/décision/Directive
+CEN/
+CENELEC
+MDEG EMA
+NB	
+MED
+Expert	
+Group
+NBRG
+CMC
+Normes
+Commission	 européenne
+MEDDEV
+Guidelines Avis
+Guideline
+Interpretative
+document
+NBOG
+Les	normes
+Les	normes
+§ Référentiels	techniques	incontournables
+§ Elaborées	de	façon	consensuelle	entre	les	
+producteurs,	les	autorités	compétentes	et	les	
+utilisateurs
+§ Processus	long
+§ Processus	couteux
+§ Nécessite	des	révisions
+§ Stratégiques	pour	les	entreprises
+Organisation	de	la	normalisation
+International	
+ISO
+Européen	EN	
+(CEN/IEC)
+Français	FR	
+(	AFNOR/UTE)
+Normes	horizontales
+§ Elles	sont	transversales	et	applicables	à	plusieurs	
+secteurs	d’activité:
+• ISO	EN	13485	management	de	la	qualité
+• ISO	EN	14971	analyse	des	risques
+• ISO	EN	14155	investigation	clinique
+• ISO	EN	980	étiquetage…….
+Normes	verticales
+§ Elles	sont	spécifiques	d’un	secteur	d’activité
+• EN	1060-1:1995+A2:2009	Tensiomètres	non	invasifs	-
+Partie	1:	Exigences	générales
+• EN	1782:1998+A1:2009	Tubes	trachéaux	et	raccords
+• EN	ISO	5840:2009	Implants	cardiovasculaires	- Prothèses	
+valvulaires…………
+Normes	harmonisées
+§ Sont	publiées	au	JOUE
+§ Donne	présomption	de	conformité
+§ Ne	sont	pas	« obligatoires »
+La	pharmacopée
+§ Donne	également	présomption	de	conformité
+§ Particulièrement	pour	les	sutures	chirurgicales	et	les	
+interactions	médicament/matériaux
+Les	
+recommandations
+Contexte	européen
+Règlement/décision/Directive
+CEN/
+CENELEC
+MDEG EMA
+NB	
+MED
+Expert	
+Group
+NBRG
+CMC
+Normes
+Commission	 européenne
+MEDDEV
+Guidelines Avis
+Guideline
+Interpretative
+document
+NBOG
+Les	recommandations	de	la	commission
+§ Il	s’agit	de	documents	d’interprétation	de	la	
+commission	
+§ Non	opposables	juridiquement
+§ Ne	s’imposent	pas	aux	états	membres
+§ Exemple:
+• Manuel	Borderline	et	classification
+• Guide	d’interprétation	sur	la	« mise	sur	le	marché »
+• Guide	d’interprétation	sur	l’application	des	directive	EPI
+Guide	du	Co-en
+§ Guide	pour	les	fabricant	sur	les	dispositifs	médicaux	
+sur	mesure
+§ Guide	pour	les	fabricants	sur	les	dispositifs	de	classe	I
+§ Guide	d’application	de	la	directive	2005/50
+Les	MEDDEV
+§ Promouvoir	une	approche	commune	entre	autorités	
+compétentes,	fabricants	et	organismes	notifiés
+§ Assurer	une	application	harmonisée	des	directives	
+pas	les	états	membres
+§ Disponibles	sur	le	site	de	la	commission	européenne	
+Scope,	field	of	application,
+definition
+MEDDEV 2.1/1(19 KB) Definitions of "medical devices", "accessory" and "manufacturer"
+April 1994
+MEDDEV	2.1/2	rev.2(14	KB) Field	of	application	of	directive	"active	implantable	medical	devices"	
+April	1994
+MEDDEV	2.1/2.1(12	KB) Field	of	application	of	directive	"active	implantable	medical	devices"	
+February	1998
+MEDDEV	2.1/3	rev.3(182	KB) Borderline	products,	drug-delivery	products	and	medical	devices	incorporating,as	integral	part,	an	
+ancillary	medicinal	substance	or	an	ancillary	human	blood	derivative	
+December	2009
+MEDDEV	2.1/4(21	KB) Interface	with	other	directives	- Medical	devices/directive89/336/EEC	relating	to	electromagnetic	compatibility	
+and	directive	89/686/EEC	relating	to	personal	protective	 equipment	
+March	1994
+For	the	relation	between	the	MDD	and	directive	89/686/EEC	concerning	personal	protective
+equipment,	please	see	the	Commission	services	interpretative	document	of	21	August	2009(32	KB)
+MEDDEV	2.1/5(10	KB) Medical	devices	with	a	measuring	function	
+June	1998
+MEDDEV	2.1/6(323	KB) Qualification	and	Classification	of	stand	alone	software	
+January	2012
+Essential	requirements
+MEDDEV	2.2/1	rev.1(16	KB) EMC	requirements	
+February	1998
+MEDDEV	2.2/3	rev.3(17	KB)"Use	by"	- date
+June	1998
+MEDDEV	2.2/4(39	KB) Conformity	assessment	 of	In	Vitro	Fertilisation (IVF)	
+and	Assisted	Reproduction	Technologies	 (ART)	products
+January	2012
+Classification	of	MD	
+MEDDEV	2.4/1	rev.9 [654	KB]	 June 2010
+Conformity assessment
+procedure
+General	 rules
+Quality	assurance.
+Regulatory	auditing	of	quality	systems	of	medical	device	manufacturers
+(See	document	in	the	GHTF-Global	Harmonization	Task	Force	website)
+MEDDEV	2.5/3	rev.2(9	KB) Subcontracting	quality	systems	related
+June	1998
+MEDDEV	2.5/5	rev.3(7	KB) Translation	procedure
+February	1998
+MEDDEV	2.5/6	rev.1(10	KB) Homogenous	batches	(verification	of	manufacturers'	products)
+February	1998
+Conformity	assessment	for	particular	groups	of	products
+MEDDEV	2.5/7	rev.1(93	KB) Conformity	assessment	of	breast	implants
+July	1998
+Evaluation	of	medical	devices	incorporating	products	of	animal	origin.
+(See	MEDDEV	2.11/1	rev.2(82	KB))
+MEDDEV	2.5/9	rev.1(97	KB) Evaluation	of	medical	devices	incorporating	products	containing	natural	rubber	latex
+February	2004
+MEDDEV	2.5/10 (78	KB) Guideline	for	Authorised Representatives
+January	2012
+Clinical investigation,
+clinical evaluation
+MEDDEV	2.7/1	rev.3(378	KB) Clinical	evaluation:	Guide	for	manufacturers	and	notified	bodies
+December	2009
+Appendix	1:	Clinical	evaluation	on	coronary	stents(101	KB)
+December	2008
+MEDDEV	2.7/2	rev.	2 (37	kB)	Guidelines	for	Competent	Authorities	for	making	a	validation/assessment	of	
+a	clinical	investigation	application	under	directives	90/385/EEC	and	93/42/EC
+September	2015	
+MEDDEV	2.7/3 rev.	3 (166	kB)	Clinical	investigations:	serious	adverse	reporting	under	directives	
+90/385/EEC	and	93/42/EC	- SAE	reporting	form (87	kB)
+May	2015	
+MEDDEV	2.7/4(180	KB) Guidelines	on	Clinical	investigations:	a	guide	for	manufacturers	and	notified	
+bodies
+December	2010
+Market surveillance
+MEDDEV	2.12/1	rev.8(745	KB) Medical Devices Vigilance	System
+January 2013
+Manufacturer	Incident	Report(971	KB)
+How	to	use	the	MIR(13	KB)
+Field	Safety Corrective	Action(2	MB)
+Trend	Report(151	KB)
+Periodic Summary Report(192	KB)
+MIR	and	FSCA	xml files
+(2	MB)
+List	of	contact	points
+MEDDEV	2.12/2 rev.2 (221	KB) Post	Market	Clinical	Follow-up	 studies
+January	2012
+Les	guides	NBOG
+§ « best	practice »	pour	les	organismes	notifiés	et	les	
+autorités	compétentes
+§ Donne	des	indications	aux	fabricants	sur	les	
+modalités	d’audit	et	de	contrôle
+NBOG	BPG	2014-3
+Guidance	for	manufacturers	and	Notified	Bodies	on	reporting	of	Design	Changes	and	Changes	of	the	Quality	
+System
+Nov	2014	
+NBOG	BPG	2014-2
+Guidance	on	the	Information	Required	for	Notified	Body	Medical	Device	Personnel	Involved	in	Conformity	
+Assessment	Activities	
+Nov	2014
+NBOG	BPG	2014-1
+Renewal	of	EC	Design-Examination	and	Type-Examination	Certificates:	 Conformity	assessment	procedures	and	
+general	rules
+Nov 2014
+NBOG	BPG	2010-3
+Certificates	issued	by	Notified	Bodies	with	reference	to	Council	Directives	93/42/EEC,	98/79/EC,	and	
+90/385/EEC
+Mar	2010
+NBOG	BPG	2010-2
+Guidance	on	Audit	Report	Content	
+Mar	2010
+NBOG	BPG	2010-1 Guidance	for	Notified	Bodies	auditing	suppliers	to	medical	device	manufacturers
+Mar	2010
+NBOG	BPG	2009-4 Guidance	on	Notified	Body‘s	Tasks	of	Technical	Documentation	Assessment	on	a	Representative	Basis
+Jul	2009
+NBOG	BPG	2009-3
+Guideline	for	Designating	Authorities	to	Define	the	Notification	Scope	of	a	Notified	Body	Conducting	Medical	
+Devices	Assessment
+Note: Please	note	that	the	current	scope	expressions	(MD	/	MDS	codes)	can	be	found	in	the	respective	
+notification	forms	below.
+Mar	2009
+NBOG	BPG	2009-2 Role	of	Notified	Bodies	in	the	Medical	Device	Vigilance	System Mar	2009
+NBOG	BPG	2009-1
+Guidance	on	Design-Dossier	Examination	and	Report	Content	
+Mar	2009
+NBOG_BPG_2006-1 Change	of	Notified	BodyChangeof	Notified	Body Nov 2008
+Les	recommandations	du	CMC
+§ Créé	en	février	2011
+§ Améliorer	l’efficience	du	régime	juridique	des	DM
+§ Plus	de	cohérence	entre	les	états	membres
+1. CMC	Decisions	 on	Classification	 and	Borderline	Queries
+2.	CMC	Decision	on	Harmonised Implementation	 of	Notified	Body	Best	
+Practice	Guides
+3. CMC	Decision	on	information	to	be	provided	in	relation	to	the	address	of	
+the	manufacturer	and	of	the	Authorised Representative
+Les	guides		GHTF
+Documents	de	consensus	international
+Rapprochement	des	législations	existantes
+Inspirent	les	MEDDEV….et	les	évolutions	de	la	
+réglementation
+Dispositif	médical
+Les	principes
+Les	acteurs
+Les	autorités	compétentes
+§ La	commission	européenne
+§ L’ANSM	(organigramme)
+• Surveillance	du	marché
+• Matériovigilance
+• Inspection
+• Désignation	et	audit	des	ON
+Les	organismes	notifiés
+§ En	Europe	≈	80	en	2014	et	moins	de	70	en	2015
+§ 1	seul	en	France	:LNE/GMED
+§ Organisme	de	certification	produit	et/ou	système	de	
+management	de	la	qualité
+§ Sous	le	contrôle	des	autorités	compétentes
+Les	opérateurs
+• R	5211-4
+Fabricant
+la	personne	physique	ou	morale	responsable	de	la	conception,	
+de	la	fabrication,	du	conditionnement	et	de	l'étiquetage	d'un	
+dispositif	médical	en	vue	de	sa	mise	sur	le	marché	en	son	nom	
+propre,	que	ces	opérations	soient	effectuées	par	cette	personne	
+ou	pour	son	compte	par	une	autre	personne	;	les	obligations	qui	
+s'imposent	au	fabricant	en	vertu	du	présent	titre	s'imposent	
+également	à	la	personne	physique	ou	morale	qui	assemble,	
+conditionne,	traite,	remet	à	neuf	ou	étiquette	des	dispositifs	
+médicaux,	ou	assigne	à	des	produits	préfabriqués	la	destination	
+de	dispositifs	médicaux,	en	vue	de	les	mettre	sur	le	marché	en	
+son	nom	propre.
+Mandataire
+toute	personne	physique	ou	morale	établie	dans	un	Etat	
+membre	de	la	Communauté	européenne	ou	partie	à	l'accord	sur	
+l'Espace	économique	européen	qui,	après	avoir	été	
+expressément	désignée	par	le	fabricant,	agit	et	peut	être	
+contactée	par	les	autorités	administratives	compétentes	en	lieu	
+et	place	du	fabricant	en	ce	qui	concerne	les	obligations	que	le	
+présent	titre	impose	à	ce	dernier	;
+Distributeur
+§ Pas	de	définition	dans	les	directives	DM
+toute	personne	physique	ou	morale	se	livrant	au	
+stockage	de	dispositifs	médicaux	et	à	leur	distribution	
+ou	à	leur	exportation,	à	l'exclusion	de	la	vente	au	public
+Importateurs
+§ Pas	de	définition	dans	les	directives	DM
+§ Importateur,	toute	personne	physique	ou	morale	
+établie	dans	un	Etat	membre	de	la	Communauté	
+européenne	ou	partie	à	l'accord	sur	l'Espace	
+économique	européen	se	livrant	à	l'importation	de	
+dispositifs	médicaux	;	
+La	qualification	du	statut	de	l’opérateur	est	cruciale!
+Elle	permet	de	définir	les	responsabilités,	les	actions	à	
+mener,	la	nécessité	des	relations	contractuelles
+Quelques	exemples
+§ Essais	cliniques
+§ Mise	sur	le	marché
+§ Mise	en	service
+§ Matériovigilance
+§ Vente	d’occasion
+Mise	sur	le	
+marché
+a)	La	mise	en	vente,	la	vente,	la	mise	à	disposition	à	titre	
+onéreux	ou	gratuit,	la	cession	à	quelque	titre	que	ce	soit,	
+d'un	dispositif	médical	autre	qu'un	dispositif	devant	faire	
+l'objet	d'investigations	cliniques,	qu'il	soit	neuf	ou	remis	à	
+neuf	;	
+b)	L'importation	sur	le	territoire	douanier	d'un	tel	
+dispositif,	dès	lors	qu'il	n'a	pas	le	statut	de	marchandise	
+communautaire	;
+Statuts	et
+qualifications
+Les	référentiels
+• Pour	déterminer	la	classe	du	DM,	le	fabricant	
+s’appuie	sur	:
+– Des	textes	réglementaires	:
+– La	définition	du	dispositif	médical
+– La	définition	du	médicament
+– La	définition	du	cosmétique
+Les	référentiels
+– Des	guides	d’application	européen	:
+– MEDDEV	2.1/1 Definitions	of	"medical	devices",	
+"accessory"	and	"manufacturer"	
+– MEDDEV	2.1/3	rev.3[182	KB]	 Borderline	products,	drug-
+delivery	products	and	medical	devices	incorporating,as
+integral	part,	an	ancillary	medicinal	substance	or	an	
+ancillary	human	blood	derivative	- December	2009
+–
+§ Manual on borderline and classification in the
+Community Regulatory framework for medical
+device
+§ Qualification et positionnement réglementaire
+des dispositifs médicaux et dispositifs médicaux
+de diagnostic in vitro - Questions/réponses
+(15/06/2015)
+Dispositif	médical	ou….?
+§ Choix	du	fabricant	dicté	par	les	règles
+§ Dépend	de	la	revendication	et	de	la	présentation	
+dans	:
+• L’étiquetage
+• La	notice	d’utilisation
+• Les	documents	promotionnels
+Dispositifs	Médicaux	- Une	définition	large
+§ Tout	instrument,	appareil,	équipement,	 logiciel	matière	ou	autre	article,	utilisé	
+seul	ou	en	association,	y	compris	le	logiciel	destiné	par	le	fabricant	à	être	utilisé	
+spécifiquement	 à	des	fins	diagnostique	et/ou	thérapeutique,	 et	nécessaire	 pour	le	
+bon	fonctionnement	 de	celui-ci,	destiné	par	le	fabricant	à	être	utilisé	 chez	
+l'homme	à	des	fins:
+• de	diagnostic,	de	prévention,	de	contrôle,	de	traitement	ou	d'atténuation	
+d'une	maladie,
+• de	diagnostic,	de	contrôle,	de	traitement,	d'atténuation	 ou	de	compensation	
+d'une	blessure	ou	d'un	handicap,
+• d'étude	ou	de	remplacement	ou	modification	de	l'anatomie	 ou	d'un	
+processus	physiologique,
+• de	maîtrise	de	la	conception,
+et	dont	l'action	principale	voulue	dans	ou	sur	le	corps	humain	n'est	pas	obtenue	
+par	des	moyens	pharmacologiques	 ou	immunologiques	 ni	par	métabolisme,	 mais	
+dont	la	fonction	peut	être	assistée	 par	de	tels	moyens
+§ Utilisation	chez	l’homme
+§ Action	mécanique
+§ Finalité	médicale
+Exemples	pratiques
+§ Acide	hyaluronique
+§ Pansement	à	l’argent
+§ Puce	RFID
+§ Logiciel
+Classifications
+Règles	générales	de	classification
+• Objectif	de	la	classification	:
+– Assigner	un	niveau	de	risque	à	chaque	DM	pour	
+permettre	de	lui	affecter	des	règles	d’évaluation	et	de	
+contrôle	proportionnelles	au	niveau	de	risque
+Principes	de	la	classification	:
+• Règles	générales	basées	sur	les	caractéristiques	de	
+chaque	DM
+• Règles	spécifiques	pour	certaines	familles	de	DM
+• Si	plusieurs	règles	s’appliquent,	la	classification	retenue	
+est	la	plus	élevée
+Les	référentiels
+• Pour	déterminer	la	classe	du	DM,	le	fabricant	s’appuie	
+sur	:
+– Des	textes	réglementaires	:	annexe	IX	de	la	directive	93/42/CE		
+et	2	directives	spécifiques	(implants	mammaires	et	implants	
+orthopédiques)
+– Des	guides	d’application	européen	:	MEDDEV	
+2.	4/1	Rev.	9	de	juin	2010	
+- Qualification	et	positionnement	réglementaire	des	dispositifs	
+médicaux	et	dispositifs	médicaux	de	diagnostic	in	vitro	-
+Questions/réponses	(15/06/2015)
+Les	règles	générales
+• Les	règles	générales	reposent	sur:
+– la	durée	d’utilisation	:	Temporaire,	court	terme,	long	terme
+– Le	type	de	dispositif	:	Non	invasif,	Invasif,	actif
+– La	destination	du	DM:	Système	circulatoire	central,	
+système	nerveux	central…..
+Quelques	exemples:	Classe	I
+• Règle	générale	:	DM	non	invasifs		et	DM	
+invasifs	temporaires
+• Quelques	exemples
+– Collier	cervical
+– Béquilles
+– Seringues	sans	aiguilles
+– Compresses
+– Instruments…..
+Classe	IIa
+• Règle	générale		:	DM	invasifs	chirurgicaux	
+temporaires	et	court	terme	
+• Quelques	exemples
+– Scalpels
+– Aiguilles
+– Dispositifs	de	fermeture	de	peau
+– Tubulure	de	perfusion
+– Seringue	pour	pompe	à	perfusion
+– Gants
+Classe	IIb
+• Cas	général	:	DM	invasifs	chirurgicaux	long	
+terme	et	implantables
+• Quelques	exemples
+• Lentilles	de	contact	correctives	long	terme
+• Ciments
+• Stents
+• Stylos	à	insuline
+• Machine	d’anesthésie
+Classe	III
+• Cas	général	:	DM	en	contact	avec	SNC	,	cœur		
+ou	résorbables,	combinés	avec	un	
+médicament	ou	d’origine		biologique
+• les	sutures	résorbables
+• Pansement	à	l’argent
+• Colle	biologique
+• Cathéters	centraux
+• Implants	mammaires
+Les	règles	spécifiques
+§ Implants	mammaires
+§ Implants	orthopédiques
+§ Substances	médicamenteuses
+Les	grands	
+principes	du	
+marquage	CE
+Comment	ça	marche?
+88
+Produit
+Fabricant
+Organisme Notifié
+Déclare à l’AC les certificats délivrés
+Autorité Compétente
+Contrôle l’ON périodiquement
+Choisit le statut et la classification
+Choisit le mode de preuve
+Choisit les normes appliquées
+Construit le dossier technique
+Contrôle tous ces choix
+Assure la cohérence
+Vérifie le dossier
+Effectue les contrôles
+nécessaires
+Déclare la conformité
+Tient ses dossiers à disposition
+Assure la matériovigilance
+Peut contrôler à tout moment
+Peut réclamer tout dossier
+Peut suspendre ou sanctionner
+Classification	des	DM
+Classe I = avec fonction de mesurage, stérile, sans fonction de mesurage & ni stérile.
+Une	évaluation	proportionnée
+Exigences	essentielles	identiques	pour	tous	les	produits
+Niveau	de	preuve	à	apporter	en	fonction	du	risque	du	produit
+4	classes	de	risques	basées	sur	une	structure	pyramidale	:
+90
+10 familles de produits classe III
+102 familles de produits classe IIb
+103 familles de produits classe IIa
+104 familles de produits classe I
+Procédures	d’attestation	de	la	conformité
+§ Le	mode	de	preuve	est	d’autant	plus	contraignant	
+que	le	risque	associé	au	produit	est	élevé
+§ Le	mode	de	preuve	requiert	d’autant	plus	
+d’intervention	de	« contrôle-produit»	que	le	
+système	qualité	est	peu	développé
+§ Le	mode	de	preuve	requiert	d’autant	plus	
+d’intervention	« extérieure »	que	le	système	qualité	
+est	peu	développé
+Les	exigences	
+essentielles
+§ Il	s’agit	des	exigences	auxquelles	doivent	répondre	
+les	DM	pour	pouvoir	être	mis	sur	le	marché
+§ Elles	définissent	des	objectifs	mais	pas	de	moyens	
+pour	y	parvenir	(cela	relève	des	normes	
+harmonisées)
+§ Principes	généraux	ou	particularités
+Exigence	générale	1
+§ Les	dispositifs	doivent	être	conçus	et	fabriqués	de	
+telle	manière	que,	lorsqu'ils	sont	utilisés	dans	les	
+conditions	et	aux	fins	prévues,	leur	utilisation	ne	
+compromette	pas	l'état	clinique	et	la	sécurité	des	
+patients	ni	la	sécurité	et	la	santé	des	utilisateurs	ou,	
+le	cas	échéant,	d'autres	personnes,	étant	entendu	
+que	les	risques	éventuels	liés	à	leur	utilisation	
+constituent	des	risques	acceptables	au	regard	du	
+bienfait	apporté	au	patient	et	compatibles	avec	un	
+niveau	élevé	de	protection	de	la	santé	et	de	la	
+sécurité.
+Exigence	générale	2
+§ Les	solutions	choisies	par	le	fabricant	dans	la	
+conception	et	la	construction	des	dispositifs	doivent	
+se	tenir	aux	principes	d'intégration	de	la	sécurité	en	
+tenant	compte	de	l'état	de	la	technique		
+généralement	reconnu.
+Les	exigences	de	
+conception
+Choix	des	matériaux
+§ 7.1.	…..Une	attention	particulière	doit	être	apportée:	
+au	choix	des	matériaux	utilisés,	notamment	en	ce	qui	
+concerne	
+• Les	aspects	de	la	toxicité	et,	le	cas	échéant,	de	
+l'inflammabilité,
+• à	la	compatibilité	réciproque	entre	les	matériaux	utilisés,	
+les	tissus	et
+• les	cellules	biologiques,	ainsi	que	les	liquides	corporels
+en	tenant	compte	de	la	destination	du	dispositif,
+Contaminant	et	résidus
+§ 7.2.	Les	dispositifs	doivent	être	conçus,	fabriqués	et	
+conditionnés	de	manière	à	minimiser	le	risque	que	
+présentent	les	contaminants	et	les	résidus	pour	le	
+personnel	participant	au	transport,	au	stockage	et	à	
+l'utilisation	ainsi	que	pour	les	patients,	
+conformément	à	la	destination	du	produit.
+Compatibilité
+§ 7.3.	Les	dispositifs	doivent	être	conçus	et	fabriqués	
+de	manière	à	pouvoir	être	utilisés	en	toute	sécurité	
+avec	les	matériaux,	substances	et	gaz	avec	lesquels	
+ils	entrent	en	contact	au	cours	de	leur	utilisation	
+normale	ou	de	procédures	de	routine;	si	les	
+dispositifs	sont	destinés	à	administrer	des	
+médicaments,	ils	doivent	être	conçus	et	fabriqués	de	
+manière	à	être	compatibles	avec	les	médicaments	
+concernés	conformément	aux	dispositions	et	
+restrictions	applicables	à	ceux-ci,	et	de	manière	que	
+leurs	performances	soient	maintenues	conformes	à	
+leur	destination.
+Substances
+§ 7.5	Si	des	parties	d'un	dispositif	(ou	un	dispositif	lui-même)	
+destiné	à	administrer	dans	l'organisme	et/ou	à	retirer	de	
+l'organisme	des	médicaments,	des	liquides	biologiques	ou	
+autres	substances	ou	des	dispositifs	destinés	au	transport	et	
+au	stockage	de	ces	liquides	ou	substances,	contiennent	des	
+phtalates	classés	comme	carcinogènes,	mutagènes	ou	
+toxiques	pour	la	reproduction,	de	la	classe	1	ou	2	
+conformément	à	l'annexe	I	de	la	directive	67/548/CEE,	ces	
+dispositifs	doivent	être	étiquetés	sur	le	dispositif	lui-même	
+et/ou	sur	l'emballage	de	chaque	unité	ou,	le	cas	échéant,	sur	
+l'emballage	de	vente,	en	tant	que	dispositif	contenant	des	
+phtalates.
+§ Si	l'utilisation	prévue	de	ces	dispositifs	inclut	le	traitement	
+d'enfants	ou	le	traitement	de	femmes	enceintes	ou	allaitant,	
+le	fabricant	doit	fournir	une	justification	spécifique	pour	
+l'utilisation	de	ces	substances	en	ce	qui	concerne	le	respect	
+des	exigences	essentielles,	notamment	du	présent	
+paragraphe,	dans	la	documentation	technique	et,	dans	la	
+notice	d'utilisation,	des	informations	sur	les	risques	résiduels	
+pour	ces	groupes	de	patients	et,	le	cas	échéant,	sur	des	
+mesures	de	précaution	appropriées
+Evaluation	clinique
+Directive	2007/47
+§ Considérant	8
+Eu	égard	à	l'innovation	technologique	et	au	développement	
+d'initiatives	au	plan	international,	il	est	nécessaire	d'améliorer	
+les	dispositions	relatives	à	l'évaluation	clinique	et	notamment	
+de	le	fait	que	les	données	cliniques	sont	généralement	
+requises	pour	tous	les	dispositifs,	indépendamment	de	leur	
+classification,	et	d'introduire	la	possibilité	de	centraliser	les	
+données	relatives	aux	investigations	cliniques	dans	la	banque	
+de	données	européenne.
+Evaluation	clinique:
+Quelques	définitions…
+Evaluation	clinique
+Evaluation	critique	des	données	cliniques	issues:
+§ de	la	littérature	scientifique
++/-
+§ des	résultats	de	toutes	les	investigations
+cliniques	réalisées
+Données	cliniques	:	définition
+« Informations	relatives	à	la	sécurité	et	aux	
+performances	obtenues	dans	le	cadre	de	l'utilisation	
+clinique	d'un	dispositif. »
+Données	cliniques	:	Obtention
+Les	données	cliniques	proviennent:
+— des	investigation(s)	 clinique(s)	 du	dispositif	concerné,	 ou
+— des	investigation(s)	 clinique(s)	 ou	d'autres	études	citées	dans	la	
+littérature	scientifique	 d'un	dispositif	similaire	pour	lequel	
+l'équivalence	 avec	le	dispositif	concerné	 peut	être	démontrée,	 ou
+— des	rapports,	 publiés	ou	non,	relatifs	à	une	autre	expérience	 clinique	
+acquise	sur	le	dispositif	concerné	ou	un	dispositif	similaire	pour	lequel	
+l'équivalence	 avec	le	dispositif	concerné	 peut	être	démontrée
+Investigation	clinique	:	définition
+Toute	étude	systématique	conçue	et	planifiée
+sur	des	sujets	humains,	entreprise	pour	vérifier
+la	sécurité	et	ou	la	performance	d'un	dispositif
+spécifique.
+(source :	EN	ISO	14155	2011)
+Dispositif	similaire	:	définition
+§ Dispositif	ayant	:
+• Une	destination	similaire	
+(clinique,	Sévérité	 et	grade	de	la	pathologie,	Site	d’utilisation,	
+Population	cible)
+• Des	caractéristiques	techniques		similaires	(conception,	
+spécification,	 propriétés	physico	–chimiques)
+• Des	caractéristiques	biologiques	similaires	(biocompatibilité)
+Evaluation	clinique	:
+principes	généraux
+2007/47	Annexe	I
+Exigences	essentielles
+§ I.	EXIGENCES	GÉNÉRALES	:	6	bis.
+La	démonstration	de	la	conformité	aux
+exigences	essentielles	doit	inclure	une
+évaluation	clinique	conformément	à	l'annexe	X.
+Directive	2007/47	
+Annexe	X
+§ Le	respect	des	exigences	concernant	les	
+caractéristiques	et	performances
+§ L'évaluation	des	effets	indésirables
+§ Le	caractère	acceptable	du	rapport	bénéfice/risque
+ØDoivent	être	basée	sur	une	évaluation	clinique
+Evaluation	clinique	:	Quand?
+Avant	la	mise	sur	le	marché
+Et
+Tout	au	long	de	la	durée	de	vie	du	DM	(1.1	quater.)
+Evaluation	clinique	:	pour	quels	DM?
+L’évaluation	clinique	est	
+la	règle	générale	(Annexe	X	1.1)
+…………
+L’absence	d’évaluation	clinique	est	
+l’exception
+Comment	justifier	l’exception?
+La	justification	doit	être	basée	sur	:
+• des	résultats	de	la	gestion	des	risques	
+et	en	tenant	compte	
+• des	caractéristiques	spécifiques	de	l'interaction	entre	le	
+dispositif	et	le	corps	humain,	
+• des	performances	cliniques	recherchées	et	des	
+revendications	du	fabricant.
+Les	cas	particuliers
+§ dispositifs	implantables	et	de	dispositifs	de	classe	III	
+(annexe	X	1.1	bis)
+Ø les	investigations	cliniques	doivent	être	
+réalisées,	sauf	si	le	recours	aux	données	
+cliniques	existantes	peut	être	dûment	justifié.
+Données	cliniques
+Informations relatives	à	la	sécurité et	aux	performances	
+obtenues dans le	cadre	de	l'utilisationclinique d'un	
+dispositif.	
+Données	cliniques
+§ Les	données cliniques proviennent :
+• des	investigation(s)	 clinique(s)	 du	dispositif concerné,	 ou
+• des	investigation(s)	 clinique(s)	 ou d'autres études citées dans la		
+littérature scientifique d'un	dispositif similaire pour	lequel
+l'équivalence avec	le	dispositif concerné peut être démontrée,	 ou
+• des	rapports,	publiés ou non,	relatifs à	une autre expérience clinique
+acquise sur le	dispositif concerné ou un	dispositif similaire pour	lequel
+l'équivalence avec	le	dispositif concerné peut être démontrée
+Données	cliniques
+§ Evaluation	des	données clinique basée sur
+• Evaluation	critique	de	la	littérature scientifique pertinente
+actuellement disponible concernant la	sécurité,	 les	performances,	 les	
+caractéristiques de	conception	et	de	la	destination	du	dispositif
+démontrant l'équivalence du	dispositif avec	le	dispositif auquel se	
+rapportent les	données
+• Evaluation	critique	des	résultats de	toutes les	investigations	cliniques
+réalisées
+• Evaluation	critique	de	la	combinaison des	2	types	ci-dessus
+Les	Guides	d’application
+§ MDEG	(Medical	Devices	Experts	Group)	Autorités	
+Compétentes	
+Ø MEDDEV	2.7.1	:	Evaluation	of	clinical	data:	a	guide	for	manufacturers	
+and	Notified	Bodies
+Ø MEDDEV	2.12-2	:	Post	Market	Clinical	follow	up
+§ Clinical	Evaluation	Task	Force
+Ø Guideline	for	clinical	evaluation	of	coronary	stents
+Document	interprétatif	de	l’ANSM
+§ Evaluation clinique des dispositifs
+médicaux dans le cadre du marquage CE
+(22/01/2015) (64 ko)
+Les	normes	harmonisées
+NF	EN ISO	14155,	Investigation	clinique	des	dispositifs	
+médicaux	pour	sujets	humains	- Bonnes	pratiques	
+cliniques,	Mai	2012
+La	place	du	sous	
+traitant
+La	directive
+§ Annexe	II	3.3	La	procédure	d'évaluation	comprend	
+une	évaluation,	sur	une	base	représentative,	de	la	
+documentation	relative	à	la	conception	du	ou	des	
+produits	concernés,	une	visite	dans	les	locaux	du	
+fabricant	et,	en	cas	dûment	justifié,	dans	les	locaux	
+des	fournisseurs	et/ou	des	sous-traitants	du	
+fabricant,	pour	contrôler	les	procédés	de	fabrication.
+La	maitrise	de	la	sous	traitance
+§ Mise	en	place	de	cahiers	des	charges	techniques	et	
+définition	de	spécifications	(y	compris	exigences	
+réglementaires	ou	normatives)
+§ Certification	qualité	du	sous	traitant
+§ Audit	fabricant
+§ Vérification	produit
+la	recommandation	2013/473/UE	de	la	
+Commission	Européenne
+§ Clarification	sur	les	audits	inopinés
+• Ils	peuvent	avoir	lieu	sur	les	sites	des	fabricants	et	sur	les	
+sites	des	sous-traitants	déterminants	ou	fournisseurs	
+essentiels.
+• Sans	aucune	information	préalable
+• A	la	charge	du	fabricant
+ØModifications	des	contrats	fabricants/sous	traitants
+Sous	traitant	déterminant
+Assure	la	plus	grande	partie	du	développement	de	la	
+conception,	de	la	fabrication,	des	essais	ou	d’un	autre	
+procédé	essentiel…….
+§ La	liste	des	sous	traitants	déterminants	
+§ Les	période	de	fermeture	ou	de	production	
+ØSont	transmise	à	l’ON	par	le	fabricant
+Refus	d’audit	et	sous	traitants
+§ Conséquences	:
+ØRupture	de	contrat	entre	l’ON	et	le	fabricant
+Øsuspension	/	retrait	des	certificats	concernés.
+ØPaiement	des	frais	occasionnés	par	le	déplacement	
+et	l’immobilisation	des	équipes	à	la	charge	du	
+fabricant.
+Pour	aller	plus	loin…
+§ NBOG	2010_1
+http://www.nbog.eu/resources/NBOG_BPG_2010_1.p
+df)
+Recommandation	de	la	commission	2013/473
+La	
+matériovigilance
+Des	obligations	de	MTV	
+§ Pour	les	fabricants:
+• Obligation	de	mettre	en	place	une	procédure	de	
+surveillance	post	marché	(PMS).	AnnexesII,	IV,	V,	VI,	VII	
+des	MDD et	AIMD
+§ Pour	les	états membres
+• Article	8	(AIMD),	Article	10	(MDD)
+Des	textes	d’aides	à	la	mise	en	oeuvre
+§ Guide	MEDDEV	vigilance
+• MEDDEV	2.12-1	rev 8	2012
+• Publication	par	la	Direction	générale	 de	l'industrie	 de	la	Commission	européenne	
+• lignes	directrices	 pour	l'application	des	directives	européennes.
+• pas	de	valeur	réglementaire	 ni	de	caractère	obligatoire
+• Manufacturer’sincident	report
+Les	guides	MEDDEV	sont	accessibles	à	partir	du	
+moteur	de	recherche	sur	le	site www.europa.eu.int	
+Au	niveau	Français
+§ Transposition	des	directives
+• Premier	texte	en	1994/1995
+§ Code	de	la	santé	publique	
+• Livre	II,	Titre	I,	L	5212-1	à	L5212-3
+• Livre	II,	Titre	I,	Chapitre	II	R5212-1	à	R5212-43
+Matériovigilance
+§ Maintenance	(L5212-1)
+• Condition	de	la	maintenance
+• Condition	de	la	revente	de	DM	d’occasion
+§ Vigilance	(L5212-2)
+• Condition	de	déclaration
+• Condition	de	mise	en	œuvre	des	actions	correctives
+§ Règles	particulières	pour	certains	DM	(L5212-3)
+La	matériovigilance	:	
+définition
+§ La	Matériovigilance a	pour	objet la	surveillance	des	
+incidents	ou	des	risques	d’incident	résultant	de	l’utilisation	
+des	dispositifs	médicaux	après	leur	mise	sur	le	marché.
+R5212-1	du	code	de	la	santé	publique
+§ Elle	regroupe:
+• Le	signalement	et	l’enregistrement	des	incidents	ou	des	risques	
+d’incident,	
+• La	réalisation	de	toute	étude	ou	travaux	concernant	la	sécurité	
+d’utilisation	des	dispositifs	médicaux,
+• L’enregistrement,	l’évaluation	et	l’exploitation	de	ces	informations	
+dans	un	but	de	prévention,	
+• La	réalisation	et	le	suivi	des	actions	correctives	décidées
+R5212-2	du	CSP
+Le	fabricant,	les	utilisateurs	d'un	dispositif	et	les	tiers	ayant	connaissance	d'un	
+incidentou	d'un	risque	d'incident	mettant	en	cause	un	dispositif	ayant	
+entraîné	ou	susceptible	 d'entraîner	la	mort	ou	la	dégradation	grave	de	
+l'état	de	santé	d'un	patient,	d'un	utilisateur	ou	d'un	tiers	doivent	le	
+signaler	sans	délai	à	l'Agence	française	 de	sécurité	 sanitaire	des	produits	
+de	santé.	
+Le	fabricant	d'un	dispositif	ou	son	mandataire	est	tenu	d'informer	l'Agence	
+française	de	sécurité	sanitaire	des	produits	de	santé	de	tout	rappel	de	ce	
+dispositif	du	marché,	motivé	par	une	raison	technique	ou	médicale.
+Article	L5212-2	du	CSP
+La	matériovigilance	:	
+périmètre
+• Les	produits	concernés
+• Elle	s’applique	aux	DM	marqués	CE
+• Consommables,	réutilisables,	implantables	ou	équipements
+• Classe	I,	IIa ,	IIb,	III
+• DM	&	DMIA
+• DM	sur	mesure
+§ Quelque	soit	le	mode	de	distribution	:
+• Officines,	établissements	 de	santé,	prestataires,	vente	en	ligne
+§ Quelque	soit	l’utilisateur	final
+• Professionnels	 de	santé,	patients,	collectivités
+§ Quelque	soit	le	mode	de	mise	sur	le	marché
+• Mise	à	disposition	 à	titre	onéreux	ou	gratuit
+• Ainsi	que	les	recherches	de	type	non	interventionnelle	 ou	soins	courants
+§ Elle	ne	s’applique	pas	:
+• Aux	DM	non	marqués	CE
+• Aux	DM	utilisés	dans	le	cadre	d’une	recherche	biomédicale
+• Aux	produits	qui	ne	sont	pas	des	DM
+• Les	événements	concernés
+§ Les	incidents	ou risques d'incidentsmettant en	cause	
+un	dispositif ayant entraîné ou susceptible	
+d'entraîner la	mort	ou la	dégradation grave	de	l'état
+de	santé	d'un	patient,	d'un	utilisateur ou d'un	tiers
+§ Tout	rappel	de	ce	dispositif	du	marché,	motivé	par	
+une	raison	technique	ou	médicale.
+• Les	acteurs	concernés
+§ Les	fabricants,
+§ Les	mandataires,
+§ Les	utilisateurs,
+§ Les	tiers
+Au	niveau	Français
+Ce	qui	relève	de	l’Europe….et	de	la	France
+§ Europe
+• Mise	sur	le	marché	et	de	la	surveillance	du	marché	
+des	DM
+• De	nombreuses	réglementations	Environnement
+§ France
+• essais	cliniques,	matériovigilance
+• La	publicité
+• L’utilisation,	désinfection	stérilisation,	maintenance
+• La	traçabilité
+• Le	remboursement
+Mise	sur	le	
+marché	en	France
+Des	déclarations
+§ Déclaration	de	mise	en	service	des	dispositifs	de	
+classe	IIa,	IIb,	III	
+§ Déclaration	de	l’activité	de	fabrication,	distribution,	
+importation	,	exportation	et	du	type	de	DM	depuis	
+le	27/06/2012
+§ Déclaration	de	l’activité	de	fabricant	ou	mandataire	
+pour	les		DM	de	classe	I,	Is,	Im,	article	12,	
+stérilisation
+Publicité
+Contexte
+Vient	en	complément	des	dispositions
+• Du	code	de	la	consommation	relative	à	la	
+publicité	comparative	et	trompeuse	
+• Du	code	de	la	sécurité	sociale	sur	la	publicité	
+pour	les	DM	remboursables
+• Des	dispositions	du	marquage	CE	sur	les	
+revendications	et	la	démonstration	des	DM	
+non	marqués	CE
+Proche	du	modèle	du	médicament
+Date	- 152
+Les	textes	de	références
+LOI DECRET ARRETES
+Publiée	29/12/11 Publié	10/05/12 Publié	le	3/10/12 Publié	le	27/12/12
+• Définition	de	la	
+publicité
+• Définition	des	
+exclusions
+• Définition	des	
+sanctions
+• Contenu	des	
+mentions	légales
+• Modalités	
+d’autorisation
+• Modalités	 de	
+suspension	 et	de	
+retrait
+DM	relevant	du	
+régime	
+d’autorisation	de	
+la	publicité	(public	
+et	professionnels)
+DM	pris	en	charge	
+par	l’assurance	
+maladie	pouvant	
+faire	l’objet	de	
+publicité	au	public
+26	janvier	2012	- 153
+§ Vous	distribuez,	commercialisez	des	DM
+§ Ces	DM	sont	de	classe	I,	IIa,	IIb,	III,	DMIA,	des	sets	ou	des	
+produits	sur	mesure
+§ Vos	DM	sont	pris	en	charge	ou	non	par	l’assurance	maladie
+§ Vous	diffusez	des	éléments	d’information	sur	vos	produits	à	
+l’aide	de	documents	papiers	ou	électroniques	ou	encore	de	
+goodies
+ØVous	devez	vous	interrogez	sur	la	nature	promotionnelle	ou	
+non	de	vos	éléments
+13/11/2015
+Publicité	:	principes
+• Toutes	les	publicités	doivent	comporter	les	
+mentions	légales	et	être	en	conformité	avec	les	
+dispositions	générales.
+• La	publicité	au	public	pour	les	DM	pris	en	charge	par	
+l’assurance	maladie	est	interdite	sauf	exception
+• La	publicité	pour	les	DM	à	risque	sur	liste	est	
+soumise	à	autorisation
+Date	- 155
+Définition	de	la	publicité
+• Définition
+Une définition très large :
+« toute forme d'information, y compris le démarchage, de prospection ou
+d'incitation qui vise à promouvoir la prescription, la délivrance, la vente
+ou l'utilisation de ces dispositifs, à l'exception de l'information dispensée
+dans le cadre de leurs fonctions par les pharmaciens gérant une
+pharmacie à usage intérieur »
+Ä C’est le contenu qui définit la publicité et pas sa forme
+Définition	de	la	publicité
+• Définition (& L 5213-1 du CSP)
+Les éléments exclus de la publicité définis restrictivement (liste exhaustive)
+Ne	relèvent	pas	de	la	définition	 de	la	publicité :	
+– L’étiquetage	et	la	notice	d’instruction	des	DM	;
+– La	correspondance,	accompagnée	le	cas	échéant	de	tout	document	non	
+publicitaire,	nécessaire	 pour	répondre	à	une	question	précise	sur	un		DM	
+particulier ;
+– Les	informations	relatives	aux	mises	en	garde,	aux	précautions	d’emploi	et	aux	
+effets	indésirables	 relevés	dans	le	cadre	de	la	matériovigilance,	 ainsi	que	les	
+catalogues	de	ventes	et	listes	de	prix	s’il	n’y	figure	aucune	information	sur	le		
+DM	;
+– Les	informations	relatives	à	la	santé	humaine	ou	à	des	maladies	humaines,	
+pour	autant	qu’il	n’y	ait	pas	de	référence	même	indirecte	à	un	DM.
+26	novembre	2012	- 157
+Calendrier
+§ Applicable	depuis	le	1er janvier	2013	à	tous	les	
+document	publicitaires
+Sauf
+§ Les	sites	internet	pour	lesquels	la	réglementation	est	
+applicable	depuis	le	1er janvier	2015
+IFIS	21	janvier	2013
+Promotion Informations Formation	à	l’utilisation Informations	
+institutionnelles
+Toute	forme	d’information	y	
+compris	le	démarchage,	de	
+prospection	ou	d’incitation	
+en	vue	de	promouvoir	la	
+prescription,	la	délivrance,	la	
+vente	ou	l’utilisation	des	DM
+• Documents	d’information	
+patient	:
+Ø Livret	d’information	
+patient
+Ø Catalogue	de	vente
+Ø carte	patient
+• Documents	d’information	
+destinés	aux	
+professionnels
+Ø Mode	d’emploi	simplifié
+Ø Information	sur	la	
+maintenance	et	le	
+traitement	des	DM
+Ø Catalogue	de	vente
+Ø Fiche	technique
+Ø Posters	scientifiques	
+• Documents	destinés	
+aux	professionnels	
+pour	la	formation	
+des	patients	
+• Formation	à	
+l’utilisation	des	DM	
+quel	que	soit	le	
+support
+• Démonstration	du	
+mode	d’utilisation
+• Technique	
+opératoire
+• Informations	relatives	à	
+l’entreprise	
+• Informations	relatives	à	
+l’environnement	des	
+produits	(logistique,	,	
+documents	sur	l’hygiène,		
+pathologies,	
+environnement,	
+traitement	des	déchets…)
+• Rapport	d’activité	
+• Entrée	en	bourse
+Quelques	exemples	de	ce	qui	doit	vous	alerter
+Nouveau
+Exceptionnel
+Optimisé
+Parfaitement	adapté
+Amélioré
+En	toute	sécurité,	facile,	sûre….
+Efficace	à	x	%
+Précision	constante,	atraumatique
+Prévenez	tous	les	risques……
+13/11/2015
+Publicité	
+Les	règles	communes:	
+professionnels	et	
+public
+Règles	générales
+Elle	doit Elle	ne	doit	pas
+Ø Objective
+Ø Exacte
+Ø A	jour
+Ø Vérifiable
+Ø Bon	usage
+Ø Suffisamment	complète
+Ø Lisible
+Ø En	français
+ØEtre	trompeuse
+ØPrésenter	un	risque	pour	
+la	santé	publique
+ØMentionner	la	position	
+d’une	autorité	en	en	
+altérant	le	sens
+Règles	générales
+Toute	allégation	
+doit	pouvoir	être	soutenue	par	
+une	justification,	une	preuve
+Mode	de	preuve
+Ø Notices
+Ø Etiquetages
+Ø Publications
+Ø Etudes	internes
+Ø Partie	du	dossier	de	marquage	CE
+Ø Avis	CNEDIMTS/CEPPP
+Procédure	d’autorisation
+Concerne	uniquement	:
+ØLes	documents	et	objets	promotionnels!
+ØPortant	sur	les	produits	relevant	d’un	régime	
+d’autorisation
+Les	DM	concernés	:
+Arrêté	du	24	septembre	2012	
+modifié	le	22	mars	2013
+Publicité	au	public	et	autorisation
+produits	de	comblement	des	dépressions	
+cutanées
+Publicité	aux	professionnels	et	autorisation
+Cardiologie	:
+―	défibrillateur	cardiaque	implantable	;
+―	sonde	de	défibrillation	 cardiaque	
+implantable	 ;
+―	stimulateur	cardiaque	implantable								
+et	ses	accessoires	 ;
+―	sonde	de	stimulation	 cardiaque	
+implantable	 ;
+―	stent coronaire.
+Orthopédie-Traumatologie	:
+―	prothèse	de	cheville	;
+―	prothèse	de	genou	;
+―	prothèse	de	hanche	;
+―	prothèse	d'épaule.
+Ophtalmologie	:
+―	lentille	 intraoculaire.
+Chirurgie	réparatrice	:
+―	implant	mammaire	;
+―	produits	de	comblement	des			
+dépressions	 cutanées.
+Neurologie-neurochirurgie	:
+―	stent	intracrânien.
+Spécialité	médicale	et	chirurgicale	
+―	générateur	de	laser	chirurgical.
+Date	- 170
+Publicité
+Non	soumis	aux	
+règles	publicité	du	
+du	CSP
+Destinataires	?
+Professionnels Public
+Prise	en	charge	
+(LPP)
+DM	sur	liste	2	
+public
+Mentions	
+obligatoires
+Mentions	
+obligatoires
+DM	hors	
+liste	2	public
+Interdite
+Mentions	
+obligatoires	pro
+DM	sur	liste	1	
+autorisation
+Soumise	à	
+autorisation
+DM	hors	liste	1	
+autorisation
+Possible
+NON
+Possible
+OUI
+OUI
+OUI
+NON
+DM	sur	liste	1*	
+autorisation
+Soumise	à	
+autorisation
+DM	hors	liste	
+autorisation
+Possible
+Des	contraintes	
+« utilisateurs »	et	des	
+conséquence	pour	les	
+industriels
+Des	obligations	de	maintenance
+§ Pour	l’exploitant
+§ DM	de	classe	IIb,	III
+§ Obligatoire	pour	certains	DM
+• Contrôle	interne	
+• Et/ouContrôle	externe
+• Sauf	justification
+Des	obligations	de	traçabilité
+§ Pour	les	DM	implantables	(sauf	exception),	ainsi	que	
+les	DM	contenant	des	produits	dérivés	du	sang
+§ Une	obligation	de	résultat	pour	les	professionnels	de	
+santé
+§ Une	obligation	de	moyen	pour	les	industriels
+• Mise	à	disposition	d’outils
+• Format	:	GS1
+• Support	:	code	barre,	datamatrix,	puce	RFID
+• Contenu	:	nom	fabricant	lot	péremption
+Des	obligations	relatives	à	la	désinfection	et	à	
+stérilisation
+§ Instruction	DGS	R13
+§ Endoscope
+• Type	de	traitement
+• Traçabilité	des	traitement
+• Traçabilité	des	patients.
+Les	sanctions	en	
+cas	de	
+manquement	à	la	
+réglementation
+…
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Matériovigilance	 :	
+• Défaut	de	signalement	 par	le	fabricant,	l'importateur	ou	le	distributeur	 d’un	
+incident	ou	risque	d’incident	grave	à	l’ANSM	
+• Défaut	d’information	 de	l’ANSM	de	tout	rappel d'un	dispositif	médical	
+motivé	par	une	raison	technique	ou	médicale	par	le	fabricant	ou	son	
+mandataire
+2	types	des	sanctions	encourues	
+CA	du	23	janvier	2014		- 176
+2	ans	d’emprisonnement
+et	de	150 000	€ d’amende
+(Avant	:	3	ans	/	45	000€)	
+Sanction financière / DG de l’ANSM
+> à 150 000 € pour une personne physique
+> à 30 % du CA réalisé lors du dernier
+exercice clos pour le produit ou le groupe
+de produits concernés (dans la limite d'un
+million d'euros) pour une personne
+morale.
++
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Matériovigilance	 (suite)	:	
+• Défaut	de		désignation	 d’un	correspondant	 de	matériovigilance	
+• Défaut	de	communication	 du	nom	du	correspondant	 de	matériovigilance	
+au	DG	de	l’ANSM	
+ð Sanction	 financière		:	
+- personne	 physique	:		ne	peut	être	supérieur	 à	150	000	€
+- personne	 morale	:	10	%	du	chiffre	d'affaires	réalisé	lors	du	dernier	exercice	
+clos,	dans	la	limite	de	1	000	000	€
+CA	du	23	janvier	2014		- 177
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Matériovigilance	 :	introduction	 de	nouvelles	sanctions	 pour	les	acteurs	de	
+santé
+• Défaut	d’information	 pour	un	établissement	 de	santé,	un	syndicat	inter	
+hospitalier,	 un	groupement	de	coopération	sanitaire	ou	une	association	de	
+ne	pas	désigner	 un	correspondant	 local	de	matériovigilance	 ou	de	ne	pas	
+communiquer	le	nom	de	ce	correspondant	 local	au	directeur	 général	de	
+l'ANSM	
+• Défaut	de	signalement	 d’un	incident	ou	de	risque	d’incident		grave	par	un	
+professionnel	 de	santé		à	l’ANSM	
+Contravention	de	5ème classe
+(1	500	€ art	131-13	Code	pénal)		
+CA	du	23	janvier	2014		- 178
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM :
+• Importation,	mise	sur	le	marché,	mise	en	service	 ou	utilisation	d’un	DM	:	
+• SANS	le	certificat	de	conformité	
+• NON	conforme	aux	exigences	essentielles	
+• Certification	 de	conformité	n’est	plus	valide
+2	types	des	sanctions	encourues	
+CA	du	23	janvier	2014		- 179
+5	ans	d'emprisonnement	
+et	de	375	000	€ d'amende
+(Avant	:	2	ans	/	30	000€)	
+Sanction financière / DG de l’ANSM
+> à 150 000 € pour une personne physique
+> à 30 % du CA réalisé lors du dernier
+exercice clos pour le produit ou le groupe
+de produits concernés (dans la limite d'un
+million d'euros) pour une personne
+morale.
++
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM (suite)	:
+§ Peines	augmentées		:	
+Si	:	
+• DM	commercialisé	 pouvant	entraîner	un	risque	grave	pour	la	santé	de	l'homme
+• Importation,	mise	sur	le	marché,	mise	en	service	ou	utilisation	 d’un	DM	sans	certificat	
+de	conformité		CE	ou	un	DM	non	conforme	aux	exigences	 essentielles	 ou	dont	la	
+certification	de	conformité	n’est	plus	valide	en	bande	organisée	
+• Importation,	mise	sur	le	marché,	mise	en	service	ou	utilisation	 d’un	DM	sans	certificat	
+de	conformité		CE	ou	un	DM	non	conforme	aux	exigences	 essentielles	 ou	dont	la	
+certification	de	conformité	n’est	plus	valide	sur	un	réseau	de	télécommunication	à	
+destination	d'un	public	non	déterminé.
+CA	du	23	janvier	2014		- 180
+7	ans	d'emprisonnement	
+et	750	000	€ d'amende
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM :
+• Mise	en	service	 une	catégorie	de	dispositif	médical	sans	procéder	à	la	
+communication	 des	données	
+2	types	des	sanctions	encourues	
+CA	du	23	janvier	2014		- 181
+150 000	€ d’amende
+(Avant	:	30	000€)	
++
+Sanction financière / DG de l’ANSM
+> à 150 000 € pour une personne physique
+> à 10 % du CA réalisé lors du dernier
+exercice clos pour le produit ou le groupe
+de produits concernés (dans la limite d'un
+million d'euros) pour une personne morale.
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM (suite)	:
+• Défaut	de	déclaration	à	l’ANSM	/	fabricants	de	dispositifs	 médicaux	ou	leurs	
+mandataires,	toute	personne	se	livrant	à	la	fabrication,	la	distribution,	l'importation	
+ou	l'exportation,	même	à	titre	accessoire,	de	DM
+2	types	des	sanctions	encourues	
+CA	du	23	janvier	2014		- 182
+1	an	d’emprisonnement
+et	de	75 000	€ d’amende	
++
+Sanction financière / DG de l’ANSM
+> à 150 000 € pour une personne physique
+> à 30 % du CA réalisé lors du dernier exercice
+clos pour le produit ou le groupe de produits
+concernés (dans la limite d'un million d'euros)
+pour une personne morale.
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM (suite)	:
+• Déclaration	 de	conformité	et	documentation	 technique	établie	dans	le	
+cadre	de	la	procédure	de	certification	
+- le	fait	pour	le	fabricant	d'un	DM	ou	son	mandataire,	de	ne	pas	tenir	à	la	
+disposition	du	DG	de	l'ANSM	les	déclarations	 de	conformité	et	les	
+documentations	 techniques	 établies	dans	le	cadre	des	procédures	de	
+certification	 ainsi	que	les	décisions	et	rapports	des	organismes	habilités	
+ayant	participé	à	ces	procédures	
+ð Sanction	 financière	(avant	contravention	de	5ème classe)	:		
+- personne	 physique	:	ne	peut	être	supérieur	 à	15	000	€
+- personne	 moral	:	5	%	du	CA	réalisé	lors	du	dernier	 exercice	clos,	dans	la	
+limite	de	100	000	€
+CA	du	23	janvier	2014		- 183
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM (suite)	:
+• Déclaration	 de	conformité	et	documentation	 technique	établie	dans	le	
+cadre	de	la	procédure	de	certification	 (suite)
+- le	fait	pour	le	fabricant	d'un	dispositif	médical	ou	son	mandataire,	de	ne	
+pas	présenter,	 sur	demande	des	inspecteurs	 de	l’ANSM	ou	des	ARS	ainsi	
+que	des	médecins	et	pharmaciens	 inspecteurs,	 les	déclarations	de	
+conformité	et	les	documentations	 techniques	établies	dans	le	cadre	des	
+procédures	 de	certification	ainsi	que	les	décisions	et	rapports	des	
+organismes	habilités	ayant	participé	à	ces	procédures
+ð sanction	 financière	(avant	contravention	de	5ème classe)	:
+- personne	 physique	:	ne	peut	être	supérieur	 à	15	000	€
+- personne	 morale	:	5	%	du	CA	réalisé	lors	du	dernier	exercice	 clos,	
+dans	la	limite	de	100	000	€
+CA	du	23	janvier	2014		- 184
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM (suite)	:
+• Défaut	de	déclaration	 d’activités	à	l’ANSM	/ toute	personne	ayant	son	
+siège	social	en	France	qui	met	sur	le	marché	un	DM	de	classe	I	ou	un	DM	
+sur	mesure	sans	procéder	
+ð sanction	 financière	(avant	contravention	de	5ème classe)	:
+- personne	 physique	:	ne	peut	être	supérieur	 à	15	000	€
+- personne	 morale	:	15	%	du	CA	réalisé	lors	du	dernier	exercice	 clos	pour	le	
+produit	ou	le	groupe	de	produits	concernés,	 dans	la	limite	de	100	000	€
+CA	du	23	janvier	2014		- 185
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM (suite)	:
+• Défaut	de	déclaration	 d’activités	à	l’ANSM	/ toute	personne	ayant	son	
+siège	social	en	France	qui	met	sur	le	marché	un	dispositif	médical	revêtu	
+du	marquage	CE	et	conçu	par	le	fabricant	pour	être	stérilisé	avant	usage
+ð sanction	 financière	(avant	contravention	de	5ème classe)	:
+- personne	 physique	:	ne	peut	être	supérieur	 à	15	000	€
+- personne	 morale	:	15	%	du	CA	réalisé	lors	du	dernier	exercice	 clos	pour	le	
+produit	ou	le	groupe	de	produits	concernés,	 dans	la	limite	de	100	000	€
+CA	du	23	janvier	2014		- 186
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Mise	sur	le	marché	/	mise	en	service	du	DM (suite)	:
+• Défaut	de	déclaration	 d’activités	à	l’ANSM	/ toute	personne	ayant	son	
+siège	social	en	France	qui	met	sur	le	marché	des	dispositifs	assemblés	 en	
+vue	de	constituer	un	système	ou	un	nécessaire	
+ð sanction	 financière	(avant	contravention	de	5ème classe)	:
+- personne	 physique	:	ne	peut	être	supérieur	 à	15	000	€
+- personne	 morale	:	15	%	du	CA	réalisé	lors	du	dernier	exercice	 clos	pour	le	
+produit	ou	le	groupe	de	produits	concernés,	 dans	la	limite	de	100	000	€
+CA	du	23	janvier	2014		- 187
+Nouvelles	sanctions	pénales	et	financières	applicables	aux	DM	
+Traduction	en	pratique	!	
+§ Publicité	
+• réalisation,	diffusion	ou	faire	diffuser	une	publicité		qui	ne	bénéficie	 pas	ou	
+plus	de	l’autorisation	 (fabricants	 de	DM	ou	leurs	mandataires,	 toute	personne	
+qui	se	livre	à	la	distribution	ou	à	l'importation	de	DM)
+2	types	des	sanctions	encourues	
+ð l'agence	peut	prononcer	 une	interdiction	 de	la	publicité	concernée	par	le	
+manquement,	 après	que	l'entreprise	concernée	a	été	mise	en	demeure	
+CA	du	23	janvier	2014		- 188
+1	ans	d’emprisonnement
+et	de	150 000	€ d’amende	
+Sanction financière / DG de l’ANSM
+> à 150 000 € pour une personne physique
+> à 30 % du CA réalisé lors du dernier
+exercice clos pour le produit ou le groupe
+de produits concernés (dans la limite d'un
+million d'euros) pour une personne
+morale.
++ (Avant	:	2	ans	/	30	000€)	
+Recast – Refonte	des	Directives
+§ Depuis	1990,	3	directives
+• DMIA
+• DM
+• DMDIV
+§ En	2007	,	la	directive	2007/47	modifie	une	première	
+fois	ces	3	directives:	pas	de	révolution	,mais	des	
+évolutions
+§ Besoin	de	regrouper	UN	texte	pour	ces	3	directives	:
+la	refonte	des	3	directives	en	1	règlement
+Règlement		/	Quelle	différence	avec	Directive?
+§ Pas	de	transposition	en	droit	national
+§ Application	immédiate
+§ Bien	sûr	une	période	de	transition	
+§ Et	quand	même	des	initiatives	laissées	aux	états	
+membres
+Calendrier
+§ Une	première	consultation	en	Juin/Juillet	2008
+§ Proposition	publiée	le	26	septembre	2012
+§ Vote	des	amendements	au	parlement	le	22	octobre	
+2013/vote	du	rapport	le	3	avril
+§ Vote	au	conseil	en	2015
+§ Application	2019
+Points	de	modification	et	d’impact
+§ Reclassification	de	certains	DM
+§ Définition	des	opérateurs		économiques
+• Fabricant
+• Mandataire
+• Distributeur
+• Importateur
+§ Désignation	et	contrôle	des	Organismes	Notifiés
+§ Audits	inopinés	des	ON	chez	les	fabricants
+§ Résumé	des	Caractéristiques	DM	(	RCD)
+§ Pour	DMI	:	carte	patient
+§ Renforcement	du	rôle	des	essais	cliniques	pour	
+obtention	marquage	CE
+§ Scrutiny process renforcé	(	forte	action	de	lobbying	
+des	syndicats	professionnels	« contre »	le	process )
+§ Matériovigilance /	Contact
+§ Base	EUDAMED
+§ Suivi	post	marketing
+§ Obligations	des	opérateurs	qui	ne	sont	pas	fabricants
+§ Substances	dangereuses	(	identification	,	labelling..)
+§ Reprocessing .La	France	y	est	totalement	opposée.
+• Un	établissement	de	santé	devient	fabricant…nos	clients	
+pharmaciens	hospitaliers	ne	sont	pas	conscients	!
+§ UDI	à	mettre	en	place
+§ Une	personne	Responsable		(	pas	seulement	un	
+diplôme	mais	une	qualification)
+DM
+modes	et	
+procédures	
+de	prise	en	charge
+Dispositifs	Médicaux
+- Prise	en	charge	-
+§ Tout	DM	ayant	satisfait	aux	procédures	 liées	à	l’obtention	 du	marquage	
+“CE”	est	autorisé	 sur	le	marché	français	(et	européen)
+§ Attention	! L’obtention	 du	Marquage	CE	pour	un	DM	ne	lui	confère	pas	
+systématiquement	 une	prise	en	charge	par	l’Assurance	 Maladie	!
+UN	SYSTÈME	COMPLEXE	qui	dépend
+- Du	lieu	de	distribution	(ville/hôpital)
+- De	l’usage	du	DM	(individuel	ou	lié	à	l’acte)
+197
+Dispositifs	Médicaux
+- Prise	en	charge	-
+§ Usage	individuel	:	inscription	sur	
+la	liste	LPPR	:	liste	positive	avec	
+une	évaluation	systématique	ou	
+ciblée
+§ Lié	à	l’acte	:	inscription	de	l’acte	à	
+la	CCAM	(Classification	 commune	
+des	Actes	Médicaux)	et	le	prix	du	
+DM	est	compris	dans	celui	de	
+l’acte
+• Cadre	général	:	financement	
+dans	le	cadre	des	prestations	
+d’hospitalisation (Intra	GHS)	et	
+le	DM	est	compris	dans	le	tarif	
+d’hospitalisation
+• Liste	de	DM	financés	en	plus	
+des	prestations	
+d’hospitalisation	 (hors	GHS)	:	
+inscription	LPPR
+Nécessité	 d’avoir	l’acte	inscrit	
+sur	la	CCAM
+En	ville A	l’hôpital
+Prise	en	charge	via	la	LPPR	(L165-1)
+« Le	remboursement par	l’assurance	maladie	des	dispositifs	médicaux	à	usage	
+individuel,	des	tissus	et	cellules	issus	du	corps	humain	quel	qu’en	soit	le	degré	de	
+transformation	et	de	leurs	dérivés,	des	produits	de	santé	autres	que	les	
+médicaments	visés	à	l’article	L.	162-17	et	des	prestations	de	services	et	
+d’adaptation	associées	est subordonné	à	leur	inscription	sur	une	liste	(LPPR)	
+établie après	avis	d’une	commission dont	le	secrétariat	est	assuré	par	la	HAS.		
+L’inscription est	effectuée soit	par	la	description	générique de	tout	ou	partie	du	
+produit	concerné,	soit	sous	forme	de	marque	ou	de	nom	commercial.	L’inscription	
+à	la	liste	peut	elle-même	être	subordonnée	au	respect	de	spécifications	
+techniques,	d’indications	thérapeutiques	ou	diagnostiques,	et	de	conditions	
+particulières	de	prescription	et	d’utilisation. »
+§ L’inscription sur cette liste conditionne le remboursement par
+l’Assurance Maladie.
+La liste est établie après avis de la CNEDIMTS (HAS). Elle est constituée de 4
+titres dans lesquels les produits sont répartis de la façon suivante :
+• Titre I : Appareils d’assistance respiratoire, oxygénothérapie à
+domicile, dispositifs médicaux de maintien à domicile,
+nutrition et articles divers
+• Titre II : orthèses, optique, appareils de surdité, prothèses
+externes non orthopédiques, prothèses oculaires et
+faciales, chaussures orthopédiques, orthèses …
+• Titre	III	:	 Implants
+• Titre	IV	:	 Véhicules	pour	personnes	 handicapées
+Contenu	de	la	LPPR	?
+Processus	d’Evaluation	pour	le	remboursement	
+via	la	LPPR
+Deux	instances :
+• CNEDiMTS* :	Commission	Nationale	d’Evaluation	des		DM	et	des	
+Technologies	 de	Santé	(HAS)
+• CEPS :	Comité	Economique	des	Produits	de	Santé
+Scission	des	deux	évaluations
+• Evaluation	scientifique	 (CNEDiMTS)
+• Evaluation	économique	 (CEPS).	Le	CEPS	détermine	les	tarifs	de	
+remboursement	 des	produits	et	prestations		et	le	cas	échéant	leurs	
+prix	de	vente
+*	CEPP	devenue	CNEDiMTS (JO	040909)
+Procédure	d’inscription
+Décision
+et
+Publication
+au JO de
+l’arrêté
+d’inscription
+Copie du dossier de
+demande d’inscription
++
+dossier économique
+Dossier Médico-
+technique
+Ministères
+de la Sécurité
+Sociale
+et de la Santé
+Avis
+Avis économique
+CNEDiMTS*
+Délai : 180 jours
+réception publication
+Avis
+Fabricant
+Fournisseur
+Prestataire de
+service
+Comité
+Economique des
+Produits de Santé
+Deux	modes	d’inscription	sur	la	LPPR
+Description	 générique
+§ 1	ligne	pour	tous	les	dispositifs	avec	le	même	service	 rendu,	le(s)	même(s)
+indication(s)
+§ Spécifications	techniques	 minimales	identiques
+§ Auto-inscription	 par	le	fabricant,	pas	de	contrôle	a	priori	par	la	CNEDiMTS,	
+mais
+§ déclaration	du	code	LPP	à	l’Afssaps	 /	ANSM
+Nom	de	marque	/	nom	commercial
+§ 1	ligne	par	dispositif
+§ Dépôt	d’un	dossier	 (données	 cliniques)	et	évaluation	par	la	CNEDiMTS
+§ Éventuellement,	 conditions	particulières	 d’utilisation
+§ Produit	à	caractère	innovant	ou	avec	nécessité	 de	suivi	médical	ou	
+économique
+Inscription	sur	la	LPPR
+Éléments-clés	de	l’avis	de	la	CNEDiMTS
+• Service	Attendu	(SA)	fonction	de	2	critères
+• Intérêt	du	produit
+- Rapport	Effets	thérapeutiques	 /	Effets	indésirables	 ←	essais	cliniques	
+(méthodologie	 +++++)
+- Place	dans	la	stratégie	thérapeutique
+• Intérêt	de	santé	publique
+- Impact	sur	la	santé de	la	population	(mortalité,	morbidité,	qualité	de	vie)…..
+• Amélioration	 du	Service	Attendu	(ASA)	/	un	comparateur	pertinent	←	essais	
+cliniques	comparatifs
+• Population cible : Estimation du nombre de patients relevant des indications
+thérapeutiques identifiées par la CNEDiMTS
+• Etudes Post-inscriptions
+Inscription	sur	la	LPPR
+§ Quelques	règles…..	
+• SA	suffisant	ou	insuffisant
+Pas	de	Service	Attendu pas	d’inscription	sur	LPP
+• Le	niveau	d’Amélioration	du	Service	Attendu	(ASA)
+intervient	dans	la	fixation	du	tarif	par	le	CEPS
+ASA	I	à	V
+I	:	amélioration	majeure
+II	:	amélioration	importante
+III	:	amélioration	modérée
+IV	:	amélioration	mineure
+V	:	absence	d’amélioration
+205
+Dispositifs	Médicaux
+- Prise	en	charge	-
+• Usage	individuel	:	inscription	sur	
+la	liste	LPPR	:	liste	positive	avec	
+une	évaluation	systématique	ou	
+ciblée
+• Lié	à	l’acte	:	inscription	de	l’acte	à	
+la	CCAM	(Classification	 commune	
+des	Actes	Médicaux)	et	le	prix	du	
+DM	est	compris	dans	celui	de	
+l’acte
+• Cadre	général	:	financement	
+dans	le	cadre	des	prestations	
+d’hospitalisation	 (Intra	GHS)	et	
+le	DM	est	compris	dans	le	tarif	
+d’hospitalisation
+• Liste	de	DM	financés	en	plus	
+des	prestations	
+d’hospitalisation	 (hors	GHS)	:	
+inscription	LPPR
+Nécessité	 d’avoir	l’acte	inscrit	
+sur	la	CCAM
+En	ville A	l’hôpital
+Prise	en	charge	du	DM
+au	travers	des	tarifs	des	actes
+§ Les produits concernés sont les équipements et les
+équipements associés à des consommables à usage
+individuel
+§ Evaluation scientifique de la technique et de l’acte associé
+par la CNEDIMTS
+§ Evaluation économique par l’UNCAM
+§ Cette procédure n’est encadrée par aucun délai
+Prise	en	charge	du	DM
+au	travers	des	tarifs	des	actes
+L’inscription de l’acte sur la liste d’actes remboursés :
+classification commune des actes remboursés – CCAM –
+relève de la responsabilité de l’UNCAM
+Ø Les travaux préparatoires à l’inscription sont réalisés par la
+Commission de hiérarchisation des actes professionnels – CHAP
+Ø Les tarifs des actes sont négociés dans le cadre des conventions
+médicales signées entre les syndicats de professionnels de santé
+et l’UNCAM
+208
+Actes
+Industriels CHU et professionnels de santé
+ou
+UNCAM
+Demandeur de la prise en charge
+Évaluation du service attendu ou rendu
+Décision de prise en charge
+Ministère de la santé
+Établitla liste des dispositifs médicaux remboursables
+UNCAM
+Établitla liste des actes remboursables
+*EMEA : Agence européennedes médicaments
+Fixation des prix
+CEPS
+Fixe le prix des dispositifs après négociation
+avec les industriels
+UNCAM
+Fixe les tarifs et les taux de remboursementdes
+actes après négociationavec les représentants des
+professionnels de santé
+CNEDiMTS
+CNEDiMTS
+DM
+180	
+jrs
+Pas	de	
+délais
+Sauf	
+saisine
+209
+Dispositifs	Médicaux
+- Prise	en	charge	-
+• Usage	individuel	:	inscription	sur	
+la	liste	LPPR	:	liste	positive	avec	
+une	évaluation	systématique	ou	
+ciblée
+• Lié	à	l’acte	:	inscription	de	l’acte	à	
+la	CCAM	(Classification	 commune	
+des	Actes	Médicaux)	et	le	prix	du	
+DM	est	compris	dans	celui	de	
+l’acte
+• Cadre	général	:	financement	
+dans	le	cadre	des	prestations	
+d’hospitalisation (Intra	GHS)	et	
+le	DM	est	compris	dans	le	tarif	
+d’hospitalisation
+• Liste	de	DM	financés	en	plus	
+des	prestations	
+d’hospitalisation	 (hors	GHS)	:	
+inscription	LPPR
+Nécessité	 d’avoir	l’acte	inscrit	
+sur	la	CCAM
+En	ville A	l’hôpital
+Prise	en	charge	du	DM
+au	travers	des	tarifs	des	forfaits	hospitaliers
+§ Depuis le mise en place de la T2A, dans les établissements de
+santé publics ET privés, le dispositif médical est compris dans
+le forfait d’hospitalisation SAUF pour certains DM qui
+peuvent être pris en charge en sus du forfait
+d’hospitalisation.
+§ Le DM pris en charge dans les forfaits accède au marché
+après le marquage CE sans procédure supplémentaire
+§ Les	DMI	remboursés	en	sus	des	GHS	sont	soumis	à	une	
+« réglementation»	spécifique	:
+• Nécessité	d’être	inscrit	préalablement	sur	la	LPP
+La	T2A	:	rappel	des	principes
+§ Définition : Mode d’allocation de ressources des
+établissements hospitaliers fondé sur un système de
+paiement forfaitaire prospectif
+• Repose sur l’activité mesurée à l’aide du Programme Médicalisé des
+Systèmes d’Information (PMSI)
+• Approche par groupes homogènes de malades déclinés en groupes
+homogènes de séjours auxquels sont attribués des tarifs forfaitaires
+• ENCC
+• Réforme majeure inscrite dans le Plan Hôpital 2007
+Financements	directement	
+liés	à	l’activité
+Autres	financements,	
+transversaux
+(2
+)
+Forfait par séjour
+(GHS)
+Actes externes; forfaits Dialyse;
+forfaits HAD (GHT), Urgences
+DMI, sur une liste
+« en sus »
+Forfaits annuels :
+« Urgences »
+« P.O. »*
+Missions
+d’Intérêt Général et
+d’Aide à la
+Contractualisation
+(MIGAC)
+(MERRI=Missions
+Enseignement Recherche
+Recours Innovation)
+(1)
+(3
+)
+(4)
+(5)
+Principes	de	la	T2A
+*P.O.: prélèvements d’organes
+Les	modifications	apportées	par	la	Loi	de	
+Renforcement	de	la	Sécurité	Sanitaire	des	produits	de	
+santé	:	décembre	2011
+§Article 35 → Création du L165-1-2 du CSS :
+Contrôle du respect desspécificationstechniques
+§Article 37 → Création de 3 articles (L165-11, 12 et 13) :
+Evaluation,par la HAS, des dispositifsmédicaux
+« intra GHS »
+Evaluation	des	DM	intraGHS
+Article	37	de	la	loi	de	Renforcement	de	la	sécurité	sanitaire
+= Création d’une liste « agrément aux collectivités »
+« Art. L. 165-11. − I. – L’achat, la fourniture, la prise en charge et l’utilisation par
+les établissements de santé (…) des produits de santé (…), financés au titre des
+prestations d’hospitalisation définies à l’article L. 162-22-6 et qui entrent dans
+des catégories homogènes définies par arrêté des ministres chargés de la santé
+et de la sécurité sociale, sont limités aux produits inscrits sur une liste établie
+par arrêté des mêmes ministres après avis de la commission mentionnée à
+l’article L. 165-1 [la HAS].
+Evaluation	des	DM	intraGHS
+Article	37
+Définition des catégories homogènes
+«	II.	– Les	catégories	homogènes	 comprennent	les	produits	de	santé	qui,	pour	
+justifier	de	leur	financement	 dans	le	cadre	des	prestations	d’hospitalisation,	
+doivent	répondre,	au	regard	de	leur	caractère	invasif	ou	des	risques	qu’ils	
+peuvent	présenter	 pour	la	santé	humaine,	à	au	moins	l’une	des	exigences	
+suivantes	:
+1) La	validation	de	leur	efficacité	clinique	
+2)	La	définition	de	spécifications	 techniques	particulières	
+3)	L’appréciation	 de	leur	efficience au	regard	des	alternatives	 thérapeutiques	
+disponibles
+Evaluation	des	DM	intraGHS
+Article	37
+§ III.	– En	vue	de	l’inscription	éventuelle	 sur	la	liste,	les	fabricants	de	produits	
+de	santé	appartenant	 aux	catégories	 homogènes	déposent	une	demande	
+d’inscription	 auprès	de	la	CNEDiMTS
+§ «	IV.	– L’inscription	sur	la	liste	est	prononcée	pour	une	durée	déterminée,	
+renouvelable.	 L’inscription	 ou	le	renouvellement	 d’inscription	 peuvent	être	
+notamment	assortis	 de	conditions	 de	prescription	 et	d’utilisation	 et	
+subordonnés	 à	la	réalisation	par	les	fabricants	d’études	complémentaires	
+demandées	 sur	les	produits	de	santé.
+Les	conditions	d’application,	notamment	les	modalités	de	détermination	des	catégories	homogènes	
+de	produits	de	santé	concernées,	les	modalités	d’inscription	de	ces	produits	sur	la	liste	mentionnée	
+au	I,	les	modalités	d’évaluation	et	les	délais	de	procédure,	seront	fixées	par	décret	en	Conseil	d’Etat
+Contrôle	des	spécifications	techniques
+Article	35
+« Art. L. 165-1-2.
+- Pour les produits inscrits sur la LPPR et relevant du champ de compétence de
+l’ANSM,
+- l’ANSM peut effectuer ou faire effectuer par des organismes compétents un
+contrôle du respect des spécifications techniques auxquelles l’inscription sur la
+liste est subordonnée.
+-Le comité peut fixer une pénalité financière à la charge du fabricant < à 10 %
+du chiffre d’affaires hors taxes réalisé en France par le fabricant au titre du
+dernier exercice clos pour le ou les produits considérés. Le montant de la
+pénalité est fixé en fonction de la gravité du manquement constaté.
+-Décret d’application
+Merci	de	votre	attention
+

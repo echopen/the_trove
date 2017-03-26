@@ -1,0 +1,258 @@
+# CAPTech
+
+'''DATE''' : 24 novembre 2015 | '''HORAIRES''' : 09.30 - 17.00 | '''LIEU''' : [https://www.google.fr/maps/place/1+Parvis+Notre-Dame+-+Pl.+Jean-Paul+II,+75004+Paris-4E-Arrondissement/@48.8539541,2.346142,17z/data=!3m1!4b1!4m2!3m1!1s0x47e671e1a22a2c85:0xa21c95b447836ce8 echopen]  Hotel Dieu 1, place du parvis Notre Dame 75004 Paris (Batiment A1, 6ème étage)
+
+= Overview =
+
+{| class="wikitable"
+|-
+|<div style="text-align: center;"><b>'''Qu'allons-nous faire ?'''</b>
+|<div style="text-align: center;"><b>'''De qui avons-nous besoin ?'''</b>
+|<div style="text-align: center;"><b>'''Quels seront les livrables ?'''</b>
+|-
+|
+* Echanger et passer un bon moment 
+* Sur la base des contraintes, choisir un cap technologique (architecture fonctionnelles et interfaçée)
+* Identifier les solutions pour améliorer les modules techniques de la sonde 
+|
+* De vous tous pour offrir votre regard 
+* Cf. Ci-dessous pour la liste des compétences 
+|
+* Un cap technologiques clair et une architecture validée
+* Une roadmap => février 2016
+* L'intégration des participants dans le projet
+|}
+
+==Profils recherchés==
+
+{| style="border: none;"
+|-
+| width="24%" style="border: none;" |
+*'''Electronique'''
+** électronique de puissance
+** électronique analogique
+** capteur/mesure physique
+** électronique composant programmable (microcontroleur, FPGA)
+** design de carte électronique
+** mécatronique
+| width="1%" style="border: none;" |
+| width="24%" style="border: none;" |
+*'''Mécanique, matériaux'''
+** mécanique des pièces tournantes
+** matériaux polymère/bio-compatible
+** matériaux piezoélectrique
+| width="1%" style="border: none;" |
+| width="24%" style="border: none;" |
+*'''Traitement des données'''
+** acoustique médicale
+** traitement du signal
+** développeurs android
+| width="1%" style="border: none;" |
+| width="24%" style="border: none;" |
+*'''Autre'''
+** normes biomédicales
+** design
+|}
+
+= Programme du workshop du 24.11.2015 =
+=== 9.30 - 10.00 | Accueil et petit déjeuner ===
+=== 10.00 - 10.40 | Rappel du projet echOpen et présentation du Kit Emile (V0.0) ===
+; 10.00 - 10.15 Objectif du projet echopen 
+: Bâtir un outil de primo-diagnostic simple, low cost, universel qui permet de fixer la prise en charge sanitaire
+: Philosophie du projet : c’est un projet communautaire, l’implémentation sera Open Source 
+: Principes de mise en oeuvre
+: Revenir à un dispositif mécanique, utilisant des technologies laissé en friche, dès que possible, softwariser (en embarqué / déporté), dès que possible, universaliser : concevoir avec l’idée d’une ré-utilisabilité des modules développés, notamment software
+; 10.15 - 10.30 Présentation détaillée Kit 
+: Hardware & Software (challenges)
+; 10.30 - 10.40 Présentation du travail réalisé à  l’ENS Cachan 
+: Backing + Transducteur
+
+=== 10.40 - 13.00 | Quel Cap Technologique ? ===
+Étant donnés 
+# Les spécifications de l'image définie par les professionnels de santé
+# Les contraintes et critères généraux
+# Les critères et contraintes médicales 
+# Les risques médicaux 
+# Les critères technologiques (usage maximal du processing via l'app, etc.) 
+
+'''Définir les spécifications de la sonde echopen pour atteindre l'objectif d'un prototype fonctionnel pour le 17 février 2016
+'''
+=== 13.00 - 14.00 | Déjeuner ===
+
+=== 14.00 - 16.00 | Définition technologique des modules === 
+
+Étant donnés 
+# L'architecture en 6 meta modules et 16 modules => Challenger cette architecture 
+# Les critères et contraintes techniques 
+
+; En déduire la ou les solution-s technologique-s
+: Entrée / sortie par module
+: Spécifications fonctionnelles par module
+: Spécifications d'interface entre les modules
+
+; => '''Valider une architecture fonctionnelle et un architecture interfaçées''' 
+; => '''Designer un arbre de developpement + balises + plan de releases''' 
+; => '''Une roadmap'''
+
+=== 16.00 - 17.00 | Enjeux communautaires ===
+: Comment faciliter la contribution, les échanges dans la communauté et la dissémination du projet dans leur propre éco-système
+
+= Documentation & Ressources  =
+
+== Medical needs / requirements ==
+
+=== Medical spec. ===
+
+: Préréglages (par le biais de pictogrammes)
+: Contrôles directement sur l'outil
+: Les paramètres préformatés permettre de reformater l'image au touch, sans revenir à linterface de réglage.
+: Condition : l'app doit tourner sur une interface tactile.
+: Bouton 'SAVE' pour enregistrer les images.
+: Régler le gain avec les boutons sur le côté.
+: Mesure (dimension)
+: Mesure de volume
+: Procédure : enregistrer l’image et mesurer
+: Video en direct
+: Affichage d’une image enregistrée
+: Mode simplifié et mode avancé (pouvant être préréglé par le médecin)
+: Tir TM (voir le mouvement d'une structure dans le temps)
+: Modification de la ligne de tir (par itération) > bouton complémentaire
+
+=== Image === 
+
+: Grey level : 32 to 64
+: Measurement width : 5 cm to 20 cm (=> Focal 12,5 cm)
+: Image resolution : 1 mm 
+: Sector angle : 60°
+: Frame rate : 15 fps
+: Real time : 1/2 second
+: Settings : total gain
+
+=== XXX ===
+
+== Constraints ==
+[[File:echopen_contraintes.jpeg | 600px]]
+=== General constraints and project vision ===
+Linked to the global design
+ 
+* Available and accessible skills within the community 
+** Hardware development complexity due to the need of maintaining the technology and release the following versions. 
+** Need a stable version for clinical trials 
+* Open source philosophy
+
+=== Medical constraints and medical risks ===
+Linked to the medical use
+
+* Technico-medical challenge 
+** Performance imagerie (incluant toute la chaîne de mesure / temps réel et mesures en temps réel) 
+** Ergonomie (dont encombrement, poids...)
+** Disponibilité (Autonomie et fiabilité)
+* Norms (ISO 14971 to start)
+** Patient risk (Injury, diagnostic mistakes, No diagnostic, etc.), operator risk (injury) and environment (electro-magnetical compatibility)
+
+=== Technical constraints ===
+Linked to the technical development
+
+* size
+* weight
+* autonomy
+* image quality
+* probe ergonomy
+* software ergonomy
+
+; Final product => low cost 
+: Investment costs (industrial resources, development tools)
+
+== Development Updated ==
+* [http://echopen.org/index.php?title=Category:HardIntroduction Hadware Introduction]
+* [http://echopen.org/index.php?title=Category:Emile Kit Emile]
+== Technological architecture ==
+[[File:echopen_Schéma_architecture.jpeg | 600px]]
+
+== Global Scheme ==
+[[File:echopen_schéma_global.jpeg | 600px]]
+
+== Image impact on tech - First level ==
+
+[[File:echopen_Impact_Image.001.jpeg | 600px]]
+
+With this image definition, we have calculate the maximum '''frame rate''' accessible: 36 fps (see [http://echopen.org/index.php?title=Category:Mechanics Mechanics]) and the '''data rate''' needed to transfer the informations (see [http://echopen.org/index.php?title=Category:Transmitting Transmitting]): between 37.5 and 702 Mbps.
+
+By knowing the measurement width, it is possible to design the size of the transducer with this [http://www.imasonic.com/Industry/IM_Design.php tool] (from www.imasonic.com). With this tool we access to focal spot of a focalised transducer so we know the with where we can made acoustic measurement.
+
+==Benchmark==
+
+Dans le tableau suivant sont listés les composants que l'on peut trouver dans certaines sondes en labiratoire (voir les articles cités en bibliographie)
+
+{| {{table}}
+| align="center" style="background:#f0f0f0;"|'''Block'''
+| align="center" style="background:#f0f0f0;"|'''Element'''
+| align="center" style="background:#f0f0f0;"|'''Particularité'''
+| align="center" style="background:#f0f0f0;"|'''Thèse Levesque'''
+| align="center" style="background:#f0f0f0;"|'''Thèse Tsakalakis'''
+| align="center" style="background:#f0f0f0;"|'''article Kang'''
+| align="center" style="background:#f0f0f0;"|'''article Choe'''
+|-
+|style="background:#ff8c00;"| Transducer||Transducteur||Type||focalisé||matrice 16*16 éléments||matrice 128 éléments||matrice 32*32 éléments
+|-
+|style="background:#ff8c00;"| Transducer||Transducteur||Diamètre||12 mm diamètre||||||
+|-
+|style="background:#ff8c00;"| Transducer||Transducteur||Fréquence centrale||4.75 MHz||3 MHz||3.5 MHz||5 MHz
+|-
+|style="background:#ff8c00;"| Transducer||Transducteur||Profondeur focale||80 mm||90 mm||||
+|-
+|style="background:#ff8c00;"| Transducer||Transducteur||Profondeur de mesure||150 mm||150 mm||300 mm||75 mm
+|-
+|style="background:#228b22;"| Emitting||FPGA||Marque||Xilinx XC3S1500L-FG320 (1.5 M gates)||||||Virtex 6 FPGA ML605
+|-
+|style="background:#228b22;"| Emitting||Pulse generation||Amplitude||3.3 V -> -100 V||||-60 V||-25 V
+|-
+|style="background:#228b22;"| Emitting||Pulse generation||Durée||50 to 800 ns||||||
+|-
+|style="background:#CD0000;"| Receiving||Fréquence d'échantillonage||Fréquence d'échantillonage||20 MHz (up to 100 MHz)||65-100 MHz||40 MHz||20 MHz
+|-
+|style="background:#CD0000;"| Receiving||CAN||Précision||10 bits||12 ou 14 bits||12 bits||
+|-
+|style="background:#CD0000;"| Receiving||TGC||Amplis||1 ampli LNA (19 dB) + 2 TGA (48 dB), total 115 dB||||||
+|-
+|style="background:#CD0000;"| Receiving||Filtres||Filtre passband||filtre passif anti-repliement, 1-10 MHz||||||
+|-
+|style="background:#CD0000;"| Receiving||Mémoires||Types||1 FLASH (programation), 1 PSRAM, 1 FRAM||||||
+|-
+|style="background:#CD0000;"| Receiving||Opération électronique||Prétraitement||transformée de Hilbert (enveloppe) + intégration sur un pixel||||||
+|-
+|style="background:#4169e1;"| Transmitting||Frame rate||Frame rate||15 fps||||30 fps||3.3 fps
+|-
+|style="background:#4169e1;"| Transmitting||Taille de l'image||Taille de l'image||320 x 240||45x45x? (3D)||||148*148*128
+|-
+|style="background:#4169e1;"| Transmitting||Précision image||Précision image||8 bits||||||
+|-
+|style="background:#4169e1;"| Transmitting||Post traitement||Post traitement||||Super resolution, speckel noise reduction||||
+|-
+|style="background:#8b4513;"| Mechanics||Balayage||Type||mécanique||électronique ||électronique ||électronique 
+|-
+|style="background:#8b4513;"| Mechanics||Balayage||Angle||90°||45°||90°||50x50°
+|-
+|style="background:#9400d3;"| Design||Batterie||Consommation||1897 mW||||||
+|-
+|style="background:#9400d3;"| Design||Encombrement||Taille||160 x 100 x 30||||200x120x45||
+|-
+|style="background:#9400d3;"| Design||Quantité de données||Quantité de données||8.8 Mb/s||||||0.71 Gb/s (PCI
+|-
+| Additional||Additional||Afficheur||écran LCD||||||
+|}
+
+==Bibliographie==
+
+[[:File:2011_PhilippeLevesque.pdf| Thèse Philippe Levesque]]
+
+[[:File:Design of a novel low-cost portable, 3D Ultrasound System with extended imaging capabilities for point-of-care applications.pdf| Thèse Michail Tsakalakis]]
+
+[[:File:Kang_A_system_on_chip.pdf| Kang: A	system-on-chip solution for point-of-care ultrasound imaging systems: architecture and ASIC implementation]]
+
+[[:File:Choe_Real-Time Volumetric Ultrasound Imaging Using a 32×32-Element 2-D CMUT Array.pdf| Choe: Real-time volumetric ultrasound imaging using a 32×32-element 2-D CMUT array]]
+
+= Workshop conclusions =
+
+
+[[Category:Workshop]]

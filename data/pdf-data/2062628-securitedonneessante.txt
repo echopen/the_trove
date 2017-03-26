@@ -1,0 +1,908 @@
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Sécurité des données de santé
+echoPen - 26/02/2016
+Laurent Bloch lb@laurentbloch.org
+http://www.laurentbloch.org
+28 janvier 2016
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 1 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Une expérience personnelle : RSSI de l’Inserm
+(SI = Système d’information, RSSI = Responsable de la sécurité du SI)
+La sécurité coûte cher, prend du temps et des compétences, et « on
+n’a rien à cacher » ;
+alors on évite le RSSI et ses injonctions (Pierre Louisot) ;
+mais un beau jour, contrat industriel avec exigence de certification : il
+faudrait faire en une semaine ce qui demande des mois ;
+la démarche des informaticiens est souvent à l’inverse existe :
+exhaustivité hors d’atteinte.
+Statistiques, algorithmes et serment d’Hippocrate ; hostilité du corps
+médical envers le système de santé publique.
+Les SI mis en place actuellement : cantonnés à la gestion comptable.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 2 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Importance des données de santé
+L’exploitation des données de l’assurance maladie,
+leur croisement avec les données de l’hôpital,
+le croisement avec les données génomiques,
+le croisement avec des données démographiques,
+fournirait des informations épidémiologiques précieuses
+et donnerait des perspectives intéressantes au corps médical.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 3 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Sensibilité des données de santé
+Imaginons la fuite d’un fichier de malades infectés par le VIH ;
+au cours d’un divorce, accès au dossier médical du conjoint (le DMP
+est en mauvaise voie, mais quand même) ;
+exploitation par les compagnies d’assurance des données de santé,
+même anonymes ;
+vol de l’ADN d’un interlocuteur au cours d’une négociation d’affaires ;
+voire : fin du système d’assurance.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 4 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Contexte légal et déontologique des SICS
+(Systèmes d’information et de communication de santé)
+Résolution A/RES/45/95 de l’AG des Nations Unies relative aux
+fichiers de données personnelles ;
+recommandations du Conseil de l’Europe pour les banques de données
+médicales et les échanges de données ;
+directive européenne pour la protection des données personnelles ;
+loi du 6 janvier 1978 modifiée relative à l’Informatique, aux fichiers et
+aux libertés ;
+loi française du 4 mars 2002 sur les droits des malades ;
+restriction par décret de l’accès aux informations personnelles
+détenues par les professionnels de santé ;
+etc.
+Agence des systèmes d’information partagés de santé (ASIP Santé) : le
+projet DMP lancé le 13 août 2004 !
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 5 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Une politique de sécurité
+Un document public, qui engage l’auteur et engendre la confiance.
+Contraintes et options :
+obligations légales ;
+obligations contractuelles ;
+cerner les périmètres à protéger ;
+...
+La combinatoire des protections peut être intriquée : « je ne veux pas que
+mon ophtalmologue soit informé de la maladie que soigne mon
+dermatologue ».
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 6 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Une charte de l’utilisateur du système d’information
+Définition des entités du SI ;
+énumération des ressources disponibles ;
+ce qui est autorisé et interdit, respect de la législation ;
+règles de bon usage ;
+confidentialité (mots de passe des responsables confiés aux
+secrétaires !)
+Ne pas oublier la protection juridique !
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 7 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Une charte de l’administrateur de système d’information
+La situation paradoxale de l’administrateur de système d’information :
+« Ainsi la délicate mission de l’administrateur sera de mettre fin au
+comportement frauduleux ou préjudiciable sans en informer son
+supérieur hiérarchique qui dispose pourtant de l’autorité et du pouvoir
+de décision ».
+Il faut protéger le technicien en CDD contre le patron qui veut lui
+faire violer la charte.
+De façon plus générale, l’administrateur de système et de réseau a
+accès à toutes les données de l’entreprise et des utilisateurs qui
+stationnent ou circulent sur les machines et les réseaux dont il a la
+responsabilité : ce pouvoir le soumet en permanence à la tentation
+d’en abuser, même si ce n’est que pour simplifier sa tâche, ou rendre
+service aux utilisateurs, ou pour assurer le bon fonctionnement des
+infrastructures en question.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 8 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Dispositifs techniques de protection
+Sécurité physique, localisation des données ;
+identification, authentification, certificats électroniques ;
+anti-virus ;
+pare-feux ;
+systèmes de détection d’intrusion (IDS) ;
+systèmes de prévention d’intrusion (IPS) ;
+réseaux privés virtuels (VPN) ;
+chiffrement des données ;
+etc.
+Aucun de ces dispositifs n’est infaillible, mais la probabilité qu’ils défaillent
+tous ensemble est infime. À condition qu’ils soient bien mis en œuvre.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 9 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Défense en profondeur
+La défense en profondeur consiste à envisager que l’ennemi puisse franchir
+une ligne de défense sans pour cela qu’il devienne impossible de l’arrêter. Il
+convient donc d’avoir plusieurs lignes de défense successives.
+La variété, l’ingéniosité et la profusion des dispositifs d’attaque sont telles
+qu’il est vain d’espérer se protéger a priori. la meilleure défense est la
+riposte rapide et précise, ce qui suppose le recours à de bons ingénieurs de
+sécurité et à une veille scientifique et technique.
+En l’absence de capacités internes, faire appel à un cabinet extérieur.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 10 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Défense en profondeur contre portes dérobées
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 11 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Cloisonnement et confinement
+Principe du moindre privilège : chaque acteur, chaque logiciel ne doit avoir
+accès qu’aux données et aux actions qui lui sont nécessaires.
+Expérience en milieu scientifique biomédical : malveillance entre collègues.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 12 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Sécurité du navigateur et sur le Web
+Les sites Web et les navigateurs sont aujourd’hui des machineries
+hautement complexes, puissantes, et donc dangereuses.
+Le navigateur peut, sous certaines conditions, accéder aux données de
+l’ordinateur, ainsi qu’aux données du serveur, et établir des
+communications entre eux.
+D’autre part les onglets permettent des communications transversales.
+Ces dispositifs offrent des possibilités aux attaquants.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 13 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Navigateur Web
+(Chrome, Firefox...)
+Serveur Web
+(Apache, Nginx...)
+Interrogation
+protocole Http
+texte HTML
+Pages Html
+statiques
+Ici une distance arbitraire,
+10 000 km par exemple
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 14 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Onglet, page
+Programmes
+JavaScript
+Serveur Web
+(Apache, Nginx...)
+Lecture, écriture
+protocole Http
+HTML + JavaScript
+Pages Html Base de
+données
+Programme
+(Java, PHP,
+Node JS...)
+texte HTML
+CGI, mod_x
+Onglet, page
+Programmes
+JavaScript
+Serveur Web
+(Apache, Nginx...)
+Lecture, écriture
+protocole Http
+HTML + JavaScript
+Pages Html Base de
+données
+Programme
+(Java, PHP,
+Node JS...)
+texte HTML
+CGI, mod_x
+Onglet, page
+Programmes
+JavaScript
+Lecture, écriture
+protocole Http
+HTML + JavaScript
+Serveur Web
+(Apache, Nginx...)
+Pages Html Base de
+données
+Programme
+(Java, PHP,
+Node JS...)
+texte HTML
+CGI, mod_x
+Système
+de ﬁchiers
+Navigateur
+Serveur Web
+(Apache, Nginx...)
+Pages Html Base de
+données
+Programme
+(Java, PHP,
+Node JS...)
+texte HTML
+CGI, mod_x
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 15 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Pour des données certifiées : la chaîne de blocs
+la chaîne de blocs (Blockchain) est la structure de données qui
+enregistre les transactions en Bitcoins ;
+ce modèle peut servir à d’autres usages pour lesquels il est nécessaire
+d’enregistrer de façon exhaustive, fiable et incorruptible une séquence
+d’opérations ;
+le système repose sur le principe de la signature cryptographique ;
+les notaires et le cadastre s’y intéressent ;
+le DMP ?
+Mentionnons aussi les travaux de FIDO Alliance pour les dispositifs
+d’authentification.
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 16 / 17
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Anas Abou El Kalam et Yves Deswarte. “Modèle de sécurité pour le
+secteur de la santé”. In : Technique et science informatiques 23.3 (2004).
+Agence des systèmes d’information partagés de santé (ASIP). ASIP Santé.
+2016. url : http://esante.gouv.fr/asip-sante.
+Jean-Paul Delahaye. “Le Bitcoin, première crypto-monnaie”. In : 1024 4
+(oct. 2014). url : http://www.societe-informatique-de-
+france.fr/bulletin/1024-numero-4/.
+François Grémy. On a encore oublié la santé ! Frison-Roche, 2004.
+Philippe Leduc. “Santé : quand les données peuvent tout changer”. In :
+Les Échos - Le Cercle (fév. 2016). url : http://www.lesechos.fr/idees-
+debats/cercle/cercle-150913-pas-de-pertinence-des-soins-sans-
+partage-des-donnees-de-sante-mais-avec-qui-1198522.php.
+Bruce Schneier. The Future of Incident Response. Nov. 2014. url :
+https://www.schneier.com/blog/archives/2014/11/the_future_of_i.html.
+Aviv Zohar. “Bitcoin : Under the Hood”. In : Communications of the ACM
+(sept. 2015). url : http://www.cs.huji.ac.il/~avivz/publications.html.
+Questions ?
+Laurent Bloch Sécurité des données de santé 28 janvier 2016 17 / 17
+

@@ -1,0 +1,54 @@
+# Patent US4102204
+
+
+
+
+
+=US4102204 : Ultrasonic section plane examination and display = 
+
+
+
+== Invention date ==
+
+Jul 25, 1978
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Carl Kretz]]
+=== Beneficiaires === 
+* * [[Carl Kretz]]
+
+
+= Abstract =
+
+Moving section plane pictures of a specimen are produced by contacting a predetermined peripheral portion of an ultrasonic transducer head with the specimen in the section plane. The transducer head has a circular internal cavity in which a wheel is mounted eccentrically for rotation about an axis. A plurality of ultrasonic transducers are mounted peripherally on the wheel. The gap formed between a transducer and the internal surface of the transducer head is a minimum along the peripheral portion where contact to the specimen occurs. Each transducer is energized only when passing through the sector subtended by the peripheral portion in contact with the specimen and echoes received by the transducer are displayed on a screen whose base line is synchronized to the movement of the ultrasonic beam. The transducers can be divided into two sets alternately spaced around the wheel, each transducer of one set having a predetermined characteristic differing from the corresponding characteristic of the transducers of the second set. Depending upon the application, transducers of one or the other set are energized selectively or time averages may be obtained by alternate energization of the two sets.
+= Patents Backwards =
+
+* [[Patent US3415111]]
+* [[Patent US3423991]]
+* [[Patent US3631714]]
+* [[Patent US3714817]]
+* [[Patent US3817089]]
+* [[Patent US3955561]]
+* [[Patent GB1121523A]]
+= Patents Forwards =
+
+* [[Patent US4222275]]
+* [[Patent US4281549]]
+* [[Patent US4287767]]
+* [[Patent US4316390]]
+* [[Patent US4337661]]
+* [[Patent US4383447]]
+* [[Patent US4398425]]
+* [[Patent US4402223]]
+* [[Patent US4403509]]
+* [[Patent US4413521]]
+* [[Patent US4453409]]
+* [[Patent US4454763]]
+* [[Patent US4479388]]
+* [[Patent US4850363]]
+* [[Patent US5648936]]
+* [[Patent US5724305]]
+* [[Patent DE3734571A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

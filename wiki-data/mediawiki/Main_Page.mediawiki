@@ -1,0 +1,135 @@
+# Main Page
+
+<div class="alert alert-info">
+
+<p style="text-align:center;font-weight:bold;font-size:150%;">
+Breaking news !
+</p>
+<p style="text-align:center;font-weight:bold;">
+Cette année echOpen participe au [http://echopen.org/index.php?title=Troph%C3%A9e_des_ing%C3%A9nieurs_de_demain_-_%C3%A9dition_2015 trophée des ingénieurs de demain] et doit obtenir un maximum de votes du public.
+<br />
+Supportez echOpen et likez notre vidéo sur Youtube !
+<br />
+</p>
+<p style="text-align:center;font-weight:bold;font-size:125%;">
+https://www.youtube.com/watch?v=udaP3e_7HGc
+</p>
+</div>
+<div class="alert alert-info">
+<p><strong>[ DERNIERS ECHOS ]&nbsp;Challenge Relevé ! </strong>Le Transducteur, coeur du dispositif de la sonde, a été craqué par notre équipe ! Nous sommes à présent en mesure d'Open Sourcer la recette du [http://echopen.org/index.php?title=EchOpen_Transducer Backing] ainsi que les plans. La [http://echopen.org/index.php?title=Category:Emile V0 du prototype] obtenue le 24.10.15 est désormais prête à évoluer ;)
+<br>
+<strong>[ LAST ECHOS ]&nbsp;We Cracked it !</strong>
+The Transducer central part of the probe has been cracked by our TEAM ! We are now in a position to Open Source the [http://echopen.org/index.php?title=EchOpen_Transducer Backing] reciepe as well as the plans. The [http://echopen.org/index.php?title=Category:Emile V0 du prototype] obtained in 24.10.15 is now ready to evolve ;)<b> Follow up</b>: on the page dedicated to that end.
+</p>
+</div>
+
+{|style="border: none;"
+|colspan="2" style="border: none;" width="100%"|[[File:logo.png | 200px]] 
+|-
+|width="50%" style="border: none;" |Welcome onboard,
+
+Echopen a l'ambition de co-créer la première sonde d'écho-stéthoscopie [https://fr.wikipedia.org/wiki/Mat%C3%A9riel_libre Open Source Hardware] à bas coût et qui se branche sur un smartphone ou une tablette à destination des professionnels de santé; grâce à une communauté pluridisciplinaire qui partage la même vision.
+ 
+Vous trouverez sur cette page, l'ensemble des éléments de présentation du projet et les différents enjeux, points d'entrée dans le projet. 
+Sentez vous libre, de participer et d'y insérer vos commentaires. 
+Bonne navigation, suivez le signal...IOOIIOIOI...IIOOIIIO
+
+Pour rester informé, inscrivez-vous à la [http://eepurl.com/6L4I5 newsletter] echopen
+
+Or come visit us at our open lab at Hopital Hotel Dieu - 1, place du parvis Notre Dame 75004 Paris - France (Batiment A1, 6ième étage)
+* See pictures of our [[workshop]] 
+* Discover our [[LabTools|equipment]] list
+
+echopen community 
+
+|width="50%" style="border: none;"|[[File:63b93809-fbac-48a8-a166-8c0228122232.jpg|600px]]
+|}
+
+{|style="border: none;"
+|-
+|bgcolor="green" width="30%" align = "center" valign="center" style="border: none;"|
+
+[[File:Fantom big.png | 260px | center ]]
+Our first image
+|width="70%" style="border: none;"|
+== [[File:cog3.png | 20px]] Les chantiers en cours / Work in progress ==
+* Find ongoing work table @[[Planning]] with all steps, issues and challenges
+* La [[Conception]] globale du projet 
+* Le [[Prototype]] echopen en cours de développement.
+* Le développement du [[Software echopen]]
+* L'analyse des [[Enjeux normatifs]]
+* L'identité visuelle du projet dont les première bases ont été posé dans la réflexion sur les [[Enjeux de communication]]
+* Construire une base de connaissance documentée sur l'ensemble des enjeux liés au projet => [[Etat de l'art]]
+
+== [[File:Picto challenge.png | 20px]] Les challenges en cours / On going challenges ==
+These [[:Category:Challenge | Challenges]] represent issues we face. For all living in Paris, feel free to come to our space and work with us. 
+|}
+{|style="border: none;"
+|-
+|width="50%" style="border: none;"|
+== Le projet echOpen ==
+
+EchOpen est une communauté ouverte et collaborative, animée par un noyau pluridisciplinaire d'experts et de professionnels de haut niveau.
+
+''De nombreux experts ont affirmé que l’échographe était devenu le stéthoscope du XXIe siècle. Mais alors, pourquoi ne trouve-t-on pas d’appareils à ultra-sons dans la poche de tous les cliniciens ? ''. Du stéthoscope à l’échographie, on passe des sons aux ultrasons et des oreilles aux yeux. Voir ce qui est invisible grâce à des sons inaudibles. On parle donc surtout d’images — celles de l’intérieur du corps humain, engendrées par les échos réverbérés des ultrasons voyageant à travers les différents tissus. Un outil diagnostic fort apprécié et pratiquement sans danger. À notre tour de prendre en main cette technologie, chasse gardée de grands équipementiers médicaux, pour la rendre ouvert et abordable ! Hackons l'échographie conventionnelle et réinventons le stéthoscope moderne : '''l'echostéthoscope'''.''
+
+'''Co-créons la première sonde d'écho-stéthoscopie Open Source à bas coût et qui se branche sur un smarphone ou une tablette à destination des professionnels de santé.'''
+
+Nous définissons l'écho-stéthoscopie comme l'utilisation des technologies échographiques comme aide au diagnostic médical à la différence du cas médical que représente une échographie. 
+
+=== [[File:view28.png | 20px]] Vision ===
+
+Rendre accessibles, ouvertes et collaboratives les technologies d'imagerie médicale à ultrasons ([[Vision]] complète ici)
+
+=== Mission ===
+
+Mettre en oeuvre tout ce qui sera possible afin de : 
+* Créer une communauté pluridisciplinaire partageant la vision 
+* Créer le premier echostéthoscope Open Hardware, Open Science et Open Source à bas coût et qui se branche sur un smartphone d'ici 2016 (bicentenaire de l'invention du stéthoscope par Laennec)
+* Documenter l'ensemble des travaux réalisés par la communauté et les rendre accessible à tous ceux qui souhaitent mener un projet libre, ouvert et collaboratif pour répondre aux nouveaux enjeux de la santé et des technologies 
+* Sensibiliser les acteurs à la culture du libre et de l'open
+
+|width="50%" style="border: none;"|
+== [[File:calendar5.png | 20px]] Agenda==
+* Workshop [[CAPDev]] le 19.12.2015 de 09.00 à 17.00 chez [https://www.google.fr/maps/place/1+Parvis+Notre-Dame+-+Pl.+Jean-Paul+II,+75004+Paris-4E-Arrondissement/@48.8539541,2.346142,17z/data=!3m1!4b1!4m2!3m1!1s0x47e671e1a22a2c85:0xa21c95b447836ce8 echopen] : Hotel Dieu 1, place du parvis Notre Dame 75004 Paris (Batiment A1, 6ème étage)
+* Back on our apéro [[Enjeux collaboratifs et communautaires]]
+* Our apéro [http://www.echopen.org/index.php?title=Programme_Apero program]
+
+== [[File:newspaper1.png | 20px]] Dernières actualités ==
+* Workshop [[CAPTech]] le 24.11.2015 de 09.30 à 17.00 chez [https://www.google.fr/maps/place/1+Parvis+Notre-Dame+-+Pl.+Jean-Paul+II,+75004+Paris-4E-Arrondissement/@48.8539541,2.346142,17z/data=!3m1!4b1!4m2!3m1!1s0x47e671e1a22a2c85:0xa21c95b447836ce8 echopen] : Hotel Dieu 1, place du parvis Notre Dame 75004 Paris (Batiment A1, 6ème étage)
+* 5 novembre 2015 => Fabrication d'un transducteur Open Source à l'ENS
+* 16 octobre 2015 => Install party ;) et présentation de la V0.0
+* 2 octobre 2015 | Apéro echopen : [[Impact evaluation]] - 19.00 to 21.00 
+* Septembre 2015 => Le fantôme dans l'aquarium
+* 04.09.2015 apéro autour des enjeux de mobilisation | echopen workshop 1, place du parvis Notre-Dame 75004 Paris from 6.00 pm - 9.00 pm
+* été 2015 début du prototypage de l'[[Électronique]]
+* 1er aout 2015 installation echopen dans un lieu dédié
+* 01 et 02.07.2015 | Mobilisation pour le prix des internautes des trophées de la e-santé à l'occasion de l'université d'été de la e-santé à Castres
+* 02.07.2015 | Finaliste des trophées de la e-santé de l'université d'été de la e-santé, echopen remporte le [[prix des internautes]] grâce à la mobilisation de sa communauté
+* 16 mai 2015 | [[Design & Code Camp]] => Suivez le signal de 10.00 à 19.00 à La Paillasse | 226, rue Saint-Denis 75002 Paris
+* Première [[AG du 05.05.2015]] de l'association echopen à la Maison des Associations 75002 de 20.00 à 22.00 | 23, rue Greneta 75002 Paris
+* Des nouvelles du backing du 25.04.2015 a découvrir sur le [[Carnet de bord - Laboratoire SATIE]]
+* [[Older news]] ..
+|}
+
+== Enjeux ==
+
+#Des [[Enjeux medico-techniques]](Ingénierie de la sonde et design de l’objet, traitement du signal, software d’analyse, etc.), qui sont double : des [[Enjeux médicaux]] : amélioration de l’examen clinique (sensibilisation des médecins et des étudiants en médecine, impaction sur les professions paramédicales, etc.), et des [[Enjeux techniques]] : création de la sonde, faire travailler ensemble les différents types d’ingénieurs, etc.)
+#Des [[Enjeux collaboratifs et communautaires]] :Co-création, Fédérer, mobiliser, animer, etc.
+#Des [[Enjeux juridiques et Open Source]] : Licences et conditions d’utilisations, Open Science, Open Hardware, Open Source, méthodologies, etc.
+#Des [[Enjeux normatifs]] : Norme européennes et autres normes de sécurités, techniques, etc.
+#Des [[Enjeux de communication]]: sensibiliser, annoncer, échanger, etc.
+#Des [[Enjeux éthiques]] : il s'agit de mener une réflexion autour des questions d'éthique lié à la création d'un objet Open Source à visée médicale.
+#Des [[Enjeux de formations]]
+#Des [[ Enjeux de santé publique]] 
+#Des [[Enjeux économiques]] multiples:
+
+== On parle d'echopen ==
+* Un article dans [http://whatsupdoc-lemag.fr/actualites-article.asp?id=11011#.VZY320fshlc.twitter whatsupdoc-lemag.fr] CHÉRIE, J’AI RÉTRÉCI… L’ÉCHOGRAPHE du 03 juillet 2015 par Adrien Renaud
+* Un [http://mylittlesante.com/trophees-de-la-e-sante-2015-and-the-winner-is/ article de Laurent Mignon] sur les trophées de la e-santé publié dans [http://mylittlesante.com mylittlesanté.com] du 02 juillet 2015
+* echOpen donne un coup de main à l'Adaweek : https://adaweek2015a.sched.org/venue/Echopen
+* Dans l'article '''Bodyware : santé disruptive''' , de Hubert Guillaud, 1er Octobre 2015 : http://alexandretrocme.fr/author/hubert-guillaud/
+
+[[File:Capture d’écran 2015-07-05 à 13.26.59.png|250px]] [[File:Capture d’écran 2015-07-05 à 13.28.39.png|250px]] [[File:Capture d’écran 2015-07-05 à 13.29.34.png|250px]] [[File:Capture d’écran 2015-07-05 à 13.32.56.png|250px]]
+
+Last update 28.09.2015

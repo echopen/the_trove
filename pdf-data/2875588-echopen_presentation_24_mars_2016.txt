@@ -1,0 +1,158 @@
+open and collaborative project and community
+Supported by
+Making open and freely available medical imaging technologies
+Objective
+Designing a functional
+prototype of an open
+source and low-cost
+echo-stethoscope
+(ultrasound probe)
+connected to a mobile
+device (smartphone)
+Purpose
+Allowing the radical
+transformation of
+diagnostic orientation in
+hospitals, general
+medicine and medically
+underserved areas in
+both southern and
+northern countries
+Better Acces To Medical Imaging
+Faster Diagnosis And Cost Reduction
+Story
+Ecosystem
+Collaborative Approach
+By Making
+Outcomes
+•1 full wiki with all information (technical, legal,
+normative, concept, design, etc.) - 9 challenges for a
+fully inclusive project
+•1 high quality transducer
+•1 prototype (electronics, mechanics, etc.)
+•1 Kit available
+•200+ people in the community (1/3 health
+professionals)
+•700+ participants in events (workshops, hackathons,
+etc.)
+•1000+ people reached
+•4500+ hours of skills given to the project
+Doc & Architecture - Muriel G. Emilie M.
+Transducer - Constant B. Gérard C. Vincent L.
+Mechanics - Benoit V.
+Processus itératif d’amélioration
+Nombreuses Contraintes
+• On se focalise sur le mécanisme oscillant.
+• Mais il faudra aussi:
+• Assurer l’étanchéité
+• Accueillir l’électronique
+• Être utilisable dans la pratique médicale
+• Fonctionner en multi-fréquences
+• Être facile à fabriquer et réparer
+Premier prototype fonctionnel
+Il ne satisfait pas tous les besoins mais c’est un outil de travail pour progresser
+Expérimentation d’une autre approche
+• Le moteur pas à pas : permet de simpliﬁer la mécanique au détriment de
+l’électronique de commande.
+• Ouvre de nouvelle possibilités pour répondre à tous les besoins pas tous les
+besoins mais c’est un outil de travail pour progresser
+Deux nouvelles sondes à moteur pas à pas
+• Le moteur pas à pas : permet de simpliﬁer la mécanique au détriment de
+l’électronique de commande.
+• Ouvre de nouvelle possibilités pour répondre à tous les besoins pas tous les
+besoins mais c’est un outil de travail pour progresser
+En quatre mois ...
+• 9 éléments imprimés
+• 11 pièces à acheter
+• 3 éléments à
+imprimer
+• 1 pièce à acheter
+• Etanche
+• Tri-fréquence
+• 3 fois plus petite
+Electronic - Farad K. Vincent L. Gérard C.
+Assembly - Jérôme D.
+App - Mehdi B. Greg S. etc.
+Prototype - V1.0
+Signal Processing - Mathieu R.
+Murgen - Luc J.
+Un kit de développement open-source pour l’imagerie par ultrasons
+L’Open Source Hardware (OSH)
+• Un objet est du ressort de l’OSH si son procédé de conception (design) est
+disponible publiquement, de manière à ce que n’importe qui puisse étudier,
+modiﬁer, distribuer, créer et vendre un “design” correspondant ou un
+produit basé sur ce design.
+• La source de l’objet, c’est à dire le design duquel le produit est issu, est
+disponible sous un format permettant de faire des modiﬁcations.
+• L’OSH utilisera idéalement des composants et matériaux pour lesquels on
+peut facilement s’approvisionner, des procédés de fabrication standard,
+des infrastructures libres, des contenus libres de droit et des outils de
+design “Open-source” pour maximiser la possibilité donnée à d’autres de
+concevoir ou d’utiliser un produit hardware.
+Qu’est-ce que Murgen ?
+• Un kit de développement pour les makers, fablabs, académiques, et
+bidouilleurs - basé sur une carte électronique home-made.
+• Un fork echOpen : une variante explorée pour contribuer à l’avancée globale
+du projet
+• Son cahier des charges:
+• Etre bien documenté
+• Permettre à des bidouilleurs de créer une image échographique à moins
+de 500€.
+• Permettre à tous d’expérimenter dans son garage, avec des composants
+facile à trouver.
+• Etre robuste, portable, et simple d’utilisation.
+De quoi se compose le kit ?
+• Un ordinateur (OSH): 55€
+• Composants électroniques: 120€
+• Une alimentation (OSH): 5€
+• Un arduino (OSH): 10€
+• Un moteur: 5€
+• Un transducteur: 110€
+• Un BitScope (OSH): 150€
+• Petit matériel: 15€
+TOTAL: 470€
+L‘OSH: un travail de documentation et de
+communication
+• Ce fork a été créé de manière délocalisée
+• La documentation est largement accessible en ligne:
+• Le dépôt de code GitHub (sous license OSH TAPR) contient:
+• Les codes-source de l’électronique
+• Les codes-source du logiciel pour Arduino
+• Les codes-source de l’acquisition et traitement du signal
+• L’historique des expérimentations
+• Ce fork touche aussi des bidouilleurs sur Hackaday:
+• 756 curieux
+• 47 followers
+• 8 encouragements et proposition de soutien directs
+• L’incubateur YCombinator de PG a amené 5000+ visiteurs et un contributeur à Paris.
+• Une collaboration avec l’université de Vanderbilt (US).
+Ecosystème Open-Source
+• Ce projet a été rendu possible par une convergence technologique et humaine:
+• Humaine, à travers l’association, les réseaux sociaux, la curiosité générale liée
+aux enjeux du projet
+• Technologique, par le foisonnement d’initiatives qui soutiennent le
+développement décentralisé et collaboratif:
+• Plateforme Basecamp pour la collaboration
+• Les ressources en ligne
+• GitHub pour le code
+• Les outils de simulation de circuits
+• Des fabricants de matériels au fait des technologies de partage
+(collaboration étroite électronique / transducteurs)
+• Et surtout un esprit de partage de temps, de connaissances, et de matériel
+au sein de la communauté!
+Et alors ?
+• Quoi de neuf pour la suite?
+• Merger ce fork avec echOpen
+• Simpliﬁer le design pour makers
+• Le modulariser
+• Développer un framework de travail commun en
+Soft/Hard
+Suivez Murgen :
+Mail: murgen@echopen.org
+Hackaday: https:/
+/hackaday.io/project/9281-murgen
+GitHub: https:/
+/github.com/kelu124/murgen-dev-kit/
+What’s next ?
+contact@echopen.org | @echopenorg | www.echopen.org
+
