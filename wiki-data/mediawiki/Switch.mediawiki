@@ -1,0 +1,11 @@
+# Switch
+
+= Les réflexions sur les licences =
+
+Retrouvez toutes les reflexions menées à propos des licences sur la page dédiée [[Enjeux juridiques et Open Source]]
+
+= La licence hardware echopen =
+
+[[:File:20150915 Licence echopen.pdf]]
+
+Pour toute question sur la licence, contactez l'équipe echopen sur contact@echopen.org

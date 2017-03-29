@@ -1,0 +1,64 @@
+# Patent US3974826
+
+
+
+
+
+=US3974826 : Display circuitry for ultrasonic imaging = 
+
+
+
+== Invention date ==
+
+Aug 17, 1976
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Indianapolis Center For Advanced Research]]
+* [[Inc. Non-Profit]]
+=== Beneficiaires === 
+* * [[Reginald C. Eggleton]]
+* [[Kenneth W. Johnston]]
+
+
+= Abstract =
+
+Ultrasonic probe apparatus for real time B-mode sector scan examination of a cross section of a structure such as the human heart. A transducer is pivotally mounted near an end of an elongated housing, and linkage means are provided in the housing for oscillating the transducer about an axis whose plane is approximately perpendicular to the longest dimension of the housing. Means are provided for causing the transducer to produce ultrasonic pulses which are reflected by interfaces of the object under examination, and the echoes from these interfaces are returned through the transducer to a B-mode display system. A B-mode sector sweep circuit is provided to produce a B-mode display of the echo pattern received from the structure being observed.
+= Patents Backwards =
+
+* [[Patent US3159023]]
+* [[Patent US3308652]]
+* [[Patent US3350923]]
+* [[Patent US3555888]]
+* [[Patent US3690311]]
+* [[Patent US3856985]]
+= Patents Forwards =
+
+* [[Patent US4092867]]
+* [[Patent US4120291]]
+* [[Patent US4130022]]
+* [[Patent US4151834]]
+* [[Patent US4191196]]
+* [[Patent US4215585]]
+* [[Patent US4246792]]
+* [[Patent US4265121]]
+* [[Patent US4271842]]
+* [[Patent US4290432]]
+* [[Patent US4358869]]
+* [[Patent US4572202]]
+* [[Patent US7255678]]
+* [[Patent US7343195]]
+* [[Patent US7386339]]
+* [[Patent US7505809]]
+* [[Patent US7674228]]
+* [[Patent US7697973]]
+* [[Patent US7778688]]
+* [[Patent US7840252]]
+* [[Patent US8131344]]
+* [[Patent US8332013]]
+* [[Patent US8442618]]
+* [[Patent US8827907]]
+* [[Patent DE2848880A1]]
+* [[Patent DE3039523A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

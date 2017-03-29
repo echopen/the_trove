@@ -1,0 +1,35 @@
+Essais acoustiques du transducteur n°1
+Pulse-écho sur une cible (plaque de cuivre épaisseur 1,5 cm) plongée dans l'eau.
+Distance transducteur-cible de 8 cm.
+Signal d'entrée : pulse de largeur 150 ns, tension 10 Vpp, fréquence 1kHz (GBF Agilent)
+temps (s) # 10-6
+-2 -1 0 1 2 3 4 5 6 7
+tension
+(V)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Signal émis (pulse) en entrée du transducteur
+Transducteur n° 1
+10/12/2015
+temps (s) # 10-4
+1.09 1.1 1.11 1.12 1.13 1.14 1.15 1.16 1.17 1.18
+tension
+(V)
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+Premier signal reçu (echo) par le transducteur
+Transducteur n° 1
+10/12/2015
+

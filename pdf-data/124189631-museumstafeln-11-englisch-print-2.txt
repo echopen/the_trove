@@ -1,0 +1,46 @@
+Twodimensional B-scanning
+Mechanical Systems
+Compound-scanning
+Compound-scanning was the original way to
+to create two-dimensional ultrasound images.
+A single-element transducer was moved manually
+in direct skin contact across the seletced
+plane , in multiple directions by sweeping the
+Probe repeatedly thru a certain sector.
+Position and direction of the transducer
+were calculated using position encoders in the
+scanning arm. The echoes were usually displayed
+on a storage oscilloscope (static system).
+Combison 202 Kretz, 1979 scheme of the scanner arm
+Bistable image gray scale image
+Transverse scan of the upper abdomen, pancreatic cancer
+Initially all echoes beyond a certain (adjustable)
+threshold were displayed as uniform bright dots
+(bistable system). Around 1973 , the gray scale
+technique was introduced in compound scanners: the echoes were
+displayed according to their strength.
+Real time system, mechanically
+The Vidoson 635 (Siemens) was the first
+fast scanning machine (real time) developed by
+R. Soldner. The ultrasound beams of rotating
+transducers were reflected as parallel arranged
+beams into the body using a parabolic mirror. An
+image frequency of 15/sec as well as gray scale
+capability enabled a dynamic examination.
+Vidoson 635
+For the following years mechanical sector probes
+became stabdard in ultrasound diagnostics. Even
+today this method is beeing used for particular
+applications.As an example the sector scanner Combison 100 (Kretz, 1977)
+used 5 rotating transducers. Always the transducer passing the window
+(directed to the body) was activated by a magnet, forming a sector image.
+adrenal gland tumor
+The advanced system RA 1 (Diasonics 1980) used 3
+simultaneously rotating transducers, to form a combined „large
+field“ image
+scheme
+Transducer
+Combison 100
+Transducer RA 1
+Pancreatic cancer
+

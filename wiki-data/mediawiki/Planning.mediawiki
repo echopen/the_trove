@@ -1,0 +1,405 @@
+# Planning
+
+= Main Planning =
+
+{| class="wikitable"
+!colspan="8"| Planning
+|----
+|Item & #tags
+|Skills
+|Status
+|Date Start
+|deadline / Complete
+|Owner
+|Difficulty (1-5)
+|Notes
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----
+!colspan="8"| [[File:computer248.png|15px]] Hardware general - Transducer, Electronic and mechanics
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----
+|bgcolor="#00FF00" | Etat de l'art
+|bgcolor="#00FF00" |
+|bgcolor="#00FF00" |close
+|bgcolor="#00FF00" |20/7/2015
+|bgcolor="#00FF00" |30/7/2015 / 30/7/2015
+|bgcolor="#00FF00" |echOpen team
+|bgcolor="#00FF00" |2
+|bgcolor="#00FF00" |L'ensemble des informations disponible sur la page [[Etat de l'art]].
+|----bgcolor="#00FF00" |
+|Périmètre prototype V1
+|
+|close
+|20/7/2015
+|30/7/2015
+|echOpen team
+|3
+|Une sonde mécanique mono-fréquence => 5MHz fonctionnelle, please visit the page [[Prototype]]
+|----bgcolor="#FF8000" |
+|Transducteur
+|
+|open
+|1/2/2015
+|
+|echOpen + ENS
+|5
+|Le développement du transducteur est disponible dans le [[Carnet de bord - Laboratoire SATIE]]. Optimisation du backing en cours
+|----bgcolor="#FF8000" |
+|Electronique
+|
+|open
+|1/9/2015
+|
+|echOpen + AFORP
+|4
+
+|Please visit the [[Le Développement Electronique]] page 
+|----bgcolor="#FF8000" |
+|(I) elec circuit
+|electronic
+|open
+|25.08.2015
+|
+|
+|5
+|Find more details on the dedicated page [[IR1510AK]]
+|----bgcolor="#FF8000" |
+|Mécanique 3
+|
+|open
+|1/9/2015
+|
+|
+|3
+|
+|----bgcolor="#FF8000" |
+|Benchmark de l'existant
+|
+|open
+|15/6/2015
+|
+|tech team
+|Large
+|Comparer l'ensemble des aspects techniques des différentes solutions (spec, fonctionnalités, etc.)
+|----bgcolor="#FF8000" |
+|Task 5
+|
+|open
+|1/24/2008
+|
+|Petar
+|
+|
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----
+|}
+
+= Planning V 0.0 =
+
+Find more details about the V0.0 in [[Cahier des charges V0.0]] 
+[[File:Planning V0.png|center|750px|alt=A large clock tower and other buildings line a great river.|The Palace of Westminster]]
+
+{| class="wikitable"
+!colspan="8"| Planning
+|----
+|Item & #tags
+|Skills
+|Status
+|Date Start
+|deadline / Complete
+|Owner
+|Difficulty (1-5)
+|Notes / Goals
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----
+!colspan="8"| WBS hardware V0.0 - deadline early Oct. 2015
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|---- bgcolor="#FF8000" |
+|Red Pitaya
+|
+Programming
+Electronic
+|Open
+|11.09.2015
+|18.09.2015 / -
+| 
+|3
+|
+* Generating input signal (computer > transducer)
+* Acquire received signal (transducter > computer)
+|---- bgcolor="#FF8000" |
+|Display
+|
+Programming
+
+Data analysis
+|Open
+|08.09.2015
+|25.09.2015 /-
+| 
+|3
+|Real time image display from Pitaya's output datas
+|---- bgcolor="#FF8000" |
+|Ampli 
+|
+Electronic
+|Open
+|11.09.2015
+|24.09.2015 / -
+| 
+|3
+|Convert 12V input voltage into electronical system to 100V output voltage for the transducer (Notes: see [[Boost Converter]] and [[Thesis: Thadani, MIT, 1997]])
+|---- bgcolor="#FF8000" |
+|Rx Tx Switch - electronics
+|Electronic
+|Open
+|11.09.2015
+|23.09.2015 / -
+| 
+|3
+|Listening to the transducer (100V) and protecting the electronical system (12V) (Notes: [[Thesis: Thadani, MIT, 1997]] -- See also notes on [[Switch]])
+|---- bgcolor="#00FF00" |
+|Collector
+|Mechanics
+|Close
+|08.09.2015
+|08.09.2015 08.09.2015
+| 
+|3
+|Electrical connection between the rotating tranducer and the static electronic
+|---- bgcolor="#FF8000" |
+|Motor & encoder
+|Mechanics
+|Open
+|08.09.2015
+|22.09.2015 /-
+| 
+|1
+|
+*Rotate the transducer
+*Real-time control transducer's position
+|---- bgcolor="#FF8000" |
+|Phantom
+|Cuisine
+|Open
+|10.09.2015
+|22.09.2015 /-
+| 
+|1
+|Notes
+|---- bgcolor="#FF8000" |
+|Assembling
+|Mechanics, electronics
+|Open
+|23.09.2015
+|26.09.2015 /-
+| 
+|2
+|Notes
+|---- 
+|
+|
+|
+|
+|
+|
+|
+|
+|----
+|}
+
+= Planning software programming =
+
+{| class="wikitable"
+!colspan="8"| Planning
+|----
+|Item & #tags
+|Skills
+|Status
+|Date Start
+|deadline / Complete
+|Owner
+|Difficulty (1-5)
+|Notes
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----
+!colspan="8"| [[File:smartphone8.png|15px]] Software => DeadLine Nov. 2015
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----bgcolor="#FF8000" |
+|(I)"raw data" to "displayed data" #soft #display #android #interpolation #performance
+|Android, notion d’interpollation
+|Open
+|01.09.2015
+|
+|
+|3
+|detail on page [[Challenge scan conversion]]
+|----bgcolor="#FF0000" |
+|(I) Filtrer le signal AN sur bande de fréquence d'intérêt
+|#traitement du signal #c/c++ #python
+|Open
+|11.09.2015
+|
+|To be find 
+|1
+| Cf. [[Challenge filtrage signal]]
+|----bgcolor="#FF0000" |
+|(I) Proposer une technique de détection de l’enveloppe du signal
+|#traitement du signal #c/c++ #python
+|Open
+|11.09.2015
+|
+|To be find 
+|3
+| Cf. [[Challenge detection signal]]
+|----bgcolor="#FF8000" |
+|Component B
+|Task A
+|open
+|
+|
+|Shiela
+|Medium
+|Do some sort of grouping if needed between tasks and component.
+|----bgcolor="#FF8000" |
+|Component C
+|Task B
+|open
+|
+|
+|Jeff
+|
+|A good example might be in a software project where you are trying to accomplish code completion of A and it depends on a number of sub tasks.
+|----bgcolor="#FF8000" |
+|Component D
+|Task C
+|open
+|
+|
+|Shawn
+|Medium
+|
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----
+!colspan="8"| NEXT GOAL 3 - Traitement du signal 
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|----bgcolor="#FF0000" |
+|Dispatcher
+|
+|future
+|
+|
+|Arjun
+|Small
+|Use a future color code for tasks not yet scheduled.
+|----bgcolor="#FF0000" |
+|Metrics
+|
+|future
+|
+|
+|Shiela
+|Medium
+|
+|----bgcolor="#FF0000" |
+|IMS
+|
+|future
+|
+|
+|Jeff
+|
+|
+|----bgcolor="#FF0000" |
+|Metrics Checkin
+|
+|future
+|
+|
+|Shawn
+|Medium
+|
+|----
+|
+|
+|
+|
+|
+|
+|
+|
+|}
+
+[[Category:Orga]]

@@ -1,0 +1,112 @@
+This is an archived article.
+November 9, 2010
+University of Washington
+Some members of the netbook ultrasound team, with the system they built. Back row:
+Beth Kolko, Waylon Brunette and Ruth Anderson. Front row: Alexis Hope, Pratik Prasad
+and Wayne Gerard.
+Undergraduates’ low-cost ultrasound system wins Gates
+Foundation grant
+Hannah Hickey
+News and Information
+University of Washington
+The UW system uses a handheld ultrasound probe that connects via a USB port to a
+touchscreen computer.
+University of Washington
+The team designed a simple interface specifically for midwives. Five slider bars adjust the
+image settings. Four buttons control other functions, such as freezing the image or
+accessing the main menu.
+A team of University of Washington undergraduate students were among 65 research
+groups that today learned they had won one of the Bill & Melinda Gates Foundation’s
+$100,000 Grand Challenges Explorations grants.
+This is the fifth round of Grand Challenges Explorations, an initiative to help scientists
+around the world explore bold and largely unproven ways to improve health in
+developing countries. To receive funding, applicants show in a two-page application how
+their idea falls outside current scientific paradigms and might lead to significant
+advances in global health.
+Grantees, chosen from more than 2,400 proposals, represent 16 countries on five
+continents.
+“I am a huge believer in the creativity of undergraduates,” said faculty adviser Beth
+Kolko, a UW professor of human centered design and engineering. “This grant really
+validates that belief.”
+The UW students and faculty are testing a low-cost ultrasound system this month on
+pregnant women at the UW Medical Center and Harborview. They will use the grant to
+travel to Africa to test their system in its ultimate capacity as a tool to increase access to
+ultrasound and lower childbirth-related mortality, which kills an estimated 1,000 women
+each day, almost entirely in the developing world.
+The UW device consists of an ultrasound Interson probe that connects via a USB port to
+a netbook with a touch-sensitive screen. It is designed to be cheap, portable, durable
+and easy to use. The work builds upon previous work done by researchers at
+Washington University in St. Louis.
+Receiving the Gates Foundation grant “was very relieving,” said team member Wayne
+Gerard, a senior in computer engineering. “We were not sure where we were going to
+get funding to travel to Uganda. We’re also very honored to have such a great
+foundation backing us, but mostly it is great to know that we have some funds to test
+our device.”
+Right now students estimate their whole system, including the free software, costs about
+$3,500. The most expensive part is the roughly $3,000 ultrasound probe, which the
+group has on loan from a UW anesthesiologist. Parts could be swapped out if cheaper
+models become available.
+“We’re relying on older technology,” said Alexis Hope, a master’s student in human
+centered design and engineering. “With time, our system will naturally get cheaper.”
+The effort began in the summer of 2009, when Dr. Rob Nathan, a UW assistant professor
+of radiology, approached Kolko. Nathan was part of a pilot project testing portable
+ultrasound in Uganda. He began wondering if it was the right approach.
+“Portable ultrasound units currently available from manufacturers range from $15,000
+to $60,000, far too expensive for ministries of health or donors to consider purchasing in
+large numbers,” Nathan said. The devices were also too complex for most midwives to
+use.
+Last winter, Kolko’s Concepts in Human-Computer Interaction class teamed up with
+computer science lecturer Ruth Anderson’s course, Designing Technologies for
+Resource-Constrained Environments. Five students set out to design a low-cost maternal
+ultrasound for use in the developing world.
+“We got thrown into it after hearing a brief presentation by Dr. Nathan about what he
+was looking for,” Hope said. “We sort of jumped at the challenge.”
+At first students thoroughly researched the medical needs, the existing technology and
+other groups’ attempts to deliver low-cost ultrasound. They spoke with their professors
+and with ultrasound practitioners at the UW Medical Center. They also drew up a survey
+for the Ugandan midwives working with Nathan.
+Their eventual concept was a modular device with a simple interface and off-the-shelf
+parts. It would focus on detecting three things: multiple births; breech births, when the
+fetus’ head is pointing upward; and when the placenta is blocking the birth canal.
+Midwives seeing these high-risk cases could advise the mother to deliver at a medical
+center rather than at home.
+Last spring, the concept became reality. The project evolved into a senior-level research
+project in computer science and engineering working with Kolko’s team. Doctoral
+student Waylon Brunette and professor Gaetano Borriello joined Anderson as advisers.
+Initial funding came from a $2,500 undergraduate research award from the College of
+Engineering.
+“We came after this not just as a technology problem but as a human problem. We were
+really able to innovate that way. And I think that’s been the missing piece in other low-
+cost ultrasound projects,” Kolko said.
+More graduate students in the human centered design and engineering department
+have joined the group this fall, many using the project to earn research credits. This
+month’s preliminary tests in Seattle will be the first time the device is used to image a
+Facebook Twitter Email
+fetus. The students also are writing a help system and preparing for the field test in
+Uganda.
+The group will present its research next month in London, England at the Symposium on
+Computing for Development, which focuses on computing applications for the
+developing world.
+“This started as a class project,” Hope said. “To find out that we had gotten the money
+was very exciting. It really drove home that this project is going to push forward.”
+Other members of the core team are Matthew Hicks, a senior in informatics and
+comparative history of ideas; Pratik Prasad, a junior in computer science and
+mathematics; and Nicole Goldsmith, a clinical ultrasound instructor at UW radiology.
+###
+For more information, contact Kolko at 206-650-0120 or bkolko@uw.edu and Nathan at
+206-769-3842 or ronathan@uw.edu (Nathan will be leaving town for 10 days on Friday,
+Nov. 12). Contact Hope at 425-417-3453 or alexishg@uw.edu and Gerard at 206-491-
+2399 or wayger@uw.edu.
+More about the research is at http://change.washington.edu/projects/mobile-
+midwives-ultrasound/.
+Comments for this thread are now closed. ×
+0 Comments UW News Login
+
+Sort by Newest Share ⤤
+Be the first to comment.
+Subscribe
+✉ Add Disqus to your site
+d Privacy
+
+Favorite ★
+

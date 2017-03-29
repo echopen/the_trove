@@ -1,0 +1,809 @@
+Utilisation médicale des
+ultrasons
+2008-09
+Les bases de l’échographie
+• Définition des ultrasons
+• Notion d’échostructure
+• Pertes d’énergie du faisceau
+• Incidence sur le choix de la fréquence :
+– résolution latérale, axiale
+– profondeur de champ
+• Focalisation
+• Différents types d’écho
+Définition
+Ultrasons : Sons de fréquence > 20 kHz
+20 Hz
+infrasons
+20 kHz
+ultrasons
+sons audibles
+Fréquences utilisées en médecine : de 1 à 15 MHz
+Ondes élastiques ne pouvant se propager que dans un milieu
+matériel, ≠ des rayonnements électro-magnétiques
+Propriétés Physiques des US
+• Les sons ne se propagent pas dans le vide
+• Il n’y a pas de transport de matière
+mouvements vibratoires des particules de part et d’autre de leur
+position d’équilibre
+phénomènes de compression et de relaxation successifs transmis aux
+molécules voisines
+• La vitesse de propagation de l’onde sonore (célérité ‘’c’’ en
+m/s) dépend essentiellement des caractéristiques du
+milieu (élasticité, densité):
+air = 330 ; eau = 1480 ; tissus mous = 1540 ; os = 4080 m/s
+nb: ‘’c’’ est inversement proportionnelle à la compressibilité
+• Impédance Z = ρ. c : caractérise la nature du milieu
+traversé (Z en kg/m2.s ou rayl.)
+• Onde progressive longitudinale : mouvement des particules dans
+le sens de la propagation : a (x,t) = ao sin (k x - ω t)
+• Onde périodique dans
+le temps période T : ψ (x,t) = ψ (x, t + T)
+l’espace longueur d’onde λ : ψ (x,t) = ψ (x + λ , t)
+• Mouvement sinusoïdal
+fréquence F (Hz) = 1/T; pulsation ω = 2 π / Τ = 2 π F
+nombre d’onde k = 2 π / λ = (ω / c) λ = cT = c/F
+• Célérité c (m/s)
+• Energie - Puissance : cette onde se déplace à la célérité c et
+transporte une énergie : p (x,t) = po sin (k x - ω t)
+Propriétés Physiques des US
+λ = cT = c/F
+Longueur d’onde
+• La célérité varie
+varie avec le milieu,
+la fréquence reste constante
+constante f
+c
+=
+λ
+0,816 mm
+5 MHz
+4080 m.s-1
+os
+0,290 mm
+5 MHz
+1450 m.s-1
+graisse
+0,154 mm
+10 MHz
+1540 m.s-1
+muscle
+0,308 mm
+5 MHz
+1540 m.s-1
+muscle
+λ
+fréquence
+célérité
+tissu
+Production des Ultra-sons
+Vibrations mécaniques d’une céramique
+piézo-électrique
++
++ +
++
+- -
+-
+-
++ + +
++
+- - -
+-
+une différence de potentiel crée une distorsion : émission
+la pression crée une différence de potentiel : réception
+transducteur
+• Sonde : boitier isolant de protection comprenant :
+la C
+Cé
+éramique
+ramique – l’Amortisseur
+Amortisseur et l’Adaptateur
+Adaptateur
+• Céramique (cristaux de synthèse):
+- émettrice et réceptrice des US
+- caractérisée par une Fréquence de résonance (Fo),
+fonction de son épaisseur et de la nature du matériau.
+• Amortisseur (placé en arrière):
+- amortit les vibrations de la céramique
+- absorbe le rayonnement émis en arrière
+• Adaptateur d’Impédance : Z proche des tissus biologiques
+- rôle de protection de la céramique, isole de la peau
+- non conducteur
+Propagation des ondes US
+Vitesse dépendante du milieu
+air : 343 m.s-1 eau : 1540 m.s-1
+transducteurs
+peau
+échostructure
+gel
+sonde
+Propagation des ondes US
+transducteurs
+peau
+échostructure
+gel
+sonde
+transducteurs
+peau
+échostructure
+gel
+sonde
+Propagation des ondes US
+Pertes d’énergie des ondes US
+par diffraction géométrique
+par réflexion et réfraction
+par diffusion
+par absorption des tissus
+Diffraction géométrique
+• dans le champ proximal, il n’y a que peu de pertes, mais la distribution
+de l’énergie est hétérogène
+• dans le champ distal, la distribution de l’énergie est homogène mais les
+pertes augmentent avec la distance.
+• dans l’idéal, il faut utiliser la sonde à une distance correspondant à la
+limite entre les deux champs.
+Champ
+proximal
+Champ
+distal
+sonde
+Diffraction géométrique
+Champ
+proximal
+Champ
+distal
+sonde
+F incident
+Réflexion spéculaire et Réfraction
+F réfléchi
+F transmis
+Z1
+Z2
+Z1
+Z2
+F incident
+αi
+F réfléchi
+αr
+F réfracté
+αt
+Incidence normale Incidence oblique
+Interface Interface
+L’impédance acoustique
+• l’impédance acoustique Za est le rapport de la
+pression effective sur la vitesse de l’onde :
+Za = pa / va
+• le coefficient de r
+ré
+éflexion
+flexion αr =
+• le coefficient de transmission
+transmission αt =
+• notons que αr + αt = 1
+2
+2
+1
+1
+2
++
+−
+Z
+Z
+Z
+Z
+( )2
+2
+1
+2
+1
+.
+4
+Z
+Z
+Z
+Z
++
+Entre deux milieux différents, la meilleure
+adaptation d’impédance est Zad = 2
+1.Z
+Z
+L’impédance acoustique
+Tissu ρ (kg/m3) Z (kg/m2.s) c (m/s)
+Cerveau 1.03 103 1.60 106 1555
+Foie 1.06 103 1.66 106 1566
+Eau 1.00 103 1.52 106 1500
+Poumon 0.4 103 0.26 106 650
+Squelette 1.60 103 5.50 106 2500 - 4000
+Air* 1.293 4.28 102 331
+ρ
+ρ
+ρ
+ρ0c est environ 3 800 fois plus grand pour l’eau que pour
+l’air à la pression ordinaire
+Diffusion
+Réflexion
+spéculaire
+Monodirectionnelle
+Forte Amplitude
+λ > taille des aspérités
+Réflexion
+non spéculaire : diffusé
+Pluridirectionnelle
+Faible Amplitude
+λ < taille des aspérités
+Absorption par les tissus
+• Loi exponentielle : I = I0. e-αx
+• α est le coefficient d’absorption (en dB / cm / MHz)
+x
+0
+I 0,5
+graisse
+20
+poumon
+10
+os
+1,5
+muscle
+1
+foie
+0,1
+sang
+α
+α
+α
+α
+Tissus
+sonde
+Echo A
+Absorption par les tissus
+1 MHz
+2 MHz
+30 cm
+Plus la fréquence est élevée plus l’atténuation est
+importante pour une même distance parcourue.
+4 MHz
+I
+20 cm
+10 cm
+0 x
+Résolution spatiale
+• Résolution : la plus petite distance séparant deux
+points identifiables
+– Résolution axiale : dans l’axe du faisceau
+– Résolution transversale ou latérale :
+perpendiculaire à l’axe du faisceau
+Champ
+proximal
+Champ
+distal
+sonde
+La focalisation
+focalisation par lentille
+focalisation électronique
+focalisation dynamique
+Focalisation par lentille US
+champ
+proximal
+champ
+distal
+lentille
+sonde
+zone
+focale
+La zone focale est l’endroit du faisceau où la résolution
+spatiale est la meilleure.
+La résolution latérale
+lentille
+sonde
+on définit l’ouverture :
+D
+Fo
+la largeur du faisceau est la résolution latérale (δ)
+δ
+≈
+D
+Fo
+λ
+δ 44
+,
+2
+diamètre
+D
+distance focale
+Fo
+La profondeur de champ
+lentille
+profondeur de champ
+L
+sonde
+2
+3
+≈
+D
+Fo
+L λ
+Si le diamètre de la sonde diminue, la profondeur de champ
+augmente, mais la résolution se dégrade → compromis.
+Echographie B multisonde
+Sonde
+Faisceau de
+lignes parallèles
+écran de
+visualisation
+Echographie B sonde sectorielle
+sonde
+Faisceau de lignes
+divergentes
+écran de
+visualisation
+Echographie TM (time motion)
+temps
+Focalisation électronique
+Lignes à retard
+Focalisation dynamique
+Focalisation électronique
+Sonde
+Foyer
+Impulsions
+Lignes à retard
+Impulsions.
+focalisées
+Front d’onde.
+focalisé
+Focalisation dynamique
+• En modifiant tir après tir les valeurs de lignes à
+retard, on modifie le point de focalisation au
+cours du temps.
+• Il est ainsi possible d’allonger la plage où la
+focalisation est maximale sur l’axe de la sonde.
+Sonde
+Foyer
+Lignes à retard
+zone de netteté
+Echographes et sondes
+Principe de l’échographie
+Basé sur les propriétés de réflexion d’un faisceau ultrasonore
+à la jonction entre 2 milieux
+Trajet parcouru par l’onde sonore :
+2 fois la distance d
+d
+La mesure de la distance
+Réversibilité des sondes
+Profondeur maximale
+Durée de l’impulsion
+Amplification du signal
+La réversibilité de la sonde
+Le même transducteur est alternativement
+émetteur et récepteur
+sonde
+t
+émission
+1
+réception
+1
+distance d
+émission
+2
+a b
+écho a
+écho b
+Profondeur d’exploration
+• La durée de la période de réception de la sonde
+détermine la profondeur maximale d’exploration
+par les ultrasons
+• Distance maximale ou profondeur =
+où v est la célérité des sons dans le milieu
+et ∆t la durée mise par l’onde pour aller jusqu’à
+l’échostructure et revenir à la sonde.
+• Ex : ∆t = 250 µs
+– fréquence de répétition FR = 1 / 2,5 10-4 s = 4 kHz
+– profondeur dans l’eau = 1540 m.s-1 x 2,5 10-4 s / 2
+– soit environ 19 cm
+t
+v ∆
+×
+2
+1
+La durée de l’impulsion
+La durée de l’impulsion ultrasonore est habituellement de 1 µs
+Elle détermine la résolution axiale de l’appareil
+sonde
+a b
+c d
+sonde
+on sépare bien a de b
+! confusion de c et d
+Dans l’eau la résolution axiale d’un appareil ayant une impulsion
+d’une durée de 1 µs est de : 1540 m.s-1 x 10-6 s / 2 = 0,77 mm
+Choix de la fréquence
+• La résolution axiale dépend de la durée
+d’impulsion, ce qui impose une fréquence
+minimale (ex : ∆t = 1 µs f > 1 MHz)
+• La résolution latérale s’améliore avec la
+fréquence, mais la profondeur de champ diminue
+• L’atténuation des tissus croît avec la fréquence, ce
+qui limite la profondeur d’exploration
+• En conséquence :
+– on peut étudier avec une grande précision des structures
+peu profondes et de petite taille
+– les organes profonds et/ou volumineux sont étudiés
+avec une moins bonne résolution
+Exemple : follicule ovarien
+Avec une sonde 5 MHz
+Diamètre du
+follicule :
+16 mm
+Avec une sonde 3,5 MHz
+Profondeur vs Fréquence
+Fréq.(MHz)
+2,5 5 7,5 10
+0
+0
+Prof. (cm)
+30
+24
+18
+12
+6
+Amplification du signal
+Les échos sont d’autant plus faibles que les structures
+réfléchissantes sont situées loin de la sonde.
+distance ≡ temps
+intensité
+Echo A
+Il faut donc amplifier le signal de manière variable et progressive
+Gain de l’amplificateur
+Echo A initial
+I
+x
+I
+x
+Signal amplifié
+60
+50
+40
+30
+20
+10
+0
+Gain de l’ampli
+(en fonction du temps)
+dB
+t ≡ x
+Les échostructures
+En fonction de l’intensité (corrigée) des
+différentes structures, on parle :
+• de structures anéchogènes (non ou mal visibles)
+• de structures hypo-échogènes (signal faible)
+• de structures hyper-échogènes (signal fort)
+Echographie biliaire
+Foie et vésicule biliaire Calcul dans la vésicule
+renforcement
+postérieur
+ombre
+acoustique
+Echographies du sein
+conclusion
+• Mode ‘’A’’ Amplitude
+- relation linéaire entre l’intensité du signal et l’amplitude de la déviation.
+- 1 seule ligne dans l’espace
+- ne permet pas de faire des images de coupes
+• Mode ‘’B’’ Brillance
+- Codage par la luminosité (amplitude de l’écho) d’un point fixe.
+- Représentation d’une image (tranche de tissu) par balayage du champ
+• Mode ‘’TM’’ Temps Mouvement
+- Mode B avec évolution du tracé du point observé dans le temps
+- Excellente résolution spatiale et temporelle
+- Observation des structures mobiles et des événements très rapides
+• Mode Bidimensionnel 2D
+- Echo d’une surface (plusieurs sondes) et non dans une seule direction linéaire
+- Coupe de la structure explorée
+L’effet Doppler-Fizeau
+Principe de l’effet
+Détermination de la vitesse
+Détermination du sens de déplacement
+Notion de fenêtre temporelle
+Calculs dérivés : débits, sténoses
+L’effet Doppler
+• Modification observée de fréquence d'
+une
+source sonore lorsque la source et
+l'
+observateur se déplacent l'
+un par rapport à
+l'
+autre.
+• Exemples :
+– bruit de voiture ou de klaxon en mouvement
+– décalage de couleur selon la vitesse des étoiles
+Les modifications de fréquence
+A l’arrêt
+fe
+fr
+E et R sont immobiles
+fr = fe
+E : émetteur
+R : récepteur
+Les modifications de fréquence
+Approche
+fe
+fr
+E et R se rapprochent
+fr > fe
+E : émetteur
+R : récepteur
+Les modifications de fréquence
+Eloignement
+fe
+fr
+E et R s’éloignent
+fr < fe
+E : émetteur
+R : récepteur
+Le calcul de la vitesse
+1) la source E s’approche de R à la vitesse v
+la fréquence apparente :
+2) la source E s’éloigne de R à la vitesse –v
+la fréquence apparente :
+3) le récepteur R s’approche de E à la vitesse u
+la fréquence apparente :
+4) le récepteur R s’éloigne de E à la vitesse –u
+la fréquence apparente :
+e
+e
+r f
+v
+c
+c
+f
+f >
+−
+=
+′ .
+e
+e
+r f
+v
+c
+c
+f
+f <
++
+=
+′ .
+e
+e
+r f
+c
+u
+c
+f
+f >
++
+=
+′
+′ .
+e
+e
+r f
+c
+u
+c
+f
+f <
+−
+=
+′
+′ .
+Cas général
+• On voit que
+• si E se déplace à la vitesse v et R à la vitesse u
+• les causes multiplient leurs effets
+c
+v
+c
+v
+c
+c +
+≠
+−
+e
+e
+r f
+v
+c
+u
+c
+f
+f >>
+−
++
+=
+′
+′
+′ .
+e
+r
+e
+r
+e
+r
+f
+f
+f
+f
+f
+f ′
+′
+×
+′
+=
+′
+′
+′
+Mesure de la vitesse du sang
+• Vélocimétrie Döppler des hématies :
+si le déplacement n’est plus colinéaire, il faut tenir
+compte de l’angle θ.
+La fréquence Döppler FD
+vaut : e
+r f
+f −
+′
+′
+′
+θ
+cos
+2
+c
+v
+f
+F e
+D ×
+=
+D
+e
+F
+f
+c
+v .
+cos
+2 θ
+=
+L’écoulement du sang
+sténose
+Ecoulement turbulent :
+- accélération des vitesses au centre
+- ralentissement et turbulences en
+périphérie
+Ecoulement laminaire :
+- vitesses stables
+- profil concentrique régulier
+Débit : avec S =
+v
+S
+dt
+dx
+S
+dt
+dV
+.
+=
+=
+4
+. 2
+D
+π
+D v
+Modes de fonctionnement
+• Döppler continu (2 cristaux E et R)
+– Mesure des vitesses sanguines
+– Etude du sens d’écoulement
+– Calcul de débits
+– Recherche des sténoses artérielles
+• Döppler pulsé (même sonde pour E et R)
+– Association d’une mesure de vitesse à une
+image échographique B.
+Doppler Pulsé
+• Avantages :
+– précisions sur la zone de mesure
+– repérage aisé par la superposition à un écho TM ou B
+– réglage du volume de mesure
+• Inconvénients :
+– limitation en profondeur : (temps nécessaire à l'
+A.R. de l'
+onde
+ultrasonore)
+Prof. = c / 2FR (FR=fréquence de répétition)
+ex : FR=10kHz Prof. =7,5 cm
+– limitation de la vitesse maximale mesurable : Pour mesurer une
+variation de fréquence de 5 kHz, la FR ne peut être inférieure à 10
+kHz.
+– erreur d’échantillonnage : Aliasing (Théorème de Shannon)
+– compromis à trouver entre profondeur maximale et vélocité
+mesurée.
+Analyse du Doppler
+• Acoustique : passage à l'
+aigu si le flux se rapproche de la
+sonde, au plus grave quand il s'
+en éloigne.
+– Variable s’il s’agit d’une artère
+– Continu s’il s’agit d’une veine
+• Visuelle : courbe positive ou négative selon le sens,
+bleu (se rapproche du capteur) ou rouge (s'
+en éloigne).
+– La couleur désigne le sens, (ou la nature, artérielle ou veineuse)
+l'
+intensité de celle-ci traduisant la vitesse du phénomène.
+– Le vert est utilisé pour évaluer les turbulences.
+Le Doppler énergie
+• Döppler énergie ou puissance
+Il est possible de coder de façon bidimensionnelle et en couleur
+l'
+énergie du signal Doppler au lieu de la valeur du décalage de
+fréquence. L'
+énergie du signal Doppler est directement proportionnelle
+au nombre de globules rouges à l'
+origine du décalage de fréquence.
+• Avantages :
+– disparition des anomalies d’échantillonnage (anti-Aliasing)
+– forte diminution du bruit
+– amélioration de la résolution spatiale
+• Inconvénients :
+– mauvaise résolution temporelle
+– sensibilité aux mouvements
+– absence d'
+indication sur le sens de l'
+écoulement
+Flux dans l’aorte ascendante
+Doppler Transcranien
+Recherche d’une
+sténose de l’artère
+carotide, par
+inversion du sens
+du flux sanguin
+dans l’artère
+ophtalmique
+Echo-doppler intracardiaque
+Flux trans-mitral
+Plan aorto-mitral
+Echo-doppler vasculaire
+Echo-doppler obstétrical
+Etude du flux d’un cordon ombilical
+Applications en thérapie
+Effets thermiques
+Effets de cavitation
+Effets thermiques des US
+• Atténuation = transfert d'
+énergie au milieu
+• Seulement pour des énergies importantes, bien
+supérieures à celles du diagnostic
+• En application continue, pour des puissances
+supérieures à 160 dB et une fréquence de 1 MHz
+on peut avoir des effets thermiques utilisables
+• Utilisation en dermatologie et rhumatologie
+Effets de cavitation
+Utilisation d’un gradient de pression pour provoquer
+des déchirures dans les tissus
+10 W/cm2 → passage à l'
+état gazeux des gaz dissous
+(loi de Henry)
+Création de nombreuses bulles
+→ onde de choc = 1000 atm
+Application : lithotripsie extra-corporelle
+Lithotripsie extra-corporelle
+couronne de céramiques
+piézo-électriques
+destruction des calculs rénaux
+Calcul vésical au point focal F2
+Réflecteur
+ellipsoïdal
+Coussin d’eau
+Emission au point focal F1
+Un appareil de lithotripsie
+avec nos sincères
+remerciements pour son aide
+précieuse dans la réalisation de
+ce document à notre ami
+le Pr Jean Yves Devaux et au
+Dr S Moati (St Antoine)
+année 2008-2009
+

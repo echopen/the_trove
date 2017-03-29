@@ -1,0 +1,14 @@
+# Bootstrap:Footer
+
+<code><div class="row">
+    <div class="col-md-6">
+=== Stuff ===
+* [[Contact]]
+* [[Planning]]
+    </div>
+    <div class="col-md-6">
+=== More Stuff ===
+* [[Thanks]]
+    </div>
+</div>
+</code>

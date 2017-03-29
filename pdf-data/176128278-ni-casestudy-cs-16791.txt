@@ -1,0 +1,145 @@
+1/4 www.ni.com
+Bookmark and Share
+Explore the NI Developer
+Community
+Discover and collaborate on the latest
+example code and tutorials with a
+worldwide community of engineers and
+scientists.
+‌Check‌ out‌ the‌ NI‌ Community
+Who is National Instruments?
+National Instruments provides a
+graphical system design platform for
+test, control, and embedded design
+applications that is transforming the
+way engineers and scientists design,
+prototype, and deploy systems.
+‌Learn‌ more‌ about‌ NI
+Prototyping Micro-Ultrasound Instruments for Medical Imaging
+"The extensive range of example code for NI hardware built into LabVIEW
+made it easy to integrate the new digitizer into the existing project. Readily
+available technical support and fast responses from an NI application
+engineer helped us move the project forward within our time limits."
+- Florence Ndum, University of Dundee
+The Challenge:
+Upgrading the Diagnostic Sonar Ltd FI Toolbox for medical ultrasound imaging from imaging at 15 MHz to the micro-ultrasound regime of
+50 MHz with multichannel transmit and receive.
+The Solution:
+Using a new NI PXI digitizer card to replace the original digitizer to attain the high sampling rate required to capture 50 MHz pulses
+accurately, and using the scalable nature of LabVIEW to easily integrate the new card by adapting the existing FI Toolbox code.
+Author(s):
+Florence Ndum - University of Dundee
+Romans Poltarjonoks - University of Dundee
+Dave Lines - Diagnostic Sonar Ltd
+Sandy Cochran - University of Dundee
+Holly Lay - University of Dundee
+Background to Micro-Ultrasound Imaging
+Ultrasound imaging is used extensively in the medical profession and accounts for approximately 13 percent of all preclinical
+imaging. Increasing the frequency of the ultrasound wave increases the resolution of resulting images. The micro-ultrasound
+regime is defined as frequencies above 15 MHz, which delivers a resolution below 50 micrometers. Because of the high
+resolution and rapid frame rate, the technique has been used in a wide variety of medical applications such as imaging blood
+flow for cardiovascular research and tumours for cancer research. It is an invaluable tool for medicine and can be used for
+non-destructive testing (NDT) of materials.
+Diagnostic Sonar Ltd (DSL) designed and now manufactures the FI Toolbox, which is a flexible, modular, and scalable
+PC-based ultrasound system for medical, NDT, and sonar data collection and research. This high-performance platform can
+operate in a number of different ultrasound modes, including array imaging. The FI Toolbox multichannel digitizer limits the
+ultrasound frequency to around 15 MHz, which covers most conventional imaging applications but limits the use for micro
+ultrasound.
+The current FI Toolbox transmitter design can generate programmable excitation pulses or sequences to extend control over
+the bandwidth, but is still fundamentally limited by the integrated high-voltage pulser hardware to an upper limit of around 20
+MHz. In comparison, conventional micro-ultrasound hardware uses an impulse excitation method to drive single element
+transducers that are designed to resonate at much higher frequencies. The wide range of frequencies contained within that
+impulse means the transducer element produces an ultrasound pulse with a wide bandwidth and high resolution.
+The (IMSaT) at the University of Dundee is an interdisciplinary institute that brings
+Institute for Medical Science and Technology
+together physics, engineering, and clinical and life sciences. One key area of research for IMSaT is medical ultrasound
+technology. This led us to collaborate with DSL to upgrade the FI Toolbox to the micro-ultrasound regime so it could generate
+and receive the required high-frequency signals.
+The FI Toolbox
+Diagnostic Sonar Ltd produces the FI Toolbox system as an ultrasound imaging and data acquisition platform, which is based
+on the NI PXI platform and custom FlexRIO FPGA cards.
+Figure 1. The FI Toolbox System
+2/4 www.ni.com
+Figure 2. Block Diagram of the FI Toolbox. Units in red were identified to be replaced after characterisation to achieve
+micro-ultrasound capability.
+Figure 2 shows the full FI Toolbox system diagram. The modules that could be impacted by the proposed increase in frequency
+range are:
+DSL32T transmit adapter module: This is a standard FlexRIO adapter module with additional pulser and high-voltage
+interfaces, providing 32 independent ultrasound excitation channels. It typically generates high-voltage pulses at the frequency
+specified by the user through a LabVIEW interface. The FlexRIO FPGA card generates the signals before they are amplified in
+the DSL32T transmitter and then sent either to the DSL32M or directly to the ultrasound array.
+DSL32R receive adapter module: The module receives 32 channels of returning ultrasound signals from the array or DSL32M.
+The DSL32R is built into a standard FlexRIO adapter module housing and delivers high-voltage protection and optimised low
+noise preamplification.
+NI 5752 digitizer adapter module: This attaches to a FlexRIO FPGA card and converts the analogue signals from the DSL32R
+into digital signals that are passed on to the FPGA for preprocessing. Each of the 32 channels connects through a
+programmable swept-gain amplifier to an anti-aliasing filter (AAF) and A/D converter. The AAFs have a programmable cut-off
+frequency of 7.5 MHz, 10 MHz, or 14 MHz and can perform 12-bit digitizing at up to 50 MS/s.
+DSL32M multiplexer adapter module: This module has 32 independent high-voltage bidirectional analogue switches. It
+receives as inputs the 32 individual transmit signals from the DSL32T. It has a small signal frequency range of DC to 20 MHz.
+Upgrade Analysis
+We characterized the FI Toolbox and found its limitations with respect to micro-ultrasound imaging at 50 MHz. The receiver
+showed good performance up to 100 MHz; therefore, we could use it in micro-ultrasound applications. The transmitter
+generates pulses up to 24 MHz and +/-90 V amplitude. The NI 5752 delivers a maximum AAF cut-off of 14 MHz and the
+multiplexer works up to 20 MHz. Thus, we need to replace the DSL32T, DSL32M, and NI 5752 to achieve the new frequency
+requirements.
+Figure 3. Upgraded Version of FI Toolbox
+Proposed Solution
+Based on the outcome of the characterisation of the FI Toolbox and after research on suitable hardware, we proposed a new
+system as illustrated in the block diagram of Figure 4.
+3/4 www.ni.com
+Figure 4. Block Diagram of Single Channel Evaluation Block of Micro-Ultrasound Imaging System
+Transmit End
+We created a transmit board to prototype a replacement unit for the original transmit adapter module. We could then integrate
+this into the system design above to achieve micro-ultrasound pulse generation.
+Designed for single channel operation, the transmit board’s requirement is to generate a single pulse at a desired frequency
+with amplitude between 30 V and 50 V. A pulse width modulation chip generates the pulse. This chip produces pulses with a
+width, and thus frequency, determined by an input value that the FlexRIO FPGA obtains. The amplitude of the generated pulse
+is 5 V, so a combination of an op amp and a power PMOS performs pulse amplification. We draw power for the PWM chip, the
+op amp rails, and the source of the PMOS from the backplane of the PXI chassis. We designed a voltage tripler circuit to boost
+the +12 V from the backplane to about 36 V to give the amplitude of the final output pulse from the transmit board. Figure 5
+describes the unit.
+Figure 5. Diagram of the Transmit Board
+Receive End
+Figure 6 shows the diagram for the new receive end of the FI Toolbox with the components necessary to function in the
+micro-ultrasound range. As seen during the characterization phase, the DSL32R has adequate specifications to operate at 100
+MHz, so we used it within this prototype. The multiplexers in the FI Toolbox are limited to signals below 20 MHz, so the
+high-frequency multiplexers replaced them with the same functionality. The original NI 5752 digitizer could not meet the
+requirements, so we replaced it with the NI PXIe-5170R digitizer card.
+Figure 6. Block Diagram for Receive End of FI Toolbox
+The new NI PXIe-5170R card has eight simultaneously sampled 14-bit channels, which is a 2-bit improvement over the previous
+digitizer resolution. We need the DSL32Rs with a swept-gain control to match that in the NI 5752 to achieve a similar
+improvement in instantaneous dynamic range. The new FI Toolbox digitizer needs a minimum sampling rate of 100 MS/s to
+capture signals with frequencies up to 50 MHz. However, the signals could have frequency components above 50 MHz, so the
+high 250 MS/s sampling rate of the new digitizer can help us fully capture the frequency content of interest. The reconfigurable
+functionality of the NI PXIe-5170R allows for the multiplexing and beamforming, needed for the eventual imaging system, to be
+implemented within the FPGA.
+Conclusion
+Because we had already based the FI Toolbox system on LabVIEW and NI hardware, we could easily implement the new NI
+PXIe-5170R digitizer due to the modular nature of the PXI platform. The extensive range of example code for NI hardware built
+into LabVIEW made it easy to integrate the new digitizer into the existing project. Readily available technical support and fast
+responses from an NI application engineer helped us move the project forward within our time limits.
+We developed the system proposed here for micro-ultrasound imaging using the FI Toolbox as independent transmit and
+receive sections. The next step is to improve the current design for the transmit unit prototype so that it integrates smoothly with
+the FlexRIO FPGA and the PXI backplane to produce pulses reliably at the desired micro-ultrasound frequency and amplitude.
+We then need to integrate it with the receive end section and extend the whole system to multichannel operation by using
+4/4 www.ni.com
+We then need to integrate it with the receive end section and extend the whole system to multichannel operation by using
+high-frequency multiplexers on transmit and receive. Finally, we can test it with transducer elements and arrays to get full
+images. After testing, researchers can use it to probe brand new materials or to increase their understanding of life-threatening
+diseases.
+Author Information:
+Florence Ndum
+University of Dundee
+Dundee
+United Kingdom
+Next Steps
+Find out more about LabVIEW
+See more applications of NI products within the medical industry
+What else can PXI be used for?
+Legal
+This case study (this "case study") was developed by a National Instruments ("NI") customer. THIS CASE STUDY IS PROVIDED "AS IS"
+WITHOUT WARRANTY OF ANY KIND AND SUBJECT TO CERTAIN RESTRICTIONS AS MORE SPECIFICALLY SET FORTH IN
+NI.COM'S TERMS OF USE ( ).
+http://ni.com/legal/termsofuse/unitedstates/us/
+

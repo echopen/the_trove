@@ -1,0 +1,422 @@
+1
+ÉCHOGRAPHIE EN MÉDECINE D’URGENCE :
+QUEL BÉNÉFICE POUR LE PATIENT ?
+Points essentiels
+■ L’échographie par les médecins urgentistes dans les structures d’urgence est
+régulièrement utilisée comme un outil de prise en charge des patients.
+■ L’échographie est un examen conçu et pensé comme prolongation de la
+démarche clinique du médecin.
+■ L’échographie s’intègre au sein de protocoles ou d’algorithmes décisionnels
+dont les pertinences en termes d’apprentissage, de sensibilité et spécificité
+sont connues, justifiant de son usage.
+■ Les bénéfices pour les patients sont fonction de chaque examen.
+■ Les bénéfices en termes de morbimortalité sont en cours d’évaluation.
+■ Pour les situations cliniques rares, les bénéfices semblent indiscutables, mais
+sont impossible à établir formellement par des études offrant des
+recommandations de grade A.
+1. Introduction
+L’usage de l’échographie par les médecins urgentistes est en constante
+progression depuis une dizaine d’années dans les structures d’urgences (SU). Elle
+permet de répondre à un certain nombre de problèmes cliniques et est appelée
+par certains « stéthoscope » moderne de l’urgentiste (1, 2).
+Chapitre 53
+Échographie
+en médecine d’urgence :
+quel bénéfice pour le patient ?
+J. BENIS 1, L. DUCROS 2, E.N QUERELLOU 1
+1. SAMU 29 – Centre Hospitalier Régional Universitaire, Brest.
+2. Réanimation – Hôpital Sainte Musse, Toulon.
+Dr Emgan Querellou. SAMU 29, boulevard Tanguy Prigent, 29609 Brest.
+E-mail : querellou@yahoo.fr
+2 ■ ÉCHOGRAPHIE EN MÉDECINE D’URGENCE
+L’échographie (US) dans cette version moderne peut être considérée comme
+une véritable prolongation de la main et des oreilles, permettant de « voir », et
+ainsi dans un certain nombre de situations d’infirmer ou de confirmer un
+diagnostic, ou de suivre l’effet de thérapeutiques.
+Si le praticien semble tirer profit de ce nouvel outil, quel est le bénéfice réel pour
+le patient ?
+2. Études
+Il existe peu d’études permettant de répondre précisément aux bénéfices
+d’emploi des US par les médecins urgentistes. Les méthodologies d’études, le
+contexte d’emploi, la compétence des utilisateurs sont autant d’éléments ne
+permettant pas une transposition stricte de l’emploi fait par les cardiologues,
+radiologues ou de toute autre spécialité utilisant les US (3). Dans ces spécialités,
+les bénéfices sont connus depuis de nombreuses années.
+Idéalement pour que la spécialité de médecine d’urgence puisse s’approprier
+l’usage des US les conditions suivantes des études doivent être réunies :
+– Études faites par des médecins urgentistes.
+– Études dont la méthodologie soit solide, afin de prétendre à l’écriture de
+recommandations de Grade A.
+– Étude pour chaque champ de pathologies et pour chaque lieu d’emploi intra ou
+extrahospitalier.
+Il existe des variabilités des modalités d’enseignement. Ces variations sont une
+des difficultés d’interprétations des études entre elles.
+En France, l’échographie appliquée à l’Urgence (EAU) est enseignée au sein du
+diplôme interuniversitaire d’échographie générale :
+– DIU EAU
+• 5 jours de cours théoriques, 1 semaine de stage, 25 examens par site (cœur,
+poumon, péritoine, voies biliaires, aorte, etc.) ;
+– Royal College of Radiologist ;
+• Niveau 1 : 25 examens par pathologie ;
+• Niveau 2 : 25 examens/semaine ;
+– American College of Emergency Physician ;
+• 16 heures de cours théoriques, puis 25 examens.
+Les courbes d’apprentissages précisent les volumes minimums d’examens et les
+niveaux seuil de compétences, répondent à la logique « stéthoscopique » de
+l’usage fait par les médecins urgentistes.
+En médecine d’urgence, l’apprentissage peut être « général » ou spécifique. Il semble
+plus aisé de commencer un apprentissage sérié, avec intégration de l’outil dans un
+3
+ÉCHOGRAPHIE EN MÉDECINE D’URGENCE :
+QUEL BÉNÉFICE POUR LE PATIENT ?
+ensemble contextuel large, clinique, examens complémentaires, etc. Ces échographies
+spécifiques sont ainsi intégrées au sein de protocoles, divers et nombreux :
+– FAST, Focused Assessment Sonography pour Trauma.
+– FEEL, Focused Echocardiographic Evaluation in LifeSupport.
+– Blue Protocol.
+Pour préciser l’usage et l’intérêt des US, il semble cohérent de s’appuyer sur
+les travaux antérieurs des autres spécialités médico-chirurgicales, de préciser les
+bénéfices connus et les modalités de transfert de compétences.
+Cette approche pragmatique de transfert de compétence, prend d’autant plus de
+sens que l’emploi des US est encadré, validé, mais devra être formellement étayé
+par des études.
+L’emploi des IS pourrait ainsi présenter un bénéfice à plusieurs niveaux (4) :
+– Outil diagnostic.
+– Outil de suivi des thérapeutiques.
+– Outils d’aide à la réalisation des gestes techniques invasifs.
+– Outils de surveillance.
+Un préalable à l’emploi des US est une connaissance, minimale, des contraintes
+liées aux caractéristiques physiques, et aux compétences des utilisateurs.
+3. Caractéristiques de l’onde ultra sonore
+Les ondes ultras sonores sont des ondes acoustiques qui se propagent au
+travers du corps humain. La variabilité de propagation du signal est fonction
+des propriétés des tissus traversés. La formation du signal échographique
+comprend la réflexion des ondes sur une interface tissulaire de densité
+différente, et la diffusion des ondes ultras sonores. Associé à ce principe de
+« base », l’emploi de modes particuliers, autorisés par des propriétés physiques
+permet de compléter la technique d’imagerie plan « 2d » :
+– Time Motion (TM).
+– Échographie 3D/4D.
+– Doppler tissulaire.
+– Doppler pulsé/continu.
+– Doppler couleur.
+– Doppler puissance énergie.
+Cette connaissance indispensable des éléments technologiques, physiques est
+la première limite d’emploi. Celle-ci est importante, car une méconnaissance ou
+« connaissance » inadaptée peut être à l’origine d’erreurs par réalisation de
+« fausses images », d’interprétation erronée ou de suivis thérapeutiques à
+l’origine d’erreurs médicales.
+4 ■ ÉCHOGRAPHIE EN MÉDECINE D’URGENCE
+4. Compétences de l’utilisateur
+Les limites d’emploi des US en lien avec l’opérateur sont plus aisées à
+comprendre et sont bien étayées par de nombreuses études. Il existe une
+relation étroite entre le niveau d’apprentissage et la pertinence des résultats
+obtenus par l’opérateur.
+Ces limites ne seront pas décrites plus avant, celles-ci étant parfaitement
+connues.
+5. Échographie « spécifiques »
+5.1. FAST échographie
+Il s’agit d’une échographie standardisée selon un protocole parfaitement décrit
+et reproductible. Il permet une identification précoce des patients traumatisés
+graves vers un bloc opératoire (5, 6).
+Elle comprend une recherche de sang au niveau des zones déclives ou des cavités
+virtuelles (plèvre, péricarde). Elle ne doit aucunement rechercher des lésions
+d’organes. En effet de 5 à 37 % de lésions d’organes ne sont pas associés à un
+épanchement péritonéal (7).
+Les études initiales comprenaient 4 fenêtres échographiques : fosses lombaires D
+et G, coupe sous xyphoïdienne, et sus pubienne. Son apprentissage passe par une
+courte formation avec une sensibilité et une spécificité à 97 % et 97 % après
+une journée de formation initiale.
+Le protocole FAST justifie d’une orientation vers un bloc opératoire chez plus de
+64 % des patients présentant un épanchement dans un contexte de traumatisme.
+À l’inverse l’absence de visualisation de liquide ne préjuge pas d’une non-
+orientation vers un bloc opératoire. Il semble aussi exister un gain sur les durées
+d’obtention du diagnostic de saignement de 151 à 53 mm, associés à une
+diminution du coût global de prise en charge des patients.
+Une des limites connues est le caractère opérateur-dépendant avec une
+variabilité de 5 à 37 %, associé à un risque de faux négatif chez les patients
+stables.
+Une synthèse de la Cochrane avait conclu en 2008 qu’il n’existe pas assez
+d’étude de grade A permettant de justifier de son usage pour orienter le
+diagnostic et modifier les procédures chez les patients suspects de traumatisme
+abdominal fermé. Seules 4 études randomisées existent, mais l’extrême
+hétérogénéité des méthodologies et des critères principaux ne permet pas
+de conclure (8).
+5
+ÉCHOGRAPHIE EN MÉDECINE D’URGENCE :
+QUEL BÉNÉFICE POUR LE PATIENT ?
+Des recommandations d’experts proposent d’intégrer la FAST selon les modalités
+suivantes chez les patients présentant une instabilité hémodynamique (9) :
+– FAST positive => Orientation vers un bloc opératoire.
+– FAST négatif => Imagerie scannographique.
+Dans cette procédure la place de l’embolisation n’est pas précisée, malgré sa
+place plus fréquente dans les prises en charge.
+Le bénéfice pour les patients n’est pas formellement établi, mais permet
+toutefois un gain de temps d’accès au bloc opératoire.
+5.2. Échographie et arrêt cardiaque
+L’examen échographique peut s’intégrer dans la prise en charge de l’AC tout
+en respectant les recommandations internationales. La faisabilité de l’examen
+chez les patients présentant une embolie pulmonaire, un épanchement,
+péricardique ou un état de choc semble possible (10). Chez les patients
+présentant une activité électrique sans pouls non choquable ou une asystole,
+l’ETT, par voie idéalement sous-xiphoïdienne, permettrait d’orienter le diagnostic
+et la thérapeutique chez un tiers des patients (11).
+De futures études cliniques sont indispensables afin d’évaluer précisément le
+bénéfice sur la mortalité (12).
+La place de l’échographe dans l’arrêt cardiaque reste à préciser. Les cas cliniques
+décrits, ponctuels (description de fibrillation ventriculaire, thrombus migrant
+avec embolie pulmonaire, pneumothorax bilatéraux) plaident en faveur de
+son usage (13).
+5.3. Échographie thoracique et dyspnée
+La prise en charge des dyspnées aigües comprend une nécessaire catégorisation
+entre une origine cardiaque et une étiologie pulmonaire (14).
+L’examen clinique seul ne peut suffire chez certains patients à être discriminant.
+Dans les suites des travaux de Lischtenstein, l’emploi des US permet en
+quelques minutes de différencier celle-ci (15).
+Plusieurs étiologies pulmonaires sont aisément mises en évidence : syndrome
+interstitiel, pneumothorax, épanchement pleural, consolidation alvéolaire.
+Les étiologies d’origine cardiaque sont mises en évidence en associant
+éléments échographiques pulmonaires et recherche d’une cardiomyopathie
+échographique (15).
+Le BLUE protocol précise la sémiologie échographique et les étiologies
+évoquées devant une détresse respiratoire aiguë (15).
+6 ■ ÉCHOGRAPHIE EN MÉDECINE D’URGENCE
+5.3.1. Syndrome interstitiel
+La présence de ligne B ou queues de comètes antérieures (> 2 par champ exploré,
+espacé de 7 mm) traduit un syndrome interstitiel avec une sensibilité et une
+spécificité de 93 et 93 % respectivement. Secondairement, l’analyse de la
+fonction ventriculaire gauche permet de faire la différence entre OAP d’origine
+cardiogénique et OAP d’origine lésionnelle.
+5.3.2. Pneumothorax
+Une recherche de pneumothorax est possible, et son diagnostic repose sur les
+signes échographiques suivants :
+– Abolissement du glissement pleural (VPN 100 %).
+– Disparition des lignes B (VPN 100 %).
+– Présence de ligne A (Se 100, et Sp 60 %).
+– Signe du point poumon (Se 66 %, et Sp 100 %).
+La « visualisation » de la vacuité pleurale, associée aux autres signes cliniques,
+notamment disparition du murmure vésiculaire ou asymétrie thoracique est un
+élément important de diagnostic (16).
+La recherche espace intercostal par espace intercostal permet de déterminer
+l’importance de celui-ci, et dans certaines situations d’initier une thérapeutique
+immédiate (17).
+5.3.3. Épanchement pleural
+La présence d’une zone hypoéchogène en arrière de la ligne pleurale (signe du
+Diése) et mobile avec la respiration en mode TM (Signe de la sinusoïde) traduit
+un épanchement pleural (Se 97 %, et Sp 94 %). Le caractère bilatéral oriente vers
+une étiologie cardiaque, et son caractère unilatéral vers une origine pulmonaire.
+Une évaluation du volume de l’épanchement est possible par mesure de la
+distance inter pleurale (DIP) expiratoire. Une DIP expiratoire supérieure ou égale à
+45 mm à droite (Se 94 % et Sp 76 %), à 50 mm à gauche (e 100 %, et Sp 67 %)
+traduirait un volume supérieur à 800 ml.
+5.3.4. Consolidation alvéolaire
+La présence d’image d’allure tissulaire (hépatisation pulmonaire) sans signe de
+la sinusoïde, associée au signe de la scie (bordure profonde déchiquetée) et à
+un bronchogramme aérien traduit une pneumopathie (Se 90 % et Sp 98 %).
+Le bénéfice de la réalisation d’une échographie thoracopulmonaire pour le patient
+n’est pas pour l’instant formellement établi, les premières études comprenant
+description de la symptomatologie échographique, et évaluation des courbes
+d’apprentissage. Son usage est toutefois clairement établi en l’absence d’autres
+outils diagnostics, radiographique ou tomodensitométrie.
+7
+ÉCHOGRAPHIE EN MÉDECINE D’URGENCE :
+QUEL BÉNÉFICE POUR LE PATIENT ?
+La connaissance d’éléments sémio échographiques permettant un choix et une
+adaptation des thérapeutiques semblent intuitivement être bénéfique. Des
+études de stratégies, méthodologiquement complexes, sont à réaliser afin de
+pouvoir asseoir et valider son usage dans le champ large des pathologies
+pulmonaires.
+5.4. Échographie transthoracique et état de choc
+À la différence de la FAST ou de l’échographie thoracique pulmonaire, l’ETT à
+visée cardiaque est une technique nécessitant un enseignement théorique et
+pratique long, rendant son usage dans les services d’urgences plus délicat (18).
+La réalisation d’une ETT doit être réservée aux patients les plus graves dont
+l’état clinique est précaire. En effet plus le choc est sévère, plus les signes
+échographiques sont d’interprétations aisées. L’échographie doit permettre de
+répondre aux questions suivantes :
+5.4.1. Le patient est-il hypovolémique
+– En ventilation spontanée, un diamètre de veine cave inférieure inférieur à 10
+mm, associés à un index de distensibilité < 50 %, voir collapsus inspiratoire.
+– En ventilation mécanique, un index de distensibilité > 18 % (Se 90 % et
+Sp 90 %).
+– Évaluation du profil mitral avec rapport E/A < 1 chez un sujet jeune.
+L’intérêt majeur de l’examen US n’est pas tant de faire le diagnostic de choc,
+mais de surveiller l’efficacité ou non du remplissage vasculaire et de rechercher
+une défaillance cardiaque associée, afin de compléter les thérapeutiques
+initiées.
+5.4.2. Le patient fait-il un choc cardiogénique
+Une recherche d’une hypokinésie du ventricule gauche, dans un contexte de
+choc permet d’orienter les thérapeutiques. Plusieurs études ont montré que
+l’interprétation sommaire, FeVG normale, altérée, ou effondrée était
+d’apprentissage facile, et surtout reproductible par les médecins urgentiste. La
+mesure de l’ITV sous aortique, reflet du débit cardiaque est aujourd’hui
+aisément faite en formation des urgentistes.
+5.4.3. Le patient présente-t-il un épanchement péricardique
+La recherche d’un épanchement péricardique et d’une tamponnade associée
+est aisée, et est d’apprentissage court.
+Le bénéfice pour les patients est évident, permettant notamment dans
+les situations de choc une identification précoce et une réalisation d’une ponction
+évacuatrice salvatrice.
+La rareté de ce diagnostic dans les services d’urgences fait qu’il n’existe pas
+d’études permettant de prouver le bénéfice à la réalisation de cet examen dans
+8 ■ ÉCHOGRAPHIE EN MÉDECINE D’URGENCE
+nos structures. Il est éthiquement impossible de réaliser une étude
+comparative, l’absence de réalisation de l’examen par un médecin urgentiste
+formé dans un contexte évocateur s’assimilant à une perte de chance. Les
+signes US évocateurs sont :
+– Décollement péricardique systolo-diastolique circonférentiel > 2 cm, swinging
+heart.
+– Collapsus diastolique et protosystole de l’OD, puis collapsus diastolique du VD,
+puis collapsus du VG, signe d’extrême gravité.
+– VCI pléthorique (> 20 mm) avec diminution des variations respiratoires.
+– Septum paradoxal, avec bombement du septum inter ventriculaire en systole
+dans le VG, du fait de la surcharge de pression.
+– Pouls paradoxal échographique.
+5.4.4. Le patient fait-il une embolie pulmonaire grave
+avec cœur pulmonaire aigu ?
+La recherche d’éléments échographiques en faveur d’une embolie pulmonaire
+est un temps important de la prise en charge de patient présentant une
+symptomatologie évocatrice. Elle permet dans certains cas d’affirmer le
+diagnostic, mais aussi de préciser son degré de gravité. Elle comprend :
+– Ratio VD/VG > 1.
+– Septum paradoxal en diastole dans le VG.
+– Visualisation ou non d’un thrombose des membres inférieurs au doppler
+4 points.
+– Visualisation, rare d’un thrombus intra auriculaire ou ventriculaire droit.
+Pour l’ensemble des pathologies ou situations cliniques sus décrites, la
+littérature est abondante et le bénéfice de l’échographie est établi. Toutefois,
+le bénéfice de sa réalisation dans une structure d’urgence par un médecin
+urgentiste n’est pas formellement établi.
+Il semble vraisemblable que l’obtention précoce ou accélérée de diagnostic de
+certitude permette dans un nombre conséquent de situations d’améliorer le
+pronostic par prise en plus charge plus précoce des chocs, des tamponnades
+ou des embolies pulmonaires, mais des études sont à mener afin de confirmer
+ces hypothèses médicales.
+5.5. Échographie transcrânienne
+L’emploi des US chez les patients traumatisés crâniens est une technique non
+invasive d’exploration de la circulation cérébrale.
+Mise au point pas Aaslid en 1982, les US ont initialement été utilisés en
+neurologie en complément de l’écho doppler des troncs supra aortiques et
+dans le dépistage du vasospasme des artères cérébrales dans les hémorragies
+méningées sous arachnoïdiennes. Depuis quelques années, les performances
+9
+ÉCHOGRAPHIE EN MÉDECINE D’URGENCE :
+QUEL BÉNÉFICE POUR LE PATIENT ?
+du DTC en font un outil d’usage large et répété dans les services de
+réanimation. Son caractère non invasif, sa rapidité de réalisation, sa fiabilité et sa
+reproductibilité en font un élément central et précoce de prise en charge
+des patients neuro lésés et notamment ceux victimes d’un traumatisme crânien
+grave (19, 20).
+Il existe de nombreuses voies d’abord permettant de sonder la quasi-totalité du
+polygone de Willis. Dans le cadre des urgences neurotraumatologiques,
+l’exploration se limite au segment M de l’artère cérébrale moyenne par voie
+transtemporale (21).
+Réalisable en pré et intrahospitalier, le DTC outil permet d’évaluer la qualité
+du débit sanguin cérébral, et de façon indirecte la pression de perfusion
+intracérébrale dans un contexte clinique évocateur d’hypertension intracérébral.
+Cet examen est réalisable chez l’adulte et l’enfant.
+Il comprend les mesures des vélocités intra-artérielles suivantes :
+– Vs , vélocité systolique.
+– Vd, vélocité diastolique/
+– Index de pulsatilité qui permet de s’amender de l’angle d’insonation.
+Les valeurs pathologiques retenues par Vigué et al sont IP > 1.2 et Vd < 20 cm/s,
+signant l’arrêt du DSC et exposant au risque de majoration des lésions par
+ischémie neuronale. Une valeur d’IP comprise entre 0,8 et 1,2 est considérée
+comme normale (22).
+Le DTC permet une évaluation et une surveillance des thérapeutiques entreprises.
+Osmothérapie, augmentation de la sédation, remplissage vasculaire, contrôle de la
+ventilation assistée mécanique, introduction d’amines vasopressines doivent
+permettre idéalement une normalisation ou amélioration du DSC.
+Les limites du DTC sont :
+– Propre au patient, avec variabilité de pénétration des US au niveau de la fenêtre
+temporale (personnes âgées, femmes ménopausées).
+– Propre à l’examinateur, même si la courbe d’apprentissage est courte
+(10 examens sous contrôle d’examinateur expert).
+– Fonction de l’anémie, qui peut être à l’origine de VD par vasodilatation
+artériolaire, mais aussi modification de la rhéologie sanguine.
+– Fonction du rythme cardiaque, notamment la bradycardie responsable d’une
+sous-estimation du Vd.
+5.6. Échographie et Thrombose veineuse profondes
+des membres inférieurs
+La recherche d’une thrombose veineuse des membres inférieurs par échographie
+4 points, avec test de compressibilité est réalisable dans les SU par les MU.
+10 ■ ÉCHOGRAPHIE EN MÉDECINE D’URGENCE
+Cet examen permet de retrouvé une TVP chez 23,1 % (498 des 2 379 patients).
+Les caractéristiques de l’examen, sensibilité de 96, 1% (95 % IC, 90,6-98,5 %), et
+spécificité de 96,8 % (95 % IC, 94,6-98.1 %), font de celui-ci un outil fiable
+et incontournable de prises en charge des patients suspects, afin d’initier
+précocement une thérapeutique (23).
+6. Conclusion
+L’emploi par les médecins urgentistes et la diffusion des US dans les structures
+d’urgences est constant depuis une décade. Le bénéfice semble évident, mais
+est, et reste discuté. Peu d’études méthodologiquement solides ont pu établir
+formellement que les US soient bénéfiques en termes de morbi-mortalité pour
+les patients.
+Il existe dans des champs précis un haut degré de certitudes du bénéfice, par
+changement de type on/off sur les thérapeutiques, tamponnade liquidienne
+ou gazeuse notamment. Dans les autres champs de la médecine d’urgence, le
+bénéfice reste à établir et de futures études sont à initier.
+Références
+1. Hinglais É. Intérêt de l’échographie dans un service d’urgences. Le Praticien en
+Anesthésie Réanimation 2007 ; 11(3) : 208-11.
+2. Choi D. Emergency ultrasound: a stethoscope extension? CJEM. 2008 Nov ; 10(6) :
+579-80.
+3. Stengel D., Bauwens K., Sehouli J., Rademacher G., Mutze S., Ekkernkamp A., et al.
+Emergency ultrasound-based algorithms for diagnosing blunt abdominal trauma.
+Cochrane Database Syst Rev 2005(2) : CD004446.
+4. Emergency ultrasound guidelines. Ann Emerg Med 2009 Apr ; 53(4) : 550-70.
+5. McKenney M.G., Martin L., Lentz K., Lopez C., Sleeman D., Aristide G., et al.
+1,000 consecutive ultrasounds for blunt abdominal trauma. J Trauma 1996 Apr ;
+40(4) : 607-10 ; discussion 11-2.
+6. Frezza E.E., Ferone T., Martin M. Surgical residents and ultrasound technician
+accuracy and cost-effectiveness of ultrasound in trauma. Am Surg 1999 Mar ; 65(3) :
+289-91.
+7. Scalea T.M., Rodriguez A., Chiu W.C., Brenneman F.D., Fallon W.F., Jr., Kato K., et al.
+Focused Assessment with Sonography for Trauma (FAST): results from an inter-
+national consensus conference. J Trauma 1999 Mar ; 46(3) : 466-72.
+8. Bahner D., Blaivas M., Cohen H.L., Fox J.C., Hoffenberg S., Kendall J., et al. AIUM
+practice guideline for the performance of the focused assessment with sonography
+for trauma (FAST) examination. J Ultrasound Med 2008 Feb ; 27(2) : 313-8.
+9. Smith Z.A., Wood D. Emergency focussed assessment with sonography in trauma
+(FAST) and haemodynamic stability. Emerg Med J 2013 Feb 13.
+11
+ÉCHOGRAPHIE EN MÉDECINE D’URGENCE :
+QUEL BÉNÉFICE POUR LE PATIENT ?
+10. Price S., Ilper H., Uddin S., Steiger H.V., Seeger F.H., Schellhaas S., et al. Peri-
+resuscitation echocardiography: training the novice practitioner. Resuscitation. 2010
+Nov ; 81(11) : 1534-9.
+11. Querellou E., Leyral J., Brun C., Levy D., Bessereau J., Meyran D., et al. In and out-of-
+hospital cardiac arrest and echography: a review. Ann Fr Anesth Reanim 2009 Sep ;
+28(9) : 769-78.
+12. Breitkreutz R., Price S., Steiger H.V., Seeger F.H., Ilper H., Ackermann H., et al.
+Focused echocardiographic evaluation in life support and peri-resuscitation of emer-
+gency patients: a prospective trial. Resuscitation 2010 Nov ; 81(11) : 1527-33.
+13. Hagendorff A. [Echocardiography in emergency diagnostics]. Herz 2012 Sep ; 37(6) :
+675-86 ; quiz 87-9.
+14. Lichtenstein D. [Pulmonary echography: a method of the future in emergency medi-
+cine and resuscitation]. Rev Pneumol Clin 1997 ; 53(2) : 63-8.
+15. Lichtenstein D. Lung ultrasound in acute respiratory failure an introduction to the
+BLUE-protocol. Minerva Anestesiol 2009 May ; 75(5) : 313-7.
+16. Alrajhi K., Woo M.Y., Vaillancourt C. Test characteristics of ultrasonography for the
+detection of pneumothorax: a systematic review and meta-analysis. Chest 2012 Mar ;
+141(3) : 703-8.
+17. Ding W., Shen Y., Yang J., He X., Zhang M. Diagnosis of pneumothorax by radiogra-
+phy and ultrasonography: a meta-analysis. Chest 2011 Oct ; 140(4) : 859-66.
+18. Kloth J.K., Kauczor H.U., Hosch W. [Imaging in the emergency room]. Med Klin Inten-
+sivmed Notfmed 2011 Oct ; 106(2) : 82-8.
+19. Burger R., Hassler W. [Transcranial Doppler ultrasound in craniocerebral trauma:
+valuable method in traumatologic emergency cases?]. Aktuelle Traumatol 1993 Feb ;
+23(1) : 14-9.
+20. Tazarourte K., Atchabahian A., Tourtier J.P., David J.S., Ract C., Savary D., et al. Pre-
+hospital transcranial Doppler in severe traumatic brain injury: a pilot study. Acta
+Anaesthesiol Scand 2011 Apr ; 55(4) : 422-8.
+21. Yeo L.L., Sharma V.K. Role of transcranial Doppler ultrasonography in cerebrovascular
+disease. Recent Pat CNS Drug Discov 2010 Jan ; 5(1) : 1-13.
+22. Tazarourte K., Atchabahian A., Vigue B., Tourtier J.P. Advocating for transcranial
+Doppler: a tool to detect early neurological deterioration. J Trauma 2010 Sep ; 69(3) :
+733-4.
+23. Pomero F., Dentali F., Borretta V., Bonzini M., Melchio R., Douketis J.D., et al. Accu-
+racy of emergency physician-performed ultrasonography in the diagnosis of deep-
+vein thrombosis: a systematic review and meta-analysis. Thromb Haemost 2013 Jan ;
+109(1) : 137-45.
+

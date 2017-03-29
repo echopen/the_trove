@@ -1,0 +1,74 @@
+# Patent US5329194
+
+
+
+
+
+=US5329194 : Ultrasonic peripheral vascular probe assembly = 
+
+
+
+== Invention date ==
+
+Jul 12, 1994
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Capistrano Labs]]
+* [[Inc.]]
+=== Beneficiaires === 
+* * [[Julian Dow]]
+* [[Paul F. Meyers]]
+* [[Michael Waddell]]
+
+
+= Abstract =
+
+An ultrasonic probe has a housing, a base pivotally mounted within the housing, an extension formed upon the base, and a scanning ultrasonic transducer disposed upon the distal end of the extension. The extension is preferably configured such that the scanning transducer moves along an arc of approximately 50 degrees having a radius of approximately 40 mm and is thus suitable for imaging elongate anatomical structures such as portions of the peripheral vascular system. A doppler ultrasonic transducer fixedly disposed within the housing proximate the scanning ultrasonic transducer measures fluid flow within the elongate anatomical structure. The doppler ultrasonic transducer is disposed at one end of the arc along which the scanning ultrasonic transducer travels such that the radiation path of the doppler ultrasonic transducer is periodically obscured by the scanning ultrasonic transducer. The doppler ultrasonic transducer measures fluid flow through the elongate anatomical structure when the scanning ultrasonic transducer is not within the radiation path of the doppler ultrasonic transducer.
+= Patents Backwards =
+
+* [[Patent US3955561]]
+* [[Patent US4092867]]
+* [[Patent US4106346]]
+* [[Patent US4149419]]
+* [[Patent US4246792]]
+* [[Patent US4271706]]
+* [[Patent US4282879]]
+* [[Patent US4341120]]
+* [[Patent US4375818]]
+* [[Patent US4391282]]
+* [[Patent US4398425]]
+* [[Patent US4399703]]
+* [[Patent US4401123]]
+* [[Patent US4421118]]
+* [[Patent US4424813]]
+* [[Patent US4466443]]
+* [[Patent US4479388]]
+* [[Patent US4483326]]
+* [[Patent US4545117]]
+* [[Patent US4584880]]
+* [[Patent US4646722]]
+* [[Patent US4674515]]
+* [[Patent US4675563]]
+* [[Patent US4722345]]
+* [[Patent US4756313]]
+* [[Patent US4785819]]
+* [[Patent US4831292]]
+* [[Patent US4841979]]
+* [[Patent US4850362]]
+* [[Patent US4893628]]
+* [[Patent US4913155]]
+* [[Patent US5012147]]
+* [[Patent US5088495]]
+* [[Patent US5111092]]
+= Patents Forwards =
+
+* [[Patent US6416492]]
+* [[Patent US6459748]]
+* [[Patent US7255678]]
+* [[Patent US8439845]]
+* [[Patent US8444571]]
+* [[Patent US8827907]]
+* [[Patent WO1999035969A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

@@ -1,0 +1,33 @@
+# Articles
+
+
+== List of Articles == 
+
+* [[Article: Design of Low-Cost Portable Ultrasound Systems]]
+* [[Article: Low cost design makes ultrasound imaging affordable to the world]]
+* [[Article: Low-cost teleradiology for rural ultrasound]]
+* [[Article: Portable bedside ultrasound: the visual stethoscope of the 21st century]]
+* [[Article: Notre jeune stéthoscope va-t-il rendre l’âme ?]]
+* [[Article: Portable ultrasound scopes out a new role]]
+* [[Article: Re: Will ultrasound scanners replace the stethoscope?]]
+* [[Article: Undergraduates’ low-cost ultrasound system wins Gates Foundation grant]]
+* [[Article: Stethoscope set to be supplanted by new technology]]
+* [[Article: Take a deep breath: the stethoscope is dying]]
+
+
+* [[Article: Experimental System Prototype of a Portable, Low-Cost, C-Scan Ultrasound Imaging Device]]
+* [[Article: Hardware-Software Partitioning of Digital Signal Processing in Ultrasound Medical Devices a Case Study]]
+
+== Links ==
+
+* [[Links: VScan bio]]
+
+== Backup ==
+
+* [[Backup: LOCUP]]
+* [[Projet: VLSI-CAD Lab]]
+
+== Specs examples ==
+
+* [[WHO: Basic Ultrasound Specs]]
+* [[Specs: Open Source Software Specification]]

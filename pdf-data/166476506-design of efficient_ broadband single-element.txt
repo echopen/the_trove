@@ -1,0 +1,784 @@
+1548 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 50, no. 11, november 2003
+Design of Eﬃcient, Broadband Single-Element
+(20–80 MHz) Ultrasonic Transducers for
+Medical Imaging Applications
+Jonathan M. Cannata, Student Member, IEEE, Timothy A. Ritter, Wo-Hsing Chen, Ronald H. Silverman,
+and K. Kirk Shung, Fellow, IEEE
+Abstract—This paper discusses the design, fabrica-
+tion, and testing of sensitive broadband lithium niobate
+(LiNbO3) single-element ultrasonic transducers in the 20–
+80 MHz frequency range. Transducers of varying dimen-
+sions were built for an f# range of 2.0–3.1. The desired
+focal depths were achieved by either casting an acoustic
+lens on the transducer face or press-focusing the piezo-
+electric into a spherical curvature. For designs that re-
+quired electrical impedance matching, a low impedance
+transmission line coaxial cable was used. All transducers
+were tested in a pulse-echo arrangement, whereby the cen-
+ter frequency, bandwidth, insertion loss, and focal depth
+were measured. Several transducers were fabricated with
+center frequencies in the 20–80 MHz range with the mea-
+sured ;6 dB bandwidths and two-way insertion loss values
+ranging from 57 to 74% and 9.6 to 21.3 dB, respectively.
+Both transducer focusing techniques proved successful in
+producing highly sensitive, high-frequency, single-element,
+ultrasonic-imaging transducers. In vivo and in vitro ultra-
+sonic backscatter microscope (UBM) images of human eyes
+were obtained with the 50 MHz transducers. The high sen-
+sitivity of these devices could possibly allow for an increase
+in depth of penetration, higher image signal-to-noise ratio
+(SNR), and improved image contrast at high frequencies
+when compared to previously reported results.
+I. Introduction
+The need for improved image resolution has prompted
+intensive studies in developing high-frequency imag-
+ing systems. Very high frequency (>20 MHz) ultrasound
+is currently used for various imaging applications in oph-
+thalmology [1]–[3], dermatology [4], [5], and small animal
+imaging [6], [7]. Unfortunately, the gains made by an in-
+crease in device resolution come at the expense of signal
+penetration depth. It has been well recognized that atten-
+uative losses observed in various human soft tissues are
+linearly proportional to the frequency of the propagating
+sound wave [8], [9]. The increased signal loss at high fre-
+quencies will limit the depth of penetration as well as the
+Manuscript received January 22, 2003; accepted July 3, 2003. Fi-
+nancial support was provided through NIH grant numbers P41-
+RR11795 and EB00238 (RHS) and a grant from Research to Prevent
+Blindness (RHS).
+J. M. Cannata, T. A. Ritter, W.-H. Chen, and K. K. Shung are
+with NIH Resource on Medical Ultrasonic Transducer Technology,
+Department of Biomedical Engineering, University of Southern Cal-
+ifornia, Los Angeles, CA 90089 (e-mail: cannata@usc.edu).
+R. H. Silverman is with the Department of Ophthalmology, Weill
+Medical College, Cornell University, New York, NY 10021.
+resolution of the ultrasound beam. In order to adequately
+improve images produced by high-frequency ultrasound, it
+is important to take steps to optimize the sensitivity and
+bandwidth of the imaging system accordingly.
+Most high-frequency imaging systems are commonly
+referred to as ultrasound biomicroscopes (UBM). These
+scanners acquire adjacent A-scan lines by mechanically
+moving a single-element transducer across the medium of
+interest. The resultant RF data is displayed in the form of
+a high-resolution, two-dimensional image of the tissue of
+interest. The transducer performance and system electron-
+ics performance greatly aﬀect image quality. In this paper,
+techniques for maximizing transducer performance will be
+addressed.
+An ultrasonic transducer can be treated as a three-port
+network, with two mechanical ports representing the front
+and back of the piezoelectric element as well as an elec-
+trical port representing the electrical connection of the
+piezoelectric element to the system electronics [10], [11].
+It is necessary to condition the transfer of energy be-
+tween these mechanical and electrical transducer ports in
+order to optimize the transducer performance. The most
+important component of the transducer is the piezoelec-
+tric element. Many diﬀerent active materials can be used
+in a single-element transducer design; all have their ad-
+vantages and disadvantages. Frequently used materials in-
+clude piezoceramics [12], [13], piezoelectric polymers [14],
+[15], and single crystals [16]. Piezoelectric polymers such as
+poly(vinylidine ﬂuoride) [PVDF] and co-polymer PV(DF-
+TrFE) have a low acoustic impedance (∼4 MRayl) that
+is ideal for acoustic matching of the transducer to hu-
+man tissue (∼1.5 MRayl). These materials also display a
+low dielectric constant (εS
+/ε0 < 10), ideal for electrical
+impedance matching; but, unfortunately, they suﬀer from
+a poor thickness mode coupling coeﬃcient (kt < 0.3) [15].
+Alternately, PZT ceramics have higher electromechanical
+coupling coeﬃcients (kt = 0.5 for PZT-5H) but display
+higher acoustic impedances and very large dielectric con-
+stants (εS
+/ε0 = 1350 for PZT-5H). Current bulk piezo-
+electric ceramics also have ﬁnite grain sizes ranging from
+1–10 µm, which may be a problem when fabricating very
+thin piezoelectric elements.
+Lithium niobate (LiNbO3) was selected for this study
+because it possesses several material properties that are
+ideal for fabricating high-frequency transducers. A brief
+list of the pertinent material properties for LiNbO3 ap-
+0885–3010/$10.00 c
+ 2003 IEEE
+cannata et al.: single-element ultrasonic transducers for medical imaging 1549
+TABLE I
+Relevant Material Properties of 36◦ Rotated Y-Cut
+Lithium Niobate1
+Property Value
+Electromechanical coupling coeﬃcient (kt) 0.49
+Relative clamped dielectric constant (εS/ε0) 392
+Mechanical quality factor (Qm) 10000
+Electrical quality factor (QE) 1000
+Density (g/cm3) 4.64
+Longitudinal wave velocity (m/s) 7340
+Acoustic impedance (MRayl) 34.0
+Curie temperature (◦C) 1150
+1Reported by Boston Piezo-optics, Bellingham, MA.
+2From Kino [10].
+pears in Table I; it is a single-crystal material that dis-
+plays good electromechanical coupling, a low dielectric
+constant, and high longitudinal sound speed, ideal for de-
+signing sensitive large aperture single-element transducers.
+Unfortunately, this material has a high acoustic impedance
+and very high electrical and mechanical Q, which makes
+it diﬃcult to work with in broadband transducer designs.
+Despite the apparent drawbacks of this material, it was
+previously shown by our group to provide improved sen-
+sitivity and similar bandwidth when compared to devices
+made from PVDF, lead titanate, and PZT ﬁber compos-
+ite [15]. These results were obtained under the condition
+that all transducers were built according to the speciﬁed
+designs and that variations in these designs could yield
+diﬀerent conclusions.
+The goal of this study was to expand upon the previ-
+ously reported LiNbO3 transducer design to include de-
+vices in the frequency range of 20–80 MHz. An overall de-
+sign criterion was to develop devices that display greater
+than 50% −6 dB bandwidth and the highest sensitivity
+possible. The resulting design as well as the fabrication and
+testing of devices produced will be discussed in detail in
+this paper. The use of electrical and acoustical impedance
+matching to increase the transducer sensitivity and band-
+width will be described. The pros and cons of two diﬀerent
+transducer focusing techniques will be addressed. Also, im-
+ages will be presented of the anterior portion of the human
+eye generated by the transducers and the UBM systems
+at the University of Southern California and the Cornell
+Medical College.
+II. Materials and Methods
+The following fabrication procedure was used to build
+all of the transducers used in this study. The only major
+variation in the design was in the technique used to focus
+the acoustic beam (Fig. 1). Devices were either focused
+with an epoxy lens [Fig. 1(a)] or by spherically shaping
+the active element [Fig. 1(b)]. A total of three lens-focused
+and three spherically shaped transducers were designed
+and fabricated for this study.
+Fig. 1. Design cross sections of the lens-focused (a) and press-
+focused (b) transducers. The center conductor of the SMA con-
+nector was electrically connected to the negative electrode of the
+LiNbO3 disk via the conductive epoxy backing. A sputtered layer
+of chrome/gold of approximately 1500 Å in thickness was used to
+connect the positive side of the LiNbO3 disk to the brass housing
+and to electrically shield the entire device.
+Several 36◦
+rotated Y-cut LiNbO3 (Boston Piezo-optics,
+Bellingham, MA) wafers with thicknesses of 90 µm, 60 µm,
+and 30 µm were acquired to make transducers operating
+at 25 MHz, 50 MHz, and 80 MHz, respectively. The thick-
+ness of these piezoelectric elements was reduced to less
+than λ/2 in order to compensate for the mass-loading ef-
+fects of the acoustic matching and backing layers as well
+as the attenuative losses observed during acoustic trans-
+mission and reception [17]. These LiNbO3 wafers were elec-
+troded by sputtering a chrome/gold layer of approximately
+1500 Å in total thickness. A λ/4 silver epoxy matching
+layer made from a mixture of three parts 2–3 µm silver
+particles (Adrich Chem. Co., Milwaukee, WI) and 1.25
+parts Insulcast 501 epoxy (American Safety Technologies,
+Roseland, NJ) was cast onto the negative electrode side
+with the aid of an adhesion promoter (Chemlok AP-131,
+Lord Corp., Erie, PA) [18]. This matching layer was cen-
+trifuged at 2000 g for 10 minutes to increase acoustical
+impedance and to ensure conductivity over the entire ac-
+tive aperture. See Table II for the material properties of
+the silver epoxy matching layer as well as the properties of
+all other passive materials used in the design. After cur-
+ing, the matching layer was lapped down to approximately
+λ/4 thickness using a coarse-to-ﬁne grit scheme, with a ﬁ-
+nal lapping particle diameter of 12 µm. A very lossy con-
+ductive epoxy (E-SOLDER 3022, Von Roll Isola Inc., New
+Haven, CT) then was cast on the wafer as the backing
+material. A lathe was used to shape the matching, piezo-
+electric, and backing layers into the desired acoustic stack
+diameter. This fabrication step also served to electrically
+isolate the conductive matching and backing layers. The
+positive lead wire was secured to the backing layer with
+an additional amount of conductive epoxy. A brass hous-
+ing was placed concentrically with the acoustic stack, and
+an insulating epoxy was poured into the void between the
+housing and the device. A layer of chrome/gold then was
+1550 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 50, no. 11, november 2003
+TABLE II
+Passive Material Properties Used in the Transducer Designs.
+Material1 Use ρ (g/cm3) c (m/s) Za (MRayl) Loss (dB/mm)
+EPO-TEK 301 Lens/insulating epoxy 1.15 2650 3.05 9.5
+E-Solder 3022 Conductive backing 3.20 1850 5.92 110
+(centrifuged)
+Insulcast 501 and Matching layer 3.86 1900 7.3 13.8
+2–3 µm silver particles
+Parylene Matching layer 1.18 2200 2.6 N/A
+1All materials were characterized at 30 MHz, [19], except for Parylene which was measured at 1 MHz (Onda
+Corporation). ρ is the density; c is the longitudinal sound velocity; Za is the acoustic impedance; and Loss
+is the attenuation per unit length for a longitudinal sound wave.
+Fig. 2. Photographs of ﬁnished press-focused (a) and lens-focused (b)
+devices.
+sputtered across the transducer face prior to lens focusing
+or after press focusing. Final transducers were housed in
+modiﬁed SMA connectors (Fig. 2).
+A. Lens Focusing
+All lens-focused transducers used an epoxy lens (EPO-
+TEK 301, Epoxy Tech., Billerica, MA) molded on the
+transducer face with a steel ball bearing. The desired focal
+length f was achieved by specifying the radius of curvature
+of the lens with the following formula [8]:
+f ≈
+δ
+1 − c2/c1
+, (1)
+where δ is the radius of curvature of the lens, c1 is the
+sound velocity in the lens, and c2 is the sound velocity in
+the medium. The ball bearing was sprayed with a mold re-
+lease agent (Ease Release 200, Mann Formulated Prods.,
+Gillete, NJ) to ease in the epoxy post-cure removal process.
+The apex of the lens was designed to be approximately λ/4
+thick at the center of the transducer face to aid in acous-
+tically matching the transducer to the load medium. Eq.
+(1) is valid only if the thickness of the lens on the edge of
+the active aperture is kept to less than 0.1δ [20]. A large
+acoustic path length through the lens at the edge of the
+aperture is problematic for high-frequency transducer de-
+signs, as the frequency-dependent loss in the lens material
+can cause beam apodization as well as a signiﬁcant drop
+in device sensitivity. The lens-focused devices created for
+this study exhibited a lens edge thickness in the range of
+0.11δ to 0.18δ.
+B. Press Focusing
+The press-focusing technique described by Lockwood et
+al. [12] was modiﬁed and used in this study. The trans-
+ducer focus was achieved by pressing the active element
+into a spherical shape with a steel ball bearing at temper-
+atures exceeding 90◦
+C. Once the process was ﬁnished, the
+device was left to cool to room temperature in the spheri-
+cal mold. The LiNbO3 layer did crack during the process,
+but the silver epoxy matching layer and epoxy backing en-
+sured structural integrity of the acoustic stack. Parylene
+was deposited over the entire housing to serve as a sec-
+ond acoustic matching layer. Fig. 3 shows an optical mi-
+crograph of a typical 80 MHz press-focused transducer in
+cross section. The LiNbO3 layer appears to be intact with
+a uniform cracking pattern developed. A previous study
+by Knapik et al. [16] did show that the press-focusing pro-
+cess increases mechanical losses and reduces the electrome-
+chanical coupling in the devices produced, although the
+reported sensitivity did not appear to be greatly aﬀected.
+The eﬀects of the press-focusing technique on a LiNbO3
+transducer was analyzed using a nonlinear regression
+curve-ﬁtting program based on the Mason equivalent cir-
+cuit [21]. The transducer used for this analysis had a 6-
+mm aperture, a single silver epoxy matching layer, as well
+as the ESOLDER-3022 (von Roll Isola, Inc.) conductive
+epoxy backing. This transducer was designed to display
+a resonance peak at about 75 MHz in air. Fig. 4 shows
+cannata et al.: single-element ultrasonic transducers for medical imaging 1551
+Fig. 3. A cross section of an 80-MHz press-focused transducer imaged
+by optical micrography courtesy of Onda Corp., Sunnyvale, CA. The
+conductive epoxy backing (a), LiNbO3 (b), silver epoxy matching
+layer (c), and parylene layer (d) are all visible in the image. The
+arrows in the image label the cracks that formed during the press-
+focusing process.
+the electrical impedance magnitude and phase plots be-
+fore [Fig. 4(a)] and after [Fig. 4(b)] the device was press
+focused. The curve-ﬁtted results in Table III indicate that
+press focusing does degrade the piezoelectric properties of
+the LiNbO3 plate. A 3.6% reduction of thickness mode
+coupling coeﬃcient, as well as a reduction of approxi-
+mately 30% for both the electrical (δE) and mechanical
+(δm) loss tangents were observed as a result of this process.
+A Krimhotz, Leedom, and Matthaei (KLM) equivalent cir-
+cuit model (PiezoCad, Sonic Concepts, Woodinville, WA)
+was used to determine the eﬀects of these losses on the
+pulse/echo response. The model suggested only a 1.4 dB
+reduction in device sensitivity with no changes in device
+center frequency, bandwidth, and pulse length.
+C. Acoustical Impedance Matching
+The performance of a transducer can be signiﬁcantly
+improved by incorporating acoustic matching layers into
+the design. For wideband transducers, Desilets et al. [22],
+showed that a single matching layer should be a λ/4 thick
+and of acoustical impedance Zm:
+Zm =
+
+Z1Z2
+2
+1/3
+, (2)
+where Z1 is the impedance of the piezoelectric element
+and Z2 is the impedance of the load medium. For the two
+matching layer scheme used in this study, the ideal inner
+Zm1 and outer Zm2 matching-layer impedances are calcu-
+lated as follows:
+Zm1 =
+
+Z4
+1 Z3
+2
+1/7
+, (3)
+Zm2 =
+
+Z1Z6
+2
+1/7
+. (4)
+The theoretical best matching layer impedances for
+LiNbO3 with water loading is approximately 8.9 MRayl
+for Zm1 and 2.3 MRayl for Zm2. Therefore, the 7.3 MRayl
+silver epoxy and 2.6 MRayl parylene layer or the silver
+epoxy and 3.1 MRayl EPO-TEK 301 (Epoxy Tech) lens
+provide a fairly good match for a broadband transducer
+design.
+D. Electrical Impedance Matching
+The electrical impedance (Ze) of the transducer at reso-
+nance is inversely proportional to the clamped capacitance
+(C0) of the piezoelectric element by the following relation-
+ship:
+Ze ∝
+1
+C0
+=
+L
+εSA
+, (5)
+whereby L is the thickness and A is the surface area of the
+piezoelectric element. In reality the electrical impedance
+of the ﬁnished transducer depends on the material prop-
+erties of the active element as well as the eﬀect of acous-
+tic mass loading by the matching and backing layers [11].
+Lithium niobate has a low-clamped dielectric constant
+(εS
+= 354.3 pF/m) and high-longitudinal sound speed
+(c = 7340 m/s), which in combination make this mate-
+rial a good match for large aperture high-frequency trans-
+ducer design. If needed, electrical circuit elements can be
+placed between the transducer and the send/receive elec-
+tronics to improve the electrical impedance match. Series
+and shunt inductors can be used to cancel the reactive
+or imaginary impedance at resonance. A transformer then
+can be used to match the remaining device resistance to
+the send/receive electronics. A coaxial cable also can pro-
+vide an improved impedance match to the electronics [17].
+Because a length of coax was required to connect the trans-
+ducer to the send/receive electronics, it was deemed the
+method of choice for impedance matching for this study.
+In order to use a coax as an eﬀective quarter-wavelength
+transformer, the values of the transducer impedance (Ze)
+and electronics system impedance (Zs) dictate the choice
+of cable impedance [23]:
+Z0 =
+
+ZeZs (6)
+A properly used transmission line can serve to increase
+bandwidth and sensitivity as well as provide minor ad-
+justments to the center frequency of the transducer. All of
+the press-focused transducers were designed to exhibit an
+electrical impedance of approximately 12 Ω at resonance
+[Fig. 4(b)] so that a λ/4 25 Ω Microdot semirigid coaxial
+cable (Communication Concepts Inc., Beavercreek, OH)
+would provide a good match to the 50-Ω system electron-
+ics despite their larger aperture. The actual cable length
+used was 2 m for the 25 MHz transducer, 1 m for the
+50 MHz transducer, and 0.6 m for the 80 MHz transducer.
+The transformed impedance of the transducer coaxial
+cable pair was analyzed using the following relationship
+for a transmission line of length x [24]:
+Zx = Z0
+[Zload + Z0Tanh(γx)]
+[Z0 + ZloadTanh(γx)]
+, (7)
+1552 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 50, no. 11, november 2003
+Fig. 4. Electrical impedance magnitude and phase plots for an air-resonating, 6-mm aperture, 75 MHz, LiNbO3 transducer before (a) and
+after press focusing (b). The solid lines are measured values; the dotted lines are the Mason model curve-ﬁtted results.
+TABLE III
+Piezoelectric Properties of a 6 MM Aperture, 75 MHz, Lithium Niobate Transducer Before and After Press Focusing.1
+Property Before Press Focusing After Press Focusing Percent Degradation
+Electromechanical coupling coeﬃcient (kt) 0.494 0.476 3.6%
+Relative clamped dielectric constant (εS/ε0) 44.0 44.0 0%
+Mechanical loss tangent (δm) 0.0418 0.0602 30.5%
+Electrical loss tangent (δE) 0.1475 0.2184 32.4%
+1All values were determined by ﬁtting a Mason model equivalent circuit to the measured impedance magnitude and
+phase.
+where Zload represents the electrical impedance of the
+transducer and Zx is the transformed coaxial impedance
+measured on the system end of the cable, and Z0 and γ are
+the characteristic impedance and propagation constant, re-
+spectively, of the coaxial cable.
+The values for Z0 and γ were obtained by measuring
+the complex open and short circuit impedance for a sam-
+ple cable on an HP 4194 Impedance Analyzer (Agilent
+Technologies, Englewood, CO). A given length x of cable
+was prepared for measurement, and the complex, trans-
+formed impedance was recorded for both the short circuit
+and open circuit Zload values. The two measured values
+for Zx and (7) then were used to solve for Z0 and γ. The
+distributed network representation for the Microdot cable
+(Communication Concepts Inc.) also was solved [25]. The
+resultant per unit length values of cable propagation ve-
+locity (v), series resistance (r), series inductance (l), shunt
+capacitance (c), shunt conductance (g), and attenuation
+(α) were recorded and listed in Table IV.
+E. Transducer Characterization
+All the transducers were tested in a degassed, deion-
+ized water bath in pulse/echo mode by reﬂecting the sig-
+nal oﬀ an X-cut quartz target placed at the focal point.
+For pulse/echo measurements, transducer excitation was
+achieved with either a Panametrics (Waltham, MA) model
+5900PR pulser/receiver or an Avetech AVB2-TC-C mono-
+cycle function generator (Avetech Electrosystems Ltd., Ot-
+tawa, Ontario, Canada). A λ/4 cable length was used to
+connect the pulser and transducer in all cases. For trans-
+ducers that were not electrically matched with a 25-Ω ca-
+ble, an appropriate length 50-Ω cable was used. The re-
+ﬂected waveforms were received and digitized by a 500-
+cannata et al.: single-element ultrasonic transducers for medical imaging 1553
+TABLE IV
+Measured Properties for the 25 Ω Microdot Coaxial
+Cable.1
+Property Value
+Characteristic impedance (Zo) 22.3 + 0.086i Ω
+Propagation constant (γ) 0.084 + 1.62i m−1
+Propagation velocity (v) 1.96 × 108 m/s
+Inductance/unit length (l) 0.11 µH/m
+Resistance/unit length (r) 1.729 Ω/m
+Capacitance/unit length (c) 23 pF/m
+Conductance/unit length (g) 4.0 mS/m
+Attenuation/unit length (α) 0.73 dB/m
+1The cable was characterized at 50 MHz. The respective cable pa-
+rameters are displayed in the units of meters (m), seconds (s), Ohms
+(Ω), Henrys (H), Farads (F), Siemens (S), and decibels (dB).
+MHz LC534 Lecroy (Chestnut Ridge, NY) oscilloscope set
+to 50-Ω coupling. Further information on the experimen-
+tal arrangement using the Panametrics pulser and Avetech
+monocycle function generator can be found in Snook et
+al. [15], or Lockwood et al. [26]. The insertion loss was
+measured using the same approach reported by Sherar
+and Foster [14] and, therefore, did not include compen-
+sation for losses caused by diﬀraction. Transducer excita-
+tion was achieved with multicycle sine wave burst from a
+Sony/Tektronix (Beaverton, OR) model AFG2020 func-
+tion generator with 50-Ω coupling. The reﬂected wave-
+forms were received by the Lecroy oscilloscope in 1-MΩ
+coupling mode. The cable length between the function
+generator and oscilloscope was 20 cm. The 18% receive
+pressure/voltage lost due to transmission into the quartz
+crystal was compensated for in the ﬁnal insertion loss cal-
+culation. The signal loss due to attenuation in the water
+bath also was compensated for using an attenuation of
+2.2 × 10−4
+dB/mm-MHz2
+[12].
+The 50-MHz transducers built were used to image the
+anterior portion of the human eye by the UBM systems at
+the University of Southern California (USC) and the Cor-
+nell Medical College. These UBM systems acquire adjacent
+A-scan lines to obtain high resolution, two-dimensional im-
+age of tissue. The basic design of a UBM system was de-
+scribed in Turnbull et al. [4] and will not be repeated here.
+These two UBM systems were similar in basic design but
+vary in the way that the transducer was scanned across the
+specimen. The system at USC used a linear scan, and the
+one at the Weill Medical College used an arc-scan to en-
+sure that the transducer was always equidistant from the
+cornea. The UBM at USC used a logarithmic compres-
+sion algorithm to improve image grayscale visualization.
+Images were not obtained using higher-frequency devices
+due to limitations in the bandwidth of the UBM system
+electronics.
+III. Results
+Several transducers were fabricated with center frequen-
+cies in the 20–80 MHz range. Table V shows the mea-
+sured results for a group of representative devices. The
+receive-echo response and frequency spectra for 50 MHz
+and 78 MHz press-focused transducers are shown in Fig. 5,
+and the responses for the 45 MHz and 73 MHz lens-focused
+transducers are shown in Fig. 6. The −6 dB bandwidths
+and two-way insertion loss values ranged from 57 to 74%
+and 9.6 to 21.3 dB, respectively. An image of an excised
+human eye was generated with the 45 MHz lens-focused
+device and the UBM system at USC (Fig. 7). An in vivo
+image of a human eye generated with the 50 MHz press-
+focused transducer and the UBM system at Cornell Med-
+ical College is shown in Fig. 8. The entire anterior portion
+of the eye is visible as a result of the arc-scanning motor
+system used.
+IV. Discussion and Conclusions
+This study has shown that a low-loss piezoelectric ma-
+terial such as LiNbO3 can be used to make highly sensitive
+broadband ultrasonic transducers in the 20–80 MHz range.
+Both transducer focusing techniques yielded transducers
+displaying excellent sensitivity, which is essential for very
+high-frequency imaging of highly attenuative tissues such
+as human skin.
+On average, the lens-focused transducers provided
+higher bandwidth levels and lower sensitivity when com-
+pared to the press-focused devices. This is most likely due
+to the varying thickness of the lens that caused an in-
+creasing gradient of attenuative losses from the center to
+the edges of the active area. Additionally, manufacturing
+ﬂaws such as lens surface roughness and microbubbles in
+the cured epoxy also could have contributed to the in-
+creased losses observed with this focusing technique. In
+contrast, the press-focused transducer design proved to
+produce more sensitive devices despite the reported in-
+creases in electrical and mechanical losses and the degra-
+dation of electromechanical coupling. These devices dis-
+played at least a 6 dB decrease in measured insertion loss
+when compared to a similar lens-focused device. The press-
+focused transducer design also was used to produce devices
+with lower f#’s due to limitations in the lens-focused de-
+sign pertaining to lens edge thickness.
+The press-focusing technique proved to be a quicker,
+less problematic way of focusing the transducer beam. The
+lens-focusing procedure required several hours of prepara-
+tion and 1 day of cure time to complete. In contrast, the
+press-focusing technique could be performed in less than 6
+hours per device, including the Parylene deposition time.
+Additionally, many lens-focused transducers were not used
+because of bubble formation over the active element. The
+failures due to the press-focusing process were less frequent
+and occurred mostly as a result of an electrical short devel-
+oped through the formed cracks in the LiNbO3 layer. And,
+the deposition of the Parylene matching layer was found
+to be a repeatable process that was accurately controlled
+by the weight of Parylene dimer used. This process was
+less susceptible to manufacturing error when compared to
+the lens-casting technique used. Overall the press-focusing
+technique seemed to be more suitable for high-frequency
+transducer manufacturing.
+1554 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 50, no. 11, november 2003
+Fig. 5. Time-domain pulse/echo response (a) and normalized frequency spectrum (b) for the 50-MHz (above) and 78-MHz (below) press-
+focused transducers.
+Fig. 6. Time-domain pulse/echo response (a) and normalized frequency spectrum (b) for the 45-MHz (above) and 73-MHz (below) lens-
+focused transducers.
+cannata et al.: single-element ultrasonic transducers for medical imaging 1555
+TABLE V
+Measured Transducer Performance.
+Center Frequency (MHz) Focusing Technique Aperture (mm) f# BW (%)1 IL (dB) PL (ns)
+222 lens 10 3.1 72 19.5 145
+232 spherical shaping 12 3 60 13.4 140
+452 lens 3.0 2.9 74 21.3 56
+50 spherical shaping 6.0 2.0 60 9.6 54
+73 lens 1.8 3.1 57 20.3 40
+78 spherical shaping 3.0 2.0 73 13.5 36
+1BW is the −6 dB bandwidth; IL is the insertion loss; and PL is the 20-dB pulse length in nanoseconds.
+2Tested with Panametrics 5900 PR.
+Fig. 7. A UBM image of the anterior portion of an excised human eye.
+The 40-MHz lens-focused transducer was used to form this image.
+The RF data used to form this image was logarithmically compressed
+to a 70-dB dynamic range in order to improve the image speckle
+pattern.
+Fig. 8. A wide-angle view of a normal anterior human eye segment
+taken in vivo. The UBM system at Cornell Medical College and the
+50-MHz press-focused transducer were used to form this image.
+The images of human eyes obtained in vivo and ex vivo
+displayed excellent signal-to-noise ratio and penetration
+depth. The logarithmic compression algorithm used in the
+UBM system at USC demonstrated that the highly sen-
+sitive transducers developed for this study could be used
+to increase image contrast without signiﬁcantly raising the
+noise ﬂoor. Further development of this transducer design
+could produce devices operating at frequencies higher than
+80 MHz with similar results in device bandwidth and sen-
+sitivity.
+Acknowledgment
+The authors would like to acknowledge Gene Gerber for
+his aid with the transducer fabrication process.
+References
+[1] G. R. Lockwood, D. H. Turnbull, D. A. Christopher, and F. S.
+Foster, “Beyond 30 MHz: Applications of high frequency ultra-
+sonic imaging,” IEEE Eng. Med. Biol., vol. 15, pp. 60–71, 1996.
+[2] F. S. Foster, C. J. Pavlin, G. R. Lockwood, L. K. Ryan, K. A.
+Harasiewicz, L. Berube, and A. M. Rauth, “Principles and ap-
+plications of ultrasonic backscatter microscopy,” IEEE Trans.
+Ultrason., Ferroelect., Freq. Contr., vol. 40, pp. 608–616, 1993.
+[3] R. H. Silverman, F. L. Lizzi, B. G. Ursea, L. Cozzarelli, J. A.
+Ketterling, C. X. Deng, R. Folberg, and D. J. Colemen, “Safety
+levels for exposure of cornea and lens to very high-frequency
+ultrasound,” J. Ultras. Med., vol. 20, pp. 979–986, 2001.
+[4] D. Turnbull, B. G. Starkoski, K. A. Harasiewicz, J. L. Sem-
+ple, L. From, A. K. Gupta, D. N. Sauder, and F. S. Foster, “A
+40–100 MHz B-scan ultrasound backscatter microscope for skin
+imaging,” Ultrasound Med. Biol., vol. 21, pp. 79–88, 1995.
+[5] C. Passman and H. Ermert, “A 100 MHz ultrasound imaging
+system for dermatologic and ophthalmologic diagnostics,” IEEE
+Trans. Ultrason., Ferroelect., Freq. Contr., vol. 43, no. 4, pp.
+545–552, 1996.
+[6] D. H. Turnbull, “In utero ultrasound backscatter microscopy of
+early stage mouse embryos,” Comput. Med. Imaging Graph., vol.
+23, no. 1, pp. 25–31, 1999.
+[7] F. S. Foster, M. Y. Zhang, Y. Q. Zhou, G. Liu, J. Mehi, E.
+Cherin, K. A. Harasiewicz, B. G. Starkoski, L. Zan, D. A.
+Knapik, and S. L. Adamson, “A new ultrasound instrument for
+in vivo microimaging of mice,” Ultrasound Med. Biol., vol. 28,
+no. 9, pp. 1165–1172, 2002.
+[8] K. K. Shung, M. B. Smith, and B. Tsui, Principles of Medical
+Imaging. New York: Academic, 1992, pp. 78–161.
+[9] F. S. Foster, C. J. Pavlin, K. A. Harasiewicz, D. A. Christopher,
+and D. H. Turnbull, “Advances in ultrasound microscopy,” Ul-
+trasound Med. Biol., vol. 26, no. 1, pp. 1–27, 2000.
+[10] G. S. Kino, Acoustic Waves: Devices, Imaging, and Analog Sig-
+nal Processing. Englewood Cliﬀs, NJ: Prentice-Hall, 1987, pp.
+27–71.
+1556 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 50, no. 11, november 2003
+[11] K. K. Shung and M. J. Zipparo, “Ultrasonic transducers and
+arrays,” IEEE Eng. Med. Biol., vol. 15, pp. 20–30, 1996.
+[12] G. R. Lockwood, D. H. Turnbull, and F. S. Foster, “Fabrication
+of high frequency spherically shaped ceramic transducers,” IEEE
+Trans. Ultrason., Ferroelect., Freq. Contr., vol. 41, pp. 231–235,
+1994.
+[13] M. J. Zipparo, K. K. Shung, and T. R. Shrout, “Piezoceramics
+for high-frequency (20–100 MHz) single-element imaging trans-
+ducers,” IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol.
+44, pp. 1038–1048, 1997.
+[14] M. D. Sherar and F. S. Foster, “The design and fabrication of
+high frequency poly(vinylidene ﬂuoride) transducers,” Ultrason.
+Imag., vol. 11, pp. 75–94, 1989.
+[15] K. A. Snook, J.-Z. Zhao, C. H. Alves, J. M. Cannata, W.-
+H. Chen, R. J. Meyer, Jr., T. A. Ritter, and K. Kirk Shung,
+“Design, fabrication, and evaluation of high frequency, single-
+element transducers incorporating diﬀerent materials,” IEEE
+Trans. Ultrason., Ferroelect., Freq. Contr., vol. 49, no. 2, pp.
+169–176, 2002.
+[16] D. A. Knapik, B. Starkoski, C. J. Palvin, and F. S. Foster, “A
+100–200 MHz ultrasound biomicroscope,” IEEE Trans. Ultra-
+son., Ferroelect., Freq. Contr., vol. 47, no. 6, pp. 1540–1549,
+2000.
+[17] R. E. McKeighen, “Design guidelines for medical ultrasonic ar-
+rays,” Proc. SPIE, vol. 3341, pp. 2–18, May 1998.
+[18] T. A. Ritter, T. R. Shrout, T. Tutwiler, and K. K. Shung, “A
+30-MHz composite ultrasound array for medical imaging appli-
+cations,” IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol.
+49, no. 2, pp. 217–230, 2002.
+[19] H. Wang, T. A. Ritter, W. Cao, and K. K. Shung, “High fre-
+quency properties of passive materials for ultrasonic transduc-
+ers,” IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol. 48,
+no. 1, pp. 78–84, 2001.
+[20] P. N. T. Wells, Biomedical Ultrasonics. New York: Academic,
+1977.
+[21] T. A. Ritter, K. K. Shung, W. Cao, and T. R. Shrout, “Elec-
+tromechanical properties of thin strip piezoelectric vibrators at
+high frequency,” J. Appl. Phys., vol. 88, no. 1, pp. 394–397, 2000.
+[22] C. S. Desilets, J. D. Fraser, and G. S. Kino, “The design of eﬃ-
+cient broad-band piezoelectric transducers,” IEEE Trans. Son-
+ics Ultrason., vol. 25, no. 3, pp. 115–125, 1978.
+[23] P. Horowitz and W. Hill, The Art of Electronics. New York:
+Cambridge Univ. Press, 1989, pp. 879–882.
+[24] A. P. Albrecht, “Transmission lines,” in Electronic Designer’s
+Handbook. L. J. Giacoletto, Ed. New York: McGraw-Hill, 1977,
+pp. 8.1–8.78.
+[25] T. A. Ritter, “Design, fabrication and testing of high frequency
+(>20 MHz) composite ultrasound imaging arrays,” Ph.D. disser-
+tation, University Park, PA: Penn State University, Aug. 2000.
+[26] G. R. Lockwood, J. W. Hunt, and F. S. Foster, “The design of
+protection circuitry for high-frequency ultrasound imaging sys-
+tems,” IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol. 38,
+no. 1, pp. 48–55, 1991.
+Jonathan M. Cannata was born in Car-
+son, CA, on August 4, 1975. He received his
+B.S. degree in Bioengineering from the Uni-
+versity of California at San Diego in 1998,
+and his M.S. degree in Bioengineering from
+the Pennsylvania State University, University
+Park, PA, in 2000. Mr. Cannata is currently
+pursuing a doctorate degree in Bioengineer-
+ing at the Pennsylvania State University un-
+der the guidance of Dr. K. Kirk Shung.
+His current research interests include the
+design, modeling, and fabrication of high-
+frequency, single-element ultrasonic transducers and arrays for med-
+ical imaging applications. He also currently serves as the engineer-
+ing manager of the NIH Resource on Medical Ultrasonic Transducer
+Technology at the University of Southern California, Los Angeles,
+CA.
+He is a student member of the IEEE.
+Timothy A. Ritter was born in Harris-
+burg, PA, on February 19, 1965. He earned his
+B.S. degree in mechanical engineering from
+Penn State University, University Park, PA,
+in 1987, his M.S. degree in physics from
+the University of Connecticut, Storrs, CT, in
+1991, and his Ph.D. degree in bioengineering
+from Penn State University in 2000.
+From 1998 until 2001 he served as manager
+of the NIH Resource on Medical Ultrasonic
+Transducer Technology, University Park, PA.
+In 2000 he was appointed an assistant profes-
+sor of bioengineering at Penn State. He accepted a commission in the
+U.S. Air Force in 2001 and was assigned to Keesler Air Force Base,
+Biloxi, MS, following completion of Oﬃcer Training School. His cur-
+rent assignment is in therapeutic and diagnostic medical physics.
+He is a member of the American Association of Physicists in
+Medicine and the Health Physics Society.
+Wo-Hsing Chen currently works as an en-
+gineer for Focus Surgery in Indianapolis, IN.
+He received the B.S. degree in biomedical en-
+gineering from Chung-Yuan Christian Univer-
+sity in Chung-Li, Taiwan in 1991, and the
+M.S. degree in medical engineering from the
+George Washington University, Washington,
+DC, in 1995 and Ph.D. degree from Pennsyl-
+vania State University, University Park, PA,
+in 2002.
+Ronald H. Silverman, Ph.D., received an
+M.S. degree in bioengineering from the Poly-
+technic Institute of New York, Troy, NY, in
+1979 and a doctorate in computer science
+from Polytechnic University, New York, NY,
+in 1990.
+Dr. Silverman is currently Research Direc-
+tor of the Bioacoustic Research Facility of the
+Department of Ophthalmology of the Weill
+Medical College of Cornell University in New
+York City. He holds the academic title of Pro-
+fessor of Computer Science in Ophthalmology.
+He has been involved with ultrasound research in ophthalmology
+since 1982, and he has performed research in diverse areas within this
+specialty, including bioeﬀects, high-intensity ultrasound, tissue char-
+acterization, high-frequency imaging, microvascular ﬂow imaging,
+and pattern recognition. Current projects include noninvasive ultra-
+sound characterization of metastatic potential in ocular melanoma,
+high-resolution evaluation of ﬂow in the ciliary body, biometric anal-
+ysis of the cornea in refractive surgery, and high-resolution imaging
+of the retina.
+K. Kirk Shung (S’73–M’75–SM’89–F’93)
+obtained a B.S. degree in electrical engineer-
+ing from Cheng-Kung University in Tainan,
+Taiwan in 1968, an M.S. degree in electri-
+cal engineering from University of Missouri,
+Columbia, MO, in 1970, and a Ph.D. degree
+in electrical engineering from University of
+Washington, Seattle, WA, in 1975. He did
+postdoctoral research at Providence Medical
+Center in Seattle, WA, for 1 year before be-
+ing appointed a research bioengineer holding a
+joint appointment at the Institute of Applied
+Physiology and Medicine, Seattle, WA. He became an assistant pro-
+fessor at the Bioengineering Program, Pennsylvania State University,
+University Park, PA, in 1979 and was promoted to professor in 1989.
+cannata et al.: single-element ultrasonic transducers for medical imaging 1557
+He was a Distinguished Professor of Bioengineering at Penn State
+until September 1, 2002 when he joined the Department of Biomedi-
+cal Engineering, University of Southern California, Los Angeles, CA,
+as a professor. He has been the director of NIH Resource on Medical
+Ultrasonic Transducer Technology in University Park, PA and Los
+Angeles, CA since 1997.
+Dr. Shung is a fellow of the IEEE, the Acoustical Society of Amer-
+ica, and the American Institute of Ultrasound in Medicine. He is a
+founding Fellow of the American Institute of Medical and Biological
+Engineering. He has served for two terms as a member of the NIH
+Diagnostic Radiology Study Section. He received the IEEE Engineer-
+ing in Medicine and Biology Society early career award in 1985 and
+coauthored a best paper published in IEEE Transactions on UFFC in
+2000. He is the distinguished lecturer for the IEEE UFFC society for
+2002–2003. He was elected an outstanding alumnus of Cheng-Kung
+University in 2001.
+He has published more than 160 papers and book chapters. Dr.
+Shung is the author of a textbook Principles of Medical Imaging,
+published by Academic Press in 1992. He co-edited a book Ultra-
+sonic Scattering by Biological Tissues, published by CRC Press in
+1993. Dr. Shung’s research interest is in ultrasonic transducers, high-
+frequency ultrasonic imaging, and ultrasonic scattering in tissues.
+

@@ -1,0 +1,106 @@
+ 
+EchOpen Design & Code Camp
+ 
+Suivez le signal ​
+IOOII...IOIO​
+ ​
+=>​
+ ​
+Design & Code Camp  
+pour imaginer ​
+ce que pourrait être​
+ l'application mobile ​
+echopen 
+qui restituera l'image de la sonde.
+ 
+Le samedi​
+ 16 mai 2015​
+ de ​
+10h00 à 19h00​
+ à La Paillasse  
+226, rue Saint­Denis 75002 Paris 
+ 
+ 
+EchOpen est à la fois une association, une communauté et un projet qui vise à 
+développer ​
+un prototype fonctionnel de sonde d’écho­stéthoscopie Open 
+Source, low cost et qui se branche sur un smartphone​
+ ou une tablette.  
+● A destination des ​
+professionnels de santé​
+ des pays du sud et du nord 
+● Permettant la ​
+transformation radicale de l’orientation diagnostique en 
+médecine​
+ (hospitalière, générale, dans les en voie de développement et les 
+déserts médicaux) 
+Animé par une communauté ouverte et pluri­disciplinaire qui partagent la vision de :  
+● Rendre accessible, ouverte et collaborative les technologies d’imagerie 
+médicale à ultrasons.  
+ 
+ 
+ 
+EchOpen Design & Code Camp
+ 
+Qu'allons­nous faire ?  
+ 
+● Imaginer​
+ l'application mobile 
+● Coder​
+ les premières lignes de code de l'app 
+● Designer​
+ l'experience utilisateur de l'app 
+● Echanger​
+ et passer un bon moment  
+ 
+De qui avons­nous besoin ?  
+ 
+● De ​
+vous tous​
+ pour offrir votre regard  
+● De ​
+médecins​
+ pour nous dire comment on utilise une sonde 
+● De ​
+développeurs​
+ pour coder les premières lignes de code 
+● De ​
+designers​
+ pour imaginer l'experience utilisateur 
+● De ​
+graphistes​
+ pour rendre­compte de l'experience 
+● D'érgonomes​
+ pour imaginer une app simple 
+● D'ingénieurs​
+ pour nous orienter 
+● Des ​
+gens logiques​
+ pour nous dire si c'est clair 
+ 
+Quels seront les livrables ? 
+ 
+● Les premières lignes de codes sur GitHub 
+● Un parcours utilisateurs identifié avec des schémas, des MockUps et les 
+fonctionnalités. 
+● Des captures d'écran de l'app finale 
+ 
+ 
+ 
+On compte sur vous tous pour ​
+mobiliser​
+, ​
+relayer le message​
+, et ​
+venir
+                       
+nombreux pour qu'ensemble, nous puissions obtenir un prototype
+               
+fonctionnel d'écho­stéthoscope pour le bicentenaire de l'invention du
+               
+stéthoscope.  
+ 
+La communauté EchOpen 
+www.echopen.org 
+@echopenorg 
+

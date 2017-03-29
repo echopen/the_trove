@@ -1,0 +1,68 @@
+# Older news
+
+= Intro to the hardware= 
+ 
+== Slides, yeayyyyh ==
+ 
+What do we want to do, and the different logic components of the probe.
+
+<gallery>
+File:echOpen concept (1).PNG|The echography principles : creating lines
+File:echOpen concept (2).PNG|Creating a 2D image from 1D lines
+File:echOpen concept (3).PNG|Summary
+File:echOpen concept (4).PNG|Details of each part
+File:echOpen concept (5).PNG|till the block diagram
+</gallery>
+
+The logic parts can be found on the probes we have been exploring, for example the [[IR1510AK]] , the [[S-VRW77AK]] with the transducers we are using on the V0.0 or on the [[A6-3]] and its annular array.
+
+= Parts of the tool =
+== '''[[:Category:Emission|Emission]]''' ==
+*'''Objective'''
+**Sending a 1 – 2µs pulse at minus 150V to get the pulse.
+*'''Requirements'''
+**Getting a « top » to pulse
+**As short as possible
+**As high voltage as possible (within specs)
+*'''Tests with [[:Category:Emile | Emile]]'''
+*** The first steps for Emile were described at [[Le Développement Electronique]]
+
+{{Template:PartMechanics}}
+
+== '''[[:Category:Transducer|Transducer]]''' == 
+*'''Objective'''
+**Getting a good-resolution signal from a robust transducer
+*'''Requirements'''
+**Getting a « top » to pulse
+**As short as possible
+**As high voltage as possible (within specs)
+*'''Tests with [[:Category:Emile | Emile]]'''
+**How we got the [[First Pulses (Sept. 2015)]]
+** and subsequently the [[First Echoes (Sept. 2015)]]
+
+== '''[[:Category:Receiving|Receiving]]''' == 
+*'''Objective'''
+**Converting the analog data to digital data in a memory space 
+*'''Requirements'''
+**Protecting the receiving circuit
+**Mastering TCG @HF
+**Mastering selective gain @HF
+**Getting the raw signal (5MHz based) sampled at at least 20/40MHz (if getting the signal) or to a frequency for acceptable sampling 
+**Preprocessing the data using filters ? 
+*'''Open Challenges'''
+** A great read on the challenge awaiting the team in terms of board can be found at [[Challenge: the echOpen shield]]
+*'''Tests with [[:Category:Emile | Emile]]'''
+** A first approach using a Red Pitaya is described here : [[V0.0 Sprint log - Getting an image]] )
+** Use of filters: A first go for [[:Category:Emile | Emile]] was at [[Compressing with FFT]]
+
+{{Template:PartTransmitting}}
+
+== Overall schema == 
+
+[[File:echopen_architecture_small.png |center ]]
+
+== Resources ==
+
+{{BibliographyEmile}}
+{{BibliographyFPGA}}
+{{BibliographyOther}}

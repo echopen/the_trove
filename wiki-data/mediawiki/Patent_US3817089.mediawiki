@@ -1,0 +1,121 @@
+# Patent US3817089
+
+
+
+
+
+=US3817089 : Rotating probe high data acquistion rate apparatus = 
+
+
+
+== Invention date ==
+
+Oct 19, 1972
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Interscience Res Inst]]
+=== Beneficiaires === 
+* * [[Eggleton R]]
+* [[Weidner A]]
+
+
+= Abstract =
+
+An instrument and method which allows real time examination of internal organs of the body such as the heart comprising a catheter which has a rotating tip in which a number of ultrasonic transducers are mounted and which can be selectively connected to a pulser to transmit a ultrasonic pulse into the body and receive an echo from such pulse and including commutating, indexing and presentation means such that display of the conditions within the body may be obtained.
+= Patents Backwards =
+
+* [[Patent US3159023]]
+* [[Patent US3250866]]
+* [[Patent US3308652]]
+* [[Patent US3382707]]
+* [[Patent US3431774]]
+= Patents Forwards =
+
+* [[Patent US3940952]]
+* [[Patent US3955561]]
+* [[Patent US3964296]]
+* [[Patent US3964297]]
+* [[Patent US4034744]]
+* [[Patent US4059005]]
+* [[Patent US4102204]]
+* [[Patent US4131021]]
+* [[Patent US4181120]]
+* [[Patent US4205554]]
+* [[Patent US4273111]]
+* [[Patent US4274422]]
+* [[Patent US4341120]]
+* [[Patent US4344327]]
+* [[Patent US4374525]]
+* [[Patent US4413521]]
+* [[Patent US4417583]]
+* [[Patent US4453409]]
+* [[Patent US4665925]]
+* [[Patent US4722347]]
+* [[Patent US4771788]]
+* [[Patent US4794931]]
+* [[Patent US4796634]]
+* [[Patent US4841977]]
+* [[Patent US4856337]]
+* [[Patent US4860758]]
+* [[Patent US4886059]]
+* [[Patent US4889128]]
+* [[Patent US4895158]]
+* [[Patent US4951677]]
+* [[Patent US4955235]]
+* [[Patent US4955365]]
+* [[Patent US5000185]]
+* [[Patent US5081993]]
+* [[Patent US5099850]]
+* [[Patent US5115814]]
+* [[Patent US5313949]]
+* [[Patent US5368035]]
+* [[Patent US5372138]]
+* [[Patent US5421338]]
+* [[Patent US5495765]]
+* [[Patent US5524630]]
+* [[Patent US5546948]]
+* [[Patent US5582178]]
+* [[Patent US5651364]]
+* [[Patent US5676151]]
+* [[Patent US5715825]]
+* [[Patent US5770800]]
+* [[Patent US5865178]]
+* [[Patent US5902245]]
+* [[Patent US6039693]]
+* [[Patent US6059731]]
+* [[Patent US6129672]]
+* [[Patent US6165127]]
+* [[Patent US6221015]]
+* [[Patent US6306096]]
+* [[Patent US6361500]]
+* [[Patent US6364840]]
+* [[Patent US6398736]]
+* [[Patent US6409673]]
+* [[Patent US6487922]]
+* [[Patent US6544187]]
+* [[Patent US6572553]]
+* [[Patent US6572554]]
+* [[Patent US6585655]]
+* [[Patent US6585656]]
+* [[Patent US6764450]]
+* [[Patent US7037271]]
+* [[Patent US7091730]]
+* [[Patent US7131948]]
+* [[Patent US7156812]]
+* [[Patent US7612773]]
+* [[Patent US7785286]]
+* [[Patent US8047996]]
+* [[Patent US8414496]]
+* [[Patent US8491567]]
+* [[Patent DE3309096A1]]
+* [[Patent EP0037047A2]]
+* [[Patent EP0062315A1]]
+* [[Patent EP0065275A1]]
+* [[Patent EP0253268A1]]
+* [[Patent EP0460711A2]]
+* [[Patent EP0600568A1]]
+* [[Patent WO1988009150A1]]
+* [[Patent WO1989004142A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

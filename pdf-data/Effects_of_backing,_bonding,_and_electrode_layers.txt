@@ -1,0 +1,1067 @@
+Effects of Backing, Bonding, and Electrode Layers on the
+Performance of Piezo-Polymer Transducers Used in Biomedical Laser-
+Ultrasonography
+A. Sadr
+Iran University of Science & Technology
+sadr@iust.ac.ir
+Abstract: A new laser-ultrasound technique is used
+for tissue characterisation non-invasively. A fibre optic
+probe with a concentric PVDF transducer receiver is
+used to interrogate the tissue. In laser-ultrasound
+medical probe with thickness-driven PVDF transducer,
+it is necessary to have backing, electrode, and possibly,
+bonding layers in the ultrasound transmission path. If
+these layers have characteristic impedances that are
+substantially different from those of the piezo-polymer
+transducer and the front load medium, they act as
+mismatched transmission line sections between the
+transducer and its load, and transform the normally
+real load impedance into a complex one.
+The resulting shifted and deformed response curves are
+computed for a large number of layer parameters by
+means of MatLab™ implementation of the modified
+KLM model. From these plots, information as to
+permissible layer thickness, etc., may be obtained and
+used in the design procedure of the medical probe.
+Applying the proper parameters in the model, it was
+found that for transducers made from thicker films
+working at lower frequency, the effects of bonding and
+electrode layers are smaller so that they do not change
+the resonance peak significantly. It was also realised
+that the greater are the bonding layers’ thicknesses, the
+lower is the minimum insertion loss frequency.
+Keywords: PVDF, Piezoelectric Transducers,
+KLM Modelling, Bonding layers, Electrode layers,
+ultrasound, tissue characterisation.
+1 Introduction
+In an age where automated manufacture has
+become the norm for most industry, it is perhaps
+surprising to realise that the majority of ultrasound
+transducers are still manufactured one at a time and
+largely by hand. Indeed, the production of a high
+quality transducer is almost an art rather than a
+science. To some extent this derives from the fact
+that the piezoelectric materials that are used as the
+basis for most ultrasonic transducers, i.e. one of the
+many piezoelectric ceramics, are hardly ideal for
+the applications to which they are put. The result
+of all this is that a wide variety of techniques have
+been established that modify the performance of a
+ceramic based ultrasound transducer in order to
+achieve something near to the required
+performance. This is especially true when we
+consider ceramic transducers used for underwater
+imaging or indeed in the medical environment. In
+both cases the major disadvantage is the very high
+acoustic impedance of piezoelectric ceramics and
+the relatively low impedance of water or biological
+tissue. To overcome this problem highly skilful
+application of multi-layered matching materials
+has evolved, but which in turn of course leads to
+even more complex construction.
+The problems referred to above have led to serious
+investigations of the possibilities of using low
+acoustic impedance materials such as
+polyvinylidene fluoride (PVDF) and its derivatives
+[1-3]. An immediate benefit from the adoption of
+such materials for ultrasound transducers is the
+much better matching into water or biological
+tissue that is achieved. However, alongside this
+and of almost equal importance is the fact that
+transducers made from these materials can be
+fashioned into very complex geometries for
+focusing effects and can be made into very thin
+films in order to achieve high operating
+frequencies [4-7]. An important factor that must
+be taken into account with polymer materials is
+that very often the material thickness is very low,
+leading to very high frequency operation and at
+this high frequencies, one cannot assume that
+electrode and bonding layers are negligibly thin
+compared with the ultrasound wavelength. These
+layers, therefore, act as transmission line sections
+that modify the overall performance of the
+ultrasonic probe [8-10].
+2 Mathematical Modelling of a Multi-
+layer Configuration
+Mathematical models for transducers based on
+ceramic materials have been around for a long time
+and have proved very useful at the design stage.
+They allow the transducer manufacturer to evaluate
+various alternatives in order to arrive at an
+optimum design without the need for a lengthy
+process of experimentation. All this of course
+assumes that the model is an accurate predictor of
+the performance of the performance of the finished
+device. It appears that this is the case for the well
+known models [8, 9], but in the case of transducers
+fabricated from polymer materials, there are
+considerable difficulties.
+One of the major departures from the standard
+approach based on ceramic materials is the need to
+allow for the very high internal losses of the
+piezoelectric polymer materials, both of a
+dielectric and an acoustic nature. These losses can
+be ignored in any theoretical analysis of ceramic
+transducers, but they become extremely important
+when polymer materials are employed.
+2.1 A Modified KLM Model with Internal
+Losses
+Principally, the thickness-mode transducer system
+can be thought of as consisting of two λ/4
+transmission lines connected back to back along
+with additional transmission line segments joined
+either side, as shown in Figure 1. In this circuit,
+the active transducer plate is considered as two λ/4
+segments in the middle, whereas the segments
+either side represent bonding and electrode layers
+or possible matching layers. These layers typically
+have characteristic impedances that are
+substantially different from those of the
+piezoelectric transducer. They therefore act as
+mismatched transmission line segments between
+the transducer active plate and its load and backing
+seen at the front and back faces of the piezoelectric
+transducer respectively. In the transmission line
+model, the total acoustic impedance seen at the
+centre node is the parallel combination of the input
+impedances of the front and the back acoustic load
+lines. This total acoustic impedance is called shunt
+impedance sh
+Z . Using this impedance for the
+distribution of acoustic power in the system,
+resonance frequencies can be found by plotting
+sh
+Z as a function of frequency.
+The three port network shown in Figure 1(b) is the
+modified KLM’s equivalent circuit for the
+transducer shown in Figure 1(a) [10]. This model
+represents the piezoelectric element as an lossy
+acoustic transmission line of the length t coupled to
+a lumped network of electrical components
+through a coupling transformer with a modified
+turns ratio of φ*
+. In this model, the transmission
+line represents the acoustic part of the transducer
+system. This part of the model facilitates taking
+into account parameters such as the front and back
+loads and also bonding and electrode layers, by
+simply adding the appropriate length and acoustic
+impedance to the relevant ends of the main
+transmission line. The KLM equivalent circuit
+would then become a centre tapped transmission
+line terminated by a load with acoustic impedance
+ZB at one end and a load with acoustic impedance
+ZL at the other end, shown in Figure 1(b). The
+lumped circuit components at the centre of the line
+represent the total electrical characteristics of the
+transducer, and give the frequency varying
+PIEZO
+ELECTRIC
+PLATE
+BACKING
+BACK
+ELECTRO
+DE
+BOND
+LAYER
+LOAD
+(W
+ATER)
+FRONT
+ELECTRO
+DE
+(a)
+φ
+V
+BACK ACOUSTIC
+PORT
+FRONT ACOUSTIC
+PORT
+I
+1 :
+_
+*
+dBond
+t / 2 t / 2
+dNiCu
+ZL
+dNiCu
+Z Bond
+Z B ZNiCu Z NiCu
+Z C
+C
++
+X0
+0
+* *
+(b)
+Figure 1 (a) Equivalent transmission line of the
+transducer with multilayer configuration, (b) KLM
+equivalent circuit for piezoelectric plate with front
+and back faces loaded, taking into account the
+electrode and bonding layers.
+electrical impedance as seen at the electrical port.
+The electric part is composed of a perfect
+transformer of ratio φ*
+, a clamped capacitor *
+0
+C
+and an additional reactance both in series with the
+transformer which the latter can be modelled as a
+varactor *
+0
+X . Considering dielectric and
+mechanical losses,
+( )
+e
+s
+s
+tan
+j
+1 δ
+ε
+ε −
+=
+*
+(1)
+( )
+m
+D
+D
+tan
+j
+1
+c
+c δ
++
+=
+*
+(2)
+the circuit parameters of piezoelectric polymer are
+defined as follows:
+t
+A
+C
+s∗
+∗
+=
+ε
+0 (3)
+)
+( 0
+2
+0
+0
+ω
+ω
+sinc
+1
+k
+C
+X
+T
+∗
+∗
+∗
+−
+= (4)
+( ) )
+( 0
+*
+0
+0 ω
+ω
+ω
+π
+ϕ 2
+sinc
+Z
+C
+k
+2
+1
+C
+T
+∗
+∗
+= (5)
+where
+s
+D
+T *
+c
+e
+k
+ε
+2
+33
+=
+∗
+(6)
+with x
+x
+sin
+x
+sinc π
+π )
+(
+)
+( = , and the other
+parameters are defined alongside with their typical
+values as follows [11, 12]:
+t thickness of the piezoelectric material
+(9µm, 28µm, and 47µm);
+A active area of the transducer plate
+(variable; depends on the size of the
+probe);
+εs
+clamped dielectric constant of the
+piezoelectric material (1.06×10-10
+Fm-1
+);
+e
+tanδ dielectric loss tangent (0.25);
+*
+s
+ε complex dielectric loss;
+T
+k electromechanical coupling constant;
+∗
+T
+k complex electromechanical coupling
+constant;
+ω0 half wavelength resonant frequency of the
+transducer )
+( t
+c
+π
+= ;
+ZC acoustic impedance of the piezoelectric
+material (4.02×106
+Rayl);
+cD
+stiffened elastic constant (9.5×109
+Nm-2
+);
+m
+tanδ mechanical loss tangent (0.1)
+*
+D
+c complex stiffened elastic constant; and
+33
+e piezoelectric stress constant in the
+thickness direction (-0.16Cm-2
+).
+It can be obtained from Equation 4 that ∗
+0
+X is
+negative for frequencies where ω < 0
+ω . At
+resonance when 0
+ω
+ω = , ∞
+→
+∗
+0
+X ; when 0
+→
+ω ,
+then
+2
+*
+0
+0
+∗
+∗
+−
+→ T
+k
+C
+X . However, as ∗
+0
+X >> *
+0
+C ,
+it only has a minor influence on the operation of
+the transducer. The variations of φ*
+with
+frequency will be discussed later in this section.
+Using the above electrical impedances and an
+impedance due to acoustical load, known as the
+radiation impedance *
+a
+Z , the total electrical
+impedance *
+in
+Z seen at the electrical port can be
+obtained from following equation:
+*
+*
+0
+*
+0
+*
+a
+in Z
+X
+j
+1
+C
+j
+1
+Z +
++
+=
+ω
+ω
+(7)
+where
+sh
+a Z
+Z
+2
+*
+*
+ϕ
+= (8)
+In fact, radiation impedance is the transformed
+acoustic shunt impedance seen through the
+secondary of the electrical transformer. Equation 7
+shows that only the fraction of the electric power
+coupling into the transducer converts to acoustic
+power. The rest of the power dissipates across the
+capacitive reactances *
+0
+C
+j
+1 ω and *
+0
+X
+j
+1 ω . In
+other words, acoustic power that appears at the
+acoustic part of the system is merely due to the
+power delivered to the radiation impedance. The
+variations of radiation impedance *
+a
+Z with
+frequency are due to the fact that both the turns
+ratio φ*
+and the sh
+Z are frequency dependent. In
+essence, the radiation impedance is a reshaped
+version of the acoustic shunt impedance. Above
+equations together with the loss insertion
+calculations are used to optimally design the
+ultrasonic medical probe.
+3 Effect of Backing Material on
+Transducer Performance
+The effect of backing material on the resonant
+frequency of a transducer will be studied in this
+section, with the aid of the modified KLM model.
+Figure (2) shows that how the minimum insertion
+loss frequency changes by altering the backing
+material. The graph is plotted for a silver loaded
+epoxy backed and water-loaded transducer made
+from PVDF film. The diameter and thickness of
+the PVDF disc is 6mm and 28µm, respectively.
+Acoustic impedances of water, PVDF, and silver
+loaded epoxy are assumed to be 1.49Mrayl,
+4.02Mrayl, and 4.78Mrayl, respectively. The
+minimum insertion loss frequency is the frequency
+at which the minimum value for insertion loss is
+achieved for a specific backing material. In this set
+of theoretical results, three PVDF transducer plates
+with thickness values of 9µm, 28µm, and 47µm
+were considered. Here, it can be seen that for 9µm
+and 28µm transducers, the minimum insertion loss
+frequency varies slowly when the normalised
+backing impedance value is far away from 1 and it
+changes faster when the normalised backing
+impedance is close to 1. For a 47µm transducer,
+the minimum insertion loss frequency varies
+significantly when the normalised backing value is
+between 1 and 2.
+The impedance analysis can also show the
+variation of the resonance frequency with backing
+impedance. Figure (2b) shows the variations of the
+resonance frequency versus the backing
+impedance, bearing in mind that the acoustic shunt
+impedance is at its maximum at resonance
+frequency. It can be seen that when B
+Z << T
+Z the
+transducer will work in a half-wavelength (λ/2)
+resonance and when B
+Z >> T
+Z the transducer will
+work in a quarter-wavelength (λ/4) resonance.
+4 Effect of the electrode and bonding
+layers
+The charge collecting metal electrodes on both
+sides of the polymer film usually have much
+greater acoustic impedance than that of polymer
+films. Their significant mass loadings can affect
+the performance of the polymer transducers by
+lowering the centre frequency. The thicker the
+metal layers and/or the thinner the transducer plate,
+the greater the effects.
+The acoustic shunt impedance and the insertion
+loss calculated using the modified KLM model, are
+shown in Figures (3), (4), and (5). Two NiCu
+electrode layers on both sides of the PVDF film
+with acoustic impedance of 51.15Mrayl are
+considered. Different thicknesses of NiCu in the
+range of 0 to 1µm were considered. The thickness
+of a silver paint layer was assumed to be 500Å.
+The other parameters for the polymer transducer
+are exactly the same as the one used in section
+4.3.1. It can be seen from Figure (4a)that when the
+thickness of the electrode layers changes from 0 to
+1µm, the resonance frequency of the 28µm
+transducer changes between 40.4MHz (λ/2
+frequency, f0) and 24.8MHz (0.62f0, i.e. greater
+than the λ/4 frequency). Figure (3a) sows that for a
+9 µm transducer with electrode layers of 1µm, the
+resonance peak can even shift to below 0.5f0 (i.e.
+0.47f0). In the case of the 47µm transducer the
+shift of the resonance frequency is less than that of
+the 28µm transducer. For the 47µm transducer, the
+resonance frequency changes from 24MHz (λ/2
+frequency) to 15.9MHz (0.66f0) for the range of the
+electrode thickness variations (Figure 5a). Figures
+(3b), (4b), and (5b) show the corresponding
+insertion losses for the 9µm, 28µm, and 47µm
+transducers. These figures also reveal that
+minimum insertion loss frequency shifts in the
+same way the acoustic resonance frequency shifts
+i.e. the greater electrode thickness, the lower
+minimum insertion loss frequency. It can be seen
+from these plots that for transducers made from
+thicker films working at lower frequencies, the
+effect of electrode layers is smaller. The graphs
+also show that small electrode thicknesses (less
+than 1000Å) change the resonance peak negligibly.
+A similar procedure, as stated above, was followed
+for studying the effect of the bonding layers on the
+transducer performance. All the parameters used
+for the calculations are same as the last example
+except than the electrode layers’ thicknesses were
+assumed to be 500Å and the thickness of the
+bonding layer was considered as some value
+between 0Å and 5µm. The silver conductive paint
+with acoustic impedance of 6.44Mrayl was
+considered as a bonding layer. The acoustic shunt
+impedance and the insertion loss calculated using
+the modified KLM model, are shown in Figures
+(6), (7), and (8), for the 9µm, 28µm, and 47µm
+transducers, respectively. It can be seen from
+Figures (6a), (7a), and (8a) that as the thickness of
+the silver paint layer increases, the resonance peak
+0 0.5 1 1.5 2 2.5 3
+2
+4
+6
+8
+10
+12
+x 10
+7
+Normalised (to Piezoelectric Acoustic Impedance)
+Backing Impedance
+Minimum
+Insersion
+Loss
+Frequency
+/
+Hz
+9 µm PVDF Film
+28 µm PVDF Film
+47 µm PVDF Film
+(a)
+0 0.5 1 1.5 2 2.5 3
+0
+5
+10
+x 10
+7
+Normalised (to Piezoelectric Acoustic Impedance)
+Backing Impedance
+Centre
+Frequency
+/
+Hz
+9 µm PVDF Film
+28 µm PVDF Film
+47 µm PVDF Film
+(b)
+Figure 2 The variations of (a) “minimum insertion loss
+frequency” and (b) the centre frequency with the changes
+in the value of backing impedance for transducers with
+three different thicknesses
+0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2
+0
+1
+2
+3
+4
+5
+6
+7
+8
+x 10
+6
+Normalised frequency ( f / f
+0
+)
+Figure 3(a)
+Z
+sh
+/
+R
+a
+y
+l
+10000A
+7500A
+5000A
+2500A
+0A
+500A
+1000A
+0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8
+30
+40
+50
+60
+70
+80
+90
+100
+Normalised frequency ( f / f0
+)
+Figure 3(b)
+In
+s
+e
+rtio
+n
+lo
+s
+s
+/
+d
+B
+10000A
+7500A 5000A
+1000A
+2500A
+0A
+500A
+0 0.5 1 1.5 2
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+x 10
+6
+Normalised frequency ( f / f
+0
+)
+Figure 4(a)
+Z
+s
+h
+/
+R
+a
+y
+l
+7500A
+0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+Normalised frequency ( f / f0
+)
+Figure 4(b)
+In
+s
+e
+rtio
+n
+L
+o
+s
+s
+/
+d
+B
+10000A
+5000A
+2500A
+0A
+500A
+1000A
+10000A
+7500A
+5000A
+2500A
+1000A
+0A
+500A
+0 0.5 1 1.5 2
+1
+1.5
+2
+2.5
+3
+x 10
+6
+Normalised frequency ( f / f
+0
+)
+Figure 5(a)
+Z
+sh
+/
+R
+r
+a
+y
+l
+7500A
+0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+Normalised frequency ( f / f
+0
+)
+Figure 5(b)
+In
+s
+e
+r
+tio
+n
+L
+o
+s
+s
+/
+d
+B
+10000A
+7500A
+5000A
+1000A
+0A
+10000A
+5000A
+2500A
+0A
+500A
+1000A
+0 0.5 1 1.5 2
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+x 10
+6
+Normalised frequency ( f / f
+0
+)
+Figure 6(a)
+Z
+sh
+/
+R
+a
+y
+l
+0A 1000A
+2500A
+5000A
+10000A
+20000A
+50000A
+0 0.5 1 1.5 2
+40
+50
+60
+70
+80
+90
+100
+110
+Normalised frequency ( f / f
+0
+)
+Figure 6(b)
+In
+s
+e
+r
+tio
+n
+L
+o
+s
+s
+/
+d
+B
+50000A
+20000A
+10000A
+5000A
+2500A
+0A
+0 0.5 1 1.5 2
+1
+1.5
+2
+2.5
+3
+x 10
+6
+Normalised frequency ( f / f
+0
+)
+Figure 7(a)
+Z
+sh
+/
+R
+a
+y
+l
+0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+Normalised frequency ( f / f0
+)
+Figure 7(b)
+In
+s
+e
+rtio
+n
+L
+o
+s
+s
+/
+d
+B
+50000A
+20000A
+10000A
+5000A
+2500A
+1000A 0A
+50000A
+20000A
+10000A
+2500A
+0A
+0 0.5 1 1.5 2
+1
+1.5
+2
+2.5
+3
+x 10
+6
+Normalised frequency ( f / f
+0
+)
+Figure 8(a)
+Z
+s
+h
+/
+R
+a
+y
+l
+0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8
+30
+40
+50
+60
+70
+80
+Normalised frequency ( f / f
+0
+)
+Figure 8(b)
+In
+s
+e
+r
+tio
+n
+L
+o
+s
+s
+/
+d
+B
+50000A
+20000A
+10000A
+5000A
+2500A
+1000A
+0A
+50000A
+20000A
+10000A
+0A
+2500A
+Figures 6 - 8 The effect of bonding layer (silver paint)
+with different thicknesses on (a) acoustic shunt impedance,
+and (b) insertion loss of the transducer for (9, 28, and
+47µm PVDF films, respectively).
+Figures 3 - 5 The effect of NiCu electrode layers
+with different thicknesses on (a) acoustic shunt
+impedance, and (b) insertion loss of the transducer
+for (9, 28, and 47µm PVDF films, respectively).
+shifts from piezoelectric λ/2 frequency, f0, to below
+0.5f0. Figure (7a) shows that when the thickness of
+the silver conductive paint layer changes from 0Å
+to 5µm, the resonance frequency of the 28µm
+transducer changes between 40.4MHz (λ/2
+frequency) and 22.8MHz (0.57f0, i.e. greater than
+the λ/4 frequency). Figure (6a) shows that for a
+9µm transducer with bonding layer of 1µm, the
+resonance peak can even shift to below 0.5f0 (i.e.
+0.40f0). In the case of the 47µm transducer the shift
+of the resonance frequency is even less than that of
+the 28µm transducer. For the 47µm transducer, the
+resonance frequency changes from 24.0MHz (λ/2
+frequency) to 15.1MHz (0.63f0) for the range of the
+bonding layer thickness variations (Figure 8a).
+Figures 6b, 7b, and b confirm the same fact as
+previously stated about the effect of electrode
+layers on the insertion loss i.e. the greater is silver
+conductive paint layer’s thickness, the lower is the
+minimum insertion loss frequency.
+It can also be seen from these plots that for
+transducers made from thicker films working at
+lower frequencies, the effect of bonding layer is
+smaller. The graphs also show that small bonding
+thicknesses (less than 2500Å) do not change the
+resonance peak significantly.
+5 Conclusion
+It has been shown that the design of the medical
+ultrasonic detection system is a complex task with
+many variables to consider. Some of these
+variables are piezoelectric material, probe
+diameter, thickness of the bonding and electrode
+layers, type of the material used for bonding and
+electrode layers, the impedance of the detection
+system, and the type of the material used as
+backing. All these parameters were considered
+during the simulation procedure with the aid of a
+KLM model. MatLab code of the KLM model
+was implemented to predict precisely the
+performance of the probe. As a result, a PVDF
+disc with the thickness of 28µm and NiCu coating
+of less than 1000Å on the surface of the PVDF
+film was chosen as the transducer. Liquid silver
+conductive paint with the thickness less than
+2500Å was used to form electrical connections for
+the front electrode of the sensor. A high-viscose
+silver loaded epoxy that is acoustically matched to
+the PVDF, was used as the backing material.
+Acknowledgements
+I would like to acknowledge the support of the Iran
+University of Science and Technology (IUST)
+under contract No. 4/2445.
+References
+[1] H Kawai, “The piezoelectricity of
+polyvinylidene fluoride”, Jap. J. Appl.
+Phys.,Vol. 8, pp. 975-976, 1969
+[2] F.S. Foster, K.A. Harasiewicz and M.D.
+Sherar, “A History of Medical and
+Biological Imaging with Polyvinylidene
+Fluoride (PVDF) Transducers”, IEEE Trans.
+Ultrason. Ferroelec. Freq. Contr., Vol. 47,
+No. 6, pp. 1363-1371, 2000.
+[3] M. Platte, “PVDF Ultrasonic Transducers”
+Ferroelectrics, Vol. 75, pp. 327-337,1987.
+[4] C.H.F. Alves, K. Snook, T. Ritter and K.K.
+Shung, “High Frequency Single Element and
+Annular Array Transducers Incorporating
+PVDF”, Proc. SPIE, Vol. 3982, 2000.
+[5] L.F. Brown, “Design Considerations for
+Piezoelectric Polymer Ultrasound
+Transducers”, IEEE Trans. Ultrason.
+Ferroelec. Freq. Contr., Vol. 47, No. 6, pp.
+1377-1396, 2000.
+[6] G.R. Lockwood and C.R. Hazard,
+“Miniature polymer transducers for high
+frequency medical imaging”, Proc. SPIE,
+Vol. 3341, pp. 228-236, 1998.
+[7] S.J. Carey, C.M. Gregory and J.V. Hatfield
+“Electronics For High Impedance
+Ultrasound Transducers”, 5th World
+Congress on Ultrasonics, Paris, France, 263-
+266, 2003.
+[8] L.F. Brown and D.L. Carlson, “Ultrasound
+Transducer Models for Piezoelectric
+PolymerFilms”, IEEE Trans. Ultrason.
+Ferroelect. Freq.Control, Vol. 36, No. 3, pp.
+313-318, 1989.
+[9] G.S. Kino, Acoustic Waves: Devices,
+Imaging, and Analog Signa Processing,
+Prentice-Hall, Englewood Cliffs, NJ, 1987.
+[10] Krimholtz R., Leedom D.A., Matthaei G.L.,
+“New equivalent circuits for elementary
+piezoelectric transducers”, Electron. Lett.,
+Vol 6, No. 13, 398-399, 1970.
+[11] "Piezo Film Sensors Technical Manual",
+Measurement Specialties, Inc., Norristown,
+PA., 1999.
+[12] Q.X. Chen, P.A. Payne, “Industrial
+applications of piezoelectric polymer
+transducers”, Meas. Sci. Technol., 6, 249-
+267, 1995.
+

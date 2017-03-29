@@ -1,0 +1,177 @@
+From MEMS devices to Medical
+Diagnostic Market.
+A case study: Ultrasonic Imaging
+An NGUYEN-DINH
+Director of Technology
+March 2011 VERMON SA, France
+milestones
+ 1877 Rayleigh laid foundation for modern acoustics (the theory of sound).
+ 1880 Pierre & Jacques Curie discovered the piezoelectric effect.
+ 1915 Paul Langevin has demostrated echo-sounding device using quartz crystals.
+ 1947 Hyperphonography presented by Dussik.
+ 1954 Jaffe discovered PZT ceramics which has paved the way for modern ultrasound
+devices.
+ 1963 Physionics Engineering commercialised B-mode scanner.
+ 70s Electronic scanning using linear arrays.
+ 90s silicon-based MEMS enabling electrostatic membranes for ultrasonic applications.
+ Today: MEMS technology open doors to highly integrated transducers for new imaging
+modalities and performance.
+VERMON SA, France
+B-Mode ultrasound imaging
+Transducer types
+ Linear Array
+• Transducer shape determines display image shape
+(rectangular)
+ Phased Array
+• Dynamic focusing and steering of beam
+• Sector display format
+ Two-dimensional Array
+• Allows for full volume imaging
+• Hardware complexity and cost (increased by N²)
+ Annular Array
+• Cylindrical focusing
+• No beam steering
+March 2011 VERMON SA, France
+VERMON SA, France
+Piezoelectric (bulk) transducer
+Directivity
+Water
+Matching layers
+Piezocomposite
+Backing
+Electrodes
+x
+z
+Sensitivity
+&
+bandwidth
+Capacitive Micromachined Ultrasonic
+Transducer (CMUT)
+March 2011 VERMON SA, France
+SiO2 Insulation
+Nitride Membrane
+Al Electrode
+Highly doped Si
+Case study: ultrasound probes
+March 2011 VERMON SA, France
+Integration in
+transducer head
+allowed by MEMS
+technology
+Design
+March 2011 VERMON SA, France
+FE modeling of membrane
+displacement (Vermon)
+CMUT schematic (Fraunhofer ENAS)
+Process flow
+March 2011 VERMON SA, France
+Sacrificial layer etching
+(Vermon)
+Wafer bonding (Stanford Univ.)
+Integration routes with MEMS devices
+ Monolithic integration:
+• Co-processing (e.g. Eccardt et al.
+• Post-processing (e.g. Noble et al.)
+ Multi-chip integration (hybrid):
+• Chip-to-chip bonding (e.g. Wygant et al.)
+ Bonding on a flexible intermediate substrate or interposer
+ Bonding on a rigid interposer
+March 2011 VERMON SA, France
+CMUT array with integrated frontend
+electronic circuits
+ Integrated synthetic aperture
+• IC with pulsers, T/R switch and LNA for each channel.
+• One channel programmable to be active at a time.
+ Full-Transmit / X-Reiceive with integrated beamforming
+• Digital circuitry for transmit beamformer
+• Full transmit capability
+• Pre-determined number of channel in receive mode.
+• HV pulsers and shift register provided
+• LNA is provided for each receiving channel
+March 2011 VERMON SA, France
+Implementations of MEMS in medical
+March 2011 VERMON SA, France
+• Biomed applications:
+• Imaging
+• Flowmeters
+• µ-fluidics (switch,
+mixer, actuator)
+• Accelerometers
+• HIFU (therapy)
+S.W.O.T analysis
+ High miniaturisation
+ Efficient energy management (self heating)
+ Weight reduction
+ Mass production
+ Cost efficient
+ Borderline enabling technologies
+ Lack of generic knowlegde
+ Research in progress (Fab, Design & Material
+Sc)
+ Interactions of embedded components
+ Sustained market growth
+ Non ionizing technique
+ Easy integration with others technologies
+(theranostics, multi-modality etc..)
+March 2011 VERMON SA, France
+ Spectacular progress in MRI, CT and PET
+ World competition (new emerging countries)
+ Innovations require heavy investments (€,
+research, clinic assessments)
+ Market acceptance
+Strengths Weaknesses
+Opportunities Threats
+Routes to commercialization of CMUT
+March 2011 VERMON SA, France
+Process stabilisation
+(process flow
+finetune)
+Scien. & Tech.
+Development
+(Modeling, Design
+optimisation)
+Industrialisation
+(Fab, packaging,
+integration)
+Market approvals
+(prototyping, clinic evaluation,
+market acceptance)
+Medical Market
+(Ultrasound
+Imaging Devices)
+What is needed to success?
+ Knowledge of:
+• Applications often drive technologies (bottom up process)
+• Customized MEMs require important investment (modeling &
+design)
+ Actions to do:
+• Effective benchmarking (better, faster, cheaper…)
+• Mastering the complete value chain (MEMs foundry partnership,
+cooperation with system manufacturers is required)
+• Plan your unexpected events or difficulties (process qualification)
+ Beware of:
+• Peripheric costs (packaging, integration)
+• Long development cycles.
+• IPR
+March, 2011 VERMON SA, France
+RTD collaborative programs
+March, 2011 VERMON SA, France
+e-BRAINS: a FP7 –ICT IP
+a EURIMUS project
+2005-2008
+2010-2013
+vermon
+October 20th, 2006 VERMON SA, France
+Ultrasound imaging modalities
+March 2011 VERMON SA, France
+Market situation
+March 2011 VERMON SA, France
+VERMON
+ 120 pers (>4000m²)
+ 16,5M€ (2010)
+ 25% of turnover dedicated for research
+ ISO9001, ISO13485 & ISO14001
+ Participations in European RTD Programmes
+ Member of:
+Come visit us at www.vermon.com
+

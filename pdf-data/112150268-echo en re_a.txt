@@ -1,0 +1,1431 @@
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 1/37
+Congrès national d'anesthésie et de réanimation 2008. Les Essentiels, p. 553-594.
+© 2008 Elsevier Masson SAS. Tous droits réservés.
+Échographie en réanimation
+L. Muller *, J.-Y. Lefrant
+Unité de réanimation chirurgicale, Pôle anesthésie-douleur-urgences-réanimation, CHU Nîmes, groupe
+hospitalo-universitaire Caremeau, Place du Professeur-Debré, 30029 Nîmes, France
+* e-mail : laurent.muller@chu-nimes.fr
+POINTS ESSENTIELS
+· L'échographie constitue un moyen simple et non invasif d'améliorer la pertinence de l'examen clinique en
+réanimation, particulièrement pour la pathologie cardiovasculaire.
+· Toute unité de réanimation devrait disposer d'un appareil moderne d'échographie afin de garantir une
+qualité d'image optimale en raison d'une échogénicité plus faible des patients critiques.
+· La configuration minimale d'un appareil d'échographie de réanimation comporte une sonde thoracique
+(permettant l'exploration cardiaque, pleuropulmonaire, voire abdominale), une sonde permettant
+l'exploration vasculaire et une sonde transœsophagienne multiplan.
+· Il est souhaitable que la majorité des praticiens d'une équipe soient formés à l'échocardiographie et aux
+bases de l'échographie générale, avec autant que possible un praticien référent par unité.
+· Les données de la littérature montrent qu'un certain nombre d'explorations échographiques cardiaques,
+pleuropulmonaires, vasculaires et abdominales peuvent être réalisées par le réanimateur avec une bonne
+performance diagnostique.
+· Les niveaux de compétence requis sont bien définis pour l'échocardiographie, relativement bien codifiés
+pour l'échographie pleuropulmonaire mais restent à définir pour les autres organes.
+· L'échographie-Doppler cardiaque est un outil précieux pour le diagnostic des causes d'états de choc
+ainsi que pour l'analyse hémodynamique. Sa performance est équivalente voire supérieure aux autres
+outils d'exploration hémodynamique.
+· L'échographie vasculaire en temps réel diminue les échecs et les complications de la pose des cathéters
+veineux centraux.
+· L'échographie pleuropulmonaire permet un diagnostic simple, rapide et quantitatif des épanchements
+pleuraux liquidiens avec une performance supérieure à la radiographie conventionnelle. Elle permet un
+diagnostic différentiel rapide entre épanchement pleural liquidien et atélectasie. Le diagnostic d'exclusion
+de pneumothorax est simple, son diagnostic positif plus difficile. L'échographie pleuropulmonaire donne
+des signes indirects très spécifiques de surcharge liquidienne parenchymateuse.
+· Le Doppler transcrânien fournit une appréciation rapide et non invasive de l'hémodynamique cérébrale
+chez le patient neuro-agressé, particulièrement en traumatologie.
+· L'échographie abdominale permet au réanimateur de diagnostiquer un épanchement péritonéal liquidien
+et d'éliminer rapidement une cause obstructive d'insuffisance rénale.
+· Si l'impact pronostique des examens échographiques réalisés par le réanimateur reste à démontrer, la
+simplicité, l'innocuité et les données de la littérature plaident pour un développement rapide et généralisé
+de l'enseignement de l'échographie en réanimation.
+INTRODUCTION
+L'examen clinique, couplé à un bon interrogatoire, constitue la base d'une prise en charge diagnostique
+et thérapeutique optimale. Les limites de l'examen physique restent cependant importantes et la
+variabilité de la pertinence de l'examen clinique mal connue. Chez le patient critique, les conditions de
+l'examen clinique sont la plupart du temps perturbées par le stress, la douleur, la dyspnée, les troubles
+de conscience et la sédation. De nombreuses études suggèrent que l'évaluation clinique de la volémie
+[1] [2] [3] [4] [5], de l'étiologie d'une dyspnée [6] [7], d'une incompétence myocardique [8] [10], de
+la sévérité d'un épanchement pleural [11] [12] [13] [14] peut se révéler insuffisante et améliorée par
+un examen échographique. Du fait des progrès liés à la qualité d'image et à la miniaturisation des
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 2/37
+machines, l'échographie représente en réanimation un moyen simple d'améliorer la performance de
+l'examen clinique, sans nécessité de déplacer un patient potentiellement instable. Non invasive, non
+irradiante, l'échographie-Doppler devient le prolongement direct de l'examen clinique et l'appareil
+d'échographie un véritable « stéthoscope ultrasonique » [6] [12] [15] [16]. L'explosion du nombre de
+publications relatives à l'échographie cardiaque et pulmonaire en soins intensifs témoigne de
+l'engouement des cliniciens pour la technique [12] [17]. Le champ d'action théorique de l'échographie
+est très vaste, posant à la fois la question des compétences des réanimateurs et des structures
+anatomiques ou fonctionnelles pouvant être explorées avec un réel gain diagnostique et thérapeutique.
+Le but de ce texte est de discuter la faisabilité d'examens ultrasoniques par des médecins « non
+spécialistes », de définir la configuration minimale d'une machine dédiée aux secteurs de réanimation,
+soins intensifs, accueil des urgences et de fournir les bases de l'examen ultrasonographique relatif aux
+pathologies fréquemment rencontrées en réanimation (cardiovasculaires, pleuropulmonaires,
+abdominales, sinusiennes et encéphaliques). Compte tenu de l'étendue du sujet, cet exposé est centré
+sur les notions les plus simples.
+ÉCHOGRAPHIES PAR DES MÉDECINS
+« NON SPÉCIALISTES » ?
+La réalisation d'échographies par le réanimateur est un impératif inhérent aux conditions même de
+l'exercice en réanimation. Chez les patients instables, la nécessité d'obtenir des réponses cliniques
+rapides et répétées rend difficile voire impossible l'intervention systématique d'un radiologue ou d'un
+cardiologue. La pratique de l'échographie cardiaque est la plus ancienne et la plus étudiée. Plus de 250
+études (dont la moitié publiées entre 2000 et 2006) montrent la faisabilité et l'intérêt que
+l'échocardiographie suscite en réanimation, technique considérée comme une véritable « révolution »
+en hémodynamique [17]. Malgré l'absence de preuve de l'impact sur la mortalité, il semble que
+l'analyse hémodynamique par échocardiographie devienne incontournable pour les réanimateurs [18].
+En France, le niveau de compétence le plus complet en échocardiographie passe par l'obtention du
+diplôme interuniversitaire (DIU) d'échocardiographie, dont l'orientation générale, historiquement
+cardiologique, s'est largement étendue ces dernières années vers la réanimation. Ce DIU, d'une durée
+de deux ans, comporte un enseignement théorique et pratique correspondant à la réalisation de
+240 échographies transthoraciques (ETT) et 50 échographies transœsophagiennes (ETO). En 2004, les
+réflexions d'un groupe d'experts de la Société française de cardiologie (SFC), de la Société de
+réanimation de langue française (SRLF) et de la Société française d'anesthésie et de réanimation (Sfar)
+ont montré la nécessité d'un enseignement spécifique à l'anesthésie et à la réanimation. Ceci a motivé
+des modifications spécifiques du programme de seconde année avec instauration de 4 heures de cours
+sur l'échocardiographie en anesthésie réanimation communes aux cardiologues et aux non cardiologues.
+Au cours de cette seconde année, il existe un module d'enseignement de 2 jours, spécifique aux
+anesthésistes et réanimateurs. Parallèlement à cette réforme du DIU d'échocardiographie, un système
+de validation de compétences en trois niveaux en échocardiographie pour les réanimateurs est à l'étude
+[19] (figure 1). Ce système pourrait permettre la formation de l'ensemble des anesthésistes et/ou
+réanimateurs aux bases de l'échocardiographie en un temps plus court (6 à 12 mois) que les deux
+années d'enseignement du DIU. Idéalement, il serait souhaitable qu'il y ait dans chaque unité un
+référent détenteur du DIU et que les autres praticiens aient suivi un enseignement plus succinct
+(figure 1). La définition d'objectifs diagnostiques clairs au cours d'un examen échocardiographique est
+probablement fondamentale pour améliorer la performance diagnostique de la technique. Il en est de
+même pour les objectifs pédagogiques. Pour le réanimateur l'échographie est réalisée pour répondre à
+une question simple et les critères de réponse à la question doivent être simples et précis : par
+exemple : existe-t-il un épanchement péricardique ? Est-il compressif ? La fonction systolique
+ventriculaire gauche est-t-elle altérée ? Ceci est fondamental afin de ne pas semer la confusion sur les
+compétences respectives des cardiologues et des réanimateurs. L'efficacité du ciblage des objectifs est
+démontrée. Des travaux cliniques montrent qu'il est possible de former des réanimateurs non
+cardiologues aux bases de l'échographie cardiaque transthoracique [20] [21] et transœsophagienne
+[22] sur des périodes de l'ordre d'un an, en se fixant des objectifs diagnostiques simples et
+standardisés. Le principe de l'apprentissage simple et standardisé de l'échocardiographie dépasse le
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 3/37
+champ strict de la réanimation. Il est démontré qu'une formation courte (4 h, étude de 20 cas cliniques)
+de résidents de médecine interne centrée sur l'analyse échographique de la veine cave permet
+d'améliorer significativement le diagnostic clinique de surcharge vasculaire [23]. La même équipe a
+démontré dans un travail similaire qu'il est possible de mieux apprécier le statut volémique
+interdialytique de patients en insuffisance rénale chronique à l'aide d'échographies de la veine cave
+réalisées par des néphrologues sans expérience échographique [24]. Deux autres travaux ont démontré
+la possibilité de former en quatre semaines des internes en secteur de médecine interne au diagnostic
+de dysfonction ventriculaire gauche systolique, de cardiomyopathie hypertrophique et de dysfonction
+valvulaire majeure avec 93 % de diagnostics corrects [25] [26]. L'échographie réalisée au lit du malade
+par des médecins non spécialistes s'inscrit donc parfaitement dans le sens de l'évolution naturelle des
+pratiques médicales.
+Figure 1. Pyramides des compétences d'échocardiographie en réanimation.
+Au sommet : opérateur qualifié (diplôme interuniversitaire = DIU), capable de réaliser un
+examen échocardiographique complet. Cet opérateur est en charge de la formation des
+praticiens non formés de l'unité, en veillant notamment à ce que soient acquis les items
+cités à la base de la pyramide. Le niveau intermédiaire représente des praticiens en
+cours de formation, ayant intégré la base de la pyramide et capables d'une analyse plus
+fine. D'après Cholley et al. [19]. PAPs = pression de l'artère pulmonaire systolique.
+FEVG = fraction d'éjection du ventricule gauche.
+La présence croissante d'appareils d'échocardiographie dans les unités de réanimation a naturellement
+ouvert la voie à l'exploration par les réanimateurs de structures extracardiaques, notamment
+pulmonaires [6] [11] [12] [14] [15] [27] [28] [29] [30] [31], sinusiennes [32] [33] [34], vasculaires
+[35] [36] et abdominales [37] [38] [39]. Le niveau de compétence dans ces explorations est moins
+bien défini que pour l'échocardiographie. Il est toutefois démontré depuis plus de 10 ans que la
+réalisation d'échographies abdominales de débrouillage dans le cadre de l'urgence traumatique par des
+médecins non radiologues est efficace pour le diagnostic d'hémopéritoine et aide à la bonne orientation
+des patients [38] [39].
+Tout examen échographique, en particulier échocardiographique, doit faire l'objet d'un compte rendu
+figurant dans le dossier, identifiant le nom de l'opérateur et les conclusions de l'examen. Outre la valeur
+médico-légale de ce compte rendu, cette rédaction a une valeur d'apprentissage, forçant l'examinateur
+à faire la synthèse de ces observations et des mesures réalisées. Si la réalisation d'échographies par le
+réanimateur est devenue (ou deviendra) un geste de routine, tout doute sur un diagnostic complexe
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 4/37
+doit faire intervenir un spécialiste, tant pour la cardiologie (suspicion d'endocardite, quantification d'une
+fuite valvulaire, identification une image tumorale intracardiaque, constriction péricardique...) que pour
+l'échographie générale (doute sur une thrombose veineuse, artérielle, recherche de thrombose
+vasculaire intra-abdominale, suspicion de processus expansif rénal, splénique ou hépatique...).
+CONFIGURATION SOUHAITABLE
+D'UNE MACHINE D'ÉCHOGRAPHIE EN RÉANIMATION
+(figure 2)
+Figure 2. Configuration générale d'un appareil d'échographie en réanimation.
+L'examen échographique transpariétal est difficile chez le patient de réanimation, en raison d'une
+échogénicité moindre, secondaire à la dyspnée, à la ventilation mécanique, aux pansements et à la
+difficulté de mobiliser les patients. Ces éléments plaident en faveur de l'acquisition de machines
+récentes et de bon niveau afin de garantir une qualité d'image optimale. Les choix pragmatiques visant
+à fournir aux unités de réanimation des machines réformées par les services de radiologie ou de
+cardiologie ne peuvent donc représenter que des solutions transitoires avant l'acquisition d'un matériel
+neuf.
+La configuration idéale comporte :
+- une sonde « thoracique », étroite (passage intercostal) générant des ultrasons (US) de basse
+fréquence (1 à 3 MHz ou 2 à 5 MHz), plane, à balayage sectoriel. Les basses fréquences permettent
+d'analyser les structures profondes (> 6 cm) telles que le cœur, la plèvre, le poumon et les vaisseaux
+intracérébraux ;
+- une sonde « abdominale », large, courbe, de basse fréquence (1 à 3 MHz), à balayage sectoriel,
+permettant d'analyser les structures profondes (> 6 cm) intra-abdominales ;
+- une sonde « barrette », à balayage linéaire, de haute fréquence (7 à 10 MHz) permettant une analyse
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 5/37
+des structures superficielles (< 6 cm) telles que la peau, les tissus mous et surtout les vaisseaux tant
+cervicaux que des membres. Cette sonde peut permettre une analyse plus fine de la plèvre que la
+sonde thoracique ;
+- une sonde d'échographie cardiaque transœsophagienne (ETO) multiplan ;
+- une configuration informatique permettant l'analyse des différentes structures: cardiaque,
+abdominale, vasculaire (superficielle, abdominale et transcrânienne) ;
+- les modes Doppler suivants : continu, pulsé, couleur, tissulaire ;
+- une imagerie bidimensionnelle de type harmonique, améliorant considérablement la qualité de
+l'image ;
+- un système d'enregistrement simultané de l'ECG, indispensable en échographie cardiaque ;
+- un système d'enregistrement simultané des pressions de ventilation chez les patients placés sous
+ventilation mécanique. Cet enregistrement permet d'étudier les variations respiratoires des vitesses des
+flux intracardiaques, des gros vaisseaux et du diamètre des veines caves, témoins de précharge-
+dépendance [40] [41] [42] [43].
+TERMINOLOGIE SIMPLIFIÉE
+D'ÉCHOGRAPHIE-DOPPLER
+Modes d'échographie (figure 3)
+L'échographie permet des images bidimensionnelles (mode 2D) ou en temps-mouvement (mode TM ou
+mode M en anglais). Les images 2D montrent les structures anatomiques et constituent les images
+échographiques au sens commun du terme. Le mode TM ou M permet la visualisation de structures
+anatomiques en mouvements en fonction du temps. Le mode M permet la mesure des diamètres de
+cavités sur un cycle de temps, par exemple la mesure des diamètres télésystoliques et télédiastoliques
+permettant la mesure de la fraction de raccourcissement ventriculaire gauche (figure 3). Les variations
+respiratoires des veines caves (inférieure en ETT, supérieure en ETO) qui constituent un bon indice de
+précharge dépendance, sont étudiées à l'aide de ce mode [42] [43]. Le mode M permet également la
+mesure des épaisseurs de paroi cardiaque afin de juger du caractère hypertrophique d'une
+cardiomyopathie.
+Figure 3. Modes d'imagerie en échographie. a : imagerie bidimensionnelle (coupe
+apicale 4 cavités cardiaque). b : échographie TM du ventricule gauche permettant la
+mesure des épaisseurs de paroi, des diamètres ventriculaires en systole et en diastole
+puis le calcul de la fraction de raccourcissement.
+Modes Doppler
+Quatre modes Doppler sont utilisés en routine : continu, pulsé, couleur et tissulaire. Physiologiquement,
+les vitesses intracardiaques sont inférieures à 1,5 m · s-1
+. Toute vitesse supérieure est pathologique et
+correspond en général à une sténose (valvulaire, vasculaire, intraventriculaire) ou à une fuite valvulaire
+massive.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 6/37
+Doppler continu
+Dans ce mode Doppler, l'émission et la réception des US se font de façon continue par 2 cristaux
+différents. L'image (spectre) Doppler obtenue correspond à la somme de toutes les vitesses
+enregistrées sur la totalité de la longueur du trajet des US représenté sur l'image par la ligne de tir. Un
+flux venant vers la sonde est dit positif et est codé au-dessus de la ligne de base. Un flux venant,
+fuyant la sonde, est dit négatif et est codé au-dessous de la ligne de base. Ce mode permet l'analyse
+des hautes vitesses (> 1,5 m · s-1
+) mais ne permet pas de localiser l'endroit de l'accélération du flux
+(figure 4). En d'autres termes, le Doppler continu autorise une bonne résolution des vitesses mais
+entraîne un phénomène d'ambiguïté spatiale. Par exemple, une accélération du flux sur la chambre
+d'éjection ventriculaire gauche peut correspondre à un gradient intraventriculaire (cardiomyopathie
+obstructive) ou à une sténose aortique. Seule l'analyse de la géométrie ventriculaire, de l'anatomie des
+valves et du spectre Doppler couleur permettra de localiser la zone malade. En pratique, ce mode
+permet de quantifier les sténoses et les fuites.
+Doppler pulsé
+Dans ce mode, les US sont émis par paquets discontinus. À l'inverse du Doppler continu, le Doppler
+pulsé permet d'analyser une zone précise, punctiforme mais ne permet pas l'analyse de vitesses
+supérieures à 1,5 m · s-1
+. Il existe donc une bonne résolution spatiale mais une ambiguïté des vitesses.
+Un flux venant vers la sonde est dit positif et est codé au-dessus de la ligne de base. Un flux venant,
+fuyant la sonde, est dit négatif et est codé au-dessous de la ligne de base. L'incapacité de ce mode à
+analyser les vitesses élevées se traduit par le phénomène d'aliasing ou repliement spectral ou le spectre
+Doppler est décapité sur les hautes vitesses qui apparaissent en miroir dans le sens inversé. En
+pratique, le mode pulsé permet d'analyser les pressions de remplissage sur le flux mitral et le calcul du
+débit cardiaque par le flux sous-aortique.
+Doppler couleur
+Le Doppler couleur est un Doppler pulsé. Il comporte donc les limites de ce dernier : bonne résolution
+spatiale mais ambiguïté des vitesses. Le mode couleur consiste en une cartographie des vitesses au
+sein d'un volume d'échantillonnage matérialisé sur l'image par un secteur trapézoïdal. En d'autres
+termes, au sein du volume d'échantillonnage, chaque globule rouge en mouvement reçoit un code
+couleur qui est fonction du sens de son déplacement. Un flux vers la sonde est dit positif et est codé en
+rouge. Un flux fuyant la sonde est dit négatif et est codé en bleu. Le phénomène d'aliasing est très
+informatif en Doppler couleur car il se traduit par un codage jaune. Ainsi, la visualisation d'un flux jaune
+témoigne d'une accélération régionale du flux et permet de localiser la zone responsable d'une sténose.
+En cela, le Doppler couleur complète les données du Doppler continu qui a montré une accélération sans
+permettre de localiser son site. À titre d'exemple, si un flux accéléré est observé en Doppler continu sur
+la voie d'éjection ventriculaire gauche, on ne peut différencier une sténose aortique d'une obstruction
+intraventriculaire. La visualisation d'un aliasing couleur (flux jaune) intraventriculaire plaide pour la
+seconde hypothèse, un alisasing transvalvulaire plaide en faveur d'un rétrécissement aortique
+(figure 4). De plus, la forme du spectre Doppler continu (lame de sabre ou non) constitue un autre
+élément de diagnostic différentiel (figure 4 et figure 5).
+Figure 4. Doppler d'éjection ventriculaire gauche. À gauche (a1 et a2) : Doppler normal.
+En couleur, le flux est bleu homogène, affirmant l'absence d'accélération pathologique
+(a1). On peut donc enregistrer en Doppler pulsé le flux sous-aortique en coupe 5
+cavités, qui permet le calcul de l'intégrale temps vitesse (ITV) et représente
+indirectement le volume d'éjection systolique (a2). Ici, la vitesse maximale du flux sous-
+aortique est de 1,2 m · s-1
+. À droite (b1 et b2) : cardiomyopathie obstructive. b1 :
+aliasing intraventriculaire (flèche) au contact d'une hypertrophie septale permettant de
+différencier cette image d'une sténose aortique. b2 : accélération du flux authentifié par
+le Doppler continu. Noter ici que la vitesse maximale du flux est à 3 m · s-1
+avec un
+aspect typique en lame de sabre (flèche).
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 7/37
+Figure 5. Sténose aortique : flux d'éjection accéléré sans aspect en lame de
+sabre.
+ÉCHOGRAPHIE - DOPPLER CARDIAQUE
+ET VASCULAIRE
+Échographie Doppler cardiaque
+Généralités et intérêt du développement de l'échographie cardiaque en
+réanimation
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 8/37
+L'échographie cardiaque est l'examen ultrasonique réalisable par un réanimateur qui a fait l'objet du
+plus grand nombre de publication au cours des 15 dernières années [17]. Dans cette période, près de
+250 articles consacrés au sujet ont été publiés. La pertinence des outils classiques d'exploration
+hémodynamique est actuellement remise en question avec l'absence de bénéfice démontré du cathéter
+artériel pulmonaire (CAP) après 30 ans d'utilisation [44] et la mauvaise performance des pressions
+intravasculaires pour prédire la réponse au remplissage [45] [46]. Bien que l'impact sur la mortalité
+n'ait pas été étudié, certains travaux suggèrent que la performance de l'échographie est supérieure au
+CAP [10]. Dans une étude portant sur 20 patients en insuffisance circulatoire aiguë après chirurgie
+cardiaque, les auteurs ont comparé la performance diagnostique de cinq praticiens utilisant le CAP et
+cinq praticiens utilisant l'échographie transœsophagienne (ETO). Les résultats de ce travail montrent
+que le score diagnostique moyen de l'ETO est meilleur que celui du CAP. De façon surprenante, malgré
+le caractère opérateur-dépendant de l'échographie, il existait une meilleure homogénéité diagnostique
+entre les 5 échographistes qu'entre les 5 hémodynamiciens. Dans cette étude, 34 % de décisions
+thérapeutiques majeures étaient décidées sur les seules données échographiques et avaient été
+ignorées par le CAP. Une seconde étude menée chez 130 patients après pontage aorto-coronaire
+montre que l'évaluation clinique associée aux données du CAP est en concordance avec l'ETO dans
+98 % des cas lorsque la fonction myocardique est normale [47]. A contrario, dans ce travail, le
+diagnostic de dysfonction systolique sévère (fraction d'éjection ventriculaire gauche [FEVG] < 40 %)
+ainsi que les valeurs extrêmes de précharge (hypo- ou hypervolémie) est médiocre pour l'analyse
+clinique et par CAP et sans aucune corrélation avec les données échographique. Si l'ETO offre l'avantage
+d'une qualité d'image supérieure à l'ETT et ce particulièrement après chirurgie cardiaque, les impératifs
+de décontamination des sondes et l'usage délicat voire impossible de l'ETO chez le patient non ventilé
+limitent significativement son utilisation pluriquotidienne en réanimation polyvalente. Les progrès
+technologiques récents ont heureusement permis une amélioration sensible de la qualité des images en
+ETT. Dans un travail publié en 2004 portant sur 100 ETT réalisées pour bilan d'état de choc,
+l'échogénicité était considérée comme bonne chez 99 % des patients [9]. Dans ce travail, l'ETT
+permettait d'exclure ou d'affirmer une origine cardiogénique d'état de choc avec une sensibilité, une
+spécificité, une valeur prédictive négative et positive de 100 %, 95 %, 97 %, 100 %, respectivement.
+L'ETT permettait dans cette étude 51 % de modifications thérapeutiques significatives, dont 25 % de
+procédures chirurgicales ou invasives pour une population de patient majoritairement cardiologique.
+Dans un travail analogue, 467 patients admis en réanimation médicale pour des pathologies non
+cardiaques ont été évalués par ETT dans les 18 heures suivant l'admission [8]. Les résultats de cette
+étude montrent que 36 % des patients ont une anomalie cardiaque significative qui n'a pas été détectée
+cliniquement dans plus de 75 % des cas. Dans ce travail, la présence d'une anomalie cardiaque
+échographique n'influe pas sur la mortalité mais est associée à un allongement de la durée de séjour.
+Compte tenu de sa simplicité de mise en œuvre et de son innocuité, l'ETT constitue le moyen idéal de
+se former à l'échographie cardiaque en réanimation. Dans la suite du texte, nous ne discuterons donc
+que d'échographie transthoracique qui constitue la base de l'apprentissage et le meilleur moyen
+d'évoluer naturellement vers l'acquisition d'une compétence en ETO.
+Fenêtres acoustiques utilisables en ETT (figure 6)
+Comme pour les foyers d'auscultation cardiaque, les images d'échographie cardiaques sont recueillies
+au niveau de cinq régions thoraciques offrant une moindre résistance à la pénétration des ultrasons,
+appelées fenêtres acoustiques. Les fenêtres parasternales, apicales et sous-costales sont les trois voies
+préférentielles en réanimation. Pour chacune de ces trois fenêtres, la rotation de la sonde sur son grand
+axe permet d'obtenir des plans de coupes différents. Ainsi, pour une fenêtre donnée, il existe plusieurs
+plans de coupe définissant les principales coupes échocardiographiques.
+Figure 6. Fenêtres acoustiques en échocardiographie. Les 3 fenêtres
+principales sont les fenêtres parasternales, apicales et sous-costales. Les
+fenêtres sus-sternales et parasternales droites ont un intérêt limité en
+réanimation. Les ombres ovales grises représentent la position de la sonde
+sur le thorax, les flèches la rotation de la sonde pour obtenir les différentes
+coupes sur une même fenêtre.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 9/37
+Principales coupes échocardiographiques transthoraciques (figure 7)
+Il s'agit des premières notions à acquérir lors de l'apprentissage de l'échocardiographie. Ces coupes
+doivent être parfaitement connues par l'opérateur. Pour fixer les idées, on peut considérer que ses
+coupes sont apprises lorsque l'opérateur en apprentissage est capable de les dessiner de mémoire.
+Figure 7. Coupes échocardiographiques principales obtenues chez des patients de réanimation intubés
+et ventilés. Les zones ovales grises montrent la position et l'orientation de la sonde au niveau de
+chacune des 3 fenêtres acoustiques principales. Sur une même fenêtre, une rotation de la sonde de 90o
+sur son grand axe permet d'obtenir 2 coupes différentes. VG = ventricule gauche, VD = ventricule droit,
+OG = oreillette gauche, OD = oreillette droite, VCI = veine cave inférieure, P = péricarde. Ao = aorte. Sur la
+coupe parasternale grand axe, noter l'aspect hyperéchogène du péricarde normal.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 10/37
+Coupe parasternale grand axe (PSGA)
+La sonde est appliquée au bord gauche du sternum, son axe suivant une ligne imaginaire reliant le
+mamelon gauche à la zone médio-claviculaire droite (figure 6 et figure 7). Cette coupe montre
+l'ensemble des cavités cardiaques, mais son intérêt est limité en réanimation à l'étude de 4 éléments :
+le péricarde postérieur qui apparaît hyperéchogène à l'état physiologique et qui peut être le siège d'un
+épanchement, le diamètre de la chambre de chasse du VG qui est utile au calcul du débit cardiaque, la
+fraction de raccourcissement du VG en mode TM qui apprécie grossièrement la fonction systolique, les
+valves aortiques et mitrales en mode 2D et Doppler couleur pour la détection rapide d'une valvulopathie
+majeure.
+Coupe parasternale petit axe (PSPA)
+À partir de la position précédente, on applique à la sonde une rotation de 90o
+dans le sens horaire
+(figure 4). Cette coupe visualise alors le VG et le VD en coupe transversale, séparés par le septum
+interventriculaire. L'intérêt de cette coupe est d'analyser la cinétique régionale du VG puisqu'elle montre
+la paroi latérale, antérieure, postérieure et le septum interventriculaire (SIV). Cette coupe permet
+également d'apprécier la cinétique globale du VG en évaluant la fraction d'éjection du VG, soit en mode
+TM avec calcul de la fraction de raccourcissement, soit en mode 2D avec calcul de la fraction de
+raccourcissement de surface. Cette coupe a enfin un intérêt majeur dans le diagnostic du cœur
+pulmonaire aigu ou elle permet la mise évidence du septum paradoxal.
+Coupe apicale 4 et 5 cavités
+Ces deux coupes sont obtenues en positionnant la sonde au-dessous et en dehors du mamelon gauche,
+en « visant » l'épaule droite, l'axe de la sonde étant horizontal. On obtient ainsi une coupe ou la pointe
+du cœur se trouve dans le sommet du cône d'image, les 4 cavités cardiaques (VG, VD, OG, OD) sont
+visualisées en positionnant par convention les cavités gauches à droite de l'image. En imprimant une
+bascule minime (10o
+) de la sonde vers le bras droit du patient, on dégage la chambre de chasse du VG
+qui constitue la cinquième cavité et qui permet de recueillir le flux d'éjection ventriculaire gauche
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 11/37
+nécessaire au calcul du débit cardiaque. Ces 2 coupes sont les plus informatives en réanimation, elles
+permettent une appréciation globale de la fonction contractile ventriculaire droite et gauche, le
+diagnostic d'une valvulopathie mitrale, tricuspide ou aortique majeure (la valve pulmonaire n'est pas
+visualisée), le diagnostic d'une dilatation ventriculaire gauche et surtout droite. Un épanchement
+péricardique important sera bien visualisé sur ces coupes. Ces 2 coupes ont enfin un intérêt majeur car
+elles facilitent le recueil et l'étude de l'ensemble des flux Doppler intracardiaques (à l'exception du flux
+de l'artère pulmonaire) qui permettent l'évaluation des pressions de remplissage gauche, de la pression
+artérielle pulmonaire et la quantification grossière d'une valvulopathie par Doppler couleur.
+Coupe apicale 2 et 3 cavités
+Ces 2 coupes sont obtenues à partir de la précédente en effectuant une rotation de 90o
+de la sonde
+dans le sens antihoraire. Comme précédemment, on passe de la coupe 2 à 3 cavités en effectuant une
+bascule minime de la sonde. La coupe 2 cavités montre le VG et l'OG dans leur grand axe longitudinal,
+la coupe 3 cavités montre les mêmes éléments plus la chambre de chasse du VG et la valve aortique.
+L'intérêt de ces coupes est de pouvoir étudier la cinétique des parois antérieures et inférieures du VG,
+non vues sur les coupes 4 et 5 cavités. Elles permettent aussi l'enregistrement du flux d'éjection VG
+lorsque celui-ci n'a pu être recueilli en 4 ou 5 cavités.
+Coupes sous-costales
+La sonde est appliquée au creux épigastrique, horizontalement, en « visant » le médiastin. On obtient
+alors une coupe 4 cavités, oblique sur l'écran. En effectuant une rotation de 90o
+dans le sens
+antihoraire et en « visant » le foie, on peut dérouler la veine cave inférieure en coupe longitudinale.
+L'étude des variations respiratoires de la veine cave est fondamentale pour étudier la précharge-
+dépendance cardiaque. Bien que moins précise en termes anatomique et ne permettant pas un bon
+alignement des flux Doppler, cette coupe reste parfois la seule exploitable lorsque le patient est peu
+échogène et fournit des éléments 2D précieux : fonction systolique VG et VD visuelles, épanchement
+péricardique. En appliquant une rotation de la sonde de 90o dans le sens anti horaire et en « visant » le
+médiastin, on peut réaliser une coupe transversale fournissant une image et des informations
+comparables à la coupe PSPA.
+Flux Doppler intracardiaques normaux
+Doppler mitral normal (tableau I et figure 8) :
+Tableau I. Valeurs normales du flux mitral.
+Âge E A E/A
+< 29 ans 0,69 ± 0,12 0,27 ± 0,07 2,7 ± 0,7
+30-49 ans 0,62 ± 0,14 0,33 ± 0,07 2 ± 0,6
+> 50 ans 0,59 ± 0,14 0,46 ± 0,13 1,2 ± 0,4
+Figure 8. Signification physiologique du flux Doppler mitral. Ce flux correspond au remplissage
+diastolique du ventricule gauche et est caractérisé par une onde E protodiastolique correspondant au
+remplissage passif et une onde A télédiastolique correspondant à la systole auriculaire. L'enregistrement
+simultané de l'ECG est impératif pour différencier l'onde E de l'onde A. FM = fermeture mitrale ; OA :
+ouverture aortique ; FA = fermeture aortique. RI = relaxation isovolumétrique ; RR remplissage rapide.
+TDE = temps de décélération de l'onde E ; Ao = courbe de pression aortique ; OG = courbe de pression
+auriculaire gauche ; VG = courbe de pression ventriculaire gauche.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 12/37
+Le flux mitral enregistre les flux de remplissage diastolique du VG. Il est fondamental pour l'étude des
+pressions de remplissage ventriculaire gauche. Il est obtenu à partir de la coupe 4 cavités, en Doppler
+pulsé, en positionnant la fenêtre Doppler au ras de l'extrémité des 2 feuillets mitraux (figure 8). Le flux
+mitral normal est positif, codé en rouge en couleur et montre deux ondes : une précoce appelée onde E
+(early = E) correspondant au remplissage passif, une télédiastolique, correspondant à la systole
+auriculaire appelée onde A (A = atrial). Il faut souligner que le profil mitral ne peut être analysé sans
+enregistrement simultané de l'électrocardiogramme, qui seul permet de différencier ces 2 ondes. L'onde
+E est située juste après l'onde T, l'onde A entre l'onde P et le complexe QRS. En cas de fibrillation
+auriculaire, l'onde A est absente. Le temps de décroissance de l'onde E (TDE = temps séparant le pic et
+le point de retour de l'onde E sur la ligne de base) est un paramètre systématiquement enregistré lors
+de l'analyse du flux mitral. Toute la difficulté de l'analyse du flux mitral réside dans le fait que les ondes
+E et A varient avec l'âge et les pressions de remplissage. Il faut garder à l'esprit que l'amplitude de
+l'onde E diminue avec l'âge (tableau I) et les pressions de remplissage. Ainsi, une onde E de basse
+vélocité peut correspondre à une hypovolémie ou à une valeur physiologique chez un sujet âgé.
+Physiologiquement, le rapport E/A normal est compris entre 1 et 2. Néanmoins, la vitesse de l'onde E
+diminuant avec l'âge, il n'est pas forcément anormal d'observer une inversion du rapport E/A chez le
+sujet âgé. De la même façon, un rapport E/A > 2 est fréquemment observé chez le sujet jeune sans
+signification pathologique. On peut donc retenir qu'un rapport E/A inversé chez un sujet jeune signe
+dans la plupart des cas une hypovolémie, alors qu'un rapport E/A supérieur à 2 chez un sujet âgé signe
+dans la plupart des cas des pressions de remplissage élevées [48]. Le temps de décélération de l'onde E
+(TDE) varie également avec les pressions de remplissage. Le TDE s'allonge en cas d'hypovolémie et se
+raccourcit en cas d'hypervolémie ou de trouble de la distensibilité du ventricule gauche. Les variations
+des ondes E, A et du TDE avec la volémie sont résumées dans la figure 9.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 13/37
+Figure 9. Variations des ondes E, A et du TDE avec les statuts volémiques.
+Étude du flux d'éjection ventriculaire gauche (flux sous- et transaortiques)
+Ce flux est enregistré en coupe 5 cavités. Ce flux fuit la sonde et est donc codé en bleu en couleur. Son
+orientation est parallèle au septum interventriculaire. La constatation d'un flux couleur bleu homogène
+(absence d'aliasing) signe qu'il n'existe aucune accélération pathologique du flux. On peut alors
+positionner la fenêtre de Doppler pulsé dans le ventricule gauche, juste sous la valve aortique. On
+obtient alors un spectre négatif, dont l'intégrale (surface) peut être tracée grâce au logiciel qui équipe
+toutes les machines d'échographie. Cette intégrale temps-vitesse (ITV) sous-aortique représente alors
+indirectement le volume d'éjection systolique et permet de calculer le débit cardiaque (cf. infra).
+Physiologiquement, la vitesse maximale du flux d'éjection ventriculaire gauche est inférieure à 1,5 m ·
+s-1
+. En cas d'accélération, un obstacle à l'éjection ventriculaire doit être suspecté, les 2 causes
+principales étant l'obstruction intraventriculaire (cardiomyopathie hypertrophique obstructive) et la
+sténose aortique. L'enregistrement du flux en Doppler continu devient alors impératif compte tenu des
+vitesses élevées (figure 8). Au cours de la cardiomyopathie obstructive, il existe un aspect typique en
+Doppler continu, dit en « lame de sabre ». Au cours de la sténose aortique, le flux est accéléré sans
+aspect en lame de sabre (figure 4).
+Doppler tricuspidien
+Il existe une fuite tricuspide physiologique chez une majorité de sujets sains. En cas d'hypertension
+artérielle pulmonaire (HTAP), cette fuite s'aggrave et la vélocité maximale (Vmax) de cette dernière
+devient proportionnelle au degré d'HTAP. Le gradient de pression (Δ P) entre le ventricule droit et
+l'artère pulmonaire est alors obtenu grâce à la formule :
+Δ P = 4 × (Vmax)2
+En ajoutant la valeur de la pression de l'oreillette droite (POD) à ce gradient de pression, on obtient la
+valeur de pression de l'artère pulmonaire systolique (PAPs) :
+PAPs = Δ P + POD
+La valeur de la POD peut être obtenue en mesurant la pression veineuse centrale. Si le patient n'est pas
+équipé d'un cathéter veineux central, la POD peut être évaluée chez le patient en ventilation spontanée
+en échographie transthoracique en mesurant le diamètre de la VCI et ses variations ventilatoires
+(tableau II).
+Tableau II. Évaluation semi-quantitative de la pression de l'oreillette
+droite (POD) à partir du diamètre et des variations respiratoires de la
+veine cave inférieure (VCI) en ventilation spontanée [49].
+Diamètre de la VCI (mm) Variations respiratoires de la VCI (%)
+Valeur de POD
+(mmHg)
+Bas : < 15 Collapsus inspiratoire de 100 % 0-5
+Normal : 15-25 > 50 6-10
+< 50 11-15
+Élevé : > 25 < 50 16-20
+Absentes > 20
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 14/37
+Une étude récente suggère que le seuil de collapsibilité classique de la VCI de 50 % devrait être revu à
+la baisse pour une valeur critique de 40 % [50].
+Échographie Doppler cardiaque en réanimation : réalisation pratique
+L'échographie cardiaque est le plus souvent réalisée en réanimation polyvalente pour le bilan et le
+monitorage (examens répétés) d'une insuffisance circulatoire aiguë et/ou d'une dyspnée. Les
+diagnostics plus spécialisés tels que les endocardites ou les complications de la chirurgie cardiaque ne
+seront pas abordés ici. Il est important d'avoir une démarche systématique qui soit toujours la même,
+très simple au début de l'apprentissage. Pour simplifier l'exposé, nous n'aborderons que les bases des
+pathologies courantes en adoptant la démarche diagnostique adoptée dans notre unité. Cette démarche
+diagnostique correspond aux objectifs 1 et 2 de la pyramide des compétences (figure 1).
+Existe-t-il un épanchement péricardique et ce dernier est-il responsable
+d'une tamponnade ?
+Le diagnostic d'épanchement péricardique repose sur la constatation d'une image hypoéchogène
+adjacente aux structures cardiaques. Les coupes les plus intéressantes pour ce diagnostic sont les
+coupes PSGA et sous-costale. Généralement libre, un épanchement péricardique peut être cloisonné et
+réaliser une tamponnade par compression localisée d'une cavité cardiaque, pour un volume modéré.
+Ceci est rare mais doit être suspecté dans des cas de tuberculose et surtout après chirurgie cardiaque.
+En coupe PSGA, le repère fondamental est celui de l'aorte thoracique descendante apparaissant comme
+une structure arrondie hypoéchogène située sous le cœur, à la jonction VG-OG (figure 10a). La ligne de
+réflexion péricardique se trouve entre l'aorte thoracique descendante et le VG. Ainsi, un épanchement
+péricardique aura pour limite la zone située entre l'aorte et le VG. La connaissance des ces éléments
+permet d'éviter le principal piège diagnostique qui est l'épanchement pleural gauche. Dans ce cas,
+l'épanchement passe en arrière de l'aorte (figure 10d).
+Figure 10. Diagnostic positif et différentiel d'épanchement péricardique. a : échographie normale, coupe
+PSGA. Le péricarde postérieur normal est hyperéchogène et sa limite postérieure est située entre l'aorte
+thoracique descendante (Ao) et la paroi postérieure du ventricule gauche (PPVG) (flèche). b :
+épanchement péricardique (flèche) en coupe PSGA dont la limite postérieure est située entre l'aorte
+thoracique descendante (Ao) et la paroi postérieure du VG. c : épanchement péricardique en coupe
+apicale 4 cavités ; là encore, l'aorte thoracique descendante est un repère fondamental. d : épanchement
+pleural gauche (flèches). L'épanchement est dans ce cas situé en arrière de l'aorte thoracique
+descendante (Ao).
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 15/37
+La quantification d'un épanchement péricardique peut être réalisée de façon semi-quantitative en
+utilisant le mode TM à partir d'une coupe PSGA en positionnant la ligne TM au ras de l'extrémité distale
+des feuillets mitraux. On peut alors classer les épanchements péricardiques en 4 stades (tableau III).
+Tableau III. Quantification des épanchements péricardiques et signes de tamponnade.
+Évaluation semi-quantitative en mode TM
+(PSGA)
+Signes de tamponnade
+· Décollement systolique avec cinétique
+du péricarde pariétal postérieur conservée.
+· Compression OD, VD
+· Décollement systolique avec péricarde
+pariétal postérieur rectiligne.
+· Plus rarement compression OG, VG
+· Décollement systolo-diastolique < 10 mm
+en diastole et décollement antérieur.
+· Dilatation de la VCI avec absence de variations respiratoire du diamètre de cette
+dernière.
+· Décollement systolo-diastolique > 10 mm
+en diastole et décollement antérieur.
+Le caractère compressif d'un épanchement (tamponnade) est affirmé par la compression d'une ou
+plusieurs cavités cardiaques (coupes apicales), le plus souvent l'oreillette et/ou le ventricule droit, plus
+rarement l'oreillette gauche (25 % des cas) et le VG. Il s'associe à ces signes de compression cardiaque
+une dilatation majeure de la veine cave inférieure avec disparition des variations respiratoires du
+diamètre de cette dernière (coupe sous costale).
+Existe-t-il une dysfonction systolique ventriculaire gauche ?
+La fonction contractile ventriculaire gauche peut être appréciée par des méthodes quantitatives
+imposant des mesures, soit par méthode semi-quantitative, visuelle.
+En mode TM, la fonction systolique peut être appréciée en mesurant la fraction de raccourcissement. À
+partir de la coupe PSGA ou PSPA, la coupe TM est réalisé à l'extrémité distale des feuillets mitraux, soit
+en position médioventriculaire (figure 3b). On mesure alors les diamètres télésystoliques (DTS) et
+télédiastoliques (DTD). La fraction de raccourcissement (FR) est calculée selon la formule :
+FR = (DTD - DTS) / DTD
+La normale de la FR est de 28 à 42 %. La formule de Teicholz disponible automatiquement sur toutes
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 16/37
+les machines donne une valeur extrapolée de fraction d'éjection ventriculaire gauche (FEVG normale
+> 55 %). Il est important de garder à l'esprit que cette méthode d'évaluation de la fonction systolique
+ainsi que la relation FR/FEVG par méthode de Teicholz ne sont plus valables lorsqu'il existe une
+anomalie de cinétique segmentaire.
+En mode 2D, la fonction systolique peut être appréciée en mesurant la fraction de raccourcissement de
+surface (FRS). À partir d'une coupe PSPA réalisée au niveau des piliers soit en position médio-
+ventriculaire, les surfaces ventriculaires gauche systoliques (SSVG) et diastoliques (SDVG) sont
+mesurées en traçant les contours de la cavité ventriculaire :
+FR = (SDVG - SSVG) / SDVG
+La valeur normale de la FRS est comparable à celle de la FEVG, soit > 55 %. C'est une méthode simple
+et fiable. Toutefois, comme précédemment, un trouble de cinétique segmentaire limite l'exactitude de la
+méthode.
+La méthode de Simpson est la méthode conventionnelle la plus exacte pour évaluer la FEVG car elle
+prend en compte d'éventuels troubles de cinétique segmentaire. Le principe de cette méthode est basé
+sur le calcul de la somme des volumes du VG découpé en tranches d'épaisseur égale appelées disques.
+On obtient ainsi un volume ventriculaire. Toute les machines d'échocardiographies sont équipées de
+logiciels permettant le calcul de la FEVG Simpson. À partir de la coupe 4 cavités, on effectue le tracé
+manuel du contour endocardique systolique et diastolique en incluant par convention les muscles
+papillaires dans la cavité VG. Cette méthode est fiable mais impose une expérience importante et une
+échogénicité parfaite. Il est enfin utile pour être le plus précis de réaliser une seconde mesure en coupe
+apicale 2 cavités et de moyenner les 2 valeurs obtenues, ceci dans un souci de s'affranchir au maximum
+des troubles de cinétique segmentaire.
+L'évaluation visuelle de la fonction VG a le mérite de la simplicité qui est très appréciable en
+réanimation compte tenu de la nécessité d'obtenir des informations cliniques rapides. Il est démontré
+depuis plus de 15 ans en cardiologie qu'un opérateur entraîné pouvait évaluer visuellement de façon
+assez précise en ETT la FEVG en prenant comme méthode de référence l'angiographie [51] [52]. En
+réanimation, Vieillard-Baron et al. [4] ont démontré qu'une évaluation visuelle semi-quantitative selon
+une classification en 3 niveaux (FEVG normale, altération modérée, altération sévère) est bien corrélée
+aux mesures chiffrées.
+Mesure du débit cardiaque
+Le débit cardiaque est obtenu en calculant la surface de la chambre de chasse du VG obtenu en
+mesurant le diamètre (D) de cette dernière en PSGA. La surface (S) est obtenue en appliquant la
+formule πD2/4. On multiplie alors cette surface par l'ITV sous-aortique (ITVssAo) qui permet d'obtenir le
+volume d'éjection systolique. Il ne reste plus alors qu'à multiplier ce dernier par la fréquence cardiaque
+pour obtenir le débit cardiaque.
+DC = Fc × ITVssAo × S
+Existe-t-il une dysfonction ventriculaire droite ?
+L'éjection ventriculaire droite se faisant dans une circulation à basses résistances, le VD est très
+sensible aux augmentations brutales de postcharge. Sa fonction systolique est sensible. Contrairement
+au ventricule gauche, le VD peut se dilater sous l'effet d'une augmentation brutale de postcharge. La
+fonction diastolique du VD est tolérante. Ainsi, lors d'une HTAP aiguë (embolie pulmonaire ou
+vasoconstriction pulmonaire hypoxique du SDRA), le VD se dilate brutalement. Comme le péricarde est
+inextensible, le volume biventriculaire est constant. Ainsi, toute dilatation du VD s'accompagne d'une
+compression ventriculaire gauche appelée septum paradoxal (SP) à l'origine d'un obstacle au
+remplissage de ce dernier, responsable d'une chute du débit cardiaque et d'une instabilité
+hémodynamique. On parle alors de cœur pulmonaire aigu (CPA). En échographie, le diagnostic de CPA
+est fait par la constatation d'une dilatation ventriculaire droite associée à un CPA [53]. La dilatation
+ventriculaire droite est définie par un rapport des surfaces ventriculaires diastoliques du VD/VG > 0,6
+[54]. Les surfaces ventriculaires sont mesurées par contour en coupe apicale 4 cavités (figure 11a1). Le
+septum paradoxal est diagnostiqué en coupe PSPA et/ou en mode TM à partir de la coupe PSGA. Des
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 17/37
+niveaux d'HTAP de l'ordre de 40-45 mmHg associés à un tableau de CPA évoquent un cœur droit
+antérieurement sain, des niveaux d'HTA plus élevés doivent faire évoquer un cœur pulmonaire
+chronique (CPC) associé. Dans ce cas, on note une hypertrophie de la paroi libre du VD de plus de 6
+mm.
+Figure 11. Diagnostic positif de cœur pulmonaire aigu en réanimation. Exemple d'un patient de 43 ans en
+SDRA après péritonite. a1 : Dilatation du VD avec rapport VD/VG > 1 en coupe apicale 4 cavités. a2 :
+coupe PSPA montrant le septum paradoxal. Le septum interventriculaire a une forme linéaire (flèche) qui
+fait perdre la forme arrondie au VG. Noter la dilatation du VD bien visible sur cette coupe. b1 : même
+patient 24 heures après prescription de monoxyde d'azote et décharge volémique. Normalisation du
+rapport VD/VG. b2 : disparition du septum paradoxal avec récupération de la forme circulaire du VG en
+coupe PSPA.
+Estimation de la volémie
+En cas d'hypovolémie sévère, l'échographie bidimensionnelle retrouve de petites cavités ventriculaires
+hyperkinétiques avec collapsus systolique des parois du ventricule gauche (VG). Le plus souvent, le
+diagnostic est moins évident et d'autres paramètres doivent être utilisés. En pratique, la volémie peut
+être analysée soit par des indices statiques, soit par des indices dynamiques. Le principe des indices
+dynamiques repose sur l'idée qu'en ventilation mécanique contrôlée, l'amplitude des variations
+respiratoires de pression artérielle est corrélée la volémie efficace [55]. En d'autres termes, une
+expansion volémique a d'autant plus de chances d'augmenter le débit cardiaque que les variations
+ventilatoires de pression artérielle, exprimées en pourcentage, sont importantes. On parle alors de
+« précharge-dépendance » du débit cardiaque. D'un point de vue physiologique, les indices dynamiques
+permettent de localiser un patient donné sur la courbe de fonction ventriculaire de Franck-Starling sans
+connaître cette dernière. Des variations de pression artérielle différentielle (ou pulsée = PP) de plus de
+13 % affirment que le patient se trouve sur la portion verticale de la courbe de fonction ventriculaire,
+laissant augurer une réponse positive à l'expansion volémique. A contrario, une oscillation ventilatoire
+de la PP de moins de 13 % montre que le patient se trouve sur la portion horizontale de la courbe de
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 18/37
+fonction ventriculaire, signifiant que l'expansion volémique est inutile voire délétère. En échographie,
+l'étude des indices dynamiques est facilitée par l'enregistrement simultané des pressions des voies
+aériennes affiché sur l'écran de la machine d'échographie.
+Estimation de paramètres statiques de précharge
+Mesure des dimensions du ventricule gauche
+Le diamètre, la surface et le volume du VG sont mesurables, mais la surface télédiastolique du VG
+(STDVG) est la mesure la plus utilisée. Elle est réalisée selon l'incidence petit axe passant par les piliers
+mitraux parasternale en ETT et transgastrique en ETO. La STDVG, reflétant le volume du VG, serait
+corrélée à la précharge ventriculaire. Classiquement, la valeur de STDVG est significativement plus
+basse chez les répondeurs que chez les non-répondeurs au remplissage vasculaire. Il existe également
+une relation significative entre la STDVG basale et le pourcentage d'augmentation du VES après
+remplissage vasculaire [56]. Cependant, il est impossible de définir une valeur seuil discriminant les
+patients répondant au remplissage vasculaire. Trois éléments permettent d'expliquer ces résultats : des
+dyskinésies segmentaires peuvent fausser les mesures, la valeur de la STDVG n'est pas forcément
+interprétable (en termes de précharge) s'il existe une cardiopathie dilatée ou hypertrophique, enfin, la
+STDVG, comme tout index statique, ne mesure pas la précharge-dépendance, toutefois, comme pour
+tout indice statique, une valeur très basse (< 5 cm2/m2) reste très spécifique d'une prédictibilité de
+réponse au remplissage vasculaire [57].
+Le Doppler permet une évaluation non-invasive de ces pressions de remplissage. La vitesse d'une
+colonne de sang mesurée par Doppler est proportionnelle au gradient de pression régnant en amont et
+en aval du point de mesure. Ce gradient de pression dépend de nombreux facteurs, dont les conditions
+de charge. C'est le flux mitral par Doppler pulsé qui a été le plus évalué. Le profil mitral diastolique d'un
+patient en rythme sinusal présente deux ondes ; une première onde E (remplissage ventriculaire passif)
+et une deuxième onde A (remplissage ventriculaire par contraction auriculaire). Une baisse des
+pressions de remplissage entraîne une diminution de l'onde E et une augmentation du temps de
+décélération de l'onde E (TDE) (figure 9). À l'inverse, une élévation des pressions de remplissage
+augmente l'amplitude de l'onde E. Un rapport E/A > 2 semble en réanimation constituer un excellent
+élément de prédiction d'une PAPO > 18 mmHg, avec une valeur prédictive positive de 100 % [48]. Les
+valeurs intermédiaires de l'onde E et du rapport E/A sont toutefois inexploitables car elles dépendent
+des conditions de charge, de la relaxation du VG et de l'âge. La vitesse de déplacement de l'anneau
+mitral en protodiastole évaluée par Doppler tissulaire pulsé (Ea) est un paramètre relativement
+indépendant des conditions de charge du VG, mais en revanche un bon indicateur de la relaxation du
+VG. Ainsi, le rapport entre la vitesse maximale de l'onde E (dépendant de la précharge et de la
+relaxation = Vmax E) et la vitesse maximale de l'onde Ea (dépendant de la relaxation = Vmax Ea)
+permet d'annuler au numérateur et au dénominateur la relaxation. Dans ces conditions, le rapport
+Vmax E/Vmax Ea serait donc dépendant uniquement de la précharge. Chez des patients de cardiologie,
+un rapport Vmax E/Vmax Ea supérieur à 10 permettait de prédire une PAPO supérieure à 15 (sensibilité
+= 97 % et spécificité = 78 %) [58]. Une vision simpliste est donc de considérer que les valeurs < 10
+correspondent à des pressions gauches basses et inversement, des valeurs > 10 correspondent à des
+pressions gauches élevées. En réanimation, les valeurs < 7 semblent correspondre à des pressions
+basses et les valeurs > 11 à des pressions élevées [59]. Des valeurs > 15 sont très évocatrices de
+pressions gauches très élevées [60]. La technique d'enregistrement combinée du Doppler mitral et du
+Doppler tissulaire à l'anneau mitral est résumée sur la figure 12.
+Figure 12. Technique d'enregistrement du Doppler mitral classique (gauche) et du Doppler tissulaire à
+l'anneau mitral latéral (droite). Les deux tracés Doppler sont recueillis l'un après l'autre à partir d'une
+coupe apicale 4 cavités qui doit rester stable au cours de la mesure. Le Doppler tissulaire montre 2 pics
+négatifs car l'anneau se déplace en sens inverse du flux. Le rapport des 2 pics de vélocité E/Ea est un
+indice statique de précharge. Un rapport E/Ea < 7 est en faveur d'une hypovolémie, un rapport > 11 en
+faveur de pressions hautes. Un rapport > 15 est évocateur de pressions gauches très élevées. Cet indice
+offre les avantages d'une bonne reproductibilité et de sa validité chez les patients en fibrillation
+auriculaire (dans ce dernier cas, les valeurs de E et de Ea doivent être moyennées sur plusieurs cycles).
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 19/37
+Estimation de paramètres dynamiques de précharge
+Variations respiratoires du diamètre de la veine cave
+L'évaluation de la veine cave supérieure (VCS) n'est possible qu'en ETO. Il est démontré que le
+diamètre de la VCS connaît des variations (maximales à l'exsufflation et minimales à l'insufflation) lors
+de la ventilation mécanique [61]. Il est ainsi démontré que, comme pour le VVS, chez des patients en
+choc septique sous ventilation mécanique, un index de collapsibilité ([diamètre maximum VCS -
+diamètre minimum VCS] / diamètre maxi VCS) supérieur à 36 % prédit (sensibilité et une spécificité
+90 % et 100 %) une augmentation significative du débit cardiaque après remplissage vasculaire [43].
+L'évaluation de la veine cave inférieure (VCI) se fait par ETT (coupe sous-costale). De la même manière
+que pour la VCS, le diamètre de la VCI dépend de sa pression de distension (maximum à l'insufflation et
+minimum à l'exsufflation), qui elle est égale à la différence entre la pression intravasculaire et la
+pression intra-abdominale. Lors du choc septique sous ventilation mécanique, l'index de distensibilité de
+la VCI ([diamètre maximum VCI - diamètre minimum VCI] /diamètre maxi VCI) supérieur à 18 % prédit
+une augmentation significative du débit cardiaque après remplissage vasculaire avec une sensibilité et
+une spécificité de 90 % [42] [62]. Le diamètre absolu de la VCI n'a d'intérêt que s'il est inférieur à 12
+mm. Dans ce cas, une réponse positive à l'expansion volémique peut être attendue [42]. Pour les
+valeurs supérieures, le diamètre absolu de la VCI ne permet pas de prédire la réponse à l'expansion
+volémique [42]. Une limitation à l'utilisation pourrait être une pression intra-abdominale élevée.
+Plusieurs études ont démontré que les variations respiratoires de la veine cave inférieure pour prédire la
+réponse au remplissage est d'apprentissage simple et constitue un outil non invasif précieux pour le
+réanimateur à la phase précoce des états de choc, tant chez l'adulte que chez l'enfant [63] [64] [65].
+Variations respiratoires du volume d'éjection systolique par étude des intégrales temps-vitesses en
+Doppler cardiaque
+La ventilation mécanique en pression positive modifie les conditions de charge des deux ventricules. En
+augmentant la pression pleurale, l'insufflation mécanique diminue le retour veineux et donc la
+précharge du ventricule droit (VD) et augmente la postcharge du VD, ce qui diminue le VES du VD. Par
+voie de conséquence, la précharge du ventricule gauche (VG) diminuera durant l'expiration suivante
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 20/37
+selon le temps de transit pulmonaire du sang et entraînera une baisse du VES du VG. D'autres
+mécanismes sont mis en jeu durant l'insufflation mécanique (augmentation à l'insufflation de la
+précharge du VG, diminution à l'insufflation de la postcharge du VG) mais des données expérimentales
+et cliniques suggèrent qu'ils n'ont qu'un rôle mineur sur les variations respiratoires du volume d'éjection
+systolique, même en cas de dysfonction systolique [66].
+En ETT, cette hypothèse a été vérifiée, chez le lapin (sous ventilation mécanique), par la mesure
+Doppler de la variation respiratoire de l'intégrale temps-vitesse (ΔITV) à l'anneau aortique (ITV =
+intégrale des vitesses du flux aortique en fonction du temps). L'ITV sous-aortique peut être considérée
+comme un reflet direct du volume d'éjection systolique car ce dernier s'obtient par le produit de la
+surface de la chambre d'éjection sous aortique par l'ITV. ΔITV était un indice sensible de volémie et de
+prédictibilité de réponse au remplissage vasculaire [67]. En ETO, d'autres auteurs ont utilisé les
+variations respiratoires de la vitesse maximale aortique (Δ Vpeak) chez des patients en choc septique,
+sous ventilation mécanique. Un seuil de 12 % permet d'identifier les répondeurs (Δ Vpeak > 12 %) et
+les non-répondeurs (Δ Vpeak < 12 %) avec une valeur prédictive positive de 91 % et une valeur
+prédictive négative de 100 % [41]. Les variations respiratoires du volume d'éjection systolique sont
+bien corrélées aux variations de surface ventriculaire gauche en petit axe mesurés par détection
+automatique des contours semblent également fiables pour prédire les effets de l'expansion volémique
+[68].
+Estimation de la précharge-dépendance par étude des variations de l'ITV
+sous-aortique après manœuvre de lever de jambes
+Cette manœuvre entraîne un transfert de volume sanguin du secteur périphérique vers le secteur
+central. La première étude effectuée sur le sujet a été réalisée en 2002 et a démontré que l'effet d'un
+lever de jambes de 45o sur le débit cardiaque (mesuré par thermodilution via un cathéter artériel
+pulmonaire) était équivalent à celui d'un remplissage vasculaire de 300 mL de colloïde [69]. L'épreuve
+de lever de jambes (ELJ) est un indice intéressant quand on l'associe à une mesure non-invasive du
+débit cardiaque par Doppler œsophagien ou par mesure de l'ITV sous-aortique en échocardiographie.
+Cela permet une évaluation précise de la précharge-dépendance de façon totalement non-invasive et
+sans risque de surcharge volémique. Une augmentation de 10 % du débit aortique par une ELJ (spéciale
+car associée à une élévation du buste de 45o) prédisait une augmentation de 15 % du débit aortique
+après un remplissage vasculaire de 500 mL de sérum salé à 0,9 %, avec une sensibilité de 97 % et une
+spécificité de 94 % [70]. Ce test semble utilisable même chez des patients sous ventilation mécanique
+avec une activité ventilatoire spontanée et en arythmie [70]. Ces résultats ont été récemment
+confirmés chez des patients en ventilation spontanée [71] [72]. Cet indice présente pour certains des
+limites, liées au fait que l'ELJ serait susceptible de provoquer une stimulation sympathique, notamment
+chez les patients de chirurgie abdominale, pouvant fausser les mesures. Pour éviter cet écueil, une
+épreuve plus neutre telle que le Trendelenburg reste à évaluer.
+Existe-t-il une fuite valvulaire massive ?
+La quantification des fuites est difficile et affaire de spécialiste. Toutefois, il est facile de diagnostiquer
+une fuite mitrale massive lorsque le Doppler couleur montre en coupe 4 cavités un flux systolique bleu
+allant de la valve mitrale vers le bas de l'oreillette gauche (figure 13). La largeur du jet couleur à
+l'origine de la fuite, sa longueur et sa surface sont corrélées à la sévérité de la fuite. Sur la valve
+aortique, le jet de fuite est diastolique et rouge en coupe 4 cavités.
+Figure 13. Exemple d'une fuite mitrale significative en Doppler couleur.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 21/37
+Aide à la mise en place des cathéters vasculaires
+La pose d'un cathéter veineux central est à l'origine de 10 % d'échecs, 8 % de ponctions artérielles et
+4 % de pneumothorax [73]. Ces complications sont une source non négligeable de morbidité et de
+perte de temps [74]. La visualisation de la structure vasculaire et ses rapports avec les structures
+adjacentes (artérielles notamment) permet de limiter les complications immédiates. La ponction de la
+veine jugulaire interne sous échographie permet de repérer une atypie de position anatomique de la
+veine dans 16 % des cas et une thrombose chez 9 % des patients [75]. Chez des médecins entraînés,
+la ponction de la veine jugulaire interne sous échographie permet de passer de 90 à 100 % de succès à
+la première tentative [76]. Des résultats analogues sont retrouvés par voie sous-clavière [77] [78].
+Chez des internes, la ponction sous échographie augmente le taux de succès de 75 à 100 % à la
+première ponction [36]. Le cathétérisme veineux central sous échographie permet également de limiter
+les complications, notamment les pneumothorax [76] [78]. Deux méta-analyses confirment
+l'amélioration des taux de succès à la première ponction, et la diminution du taux de complications par
+le repérage échographique [79] [80]. Le repérage par échographie bidimensionnelle est supérieur au
+repérage par Doppler, particulièrement pour la voie sous-clavière [79]. Le travail de Milling et al. [81]
+montre enfin que la ponction en temps réel sous échographie bidimensionnelle (repérage dynamique),
+permettant de visualiser la position intravasculaire de l'aiguille, est supérieure au repérage préalable
+seul, avec traçage du repère sur la peau (repérage statique ou Quick-look). Dans cette étude, le taux
+de succès avec repérage dynamique permet 100 % de succès au premier essai, contre 82 % avec la
+technique statique et 64 % à l'aveugle.
+Au total, ces résultats suggèrent que, en dehors de situations de sauvetage (qui justifient la poursuite
+de l'apprentissage des ponctions à l'aveugle), tout cathéter veineux central devrait être placé sous
+échographie bidimensionnelle en temps réel. La réalisation routinière de pose de cathéter sous
+échographie semble en outre aider à l'apprentissage de la pose des cathéters à l'aveugle. Aux États-
+Unis et au Royaume-Uni, les ponctions veineuses centrales sous échographie ont fait l'objet de
+recommandations officielles [82].
+ÉCHOGRAPHIE PLEUROPULMONAIRE
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 22/37
+L'air étant un obstacle naturel aux ultrasons, l'analyse pleuropulmonaire ne paraît pas logique.
+Toutefois, depuis une vingtaine d'année, de nombreuses publications montrent un intérêt diagnostique
+certain de l'échographie pleurale et de façon surprenante, parenchymateuse [6] [12] [13] [15] [27]
+[28] [29] [30] [31] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97]. Il faut
+souligner que cette abondante littérature a été développée chez des patients de réanimation, par des
+réanimateurs, faisant de l'échographie pleuropulmonaire un examen entrant de façon naturelle dans les
+compétences des réanimateurs. Les travaux de Lichtenstein et al. [6] [13] [15] [27] [28] [29] [30]
+[83] [84] [85] [86] [87] [88] [89] [90] [91] ont particulièrement contribué au développement de cette
+technique. L'analyse ultrasonique du poumon est réalisée au mieux avec une sonde étroite (passage
+intercostal), ressemblant à une sonde cardiologique, mais de fréquence supérieure (5-7 MHz) afin de
+mieux préciser les structures superficielles, notamment pleurale [12]. En pratique, ce type de sonde
+n'est en général pas disponible sur un appareil généraliste ; la sonde de cardiologie dans ses fréquences
+les plus élevées (3-5 MHz) peut être utilisée, avec une image moins fine mais exploitable [12] [98]
+(figure 14). La sonde linéaire superficielle de haute fréquence (7-10 MHz) peut aussi être utilisée. Dans
+les exemples suivants, nous montrerons des images obtenues aves de sondes cardiologiques de basses
+fréquences et des sondes linéaires de haute fréquence.
+Figure 14. Échographies pleuropulmonaires normales obtenues avec 2 sondes différentes (1,8 et 8 MHz) :
+visualisation des lignes A et O, artefacts statiques normaux de réflexion pleurale. La ligne A est de
+longueur égale à la ligne pleurale et à une distance double de la limite antérieure de l'image.
+Les grands principes de l'analyse échographique pleuropulmonaire sont les suivants :
+- la technologie est simple, peu coûteuse et n'utilise pas le Doppler ;
+- la sémiologie pleuropulmonaire est dynamique, en mode 2D ou TM et doit analyser les différents
+quadrants thoraciques, comme pour une auscultation : la sonde est posée sur les mêmes zones que le
+stéthoscope ;
+- cette sémiologie part de la plèvre et se poursuit par l'analyse d'artefacts dont le caractère « parasite »
+et non anatomique peut dérouter, mais qui ont une signification sémiologique forte, à la fois pleurale et
+pulmonaire ;
+- la plupart des pathologies pulmonaires aiguës observées en réanimation ont un contact avec la paroi
+et génèrent des artefacts spécifiques analysables en échographie;
+- le poumon normal est invisible, le poumon pathologique est soit visible, soit analysable indirectement
+par l'analyse d'artefacts spécifiques.
+Sémiologie échographique pulmonaire normale (figure 15)
+Figure 15. Identification de la ligne pleurale par le signe de la chauve-souris, dont le corps est représenté
+par la ligne pleurale et les ailes par les 2 côtes adjacentes. a : plèvre normale avec une sonde de 5 MHz.
+Identification de la ligne pleurale (flèche = « corps de la chauve-souris ») : image hyperéchogène située à
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 23/37
+Identification de la ligne pleurale (flèche = « corps de la chauve-souris ») : image hyperéchogène située à
+0,5 cm en dedans de la ligne costale, matérialisée par le début des cônes d'ombres (R = rib = côte =
+« ailes de la chauve-souris ») des 2 côtes adjacentes [12]. L'astérisque montre une ligne b, artefact en
+queue de comète normal parce qu'unique. b : image pleurale normale obtenue avec une sonde de
+cardiologie (1,7 MHz). Flèche verticale = ligne pleurale. Flèche horizontale = côte. c : image pleurale
+normale obtenue avec une sonde linéaire de haute fréquence (8 MHz). Flèche verticale = ligne pleurale.
+Flèche horizontale = côté.
+À l'état normal, seule la plèvre est visible en échographie. C'est à partir de l'image pleurale, de la
+présence d'artefacts normaux et de l'absence d'artefacts pathologiques que l'on affirme le caractère
+normal d'une échographie pleuropulmonaire. La sonde est appliquée dans un espace intercostal de
+chaque zone thoracique (antérieur, latéral, postérieur) en recherchant en mode bidimensionnel la ligne
+pleurale, image linéaire hyperéchogène qui constitue l'image fondamentale en échographie
+pleuropulmonaire.
+L'image pleuropulmonaire normale associe un signe dynamique et un artefact statique (ligne A).
+· La ligne pleurale et le signe du glissement pleural : l'étape fondamentale d'une échographie
+pleuropulmonaire est la visualisation dynamique de la ligne pleurale, image linaire hyperéchogène,
+scintillante, se déplaçant parallèlement à la sonde en suivant les mouvements respiratoires. La ligne
+pleurale est identifiée par son aspect linéaire hyperéchogène situé au-delà des ombres costales. Le
+grand axe de la sonde étant appliqué sur le thorax selon un axe crânio-caudal, l'espace intercostal est
+visualisé à l'intérieur des 2 ombres des côtes adjacentes. La ligne pleurale apparaît alors en dedans (0,5
+cm) des 2 ombres costales, et est interrompue par les 2 cônes d'ombres costaux, réalisant l'image (ou
+signe) de la chauve-souris (figure 15). L'image en chauve-souris permet de ne pas confondre la plèvre
+avec une autre structure. Un fois la ligne pleurale repérée, il faut rechercher le signe du glissement
+pleural qui correspond au glissement respiratoire physiologique des 2 feuillets pleuraux. En mode TM, la
+ligne pleurale est bien visible, scintillante, mobile, sous tendue par un granité immobile : on parle de
+signe du bord de mer (figure 16).
+Figure 16. Image TM pleuropulmonaire
+normale. Aspect en « bord de mer ». La flèche
+indique la ligne pleurale.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 24/37
+· La ligne A, artefact statique normal qui est une image de répétition de la ligne pleurale. Il s'agit d'une
+image linéaire, parallèle et de longueur égale à la ligne pleurale. Lorsque la ligne A est peu visible et
+plus courte que la ligne pleurale, on parle de ligne O dont la signification est identique (figure 14).
+· Chez le sujet normal, on peut visualiser une ou 2 lignes b : artefact linaire vertical en rayon de lumière
+ou queue de comète part de la plèvre et va jusqu'au bas de l'image. Ces lignes b isolées (1 ou 2), ne
+sont pas pathologiques et sont visibles dans 30 % des cas, surtout dans les zones déclives [87]. Il faut
+les différencier des lignes B pathologiques, plus nombreuses.
+Diagnostic de syndrome alvéolo-intersititiel (figure 17)
+Figure 17. Artefacts en queues de comètes pathologiques au cours d'un œdème pulmonaire : lignes B. À
+gauche, sonde de 5 MHz. À droite, sonde de 1,7 MHz.
+Ce syndrome est caractérisé par la présence d'artefacts spécifiques appelées lignes B ou queues de
+comètes [87]. Les lignes B sont des artefacts hyperéchogènes linéaires naissant sur la ligne pleurale et
+allant jusqu'au bas de l'écran. À la différence des lignes b, artefacts en queues de comètes isolés qui
+peuvent être vues chez le sujet sain, les lignes B sont nombreuses (> 2), et signent une pathologie
+parenchymateuse diffuse. Les lignes B multiples séparées de 7 mm (lignes B7) correspondent à des
+épaississements des septa interlobulaires. Les lignes B3 multiples séparées de 3 mm correspondent à
+un œdème alvéolaire bien corrélé à l'aspect scanographique en verre dépoli [12]. Ces résultats ont une
+application clinique simple dans le diagnostic étiologique des dyspnées. Dans un travail portant sur 66
+patients admis aux urgences pour détresse respiratoire aiguë, 40/40 patients en œdème aigu
+pulmonaire présentaient des lignes B alors que 24 sur 26 patients présentant une décompensation pure
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 25/37
+de BPCO ne présentaient pas de lignes B [6]. Dans cette étude, 80 patients témoins (absence de
+symptomatologie pulmonaire clinique ou radiologique) ne présentaient aucune ligne B.
+Diagnostic et quantification d'un d'épanchement pleural liquidien
+(figure 18)
+Figure 18. Diagnostic et quantification des épanchements pleuraux liquidiens. a : coupe longitudinale
+l'axe de la sonde a une orientation cranio-caudale sur la ligne médio-axillaire. La flèche représente la
+distance interpleurale. Le poumon est bien visible, signant un épanchement compressif. b : coupe
+transversale, même patient. L'axe de la sonde est perpendiculaire à la ligne médio-axillaire. La flèche
+représente la distance interpleurale, ici 70 mm. Volume drainé = 1 500 mL. D = diaphragme ; P = poumon.
+L'épanchement pleural liquidien apparaît comme une image hypoéchogène et homogène visible en
+inspiration et en expiration délimité en dehors par la paroi thoracique (ligne costale) et en bas par le
+diaphragme. La sonde est placée sur la ligne médio-axillaire, puis plus postérieure si aucun
+épanchement n'est vu. La visualisation du cul-de-sac pleural identifié par l'image caractéristique du
+diaphragme (ligne hyperéchogène en arc de cercle) facilite cette exploration (figure 18). Lorsque
+l'épanchement est suffisamment important pour entraîner un collapsus pulmonaire, le poumon est
+visible et flotte dans l'épanchement : signe du poumon flottant. Le diagnostic d'épanchement pleural est
+facile [99] et explique l'engouement pour la technique pour le guidage du drainage pleural [13] [31].
+L'échographie permet enfin de quantifier selon un mode semi-quantitatif les épanchements pleuraux
+liquidiens [11] [40] [100] [101]. La quantification est réalisée à partir de la mesure du décollement
+pulmonaire postérieur appelée distance interpleurale. Dans le travail princeps d'Eibenberger et al.
+[100], une distance interpleurale maximale de 20 mm est corrélée à un volume d'épanchement de 380
+± 130 mL et une distance interpleurale de 40 mm est corrélée à un volume de 1 000 ± 330 mL. Dans
+cette étude, l'échographie est supérieure à la radiographie pour prédire le volume d'épanchement, avec
+une erreur moyenne de 224 mL pour l'échographie contre 465 mL pour la radiographie (p < 0,02).
+Deux études plus récentes se sont intéressées à une approche semi-quantitative. Lorsque le distance
+interpleurale maximale (décollement maximal après étude de tous les étages pulmonaires) est
+supérieure à 45 mm à droite et 50 mm à gauche, le volume de l'épanchement est supérieur à 800 mL
+avec une sensibilité de 94 et 100 % et une spécificité de 76 et 67 %, respectivement [11]. Une distance
+interpleurale basale de 50 mm permet d'affirmer que le volume de l'épanchement est supérieur à 500
+mL avec une sensibilité et une spécificité de 83 et 90 % quel que soit le côté [14]. Dans ces deux
+études, la prédiction du volume d'épanchement pour des volumes < 500 mL ou > 1 000 mL est
+médiocre, et moins bonne à gauche qu'à droite en raison du volume cardiaque.
+Diagnostic de pneumothorax (figure 19)
+Figure 19. Diagnostic échographique de pneumothorax. a : aspect normal, signe du bord de mer.
+b : pneumothorax complet. Disparition du signe du bord de mer, lignes A exclusives. c : pneumothorax
+partiel. Point poumon : alternance respiratoire du signe du bord de mer et de lignes A exclusives.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 26/37
+Au contraire de l'épanchement liquidien, le diagnostic échographique de pneumothorax est difficile et
+demande une formation plus longue [12]. Il est en revanche assez facile d'éliminer un pneumothorax.
+L'intérêt de l'échographie réside surtout dans sa capacité à diagnostiquer les pneumothorax passés
+inaperçus radiologiquement, particulièrement en traumatologie [30] [85] [95] [97] [98].
+Élimination du diagnostic de pneumothorax
+Le diagnostic de pneumothorax peut être éliminé lorsque le signe du glissement pleural est présent
+dans les zones antérieures sur un patient en décubitus dorsal [30] [91]. De la même façon, la présence
+de queues de comètes (ligne b) permet d'éliminer le diagnostic [27] [30].
+Diagnostic positif de pneumothorax complet
+Le diagnostic de pneumothorax complet est affirmé lorsque le signe du glissement pleural est absent
+dans tous les quadrants pulmonaires, affirmation difficile sans une certaine expérience. En mode TM, le
+signe du bord de mer disparaît et ne sont visibles que les lignes A.
+Diagnostic de pneumothorax partiel
+En cas de pneumothorax partiel, la reconnaissance du « point poumon » [30] [86] est déterminante. Le
+point poumon correspond, dans un pneumothorax partiel, à la zone où le poumon s'accole en expiration
+et se décolle en inspiration. Ce point poumon est donc en général en zone antérieure ou latérale. Le
+point poumon est visualisé comme une ligne pleurale qui contient une zone avec un glissement pleural
+(poumon accolé) et une zone sans glissement (poumon décollé) ; la jonction entre ces 2 zones est le
+point poumon. Cette notion est beaucoup plus facile à comprendre sur une image vidéo. En mode TM, le
+point poumon correspond à l'alternance, avec la respiration, du signe du bord de mer avec des lignes A
+exclusives (figure 19).
+Diagnostic de consolidation pulmonaire (figure 20)
+Figure 20. Consolidation pulmonaire. Image de gauche : atélectasie gauche au sein d'un épanchement
+pleural massif. Image de droite : atélectasie basale gauche sans épanchement. Noter le bronchogramme
+aérique qui apparaît comme des images hyperéchogènes (flèches). D = diaphragme. P = poumon. R =
+rate.
+Un œdème pulmonaire majeur, une pneumopathie franche lobaire aiguë, une contusion pulmonaire ou
+une atélectasie entraînent une perte d'aération pulmonaire, qui limite l'écran gazeux ultrasonique et
+rend le parenchyme pulmonaire visible en échographie. Celui-ci ressemble alors au parenchyme
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 27/37
+hépatique (« hépatisation pulmonaire ») sous forme d'un aspect hypoéchogène, au sein duquel sont
+visibles des images punctiformes ou linéaires hyperéchogènes correspondant à un bronchogramme
+aérique. Ce dernier se renforce (accentuation de l'hyperéchogenicité) en inspiration.
+ÉCHOGRAPHIE ABDOMINALE
+Épanchement péritonéal liquidien (figure 21)
+Plusieurs études ont validé l'excellente performance de l'échographie à diagnostiquer un épanchement
+abdominal liquidien afin d'orienter les patients instables vers une laparotomie urgente [38] [39] [102]
+[103]. Le diagnostic échographique d'épanchement liquidien est simple et peut être réalisé avec une
+courbe d'apprentissage faible par des médecins non radiologues, avec une sensibilité et une spécificité
+proches de 100 % [103] [104] [105]. Ce diagnostic est utile en traumatologie pour décider d'une
+laparotomie urgente chez un patient choqué. Cette détection rapide d'épanchement liquidien dans le
+contexte de l'urgence est connue sous l'appellation « FAST » (Focused Assessment of the Sonography
+examination of Trauma patient). Dans ce contexte d'urgence, la recherche fine de lésion d'organe plein
+(rate, foie) est inutile car, même avec des médecins entraînés utilisant des machines performantes,
+l'échographie sous-estime 20 à 60 % de lésion d'organes pleins par rapport à la tomodensitométrie
+[106]. En pratique, un épanchement liquidien apparaît comme hypoéchogène au niveau des 2 fosses
+iliaques, de la région inter hépato-rénale (espace de Morisson) (flèche) et de la région périsplénique.
+Figure 21. Diagnostic d'épanchement péritonéal liquidien. Échographie FAST montrant un épanchement
+périhépatique et de l'espace de Morisson (flèche) (image de gauche) et pelvien (image de droite). À droite,
+les images punctiformes hyperéchogènes au sein de l'épanchement laissant évoquer un épanchement
+hémorragique. Noter que l'image de gauche est obtenue très simplement avec la sonde d'échographie
+cardiaque. E = épanchement péritonéal ; F = foie ; D = diaphragme ; R = rein ; E' = discret épanchement
+pleural.
+Recherche d'uropathie obstructive
+Il est relativement aisé de diagnostiquer une cause obstructive d'insuffisance rénale. Le diagnostic de
+globe urinaire est parfois difficile et est totalement réglé par une échographie, même pour un opérateur
+très peu entraîné. Ceci explique le succès dans les unités d'hospitalisation d'appareils d'échographie
+simplifiés dédié à ce seul diagnostic : les « Bladder scan ». La figure 22 montre une vessie pleine (dôme
+concave) et un globe urinaire (globe convexe).
+Figure 22. Diagnostic de globe urinaire. À gauche : vessie pleine non pathologique, à
+droite : globe urinaire.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 28/37
+Le diagnostic de dilatation des voies excrétrices hautes demande une plus grande expérience mais reste
+relativement simple. Des cavités excrétrices non dilatées ne sont pas visibles en échographie. Sur un
+rein normal, ces dernières apparaissent comme une image hyperéchogène au centre du parenchyme
+rénal (figure 23, image de droite). Lorsque les cavités excrétrices hautes sont dilatées, elles deviennent
+visibles en échographie sous formes d'images arrondies hypoéchogènes.
+Figure 23. Diagnostic de dilatation des voies excrétrices urinaires hautes. À gauche : rein normal en
+coupe longitudinale (sonde posée verticalement sur la ligne médio axillaire, sur le bas du gril costal), les
+cavités excrétrices ne sont pas visibles et apparaissent comme une structure hyperéchogène au centre
+du parenchyme rénal (flèche). À droite : cavités excrétrices dilatées (flèche) chez une patiente admise en
+réanimation pour un choc septique sur pyélonéphrite obstructive (lithiase).
+Position intragastrique de la sonde nasogastrique
+Dans un travail réalisé chez 35 patients de réanimation, l'échographie permet de localiser la position
+intragastrique d'une sonde gastrique à extrémité métallique avec une sensibilité de 97 % [37]. Ceci
+permet d'éviter des clichés radiologiques, plus longs, plus coûteux et irradiants.
+DOPPLER TRANSCRÂNIEN (DTC)
+Principes généraux
+En 1982, Aaslid et al. [107] ont ouvert une nouvelle voie dans le domaine du monitorage neurologique
+en démontrant que l'analyse hémodynamique cérébrale par effet Doppler était possible, fiable et bien
+adaptée à la pratique clinique [107] [108]. Le succès de la technique repose sur deux grands principes :
+a) utilisation de sondes à basse fréquence (2 MHz) et de forte puissance acoustique permettant une
+bonne pénétration osseuse ; b) exploration des vaisseaux cérébraux par voie temporale, qui constitue
+la région de la boîte crânienne la plus fine en termes d'épaisseur.
+En clinique, le DTC peut être analysé par examen Doppler pur ou échographie-Doppler.
+· Le DTC exclusif est réalisé grâce à des appareils spécifiques, portables, bien adaptés aux situations
+d'urgence. Ils ne permettent qu'un examen Doppler sans image 2D (DTC exclusif). Le repérage du
+signal Doppler se fait de façon auditive et visuelle, le flux étant repéré au son, puis affiné sur l'écran qui
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 29/37
+visualise les vitesses en ordonnée (flux positifs si le flux vient vers la sonde, négatif si le flux s'éloigne
+de la sonde) et le temps en abscisse.
+· L'échographie-Doppler permet l'analyse du DTC à l'aide de la machine d'échographie du service
+(figure 24), il ne requiert donc pas l'acquisition d'un dispositif supplémentaire. La sonde de cardiologie
+(1 à 3 Mhz) permet parfaitement ce type d'examen. Il faut donc veiller, lors de l'acquisition de la
+machine, à ce que cette dernière soit équipée d'un logiciel informatique permettant l'analyse
+automatisée du DTC : calcul des vitesses moyennes, des indices de pulsatilité et de résistance (cf.
+infra). L'échographie permet une visualisation en image bidimensionnelle des vaisseaux intracrâniens
+par le Doppler couleur qui facilite le repérage des artères cérébrales, en particulier de l'artère cérébrale
+moyenne (ACM) (figure 24 et figure 25).
+Figure 24. Principes du Doppler transcrânien avec repérage échographique 2D couplée
+au Doppler couleur. La sonde de cardiologie est appliquée perpendiculairement sur la
+fosse temporale, au-dessus de l'arcade zygomatique et parallèle à cette dernière. L'axe
+de la sonde suit la ligne imaginaire joignant le conduit auditif externe au cantus externe.
+L'échographie 2D permet de visualiser la grande aile du sphénoïde, repère permettant
+de vérifier la bonne pénétration endocrânienne des ultrasons. Le Doppler couleur
+permet ensuite de matérialiser la position et l'angulation des artères cérébrales. ACM =
+artère cérébrale moyenne ; ACA = artère cérébrale antérieure ; ACP = artère cérébrale
+postérieure ; CI : carotide interne ; AV = artère vertébrale ; CP = artère communicante
+postérieure ; TB = tronc basilaire.
+Figure 25. Doppler transcrânien en pratique : analyse en trois étapes à l'aide de la
+sonde d'échographie cardiaque. Sujet sain. a : repérage de la grande aile du sphénoïde
+(flèche 1). Ce repère anatomique apparaît sous forme d'une image arciforme
+hyperéchogéne, sa visualisation atteste de la traversée effective de la boîte crânienne
+par les ultrasons. b : Doppler couleur de l'artère cérébrale moyenne (ACM) (flèche 2) :
+flux rouge, venant vers la sonde, aligné avec le faisceau d'ultrasons, permettant une
+mesure fiable des vitesses. c : Doppler pulsé centré sur la portion d'artère à analyser,
+ici portion M1 de l'ACM, l'angle d'insonation est bon car le flux et l'axe de tir Doppler
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 30/37
+ici portion M1 de l'ACM, l'angle d'insonation est bon car le flux et l'axe de tir Doppler
+sont parallèles.
+Réalisation pratique et valeurs normales (figure 25)
+Le DTC permet, pour un opérateur entraîné, une étude complète de la circulation cérébrale en utilisant
+3 fenêtres acoustiques (temporale, occipitale et orbitaire) permettant le recueil des flux des artères
+cérébrales antérieures, moyennes, postérieures, vertébrales, tronc basilaire et communicantes [109]
+[110]. En pratique clinique, les flux de l'ACM recueillis par la fenêtre temporale (figure 25) sont les plus
+utilisés car ils représentent environ 60 % du débit sanguin cérébral et sont relativement aisés à obtenir
+avec la technique décrite ci-dessus. Pour les techniques de Doppler portable, où le flux est recherché à
+l'aveugle, au son, il est important de garder à l'esprit que la profondeur moyenne du flux de l'ACM est à
+47 ± 6 mm chez le volontaire sain [111]. Le recueil du flux de l'ACM en Doppler pulsé permet la mesure
+des vitesses systolique (Vs), diastolique (Vd), le calcul de la vitesse moyenne (Vm) et de l'index de
+pulsatilité (IP) [112]. Les valeurs normales de ces paramètres sont résumées dans le tableau IV. Plus
+l'angle entre l'axe de tir Doppler et le flux est important (angle d'insonation), plus les vitesses sont
+sous-estimées. Pour une mesure sur le même site, les vitesses les plus élevées correspondent donc aux
+valeurs les plus proches de la réalité, mesurées avec l'angle d'insonation le plus faible. En pratique, un
+angle de 0 à 30o constitue une limite acceptable, car l'erreur de mesure maximale reste inférieure à
+15 % [107] [113]. Le repérage couleur permet une bonne appréciation visuelle de l'angle d'insonation :
+l'axe de tir Doppler doit être le plus parallèle au flux couleur. L'index de pulsatilité offre l'avantage
+d'être indépendant de l'angle d'insonation. Un index de pulsatilité élevé (> 1,2) signe un défaut grave
+de perfusion cérébrale. Lorsque la fenêtre temporale n'est pas exploitable, le flux de la carotide interne
+intracrânienne peut être analysé par voie transorbitaire : ce flux, positif, est obtenu à une profondeur
+de 60-80 mm et fournit des renseignements analogues au flux de l'ACM. S'il existe un doute sur un
+vasospasme, le rapport entre les vitesses des flux de l'ACM et de l'artère carotide interne (ACI) dans sa
+portion extracrânienne peut être utile (index de Lindegaard = IL) [114]. Le flux de l'artère carotide
+interne dans sa portion extracrânienne est enregistré par voie sous-mandibulaire en orientant la sonde
+parallèlement à la branche montante de la mandibule. Par cette voie, le flux de l'ACI est obtenu à une
+profondeur de 40-60 mm [109] [110].
+Tableau IV. Valeurs normales des indices Doppler de l'artère cérébrale
+moyenne.
+Formule
+Normale adulte
+< 60 ans
+Normale adulte
+> 60 ans
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 31/37
+Paramètres mesurés
+Vitesse systolique (Vs) (cm · s-1) - 75-105 60-100
+Vitesse diastolique (Vd) (cm · s-1) - 35-55 35-55
+Paramètres calculés
+Vitesse moyenne (Vm) [Vs + (Vd × 2)] / 3 45-70 35-55
+Index de pulsatilté (IP) (Vs - Vd) / Vm 0,8-1,2 0,8-1,2
+Index de Lindegaard (IL) Vitesse ACM/ACI < 3 < 3
+Utilisation en pathologie
+L'intérêt clinique du DTC a été bien étudié au cours des traumatismes crâniens. Au cours d'un
+traumatisme crânien grave, lorsque la pression intracrânienne (PIC) augmente et que la pression de
+perfusion cérébrale (PPC) diminue, les vélocités Doppler diminuent [115]. Les vélocités diastoliques
+sont les plus précocement altérées, puis, en deçà de 70 mmHg de PPC, l'IP augmente [115]. Il est
+établi que les variations des vitesses Doppler et d'IP sont corrélées aux variations de débit sanguin
+cérébral, de PPC et de PIC [109]. Ces corrélations permettent en théorie d'évaluer la PIC et la PPC par
+DTC. Ainsi, à partir des vitesses Doppler de l'ACM, des formules permettent de calculer la PPC [PPC =
+pression artérielle moyenne × (Vd/Vm + 14 mmHg)] [116] [117] ou la PIC (PIC = 11,1 × PI - 1,43)
+[118], cette dernière formule permettant de classer les patients avec une PIC > 20 mmHg avec une
+sensibilité de 89 % et une spécificité de 92 % [118]. Néanmoins, si ces corrélations sont justes, il peut
+être objecté que l'exactitude sur le chiffre de PPC ou de PIC obtenu est trop faible pour adapter la
+thérapeutique : chez plus de 10 % des malades, la différence entre la valeur obtenue par DTC et la PPC
+ou la PIC conventionnelle varie de plus de 12 mmHg, ce qui rend ces formules difficilement acceptables
+en clinique [109]. Il est donc hasardeux d'utiliser le DTC pour obtenir un chiffre de PPC ou de PIC. A
+contrario, le DTC permet la détection rapide, semi-quantitative, non invasive d'une anomalie grave de
+perfusion cérébrale et permet d'appliquer une thérapeutique adéquate. L'altération la plus simple et la
+plus sévère à rechercher est la chute des Vd et Vm. Des valeurs de Vd < 20-25 cm · s-1 sont corrélées
+à un pronostic défavorable [119] [120]. Dans une étude portant sur 121 traumatisés crâniens, une Vm
+de l'ACM < 30 cm · s-1 est associée à un décès précoce dans 80 % des cas [115]. Dans un travail
+analogue portant sur 57 traumatismes crâniens graves, une Vm < 35 cm · s-1 est un facteur de
+mauvais pronostic. La confirmation du caractère pathologique de vitesses basses est confirmée par le
+calcul de l'IP : un IP élevé associé à des vitesses basses signe une hypoperfusion cérébrale grave
+(hypertension intracrânienne, bas débit, hypocapnie trop sévère) [118] [121]. Dans une étude récente,
+Ract et al. [119] montrent que l'utilisation combinée de la Vd, Vm et de l'IP à l'accueil des traumatisés
+crâniens graves permet une meilleure détection des patients porteurs d'une hypoperfusion cérébrale
+sévère. Dans ce travail, l'application de thérapies (noradrénaline et/ou mannitol) visant à restaurer la
+PPC chez les patients présentant 2 des trois critères suivants : Vd < 20 cm · s-1, Vm < 30 cm · s-1, IP
+> 1,4 permet une normalisation des flux Doppler chez 90 % des patients.
+Le DTC semble constituer un outil simple et non invasif permettant une évaluation précoce de la
+perfusion cérébrale au lit du patient, toutefois, aucune étude n'a démontré l'impact de cette technique
+sur le pronostic. Le tableau V résume les profils pathologiques les plus courants.
+Tableau V. Principes d'interprétation du Doppler transcrânien.
+Doppler transcrânien : valeurs d'alarme
+Vd < 20-25 cm · s-1
+Vm < 30-35 cm · s-1
+IP > 1,2-1,4
+2 des 3 critères présents : hypoperfusion cérébrale grave appelant une manœuvre thérapeutique
+en urgence.
+Doppler transcrânien : profils classiques
+Vs basse, Vd basse, IP normal Hypoperfusion d'origine systémique
+Vs basse, Vd basse, IP élevé Hypoperfusion d'origine cérébrale
+Vs élevée, IP normal, IL < 3 Hyperhémie
+Vs élevée, IP normal, IL > 3 Vasospasme
+ÉCHOGRAPHIE DES SINUS
+Le diagnostic des sinusites acquises en réanimation peut être fait par échographie bidimensionnelle en
+appliquant la sonde sur l'os malaire, chez un patient demi-assis car la position couchée expose à des
+faux négatifs. Le mode d'imagerie utilisé est le mode B : brillance qui code les échos en échelle de gris.
+La performance de l'échographie est comparable à celle du scanner : sensibilité, spécificité, valeurs
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 32/37
+prédictives positive et négative respectivement à 100, 96,7, 98,6 et 100 % [122]. Un sinus normal
+n'est pas visible du fait du barrage acoustique naturel représenté par l'air sinusien. Lorsque le sinus est
+visible dans son ensemble sous forme d'un triangle hypoéchogène, dont les parois interne, externe et
+postérieure sont hyperéchogènes, on parle de sinusogramme complet [32], qui témoigne du
+comblement du sinus et autorise le drainage [33]. On parle de sinusogramme incomplet lorsque seule la
+paroi postérieure du sinus est visible. Un sinusogramme incomplet peut correspondre à un
+épaississement muqueux simple ou à une sinusite vraie. Pour différencier les 2 cas, l'échographie et
+refaite en position allongée. Si l'image se modifie, il y a sinusite, si l'image reste stable, il s'agit d'un
+épaississement muqueux [34].
+RÈGLES D'HYGIÈNE VISANT À ÉVITER
+LA TRANSMISSION DE BACTÉRIES MULTIRÉSISTANTES
+La machine et les sondes d'échographie sont un vecteur potentiel de transmission croisée d'infections
+nosocomiales. Il est donc fondamental de mettre en place des protocoles de décontamination connue de
+tous avec mise à disposition dans chaque chambre de pulvérisateurs de produits décontaminants
+adaptés aux matériaux des machines d'échographies. Les mesures générales sont résumées dans le
+tableau VI [12].
+Tableau VI. Mesures visant à limiter la transmission croisée d'infections par le
+matériel d'échographie en réanimation [12].
+Mesures visant à limiter le transfert des agents infectieux :
+· Éviter au maximum les contacts entre la machine et l'environnement du patient
+· Privilégier les sachets de gel à usage unique
+· Limiter le contact des lignes de la sonde avec le patient
+· À la fin de l'examen, laisser la sonde sur le lit avant la décontamination
+Mesures de décontamination :
+· Lavage des mains de l'examinateur, solutions hydro alcooliques
+· Nettoyage scrupuleux du gel sur les sondes
+· Décontamination des supports de sonde et de la sonde par application de solutions décontaminantes
+· Décontamination du clavier
+· Séchage à l'air
+CONCLUSION
+Une étude australienne récente montre que, malgré une utilisation encore importante du cathéter
+artériel pulmonaire, une majorité de praticiens pense que l'échocardiographie va remplacer le cathéter
+artériel pulmonaire dans les années à venir [123]. Il est démontré que l'échographie en temps réel
+diminue les complications lors de la pose des cathéters veineux centraux. De très nombreuses
+publications suggèrent enfin que l'échographie améliore la performance diagnostique pulmonaire,
+cérébrale, abdominale et sinusienne. La simplicité et l'innocuité de la technique expliquent la popularité
+sans précédent de l'échographie en réanimation. Les voies de recherche des prochaines années devront
+porter sur l'incidence de la technique en termes de pronostic et sur des systèmes de validation des
+compétences des réanimateurs en échographie.
+RÉFÉRENCES
+1 McGee S, Abernethy WB, 3rd, Simel DL. The rational clinical examination. Is this patient hypovolemic? JAMA
+1999 ; 281 : 1022-9.
+2 Brasel KJ, Guse C, Gentilello LM, Nirula R. Heart rate: is it truly a vital sign? J Trauma 2007 ; 62 : 812-7.
+3 Lamia B, Ochagavia A, Monnet X, et al. Echocardiographic prediction of volume responsiveness in critically ill
+patients with spontaneously breathing activity. Intensive Care Med 2007 ; 33 : 1125-32.
+4 Vieillard-Baron A, Charron C, Chergui K, et al. Bedside echocardiographic evaluation of hemodynamics in
+sepsis: is a qualitative evaluation sufficient? Intensive Care Med 2006 ; 32 : 1547-52.
+5 Charron C, Caille V, Jardin F, et al. Echocardiographic measurement of fluid responsiveness. Curr Opin Crit Care
+2006 ; 12 : 249-54.
+6 Lichtenstein D, Meziere G. A lung ultrasound sign allowing bedside distinction between pulmonary edema and
+COPD: the comet-tail artifact. Intensive Care Med 1998 ; 24 : 1331-4.
+7 Mueller C, Scholer A, Laule-Kilian K, et al. Use of B-type natriuretic peptide in the evaluation and management
+of acute dyspnea. N Engl J Med 2004 ; 350 : 647-54.
+8 Bossone E, DiGiovine B, Watts S, et al. Range and prevalence of cardiac abnormalities in patients hospitalized
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 33/37
+in a medical ICU. Chest 2002 ; 122 : 1370-6.
+9 Joseph MX, Disney PJ, Da Costa R, et al. Transthoracic echocardiography to identify or exclude cardiac cause of
+shock. Chest 2004 ; 126 : 1592-7.
+10 Costachescu T, Denault A, Guimond JG, et al. The hemodynamically unstable patient in the intensive care
+unit: hemodynamic vs. transesophageal echocardiographic monitoring. Crit Care Med 2002 ; 30 : 1214-23.
+11 Vignon P, Chastagner C, Berkane V, et al. Quantitative assessment of pleural effusion in critically ill patients
+by means of ultrasonography. Crit Care Med 2005 ; 33 : 1757-63.
+12 Bouhemad B, Zhang M, Lu Q, et al. Clinical review: Bedside lung ultrasound in critical care practice. Crit Care
+2007 ; 11 : 205.
+13 Lichtenstein D, Hulot JS, Rabiller A, et al. Feasibility and safety of ultrasound-aided thoracentesis in
+mechanically ventilated patients. Intensive Care Med 1999 ; 25 : 955-8.
+14 Roch A, Bojan M, Michelet P, et al. Usefulness of ultrasonography in predicting pleural effusions > 500 mL in
+patients receiving mechanical ventilation. Chest 2005 ; 127 : 224-32.
+15 Lichtenstein D, Goldstein I, Mourgeon E, et al. Comparative diagnostic performances of auscultation, chest
+radiography, and lung ultrasonography in acute respiratory distress syndrome. Anesthesiology 2004 ; 100 : 9-15.
+16 Vignon P. Portable echocardiographs: useful or futile ? Arch Mal Cœur Vaiss 2003 ; 96 : 1202-9.
+17 Vieillard-Baron A, Slama M, Cholley B, et al. Echocardiography in the intensive care unit: from evolution to
+revolution? Intensive Care Med 2008 ; 34 : 243-9.
+18 Vignon P. Hemodynamic assessment of critically ill patients using echocardiography Doppler. Curr Opin Crit
+Care 2005 ; 11 : 227-34.
+19 Cholley BP, Vieillard-Baron A, Mebazaa A. Echocardiography in the ICU: time for widespread use! Intensive
+Care Med 2006 ; 32 : 9-10.
+20 Vignon P, Chastagner C, Francois B, et al. Diagnostic ability of hand-held echocardiography in ventilated
+critically ill patients. Crit Care 2003 ; 7 : R84-91.
+21 Vignon P, Dugard A, Abraham J, et al. Focused training for goal-oriented hand-held echocardiography
+performed by noncardiologist residents in the intensive care unit. Intensive Care Med 2007 ; 33 : 1795-9.
+22 Charron C, Prat G, Caille V, et al. Validation of a skills assessment scoring system for transesophageal
+echocardiographic monitoring of hemodynamics. Intensive Care Med 2007 ; 33 : 1712-8.
+23 Brennan JM, Blair JE, Goonewardena S, et al. A comparison by medicine residents of physical examination
+versus hand-carried ultrasound for estimation of right atrial pressure. Am J Cardiol 2007 ; 99 : 1614-6.
+24 Brennan JM, Ronan A, Goonewardena S, et al. Handcarried ultrasound measurement of the inferior vena cava
+for assessment of intravascular volume status in the outpatient hemodialysis clinic. Clin J Am Soc Nephrol 2006 ;
+1 : 749-53.
+25 Decara JM, Kirkpatrick JN, Spencer KT, et al. Use of hand-carried ultrasound devices to augment the accuracy
+of medical student bedside cardiac diagnoses. J Am Soc Echocardiogr 2005 ; 18 : 257-63.
+26 Croft LB, Duvall WL, Goldman ME. A pilot study of the clinical impact of hand-carried cardiac ultrasound in the
+medical clinic. Echocardiography 2006 ; 23 : 439-46.
+27 Lichtenstein D, Meziere G, Biderman P, et al. The comet-tail artifact: an ultrasound sign ruling out
+pneumothorax. Intensive Care Med 1999 ; 25 : 383-8.
+28 Lichtenstein DA, Lascols N, Meziere G, et al. Ultrasound diagnosis of alveolar consolidation in the critically ill.
+Intensive Care Med 2004 ; 30 : 276-81.
+29 Lichtenstein DA, Lascols N, Prin S, Meziere G. The "lung pulse": an early ultrasound sign of complete
+atelectasis. Intensive Care Med 2003 ; 29 : 2187-92.
+30 Lichtenstein DA, Meziere G, Lascols N, et al. Ultrasound diagnosis of occult pneumothorax. Crit Care Med
+2005 ; 33 : 1231-8.
+31 Mayo PH, Goltz HR, Tafreshi M, et al. Safety of ultrasound-guided thoracentesis in patients receiving
+mechanical ventilation. Chest 2004 ; 125 : 1059-62.
+32 Lichtenstein D, Biderman P, Meziere G, Gepner A. The "sinusogram", a real-time ultrasound sign of maxillary
+sinusitis. Intensive Care Med 1998 ; 24 : 1057-61.
+33 Vargas F, Bui HN, Boyer A, et al. Transnasal puncture based on echographic sinusitis evidence in mechanically
+ventilated patients with suspicion of nosocomial maxillary sinusitis. Intensive Care Med 2006 ; 32 : 858-66.
+34 Vargas F, Boyer A, Bui HN, et al. A postural change test improves the prediction of a radiological maxillary
+sinusitis by ultrasonography in mechanically ventilated patients. Intensive Care Med 2007 ; 33 : 1474-8.
+35 Maury E, Guglielminotti J, Alzieu M, et al. Ultrasonic examination: an alternative to chest radiography after
+central venous catheter insertion? Am J Respir Crit Care Med 2001 ; 164 : 403-5.
+36 Slama M, Novara A, Safavian A, et al. Improvement of internal jugular vein cannulation using an ultrasound-
+guided technique. Intensive Care Med 1997 ; 23 : 916-9.
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 34/37
+37 Vigneau C, Baudel JL, Guidet B, et al. Sonography as an alternative to radiography for nasogastric feeding
+tube location. Intensive Care Med 2005 ; 31 : 1570-2.
+38 Boulanger BR, McLellan BA, Brenneman FD, et al. Emergent abdominal sonography as a screening test in a
+new diagnostic algorithm for blunt trauma. J Trauma 1996 ; 40 : 867-74.
+39 Wherrett LJ, Boulanger BR, McLellan BA, et al. Hypotension after blunt abdominal trauma: the role of
+emergent abdominal sonography in surgical triage. J Trauma 1996 ; 41 : 815-20.
+40 Vieillard-Baron A, Chergui K, Augarde R, et al. Cyclic changes in arterial pulse during respiratory support
+revisited by Doppler echocardiography. Am J Respir Crit Care Med 2003 ; 168 : 671-6.
+41 Feissel M, Michard F, Mangin I, et al. Respiratory changes in aortic blood velocity as an indicator of fluid
+responsiveness in ventilated patients with septic shock. Chest 2001 ; 119 : 867-73.
+42 Feissel M, Michard F, Faller JP, et al. The respiratory variation in inferior vena cava diameter as a guide to
+fluid therapy. Intensive Care Med 2004 ; 30 : 1834-7.
+43 Vieillard-Baron A, Chergui K, Rabiller A, et al. Superior vena caval collapsibility as a gauge of volume status in
+ventilated septic patients. Intensive Care Med 2004 ; 30 : 1734-9.
+44 Shah MR, Hasselblad V, Stevenson LW, et al. Impact of the pulmonary artery catheter in critically ill patients:
+meta-analysis of randomized clinical trials. JAMA 2005 ; 294 : 1664-70.
+45 Osman D, Ridel C, Ray P, et al. Cardiac filling pressures are not appropriate to predict hemodynamic response
+to volume challenge. Crit Care Med 2007 ; 35 : 64-8.
+46 Michard F, Teboul JL. Predicting fluid responsiveness in ICU patients: a critical analysis of the evidence. Chest
+2002 ; 121 : 2000-8.
+47 Fontes ML, Bellows W, Ngo L, et al. Assessment of ventricular function in critically ill patients: limitations of
+pulmonary artery catheterization. Institutions of the McSPI Research Group. J Cardiothorac Vasc Anesth 1999 ;
+13 : 521-7.
+48 Boussuges A, Blanc P, Molenat F, et al. Evaluation of left ventricular filling pressure by transthoracic Doppler
+echocardiography in the intensive care unit. Crit Care Med 2002 ; 30 : 362-7.
+49 Wong SP. Echocardiographic findings in acute and chronic pulmonary disease. In: C. Otto, Ed. The practice of
+clinical echocardiography. Philadelphia: WB Saunders Company; 2002. p. 739-60.
+50 Brennan JM, Blair JE, Goonewardena S, et al. Reappraisal of the use of inferior vena cava for estimating right
+atrial pressure. J Am Soc Echocardiogr 2007 ; 20 : 857-61.
+51 Mueller X, Stauffer JC, Jaussi A, et al. Subjective visual echocardiographic estimate of left ventricular ejection
+fraction as an alternative to conventional echocardiographic methods: comparison with contrast angiography. Clin
+Cardiol 1991 ; 14 : 898-902.
+52 Gudmundsson P, Rydberg E, Winter R, et al. Visually estimated left ventricular ejection fraction by
+echocardiography is closely correlated with formal quantitative methods. Int J Cardiol 2005 ; 101 : 209-12.
+53 Vieillard-Baron A, Prin S, Chergui K, et al. Echo-Doppler demonstration of acute cor pulmonale at the bedside
+in the medical intensive care unit. Am J Respir Crit Care Med 2002 ; 166 : 1310-9.
+54 Jardin F, Dubourg O, Bourdarias JP. Echocardiographic pattern of acute cor pulmonale. Chest 1997 ; 111 :
+209-17.
+55 Michard F. Changes in arterial pressure during mechanical ventilation. Anesthesiology 2005 ; 103 : 419-28 ;
+quiz 449-5.
+56 Tavernier B, Makhotine O, Lebuffe G, et al. Systolic pressure variation as a guide to fluid therapy in patients
+with sepsis-induced hypotension. Anesthesiology 1998 ; 89 : 1313-21.
+57 Teboul JL. Recommandations d'experts de la SRLF. Indicateurs du remplissage vasculaire au cours de
+l'insuffisance circulatoire. Réanimation 2004 ; 13 : 255-63.
+58 Nagueh SF, Middleton KJ, Kopelen HA, et al. Doppler tissue imaging: a noninvasive technique for evaluation of
+left ventricular relaxation and estimation of filling pressures. J Am Coll Cardiol 1997 ; 30 : 1527-33.
+59 Combes A, Arnoult F, Trouillet JL. Tissue Doppler imaging estimation of pulmonary artery occlusion pressure
+in ICU patients. Intensive Care Med 2004 ; 30 : 75-81.
+60 Dokainish H, Zoghbi WA, Lakkis NM, et al. Optimal noninvasive assessment of left ventricular filling pressures:
+a comparison of tissue Doppler echocardiography and B-type natriuretic peptide in patients with pulmonary
+artery catheters. Circulation 2004 ; 109 : 2432-9.
+61 Vieillard-Baron A, Augarde R, Prin S, et al. Influence of superior vena caval zone condition on cyclic changes in
+right ventricular outflow during respiratory support. Anesthesiology 2001 ; 95 : 1083-8.
+62 Barbier C, Loubieres Y, Schmit C, et al. Respiratory changes in inferior vena cava diameter are helpful in
+predicting fluid responsiveness in ventilated septic patients. Intensive Care Med 2004 ; 30 : 1740-6.
+63 Carr BG, Dean AJ, Everett WW, et al. Intensivist bedside ultrasound (INBU) for volume assessment in the
+intensive care unit: a pilot study. J Trauma 2007 ; 63 : 495-500 ; discussion 500-2.
+64 Pershad J, Myers S, Plouman C, et al. Bedside limited echocardiography by the emergency physician is
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 35/37
+accurate during evaluation of the critically ill patient. Pediatrics 2004 ; 114 : e667-71.
+65 Schefold JC, Storm C, Bercker S, et al. Inferior vena cava diameter correlates with invasive hemodynamic
+measures in mechanically ventilated ICU patients with sepsis. J Emerg Med ; 2008.
+66 Pizov R, Ya'ari Y, Perel A. The arterial pressure waveform during acute ventricular failure and synchronized
+external chest compression. Anesth Analg 1989 ; 68 : 150-6.
+67 Slama M, Masson H, Teboul JL, et al. Respiratory variations of aortic VTI: a new index of hypovolemia and
+fluid responsiveness. Am J Physiol Heart Circ Physiol 2002 ; 283 : H1729-33.
+68 Cannesson M, Slieker J, Desebbe O, et al. Prediction of fluid responsiveness using respiratory variations in left
+ventricular stroke area by transoesophageal echocardiographic automated border detection in mechanically
+ventilated patients. Crit Care 2006 ; 10 : R171.
+69 Boulain T, Achard JM, Teboul JL, et al. Changes in BP induced by passive leg raising predict response to fluid
+loading in critically ill patients. Chest 2002 ; 121 : 1245-52.
+70 Monnet X, Rienzo M, Osman D, Anguel N, Richard C, Pinsky MR, et al. Passive leg raising predicts fluid
+responsiveness in the critically ill. Crit Care Med 2006 ; 34 : 1402-7.
+71 Maizel J, Airapetian N, Lorne E, et al. Diagnosis of central hypovolemia by using passive leg raising. Intensive
+Care Med ; 2007.
+72 Lamia B, Ochagavia A, Monnet X, et al. Echocardiographic prediction of volume responsiveness in critically ill
+patients with spontaneously breathing activity. Intensive Care Med ; 2007.
+73 Lefrant JY, Muller L, de La Coussaye JE, et al. Risk factors of failure and immediate complication of subclavian
+vein catheterization in critically ill patients. Intensive Care Med 2002 ; 28 : 1036-41.
+74 Merrer J, Lefrant JY, Timsit JF. Comment optimiser l'utilisation des cathéters veineux centraux en
+réanimation ? Ann Fr Anesth Réanim 2006 ; 25 : 180-8.
+75 Caridi JG, Hawkins IF, Jr., Wiechmann BN, et al. Sonographic guidance when using the right internal jugular
+vein for central vein access. AJR Am J Roentgenol 1998 ; 171 : 1259-63.
+76 Karakitsos D, Labropoulos N, De Groot E, et al. Real-time ultrasound-guided catheterisation of the internal
+jugular vein: a prospective comparison with the landmark technique in critical care patients. Crit Care 2006 ; 10 :
+R162.
+77 Gualtieri E, Deppe SA, Sipperly ME, Thompson DR. Subclavian venous catheterization: greater success rate for
+less experienced operators using ultrasound guidance. Crit Care Med 1995 ; 23 : 692-7.
+78 Lefrant JY, Cuvillon P, Benezet JF, Dauzat M, Peray P, Saissi G, et al. Pulsed Doppler ultrasonography
+guidance for catheterization of the subclavian vein: a randomized study. Anesthesiology 1998 ; 88 : 1195-201.
+79 Hind D, Calvert N, McWilliams R, Davidson A, Paisley S, Beverley C, et al. Ultrasonic locating devices for
+central venous cannulation: meta-analysis. BMJ 2003 ; 327 : 361.
+80 Randolph AG, Cook DJ, Gonzales CA, Pribble CG. Ultrasound guidance for placement of central venous
+catheters: a meta-analysis of the literature. Crit Care Med 1996 ; 24 : 2053-8.
+81 Milling TJ, Jr., Rose J, Briggs WM, Birkhahn R, Gaeta TJ, Bove JJ, Melniker LA. Randomized, controlled clinical
+trial of point-of-care limited ultrasonography assistance of central venous cannulation: the Third Sonography
+Outcomes Assessment Program (SOAP-3) Trial. Crit Care Med 2005 ; 33 : 1764-9.
+82 Excellence. NIfC: Guidance on the use of ultrasound locating devices for placing central venous catheters.
+Technology Appraisal Guidance no 49. ww.nice.org.uk. 2004.
+83 Lichtenstein D. Pulmonary echography: a method of the future in emergency medicine and resuscitation. Rev
+Pneumol Clin 1997 ; 53 : 63-8.
+84 Lichtenstein D, Axler O. Intensive use of general ultrasound in the intensive care unit. Prospective study of
+150 consecutive patients. Intensive Care Med 1993 ; 19 : 353-5.
+85 Lichtenstein D, Meziere G. Ultrasound probably has a bright future in the diagnosis of pneumothorax. J
+Trauma 2002 ; 52 : 607.
+86 Lichtenstein D, Meziere G, Biderman P, Gepner A. The "lung point": an ultrasound sign specific to
+pneumothorax. Intensive Care Med 2000 ; 26 : 1434-40.
+87 Lichtenstein D, Meziere G, Biderman P, Gepner A, Barre O. The comet-tail artifact. An ultrasound sign of
+alveolar-interstitial syndrome. Am J Respir Crit Care Med 1997 ; 156 : 1640-6.
+88 Lichtenstein D, Peyrouset O. Is lung ultrasound superior to CT? The example of a CT occult necrotizing
+pneumonia. Intensive Care Med 2006 ; 32 : 334-5.
+89 Lichtenstein DA. Ultrasound in the management of thoracic disease. Crit Care Med 2007 ; 35 : S250-61.
+90 Lichtenstein DA, Loubieres Y. Lung sonography in pulmonary embolism. Chest 2003 ; 123 : 2154 ; author
+reply 2154-5.
+91 Lichtenstein DA, Menu Y. A bedside ultrasound sign ruling out pneumothorax in the critically ill. Lung sliding.
+Chest 1995 ; 108 : 1345-8.
+92 Arbelot C, Ferrari F, Bouhemad B, Rouby JJ. Lung ultrasound in acute respiratory distress syndrome and acute
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 36/37
+lung injury. Curr Opin Crit Care 2008 ; 14 : 70-4.
+93 Barbry T, Bouhemad B, Leleu K, de Castro V, Remerand F, Rouby JJ. Transthoracic ultrasound approach of
+thoracic aorta in critically ill patients with lung consolidation. J Crit Care 2006 ; 21 : 203-8.
+94 Kirkpatrick AW, Brown DR, Crickmer S, Mohr BP, Hamilton DR, Cunningham J, et al. Hand-held portable
+sonography for the on-mountain exclusion of a pneumothorax. Wilderness Environ Med 2001 ; 12 : 270-2.
+95 Kirkpatrick AW, Ng AK, Dulchavsky SA, Lyburn I, Harris A, Torregianni W, et al. Sonographic diagnosis of a
+pneumothorax inapparent on plain radiography: confirmation by computed tomography. J Trauma 2001 ; 50 :
+750-2.
+96 Kirkpatrick AW, Nicolaou S, Rowan K, Liu D, Cunningham J, Sargsyan AE, et al. Thoracic sonography for
+pneumothorax: the clinical evaluation of an operational space medicine spin-off. Acta Astronaut 2005 ; 56 : 831-
+8.
+97 Kirkpatrick AW, Sirois M, Laupland KB, et al. Hand-held thoracic sonography for detecting post-traumatic
+pneumothoraces: the Extended Focused Assessment with Sonography for Trauma (EFAST). J Trauma 2004 ; 57 :
+288-95.
+98 Zhang M, Liu ZH, Yang JX, et al. Rapid detection of pneumothorax by ultrasonography in patients with
+multiple trauma. Crit Care 2006 ; 10 : R112.
+99 Rozycki GS, Pennington SD, Feliciano DV. Surgeon-performed ultrasound in the critical care setting: its use as
+an extension of the physical examination to detect pleural effusion. J Trauma 2001 ; 50 : 636-42.
+100 Eibenberger KL, Dock WI, Ammann ME, et al. Quantification of pleural effusions: sonography versus
+radiography. Radiology 1994 ; 191 : 681-4.
+101 Balik M, Plasil P, Waldauf P, et al. Ultrasound estimation of volume of pleural fluid in mechanically ventilated
+patients. Intensive Care Med 2006 ; 32 : 318-21.
+102 Bode PJ, Edwards MJ, Kruit MC, et al. Sonography in a clinical algorithm for early evaluation of 1671 patients
+with blunt abdominal trauma. AJR Am J Roentgenol 1999 ; 172 : 905-11.
+103 Brooks A, Davies B, Smethhurst M, et al. Prospective evaluation of non-radiologist performed emergency
+abdominal ultrasound for haemoperitoneum. Emerg Med J 2004 ; 21 : e5.
+104 Brenchley J, Walker A, Sloan JP, et al. Evaluation of focussed assessment with sonography in trauma (FAST)
+by UK emergency physicians. Emerg Med J 2006 ; 23 : 446-8.
+105 Mazur SM, Pearce A, Alfred S, et al. The F.A.S.T.E.R. trial Focused assessment by sonography in trauma
+during emergency retrieval: a feasibility study. Injury 2008 ; 39 : 512-8.
+106 Poletti PA, Platon A, Becker CD, et al. Blunt abdominal trauma: does the use of a second-generation
+sonographic contrast agent help to detect solid organ injuries? AJR Am J Roentgenol 2004 ; 183 : 1293-301.
+107 Aaslid R, Markwalder TM, Nornes H. Noninvasive transcranial Doppler ultrasound recording of flow velocity in
+basal cerebral arteries. J Neurosurg 1982 ; 57 : 769-74.
+108 Aaslid R. The Doppler principle applied to measurement of blood flow velocities in cerebral arteries. In: R.
+Aaslid, Ed. The Doppler principle applied to measurement of blood flow velocities in cerebral arteries. Vienna:
+Springer; 1986. p. 22-38.
+109 Saqqur M, Zygun D, Demchuk A. Role of transcranial Doppler in neurocritical care. Crit Care Med 2007 ; 35 :
+S216-23.
+110 White H, Venkatesh B. Applications of transcranial Doppler in the ICU: a review. Intensive Care Med 2006 ;
+32 : 981-94.
+111 Padayachee TS, Kirkham FJ, Lewis RR, et al. Transcranial measurement of blood velocities in the basal
+cerebral arteries using pulsed Doppler ultrasound: a method of assessing the Circle of Willis. Ultrasound Med Biol
+1986 ; 12 : 5-14.
+112 Gosling RG, King DH. Arterial assessment by Doppler-shift ultrasound. Proc R Soc Med 1974 ; 67 : 447-9.
+113 Reid JM, Spencer MP. Ultrasonic Doppler technique for imaging blood vessels. Science 1972 ; 176 : 1235-6.
+114 Lindegaard KF, Nornes H, Bakke SJ, et al. Cerebral vasospasm after subarachnoid haemorrhage investigated
+by means of transcranial Doppler ultrasound. Acta Neurochir Suppl (Wien) 1988 ; 42 : 81-4.
+115 Chan KH, Miller JD, Dearden NM, et al. The effect of changes in cerebral perfusion pressure upon middle
+cerebral artery blood flow velocity and jugular bulb venous oxygen saturation after severe brain injury. J
+Neurosurg 1992 ; 77 : 55-61.
+116 Czosnyka M, Matta BF, Smielewski P, et al. Cerebral perfusion pressure in head-injured patients: a
+noninvasive assessment using transcranial Doppler ultrasonography. J Neurosurg 1998 ; 88 : 802-8.
+117 Schmidt EA, Czosnyka M, Gooskens I, et al. Preliminary experience of the estimation of cerebral perfusion
+pressure using transcranial Doppler ultrasonography. J Neurol Neurosurg Psychiatry 2001 ; 70 : 198-204.
+118 Bellner J, Romner B, Reinstrup P, et al. Transcranial Doppler sonography pulsatility index (PI) reflects
+intracranial pressure (ICP). Surg Neurol 2004 ; 62 : 45-51 ; discussion 51.
+119 Ract C, Le Moigno S, Bruder N, et al. Transcranial Doppler ultrasound goal-directed therapy for the early
+30/9/2014 www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm
+http://www.sfar.org/acta/dossier/archives/ca08/html/ca08_37/ca08_37.htm 37/37
+management of severe traumatic brain injury. Intensive Care Med 2007 ; 33 : 645-51.
+120 Trabold F, Meyer PG, Blanot S, et al. The prognostic value of transcranial Doppler studies in children with
+moderate and severe head injury. Intensive Care Med 2004 ; 30 : 108-12.
+121 Czosnyka M, Richards HK, Whitehouse HE, et al. Relationship between transcranial Doppler-determined
+pulsatility index and cerebrovascular resistance: an experimental study. J Neurosurg 1996 ; 84 : 79-84.
+122 Hilbert G, Vargas F, Valentino R, et al. Comparison of B-mode ultrasound and computed tomography in the
+diagnosis of maxillary sinusitis in mechanically ventilated patients. Crit Care Med 2001 ; 29 : 1337-42.
+123 Johnston IG, Fraser JF, Sabapathy S, et al. The pulmonary artery catheter in Australasia: a survey
+investigating intensive care physicians' knowledge and perception of future trends in use. Anaesth Intensive Care
+2008 ; 36 : 84-9.
+

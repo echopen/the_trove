@@ -1,0 +1,98 @@
+# Patent US4567895
+
+
+
+
+
+=US4567895 : Fully wetted mechanical ultrasound scanhead = 
+
+
+
+== Invention date ==
+
+Feb 4, 1986
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Dwayne H. Putzke]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+A fully wetted ultrasound scanhead for medical applications is described in which the motor and the rotor are enclosed within a sealed housing filled with ultrasound coupling fluid. The invention includes a drive belt to drive the rotor from the motor, rather than a precision drive means. Speed adjustment means, including an encoder disk mounted on the rotor, provide feedback for an electronic speed controller. Accordingly, the speed of the motor can be adjusted as a direct consequence of the actual speed of the rotor.
+= Patents Backwards =
+
+* [[Patent US3964296]]
+* [[Patent US4034744]]
+* [[Patent US4047520]]
+* [[Patent US4149419]]
+* [[Patent US4231373]]
+* [[Patent US4269066]]
+* [[Patent US4418698]]
+= Patents Forwards =
+
+* [[Patent US4757818]]
+* [[Patent US4807634]]
+* [[Patent US4913158]]
+* [[Patent US4993416]]
+* [[Patent US5255684]]
+* [[Patent US5450851]]
+* [[Patent US5465724]]
+* [[Patent US5562096]]
+* [[Patent US5626138]]
+* [[Patent US5647364]]
+* [[Patent US6569100]]
+* [[Patent US7273459]]
+* [[Patent US7300403]]
+* [[Patent US7311679]]
+* [[Patent US7314447]]
+* [[Patent US7695437]]
+* [[Patent US7758524]]
+* [[Patent US7766848]]
+* [[Patent US7824348]]
+* [[Patent US7837627]]
+* [[Patent US7857773]]
+* [[Patent US7905844]]
+* [[Patent US7993289]]
+* [[Patent US8066641]]
+* [[Patent US8133180]]
+* [[Patent US8142200]]
+* [[Patent US8166332]]
+* [[Patent US8206305]]
+* [[Patent US8206307]]
+* [[Patent US8235909]]
+* [[Patent US8282554]]
+* [[Patent US8333700]]
+* [[Patent US8337407]]
+* [[Patent US8366622]]
+* [[Patent US8409097]]
+* [[Patent US8444562]]
+* [[Patent US8449467]]
+* [[Patent US8460193]]
+* [[Patent US8480585]]
+* [[Patent US8506486]]
+* [[Patent US8506490]]
+* [[Patent US8523775]]
+* [[Patent US8535228]]
+* [[Patent US8636665]]
+* [[Patent US8641622]]
+* [[Patent US8663112]]
+* [[Patent US8672848]]
+* [[Patent US8672851]]
+* [[Patent US8690778]]
+* [[Patent US8690779]]
+* [[Patent US8690780]]
+* [[Patent US8708935]]
+* [[Patent US8715186]]
+* [[Patent US8764687]]
+* [[Patent US20090299193]]
+* [[Patent US20100234734]]
+* [[Patent US20110105907]]
+* [[Patent CN1897907B]]
+* [[Patent EP1878388A1]]
+* [[Patent WO1996000522A1]]
+* [[Patent WO1996025099A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

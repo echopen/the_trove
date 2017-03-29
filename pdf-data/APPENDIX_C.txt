@@ -1,0 +1,203 @@
+104
+APPENDIX C:
+THE RLC CIRCUIT MODEL FOR A PIEZOELECTRIC
+TRANSDUCER
+In this appendix, the equivalent RLC circuit model as presented by Bechmann and
+Fair [1966] is analyzed. First, an expression for the electrical input impedance for the
+model will be derived in terms of the circuit elements. Then the values of the circuit
+elements for the air backed crystal will be provided.
+Input Impedance of the RLC Circuit
+The RLC circuit model for the piezoelectric transducer is shown in Figure C.1
+below [Bechmann and Fair, 1966].
+d
++ V3 -
+I3
+A
+I3
+Co
+R1
+L1
+C1
+V3
++
+-
+Piezoelectric
+Crystal
+RLC Circuit
+Model
+Figure C.1: The RLC circuit model for a piezoelectric transducer.
+Using basic circuit analysis, the input impedance for this model is given by
+( )
+( ) 1
+1
+1
+2
+1
+1
+2
+1
+1
+2
+1
+1
+1
+1
+C
+C
+L
+C
+C
+C
+R
+j
+C
+L
+j
+C
+R
+Z
+o
+o
+RLC
+_
+in
+ω
+ω
+ω
+ω
+ω
+ω
++
+−
+−
+−
++
+= (C.1)
+Likewise, the admittance would be given by
+( )
+( ) ( )2
+1
+1
+2
+2
+1
+1
+1
+1
+2
+1
+1
+1
+1
+1
+−
++
+−
+−
++
+=
+C
+L
+C
+R
+C
+L
+j
+C
+R
+C
+C
+j
+Y o
+RLC
+_
+in
+ω
+ω
+ω
+ω
+ω
+ω (C.2)
+From Equation (C.2), it is clear that the real part of the admittance will achieve a
+maximum at the resonant frequency of the circuit.
+105
+Element Parameters in the RLC Model
+Although a complete analysis of the RLC model is beyond the scope of this
+thesis, some closed form expressions for the values of the circuit parameters for an air
+backed crystal will be provided. By including all of the relevant terms in the analysis
+provided by O’
+Brien [2000] it can be shown that for the air backed case the element
+parameters are
+d
+h
+C
+A
+c
+d
+h
+C
+C
+h
+C
+d
+A
+L
+h
+C
+Z
+R
+o
+o
+o
+o
+m
+2
+2
+2
+2
+2
+1
+2
+2
+1
+2
+2
+1
+8
+8
+8
+4
+−
+=
+=
+=
+ρ
+π
+ρ
+(C.3)
+where
+d
+A
+Co
+ε
+= (C.4)
+as was stated in Appendix B, and Zm is the radiation impedance of the material into which
+the crystal is radiating. From these expressions, it is clear that a voltage drop across R1
+would correspond to power radiated by the crystal. Before, leaving this section, it is
+important to point out that the circuit resonant frequency given by
+1
+1
+1
+C
+L
+o =
+′
+ω is close
+to the crystal resonant frequency given by
+d
+c
+o
+π
+ω = , but the two quantities are not
+exactly the same.
+

@@ -1,0 +1,3335 @@
+Systematic Review
+The use of portable ultrasound devices in low- and middle-
+income countries: a systematic review of the literature
+Dawn M. Becker1
+, Chelsea A. Tafoya2
+, S€
+oren L. Becker3,4,5
+, Grant H. Kruger6
+, Matthew J. Tafoya2
+and
+Torben K. Becker7
+1 Department of Internal Medicine, St. Joseph Mercy Hospital Ann Arbor – St. Joseph Mercy Health System, Ann Arbor, MI, USA
+2 University of Michigan Medical School, Ann Arbor, MI, USA
+3 Department of Epidemiology and Public Health, Swiss Tropical and Public Health Institute, Basel, Switzerland
+4 University of Basel, Basel, Switzerland
+5 Institute of Medical Microbiology and Hygiene, Saarland University Medical Center, Homburg/Saar, Germany
+6 Department of Mechanical Engineering, College of Engineering, University of Michigan, Ann Arbor, MI, USA
+7 Department of Critical Care Medicine, University of Pittsburgh Medical Center, Pittsburgh, PA, USA
+Abstract objectives To review the scientific literature pertaining to the use of hand-carried and hand-held
+ultrasound devices in low- and middle-income countries (LMIC), with a focus on clinical
+applications, geographical areas of use, the impact on patient management and technical features of
+the devices used.
+methods The electronic databases PubMed and Google Scholar were searched. No language or date
+restrictions were applied. Case reports and original research describing the use of hand-carried
+ultrasound devices in LMIC were included if agreed upon as relevant by two-reviewer consensus
+based on our predefined research questions.
+results A total of 644 articles were found and screened, and 36 manuscripts were included for final
+review. Twenty-seven studies were original research articles, and nine were case reports. Several
+reports describe the successful diagnosis and management of difficult, often life-threatening
+conditions, using hand-carried and hand-held ultrasound. These portable ultrasound devices have also
+been studied for cardiac screening exams, as well as a rapid triage tool in rural areas and after
+natural disaster. Most applications focus on obstetrical and abdominal complaints. Portable
+ultrasound may have an impact on clinical management in up to 70% of all cases. However, no
+randomised controlled trials have evaluated the impact of ultrasound-guided diagnosis and treatment
+in resource-constrained settings. The exclusion of articles published in journals not listed in the large
+databases may have biased our results. Our findings are limited by the lack of higher quality evidence
+(e.g. controlled trials).
+conclusions Hand-carried and hand-held ultrasound is successfully being used to triage, diagnose
+and treat patients with a variety of complaints in LMIC. However, the quality of the current evidence
+is low. There is an urgent need to perform larger clinical trials assessing the impact of hand-carried
+ultrasound in LMIC.
+keywords ultrasound, resource-constrained settings, clinical examination, diagnosis
+Introduction
+Ultrasound is a widely used clinical imaging modality for
+rapid diagnosis and treatment at the bedside, does not
+require any additional personnel and is relatively easy to
+learn [1]. It does not expose patients or medical person-
+nel to ionising radiation and can be portable and
+operated with rechargeable batteries. It is for these rea-
+sons that there has been significant interest in employing
+this technology in low- and middle-income countries
+(LMIC), as it requires less infrastructure and training
+than other imaging systems such as computed tomogra-
+phy or magnetic resonance imaging. In a 1985 landmark
+report on the future use of imaging technologies in
+294 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health doi:10.1111/tmi.12657
+volume 21 no 3 pp 294–311 march 2016
+developing countries, WHO concluded that there are
+‘very real advantages to be gained from the use’ of ultra-
+sound, and noted its potential for ‘improved patient man-
+agement and care of the individual’ [2].
+In the 1990s, the first portable ultrasound machine –
+it could be carried in a backpack – was developed [3].
+Since the turn of the millennium, reports on ultrasound
+use and training in LMIC have increased exponentially.
+However, widespread adoption is still limited by the
+cost of most ultrasound machines, limited distribution
+and support networks, as well as lack of access to
+replacement parts [4]. Other significant barriers that
+may further preclude the use in mobile clinics or periph-
+eral healthcare centres are only intermittent power sup-
+ply to recharge batteries, or unsafe storage. In the last
+few years, however, a new generation of hand-carried
+and even hand-held ultrasound devices has emerged.
+The key difference is that hand-held ultrasound systems
+can be used while holding the display unit and probe
+using either one or two hands, while hand-carried sys-
+tems are typically larger, requiring a surface on which
+to place the ultrasound unit prior to performing the
+scan. Both hand-carried and hand-held devices are char-
+acterised by low cost, a more rugged mechanical design
+that withstands rough environments, and use of afford-
+able batteries that can be replaced easily. It follows that
+these new ultrasound devices can be carried around
+with ease by a clinician and may be handed over at the
+end of the work period to the covering colleague, thus
+obviating the need for safe storage. They can be inte-
+grated into the physical examination and initial assess-
+ment of a patient, much like a stethoscope, making the
+bedside application of ultrasound easier than where a
+patient has to be transported to a stationary machine
+[5].
+Despite the considerable potential of ultrasound-based
+imaging to improve the diagnosis of many medical condi-
+tions and to guide individual patient management, little
+is known about the current practices in LMIC, such as
+the extent of use of portable ultrasound devices, major
+indications for the use of ultrasound techniques and
+impact on patient outcome. We conducted a systematic
+review of the literature to elucidate where and how
+hand-carried and hand-held ultrasound devices are being
+used in LMIC, asking (i) What are the uses and applica-
+tions of hand-carried and hand-held ultrasound devices in
+LMIC? (ii) In which geographic regions are hand-carried
+and hand-held ultrasound devices being used? (iii) What
+is the impact of hand-carried and hand-held ultrasound
+devices on patient management? (iv) What hand-carried
+and hand-held ultrasound devices are available, and what
+are their technical specifications?
+We critically assess diseases and clinical situations in
+which the systematic introduction of clinical ultrasound
+examinations at the bedside might be most beneficial,
+and also identify drawbacks and research needs.
+Methods
+We performed a systematic literature review to address
+the above-mentioned questions. Two authors (CT, MT)
+searched the electronic database PubMed independently
+for the search terms shown in Box 1. This was supple-
+mented by a manual Google Scholar search and a manual
+review of the bibliographies. The manual search was
+limited to English language articles. LMIC were defined
+based on the World Bank definition of ‘developing
+countries’ (available at http://data.worldbank.org/about/
+country-and-lending-groups).
+For the PubMed search, there were no data range (be-
+yond those intrinsic to the PubMed database) and lan-
+guage restrictions. The search terms and search strategy
+were chosen in consultation with the global health librar-
+ian at the University of Michigan. We excluded opinion
+articles and commentaries. The last search was completed
+on 8 July 2015.
+Study selection and data abstraction were performed
+independently by two reviewers with clinical experience
+pertaining to the use of ultrasound in LMIC (DMB,
+TKB) according to the Preferred Reporting Items for Sys-
+tematic Reviews and Meta-analyses statement [6]. Any
+discrepancies between the two reviewers were resolved by
+consensus.
+Original research articles and case reports were
+included if a manuscript was deemed relevant to any of
+the primary research questions addressed by this review
+as stated above. Case reports that addressed the primary
+research questions were included given the novel charac-
+ter of hand-carried (defined as below 4 kg) and hand-held
+ultrasound devices. Articles describing the use of such
+devices by military units from high-resource countries
+within a military hospital in an LMIC but equipped and
+operated by the high-resource nation were excluded dur-
+ing the screening process.
+Raw data were extracted using a standardised template
+that included the first author, the year of publication, the
+title, the journal and the article was published in, study
+design, ultrasound device used, the geographical region
+where the study was performed, the environment in
+which ultrasound was used and the article’s key findings
+(number of study subjects, study subject characteristics,
+details regarding interventions and outcome).
+A dedicated technology evaluation was completed by
+an engineer (GHK), describing the currently available
+© 2015 John Wiley & Sons Ltd 295
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+hand-carried and hand-held ultrasound devices, based on
+information from the manufacturer manuals. Data were
+extracted and abstracted jointly by the above-mentioned
+authors. The review protocol has not been previously
+published or registered.
+Results
+General findings
+The initial database search yielded 644 articles. Manual
+review of bibliographies generated four additional refer-
+ences. All were screened and assessed for eligibility for
+full-text review. A total of 591 articles were excluded
+after review of the abstracts as they did not report on the
+use of hand-carried or hand-held ultrasound as defined
+for this review, described non-clinical applications or
+reported on studies performed in a non-LMIC context.
+The remaining 53 articles were manually reviewed, of
+which 36 with relevant content were selected for inclu-
+sion (Figure 1). Of these, 27 were original research stud-
+ies and nine were case reports (Table 1). Geographically,
+most articles were from Africa (13/36), followed by Asia
+(10/36) and South America (6/36). The remaining seven
+manuscripts came from Haiti (4/36), Turkey (2/36) and
+Romania (1/36). Notably, 29/36 articles (80.6%) were
+published after 2010.
+Indications for application of portable ultrasound
+There is considerable variety in the disease spectrum for
+which the use of hand-held and hand-carried ultrasound
+is reported. However, most indications were in the con-
+text of acute medical emergencies and for individual
+patient management. Several studies assessed the role and
+impact of ultrasound as a screening tool in cardiology
+and in natural disasters.
+Portable ultrasound for individual patient diagnosis and
+management
+A case from Sierra Leone highlights the use of a hand-
+carried ultrasound device for the diagnosis of a large
+empyema, and subsequent management of drains and
+complications [7]. A case from Haiti demonstrates the
+use of hand-carried ultrasound in the diagnosis and man-
+agement of intussusception by a clinician without prior
+practical experience in invasive treatment of this condi-
+tion [8]. Intussusception was also successfully diagnosed
+by a non-physician healthcare worker in Uganda using
+hand-carried ultrasound [9]. Goksu et al. describe the
+management of a post-traumatic pseudoaneurysm using a
+hand-carried ultrasound device [10]. Another case report
+from Haiti illustrates the successful use of a hand-carried
+device to perform ocular ultrasound to assess a child with
+Box 1 The search string
+((((((((ultrasound[Title/Abstract] AND africa[Title/Abstract]))) OR ((resource-limited[Title] AND ultrasound[Title])))
+OR ((bedside[Title] AND ultrasound[Title]))) OR (((ultrasound[Title/Abstract] OR ultrasonography[Title/Abstract]
+OR echocardiography[Title/Abstract])) AND (handheld[Title/Abstract] OR hand-carried[Title/Abstract] OR portable
+[Title/Abstract] OR pocket[Title/Abstract] OR point-of-care[Title/Abstract])))) AND (afghanistan OR guatemala OR
+pakistan OR albania OR guinea OR palau OR algeria OR guinea bissau OR panama OR angola OR guyana OR
+papua new guinea OR argentina OR haiti OR paraguay OR armenia OR honduras OR peru OR azerbaijan OR
+india OR philippines OR bangladesh OR indonesia OR romania OR belarus OR iran OR rwanda OR belize OR
+iraq OR samoa OR benin OR jamaica OR sao tome and principe OR bhutan OR jordan OR senegal OR bolivia
+OR kazakhstan OR serbia OR bosnia and herzegovina OR kenya OR seychelles OR botswana OR kiribati OR
+sierra leone OR brazil OR korea OR solomon islands OR bulgaria OR kosovo OR somalia OR burkina faso OR
+kyrgyz republic OR south africa OR burundi OR lao pdr OR south sudan OR cabo verde OR lebanon OR sri lanka
+OR cambodia OR lesotho OR st. lucia OR cameroon OR liberia OR st. vincent and the grenadines OR central afri-
+can republic OR libya OR sudan OR chad OR macedonia OR suriname OR china OR madagascar OR swaziland
+OR colombia OR malawi OR syria OR comoros OR malaysia OR tajikistan OR congo OR maldives OR tanzania
+OR congo OR mali OR thailand OR costa rica OR marshall islands OR timor-leste OR c^
+ote d’ivoire OR mauritania
+OR togo OR cuba OR mauritius OR tonga OR djibouti OR mayotte OR tunisia OR dominica OR mexico OR tur-
+key OR dominican republic OR micronesia OR turkmenistan OR ecuador OR moldova OR tuvalu OR egypt OR
+mongolia OR uganda OR el salvador OR montenegro OR ukraine OR eritrea OR morocco OR uzbekistan OR
+ethiopia OR mozambique OR vanuatu OR fiji OR myanmar OR vietnam OR gabon OR namibia OR palestine OR
+gambia OR nepal OR yemen OR georgia OR nicaragua OR zambia OR ghana OR niger OR zimbabwe OR grenada
+OR nigeria))
+296 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+an abnormal eye, ultimately leading to the diagnosis of
+retinoblastoma [11]. Foreign body localisation and
+removal, a common bedside ultrasound application, was
+also successfully performed using hand-carried ultrasound
+[12]. Samanta et al. report how bedside ultrasound using
+a hand-carried machine was used to guide cardiopul-
+monary resuscitation of a patient with situs inversus in
+India [13]. Another study from India assessed the feasibil-
+ity of cervical ultrasound to detect cervical spine fractures
+in children [14]. Hand-carried ultrasound has been suc-
+cessfully used for surgical patient selection across a broad
+spectrum of diseases, such as abdominal tumours and
+congenital malformations, as well as for telemedicine-
+guided diagnosis in rural areas [15–17].
+Echocardiography using portable ultrasound devices in
+LMIC
+The role of screening echocardiograms using a hand-car-
+ried ultrasound device has been studied in several coun-
+tries. Kobal et al. report that they were able to screen or
+diagnose patients in rural Mexico referred for a cardiol-
+ogy evaluation with a hand-carried ultrasound device,
+obviating the need for a comprehensive echocardiogram
+Records identified through
+database searching
+n = 566
+Screening
+Included
+Eligibility
+Identification
+Additional records identified from
+Google search – n = 98
+Manual bibliography review – n = 4
+Records after duplicates removed
+n = 644
+Records screened
+n = 644
+Records excluded
+Not a hand-held/hand-carried
+device or non-clinical application or
+not performed in LMIC
+– n = 591
+Full-text articles assessed
+for eligibility
+n = 53
+Full-text articles excluded
+Not a hand-held/hand-carried
+device – n = 9
+Type of device not specified –n = 4
+Full-text unavailable – n = 1
+Non-clinical application – n = 2
+Not performed in LMIC – n = 1
+Studies included in
+qualitative synthesis
+n = 36
+Figure 1 PRISMA flow diagram.
+© 2015 John Wiley & Sons Ltd 297
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+Overview
+of
+the
+included
+studies
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Agrawal
+2015
+Assessment
+of
+ultrasound
+as
+a
+diagnostic
+modality
+for
+detecting
+potentially
+unstable
+cervical
+spine
+fractures
+in
+pediatric
+severe
+traumatic
+brain
+injury:
+A
+feasibility
+study
+Journal
+of
+Pediatric
+Neurosciences
+Original
+research
+MicroMaxx
+India
+Hospital
+Cervical
+ultrasound
+was
+used
+to
+emergently
+evaluate
+for,
+and
+detect,
+cervical
+spine
+fractures
+and
+ligamentous
+injuries
+in
+children
+with
+traumatic
+brain
+injury.
+Beaton
+2014
+The
+utility
+of
+handheld
+echocardiography
+for
+early
+diagnosis
+of
+rheumatic
+heart
+disease
+Journal
+of
+the
+American
+Society
+of
+Echocardiography
+Original
+research
+Vscan
+Uganda
+Field
+use/screening
+Hand-held
+echocardiography
+for
+the
+screening
+of
+RHD
+proved
+to
+have
+90%
+sensitivity
+and
+93%
+specificity
+for
+detecting
+disease
+in
+125
+children.
+Beaton
+2015
+The
+utility
+of
+handheld
+echocardiography
+for
+early
+rheumatic
+heart
+disease
+diagnosis:
+a
+field
+study
+European
+Heart
+Journal
+–
+Cardiovascular
+Imaging
+Original
+research
+Vscan
+Uganda
+Field
+use/screening
+In
+this
+study
+of
+1420
+children,
+hand-held
+echocardiography
+was
+able
+to
+detect
+RHD
+with
+79%
+sensitivity
+and
+87%
+specificity,
+with
+98%
+sensitivity
+for
+detecting
+definite
+RHD.
+Blaivas
+2005
+Change
+in
+differential
+diagnosis
+and
+patient
+management
+with
+the
+use
+of
+portable
+ultrasound
+in
+a
+remote
+setting
+Wilderness
+&
+Environmental
+Medicine
+Original
+research
+Sonosite
+180
+Plus
+Amazon
+Field
+use/screening
+Out
+of
+25
+scans
+that
+were
+performed
+in
+this
+study,
+portable
+ultrasound
+significantly
+altered
+disposition
+and
+treatment
+plans
+in
+7
+patients.
+Findings
+included
+intra-abdominal
+haemorrhage,
+pregnancy
+complications,
+hepatobiliary
+and
+renal
+diseases.
+Coskun
+2012
+Our
+new
+stethoscope
+in
+the
+emergency
+department:
+handheld
+ultrasound
+Turkish
+Journal
+of
+Trauma
+&
+Emergency
+Surgery
+Original
+research
+Vscan
+Turkey
+Hospital
+In
+this
+study,
+FAST
+exams
+using
+Vscans
+were
+performed
+on
+216
+patients
+to
+evaluate
+for
+intra-abdominal
+haemorrhage.
+The
+authors
+demonstrated
+a
+sensitivity
+of
+89%,
+specificity
+of
+978%,
+when
+compared
+to
+radiologist-performed
+scans
+using
+regular
+ultrasound
+machines.
+298 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+(Continued)
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Cox
+2014
+Practice
+of
+percutaneous
+needle
+autopsy:
+a
+descriptive
+study
+reporting
+experiences
+from
+Uganda
+BMC
+Clinical
+Pathology
+Original
+research
+Vscan
+Uganda
+Hospital
+In
+this
+study
+involving
+191
+cases,
+ultrasound-guided
+biopsies
+of
+the
+heart,
+liver,
+spleen
+and
+kidneys
+led
+to
+a
+true
+success
+rate
+of
+72–100%
+compared
+with
+56–99%
+for
+blind
+biopsies.
+Dean
+2008
+The
+utility
+of
+handheld
+ultrasound
+in
+an
+austere
+medical
+setting
+in
+Guatemala
+after
+a
+natural
+disaster
+American
+Journal
+of
+Disaster
+Medicine
+Original
+research
+Micromaxx
+Guatemala
+Hospital
+Hand-held
+ultrasound
+was
+utilised
+in
+99
+patients
+with
+a
+variety
+of
+different
+acuity
+levels
+and
+clinical
+applications,
+and
+ruled
+in
+an
+emergent
+problem
+for
+12%
+of
+patients
+while
+42%
+were
+ruled
+out.
+Main
+findings
+included
+abscesses,
+pregnancy
+complications,
+hepatobiliary
+and
+renal
+diseases.
+Gingrich
+2013
+Point-of-care
+ultrasound
+in
+a
+resource-limited
+setting:
+diagnosing
+intussusception
+The
+Journal
+of
+Emergency
+Medicine
+Case
+report
+Sonosite
+180
+Plus
+Haiti
+Hospital
+An
+emergency
+physician
+in
+Haiti
+was
+able
+to
+successfully
+diagnose
+intussusception
+using
+portable
+ultrasound.
+Giusca
+2011
+Accuracy
+of
+handheld
+echocardiography
+for
+bedside
+diagnostic
+evaluation
+in
+a
+tertiary
+cardiology
+center:
+comparison
+with
+standard
+echocardiography
+Echocardiography
+Original
+research
+Acuson
+P10
+Romania
+Hospital
+In
+this
+study,
+hand-held
+echocardiography
+was
+performed
+by
+trainees
+on
+56
+patients
+and
+compared
+against
+standard
+exams
+by
+experts
+with
+good
+agreement
+in
+evaluating
+left
+ventricular
+chamber
+and
+wall
+dimensions,
+left
+ventricular
+function
+and
+valve
+abnormalities.
+Godown
+2015
+Handheld
+echocardiography
+vs.
+auscultation
+for
+detection
+of
+rheumatic
+heart
+disease
+Pediatrics
+Original
+research
+VScan
+Uganda
+Field
+use/screening
+In
+a
+study
+of
+1317
+children
+who
+were
+screened
+for
+RHD
+with
+hand-held
+ultrasound
+vs.
+auscultation,
+sensitivity
+for
+definite
+RHD
+was
+98%
+vs.
+22%.
+© 2015 John Wiley & Sons Ltd 299
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+(Continued)
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Goksu
+2014
+Traumatic
+pseudoaneurysm
+and
+arteriovenous
+fistula
+detected
+by
+bedside
+ultrasound
+The
+Journal
+of
+Emergency
+Medicine
+Case
+report
+Micromaxx
+Turkey
+Hospital
+Hand-held
+ultrasound
+was
+used
+to
+successfully
+diagnose
+a
+new
+thigh
+bruit
+as
+a
+pseudoaneurysm
+with
+concomitant
+arteriovenous
+fistula
+in
+a
+31-year-old
+trauma
+victim.
+Harris
+2015
+Utility
+of
+compact
+ultrasound
+in
+a
+mass
+surgical
+selection
+program
+in
+Africa:
+experience
+of
+a
+sonologist
+at
+the
+MV
+Africa
+Mercy
+Hospital
+Ship’s
+screening
+day
+Journal
+of
+Ultrasound
+in
+Medicine
+Original
+research
+Titan
+Republic
+of
+Congo
+Field
+use/screening
+Ultrasound
+was
+shown
+to
+be
+helpful
+in
+14
+of
+20
+patients
+undergoing
+surgical
+screening,
+eliminating
+the
+need
+for
+CT
+scans
+in
+pre-
+operative
+planning.
+Diagnoses
+included
+soft
+tissue
+mass,
+congenital
+abnormalities,
+ovarian
+tumour
+and
+breast
+cysts.
+Hu
+2014
+Streamlined
+focused
+assessment
+with
+sonography
+for
+mass
+casualty
+prehospital
+triage
+of
+blunt
+torso
+trauma
+patients
+American
+Journal
+of
+Emergency
+Medicine
+Case
+report
+Vscan
+China
+Field
+use/screening
+FAST
+scans
+using
+hand-held
+ultrasound
+were
+used
+to
+triage
+45
+patients
+with
+non-
+ambulatory
+blunt
+torso
+trauma
+and
+demonstrated
+higher
+sensitivity
+and
+specificity
+when
+compared
+with
+established
+triage
+methods.
+Diagnoses
+made
+included
+intra-abdominal
+haemorrhage,
+pericardial
+effusions,
+pneumothoraces
+and
+volume
+status
+assessments.
+Kirkpatrick
+2013
+Enabling
+the
+mission
+through
+trans-atlantic
+remote
+mentored
+musculoskeletal
+ultrasound:
+case
+report
+of
+a
+portable
+hand-carried
+tele-ultrasound
+system
+for
+medical
+relief
+missions
+Telemedicine
+Journal
+and
+E-health
+Case
+report
+Nanomaxx
+Togo
+Field
+use/screening
+Tele-ultrasound
+was
+used
+to
+guide
+a
+patient
+in
+West
+Africa
+through
+self-imaging
+techniques
+to
+diagnose
+a
+torn
+adductor
+muscle.
+300 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+(Continued)
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Kobal
+2004
+Hand-Carried
+Cardiac
+Ultrasound
+enhances
+healthcare
+delivery
+in
+developing
+countries
+The
+American
+Journal
+of
+Cardiology
+Original
+research
+OptiGo
+Mexico
+Field
+use/screening
+In
+this
+study
+of
+126
+patients,
+hand-carried
+cardiac
+ultrasound
+eliminated
+the
+need
+for
+further
+echocardiography
+in
+90%
+of
+patients.
+Diagnoses
+included
+valvular
+diseases,
+left
+ventricular
+hypertrophy
+and
+systolic
+dysfunction.
+Kobal
+2004
+Making
+an
+impossible
+mission
+possible
+Chest
+Original
+research
+SonoHeart
+Elite
+Gambia
+Field
+use/screening
+Hand-carried
+ultrasound
+was
+used
+to
+examine
+1997
+people
+and
+of
+those
+patients
+with
+hypertension,
+ultrasonography
+identified
+left
+ventricular
+hypertrophy
+in
+65%.
+Lu
+2015
+Simplified
+rheumatic
+heart
+disease
+screening
+criteria
+for
+handheld
+echocardiography
+Journal
+of
+the
+American
+Society
+of
+Echocardiography
+Original
+research
+Vscan
+Uganda
+Field
+use/screening
+In
+a
+study
+consisting
+of
+1439
+children,
+hand-held
+echocardiography
+demonstrated
+98%
+sensitivity
+for
+detection
+of
+definite
+RHD
+with
+the
+ability
+to
+decrease
+the
+need
+for
+standard
+echocardiography
+by
+up
+to
+80%.
+Mancuso
+2015
+Focused
+cardiac
+ultrasound
+using
+a
+pocket-size
+device
+in
+the
+emergency
+room
+Arquivos
+Brasileiros
+de
+Cardiologia
+Original
+research
+Vscan
+Brazil
+Hospital
+Hand-held
+ultrasound
+used
+in
+the
+evaluation
+of
+100
+patients
+with
+cardiopulmonary
+complaints
+confirmed
+the
+diagnosis
+of
+several
+potentially
+life-
+threatening
+conditions
+and
+changed
+the
+diagnosis
+in
+17
+cases.
+Findings
+included
+heart
+failure,
+pulmonary
+embolism,
+pericardial
+effusion
+with
+tamponade,
+pericarditis,
+aortic
+stenosis
+and
+thoracic
+aortic
+dissection.
+© 2015 John Wiley & Sons Ltd 301
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+(Continued)
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Mand
+2003
+Animated
+documentation
+of
+the
+filaria
+dance
+sign
+(FDS)
+in
+bancroftian
+filariasis
+Filaria
+Journal
+Original
+research
+Sonosite
+180
+Plus
+Ghana
+Field
+use/screening
+Hand-carried
+ultrasound
+was
+used
+to
+identify
+the
+unique
+movements
+(filarial
+dance
+sign)
+of
+Wuchereria
+bancrofti
+worms
+in
+scrotal
+lymphatic
+vessels
+in
+all
+33
+patients
+evaluated.
+Meena
+2013
+Spontaneous
+migration
+of
+bullet
+from
+arm
+to
+forearm
+and
+its
+ultrasound
+guided
+removal
+Journal
+of
+Ultrasound
+Case
+report
+Micromaxx
+India
+Hospital
+Ultrasound
+was
+used
+to
+localise
+and
+remove
+a
+bullet
+in
+a
+24-year-old
+man
+which
+had
+spontaneously
+migrated
+over
+a
+3-month
+period
+from
+his
+proximal
+arm
+to
+his
+forearm.
+Michels
+2013
+The
+predictive
+diagnostic
+value
+of
+serial
+daily
+bedside
+ultrasonography
+for
+severe
+dengue
+in
+Indonesian
+adults
+PLoS
+Neglected
+Tropical
+Diseases
+Original
+research
+Signos
+Indonesia
+Hospital
+Daily
+bedside
+ultrasound
+for
+pleural
+effusion,
+ascites
+and
+gallbladder
+wall
+thickening,
+performed
+on
+66
+patients
+with
+dengue
+fever,
+was
+better
+at
+predicting
+progression
+to
+severe
+disease
+when
+compared
+with
+monitoring
+of
+existing
+markers,
+such
+as
+haematocrit.
+Murphy
+2011
+Ultrasound
+findings
+in
+Plasmodium
+falciparum
+malaria:
+A
+pilot
+study
+Pediatric
+Critical
+Care
+Medicine
+Original
+research
+Micromaxx
+Uganda
+Hospital
+Sonographic
+evaluation
+of
+optic
+nerve
+sheath
+diameter,
+transcranial
+Doppler,
+spleen
+size
+and
+cardiac
+function
+allowed
+for
+an
+improved
+assessment
+of
+33
+children
+with
+malaria.
+Parashar
+2011
+Pocket
+carried
+ultrasound:
+its
+usefulness
+in
+clinical
+practice
+–
+a
+pilot
+study
+Indian
+Heart
+Journal
+Original
+research
+Vscan
+India
+Hospital
+In
+this
+study
+of
+61
+patients,
+hand-carried
+ultrasound
+was
+able
+to
+correctly
+identify
+a
+variety
+of
+normal
+and
+diseased
+cardiac
+anatomy,
+but
+most
+importantly
+identified
+valvular
+disease
+and
+ischaemia-related
+RWMA.
+302 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+(Continued)
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Presley
+2013
+Emergency
+department
+bedside
+ultrasound
+diagnosis
+of
+retinoblastoma
+in
+a
+child
+Pediatric
+Emergency
+Care
+Case
+report
+Nanomaxx
+Haiti
+Hospital
+Ultrasound
+was
+used
+to
+correctly
+diagnose
+retinoblastoma
+in
+a
+30-
+month-old
+patient
+based
+on
+characteristic
+findings
+of
+bilateral
+ocular
+masses
+and
+dense
+calcifications.
+Rotte
+2014
+Use
+of
+ultrasound
+to
+diagnose
+and
+manage
+a
+five-liter
+empyema
+in
+a
+rural
+clinic
+in
+sierra
+Leone
+Case
+Reports
+in
+Emergency
+Medicine
+Case
+report
+Titan
+Sierra
+Leone
+Field
+use/screening
+This
+report
+demonstrates
+the
+utility
+of
+ultrasound
+in
+the
+diagnosis
+and
+management
+of
+a
+dyspnoeic
+patient
+found
+to
+have
+a
+five-litre
+pleural
+empyema.
+Samanta
+2013
+Cardiopulmonary
+resuscitation
+in
+undiagnosed
+situs
+inversus
+totalis
+in
+emergency
+department:
+An
+intensivist
+challenge
+Saudi
+Journal
+of
+Anaesthesia
+Case
+report
+Micromaxx
+India
+Hospital
+Ultrasonography
+was
+used
+during
+CPR
+on
+a
+34-year-old
+woman
+with
+previously
+undiagnosed
+situs
+inversus
+totalis
+allowing
+for
+a
+modified
+approach
+to
+her
+resuscitation.
+Sethi
+2014
+Point-of-care
+ultrasonography
+for
+position
+of
+tip
+of
+endotracheal
+tube
+in
+neonates
+Indian
+Pediatrics
+Original
+research
+Micromaxx
+India
+Hospital
+In
+this
+study,
+ultrasonography
+was
+able
+to
+visualise
+correct
+placement
+of
+endotracheal
+tube
+in
+48
+of
+53
+neonates
+and
+in
+the
+remaining
+5
+patients
+without
+visualisation,
+the
+tube
+was
+verified
+by
+X-ray
+to
+be
+at
+a
+higher
+level.
+Shah
+2010
+Impact
+of
+portable
+ultrasound
+in
+trauma
+care
+after
+the
+Haitian
+earthquake
+of
+2010
+American
+Journal
+of
+Disaster
+Medicine
+Original
+research
+Micromaxx
+Haiti
+Hospital
+Portable
+ultrasound
+was
+found
+to
+be
+useful
+in
+the
+evaluation
+of
+142
+patients
+after
+an
+earthquake,
+diagnosing
+intra-
+abdominal
+haemorrhage,
+pneumothorax
+and
+intra-
+abdominal
+infections.
+It
+also
+proved
+useful
+for
+ultrasound-
+guided
+regional
+anaesthesia.
+© 2015 John Wiley & Sons Ltd 303
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+(Continued)
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Shorter
+2012
+Portable
+handheld
+ultrasound
+in
+austere
+environments:
+use
+in
+the
+Haiti
+disaster
+Pre-hospital
+and
+disaster
+Medicine
+Original
+research
+Signos
+Haiti
+Field
+use/screening
+Ultrasound
+was
+used
+in
+the
+triage
+of
+50
+patients
+and
+was
+found
+to
+influence
+decisions
+about
+patient
+care
+in
+70%
+of
+scans
+by
+evaluating
+truncal
+trauma,
+fractures,
+foreign
+bodies,
+hepatobiliary
+and
+renal
+disease
+and
+pregnancy
+complications.
+Singh
+2013
+American
+Society
+of
+Echocardiography:
+Remote
+Echocardiography
+with
+Web-Based
+Assessments
+for
+Referrals
+at
+a
+Distance
+(ASE-REWARD)
+Study
+Journal
+of
+the
+American
+Society
+of
+Echocardiography
+Original
+research
+Vscan
+India
+Field
+use/screening
+This
+study
+demonstrated
+the
+feasibility
+of
+remote,
+web-
+based
+evaluation
+by
+physicians
+across
+the
+world
+of
+1021
+echocardiography
+scans
+performed
+by
+sonographers
+in
+India
+who
+diagnosed
+valvular
+disease,
+systolic
+dysfunction
+and
+congenital
+heart
+disease.
+Siqueira
+2015
+Training
+Program
+for
+Cardiology
+Residents
+to
+Perform
+Focused
+Cardiac
+Ultrasound
+Examination
+with
+Portable
+Device
+Echocardiography
+Original
+research
+SonoHeart
+Elite,
+Nanomaxx
+Brazil
+Hospital
+In
+this
+study,
+resident
+physicians
+were
+trained
+in
+focused
+cardiac
+ultrasound
+using
+hand-held
+devices
+with
+good
+agreement
+when
+compared
+with
+expert
+echocardiogaphers
+when
+diagnosing
+valvular
+disease,
+left
+ventricular
+hypertrophy,
+systolic
+dysfunction
+and
+pericardial
+effusion.
+Stolz
+2013
+Intussusception
+detected
+with
+ultrasound
+in
+a
+resource-limited
+setting
+Lancet
+Case
+report
+Micromaxx
+Uganda
+Hospital
+Ultrasound
+was
+used
+to
+diagnose
+intussusception
+in
+a
+5-month-old
+child
+based
+on
+characteristic
+findings
+of
+intra-abdominal
+free
+fluid,
+intestinal
+obstruction
+and
+target
+sign.
+304 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+1
+(Continued)
+First
+author
+Year
+published
+Title
+Journal
+Type
+of
+article
+Ultrasound
+device
+used
+Geographical
+region
+Environment
+Key
+findings
+Sutherasan
+2013
+Predicting
+laryngeal
+edema
+in
+intubated
+patients
+by
+portable
+intensive
+care
+unit
+ultrasound
+Journal
+of
+Critical
+Care
+Original
+research
+M-Turbo
+Thailand
+Hospital
+Ultrasound
+was
+found
+to
+be
+useful
+in
+predicting
+laryngeal
+oedema
+in
+intubated
+patients
+by
+measuring
+air
+column
+width
+differences,
+with
+an
+NPV
+of
+0.92.
+Tsutsui
+2004
+Hand-carried
+ultrasound
+performed
+at
+bedside
+in
+cardiology
+inpatient
+setting
+–
+a
+comparative
+study
+with
+comprehensive
+echocardiography
+Cardiovascular
+Ultrasound
+Original
+research
+OptiGo
+Brazil
+Hospital
+In
+this
+study,
+hand-carried
+ultrasound
+was
+found
+to
+have
+good
+agreement
+with
+comprehensive
+echocardiography
+in
+detecting
+RWMA,
+systolic
+dysfunction
+and
+valvular
+disease.
+Zha
+2015
+Ultrasound
+diagnosis
+of
+malaria:
+examination
+of
+the
+spleen,
+liver,
+and
+optic
+nerve
+sheath
+diameter
+World
+Journal
+of
+Emergency
+Medicine
+Original
+research
+Nanomaxx
+Tanzania
+Hospital
+This
+study
+demonstrated
+a
+specificity
+of
+91%
+for
+spleen
+size
+and
+75%
+for
+liver
+size
+in
+the
+diagnosis
+of
+severe
+malaria,
+demonstrating
+the
+potential
+utility
+of
+ultrasound
+as
+a
+tool
+for
+triage
+and
+risk
+stratification.
+Zhang
+2014
+Utility
+of
+point-of-care
+ultrasound
+in
+acute
+management
+triage
+of
+earthquake
+injury
+American
+Journal
+of
+Emergency
+Medicine
+Original
+research
+Vscan
+China
+Field
+use/screening
+In
+this
+study,
+38
+patients
+with
+blunt
+truncal
+trauma
+or
+open
+extremity
+injury
+were
+triaged
+using
+modified
+FAST
+exams
+with
+positive
+findings
+found
+in
+45%
+of
+patients,
+such
+as
+intra-abdominal
+free
+fluid,
+pneumothorax
+or
+volume
+status
+assessments,
+directly
+affecting
+their
+management.
+RHD,
+rheumatic
+heart
+disease;
+FAST,
+focused
+assessment
+with
+sonography
+for
+trauma;
+RWMA,
+regional
+wall
+motion
+abnormalities.
+© 2015 John Wiley & Sons Ltd 305
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+in 90% of patients seen [18]. A similar approach was
+used to diagnose patients with left ventricular hypertro-
+phy (LVH) [19]. The presence of LVH was used as an
+indicator to initiate antihypertensive therapy. Multiple
+studies demonstrate the successful use of hand-held ultra-
+sound to screen for rheumatic heart disease, where it
+appears to be clearly superior to auscultation alone
+[20–23]. Echocardiograms performed using a hand-held
+ultrasound device in emergency department patients with
+suspected cardiac complaints in Brazil helped to confirm
+or change the diagnosis in half of all cases, mostly ruling
+out heart failure and cardiogenic shock, but also diagnos-
+ing pericarditis as cause of chest pain [24]. Two studies
+from Brazil demonstrate high diagnostic accuracy of
+hand-carried ultrasound compared to comprehensive
+echocardiograms when assessing ejection fraction, wall
+motion, and valvular regurgitation in cardiac in-patients,
+and acquisition of diagnostic skills was reported to be
+good even with limited training [25, 26]. Similarly,
+researchers from Romania report that cardiology trainees
+using a hand-held ultrasound device accurately identified
+valvular abnormalities, pericardial effusion and abnormal
+left ventricular chamber morphology [27]. Parashar et al.
+describe their experiences with a hand-held ultrasound
+device in diagnosing a wide variety of cardiac problems,
+in particular valvular abnormalities and ischaemia-related
+regional wall motion abnormalities [28].
+Ultrasound protocols used in LMIC and impact of
+portable ultrasound on patient management
+Besides echocardiography, only few publications have
+assessed the application of ultrasound-based clinical algo-
+rithms and protocols for disease processes commonly
+encountered in LMIC. Zha et al. developed a risk stratifi-
+cation protocol for malaria in an endemic area, using
+measurements of spleen, liver and optic nerve sheath
+diameter by a hand-held ultrasound device [29]. Murphy
+et al. describe a similar protocol, using optic nerve sheath
+diameter, echocardiogram, spleen size and transcranial
+Doppler measurements [30]. Mand et al. propose the use
+of scrotal ultrasound to help in the assessment of lym-
+phatic filariasis [31]. Cox et al. developed a protocol
+using hand-held ultrasound to guide needle biopsy autop-
+sies, which had superior success rates to landmark-guided
+needle biopsy [32]. Michels et al. used a hand-held ultra-
+sound device for daily serial exams of patients with den-
+gue, evaluating them for evidence of subclinical plasma
+leakage by screening for pleural effusion, ascites and gall-
+bladder wall thickening. They found these sonographic
+abnormalities to be more helpful in predicting progres-
+sion to severe dengue than using laboratory markers such
+as haematocrit. Gallbladder wall thickening was particu-
+larly helpful, yielding a negative predictive value for sev-
+ere dengue of 91% [33]. Hand-carried ultrasound was
+successfully used to confirm the position of an endotra-
+cheal tube in neonates in a rural hospital India, with the
+potential to obviate the need for radiographic confirma-
+tion [34]. A study from Thailand reports on the use of
+hand-carried ultrasound to assess laryngeal oedema in
+patients being evaluated for extubation readiness [35].
+Blavais et al. report on the use of a hand-carried ultra-
+sound machine in the Amazon jungle [36]. They found
+that ultrasound use had a significant impact on patient
+disposition, aiding both in determining the need for rapid
+evacuation as well as providing reassurance that local
+treatment would be safe. Most scans involved abdominal
+and pelvic applications. A hand-held ultrasound device
+was used for Focused Assessment with Sonography for
+Trauma (FAST) examinations in Turkey, and compared
+well to follow-up examinations carried out by radiolo-
+gists using full-size machines [37].
+Portable ultrasound use in disaster situations
+Natural disasters, like earthquakes, are particularly chal-
+lenging to manage in LMIC with limited healthcare
+resources at baseline. The lack of reliable access to
+power, a high number of victims and the need for rapid
+triage make ultrasound a frequently used tool in these
+scenarios. In all studies identified, patients were evaluated
+by modified FAST examinations, supplemented with pul-
+monary, pelvic and soft tissue scans. Shorter et al. report
+using a hand-held ultrasound device in the aftermath of
+the 2010 earthquake in Haiti. Ultrasound changed the
+clinical management in 70% of patients evaluated, such
+as surgical referral, clinical observation instead of previ-
+ously planned surgery, decisions about transfer to a
+higher level of care or use of certain medications [38].
+Shah et al. report on the usefulness of a hand-carried
+ultrasound device in triaging and treating crush injury
+victims in Haiti [39]. After a hurricane and mudslide in
+Guatemala in 2005, a hand-carried ultrasound machine
+was deployed. A total of 137 scans were performed in
+10 days, and almost nine of ten scans required a curved
+array probe [40]. A hand-held ultrasound device was also
+successfully used to modify an established triage algo-
+rithm for rapid assessment with FAST examination after
+an earthquake in China [41]. Another report from China
+illustrates the immediate impact of ultrasound-guided
+assessment on the initial resuscitation of earthquake
+victims [42]. Given the degree of traumatic injuries seen
+after natural disasters, the most common sonographic
+evaluations performed in these studies aimed at
+306 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+diagnosing intra-abdominal haemorrhage and pneumoth-
+oraces. In addition, a significant number of scans was
+carried out to evaluate pregnancy complications, muscu-
+loskeletal injuries or hepatobiliary disease.
+Characteristics of different portable ultrasound devices
+Table 2 lists all currently commercially available hand-
+held or hand-carried ultrasound systems. This overview
+includes all devices discussed in the studies that are
+included in this review. All systems typically have some
+form of integration with imaging storage and manage-
+ment systems, as well as internal storage for images,
+video clips, voice and text annotations. As these features
+are less used in the environments described in this article,
+they are excluded from the table to improve clarity.
+Discussion
+Ultrasound appears to be the ideal imaging modality at
+the bedside as no other imaging technology requires as
+little infrastructure and maintenance as ultrasound. Ultra-
+sound gel, the only routine supply item needed, can easily
+be produced locally [43]. Based on previous data, ultra-
+sound has been categorised as ‘essential’ for better patient
+care in LMIC [44]. Hence, we assessed the available sci-
+entific literature to provide an update on the current situ-
+ation of hand-carried and hand-held ultrasound devices
+in LMIC.
+Our systematic literature review reveals that hand-car-
+ried and hand-held ultrasound devices are used for a vari-
+ety of different indications. In particular, these devices
+appear to be frequently used for echocardiographic appli-
+cations and in disaster situations. Attempts have also
+been made to formally define their indication for use by
+including ultrasound in patient care protocols. The most
+commonly reported geographical area of use in LMIC is
+sub-Saharan Africa. Data assessing the resulting impact
+of ultrasound findings on patient management are scarce,
+but in this review portable ultrasound led to a modifica-
+tion of clinical management in up to 70% of reported
+cases [38, 45]. The technical features and specifications
+of the devices used vary widely with regard to imaging
+modes and screen size.
+Our search resulted mainly in original research articles,
+although mostly representing observational data from
+case series. The overall level of evidence is low, and high-
+quality, objective studies analysing the use and impact of
+hand-carried and hand-held ultrasound devices are
+needed to better inform key stakeholders and policy mak-
+ers. Despite previous calls for more rigorous studies on
+the impact of portable ultrasound devices, there has been
+a lack of funding to support these efforts [46]. However,
+high-quality data are urgently needed to assess the longi-
+tudinal impact of readily available, bedside ultrasound
+diagnosis and treatment in LMIC. Indeed, ultrasound
+could be of particular relevance in these settings, because
+several neglected tropical diseases are endemic in LMIC
+for which international guidelines highly recommend the
+use of ultrasound imaging, for example echinococcosis
+and schistosomiasis [47–49]. Likewise, the utility of
+hand-held devices for improved diagnosis and clinical
+patient management in LMIC has already been reported
+for other specific diagnostic areas, for example hand-held,
+battery-run microscopes for the diagnosis of intestinal
+parasites in settings without laboratory infrastructure and
+with no constant access to electricity [50–52].
+Anecdotally, the authors themselves have employed
+hand-carried ultrasound devices, and the hand-held GE
+Vscan Dual (General Electric, Fairfield, CT, USA), in
+LMIC. We have successfully diagnosed and managed
+increased intracranial pressure, ocular trauma, pneumoth-
+orax, pneumonia, pleural effusion, pulmonary oedema,
+systolic congestive heart failure, urinary retention, liver
+cysts, deep vein thrombosis in these settings, where alter-
+native imaging options were either not available alto-
+gether, or not without significant delays in patient care.
+One important drawback to the successful broad
+implementation of ultrasound-based diagnostics in LMIC
+is the lack of training in the majority of resource-con-
+strained settings. In fact, there often is little to no formal
+training for practising physicians [53]. Lack of qualified
+clinicians able to provide ultrasound training has been
+identified as one of the major barriers that need to be
+addressed before a wider use of ultrasound imaging seems
+feasible [4]. However, it has been shown that even short-
+training courses may lead to significant knowledge reten-
+tion and improve practical skills, even when prior ultra-
+sound experience was minimal [54–57]. An international
+initiative led by the University of Pavia in Italy is now
+addressing the pressing need for improved training
+regarding ultrasound application in the tropics through
+the implementation of regular, expert-led short-term
+training courses (http://www.tropicalultrasound.org), but
+further funding for implementation of such programmes
+in LMIC is urgently required. There are also other initia-
+tives with a similar focus (http://www.pureultra-
+sound.org).
+While a number of portable ultrasound devices have
+been commercialised, not all are truly hand-held, as
+demonstrated in Table 2. The literature suggests that a
+curved array probe is sufficient for the vast majority of
+examination indications, which are mostly of abdominal
+and obstetric nature [40, 44–46]. These findings may help
+© 2015 John Wiley & Sons Ltd 307
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+Table
+2
+Technology
+review
+of
+commercially
+available
+hand-held
+(HH)
+and
+hand-carried
+(HC)
+ultrasound
+systems
+(Cart-based
+systems
+and
+larger
+were
+excluded)
+Device
+Format
+Console
+dimensions
+(cm)/Weight
+(kg)
+Battery-capacity
+(Ah)/run
+time
+(h)
+Probes
+Other
+imaging
+modes
+Screen
+size/Resolution
+GE
+VScan
+HH
+13.5
+9
+7.3
+9
+2.8/0.4
+Li-po
+1.4/1.0
+19
+PA
+(fixed
+sector)
+CD
+3.5″/240
+9
+320
+VScan
+Dual
+HH
+13.5
+9
+7.3
+9
+2.8/0.4
+Li-po
+1.4/1.0
+19
+dual
+PA
+(fixed
+linear
++
+sector)
+CD
+3.5″/240
+9
+320
+Venue
+40
+HC
+28.2
+9
+27.4
+9
+5.6/3.6
+Li-ion
+5.0/1.0
+19
+PA
+(standard
++
+EC)
+NR,
+PD,
+CD,
+M
+10.4″/800
+9
+600
+Sonosite
+NanoMaxx
+HH
+20.8
+9
+35.8
+9
+5.8/2.7
+Li-ion
+5.2/2.0
+19
+PA
+(standard)
+M,
+CD,
+PD
+8.4″/*
+Sonosite180/
+SonoHeart
+Elite
+HC
+33.8
+9
+19.3
+9
+6.4/2.5
+Li-ion
+3.0/1.5–4.0
+19
+PA
+(standard
++
+EC)
+CD,
+PD,
+PW,
+CW,
+M,
+H
+5.0″/*
+Micromaxx
+HC
+30.0
+9
+27.4
+9
+7.9/3.9
+Li-ion
+4.4/2.0
+19
+PA
+(standard
++
+EC
++
+TEE)
+H,
+M,
+CD,
+PD,
+PW,
+CW
+10.4″/*
+M-Turbo
+HC
+30.0
+9
+27.4
+9
+7.9/3.9
+Li-ion
+5.2/2.0
+19
+PA
+(standard
++
+EC
++
+TEE)
+H,
+M,
+CD,
+PD,
+PW,
+CW
+10.4″/*
+Edge
+HC
+32.7
+9
+31.5
+9
+6.4/3.9
+Li-ion
+*/2.0
+19
+PA
+(standard
++
+EC
++
+TEE)
+H,
+M,
+CD,
+PD,
+PW,
+CW
+12.1″/*
+Titan
+HC
+30.0
+9
+27.7
+9
+7.6/3.8
+Li-ion
+4.4/1.5–4.0
+19
+PA
+(standard
++
+EC)
+H,
+M,
+CD,
+PD,
+PW,
+CW
+8.5″/*
+Siemens
+Acuson
+P10
+HH
+5.4
+9
+9.7
+9
+14.2/0.73
+Li-ion
+*/1.0
+19
+PA
+(fixed
+sector)
+H
+3.7″/640
+9
+480
+Phillips
+Visiq
+HHT
+~10″
+tablet
+(from
+photos)
+*/2.5
+19
+PA
+(curvi-linear)
+H,
+M,
+PW,
+CD
+~10″
+tablet/*
+OptiGo
+HC
+33
+9
+22.9
+9
+8.9/3.4
+Li-ion
+7.2/2
+19
+PA
+(fixed
+sector)
+CD
+6.5″/640
+9
+480
+Mobisante
+Mobi-US
+SP1
+HH
+13.0
+9
+7.0
+9
+1.0/0.33
+*/1–5.5
+19
+MW
+(sector)
+–
+4.1″/800
+9
+480
+Mobi-US
+TC2
+HC
+25.2
+9
+19.3
+9
+1.5/3.2
+*/2.25
+19
+MW
+(standard
++
+EC)
+–
+10″/1024
+9
+768
+Signostics
+SignosRT
+HH
+11.5
+9
+6.8
+9
+2/0.4
+Li-po
+2.0/2–30
+19
+MW
+(fixed
+sector)
+M,
+PW
+2.7″/240
+9
+320
+Terrason
+uSmart
+3200T
+HC
+32.1
+9
+22.4
+9
+3.2/2.0
+*/*
+19
+PA
+(standard
++
+EC)
+M,
+CD,
+PW,
+PD
+11.5″/*
+NR,
+needle
+recognition;
+PD,
+power
+Doppler;
+CD,
+colour
+Doppler;
+M,
+M-mode;
+PW,
+pulsed-wave
+Doppler;
+CW,
+continuous-wave
+Doppler;
+Z,
+zoom;
+H,
+Harmonic
+imag-
+ing;
+PA,
+phased-array;
+MW,
+mechanical
+wobbler;
+EC,
+endocavitary;
+TEE,
+transesophageal
+echo;
+HH,
+hand-held
+device
+(i.e.
+PDA/tablet);
+HC,
+hand-carried
+(i.e.
+laptop);
+li-po,
+lithium
+polymer
+battery;
+li-ion,
+lithium-ion
+battery.
+*
+=
+unknown
+parameter.
+B-mode
+imaging,
+zoom
+and
+measurement
+callipers
+were
+assumed
+as
+standard
+features
+for
+all
+systems.
+308 © 2015 John Wiley & Sons Ltd
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+manufacturers to design affordable, easy-to-use devices
+that focus on battery life and rugged design rather than
+on multiple transducer probes.
+Our review has several limitations. First, we may have
+missed reports from small journals published in LMIC, as
+these are often not included in the literature databases
+searched for this review. This is particularly true for sci-
+entific journals that are not published in English. For
+instance, it is likely that many researchers from non-Eng-
+lish speaking LMIC prefer to submit manuscripts to jour-
+nals that are published in the regionally most important
+language, such as French (West and Central Africa),
+Spanish (Latin America) or Portuguese (Brazil). Such a
+publication bias may partially explain why most manu-
+scripts reviewed here have been written by authors from
+high-income countries. Second, the lack of well-designed
+studies that assess the utility and clinical impact of hand-
+held and hand-carried ultrasound devices limits the valid-
+ity of our conclusion. Specifically, the reported data on
+the impact of portable ultrasound clinical management
+are likely overestimating its true effect, as it is commonly
+seen with observational studies [58].
+In summary, this review highlights the potential for
+portable ultrasound devices in LMIC, and hand-held
+machines in particular. However, so far the lack of suffi-
+cient data pertaining to the role of portable ultrasound
+systems for improved management of certain clinical syn-
+dromes does not allow for general practice recommenda-
+tions. We conclude that there is a need to scientifically
+assess and evaluate the use of these devices in LMIC at a
+large scale to better define the scope, impact and
+potential benefits of hand-carried ultrasound in
+resource-constrained settings worldwide.
+Acknowledgement
+We thank Gurpreet K. Rana, MLIS, Global Health Coor-
+dinator, Taubman Health Sciences Library, University of
+Michigan, for her assistance with the literature search.
+References
+1. Moore CL, Copel JA. Point-of-care ultrasonography. N Engl
+J Med 2011: 364: 749–757.
+2. World Health Organization. Future use of new imaging
+technologies in developing countries. Report of a WHO Sci-
+entific Group. World Health Organ Tech Rep Ser 1985:
+723: 1–67.
+3. Nelson BP, Narula J. How relevant is point-of-care ultra-
+sound in LMIC? Glob Heart 2013: 8: 287–288.
+4. Henwood PC, Beversluis D, Genthon AA et al. Characteriz-
+ing the limited use of point-of-care ultrasound in Colombian
+emergency medicine residencies. Int J Emerg Med
+2014: 7: 7.
+5. Wright J, Noriega O, Ho H. The application of hand-held
+ultrasound scanner in teaching of telemedicine and rural
+medicine. Donald School J Ultrasound Obstet Gynecol
+2014: 8: 87–91.
+6. Moher D, Liberati A, Tetzlaff J, Altman DG. Preferred
+reporting items for systematic reviews and meta-analyses:
+The PRISMA statement. Ann Intern Med 2009: 151: 264–
+269, W264.
+7. Rotte M, Fields JM, Torres S, Dominick C, Kelly JD. Use of
+ultrasound to diagnose and manage a five-liter empyema in
+a rural clinic in Sierra Leone. Case Rep Emerg Med 2014:
+2014: 173810.
+8. Gingrich AS, Saul T, Lewiss RE. Point-of-care ultrasound in
+a resource-limited setting: diagnosing intussusception.
+J Emerg Med 2013: 45: e67–e70.
+9. Stolz LA, Kizza H, Little K, Kasekende J. Intussusception
+detected with ultrasound in a resource-limited setting.
+Lancet 2013: 381: 2054.
+10. Goksu E, Yuruktumen A, Kaya H. Traumatic pseudoa-
+neurysm and arteriovenous fistula detected by bedside
+ultrasound. J Emerg Med 2014: 46: 667–669.
+11. Presley BC, Flannigan MJ. Emergency department bedside
+ultrasound diagnosis of retinoblastoma in a child. Pediatr
+Emerg Care 2013: 29: 1128–1131.
+12. Meena S, Singla A, Saini P, Mittal S, Chowdhary B. Sponta-
+neous migration of bullet from arm to forearm and its ultra-
+sound guided removal. J Ultrasound 2013: 16: 223–225.
+13. Samanta S, Ghatak T. Cardiopulmonary resuscitation in
+undiagnosed situs inversus totalis in emergency department:
+an intensivist challenge. Saudi J Anaesth 2013: 7: 347–349.
+14. Agrawal D, Sinha TP, Bhoi S. Assessment of ultrasound as a
+diagnostic modality for detecting potentially unstable cervi-
+cal spine fractures in pediatric severe traumatic brain injury:
+a feasibility study. J Pediatr Neurosci 2015: 10: 119–122.
+15. Kirkpatrick AW, Blaivas M, Sargsyan AE et al. Enabling the
+mission through trans-atlantic remote mentored muscu-
+loskeletal ultrasound: case report of a portable hand-carried
+tele-ultrasound system for medical relief missions. Telemed J
+E Health 2013: 19: 530–534.
+16. Harris RD, Parker G. Utility of compact ultrasound in a
+mass surgical selection program in Africa: experience of a
+sonologist at the MV Africa Mercy Hospital Ship’s screening
+day. J Ultrasound Med 2015: 34: 341–348.
+17. Singh S, Bansal M, Maheshwari P et al. American Society of
+Echocardiography: remote echocardiography with web-
+based assessments for referrals at a distance (ASE-
+REWARD) study. J Am Soc Echocardiogr 2013: 26:
+221–233.
+18. Kobal SL, Lee SS, Willner R et al. Hand-carried cardiac
+ultrasound enhances healthcare delivery in developing coun-
+tries. Am J Cardiol 2004: 94: 539–541.
+19. Kobal SL, Czer LS, Czer PC, Feldsher Z, Hamilton R, Siegel
+RJ. Making an impossible mission possible. Chest 2004:
+125: 293–296.
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+© 2015 John Wiley & Sons Ltd 309
+20. Godown J, Lu JC, Beaton A et al. Handheld echocardiogra-
+phy versus auscultation for detection of rheumatic heart
+disease. Pediatrics 2015: 135: e939–e944.
+21. Lu JC, Sable C, Ensing GJ et al. Simplified rheumatic heart
+disease screening criteria for handheld echocardiography.
+J Am Soc Echocardiogr 2015: 28: 463–469.
+22. Beaton A, Aliku T, Okello E et al. The utility of handheld
+echocardiography for early diagnosis of rheumatic heart
+disease. J Am Soc Echocardiogr 2014: 27: 42–49.
+23. Beaton A, Lu JC, Aliku T et al. The utility of handheld
+echocardiography for early rheumatic heart disease diagno-
+sis: a field study. Eur Heart J Cardiovasc Imaging 2015: 16:
+475–482.
+24. Mancuso FJ, Siqueira VN, Moises VA et al. Focused cardiac
+ultrasound using a pocket-size device in the emergency
+room. Arq Bras Cardiol 2014: 103: 530–537.
+25. Tsutsui JM, Maciel RR, Costa JM, Andrade JL, Ramires JF,
+Mathias W Jr. Hand-carried ultrasound performed at bed-
+side in cardiology inpatient setting – a comparative study
+with comprehensive echocardiography. Cardiovasc Ultra-
+sound 2004: 2: 24.
+26. Siqueira VN, Mancuso FJ, Campos O, De Paola AA, Car-
+valho AC, Moises VA. Training program for cardiology resi-
+dents to perform focused cardiac ultrasound examination
+with portable device. Echocardiography 2015: 32:
+1455–1462.
+27. Giusca S, Jurcut R, Ticulescu R et al. Accuracy of handheld
+echocardiography for bedside diagnostic evaluation in a ter-
+tiary cardiology center: comparison with standard echocar-
+diography. Echocardiography 2011: 28: 136–141.
+28. Parashar SK, Jain V. Pocket carried ultrasound: its useful-
+ness in clinical practice–a pilot study. Indian Heart J 2011:
+63: 185–189.
+29. Zha Y, Zhou M, Hari A et al. Ultrasound diagnosis of
+malaria: examination of the spleen, liver, and
+optic nerve sheath diameter. World J Emerg Med 2015: 6:
+10–15.
+30. Murphy S, Cserti-Gazdewich C, Dhabangi A et al. Ultra-
+sound findings in Plasmodium falciparum malaria: a pilot
+study. Pediatr Crit Care Med 2011: 12: e58–e63.
+31. Mand S, Marfo-Debrekyei Y, Dittrich M, Fischer K, Adjei
+O, Hoerauf A. Animated documentation of the filaria dance
+sign (FDS) in bancroftian filariasis. Filaria J 2003: 2: 3.
+32. Cox JA, Lukande RL, Kalungi S et al. Practice of percuta-
+neous needle autopsy; a descriptive study reporting experi-
+ences from Uganda. BMC Clin Pathol 2014: 14: 44.
+33. Michels M, Sumardi U, de Mast Q et al. The predictive
+diagnostic value of serial daily bedside ultrasonography for
+severe dengue in Indonesian adults. PLoS Negl Trop Dis
+2013: 7: e2277.
+34. Sethi A, Nimbalkar A, Patel D, Kungwani A, Nimbalkar
+S. Point of care ultrasonography for position of tip of
+endotracheal tube in neonates. Indian Pediatr 2014: 51:
+119–121.
+35. Sutherasan Y, Theerawit P, Hongphanut T, Kiatboonsri C,
+Kiatboonsri S. Predicting laryngeal edema in intubated
+patients by portable intensive care unit ultrasound. J Crit
+Care 2013: 28: 675–680.
+36. Blaivas M, Kuhn W, Reynolds B, Brannam L. Change in dif-
+ferential diagnosis and patient management with the use of
+portable ultrasound in a remote setting. Wilderness Environ
+Med 2005: 16: 38–41.
+37. Coskun F, Akinci E, Ceyhan MA, Sahin Kavakli H. Our
+new stethoscope in the emergency department: handheld
+ultrasound. Ulus Travma Acil Cerrahi Derg 2011: 17:
+488–492.
+38. Shorter M, Macias DJ. Portable handheld ultrasound in
+austere environments: use in the Haiti disaster. Prehosp
+Disaster Med 2012: 27: 172–177.
+39. Shah S, Dalal A, Smith RM, Joseph G, Rogers S, Dyer GS.
+Impact of portable ultrasound in trauma care after the Hai-
+tian earthquake of 2010. Am J Emerg Med 2010: 28: 970–
+971.
+40. Dean AJ, Ku BS, Zeserson EM. The utility of handheld
+ultrasound in an austere medical setting in Guatemala after
+a natural disaster. Am J Disaster Med 2007: 2: 249–256.
+41. Hu H, He Y, Zhang S, Cao Y. Streamlined focused assess-
+ment with sonography for mass casualty prehospital triage
+of blunt torso trauma patients. Am J Emerg Med 2014: 32:
+803–806.
+42. Zhang S, Zhu D, Wan Z, Cao Y. Utility of point-of-care
+ultrasound in acute management triage of earthquake injury.
+Am J Emerg Med 2014: 32: 92–95.
+43. Binkowski A, Riguzzi C, Price D, Fahimi J. Evaluation of a
+cornstarch-based ultrasound gel alternative for low-resource
+settings. J Emerg Med 2014: 47: e5–e9.
+44. Groen RS, Leow JJ, Sadasivam V, Kushner AL. Review:
+indications for ultrasound use in low- and middle-income
+countries. Trop Med Int Health 2011: 16: 1525–1535.
+45. Kotlyar S, Moore CL. Assessing the utility of ultrasound in
+Liberia. J Emerg Trauma Shock 2008: 1: 10–14.
+46. Harris RD, Marks WM. Compact ultrasound for improving
+maternal and perinatal care in low-resource settings: review
+of the potential benefits, implementation challenges, and
+public health issues. J Ultrasound Med 2009: 28: 1067–
+1076.
+47. Hatz CF. The use of ultrasound in schistosomiasis. Adv Par-
+asitol 2001: 48: 225–284.
+48. Utzinger J, Becker SL, Knopp S et al. Neglected tropical dis-
+eases: diagnosis, clinical management, treatment and con-
+trol. Swiss Med Wkly 2012: 142: w13727.
+49. Brunetti E, Kern P, Vuitton DA. Expert consensus for the
+diagnosis and treatment of cystic and alveolar echinococco-
+sis in humans. Acta Trop 2010: 114: 1–16.
+50. Bogoch II, Coulibaly JT, Andrews JR et al. Evaluation of
+portable microscopic devices for the diagnosis of Schisto-
+soma and soil-transmitted helminth infection. Parasitology
+2014: 141: 1811–1818.
+51. Bogoch II, Andrews JR, Speich B et al. Quantitative evalua-
+tion of a handheld light microscope for field diagnosis of
+soil-transmitted helminth infection. Am J Trop Med Hyg
+2014: 91: 1138–1141.
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+310 © 2015 John Wiley & Sons Ltd
+52. Ephraim RK, Duah E, Cybulski JS et al. Diagnosis
+of Schistosoma haematobium infection with a mobile
+phone-mounted foldscope and a reversed-lens cell
+scope in Ghana. Am J Trop Med Hyg 2015: 92:
+1253–1256.
+53. LaGrone LN, Sadasivam V, Kushner AL, Groen RS. A
+review of training opportunities for ultrasonography in low
+and middle income countries. Trop Med Int Health 2012:
+17: 808–819.
+54. Shah S, Noble VE, Umulisa I et al. Development of an
+ultrasound training curriculum in a limited resource inter-
+national setting: successes and challenges of ultrasound
+training in rural Rwanda. Int J Emerg Med 2008: 1:
+193–196.
+55. Shah SP, Epino H, Bukhman G et al. Impact of the introduc-
+tion of ultrasound services in a limited resource setting: rural
+Rwanda 2008. BMC Int Health Hum Rights 2009: 9: 4.
+56. Adler D, Mgalula K, Price D, Taylor O. Introduction of a
+portable ultrasound unit into the health services of the
+Lugufu refugee camp, Kigoma District, Tanzania. Int J
+Emerg Med 2008: 1: 261–266.
+57. Shmueli H, Burstein Y, Sagy I et al. Briefly trained medical
+students can effectively identify rheumatic mitral valve
+injury using a hand-carried ultrasound. Echocardiography
+2013: 30: 621–626.
+58. Odgaard-Jensen J, Vist GE, Timmer A et al. Randomisation
+to protect against selection bias in healthcare trials.
+Cochrane Database Syst Rev 2011: MR000012.
+Corresponding Author Torben K. Becker, Department of Critical Care Medicine, University of Pittsburgh Medical Center, 3471
+Fifth Avenue, Kaufmann Building, Pittsburgh, PA 15213, USA. E-mail: tbeckermd@gmail.com
+© 2015 John Wiley & Sons Ltd 311
+Tropical Medicine and International Health volume 21 no 3 pp 294–311 march 2016
+D. M. Becker et al. Ultrasound in resource-limited settings
+

@@ -1,0 +1,51 @@
+# Patent US3927661
+
+
+
+
+
+=US3927661 : Ultrasonic wave diagnosis apparatus with galvanometer-driven probe = 
+
+
+
+== Invention date ==
+
+Oct 11, 1974
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Takemura Yasuhiko]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+In a ultrasonic wave diagnosis apparatus wherein a probe for transmitting and receiving ultrasonic wave to and from a portion of a patient to be diagnosed is scanned in a sector shape, the probe is driven at a uniform speed by a galvanometer energized by the output of a triangular wave generator. The probe is immersed in electric insulating acoustic medium having a relatively large viscosity and high transmission loss.
+= Patents Backwards =
+
+* [[Patent US2927575]]
+* [[Patent US3364732]]
+* [[Patent US3480002]]
+* [[Patent US3555888]]
+* [[Patent US3605724]]
+* [[Patent US3646805]]
+= Patents Forwards =
+
+* [[Patent US4092867]]
+* [[Patent US4106492]]
+* [[Patent US4149419]]
+* [[Patent US4151834]]
+* [[Patent US4185502]]
+* [[Patent US4186747]]
+* [[Patent US4246792]]
+* [[Patent US4375818]]
+* [[Patent US4515017]]
+* [[Patent US4579122]]
+* [[Patent US4850362]]
+* [[Patent US5005579]]
+* [[Patent US7074189]]
+* [[Patent US20130208249]]
+* [[Patent DE2822261A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

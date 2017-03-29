@@ -1,0 +1,1071 @@
+See	discussions,	stats,	and	author	profiles	for	this	publication	at:	http://www.researchgate.net/publication/280302105
+A	System-on-Chip	Solution	for	Point-of-Care
+Ultrasound	Imaging	Systems:	Architecture	and
+ASIC	Implementation
+ARTICLE		in		IEEE	TRANSACTIONS	ON	BIOMEDICAL	CIRCUITS	AND	SYSTEMS	·	MAY	2015
+Impact	Factor:	2.48	·	DOI:	10.1109/TBCAS.2015.2431272
+READS
+26
+9	AUTHORS,	INCLUDING:
+Jeeun	Kang
+Sogang	University
+25	PUBLICATIONS			74	CITATIONS			
+SEE	PROFILE
+Changhan	Yoon
+University	of	Southern	California
+34	PUBLICATIONS			84	CITATIONS			
+SEE	PROFILE
+Jin	Ho	Chang
+Sogang	University
+83	PUBLICATIONS			238	CITATIONS			
+SEE	PROFILE
+Yangmo	Yoo
+Sogang	University
+94	PUBLICATIONS			410	CITATIONS			
+SEE	PROFILE
+All	in-text	references	underlined	in	blue	are	linked	to	publications	on	ResearchGate,
+letting	you	access	and	read	them	immediately.
+Available	from:	Jeeun	Kang
+Retrieved	on:	12	November	2015
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+IEEE TRANSACTIONS ON BIOMEDICAL CIRCUITS AND SYSTEMS 1
+A System-on-Chip Solution for Point-of-Care
+Ultrasound Imaging Systems: Architecture and
+ASIC Implementation
+Jeeun Kang, Changhan Yoon, Jaejin Lee, Sang-Bum Kye, Yongbae Lee, Jin Ho Chang, Senior Member, IEEE,
+Gi-Duck Kim, Yangmo Yoo, Member, IEEE, and Tai-kyong Song, Member, IEEE
+Abstract—In this paper, we present a novel system-on-chip
+(SOC) solution for a portable ultrasound imaging system (PUS)
+for point-of-care applications. The PUS-SOC includes all of the
+signal processing modules (i.e., the transmit and dynamic receive
+beamformer modules, mid- and back-end processors, and color
+Doppler processors) as well as an efﬁcient architecture for hard-
+ware-based imaging methods (e.g., dynamic delay calculation,
+multi-beamforming, and coded excitation and compression). The
+PUS-SOC was fabricated using a UMC 130-nm NAND process
+and has 16.8 GFLOPS of computing power with a total equivalent
+gate count of 12.1 million, which is comparable to a Pentium-4
+CPU. The size and power consumption of the PUS-SOC are
+and 1.2 W, respectively. Based on the PUS-SOC,
+a prototype hand-held US imaging system was implemented.
+Phantom experiments demonstrated that the PUS-SOC can pro-
+vide appropriate image quality for point-of-care applications with
+a compact PDA size ( ) and 3 hours of
+battery life.
+Index Terms—Application-speciﬁc integrated circuit, point-of-
+care, portable ultrasound system, system-on-a-chip.
+I. INTRODUCTION
+ULTRASOUND (US) imaging is an essential tool in diag-
+nostic medicine. It offers advantages over other medical
+imaging modalities, providing real-time, non-invasive and cost-
+Manuscript received December 01, 2014; revised March 11, 2015; accepted
+May 04, 2015. This research was supported by the MSIP (Ministry of Science,
+ICT and Future Planning), Korea , under the C-ITRC (Convergence Information
+Technology Research Center) support program (NIPA-2014-H0401-14-1002)
+supervised by the NIPA (National IT Industry Promotion Agency) and by the
+R&D Program of the Ministry of Trade, Industry and Energy-Korea Evalua-
+tion Institute of Industrial Technology (grant MOTIE/KEIT 10048528, Devel-
+opment of ICT-Based Wireless Ultrasound Solution for Point-of-Care Applica-
+tions). This paper was recommended by Associate Editor G. Yuan. (J. Kang and
+C. Yoon contributed equally to this work.)
+J. Kang, J. Lee, S.-B. Kye, Y. Lee, J. H. Chang, and G.-D. Kim are with
+the Department of Electronic Engineering, Sogang University, Seoul 121-742,
+South Korea.
+C. Yoon was with Sogang University, Seoul, 121-742, South Korea. He is now
+with the Department of Bioengineering, University of Southern California, Los
+Angeles, CA 90089-1111 USA.
+Y. Yoo and T.-k. Song are with the Department of Electrical Engineering
+and Interdisciplinary Program of Integrated Biotechnology, Sogang University,
+Seoul, 121-742, South Korea (e-mail: ymyoo@sogang.ac.kr; tksong@sogang.
+ac.kr).
+Color versions of one or more of the ﬁgures in this paper are available online
+at http://ieeexplore.ieee.org.
+Digital Object Identiﬁer 10.1109/TBCAS.2015.2431272
+effective imaging with an easy-to-use, portable device [1]–[3].
+Additionally, US imaging can provide data on the functional
+mechanical properties of the human body, such as tissue stiff-
+ness and blood ﬂow velocity [4]–[6]. The application of US
+imaging in point-of-care diagnostics is expanding to support the
+immediate diagnosis of disease, internal damage, and hemody-
+namic conditions at the patient’s bedside, in ambulances, on
+the battleﬁeld, and in emergency rooms using hand-held US
+imaging systems [7]–[10].
+For decades, research has been performed to develop efﬁ-
+cient US imaging systems to reduce system hardware volume
+and computational complexity while simultaneously providing
+a programmability, ﬂexibility, and image quality comparable
+to those of conventional, bulky US imaging systems. The
+most recent research efforts have focused on using low-cost
+programmable cores, such as ﬁeld-programmable gate arrays
+(FPGAs) and digital signal processors (DSP). For example,
+F. K. Schneider and A. Agarwal et al. proposed a fully pro-
+grammable architecture for a US imaging system that used a
+combination of a low-cost FPGA (Cyclone II 2C70F672, Altera
+Corp., San Diego, CA, USA) and a DSP (TMS320C6416,
+Texas Instruments Inc., TX, USA) to integrate a 32-channel
+dynamic receive beamformer based on phase rotation and an
+optimized two-stage demodulation ﬁlter [11]–[13]. However,
+because the hybrid architecture barely meets the requirements
+of conventional B-mode US imaging due to the limited data
+transfer rate and computational throughput, additional ad-
+vanced features, such as multi-beamforming (MBF) and coded
+excitation and compression, which are common in modern US
+imaging systems, could not be included.
+Alternatively, G.-D. Kim et al. further minimized the system
+footprint using a single low-cost FPGA (Spartan-3, Xilinx Inc.,
+San Jose, CA, USA) in a laptop-type portable US imaging
+system [14]. The FPGA core in the system provided all US
+image processing, including transmit beamforming, dynamic
+receive beamforming, mid-processing, and back-end pro-
+cessing. Nevertheless, only 16 channels for the beamformers
+could be integrated into the system due to the limited hardware
+resources of the low-cost FPGA. Consequently, the image
+quality, including the spatial and contrast resolution, was lower
+than that of conventional US imaging systems, which com-
+monly have over 32 channels. Additionally, the system could
+not provide advanced imaging modes, such as color Doppler
+imaging, due to the limited hardware resources.
+1932-4545 © 2015 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.
+See http://www.ieee.org/publications_standards/publications/rights/index.html for more information.
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+2 IEEE TRANSACTIONS ON BIOMEDICAL CIRCUITS AND SYSTEMS
+Fig. 1. Schematic diagram of the developed PUS-SOC.
+In this paper, we present a novel system-on-chip solution for
+a portable US imaging system (PUS-SOC) that is compact and
+has low power consumption. Additionally, it both supports the
+essential ﬂexibility for US imaging (e.g., system scalability up
+to 128 channels and on-board transmit and dynamic receive
+delay calculations) and provides advanced imaging technolo-
+gies (e.g., MBF, coded excitation and compression, dynamic
+quadrature demodulation, frequency compounding, and color
+Doppler processing).
+II. METHODS
+A. Functional Block Diagram for PUS-SOC
+Fig. 1 shows a schematic diagram of the PUS-SOC. As
+shown in Fig. 1, in the digital front-end, the US transmitter for
+each channel is controlled by a transmit pulse generator (TxPG)
+module, and analog-to-digital converted radio-frequency (RF)
+data can be obtained from the analog front-end at a frequency
+of up to 40 MHz. The RF data are fed into the dynamic re-
+ceive beamformer (RxBF) module through the low-voltage
+differential signaling block (LVDS) in the PUS-SOC and se-
+quentially stored in RF memory. The RxBF module provides
+up to 4 simultaneous scanlines; the module is based on a
+post-fractional delay ﬁltering architecture composed of a shared
+ﬁrst-in-ﬁrst-out (FIFO) block, a selective summation block
+(SSB), and a fractional delay ﬁltering block (FDF) [15]. The
+beamformed results are sent to the mid-processor, which per-
+forms direct current rejection ﬁltering (DCR), data decimation,
+scanline accumulation (SLA), time-gain compensation (TGC),
+digital quadrature demodulation (DQD), and baseband code
+TABLE I
+FUNCTIONAL SPECIFICATIONS OF THE PUS-SOC
+compression (BCC). In the back-end processor, the in-phase
+and quadrature data are back-processed for the conven-
+tional B-mode imaging and color Doppler imaging modes. The
+B-mode processing includes envelope detection (ED), log com-
+pression (LC), fractional decimation (FD), spike-hole ﬁltering
+(SHF), and multi-zone blending (MZB). Table I summarizes
+the functional speciﬁcations of the PUS-SOC. The details of
+operation for the PUS-SOC will be described in the following
+sections.
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+KANG et al.: A SYSTEM-ON-CHIP SOLUTION FOR POINT-OF-CARE ULTRASOUND IMAGING SYSTEMS 3
+B. Interface Overview
+The PUS-SOC can be controlled using header- or reg-
+ister-based interfaces. Each method controls its own dedicated
+parameters, which are categorized according to the update
+timing: register-based interfaces control such parameters as
+the probe and scanline geometries for transmit and receive
+beamforming and various ﬁlter coefﬁcients for the mid-pro-
+cessing and Doppler processors that are required throughout
+a frame. Because the register block contains a total of 1,442
+bytes (224 in the TxPG module, 262 in the RxBF module,
+416 in the mid-processor and back-end processor, and 540
+in the Doppler processors), it requires high redundancy for
+update. For instance, when requiring 3 clock cycles at 40 MHz
+for a single command writing operation (i.e., 75 ns) with two
+bytes of data bus width (i.e., 16 bits), approximately
+is required to conduct a full re-conﬁguration of the PUS-SOC
+(i.e., 1442 bytes/2 bytes 75 ns). The new parameters are
+ﬁrst collected into a dummy register block and are not adjusted
+during operation. The dummy and active register blocks are
+switched if the update bit in the header packet is activated and
+the current frame generation procedure has ended.
+In contrast, the header interface determines the parameters
+that must be updated between adjacent scanline generation pro-
+cedures. This interface is required to support temporal manip-
+ulation techniques (e.g., extended aperture (EA), pulse inver-
+sion (PI), MZB, and spatial compounding). The header inter-
+face sends 2-byte header packets through a dedicated path in the
+PUS-SOC to the TxPG and RxBF modules; the RxBF module
+packets are attached in front of the beamformed data and sent
+to the mid-processor. The overall size of the headers can vary
+from 8 to 166 packets (4–136 packets for the TxPG module and
+4–30 packets for the RxBF module and the mid-processor) de-
+pending on the operation of the respective modules.
+C. Transmit Pulse Generator (TxPG) Module
+During transmit pulse generation, the pulse driver on the
+analog front-end should be controlled to focus the acoustic
+beam to a desired depth. Additionally, the pulse shape and
+sequence should be programmable to support advanced
+imaging technologies (e.g., code excitation and broad beam
+excitation for MBF method). To satisfy these requirements, a
+programmable architecture is used for the 32-channel TxPG
+module in the PUS-SOC, which enables the transmission of a
+range of transmit aperture widths (1–32 channels) and bipolar
+pulse lengths (4–128 clock cycles comprised of 2–64 clock
+cycles each for the P- and N-cycles) at frequencies up to
+80 MHz. This enables the generation of basic bipolar pulses
+with transmit acoustic frequencies ranging from 0.625 MHz to
+20 MHz when 128 and 4 clock cycles of bipolar pulse length
+were employed, respectively. Additionally, pseudo-chirp and
+barker-coded pulses can be transmitted at up to 32 cycles. The
+operation sequence can be changed using one of two operating
+modes: static mode or dynamic header mode. In static mode,
+the TxPG module calculates the transmit focusing delay for
+each channel and the total aperture size using the parameters
+stored in a register block. The dynamic header mode uses the
+information in the header packets to determine the transmit
+focusing delay and aperture size. The dynamic mode can
+Fig. 2. Dynamic receive beamforming for US imaging.
+support transmit beamforming using a larger aperture than the
+static mode (i.e., up to four PUS-SOCs can be used). However,
+it should be noted that the dynamic mode requires more
+header packets for each scanline generation, where is the
+number of PUS-SOCs employed.
+D. Dynamic Receive Beamformer (RxBF) Module
+For the dynamic receive beamforming, the focusing delay
+to the th channel of the array transducer should
+be dynamically compensated for the th focusing point
+as shown in Fig. 2, where is the total number of channels.
+However, it is a signiﬁcant computational burden for hand-held
+US imaging systems to calculate the full dynamic delays due to
+the limited hardware resources of hand-held systems [16]–[18].
+1) Pseudo-Dynamic Delay Calculation: The dynamic re-
+ceive beamforming in the PUS-SOC was implemented using
+the previously-proposed pseudo-dynamic delay calculation
+method [19], which combines a shared delay calculator with
+bilinear delay interpolator (BDI) blocks of the respective
+channels. Fig. 3(a) shows the delay update pattern for receive
+focusing using the conventional delay calculation method, in
+which the dynamic delays are fully calculated for each channel,
+and the proposed pseudo-dynamic delay calculation method
+using a shared delay calculator with BDI blocks. As shown
+in the ﬁgure, the dynamic focusing delay can be calculated
+for all channels using fewer calculators using the proposed
+method with BDI block. Fig. 3(b), a single shared delay cal-
+culator derives the focusing delays for all channels in rotation
+(i.e., ), and the uncalculated focusing points for each
+channel are then interpolated using a dedicated BDI block.
+More speciﬁcally, the BDI block ﬁrst calculates the two delay
+slopes (i.e., and )
+using the adjacent three calculated focusing delays (i.e.,
+, , and ) and then interpolates the dynamic
+focusing delays between the th and the th focusing
+points as follows:
+(1a)
+(1b)
+is the index ranging from 1 to and and are the com-
+pounding coefﬁcients for and
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+4 IEEE TRANSACTIONS ON BIOMEDICAL CIRCUITS AND SYSTEMS
+Fig. 3. (a) Delay update patterns for receive focusing using the conventional
+and proposed methods using a shared delay calculator with the BDI blocks.
+(b) Detailed schematic diagram of the BDI block.
+, respectively, for the th interpolating point. As a re-
+sult, as shown in Fig. 3(b), each BDI block consists of 6 adders,
+2 multipliers, 5 registers, and two 2:1 multiplexers for delay
+latching, slope calculation, and compounding, which are signif-
+icantly fewer in number than those required for the delay calcu-
+lator requiring complex square root operation [20].
+In the PUS-SOC, the focusing delay is divided into a coarse
+delay and a ﬁne delay, and , respectively, to obtain
+16- resolution in the delay compensation. The coarse delay
+resolution is the time interval between sampling events, and the
+ﬁne delay resolution is four fractions (i.e., 0, 0.25, 0.50, and
+0.75) of the total interval. Additionally, 4 sets of 32 BDIs each,
+fed by 4 shared delay calculators, are embedded to support up
+to 4 simultaneous scanline generation procedures.
+2) Multi-Beamforming Method Based on a Shared FIFO
+Block: In the PUS-SOC, an MBF method based on a shared
+FIFO block supporting single-, dual-, and quad-beamforming
+is implemented in a dynamic receive beamforming architec-
+ture based on post-fractional ﬁltering [15], [21]. The MBF
+method can produce multiple scanlines simultaneously without
+reducing the beamforming frequency, unlike the conventional
+time-sharing MBF method [22]. Fig. 4(a) shows a schematic
+diagram of the shared FIFO block, which collects an extended
+number of sequential RF data samples larger than the length of
+FDF (i.e., ), where is the length of the
+FDF [e.g., 5 in Fig. 4(a) arbitrarily for concise presentation]. In
+PUS-SOC, was set to 8. Note that addresses
+a RF data sample in a RF memory for every focusing point
+Fig. 4. Schematic diagrams of the proposed MBF method based on a shared
+FIFO block. (a) Shared FIFO block. (b) Multi-beam delay controller.
+while making the FDF causal for block data sets by consid-
+ering (i.e., ). The shared FIFO block enables the
+parallel generation of the block data sets corresponding to the
+multi-scanline paths using the respective differences of the
+multi-scanline delays (i.e., ) from their maximum (i.e.,
+). These differences are calculated from the
+multi-beam delay controller shown in Fig. 4(b).
+, the length of the shared FIFO block, is determined
+by evaluating the worst case for the difference in delay between
+multiple scanlines, which is given by
+(2)
+where is the maximum value among and
+and are the operator deriving the maximum
+value within entire channels and a frame, respectively.
+In our PUS-SOC, a 128-channel phased array transducer with
+a center frequency of 3.5 MHz is examined as a worst case of
+4 simultaneous multi-scanline generation procedures (i.e., 32
+transmissions and 128 scanline generations) with a 90 viewing
+angle, 30-cm focusing depth, and 0.2968-mm element pitch. Be-
+cause the phased array has a diverging geometry between adja-
+cent scanlines, is greatest at the side channels [21].
+Based on this evaluation, is chosen to be 22, making
+the total size of the shared FIFO block 1.58 kB (i.e., 18 bits
+22 shared FIFO cells 32 channels) in the PUS-SOC. Note
+that the 18-bit input data sample contains the apodized RF data,
+composed of 12 signed bits of RF data and 6 unsigned bits of
+apodization window coefﬁcients.
+3) Chip Extension: To obtain a larger aperture size over 32
+channels, the beamformed results from up to four PUS-SOCs
+can be aggregated (i.e., 64, 96, and 128 channels). As shown
+in Fig. 1, each PUS-SOC can provide 32 channels of receive
+beamformed data to the internal mid-processor or to other PUS-
+SOCs. Fig. 5 shows a summing chain of beamformed data be-
+tween PUS-SOCs, in which beamformed data from previous
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+KANG et al.: A SYSTEM-ON-CHIP SOLUTION FOR POINT-OF-CARE ULTRASOUND IMAGING SYSTEMS 5
+Fig. 5. Schematic diagram of a summing chain for chip extension, with up to
+4 PUS-SOCs.
+PUS-SOCs can be added to the current data, with the speciﬁed
+latency controlled by a chip index to produce a summing latency
+of a single clock cycle across the PUS-SOCs.
+4) Channel Ordering: Commercial linear- and convex-array
+transducers conventionally have 128 channels or more, but
+portable US imaging systems generally have fewer than 32
+channels due to their limited hardware complexity (e.g., 16–32
+channels). Consequently, direct receive beamforming from the
+input channel data is not feasible. To resolve this problem,
+portable US systems are required to continually change the
+pairing between the active elements and channels of the RxBF
+module corresponding to a current scanline. The developed
+PUS-SOC supports the rearrangement of channels using the
+internal channel ordering (CO) block or header ordering mode.
+As shown in Fig. 1, the parallelized RF data in the LVDS
+block are fed into the CO block, which rearranges the RF data
+samples in the channel direction for matching using internal
+channel multiplexers corresponding to the scanline information
+on a header packet. Additionally, the CO block is designed to
+support the EA technique, which improves the spatial resolution
+by temporally broadening the receive aperture; this technique
+is supported well internally for a single PUS-SOC [9], [14].
+However, in the case of multiple PUS-SOCs, header ordering
+mode should be used because the CO block does not support
+this capability. In header ordering mode, 6 bits are required for
+each channel (5 bits to deﬁne the position in 32 channels and
+1 bit for channel on/off masking). Thus, 13 header packets are
+required for each PUS-SOC.
+E. Mid-Processing
+A schematic diagram of the mid-processing unit of the
+PUS-SOC is shown in Fig. 1 following the digital front-end
+component; the unit includes DCR, SLA, TGC, and BCC
+blocks.
+1) Direct Current Rejection Filtering: In the DCR block,
+a two-stage ﬁnite impulse response (FIR) ﬁlter (e.g., a high-
+pass and a low-pass ﬁlter) with 16-bit coefﬁcient resolution is
+used to suppress noise. First, a 33-tap high-pass ﬁlter is used to
+cancel undesired noise and DC components from the transducer
+and the analog-to-digital converter (ADC) [23]. Decimation is
+then performed using a 33-tap low-pass ﬁlter (LPF) to avoid
+aliasing, thereby reducing the necessary data rate for efﬁcient
+MBF processing. In the developed system, the decimation factor
+Fig. 6. Block diagram of the dynamic quadrature demodulator (DQD) with
+(a) post-compression using RF data and (b) the proposed post-compression
+method using baseband data.
+(e.g., 1, 2, and 4) is varied according to the imaging depth, and
+the ﬁlter coefﬁcients are updated by the host interface.
+2) Scanline Accumulator: Two or four sequentially received
+beamformed RF data channels with 18-bit resolution produced
+using the EA and/or PI techniques are accumulated in the SLA
+block. In this block, four parallel scanlines generated from the
+MBF at a 40 MHz rate are stored in the 4 FIFO buffers, and
+each scanline is read out successively at an 80 MHz rate; there-
+fore, four parallel scanlines can be rearranged into one sequen-
+tial vector line when the decimation factor is greater than two.
+The SLA block thus enables the US system to support harmonic
+imaging processes based on the MBF method and EA and PI
+techniques with one functional block in the subsequent stage,
+e.g., DQD, ED, or LC processing. Consequently, the SLA block
+can be implemented using four 5120 20 bit FIFOs for B-mode
+dual-beam operation or four 5120 18 bit FIFOs for C-mode
+quad-beam processing. Note that the width of the B-mode FIFO
+is 20 bits to preserve the bit resolution when performing both the
+EA and PI techniques.
+3) Time Gain Compensator: A TGC is used to compensate
+the attenuation of the US waves stemming from both absorp-
+tion and scattering during propagation through a medium [24].
+To compensate the changes in amplitude of the US waves, the
+imaging depth is divided into 8 zones along the imaging depth,
+and the individual linear gain increment is computed from a
+user-deﬁned TGC gain for each zone, which is provided by the
+host interface. Additionally, a different gain can be used for each
+scanline to compensate the lateral amplitude variation due to the
+MBF processing and the loss of signal energy in the near ﬁeld
+due to the EA technique.
+4) Dynamic Quadrature Demodulation: The RF data
+envelope is calculated from complex baseband data ob-
+tained by quadrature demodulation, which is performed using
+down-mixing and a subsequent LPF. In the down-mixing
+process, sine and cosine waveforms are stored in a look-up
+table (LUT). In the developed system, a 640-byte LUT is used
+to store one period of 125-kHz sine and cosine waveforms sam-
+pled at 40 MHz; therefore, the total LUT size is 2.56 kB (640
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+6 IEEE TRANSACTIONS ON BIOMEDICAL CIRCUITS AND SYSTEMS
+Fig. 7. Overall block diagram representing color Doppler processing for US C-mode imaging.
+bytes 4 LUT) to support frequency compounding with two
+sub-bands. Using this LUT, multiples of the 125 kHz sinusoidal
+waveform ranging from 125 kHz to 20 MHz can be generated
+by changing the address increment; for example, 5-MHz cosine
+and sine waveforms can be obtained by setting the address
+increment to 32 . With this approach,
+DQD processing can be achieved by dynamically changing the
+address increment over the depth. In the design, the maximum
+imaging depth (i.e., 300 mm) is divided into 32 zones.
+5) Baseband Code Compression: In the LPF, a two-stage FIR
+ﬁlter with 16-bit coefﬁcient resolution is used. First, a 65-tap
+polyphase ﬁlter, , is used to reject the component
+and provide decimation with a factor of 1, 2, or 4; therefore,
+260-tap ﬁlter coefﬁcients are used when the decimation factor
+is four.
+Additionally, pulse compression is performed using a ﬁlter
+with coefﬁcients obtained by convolution with the coefﬁcients
+of the LPF. Fig. 6(a) and (b) shows conventional post-compres-
+sion using RF data [24] and the proposed methods using base-
+band data [25], where is the down-sampling factor,
+is the beamformed signal from the TGC block, and
+is the decoding ﬁlter for pulse compression. In our PUS-SOC,
+LPF and pulse compression are performed simultaneously with
+one functional block by convolving each poly-phase coefﬁcient
+subset of with the baseband decoding ﬁlter
+given by
+(3)
+Using this approach, pulse durations for coded excitation of up
+to can be efﬁciently compressed using a 65-tap ﬁlter be-
+cause the decimation in the DCR and DQD reduces the data rate
+by a factor of 16. Therefore, a mismatched decoding ﬁlter with
+a longer sequence can be used to reduce the sidelobe level of
+the pulse-compressed signal in Barker coded excitation [26].
+The subsequent 65-tap dynamic LPFs (i.e., ), in
+which the ﬁlter cutoff frequencies are dynamically changed
+according to the imaging depth, which is divided into 32 zones,
+reject high-frequency noise due to the frequency-dependent
+attenuation that reduces the bandwidth of the echo signal [27].
+F. Back-End Processing
+The overall block diagram for the back-end processing for
+B-mode US imaging is shown in Fig. 1 following the mid-pro-
+cessing component. To extract the envelope of the echo signal,
+envelope detection is applied to the complex baseband data from
+two sub-bands. These two envelope signals are added using
+TABLE II
+SPECIFICATIONS OF THE COLOR DOPPLER PROCESSOR OF THE PUS-SOC
+weighting factors of and ; this process is called frequency
+compounding and is used to mitigate speckle noise [28]. The
+weighting factors can be determined by analyzing the spectrum
+of the received echo signal or by calculating the energy loss with
+a known frequency-dependent attenuation coefﬁcient [29], [30].
+After the two envelope signals are summed, log compression
+is performed to reduce the dynamic range of the US envelope
+signal. Additionally, fractional decimation is performed to re-
+duce the data rate (e.g., to 1024 samples per scanline), and image
+enhancement (e.g., using spike and hole ﬁlters) and multi-zone
+blending are also applied as shown in Fig. 1.
+G. Color Doppler Processor
+The overall block diagram for the color Doppler processor is
+shown in Fig. 7. The speciﬁcations for the color Doppler pro-
+cessing used in the PUS-SOC are summarized in Table II. For
+the color Doppler processing, the receive beamforming and sub-
+sequent signal processing (e.g., DCR, TGC, and DQD) are con-
+ducted within a region of interest. In the developed system, the
+decimation ratios in the DCR and DQD in the mid-processor are
+determined by the size of the region of interest, and fractional
+decimation is performed in the color Doppler processor to re-
+duce the data rate (e.g., to 512 samples per scanline). Spike and
+hole ﬁlters are then used to remove unwanted noise.
+The complex baseband in-phase, , and quadrature, , data
+are ﬁrst reshaped along the ensemble axis. In the color data re-
+shaping (CDR) module, a programmable synchronous dynamic
+random-access memory (SDRAM) controller is embedded.
+The 16-bit in-phase and quadrature signals are concatenated
+into 32-bit data and stored in one SDRAM; therefore, two
+32-bit SDRAMs operating in a ping-pong mode are required
+to reshape the complex baseband data. Clutter rejection is
+performed on the reshaped data to extract the Doppler signal.
+Of the available clutter ﬁlters, projection-initialized inﬁnite
+impulse response and polynomial regression ﬁlters are typically
+used because of their desirable characteristics, such as a narrow
+transition bandwidth and a high stop-band suppression ratio
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+KANG et al.: A SYSTEM-ON-CHIP SOLUTION FOR POINT-OF-CARE ULTRASOUND IMAGING SYSTEMS 7
+TABLE III
+ESTIMATED GATE COUNTS FOR EACH BLOCK OF THE PUS-SOC
+[31], [32]. These ﬁlters can be expressed in a matrix form
+derived from a state space formulation [32]. In the design, to
+support an ensemble length of up to 16, the clutter rejection
+ﬁlter is implemented with 16 multiplies and a 512-byte LUT,
+whose ﬁlter coefﬁcients are computed and updated by the host
+interface.
+In the auto-correlation method, the estimation of the complex
+correlation with a lag from the baseband complex data after
+clutter rejection, , is obtained from
+(4)
+where indicates the complex conjugate and is the en-
+semble size. From (4), the instantaneous Doppler frequency can
+be calculated from
+(5)
+where is the pulse repetition frequency. From the auto-
+correlation calculated using lags of zero and one, the power
+and variance of the Doppler signal can be obtained from
+(6)
+(7)
+III. RESULTS
+A. ASIC Fabrication
+Table III shows the gate counts for the PUS-SOC estimated
+using the UMC 130-nm complementary metal—oxide—semi-
+conductor (CMOS) standard core cell library of the Code Com-
+piler synthesis tool (Synopsis Inc., Mountain View, CA, USA),
+assuming an operating clock speed of 40 MHz. As shown in
+Table III, the dynamic receive beamformer and mid/back-end
+processing possess most of the gate counts (46.5% and 46.8%,
+respectively). Meanwhile, the color Doppler and other compo-
+nents (e.g., TxPG and interfaces) possess 3.0% and 3.6% of
+the gate counts, respectively. As a result, the total equivalent
+gate count is 12.1 million, which is comparable to a Pentium
+4 CPU. The circuits provide 16.8 GFLOPS of concurrent com-
+puting power.
+Fig. 8. Developed PUS-SOC. (a) External appearance. (b) Internal layout.
+TABLE IV
+SPECIFICATIONS OF THE PUS-SOC
+Fig. 8(a) and (b) show the external appearance and internal
+layout, respectively, of the developed PUS-SOC. Table IV sum-
+marizes the speciﬁcations of the developed PUS-SOC: the di-
+mension is and the power consumption is 1.2 W,
+which is suitable for embedding into the portable US imaging
+system.
+B. Evaluation of New Algorithms in PUS-SOC
+Various new algorithms were embedded in PUS-SOC. In par-
+ticular, pseudo-dynamic delay calculations using a BDI block
+and the MBF method based on a shared FIFO block, which
+can reduce computational complexity in dynamic receive beam-
+forming, were adopted [19], [21]. The pseudo-dynamic delay
+calculation method using BDI blocks demonstrated an image
+quality comparable to the conventional full-delay calculation
+method while providing a ten-fold reduction of the hardware
+utilization ratio in the dynamic receive beamforming (i.e., 3.9%
+versus 39.0%) [19]. In addition, the MBF method based on a
+shared FIFO block not only improved the signal-to-noise ratio
+(SNR) and contrast-to-noise ratio (CNR) by 4.7 dB and 0.9, re-
+spectively, but also provided a hardware complexity comparable
+to the time-sharing MBF method (i.e., 11,757K versus 11,178K
+in equivalent gate counts) [21]. Note that the hardware scale
+required for the MBF method is 32.6% lower than that of the
+conventional MBF method with duplicated beamforming paths
+(i.e., 17,444K). Therefore, the PUS-SOC can conduct full dy-
+namic receive beamforming with a generation capability of up
+to four simultaneous scanlines with signiﬁcantly reduced hard-
+ware complexity.
+On the other hand, when utilizing multiple PUS-SOCs at the
+same time with the chip extension feature (i.e., ), the
+effective channel of a PUS-SOC can be multiplied, which
+can improve the spatial resolution and SNR, as the spatial res-
+olution in the lateral direction can be approximated by ,
+where is the wavelength, is the depth of focusing, and
+is the aperture size proportional to [14]. In addition, the rel-
+ative SNR in US imaging can be proportionally improved by
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+8 IEEE TRANSACTIONS ON BIOMEDICAL CIRCUITS AND SYSTEMS
+a factor of , where and are the number of ef-
+fective transmit and receive channels, respectively. Therefore,
+a time improvement in SNR is expected when using fully
+extended transmit and receive apertures [33]. Otherwise, with a
+chip extended conﬁguration, a US imaging system admittedly
+requires more power to drive multiple PUS-SOCs. However, it
+will not be directly proportional to because the mid/back-end
+and color Doppler processor modules are only activated in a
+PUS-SOC last in the summing chain, which generates a fully
+beamformed result of the extended conﬁguration. Therefore, an
+additional 1.5 and 2.5 times the power consumption for logic
+toggling would be required.
+C. Comparative Evaluation With the FPGA Approach
+To compare the proposed ASIC approach with an FPGA
+approach, the PUS-SOC core was embedded into a state-of-art
+Xilinx FPGA product (Xilinx, Inc., San Jose, CA, USA).
+The PUS-SOC was synthesized using the Xilinx Synthesize
+Technology (XST) tool in the Xilinx ISE™ software suite 13.4.
+From the synthesis, the PUS-SOC utilizes 313,081 of slice
+registers, 346,390 of lice LUTs, 408 of bounded IOBs, 3,183 of
+memory (i.e., RAM and shift registers), 12 of BUFG/BUFGC-
+TRLs, and 857 of DSP48E1s, which is equal to 42%, 96%,
+48%, 4%, 37% and 68%, respectively, of the hardware re-
+sources available in the considered top-tier FPGA chip, i.e., a
+Virtex-7 XC7V585T with the FFG1761 package manufactured
+by 28-nm process technology. The one-step-lower version of
+the Vertex-7 FPGA (i.e., XC7VX550T) failed to implement
+the PUS-SOC core due to 103% of the slice LUTs being
+over-mapped. Therefore, undoubtedly, low-cost FPGAs, such
+as the Spartan-6 manufactured by 45-nm process technology,
+cannot be used for PUS-SOC because even the largest device
+(i.e., XC6SLX150) can only provide 26.6% of the logic cells
+provided by the XC7V585T device.
+In addition, the power consumption of PUS-SOC with the
+FPGA approach was analyzed with the XC7V585T FPGA chip
+using Xilinx Power Estimator (XPE) software (Xilinx Inc.) by
+assuming single beamforming. Furthermore, a 40 MHz clock
+only was assumed to be provided to all the I/O and logics
+with a 25% toggle rate at a ambient temperature. The
+I/O consisted of 32 low-voltage differential signal (LVDS)
+pairs and 369 low-voltage CMOS (LVCMOS) pins (37 inputs,
+130 outputs, and 202 bidirectionals). The FPGA approach for
+PUS-SOC required 2.5 W of total on-chip power consumption,
+which is approximately double that of our ASIC approach. In
+detail, dynamic power consumes the largest proportion of the
+power (i.e., 1,985 mW versus 157 mW and 342 mW for I/O
+and static power consumption, respectively), of which 68.5%
+is contributed by logic toggling and 31.5% by clock. Further-
+more, this power consumption analysis for the FPGA-based
+PUS-SOC indirectly gives an estimation of the relative power
+breakdown in the ASIC approach, as shown in Fig. 9, by
+considering the module-level gate population in Table III.
+Moreover, the dimension of the Virtex-7 XC7V585T chip
+with the FFG1761 package is [34], which is
+larger than that of our ASIC approach (i.e., ) be-
+cause there should be redundant hardware resources embedded
+in an FPGA for PUS-SOC. Moreover, as generally accepted,
+Fig. 9. Estimated power consumption breakdown graph of the PUS-SOC.
+the ASIC approach for implementing PUS-SOC provides lower
+unit costs than FPGA in the case of large production, which is
+also encouraged by the proposed chip extension feature for a
+one-for-all solution in establishing broad product segments of
+US imaging systems. Therefore, it can be concluded that our
+ASIC approach is superior to the state-of-art FPGA approach in
+terms of power consumption, area, and cost-effectiveness.
+D. Prototype Hand-Held US Imaging System Implementation
+To demonstrate the performance of the PUS-SOC, a proto-
+type hand-held US imaging system was implemented. Fig. 10
+and Table V show the schematic diagram and the physical spec-
+iﬁcations, respectively, for the hand-held US imaging system
+developed using the PUS-SOC. In the system implementation,
+a single PUS-SOC transmits and receives the US signal through
+a 32-channel analog front-end, which includes ADCs (AD9279,
+Analog Device Inc., Cambridge, MA, USA), pulsers and corre-
+sponding pulser drivers (TC7320 and MD1810, Supertex Inc.,
+Sunnyvale, CA, USA). The DSP processor (TMS320C6416,
+Texas Instruments, TX, USA) used in the system performs dig-
+ital scanline conversion and image formation for the different
+modes (i.e., B/C/D). The data are sent from the DSP to a mobile
+CPU processor (S3C6410, Samsung Electronics Inc., Seoul,
+Korea) and displayed on a 7” TFT LCD touch panel with an
+800 480 pixel resolution. The mobile CPU processor controls
+the operation of the PUS-SOC and the peripherals, such as the
+USB 2.0 and local area network (LAN) interfaces. The FPGA
+interface (Virtex-4 XC4 VLX160, Xilinx, Inc., San Jose, CA,
+USA) mediates between the controller (i.e., the mobile CPU
+processor) and the operation cores (i.e., the PUS-SOC and the
+DSP processor). Power is supplied by a custom-built 6-cell
+11.1-V lithium polymer battery with 1350 mAh of capacity or
+an external power source. The power module implemented in
+the prototype system extracts various voltages, including a high
+voltage of up to , for transmission.
+Fig. 11(a),(b), and (c) shows the front- and back-end board
+layouts and the external appearance of the prototype hand-held
+US imaging system. As shown in the ﬁgure, the front-end board
+includes the PUS-SOC and the ADCs on a front panel, and the
+pulsers and their drivers are implemented on a back panel. Ad-
+ditionally, the back-end board contains the mobile CPU pro-
+cessor, interface FPGA, and DSP processor on the front panel
+and is connected to the front-end board through connectors on
+the back panel. The resulting integrated board is enclosed by
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+KANG et al.: A SYSTEM-ON-CHIP SOLUTION FOR POINT-OF-CARE ULTRASOUND IMAGING SYSTEMS 9
+Fig. 10. Schematic diagram of the prototype hand-held US imaging system based on the PUS-SOC.
+TABLE V
+SPECIFICATIONS OF THE HAND-HELD US IMAGING SYSTEM BASED ON THE
+PUS-SOC
+the shell shown in Fig. 11(c), whose overall size and weight are
+and approximately 700 g, respectively.
+Additionally, the maximum frame rate and estimated battery life
+are 30 fps and 3 h, respectively. Note that the design of the front
+and back panels shown in Fig. 11(a) and (b) originates from our
+previous FPGA-based prototype in [9] such that the external
+shell in Fig. 11(c) is shared by both designs.
+To demonstrate the performance of the prototype hand-held
+US imaging system, phantom experiments were conducted
+on a tissue-mimicking phantom (Model 539 Multipurpose
+US Phantom, ATS Laboratories, Inc., Bridgeport, CT, USA).
+For the experiments, a 64-element custom-built phased array
+transducer with a center frequency of 3 MHz was employed.
+Fig. 12 shows the US images of the prototype hand-held US
+imaging system overlaid on a graphical user interface for the
+corresponding ﬁelds-of-view in the tissue-mimicking phantom
+targeting wire, hyperechoic mass, and hypoechoic cystic re-
+gions. The transmit focusing was on a 4-cm depth with an 8-cm
+overall imaging depth, and the gain and dynamic range for the
+images were 55% and 50 dB, respectively. As shown in the
+Fig. 12, the wire, hyperechoic mass, and hypoechoic cystic
+regions of the tissue-mimicking phantom could be observed
+using the prototype US imaging system.
+Fig. 11. Prototype hand-held US imaging system based on the PUS-SOC.
+(a) Front-end board. (b) Back-end board. (c) External appearance of the
+prototype system.
+IV. DISCUSSION
+In summary, the proposed system-on-chip solution (i.e., PUS-
+SOC) for a portable US imaging system can support the entire
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+10 IEEE TRANSACTIONS ON BIOMEDICAL CIRCUITS AND SYSTEMS
+Fig. 12. Phantom experimental results implemented on the developed GUI: the
+geometry of the tissue-mimicking phantom and its ﬁelds-of-view targeting the
+wire, hyperechoic mass, and hypoechoic cystic regions.
+B-mode processing along with the advanced imaging tech-
+niques (i.e., pseudo-dynamic receive beamforming, MBF,
+EA technique, frequency compounding, harmonic imaging,
+code excitation and baseband compression, and multi-zone
+focusing) as well as the Doppler processing while demon-
+strating low power consumption and high area-efﬁciency. Due
+to these advantages, the PUS-SOC becomes more valuable in
+implementing a portable US imaging system for point-of-care
+applications in which low power consumption, small volume,
+and light weight are necessary for enhanced user experience
+in terms of battery life and portability. Furthermore, the ap-
+plication of the PUS-SOC can be further extended beyond
+point-of-care use, as it is capable of supporting a 128-channel
+RF system by utilizing multiple PUS-SOCs due to its advanced
+scalability. In other words, depending on the application, the
+proposed PUC-SOC can be adopted for various manufacturers
+willing to use the PUS-SOC for broad product segments
+ranging from the portable to high-end US imaging systems.
+With the PUS-SOC, our future works will ﬁrst focus on the
+further stabilization of the current prototype US imaging system
+to access all of the features integrated in the PUS-SOC that have
+not been fully explored. On the other hand, we are working
+on designing the next generation of the PUS-SOC. In this next
+generation, use of state-of-art technology in CMOS processes
+under 20 nm in ASIC implementation will further optimize the
+chip area, reducing the area to less than . Fur-
+thermore, the reduction of the total equivalent gate counts, es-
+pecially for the RxBF and mid/back processor modules, which
+correspond to 46.5% and 46.8%, respectively, of the gate counts
+in the overall PUS-SOC, will accelerate the reduction in the chip
+area. Regarding power consumption, it is necessary to reduce
+the overall power dissipation, currently 1.2 W, to improve the
+battery life of portable US imaging systems. In particular, as an-
+alyzed in Fig. 9, the dynamic power consumption is the largest
+contributor to the power required to drive a PUS-SOC (i.e.,
+79.8%). Thus, we will continue to develop more efﬁcient archi-
+tectures and algorithms for a further reduction in logic size, es-
+pecially for RxBF and mid/back-end processor modules, which
+consume 25.4% and 25.6%, respectively, of the overall power
+in the current PUS-SOC design.
+Concerning the embedded features of PUS-SOC, the current
+PUS-SOC can only control the bipolar pulse transmission;
+thus, pulse compression methods using arbitrary pulses (e.g.,
+chirp) cannot be supported [35]. This issue creates the need for
+a multi-level pulse control for PUS-SOC to increase the SNR
+and further improve the power-efﬁciency using the optimized
+transmit pulse-shaping strategy as well [36]. In addition, re-
+cently proposed advanced imaging modes, such as elastography
+and vector ﬂow imaging using plane-wave beamforming [37],
+[38], are not supported in the current PUS-SOC design due to
+the limited number of MBF paths (i.e., four). Therefore, more
+efﬁcient and ﬂexible architectures supporting an extended MBF
+may be required for realizing the next generation of PUS-SOC
+while preserving its size and power consumption.
+Going beyond the conventional cross-sectional 2D US
+imaging is another important issue in the revision of the
+PUS-SOC, which could provide a breakthrough in terms of
+satisfying the needs of a system-on-chip solution. In particular,
+the PUS-SOC has a potential to be an area- and power-efﬁcient
+solution for 3D real-time volumetric imaging using a 2-dimen-
+sional array transducer, such as a capacitive micro-machined
+ultrasonic transducer (CMUT) [5], [39]. However, previously
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+KANG et al.: A SYSTEM-ON-CHIP SOLUTION FOR POINT-OF-CARE ULTRASOUND IMAGING SYSTEMS 11
+proposed volumetric beamforming architectures [40], [41]
+require extended MBF as well; thus, further improvement of
+the current PUS-SOC is necessary.
+V. CONCLUSION
+In this paper, we presented a compact and integrative
+PUS-SOC for portable US imaging systems, which can pro-
+vide 16.8 GFLOPS with dimensions of only
+and a power consumption of only 1.2 W while supporting
+advanced imaging techniques. In addition, the system scale can
+be increased by a factor of 4 by using multiple PUS-SOCs.
+Therefore, we believe that the PUS-SOC can be effective for
+implementing various types of US imaging systems, especially
+on a portable scale for point-of-care diagnostic applications.
+REFERENCES
+[1] A. Maccovski, Medical Imaging Systems. Englewood Cliffs, NJ,
+USA: Prentice-Hall, 1983.
+[2] T. K. Song and S. B. Park, “A new digital phased array system for
+dynamic focusing and steering with reduced sampling rate,” Ultrason.
+Imaging, vol. 12, no. 1, pp. 1–16, 1990.
+[3] I. Kim, H. Kim, F. Griggio, R. L. Tutwiler, T. N. Jackson, S. T. McK-
+instry, and K. Choi, “CMOS ultrasound transceiver chip for high-res-
+olution ultrasonic imaging systems,” IEEE Trans. Biomed. Circuits
+Syst., vol. 3, no. 5, pp. 293–303, 2009.
+[4] J. Ophir, I. Cespedes, H. Ponnekanti, Y. Yazdi, and X. Li, “Elastog-
+raphy: a squantitative method for imaging the elasticity of biological
+tissues,” Ultrason. Imaging, vol. 13, no. 2, pp. 111–134, 1991.
+[5] M. Wang and J. Chen, “Volumetric ﬂow measurement using an im-
+plantable CMUT array,” IEEE Trans. Biomed. Circuits Syst., vol. 5,
+no. 3, pp. 214–222, 2011.
+[6] Y. Yoo, R. Managuli, and Y. Kim, “Adaptive clutter ﬁltering for ultra-
+sound color ﬂow imaging,” Ultrasound Med. Biol., vol. 29, no. 9, pp.
+1311–1320, 2003.
+[7] C. L. Moore and J. A. Copel, “Point-of-Care ultrasonography,” New
+Eng. J. Med., vol. 364, no. 8, pp. 749–757, 2011.
+[8] J.-J. Hwang, J. Quistgaard, J. Souquet, and L. A. Crum, “Portable ul-
+trasound device for battleﬁeld trauma,” in Proc. IEEE Ultrason. Symp.,
+1998.
+[9] S.-W. Yang, H.-C. Yoon, J. Cho, S.-B. Kye, and T.-K. Song, “A mobile
+medical device for point-of-care applications,” in Proc. IEEE Ultrason.
+Symp., 2008, pp. 1346–1349.
+[10] A. Agarwal, T. Fukuoka, F. K. Schneider, Y. Yoo, F. Baluyot, and Y.
+Kim, “Single-chip solution for ultrasound imaging systems: Initial re-
+sults,” in Proc. IEEE Ultrason. Symp., 2007, pp. 1563–1566.
+[11] F. K. Schneider, Y. Yoo, A. Agarwal, L. M. Koh, and Y. Kim, “New de-
+modulation ﬁlter in digital phase rotation beamforming,” Ultrasonics,
+vol. 44, no. 3, pp. 265–271, 2006.
+[12] A. Agarwal, Y. Yoo, F. K. Schneider, G. Changqing, K. L. Mong,
+and K. Yongmin, “New demodulation method for efﬁcient phase-rota-
+tion-based beamforming,” IEEE Trans. Ultrason., Ferroelectr., Freq.
+Control, vol. 54, no. 8, pp. 1656–1668, 2007.
+[13] F. K. Schneider, A. Agarwal, Y. M. Yoo, T. Fukuoka, and Y. Kim, “A
+fully programmable computing architecture for medical ultrasound ma-
+chines,” IEEE Trans. Inf. Technol. Biomed., vol. 14, no. 2, pp. 538–540,
+2010.
+[14] G. D. Kim, C. Yoon, S. B. Kye, Y. Lee, J. Kang, Y. Yoo, and T.-K.
+Song, “A single FPGA-based portable ultrasound imaging system for
+point-of-care applications,” IEEE Trans. Ultrason., Ferroelectr., Freq.
+Control, vol. 59, no. 7, pp. 1386–1394, 2012.
+[15] J. Cho, J.-Y. Lee, J.-H. Song, Y. Kim, and T.-K. Song, “A fractional
+ﬁlter-based beamformer architecture using postﬁltering approach to
+minimize hardware complexity,” IEEE Trans. Ultrason., Ferroelectr.,
+Freq. Control, vol. 54, no. 5, pp. 1076–1079, 2007.
+[16] R. Mucci, “A comparison of efﬁcient beamforming algorithms,” IEEE
+Trans. Acoust., Speech, Signal Process, vol. 32, no. 3, pp. 548–558,
+1984.
+[17] O. D. Grace and S. P. Pitt, “Sampling and interpolation of bandlimited
+signals by quadrature methods,” J. Acoust. Soc. Amer., vol. 48, pp.
+1311–1318, 1970.
+[18] B. D. Steinberg, “Digital beamforming in ultrasound,” IEEE Trans. Ul-
+trason., Ferroelectr., Freq. Control, vol. 39, no. 6, pp. 716–721, 1992.
+[19] H.-Y. Sohn, J. Kang, J. Cho, T.-K. Song, and Y. Yoo, “Time-sharing bi-
+linear delay interpolation for ultrasound dynamic receive beamformer,”
+Electron Lett., vol. 47, no. 2, pp. 89–91, 2011.
+[20] F. De Dinechin et al., “Multiplicative square root algorithms for
+FPGAs,” in Proc. IEEE Int. Conf. Field Programmable Logic and
+Applicant., 2010, pp. 574–577.
+[21] J. Kang, G.-D. Kim, C. Yoon, Y. Yoo, and T.-K. Song, “The new efﬁ-
+cient multi-beamforming method based on multi-access register block
+on a post-fractional ﬁltering architecture,” Proc. SPIE, vol. 7968, Mar.
+26, 2011, 796815.
+[22] J. Kim, L. X. Yao, and Z. Banjanin, “Multi-Beam Digital Beamforming
+Method and Apparatus,” U.S. Patent 5 544 128, Aug. 6, 1996.
+[23] J. H. Chang, L. Sun, J. T. Yen, and K. K. Shung, “Low-cost, high-speed
+back-end processing system for high-frequency ultrasound B-mode
+imaging,” IEEE Trans. Ultrason., Ferroelectr., Freq. Control, vol. 56,
+no. 7, pp. 1490–1497, 2009.
+[24] K. K. Shung, Diagnostic Ultrasound: Imaging and Blood Flow Mea-
+surements. Boca Raton, FL, USA: Taylor and Francis, 2005.
+[25] C. Yoon, W. Lee, J. H. Chang, T.-K. Song, and Y. Yoo, “An efﬁcient
+pulse compression method of chirp-coded excitation in medical ultra-
+sound imaging,” IEEE Trans. Ultrason., Ferroelectr., Freq. Control,
+vol. 60, no. 10, pp. 2225–2229, 2013.
+[26] N. Levanon, “Cross-correlation of long binary signals with longer mis-
+matched ﬁlters,” IEEE Proc.-Radar Sonar Nav., vol. 152, pp. 377–382,
+2005.
+[27] D.-Y. Lee, Y. Yoo, T.-K. Song, and J. H. Chang, “Adaptive dynamic
+quadrature demodulation with autoregressive spectral estimation in ul-
+trasound imaging,” Biomed. Signal Process. Control, vol. 7, no. 4, pp.
+371–378, 2011.
+[28] J. H. Chang, H. H. Kim, J. Lee, and K. K. Shung, “Frequency com-
+pounded imaging with a high-frequency dual element transducer,” Ul-
+trasonics, vol. 50, pp. 453–457, 2010.
+[29] I. Song, C. Yoon, G. Kim, Y. Yoo, and J. Chang, “Adaptive frequency
+compounding for speckle reduction,” in Proc. IEEE Ultrason. Symp.,
+2011, pp. 1435–1438.
+[30] Y. Erez, Y. Y. Schechner, and D. Adam, “Space variant ultrasound
+frequency compounding based on noise characteristics,” Ultrasound
+Med. Biol., vol. 34, no. 6, pp. 981–1000, 2008.
+[31] Y. Yoo, S. Sikdar, K. Karadayi, O. Kolokythas, and Y. Kim, “Adaptive
+clutter rejection for 3D color Doppler imaging: preliminary clinical
+study,” Ultrasound Med. Biol., vol. 34, no. 8, pp. 1221–1231, 2008.
+[32] S. Bjærum, H. Torp, and K. Kristoffersen, “Clutter ﬁlter design for
+ultrasound color ﬂow imaging,” IEEE Trans. Ultrason., Ferroelectr.,
+Freq. Control, vol. 49, no. 2, pp. 204–216, 2002.
+[33] G. R. Lockwood, J. R. Talman, and S. S. Brunke, “Real-time 3-D
+ultrasound imaging using sparse synthetic aperture beamforming,”
+IEEE Trans. Ultrason., Ferroelectr., Freq. Control, vol. 45, no. 4, pp.
+980–988, 1998.
+[34] 7-Series FPGAs Packaging and Pinout: Product Speciﬁcations. San
+Jose, CA, USA: Xilinx Inc., 2014.
+[35] J. Song, S. Kim, H. Y. Sohn, T. K. Song, and Y. Yoo, “Coded excitation
+for ultrasound tissue harmonic imaging,” Ultrasonics, vol. 50, no. 6,
+pp. 613–619, 2010.
+[36] K. Chen, H. S. Lee, A. P. Chandrakasan, and C. G. Sodini, “Ultra-
+sonic imaging transceiver design for CMUT: a three-level
+pulse-shaping pulser with improved efﬁciency and a noise-optimized
+receiver,” IEEE J. Solid-State Circuits, vol. 48, no. 11, pp. 2734–2745,
+2013.
+[37] G. Montaldo, M. Tanter, J. Bercoff, N. Benech, and M. Fink, “Co-
+herent plane-wave compounding for very high frame rate ultrasonog-
+raphy and transient elastography,” IEEE Trans. Ultrason., Ferroelectr.,
+Freq. Control, vol. 56, no. 3, pp. 489–506, 2009.
+[38] J. Bercoff, G. Montaldo, T. Loupas, D. Savery, F. Meziere, and M.
+Fink, “Ultrafast compounding Doppler imaging: providing full blood
+ﬂow characterization,” IEEE Trans. Ultrason., Ferroelectr., Freq.
+Control, vol. 58, no. 1, pp. 134–147, 2011.
+[39] A. Bhuyan, J. W. Choe, B. C. Lee, I. O. Wygant, A. Nikoozadeh, Ö.
+Oralkan, and B. T. Khuri-Yakub, “Integrated circuits for volumetric ul-
+trasound imaging with 2-D CMUT arrays,” IEEE Trans. Biomed. Cir-
+cuits Syst., vol. 7, no. 6, pp. 796–804, Dec. 2013.
+[40] B. H. Kim, T. K. Song, Y. Yoo, J. H. Chang, S. Lee, Y. Kim, K. Cho,
+and J. Song, “Hybrid volume beamforming for 3-D ultrasound imaging
+using 2-D CMUT arrays,” in Proc. IEEE Ultrason. Symp., 2012, pp.
+2246–2249.
+This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.
+12 IEEE TRANSACTIONS ON BIOMEDICAL CIRCUITS AND SYSTEMS
+[41] K. Chen, B. C. Lee, K. Thomenius, B. T. Khuri-Yakub, H. S. Lee,
+and C. G. Sodini, “A column-row-parallel ultrasound imaging architec-
+ture for 3D plane-wave imaging and Tx 2nd-order harmonic distortion
+(HD2) reduction,” in Proc. IEEE Ultrason. Symp., 2014, pp. 317–320.
+Jeeun Kang received the B.S. and M.S. degrees
+in electronic engineering from Sogang University,
+Seoul, Korea, in 2009 and 2011, respectively.
+Currently, he is working toward the Ph.D. degree
+in electronic engineering at Sogang University. His
+main research interests include medical ultrasound
+imaging and therapy, portable ultrasound imaging
+system, digital signal and image processing, digital
+system design, and photoacoustic imaging. He is
+being supported by the Global Ph.D. Fellowship
+Program through the National Research Founda-
+tion of Korea (NRF) funded by the Ministry of Education, South Korea
+(2012H1A2A1049076).
+Changhan Yoon received the M.S. and Ph.D. de-
+grees in electronic engineering from Sogang Univer-
+sity, Seoul, Korea, in 2009 and 2013, respectively.
+Currently, he is a Postdoctoral Research Associate
+in the NIH Resource Center for Medical Ultra-
+sonic Transducer Technology at the University of
+Southern California, Los Angeles, CA, USA. His
+main research interests include medical ultrasound
+and photoacoustic imaging systems, clinical appli-
+cations, and ultrasound microbeams.
+Jaejin Lee received the B.S. and M.S. degrees in
+electronic engineering from Sogang University,
+Seoul, Korea, in 2008 and 2010, respectively.
+Currently, he is working toward the Ph.D. degree
+in electronic engineering at Sogang University. His
+main research interests include medical ultrasound
+imaging, implementation of portable ultrasound
+imaging systems, and digital signal processing.
+Sang-Bum Kye was born in Seoul, Korea, in 1966.
+He received the B.S. degree in electrical engineering
+from Korea University, Seongbuk-gu, South Korea,
+and the M.S. degree in electrical and electronic
+engineering from the Korea Advanced Institute of
+Science and Technology (KAIST), Daejeon, South
+Korea, in 1989 and 1992, respectively.
+He did research and development in ultrasound
+scanners at Medison Company Ltd. from 1992 to
+2007, at Bionet Company Ltd. from 2007 to 2014,
+and at Hansono Company Ltd. in 2015. Since 2007,
+he has been a Ph.D student in electronic engineering at Sogang University,
+Seoul, Korea. His research interests include signal processing and low cost
+system design of ultrasound systems for Point of Care (POC).
+Youngbae Lee was born in Seoul, Korea, in 1965.
+He received the B.S. degree in electrical engineering
+from Yonsei University, Seoul, Korea, and the M.S.
+degree in electrical and electronic engineering from
+the Korea Advanced Institute of Science and Tech-
+nology (KAIST), Daejeon, South Korea, in 1990 and
+1992, respectively.
+He did research and development in medical ultra-
+sound scanners at Medison Company Ltd. from 1992
+to 2002, at Siemens Ultrasound Group Korea from
+2003 to 2007, at Bionet Company Ltd. from 2007 to
+2014, and at Hansono Company Ltd. in 2015. Since 2007, he has been a Ph.D
+student in electronic engineering at Sogang University, Seoul, Korea. His re-
+search interests include signal processing and ultrasound scanners for Point of
+Care (POC).
+Jin Ho Chang (S’00–M’08–SM’15) received the
+B.S. and M.S. degrees in electronic engineering
+from Sogang University, Seoul, Korea, in 2000 and
+2002, respectively, and the Ph.D. degree in biomed-
+ical engineering from the University of Southern
+California, Los Angeles, CA, USA, in 2007.
+Currently, he is an Associate Professor in the
+Sogang Institute of Advanced Technology, the In-
+terdisciplinary Program of Integrated Biotechnology
+and Electronic Engineering, Sogang University. His
+research interests include photoacoustic imaging
+and its clinical applications, high-frequency ultrasound imaging systems,
+therapeutic ultrasound, and biomedical signal processing.
+Gi-Duck Kim received the B.S., M.S., and Ph.D. de-
+grees in electronic engineering from Sogang Univer-
+sity, Seoul, Korea, in 1998, 2000, and 2008, respec-
+tively.
+From 1999 to 2003, he did research and devel-
+opment in ultrasound signal processing at Samsung
+Medison (the former Medison), Seoul, Korea.
+From 2008 to 2010, he was a System Engineer for
+point-of-care ultrasound systems at Bionet, Seoul,
+Korea. Currently, he is a Research Professor in the
+Sogang Institute of Advanced Technology, Sogang
+University. His research interests include ultrasound signal processing and low
+cost system design for point-of-care ultrasound systems.
+Yangmo Yoo (M’09) received the B.S. and M.S. de-
+grees in electronics engineering from Sogang Uni-
+versity, Seoul, Korea, in 1999 and 2001, respectively,
+and the Ph.D. degree in bioengineering from the Uni-
+versity of Washington, Seattle, WA, USA, in 2007.
+From 2007 to 2009, he was a Systems Design En-
+gineer with Philips Healthcare, Bothell, WA, USA.
+Currently, he is an Associate Professor of Electronics
+Engineering and Interdisciplinary Program of Inte-
+grated Biotechnology at Sogang University. His re-
+search interests include medical ultrasound imaging
+and its clinical applications in diagnostics and therapy.
+Tai-kyong Song (M’97) received the B.S. degree
+in electronic engineering from Sogang University,
+Seoul, Korea, in 1984, and the M.S. and Ph.D.
+degrees in electrical and electronic engineering
+from the Korea Advanced Institute of Science and
+Technology (KAIST), Seoul, Korea, in 1985 and
+1990, respectively.
+He was a Research Fellow in the Department of
+Physiology and Biophysics, Mayo Clinic, Rochester,
+MN, USA, for two years before being appointed as
+an Adjunct Professor in the Department of Informa-
+tion and Communication Engineering at KAIST from 1993 to 1995. He was a
+Staff Scientist at Siemens Medical System Inc., Issaquah, WA, USA, from 1995
+to 1997 and joined the Department of Electronic Engineering at Sogang Univer-
+sity as an Assistant Professor in 1997. He was promoted to Professor in 2006.
+His research interests include medical ultrasound imaging and therapy, portable
+ultrasound imaging systems, ultrafast 3-D scanning algorithms, photoacoustic
+imaging and its translational researches, digital signal and image processing,
+and multi-modal imaging systems for preventive and surgical applications. He
+has been the Director of the Medical Solution Institute at Sogang University
+since 2000. Currently, he is the Dean of the College of Integrated Knowledge
+and the Vice Director of the Sogang Institute of Advanced Technology at So-
+gang University.
+Dr. Song was an Associate Editor of IEEE TRANSACTIONS ON ULTRASONICS,
+FERROELECTRICS, AND FREQUENCY CONTROL from 2002 to 2007. He is a Pres-
+ident of the Korean Medical Ultrasound Link and a member of the National
+Academy of Engineering of Korea.
+

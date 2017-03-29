@@ -1,0 +1,153 @@
+# First Pulses (Sept. 2015)
+
+[http://echopen.org/attachments/Aquisitions/25-09-2015.zip Download the Raw Data]
+
+=Testing the transducers =
+
+We have been recycling the following [[S-VRW77AK]] piezoelements. Color pairs are as follows: Yellow/DeepBlue, and Red/LightBlue.
+
+After reconnecting the cables, the whole setup was installed in a plastic tube and waterproofed.
+ 
+<gallery>
+File:schéma1.png|Photographie de la sonde [[S-VRW77AK]]
+File:Transducer-77AK-a.JPG|First pic
+File:Transducer-77AK-b.JPG|Other pic
+File:Transducer-77AK-large.JPG.jpg|Large transducer (YDb)
+File:Transducer-77AK-small.JPG.jpg|Small transducer (RLb)
+</gallery>
+
+= Comparison =
+
+== Using both transducers : RB and JB ==
+=== Remarks ===
+RB and JB stands for the two sets of cable linked to the pair of transducers, namely, RB for the Red and Blue, and JB for the Yellow/Blue pair.
+
+The transducers differ in size, and it appears their behavior when the pulse is applied changes (the setup below shows the difference with a load resistance at 10kOhm, with a 10V tension applied) : 
+* The peak reaches -1.03V for JB, -  0.65mV for RB -- > ''Why this level ?''
+* JB present oscillations at T~5µs, RB are at 2.5µs
+
+Similarities though:
+*The width of the "gap" corresponds to the pulse driving the pulser system (roughly 19us) through the pwm. 
+* The characteristic time for relaxation  is around 7 us
+
+* Relaxation level seems to be -200mv for both transducers, at 22kOhm and 10V
+* Small oscillations at 10ns / 10MHz -> ''Frequency of the transducer''? Possible as this was an endo
+
+'''Conclusion''': RB could be the most interesting to study, as we have more amplitude.
+
+=== Data ===
+{| class="wikitable"
+! 
+! RB, 10V and 22kOhm
+! JB, 10V and 22kOhm
+|-
+| 5µs
+| [[File:RB-10V-22kOhm-10us.JPG| 500px]]
+| [[File:JB-10V-22kOhm-5us.JPG| 500px]]
+|-
+| ~500ns
+| [[File:RB-10V-22kOhm-500ns.JPG| 500px]]
+| [[File:JB-30V-22kOhm-250ns.JPG| 500px]] !
+|-
+| ~100ns
+| [[File:RB-10V-22kOhm-100ns.JPG| 500px]]
+| [[File:JB-10V-22kOhm-100ns.JPG| 500px]]
+|}
+
+== 10kOhm vs 22kOhm ==
+=== Remarks on JB uses ===
+Similarities wise:
+*Structure of the measurement is the same, apart from the following below:
+
+We can see, that, difference-wise:
+*Peak level reaches -1.48V for 30V and 22k,  -3.02 for 30V and 10kOhm
+*The secondary oscillations are for 22k, 5us, and 2.5us for 10kOhm -> it seems that the resistance of JB is therefore half of that of RB, as the behavior changes in a similar fashion.
+*We therefore seem to have a better SNR
+
+=== Data ===
+
+{| class="wikitable"
+! 
+! 30V and 22kOhm
+! 30V and 10kOhm
+|-
+| ~10µs
+| [[File:JB-30V-22kOhm-5us.JPG| 500px]]
+| [[File:JB-30V-10kOhm-2500ns.JPG| 500px]]
+|-
+| ~500ns
+| [[File:JB-30V-22kOhm-250ns.JPG| 500px]]
+| [[File:JB-30V-10kOhm-500ns.JPG| 500px]]
+|-
+| ~100ns
+| [[File:JB-30V-22kOhm-100ns.JPG| 500px]]
+| [[File:JB-30V-10kOhm-100ns.JPG| 500px]]
+|}
+
+=Data=
+== The Red and Blue ==
+=== At 22kOhm ===
+{| class="wikitable"
+! 
+! 10V and 22kOhm
+! 30V and 22kOhm
+|-
+| ~10µs
+| [[File:RB-10V-22kOhm-10us.JPG| 500px]]
+| [[File:RB-30V-22kOhm-5us.JPG| 500px]]
+|-
+| ~500ns
+| [[File:RB-10V-22kOhm-500ns.JPG| 500px]]
+| [[File:RB-30V-22kOhm-500ns.JPG| 500px]]
+|-
+| ~100ns
+| [[File:RB-10V-22kOhm-100ns.JPG| 500px]]
+| 
+|}
+
+== The Yellow and Blue ==
+
+=== At 22kOhm ===
+{| class="wikitable"
+! 
+! 10V and 22kOhm
+! 30V and 22kOhm
+|-
+| ~5µs
+| [[File:JB-10V-22kOhm-5us.JPG| 500px]]
+| [[File:JB-30V-22kOhm-5us.JPG| 500px]]
+|-
+| ~500ns
+| 
+| [[File:JB-30V-22kOhm-250ns.JPG| 500px]]
+|-
+| ~100ns
+| [[File:JB-10V-22kOhm-100ns.JPG| 500px]]
+| [[File:JB-30V-22kOhm-100ns.JPG| 500px]]
+|}
+
+=== At 10kOhm ===
+{| class="wikitable"
+! 
+! 10V and 10kOhm
+! 30V and 10kOhm
+|-
+| ~10µs
+| [[File:JB-10V-10kOhm-5us.JPG| 500px]]
+| [[File:JB-30V-10kOhm-2500ns.JPG| 500px]]
+|-
+| ~500ns
+| [[File:JB-10V-10kOhm-500ns.JPG| 500px]]
+| [[File:JB-30V-10kOhm-500ns.JPG| 500px]]
+|-
+| ~100ns
+| 
+| [[File:JB-30V-10kOhm-100ns.JPG| 500px]]
+|}
+
+
+[[Category:Electronics]]
+[[Category:Pulse]]
+[[Category:Transducer]]
+[[Category:Emission]]
+[[Category:Pulse]]

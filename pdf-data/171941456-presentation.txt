@@ -1,0 +1,236 @@
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+L’écho-stéthoscope branché sur un smartphone
+Open Source & Low-Cost
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Plan de la présentation
+1 Introduction
+2 Concept
+3 Objectifs
+4 Moyens matériels et ressources humaines
+5 Stratégie
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Une forte demande et peu d’offres
+Friche technologique de l’imagerie médicale
+Difficultés logistiques hospitalières dans les pays du nord
+Zones sous-medicalisées dans les pays du sud
+Généralisation de la culture Open Source
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Une solution innovante
+Développer un prototype fonctionnel de sonde écho-stéthoscopique
+Open Source et low cost, capable de se connecter à un smartphone ou
+une tablette.
+A l’attention
+Des professionnels de santé :
+Généralistes
+Spécialistes
+Urgentistes
+Humanitaires
+Permettant
+L’optimisation de l’orientation
+diagnostique en médecine :
+Désengorgement
+hospitalier et clinique
+Gain de temps et d’argent
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Plan de la présentation
+1 Introduction
+2 Concept
+3 Objectifs
+4 Moyens matériels et ressources humaines
+5 Stratégie
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Vers l’écho-sthéthoscopie
+Définition Caractéristique
+Matériel ultra-portable
+Réglages simplifiés
+Imagerie temps réel en
+échographie
+Connectique simplifiée
+pour PC
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Une nouvelle approche
+La communeauté Open Source
+Communeauté ouverte et animée par un noyau pluri-disciplinaire
+d’experts et de professionnels de haut-niveau partageant une vision
+commune.
+Rendre accessibles, ouvertes et collaboratives, les technologies
+d’imagerie médicale à ultrasons.
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Plan de la présentation
+1 Introduction
+2 Concept
+3 Objectifs
+4 Moyens matériels et ressources humaines
+5 Stratégie
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Le projet echOpen en trois étapes
+Un nouveau stéthoscope
+EchOpen souhaite présenter un prototype fonctionnel de son écho-stéthoscope le
+17 février 2016, jour du bicentenaire de l’invention du stéthoscope par Laennec.
+Optimisation de la sonde
+Perfectionnement de la sonde en améliorant les algorithmes de traitement, en
+optimisant la qualité d’image et en réduisant les coûts de production.
+Sonde opérationnelle
+Aboutissement du projet par l’étude ergonomique de la sonde et de ses différentes
+fonctionnalités afin de satisfaire à la demande des professionnels de santé.
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Plan de la présentation
+1 Introduction
+2 Concept
+3 Objectifs
+4 Moyens matériels et ressources humaines
+5 Stratégie
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Un partenariat avec de grands groupes
+Le groupe Thalès, leader mondial équipementier, participe
+activement à bon nombre de projets européens réunis autour
+des problématiques de l’open source industriel.
+La fondation Pierre Fabre a pour objectif de permettre aux
+populations du Sud un meilleur accès aux médicaments et
+aux soins de qualités.
+L’Assitance publique - Hôpitaux de Paris (AP-HP) est
+l’établissement de santé exerçant le rôle de centre hospitalier
+régional pour Paris et l’Ile-de-France.
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Des locaux au coeur de Paris
+Cour intérieure de l’hôpital
+Avec une surface de 150m2
+au sein de l’hôtel-Dieu, le
+projet echOpen se situe au
+plus près des professionnels
+de santé, futurs utilisateurs
+de la nouvelle sonde.
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Des ressources intellectuelles
+La communauté echOpen
+Core Team : 5 personnes aux profils complémentaires avec une
+grande expérience du terrain ayant pour responsabilité la gestion du
+projet, incluant les aspects logistiques et organisationnels.
+Extended Team : Membres spécialistes dans leur domaine partici-
+pant de manière régulière au projet et accompagnant un ou plusieurs
+des enjeux ou chantiers définis.
+Back-up Team : Ensemble de profils facilement mobilisables pour
+répondre à des problématiques spécifiques.
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Plan de la présentation
+1 Introduction
+2 Concept
+3 Objectifs
+4 Moyens matériels et ressources humaines
+5 Stratégie
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Une méthodologie fondée sur la culture du libre
+Phase de conception et de
+réflexion (#Think)
+Définition des enjeux
+Réflexion sur les différents
+challenges
+Réflexion éthique sur
+l’ensemble des impacts et
+des bénéfices
+Phase d’élaboration et de création
+(#Do)
+Sonde gérée par une application
+en kit et à faible coût
+Système de gestion des données et
+d’imagerie ultrasonore
+Modules de formation live et
+e-learning de l’écho-stéthoscopie
+Phase transversale (#Animate & Document)
+Documentation software et hardware dans le domaine public
+Production d’une méthode générique de conduite de projet
+Communeauté de développement et d’entretien du projet
+L’écho-stéthoscope branché sur un smartphone
+Introduction
+Concept
+Objectifs
+Moyens matériels et ressources humaines
+Stratégie
+Une dynamique entrenue sur des fronts divers
+Evenementiel
+Conférences organisées afin de
+préserver l’intérêt et implication
+des acteurs et témoins du projet.
+Diversité géographique
+Un positionnement multi-sites afin
+d’installer chaque enjeu dans son
+milieu naturel.
+Développement des partenariats
+Recherche constante de nouveaux partenaires afin d’élargir la communauté
+et répondre à des exigences de qualité variées et complémentaires.
+L’écho-stéthoscope branché sur un smartphone
+

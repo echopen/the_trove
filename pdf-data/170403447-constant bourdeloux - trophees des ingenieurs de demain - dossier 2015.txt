@@ -1,0 +1,318 @@
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 1
+CONTACT
+NOM : BOURDELOUX PRENOM : Constant
+FONCTION : Elève ingénieur à l’ESPCI ParisTech
+ADRESSE E-MAIL : constant.bourdeloux@laposte.net
+TEL : 06 34 09 73 47
+ADRESSE : 2, square Albin Cahot 75013 Paris
+L’étudiant Constant BOURDELOUX demande son inscription aux Trophée des Ingénieurs de Demain 2015. Il
+s’engage à se conformer aux modalités de son règlement, et déclare en avoir pris connaissance et en accepter
+sans réserve ni restriction toutes les clauses notamment l’article 11 relatif au traitement des données
+personnelles. Conformément à la loi Informatique et Libertés du 6 août 2004 (art. 34 et s.) vous disposez d’un
+droit d’accès, de rectification, de modification et de suppression sur l’ensemble des données qui vous
+concernent. Pour exercer ces droits, vous pouvez écrire à notre service clientèle situé au 10, place du Général
+de Gaulle - 92160 ANTONY. Si vous ne souhaitez pas recevoir des informations commerciales de nos Partenaires
+par courrier, fax ou courrier électronique, Merci de cocher ici □
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 2
+Qui êtes-vous ?
+Le candidat
+NOM : BOURDELOUX PRENOM : Constant
+Votre formation principale : Elève ingénieur à l’ESPCI ParisTech.
+Votre fonction/statut aujourd’hui : Elève ingénieur à l’ESPCI ParisTech.
+Votre rôle dans le projet : Membre du comité de coordination – Responsable technique du
+développement du prototype.
+PRESENTEZ-VOUS EN QUELQUES MOTS :
+Quelle école, quelle entreprise ou quel organisme représentez-vous ?
+NOM/DENOMINATION : Association echOpen.
+SPECIALITE OU SECTEUR D’ACTIVITE : Imagerie médicale par ultrasons.
+NOMBRE D’ETUDIANTS OU EFFECTIFS : Plusieurs employés et bénévoles au sein de l’association.
+SITE WEB : echopen.org
+Votre équipe projet
+Nom/ Dénomination : Association echOpen.
+Nombre de personnes : Plusieurs employés et bénévoles au sein de l’association.
+Ecoles ou Société(s) représentée(s) : Association echOpen.
+Le responsable de l’équipe
+NOM / PRENOM : BENCHOUFI Mehdi.
+Votre école/société/organisme : Association echOpen.
+Votre fonction/statut aujourd’hui : Président de l’association echOpen.
+Votre rôle dans le projet : Président de l’association echOpen.
+Votre formation principale : Médecin, agrégé de mathématiques.
+Dans quelle catégorie voulez-vous présenter votre candidature ?
+Trophée de l’ingénieur entrepreneur
+X Trophée de l’Ingénieur pour l’international
+Trophée de l’Ingénieur pour l’innovation
+Trophée de l’Ingénieur pour le développement durable
+Trophée de l’Ingénieur pour le design
+X Trophée de l’Ingénieur engagé
+Trophée de l’Ingénieur pour la recherche
+Trophée de l’Ingénieur du digital
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 3
+Votre projet ou votre innovation
+Comment l’avez-vous baptisé ?
+Projet echOpen.
+Quand l’avez-vous réalisé ?
+Projet en cours de réalisation depuis un an.
+Expliquez en quelques lignes pourquoi nous devrions lire la suite de ce dossier.
+Amorcé il y a moins d’un an, le projet echOpen se développe très rapidement. De plus en
+plus de soutiens viennent en aide au projet : financements multiples (plusieurs milliers
+d’euros), emplacement privilégié (150m² de locaux à l’hôtel-Dieu), accompagnement par
+de grandes entreprises (fondation Pierre-Fabre, Thalès, autres).
+EchOpen remporte plusieurs prix comme les trophées de la e-santé à Castres.
+La communauté echOpen ouverte et collaborative se développe énormément avec des
+contributeurs pluridisciplinaires, experts et professionnels de haut niveau.
+EchOpen souhaite ouvrir le marché de l’imagerie médicale pour le rendre plus accessible,
+innovant et dynamique.
+Si vous deviez décrire ce projet à un ami qui n’y connaît rien, comment le lui
+expliqueriez-vous ?
+EchOpen a l'ambition de créer la première sonde d'écho-stéthoscopie open-source
+hardware et software à bas coût et qui se branche sur un smartphone ou une tablette à
+destination des professionnels de santé, le tout à l’aide à une communauté
+pluridisciplinaire qui partage la même vision.
+Nous souhaitons rendre accessibles, ouvertes et collaboratives les technologies d’imagerie
+médicale à ultrasons.
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 4
+Et si vous deviez le présenter plus en détail à un spécialiste du secteur, au cours d’un
+entretien d’embauche ou pour obtenir un financement ?
+EchOpen est une communauté ouverte et collaborative, animée par un noyau
+pluridisciplinaire d'experts et de professionnels de haut niveau qui s'est fixée comme but
+de rendre accessibles, ouvertes et collaboratives les technologies d'imagerie médicale à
+ultrasons.
+Nous souhaitons concevoir un écho-stéthoscope ultra-portable, low-cost et open-source
+assurant l'obtention d'une image échographique du corps au moyen d'une sonde open-
+source hardware reliée à un smartphone ou à une tablette quelconque, permettant, la
+transformation radicale de l'orientation diagnostique :
+ en médecine hospitalière.
+ en médecine générale.
+ en zone sous-médicalisée (pays en voie de développement, déserts médicaux par
+exemple).
+La méthodologie est ouverte, inclusive et collaborative, basée sur les outils et méthodes
+de la culture du libre. On retiendra les trois points suivants.
+Phase de conception (déjà faite)  #Think
+ Dimensionner le projet selon ses facettes clés : techniques, médicales, usages,
+juridiques, éthiques etc... Conduire et animer une réflexion collaborative sur les 9
+enjeux identifiés.
+ Définir les problématiques clés liées à chacun des aspects susmentionnés.
+Phase d'élaboration (en cours)  #Do
+ Timeline technique.
+o Exploration des solutions techniques
+o Choix de la conception d'une sonde mécanique & prototypage
+o Traitement du signal
+o Production
+ Timeline usage.
+o Prototypage (mockup) de l'application mobile
+o Définition des protocoles de validation de la technologie
+ Validation normative et juridique - validation médicale
+Transversale  #Animate & #Document
+ Elaboration du cadre de collaboration des participants en vue de la levée et de
+l'entretien de la dynamique communautaire du projet.
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 5
+Nos objectifs sont les suivants.
+1. Obtenir un prototype d'ici 2016 (pour le bicentenaire de l'invention du stéthoscope
+par Laennec). Le premier prototype est déjà bien avancé.
+2. Faire de l'écho-stéthoscope le stéthoscope du 21ème
+siècle, soit l'outil clinique de
+première intention.
+ Filtrer, désengorger et accélérer la prise en charge des patients en services
+d'urgence.
+ Assurer une orientation efficace des patients en médecine extrahospitalière.
+3. Donner les moyens d'une prise en charge sanitaire de qualité dans les déserts
+médicaux.
+ Assurer une couverture médicale dans les zones sous-médicalisées et non-
+médicalisées via la télémédecine.
+ Mettre à disposition un outil pour les services d'intervention médicale en
+crise sanitaire.
+4. Discuter l'usage d'un tel outil en médecine personnelle (obstétrique, autres)
+Nous souhaitons obtenir certains livrables.
+1. Une sonde multifréquence connectée envoyant un signal restitué par une
+application.
+2. Un système de gestion et de prise d'images comprenant la modulation des
+paramètres de lecture essentiels de l'imagerie échographique.
+3. L'élaboration de modules d'apprentissage en présentiel et d'e-learning permettant
+l'appropriation des fondamentaux de l'écho-stéthoscopie.
+4. La production de la documentation software et hardware permettant la conception
+du dispositif en Do It Yourself dans le domaine public ainsi que le développement
+de fournisseurs de hardware fiables.
+5. Une communauté croissante de développement et d'entretien du projet.
+6. La production d'une méthodologie générique de conduite des projets d'open science
+complexes, prenant en compte l'aspect communautaire, non-hiérarchique et
+décentralisé des échanges :
+1. gestion des aspects techniques.
+2. gestion de la propriété industrielle.
+3. gestion de la communauté.
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 6
+Pourquoi ce projet ou cette innovation ?
+Plusieurs raisons nous permettent de croire en ce projet.
+ La faisabilité d’une sonde échographique branchée sur un smartphone a déjà été
+prouvée.
+o Une sonde échographique branchée sur un OLPC par le MIT a été réalisée.
+o Des échographes ultraportables existent mais sont inaccessibles en termes
+de prix (plusieurs milliers d’euros).
+ Une friche technologique autour de l’échographie.
+o Des technologies anciennes inutilisées à réhabiliter.
+o Des technologies éprouvées et non invasives.
+ La culture open-source hardware se généralise.
+o La dynamique open-source accélère les projets et fédère des communautés.
+ Des problématiques d’organisation du système sanitaire dans les pays développés.
+o De nombreux déserts médicaux existent.
+o Les services d’urgences sont engorgés.
+ Des vies en danger en zones sous-médicalisées dans les pays en voie de
+développement.
+o 1 milliard d’êtres humains n’ont pas accès à des soins dans de bonnes
+conditions.
+o 1000 femmes meurent chaque jour dans le monde à cause de complications
+de leur grossesse ou suite à un accouchement.
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 7
+En quoi est-ce innovant ?
+EchOpen est un projet innovant du point de vue technique, humain et juridique.
+L’innovation technique est bien présente du fait de la miniaturisation de l’appareil et du
+côté connecté de la sonde. Nous ne sommes plus ici seulement en présence d’un objet
+médical classique mais bien d’un objet connecté donc ouvert à une communauté de
+scientifiques et de médecins partout dans le monde.
+Dans le futur on pourra penser à un système de traitement des données anonyme et
+décentralisé. Plusieurs médecins dans le monde pourront donner leurs avis et se concerter
+sur un cas difficile par exemple ou bien pour valider le diagnostic d’un de leur collègue.
+Du point de vue humain il s’agit d’animer une communauté internationale sur un projet
+d’envergure qui touche aussi bien les pays riches que les pays pauvres. Tout le monde
+pourra bénéficier de cette avancée puisque nous souhaitons obtenir les plus bas coûts de
+production sans baisser la qualité du matériel. Pour cela nous développons des solutions
+techniques innovantes et si possible très simples à réaliser. Le libre et l’open-source sont
+cruciaux pour nous puisqu’il faut que chacun ait l’opportunité de fabriquer cette sonde et
+de participer au développement du projet.
+En parallèle du développement technique de la sonde nous essayons de mettre en place
+une formation à l’échographie d’une durée maximale de 48 heures. Nous pensons qu’il est
+possible de former quiconque à l’utilisation de l’écho-stéthoscopie de manière basique en
+deux jours. C’est une avancée majeure puisque l’on pourrait former rapidement et
+simplement un grand nombre de professionnels de la santé – et non pas uniquement des
+médecins – et assurer un accès aux soins bien mieux réparti qu’aujourd’hui.
+Enfin l’enjeu juridique est de taille. On peut parler ici d’innovation puisque le domaine du
+matériel médical et plus particulièrement de l’imagerie médicale est très fermé. En
+utilisant des licences libres et de l’open-source nous souhaitons ouvrir ce domaine. Cette
+ouverture ne peut être que bénéfique dans un secteur où les prix des produits sont bien
+trop élevés par rapport au coût de production, au détriment des patients.
+Quels autres projets menés auparavant par d’autres équipes cherchaient à résoudre le
+même problème ? Qu’apportez-vous par rapport à ces précédents travaux ?
+Plusieurs écho-stéthoscopes ou échographes portables existent sur le marché. On peut
+citer par exemple :
+ SignosRT (http://www.signostics.com.au/)
+ Interson (http://www.interson.com/products/seemore-usb-probes)
+ SonicWindow (http://bkultrasound.com/products/sonicwindow)
+ Mobisanté (http://www.mobisante.com/)
+Il y en a d’autres. Mais tous ont un prix extrêmement élevé (autour de 10 000 euros) et
+utilisent des licences propriétaires. Il n’est donc pas possible de s’en fournir simplement et
+encore moins d’en fabriquer là où on en a besoin.
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 8
+En quoi peut-il « changer le monde » ? Quels résultats
+économiques/environnementaux/sociétaux… attendez-vous ?
+Nous travaillons sur des enjeux de toutes sortes :
+ Enjeux médicaux :
+o amélioration de l’examen clinique (sensibilisation des médecins et des
+étudiants en médecine).
+ Enjeux techniques :
+o fabriquer une sonde échographique connectée.
+ Enjeux collaboratifs et communautaires :
+o fédérer, mobiliser, animer.
+ Enjeux juridiques et open-source :
+o licences et conditions d’utilisation.
+ Enjeux normatifs :
+o normes de sécurité, normes européennes.
+ Communication :
+o sensibiliser, échanger, annoncer.
+ Ethique :
+o réflexion autour de questions éthiques quant à la création d’un objet libre à
+but médical.
+ Santé publique :
+o faciliter la prise en charge des patients dans des zones difficiles, impact
+social important.
+ Formations :
+o former le plus grand nombre de professionnels de la santé le plus
+rapidement.
+ Modèle économique :
+o entrer dans un marché protégé où le libre et l’open-source existent peu.
+ Finance :
+o trouver des partenaires pour un soutien financier.
+ Distribution :
+o distribuer cette sonde là où le besoin est le plus fort.
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 9
+C’est quoi la suite ? Quel avenir voyez-vous pour votre projet ?
+Aujourd’hui nous travaillons essentiellement sur le développement de la sonde, le premier
+prototype étant attendu au début de l’année 2016.
+Cela fait un peu moins d’un an que le projet a été lancé. Nous avons passé de nombreuses
+étapes importantes.
+D’abord réfléchir sur l’idée globale du projet et les fils directeurs à suivre. Une grande
+réflexion s’étalant sur plusieurs mois fût nécessaire à l’élaboration de ce projet ambitieux
+mais réalisable.
+Ensuite, c’est l’organisation, la structure concrète du projet qu’il a fallu développer.
+Plusieurs hackatons, réunions et meetings divers et variés ont été l’occasion de penser et
+d’échanger pour valider l’idée du projet. Dès lors nous avons fondé l’association echOpen
+dont l’adresse actuelle est au 23 rue Greneta à Paris mais qui va rapidement migrer vers
+des locaux inutilisés de l’hôtel-Dieu, 1 parvis Notre-Dame avant le mois d’août 2015. Des
+partenaires ont également été trouvés pour financer le projet, souvent des fondations à
+caractère humanitaire, parfois des récompenses comme le trophée e-santé à Castres.
+Le prototypage est lancé et nous commençons à réfléchir aux nouveaux problèmes que
+nous allons devoir résoudre.
+ L’homologation du prototype qui doit respecter de nombreuses normes françaises,
+européennes et internationales.
+ La production et la distribution des sondes.
+ La formation des professionnels de santé.
+ La pérennité d’un modèle économique libre et open-source peu courant dans le
+marché du matériel d’imagerie médicale.
+Votre projet ou innovation fait-il l’objet d’un Brevet - enveloppe Soleau - pli cacheté
+(précisez les numéros et dates) ?
+Modalités d’envoi du dossier
+ Adressez le présent dossier, dûment complété, avant le 27 juillet 2015 à tid@infopro-digital.com en
+précisant dans l’objet
+ « Dossier de candidature »
+ Toutes les pièces additionnelles pourront être adressées par courrier : TROPHEE DES INGENIEURS DE
+DEMAIN 2015
+– Melle Sokonnthéa DAM
+ Antony Parc 2 – 10 place du General de Gaulle – BP 20156 – 92186 ANTONY cedex
+ Transmettez-nous votre vidéo : vous pouvez nous la remettre via une clé USB à l’adresse mentionnée ci-
+dessus, ou par l’intermédiaire de WeTransfert, Dropbox… tid@infopro-digital.com
+ Vous pouvez retrouver l’ensemble des conditions de participation dans le règlement du Trophée des
+Ingénieurs de Demain.
+DOSSIER DE CANDIDATURE 2015
+Le trophée des ingénieurs de demain est organisé par le Groupe Industrie Services Info
+S.A.S au capital de 38 628 352,10 € - 442 233 417 RCS NANTERRE
+Page | 10
+FORMULAIRE DE GARANTIE
+JE SOUSSIGNÉ(E) : Constant BOURDELOUX
+Déclare ne pas être propriétaire des droits de propriété intellectuelle sur le projet, l’œuvre ou
+l’innovation présentée au concours du « Trophée des ingénieurs de demain ».
+DESCRIPTION SOMMAIRE DE L’ŒUVRE OU DE L’INNOVATION PRESENTEE :
+Echo-stéthoscope open-source, low-cost et branché sur un smartphone ou une tablette.
+J’atteste avoir recueilli du titulaire les droits de propriété intellectuelle ci-dessous nommé :
+Association echOpen dont le siège social est au 23, rue Greneta à Paris 75002.
+ Son approbation du dépôt de ma candidature.
+ Son acceptation des termes du règlement du concours transmis avec le dossier.
+Garantit en tout état de cause l’organisateur du concours contre tout recours du titulaire les droits de
+propriété intellectuelle à leur encontre y compris si l’identité du propriétaire des droits ci-dessus fournie
+se révélait erronée.
+Fait à Paris, le 22 Juillet 2015.
+

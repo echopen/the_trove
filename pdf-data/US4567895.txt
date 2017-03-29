@@ -1,0 +1,272 @@
+W l
+‘ ~"- v" "93019670
+Q60 _ .
+Ulllt?d States Patent [19] [11] Patent Number: 4,567,895 '
+Putzke [45] Date of Patent: Feb. 4, 1986
+[54] FULLY WE'I'I‘ED MECHANICAL 4,269,066 5/1981 Fischer ........................... 128/660 X
+v ULTRASOUND SCANHEAD 4,418,698 6/1983 Dory 128/660
+[75] Inventor: Dwayne H. Putzke, Issaquah, Wash. Primauw Examiner-Kyle L. Howell V
+. ' . Assistant Examiner—Francis JuJaworski
+[73] Asslgnec‘ aingzeglgfchwngggy Labonmnes’ Attorney, Agent, or Firm-Lawrence S. Levinson;
+°’ ’ ' Sanford J. Asman
+[21] Appl. N0.: 595,888 [57] ABS Cr
+[22] Filed: Apr. 2, 1984 . .
+A fully wetted ultrasound scanhead for medical applica
+Int. Cl.4 .............................................1 00 tions is described the motor and the rotor are
+[52] U_-S- Cl’ ---------------- -- 128/660; 73/639 enclosed within a sealed housing ?lled with ultrasound
+[58] Fleld of Search ................................ l28/660-—66l, coupling fluid. The invention includes a drive belt to
+128/663; 73/610'62o’ 621’ 639 drive the rotor from the motor, rather than a precision
+[56] References Cited drive means. Speed adjustment means, including an
+U S PATENT DOCUMENTS encoder disk mounted on the rotor, provide feedback
+' ' for an electronic speed controller. Accordingly, the
+x8121’: ----------------------------- 7366);) speed of the motor can be adjusted as a direct conse
+4Z047Is2o 9/1977 scfldnerritZ1.- ..............'.'.'.'. 128/660 quence °f the actual speed °f the mm"
+4,l49,4l9 4/1979 Connell, Jr. et al. 128/660 X
+4,231,373 11/1980 Waxman et a1. .................... 128/660 8 Claims, 5 Drawing Figures
+44
+4 40 3B 28 4
+.L _l_
+34 rm
+so ‘:1’?! 24
+26
+/ 32
+I0 __.- I8
+I ' -
+r - » - 42
+i ' " " 20
+1' .11. _- k
+{- '. ____ __
+'\ I
+TM H
+3 3
+US. Patent Feb. 4, 1986 Sheet 1 of2 ~4,567,895
+US. Patent Feb. 4,1986 Sheet2of2 4,567,895
+-3.
+4,567,895
+1
+FULLY WE'ITED MECHANICAL ULTRASOUND
+SCANHEAD
+BACKGROUND OF THE INVENTION
+The present invention relates to mechanical scan
+heads. In particular, it relates to a mechanical scanhead
+of the type used in medical electronic diagnostic ultra
+sound equipment.
+Ultrasound is a non-invasive technique for generating
+image scans of interior body organs. As is well known
+in the art, there are a variety of types of ultrasound
+transducers. These include elongated transducers, such
+as phased array transducers and linear array transducers
+which are fully electronic in beam forming and direct
+ing, and various types of spherical transducers and an
+nular arrays, which are typically scanned mechanically.
+Mechanical scanheads typically utilize two tech
+niques for generating sector scans. The ?rst technique,
+which requires a plurality of transducers, is the rotating
+scanhead unit, in which the various transducers are
+rotated through 360 degrees and are turned on in suc
+cession over a sector which corresponds to the sector
+belng scanned. The second type ofmechanical scanhead
+is an oscillating scanhead, sometimes called a “wob
+bler”. In either type of mechanical scanhead, drive
+means, such as a motor, must be connected to the trans
+ducer in order to impart mechanical movement to the
+rotor. In typical mechanical scanheads, ofthe type here
+tofore used, the motor drive means is in a dry ambient
+whereas the ultrasound transducer is typically im
+mersed in an acoustic coupling medium such as mineral
+oil. A problem which has heretofore existed with me
+chanical scanheads, especially those which require a
+plurality of transducers, is that they are very expensive
+to manufacture due to the critical alignment of the vari
+ous parts from which they are made. In addition, there
+has always been a problem with the seals between the
+dry portion of the scanhead, in which the motor is lo
+cated, and the wet portion of the scanhead in which the
+transducer is located. Heretofore, there has also been a
+problem with determining the exact position of the
+ultrasound transducer to a high degree of accuracy
+when the encoder was mounted on the motor shaft.
+This has required that very accurate, and expensive,
+precision gearing be used to connect the scanhead to the
+motor. As a result of the use of both a wetted area and
+a dry area and the use of precision gears, mechanical
+scanheads have typically been rather large when com
+pared to phased array transducers. The excessive size of
+mechanical scanheads has made them somewhat un
+wieldy to use in some applications. Consequently, a less
+expensive, more reliable, and smaller mechanical scan
+head would be highly desirable.
+SUMMARY OF THE INVENTION
+The present invention is an improved mechanical
+ultrasound scanhead. The scanhead includes a sealed
+housing with a rotor mounted in it. The rotor has at
+least one ultrasound transducer mounted on it, and the
+housing contains an ultrasound coupling ?uid. The
+improvement in the present invention is that the motor
+is mounted in the sealed housing, and the motor is cou
+pled to the rotor by means of a drive belt rather than
+through precision gearing. An encoder disk, mounter
+on the rotor, is used in conjunction with feedback elec
+5
+15
+20
+25
+30
+35
+50
+55
+65
+2
+tronics to control the speed of the rotor, whereby said
+motor is fully wetted by the ultrasound coupling ?uid.
+BRIEF DESCRIPTION OF THE DRAWINGS
+FIG. 1 is a top cross-sectional view of the ultrasound
+scanhead of the present invention;
+FIG. 2 is a side cross-sectional view of the scanhead
+of the present invention;
+FIG. 3 is a front cross-sectional view of the present
+invention taken along the lines 33-33 of FIG. 2;
+FIG. 4 is a rear cross-sectional view of the present
+invention taken along the lines 4-4 of FIG. 2; and
+FIG. 5 is a plan view ofthe decoder apparatus used in
+the present invention.
+DETAILED DESCRIPTION OF THE
+INVENTION
+Referring now to FIGS. 1 and 2, cross-sectional
+views of the fully wetted mechanical scanhead 10 made
+in accordance with the present invention are shown.
+The scanhead 10 comprises a rotor 12 which houses
+three transducers 14. These transducers 14 are spherical
+transducers which may have the same frequency or
+which may have multiple frequencies, as is well known
+in the art.
+The transducers 14 are mounted on the rotor 12
+which is connected via a drive belt 16 to an electric
+motor 18. Both the motor 18 and the rotor 12 are
+mounted in close proximity to one another in a sealed
+housing 26 within the scanhead 10. The use of the sealed
+housing 26, ?lled with an ultrasound coupling ?uid, i.e.,
+“a fully wetted region”, represents a departure from the
+typical rotating scanhead which would separate the
+rotor from the motor and would place the rotor in a wet
+environment and the motor in a dry environment. Also,
+the use of the drive belt 16, a non-precision item, means
+that the scanhead 10 is signi?cantly less expensive to
+manufacture than a scanhead having a conventional
+design which would require a precision gear and seal, of
+the type heretofore used.
+The reason that the scanhead 10 is able to use a non
+precision arrangement to drive the rotor 12 from the
+motor 18 is that the scanhead 10 does not use an encod
+ing device which mounted on the motor 18. In the
+present invention, however, an encoder disk 20 is
+mounted on the shaft of the rotor 12. Accordingly,
+feedback means which include LED’s and the encoder
+disk 20, can accurately keep track ofthe precise position
+of the rotor 12. In the scanheads of the prior art, even
+those using precision gearing, the precise position ofthe
+rotor could only be determined inferentially. In the
+present invention, however, even though signi?cantly
+less expensive means are used to move the rotor 12, the
+exact position of the rotor 12 can be determined. The
+speci?c encoder arrangment which is used in the pres
+ent invention is comprised of an encoder disk 20 having
+a series of re?ective and non-re?ective lines thereon.
+The lines are scanned by phototransmissive elements,
+LEDs in the preferred embodiment, and re?ections are
+picked up by photoreceptive elements, phototransistors
+in the preferred embodiment. A unique feature of the
+present invention that the photoelements are mounted
+within the sealed housing containing the ultrasound
+coupling ?uid. Accordingly, the optical characteristics
+of the ultrasound coupling ?uid must be accounted for
+by the encoder optics. Accordingly, the photoelements
+are mounted in close proximity to the encoder disk, and,
+4,567,895
+3
+in the preferred embodiment of the invention, no lenses
+are used on the photoelements.
+Other features of the present invention which help to
+minimize manufacturing costs without sacri?ce to reli
+ability or performance, include the fully molded mount
+ing base into which the rotor is ?tted.
+The particular motor 16 which is used in the pre
+ferred embodiment of the invention is a shaft mounted
+motor in which the casing rotates.
+With continued reference to FIG. 2, the scanhead 10
+further comprises a sealing bulkhead 24 which separates
+' the sealed housing 26 from the dry portions in the cavity
+28. Mounted on the bulkhead 24 is a bubble trap 30
+which permits gas bubbles to rise through a funnel-like
+aperature 32 into a cavity 34. When the cavity 34 is
+?lled with ?uid to a point higher than the top 36 of the
+funnel-like aperature 32, bubbles trapped in the bubble
+trap 30 cannot escape. Periodically, gas is removed
+from the bubble trap 30 by injecting additional fluid
+through an opening 38 by removing a screw cap 40 (See
+FIG. 4).
+As stated above, the encoding apparatus is comprised
+of a unit 42 (See FIG. 5) on which the phototransistors
+and LEDs are mounted in pairs at locations generally
+designated 44. The specific operation of the encoding
+apparatus is not relevant to the present invention other
+than to say that re?ections of light from the LEDs (not
+shown) off the encoding disk 20 provide a speed feed
+back mechanism for adjusting the speed of the motor
+18, thereby adjusting the speed of the rotor 12, through
+external electronics (not shown). The external electron
+ics use signals on a cable 44 which passes through the
+bulkhead 24 through a series of holes 46 form therein.
+I claim:
+1. An improved mechanical ultrasound scanhead of
+the type comprising a sealed housing, a rotor mounted
+LII
+5
+25
+4
+sealed housing being ?lled with an ultrasound coupling
+?uid, wherein the improvement comprises:
+(a) a motor mounted in said sealed housing, said
+motor being fully immersed in said ultrasound cou
+pling ?uid and said motor being coupled to said
+rotor by means of a drive belt; and
+(b) means, on said rotor, for controlling the speed of
+said rotor, whereby said motor, said rotor, said
+drive belt, and said means for controlling the speed
+of said rotor are all fully wetted by said ultrasound
+coupling ?uid.
+2. The improved mechanical ultrasound scanhead of
+claim 1 wherein said motor is a shaft mounted DC mo
+tOf.
+3. The improved mechanical ultrasound scanhead of
+claim 2 wherein said means, on said rotor, for control
+ling the speed of said motor comprises an encoder disk
+having re?ective and non-re?ective markings thereon.
+4. The improved mechanical ultrasound scanhead of
+claim 3 further comprising means for sensing the pres
+ence of said re?ective and non-re?ective markings on
+said encoder disk.
+5. The improved mechanical ultrasound scanhead of
+claim 4 wherein said means for sensing the presence of
+said re?ective and non-re?ective markings on said en
+coder disk comprises a series of phototransmissive and
+photoreceptive elements.
+6. The improved mechanical ultrasound scanhead of
+claim 5 wherein said phototransmissive and photore
+ceptive elements are comprised of LEDs and photo
+transistors, repectively.
+7. The improved mechanical ultrasound scanhead of
+claim 6 wherein said LEDs and phototransistors are
+mounted within said sealed housing.
+8. The improved mechanical ultrasound scanhead of
+claim 7 wherein said LEDs and phototransistors are
+adjacent to one another and to said encoder disk,
+whereby the optical properties of said ultrasound cou
+pling fluid are used, in lieu of lenses, between said LEDs
+in said sealed housing, said rotor having a plurality of 40 and phototransistors, and said encoder disk.
+ultrasound transducers mounted thereon, and said
+45
+55
+65
+t i i i 1
+

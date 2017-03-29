@@ -1,0 +1,250 @@
+Portable Ultrasound
+A R R O W E L E C T R O N I C S A N D T E X A S I N S T R U M E N T S
+Portable
+Ultrasound
+SOLUTIONS APPLICATION SHEET
+For more information on Arrow’s Medical solutions visit www.arrownac.com/medical
+call Arrow Medical at 866-260-1401, or email medicalsolutions@arrow.com
+Arrow Electronics Medical is fully dedicated to serving the needs
+of medical original equipment manufacturers (OEMs), systems
+integrators, and the EMS industry with services and expertise that
+are unmatched in the industry. We deliver the value you require in a
+full-service supply chain partner through engineering services, supply
+chain solutions, and end-of-life support. We provide a superior level
+of medical technology expertise, and help you accelerate your time to
+market for your next innovative medical device. From components to
+complete integrated solutions, Arrow can help you succeed in today’s
+demanding and ever-changing medical marketplace.
+Look to Arrow Medical to help with your next design:
+	 • 
+Unmatched industry expertise
+	 • 
+FDA expertise and certifications
+	 • 
+Unrivalled engineering support
+	 • 
+Broad medical linecard
+	 • 
+Manufacturing capabilities
+	 • 
+Global logistics services
+	 • 
+EOL support
+Arrow Electronics Medical See back for solution descriptions >>
+T/R
+Switches
+REF
+HV
+MUX
+Transmit
+Beamformer
+Integrated HV Pulsar
+Time Gain
+Control
+DAC
+Analog Front End
+Signal Chain
+Power
+Temp
+Sense
+Clocking
+Core and
+I/O
+Power
+AC
+Adaptor
+Lithium Battery
+Protection
+Battery Management
+Battery
+Charger
+Fuel
+Gauge
+MMC/SDIO
+Memory
+Interfaces
+Plug
+AC Line
+Transducer
+Beamformer
+Control Unit
+and
+Receiver
+Beamformer
+Backlight
+Touch Screen
+Audio Amp
+Common Interfaces
+Front End Processing
+Back End Processing
+Bluetooth®
+& ZigBee®
+RS232
+USB
+1394
+Wi-Fi
+Audio Output
+Ultrasound Processing and UI
+Preprocessing
+Scan Conversion
+Post Processing
+OS/UI
+Spectral
+Doppler
+Processing
+B Mode
+Processing
+Color/Power
+Doppler
+Processing
+Power
+www.arrownac.com/TImed | 1.866.260.1401
+TMS320C66x DSP
+Multicore digital signal processor and highest-
+performance multicore DSP generation in the
+TMS320C6000™ DSP platform
+Features
+•		High-performance multicore DSP (C6678)
+•		Up to 320 GMACS, 160 GFLOPS
+•		Clock rate: 1 GHz to 1.2 GHz (1.2-GHz
+device); 1 GHz (1-GHz device);
+•		Commercial and extended temperature
+•		1, 2, 4, 8 TMS320C66x+™ DSP cores;
+integrated PCIe x 2, Gen-2, SRIO x 4, Gen-2,
+GB Enet.
+Benefits
+•		Maximum performance density
+•		Cost savings
+•		Reduced power and board space
+•		Easy migration path
+•		Significant system integration for customers
+currently using C64x+DSP products
+AFE5851
+Ultra low power analog front end
+Features
+•		16 variable gain amplifiers (VGA)
+-	 16 single-ended buffered inputs with
+1 VPP maximum swing
+-	 5.5 nV/√Hz VCA input noise (31 dB gain)
+-	 Variable gain of –5 dB to 31 dB with
+0.125 dB steps
+-	 Digital gain control
+•		3rd order anti-aliasing filter with programmable
+cut-off frequency (7.5 MHz, 10 MHz and 14 MHz)
+•		39 mW total power per channel at 32.5 MSPS
+•		Octal channel 12-bit, 65 MSPS analog-to-
+digital converter (ADC)
+Benefits
+•		Well suited for applications requiring lowest
+power and highest level of integration
+•		16 variable gain amplifiers (VGA), followed by
+an octal high speed
+•		Up to 65 MSPS and 32.5 MSPS max per
+input channel analog to digital converter (ADC)
+•		Reduced noise and number of components
+OPA2830
+Dual, low-power, single-supply wideband
+operational amplifier
+Features
+•		High bandwidth:
+•		230 MHz (G = +1), 100 mhz (G = +2)
+•		Low supply current: 7.8 ma (Vs = +5v)
+•		Flexible supply range:
+-	 ±1.5v to ±5.5v dual supply
+-	 +3v to +11v single supply
+•		Input range includes ground on single supply
+•		4.82 vpp output swing on +5v supply
+•		High slew rate: 500 v/µs
+Benefits
+•		Dual, low-power, single-supply, wideband,
+voltage-feedback amplifier designed to
+operate on a single +3V or +5V supply
+•		Operation on ±5V or +10V supplies as well
+•		Input range extends below ground and to
+within 1.8V of the positive supply
+•		Using complementary common-emitter
+outputs provides an output swing to within
+25 mV of ground and +VS while driving 150
+•		High output drive current (75 mA)
+BQ24610
+Stand-alone synchronous switch-mode Li-Ion or Li-
+Polymer battery charger with 5V to 28V VCC input
+Features
+•		600 kHz NMOS-NMOS sync. buck converter
+•		Stand-alone Li-Ion/Li-Polymer charger support
+•		5V–28V VCC input operating range and
+support 1-6 battery cells (bq24610)
+•		5V–24V VCC input operating range and
+support 1-5 battery cells (bq24617)
+•		Up to 10A charge current and adapter current
+Benefits
+•		Highly integrated Li-Ion or Li-polymer switch-
+mode battery charge controller
+•		Offers a constant-frequency synchronous
+switching PWM controller with high accuracy
+charge current and voltage regulation, charge
+preconditioning, termination, adapter current
+regulation, and charge status monitoring
+Similar to fixed, cart-based systems, portable ultrasounds use an array of receivers to build an image by time shifting, scaling, and intelligently
+summing echo energy. Time shifting and scaling, based on receiving signals from a transducer array, provides the ability to “focus” on a single
+point in the scan region. By subsequently focusing on numerous points individually, an image is assembled.
+The challenge of designing an effective portable ultrasound, however, is maintaining acceptable image quality while achieving portability in
+terms of size and runtime. Often the number of channels used in the device is reduced, sacrificing image quality and information for a reduction
+in power consumption and size. Fortunately, TI has developed a better alternative. TI’s integrated solutions help increase signal integrity and
+reliability. For example, fully-integrated analog front ends reduce noise and the overall number of
+components needed to support the channels.
+Homogenous DSPs provide the processing horsepower needed for compute intensive
+applications typical for the image conditioning and reconstruction that occurs after image
+acquisition. The heterogeneous multicore SoCs split the system management/user interaction
+and image-display preparation functions between a GPP core and a DSP integrated on a single
+chip. The DSP can perform many functions such as data interpolation, magnitude estimation, log
+compression, scan conversion, and others. At the same time, GPP cores provide the functional
+equivalent of a PC processor — at a fraction of the power consumption.
+Put the Industry’s Best to Work for You on Your Next Portable Ultrasound Medical Application
+MEDICAL TECHNOLOGY
+TUSB3410
+RS232/IrDA serial-to-USB converter
+Features
+•		Fully compliant with USB 2.0 full speed
+specifications: TID #40340262
+•		Supports 12 Mbps USB data rate (full speed)
+•		Supports USB suspend, resume, and
+remote wakeup operations
+•		Supports two power source modes:
+-	 Bus-powered mode
+-	 Self-powered mode
+Benefits
+•		Provides bridging between a USB port and
+an enhanced UART serial port
+•		Contains all necessary logic to communicate
+with the host computer using the USB bus
+•		Features an 8052 microcontroller unit
+(MCU) with 16 Kb of RAM that can be
+loaded from the host or from the external
+on-board memory via an I2
+C bus
+OMAP3530
+ARM®
+Cortex™-A8 core with multimedia-rich
+peripherals, OpenGL®
+ES 2.0 compatible
+graphics engine, video accelerators, and the
+TMS320C64x+ DSP core
+Features
+•		OMAP35x architecture
+•		MPU subsystem
+•		Up to 720 MHz ARM Cortex-A8 core
+•		NEON™ SIMD co-processor
+•		High performance image, video, and audio
+(IVA2.2™) accelerator subsystem
+•		520 MHz TMS320C64x+™ DSP
+•		Video hardware accelerators
+Benefits
+•		OMAP3530 high-performance applications
+processor is based on the enhanced
+OMAP35x 3 architecture
+•		Provide best-in-class video, image, and
+graphics processing
+20110099   8/11 ©2011 Arrow Electronics, Inc
+www.arrownac.com/TImed | 1.866.260.1401
+

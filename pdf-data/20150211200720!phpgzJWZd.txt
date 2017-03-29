@@ -1,0 +1,3345 @@
+The Pennsylvania State University
+The Graduate School
+College of Engineering
+FULLY INTEGRATED CMOS ULTRASOUND TRANSCEIVER CHIP
+FOR HIGH-FREQUENCY HIGH-RESOLUTION ULTRASONIC IMAGING SYSTEMS
+A Dissertation in
+Electrical Engineering
+by
+Insoo Kim
+ 2009 Insoo Kim
+Submitted in Partial Fulfillment
+of the Requirements
+for the Degree of
+Doctor of Philosophy
+December 2009
+The dissertation of Insoo Kim was reviewed and approved* by the following:
+Kyusun Choi
+Assistant Professor of Computer Science & Engineering
+Dissertation Advisor
+Co-Chair of Committee
+Thomas N. Jackson
+Robert E. Kirby Chair Professor of Electrical Engineering
+Co-Chair of Committee
+Richard L. Tutwiler
+Sr. Research Associate of Applied Research Laboratory
+Professor of Acoustics
+Suman Datta
+Associate Professor of Electrical Engineering
+Susan Trolier-McKinstry
+Professor of Ceramic Science & Engineering
+Nadine B. Smith
+Professor of Bioengineering
+Kultegin Aydin
+Professor of Electrical Engineering
+Graduate Program Coordinator for the Department of Electrical Engineering
+*Signatures are on file in the Graduate School
+iii
+ABSTRACT
+Ultrasound techniques are common for diagnostic imaging and often supersede X-ray
+imaging in medical sectors. Recently studies for imaging smaller organs or surfaces, such as skin,
+the gastrointestinal tract, and intravascular blood vessels, have emerged utilizing ultrasounds with
+frequencies over 20 MHz. A need remains for better clinical ultrasound imaging for detecting
+tumors and micro-sized tissues in vivo without the use of biopsy. In addition, a recent demand for
+portable ultrasound imaging systems in medical services has emerged.
+However, conventional ultrasound imaging systems have complicated electronics and
+high voltage transducers connected via bulky and expensive cables. Thus, over two decades many
+researchers have tried to miniaturize ultrasound imaging systems, and applied mixed-signal IC
+design techniques for integrating the front-end electronics on a single IC chip. However, no one
+has yet achieved an ultrasound imaging system with a fully integrated, custom-designed front-end
+IC chip that combines transmitters and receivers with high-resolution A/D converters and high-
+capacity on-chip memory devices.
+The proposed CMOS ultrasound transceiver chip enables development of portable high-
+resolution, high-frequency ultrasonic imaging systems. The transceiver chip design incorporates
+closed-coupled thin film ultrasound transducer array which operates with a 3.3 V power supply.
+In addition, a prototype chip, supported by digital beamforming system architecture, contains 16
+receive and transmit channels with preamplifiers, Time-Gain compensation amplifiers,
+multiplexed Analog-to-Digital (A/D) converter with 3 Kbyte on-chip SRAM, and 50-MHz
+resolution time-delayed excitation pulse generators. By utilizing a shared A/D converter
+iv
+architecture, the numbers of A/D converters and SRAMs are reduced to one, although typical
+digital beamforming systems need 16 A/D converter for 16 receive channels.
+The carefully designed preamplifier minimizes stray capacitance and resistance between
+the transducers and the transceiver chip for ease of impedance matching and shows 100 MHz
+bandwidth at a gain of 20 dB. The VGA shows 23 dB linear gain, control range with 250 MHz
+bandwidth. The implemented TIQ ADC (Threshold Quantization Inverter A/D converter)
+achieves fast data conversion speed. Specified 6-bit resolution at a conversion speed of 250 MS/s
+was achieved.
+Further, this study presents a highly efficient TIQ comparator design methodology based
+on an analytical model for TIQ ADCs. The TIQ technique has gained importance in high speed
+flash A/D converters due to their fast data conversion speeds. The key to TIQ comparators’
+designs is to generate 2 1
+n
+ different-sized TIQ comparators for an n-bit A/D converter; however,
+this technique is difficult and time-consuming for a higher-bit A/D converter. Thus, this thesis
+suggests a design algorithm based on MOSFET’s current SPICE model, and a customized
+program that automatically generates the TIQ comparators. The proposed methodology improves
+TIQ ADC design accuracy by 55% and reduces design time by approximately by 75%.
+To substantiate the technology, ultrasound signal acquisition experiments include pitch
+mode, catch mode, and pitch–catch mode tests, using the thin film ultrasound transducer arrays
+and the high frequency composite transducer arrays. The experimental results demonstrate the
+viability of the proposed chip architecture and designs, and the feasibility of the proposed
+ultrasound imaging system.
+v
+TABLE OF CONTENTS
+LIST OF FIGURES .................................................................................................................vii
+LIST OF TABLES...................................................................................................................xi
+ACKNOWLEDGEMENTS.....................................................................................................xii
+Chapter 1 Introduction to High-frequency Ultrasound Imaging ............................................1
+1.1 Applications of Ultrasound .......................................................................................1
+1.2 Research Motivation and Goal ..................................................................................2
+1.3 Previous Related Work .............................................................................................4
+1.3.1 Emergence of Ultrasound ASIC Chips and Digital Beamforming ...................4
+1.3.2 Closed-Coupled Electronics ..............................................................................5
+1.3.3 FPGA-based Systems ........................................................................................8
+1.3.3 Commercial Ultrasound Chipsets .....................................................................9
+1.4 Challenges and Approaches ......................................................................................11
+1.5 Thesis Organization ..................................................................................................15
+Chapter 2 Fundamentals of Ultrasonic Imaging Systems ......................................................17
+2.1 Principles of Ultrasound Imaging .............................................................................17
+2.1.1 Ultrasound Wave Physics .................................................................................17
+2.1.2 Brightness Mode (B-Mode) Ultrasound Imaging .............................................19
+2.1.3 Resolution .........................................................................................................21
+2.2 Beamforming ............................................................................................................22
+2.2.1 Huygens Principle, Diffraction, and Beamforming ..........................................22
+2.2.2 Analog Beamforming vs. Digital Beamforming ...............................................24
+2.3 B-Mode Ultrasound Imaging System ........................................................................27
+2.3.1 System Overview ..............................................................................................27
+2.3.2 Ultrasound Front-end ........................................................................................29
+Chapter 3 Proposed High-frequency Ultrasound Imaging System ........................................31
+3.1 Configuration of the Proposed Ultrasound Imaging System .....................................31
+3.2 Transceiver Chip Architecture ..................................................................................35
+3.2.1 Closed-Coupled Electronics Scheme ................................................................35
+3.2.2 Proposed System’s Architectural Features .......................................................36
+3.3 Function Definition ...................................................................................................39
+3.3.1 Major Functions ................................................................................................39
+3.3.2 Mode-set configuration .....................................................................................40
+3.3.3 Operational Flow ..............................................................................................43
+Chapter 4 Design of the Ultrasound Transceiver Chip ..........................................................45
+vi
+4.1 Receiver ....................................................................................................................45
+4.1.1 Required Specifications ....................................................................................45
+4.1.2 Circuit Diagram ................................................................................................47
+4.2 A/D Converter ...........................................................................................................53
+4.2.1 Required Specifications ....................................................................................53
+4.2.2 Configuration of the TIQ ADC .........................................................................54
+4.2.3 TIQ Comparator ................................................................................................56
+4.2.4 Design Automation of the TIQ Comparator .....................................................59
+4.2.5 Analytical Model-based Design Methodology .................................................62
+4.2.6 Encoder .............................................................................................................71
+4.3 SRAM .......................................................................................................................72
+4.3.1 Required Specifications ....................................................................................72
+4.3.2 Design Details ...................................................................................................73
+4.4 Transmitter ................................................................................................................76
+Chapter 5 Simulation and Results ..........................................................................................83
+5.1 Transceiver Chip Characterization ............................................................................83
+5.1.1 First-generation Chip ........................................................................................83
+5.1.2 Second-generation Chip ....................................................................................93
+5.2 Ultrasound Transducer Characterization ...................................................................101
+5.2.1 Thin Film Ultrasound Transducer Array ..........................................................101
+5.2.2 Composite High Frequency Ultrasound Transducer Array ..............................103
+5.3 Pulse Echo Experiments ............................................................................................105
+5.3.1 Pitch Mode Experiments ...................................................................................105
+5.3.2 Catch Mode Experiments ..................................................................................107
+5.3.3 Pitch–catch Mode Experiments ........................................................................110
+Chapter 6 Future Work ..........................................................................................................113
+6.1 Differential Input Quantization ADC ........................................................................114
+6.2 Ultrasound Imaging System Simulation Model ........................................................117
+6.3 Integration of DBNS DSP .........................................................................................119
+Chapter 7 Conclusions ...........................................................................................................127
+References................................................................................................................................129
+Appendix A Auto-tuning Software C++ Code .......................................................................135
+Appendix B MATLAB Programming Code for Channel Delay Calculation.........................142
+vii
+LIST OF FIGURES
+Figure 1.1: Graphical interpretation of the acoustic spectrum................................................1
+Figure 1.2: CMUT array with a closed-coupled front-end IC chip.........................................6
+Figure 1.3: Operational flow of the battery-operated ultrasound front-end chip....................7
+Figure 1.4: Simple block diagram of Sonic Widow................................................................7
+Figure 1.5: Block diagram of the FPGA-based pulsed-wave Doppler system .......................9
+Figure 1.6: Dynamic range and bandwidth trends of recently published A/D converters......12
+Figure 1.7: Power efficiency versus dynamic range in recently published A/D converters. ..13
+Figure 2.1: Basic principle of pulse-echo imaging. ................................................................20
+Figure 2.2: Wave diffraction in the manner of Huygens principle. ........................................23
+Figure 2.3: Simple block diagram of a typical ABF system: (a) Transmit Analog
+Beamforming System, (b) Receive Analog Beamforming System..................................25
+Figure 2.4: Simple block diagram of a typical DBF system: (a) Transmit Digital
+Beamforming System, (b) Receive Digital Beamforming System ..................................26
+Figure 2.5: Block diagram of a generic digital ultrasound imaging system. ..........................28
+Figure 3.1: Simplified block diagram of the proposed imaging system. ................................31
+Figure 3.2: Simplified block diagram of the FPGA chip........................................................32
+Figure 3.3: Simplified block diagram of the transceiver chip.................................................33
+Figure 3.4: Transceiver chip floor plan...................................................................................35
+Figure 3.5: Conceptual diagram of the Mode-set configuration method................................40
+Figure 3.6: tTRE control diagram..............................................................................................42
+Figure 3.7: CMOS transceiver chip operational flow chart....................................................43
+Figure 4.1: Transceiver chip gain and dynamic range requirements ......................................47
+Figure 4.2: Receive circuitry block diagram...........................................................................48
+viii
+Figure 4.3: Preamplifier core circuit schematic......................................................................49
+Figure 4.4: Folded Gilbert cell based VGA circuit schematic................................................51
+Figure 4.5: Modified VGA circuit schematic .........................................................................52
+Figure 4.6: TIQ ADC block diagram......................................................................................55
+Figure 4.7: 5th
+-order Bessel lowpass filter circuit schematic..................................................55
+Figure 4.8: S/H amplifier circuit schematic............................................................................56
+Figure 4.9: TIQ comparators operational principles: (a) Example of 2 bit TIQ A/D
+converter, (b) VTC of a TIQ comparator.........................................................................58
+Figure 4.10: 3-D plot of m
+V as the function of PMOS and NMOS widths.............................59
+Figure 4.11: Systematic Size Variation (SSV) technique for TIQ comparator design ...........60
+Figure 4.12: Flow chart of the design automation algorithm with the SSV technique...........62
+Figure 4.13: Accuracy comparison of various TIQ comparator models.................................64
+Figure 4.14: Analytical model based design methodology flow chart....................................65
+Figure 4.15: 3-D plot of m
+V and the width size relationship of the NMOS and the PMOS
+of the TIQ comparator analytical model..........................................................................67
+Figure 4.16: CMOS inverter gain SPICE simulation results according to various
+transistor lengths ..............................................................................................................68
+Figure 4.17: Ring oscillator speed simulation results according to various transistor
+lengths..............................................................................................................................69
+Figure 4.18: Conceptual diagram of m
+V tuning methodology ...............................................70
+Figure 4.19: Example of a 3-bit fat tree encoder. ...................................................................71
+Figure 4.20: Functional block diagram of the 3-Kbyte SRAM. .............................................73
+Figure 4.21: Two bank architecture (upper) and its timing diagram (bottom). ......................74
+Figure 4.22: Simulation results of the SRAM clock modulation. (a) Clock transition. (b)
+Memory cell data in Bank 0. (c) Memory cell data in Bank 1.........................................76
+Figure 4.23: Dynamic focusing and steering delay.................................................................77
+Figure 4.24: Transmit channel delays simulated with MATLAB programming....................78
+ix
+Figure 4.25: Circuit schematic of programmable delays for beam focusing. .........................79
+Figure 4.26: First generation transmit pulse generator circuit schematic ...............................80
+Figure 4.27: Second generation transmit pulse generator circuit schematic...........................81
+Figure 5.1: Test board for the transceiver chip with the thin film transducer array................83
+Figure 5.2: Microphotograph of the CMOS transceiver chip. ................................................84
+Figure 5.3: Transient simulation result of switching operation of the preamplifier ...............86
+Figure 5.4: Preamplifier frequency characteristics at different gains .....................................87
+Figure 5.5: Measured result of the variable gain range over control voltage..........................87
+Figure 5.6: A/D converter measured INL and DNL characteristics .......................................88
+Figure 5.7: Transceiver chip measured power supply noise...................................................89
+Figure 5.8: Measured outputs of the SRAM with the transfer rate of 400 MBPS..................91
+Figure 5.9: Measured delay of transmit channels: (a) Transmit pulses with various
+channel delays (50 MHz), (b) Magnified view of the box in blank on (a).......................92
+Figure 5.10: Frequency characteristics of the 35-dB gain preamplifier..................................94
+Figure 5.11: Second generation VGA variable gain range according to control voltage
+variations..........................................................................................................................94
+Figure 5.12: Captured view of FilterPro software (Texas Instruments, Inc, TX) - an
+example of Bessel lowpass filter design ..........................................................................95
+Figure 5.13: 5th
+-order Bessel lowpass filter gain-frequency SPICE simulation results..........96
+Figure 5.14: 8-bit TIQ ADC SPICE transient simulation result.............................................98
+Figure 5.15: Simulated DNL errors with process variations (the corner model)....................99
+Figure 5.16: Simulated INL errors with process variations (the corner model) .....................99
+Figure 5.17: Transmit pulse waveform in the second generation transmit pulse generator....100
+Figure 5.18: Thin film transducer array SEM image..............................................................101
+Figure 5.19: Thin film transducer array frequency spectrum.. ...............................................102
+Figure 5.20: Thin film transducer array impedance and phase characteristics as functions
+of frequency. ....................................................................................................................103
+x
+Figure 5.21: HFUS transducer array microphotograph...........................................................104
+Figure 5.22: HFUS transducer frequency spectrum................................................................104
+Figure 5.23: Pitch mode experimental setup...........................................................................105
+Figure 5.24: Thin film transducer array pitch mode test results. ............................................106
+Figure 5.25: HFUS transducer array pitch mode test results. .................................................107
+Figure 5.26: Catch mode experimental setup..........................................................................108
+Figure 5.27: Thin film transducer array catch mode test results.............................................109
+Figure 5.28: HFUS transducer array catch mode test results..................................................109
+Figure 5.29: Pitch–Catch mode experimental setup ...............................................................110
+Figure 5.30: Thin film transducer array pitch–catch mode test results...................................111
+Figure 5.31: HFUS transducer array pitch–catch mode test results........................................112
+Figure 6.1: DIQ (Differential Input Quantization) comparator: (a) DIQ comparator
+circuit schematic, (b) DIQ comparator voltage transfer curve.........................................114
+Figure 6.2: DIQ comparator m
+V values as functions of input voltages...................................115
+Figure 6.3: Ultrasound imaging system simulation model (UISSM) block diagram..............118
+Figure 6.4: DSP system integrated with a flash ADC conceptual diagram ............................120
+Figure 6.5: Precision of 2D LNS for a real number range of 0.5 to 1.2..................................122
+Figure 6.6: Maximum errors: Functions of the boundary of b and t values............................122
+Figure 6.7: DBL encoder circuit using ROM array ................................................................126
+xi
+LIST OF TABLES
+Table 1.1: Summarized Specifications of Selected Commercial Ultrasound Front-end
+Chipsets............................................................................................................................10
+Table 2.1: Acoustic Impedance and Attenuation Rates of Some Main Biological Tissues....19
+Table 3.1: Performance Comparison among Shared ADC and Typical DBF Architectures..38
+Table 3.2: Truth Table for Command and Chip Function Lists..............................................39
+Table 3.3: User Preset Test Mode Options. ............................................................................41
+Table 4.1: Preamplifier Circuit Design Parameters ................................................................49
+Table 4.2: Folded Gilbert Cell-based VGA Circuit Design Parameters.................................51
+Table 4.3: Modified VGA Circuit Design Parameters............................................................53
+Table 4.4: Width Ratio Comparisons with Selected m
+V Values.............................................64
+Table 5.1: CMOS Transceiver Chip Specifications Summary ...............................................85
+Table 5.2: Simulation Time and Linearity Comparisons of New ADC and SSV ADC .........97
+Table 6.1: DBL Encoder Error Precision................................................................................124
+Table 6.2: Performance Comparisons of Different Types of Encoders..................................126
+xii
+ACKNOWLEGEMENTS
+First of all, I am very grateful to my thesis advisor, Dr. Kyusun Choi, for his guidance,
+encouragement, and invaluable advice in the completion of this work. I greatly appreciate all the
+committee members, Dr. Thomas Jackson, Dr. Susan Trolier-McKinstry, Dr. Richard Tutwiler,
+Dr. Suman Datta, and Dr. Nadine B. Smith for their serving on the committee. I want to express
+my sincere thankfulness to Dr. Jackson for his supports and advise as the co-chair of the
+committee. I also wish for giving my special thanks to Dr. Trolier-McKinstry for her consistent
+support to my research and giving me excellent suggestions. And I also deeply appreciate Dr.
+Tutwiler’ encouragement and correcting errors in the thesis.
+I am especially thankful to Dr. Jongsoo Kim, professor of the department of Electrical
+Engineering at the University of Ulsan, Korea, Dr. Jincheol Yoo, professor of the department of
+Computer Science and Electrical Engineering at the Korea Military Academy, Korea, Jaehyun
+Lim, Peter Cho, and Minh Son Nguyen for their help in chip design and fabrication. I am also
+grateful to Dr. Sandy Cochran, professor of Institute for Medical Science and Technology at
+University of Dundee, United Kingdom, Dr. Sungkyu Park, Hyunsoo Kim, and Flavio Griggio
+for their various helps in conducting experiments. I would like to thank all my friends who shared
+their memories and joys during my stay at Penn State. My special thanks go to the members of
+Korean Buddhist Organization.
+I wish to extend my deep appreciation to my family. I would like to thank my parents for
+their consistent love, support, and sacrifice. I am thankful to my brother, sisters, brother-in-laws,
+and sister-in-laws for encouraging me all the time. I would like to express my sincere gratitude to
+my father-in-law and mother-in-law for their encouragements and understanding. I want to
+xiii
+express my deepest thankfulness to my wife, Min Jung. She has generously and consistently
+provided me the endless support and love. She has been the best in my life and will be.
+This work was supported in part by the Commonwealth of Pennsylvania and by NSF
+through the Materials Research Science and Engineering Center Program (DMR-0080019 and
+DMR-0213623). This work was also supported in part by MOSIS and internal funding from the
+Materials Research Institute of the Pennsylvania State University.
+Chapter 1
+Introduction to High-frequency Ultrasound Imaging
+1.1 Applications of Ultrasound
+Ultrasound techniques have wide use in numerous applications, such as SONAR (Sound
+Navigation and Ranging), diagnostic imaging, SAW (Surface Acoustic Wave) devices, etc. The
+applications, based on the frequencies of ultrasound, appear in Figure 1.1 [1]. A frequency range
+of 100 KHz to 1 MHz, utilized in various applications, include SONAR and humidifiers, and a
+frequency range of 1 to 10 MHz is common in diagnostic imaging applications. Emerging
+applications, such as micron-sized silicon surface detection and ultrasound biomicroscopy, utilize
+a frequency range of 50 to 200 MHz [2].
+Recently, ultrasound imaging has bypassed X-ray imaging as the most widely used
+medical imaging technique [3] because ultrasound is noninvasive, has very good lateral and axial
+resolution, and is less expensive than other modalities. Typically, medical applications use
+Figure 1.1: Graphical interpretation of the acoustic spectrum.
+2
+frequencies between 1 and 50 MHz. For example, diagnostic imaging applications designed to
+penetrate tissues to a depth of 5 to 20 cm and still return signals of sufficient strength to form an
+image use frequencies between 1 and 10 MHz. Higher-frequency ranges, between 20 and 50
+MHz, provide ultrasound imaging of smaller organs or surfaces such as the gastrointestinal tract,
+sections of the skin, and intravascular structures.
+1.2 Research Motivation and Goal
+The vast majority of medical ultrasound imaging occurs at frequencies between 1 and 50
+MHz; however, a need remains for better clinical ultrasound imaging for detecting skin, eye, and
+prostate cancers as well as many other diseases, in vivo. Feasible imaging techniques for these
+situations would obviate the need for painful and scarring procedures such as biopsies, but the
+limitation is the requirement for an imaging technique with a resolution below 100 µm [3].
+Moreover, the medical community has recently expressed a desire for an ultrasound imaging
+system that would not only provide appropriate resolution, but also would be portable [4]. For
+example, veterinarians would be well served by development of a portable ultrasound imaging
+system for onsite diagnosis of pets, zoo and farm animals. The conventional system’s size is due
+to the complex front-end electronics that consist of a discrete chip sets for pulsers, preamplifiers,
+TGCs (Time Gain Controls), A/D (Analog / Digital) converters, and memory devices. In addition,
+the conventional design of the transducer arrays requires high transmit-drive voltages on the order
+of 100 V.
+The goal of the current research is to study the feasibility of a portable, high-frequency
+(50 ~ 150 MHz) ultrasound imaging system that will produce high-quality images of structures
+smaller than 100 µm. A prototype ultrasound imaging system that interfaces to a micro-scaled,
+high-frequency transducer array that operates with a 3.3 V power supply and single-board front-
+3
+end electronics with a custom-designed CMOS (Complementary Metal Oxide Semiconductor)
+transceiver chip is designed to demonstrate the goal. This approach has several advantages over
+existing systems:
+(1) The design has integrated electronics with transducers small enough to construct a
+portable, ultra-compact, low-power consumption ultrasound imaging system. System–on-
+a-chip (SOC) technique has a circuit design integrating all electronic components into a
+single IC chip, and affords a smaller system size, higher speed, and lower power
+consumption. While the discrete chipsets generally connect to each other on a
+printed circuit board (PCB), a SOC product designed has an entire system incorporated in
+a single chip, thereby producing a smaller, faster, and more efficient system than the one
+consisting of separate ICs. In addition, SOC eliminates the need to physically move data
+from one chip to another, thereby producing faster chip speeds and greatly reducing size
+and power consumption. Circuit operations occurring in a single integrated circuit require
+much less power than similar operations using circuits on a PCB with discrete
+components.
+(2) The design is capable of integrating front-end electronics with transducers. Current
+systems interface the array elements with the RF front-end by coaxial cable networks.
+The cables are specifically 50 ohm impedance matched to the RF front-end interface. In
+addition, the existence of T/R (Transmit/Receive) switches between the network and
+front-end makes impedance matching even more complex. However, the proposed
+system eliminates T/R switches in the front-end electronics by using VLSI (Very Large
+Scale Integration) circuit design technology. In addition, eliminating the coaxial cables
+also lowers the cost of the newly designed imaging system.
+(3) The integrated electronics, using SOC techniques, produces better signal integrity and
+noise immunity than conventional, analog, front-end electronics which consist of discrete
+4
+chipsets. Digital signal interfacing has wide acceptance for much higher signal-to-noise
+ratio (SNR) compliance than analog signal interfacing. In conventional systems,
+substantial efforts are necessary to control SNR in analog signal interfacing. However, in
+the proposed system, only chip-to-chip interfacing is via digital signals because all analog
+signal processing occurs inside the chip and chips produce only digital outputs.
+Therefore, the proposed electronics facilitate high-speed, high-resolution ultrasound
+imaging system designs.
+During the last 20 years or so, many researchers have tried to produce miniaturized and
+integrated ultrasound imaging systems that provide the advantages mentioned earlier [5-10].
+However, no one has yet fabricated a high frequency system with a fully integrated, custom-
+designed ultrasound front-end IC chip which includes both transmit and receive electronics with
+A/D converters and high-capacity on-chip memory. A review of these previous approaches
+appears in the following subsection.
+1.3 Previous Related Work
+1.3.1 Emergence of Ultrasound ASIC Chips and Digital Beamforming
+With the on-going developments in CMOS IC technology, an ASIC (Application Specific
+Integrated Circuit) chip for ultrasound front-end electronics has been a research goal since the
+early 1990s. One of the early ultrasound ASIC chips reported by Black and Stephens was a
+microprobe for use in invasive ultrasonic imaging applications [5]. This custom-designed CMOS
+chip contained 16 channels of transmitters and current amplifiers with integrated transducers
+whose center frequency was 20 MHz. The chip’s fabrication included 1.5 µm CMOS technology
+with a 10V power supply. Although the chip was fast and highly integrated compared to the
+5
+processes and circuit technologies of the 1990s, its receiver consisted of a simple current
+amplifier excluding a VGA and A/D converter.
+Hatfield et al. (1994) also published a design for an ASIC chip fabricated with 1.5 µm
+CMOS technology for an ultrasound imaging system. The chip provided delays of programmable
+length that determined the firing order of the transmit pulses. The achieved delay resolution was 1
+ns using on-chip PLL (Phase Locked Loop) circuitry. This research was more advanced than the
+previous work by Black and Stephens, but it did not use any on-chip receive circuitry.
+1.3.2 Closed-Coupled Electronics
+Since 2000, with the rapid development of mixed-signal IC design technology, closed-
+coupled ultrasound front-end electronics have emerged for high-frequency ultrasound imaging
+systems.
+Wygrant et al. developed a CMUT (Capacitive Micromachined Ultrasound Transducer)
+with closed-coupled electronics [6]. Since the CMUT array’s technological strength is that it is an
+existing means of compact integration with ICs relative to conventional piezoelectric transducers,
+flip-chip bonding allowed integrating the custom-designed IC chip with the CMUT array, as
+illustrated in Figure 1.2. The CMUT array has a transmit and receive IC dedicated to each of its
+elements. The IC chip consists of 16 channels for 25V pulser, trans-impedance amplifier, output
+buffer, protection switch, and digital controls. The chip occupies an area of 2.1 mm x 2.1 mm.
+Since this chip’s application is for Doppler imaging, its receive circuitry does not include any
+VGA or A/D converters.
+6
+Johansson et al. created a similar design with a conventional piezoelectric transducer [7].
+The CMOS chip had transmit and receive circuitry and operated with a 3.6 V battery, while the
+transducer used 40 V. To overcome the dynamic range limitations imposed by the battery, an on-
+chip boost converter used an external inductor to generate a 40 volt transmit pulse. A state
+machine controlled intermittent operation of an on-chip amplifier (see Figure 1.3) which
+amplified incoming echoes with 20 dB gain at a 10-MHz operational speed. The chip, fabricated
+by a 0.8 µm high-voltage CMOS process, had a total area of 12 mm2
+.
+Johansson’s work illustrated the feasibility of a portable ultrasound system using a
+battery-operated voltage-boosting scheme. However, the chip, developed for ultrasound
+measurement tools, does not contain any VGAs or A/D converters. Also, building an ultrasound
+imaging system using a voltage-boosting scheme requires accounting for the possible impact that
+the high-voltage charge pump circuitry may have on the linearity of the A/D converters.
+Figure 1.2: CMUT array with closed-coupled front-end IC chip.
+7
+The Sonic Window, developed by Fuller et al. in 2005, included one of the most
+integrated ultrasound front-end IC chip concepts to date [8]. Developed for guiding needle and
+catheter insertion, biopsies, and other invasive procedures for which only a basic aid to diagnosis
+is necessary, the sonic window can also be used for C-Mode ultrasound imaging. The chip
+contains 300 full receive channels composed of protection circuitry, a preamplifier, a bandpass
+Figure 1.3: Operational flow of battery-operated ultrasound front-end chip.
+Figure 1.4: Simple block diagram of Sonic Window.
+8
+filter, an 8-bit A/D converter, and output buffer memories, as shown in Figure 1.4. Its fabrication
+uses 3.3 V CMOS technology with an 8.9 mm  2.9 mm die size.
+Although the chip contained complete receive circuitry including an A/D converter and
+memory devices, it did not include transmit circuitry due to the limitations arising from use of
+high-voltage transducers. In addition, the memory capacity and system bandwidth were
+insufficient for high-frequency B-Mode ultrasound imaging.
+1.3.3 FPGA-based Systems
+FPGAs (Field Programmable Gate Arrays) have millions of gate arrays and embedded
+DSP (Digital Signal Processor) technology enables the incorporation of most digital portions of
+the ultrasound imaging front-end electronics on a small number of FPGAs. A transmit digital
+beamformer can easily be included on an FPGA because this kind of beamformer mainly consists
+of digital logic circuits. Also, the simple DSP functions of the receive circuitry can be realized
+using an FPGA. The most significant advantage of using FPGAs, however, is flexibility. . Should
+any FPGA design have some errors, substantial redesign costs are unlikely when correcting them;
+likewise, only minor adjustments are necessary when translating the design for other applications.
+Hu et al. incorporated a pulsed-wave Doppler function for high-frequency ultrasound on
+an FPGA chip [9]. The system used 10-cycle 30 V sinusoid burst pulses for the transmitter
+excitation waveform. The receiver consisted of a VGA (AD8332, Analog Devices, Inc., MA) and
+a 120 MHz ADC (AD9433, Analog Devices, Inc., MA). The other parts of the system were
+integrated in an FPGA chip (Virtex II Pro, Xilinx, Inc., CA), as shown in Figure 1.5. The VLSI
+implementation of the Doppler function usually requires several analog ICs such as a mixer and a
+sample-and- hold amplifier. However, the system eliminated the analog circuitry by us an FPGA
+chip and a DSP algorithm.
+9
+Triger et al. introduced the MOSAIC system for high-speed ultrasound imaging
+applications [10]. The system made the most of the FPGA chip’s flexibility with respect to
+frequency of operation, length and type of excitation sequence, and implementation of real-time
+hardware signal processing functionality. The transmitter on an FPGA consisted of 16 channels
+and transmitted coded signals with timing resolution controllable down to 10 ns. The receiver
+also comprised 16 channels with individually adjustable preamplifiers and A/D converters on
+several flexi-rigid PCBs.
+1.3.4 Commercial Ultrasound Chipsets
+As the demand of ultrasound imaging increased, the major chipset manufacturers sought
+business opportunities in ultrasound imaging applications. Especially, Analog Devices, Inc. (ADI)
+and Texas Instruments, Inc. (TI) developed analog components such as LNAs (Low Noise
+Figure 1.5: Block diagram of the FPGA-based pulsed-wave Doppler system.
+10
+Amplifier) and VGAs for ultrasound imaging systems. The bandwidths of the components are
+about 50 ~ 120 MHz and the dynamic ranges are about 85 ~ 97 dB, which are well matched for
+most commercial ultrasound transducers. Besides, ADI and TI sell multi-channel A/D converters
+for multi-channel ultrasound imaging systems. Those A/D converters’ bit resolutions are
+commonly 10 ~ 14 bit and sampling rates are 50 ~ 100 MHz. Table 1.2 summarizes the important
+specifications of the selected ultrasound chipsets.
+Recently, chip manufacturers, demonstrated by ADI’s announcement of the AD9271
+chipset, became interested in portable ultrasound imaging systems [11]. The chipset has 8
+channels of complete receive circuitry, including a LNA, a VGA, and an A/D converter, and
+operates with the transducer whose center frequency is about 20 MHz. Furthermore, TI developed
+a DSP (Digital Signal Processor) based an image scan conversion chipset (C64x) and image
+processing software in order to satisfy a need for a simpler user interface and lower power
+consumption ultrasound imaging systems.
+Table 1.1: Summarized Specifications of Selected Commercial Ultrasound Front-end Chipsets
+Part
+Number
+Components
+Dynamic
+Range
+(dB@10MHz)
+Bandwidth
+(MHz)
+Variable
+Gain
+(dB)
+ADC
+Resolution
+(bit)
+Sampling
+Rate
+(MSPS)
+Number
+of
+Channel
+AD8332
+(ADI)
+LNA,VGA 97 120 48 - - 2
+VCA2616
+(TI)
+LNA,VGA 89 80 40 - - 2
+AD9218
+(ADI)
+ADC - - - 10 40~105 2
+ADS5282
+(TI)
+ADC - - - 12 65 8
+AD9271
+(ADI)
+LNA,VGA,
+Filter, ADC
+89 70 30 12 50 8
+11
+1.4 Challenges and Approaches
+As seen in the review of the related research, a fully integrated ultrasound front-end IC
+chip including complete transmit and receive circuitry has not yet been achieved. The main
+reason for this is that the transducers still need a significantly higher drive voltage for excitation.
+High-voltage excitation pulses result in more complex system designs requiring protection
+switches, digital controls, and charge-pump circuitry for the transmitter. The ultrasound imaging
+system in the current research uses thin-film transducer arrays that operate below 5 V, so that the
+limitations of high-voltage excitation become moot.
+Furthermore, several key challenges in the design of an ultrasound transceiver chip need
+resolution before realizing a fully integrated ultrasound imaging system:
+First, achieving the required design specification for a high-frequency ultrasound imaging
+system is challenging. As stated in the section 1.3.4, the linear dynamic range for an analog
+amplifier has a limitation of 100 dB in practical systems. However, the required dynamic range of
+the preamplifiers is sometimes higher than 100 dB for an ultrasound imaging system [11]. An
+even more critical obstacle is the requirements for the A/D converter. While the earliest
+commercially available digital beamformers became available in the early 1980s, they did not
+begin to have a significant impact until the early 1990s. Much of this delay was due to the need
+for A/D converters with a sufficiently large numbers of bits and sufficiently high sampling rates.
+Figure 1.6 shows the ADC development trends, presented in the recent publications of
+two major international conferences: the ISSCC (International Solid State Circuits Conference)
+and the VLSI (Symposia on VLSI Technology and Circuits) [12]. The dynamic range and the
+bandwidth of the A/D converters show an inverse-proportional relationship, and the majority of
+the recent studies on A/D converters focused on mid-resolution (50 ~ 70 dB, i.e. 8 ~ 12 bit) and
+mid-frequency (10 ~ 100 MHz) ranges. The requirements for high resolution (~ 10 µm minimum
+12
+feature size), high-frequency (30 ~ 150 MHz center frequency of the transducers) ultrasound
+imaging systems are 50 ~ 70 dB dynamic range and 75 ~ 400 MHz bandwidth (gray box in the
+figure); the requirements of the A/D converter in this thesis is 50 dB of dynamic range and 125
+MHz of bandwidth (the star-shaped symbol in the gray box). As seen in the figure, a state-of-the-
+art A/D converter is a fundamental requirement for success of the current research.
+To achieve the A/D converter requirements, a TIQ (Threshold Inverter Quantization) A/D
+Converter (TIQ ADC), known for its fast conversion speed [13], has been designed. The simple
+architecture of TIQ ADC is also an advantage; however, for a TIQ ADC, the TIQ comparators’
+design must be precisely sized to be different from one another. Achieving the required dynamic
+range makes designing this feature a somewhat difficult task. Mitigating the difficulty is use of a
+CAD (Computer Aided Design) tool, which automates TIQ comparator design and
+Figure 1.6: Dynamic range and bandwidth trends of recently published A/D converters [11].
+13
+implementation. The Systematic Size Variation (SSV) technique is the proposed method for
+easing, comparatively, the choice of needed logic thresholds from the many possible comparators.
+The SSV technique performs well as a generator of appropriate sets of TIQ comparators [14].
+However, a large number of simulations and extensive designer skills are necessary for finding
+the optimal TIQ comparator sets. The intensity of requirements may cause design errors and poor
+performance for a TIQ ADC [15]. The current research proposes an improved TIQ comparator
+design methodology. The proposed method introduces an analytical TIQ model to overcome the
+drawbacks of the SSV technique. The analytical model has advantages over the SSV technique in
+terms of simulation time as well as accuracy. The TIQ ADC’s design details and design
+automation have their introduction in Chapter 4.
+Second, novel design architecture is essential to achieve low power consumption, while
+adapting digital beamforming (DBF) architecture. DBF architecture consumes considerable
+Figure 1.7: Power efficiency versus dynamic range in recently published A/D converters [16].
+14
+power because of the need for a dedicated A/D converter and memory blocks for receive channel.
+According to Murmann [16], the power dissipation of the recently published A/D converters in
+ISSCC and VLSI are about 2  10-11
+~ 2  10-8
+Joules at 50 dB dynamic range, as shown in Figure
+1.7. For example, assuming the system has 256 receive channels (i.e. it needs 256 A/D converters
+with DBF architecture), the power dissipation of the A/D converter is 5  10-10
+Joules (the median
+value), and the sampling rate is 250 MHz, the system consumes 32 watts (= 5  10-10
+Joules  250
+MHz  256) only for 256 A/D converters. This consumption is rarely practical or even possible
+considering power consumption limitations in a portable system. For example, the AD9271
+chipset, as discussed in Section 1.3.4, has a total of 8 receive channels with dedicated A/D
+converters per each channel and consumes 1.5 W of maximum power.
+However, the number of channels for the current research is 16 and each channel should
+have 3 Kbyte of SRAM (Static Random Access Memory) as well as an A/D converter. Assuming
+the power consumption of the A/D converter and 3 Kbyte of SRAM are 125 mW and 180 mW
+[17], respectively, the total estimated power consumption is 4.88 W, which may not be suitable
+for portable devices. Therefore, the current research proposes a shared A/D converter and
+memory architecture. For this prototype device, the transceiver chip has one A/D converter
+shared by the 16 receivers via a 16:1 analog multiplexer. The theory is that this design will prove
+capable of producing an ultrasound imaging system that is portable and compact but also yields
+high-resolution images. The design capabilities and the trade-off relationship between power
+consumption and the number of shared channels is explored, in detail, in Chapter 3.
+Last, the hardware needs to be reconfigurable so that it is adaptable for a general purpose
+ultrasound imaging systems with various ultrasound transducers. Since transducer specifications
+govern hardware specifications, using the hardware for only the specific transducers with which it
+is most well matched is impractical. Further, the current study, completes high-frequency thin
+15
+film ultrasound transducer development parallel with the hardware design [18], and thus, the
+transducer characteristics are easily modified, allowing hardware design to be adapted for use
+with a wide range of transducer specifications.
+The difficulty of changing hardware specification is one of the major drawbacks of
+custom-designed IC chips; creating a reconfigurable chip offers an inexpensive way to overcome
+this problem. Consequently, the front-end chip in the current research has several hardware
+configuration options through which users can change performance specifications. User selection
+programming (discussed in Chapter 3) in the FPGA further enhances flexibility.
+1.5 Thesis Organization
+This thesis, organized into seven chapters, describes the architecture and design of a fully
+integrated custom-designed CMOS transceiver chip for a novel ultrasonic imaging system:
+The first chapter introduced the motivations and goals of the proposed research along
+with a brief review of related work. Chapter 2 outlines the key points of ultrasound imaging
+fundamentals; ultrasound physics, the basics of B-mode ultrasound imaging, and beamforming
+architectures. Chapter 3 describes the architectural features of the custom-designed CMOS chip
+to accomplish the design requirements. This chapter also explains the functionality of the
+proposed imaging system and the interface between the chip and the FPGA control chip. Chapter
+4 investigates the design specifications of the circuit components on the proposed chip, and
+presents the design details of the each component. Chapter 5 provides characteristics of the
+fabricated CMOS chip and measured signal acquisition results from the proposed ultrasound
+imaging system along with the thin film ultrasound transducer arrays and the high frequency
+composite ultrasound transducer arrays. Chapter 6 develops the steps necessary to achieve and to
+16
+expand the topic and the goal as future research. Last, Chapter 7 summarizes the achievements of
+this study and its possible impact on ultrasound imaging.
+Chapter 2
+Fundamentals of Ultrasound Imaging Systems
+2.1 Principles of Ultrasound Imaging
+2.1.1 Ultrasound Wave Physics
+An ultrasound wave is a longitudinal wave in which oscillations are in the same direction
+as propagation. The “elastic properties” or “stiffness” of an isotropic fluidic medium determines
+the speed of propagation,, of a longitudinal wave in that medium [19]:
+/
+B
+ 
+ , (2.1)
+where p is the mean density, and B is the bulk modulus of the medium.
+In addition, the ultrasound wave is attenuated as it propagates through the medium.
+Several factors contribute to this attenuation. One of the most significant factors is the absorption
+of ultrasound energy by the medium and its conversion into heat. The ultrasound wave loses its
+acoustic energy continuously as it moves through the medium. Scattering and refraction also
+result in some loss of energy and contribute to overall attenuation. A simple exponential loss of
+pressure amplitude expresses the attenuation of an ultrasound wave [1]:
+z
+f
+a
+e
+p
+z
+p 
+
+ )
+(
+0
+)
+( , (2.2)
+where p0 is initial pressure amplitude and (f) is the attenuation coefficient that is a function of
+frequency.
+18
+Reflection is an important physical phenomenon of an ultrasound wave, and it is also a
+key characteristic used for ultrasound imaging. The acoustic impedance, Z, is a characteristic of
+density and elastic properties of a medium. Since velocity also relates to the material’s
+characteristics, a relationship exists between tissue impedance and ultrasound velocity. The
+acoustic impedance of a medium, Z, the product of material density, , and sound speed, u:
+z u
+
+  , (2.3)
+A reflection occurs at any boundary between two media having different densities and/or
+acoustic velocities. When an ultrasound wave encounters the boundary between two media, only
+a portion of the wave’s acoustic energy will be transmitted, and the rest of the acoustic energy
+will be reflected. The power reflection coefficient, R, is:
+2
+2 1
+2 1
+Z Z
+R
+Z Z
+ 
+
+  
+
+  , (2.4)
+when the wave travels from a medium with impedance, Z1, into a medium with impedance, Z2.
+From equation (2.4), the conclusion is that larger differences of the characteristic impedances
+between two adjacent media will induce larger reflection amplitude. Table 2.1 presents values of
+characteristic impedances for several biological media [19]. For example, since the acoustic
+impedances of muscle, bone, and soft tissue are 1.71, 8.8, and 1.62 [106
+kg/m2
+s], respectively,
+boundaries between muscle (or soft tissue) and fat are much easier to detect than boundaries
+between soft tissue and muscle.
+19
+2.1.2 Brightness Mode (B-Mode) Ultrasound Imaging
+B-Mode ultrasound imaging, based on the pulse-echo (backscattering) response of an
+ultrasound wave, provides a two-dimensional, cross-sectional reflection image of the scanned
+object [20]. Figure 2.1 shows an ocular image demonstrating generation of ultrasound images. At
+first, a transducer (or a transducer array) generates an ultrasound pulse in response to an electrical
+excitation pulse (or continuous waves). The pulse propagates through the medium of interest at
+the speed of sound. The ultrasound is partially reflected toward the transducer whenever it meets
+any media where an impedance discontinuity exists (Figure 2.1(a)).
+Some of these reflections or echoes return to the transducer and reconverted into RF
+electrical signals, as shown in Figure 2.1(b). With the known speed of sound in the medium of
+interest, calculation of the distance from the transducer to the discontinuities is possible by:
+2
+c t
+d
+
+ , (2.5)
+Table 2.1: Acoustic Impedance and Attenuation Rates of Some Main Biological Tissues [15]
+Sound velocity Acoustic impedance Attenuation
+(m/sec) (106
+kg/m2
+s) (dB/cm/MHz)
+water 1480 1.48 0.0025
+air 330 0.0004 12
+blood 1570 1.61 0.007
+fat 1410-1470 1.34-1.39 0.35-0.78
+muscle 1590 1.71 1.5-3.3
+bone 4000 8.8 12
+soft tissue 1540 1.62 0.5-1
+20
+where d is the distance the interface; c is the speed of sound, and t is time to obtain the reflected
+signal. The factor of 2 in this equation results from the fact that ultrasound must travel to and
+return from the interface.
+In an A-mode (Amplitude-mode) scan, as shown in Figure 2.1(c), the front-end
+electronics receives the RF signals, and calculates the envelope at each signal. The maximum
+amplitude information is detected; then a single line is formed in the image. For a B-mode scan,
+on the other hand, the amplitude information is converted to the brightness information of the
+Figure 2.1: Basic principle of pulse-echo imaging [20].
+21
+target object. Higher amplitude creates a brighter image, and a weaker amplitude creates a dark
+image. The transducer is moved in a horizontal direction or rotated about a fixed axis. The
+imaging process is then repeated as described above with a different transducer position. This
+results in generation of the 2-dimensional cross section image, as shown in Figure 2.1(d).
+2.1.3 Resolution
+Resolution is one of the most important properties to consider in designing an ultrasound
+imaging system. Resolution involves two factors in a B-scan: (1) resolution in the direction of the
+transducer motion, known as “lateral” or “transverse” resolution, and (2) resolution in the
+direction of acoustic pulse propagation, known as “axial” resolution.
+Lateral resolution of an ultrasound imaging system (resolution in the direction of
+transducer motion) is the system’s ability to discriminate between two closely adjacent structures
+placed at the same depth from the transducer surface. The ultrasound’s beam width at a specific
+depth determines lateral resolution. The beam width varies as the wave propagates in and out of
+the focal region; therefore, the focusing property of the transducer is:
+
+
+a
+f
+f
+R
+L 
+ #
+. , (2.6)
+where, f#
+is the f-number; a is the aperture of the transducer; f is a focal length, and  is a
+wavelength. Practically, lateral resolution is proportional to 2 [21].
+Axial resolution of an ultrasound imaging system (resolution in the direction of
+ultrasound wave propagation) is the ability to discriminate between two closely placed structures
+lying along the length of the ultrasound wave. The important factor in determining axial
+resolution is the spatial pulse length () and the numbers of pulses (N):
+22
+2
+.
+
+N
+R
+A  . (2.7)
+From both (2.6) and (2.7), notably, the wavelength, and consequently the frequency,
+directly determines the resolution of an ultrasound system. In general, a higher-frequency
+ultrasound wave is more desirable for higher resolution. However, arbitrarily increasing the
+ultrasound wave frequency to obtain finer resolution is not desirable because the attenuation rate
+of ultrasound waves increase as the frequency increases. Therefore, in determining frequency, a
+necessary consideration is the trade-off between the resolution and the penetration distance of the
+ultrasound wave. Having set the frequency of an ultrasound wave, the specification for the front-
+end electronics, such as input buffer bandwidth and A/D conversion speed, can be determined.
+2.2 Beamforming
+2.2.1 Huygens Principle, Diffraction, and Beamforming
+Beamforming has its basis in the Huygens principle and the concept of diffraction [22].
+The Huygens principle states that every point on a wave front may be considered the source of
+secondary wavelets that diffuse in all directions with equal speed.
+As shown in Figure 2.2 [23], when waves pass through an aperture, every point of the
+wave within the aperture can be considered a circular wave that propagates outward from the
+aperture. The aperture, therefore, creates a new wave source, which propagates in the form of a
+circular wave front. This process, called diffraction, can be described as the apparent bending of
+waves around small obstacles and the spreading of waves beyond small openings.
+Similarly, when the ultrasound wave passes an object or a small aperture, secondary
+wavelets occur by diffraction and propagate; the advancing wave front may be regarded as the
+23
+sum of all the secondary waves arising from the points in the medium already traversed. Thus,
+coherent summation of these wavelets constructs the wave front location and orientation at later
+times. . This is the principle of receive beamforming.
+Needless to say, focusing and steering the ultrasound beam improve the resolution of the
+imaging system. Focusing and steering the ultrasound beam is similar to focusing and steering
+light; i.e., a lens can focus and steer ultrasound. Modern ultrasound systems, however, use
+transducer arrays rather than a single transducer, thereby allowing focusing and steering the beam
+by time-delaying each element. In the receive mode, the reconstruction of the reflected signals
+into the image occurs by compensating for the delays in the transmit mode.
+In the past 40 years, ultrasound beamforming technologies have advanced considerably.
+Beamforming, developed for a variety of transducer array types, has resulted in the introduction
+of significant differences in system complexities for different arrays. However, only generic
+beamformers for linear arrays are under consideration in this research
+Figure 2.2: Wave diffraction in the manner of Huygens principle [23].
+24
+2.2.2 Analog Beamforming vs. Digital Beamforming
+Beamforming architectures are of two types: Analog Beamforming (ABF) and Digital
+Beamforming (DBF). ABF for ultrasound waves first appeared in the 1960s. Researchers
+developed DBF in the 1980s; however, not until the 1990s did DBF became feasible because
+that period made available fast, high-precision A/D converters necessary for these systems. The
+recent development of VLSI techniques enables designing real-time digital receive beamformers,
+and allows amplified signals from receive channels to be coherently added after digitization [24].
+The main difference between ABF and DFB is the method of achieving beamforming: In
+ABF, as shown in Figure 2.3(a), analog delay lines for each channel delay transmit pulses; then
+the beam is formed. In receive mode, the amplified and delayed, reflected analog signal
+compensates for the transmit delays; which are subsequently accumulated to construct a large
+analog imaging signal. Then, an ADC digitizes the analog signal for further image processing, as
+shown in Figure 2.3(b).
+Unlike the signals in an ABF system, the signals in a DBF system, as described in Figure
+2.4, are sampled as close to the transducer elements as possible in receive mode, and then delayed
+and summed digitally. Thus, a DBF system needs an A/D converter for each channel. Since
+modern DBF systems use multi-channels and arrays of transducers, DBF requires a large number
+of A/D converters. This creates a considerable disadvantage for DBF systems since ADCs
+consume significant power.
+However, DBF systems also have considerable advantages over ABF systems. First, DBF
+has better control over time delay quantization errors. Analog delay lines tend to be poorly
+matched between channels. In DBF, synchronization with a high-frequency clock source can
+greatly improve delay accuracy. Second, DBF provides a finer resolution of ultrasound images.
+Typical analog delay accuracy is on the order of 20 ns, which constrains lateral resolution [21],
+25
+(a)
+(b)
+Figure 2.3: Simple block diagram of a typical ABF system: (a) Transmit Analog Beamforming
+System, (b) Receive Analog Beamforming System.
+26
+(a)
+(b)
+Figure 2.4: Simple block diagram of a typical DBF system: (a) Transmit Digital Beamforming
+System, (b) Receive Digital Beamforming System.
+27
+but digital delay accuracy in modern digital circuit technology is on the order of a few hundred
+pico-seconds with a few giga-hertz clock sources and PLLs (Phase Locked Loop) [25]. Last,
+since the digitized data is much less susceptible to noise than analog signal, DBF systems, in stark
+contrast to ABF systems, can deliver clearer display images than ABF systems, which may have
+analog noise throughout its entire system.
+2.3 B-Mode Ultrasound Imaging System
+2.3.1 System Overview
+A block diagram of a general B-mode ultrasound imaging system appears in Figure 2.5.
+The following sub-sections generically describe the processing blocks.
+The Back-end
+This grouping includes microprocessors or a host computer and post-processors. The
+computer or microprocessors control the entire hardware system to function in the desired modes
+and to provide a control interface to the front-end electronics. The post-processor performs scan
+conversions (i.e. imaging formation), image processing, and display.
+Front-end
+The front-end mainly consists of a transmitter and a receiver. Under transmit beamformer
+control, the T/R switch sends excitation pulses to the transducer. Receive circuitry obtains the
+backscattered signals from the object, subsequently digitized by the A/D converter.
+28
+Beamformer
+Modern ultrasound imaging systems often use multi-channel transducer arrays to increase
+beam flexibility, spatial converge, and resolution. Ultrasound pulses from each channel should
+have a delay in order to form a wave front that converges on a specified focal point.
+The transmit beamformer generates delays for each channel to focus and steer the
+transmit beam, and the receive beamformer performs focusing and steering of the scattered RF
+signals to create the B-mode images. In certain systems, the transmitter consists of delay
+networks. A single cycle pulse excitation signal is ideal for B-mode imaging since it yields better
+axial resolution. Typical systems have the flexibility to generate multiple-gated bursts of
+sinusoidal excitation as well as coded excitation. The delay network focuses the amount of
+transmitted energy into the medium and has capability for pulse and PW (Pulsed-wave) Doppler
+transmit modes.
+Figure 2.5: Block diagram of a generic digital ultrasound imaging system.
+29
+The receive beamformer also generates delays for each channel in inverse order of
+transmit delays to align the amplified signals at the reference time. Then, the post processor adds
+the delay compensated signals and generates a large imaging signal for further image processing.
+2.3.2 Ultrasound Front-end
+T/R switch
+Generally, the transmit pulses use a very high voltage, typically up to 200 V; while the
+receiver electronics process lower voltages signals in the 10-3
+volt range. Modern CMOS
+technology uses a power supply of below 5 V. Therefore, the receiver should be isolated from
+transmit pulses in order to protect inner circuits. The T/R switch connects transducers to the
+transmitter during transmit mode operation; conversely, the switch connects the transducer to the
+receiver during receive mode operation.
+Amplifier
+The amplifier is a key component in the ultrasound imaging system. It performs two
+functions: First, it receives the reflected signals from the transducers. This means that the
+dynamic range of the amplifier is crucial because attenuation of an ultrasound wave is sometimes
+over 100 dB. Impedance matching between the amplifier and transducers is also important for
+reception. A Low Noise Amplifier (LNA), which has both high dynamic range and good
+impedance-matching properties, is preferred for the preamplifier. Second, the preamplifier
+enhances the received signals, but careful preamplifier gain selection avoids amplified signal
+saturation.
+30
+TGC
+The attenuation of ultrasound waves in the medium is an essential factor affecting the
+configuration of the ultrasound’s front-end electronics. From equation (2.2), ultrasound waves
+attenuate on a logarithmic scale rather than a linear scale. This means that the Time-Gain
+Compensator (TGC) in the ultrasound front-end electronics should express a variable linear gain
+range in the dB scale. The TGC can be a Variable Gain Amplifier (VGA), and using the TGC
+lowers the required dynamic range of the preamplifier (details appear in Chapter 3).
+A/D Converter and Memory
+As stated earlier, every receive channel needs one or more A/D converters for DBF. The
+conversion rates of 3~5 times the highest center frequency are necessary to reduce beamforming
+quantization errors [26]. As conversion speed increases, memory devices may be needed to store
+the digitized data and to interface the A/D converter with the receive beamformer.
+Chapter 3
+Proposed High-frequency Ultrasound Imaging System
+3.1 Configuration of Proposed Ultrasound Imaging System
+Conventional front-end electronics consist of discrete chipsets for: transmitters,
+preamplifiers, TGCs, A/D converters, and memory devices, all mounted on several PCBs (Printed
+Circuit Boards). Therefore, the systems are not only large and expensive, but they also have
+difficulty with high-speed operation. The main goal of the current research as delineated in
+Chapter 1, is to integrate the complete front-end electronics of an ultrasound imaging system onto
+a single IC chip with closed-coupled thin film ultrasound transducers, and then construct a
+portable high-frequency ultrasound imaging system. Accomplishing this goal requires: (1) a
+Figure 3.1: Simplified block diagram of the proposed imaging system.
+32
+multi-channel analog signal processing system including high-speed A/D converters and a
+transmit beamformer integrated on a fully custom-designed CMOS transceiver chip, and (2)
+auxiliary digital controls on an FPGA chip with several discrete chip sets such as an RS232 chip,
+a D/A Converter (DAC), and a 50-MHz Crystal Oscillator (see Figure 3.1). These specifications
+enable creation of an ultra-compact, low-cost, high-speed, and high-resolution ultrasound
+imaging system.
+Figure 3.2 shows the simplified block diagram of the FPGA chip (Spartan 3E, Xilinx Inc.,
+CA). The FPGA chip has been designed to control the ultrasound transceiver chip. The FPGA
+helps for the chip to communicate with the imaging host via an RS-232 chip. The Main Control
+interfaces with other circuitry such as Mode Set, Memory, and the transceiver chip according to
+commands received from the user. The Clock Buffer receives a 50-MHz clock signal from an
+external clock oscillator and distributes it to other circuit blocks and to the transceiver chip. The
+Mode Set consists of 1-bit serial pipeline registers that store data preset by the user, for example,
+Figure 3.2: Simplified block diagram of the FPGA chip.
+33
+channel and the preamplifier gain selection information (Section 3.3 describes design details).
+The 48 Kbyte internal memory’s assignment is to store image information from the transceiver
+chip. The stored data, transferred to the host computer through the Serial Port in the FPGA chip
+and the RS-232 chip, allows subsequent image creation. The Counter’s design permits generation
+of digital codes that increase as an exponential function of time. The digital codes produce a
+pseudo-exponential analog signal for the VGA in the transceiver chip.
+Figure 3.3 shows a block diagram of the transceiver chip. The receiver consists of a
+preamplifier and a TGC (Time Gain Compensator) that compensates for signal attenuation as a
+function of depth. The TGC consists of an on-chip VGA and an external 10-bit 50-MHz D/A
+converter (AD9760, Analog Devices, Inc., MA). A time varying control signal, applied to the
+VGA gain control input, ensures the signal strength at the VGA output is constant over time (i.e.,
+depth). An 8-bit A/D converter digitizes the compensated signals. The A/D converter output
+connects to a 3-Kbyte on-chip SRAM which is large enough to store all the scanned image data
+for a specified depth range.
+Figure 3.3: Simplified block diagram of the transceiver chip.
+34
+In this research, the transceiver chip has 16 transmit and receive channels. The number of
+channels can be increased. As shown in Figure 3.3, the transceiver chip has only one A/D
+converter and SRAM to reduce chip area and power consumption, but the system needs an analog
+multiplexer (aMUX) and auxiliary digital controls for channel selection. A 16:1 analog
+multiplexer allows these two components to share 16 receive channels. The next sub-section
+discusses the architectural advantage of the transceiver chip.
+The transmit signal generator produces and sends a 50-MHz pulse to the thin film
+ultrasound transducers through programmable delay chains to enable electronic beam focusing in
+the transmit mode. In a DBF system, focusing occurs by introducing delays to the transmit pulse
+on the elements so that emitted ultrasonic beams can be made constructively at the target of
+interest, as mentioned in Chapter 2. Therefore, excitation pulses should be delivered to the
+transducer elements in an order that allows convergence of a composite wave front converges at a
+point. The variable delay chains in the figure determine the excitation order of the transducers.
+Figure 3.4 shows the floor plan of the CMOS chip. Sixteen receive and transmit channels’
+alignment and separate locates with digital controls minimize layout mismatches and digital noise
+susceptibility. In addition, an added, extra transmit and receive channel permits testing. The split
+power supplies separately feed analog circuitry such as preamplifiers, VGAs, and the A/D
+converter. The other power supply is for digital circuitry such as the transmitter, controller and
+SRAM. Chapter 4 details the design of each component on the transceiver chip.
+35
+3.2 Transceiver Chip Architecture
+3.2.1 Closed-Coupled Electronics Scheme
+The high-frequency thin film ultrasound transducer arrays are described elsewhere [14].
+Because the piezoelectric layer is a thin film (<1 µm thickness), the transducer array utilizes
+CMOS-compatible, low-level (below 5 V) excitation voltages. This technology enables the thin
+film ultrasound transducers to be placed in close proximity to the electronics. In addition, receiver
+protection devices are likely to be unnecessary because the transmit voltage is of the same
+magnitude as the CMOS logic voltage level.
+Figure 3.4: Transceiver chip floor plan.
+36
+Another advantage of the proposed scheme is ease of impedance matching. If the thin
+film ultrasound transducers can be considered as capacitance loads for the preamplifier in the
+transceiver chip, it is possible to suppose that the preamplifier has pure capacitance loads due to
+the absence of other components, such as coaxial cables or T/R switches, in the analog signal path
+from the transducers to the preamplifier. Thus, it is also reasonable to believe that the
+preamplifier senses voltage variations of the transducers rather than current (i.e., power)
+variations. Under this assumption, impedance matching between the transducers and the
+preamplifier can be ignored [40].
+In addition, the transceiver chip can function as a receiver with conventional transducers
+that require high transmit drive voltage and T/R switches. In this case, impedance-matching
+circuits need to designed and placed at the preamplifier inputs because of T/R switches that have
+a finite impedance value. Since the input impedance of the CMOS amplifier is quite high, ideally
+infinite, impedance matching between the high voltage transducers and the preamplifier can be
+achieved by simply terminating the receiver inputs with resistors in order to make the impedance
+of the receiver (including T/R switches) the same with that of the high voltage transducers.
+3.2.2 Proposed System’s Architectural Features
+On-chip Memory and Asymmetric Data Transferring
+One of most important architectural features in the transceiver chip is on-chip SRAM.
+Typical ultrasound imaging systems operating under 50 MHz have memory devices on the host
+imaging processors rather than on the ultrasound front-end [3], [4]. However, the proposed
+system requires a data transfer rate of 2 GBPS (Giga-bits per second) because the A/D converter
+operates with an 8-bit 250 MS/s data bandwidth. Transmitting data to the host imaging processors
+37
+at such high transfer rates in a small portable system is not easy. Therefore, the proposed system
+stores A/D converter outputs in the transceiver chip store to a 3-Kbyte on-chip SRAM at a high
+transfer rate, for instance, 2 GBPS. Then the SRAM sends the stored data to the host imaging
+system at a low transfer rate, 400 MBPS (Mega-bit per second). Notably, the on-chip SRAM is of
+sufficient capacity to store all the scanned image data for a specified depth range. The calculation
+for the optimal memory size appears in Chapter 4.
+Shared ADC Architecture
+As described earlier, a typical receive DBF system has an A/D converter and memory
+buffers for each channel. The need for an A/D converter per receive channel in a typical DBF
+system is a substantial disadvantage because of high power consumption and large system size as
+compared to an analog beamforming (ABF) system which delays the received signals, sums them
+by analog circuitry, and then converts them to a digital signal by an A/D converter. Thus, if a
+transducer array has 256 channels, for example, an ABF system needs only one A/D converter,
+while 256 A/D converters are necessary in a DBF system. As discussed in Chapter 1, integrating
+such large numbers of A/D converter may not be feasible in a practical system. To overcome this
+problem, the proposed transceiver chip has only one A/D converter shared by the 16 receivers via
+a 16:1 analog multiplexer (aMUX), as shown in Figure 3.4. Consequently, this configuration
+creates a DBF system but on the same order of size and power consumption as an ABF system.
+However, the prototype device operates 16 times slower than a conventional system because the
+shared ADC architecture performs 16 iterative operations accessing different channels to
+complete one scan. Another drawback is that the architecture requires extra digital controls.
+An evaluation of the effectiveness of the shared ADC architecture, the performance of the
+shared ADC architecture, and the typical DBF architecture appears as a comparison in Table 3.1.
+38
+In this comparison, the number of channels in the typical DFB architecture varies from 1 to 16,
+while the number of channels in the shared ADC architecture remains at 16, and the number of
+shared channels varies from 4 to 16. The sizes of one receive and transmit channel, an A/D
+converter, and the 3Kbyte SRAM are assumed to be 0.175, 0.9, and 2.16 mm2
+, respectively.
+These sizes are estimates based on the actual layout sizes of each component in the transceiver
+chip. The size of digital control circuitry, needed only for the shared ADC architecture, is
+expected to be 0.2 mm2
+. In addition, the assumed power consumption of one receive and transmit
+channel, an A/D converter, 3Kbyte SRAM, and the digital controls are 2, 100, 130, and 8 mW,
+respectively. These data were also estimated from SPICE simulation results of the each
+component with post-layout parameters. The time for 1-scanning is calculated based on the
+operational sequence and time for one complete scanning of this research (see Section 3.3 for
+details.
+Table 3.1 indicates the trade-off relationship among operational speed for 1-scanning,
+chip size, and power consumption. Thus, to determine an optimal number of shared channels, the
+maximum time for 1-complete-scanning allowed for real-time imaging is a consideration. Having
+established the maximum time, the total number of channels can be determined considering the
+Table 3.1: Performance Comparison among Shared ADC and Typical DBF Architectures
+Typical DBF Architecture:
+Number of channels
+Shared ADC Architecture:
+Number of shared channels*
+1 8 16 4 8 16
+Numbers of required
+ADC & SRAM
+1 8 16 4 2 1
+Chip Size (mm2
+) 3.24 25.9 51.8 15.2 9.1 6.1
+Power Consumption (mW) 240 1864 3720 960 500 270
+Time for 1-scanning (µs) 50 50 50 200 400 800
+* total number of channels: 16
+39
+chip size and power consumption specifications. For example, if the maximum allowable time for
+1-scanning is 800 µs, the 16 channels can be shared. Then, if the chip size is 25 mm2
+and power
+consumption is 1 W, the optimal number of total channels will be 64 (16 channels of each are
+shared).
+3.3 Function Definition
+3.3.1 Major Functions
+The CMOS chip has four major functions: Reset, Mode-set, Excitation, and Data-out.
+The external controller governs Reset, Excitation, and Data-out functions. Two pins on the chip
+are allocated for these functions. If the external controller sends a set of two-bit commands as
+shown in the Truth Table, Table 3.2, the chip decodes the command set and then performs the
+function. Mode-set is for the chip operation configurations, channel selection, transmit channel
+delay set, and other digital controls for testing. The details of these functions are:
+Reset: This command sets the initial condition of the chip. The chip operation is reset
+whenever this command comes in.
+Excitation: Transmit pulses are sent to the transducers by this command. Before
+Table 3.2: Truth Table for Command and Chip Function Lists
+Com <0> Com<1> Function
+L L Idle
+L H Data-out
+H L Excitation
+H H Reset
+40
+executing this command, for proper operation, Mode-set should be completed.
+Data-out: When executing the data-out command, the memory begins sending stored
+data following the FIFO (First-In First-Out) rule. One-clock latency from this command
+to data-out start is a consideration for the external controller.
+3.3.2 Mode-set Configuration
+Mode-set programs user-specified configurations, such as the transmit channel delay set
+for beamforming, clock source and type selection, and gain preset for the preamplifier. Also,
+important is that the receive channel address be properly selected because only one receive
+channel can operate at a time due to the shared A/D converter scheme.
+The Mode-set circuit consists of a total of 187 D flip-flops connected in series. As shown
+in Figure 3.5, the D flip-flops operate as switches: If a D flip-flop has data 0, the switch is OFF,
+and otherwise, the switch is ON. For example, to select Receive Channel 0, the D flip-flop
+connected to channel 0 should have data 1. To configure the Mode-set, the external controller
+sends a 187 bit serial data set to the chip, and then the chip stores the data according to the FIFO
+(First In First Out) rule. First, the receive channel selection information is sent, and then the
+Figure 3.5: Conceptual diagram of the Mode-set configuration method.
+41
+transmit channel selection information follows. Next, transmit delay setting information is sent.
+Detailed explanations of transmit beamforming and delay chain design appear in Section 3.3 and
+Chapter 4. Finally, the test mode setting information is sent. A description of the test mode is:
+As discussed in Chapter 2, the main function of front-end electronics in the B-mode
+ultrasound imaging system is to transmit excitation pulses, amplify reflected signals maintaining
+peak amplitude constant over the time, and digitize the amplified signals. In addition to the core
+analog signal processing components, the front-end electronics need digital controls. The
+following description represents test options, and the full list of test options appears in Table 3.3.
+Table 3.3: User Preset Test Mode Options
+NO. Item Default Setting
+1
+Preamplifier Gain
+6 dB (Closed Loop)
+14 dB (Open Loop)
+2 8 dB (Open Loop)
+3 14 dB (Closed Loop)
+4 20 dB (Closed Loop)
+5 50 dB (Open Loop)
+6
+tTRE Control
+0 µs
+4 µs
+7 1 µs
+8 3 µs
+9 5 µs
+10 8 µs
+11 Transmit Pulse: Square Wave Bipolar Pulse
+12
+Transmit Pulse Width
+10 ns
+20 ns
+13 40 ns
+14 80 ns
+15 160 ns
+16
+Clock
+Clock Monitor OFF
+17 Internal 250 MHz OFF
+18 External 250 MHz ON
+19
+SRAM
+External Data Strobe OFF
+20 SRAM bypass OFF
+21 ADC Half Speed Clock OFF ( 250 MHz)
+22
+Tx Driver Size
+Double Strength OFF (x1 Strength)
+23 Triple Strength OFF (x1 Strength)
+24 -151 Channel Delay Setting 0 ps
+42
+Preamplifier gain preset: The preamplifier has a total of 6 user-options for setting the
+gain of the amplifier. In the current research, the available gain settings are from 6 to 20
+dB with 5 different options.
+tTRE control: As shown in Figure 3.6, the analog signal processing system is range-gated
+for the time between sending an excitation pulse and receiving the first reflection signal
+(called tTRE in this thesis); otherwise, the system operates even when unnecessary, and,
+consequently, wastes power. Furthermore, the system needs a higher capacity-memory
+because meaningless data as well as imaging data need to be stored. The default setting is
+4 µs.
+Tx pulse width: The default transmit frequency is 50 MHz, which is the target center
+frequency of the transducer in this research. However, users can change the pulse
+frequency from 4 different options: 6.25 MHz, 12.5MHz, 25 MHz, and 100 MHz. These
+options enable the transceiver chip to apply to broad range of frequencies for ultrasound
+applications.
+Clock selection: The chip is capable of receiving two different clock sources; one is for
+Figure 3.6: tTRE control diagram (tTRE: time from transmit to receiver enable).
+4us
+tTRE
+Reflection Signal
+from Transducers
+Excitation Pulse
+time
+Receiver Enable ( FE_EN signal becomes “High”)
+tTRE options : 0 us, 1 us, 3 us, 4 us, 5 us, 8 us
+4us
+tTRE
+Reflection Signal
+from Transducers
+Excitation Pulse
+time
+4us
+tTRE
+Reflection Signal
+from Transducers
+Excitation Pulse
+4us
+tTRE
+Reflection Signal
+from Transducers
+Excitation Pulse
+time
+Receiver Enable ( FE_EN signal becomes “High”)
+tTRE options : 0 us, 1 us, 3 us, 4 us, 5 us, 8 us
+43
+I/O and the other is for sampling in the A/D converter. However, the chip can generate
+the I/O clock (50 MHz) using the clock source for the A/D converter (250 MHz) by an
+internal clock divider. Users can choose the source for the I/O clock.
+Delay setting: Users can set the transmit delays for each channel. Each channel has 8
+delay set signals, and the combination of the signals provides the transmit delay options
+from 0 to 500 ps with 20 ps step for each channel.
+3.3.3 The Operational Flow
+Figure 3.7 illustrates the operational flow of the transceiver chip’s data acquisition and
+the time duration of each step. When using a 50 MHz I/O clock, 20 µs are necessary to receive
+Figure 3.7: CMOS transceiver chip operational flow chart.
+Reset
+Mode Set
+Command
+Transmit
+Receive
+Ch(i) = Ch(i+1)
+Data Out
+4 us @ 50 MHz
+Repeat
+16 times
+Waiting time = 1, 3, 4, 5, 8 us
+Receive
+Data Conversion
+Storing
+Processing time = 12 us
+30 us @ 50 MHz
+Reset
+Mode Set
+Command
+Transmit
+Receive
+Ch(i) = Ch(i+1)
+Data Out
+4 us @ 50 MHz
+Repeat
+16 times
+Waiting time = 1, 3, 4, 5, 8 us
+Receive
+Data Conversion
+Storing
+Processing time = 12 us
+30 us @ 50 MHz
+44
+the reflected signals and digitize them. Another 30 µs for data transfer is necessary; thus, a total
+of 50 µs is required for one data point acquisition. Due to the sharing of the A/D converter and
+SRAM, the transmit and receive cycle needs to be repeated 16 times for each analog channel.
+Thus, a total of 800 µs is necessary to finish one scan line. This architecture requires the data
+acquisition process to be 16 times longer than a typical ultrasound system. However, the proposed
+scheme is still fast enough to generate 50 scan-line ultrasound images at a rate of 25 fps (frames
+per second).
+Chapter 4
+Design of the Ultrasound Transceiver Chip
+4.1 Receiver
+4.1.1 Required Specifications
+The most important design specification of the system is the bandwidth of the receiver.
+The required bandwidth of the receiver is determined by the center frequency and bandwidth of
+the transducer. In this study, the target frequency of the transducers is 50 MHz with 100 %
+bandwidth; thus, the input frequency range is 25 ~ 75 MHz [18]. Therefore, the receiver circuitry
+must be capable of a flat frequency response over the bandwidth of the transducer elements up to
+75 MHz with a maximum gain of 20 dB.
+In addition, the ratio of the A/D converter aperture and the maximum preamplifier input
+amplitude determines the gain of the preamplifier according to:
+r 10
+MaxADCInput
+20 log (DesignMargin)
+MaxPrempInput
+p eamp
+Gain   
+ 
+ 
+  . (4.1)
+In this design, the maximum input of the preamplifier is set to 0.3 VP-P, and the A/D
+converter aperture is 1.5 VP-P. Thus, the preamplifier gain is 14 dB ± (design margin). Since the
+thin film transducers are currently under development, the design margin is set to ± 6 dB.
+Therefore, the gain of the preamplifier can be changed over a range from 8 to 20 dB at the
+discretion of the user.
+46
+The dynamic range of the preamplifier is another important factor in the receive circuitry.
+The dynamic range of the receiver determines the minimum and the maximum signal amplitudes
+that the system can process. Therefore, the attenuation rate and depth range of the target medium
+can determine the required dynamic range. Assuming the attenuation rate in soft tissue is 0.5
+dB/MHz/cm [27], the total attenuation is 45 dB at 50 MHz for a penetration depth of 9 mm (i.e.,
+the total signal path of 18 mm considering signal reflection). Adding a minimum display
+resolution of 30 dB, image saturation allowance of 6 dB, and noise threshold of 6 dB [4] provides
+a dynamic range of 87 dB [28]. Therefore, the SNR (Signal-to-Noise Ratio) of the A/D converter
+needs to be greater than 87 dB, which corresponds to 15-bit resolution, according to the
+relationship [29]:
+6.02 1.76 (dB)
+ideal
+SNR N
+  , (4.2)
+where N is the bit resolution of an A/D converter.
+However, this dynamic range is too great for current high-speed A/D converters. The use
+of a VGA reduces the dynamic range requirement. Since the main purpose of the VGA is to
+compensate signal attenuation as a function of the depth of targets, the maximum gain of the
+VGA is bounded by the total signal attenuation, i.e., 45 dB. The optimal gain range of the VGA is
+selectable according to the dynamic range of the A/D converter. For example, if the SNR of the
+A/D converter is 42 dB, 45 dB of variable gain range is the requirement. In this research, the
+target SNR of the A/D converter is 48 dB (i.e., 8 bit); thus, the required gain range of the VGA is
+37 dB. Figure 4.1 illustrates the gain and dynamic range requirements.
+47
+4.1.2 Circuit Diagram
+The receive circuitry is consists of two on-chip components (the preamp and the VGA)
+and several off-chip components, as shown in Figure 4.2. The counter included in the FPGA chip
+generates time-varying digital codes that convert to the pseudo-exponential analog control signals
+through an external D/A converter, as illustrated in Figure 4.2 (the bottom graph). The VGA can
+produce a time-varying gain on a linear decibel scale with pseudo-exponential control signals.
+Preamplifier
+Figure 4.3 shows the simplified circuit schematic of the preamplifier. The analog signals
+from the transducers connect to IN+ and the common ground of the transducer arrays connects to
+IN-. The resistance ratio of the transistors M1 and M2 and the resistors R1 and R2 determine the
+gain. Expression of the voltage gain of the amplifier is:
+Figure 4.1: Transceiver chip gain and dynamic range requirements [11].
+48
+ 
+1,2 1,2 3,4 1,2
+V m O O
+A g r r R
+  
+, (4.3)
+where gm1,2 is the transconductance of M1 and M2; rO1,2 is the output resistances of the transistors
+M1 and M2, and rO3,4 is the output resistances of transistors M3 and M4. R1 and R2 in the design
+vary the resistance value from 4 to 20 KΩso that the user can preset the gain.
+The combination of transistors M6 ~ M10 and inverter INV0 form the enable/disable
+switch. This internal switch eliminates external T/R switches (required in typical ultrasound
+transceivers) in the analog signal path. When “/Enable” is HIGH, transistor M8 turns OFF so that
+the voltage of the node N0 goes to ground, and transistors M6 and M7 turn ON so that OUT+ and
+OUT- are tied to VCC+ regardless of the amplifier’s inputs. The speed of the switch is fast
+enough for the amplifier to be stable before signal acquisition starts. The simulation result
+appears in Chapter 5.
+Figure 4.2: Receive circuitry block diagram.
+49
+Table 4.1: Preamplifier Circuit Design Parameters
+Transistor Length (µm) Width (µm) Transistor Length (µm) Width (µm)
+M1 1 5 M2 1 5
+M3 0.5 15.2 M4 0.5 15.2
+M5 0.6 7.5 M6 0.4 2
+M7 0.4 2 M8 0.6 2
+M9 0.6 2 M10 0.6 2
+M11 0.6 15 M12 0.6 3
+M13 1 1.2 M14 1 1.2
+M15 0.6 1.2 M16 0.6 1.2
+Resistor R1 4 ~ 20 KΩ R2 4 ~ 20 KΩ
+Figure 4.3: Preamplifier core circuit schematic.
+50
+Transistors M9 ~ M16 generate bias voltages, independent of the power supply voltages,
+for the amplifier. The design parameters of the transistors and resistors in the preamplifier circuits
+appear in Table 4.1.
+Variable Gain Amplifier
+Since an ultrasound wave attenuates its power traveling in tissue on a decibel scale, the
+gain of the VGA also needs to have the capability to be changed linearly in dB [27]. Therefore,
+the gain of the VGA must be linear-in-dB over the linear control voltage range. To achieve this
+relationship, the proposed design adapts a Gilbert-type four-quadrant multiplier, whose output is
+equal to the product of the two inputs [30], and the generated pseudo-exponential control voltages
+use external circuitry with an FPGA chip and a D/A converter. Figure 4.4 depicts the folded
+Gilbert cell, in which the bottom differential pair of the original Gilbert cell folds without
+degrading performance in order to reduce the number of cascode1
+transistors. Derivation of the
+analytic relationship between input and output is [31]:
+3,4 5,6
+1,2
+( ) ( )
+( )
+( )( )
+2
+m m D
+n
+m
+SS
+Vo g g R Vin Vin
+W
+k
+L g Vcp Vcn Vin Vin
+I
+ 
+ 
+    
+   
+,
+(4.4)
+where gm1,2,gm3,4, and gm5,6 are the transconductances of transistors M1 and M2, M3 and M4, and
+M5 and M6, respectively; N ox
+N
+k C
+
+  ( N
+ is the electron mobility, ox
+C is the gate capacitance
+of the NMOS transistor); W is the channel width of transistors M1 to M4, and L is the channel
+length of transistors M1 to M4. Transistors M9 ~ M16 constitute a linear voltage converter [31].
+Table 4.2 shows the circuit design parameters of the folded Gilbert cell based VGA.
+1
+Cascode is a contraction of the phrase "cascade to cathode," and is a two (or more)-stage stacked
+amplifier composed of a transconductance amplifier followed by a current buffer.
+51
+Figure 4.4: Folded Gilbert cell based VGA circuit schematic.
+Table 4.2: Folded Gilbert Cell-based VGA Circuit Design Parameters
+Transistor Length (µm) Width (µm) Transistor Length (µm) Width (µm)
+M1 0.8 10 M2 0.8 10
+M3 0.8 10 M4 0.8 10
+M5 0.8 10.8 M6 0.8 10.8
+M7 0.8 12.2 M8 0.8 12.2
+M9 0.8 40 M10 0.8 40
+M11 0.8 23 M12 0.8 23
+M13 0.8 15 M14 0.8 15
+M15 0.6 24 M16 0.6 24
+Resistor R1 66 KΩ R2 66 KΩ
+52
+The second-generation chip has an advanced version of the VGA, described in Figure 4.5,
+because the voltage gain of the previous VGA changes its polarity as the control voltage changes.
+This limits the tuning range of the control voltage. To extend the linear control range, a constant
+current source (M17 in Figure 4.5), which sinks a current (Iss2) that is slightly greater than Iss1, is
+added to the tail of one of the differential pairs to force one differential pair to possess a gain
+higher than the others over the entire control range. The design parameters of this circuit appear
+in Table 4.3, and the simulation results of the new VGA are shown in Chapter 5.
+Figure 4.5: Modified VGA circuit schematic [25].
+53
+4.2 A/D Converter
+4.2.1 Required Specifications
+The sampling rate of the A/D converter can be determined by the Nyquist sampling
+theorem [32], which states that reconstruction of a continuous-time signal from its samples is
+possible if the sampling frequency is greater than twice the signal bandwidth. If the center
+frequency of the target transducer is 50 MHz with 100 % bandwidth, the bandwidth of the
+reflected signals will be 25 ~ 75 MHz. Given the 20 MHz design margin of the anti-aliasing filter
+located between the VGA and the A/D converter (Figure 3.3), the signal bandwidth will be 5 ~ 95
+MHz. Therefore, the required minimum sampling rate of the A/D converter is 190 MHz
+according to the Nyquist theorem.
+Table 4.3: Modified VGA Circuit Design Parameters
+Transistor Length (µm) Width (µm) Transistor Length (µm) Width (µm)
+M1 0.8 10 M2 0.8 10
+M3 0.8 10 M4 0.8 10
+M5 0.8 11 M6 0.8 11
+M7 0.8 15 M8 0.8 15
+M9 0.8 20 M10 0.8 20
+M11 0.8 17 M12 0.8 40
+M13 0.8 15 M14 0.8 15
+M15 0.8 10 M16 0.8 10
+M17 0.6 65
+Resistor R1 66 KΩ R2 66 KΩ
+54
+A further important determination is the effective bit resolution. This consideration
+depends on the characteristics of the medium. In this research, the target medium is tissue in
+human organs, which requires at least a 50 dB image resolution [29]. Therefore, the required
+effective bit resolution of the A/D converter is set to 50 dB, i.e., an 8-bit resolution.
+The design of a 190 MS/s A/D converter is a challenge in 0.35 µm CMOS technology. A
+flash-type A/D converter, known for its fast conversion speed, is the choice despite its higher
+power consumption and it occupying a larger area than other types of A/D converters. Shared
+A/D converter architecture, described in Chapter 3, overcomes the drawbacks of the Flash A/D
+converter.
+A TIQ-based flash-type A/D converter (TIQ ADC) was selected due to its simple
+architecture and fast conversion speed. Since this architecture, reportedly, has the operation speed,
+gain, and DC offset variations of up to 18% due to process and temperature variations [13], a
+sampling rate of 250 MHz rather than the required sampling rate of 190 MHz the target for the
+proposed design.
+4.2.2 Configuration of the TIQ ADC
+The proposed TIQ ADC consists of an anti-aliasing filter, a sample-and-hold amplifier, a
+TIQ comparator set, and an encoder. Figure 4.6 illustrates the configuration of the TIQ ADC. The
+following sections discuss the TIQ comparator and encoder.
+The anti-aliasing filter uses a 5th
+-order Bessel low pass filter rather than a bandpass filter.
+This decision arises from the fact that the required bandwidth for the TIQ ADC is relatively wide
+(5 ~ 125 MHz), which results in an overly complex design when using a bandpass filter. The
+Bessel filter, known for its linear-phase response over all pass band frequency ranges, has
+attenuation beyond the cutoff frequency, as steep as the Butterworth filter. (Further details about
+55
+the Bessel filter are available in [33].) The Sallen-Key topology was used for the filter because of
+its excellent inherent gain accuracy, a factor that is important in an ultrasound imaging system.
+The circuit schematic appears in Figure 4.7; the flat gain characteristic over frequencies appears
+in Chapter 5.
+The sample-and-hold (S/H) amplifier is based on the OTA (Operational
+Transconductance Amplifier) - MOSFET scheme with a bandwidth of 100 MHz (Figure 4.8).
+During the sampling mode, the transistor M1 is ON, and the capacitor C1 charges to maintain the
+voltage level. And during the hold operation, M1 is OFF, and C1 and the second stage of OP
+Figure 4.6: TIQ ADC block diagram.
+Figure 4.7: 5th
+-order Bessel lowpass filter circuit schematic.
+56
+AMP retain the analog voltage. The transistors M2 and M3 compensate for the clock noise
+generated from M1 during switching mode; they do this by operating oppositely with the M1
+switch. The simulation results from the S/H amplifier appear in Chapter 5.
+4.2.3 TIQ Comparator
+A comparator is one of the most important circuits in a flash A/D converter. It converts
+an analog input voltage into a digital logic output “1” or “0,” depending on the reference voltage
+of the comparator. In a traditional flash A/D converter, a differential comparator, which needs a
+resistor-ladder circuit as an external voltage reference, is commonly used. On the other hand, the
+TIQ comparator, which consists of two cascaded CMOS inverters, does not need a resistor ladder
+circuit because it uses the built-in voltage reference of the CMOS inverters [14].
+As an example of TIQ ADC operation, Figure 4.9(a) shows the schematic of a 2-bit TIQ
+ADC comprising 3 TIQ comparators, 3 gain boosters, and an encoder (Notably, an n-bit TIQ
+ADC consists of 2 1
+n
+ comparators and gain boosters and an n-bit encoder). The TIQ
+Figure 4.8: S/H amplifier circuit schematic.
+57
+comparator consists of two cascaded inverters; the first inverter sets the analog signal
+quantization according to its logic threshold, and the second inverter increases the gain of the
+comparator. If the analog input is higher than the logic threshold, the digital output is logic “1”;
+otherwise, the digital output is logic “0.”
+A particular output voltage (Vout) that is the same as input voltage (Vin), as shown in
+Figure 4.9(b) (i.e. Vin = Vout) determines the logic threshold of the TIQ comparator. And the logic
+threshold changes depending on the width ratios of the PMOS and NMOS. If P1 is the largest
+PMOS and P5 is the smallest PMOS, and if N1 is the smallest NMOS and N5 is the largest
+PMOS, as shown in Figure 4.9(a), the top comparator output corresponds to C3; the middle
+comparator corresponds to C2, and the bottom comparator output corresponds to C1 as in Figure
+4.9(b). Clearly, the three different ratios of the PMOS and NMOS widths result in three different
+logic thresholds: The logic threshold value of the top comparator is the largest and the logic
+threshold of the bottom comparator is the smallest.
+With fixed lengths for the PMOS and NMOS transistors, increasing or decreasing the
+width of the PMOS or NMOS, respectively, produces the desired values for the logic thresholds.
+Since the TIQ comparator is used in a flash A/D converter, a 2 1
+n
+ set of TIQ comparators are
+necessary to design an n-bit flash A/D converter. Therefore, finding the exact 2 1
+n
+ different
+logic thresholds as the reference voltages of the TIQ comparator in an input voltage range is
+necessary. For example, all 63 TIQ comparators for a 6-bit flash A/D converter have transistors
+of different sizes, so all the comparators have different logic threshold values.
+58
+(a)
+(b)
+Figure 4.9: TIQ comparators operational principles: (a) Example of 2 bit TIQ A/D converter, (b)
+VTC of a TIQ comparator.
+59
+4.2.4 Design Automation for the TIQ Comparator
+In the design of the TIQ comparator, generating comparators with a 2 1
+n
+ different size
+is difficult and time-consuming for a higher-bit A/D converter. Thus, customized software that
+automatically generates the TIQ comparators has been developed [34]. Of the two established
+design methods, one is the Random Size Variation (RSV) technique. This method simply selects
+required logic thresholds ( m
+V ) from the full range of 3-D plots, as shown in Figure 4.10. By
+selecting the actual m
+V that is the closest to the ideal m
+V , this method ensures that theoretical
+points are evenly spaced by LSB
+V regardless of the transistor’s size relationship with other
+comparators. Therefore, DNL (Differential Non-linearity)2
+and INL (Integral Non-linearity)3
+of a
+TIQ ADC designed using RSV technique is almost zero.
+2
+DNL is defined as the difference between an actual step width and the ideal value of 1 LSB (Least Significant Bit).
+3
+INL is defined as the deviation of an actual code transition point from its ideal position on a straight line drawn
+between the end points of the transfer function.
+Figure 4.10: 3-D plot of m
+V as the function of PMOS and NMOS widths [28].
+60
+The other design method is the Systematic Size Variation (SSV) technique; this method
+chooses m
+V from a reduced range of 3-D plots. The diagonal line drawn in Figure 4.10 is the
+optimal line for this method, which maintains a systematic increasing and/or decreasing order of
+transistor sizes. Keeping the transistor size in increasing and/or decreasing order significantly
+improves the linearity of the A/D converter in relationship to CMOS process variation. This
+method also significantly reduces the number of simulations needed for transistor size selection.
+The simulation is needed only along the diagonal-line region rather than on the full 3-D surface.
+Figure 4.11 shows an example of the diagonal-line and reduced-simulation area around the line.
+This method selects the best-fit logic threshold satisfying the following two restrictions:
+ Each comparator should keep the order of increasing or decreasing width.
+ The differences between two adjacent comparators should be at least .
+W
+
+The developed, customized program first arranges all possible combinations of the
+Figure 4.11: Systematic Size Variation (SSV) technique for TIQ comparator design [28].
+61
+PMOS and NMOS transistor sizes along the diagonal line. Then, the program selects the optimal
+combinations by referencing the m
+V values of each combination resulting from the SPICE
+simulation. The simulation results show that the SSV technique has initially larger linearity errors
+(DNL and INL) than the RSV technique [34]. Given process variation, the SSV technique can
+reduce DNL and INL errors by 82.6% and 32.5% on average, respectively, compared to the RSV
+technique [34]. Thus, only the SSV technique has been considered for designing the TIQ
+comparator. A summary of the design automation step for the TIQ comparator with the SSV
+technique is (Figure 4.12):
+Step 1: Set initial parameters such as minimum m
+V , maximum m
+V , and .
+W
+
+Step 2: Generate possible combinations of PMOS and NMOS transistor sizes along the
+diagonal line.
+Step 3: Find m
+V of all possible inverters generated in Step 2.
+Step 4: Select a set of 2 1
+n
+ best-fit inverters that satisfies the two restrictions set out
+above.
+Step 5: Layout a set of 2 1
+n
+ TIQ comparators selected in Step 4.
+An n-bit TIQ comparator design required considerable time to manually design all 2 1
+n
+
+different-sized TIQ comparators. Using the design automation methods, either RSV or SSV could
+save this design time. However, Step 2 is still time-consuming due to simulating all possible
+combinations of the PMOS and NMOS. For example, according to [15], about 4 hours were
+necessary to find 6-bit TIQ comparators using the SSV technique. In this research, 5 Sun-Blade
+2000 machines performed 28,000 simulations to find 63 TIQ comparators. Notably, the total
+design time increases exponentially if the bit resolution of a TIQ ADC increases.
+62
+4.2.5 Analytical Model-based Design Methodology
+Analytical TIQ Modeling
+Since the logic threshold ( m
+V ) is a voltage in which the output voltage is equal to the
+input voltage ( out in m
+V V V
+  ), mathematical expression of m
+V can be derived from drain current
+equations for both PMOS and NMOS devices. For simplicity, only a TIQ model using a Level 1
+SPICE model has been derived here. More sophisticated models, such as BSIM3 (Berkeley Short-
+Figure 4.12: Flow chart of the design automation algorithm with the SSV technique.
+63
+channel IGFET Model) or BSIM4 [35], may improve the model’s accuracy. Also, the assumption
+is that the channel lengths of PMOS and NMOS devices are long enough; i.e. velocity saturation
+does not occur. The drain currents of NMOS and PMOS, , ,
+,
+DS NMOS DS NMOS
+I I , respectively, can be
+denoted;
+   
+2
+, 1
+2
+N N
+DS NMOS m THN N DS
+N
+k W
+I V V V
+L
+
+ 
+  
+ 
+ 
+; (4.5)
+   
+2
+, 1
+2
+P P
+DS PMOS DD m THP P DS
+P
+k W
+I V V V V
+L
+
+ 
+   
+ 
+ 
+, (4.6)
+where, N N OXN
+k C
+
+  ( N
+ is the electron mobility and OXN
+C is the gate capacitance of NMOS),
+and P P OXP
+k C
+
+  ( P
+ is the hole mobility and OXP
+C is the gate capacitance of PMOS), When
+the channel lengths of both transistors are the same, the logic threshold, m
+V , yields;
+ 
+1
+P P
+THN DD THP
+N N
+m
+P P
+N N
+k W
+V V V
+k W
+V
+k W
+k W
+  
+
+
+, (4.7)
+where, 2 2
+P DD N DD
+V V
+ 
+    .
+From equation (4.3), the dependency of m
+V on the width ratio of the PMOS and NMOS (
+/
+P N
+W W ) can be derived. Figure 4.13 shows the comparison of m
+V dependencies on the width
+ratios in analytical models and the SSV technique. A standard 0.35 m CMOS technology is used
+for this graph, and the SSV technique generates a set of 63 TIQ comparators for a 6-bit TIQ
+ADC. The m
+V curve from the BSIM3 model shows excellent accuracy with an average mismatch
+rate of less than 1 %. In detail, Table 4.4 shows the width ratio comparison between the analytical
+model (BSIM3) and the SSV technique. The maximum error is about 5%, and the average error is
+64
+Table 4.4 Width Ratio Comparisons with Selected m
+V Values
+Figure 4.13: Accuracy comparison of various TIQ comparator models.
+0.1 1 10
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0
+1.1
+1.2 SSV
+Level1 Model
+BSIM3 Model
+Logic
+Threshold
+(V)
+Width Ratio (WP
+/ WN
+)
+65
+less than 1%. Therefore, a set of width ratios, according to ideal m
+V values, can be found using
+the TIQ model rather than the SSV technique.
+The following subsection outlines the design methodology using the analytical model,
+and a summary of the design flow for comparison with the methodology of the SSV appears in
+Figure 4.14.
+Figure 4.14: Analytical model based design methodology flow chart.
+66
+Transistor Width Selection
+As an alternate form of equation (4.3), a set of widths can be expressed as a function of
+m
+V . This alternate set is:
+   
+   
+2
+2
+2
+2
+N m THN N DD
+P
+N P DD m THP P DD
+k V V V
+W
+W k V V V V
+
+
+ 
+ 
+
+ 
+  
+ 
+. (4.8)
+Equation (4.8) provides the width ratio for each ideal m
+V . The width ratios of the TIQ
+comparators can be expressed as:
+( )
+( ), ( 1~ 2 1)
+( )
+n
+P
+N
+W i
+R i i
+W i
+  
+,
+(4.9)
+where, ( )
+P
+W i is the th
+i PMOS width; ( )
+N
+W i is the th
+i NMOS width, and ( )
+R i is the th
+i width ratio
+for the n-bit TIQ comparator set.
+However, determining the widths of NMOs and PMOS devices cannot occur using only
+Equation (4.9) without another relationship between P
+W and N
+W . The relationship arises from
+the projection of the line on the x–y plane, as illustrated in Figure 4.15. The line expression, in a
+general form is:
+P N
+a W b W c
+    , (4.10)
+where a, b, and c are constants. In the case of process variation shifting the NMOS and PMOS at
+the same ratio is desirable. Thus, the a and b can be set to 1. Therefore, (4.10) can be denoted as:
+( ) ( )
+P N
+W W k
+i i
+  . (4.11)
+From Equations (4.9) and (4.11), ( )
+P
+W i and ( )
+N
+W i can be derived as:
+67
+( )
+( )
+1 ( )
+P
+k R i
+W i
+R i
+
+
+
+, (4.12)
+and
+( )
+1 ( )
+N
+k
+W i
+R i
+
+
+. (4.13)
+Figure 4.15: 3-D plot of m
+V and the width size relationship of the NMOS and the PMOS of the
+TIQ comparator analytical model.
+68
+Transistor Length Selection
+The optimal transistor width derives from considering the relationship between transistor
+length and data conversion speed. In general, a longer transistor length in a TIQ comparator is
+desirable for achieving higher gain, i.e., higher sensitivity (Figure 4.16), less noise, and less
+process variation sensitivity. However, a longer transistor yields a slower data comparison speed
+in the TIQ comparator. Figure 4.17 shows the ring oscillator speed, which consists of 101 CMOS
+inverters with various transistor lengths. If the conversion target speed is 1 GSPS, a maximum
+transistor length of 1.08 m is allowed in a 0.18 m standard CMOS technology because the TIQ
+comparator consists of two cascaded CMOS inverters. Consequently, the optimal value of the
+transistor length in a TIQ comparator can be set to 1 m for a 1-GSPS TIQ ADC.
+Figure 4.16: CMOS inverter gain SPICE simulation results according to various transistor
+lengths.
+0.0 0.4 0.8 1.2 1.6 2.0
+20
+24
+28
+32
+36
+40
+44
+48
+Voltage
+Gain
+(dB)
+Length (um)
+69
+Tuning Algorithm
+After determining the set of TIQ comparator sizes, using the analytical model described
+earlier, the design is verified by SPICE simulation and examined to see if the characteristics meet
+the required specifications. If they do not, the design must be modified. Although tuning the
+widths of NMOS and PMOS using SSV technique is possible, reducing simulation time and
+errors is undesirable. Thus, this research proposes an auto-tuning algorithm.
+Since the diagonal line on the 3-D surface in Figure 4.15 covers the widest range of m
+V
+than any other lines, the assumption is that the optimal set of P
+W and N
+W , which have the
+Figure 4.17: Ring oscillator speed simulation results according to various transistor lengths.
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 1.6
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+< 1.08 um
+0.5 ns
+Ring
+Oscillator
+Speed
+(ns)
+Length (um)
+70
+closest m
+V values to the ideal m
+V , populate along the line, while still satisfying equations (4.11).
+To illustrate the concept of auto-tuning algorithm, two cases illustrated in Figure 4.18 are:
+ If _
+m sim
+V > _
+m ideal
+V , decrease P
+W and increase N
+W .
+ If _
+m sim
+V < _
+m ideal
+V , increase P
+W and decrease N
+W .
+From the SPICE simulation with this tuning algorithm, the optimal sets of P
+W and N
+W
+are determined with a 1% error tolerance. The simulation results appear in Chapter 5, and
+Appendix A contains the C++ code for this algorithm.
+Figure 4.18: Conceptual diagram of m
+V tuning methodology.
+71
+4.2.6 Encoder
+After the TIQ comparators produce a set of thermometer codes (TC), the TC is converted
+to a binary code (BC). The TC-to-BC encoding often requires two steps. The first step converts
+the TC that consists of the output of a set of N comparators to a one-out-of-N code, using XOR
+logic. The logic circuit is a “0-1 generator” in this research. The next step converts the code to BC,
+and the conversion logic depends on the encoding algorithms. The most common TC-to-BC
+encoder is the ROM-type encoder proposed in [36, 37]; however, the ROM encoder has often
+been cited as a speed bottleneck for the entire A/D converter system. Thus, the fat tree encoder
+eliminating the bottleneck in a flash ADC as proposed by Lee et al. [38], is the choice for the
+current study.
+The fat tree encoder acquired its name because the logic structure looks like a tree [38].
+The a0 to a7 are leaf nodes of the tree and the binary outputs are root nodes, as shown in Figure
+ 
+a7  0  0  0  0  0  0  0  1 
+a6  0  0  0  0  0  0  1  0 
+a5  0  0  0  0  0  1  0  0 
+a4  0  0  0  0  1  0  0  0 
+a3  0  0  0  1  0  0  0  0 
+a2  0  0  1  0  0  0  0  0 
+a1  0  1  0  0  0  0  0  0 
+a0  1  0  0  0  0  0  0  0 
+d(2:0) 000  001  010  011  100  101  110  111 
+d2 = a4+a5+a6+a7 = b1 + b2 = c0
+d1 = a2+a3+a6+a7 = b0 + b2
+d0 = a1+a3+a5+a7
+Figure 4.19: Example of a 3-bit fat tree encoder.
+72
+4.19. The output, obtained by a logical ORing of the leaf nodes, is according to the Truth Table
+shown on the right in Figure 4.19. Since the fat tree encoder’s number of logic gates is less than
+that of the ROM encoder, the fat tree encoder has a higher encoding speed and lower power
+consumption as compared with the ROM encoder.
+The n-bit fat tree encoder easily expands to a (n+1) bit encoder by stacking two n-bit
+encoders, and performing more ORing at the root nodes of the tree. This study built an 8-bit fat
+tree encoder using 32 numbers of a 3-bit fat tree encoder.
+4.3 SRAM
+4.3.1 Required Specifications
+The SRAM included in the design reduces the data transfer rates from the A/D converter
+to the imaging host processor. Since the sampling rate of the A/D converter is 250 MS/s and the
+bit resolution is 8 bits, the digitized image data transfers to the host at the data bandwidth of 2
+GBPS. However, such high-speed data transfer is not only difficult to be achieved using less
+expensive circuit boards, but it also generates substantial digital noise (jitters) that negatively
+affects the analog signal integrity of the receiver. On-chip memory devices overcome these
+problems. Therefore, a SRAM that can write data with a data bandwidth of 2 GBPS and that can
+read data with a lower data transfer rate of 250 Mbps became elements of the design for the
+CMOS transceiver chip.
+Another key specification of the on-chip memory is capacity. The calculation of the
+memory capacity uses the relationship:
+Travel
+sample sample
+t D c
+Capacity
+t t
+  , (4.16)
+73
+where tTravel is the total (i.e. two way) travel time of the ultrasound wave in the medium; tsample is
+the sampling interval of the A/D converter; D is the total distance that the ultrasound wave travels
+in the medium, and c is the speed of the ultrasound wave in the medium. Estimates indicate that a
+3-Kbyte buffer length is necessary for tsample = 4ns, D=18 mm, and c=1500 m/s.
+4.3.2 Design Details
+Figure 4.20 shows the functional block diagram of a 3-Kbyte SRAM. This SRAM
+operates in two modes: data write mode and data read mode with auto pre-charge. Once the data
+write or data read operation begins, the operation continues until the all 3-Kbyte cells are written
+to or read by the address counter, which automatically, incrementally sweeps all 3,000 addresses.
+The design of high-capacity, high-speed, on-chip memory uses several state-of-the art
+memory technologies: multi-bank architecture and a shared bit-line sense amplifier (BLSA). At
+Figure 4.20: Functional block diagram of the 3-Kbyte SRAM.
+74
+first, the two-bank architecture is adopted. In a large-scale memory array, one word line (WL)
+connects to substantially large number of memory cells (typically, up to 1,024 cells are connected.
+And 128 memory cells are connected in this research). These memory cells work as a load for the
+word line driver, and as a result, limit the transition time of the word line, as shown in Figure 4.21
+(the circled area). Therefore, some time must elapse between two consecutive word line
+transitions in order to avoid a data crash; if data emerges before the previous word line turns OFF,
+the data may be lost by the data crash. However, such a delay time is not desirable in high speed
+Figure 4.21: Two bank architecture (upper) and its timing diagram (bottom).
+75
+memory devices. An effective way to solve this problem is by using multi-bank architecture. As
+shown in Figure 4.21, WL0 and WL1 locate in different memory banks, with totally isolated data
+I/Os. Before WL0 turns OFF, WL1 begins turning ON in order to prepare either the data read or
+data write operations.
+Another state-of-the art technology used in this research is the shared BLSA scheme. One
+BLSA is shared by 8 columns of memory cells; i.e., a total of 768 memory cells are shared on a
+BLSA since one column has 96 memory cells. The shared BLSA scheme achieves a significant
+reduction in the chip area because BLSA requires a larger area than a memory cell and can be
+shared by other memory cells. The created optimal architecture increases the number of shared
+memory cells in a BLSA, and requires great care in the design of the data output buffers and I/O
+lines.
+The SRAM design adopts asymmetric operating speed between data write and data read.
+As described earlier, the data write speed is faster than 125 MHz; however, a 125-MHz data
+readout speed could be a disaster in some inexpensive applications. Thus, this research uses two
+different speed clocks for data write and date read. First, a 250 MHz clock is used for data
+conversion and storing. Next, a 50 MHz clock is for the system I/O. Thus, the data readout uses
+the 50 MHz clock. The main I/O clock offers an inexpensive and easy way of transferring data.
+The asymmetric operating speed between data write and data read occurs by a 2:1
+multiplexer. During write operations, the SRAM shares the A/D converter clock, and the SRAM
+uses the main I/O clock during the readout operation. Figure 4.22(a) presents the SPICE
+simulation results of the SRAM clock transition. Until 700 ns, the SRAM writes the data in the
+memory cells in the two sub-banks with a 250 MHz clock speed as shown in Figure 4.22(b) and
+(c). Clearly, the sub-banks operate one after the other as mentioned earlier. At 700 ns, the read
+command comes in, and the clock changes from 250 to 50 MHz. Thus, the read operation
+performs with the 50 MHz clock.
+76
+4.4 Transmitter
+Focusing Delays
+The major function of the transmitter is to excite the transducer elements and to focus
+and/or steer the ultrasound beam. Focusing and steering the ultrasonic beam requires time delays
+to compensate for the acoustic signal path length differences from the transducer array to the
+target of interest. The expression for the focused signal f(t) is:
+/ 2
+/ 2
+( ) ( )
+n N
+n n
+n N
+f t X t 
+
+
+ 
+ , (4.17)
+where N is the total number of transducer elements; Xn is the received reflected signal, and n is
+channel delay time for the nth
+transducer element [25]. The delay time, n, derives from Figure
+4.23. Assuming a signal, transmitted with the steering angle  by exciting a transducer located at
+Figure 4.22: Simulation results of the SRAM clock modulation: (a) Clock transition, (b) Memory
+cell data in Bank 0, (c) Memory cell data in Bank 1.
+77
+0, a reflected signal propagates back from the focal point to the transducer array. When the
+distance from the focal point to the transducer center is R, the distance from the focal point to the
+nth
+transducer has the expression: L + R, as shown in Figure 4.23. By denoting the space between
+adjacent channels, d, expression of the channel delays is:
+2
+( ) 1 2 sin 1
+n n
+R nd nd
+R
+c R R
+  
+ 
+   
+ 
+   
+ 
+   
+ 
+     , (4.18)
+where c is the average propagation speed of ultrasound in the medium [39].
+Figure 4.24 shows the calculated channel delays from equation (4.14) for a 16  1 array
+configuration by MATLAB simulation. In this example, the focal length R was 7 mm, the sound
+speed, c, was 1500 m/s, the steering angle, , was 0, and the element pitch was 15 µm. The result
+is approximately, 20 ps of minimum delay and 160 ps of maximum delay difference for the
+transmit beamforming. An example of the MATLAB programming code used for this simulation
+appears in Appendix B.
+Figure 4.23: Dynamic focusing and steering delay [34].
+78
+The design of the programmable delays provides different delay times for each of the
+elements in a 16  1 array configuration. Implementing such a fine delay step in a CMOS
+technology is challenging in beamformer design. The most recently designed digital clock delay
+schemes use PLLs (Phase Locked Loops) [25], [39]. However, a 20-ps delay step would need at
+least a 10-GHz clock using these methods. This is not feasible in a 0.35 µm standard CMOS
+technology. Therefore, the current research adopts an analog delay chain method. Figure 4.25 is a
+block diagram of the proposed delay chain. One of five delay buffers can be selected for coarse
+delay time setting with a 100-ps step. Then four different loading options can be added for the 20-
+ps fine delay step. Every channel on the chip has the channel delay setting circuit; therefore, a
+host computer can control delays between pulses by for transmit beam focusing. Although
+Figure 4.24: Transmit channel delays simulated with MATLAB programming.
+79
+required channel delays are 20 to 160 ps as shown in Figure 4.24, the channel delays are
+programmable from 20 to 480 ps in order to compensate for the initial channel delay mismatch.
+Each transducer is excited by its own driver circuit. The design of the strength of the
+transmit driver allows for sufficient energy to fully actuate a transducer element at 50 MHz. The
+assumed capacitance of one transducer element is 240 pF. Thus, the transmitter has to be capable
+of providing 2.61  10-9
+Joule for a single transmit pulse (sine wave), i.e., 131 mW at 50 MHz. To
+satisfy such a specification, the design uses a tri-state buffer as the transmitter with a pull-up
+PMOS transistor (width: 640 µm / length: 0.5 µm) and a pull-down NMOS transistor (width: 320
+µm / length: 0.5 µm). Notably, the tri-state buffers disconnect during the receive operation, and
+so, the tri-state buffer and the preamplifier switch consist of the internal T/R switch.
+Figure 4.25: Circuit schematic of programmable delays for beam focusing.
+80
+First Generation Transmit Pulse Generator
+As discussed in Chapter 3, the frequency of the transmit pulses have preset capability.
+This function uses an on-chip frequency divider and a multiplexer as illustrated in Figure 4.26.
+The frequency divider has input of the external clock and divides the frequency of the clock by
+0.5, 1, 2, 4, and 8. Since the I/O frequency of the system is 50 MHz, the outputs of the frequency
+divider are 100, 50, 25, 12.5, and 6.25 MHz. One of the selected outputs generates transmit pulses
+using a multiplexer. Since the outputs of the frequency divider are continuous clocks, while the
+single cycle transmit pulse is only allowable in this system, single pulse generation circuit is
+designed using S-R latches (SRL) and D Flip-flops (DFFs) (See Figure 4.26). When the first
+rising pulse comes to the SRL from the MUX, the Q of the SRL goes to HIGH. Then, since the Q
+of the DFF subsequently becomes HIGH, the SRL resets; i.e., the Q of the SRL turns to LOW
+when the S of the SRL becomes LOW. If the R of the SRL remains HIGH, the Q of the SRL does
+not change regardless of the S.
+In addition, the unipolar signal in Figure 4.25 is used for choosing pulse shape. When the
+unipolar is HIGH, the S of the bottom SRL remains LOW, thus, the pulse generator produces
+Figure 4.26: First generation transmit pulse generator circuit schematic.
+81
+only pull-up signals; consequently, the shape of transmit pulse is rectangular rather than bipolar.
+Second Generation Transmit Pulse Generator
+Although several options in the first generation chip allow presetting the frequency of the
+transmit pulses, the need remains for changing the transmit pulse frequency and burst length for
+other applications such as range finders and Doppler imaging. Thus, modifications in the transmit
+pulse generator circuit in the second generation chip satisfy these needs.
+A simplified circuit diagram of the second generation transmit pulse generator is appears
+in Figure 4.27. The clock comes from the FPGA chip that can set the frequency of the clock and
+determines the frequency of the transmit pulses. The BL signal, connected to the EN (enable) of
+the TFFs (T Flip-flops), sets the burst length of the transmit pulses. The TFF on the top of the
+figure is used for the pull-up signal for the pulse driver, while the bottom TFF in the figure is
+used for the pull-down signal. The DFF delays the enable signal by the half cycle of a clock pulse,
+Figure 4.27: Second generation transmit pulse generator circuit schematic.
+82
+thus the phase of the output of the bottom TFF lags 180 from the output of the top TFF. Since
+both TFFs are synchronized with the same clock, overlapping between the “pu” and the “pd” can
+be minimized. In addition, the unipolar signal is added for choosing pulse shape. When the
+unipolar signal is HIGH, the TFF on the bottom of the figure remains disabled, so the pulse
+generator sends a unipolar pulse. HSPICE simulation results from this circuit appear in Chapter 5.
+Chapter 5
+Simulation and Results
+5.1 Transceiver Chip Characterization
+5.1.1 First-generation Chip
+Chip Overview
+The transceiver chip was fabricated using a TSMC 0.35 µm, double-poly, four-metal
+process through MOSIS. The die size was 10 mm2
+. Figure 5.1 shows the mounting of the
+transceiver chip and the thin film transducers on test board, and Figure 5.2 is a photograph of the
+Figure 5.1: Test board for the transceiver chip with the thin film transducer array.
+84
+first-generation transceiver chip. The average power consumption in the receive mode, consisting
+of 16 receiver channels, A/D converter, and SRAM, operating simultaneously, is approximately
+270 mW with a 3.3 V power supply. The shared A/D converter and SRAM architecture, which
+reduced the number of A/D converters and SRAMs from 16 to 1, resulted in smaller chip area and
+lower power consumption. Table 5.1 summarizes the specifications for the transceiver chip.
+Receiver
+A SPICE transient simulation result of the preamplifier appears in Figure 5.3. As
+described in Section 4.1.2, when the “/Enable” signal is HIGH, the outputs are connected to the
+VCC+ by M6 and M7, as in Figure 4.3. On the other hand, when “/Enable” becomes LOW, the
+bias voltage generation circuit begins to charge node N0 (in Figure 4.3) to 0.75 V. This process
+Figure 5.2: Microphotograph of the CMOS transceiver chip.
+85
+often takes substantially longer time compared to the switching operations; the simulation results
+in Figure 5.3 shows that the time from the /Enable transition to amplification start is 1.3 µs,
+which is short enough for the amplifier to be stable before receiving the reflected signals.
+Figure 5.4 presents the measured gain of the preamplifier as a function of frequency. The
+results show that the bandwidth of the preamplifier is higher than 75 MHz in all gain ranges. The
+linear gain control ranges of the VGA are measured to 23 dB with control voltage of 0.1 to 1.0 V,
+as shown in Figure 5.5. This result implies that the VGA can compensate the reflected signal
+attenuation for the penetration depth of 4.5 mm rather than 9 mm required in this system.
+However, this limitation can be overcome by cascading two VGAs. The cascaded VGAs provide
+Table 5.1: CMOS Transceiver Chip Specifications Summary
+Preamp
+Gain [dB] 5 ~ 20
+Bandwidth [MHz] > 75
+Dynamic Range [dB] 90
+Noise Figure [dB] 10
+VGA
+Gain Range [dB] 46
+Bandwidth [MHz] 250
+Noise Figure [dB] 6~12
+ADC
+Resolution [bit] 6
+Conversion Speed [MHz] 250
+Memory
+Capacity [byte] 3K
+Data Bandwidth [Mbps] 250
+Transmitter
+Pulse Frequency [MHz] 1 ~ 100
+Delay Step [ps] 20
+Total Chip
+Noise Figure [dB] 9.7 ~ 14.5
+Power Consumption 270 mW
+Process Technology TSMC 0.35 µm
+Chip Size 10 mm2
+86
+a variable gain range of 46 dB, thus satisfy the design requirement discussed in the previous
+section.
+The analog control voltages were generated using an FPGA chip (Spartan III, Xilinx, Inc.)
+and a 10-bit D/A converter (AD 9760, Analog Devices, Inc.) as described in Chapter 4. The
+saturation of the gain above control voltages of 0.9 V illustrated in Figure 5.5 is thought to have
+been caused by mismatches of transistors M11~M13 (Figure 4.4). This resulted in a higher gate
+bias of M5 and a lower gate bias of M6 as the control voltage (Vcp - Vcn) increased than was
+occurred with the SPICE simulation. Consequently, M6 entered the linear mode earlier than
+expected, and the gain failed to follow the linear-in-dB increase.
+Figure 5.3: Transient simulation result of switching operation of the preamplifier.
+87
+Figure 5.5: Measured result of the variable gain range over control voltage.
+Figure 5.4: Preamplifier frequency characteristics at different gains.
+88
+TIQ ADC
+Figure 5.6 shows the measured linearity errors of the TIQ A/D converter. The DNLs are
+measured from the difference between the ideal analog value of 1-LSB and the actual analog
+value which creates the increment of one bit of the digital outputs. Notably, the binary output
+converts to decimal numbers on the x-axis, as in Figure 5.6. Calculation of the INLs occurs by the
+cumulative summation of the DNLs. The measured DNL error is  0.5 LSB, and the INL error is
+ 1.0 LSB. These results guarantee that the A/D converter’s digital outputs (6 bits) increase with
+an increasing input signal, without missing codes. These initial results show the A/D converter’s
+bit resolution has a limit of 6 bits rather than the design target resolution of 8 bits. It implies that
+the system with the TIQ ADC is not capable of providing clinically-useful images of tissue with
+required resolution, i.e., 50 dB. However, the system is still useful for other applications that need
+less precise image resolution, such as A-mode and C-mode imaging. Also, the system can be used
+for Doppler imaging if frequency modulators is designed in the system [26].
+Figure 5.6: A/D converter measured INL and DNL characteristics.
+89
+One possible reason for the bit resolution decrease is power supply noise. As seen from
+equation (4.7), the TIQ ADC is inherently susceptible to power supply noise. The derivative of
+equation (4.7) produces the noise dependency of m
+V with the assumption that 
+ 
+2 2
+P DD N DD
+V V
+ 
+   is constant ( 1):
+1
+P P
+N N
+m
+DD P P
+N N
+k W
+k W
+V
+V k W
+k W
+
+
+
+
+. (5.1)
+In the TIQ ADC design in this research, the calculation for kp and kn is 5.0810-5
+and 1.4210-4
+,
+respectively. And, the width ratio, WP / WN, was 0.167 ~ 32.677. Therefore, m DD
+V V
+  varies
+0.201 to 0.699 with the average of 0.449.
+Figure 5.7 shows the noise observed at the VCC+ node, which is the internal power
+supply node depicted in Figures 4.3 and 4.4. Notably, voltage regulation IC chipsets shown in
+Figure 5.1 isolate the VCC+ node from the external power supply, so the reasonable assumption
+Figure 5.7: Transceiver chip measured power supply noise.
+90
+is that the electronics of the test PCB are the only source of noise. Figure 5.7 indicates maximum
+15 mVpp noise amplitude.
+Consequently, the estimation of maximum m
+V variance due to power supply noise is by
+multiplication of m DD
+V V
+  , with the maximum power supply noise value. 10.5 mV of m
+V
+variance was calculated, which corresponds to 1.79 LSB when the bit resolution and the aperture
+of the A/D converter are 8 bits and 1.5 V, respectively (i.e., 1 LSB = 5.86 mV). And 10.5 mV of
+m
+V is also corresponds to 0.44 LSB when the bit resolution decreases to 6 bits (1 LSB = 23.8 mV).
+From this analysis, apparently, the power supply noise is the one of major factors limiting the bit
+resolution of TIQ ADCs.
+Further improvement for accurate and fast TIQ ADC design was undertaken in the
+second generation chip, discussed in the next sub-section. Also, Chapter 6 discusses, as future
+research, design improvement of a TIQ ADC for noise characteristics.
+SRAM
+The digitized signals from the A/D converter store in the SRAM at the speed of 2 GBPS.
+Figure 5.8 presents the measured outputs of the SRAM, which transfers at the rate of 400 MBPS,
+as described earlier. This figure only considers 6-bit outputs because the A/D converter shows
+linear characteristics with 6 bits. An 85-kHz saw tooth wave was generated by a function
+generator and fed to the A/D converter. The analog signal was sampled at a speed of 250 MS/s,
+then, converted to digital signals. The SRAM stored the digital data at the same speed as the A/D
+converter’s sampling rate. The test results prove the functionality of the SRAM.
+91
+Transmitter
+Figure 5.9 illustrates the transmit pulses generated by the transceiver chip. The transmit
+pulses can be delayed from 20 to 500 ps, as described in the previous section. A high-precision
+digital oscilloscope (Agilent Infinium) measured the delays of the programmable delay chain in
+the chip. Notably, the signals shown in the figure are calibrated to compensate for initial channel
+delays due to signal line mismatches on the printed circuit board. The frequency of the pulses can
+be varied from 1 to 100 MHz; 5-MHz pulses are shown in the figure.
+Figure 5.8: Measured outputs of the SRAM with the transfer rate of 400 MBPS.
+92
+(a)
+(b)
+Figure 5.9: Measured delay of transmit channels: (a) Transmit pulses with various channel delays
+(50 MHz), (b) Magnified view of the box in blank on (a).
+93
+5.1.2 Second-generation Chip
+Chip Overview
+The second-generation transceiver chip’s design is through a 0.35 µm CMOS technology.
+As a prototype, 1 channel of the transmit and receive beamformer integrates with a TIQ ADC,
+and 3 Kbytes of on-chip SRAM using a 0.5 mm  3.5 mm die size. The number of channels is
+likely to be expanded to 16 channels with an analog multiplexer if the chip size increases.
+The gain of the preamplifier includes a basic design with adjustable gains of 8 to 20 dB,
+but 35 dB of gain is also possible by user selection. This higher gain amplifier is added is due to
+the measured echo signal’s amplitude of the thin film transducer being around 10 mVpp, which is
+not sufficient to create ultrasound images with a gain of 20 dB—the maximum gain of the first-
+generation preamplifier. Also, the second-generation chip increases the VGA gain range to 35 dB
+at a bandwidth of 100 MHz, as described in Chapter 4. An 8-bit TIQ ADC with a sampling
+frequency of 250 MHz uses the new design methodology introduced in Chapter 4. The other
+design specifications are the same as the first-generation chip.
+Receiver
+In the second-generation preamplifier, an added 35-dB-gain preamplifier compliments
+the low-signal amplitude of the thin film transducer. Figure 5.10 shows the gain–frequency
+characteristics of the 35-dB-gain preamplifier. The bandwidth of the preamplifier is higher than
+100 MHz in all gain ranges. In addition, the second-generation design achieves a variable gain
+range of 35 dB. As shown in Figure 5.11, the linear control voltages change from -1.3 ~ 1.3 V,
+which increases the gain by 12 dB compared to the first-generation design. This was achieved by
+94
+Figure 5.10: Frequency characteristics of the 35-dB gain preamplifier.
+Figure 5.11: Second generation VGA variable gain range according to control voltage variations.
+95
+utilizing the negative polarity of the control voltages. Similar to the previous design, to
+accomplish the linear gain range in the decibel scale, pseudo-exponential analog control voltages
+were generated using an FPGA chip and a 10-bit D/A converter after fabrication.
+Anti-aliasing Filter
+As described in Chapter 4, a 5th
+-order Bessel lowpass filter was designed. FilterPro
+(Texas Instrument, Inc., TX) software determined the design topology and circuit parameters.
+Figure 5.12 is a captured view of the FilterPro user interface and shows an example of a Bessel
+lowpass filter. This design sets the cut-off frequency to 100 MHz, and selects Sallen-Key circuit
+topology. For VLSI implementation, the capacitors employed MIM capacitor technology, and the
+Figure 5.12: Captured view of FilterPro software (Texas Instruments, Inc, TX) - an example of
+Bessel lowpass filter design.
+96
+resistors design used a Poly-1 resistive layer. Figure 5.13 shows the HSPICE simulation results of
+the flat gain characteristics from the designed lowpass filter. The gain was flat until reaching the
+cut-off frequency without showing any overshooting or rising.
+TIQ ADC
+To verify the TIQ ADC design methodology proposed in Chapter 4, an 8-bit TIQ ADC
+design, using analytical model-based design methodology (called new TIQ ADC) employed a
+0.35 m standard CMOS technology, and was comparable with an 8-bit TIQ ADC using the SSV
+technology (called SSV ADC). A Sun Blade 2000 (Sun Microsystems, Inc., CA) machine
+performed the SPICE simulation.
+Since the proposed method iteratively finds the appropriate transistor size sets, the simulation
+time is dependent on the number of iterations, i.e. the accuracy of the initial input values. Thus,
+Figure 5.13: 5th
+-order Bessel lowpass filter gain-frequency SPICE simulation results.
+97
+the comparison of simulation times of the new method and the SSV technique may not be
+accurate. However, the results remain meaningful for comparing the design times and the
+accuracy of the two methods.
+The proposed method needs only 8 hours to find a set of 255 comparators with the auto-
+tuning software described in Chapter 4, while the SSV method takes 16 hours to complete the
+design of an 8-bit TIQ comparator set. Table 5.2 presents the total simulation time to find a set of
+255 different TIQ comparators and the static linearity of both ADCs. This result proves that the
+proposed methodology has a strong advantage in terms of comparator design time and linearity
+accuracy. Figure 5.14 also shows SPICE transient simulation results from the new ADC that
+generates digital codes for 0.5 ~ 1.1 V analog inputs without any missing data and with a 1-GHz
+sampling rate. The signals in the figure are sorted by a significant bit order: The top signal is
+MSB (Most Significant Bit), and the bottom signal is LSB.
+The DNL simulation results with process variations from the new TIQ ADC appear in
+Figure 5.15. The DNL of the new TIQ ADC in the typical case (TT in Figure 5.15) is  0.012
+LSB, which is superior to that of SSV ADC ( 0.026 LSB) [15]. Further, the DNL errors in other
+process variation cases (FF: fast NMOS and fast PMOS; FS: fast NMOS and slow PMOS; SF:
+slow NMOS and fast PMOS; SS: slow NMOS and slow PMOS) were simulated, and appear to be
+Table 5.2: Simulation Time and Linearity Comparisons of New ADC and SSV ADC
+New ADC SSV ADC
+Simulation Time 4 hours 16 hours
+DNL 0.015 LSB 0.026 LSB
+INL 0.014 LSB 0.025 LSB
+98
+less than  0.03 LSB, which is sufficient to satisfy the industry standard specification of  0.5
+LSB errors.
+Figure 5.16 presents INL simulation results of the new TIQ ADC with process variations.
+The INL of the new TIQ ADC, in the typical case, was  0.011 LSB, better than that of the SSV
+ADC ( 0.025 LSB) [15]. And the INL errors in the other cases were, an estimated, less than 
+0.76 LSB, which is within the industry standard specification boundary ( 1 LSB errors).
+Figure 5.14: 8-bit TIQ ADC SPICE transient simulation result.
+99
+Figure 5.16: Simulated INL errors with process variations (the corner model).
+Figure 5.15: Simulated DNL errors with process variations (the corner model).
+100
+Transmitter
+Figure 5.17 displays the simulation results of the second-generation transmit pulse
+generator. As described in Section 4.4, the external clock, gated by BL, generates the transmit
+pulses. The “pu” and “pd” signals in Figure 5.17 are the inputs of the pulse driver illustrated in
+Figure 4.31. Notably, “pd” lagged behind “pu” by 180. These signals pull the transmit pulse
+drivers up and down; consequently, the transmit pulses, named “pulse,” in Figure 5.17, were
+generated. The frequency of the transmit pulses can be preset by changing the frequency of the
+clock using the FPGA chip, and the burst length of the transmit pulses are adjustable by
+controlling the pulse width of the BL.
+Figure 5.17: Transmit pulse waveform in the second-generation transmit pulse generator.
+101
+5.2 Ultrasound Transducer Characterization
+5.2.1 Thin Film Ultrasound Transducer Array
+T-bar-shaped ultrasound PZT (PbZr0.52Ti0.48O3) transducer arrays have been developed
+and documented in [18]. PZT layers can be thin, and allow reduction of the required voltages for
+exciting the transducer. Therefore, directly driving the transducers with a low voltage CMOS
+signals is possible. The thin film transducers’ fabrication employed a Sol-gel and multilayer dry-
+etching process. Ti/Pt bottom electrodes were deposited on a silicon wafer on which a 300 nm
+thermal silicon-dioxide film was preformed. The total of 0.5 ~ 0.6 µm PZT films was deposited
+using the Sol-gel process over the bottom electrode; then, Pt top electrodes were formed. Finally,
+the T-bar shape transducer array structure was patterned by dry-etching. . Figure 5.18 shows an
+SEM (Scanning Electron Microscopy) image of the transducer array. The dimensions of a T-bar
+structure are 30 µm in width and 300 µm in length. Details of the thin film transducers have
+Figure 5.18: Thin film transducer array SEM image.
+102
+reference in [18].
+The target, center frequency of the thin film transducer is 30 ~ 70 MHz, and that of the
+particular transducer array in these experiments is 35 MHz, with a bandwidth of 66% at 6-dB
+points, as shown in Figure 5.19. The impedance and phase characteristics of the transducers
+appear in Figure 5.20. An impedance peak of 78 Ω occurred at around 33 MHz, which also
+supports the frequency spectrum results of Figure 5.19. Meanwhile, the capacitance of the 30 µm-
+wide transducer element is 145.1 pF, which indicates a dielectric constant of ~1000 at 1 kHz (as
+high as 1500) along with a low dielectric loss (<4%). Thus, the transducer appears to be a pure
+capacitance load for the preamplifier in the transceiver chip. Also, a reasonable supposition is that
+the preamplifier senses voltage variations of the transducer rather than current (i.e., power)
+variations as described in Section 3.2.
+Figure 5.19: Thin film transducer array frequency spectrum.
+103
+5.2.2 Composite High Frequency Ultrasound Transducer Array
+The 20-element high frequency ultrasound (HFUS) transducer array developed by
+Cochran et al., University of Dundee, appears in Figure 5.21. Fabrication of the HFUS transducer
+array used micro-molded piezocomposite material and thin film Cr-Au electrodes in a mask-
+based process, packaged in epoxy with external connectors. The array dimensions are 50-μm
+pitch with 30-μm-wide electrodes. The center frequency of the HFUS transducer is about 35
+MHz with a bandwidth of 74% at 6-dB points, as presented in Figure 5.22. A detailed description
+and specifications of the HFUS transducer array appears in [41].
+Figure 5.20: Thin film transducer array impedance and phase characteristics as functions of
+frequency.
+104
+Figure 5.22: HFUS transducer frequency spectrum.
+Figure 5.21: HFUS transducer array microphotograph.
+105
+5.3 Pulse Echo Experiments
+Several ultrasound signal acquisition experiments, such as pitch mode, catch mode, and
+pitch–catch mode, were conducted using the thin film transducer and the HFUS transducers with
+the transceiver chip. The test results demonstrate all the basic concepts and designs of the
+proposed integrated ultrasound imaging system and show that further optimization efforts are
+viable and worthwhile.
+5.3.1 Pitch Mode Experiments
+Pitch mode experiments, performed with the test setup in Figure 5.23 placed test device
+at the bottom of a water tank and a commercial, bulk transducer (M316-SU, Olympus, Japan)
+located above the test transducers provided ultrasound signal reception within 6-mm for the thin
+Figure 5.23: Pitch mode experimental setup.
+106
+film transducer and within 5-mm for the HFUS transducer. The transceiver chip was used for the
+transmitter, and transmitted a single-cycle 12.5 MHz 3.3V bipolar pulse, as shown in the right
+bottom graph in Figure 5.23. The bulk transducer, connected with an external pulser/receiver
+(5900PR, Olympus, Japan) received the signal. The receiver gain was 20 dB. Three elements in
+the thin film transducer array and 8 elements in the HFUS transducer array were excited in these
+experiments.
+Figure 5.24 shows the received signal in pitch mode as transmitted by the thin film
+transducer. Clear received signals with a maximum amplitude of 2 mV appear with excellent time
+resolution at separations of around 4 µs (6 mm assuming sound speed of 1500 m/s in water).
+However, mixed-signal noise from the transceiver chip was visible in the tests. Also, Figure 5.25
+presents the pitch mode signal transmitted by the HFUS transducer. Better reception signals with
+a peak-to-peak amplitude of 8 mV were visible at the 5 mm distance.
+Figure 5.24: Thin film transducer array pitch mode test results.
+107
+5.3.2 Catch Mode Experiments
+The test setup in Figure 5.26 accomplished catch mode experiments. Similar to the pitch
+mode experiments, the test device and a commercial bulk transducer were placed in the water
+tank. The test device became the receiver, and the bulk transducer became the transmitter. The
+external pulser sent a single pulse with amplitude of 100 V and a frequency of 20 MHz to the
+bulk transducer, and the test transducers received the ultrasound signals. Then the transceiver
+chip amplified the signals. The distance between the test transducer and the bulk transducers was
+6 mm for both test transducers.
+Figure 5.25: HFUS transducer array pitch mode test results.
+108
+Figure 5.27 displays the signals received by the thin film transducer, then amplified by
+the transceiver chip. The peak of around 4 µs was the directly received signal from the thin film
+transducer, and the third peak of around 12 µs was the second bounced signal between the two
+transducers. The initial peaks at the time between 0 to 2 µs and the second peak around 8 µs
+appear to be coupling signals with the bulk transducer output. Figure 5.28 shows the amplified
+catch mode signals using the HFUS transducer with the same test setup with the thin film
+transducer. The larger amplitude of the catch mode signal, 65 mVpp, was acquired from the HFUS
+transducer.
+Figure 5.26: Catch mode experimental setup.
+109
+Figure 5.28: HFUS transducer array catch mode test results.
+Figure 5.27: Thin film transducer array catch mode test results.
+110
+5.3.3 Pitch–catch Mode Experiments
+The pitch–catch experiments did not use the commercial bulk transducer, as illustrated in
+Figure 5.29. The stainless steel target object was located at a distance of about 3 mm away from
+the transducers in the water tank. A 50-MHz transmit pulse sent to the thin film transducers from
+the transceiver chip via an external pulser allowed an increase of acoustic energy. The adjacent
+transducer in the same array received the reflected signals; then the transceiver chip amplified the
+received signals. The pitch–catch mode experiments using the HFUS transducers were conducted
+in the same manner.
+The gain of the preamplifier is set to 14 dB, and the gain of the VGA increased from 0 dB
+to 20 dB using varied control signals (0.15 to 1.0V), generated by the FPGA chip and the DAC
+chipset mentioned in Chapter 4. Figure 5.30 shows the amplified and time-compensated
+Figure 5.29: Pitch–Catch mode experimental setup.
+111
+ultrasound signals obtained from the VGA output using the thin film transducer. The high
+amplitude signal before 2.5 µs in the figure is from crosstalk with a transmit pulse. The first peak
+of the detected ultrasound wave appeared around 3.5 µs, which is the first echo signal; the second
+peaks, around 7 µs, underwent multiple bounces. The second peaks, amplified by the VGA,
+compensated for the attenuation in the water. Unlike the ultrasound signal in Figure 5.27, the
+amplitude of the second peaks is similar to that of the first peak due to the increasing gain over
+the time.
+Also, Figure 5.31 shows the amplified ultrasound signal using the HFUS transducer. The
+target distance is 6 mm for this experiment. Clear and large pitch–catch mode signals appear at
+the time of 8 µs after the transmit pulse had fired. This result is consistent with the previous
+results showing the HFUS transducer’s larger amplitude of the signal and better signal-to-noise
+ratios.
+Figure 5.30: Thin film transducer array pitch–catch mode test results.
+112
+Figure 5.31: HFUS transducer array pitch–catch mode test results.
+Chapter 6
+Future Work
+6.1 Differential Input Quantization ADC
+This research found that mixed-signal noise is the most important contributing factor to
+performance degradation in the transceiver chip. The major mixed-signal noise sources are the
+external IC chips such as the crystal oscillator and FPGA chip; however, the internal circuitry
+such as clock buffers, digital control circuits, and SRAM also contribute to heightened mixed-
+signal noise. As described in Chapters 5, the TIQ ADC is noise-susceptible, thus it performs with
+6-bit resolution due to mixed-signal noise despite the design target’s being 8-bit resolution.
+Therefore, measures for reducing mixed-signal noise or for designing noise-immunized circuits
+are viable routes of inquiry for future work.
+The most common remedy for the mixed-signal noise problem is differential signaling.
+Designs for the preamplifier and the VGA can easily incorporate differential inputs. However, the
+TIQ ADC in this research has a single-ended input, as depicted in Figure 4.9. Thus, the TIQ ADC
+needs redesign to include differential signaling.
+A differential input quantization (DIQ) comparator, as shown in Figure 6.1(a), has the
+same circuit topology with typical differential amplifier which are known for high common mode
+rejection ratio (CMRR) and power supply rejection ratio (PSRR)4
+. Thus, DIQ comparators have
+superior noise immunity than the TIQ comparators.
+4
+CMRR is the tendency of the amplifier to reject input signals common to both input leads. PSRR is the ratio of
+power supply noise and output voltage changes due to the noise [30].
+114
+(a)
+(b)
+Figure 6.1: DIQ (Differential Input Quantization) comparator: (a) DIQ comparator circuit
+schematic, (b) DIQ comparator voltage transfer curve.
+115
+The operational principle of DIQ comparator is similar to that of TIQ comparators. As
+the input voltage (Vin1 – Vin2) of the DIQ comparator varies, the output (Vout) traces the voltage
+transfer curve (VTC), which is the same as that of the inverter, as shown in Figure 6.1 (b). Thus,
+the logic threshold, m
+V , is a particular input voltage that makes the output voltage of the DIQ
+comparator zero. If the circuit is symmetric, m
+V should also be zero; however, transistors M1 and
+M2 in Figure 6.1(a) have different sizes, the VTC of the DIQ comparator changes, and
+consequently, m
+V is non-zero. Figure 6.2 shows different VTCs and m
+V values as the widths of
+M1 and M2 change. The width of M1 varies from 4 to 44 µm, while that of M2 varies from 44 to
+4 µm. The simulation for these possible configurations used HSPICE.
+To verify the simulation results requires considering the mathematical relationship
+Figure 6.2: DIQ comparator m
+V values as functions of input voltages.
+116
+between m
+V and the input voltages of the DIQ comparator. Assuming M1 and M2 are saturated; 
+= 0, and the voltage at node P is Vp, then:
+1 1
+2 2
+in GS P
+in GS P
+V V V
+V V V
+ 
+ 
+.
+(6.1)
+Therefore,
+1 2 1 2
+in in GS GS
+V V V V
+   . (6.2)
+Using the Level 1 SPICE model,
+ 
+2
+2
+D
+GS TH
+N
+I
+V V
+k W
+L
+ 
+ 
+ 
+ 
+, (6.3)
+and, therefore,
+2 D
+GS TH
+N
+I L
+V V
+k W
+  . (6.4)
+Since the drain currents of M1 and M2 are the same when the output voltage is zero, then, from
+(6.2) and (6.4):
+1 2
+1 2
+2 2
+D D
+in in
+N N
+I L I L
+V V
+k W k W
+   . (6.5)
+Finally, since 2 D SS
+I I
+ , and 1 2
+in in m
+V V V
+  , then:
+1 2
+1 1
+SS
+m
+N
+I L
+V
+k W W
+ 
+ 
+ 
+ 
+ 
+. (6.6)
+Notably, from equation (6.6), m
+V in the DIQ comparator is independent of the power
+supply, unlike the TIQ comparator (see Section 4.2). In addition, finding all 2 1
+n
+ different-sized
+DIQ comparators from the equation is possible in a similar manner with the proposed analytical
+117
+TIQ comparator design methodology in Chapter 4. A worthwhile avenue of future research would
+be developing the automated design tools for the DIQ comparator.
+6.2 Ultrasound Imaging System Simulation Model
+Although this study considered the required design specifications for the transceiver chip
+by a theoretical approach, architectural-level simulations, which have not been performed in this
+research, are necessary for verification. The reason for not performing the architectural level
+simulation is that the simulators for full-custom designed circuits and for PZT transducers are
+different and the software environment for simulating the entire system has not yet been
+established.
+One possible solution is the ultrasound imaging system simulation model (UISSM) as
+shown in Figure 6.3. This method, inspired by a radar receiver simulation tool proposed in [42],
+uses a Field II ultrasound transducer simulator, an ADS (Advanced Design System, Agilent, Inc.,
+CA), and MATLAB. Field II can calculate pulsed ultrasound fields and the emitted and pulse-
+echo fields for both the pulsed and continuous wave cases for a large number of different
+transducers [43]. The program operates in a MATLAB environment. In addition, ADS is widely
+used for simulating the RF circuit performances, such as transient analysis, frequency
+characteristics, and noise characteristics. It can also interface with MATLAB.
+In UISSM, modeling all the circuit components of the transceiver chip, such as
+preamplifiers, VGAs, and A/D converters, used ADS. In addition, the digital imaging signal
+processor can be designed using MATLAB. Thus, not only the analog signal processing such as
+amplification and filtering can be simulated, but mixed signal noise analysis with the entire
+ultrasound imaging system can also be performed. Also, transmit / receive functioning between
+118
+ADS and Field II can be simulated and monitored in MATLAB simulation environment since
+both ADS and Field II interface with MATLAB.
+Expected advantages of UISSM are:
+(1) Verifying and optimizing design specifications: The transmitter specifications, such
+as driver strength, pulse shape, pulse repetition rate, burst length of transmit pulses,
+and channel delays, can be optimized. Notably, sometimes determining the design
+specifications by theoretical and analytical method is insufficient. In addition,
+impedance matching between transducers and the receiver of the transceiver chip can
+be simulated and optimized with UISSM.
+(2) Easy to estimate and modify system performance and specifications: For example, in
+the case of modifying the transducer specifications, such as center frequency,
+transducer aperture, array information, and echo-signal strength, determining what
+specifications in the transceiver chip should be changed to maintain required system
+performance is possible.
+(3) Mixed-signal noise analysis: estimating noise figures of the transceiver chip by
+simulation before silicon processing is important because the transducer outputs are
+Figure 6.3: Ultrasound imaging system simulation model (UISSM) block diagram.
+Transmitter
+Transducers
+Memory ADC
+ADS
+Receiver
+Tx Beamformer
+Field II
+Rx Beamformer
+Image Creation
+Display
+MATLAB
+Transmitter
+Transducers
+Memory ADC
+ADS
+Receiver
+Tx Beamformer
+Field II
+Rx Beamformer
+Image Creation
+Display
+MATLAB
+119
+usually extremely weak and noise susceptible. Meanwhile, the ADS simulator is
+known for its accuracy and convenience for noise analysis in RF circuits. Thus, both
+the design of the amplifiers which have higher mixed-signal noise immunity and the
+effort to reduce mixed signal noise in the system become easier with the aid of
+UISSM.
+6.3 Integration of DBNS DSP
+The proposed transceiver front-end electronics do not have a digital imaging processor,
+but have analog signal processing circuits including amplifiers and an A/D converter. However,
+to make the proposed system a portable ultrasound imaging system, integration of a digital signal
+processor (DSP) in the system is necessary. Due to the recent developments of DSP, VLSI, and
+FPGA technologies, DSPs can be incorporated on a FPGA chip or a single chip with other analog
+or digital circuitry. Therefore, a future research suggestion is integrating a DSP with the
+transceiver chip.
+Meanwhile, the slow speed of multiplication operations, the most frequently-performed
+functions of imaging signal processing in conventional DSPs, limit the entire system’s
+operational speed in a real-time imaging system [46]. It is because multiplications in binary
+number systems are performed less effectively. Thus, number systems are often chosen to reduce
+the complexity of arithmetic circuits, and consequently, allow DSPs’ to achieve improved
+performance [47]. Logarithmic number systems (LNS) [44] and double-base number systems
+(DBNS) [45] have been developed and proven their effectiveness in designing the multiplier in
+FIR (Finite Impulse Response) filters [45]. Therefore, further research is necessary to develop a
+DSP with LNS or DBNS (called LNS DSP in this research) rather than with conventional binary
+number systems.
+120
+However, a new type of encoder in a TIQ ADC is required to build a LNS DSP with the
+TIQ ADC. Since most A/D converters, including the TIQ ADC in the current research, only
+support the binary number system, binary codes need to be converted to LNS or DBNS codes if
+they are to be used in the DSP. This conversion requires additional circuitry that lowers the
+performance of the entire system in terms of chip size, power consumption, and operational speed.
+Therefore, this research proposes the double-base log encoder (DBL encoder) that provides
+digital outputs in LNS. The DBL encoder converts analog inputs into DBNS codes without binary
+conversion in flash ADC, and consequently, enables to integrate a TIQ ADC with a LNS DSP on
+a single chip. Figure 6.4 shows the system diagram of a future system with a LNS DSP which has
+a TIQ ADC and a LNS DSP integrated in the same chip to boost digital signal processing speed.
+Double-base Log (DBL) Encoder
+This subsection introduces a new encoder for a flash type A/D converter, a DBL encoder,
+to encode analog inputs into 2-dimensional LNS (2DLNS) codes without binary conversion. This
+Figure 6.4: DSP system integrated with a flash ADC conceptual diagram.
+121
+configuration reduces the speed bottleneck of A/D converter-embedded DSP systems by directly
+outputting 2DLNS codes from the flash ADC. Thus, the design lowers circuit complexity by
+eliminating additional circuitry in DSPs for converting binary codes to DBNS or 2DLNS codes.
+The LNS is useful for representing real numbers in computer and digital hardware. An
+arbitrary number, X, represented by the logarithmic conversion of X, denoted by x has the form
+(6.7) in LNS:
+ 
+ 
+, logb
+X s x X
+  , (6.7)
+where s is a bit denoting the sign of X (s = 0 if X > 0, and s = 1 if X < 0).
+The LNS can be expanded using the two bases of 2 and 3, called 2DLNS, as the
+modification for the DBNS [44]. In 2DLNS, a non-negative number y can be expressed with
+finite precision as:
+2 3
+b t
+y  , (6.8)
+where b and t are arbitrarily signed integers. The current research refers to b as the binary
+exponent and t as the ternary exponent. The precision of 2DLNS depends on the boundary of the
+exponents and the representing range of given numbers. As shown in Figure 6.5, the precision of
+2DLNS in the range of 0.5 ~ 1.2 is 0.00757 (the maximum difference / 2) when the boundary of
+the exponents is 27
+, i.e. [-64, 63]. The boundary of the exponents can be determined according to
+error tolerance. Figure 6.6 shows the maximum errors of the y corresponding to real numbers of
+0.5 ~ 1.2 as functions of the boundary of the exponents. The maximum errors decrease
+exponentially as the boundary expands. Thus, the boundary can be determined to be as small as
+possible while satisfying the required error tolerance in the system.
+Since the LNS shows the effectiveness of floating point arithmetic, the expectation is that
+complexity can be further reduced in the FIR filter design shown in Figure 6.4 if filter inputs,
+122
+Figure 6.6: Maximum errors: Functions of the boundary of b and t values.
+Figure 6.5: Precision of 2D LNS for a real number range of 0.5 to 1.2.
+123
+generated by the A/D converter, are also real numbers. Recent CMOS A/D converters use
+voltages of 0 ~ 2.5 V as analog inputs. These voltage ranges can be easily represented by 2DLNS
+with small error rates as described earlier.
+The set of b and t values can be found at the point that the difference between an analog
+input and a represented real number, y, is minimized. An example of a DBL encoder for a 6 bit
+A/D converter appears in Table 6.1. In this particular case, the boundary of the exponents is set to
+29
+, i.e. [-256, 255], considering saturation by maximum errors. Therefore, the outputs of the
+encoder can be designed with 9 binary bits per base, of which, 1 bit is for the sign and the other 8
+bits are for the number representations with 0.15 LSB error tolerance. The errors, on average, are
+only 0.053 LSB, which may be negligible considering the required linearity specification of ± 0.5
+LSB in practical designs.
+The design and realization of the DBL encoder in a 0.18 µm CMOS technology uses
+ROM encoder architecture. The binary and ternary exponent values shown in Table 6.1 are
+converted to binary numbers which can be easily realized in VLSI circuits using an LUT (Look-
+Up Table) and a ROM array. Figure 6.7 illustrates a schematic diagram of the DBL encoder using
+an NMOS ROM array. The word lines in the array are connected to 0-1 generator; the bit lines
+are connected to sense amplifiers (S/A), and are pre-charged to the power supply voltage (VDD)
+level. Since the 0-1 generator produces only one trigger signal at the same time, only one word
+line in the ROM array is activated. Thus, the NMOSs in the raw are ON, and consequently, the bit
+lines transition to ground, i.e., logic “LOW.” If bit lines do not have NMOS in the raw, the bit
+lines keep the charges, i.e., logic “HIGH.” Thus, a TC is encoded to a DBL code with the binary
+and ternary exponents corresponding to the digital code in Table 6.1. Table 6.2 shows the
+performance comparison with DBL, binary ROM, and fat tree encoders. The simulations use
+HSPICE. Although the layout size of DBL encoder is about two times larger than the fat tree
+encoder, the former’s performance is faster and consumes less power than the fat tree encoder.
+124
+Table 6.1: DBL Encoder Error Precision
+Analog 
+Inputs 
+Binary 
+Number 
+Binary 
+Exponent 
+Ternary 
+Exponent 
+Calculated 
+Value  Error (%) 
+550.0 1 -134 84 549.8 0.05
+558.1 2 -237 149 558.4 0.06
+566.1 3 -256 161 566.0 0.02
+574.2 4 210 -133 574.3 0.03
+582.3 5 191 -121 582.2 0.01
+590.3 6 172 -109 590.1 0.03
+598.4 7 153 -97 598.2 0.04
+606.5 8 134 -85 606.3 0.02
+614.5 9 115 -73 614.6 0.01
+622.6 10 96 -61 623.0 0.07
+630.6 11 161 -102 630.2 0.07
+638.7 12 142 -90 638.8 0.01
+646.8 13 207 -131 646.1 0.10
+654.8 14 188 -119 655.0 0.02
+662.9 15 253 -160 662.5 0.06
+671.0 16 -251 158 670.9 0.02
+679.0 17 -186 117 678.6 0.07
+687.1 18 -121 76 686.4 0.10
+695.2 19 -140 88 695.8 0.09
+703.2 20 -75 47 703.8 0.08
+711.3 21 -10 6 711.9 0.09
+719.4 22 139 -88 718.6 0.10
+727.4 23 204 -129 726.9 0.07
+735.5 24 -216 136 734.5 0.13
+743.5 25 -151 95 743.0 0.07
+751.6 26 -86 54 751.6 0.01
+759.7 27 -21 13 760.2 0.07
+767.7 28 128 -81 767.4 0.05
+775.8 29 193 -122 776.2 0.06
+783.9 30 -227 143 784.4 0.07
+791.9 31 -78 49 791.8 0.02
+800.0 32 71 -45 799.2 0.10
+(continued)
+125
+(continued)
+Table 6.1: DBL Encoder Error Precision
+Analog 
+Inputs 
+Binary 
+Number 
+Binary 
+Exponent 
+Ternary 
+Exponent 
+Calculated 
+Value  Error (%) 
+808.1 33 136 -86 808.4 0.05
+816.1 34 -200 126 815.2 0.11
+824.2 35 -135 85 824.6 0.05
+832.3 36 14 -9 832.4 0.02
+840.3 37 163 -103 840.2 0.01
+848.4 38 -173 109 848.3 0.01
+856.5 39 -108 68 857.0 0.07
+864.5 40 41 -26 865.1 0.07
+872.6 41 190 -120 873.3 0.08
+880.6 42 -146 92 880.6 0.01
+888.7 43 3 -2 888.9 0.02
+896.8 44 152 -96 897.3 0.05
+904.8 45 -184 116 904.8 0.01
+912.9 46 -35 22 913.3 0.04
+921.0 47 114 -72 921.9 0.10
+929.0 48 -222 140 929.6 0.07
+937.1 49 11 -7 936.4 0.07
+945.2 50 160 -101 945.3 0.01
+953.2 51 -176 111 953.2 0.00
+961.3 52 -27 17 962.2 0.09
+969.4 53 206 -130 969.2 0.02
+977.4 54 -130 82 977.3 0.01
+985.5 55 103 -65 985.5 0.00
+993.5 56 252 -159 993.8 0.02
+1001.6 57 -84 53 1002.1 0.05
+1009.7 58 149 -94 1009.4 0.03
+1017.7 59 -187 118 1017.9 0.01
+1025.8 60 46 -29 1025.3 0.05
+1033.9 61 195 -123 1034.0 0.01
+1041.9 62 -57 36 1041.5 0.04
+1050.0 63 176 -111 1049.1 0.09
+Average
+Error (%)
+0.05
+126
+Table 6.2: Performance Comparisons of Different Types of Encoders
+DBL Binary ROM Fat tree
+Technology 0.18 µm 0.18 µm 0.18 µm
+Number of Bits 6 6 6
+Max. Speed (GHz) 3.3 1.11 2.00
+Avg. Power (mW) 11.12 32.64 22.70
+Max Power (mW) 17.21 54.41 38.65
+Area (µm2
+) 16100 9400 7400
+Figure 6.7: DBL encoder circuit using ROM array.
+Chapter 7
+Conclusions
+A fully integrated custom-designed CMOS transceiver chip for a high-frequency
+ultrasonic imaging system has been designed. A 16 channel ultrasound transceiver, integrated in a
+CMOS transceiver chip along with an A/D converter and a 3 Kbyte SRAM on the chip produce a
+novel, shared architecture.
+The shared ADC architecture is an effective solution for developing a portable, ultra-
+compact ultrasound imaging system. The use of the CMOS transceiver chip greatly decreases
+system size and power consumption, compared to conventional DBF ultrasound imaging systems
+currently marketed. Moreover, the proposed system does not require expensive coaxial cables
+because it integrates closed-coupled front-end electronics with the transducers without using any
+expensive coaxial cables. Thus, reasonably, some cost reductions will accrue.
+In addition, a novel design methodology for the TIQ ADC has been proposed in order to
+reduce design time and to improve linearity errors compared with the conventional SSV
+technique. The design includes an analytical TIQ model that enables finding a set of width ratios
+for TIQ comparators within seconds. With an optimal transistor size selection technique, a
+complete set of 2 1
+n
+ TIQ comparators can be found without considerable simulation work.
+While improving DNL and INL performance by approximately 55%, the proposed method
+reduces by 75% the total simulation time required to find a TIQ comparator set, as compared to
+the SSV technique.
+The two versions of transceiver chips have been designed using a 0.35 µm standard
+CMOS process. The first chip size is 10 mm2
+, and its average power consumption in receive
+mode is approximately 270 mW with a 3.3 V power supply. The goal of a transmit delay of 20
+128
+pico-seconds is achieved. The achieved preamplifier gain is 20 dB with a bandwidth of 75 MHz;
+23 dB of variable gain of VGA has a bandwidth of 250 MHz. The bit resolution of the A/D
+converter is 6 bit at a 250 MHz sampling rate.
+A second-generation transceiver chip has been also designed in a 0.35 µm CMOS
+technology on a 0.5 mm  3.5 mm die size. The gain of the preamplifier increased to 55 dB and
+the design accomplished improvements for the VGA and A.D converter, based on the first-
+generation chip test results. Additionally, a 5th
+-order Bessel lowpass filter adds an anti-aliasing
+filter for the TIQ ADC. Last, Modification of the transmit pulse generator simplifies changing the
+frequency and burst length of transmit pulses.
+Ultrasound signal acquisition tests were performed with the first generation transceiver
+chip and two types of transducer arrays: thin film ultrasound transducer array and high frequency
+composite ultrasound array. The transceiver chip successfully excited the transducer arrays to
+generate ultrasound waves. Also the test results show that the chip received the reflected signals
+from the ultrasound transducers. The results demonstrate the feasibility of the concept of the
+proposed system.
+129
+References
+[1] Charles J. Pavlin and F. Stuart Foster, “ Ultrasound Biomicroscopy of the Eye,” Springer-
+Verlag New York, Inc., 1994.
+[2] F.S. Foster, C.J. Pavlin, J.A. Harasiewicz, D. A. Christopher, and D.H. Turnbull, “Advances
+in Ultrasound Biomicroscopy,” Ultrasound Med. Biol., vol. 26, no.1, pp.1-27, Jan. 2000.
+[3] P.A. Payne, J.V. Hatfield, A.D. Armitage, Q.X. Chen, P.J. Hicks, and N. Scales, “Integrated
+Ultrasound Transducers,” Proc. IEEE Ultrasonic Symposium, vol. 3, Nov. 1994, pp. 1523-
+1526.
+[4] R. Reeder and C. Petersen, “The AD9271-A Revolutionary Solution for Portable Ultrasound,”
+Analog Dialogue 41-07, July 2007. Available: http://www.analog.com.
+[5] William C. Black, Jr. and Doughlas N. Stephens, “CMOS Chip for Invasive Ultrasound
+Imaging,” IEEE Journal of Solid-State Circuits, Vol. 29, No. 11, Nov. 1994.
+[6] I.O. Wygant, D.T. Yeh, X. Zhuang, S. Vaithilingam, A. Nikoozadeh, O. Oralkan, A. Sanli
+Ergun, G.G. Yaralioglu, B.T. Khuri-Yakub, “Integrated Ultrasound Imaging Systems Based
+on Capacitive Micromachined Ultrasonic Transducer Arrays,” 2005 IEEE Sensors, Oct. 2005.
+[7] Jonny Johansson, Martin Gustafsson, Jerker Delsing, “Ultra-low Power Transmit/Receive
+ASIC for Battery Operated Ultrasound Measurement Systems,” Sensors and Acturators A:
+Physical, Vol. 125, Jan. 2006, pp. 317-328.
+[8] Michael I. Fuller, Edward V. Brush , Matthew D. C. Eames, Travis N. Blalock, John A.
+Hossack, and William F. Walker, “The Sonic Window: Second Generation Prototype of Low-
+cost, Fully-integrated, Pocket-sized Medical Ultrasound Device,” 2005 IEEE Ultrasonics
+Symposium, Sept. 2005, pp.273-276.
+130
+[9] Chang-hong Hu, Qifa Zhou, and K. Kirk Shung, “Design and Implementation of High
+Frequency Ultrasound Pulsed-Wave Doppler Using FPGA,” IEEE Transactions on
+Ultrasonics , Feroelectrics , and Frequency Control , vol. 55, no. 9, Sep. 2008.
+[10] Simon Triger, John Wallace, Jean-Francois Saillant, Sandy Cochran, David R.S. Cumming,
+“MOSAIC: An Integrated Ultrasonic 2D Array System,” 2007 IEEE Ultrasonics Symposium,
+New York, NY, Oct. 2007.
+[11] Rob Reeder and Corey Petersen, “The AD9271-A Revolutionalry Solution for Portable
+Ultrasound,” [Online]. Available: http://www.analog.com/library/analog Dialogue/archives/
+41-07/ultrasound.pdf.
+[12] B. Murmann, "ADC Performance Survey 1997-2008," [Online]. Available: http://
+www.stanford.edu/~murmann/adcsurvey.html.
+[13] J. Yoo, D. Lee, K. Choi, and A. Tangle, “Future-Ready Ultrafast 8-Bit CMOS ADC for
+System-On-Chip Applications,” 14th Annual IEEE International ASIC/SOC Conference, Sep.
+2001, pp. 455-459.
+[14] J. Yoo, K. Choi, and D. Lee, “Comparator Generation and Selection for Highly Linear
+CMOS Flash Analog-to-Digital Converter,” Journal of Analog Integrated Circuits and Signal
+Processing, Vol. 35, pp.179-187, 2003.
+[15] Insoo Kim, Jincheol Yoo, Jong-Soo Kim, and Kyusun Choi, “Highly Efficient Comparator
+Design Automation for TIQ Flash A/D Converter,” IEICE Trans. on Fundamentals, Vol.
+E91-A, No. 12, pp. 3415-3422, Dec. 2008.
+[16] B. Murmann, “A/D Converter Trends: Power Dissipation, Scaling and Digitally Assisted
+Architectures,” IEEE 2008 Custom Integrated Circuits Conference (CICC), San Jose, CA,
+Sep. 21-24, 2008, pp.105-112.
+[17] Hiroki Morirnura, Satoshi Shigernatsu, and Shinsuke Konaka, “A Shared-Bitline SRAM
+Cell Architecture for 1-V Ultra Low-Power Word-Bit Configurable Macrocells,” Proceedings
+131
+of the 1999 International Symposium on Low Power Electronics and Design, San Diego, CA,
+August 16-17, 1999.
+[18] I.G. Mina, H. Kim, I. Kim, S.K. Park, K. Choi, T.N. Jackson, R.L. Tutwiler, and S. Trolier-
+McKinstry, “High Frequency Piezoelectric MEMS Ultrasound Transducers,” IEEE
+Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol.54, No.12, pp.2422-
+2430, Dec. 2007.
+[19] James F. Havlice and Jon C. Taenzer, “Medical Ultrasonic Imaging: An Overview of
+Principles and Intrumentation,” Proceedings of the IEEE, Vol. 67, No. 4, April 1979.
+[20] Thomas L. Szabo, “Wave Scattering and Imaging,” Diagnostic Ultrasound Imaging: Inside
+Out, MA: Elsevier Academic Press, 2004, pp. 213-242.
+[21] Mark E. Schafer and Peter A. Lewin, “The Influence of Front-End Hardware on Digital
+Ultrasonic Imaging,” IEEE transactions on Sonics and Ultrasouncs, Vol. SU-31, No.4, July
+1984.
+[22] Thomas L. Szabo, “Beamforming,” Diagnostic Ultrasound Imaging: Inside Out, MA:
+Elsevier Academic Press, 2004, pp. 137-170.
+[23] Wikipeia, “Huygens-Fresnel principle” [Online], Available: http://en.wikipedia.org/wiki/
+Huygens–Fresnel_principle.
+[24] M.Karaman, A.E.Kolağasıoğlu, A.Atalar, “A VLSI Receive Beamformer for Digital
+Ultrasound Imaging,” Proceedings of IEEE International Conference on Acoustic, Speech,
+Signal Procesing, pp. V.657-660, San Francisco, CA, USA, 1992.
+[25] A. Kassem, J. Wang, A. Khouas, M. Sawan, and M. Boukadoum, “Pipelined Sampled-Delay
+Focusing CMOS Implementation for Ultrasonic Digital Beamforming,” Proceedings of the
+3rd IEEE Workshop on SoC for Real-time Application, July 2003, pp.247-250.
+[26] Wells, P.N.T. “Advances in Ultrsound Techniques and Instrumentation, Churchill
+Livingstone, New York, 1993.
+132
+[27] A. C. Kak and K. A. Dines, "Signal processing of broad-band pulsed ultrasound:
+Measurement of attenuation of soft biological tissues," IEEE Trans. Biomed. Eng., vol. BME-
+25, pp. 321-344, July 1978.
+[28] R. Jacob Baker, “Data Converter SNR,” CMOS Mixed-Signal Circuit Design, vol. 2, NJ:
+IEEE Press, 2002, pp. 63-148.
+[29] H.B. Meire and P. Farrant, “Basic Ultrasound,” Chichester, England: John Wiley & Sons,
+1995.
+[30] B. Razavi, “Differential Amplifiers,” Design of Analog CMOS Integrated Circuits, NY:
+McGraw-Hill Companies, Inc. 2001, pp.100-132.
+[31] C. Wu, C. Liu, S. Liu, “A 2GHz CMOS Variable-Gain Amplifier with 50 dB Linear-in-
+Magnitude Controlled Gain Range for 10GBase-LX4 Ethernet,” ISSCC 2004, vol. 1, Feb.
+2004, pp.484-541.
+[32] C. E. Shannon, "Communication in the Presence of Noise," Proceedings Institute of Radio
+Engineers, vol. 37, no.1, pp. 10-21, Jan. 1949.
+[33] Texas Instruments Inc., “Active Filter Design Application” [Online], Available: http://
+focus.ti.com/docs/toolsw/folders/print/filterpro.html.
+[34] Daegyu Lee, Jincheol Yoo, and Kyusun Choi, “Design Method and Automation of
+Comparator Generation for Flash A/D Converter,” Proceedings of International Symposium
+on Quality Electronic Design, Mar. 2002, pp. 138- 142.
+[35] UC Berkeley Device Group, “BSIM” [Online], Available: http://www-device.eecs.
+berkeley.edu/~bsim3/.
+[36] S. Padoan, A. Boni, C. Morandi, and F. Venturi, “A Novel Coding Schemes for the ROM of
+Parallel ADCs,” IEEE International Symposium on Circuits and Systems, vol. 2, pp. 271-274,
+1998.
+133
+[37] M. Ito, T. Miki, S. Hosotani, T. Kumamoto, Y. Yamashita, M. Kijima, T. Okuda, and K.
+Okada, “A 10-bit 20-MS/s 3V Supply CMOS A/D Converter,” IEEE Journal of Solid-State
+Circuits, Vol. 29, No. 12, Dec. 1994, pp. 1531-1536.
+[38] D. Lee, J. Yoo, K. Choi, and J. Ghaznavi, “Fat Tree Encoder Design for Ultra-High Speed
+Flash A/D Converters, The 45th IEEE Midwest Symposium on Circuits and Systems, vol. 2,
+Aug. 2002, pp.II-87-90.
+[39] J.H. Kim, T.K. Song and S.B. Park, “Pipeline Sampled-Delay Focusing in Ultrasound
+Imaging Systems,” Journal of Ultrasonic Imaging, Vol. 9, pp. 75-91, 1987.
+[40] Dennis Bohn, “Unity Gain & Impedance Matching: Strange Bedfellows” [Online], Rane
+Corporation, Available: http://www.rane.com/pdf/ranenotes/Unity%20Gain%20and%20
+Impedance%20Matching.pdf.
+[41] Anne Bernassau, Tim Button, Kyusun Choi, Sandy Cochran, Christine Demore, Luis
+Garcia-Gancedo, David Hutson, Tom Jackson, Hyunsoo Kim, Insoo Kim, Carl Meggs, Susan
+Trolier-McKinstry, Richard Tutwiler, “Operation of a High Frequency Piezoelectric
+Ultrasound Array with an Application Specific Integrated Circuit,” IEEE IUS 2009, Rome,
+Italy, Sep. 2009.
+[42] Roland Standert, Bertil Grelsson, Sune Axelsson, Ann-Marie Andersson, Andreas ustafsson,
+Kalle Folkesson, and Henrk Ohlsson, “CAD model of a rader receiver, with Typical Radar
+scenarios, in Combined ADS and Matlab Environment,” GigaHertz 2003, Proceedings from
+the Seventh Symposium, November 4–5, 2003.
+[43] J.A. Jensen and N. B. Svendsen, “Calculation of Pressure Fields from Arbitrarily Shaped,
+Apodized, and Excited Ultrasound Transducers,” IEEE Transactions on Ultrasonics,
+Ferroelectrics, and Frequency Control, Vol. 39, Mar. 1992, pp. 262-267.
+[44] V.S. Dimitrov and G.A. Jullien, “A New Number Representation with Applications,” IEEE
+Circuits and Systems Magazine, 2nd Quarter, 2003, pp.6-23.
+134
+[45] V.S. Dimitrov, G.A. Jullien, and W.C. Miller, “Theory and Applications of the Double-Base
+Number System,” IEEE Trans. on Computers, vol. 48, no. 10, Octerber 1999, pp. 1098-1106.
+[46] E.E. Swartzlander, D.V. Chandra, H.T. Nagel, and S.A. Starks, “Sign/Logarithmic
+Arithmetic for FFT Implementation,” IEEE Transactions on Computers, vol. 32, 1983, pp.
+526-534.
+[47] H. Garner, “Number Systems and Arithmetic,” Advances in Computing, vol. 6, 1965, pp.
+131-194.
+Appendix A
+Auto-tuning Software C++ Code
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int numOfSimGrid, StepDist, MaxIter, ncnumber;
+float ErrComp, SCALE = 0.001, maskGrid;
+int *pL, *nL, *pW, *nW, numOfLines, numOfBit, i ;
+double *diffOfVm, *idl_Vm, *sel_Vm, *errRate, gapVm;
+void sizer (char* sizeFile, int option) ;
+void compareVm (char* VmList, int numOfVmList );
+void makeReport (char* outFileName, int numOfInv );
+void finalSizeReport(char* outFileName, int numOfInv );
+void ErrorNExit(int errCase);
+main(int argc, char* argv[]) {
+char junkStr[16], sysCmd[50], VmList[20] , iTemp[16], numString[6], inFileName[20],
+char outFileName[20], sizeFile[20], tempName[6], optionStr[2];
+float fTemp;
+int j, numOfInv, numOfVmList, numOfIter, tuneFlag, option, errCase;
+double beginningVm, endingVm;
+FILE *fp, *fp1, *fp_log;
+fp = fopen( argv[2], "r" );
+fscanf( fp, "%s %s", junkStr, inFileName );
+fscanf( fp, "%s %s", junkStr, outFileName );
+fscanf( fp, "%s %d", junkStr, &numOfBit );
+fscanf( fp, "%s %lf", junkStr, &beginningVm );
+fscanf( fp, "%s %lf", junkStr, &endingVm );
+136
+fscanf( fp, "%s %f", junkStr, &maskGrid );
+fscanf( fp, "%s %d", junkStr, &numOfSimGrid );
+fscanf( fp, "%s %d", junkStr, &StepDist );
+fscanf( fp, "%s %f", junkStr, &ErrComp );
+fscanf( fp, "%s %d", junkStr, &MaxIter );
+fclose( fp );
+// Option Setting
+strcpy(optionStr, argv[1]);
+if (strcmp(optionStr, "-c") == 0){
+option = 0;
+numOfVmList = numOfSimGrid;
+}
+else if (strcmp(optionStr, "-f") == 0){
+option = 1;
+numOfVmList = numOfSimGrid * numOfSimGrid;
+}
+//
+numOfInv = (int)pow(2, numOfBit)-1; /* + alpha for bigger group */
+gapVm = ((endingVm-beginningVm)/((double)(numOfInv-1.0)));
+// Memory Allocation
+idl_Vm = (double *) malloc( numOfInv*sizeof(double) );
+sel_Vm = (double *) malloc( numOfInv*sizeof(double) );
+diffOfVm = (double *) malloc( numOfInv*sizeof(double) );
+errRate = (double *) malloc( numOfInv*sizeof(double) );
+pL = (int *) malloc( numOfInv*sizeof(int) );
+pW = (int *) malloc( numOfInv*sizeof(int) );
+nL = (int *) malloc( numOfInv*sizeof(int) );
+nW = (int *) malloc( numOfInv*sizeof(int) );
+//
+strcpy( VmList, "VmList.rslt" );
+// Read-in Vm data from the input file //
+fp1 = fopen( inFileName, "r" );
+137
+fscanf( fp1, " %s %s %s %s %s %s %s %s %s %s %s %s\n", junkStr, junkStr, junkStr,
+junkStr, junkStr, junkStr, junkStr, junkStr, junkStr, junkStr, junkStr, junkStr );
+for (i=0; i< numOfInv; i++)
+fscanf(fp1, "%s %lf %lf %lf %lf %d %d %d %d\n", junkStr, &idl_Vm[i],
+&sel_Vm[i], &diffOfVm[i], &errRate[i], &pL[i], &pW[i], &nL[i], &nW[i] );
+fclose( fp1);
+//
+// Tuning Start
+numOfIter = 0;
+while (numOfIter < MaxIter) {
+ncnumber = 0;
+tuneFlag = 0;
+for (i=0; i< numOfInv; i++) {
+if(errRate[i] > ErrComp) {
+tuneFlag++ ;
+strcpy( sizeFile, "tuneSize" );
+sizer (sizeFile, option);
+// Call MakeVmTable
+strcpy( sysCmd, "makeVmTable" );
+strcat( sysCmd, " " );
+strcat( sysCmd, sizeFile );
+strcat( sysCmd, " param.in > maketable.lis" );
+system( sysCmd );
+//
+compareVm (VmList, numOfVmList);
+}
+}
+numOfIter++;
+// If there is no error rate which is smaller than error compliance,
+// the autotuning will be terminated, and make a size report.
+if (tuneFlag == 0) break;
+}
+//
+138
+makeReport (outFileName, numOfInv );
+//Memory Purge //
+free( pL );
+free( pW );
+free( nL );
+free( nW );
+free( idl_Vm );
+free( sel_Vm );
+free( diffOfVm );
+free( errRate );
+printf("Autotunning finished...!!!\n");
+printf("Check out '%s'\n", outFileName);
+}
+void sizer (char* sizeFile, int option) {
+int j, k, sizeStep;
+FILE *fp;
+//
+sizeStep = maskGrid / SCALE * StepDist ;
+// Coarse Tuning //
+if (option == 0) {
+if (idl_Vm[i] > sel_Vm[i] ) {
+fp = fopen( sizeFile, "w" );
+for (j=0; j < numOfSimGrid; j++) {
+fprintf(fp, "%d\t%d\t%d\t%d\t\n", pL[i], pW[i] + sizeStep * j, nL[i],
+nW[i] - sizeStep * j );
+}
+fclose( fp );
+}
+else if (idl_Vm[i] < sel_Vm[i] ) {
+fp = fopen( sizeFile, "w");
+for (j=0; j < numOfSimGrid; j++) {
+139
+fprintf(fp, "%d\t%d\t%d\t%d\t\n", pL[i], pW[i] - sizeStep * j, nL[i],
+nW[i] + sizeStep * j );
+}
+fclose( fp );
+}
+}
+// Fine Tuning
+else if (option == 1) {
+if (idl_Vm[i] > sel_Vm[i] ) {
+fp = fopen( sizeFile, "w" );
+for (j=0; j < numOfSimGrid; j++) {
+for (k=0; k < numOfSimGrid; k++)
+fprintf(fp, "%d\t%d\t%d\t%d\t\n", pL[i], pW[i] + sizeStep * k,
+nL[i], nW[i] - sizeStep * j );
+}
+fclose( fp );
+}
+else if (idl_Vm[i] < sel_Vm[i] ) {
+fp = fopen( sizeFile, "w");
+for (j=0; j < numOfSimGrid; j++) {
+for (k=0; k < numOfSimGrid; k++)
+fprintf(fp, "%d\t%d\t%d\t%d\t\n", pL[i], pW[i] - sizeStep * k,
+nL[i], nW[i] + sizeStep * j );
+}
+fclose( fp );
+}
+}
+}
+void compareVm (char* VmList, int numOfVmList)
+{
+int j, flag, errCase;
+float diff_Vm, fTemp;
+140
+char iTemp, junkStr[5];
+int pLength[numOfVmList], nLength[numOfVmList];
+int pWidth[numOfVmList], nWidth[numOfVmList] ;
+double Vm[numOfVmList];
+FILE *fp, *fp1;
+fp = fopen( VmList, "r");
+for( j=0; j<numOfVmList; j++ ) {
+fscanf( fp, "%d %d %d %d %lf", &pLength[j], &pWidth[j], &nLength[j], &nWidth[j],
+&Vm[j] );
+}
+fclose( fp );
+/************************ Compare start *************************/
+flag = 0;
+for( j=0; j<numOfVmList; j++ ) {
+diff_Vm = 1000 * sqrt ((Vm[j] - idl_Vm[i]) * (Vm[j] - idl_Vm[i]));
+if (diff_Vm < diffOfVm[i]) {
+flag = 1;
+sel_Vm[i] = Vm[j];
+diffOfVm[i] = diff_Vm;
+errRate[i] = (diff_Vm / (1000*gapVm))*(double)(100.0);
+pL[i] = pLength[j];
+pW[i] = pWidth[j];
+nL[i] = nLength[j];
+nW[i] = nWidth[j];
+}
+}
+if (flag == 0) {
+fp1 = fopen( "autotune.log", "a");
+fprintf(fp1, "Comparator #%d: A closer Vm value found was not found !!\n", i );
+fclose( fp1 );
+ncnumber ++;
+}
+141
+}
+void makeReport (char* outFileName, int numOfInv) {
+double maxError, sqrSum, avgdiff;
+int maxErrorInvNo, j;
+FILE *fp;
+sqrSum = 0.0;
+maxError = 0.0;
+maxErrorInvNo = 0;
+fp = fopen( outFileName, "w" );
+fprintf( fp, " No. Opt. Vm Selec. Vm Diff.(mV) Err. rate PL PW NL NW\n" );
+for( j=0; j < numOfInv; j++ ) {
+sqrSum += diffOfVm[j] ;
+if( errRate[j] > maxError ) {
+maxError = errRate[j];
+maxErrorInvNo = j+1;
+}
+fprintf( fp, "%3d: %10.8f %10.8f %10.8f %10.7f %d %d %d %d\n", j+1,idl_Vm[j],
+sel_Vm[j], diffOfVm[j], errRate[j], pL[j], pW[j],nL[j], nW[j] );
+}
+avgdiff = sqrSum / numOfInv ;
+fprintf( fp, "-----------------------------------------------------------------------------------\n" );
+fprintf( fp, "Avg. deviation = %11.9f, Max. deviation = %10.7f at Inverter No. %d\n",
+avgdiff, maxError, maxErrorInvNo );
+fclose( fp );
+}
+Appendix B
+MATLAB Programming Code for Channel Delay Calculation
+clear;
+close all;
+pack;
+clc;
+c = 1500; % Speed of Sound
+f_o = 50e+6; % f_o = 50 MHz
+lambda = c/f_o; % wavelength
+d = lambda/2; % element spacing
+theta = 0; % steering angle
+F=7/1000; % focus depth
+numberOfElements = 9; % number of transducer elements
+for n = 1:numberOfElements
+temp = 1-sqrt(1+(((n-round(numberOfElements./2)).*d)./F).^2-((2.*(n-
+round(numberOfElements/2)).*d)./F).*sin((pi/180).*theta));
+time(n) =abs((F./c).*temp);
+% Check calculations
+term1 = 1;
+term2 = (((n-round(numberOfElements./2)).*d)./F).^2;
+term3 = ((2.*(n-round(numberOfElements/2)).*d)./F).*sin((pi/180).*theta);
+temp1 = sqrt(term1+term2-term3);
+temp2 = 1-temp1;
+time1(n) = abs((F./c).*temp2);
+end
+143
+figure;stem(time);
+grid;
+xlabel('Array Element');
+ylabel('Delay Time');
+MaxDelayVector = max(time);
+MinDelayVector = min(time);
+titleVec = ['Min = ' num2str(MinDelayVector) 'sec. Max = ' num2str(MaxDelayVector) ' sec.' ];
+title(titleVec);
+diffDelayVector = abs(diff(time));
+figure;stem(diffDelayVector);
+grid;
+xlabel('Array Element');
+ylabel('Differential Delay Time');
+MinDiffDelayVector = min(diffDelayVector);
+titleVec = ['Min = ' num2str(MinDiffDelayVector) ' sec.'];
+title(titleVec);
+time = time';
+save oneDimensionalArrayTimeDelays.dat time -ascii
+VITA
+Insoo Kim
+Insoo Kim received the B.S and the M.S. degrees in electrical engineering from Korea
+University, Seoul, Korea, in 1997 and 1999, respectively. During his master’s program, he
+researched the long-term reliability of semiconductor devices and testing methodologies. From
+1999 to 2004, He held a position with Hynix Semiconductor Inc., Icheon, Korea. His
+specializations at that time were device modeling, DRAM circuit design, and failure analysis. He
+has been pursuing the Ph.D. degree in electrical engineering at the Pennsylvania State University,
+University Park, Pennsylvania since 2004. His current research interests involve CMOS analog
+circuits and systems design including high speed analog-digital converters and biomedical ICs.
+

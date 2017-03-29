@@ -1,0 +1,88 @@
+# Challenge scan conversion
+
+
+
+== DEFI ==
+
+Le signal envoyé par le transducteur, une fois pré-processé, prend la forme d'un tableau dont les coordonnées sont polaires : "angle de tir" x "pas d'échantillonnage". Il s'agit de transformer ce tableau en pixels ajustés aux pixels du display. 
+
+{| class="wikitable"
+|----
+|Issue
+|#tags
+|Skills
+|Difficulty (1-5)
+|Notes
+|----
+|transformer la data brut en pixels 
+|#soft #display #android #interpolation #performance
+|Android, notion d’interpollation
+|3
+|
+|----
+|}
+
+== MISSION ==
+
+
+Le flux entrant de data bruts transmis par l’électronique doit être transformé en un flux d’image. 
+
+Les data arrivent en coordonnées polaires et selon des pas non congruents à la résolution de l'écran. Lorsque l’on projette ces images sur l’écran en respectant les distances, les data bruts transformées ne s’ajustent pas parfaitement sur les pixels de l'écran.
+
+Il s'agit donc d’interpoler le signal brut pour produire la data pixélisés sur l’écran du device, tel que le montre le schéma ci-dessous.  
+
+[[File:Scan Révision .png]]
+
+=== BEFORE / AFTER ===
+
+                         [[File:before scan conversion.jpg]]            [[File:after scan conversion.jpg]]                           
+
+
+=== TRADEOFF ===
+
+des techniques existent déjà et il faut pondérer l’optimalité de l’interpolation avec l’exigence de temps réel. L’image fournie au radiologue doit l’être en temps réel. 
+
+Nous retiendrons la méthode la plus efficace
+
+
+''
+
+=== REWARD ===
+
+possibilité de résidence temporaire + echo-badge + hall of fame of open sources
+
+
+== RESSOURCES ==
+
+# les data de simulation sont fournies
+# librairies : spécifique android OpenGL ES, basé sur  OpenGL.
+# de nombreuses techniques d’interpolations existent : nearest neighboor, interpolation linéaire ou bilinéaire, méthodes assistée par Open GL ... 
+# les sources clonables/forkables de l’app android sont hébergées ici : https://github.com/echopen/project/
+# les data de simulations sont accessibles ici : https://github.com/echopen/project/tree/master/phantom
+vous y trouverez les raw data à transformer en fichiers images. Précisément : 
+
+          img_kydney/txt (convert to) ing_kydney.bmp
+          img_obs/txt (convert to) ing_obs.bmp
+
+A des fins de réalisme, il s’agit d’images de foie et de foetus en gestation
+
+
+=== REPOS ===
+
+Soumission des pull-requests sur https://github.com/echopen/project
+
+
+=== SUDOERS === 
+
+@nowami [mehdi@echopen.org]
+
+
+=== ECHPERTS ===
+
+ aka github's @yaf 
+
+[[:Category:Challenge]]
+
+[[Category:Challenge]]
+[[Category:Display]]
+[[Category:Software]]

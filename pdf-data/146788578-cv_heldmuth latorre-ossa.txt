@@ -1,0 +1,87 @@
+M. Heldmuth LATORRE-OSSA
+Ingénieur R&D - Dispositifs médicaux
+Contact
+Tel : 06 99 88 73 66
+Mail : heldmuth@gmail.com
+75 Rue Georges Courteline
+37000 Tours – France
+Mobilité
+Compétences
+Conception, réalisation et caractérisation de dispositifs médicaux - Conception de circuits électroniques
+Informatiques
+Matlab – LabVIEW - C - Outils de simulation ultrasonore
+Dépôt de couches minces
+Dépôt par Pulvérisation Cathodique (PVD)
+Caractérisation de couches minces
+Procédés microélectronique
+Expérience professionnelle
+Vermon S.A, Tours-France
+Ingénieur R&D 2014
+ Développement de procédés de métallisation, utilisant les technologies issues de la microélectronique, dans
+l’optique d’améliorer les performances des sondes ultrasonores.
+ Projet mené en collaboration avec le CERTeM (Centre d'Etudes et de Recherches Technologiques en
+Microélectronique).
+ Gestion de la préparation des substrats (céramiques piézoélectriques, piézo-composites, et verre).
+ Planification et réalisation des dépôts par Pulvérisation Cathodique (PVD) et de leurs caractérisations (optiques,
+électriques, mécaniques) en salle blanche.
+ Interaction avec les différents fabricants de systèmes de dépôt par PVD en vue de l’achat potentiel d’un
+équipement.
+ Rédaction du compte-rendu des résultats de l’étude menée.
+Laboratoire Thérapie et Applications Ultrasonores LabTAU - INSERM, Lyon-France
+Post doctorant 2013 – 2014
+ Conception et réalisation d’un dispositif médical pour mesurer l’élasticité de la prostate in vivo. Ce dispositif
+combine l’imagerie par Résonance Magnétique (IRM) et les ultrasons.
+ Simulations en langage C des champs acoustiques générés par des transducteurs ultrasonores.
+ Traitement des résultats des simulations des champs de déplacement générés par des transducteurs
+ultrasonores.
+ Réalisation de la sonde ultrasonore : connections, adaptation d’impédances et boîtier.
+ Essaies sur fantôme de la sonde ultrasonore dans un système IRM conventionnel.
+ Interaction avec les différents fabricants (nationaux et internationaux) des éléments constitutifs du dispositif
+pour leur achat.
+Institut Langevin-École supérieure de physique et de chimie industrielles de la ville de Paris (ESPCI), Paris-France
+Chercheur-Doctorant 2009 – 2012
+ Mise en œuvre de protocoles cliniques et précliniques afin d’étudier la faisabilité d’utiliser l’élasticité du tissue
+pour la caractérisation de tumeurs cancéreuses.
+ Programmation en Matlab du système d’échographie Aixplorer® (Supersonic Imagine).
+ Préparation des expériences (réalisation de fantômes, montages).
+ Traitement et analyses des données récoltées lors des expériences.
+ Ecriture de rapports et de publications scientifiques.
+Fraunhofer Institute for Biomedical Engineering IBMT-Département d’imagerie ultrasonore, St. Ingbert-Allemagne
+Ingénieur R&D (Stage) 2008 – 2009
+ Mise en place et évaluation d’un système d’imagerie ultrasonore de haute fréquence à bas coût.
+ Simulations des champs acoustiques générés par des transducteurs ultrasonores multiéléments.
+ Conception et réalisation d’un multiplexeur électronique.
+ Adaptation d’un système ultrasonore d’une seule voie (monovoie) construit pour des applications Doppler.
+ Adaptation d’une application LabVIEW pour contrôler le multiplexeur et le système monovoie.
+ Conception et réalisation d’un fantôme à fils pour évaluer la résolution de l’image ultrasonore.
+ Acquisition des premières images échographiques du fantôme à fils réalisé.
+Fraunhofer Institute for Biomedical Engineering IBMT-Département d’ingénierie médicale et de neuroprothèses, St.
+Ingbert-Allemagne
+Ingénieur R&D (Stage) 2007 – 2008
+ Étude en équipe de la faisabilité d’un réseau d’électrodes activées à distance pour la prise de mesures électro-
+physiologiques.
+ Conception d’un circuit électronique analogique afin d’être utilisé dans des électrodes intelligentes (sans fil) pour la prise
+de mesures électro-physiologiques à distance.
+Ericsson, Colombie
+Ingénieur projet 2003 – 2004
+ Formation intensive pour la coordination de projets de modernisation de réseaux téléphoniques.
+ Management de projets avec prise en compte de contraintes budgétaires.
+Universidad del Valle, Cali-Colombie
+Assistant d’enseignement 2002 – 2003
+ Aide donnée aux étudiants dans leurs projets de fin de cours de conception numérique.
+Formation
+2009 à 2012 Doctorat en Imagerie Médicale
+Institut Langevin-ESPCI/Université Paris Diderot, Paris-France.
+2006 à 2009 Master en Ingénierie Biomédicale
+Lübeck University et Lübeck University of Applied Sciences, Lübeck-Allemagne.
+2005 Cours de préparation à l’examen de l’IELTS
+The Burlington School of English. Londres, Royaume-Uni.
+1997 à 2003 Licence en ingénierie électronique
+Universidad del Valle, Cali-Colombie.
+Projet de fin d’études : Conception et réalisation d’un système de développement pour tester des circuits
+digitaux en temps réel.
+Informations complémentaires
+Langues Espagnol (natif) Français (courant) Anglais (courant)
+Bibliographie 5 publications scientifiques (Nature, IEEE-UFFC, European Radiology, ijmi).
+7 actes de conférence
+

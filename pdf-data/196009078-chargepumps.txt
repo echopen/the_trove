@@ -1,0 +1,741 @@
+Charge Pumps: An Overview
+Louie Pylarinos
+Edward S. Rogers Sr. Department of Electrical and Computer Engineering
+University of Toronto
+Abstract- In this paper we review the genesis of charge
+pump circuits, their evolution and improvement in
+design and their importance in nonvolatile memory
+circuits, low-voltage analog building blocks and other
+applications.
+I. INTRODUCTION
+Charge pumps are circuits that generate a voltage larger
+than the supply voltage from which they operate. To see
+how this is possible, consider the simple circuit consisting
+of a single capacitor and three switches shown in Fig. 1.
+Fig. 1. Simple voltage doubler
+During clock phase , switches S1 and S3 are closed and
+the capacitor is charged to the supply voltage, VDD. Next
+switch S2 is closed and the bottom plate of the capacitor
+assumes a potential VDD, while the capacitor maintains its
+charge of VDDC from the previous phase. This means
+that during
+(1)
+or
+(2)
+Thus, in the absence of a d.c. load, an output voltage has
+been generated that is twice the supply voltage.
+In order to accommodate a load at the output, the circuit
+would be modified by adding an output capacitance as
+shown in Fig. 2.
+Fig. 2. Practical voltage doubler
+In this case, the ideal output voltage is given by
+(3)
+If a load RL is present, then a ripple voltage, VR, is gener-
+ated at the output. The ripple voltage can be reduced by
+making Cout sufficiently large so that VR is negligible
+compared to Vout.
+Voltage multiplication greater than twice the supply
+voltage can be achieved by cascading more than one
+capacitor in series. This voltage multiplier technique
+seems to have first been proposed by Cockcroft and Wal-
+ton [1] and was used to generate steady potentials near
+800,000 volts in connection with studying the atomic
+structure of matter. The Cockcroft-Walton multiplying
+circuit is shown in Fig. 3. Three capacitors, CA, CB and
+CC, each of capacity C, are connected in series and capac-
+itor CA is connected to the supply voltage VDD. During
+phase capacitor C1 is connected to CA and charged to
+voltage VDD. When the switches change position during
+φ
+φ φ
+C
+S1
+S2 S3
+Vout
+VDD
+φ
+φ
+Vout VDD)
+–
+( C
+⋅ VDD C
+⋅
+=
+Vout 2 VDD
+⋅
+=
+φ
+φ φ
+C
+S1
+S2 S3
+Vout
+VDD
+φ
+S4
+Cout RL
+Vout
+C
+C Cout
++
+--------------------
+- 2 VDD
+⋅ ⋅
+=
+φ
+Fig. 3. Cockcroft-Walton voltage multiplier
+the next cycle, , capacitor C1 will share its charge with
+capacitor CB and both will be charged to VDD/2 if they
+have equal capacity. In the next cycle, C2 and CB will be
+connected and share a potential of VDD/4 while C1 is once
+again charged to VDD. It is thus obvious that if this pro-
+cess continues for a few cycles, charge will be transferred
+to all the capacitors until a potential of 3VDD is developed
+across the output Vout.
+The principle is easily capable of extension, and by add-
+ing more capacitors, any multiple of the supply voltage,
+VDD, may be obtained. However, in practice, the Cock-
+croft-Walton multiplier becomes somewhat inefficient if
+implemented in monolithic integrated form because of the
+relatively large on-chip stray capacitance. In addition, the
+output impedance of the multiplier increases rapidly with
+the number of multiplying stages.
+In order to overcome these limitations, a new voltage
+multiplier circuit was devised by Dickson [2] that is suit-
+able for integration in monolithic form. It is similar to the
+Cockcroft-Walton multiplier except this new configura-
+tion achieves more efficient multiplication even in the
+presence of stray capacitance and its drive capability is
+independent of the number of multiplier stages. Since
+many CMOS charge pumps are based on the circuit pro-
+posed by Dickson, a thorough analysis of this classic mul-
+tiplier is presented next.
+II. DICKSON CHARGE PUMP
+The Dickson charge pump [2] is shown in Fig. 4. The
+circuit consists of two pumping clocks, and , which
+are anti-phase and have a voltage amplitude of . The
+diodes operate as self-timed switches characterized by a
+forward bias voltage, Vd. Stray capacitance, Cs, is
+included at each node for completeness.
+Fig. 4. Dickson charge pump
+The multiplier operates by pumping charge along the
+diode chain as the capacitors are successively charged and
+discharged during each clock cycle. When clock phase
+goes low, diode D1 conducts until the voltage at node 1
+becomes Vin-Vd. When is switched to , the voltage
+at node 1 now becomes . This causes
+diode D2 to conduct until the voltage at node 2 becomes
+equal to . When goes low again,
+the voltage at node 2 becomes . After
+N stages, it is easy to see that the output voltage is
+(4)
+The stray capacitance, Cs, can be taken into account by
+noticing that it reduces the transferred clock voltage, ,
+by a factor . Thus, the actual output voltage
+becomes
+(5)
+Until now it has been assumed that no load was connected
+to the output of the charge pump. In the presence of such
+a load which draws a current, Iout, the output voltage is
+reduced by an amount , where is the
+operating frequency of the charge pump. The output volt-
+age now becomes
+(6)
+From this equation it becomes apparent that voltage mul-
+CA
+CB
+CC
+C2
+C1
+VDD
+Vout
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+φ φ
+Vφ
+φ
+φ
+Vout
+C C C C C C C
+RL
+CS CS CS CS CS CS CS
+D1 D2 D3 D4 Dn
+Dn-1
+Dn-2
+Vin
+Cout
+φ
+φ Vφ
+Vin Vφ Vd
+–
+( )
++
+Vin Vφ Vd
+–
+( ) Vd
+–
++ φ
+Vin 2 Vφ Vd
+–
+( )
+⋅
++
+Vout Vin N Vφ Vd
+–
+( ) Vd
+–
+⋅
++
+=
+Vφ
+C
+C Cs
++
+---------------
+-
+Vout Vin N
+C
+C Cs
++
+---------------
+-
+ 
+  Vφ
+⋅ Vd
+–
+ 
+ 
+⋅ Vd
+–
++
+=
+N Iout
+⋅
+C Cs
++
+( ) f osc
+⋅
+-----------------------------------
+- f osc
+V
+out
+V
+in
+N
+C
+C C
+s
++
+----------------
+- V
+φ
+⋅ V
+d
+–
+I
+out
+C C
+s
++
+( ) f
+osc
+⋅
+--------------------------------------
+-
+–
+ 
+ 
+ 
+⋅ V
+d
+–
++
+=
+tiplication will occur only if
+(7)
+Following Dickson, eq. (6) can be written as
+(8)
+where
+(9)
+and
+(10)
+Equation (6) leads to an equivalent circuit of the charge
+pump as shown in Fig. 5.
+Fig. 5. Equivalent circuit of Dickson charge pump
+It should be noted that there will be a small ripple voltage,
+VR, at the output due to the load resistance, RL. This rip-
+ple voltage is given by
+(11)
+The ripple voltage can be substantially reduced by
+increasing the frequency of the clocks or using a large
+output capacitance. In the latter case, it would take the
+charge pump significantly longer to reach steady state.
+A practical circuit implementation of the Dickson
+charge pump in CMOS technology is shown in Fig. 6.
+The multiplier chain is implemented using diode-con-
+nected NMOS transistors. Here the diode forward volt-
+age, Vd, is replaced by the MOS threshold voltage, Vtn,
+Fig. 6. A four-stage Dickson charge pump
+and the output voltage is given by
+(12)
+where in this particular case N=4. We now define a useful
+quantity called the voltage fluctuation at each pumping
+node, . This is the voltage change that occurs at each
+node of a charge pump from one clock cycle to the next.
+This is illustrated for the four-stage Dickson charge pump
+in Fig. 7.
+Fig. 7. Voltage fluctuation
+For the Dickson charge pump, the voltage fluctuation can
+be expressed as
+(13)
+We may also define the voltage pumping gain, GV, of a
+charge pump as
+(14)
+For the Dickson charge pump we have
+(15)
+From eq. (14) and eq. (15) we see that the necessary con-
+dition for voltage multiplication is given by
+C
+C Cs
++
+---------------
+- Vφ
+⋅ Vd
+–
+Iout
+C Cs
++
+( ) f osc
+⋅
+-----------------------------------
+-
+– 0
+>
+Vout VO Iout RS
+⋅
+–
+=
+VO Vin Vd N
+C
+C Cs
++
+---------------
+- Vφ
+⋅ Vd
+–
+ 
+ 
+⋅
++
+–
+=
+RS
+N
+C Cs
++
+( ) f osc
+⋅
+-----------------------------------
+-
+=
+Vo
+RS
+Cout RL
+Vout
+VR
+Iout
+f osc Cout
+⋅
+-------------------------
+-
+Vout
+f osc RL Cout
+⋅ ⋅
+------------------------------------
+-
+= =
+Vin
+φ
+φ
+C C C C Cout
+Vout
+V1 V2 V3 V4
+MD1 MD2
+MD3 MD4 MD5
+V
+out
+V
+in
+N
+C
+C Cs
++
+----------------
+- V
+φ
+⋅ V
+tn
+–
+I
+out
+C Cs
++
+( ) f osc
+⋅
+--------------------------------------
+-
+–
+ 
+ 
+ 
+⋅ V
+tn
+–
++
+=
+∆V
+V1
+∆
+V1+ v
+V2
+V2+ ∆v
+∆V
+C
+C Cs
++
+---------------
+- Vφ
+⋅
+Iout
+C Cs
++
+( ) f osc
+⋅
+-----------------------------------
+-
+–
+=
+GV VN VN 1
+–
+–
+=
+GV ∆V Vtn
+–
+=
+(16)
+Unfortunately, as the supply voltage decreases,
+decreases and according to eq. (13) so does . Conse-
+quently, the pumping gain (eq. (15)) is also reduced. It is
+thus obvious that the Dickson charge pump is not at all
+suitable for low-voltage operation. If the threshold volt-
+age term, , could somehow be eliminated from eq.
+(15), the Dickson charge pump would be usable at low-
+voltages, offer a better voltage pumping gain and a higher
+output voltage. This can be accomplished by modifying
+the Dickson charge pump so that it utilizes static charge
+transfer switches (CTS’s). The details are presented next.
+III. STATIC CTS CHARGE PUMPS
+Static CTS charge pumps are new charge pumps employ-
+ing dynamic switches to increase the voltage pumping
+gain. The basic idea behind these multipliers is to use
+MOS switches with precise on/off characteristics to direct
+charge flow during pumping rather than using diodes, or
+diode connected transistors which inevitably introduce a
+forward voltage drop at each node. One of the first low-
+voltage CTS based charge pumps with static backward
+control was presented in Wu [3]. The circuit details of
+this new charge pump (NCP-1) are shown in Fig. 8.
+Fig. 8. A four-stage CTS based charge pump
+Neglecting for the moment the CTS transistors MS1-MS5,
+the operation of this new charge pump is identical to the
+operation of the Dickson charge pump and the same ini-
+tial voltages will be established at each pumping node.
+The idea behind the CTS switches is to use the already
+established high voltages at the various nodes to control
+the CTS of the previous stage. This will work if the
+switches can be turned on / off at the designated times
+such that they allow charge to be transferred in only one
+direction. When this is the case for each pumping stage,
+the input upper voltage of each node is equal to the output
+lower voltage as can be seen in Fig. 9.
+Fig. 9. CTS based charge pump voltage fluctuation
+The voltage pumping gain of this charge pump now
+becomes
+(17)
+Compared with the Dickson charge pump, eq. (15), the
+NCP-1 proposed by Wu has a much better charge pump-
+ing performance since the term has been eliminated
+from eq. (17).
+When clock phase is high in Fig. 8, the voltages at
+nodes 1 and 2 are equal, while the voltage at node 3 is
+above those at nodes 1 and 2. This means that the
+gate-to-source voltage of MS2 is . In order for this
+transistor to be on, we require
+(18)
+Comparing this with eq. (16) we see that the NCP-1
+charge pump presented by Wu is much more suitable for
+low-voltage operation than the Dickson charge pump.
+Unfortunately, there is one minor problem with this cir-
+cuit configuration, namely, charge leakage in the reverse
+direction. When clock phase is low, the voltage at
+nodes 2 and 3 is equal and above the voltage at
+node 1. Thus, the gate-to-source voltage of MS2 is .
+During this clock phase, we ideally require MS2 to be
+turned off. This will only be the case if
+(19)
+Since eq. (18) is always satisfied, it is impossible for the
+requirement of eq. (19) to be met. Therefore, switch MS2
+will not be completely turned off and reverse charge shar-
+GV ∆V Vtn
+–
+=
+( ) 0
+>
+Vφ
+∆V
+Vtn
+Vin
+φ
+φ
+C C C C Cout
+Vout
+V1 V2 V3 V4
+MD1 MD2 MD3 MD4 MD5
+C
+MS1 MS2 MS3 MS4 MS5
+V1
+V1+
+V2
+V2+
+V3
+V3+
+∆V
+∆V
+∆V
+GV V2 V1
+– ∆V
+= =
+Vtn
+φ
+2 ∆V
+⋅
+2 ∆V
+⋅
+2 ∆V
+⋅ Vtn
+>
+φ
+2 ∆V
+⋅
+2 ∆V
+⋅
+2 ∆V
+⋅ Vtn
+<
+ing will occur between node 2 and node 1.
+This reverse charge leakage phenomenon can be elimi-
+nated by adding pass transistors (both NMOS and PMOS)
+to the NCP-1 circuit. The function of these transistors is
+to apply dynamic control to the CTS’s in order to turn
+them off completely when required and still be able to
+turn them on easily by the backward control voltage as in
+the NCP-1 case. The details of this so called NCP-2
+charge pump are presented in [3]. It can be shown that the
+necessary conditions for the NCP-2 charge pump to oper-
+ate properly are
+(20)
+and
+(21)
+Unlike the NCP-1, these conditions can be satisfied simul-
+taneously and the resulting charge pump offers excellent
+performance.
+IV. ADVANCED CHARGE PUMP TECHNIQUES
+Another class of charge pump designs suitable for high-
+performance, low-voltage operation are those based on
+switched-capacitor techniques [4]. A high efficiency
+CMOS voltage doubler with good accuracy is presented
+in [5]. This design is simple and power efficient, and with
+a few modifications represents the current, state of the art
+in charge pump design.
+Fig. 10. Modern voltage doubler
+A novel, state of the art, high efficiency voltage doubler
+suitable for low-voltage / low-power applications has
+been developed by Phang [6] and is presented in Fig. 10.
+In order to understand the operation of this multiplier, it is
+helpful to consider the basic charge pump cell [7] shown
+in Fig. 11.
+Fig. 11. Basic charge pump cell
+The cell uses two non-overlapping, antiphase clocks of
+amplitude VDD. Transistors M1 and M2 are successively
+switched on and off in order to charge capacitors C1 and
+C2 to the voltage Vin. After a few clock cycles, the clock
+signals on the top plates of the capacitors will assume an
+amplitude of . The switches SW1 and SW2 are
+timed so that Vout only sees this voltage. If
+then
+(22)
+and the output is double the supply voltage.
+Referring to Fig. 10, we see that the voltage multiplier
+consists of three closely-coupled charge pump cells. The
+middle cell comprised of M1 and M2 is used to generate a
+level-shifted clock signal as described in Fig. 11. This
+level-shifted clock signal is used to turn on the outermost
+charge pump consisting of devices M3 and M4 and pass
+the input voltage, Vin, to the top plates of capacitors C3
+and C4. The clock signals driving capacitors C3 and C4,
+namely and have a reduced voltage swing
+that is equal to the input voltage, Vin. Thus, after a few
+clock cycles, the voltage at the top plates of C3 and C4
+fluctuates between and . The last charge pump
+uses devices M5 and M6 to drive the PMOS output
+2 ∆V
+⋅ Vtp
+>
+2 ∆V
+⋅ Vtn
+>
+M7 M8
+M1 M2
+M3 M4
+M5 M6
+C1 C2
+C3 C4
+C6
+C5
+Vout
+Vin
+φ1Vin
+φ1 φ1 φ2 φ2 φ2Vin
+VSWL
+VSWL
+φ φ
+M1 M2
+C1 C2
+Vin
+Vout
+SW1 SW2
+φ φ
+Cout
+Vin VDD
++
+Vin VDD
+=
+Vout 2 VDD
+⋅
+=
+Φ1Vin Φ2Vin
+Vin 2 Vin
+⋅
+switches M7 and M8. It is worth noticing that the design
+includes a desirable innovation, namely, the low level
+clock swing has been shifted to VSWL which has been
+optimized for driving the PMOS output switches. This
+improves the output resistance of the switches. The full-
+swing clock signals and were generated from an
+integrated, non-overlapping, two phase clock generator
+[8] that is shown in Fig. 12.
+Fig. 12. Non-overlapping clock generator
+The performance of Phang’s voltage multiplier circuit
+was simulated and shown in Fig. 13. The simulation used
+an input voltage of 1.5V and a small output load capaci-
+tance of 1.0 pF to speed up the transient response. The
+circuit exhibited hardly any undershoot and reached
+steady state quickly due to the reduced switch resistance
+afforded by the dedicated charge pump driving the output
+switches.
+Fig. 13. Simulation of step-up response for voltage doubler
+V. APPLICATIONS AND FUTURE CHALLENGES
+The most obvious application of charge pump circuits is
+in the programming of EPROM circuits. Until recently,
+most EPROMs used hot-electron injection [9] to program
+these devices and required off-chip supply voltages. This
+method of programming required large drain currents dur-
+ing device flashing and required a dedicated, non-standard
+power supply. An alternative method of programming
+EPROMs is based on tunneling by Fowler-Nordheim field
+emission. For programming, a large voltage (around 10-
+15V) is applied to the control gate of the device and
+charge is transferred to the floating gate. The advantage
+with using this method lies in the fact that no drain current
+is required for programming. Hence, on-chip charge
+pumps can be used to generate the higher than normal
+voltages required to write or erase information in nonvola-
+tile memory circuits [10].
+Recently, charge pumps and voltage multipliers have
+been applied to low-voltage / low-power analog integrated
+circuits with some success. A technique known as
+‘Dynamic Gate Biasing’ has been pioneered by Phang[7]
+and others in a diverse range of applications. In Dynamic
+Gate Biasing (DGB), controllable charge pump circuits
+are used for the stable biasing of MOSFET gates. These
+transistors are biased in the triode region and act as vari-
+able resistors. On-chip DGB has shown to be feasible in
+the design of a low-voltage, CMOS front-end optical pre-
+amplifier[6] and in low-voltage, continuous-time, biqua-
+dratic filter applications [11][12].
+In the future, as analog designers look for new ways to
+meet the challenge of reduced supply voltages, on-chip
+charge pumps and voltage multipliers are destined to
+become an integral part of low-voltage analog and digital
+circuit designs.
+VI. REFERENCES
+[1] J. D. Cockroft and E. T. Walton, “Production of high velocity
+positive ions,” Proc. Roy. Soc., A, vol. 136, pp. 619-630, 1932
+[2] J. Dickson, “On-chip High-Voltage Generation in NMOS
+Integrated Circuits Using an Improved Voltage Multiplier Tech-
+nique,” IEEE J. Solid-State Circuits, vol. 11, no. 6, pp. 374-378,
+June 1976.
+Φ1 Φ2
+Φ1
+Φ2
+Exte External
+clock clock
+0 2 4 6
+x 10
+−5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+Charge Pump Transient Response
+Time in seconds
+Output
+Voltage
+[3] J. Wu and K. Chang, “MOS Charge Pumps for Low-Voltage
+Operation,” IEEE J. Solid-State Circuits, vol. 33, no. 4, pp. 592-
+597, April 1998.
+[4] J. Silva-Martinez, “A switched Capacitor Double Voltage
+Generator,” IEEE Proc. Mid-West Symp. Circuits and Systems,
+vol. 1, pp. 177-180, 1994.
+[5] P. Favrat, et al., “High-Efficiency CMOS Voltage Doubler,”
+IEEE J. Solid-State Circuits, vol. 33, no. 3, pp. 410-416, March
+1998.
+[6] K. Phang and D. Johns, “A 1V 1mW CMOS Front-End with
+On-chip Dynamic Gate Biasing for a 75Mb/s Optical Receiver,”
+IEEE Int. Solid-State Circ. Conf. Dig. Tech. Papers, pp. 218-219
+Feb. 2001.
+[7] K. Phang., “CMOS Optical Preamplifier Design Using
+Graphical Circuit Analysis,” Ph.D. Thesis, University of Tor-
+onto, 2001
+[8] K. Martin and A. Sedra, “Switched-Capacitor Building
+Blocks for Adaptive Systems,” IEEE Trans. Circ. and Syst., vol.
+28, no. 6, pp. 576-584, June 1981.
+[9] K. Martin, Digital Integrated Circuit Design, Oxford, 2000.
+[10] D. Oto et al., “High-Voltage Regulation and Process Con-
+siderations for High-Density 5V Only EEPROM’s,” IEEE J.
+Solid-State Circuits, 18(5), 532-538, October 1983
+[11] L. Pylarinos et al., “A Low-Voltage CMOS Filter for Hear-
+ing Aids using Dynamic Gate Biasing,” Can. Conf. Elec. Comp.
+Eng., May 2001.
+[12] G. Monna, et al., “Charge pump for optimal dynamic range
+filters,” IEEE Int. Symp. Circuits and Systems, vol. 5, pp. 747-
+750, 1994.
+

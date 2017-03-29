@@ -1,0 +1,198 @@
+Feasibility of ultra-cheap imaging: designing ultrasound for the developing world
+Emily Kwan1-4, Charles F. Caskey PhD2-4
+1University of Rochester Department of Biomedical Engineering, 2Vanderbilt University Medical Center, 3Vanderbilt University Institute
+for Imaging Science, 4Vanderbilt University Department of Biomedical Engineering
+Introduction
+Since its clinical implementation in the 1970s, ultrasound has
+become a critical form of medical imaging with many purposes
+from detecting problems in pregnancy to quickly assessing
+trauma situations. While most developed countries have
+extensive access to forms of medical imaging, developing
+countries often lack these devices. When introduced in low
+resource countries and regions, ultrasound imaging had a
+significant effect on the clinical diagnosis and influenced the
+course of treatment for patients [1]. However, ultrasound
+systems are costly (~$50k US) and only recently more portable.
+The initial goal of this project was to determine feasibility of a
+portable ultrasound device that is both cost efficient (~$300 US)
+and capable of producing medically relevant images.
+Additionally, due to sampling hardware limitations, it was
+necessary to simulate a demodulation circuit, allowing for a
+lower sampling rate. Through building a working ultrasound
+system, the results show that further developments in cheap
+medical ultrasound would be both worthwhile and attainable.
+Ultrasound Components
+Mechanical Scanner
+In the initial design (see TABLE), the Zaber Linear Actuator
+moved the transducer. This was replaced with an Arduino that
+communicates with a commodity grade servo motor.
+Transducer
+For ease of setup, two spherical focused Valpey Fisher
+Immersion Transducers were used with center frequencies at
+5 MHz and 2.25 MHz
+Pulser-Receiver:
+Specific components of Pulser-Receiver:
+• High-Voltage (HV) Pulser
+• Pulse Repetition Frequency (PRF)
+• Transmit Receive (T/R) Switch
+• Amplifier
+The Panametrics 500PR was used to allow for a consistent and
+reliable signal.
+Analog to Digital (A/D) Converter & Image Processing
+Software
+Computer & Display
+A standard Personal Computer and Monitor were used to run
+and display the various operating systems and image
+processing software.
+Demodulation Circuit Simulation
+With the maximum sampling rate of the BitScope at 10 MHz, the signal from the 5 MHz transducer
+encounters aliasing. The demodulation circuit would be a hardware component that occurs after the
+Pulser-Receiver, while the signal is analog. It would maintain the signal while reducing the required
+sampling frequency to the bandwidth of the signal. Without this modulation, the sampling frequency
+must be double the highest frequency present in the signal. With the assumption that the signal’s
+bandwidth is equivalent to the transducer’s center frequency, this lowers the required sampling rates.
+Frequency (MHz)
+The ultrasound design forms B-Mode/2D images by
+translating a single transducer across the desired plane.
+The single element system is shown in Figure 1.
+At each angle, the software processes at least ten
+digitally captured echoes then reconstructs an image
+using a standard sequence of digital filtering,
+demodulation, and time gain compensation.
+Images were taken of a cylindrical phantom with water-
+filled cyst-like features that was made in-house (Figure
+6), as well as a commercial imaging phantom (Figure 7).
+Data Acquisition Methods
+Figure 4: Frequency spectrum of signal in
+demodulation simulation and reconstruction
+A-G correspond to signals in Figure 2 and 3.
+Results
+Component
+Initial Current Future
+Specific Part Cost Specific Part Cost Specific Part Cost
+Mechanical Scanner Zaber Linear Actuator $2,000 Servo and Arduino $30 Potentiometer and Arduino $15
+Transducer Valpey Fischer $300 Valpey Fischer $300 DIY Transducer $30
+Pulser Receiver Panametrics 500PR $1,000 Panametrics 500PR $1,000
+PRF using Arduino $0
+HV Pulser Circuit $25
+T/R Switch Circuit
+$10
+Amp Circuit
+A/D Converter GaGeScope $10,000 BitScope $150 BitScope $150
+Image Processing Software (Windows) Matlab $1,000 (Linux) Python $0 (Raspberry Pi) Python $0
+Computer PC $1,000 PC $1,000 Raspberry Pi $40
+Display Monitor $50 Monitor $50 Monitor $50
+Other Demodulation Circuit $10
+Total $15,350 Total $2,530 Total $330
+Figure 1: Single Element Image
+Acquisition Setup
+A servo motor rotates the transducer
+about the Red “X”, collecting echoes
+at 1° increments across a 60°
+sweep. The system collects the
+echoes of the red and blue regions
+combined. Because of signal noise
+in transducer near field, only the
+blue region goes through image
+processing. In this setup, the depth
+of acquisition for the transducer is
+between 6-7 cm.
+60°
+Depth
+Transducer
+A/D Converter
+Max Sampling
+Rate
+Software
+Operating
+System
+GaGeScope 100 MHz MATLAB Windows OS
+BitScope 10 MHz Python Linux/Ubuntu
+Figure 5: Block Diagrams
+Block Diagrams of (A) current ultrasound system and (B)
+system to acquire data for the demodulation simulation. Blue
+boxes indicate low-cost, commodity grade electronic devices.
+A
+B
+Frequency (MHz)
+Frequency (MHz)
+Frequency (MHz)
+Frequency (MHz)
+Frequency (MHz)
+Frequency (MHz)
+A
+B
+C
+D
+E
+F
+G
+Figure 6: “Cyst” Phantom
+Two photos of the cylindrical water-
+filled phantom made in-house.
+A
+Figure 7: CIRS Multi-Purpose Multi-Tissue
+Ultrasound Phantom (Model 040GSE)
+(A) Entire phantom
+(B) Diagram of imaged section
+B
+To digitally simulate this circuit, datasets were acquired
+using the schematic in Figure 5B at 100 MHz, representing
+the analog signal. First, the signal is bandpass filtered to
+remove noise at non-contributing frequencies; this is the
+Original RF data, labeled as A. Processed in Python, the
+signal is demodulated and reconstructed following the
+block diagrams in Figure 2 and Figure 3, respectively [2].
+The reconstructed signal is G.
+exp(-i2πFt)
+Down Mixing
+A B LP Filter C Decimation
+Down-Sampling
+D
+Up-Sampling
+D E
+exp(i2πFt)
+G
+Zero
+Padding LP Filter
+Up Mixing
+F
+Figure 2: Block diagram of demodulation
+In the down-sampling step, every 10th sample is kept, the rest is
+discarded. This replicates the 10 MHz sampling of the BitScope Micro.
+Figure 3: Block Diagram of reconstruction
+In the up-sampling back to 100 MHz, 9 zeros are added between each
+sample, causing the replicas in the frequency spectrum (FIGURE# E).
+Conclusions
+Acknowledgements
+References
+[1] Sippel et al.: Review article: Use of ultrasound in the developing world. International
+Journal of Emergency Medicine 2011 4:72.
+[2] Johan Kirkhorn, Introduction to IQ-demodulation of RF data. Sept. 1999.
+Thanks to the Caskey Lab at the Vanderbilt University Institute of
+Imaging Science and Brett Byram for use of the CIRS Phantom.
+Research supported by
+Vanderbilt Radiology Startup
+School of Engineering Dean’s Award
+Table 1. Cost breakdown of ultrasound component parts for Initial, Current, and Future designs.
+Figure 8: Ultrasound images
+A-C: Images of “Cyst” Phantom, D-E: Images of CIRS Phantom
+(A) Acquired with BitScope with 2.25 MHz transducer. This transducer was
+not optimal for the ultrasound system.
+(B) Acquired with BitScope with 5 MHz transducer
+(C-D) Image from demodulation circuit simulation with 5 MHz transducer
+(E) Comparison between combined, acquired images and phantom diagram
+A B C
+• The current ultrasound system produces medically relevant images
+• The simulation suggests that a hardware demodulation circuit would improve the
+quality of images collected through the low cost A/D converter, the BitScope Micro
+• The cost can be further reduced to reach the goal of $300 by:
+• replacing the commercial pulser-receiver with an integrated circuit-based
+analog front-end of the pulser-receiver components
+• Building transducers in-house
+• Implementing image reconstruction on a Raspberry Pi
+D
+E
+BitScope
+Micro
+
