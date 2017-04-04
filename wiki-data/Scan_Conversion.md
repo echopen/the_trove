@@ -1,0 +1,275 @@
+1.  Scan Conversion
+
+Presentation of the SC
+======================
+
+The Scan Conversion allows one to recreate a clinical image from a set
+of data sent by a probe. The received image depends on the geometry of
+the probe. This process intends to recreate the ‘real’ image.
+
+An ultrasound beamformer generates coherently summed image data in polar
+format while the standard TV raster display is rectangular. Hence, polar
+to Cartesian scan conversion is necessary before display. A combined
+design scheme for polar to Cartesian scan conversion using nearest
+neighbor and linear interpolations has been implemented which optimizes
+both image quality and hardware requirement. The scan converter takes
+polar data as input and produces corresponding rectangular data which is
+used for image formation. The radial distance becomes somewhat larger as
+one moves deeper into the body and this produces serious artifacts in
+the image called Moiré artifacts. Hence interpolation becomes necessary.
+The nearest neighbor interpolation is a simple method although it makes
+the image blocky. On the other hand, linear interpolation needs a few
+computations but is free from these artifacts in the far field.
+
+Indeed, the probe stores a series of sampled scan-lines, whatever the
+geometry of the scanned area.
+
+Which can be represented with clinical images such as :
+
+![](image04.png "fig:image04.png") &
+[:File:image03.png](:File:image03.png "wikilink") Fig 2.1 : frame before
+and after a scan conversion -- a liver
+
+For the OLPC, we had to build our own scan conversion algorithms,
+because the versions that already exist were too heavy.
+
+We studied a C++ scan conversion program, but it was very complicated.
+So we mainly used a Matlab version that we translated into a C program.
+All the algorithm used in this document are based on 8 bits pixels
+values. For the sake of the programing, and in order to allow the use of
+colors, the colors are declared in a color table. Out of 256 colors, it
+is possible to create a 224 greyscale palette and a 32 colors palette.
+
+In order to display a two-dimensional image, we must re-sample these
+scan-lines onto an array of actual pixel locations that will be output
+to the display. Therefore, we will have to calculate the value of each
+pixel in functions of the input’s pixels value. For this, we have three
+different options:
+
+The Nearest Neighbor algorithm (NN)
+-----------------------------------
+
+This algorithm just consists in a simple local transformation of a
+Cartesian space into a polar space. One can just assign the value of a
+pixel from the nearest pixel already mapped in the pre scan converted
+image.
+
+The 2tap conversion
+-------------------
+
+This algorithm is a little more complicated. During the transformation,
+it also takes into account not only the nearest pixel, but also its
+immediate neighbors. Then we make an average with the four values
+according to the distance to the final pixel. This way the image is a
+little bit more clinical looking.
+
+The 4tap conversion
+-------------------
+
+It is the same principle as the 2Tap, but instead of considering 4
+pixels (2x2), we take 8 pixels (4 in the width and 2 in the height) and
+we make an average with a cardinal sinus function. But, considering the
+gain in quality, this algorithm needs too much computation and is too
+slow on the OLPC.
+
+First version
+-------------
+
+Finally we decided to test only the NN algorithm and the 2Tap for a
+curvilinear probe. We wrote the code in C and we tested it with pre scan
+converted images from JMJ.
+
+We needed to have the best frame rate possible. Using just the port of
+the matlab algorithm to C code on the OLPC resulted, even for a little
+output image, in a 0.4 to 0.7 fps, considering the scan conversion
+alone. The main problem was that for each frame, we made a lot of
+computation which are really repetitive and useless.
+
+### Boundaries of the output image.
+
+So we started with limiting the computed area. The process takes a
+Cartesian coordinate space and has to convert it according to the probe
+geometry. Though, not every pixels in the ‘output images’ will come from
+the pre-scan converted image. The first step is to determine the area
+where calculations have to be made. This is achieved by calculating the
+boundaries of the pixel map ROI. The function has not been optimized
+yet, since it only occurs once, just before the scanning starts.
+
+`Source : TOUPDATE`\
+`void init_ROI()`\
+`{`\
+`    int i;`\
+`    for ( i=0;i<OUTROWS;i++ ){`\
+`        double x=r2c1*i+xPan;`\
+`        ROI_width[2*i]=max ( 0,roundD ( ( x*tan ( STARTWIDTHSIP )-yPan ) /r1c2 ) );`\
+`        ROI_width[2*i+1]=min ( OUTCOLS,roundD ( ( x*tan ( STOPWIDTHSIP )-yPan ) /r1c2 ) );`\
+`    }`\
+`}`
+
+### Build a table with the correspondence of coordinates.
+
+The geometry of the probe being fixed, it is possible to determine and
+store the coordinates of the boundaries in a table. Moreover, for the
+2Tap algorithm, **we can also store the weights of the pixels**.
+
+![](code 1.png "code 1.png")
+
+First benchmarks
+----------------
+
+For these benchmarking tests, we load the pre scan converted image from
+a text file and we display the scan converted image in our User
+Interface.
+
+We tried different zoom for different image size with the 2Tap and the
+NN algorithms.
+
+We can see that the NN is really faster than the 2Tap. With that first
+version of the scan conversion, we can achieve to obtain a good frame
+rate (at around 10 fps for an acceptable size), but it is not fast
+enough. That is why we have to make some optimization.
+
+Further optimization
+--------------------
+
+Some optimization can be done, using the parallel processing
+capabilities of the OLPC. To improve the performances, one possibility
+is to modify the Makefile.Release and Makefile.Debug, so that the flag
+-O2 is modified into a -O3, to optimize the CPU time use.
+
+Then, it remained another possible optimization. The calculation we made
+were on doubles and int. The translation to an integer calculation made
+the process faster.
+
+We used only integer. So we multiply the calculate position by a power
+of two (2\^10). Then the first part, which is obtained by a shift of 10
+bits (/ 2\^10), gives us the integer part, is the position and the
+following bits (& 0x3f), which correspond to the decimal part, give us
+the distance between pixels.
+
+Thanks to this optimization we only need one table of integers which
+give us every piece of information we need to calculate the value of the
+pixels for the output image.
+
+Possible ameliorations.
+-----------------------
+
+### ASM decomposition
+
+We translated the 2tap algorithm in order to determine where within the
+loop the algorithm may be improved. Some changes may be made in order to
+have less operations between the loops, therefore accelerating the whole
+process.
+
+### MMX / 3DNow!
+
+The goal of this optimization process is to achieve having an acceptable
+frame rate, ie an image which is not too laggy. Actually, the olpc has
+MMX and 3DNow! enabled.
+
+This part has been postponed – an image has been produced at an
+acceptable rate. Though, any further optimization may provide a better
+resolution for the output image.
+
+Initialization
+==============
+
+First of all, we have to load the input data, we use the inittabimg()
+function which load the pre scan converted data from a buffer (if we
+loaded it from probe) or from a random image.
+
+Then we also initialize all the parameters (rc factors – rescaling
+factors - , the size of the input and output images, the depth, the
+width and the xPan and yPan).
+
+We build the tables of coefficients that we will need to make the scan
+conversion (inittab2tap and inittabNN) and we declare the size of the
+QImage that will be displayed on the UI.
+
+We also use a **lookup table**
+
+### The 2Tap scan conversion.
+
+We build the output image pixel per pixel. In a first time, we check if
+the pixel will be in the scan area, then the calculations are made with
+the coefficient from the coeffTable table. We begin by storing the
+values of the four input-pixels and the corresponding coefficient. Then
+we make an two horizontal averages and the vertical average give us the
+final value of the pixel.
+
+Display function
+================
+
+When the pixel values are calculated, they still need to be displayed to
+the device.
+
+Using Qt special object QImage, the first thought was to use
+QImage::setPixel. This was not appropriate, considering the overhead
+that was brought. It has been then replaced with a QImage::scanLine,
+which allows a direct write to the memory. Then it has been optimized
+not to repetitively access the memory space.
+
+Replacing the basic setPixel by a single scanLine boosted the fps up by
+\~40% for zoom x1 2tap, by \~100% for zoom x2 2tap and zoom x1 NN, and
+by \~140% for zoom x2 NN.
+
+Besides, as the OLPC screen is very small and has a very high definition
+(1200x900 pixels for a 7 inches screen), we tried to use a zoom
+function. Instead of trying to calculate each pixel, we assigned the
+same value to four neighbor pixels. Thanks to that zoom, we can make
+four times less computations for the same size of output image, and the
+loss in term of quality does not seem to be really important -- once
+more due to the high resolution of the olpc.
+
+Quote : from (wiki.laptop.org) It should be usable in two modes: 1200 x
+900 resolution monochrome (grayscale), sunlight readable, which is
+essential as many schools are out of doors and conventional LCD’s
+generally don’t work well in strong light, and a back-lit color mode, at
+1/3 resolution in one dimension (we use the pixels for different colors
+in that case).
+
+Therefore, we will use the "zoom" functionality for the olpc display. A
+global PLATFORM will be defined and during the compilation will
+determine the output image, and its relative quality.
+
+Problems:
+=========
+
+Maximazing the display
+----------------------
+
+One also need to know the output image size. In order to maximize this
+display, we calculated the appropriate sizing factor, r1c2, to fit a
+800x600 frame, with the greatest dimension as the limiting factor, to
+avoid distorting the image.
+
+`STOPDEPTH      =    DEPTH*10.0;`\
+`MMPERSAMPLE    =    ( STOPDEPTH-STARTDEPTH ) /NUMSIPSAMPLES;`\
+`SamplesPerMm   =    NUMSIPSAMPLES/ ( STOPDEPTH-STARTDEPTH );`\
+`r1c2           =    ( ( SHOFFSET+STARTDEPTH+STOPDEPTH ) * ( sin ( STOPWIDTHSIP )-sin ( STARTWIDTHSIP ) ) *SamplesPerMm/MAX_X );`\
+`r2c1           =    ( ( STOPDEPTH+ ( STARTDEPTH+SHOFFSET ) * ( 1-cos ( STARTWIDTHSIP ) ) ) *SamplesPerMm/MAX_Y );`\
+`double rc      =    max(r1c2*ZOOM,r2c1*ZOOM);`\
+`init_output_window ( rc );`
+
+Different depths, different number of samples per line.
+-------------------------------------------------------
+
+Input images for different depth seem to have a variable number of
+samples. For example, the 15cm deep estimated data lines have 256
+samples, whereas 3cm deep have 254 samples. It is necessary to determine
+the right size, therefore we have to extract it from the DSP header.
+
+`int ReadDSP(usb_dev_handle *) : (usb_revo.h)`\
+`    if(!INIT)`\
+`    {      `\
+`        staTi=usb_bulk_read(udev,EP_BULK_IN, frameheader, 16, 10000);`\
+`        nbLines=(frameheader[4] & 0xff) + (frameheader[5] & 0xff) * 256;`\
+`        nbWords=(frameheader[10] & 0xff) + (frameheader[11] & 0xff) * 256;`\
+`        framedata[0]=nbLines;framedata[1]=nbWords/nbLines*2;`\
+`        init_cst(framedata);init_scanline_lookup();`\
+`        INIT=1;`\
+`    } `\
+\
+`void init_cst (int *) : (init.h)`\
+`    NUMSIPSAMPLES    =    inputdata[1];`\
+`    NUMSIPLINES    =    inputdata[0];`

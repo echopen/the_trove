@@ -1,0 +1,37 @@
+1.  Clipping test
+
+Context
+-------
+
+The acquisition card used at the Emile stage is the [Red
+Pitaya](The_case_for_Red_Pitaya "wikilink"). To get a maximum out of its
+measurement ranges, we need to use a signal input at +1/-1V.
+
+However, the pulser, at the Emile Stage, provides the transducer with a
+roughly -30V pulse, and we listen to a \~190mV peak-to-peak signal.
+
+Hence, we want to clip the signal at +1V / -1V so that we can take a x20
+(roughly) in resolution from the probe, so clip everything out of the
+signal that exceeds this 1V barrer.
+
+Schematics tried
+----------------
+
+### 5MHZ clipping
+
+-   Image at
+    <https://www.circuitlab.com/circuit/8c24sw/screenshot/540x405/>
+-   <https://www.circuitlab.com/circuit/8c24sw/5mhz-200-3_3v-convertor/>
+
+References
+----------
+
+-   Stack overflow references:
+    -   [Reduce and clip voltage of a 5Mhz ultrasonic signal from +-50V
+        to 0-3.3
+        V](http://electronics.stackexchange.com/questions/56768/reduce-and-clip-voltage-of-a-5mhz-ultrasonic-signal-from-50v-to-0-3-3-v)
+    -   [Clip signal with very low
+        threshold](http://electronics.stackexchange.com/questions/45439/clip-signal-with-very-low-threshold?rq=1)
+    -   
+
+<Category:Receiving> <Category:Electronics> <Category:RedPitaya>

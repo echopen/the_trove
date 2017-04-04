@@ -1,0 +1,32 @@
+1.  Cahier des charges V0.1
+
+Prototype V0.1
+==============
+
+Le prototype suivant verra le jour pendant le mois d'octobre. La
+principale amélioration de cette version sera de remplacer la carte
+d'acquisition par un système électronique concu par echOpen avec pour
+objectif de mettre en évidence les difficultés liées à l'interfaçage USB
+et la programmation du microcontroleur.
+
+[Microcontroleur](Microcontroleur "wikilink")
+=============================================
+
+Le microprocesseur (à acheter avec le circuit de programmation) a pour
+tâche d'initier les séquences de tir suivant la position du transducteur
+donnée par les capteurs optiques, imposant ainsi une cadence du
+processeur suffisamment importante. Le signal transmis au transducteur
+dépendra des caractéristiques de ce dernier.
+
+Circuit électronique
+====================
+
+Circuit électronique simple. Le prototype étant toujours immergé dans
+l'eau, le signal reçu par le transducteur ne requiert pas de forte
+amplification, tout comme le signal émis. Les composants retenus sont:
+
+-   un CNA
+-   un CAN
+-   un émetteur et un récepteur optique
+-   un microprocesseur
+-   une mémoire (facultatif).

@@ -1,0 +1,68 @@
+1.  Article: Take a deep breath: the stethoscope is dying
+
+If you Google "Hugh Laurie" and "stethoscope", you will come up with a
+clutch of stories from February 2012 about how everybody's favourite
+pill-popping misanthropic physician is "hanging up his stethoscope"
+after eight seasons on the hit show House.
+
+This underlines a more general truth: doctors don't retire, they hang up
+their stethoscopes. Is there any profession so proverbially connected to
+one tool of their trade? Will people believe you are a doctor if you
+don't wear one?
+
+These questions become topical because the stethoscope is reportedly
+becoming obsolete, nearly 200 years after it was invented. Is it
+anything to do with the finding that a third of US stethoscopes used in
+emergencies were contaminated with methicillin-resistant Staphylococcus
+aureus (MRSA) bacteria? No, but it probably didn't help.
+
+Rather, according to this month's edition of the World Heart
+Federation's journal, Global Heart, the stethoscope is being replaced by
+more accurate and cheaper hand-held ultrasound devices.
+
+Upsetting news – at least for popular culture. What is every TV medic –
+from Kenneth Williams's Dr Tinkle in Carry On Doctor to Edie Falco's
+Nurse Jackie – without a stethoscope? And if, as the Global Heart report
+suggests, the handheld ultrasound devices that doctors of the future
+will be using look just like smartphones, how will we be able to tell
+the medics from the civilians in Casualty or Holby City?
+
+But there's good news. If the stethoscope does become obsolete, it will
+also spell the end for one excrescence: a T-shirt targeted at medical
+students saying "Keep calm and carry a stethoscope."
+
+The man who invented the stethoscope nearly 200 years ago was shy.
+French physician René-Théophile-Hyacinthe Laennec dreaded placing his
+ear on the patient's chest, especially when the patient was a woman. No
+offence to [Laennec](Laennec "wikilink"), but his patients probably
+didn't care for it either, especially if he had cold and/or especially
+hairy ears.
+
+Shyness is the unsung mother of invention. It's why Finns at Nokia
+invented texting (they couldn't bear face-to-face rejection when
+proposing dates) and why in 1816 Dr [Laennec](Laennec "wikilink") came
+up with his auscultatory prosthesis (initially, a tube).
+
+Only later, as TV history tells us, did stethoscopes become more
+sophisticated. In the 60s, Richard Chamberlain's Dr Kildare wore a
+stethoscope from a brand called Thumpy, whose earpieces clipped around
+the neck. By the time ER came along in the mid-90s, TV medics were
+wearing them with the tube around the neck like rubberised stoles. "The
+problem with that," says a GP acquaintance, "is they look cool but keep
+falling off." Only a doctor could use "cool" and "stethoscope" in the
+same sentence.
+
+How fortunate for [Laennecthat](Laennec "wikilink") he died before he
+could see the sexist uses to which popular culture would put his
+invention. In the 1957 film Doctor at Large, Dirk Bogarde's Dr Simon
+Sparrow uses a stethoscope during an examination of a girl who's been
+having chest problems. "Big breaths, Eva." "Yeth, and I'm only 16." Oh
+Lord: if that's what the stethoscope is going to be used for, it is just
+as well it is becoming obsolete.
+
+But is it? If we have learned nothing else from Star Trek, it's that, in
+the future, physicians – some of them aliens, admittedly – will be using
+stethoscopes. Who can forget that scene in which Phlox, the Denobulan
+chief medical officer aboard the Enterprise, treated the Klingon Klaang
+while wearing a (funky, space-agey) stethoscope? Not me. Rumours of the
+death of the stethoscope may be exaggerated.

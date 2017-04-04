@@ -1,0 +1,119 @@
+1.  Patent US3577772
+
+US3577772 : Device for diagnostic examination by ultrasonic oscillations
+========================================================================
+
+Invention date
+--------------
+
+May 8, 1967
+
+Inventeurs et beneficiaires
+---------------------------
+
+### Inventeur(s)
+
+-   -   [Michel Joseph Auphan](Michel_Joseph_Auphan "wikilink")
+-   [Jean Perihou](Jean_Perihou "wikilink")
+
+### Beneficiaires
+
+-   -   []( "wikilink")
+
+Abstract
+========
+
+Description(OCR text may contain errors) 730F626 SR Michel Joseph
+Auphan, Neuilly sur Seine, France 56 Referenaes Cited 21 App 637,000
+UNITED STATES PATENTS 522 ed g :33 3,332,278 71967 Wood et a1. 7367.7
+731 Assignees U S. Philips Co po a on 3,442,579 51969 Fnedberg 7367.7X
+New York Primary Examiner-Charles A. Ruehl i Prwmy r 1966 Attorney-Frank
+R. Trifari rance 5 60559 ABSTRACT: An ultrasonic device for examining
+the internal pans of the body comprising a plugalit ofpltrasonic
+transmitters mounted along a horizuntal line on a movable carriage 54
+DEVICE FOR DIAGNOSTIC EXAMINATION BY and triggered sequentially. A
+plurality of receivers is mounted m 3,577,772 J V .w'i- 1 1 P v 2
+Uluwu-ouuca 30 M 72 Inventors JeanPerill. 73675- BourgLaReine; --67.9;
+1282; BIO9.1;.
+
+`Q EI on theafi'iag mangave'nical line that intersects the horizontal line at right angles. The movement of the carriage is i i 521 US. Cl 7367.), synchronized with the deflection of an electron beam in a PF! 5 1282 cathoderay tube to provide a visual display athe surface 51 Int. Cl. G0ln 2904 contour of the internal body part under investigatiofiT Patented May 4, 1971 3,577,772 `\
+`INVENTORS JEAN PERILHOU MICHEL J. AUPHAN AGENT l l i DEVICE FOR DIAGNOSTIC EXAMINATION BY ULTRASONIC OSCILLATIONS The present invention relates to a device for diagnostic examination by means of ultrasonic oscillations. More particularly, the invention relates to a diagnostic apparatus in which the oscillations are employed for recording surface for nls, especially for echo observation of irregularly cu rve'd surfaces for topographical study of internal body parts. `\
+`It is known to examine internal body parts by means of ultrasonic oscillations which strike the reflecting surface in a directed, narrow beam. The required ultrasonic transmitter is displaced along a given path and, if necessary, turned about one or more axes. The rectilinear movement in two directions and the scan of a surface by the transmitter along a circular path during the oscillation of the transmitter around a central point, are considered to be necessary to capture the reflections from curved, reflecting surfaces, while the sound transmitter is moved as closely as possible along the outer surface of the body examined. `\
+`In order to avoid apparent reflections and inaccuracies in the topography due to differences in refractive indices, a liquid layer of appropriate composition is maintained between the ultrasonic transmitter and the surface of the body. `\
+`The mechanical construction of a device suitable for determining the spot of internal body parts in this way is particularly complicated and expensive. `\
+`The invention has for an object to avoid this disadvantage. According to the invention the ultrasonic transmitter is formed by a plurality of separate sources of ultrasonic oscillations arranged in a flat plane along a straight or a curved line and adapted to produce a sequence of ultrasonic waves of short duration in narrow beams directed to the body organ to be examined. In a plane at right angles to the plane of the transmitters there is arranged a plurality of receivers along a line which intersects the line of the transmitters. `\
+`One embodiment of the device according to the invention will be described hereinafter with reference to the accompanying drawing which is a diagrammatic illustration of an ap paratus for carrying out the invention. `\
+`The diagnostic device comprises a guide path I which is supported in a manner not shown and along which a carriage 2 is adapted to be displaced. By means of an arm 3 a crossshaped supporting frame 6 is connected with the carriage 2 for fixing two supports 4 and 5 located in orthogonal planes. The supports 4 and 5 may be straight, but one of them or both of then may be curved to a greater or lesser extent if this is desired for a particular kind of examination. In the device shown, which may be used for the examination of the skull of a patient, the supports are straight. The guide path I is curved and approximately matches the shape of the head. `
+
+- 17 has substantially the shape of a point, which is indicated Along
+the support 4, located in the horizontal plane, a plu- A rality of
+ultrasonic transmitters 7 are arranged. The transmitters connected with
+the support 4 so that their direction of radiation passes towards a
+point 8 inside the skull, the position of which point is considered to
+contribute to the topography of an internal organ. The lines 9 and 10
+are an approximate indication of such an organ.
+
+`The ultrasonic beam produced by the transmitters 7 propagates in a narrow angle 1 which is indicated on the drawing on an enlarged scale. When the carriage 2 is displaced along the guide path 1 the beams scan a linear region between the limits l1 and 12. `\
+`The tr tr s r nitters laresuccessively actuated for a short time Telectriejiile generator.l3-, which may be formed by known electric pulse circuits in conjunction with a distributor for applying the pulses produced ir r sequenc e to the various transmitters.l'hepulse sequences are repeated during the movement of the ciifriag7witht fi?supports 4 and 5 along the guide path 1. This movement is controlled by a controlmember 14 which regulates the speed of the carriage 2. The repetition frequency is chosen in accordance with the desired accuracy of the measuring results of each pulse sequence in dependence upon the displacement of the carriage in the course of each pulse sequence. `
+
+by the reflecting point 8. The central rays 18 and 19 of a transmitted
+sound wave and of a sound echo at point 8 connect this point with one of
+the transmitters 7 and one of the receivers 15. The location of the
+reflecting surface determines which of the receivers 15 will capture the
+sound wave of one of the transmitters 7 during a series of transmitted
+sound waves.
+
+`In order to provide topographical definition of the point 8, use is made of the known speed of propagation of ultrasonic waves through living tissue and the duration of time before a transmitted sound wave is received as an echo. This transit time of the ultrasonic wave is directly proportional to the sum of the distances along the paths 18 and 19 of the central beam, which may be determined by means of the displacement of a spot on the screen of a cathode-ray tube 20. In this case, the electron beam is controlled in a suitable manner, for example, across the screen of a cathode-ray tube so that the beam is cyclically deflected and the spot moves along successive radii. In the presence of an echo signal a control voltage is applied to the control electrode of the cathode ray system so that a spot 21 of greater brightness is produced. The distance of the spot 21 from the limit 22 of the surface scanned by the beam is pro portional to the lapse of time between the transmission and the reception of a sound wave. `\
+`Echo signals, captured in order of succession, are reproduced along different radii on the screen 20 since the control-member 14 controls not only the movement of the carriage 2 along the guide path I but also the deflection of the electron beam. As a result the direction of deflection of the beam varies synchronously with the displacement of the carriage. `\
+`The echo signals of the receivers 15 are applied along separate conductors 23 to a computer 24, whereas the control pulses for the transmitters 7 are supplied along the conductors 25. A number of invariable data, suchas the distances of each of the transmitters 7 from the center 0 of the cross-shaped supporting member 6 and of each of the receivers 15 from said center, can be stored in the computer 24. `\
+`The computer therefore serves for determining, at the reception of an echo signals, the length of the path of the sound wave from the relevant transmitter to the receiver capturing the echo concerned. This is done by a calculation utilizing the known speed of propagation and the measured time. `\
+`According to the equation: `
+
+position of point 8=Il21 v L 2L (a )+(a b The position of point 8 of an
+internal organ with respect to the center 0 can be determined from the
+length of the path found, in which: L=the sum of the distances 8 and 19,
+a the distance of the relevant transmitter from the center b the
+distance of the receiver of the echo signal from the center 0.
+
+`This equation can be derived by trigonometrical measurement. `
+
+We claim:
+
+`1. A device for examining internal body parts by means of ultrasonic waves comprising, ultrasonic transmitter means mounted for movement along the surface of the body, said ultrasonic transmitter means comprising a plurality of separate transmitters of ultrasonic oscillations arranged in a flat plane along a straight or curved line, control means for triggering said separate transmitters in sequence to produce sequentially ultrasonic waves of short duration in narrow beams directed to the body part to be examined, and a plurality of receivers arranged in a plane at right angles to the plane of the sound transmitters along a line which intersects the line of the sound transmitter, said receivers being mounted for movement with said transmitters along the surface of the body so as to intercept the ultrasonic waves propagating through the body after being reflected from the surface of the body part under examination. `\
+`2. A device  claimed in claim 1 further comprising, a carriagc member mounted for movement along a given guide path, a crossshaped support member mounted on said carriage, and first and second support arms fastened on said cross shaped support members, said transmitters and receivers being mounted on said first and second support arms, respectively. `\
+`3. A device as claimed in claim 2, characterized in that the guide path has a curved shape matching the curvature of the surface of the body having the organ to be examined. `\
+`4. A device as claimed in claim 2 further comprising a control member including means for displacing the carriage with the transmitters and receivers along said guide path, and said control means includes a controlsystem for repeating the sequential triggering of the transmitters during the displacement of the carriage. `\
+`5. A device as claimed in claim 1, characterized in that the repetition frequency of said control means is variable. `\
+`6. A device as claimed in claim 1 wherein said control means comprises, an electronic pulse generator, and a pulse distributor selectively interconnecting the output of said pulse generator with said separate transmitters 7. A device as claimed in claim 6 further comprising, means for moving said transmitters and receivers, a cathode ray tube with means for radially deflecting the electron beam across the display screen, a control member having its input coupled to the output of the pulse generator and a first output for controlling said moving means and thereby the movement of said transmitters and receivers and a second output for controlling the sweep of the cathode ray tube beam in synchronism with the movement of said transmitter and receivers. `\
+`8. A device as claimed in claim 6 furthencomprisingcomputer means coupled to the outputs of the pulse distributor and the outputs of said receivers and including means for determining the distance between a point on the surface of the W566i? that reflects the ultrasonic energy from a transmitter and the intersection point of said line of transmitters and said line of receivers by analyzing the transit time of the ultrasonic energy from a given transmitter to a given receiver. `
+
+Patents Backwards
+=================
+
+-   [Patent US3332278](Patent_US3332278 "wikilink")
+-   [Patent US3442579](Patent_US3442579 "wikilink")
+
+Patents Forwards
+================
+
+-   [Patent US3777740](Patent_US3777740 "wikilink")
+-   [Patent US3780725](Patent_US3780725 "wikilink")
+-   [Patent US3789833](Patent_US3789833 "wikilink")
+-   [Patent US3854471](Patent_US3854471 "wikilink")
+-   [Patent US3888238](Patent_US3888238 "wikilink")
+-   [Patent US3953825](Patent_US3953825 "wikilink")
+-   [Patent US3990300](Patent_US3990300 "wikilink")
+-   [Patent US4029084](Patent_US4029084 "wikilink")
+-   [Patent US4094306](Patent_US4094306 "wikilink")
+-   [Patent US4106348](Patent_US4106348 "wikilink")
+-   [Patent US4109642](Patent_US4109642 "wikilink")
+-   [Patent US4209022](Patent_US4209022 "wikilink")
+-   [Patent US4269066](Patent_US4269066 "wikilink")
+-   [Patent US4456982](Patent_US4456982 "wikilink")
+-   [Patent US4747411](Patent_US4747411 "wikilink")
+-   [Patent US4821728](Patent_US4821728 "wikilink")
+-   [Patent USRE32323](Patent_USRE32323 "wikilink")
+-   [Patent USRE34566](Patent_USRE34566 "wikilink")
+-   [Patent EP0018771A1](Patent_EP0018771A1 "wikilink")
+
+<Category:Patents> <Category:Brevets> <Category:CoolHand>

@@ -1,0 +1,62 @@
+1.  Category:Emission
+
+Objective
+=========
+
+-   **Objective**
+    -   Sending a short pulse at minus HV to get the pulse.
+-   **Requirements**
+    -   Getting a « top » to pulse
+    -   As short as possible
+    -   As high voltage as possible (within specs)
+
+Bibliography
+============
+
+<http://www.biosono.com/ElctLgd/ElctLgd.php?id=ED_UP>
+-----------------------------------------------------
+
+### Presentation
+
+![](TrnsUnplSch.PNG "TrnsUnplSch.PNG")
+
+<File:TrnsUnplSch.PNG> | Schematics <File:TrnsUnplWavN.PNG> | Long
+pulses <File:TrnsUnplWav.PNG> | Short pulses
+
+### Description
+
+This circuit transmits a short pulse at a low duty factor level, mainly
+for diagnostic applications. When there is no transmit signal, the
+MOSFET M1 is off and the capacitor C1 is charged through R1 by HV. When
+a transmit trigger signal arrives at the gate of M1, it will cause M1 to
+turn on and C1 will discharge to the load transducer (RL). A negative
+pulse will be applied on the transducer. The pulse width is determined
+by the time constant: Τ = RC.
+
+### Guideline for the Component Value Selection
+
+-   R1: provides a charging current to C1 through HV. Its value is
+    determined by the period of the pulse repetition. It has to be small
+    enough to let C1 fully charged before the next transmit. If it is
+    too small, big current will go through it when M1 is turned on,
+    causing C1 not discharge properly to the load, or even the damage
+    of M1.
+-   M1: Three parameters for M1 are important.
+    -   Vds: how much voltage it can handle. This parameter has to be at
+        least 1.2 times higher than your pulse amplitude. For example,
+        if you want to transmit a 100v negative pulse on the transducer,
+        the Vds for M1 should be 120 - 150 v.
+    -   Cgs, tr, tf: Switch speed. These parameters determine how fast
+        M1 can turn on/off. Tr, tf, is determined by Cgs, and
+        testing circuit. With a special designed driving circuit, a
+        faster switch speed can be achieved. Normally, tr/tf should be
+        less than a quarter of your center period. If you excite the
+        circuit at 10MHz, the center period is 100ns, and tr+tf should
+        be less than 50ns.
+    -   RDS(on): the on resistance. It should be less than five percent
+        of the transducer impedance.
+-   C1:
+    -   Voltage tolerance: should be at least 1.5 times higher than HV.
+    -   Capacitance: determined by the pulse width and
+        transducer impedance. The time constant, RC, should be less than
+        20 percent of the pulse width.

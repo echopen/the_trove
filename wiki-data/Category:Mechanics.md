@@ -1,0 +1,45 @@
+1.  Category:Mechanics
+
+Frame rate related to image definition
+--------------------------------------
+
+### Frame rate *vs.* number of lines
+
+Depending on the number of lines in an image, it is simple to determine
+the maximum frame rate accessible to a probe. This frame rate depend if
+we use a sweep mechanism of a rotary mechanism.
+
+Sweep mechanism
+
+When we use a sweep mechanism, the image is done on the whole rotation
+of the motor, the maximum frame rate is given by:
+
+`f_r = \dfrac{c}{2d_{max}N_l} = 18 fps. (1)`
+
+At contrary if we consider we want a frame rate at 10 fps, we can
+determine the maximum number of line at a given frame rate:
+
+`N_l = \dfrac{c}{2d_{max}F_r} = 385 lines. (2)`
+
+Rotary mechanism
+
+With this kind of mechanism, the transducer make a whole turn when the
+motor do also a turn, so it can be used only during the given sector
+angle. So with only one transducer, the maximum frame rate is:
+
+`f_r = \dfrac{c}{2d_{max}N_l}\dfrac{s}{2\pi} = 3 fps. (3)`
+
+So for our purpose, by using only one transducer, we must use a sweep
+mechanism to access a convenient frame rate.
+
+Interesting pages
+-----------------
+
+-   [BBB Servomotor wiring](BBB_Servomotor_wiring "wikilink"): a quick
+    hack to get the transducer moving
+-   For piezo motors, the category
+    [:Category:PiezoActuator](:Category:PiezoActuator "wikilink") is
+    great to read!
+
+Bibliography
+------------
