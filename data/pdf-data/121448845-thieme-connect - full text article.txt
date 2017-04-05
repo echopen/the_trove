@@ -1,0 +1,551 @@
+Home
+Subject List
+Alphabetical List
+Help
+FAQ
+Highlights
+Deutsche Version
+Quick Search
+Advanced Search >>
+Single Articles
+View Shopping Cart
+LogIn
+Username
+Password
+Register Now
+Full text article Contact Us
+Reflexe Ultraschall Med 2005; 26: 368-375
+DOI: 10.1055/s-2005-919739
+40 Jahre Realtime-Ultraschall-Schnittbild-Diagnostik
+40 Years of Real-Time Ultrasound Diagnostics
+Und wie ging es weiter?
+40 Years of Real-Time Ultrasound Diagnostics
+And how did it go on?
+Show figure (new window)
+Vortrag von Prof. Hans-Jürgen Holländer, Dinslaken, gehalten anlässlich der
+Eröffnung der "Ultraschallkoje" im Deutschen Röntgenmuseum in Remscheid.
+Sehr verehrte Kolleginnen und Kollegen,
+anläßlich der Eröffnung einer Ultraschallabteilung im Röntgenmuseum in
+Remscheid-Lennep hat Herr Professor Lutz mich eingeladen, Ihnen über die
+Anfänge der Realtime-Sonographie vor 40 Jahren zu berichten.
+Als Gynäkologe fühle ich mich dem Vater der gynäkologisch-geburtshilflichen
+Sonographie, lan Donald, zu Dank verpflichtet, weshalb ich hier zunächst an ihn
+erinnern will. Er begann 1955 in Glasgow mit der Untersuchung
+gynäkologischer Tumoren, worüber er 1958 erstmals berichtete. Wie auch
+andere Pioniere der Ultraschalldiagnostik, z.B. De Vlieger 1957 in der Neurologie
+sowie Edler und Hertz in der Kardiologie, benutzte Donald zunächst ein
+Materialprüfgerät im eindimensionalen A-mode-Verfahren. Auch diese Methode
+ist ja ein Realtime-Verfahren.
+Ende der 50er und Anfang der 60er Jahre wurden dann an mehreren Orten in
+verschiedenen Kontinenten zweidimensionale Schnittbildgeräte entwickelt, teils
+mit, teils ohne Wasservorlaufstrecke. Alle diese Geräte arbeiteten mit einer sog.
+Speicherröhre, auf welcher während des Abtastvorganges innerhalb von 1-2
+Minuten ein Schnittbild der untersuchten Körperregion aufgebaut wurde. Dieses
+Verfahren war also zeitaufwendig, und die auf der Speicherröhre erzeugten
+Bilder waren hart, schwarz /weiß, ohne Grautöne. Außerdem konnten
+Bewegungsartefakte infolge des langsamen Bildaufbaus auftreten. Außer zur
+Untersuchung gynäkologischer Tumoren und des schwangeren Uterus wurden
+auch schon zu dieser Zeit Untersuchungen der weiblichen Brust vorgenommen -
+vor allem in Japan und den USA. Dabei wurde In der Differenzialdiagnostik von
+Mammatumoren eine Treffsicherheit von etwa 90% erreicht. Jedoch war das
+Verfahren wegen des schlechten Auflösungsvermögens, des Fehlens von
+Grautönen und des hohen Zeitaufwandes noch nicht mit der
+Röntgenmammographie konkurrenzfähig.
+Das ließ dem jungen Ingenieur Richard Soldner bei der Firma Siemens in
+Erlangen keine Ruhe. Er konstruierte in den Jahren 1962 bis 1964 ein Gerät,
+welches mit einer automatischen Abtastung eine Bildfrequenz von zunächst 10,
+später 16 Bildern pro Sekunde erreichte, so dass das erzeugte Schnittbild
+direkt, real-time, auf dem Bildschirm betrachtet werden konnte. Dadurch ließen
+sich die Nachteile der Speicherröhre vermeiden, so dass auf dem Bildschirm
+nun auch Graustufen abgebildet werden konnten. Außerdem war die Abtastung
+schnell, so dass die weibliche Brust innerhalb weniger Minuten in zahlreichen
+Schnittebenen untersucht werden konnte. Insofern erfüllte das Gerät einige
+Voraussetzungen für ein Mammakarzinom-Screening, welches Soldners Idee
+war. Da es für die Untersuchung der weiblichen Brust konzipiert war, genügte
+auch in der Regel eine Eindringtiefe von 12 cm. Und eine entsprechend lange
+Wasservorlaufstrecke brachte das Bild aus der Nahzone des Schallkopfes und
+dem Bereich von sog. Wiederholungsechos heraus.
+Bei einer ersten Erprobung des Geräts in der Universitäts-Frauenklinik
+Würzburg im Jahr 1962 erfüllte dieses aber nicht die darin gestellten
+Erwartungen. - Nach einer Verbesserung kam das Gerät 1965 in die
+Universitäts-Frauenklinik Göttingen, wo man sich schon seit einiger Zeit mit der
+Messung des knöchernen Beckens mittels des eindimensionalen A-Mode
+befasste. Aber auch für die Beckenmessung war Soldners Gerät ungeeignet.
+Auf der Suche nach einer geeigneten Anwendungsmöglichkeit kam das Gerät
+dann 1965 zur Erprobung in die Universitäts- Frauenklinik Münster; denn ein
+Assistent der Klinik, Dr. P. Weiser, hatte sich 1964 bei der Firma Siemens nach
+Möglichkeiten der Ultraschalldiagnostik im Bauchraum erkundigt. Außerdem
+hatte ein Oberarzt der Klinik, Prof. Dr. D. Hofmann, familiäre Verbindungen zur
+Firma Siemens.
+Table of contents
+Service
+Download
+bibliographical data
+NOV. MAI JANV.
+26
+2005 2006 2011
+6 captures
+3 nov. 05 - 7 juil. 14
+Close
+Help
+Thieme-connect - Full text article https://web.archive.org/web/20060526055441/http://www.thieme-conn...
+1 sur 7 24/11/2014 18:05
+Der Apparat, der später den Namen "Vidoson" erhielt, bestand aus drei Teilen:
+einem fahrbaren Röntgenstativ, welches links das Sichtgerät (ein modifiziertes
+Materialprüfgerät System Krautkrämer) mit einem Photovorsatz und rechts an
+einem in drei Dimensionen beweglichen Arm den von Soldner entwickelten
+Ultraschallapplikator trug (Abb. [1]).
+Show figure (new window)
+Abb: 1 Der Prototyp des "Vidoson" der Fa. Siemens, 1966/67.
+"Vidoson" prototype by Siemens, 1966/67.
+Das Abtastprinzip geht aus Abb. [2] hervor: Im Brennpunkt eines
+Parabolspiegels dreht sich die Schallquelle innerhalb eines Wasserbades. Die
+Schallimpulse werden gegen den Parabolspiegel ausgesandt und von diesem -
+fokussiert - auf die das Wasserbad abschließende Folie reflektiert. Dreht sich die
+Schallquelle, so resultiert eine parallele Verschiebung des vom Parabolspiegel
+reflektierten Ultraschallstrahls. Die Ultraschallimpulse treten infolgedessen
+parallel zueinander in den unter der Folie liegenden Körperteil ein. Auf
+umgekehrtem Weg erreichen die Echos den Schallkopf, der jeweils nach
+Aussendung eines Impulses von Sendung auf Empfang umgeschaltet wird.
+Show figure (new window)
+Abb: 2 Darstellung des Scanprinzips des Vidoson.
+Illustration of the Vidoson scanning principle (according to Soldner and
+Krause, Biomedizinische Technik 1971; 16[3]).
+Die Bildfrequenz betrug etwa 16 Bilder pro Sekunde. Die Abtastung erfolgte
+über eine Breite von 13-14 cm, und die Eindringtiefe betrug bei dem ersten von
+uns getesteten Prototyp max. 12 cm. (Die Eindringtiefe wurde später auf 16
+und schließlich sogar auf 20 cm vergrößert.) Das Gerät arbeitete mit einer
+Ultraschallfrequenz von 2,5 MHz. Die Impulsdauer betrug etwa l msec. Die
+mittlere Ultraschallintensität wurde von der Firma Siemens mit ca. 3 mW/cm²
+angegeben, die Intensität des einzelnen Impulses mit ca. 10 Watt/cm². Durch
+eine motorische Verschiebung des Strahlerkopfes innerhalb des
+Schallapplikators (Abb. [3]) konnte die Schnittebene um max. 3,5 cm parallel
+verschoben werden, ohne den Schallapplikator zu bewegen. Diese Möglichkeit
+konnte beim Aufsuchen der günstigsten Schnittebene hilfreich sein.
+Show figure (new window)
+Abb: 3 Ultraschallapplikator des Vidoson.
+Ultrasound transducer of the Vidoson.
+Zur Beeinflussung der Bildqualität waren drei Regulierknöpfe vorhanden: 1. für
+die Echoverstärkung, 2. für den Tiefenausgleich und 3. für die
+Verstärkerschwelle. Bei den ersten Apparaten waren diese Knöpfe noch seitlich
+hinten am Sichtgerät relativ schwer zugänglich angebracht und durch eine
+Klappe verdeckt.
+Mit dem Gerät wurde uns eine größere Publikation von Sunden übergeben.
+Dieser hatte eine Weile bei Donald gearbeitet und dann aufgrund seiner
+Erfahrungen mit dem von Donald u. Mitarb. in Glasgow entwickelten
+Compoundscanner in Lund eine Dissertationsschrift erstellt. Hieraus lernten wir
+die Möglichkeiten und Grenzen der Compound-Sonographie kennen.
+Allein gelassen mit dem Gerät versuchten wir nun zunächst das zu
+reproduzieren, was Sunden publiziert hatte. Unser erstes Ziel war die
+Darstellung gynäkologischer Tumoren, z.B. Myome und Ovarialtumoren. Hierbei
+waren wir rasch erfolgreich (Abb. [4]). Wir wunderten uns allerdings zunächst,
+dass die Binnenstruktur der Myome nicht zur Darstellung kamen, bis wir
+lernten, mit dem unter dem Kläppchen verborgenen Regulierknopf
+"Verstärkerschwelle" zu spielen. Durch Senkung der Verstärkerschwelle wurden
+nun auch Binnenstrukturen sichtbar (Abb. [5] ), und zwar besser als auf den
+Bildern von Sunden, der ja mit einer Speicherröhre arbeitete. Nachdem das
+neue Gerät zunächst von manchen Kollegen mit Skepsis oder gar Spott
+betrachtet worden war, änderte sich deren Einschätzung, als es mir gelang, bei
+einer 81-jährigen, adipösen Patientin eindeutig einen Ovarialtumor darzustellen,
+der vorher selbst in Narkose nicht getastet worden war.
+Show figure (new window)
+Abb: 4 Echogramm eines Myoms (Querschnitt) aus dem Jahr 1965. Die
+Zeilenabstände des Rasters auf diesem und den folgenden Abb.
+entsprechen einer Entfernung von 2 cm innerhalb des Körpers. Bei hoher
+Verstärkerschwelle erscheint der Tumor echoleer. - Man beachte auch
+die gute Darstellung der Schichten der Bauchdecke. - Oben ein
+Längsschnitt des Operationspräparates.
+Echogram of a myoma (cross section) from 1965. The line spacing of the
+grid in this and the following image represents a distance of 2 cm in the
+body. When the enhancement threshold is set high, the tumour appears
+anechoic. - Notice the precise depiction of the different layers of the
+abdominal wall. - Above: longitudinal section of the surgical specimen.
+NOV. MAI JANV.
+26
+2005 2006 2011
+6 captures
+3 nov. 05 - 7 juil. 14
+Close
+Help
+Thieme-connect - Full text article https://web.archive.org/web/20060526055441/http://www.thieme-conn...
+2 sur 7 24/11/2014 18:05
+sowohl bei Einstellung 4,5 des Tiefenausgleichs (unten) als auch bei
+Einstellung 0 (oben) deutlich dargestellt wird.
+Sonographic image of a solid ovarian tumour. Distinct internal structure
+of the tumour at low enhancement threshold. The tumour displays good
+sound conduction, so that its dorsal wall is depicted clearly when depth
+gain correction is set at 4,5 (lower image) as well as at 0 (upper image).
+Unser zweites Ziel war die Diagnostik in der 2. Schwangerschaftshälfte. - 1965
+wurde in unserer Klinik bei ca. 10% aller zur Entbindung eingewiesenen Frauen
+eine Röntgenuntersuchung durchgeführt. Typische Fragestellungen waren:
+Zwillinge? Intrauteriner Fruchttod? Hydrocephalus? Anenzephalus? Unklare Lage
+des Kindes. Nach und nach stellten wir fest, dass sich diese Fragen zum großen
+Teil auch durch eine Ultraschalluntersuchung beantworten ließen. Nur eine
+Beckenmessung war nicht möglich.
+Nach 8 Wochen wurde die erste Erprobungsphase beendet und das Gerät nach
+Erlangen zurückgeholt. Unser - vorwiegend positives - Resümee stellten wir am
+10. November 1965 in der Med. Gesellschaft in Münster vor. Die Firma Siemens
+war dadurch ermutigt, die Entwicklung des neues Gerätes fortzuführen, so dass
+wir ab dem 1. März 1966 nochmals für 3 Monate Gelegenheit bekamen, die
+Erprobung fortzusetzen.
+In der zweiten Schwangerschaftshälfte ergaben sich jetzt neue diagnostische
+Möglichkeiten. In jener Zeit hatten wir noch viele Schwangere mit
+Rhesusinkompatibilität zu betreuen. Die Techniken der diagnostischen
+Amniozentese und der intrauterinen, intraperitonealen Bluttransfusion wurden
+entwickelt. Dabei erhob sich die Frage, ob man im Ultraschallbild nicht die
+Plazenta darstellen könne. Wir versuchten es - und es klappte. Nun wurde vor
+jeder Amniozentese und jeder intrauterinen Transfusion eine
+Plazentalokalisation mittels Ultraschall vorgenommen. Dabei beobachteten wir
+erstmals bei schwerer Rhesus-Inkompatibilität eine hydropische Verdickung der
+Plazenta (Abb. [6]) und die Zeichen eines Hydrops des Kindes (Aszites und
+Doppelkontur am Kopf infolge der ödematösen Verdickung der Haut, Abb. [7]).
+Ein intrauteriner Fruchttod war wie im Röntgenbild nach einigen Tagen an einer
+Deformierung des kindlichen Schädels zu erkennen (Abb. [8]). Aber wir
+entdeckten plötzlich auch ganz neue Möglichkeiten des Realtime-Verfahrens:
+Wir konnten im Ultraschallbild Bewegungen des Kindes und seinen Herzschlag
+beobachten. Und so konnten wir einen intrauterinen Fruchttod nicht wie bisher
+erst nach mehreren Tagen, nach Auftreten der Mazerationszeichen erkennen,
+sondern sofort, nämlich durch die Beobachtung des Herzstillstandes.
+Show figure (new window)
+Abb: 6 Stark verdickte Plazenta bei schwerer Rhesusinkompatibilität
+(Hydrops placentae).
+Highly thickened placenta in a case of severe Rhesus-incompatibility
+(placental hydrops).
+Show figure (new window)
+Abb: 7 Kindlicher Schädel mit Doppelkontur infolge Hydrops bei
+schwerer Rhesus-Erythroblastose. 30. Schwangerschaftswoche.
+Fetal head displaying a double contour due to hydrops from severe
+Rhesus-erythroblastosis (30th gestational week).
+Show figure (new window)
+Abb: 8 Schädel eines infolge einer schweren Gestose intrauterin in der
+33. Woche abgestorbenen Kindes. Deformierung des Schädels infolge
+Mazeration.
+Fetal skull after intra-uterine death in the 33rd week due to severe
+gestosis. The skull has been deformed by maceration.
+An die Möglichkeit, im Realtime-Bild Bewegungen zu beobachten, hatte Soldner
+bei der Entwicklung des Gerätes noch nicht gedacht. Nachdem wir in der
+zweiten Schwangerschaftshälfte so atemberaubende Ergebnisse erzielt hatten,
+setzten wir das Gerät zunehmend auch in der ersten Schwangerschaftshälfte
+ein. Krause und Soldner hatten uns versichert, dass mit der niedrigen
+zugeführten Ultraschallenergie keine Schäden beim Embryo verursacht werden
+könnten. Auch Sunden war aufgrund seiner Literaturrecherche, eigener
+Erfahrung und eigener Tierexperimente zu dem Ergebnis gekommen, dass
+diagnostischer Ultraschall keine Schäden am Embryo und an den Ovarien
+verursache.
+Der schwangere Uterus war damals vor der 20. Schwangerschaftswoche
+diagnostisch noch ein "schwarzes Loch". Der Embryo bzw. Fetus war weder
+darstellbar, noch war sein Herzschlag so früh festzustellen. Und Bewegungen
+des Kindes werden von der Mutter ja erst ab etwa der 20. Woche
+wahrgenommen.
+Schon bald konnten wir 1966 während der zweiten Erprobungsphase den
+Embryo ab der 12. Woche p.m. darstellen und seine Bewegungen beobachten;
+die Herzaktion ließ sich ab der 13. Woche erkennen. Wir konnten mit Ultraschall
+NOV. MAI JANV.
+26
+2005 2006 2011
+6 captures
+3 nov. 05 - 7 juil. 14
+Close
+Help
+Thieme-connect - Full text article https://web.archive.org/web/20060526055441/http://www.thieme-conn...
+3 sur 7 24/11/2014 18:05
+des Schwangerschaftsalters genauer wurde, als wenn - wie bisher publiziert -
+die Messung erst nach der 30. Woche vorgenommen wurde.
+Show figure (new window)
+Abb: 9 Die Köpfe von Zwillingen in der 17. Woche.
+The heads of twins in the 17th week.
+Show figure (new window)
+Abb: 10 Blasenmole in der 18. Woche p.m.
+Hydatidiform mole in the 18th week.
+Unsere neuen Erkenntnisse über die Bedeutung der Ultraschalldiagnostik für die
+Geburtshilfe wurden 1967 publiziert. Danach entschied sich die Firma Siemens,
+eine kleine Serie des neuen Gerätes zu bauen. Es erhielt den Namen "Vidoson",
+1967 konnten wir die Nr. l in Betrieb nehmen. Außer einigen anderen
+Verbesserungen war auf unser Drängen hin die Eindringtiefe auf 15-16 cm
+vergrößert worden.
+Das Vidoson war in unserer Klinik inzwischen allgemein als eminent wichtiges
+diagnostisches Instrument anerkannt. Die Untersuchungsfrequenz stieg von
+Jahr zu Jahr, während die Zahl der Röntgen-Schwangerschaftsaufnahmen um
+über 90% abnahmen. Da die Kollegen der Med. Klinik von der Existenz der
+neuen diagnostischen Möglichkeit gehört hatten, kamen sie auch zunehmend
+häufig mit Patienten, die eine vergrößerte Leber und/oder Milz hatten, Aszites
+oder einen Pericarderguss. So blieb unsere diagnostische Tätigkeit nicht auf
+gynäkologische Fälle beschränkt (Abb. [11]). Das Vidoson wurde ab etwa 1967
+auch in anderen deutschen Frauenkliniken eingesetzt, z.B. in Aachen, Essen,
+Frankfurt, München und Tübingen.
+Show figure (new window)
+Abb: 11 Vergrößerte Milz bei Leberzirrhose.
+Enlarged spleen in a case of cirrhosis of the liver.
+1969 fand in Wien der erste Ultraschall-Weltkongress statt. Dort trugen 13
+gynäkologisch-geburtshilfliche Arbeitsgruppen aus aller Welt ihre Ergebnisse
+mit der Schnittbilddiagnostik vor. Nur 3 von ihnen arbeiteten zu dieser Zeit mit
+dem Vidoson, alle anderen mit Compound-Geräten. Und so entstand eine
+lebhafte Diskussion über die Vor- und Nachteile der verschiedenen Methoden,
+die noch etwa 10 Jahre anhielt, bis sich das Realtime-Verfahren allgemein
+durchsetzte.
+In Wien lernte ich 1969 auch Herrn Rettenmaier kennen, den Pionier der
+Vidoson-Anwendung auf internistischem Gebiet. Er trug dort seine
+Untersuchungsergebnisse über normale und krankhafte Ultraschallreflexionen in
+der Leber vor. Danach hatte er heftigen Streit mit den Anwendern der
+Compound-Technik mit Speicherröhre, welche die normale Leber echoleer
+fanden, während Rettenmaier mit dem Vidoson auch in der normalen Leber ein
+Echomuster fand. Rettenmaier bezeichnete später die fehlende Darstellung von
+Grauwerten als einen Geburtsfehler der Speicherbild-Technologie, welcher erst
+1977 durch eine neue Grauwerttechnik des Compoundscan-Verfahrens beseitigt
+wurde.
+Top of Page
+Und wie ging es weiter?
+Das Vidoson fand nach 1969 weite Verbreitung in der Frauenheilkunde und der
+Inneren Medizin, vorwiegend in Deutschland, dagegen nicht im anglo-
+amerikanischen Raum. Es wurden über 3000 Geräte produziert. Das Ende der
+Vidoson-Ära begann sich 1975 abzuzeichnen, als auf dem ersten Europäischen
+Ultraschall-Kongreß in München von der Firma ADR das erste serienmäßig
+hergestellte Gerät mit einem elektronischen Linear-Array vorgestellt wurde. Die
+Firma Siemens reagierte darauf mit einer weiteren Verbesserung des Vidosons.
+Das neue Vidoson 735 konnte dann aber nicht mehr lange mit den billigeren
+und handlicheren Geräten mit elektronischer Abtastung konkurrieren. Etwa
+1980 wurde die Produktion des Vidosons eingestellt.
+Es bleibt aber das Verdienst von Richard Soldner, dass er weltweit als erster die
+Vorteile der Realtime-Schnittbild-Diagnostik gesehen und seine Idee in die Tat
+umgesetzt hat. Im vergangenen Jahr hat er in Würdigung seiner Arbeit von der
+ISUOG (International Society of Ultrasound in Obstetrics and Gynecology ) die
+Ian Donald Medal for Technical Development erhalten. - Ich persönlich bin
+dankbar, dass ich bei der Geburt der Realtime-Sonographie auf dem Gebiet der
+Frauenheilkunde Geburtshilfe leisten durfte.
+Literaturhinweise beim Autor
+Hans-Jürgen.Holländer, Dinslaken, Email: hjhollaender@t-online.de
+Die Ultraschallaufnahmen stammen alle aus den Jahren 1965-1967.
+Top of Page
+NOV. MAI JANV.
+26
+2005 2006 2011
+6 captures
+3 nov. 05 - 7 juil. 14
+Close
+Help
+Thieme-connect - Full text article https://web.archive.org/web/20060526055441/http://www.thieme-conn...
+4 sur 7 24/11/2014 18:05
+This lecture on the occasion of the opening of the "Ultraschallkoje" in the
+German Roentgen museum was given by Professor Hans Hans-Juergen
+Holländer.
+Dear colleagues,
+On the occasion of the opening of the sonography department of the Röntgen
+museum in Remscheid-Lennep Professor Lutz has invited me to inform you
+about the beginnings of real-time ultrasound.
+A gynaecologist myself, I feel obliged to the father of gynaecological and
+obstetric sonography, Ian Donald, and I would like to look back on his work. In
+1955 he started to examine gynaecological tumours in Glasgow and first
+published his findings in 1958. Like other pioneers of ultrasound diagnostics as
+De Vlieger in neurology in 1957 and Edler and Hertz in cardiology, he first used
+a tool for material testing in a one-dimensional mode. This is also a real-time
+method.
+In the end-fifties and beginning of the sixties, two-dimensional ultrasound
+appliances with or without water coupling were developed in several places on
+different continents. These appliances used a so-called cathode-ray tube, in
+which a sectional image of the area examined was stored during the scanning
+procedure over a time of one to two minutes. As you can tell, this procedure
+was time-consuming, and the images produced by the cathode-ray tube were of
+high contrast, black and white, without gray-scaling. Due to the low speed of
+image formation, motion artefacts were also produced.
+In addition to scanning of gynaecological tumours and the pregnant uterus,
+examinations of the female breast were also carried out at this time, especially
+in Japan and the USA. The differential diagnosis of breast tumours reached an
+accuracy of 90 %. This method was no competition for x-ray mammography at
+the time, however, due to poor resolution, the absence of gray-scaling and the
+amount of time required for the examination.
+This problem motivated young engineer Richard Soldner, working for Siemens
+in Erlangen. Between 1962 and 1964, he constructed an appliance which could
+produce an image frequency of 10, later up to 16 images per second with the
+help of automatic scanning. The image could therefore be observed directly on
+the screen, in real-time. The disadvantages of the cathode-ray tube could thus
+be avoided, and gray- scaling could be used. Scanning was also quick, so that
+the female breast could be examined in multiple sectional planes within a few
+minutes. The machine therefore fulfilled some of the criteria for screening
+examinations of carcinomas of the breast, which was Soldner's idea. As the
+scanner was meant to be used for the female breast, a penetration depth of 12
+cm was usually adequate. A sufficiently long water-coupling device helped to
+position the image far enough away from the scanner and out of the zone of
+so-called reverberation echoes.
+A first test of this scanner in the university hospital of Würzburg in 1962 did not
+meet the expectations. After some improvements, the scanner was taken to the
+university hospital of gynaecology in Göttingen, where measurements of the
+bony pelvis through one-dimensional A-mode ultrasound had been carried out
+for some time. Soldner's scanner, however, was not suitable for measurements
+of the pelvis, either. During the search for suitable applications the scanner was
+then taken to the gynaecological university hospital in Münster for assessment ,
+since a doctor of this hospital, Dr. P. Weiser, had been inquiring at Siemens in
+1964 about the possibilities of using ultrasound for abdominal examinations.
+Also, a senior doctor of this department, Prof. Dr. D. Hofmann, had family
+connections with Siemens.
+On 29th July, 1965, the scanner was delivered by Mr. Soldner and the head of
+his laboratory, Dipl.-Ing. W. Krause. I was the youngest trainee doctor at the
+time, and as I did not yet have my own working field, I was assigned to test
+this scanner. The scanner, which was later named "Vidoson", consisted of three
+parts: a mobile x-ray support, which had a monitor on the left (a modified
+appliance for material testing -System Krautkrämer-) with a photographic unit
+attached to it, and, on the right, an arm which could be moved in three
+dimensional planes, carrying the ultrasound transducer which had been
+developed by Soldner (Fig. [1]).
+The scanning principle is explained in Fig. [2]: The acoustic source turns inside
+a water-bath in the focus of a parabolic mirror. The sound impulses are directed
+towards the parabolic mirror and, after being focused, get reflected onto the foil
+which closes off the water-bath. When the acoustic source turns, a parallel shift
+of the ultrasonic pulse reflected off the parabolic mirror occurs. The ultrasonic
+impulses therefore enter the body below the foil parallel to each other. On the
+way back, the echoes thus reach the transducer, which is switched from
+emission to reception mode after each pulse emission.
+The image frequency was about 16 per second. The length of the scanning field
+measured around 13-14 cm, and penetration depth reached down to a
+maximum of12 cm in the first prototype tested by us. (Penetration depth was
+later increased to 16 cm and eventually even to 20 cm.) The scanner worked
+with an ultrasound frequency of 2,5 MHz. The pulse duration was 1 µsec.
+According to Siemens, the average ultrasound intensity was around 3mW/cm²,
+the intensity of the single impulse about 10 Watt/cm². An automatic lateral
+NOV. MAI JANV.
+26
+2005 2006 2011
+6 captures
+3 nov. 05 - 7 juil. 14
+Close
+Help
+Thieme-connect - Full text article https://web.archive.org/web/20060526055441/http://www.thieme-conn...
+5 sur 7 24/11/2014 18:05
+for depth gain correction, the third for enhancement threshold. The first
+machines had these knobs hidden away on the side of the monitor, covered by a
+flap.
+Accompanying the scanner was a lengthy publication by Sundén who had
+worked with Donald for a period of time and finally compiled a dissertation in
+Lund, based on his experience with the compound scanner which Donald and
+colleagues had designed in Glasgow. This helped us to understand the scope
+and the limitations of compound sonography.
+Left to our own device with this scanner, we first tried to reproduce Sundén's
+results. Our 1st goal was the imaging of gynaecological tumours like myomas
+and ovarian tumours. We were soon successful (Fig. [4]), but were wondering
+why we could see no internal structure inside the myomas. Only later we
+learned to play around with the regulator dial "enhancement threshold" which
+was hidden underneath a flap. By reducing the threshold we managed to
+visualise internal structures, as well (Fig. [5]), partly even better than Sundén,
+who used a cathode-ray tube. After some colleagues had first viewed the new
+scanner with scepticism and even laughed about it, they revised their attitude
+after I managed to demonstrate an ovarian tumour in a 81-year-old overweight
+patient which had not previously been diagnosed even through palpation under
+general anaesthetic.
+Our 2nd goal was diagnostics in the second part of pregnancy. In 1965 about
+10% of women being admitted for delivery were x-rayed in our hospital. The
+typical questions were: twins?, intrauterine death?, hydrocephalus?,
+anencephaly?, uncertain fetal position. We came to realise that most of these
+questions could also be answered through ultrasound. Measuring the pelvis,
+however, was not possible.
+After eight weeks, the first testing phase was finished, and the scanner was
+taken back to Erlangen. We presented our -mostly positive- conclusions to the
+Medical Society in Münster on 11th Nov., 1965. This encouraged Siemens to
+keep on working on the design of a new scanner, and we could therefore
+continue our tests for a further 3 months, starting on 1st March, 1966.
+New diagnostic possibilities developed for the second half of pregnancy. We had
+to handle many pregnancies with Rhesus-incompatibility in those times, and
+techniques of diagnostic amniocentesis and intrauterine, intraperitoneal blood
+transfusions were being developed. We therefore wondered whether it was
+possible to sonographically visualise the placenta, which proved to be
+successful. Consequently, we routinely located the placenta before each
+amniocentesis and each intrauterine transfusion. We then observed for the first
+time a hydropic thickening of the placenta in the case of severe Rhesus-
+incompatibility (Fig. [6]), and also signs of fetal hydrops (ascites and double
+contour of the skull due to an oedematous thickening of the skin, Fig. [7]).
+Similar to the appearance on x-ray, intrauterine death could be diagnosed from
+deformation of the fetal head after several days. (Fig. [8]). But we also
+suddenly discovered completely novel potentials of real-time ultrasound: we
+could observe fetal movements and heartbeat. It was therefore possible to
+diagnose intrauterine death immediately on the basis of cardiac arrest, without
+having to wait for the appearance of signs of maceration after several days.
+When developing the scanner, Mr. Soldner had not been aware of the possibility
+of observing movement with the real-time method.
+After having achieved such breath-taking results in the second half of
+pregnancy, we went on to using the scanner in the first half of pregnancy, as
+well. Krause and Soldner had assured us that the low ultrasonic energy
+employed could not harm the embryo in any way. Sundén had come to the
+same conclusion on the basis of his research of the literature and his own
+experience as well as his animal experiments, and he was certain that
+diagnostic ultrasound did not cause any damage to embryos and ovaries.
+The pregnant uterus before the 20th week of pregnancy was still a diagnostic
+black hole in those times. The embryo or fetus was not visible, and neither
+could their heartbeat be detected this early. As we know, fetal movements can
+only be sensed by the mother from the 20th week onwards.
+During this second testing period we were soon able to visualise the embryo
+from the 12th week onwards and watch its movements; the heartbeat could be
+detected from the 13th week on. We were able to diagnose a twin pregnancy in
+the 17th week (Fig. [9]) and differentiate this from a hydatidiform mole (Fig.
+[10]).
+Measurements of the fetal head were also possible with this new ultrasound
+scanner from the 13th week onward. Determining gestational age thus became
+much more precise than before, where, as published, measuring could only be
+performed after the 30th week. Our new findings about the importance of
+ultrasound for obstetric diagnostics were published in 1967. As a result,
+Siemens decided to build a small series of this new machine named "Vidoson",
+which we could then start using in 1967. In addition to a few improvements
+penetration depth had been increased to 15-16 cm at our request.
+In the mean time, the Vidoson had been recognised as an immensely important
+diagnostic tool in our hospital. Examination frequency increased year after year,
+NOV. MAI JANV.
+26
+2005 2006 2011
+6 captures
+3 nov. 05 - 7 juil. 14
+Close
+Help
+Thieme-connect - Full text article https://web.archive.org/web/20060526055441/http://www.thieme-conn...
+6 sur 7 24/11/2014 18:05
+diagnostic work was therefore not limited to gynaecological cases (see Fig.
+[1l]).
+From 1967, the Vidoson was used in other German gynaecological hospitals, i.e.
+Aachen, Essen, Frankfurt, Munich and Tübingen. In 1969 the first World
+Congress of Ultrasound took place in Vienna. 13 groups from gynaecological-
+obstetric departments from all over the world presented their results of
+sonographic imaging. Only 3 of those used the Vidoson, whereas the rest
+worked with compound scanners. A lively discussion unfolded therefore about
+the advantages and disadvantages of these different methods. This discussion
+went on for the next ten years, until finally real-time ultrasound was generally
+accepted.
+In Vienna I also met Dr. Rettenmaier, the pioneer of Vidoson-imaging in internal
+medicine. He presented his results of normal and pathological ultrasound
+reflections of the liver. Subsequently, he got into serious arguments with the
+people using compound scanners with acathode-ray tube, as they found the
+liver to be hypoechoic, whereas Rettenmaier could demonstrate echo patterns
+inside the normal liver using the Vidoson. Later on, Rettenmaier characterised
+the absence of gray scaling as the "birth defect" of cathode-ray tube
+technology, which could only be improved in 1977 by introducing a new gray
+scaling technique into compound technology.
+Top of Page
+And how did it go on?
+The Vidoson was widely used in gynaecology and internal medicine mainly in
+Germany after 1969, but not in the Anglo-American countries. More than 3000
+units were produced. The end of the Vidoson era approached in 1975, when the
+company ADR presented the first serially produced scanner equipped with a
+linear array at the first European Congress of Ultrasound in Munich. Siemens
+reacted by improving the Vidoson. The new Vidoson 735 could not compete
+much longer with the cheaper and more easily manageable devices with
+electronic scanning, and therefore production of the Vidoson was terminated
+around 1980.
+Richard Soldner must still be given credit for being the first in the world to
+recognise the advantages of real-time ultrasound and put his ideas into action.
+Last year he was awarded the Ian Donald Medal for Technical Development as
+an appraisal of his work by the ISUOG (International Society for Technical
+Development of Ultrasound in Obstetrics and Gynecology). - I am personally
+grateful for being allowed to assist in the birth of real-time ultrasound in the
+field of gynaecology and obstetrics.
+H.-J. Holländer, Dinslaken, Email: hjhollaender@t-online.de
+These sonographic images were all recorded between 1965 and 1967.
+©
+Thieme-connect is a service of the publishers Thieme New York and
+Georg Thieme Verlag.
+Georg Thieme Verlag KG Stuttgart New York. All rights reserved.
+Impressum / Disclaimer
+NOV. MAI JANV.
+26
+2005 2006 2011
+6 captures
+3 nov. 05 - 7 juil. 14
+Close
+Help
+Thieme-connect - Full text article https://web.archive.org/web/20060526055441/http://www.thieme-conn...
+7 sur 7 24/11/2014 18:05
+

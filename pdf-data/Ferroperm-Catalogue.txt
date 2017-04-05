@@ -1,0 +1,2096 @@
+HIGH QUALITY COMPONENTS AND MATERIALS
+FOR THE ELECTRONIC INDUSTRY
+Hejreskovvej 18A * DK-3490 Kvistgård * Tel.: (+45) 49 12 71 00 * Fax: (+45) 49 13 81 88
+E-mail: pz@ferroperm-piezo.com * Website: www.ferroperm-piezo.com
+Ferroperm Piezoceramics A/S
+1
+The Company
+FERROPERM was registered in Denmark in May
+1952 as a personal business to produce iron dust
+cores, ferrites and ceramic capacitors. In 1955,
+piezoelectric ceramics based on barium titanate were
+added to the product range.
+The business was transferred to a limited company,
+”Industriselskabet Ferroperm A/S” in 1957. This
+company steadily expanded its activities, and at a
+time also comprised production of capacitors and
+optical interference filters.
+Since the formation of Ferroperm's Piezoelectric
+Division in 1958, its turnover has increased by
+approximately 15 % per year. In 1989 the
+Piezoelectric Division moved to modern premises to
+accommodate further expansion, and was turned into
+a separate limited company in 1998.
+After a short period under American ownership in the
+year 2001, Ferroperm Piezoceramics A/S is now
+owned by a group of the senior managers in the
+company in partnership with a strong Danish
+investment group.
+New products have been continuously developed and
+the Ferroperm product range today includes 6 types
+of lead zirconate-titanate, PZT, suitable for a variety
+of applications, a relaxor-based solid solution
+optimized for medical imaging, bismuth titanate, for
+use at elevated temperatures, modified lead titanate
+and lead metaniobate, with high anisotropy, and an
+electrostrictive material, lead magnesium niobate,
+PMN.
+Finally, for special applications, "HIP Quality" very
+low porosity ceramics can be obtained in some of the
+above materials.
+Research and Development
+Ferroperm has a long standing commitment to R&D
+and currently spends approximately 20 % of its
+turnover on R&D projects. There is a close
+collaboration with leading universities throughout
+Europe. Ferroperm has continuously been involved in
+large European projects under Brite/Euram, Eureka,
+Cost, Esprit, FP5 etc.
+Research topics include high-temperature piezo-
+electric ceramics, high sensitivity materials, lead-free
+materials, and thick-film technology.
+Policy
+More than 95 % of the products in Ferroperm
+Piezoceramics A/S are custom made to meet
+individual requirements of customers.
+Our main focus throughout the entire production
+process is to provide materials and components with
+the highest possible reproducibility of properties and
+parameters, and to obtain the lowest ageing rates in
+the industry. This enables customers to optimize
+design and improve performance and production
+flow, thereby contributing to improved
+competitiveness on their markets.
+May 2003
+Introduction
+2
+Table of Contents
+Introduction 2
+Definitions and Terminology 3
+Standards, Literature and References 8
+Ferroperm Piezoelectric Materials 10
+The Manufacturing Process 17
+Standard Product Range 18
+Custom Product Range 19
+Product Support 20
+Distributors 22
+Piezoelectric Materials
+By definition, a piezoelectric material generates a
+charge when put under pressure, and will show a
+change in volume when an electrical field is applied. It
+can be used as a transducer material for transforming
+electrical energy into mechanical energy and vice
+versa. Furthermore, applying an A.C. voltage to the
+material will cause it to vibrate, and thus generate
+mechanical waves with the same frequency as the
+electrical voltage. Similarly, if a mechanical vibration
+is applied, then a charge of proportional size and same
+frequency will be generated.
+History
+Piezoelectric activity was first discovered in single
+crystals by J. and P. Curie in 1880. However, it was
+not until 1946 that scientists discovered that BaTiO3
+ceramics could be made piezoelectric by application of
+an electric field. This lead to the discovery of a number
+of piezoceramics and to the Lead Zirconate Titanate
+(PZT) family, in 1956. With its increased sensitivity
+and higher operating temperature, PZT soon replaced
+BaTiO3 in many existing devices and are still the most
+widely used piezoceramics today.
+The ceramic materials have several advantages over
+single crystals, including; higher sensitivity (up to
+several hundred times higher) and ease of fabrication
+into a variety of shapes and sizes. In contrast, single
+crystals must be cut along certain crystallographic
+directions, limiting the possible geometrical shapes.
+Applications
+Piezoelectric ceramics are used in a broad range of
+applications due to their excellent properties, such as
+high sensitivity, ease of manufacture and the
+possibility of poling the ceramic in any direction. A
+few applications are listed below:
+• Accelerometers.
+• Flow meters: Blood, industrial processes, waste
+water.
+• Medical: Imaging, HIFU, IVUS, surgical knives,
+and cleaning of blood veins.
+• Underwater acoustics: echosounders, sonar
+systems, fish-finders, seabed mapping.
+• Industrial sensors based on ultrasound: Level
+control, detection, and identification.
+• Hydrophones: Seismic, biologic, military,
+underwater communication.
+• Inkjet printheads.
+• Dental work: Removal of plaque.
+• Alarm systems: Movement detectors, broken
+window sensors.
+• NDT: Transducers for Non Destructive Testing.
+• Musical instrument pickups.
+• Acoustic emission transducers.
+• Actuators.
+• Micro positioning devices: Optics, scanning
+tunneling microscopes.
+• Surface Acoustic Waves: Personal Computer touch
+screens, filters.
+• Welding and drilling of metals and plastics.
+Definitions and Terminology
+3
+Piezoceramics
+Piezoelectric ceramics are, after firing, composed of
+small grains (crystallites), each containing domains in
+which the electric dipoles are aligned. These grains
+and domains are randomly oriented, so the net elec-
+tric dipole is zero, i.e. the ceramics do not exhibit
+piezoelectric properties.
+The application of a sufficiently strong DC. field will
+orient the domains in the field direction, as nearly as
+the orientation of the crystal axes allows. This ability
+to change the orientation of the domains and achieve
+a net polarization is called ferroelectricity.
+A remanent polarization can be created in ferroelectric
+ceramics by polarization. After the poling process is
+complete, a voltage with the same polarity as the pol-
+ing voltage causes expansion along the poling axis and
+contraction perpendicular to the poling axis. Compres-
+sive or tensile forces applied to the ceramic element
+will generate a voltage.
+Definitions and Terminology
+In piezoelectric ceramics, material characteristics de-
+pend on the direction of the applied field, displace-
+ment, stress and strain. Hence superscripts and sub-
+scripts indicating the direction are added to the sym-
+bols.
+The direction of polarization is generally designated as
+the z-axis of an orthogonal crystallographic system.
+The axes x, y and z are respectively represented as 1, 2
+and 3 directions and the shear about these axes are rep-
+resented as 4, 5 and 6. This is shown schematically on
+page 4. The various piezoelectric material constants
+are generally expressed with subscripts using this no-
+tation. Some examples are shown in the table on next
+page. In addition to the above, planar modes are some-
+times expressed with a subscript ´p´.
+The first subscript gives the direction of the electrical
+field associated with the voltage applied or the charge
+produced. The second subscript gives the direction of
+mechanical stress or strain.
+Superscripts indicate a constant mechanical or electri-
+cal boundary condition. The table below gives a gen-
+eral description of the superscripts.
+Parameter Symbol Condition
+Stress T Mechanically free
+Field E Electrical short circuit
+Diel. displacement D Electrical open circuit
+Strain S Mechanically clamped
+Curie Temperature
+The crystal structure of a material changes at the Curie
+temperature, Tc, from piezoelectric (non-symmetrical)
+to a non-piezoelectric (symmetrical) form. This phase
+change is accompanied by a peak in the dielectric con-
+stant and a complete loss of all piezoelectric properties.
+Table of Symbols
+A surface area (m2
+)
+c stiffness coefficient (N/m2
+)
+C capacitance (F)
+d piezoelectric charge coefficient (C/N)
+D diameter (m)
+f1, f2 -3dB points from the resonance frequency fr
+fa anti-resonance frequency (Hz)
+fr resonance frequency (Hz)
+g piezoelectric voltage coefficient (Vm/N)
+k coupling factor
+K relative dielectric constant
+L length (m)
+N frequency constant (Hz⋅m)
+Qm mechanical quality factor
+s elastic compliance (m2
+/N)
+Th thickness (m)
+TC Curie temperature (°C)
+W width (m)
+Y Young’s modulus (N/m2
+)
+Zm minimum impedance at fr (ohm)
+tan δ dielectric dissipation factor
+ε0 permittivity of free space (8.854x10-12
+F/m)
+εT
+Permittivity at constant stress (F/m)
+ν sonic velocity (m/s)
+ρ density (kg/m3
+)
+σE
+Poisson’s ratio
+Definitions and Terminology
+4
+Symbols And Terminology
+1 (X)
+2 (Y)
+3 (Z)
+4
+5
+6
+K3
+S All strains in the material are constant or
+mechanical deformation is blocked in any
+direction.
+Electrodes are perpendicular to 3 axis.
+Relative dielectric constant (ε3
+S
+/ε0).
+K1
+T All stresses on material are constant or no exter-
+nal forces.
+Electrodes are perpendicular to 1 axis.
+Relative dielectric constant (ε1
+T
+/ε0).
+kp
+Stress or strain is equal in all directions
+perpendicular to 3 axis. Used only for ce-
+ramics. Electrodes are perpendicular to 3
+axis.
+Electromechanical coupling factor.
+k15
+Stress or strain is in shear form around 2 axis.
+Electrodes are perpendicular to 1 axis.
+Electromechanical coupling factor.
+dh
+Hydrostatic stress or stress is applied
+equally in all directions. Electrodes are
+perpendicular to 3 axis (Ceramics).
+Piezoelectric charge coefficient.
+d33
+Applied stress, or piezoelectrically induced
+strain is in 3 direction.
+Electrodes are perpendicular to 3 axis.
+Piezoelectric charge coefficient.
+g15
+Applied stress, or the piezoelectrically in-
+duced strain is in shear form around 2 axis.
+Electrodes are perpendicular to 1 axis.
+Piezoelectric voltage coefficient.
+g31
+Applied stress, or the piezoelectrically induced
+strain is in 1 direction.
+Electrodes are perpendicular to 3 axis.
+Piezoelectric voltage coefficient.
+s36
+E Compliance is measured with closed cir-
+cuit.
+Stress or strain is shear around 3 direction.
+Strain or stress is in 3 direction.
+Elastic compliance.
+s11
+D Compliance is measured with open circuit.
+Stress or strain is in 1 direction.
+Strain or stress is in 1 direction.
+Elastic compliance.
+Note: All stresses, other than the stress involved in second subscript, are constant except in the case of s where all stresses other than
+the stress involved in one subscript are constant.
+Definitions and Terminology
+5
+Piezoelectric Modes Of Vibration
+Vibration
+Mode
+Dimensions Constants To Be Calculated
+L - Length W - Width T - Thickness D - Diam eter Piezoelectric Mechanical
+Transverse
+Length
+Mode
+Th, W < L/5 k31, d31, g31, ε33
+T
+s11
+D
+, s11
+E
+, Q31
+Radial
+Mode
+                                             
+                                             
+                                             
+                                             
+D > 10Th kp, ε33
+S
+, ε33
+T
+σE
+, s12
+E
+, Qp
+Thickness
+Extension
+Mode
+                                          
+                                          
+                                          
+                                          
+D > 10Th kt, ε33
+S
+c33
+D
+, c33
+E
+, s13
+E
+, Qt
+Longitudinal
+Length
+Mode
+            
+            
+D < L/2.5 k33, d33, g33, ε33
+T s33
+D
+, s33
+E
+, Q33
+Thickness
+Shear
+Mode
+                                                              
+                                                              
+L > 3.5(Th,W) k15, d15, g15, ε11
+T
+, ε11
+S
+c55
+D
+, s55
+D
+, s55
+E
+, Q15
+Polarisation direction Direction of displacement,
+Definitions and Terminology
+6
+Dielectric Constant
+The relative dielectric constant is defined as the ratio of
+the permittivity of the material to the permittivity of
+free space. This is generally measured well below the
+mechanical resonance. The dielectric constant is de-
+rived from the static capacitance measurements at 1
+kHz using a standard impedance bridge.
+A
+T
+C
+K
+T
+T
+T
+0
+0 ε
+ε
+ε
+=
+=
+=
+=
+=
+=
+=
+=
+Dielectric Loss Factor
+The dielectric loss factor is defined as the tangent of
+the loss angle (tan δ). The loss factor represents the ra-
+tio of conductance to susceptance of a parallel equiva-
+lent circuit of the ceramic element. The loss factor can
+be measured directly using an impedance bridge.
+Mechanical Quality Factor
+The mechanical quality factor is the ratio of the reac-
+tance to the resistance in the series equivalent circuit
+representing the piezoelectric resonator. The Qm factor
+is also related to the sharpness of the resonance fre-
+quency.
+)
+(
+2
+2
+r
+2
+a
+m
+r
+2
+a
+m
+f
+f
+C
+Z
+f
+f
+Q T
+−
+−
+−
+−
+=
+=
+=
+=
+Alternatively the Qm factor can also be determined
+using the equation:
+2
+1
+r
+m
+f
+f
+f
+Q
+−
+−
+−
+−
+=
+=
+=
+=
+Frequency Constants
+The frequency constant, N, is the product of the
+resonance frequency and the linear dimension gov-
+erning the resonance. N is also equal to half the
+sound velocity in the same direction. The various
+modes of resonance are shown schematically on
+page 5.
+N31 = fr · L Transverse mode, thin bar
+Np = fr · D Radial mode, disc
+Nt = fr · T Thickness mode, disc
+N33 = fr · L Length mode, cylinder
+N15 = fr · T Shear mode, plate
+Piezoelectric Coupling Coefficient
+The coupling coefficient (electromechanical cou-
+pling coefficient) is defined as the ratio of the me-
+chanical energy accumulated in response to an elec-
+trical input or vice versa.
+applied
+energy
+Electrical
+stored
+energy
+Mechanical
+=
+k
+applied
+energy
+Mechanical
+stored
+energy
+Electrical
+=
+k
+The coupling coefficients can be calculated for the
+various modes of vibration:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+−
+−
+−
+=
+=
+=
+=
+r
+a
+r
+a
+r
+a
+31
+2
+tan
+2
+1
+2
+f
+f
+f
+f
+f
+f
+k
+2
+a
+r
+a
+a
+r
+a
+p 51
+.
+2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ −
+−
+−
+−
+−
+−
+−
+−
+−
+−
+−
+−
+≅
+≅
+≅
+≅
+f
+f
+f
+f
+f
+f
+k
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+=
+=
+=
+a
+r
+a
+r
+t
+2
+cot
+2 f
+f
+f
+f
+k
+k33 and k15 can be calculated similar to kt by using
+the appropriate resonance frequencies.
+Another parameter, keff, is frequently used to express
+the effective coupling coefficient of an arbitrary
+resonator, either at fundamental resonance or at any
+overtone and is expressed as follows:
+2
+r
+2
+r
+2
+a
+eff
+f
+f
+f
+k
+−
+−
+−
+−
+=
+=
+=
+=
+Definitions and Terminology
+7
+Piezoelectric Charge Coefficients
+The piezoelectric charge coefficient is the ratio of
+electric charge generated per unit area to an applied
+force (C/N or m/V).
+stress
+Applied
+density
+Charge
+field
+Applied
+developed
+Strain
+=
+=
+=
+=
+=
+=
+=
+=
+d
+The d constants are calculated from the equation:
+(C/N)
+E
+T
+s
+k
+d ε
+=
+=
+=
+=
+E
+T
+s
+k
+d 11
+33
+31
+31 ε
+=
+=
+=
+=
+E
+T
+s
+k
+d 33
+33
+33
+33 ε
+=
+=
+=
+=
+E
+T
+s
+k
+d 55
+11
+15
+15 ε
+=
+=
+=
+=
+Piezoelectric Voltage Coefficient
+The piezoelectric voltage coefficient is the ratio of
+the electric field produced to the mechanical stress
+applied (V m/N).
+density
+charge
+Applied
+developed
+Strain
+=
+=
+=
+=
+g
+stress
+mechanical
+Applied
+developed
+Field
+=
+=
+=
+=
+The g constants are calculated from the equation:
+)
+m/N
+V
+(
+T
+d
+g
+ε
+=
+=
+=
+=
+T
+d
+g
+33
+31
+31
+ε
+=
+=
+=
+=
+T
+d
+g
+33
+33
+33
+ε
+=
+=
+=
+=
+T
+d
+g
+11
+15
+15
+ε
+=
+=
+=
+=
+Elastic Compliances
+Young’s modulus describes the mechanical stiffness
+properties and is expressed as the ratio of stress to
+strain. In a piezoelectric material, mechanical stress
+produces an electrical response, which opposes the
+resultant strain. The value of the Young’s modulus
+depends on the direction of stress and strain and the
+electrical conditions. The inverse of Young’s
+modulus, Y, is the elastic compliance, s, which can
+be calculates as follows (see relevant geometries on
+page 5):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+N
+m
+1
+Stress
+Strain
+1 2
+2
+ρν
+Y
+s
+2
+2
+a
+33
+4
+1
+L
+f
+s
+D
+ρ
+=
+=
+=
+=
+2
+33
+33
+33
+1 k
+s
+s
+D
+E
+−
+−
+−
+−
+=
+=
+=
+=
+2
+2
+r
+11
+4
+1
+L
+f
+s
+E
+ρ
+=
+=
+=
+=
+(
+((
+( )
+))
+)
+2
+31
+11
+11 1 k
+s
+s
+E
+D
+−
+−
+−
+−
+=
+=
+=
+=
+2
+2
+a
+55
+4
+1
+Th
+f
+s
+D
+ρ
+=
+=
+=
+=
+2
+15
+55
+55
+1 k
+s
+s
+D
+E
+−
+−
+−
+−
+=
+=
+=
+=
+Ageing Rate
+The ageing rate of a piezoelectric ceramic is an in-
+dex of the change of certain material parameters
+with time:
+(
+(
+(
+( )
+)
+)
+) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ −
+−
+−
+−
+−
+−
+−
+−
+=
+=
+=
+=
+1
+1
+2
+1
+2 log
+log
+1
+Rate
+Ageing
+P
+P
+P
+t
+t
+Where
+t1, t2 are number of days after polarization
+P1, P2 are measured corresponding values
+Standards, Literature and References
+8
+Standards
+• American National Standard on Piezoelectricity.
+ANSI/IEEE Std. 176, 1987.
+• Military Standard. DOD-STD-1376A(SH),
+1984. Piezoelectric Ceramic for Sonar Trans-
+ducers. (Hydrophones and Projectors).
+• CENELEC, EN 50324-1, Piezoelectric proper-
+ties of ceramic materials and components, Part
+1: Terms and definitions.
+• CENELEC, EN 50324-2, Piezoelectric proper-
+ties of ceramic materials and components, Part
+2: Methods of measurement - Low power.
+• CENELEC, EN 50324-3, Piezoelectric proper-
+ties of ceramic materials and components, Part
+3: Methods of measurement - High power.
+• International Electrotechnical Commission. IEC
+Standard 483, 1976. Guide to Dynamic Meas-
+urements of Piezoelectric Ceramics With High
+Electromechanical Coupling.
+Recommended literature
+For further information regarding theory of piezoe-
+lectricity, applications etc., the following literature
+can be suggested:
+• Jaffe, B. et al. Piezoelectric Ceramics. Aca-
+demic Press, London, New York, 1971.
+• Moulson, A.J., Herbert, J.M. Electroceramics.
+Chapman and Hall, 1990. ISBN: 0412294907.
+• Setter, N (Ed). Piezoelectric Materials in De-
+vices. EPFL-LC, 2002. ISBN: 2-9700346-0-3.
+• Burfoot, J.C., Taylor, G.W. Polar Dielectrics
+and their Applications. University of California
+Press, 1979.
+• Yuhuan Xu. Ferroelectric Materials and Their
+Applications. Elsevier Science Publishers B.V.,
+1991. ISBN: 0 444 88354 1.
+References
+In order to develop improved and new materials and
+components Ferroperm invests a large proportion of
+its turnover on R&D projects. From these research
+projects a number of publications have been pre-
+sented (shown in selection):
+• Bove, T., Wolny, W.W., Ringgaard, E. & Bre-
+boel, K. New Type of Piezoelectric Trans-
+former with Very High Power Density. Streif-
+fer, S.K., Gibbons, B.J. & Tsurumi, T. (eds.):
+Proc. of ISAF 2000, 321-324.
+• Wolny, W.W. (2000). Piezoceramic Thick
+Films – Technology and Applications. State of
+the Art in Europe. Streiffer, S.K., Gibbons, B.J.
+& Tsurumi, T. (eds.): Proc. of ISAF 2000, 257-
+262.
+• Ringgaard, E., Nielsen, E.R. & Wolny, W.W.
+(2000). Optimisation of New Liquid-Phase
+Sintering Aid for PZT. Streiffer, S.K., Gibbons,
+B.J. & Tsurumi, T. (eds.): Proc. of ISAF 2000,
+451-454.
+• Corker, D.L., Whatmore, R.W., Ringgaard, E. &
+Wolny, W.W. Liquid-Phase Sintering of PZT
+Ceramics. J.Eur.Ceram.Soc., 20 2039-2045.
+• Levassort, F., Tran-Huu-Hue, L.P., Lethiecq,
+M., Bove, T. & Wolny,W.W. New Piezo-
+ceramic Films for High-Resolution Medical
+Imaging Applications. Proceedings Of IEEE
+UFFC, October 2000.
+• Bove, T., Wolny, W.W., Ringgaard, E., Peder-
+sen, A. New Piezoceramic PZT-PNN Material
+for Medical Diagnostic Applications. Proceed-
+ings of Electroceramics 2000.
+Standards, Literature and References
+9
+• Damjanovic, D., Wolny, W.W., Engan, H., Le-
+thiecq, M. & Pardo, L. Properties and Applica-
+tions of Modified Lead Titanate Ceramics.
+Proc. of the 1998 IEEE International Frequency
+Control Symposium. (IEEE 98CH36165) 770-
+778.
+• Gómez, T.E., Montero de Espinosa, F., Levas-
+sort, F., Lethiecq, M., James, A., Ringgaard, E.,
+Millar, C.E. & Hawkins, P. Ceramic Powder--
+Polymer Piezocomposites for Electroacoustic
+Transduction: Modeling and Design. Ultra-
+sonics, 36 907-923.
+• Levassort, F., Lethiecq, M., Tran-Huu-Hue, L.P.
+& Wolny, W.W. High Frequency Properties of
+New Fine-Grained Modified Lead Titanate Ce-
+ramics. Schneider, S.C., Levy, M. & McAvoy,
+B.R. (eds.): 1997 IEEE International Ultrasonics
+Symposium Proc. (IEEE 97CH36118) 947-950.
+• Pardo, L., Durán-Martín, P., Mercurio, J.P., Ni-
+bou, L. & Jiménez, B. Temperature Behaviour
+of Structural, Dielectric and Piezoelectric
+Properties of Sol-Gel Processed Ceramics of
+the System LiNbO3-NaNbO3. J.Phys.Chem.
+Solids, 58 [9] 1335-1339.
+• González, A.M. & Alemany, C. Determination
+of the Frequency Dependence of Characteristic
+Constants in Lossy Piezoelectric Materials.
+J.Phys.D: Appl.Phys., 29, 2476-2482.
+• Lethiecq, M., Levassort, F., James, A.S., Wolny,
+W.W. & Mercurio, J.P. High Permittivity Ce-
+ramics for Medical Ultrasonic Transducers: a
+Study on the Optimisation of Processing Pa-
+rameters. Kulwicki, B.M., Amin, A. & Safari,
+A. (eds.): Proc. 10th IEEE International Symp.
+on Applications of Ferroelectrics (ISAF '96) .
+(IEEE 96CH35948) 287-290.
+• Levassort, F., Lethiecq, M., Gomez, T., Montero
+de Espinosa, F., James, A.S., Ringgaard, E.,
+Hawkins, P., Millar, C.E. Modeling the Effec-
+tive Properties of Highly Loaded 0-3 Piezo-
+composites. Levy, M., Schneider, S.C. & McA-
+voy, B.R (eds.): 1996 IEEE Ultrasonics Sympo-
+sium Proc. (IEEE) 463-466.
+• Pardo, L., Durán-Martín, P., Millar, C.E.,
+Wolny, W.W. & Jiménez, B. High Temperature
+Electromechanical Behaviour of Sodium Sub-
+stituted Lithium Niobate Ceramics. Ferroelec-
+trics, 186 281-285
+• Pardo, L., Durán-Martín, P., Wolny, W.W.,
+Mercurio, J.P. & Jiménez, B. High Tempera-
+ture Piezoelectricity of Sodium Substituted
+Lithium Niobate Ceramics. Kulwicki, B.M.,
+Amin, A. & Safari, A. (eds.): Proc. 10th IEEE
+International Symp. on Applications of Ferroe-
+lectrics (ISAF ' 96). (IEEE 96CH35948) 915-
+918.
+• Wolny, W.W., James, A.S., Alemany, C. &
+Pardo, L. Structural Stability of Lead Titanate
+Based Piezoceramics in Chemically Aggressive
+Environments. Baptista, J.L., Labrincha, J.A. &
+Vilarinho, P.M. (eds.): Proc. Electroceramics V.
+153-156.
+• M. R. Cockburn, D. A. Hall, C. E. Millar. The
+Effect of High Temperature Annealing and
+HIPing on the Dielectric Properties of Modi-
+fied Lead Titanate Ceramics. ISAF ´ 94, Aug. 7-
+10, 1994, Pennsylvania, USA.
+• C. E. Millar, B. Andersen, E. Ringgaard, W.W.
+Wolny, J. Ricote, L. Pardo. Fabrication of High
+Density, Fine-Grained PZT Ceramics Using a
+Post Sinter HIP Treatment. ISAF ´ 94, Aug. 7-
+10, 1994, Pennsylvania, USA.
+Ferroperm Piezoelectric Materials
+10
+Ferroperm manufactures piezoelectric ceramics in 5 material groups, traditional lead zirconate titanate (hard
+and soft PZT), relaxor-based solid solutions, modified lead titanate, lead metaniobate and bismuth titanate. A
+brief description of the materials is given below and material data can be found on pages 12 to 16.
+Lead zirconate titanate (Soft).
+Type Pz23 and Pz27. These materials are
+characterized by relatively high Curie temperatures (>
+350°C), low mechanical QM factor and high electrical
+resistivity at elevated temperatures. Pz27 has a high
+dielectric constant, high charge coefficients and high
+electromechanical coupling coefficients.
+Type Pz29 has a lower Curie temperatures, but high
+dielectric constants, and high coupling coefficients.
+Ceramics from these compositions are particularly
+useful in for a wide spectrum of applications ranging
+from combined resonant transducers for medical and
+flow measurements to accelerometers, pressure
+sensors, and NDT.
+Lead zirconate titanate (Hard).
+Type Pz24, Pz26 and Pz28. These materials are
+characterized by high coercive field, high mechanical
+QM factor and low dielectric loss. Pz24 has a very
+low dielectric constant. Pz26 and Pz28 are both high
+power and low loss materials.
+Typical applications include underwater applications,
+high voltage generators, high power ultrasonics, e.g.
+cleaning, welding and drilling devices.
+Relaxor-based solid solution
+Type Pz21. This material is characterized by a very
+high dielectric constant, high charge coefficient and
+high electromechanical coupling coefficients.
+Used primarily for medical imaging systems, i.e.
+phased arrays and composites.
+Modified lead titanate. Type Pz34 has large
+electromechanical anisotropy, low dielectric constant
+and properties and have extremely low grain size. It is
+very stable over time, temperature and frequency.
+Recommended for single element high frequency
+medical transducers and applications where
+interference from radial modes is a significant
+problem.
+Lead metaniobate. Type Pz35 is anisotropic, has a
+low QM factor, low acoustic impedance, and low
+dielectric constant.
+Primarily used in NDT systems where low QM factor
+and clean impulse response are required.
+Bismuth titanate. Type Pz46 has a very high Curie
+temperature (> 600°C) and working temperatures of
+up to 550°C.
+Used in high temperature applications, i.e.
+accelerometers, flow-meters and pressure sensors.
+Ferroperm Piezoelectric Materials
+11
+Material Applications
+Application Material Suggestion
+Pz21 Pz23 Pz24 Pz26 Pz27 Pz28 Pz29 Pz34 Pz35 Pz46
+Underwater
+• Transmitters ● ●
+• Receivers ● ● ● ● ●
+• Hydrophones ● ● ● ● ●
+Transducers/Sensors
+• Level ● ● ● ● ● ● ●
+• Flow ● ● ● ● ● ● ●
+• NDT ● ● ● ● ● ● ● ●
+• Accelerometers ● ● ● ● ●
+• Pressure ● ● ● ●
+• Acoustic Emission ● ● ● ●
+• High Temperature ●
+• Shock ● ● ●
+Medical
+• Diagnostic ● ● ● ● ● ●
+• Therapeutic ● ● ●
+• Combined / Doppler ● ● ● ●
+Industrial
+• High Voltage ● ●
+• High Power ● ●
+• Automation ● ● ●
+• Actuators ● ● ● ●
+• Motors ●
+Ferroperm Piezoelectric Materials
+12
+Material Data For Standard Test Specimens
+Data are measured at 25°C and 24 hours after poling.
+Symbol Dimension Pz21 Pz23 Pz24 Pz26 Pz27
+Electrical Properties
+Relative dielectric const. at 1 kHz K33
+T
+1 3800 1500 400 1300 1800
+Diel. dissipation factor at 1 kHz tan δ 10-3
+18 13 2 3 17
+Curie temperature Tc > °C 205 350 330 330 350
+Recommended working range < °C 130 250 230 230 250
+Electromechanical Properties
+Coupling factors kp 1 0.60 0.52 0.50 0.57 0.59
+kt 1 0.47 0.45 0.52 0.47 0.47
+k31 1 0.33 0.29 0.29 0.33 0.33
+k33 1 0.70 0.65 0.67 0.68 0.70
+Piezoelectric charge coefficients - d31 10-12
+C/N 250 130 55 130 170
+d33 10-12
+C/N 600 330 190 330 425
+d15 10-12
+C/N 650 335 150 400 500
+Piezoelectric voltage coefficients - g31 10-3
+Vm/N 7 10 16 11 11
+g33 10-3
+Vm/N 18 25 54 28 27
+Frequency constants Np Hz⋅m 2030 2160 2400 2230 2010
+Nt Hz⋅m 1970 2030 2100 2040 1950
+N31 Hz⋅m 1375 1480 1670 1500 1400
+N33 Hz⋅m 1325 1600 1600 1800 1500
+Mechanical Properties
+Density ρ 103
+kg/m3
+7.80 7.70 7.70 7.70 7.70
+Elastic compliances s11
+E
+10-12
+m2
+/N 18 15 10 13 17
+s33
+E
+10-12
+m2
+/N 18 19 23 20 23
+s11
+D
+10-12
+m2
+/N 16 14 10 12 15
+s33
+D
+10-12
+m2
+/N 9 11 13 11 12
+Poisson’s ratio σE
+1 0.40 0.39 0.29 0.33 0.39
+Mechanical quality factor Qm 1 65 100 >1000 >1000 80
+Standard tolerances: Electrical Properties ± 10 %
+Electromechanical Properties ± 5 %
+Mechanical Properties ± 2.5 % (Except for σE
+and Qm)
+Ferroperm Piezoelectric Materials
+13
+Material Data For Standard Test Specimens
+Data are measured at 25°C and 24 hours after poling (Pz28 10 days after poling)
+Symbol Dimension Pz28 Pz29 Pz34 Pz35 Pz46
+Electrical Properties
+Relative dielectric const. at 1 kHz K33
+T
+1 1000 2900 210 220 120
+Diel. dissipation factor at 1 kHz tan δ 10-3
+4 19 14 6 4
+Curie temperature Tc > °C 330 235 400 500 650
+Recommended working range < °C 230 150 150 200 550
+Electromechanical Properties
+Coupling factors kp 1 0.58 0.64 0.07 0.03
+kt 1 0.47 0.52 0.40 0.34 0.20
+k31 1 0.34 0.37 0.05 0.02
+k33 1 0.69 0.75 0.40 0.09
+Piezoelectric charge coefficients - d31 10-12
+C/N 120 240 5 2
+d33 10-12
+C/N 320 575 50 100 18
+d15 10-12
+C/N 375 650 40 50 16
+Piezoelectric voltage coefficients - g31 10-3
+Vm/N 13 10 3 2
+g33 10-3
+Vm/N 34 23 25 43 17
+Frequency constants Np Hz⋅m 2180 1970 2770 2470
+Nt Hz⋅m 2010 1960 2200 1550 2000
+N31 Hz⋅m 1410
+N33 Hz⋅m 1500
+Mechanical Properties
+Density ρ 103
+kg/m3
+7.70 7.45 7.55 5.60 6.55
+Elastic compliances s11
+E
+10-12
+m2
+/N 13 17 7 11
+s33
+E
+10-12
+m2
+/N 23 23 7 44
+s11
+D
+10-12
+m2
+/N 11 15 7 11
+s33
+D
+10-12
+m2
+/N 12 10 6 44
+Poisson’s ratio σE
+1 0.31 0.34 0.22 0.21
+Mechanical Quality factor Qm 1 >1000 90 > 500 15 - 25 > 600
+Standard tolerances: Electrical Properties ± 10 %
+Electromechanical Properties ± 5 %
+Mechanical Properties ± 2.5 % (Except for σE
+and Qm)
+Ferroperm Piezoelectric Materials
+14
+Relative Dielectric Constant vs. Temperature
+Pz21
+Pz23
+Pz27
+Pz29
+0
+1000
+2000
+3000
+4000
+5000
+6000
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+K
+33
+T
+Pz24
+Pz26
+Pz28
+0
+500
+1000
+1500
+2000
+2500
+3000
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+K
+33
+T
+Pz34
+Pz35
+0
+200
+400
+600
+800
+1000
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+K
+33
+T
+Pz46
+0
+200
+400
+600
+800
+1000
+1200
+0 100 200 300 400 500 600 700 800
+Temperature (deg. C)
+K
+33
+T
+Dielectric Loss vs. Temperature
+Pz23
+Pz27
+Pz29
+Pz21
+0,0
+1,0
+2,0
+3,0
+4,0
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+tan
+δ
+(%)
+Pz24
+Pz28
+Pz26
+0,0
+1,0
+2,0
+3,0
+4,0
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+tan
+δ
+(%)
+Pz35
+Pz34
+0,0
+1,0
+2,0
+3,0
+4,0
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+tan
+δ
+(%)
+Pz46 measurements were made at “Laboratory of Ceramics,
+EPFL”Switzerland.
+Ferroperm Piezoelectric Materials
+15
+Planar Coupling Factor vs. Temperature
+Pz21
+Pz23
+Pz27
+Pz29
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+k
+p
+Thickness Coupling Factor vs. Temperature
+Pz21
+Pz23
+Pz27
+Pz29
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+k
+t
+k31 Factor vs. Temperature
+Pz21
+Pz23
+Pz27
+Pz29
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+k
+31
+Planar Coupling Factor vs. Temperature
+Pz24
+Pz26
+Pz28
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+k
+p
+Thickness Coupling Factor vs. Temperature
+Pz24
+Pz26
+Pz28
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+k
+t
+k31 Factor vs. Temperature
+Pz24
+Pz26
+Pz28
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+k
+31
+Ferroperm Piezoelectric Materials
+16
+d31 Coefficient vs. Temperature
+Pz21
+Pz23
+Pz27
+Pz29
+0
+50
+100
+150
+200
+250
+300
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+-
+d
+31
+(10
+-12
+C/N)
+g31 Coefficient vs. Temperature
+Pz21
+Pz23
+Pz27
+Pz29
+3
+6
+9
+12
+15
+18
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+-
+g
+31
+(10
+-3
+Vm/N)
+d31 Coefficient vs. Temperature
+Pz24
+Pz26
+Pz28
+0
+50
+100
+150
+200
+250
+300
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+-
+d
+31
+(10
+-12
+C/N)
+g31 Coefficient vs. Temperature
+Pz24
+Pz26
+Pz28
+3
+6
+9
+12
+15
+18
+-75 -25 25 75 125 175 225 275
+Temperature (deg. C)
+-
+g
+31
+(10
+-3
+Vm/N)
+The Manufacturing Process
+17
+The manufacturing process involves a number of
+stages shown schematically in figures 1 to 12. The
+first step is to weigh, dry mix and ball mill [2] the
+raw materials. The uniform mixture is then heat
+treated (calcined) [3], during which the components
+react to form the polycrystalline phase. The calcined
+powder is ball milled [4] to increase it' s reactivity,
+and granulated [5], with the addition of a binder, to
+improve its pressing properties.
+After shaping by dry-pressing [6], the binder is
+burnt out [7] by slowly heating the green ceramics
+to around 700°C. The parts are transferred to
+another furnace, where they are sintered [8] between
+1200 and 1300°C. The dimensional tolerance of
+fired parts (± 3 %) is improved by cutting, grinding,
+lapping etc. [9].
+Electrodes are applied either by screen printing or
+by vacuum deposition [10]. Poling then is carried
+out by heating in an oil bath at 130-220°C, and
+applying an electrical field of 2-8 kV/mm to align
+the domains in the material [11]. The oil bath is
+used as a heat source and to prevent flash over.
+Final inspection [12] is performed 24 hours later,
+and includes testing of electrode-ceramic bonding as
+well as measurement of dimensional tolerances, di-
+electric and piezoelectric properties.
+Standard Product Range
+18
+Certain commonly requested parts: discs, rings, tubes
+and square plates in Pz26 and Pz27, are carried in
+stock for prompt delivery.
+= Electrode
+Pz26 And Pz27 Discs
+Electrodes on flat surfaces
+OD Th Part Number
+(mm) (mm) Pz26 Pz27
+5.00 0.5 26000 27000
+1.0 26001 27001
+2.0 26002 27002
+6.35 0.5 26010 27010
+1.0 26011 27011
+2.0 26022 27012
+10.00 0.5 26020 27020
+1.0 26021 27021
+2.0 26022 27022
+12.70 0.5 26030 27030
+1.0 26031 27031
+2.0 26032 27032
+16.00 0.5 26040 27040
+1.0 26041 27041
+2.0 26042 27042
+20.00 0.5 26050 27050
+1.0 26051 27051
+2.0 26052 27052
+25.00 0.5 26060 27060
+1.0 26061 27061
+2.0 26062 27062
+30.00 0.5 26070 27070
+1.0 26071 27071
+2.0 26072 27072
+38.00 0.5 26080 27080
+1.0 26081 27081
+2.0 26082 27082
+50.00 0.5 26090 27090
+1.0 26091 27091
+Pz26 And Pz27 Rings
+Electrodes on flat surfaces
+OD ID Th Part Number
+(mm) (mm) (mm) Pz26 Pz27
+5.00 2.30 1.00 26101 27101
+5.00 2.30 2.00 26102 27102
+6.35 2.40 1.00 26111 27111
+6.35 2.40 2.00 26112 27112
+10.00 5.00 1.00 26121 27121
+10.00 5.00 2.00 26122 27122
+20.00 3.80 1.00 26131 27131
+20.00 3.80 2.00 26132 27132
+Pz26 And Pz27 Tubes
+Electrodes on curved surfaces
+OD ID Th Part Number
+(mm) (mm) (mm) Pz26 Pz27
+6.35 5.20 3.20 26201 27201
+6.35 5.20 6.35 26202 27202
+12.70 11.10 3.20 26203 27203
+24.00 20.00 15.00 26204 27204
+32.00 28.00 14.00 26205 27205
+Pz26 And Pz27 Plates
+Electrodes on flat surfaces
+L W Th Part Number
+(mm) (mm) (mm) Pz26 Pz27
+6.35 6.35 1.00 26301 27301
+12.70 12.70 1.00 26302 27302
+30.00 30.00 1.00 26303 27303
+50.00 50.00 1.00 26304 27304
+Custom Product Range
+19
+Materials
+In addition to the standard compositions shown in
+the previous sections, Ferroperm offers a HIP qual-
+ity (Hot Isostatic Pressed) of most PZT ceramics.
+The advantage of HIP quality is very low porosity
+and improved mechanical and piezoelectric proper-
+ties.
+Special formulations and fine-grained materials can
+be manufactured on request.
+Electrodes and special designs
+Fired screen-printed silver electrodes are available
+as standard electrode materials on conventional
+parts. Other electrode materials include:
+• Screen-printed gold-palladium
+• Evaporated chromium-silver
+• Evaporated chromium-gold
+• Evaporated chromium-silver with gold-flash on
+one side
+• Chemically deposited nickel-gold
+Polished or fine-grinded surfaces are available on
+request.
+Wrap around electrodes and side connections are
+made on request, and electrode configurations can
+be varied to accommodate polarization patterns and
+acoustic designs.
+Custom Products
+By far the largest proportion of the production in
+Ferroperm is made according to customer specifica-
+tion. The ceramics can be produced in many shapes
+i.e. discs, plates, tubes, rings, hemispheres and fo-
+cusing bowls. Shear plates, shear tubes and shear
+rings are available in most compositions. For special
+requirements, please contact Ferroperm Piezo-
+ceramics A/S directly.
+Focusing Bowls
+Focusing bowls are available in all standard com-
+positions. Special non-standard diameters, resonant
+frequencies, focal lengths (R1) and closer tolerances
+can be made on request.
+Resonant frequency range available:
+• 100 kHz to 10 MHz
+Diameter range available:
+• 5 mm to 65 mm
+Shear plates
+Shear plates are offered based on customer specifi-
+cation. Plates can be specified with- our without
+centre holes.
+Electrodes are chemically plated nickel-gold or
+evaporated silver or gold.
+Shear Tubes
+Shear tubes are offered based on customer specifi-
+cation. These can be specified with special cuts,
+slots, or chamfering to aid assembly, and have mul-
+tiple output signals.
+The electrode material is typically chemically plated
+nickel-gold.
+Shear Rings
+Shear rings (opposite polarisation/electrode configu-
+ration to shear tubes) are offered based on customer
+specification. These can be specified with special
+cuts, slots, or chamfering to aid assembly, and have
+multiple output signals.
+Electrodes are chemically plated nickel-gold or
+evaporated silver or gold.
+Product Support
+20
+Soldering Procedure
+Clean the area to be soldered thoroughly. Pre-tin the
+electrode area and the lead. A low melting point
+Sn/Pb solder containing 2 - 4 % silver is recom-
+mended (Multicore LMP, FLUX 362).
+Place the lead in the middle of the pre-tinned area,
+applying a firm pressure, see figure 1 and 2. Heat
+the lead a little above the ceramic surface. When the
+solder on the lead melts, move the soldering iron
+down the lead to ensure the melting of the solder on
+the silver electrode. Withdraw the soldering iron as
+soon as the solder has melted (5 - 7 seconds).
+Soldering temperature should be approximately 270
+- 300°C. Using too low a temperature will increase
+soldering time. The right temperature is when the
+solder melts readily. Care should be taken to use a
+short soldering time as excessive heat could locally
+depolarise the ceramic, or reduce the piezoelectric
+properties.
+Remove flux according to the recommendations of
+the solder manufacturer. The electrodes will with-
+stand ordinary ultrasonic cleaning processes.
+Tolerances
+A set of standard tolerances is used, if nothing else is
+specified by the customer. This set is separated into
+several different categories. For most of these catego-
+ries the customer however have the opportunity to
+specify other tolerances for the specific parameters,
+which are most critical for that certain application.
+Changes in inspection level should however always
+be discussed with Ferroperm and incorporated into
+the quotation and ordering as soon as possible in the
+dialog.
+The first step in approval of a new production is the
+material itself, where a list of tolerances must be ful-
+filled in order to qualify as one of the 10 materials in
+the programme. A set of tolerances has therefore
+been defined. These tolerances are also used to verify
+any new material batches before it is released for
+regular production.
+Dielectric Properties
+Relative dielectric constant
+Dielectric loss factor
+± 10 %
+Electromechanical Properties
+Coupling factors
+Charge coefficients
+Voltage coefficients
+Frequency constants
+± 5 %
+Mechanical Properties
+Density
+Elastic compliances
+± 2,5 %
+Note:
+Catalogue values are based on measurements on standard geometries ful-
+filling recommended geometrical conditions.
+For the specific production there will be a list of pa-
+rameters regarding the size, geometrical parameters
+and electric behaviour, which have to be fulfilled.
+The standard tolerances on these are:
+Standard
+tolerance
+Minimum
+tolerance
+Diameter of Rings
+and Discs
+OD ± 0,3 mm 0,01 mm
+OD > 10 mm ± 3 % 0,01 mm
+Length and width of
+Plates
+± 0,3 mm 0,01 mm
+Thickness of Rings,
+Discs and Plates
+Th ± 0,03 mm 0,01 mm
+Th > 1 mm ± 3 % 0,01 mm
+Focussing Bowls
+Radius of curvature
+(R1 and R2)
+± 3 % or ±3 mm
+whichever is largest
+1 mm
+(dependent on
+total size)
+Diameter
+± 3 % or ±3 mm
+whichever is largest
+0,01 mm
+Thickness uniformity
+Max variation
+2,5% or 0,025 mm
+whichever is largest
+0,05 mm
+(dependent on
+total size)
+Resonance frequency
+Resonance ± 5% ± 0,5%
+Resonance > 4MHz ± 10% ± 1%
+Capacitance 1 pF
+Finally other more subjective parameters will be
+measured and documented when relevant. Among
+these parameters are for example, internal cracks,
+solderability, electrode adherence, surface rough-
+ness, and edge resistance in wrap-around electrodes.
+Product Support
+21
+Quality Assurance and Standards
+The quality system in Ferroperm ensures full trace-
+ability for all productions and all operations carried
+out on an order.
+The starting point in the system is that all produc-
+tions are performed material-batch-specific rather
+than based on generic material data. This means,
+that before any material is released for regular pro-
+duction, a pilot production has been completed, and
+all relevant parameters have been measured and ap-
+proved. The data for a specific batch is saved in a
+database, which is used by the production manager
+to optimise the production parameters for each new
+production.
+The material batch number is therefore an important
+parameter for every new production, and will be
+clearly marked on both the production- and final in-
+spection sheets.
+As shown in previous sections, each production
+have a number of different processes, which must be
+performed before a certain part is completed. After
+each of these operations the responsible operator
+will record and register the time spent and the
+quantity of defects generated.
+The quality system differentiate between more than
+120 different types of defects ranging from simple
+errors on dimension to more complicated types,
+such as discrepancies in certain piezoelectric pa-
+rameters. By operating this highly differential sys-
+tem, a more systematic approach to corrective ac-
+tions can be taken.
+After a completed production, all parts are passed
+through the final inspection unit. This department is
+a staff function under the managing director of Fer-
+roperm Piezoceramics. Here qualified and well
+trained personnel uses modern and periodically
+calibrated equipment to verify that productions fulfil
+the internal standards to the materials and the toler-
+ances given by the customer.
+Most control operations are based on the statistical
+sampling described in Military Standard MIL-STD-
+1050 (ISO 2602-1973). The acceptable quality limit,
+AQL, is 0.65 - Sample plan 2. By operating this
+system, it is secured that maximum 0,65% defect
+parts can be sent to a customer without seeing any
+problems during inspection.
+In some cases customers have one or more critical
+parameters, where defects cannot be tolerated in
+spite of an increased cost of the parts. In such cases
+Ferroperm offer a 100% inspection on these pa-
+rameters.
+Certificates of conformance and/or copies of the fi-
+nal inspection sheets are supplied on request from
+the customer.
+Ordering Information
+Submitting the following information when inquir-
+ing for quotations will be helpful:
+• Type of material
+• Geometric shape, dimensions and tolerances
+• Electrode material, pattern and polarization
+• Quantities required
+• Specification of the part if available
+• Requested delivery date
+• If part-deliveries from stock are required
+Packaging and Shipping
+Ferroperm uses packaging and shipping methods
+that ensure safe delivery of products to the cus-
+tomer. These methods are based on our experience
+in shipping such materials. The shipping method is
+usually chosen based on the most economical
+method available. Special packaging and shipping
+services are available on request.
+Shipping damage must be reported to the transport
+carrier immediately. Returns, if necessary, must be
+arranged with Ferroperm to obtain return
+authorisation and re-entry documentation.
+Distributors
+22
+Development, design and production of devices and
+products incorporating piezoelectric elements usu-
+ally require a high degree of technical knowledge
+and experience.
+As an active partner in this process, Ferroperm Pie-
+zoceramics is dedicated to assist at the designing
+stage with a choice of the best material for the ap-
+plication, guide customers through the definition
+phase in order to obtain the best quality vs. price ra-
+tio, be flexible and supportive at the sample-
+manufacturing stage, and finally supply consistent
+high quality reliable products at fair and competitive
+prices.
+Existing or potential customers are therefore always
+welcome to contact Ferroperm directly in order to
+discuss problems and possibilities for future orders,
+and to solve technical and commercial details as
+quickly and flexible as possible.
+Local Distributors
+Below you will find a list of Ferroperm's s ales di
+s-
+tributors in Germany, United Kingdom, France and
+Brazil.
+Main Office and Production Facilities
+Ferroperm Piezoceramics A/S
+Hejreskovvej 18A
+DK-3490 Kvistgård
+Tel.: (+45) 49 12 71 00
+Fax: (+45) 49 13 81 88
+E-mail: pz@ferroperm-piezo.com
+Website: www.ferroperm-piezo.com
+Germany United Kingdom
+Amroh Electronics GmbH
+Jakob-Kaiser-Straße 2
+D-47877 Willich
+Germany
+Tel: (+49) 2154 945030
+Fax: (+49) 2154 428421
+E-mail: amroh@t-online.de,
+Website: www.amroh.via.t-online.de/piezo.htm
+E.P Electronic Components Ltd.
+Unit 22, Station Road Ind. Est.
+Southwater, West Sussex RH13 7UD
+United Kingdom
+Tel: (+44) 1403 733030,
+Fax: (+44) 1403 733909
+E-mail: info@epelectronics.co.uk
+Website: www.epelectronics.co.uk
+France Brazil
+Hybrico International
+ZAE les Glaises
+2 bis, Rue Léon Blum
+F-91120 Palaiseau
+France
+Tel: (+33) 1 69 19 13 07
+Fax: (+33) 1 69 19 13 09
+Engecer Projetos e Produtos Cerémicos
+R.N. Sra. Auxiliedore, 1141
+Sta. Felicia - CEP 13560-970
+São Carlos - SP
+Brazil
+Tel: (+55) 0162 72-6716
+Fax: (+55) 0162 72-1125
+Poland
+Sonomed ltd.
+Sliska52,
+PL00-826 Warszawa,
+Poland
+Tel: (+48) 22 65 41 506
+Fax: (+48) 22 65 41 507
+E-mail: biuro@sonomed.com.pl
+Website: www.sonomed.com.pl
+

@@ -1,0 +1,71 @@
+Fait à Paris le 14 Juillet 2015 par Constant Bourdeloux pour l'association echOpen.
+1, Place du Parvis Notre-Dame
+75004 Paris
+Milieu absorbant pour transducteur acoustique
+I. Domaine technique
+La présente invention concerne un dispositif d'absorption de vibrations et d'ondes sonores d'un
+transducteur acoustique de type piézoélectrique.
+La présente invention se rapporte plus particulièrement au domaine médical avec une utilisation
+fréquentielle du transducteur acoustique allant du méga-hertz (MHz) à plusieurs dizaines de MHz.
+La présente invention peut être utilisée pour d'autres applications non médicales nécessitant un ou
+plusieurs transducteurs acoustiques.
+II. Art antérieur
+Il est connu un dispositif pour absorber les vibrations et ondes sonores d'un transducteur acoustique
+de type piézoélectrique. Un tel dispositif est généralement nommé « backing », dénomination
+anglo-saxonne de la présente invention.
+Ce dispositif présente comme principaux inconvénients la difficulté technique de production, la
+nécessité de matériaux rares et le prix relativement élevé de sa réalisation.
+La présente invention vise à remédier à ces inconvénients. Plus particulièrement, la présente
+invention vise à prévoir un protocole simple de production et diminuer les coûts de réalisation par
+l'utilisation de matériaux communs et peu chers.
+III. Description de l'invention
+L'invention a pour objet un dispositif pour absorber les vibrations et ondes sonores issues d'un
+transducteur acoustique de type piézoélectrique caractérisé par son impédance acoustique de l'ordre
+du méga-rayleigh (MRayl) et sa fréquence d'utilisation de l'ordre du méga-hertz (MHz).
+Le dispositif comprend un mélange de colle époxy composée de résine et de durcisseur ainsi que de
+poudre de dioxyde de silicium (élément SiO2) avec des grains de l'ordre de 10 micro-mètres (µm).
+Le dispositif est circulaire et suit la géométrie de surface du transducteur auquel il sera appliqué.
+Le dispositif a comme propriété d'avoir la même impédance caractéristique que le transducteur.
+L'invention est produite en suivant un protocole à quatre étapes simples.
+Premièrement l'on doit mélanger dans des proportions prédéfinies la résine époxy, le durcisseur
+époxy ainsi que la poudre de dioxyde de silicium (élément SiO2) de sorte à obtenir un mélange
+homogène et une répartition égale de tous les éléments.
+Deuxièmement l'on doit dégazer le mélange obtenu au point précédent en le plaçant dans une
+enceinte à pression faible de l'ordre de la centaine de pascal (Pa) en utilisant par exemple une
+pompe à vide pour obtenir un milieu sous vide.
+Troisièmement l'on doit verser le mélange dans un moule prédéfini puis dégazer à nouveau le
+mélange dans ce moule. Les étapes de dégazage sont nécessaires pour assurer l'absence de bulles
+d'air dans le dispositif final qui dégraderaient ses performances.
+Quatrièmement l'on doit mettre le moule contenant le mélange dans une étuve ou un four à une
+température de l'ordre de 80 degrés Celsius (°C) et laisser polymériser la colle époxy contenant la
+poudre de dioxyde de silicium au moins une heure.
+Page 1 sur 2
+IV. Description des dessins
+La présente invention sera mieux comprise à l'étude d'un mode de réalisation particulier pris à titre
+d'exemple nullement limitatif et illustré par les dessins annexés sur lesquels :
+• la figure 1 (voir annexes) présente un mode de réalisation du dispositif
+• la figure 2 (voir annexes) est une vue du dispositif en coupe partielle suivant son diamètre.
+V. Description détaillée de l'invention
+En référence à la figure 1, le protocole de réalisation du dispositif comporte plusieurs étapes.
+Tel que représenté sur les figures, le dispositif comprend un mélange de colle époxy composée de
+résine et de durcisseur ainsi que de poudre de dioxyde de silicium (élément SiO2) avec des grains de
+l'ordre de 10 micro-mètres (µm).
+VI. Variantes de réalisation
+Il est possible d'utiliser de la poudre de tungstène (élément W) avec des grains de l'ordre de 10 µm
+au lieu d'utiliser de la poudre de dioxyde de silicium (élément SiO2).
+On peut réaliser une seule étape de dégazage au lieu de deux si l'on utilise une pompe à vide très
+puissante. On pourrait dès lors supprimer la deuxième étape du protocole et dégazer le mélange une
+fois ce dernier versé dans le moule.
+VII. Avantages de l'invention
+La présente invention répond aux problèmes soulevés dans l'art antérieur à savoir la difficulté de
+production d'un tel dispositif, la difficulté d'acquisition des matériaux nécessaires à la production du
+dispositif et le prix élevé de production du dispositif.
+La présente invention est facilement réalisable avec des matériaux simples à acquérir et peu chers.
+Un soin particulier a été apporté au protocole pour le rendre simple et facile à mettre en œuvre sans
+avoir nécessairement besoin de matériel spécifique onéreux.
+VIII. Application industrielle
+Le principe selon l'invention est particulièrement destiné à l'industrie des transducteurs acoustiques.
+La présente invention n'est nullement limitée aux modes de réalisation décrits et représentés mais
+l'homme du métier saura y apporter toute variante conforme à son esprit.
+Page 2 sur 2
+

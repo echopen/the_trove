@@ -1,0 +1,746 @@
+1
+Ultrafast Ultrasound Imaging
+Jeremy Bercoff
+SuperSonic Imagine
+France
+1. Introduction
+Ultrasound can be considered as a disruptive technology in the medical device arena
+(Christensen, 2003). A disruptive technology has the potential to break the rules of
+existing markets. Thanks to its real time capabilities, its non ionizing properties and its
+cost - much lower than any other medical modality - ultrasound has significantly
+impacted clinical segments within radiology, obstetrics, vascular or cardiology and
+created new markets of emergency medicine and intervention. It could, in the future,
+change the rules for screening (where whole breast ultrasound devices are entering the
+market of breast imaging), diagnosis (with the standardization of elastography
+techniques in the prostate) and surgery (with HIFU – High Intensity Focused Ultrasound –,
+histotripsy devices and therapy monitoring tools).
+In this context, innovations in the ultrasound field always have enormous potential. In the
+history of ultrasound, many innovations have been developed since its establishment as a
+medical imaging device in the 1960s, roughly one or two per decade (Szabo, 2004). The
+key innovation that launched the modality in the 1960s, is the real time imaging capability
+through mechanical scanning. Multichannel systems with electronic control of transducer
+arrays were developed in the 1970s. In the 1980s, flow analysis tools came to maturity
+through color flow imaging and quantitative Doppler modes (Pulse Wave Doppler -
+PWD). In the 1990's significant improvements in image quality were made possible with
+the introduction of real time compounding techniques and harmonic imaging. Although
+many of these concepts were studied in research laboratories years before the commercial
+dates cited above, it is systematically the maturity of a new technology that trigger the
+introduction of the innovations on commercially available platforms: for example, real
+time imaging was triggered by microprocessors development, Doppler modes were
+prompted by digital signal processing chips with enough dynamics to detect, at the same
+time, very weak blood signal and strong tissue echoes. The introduction of low cost
+Analog to Digital (A/D) converters has led to fully digital systems, significantly
+increasing the quality of the information delivered. Harmonic imaging was triggered
+by large bandwidth transducers, allowing reception of the signal at twice the transmit
+frequency.
+In the first decade of the 21st century, technology moved towards extensive miniaturization
+leading to the introduction of high performances portable devices. Portable devices have
+created new markets for ultrasound - the emergency market for example, underlying again
+the disruptive potential of the modality. Today portable devices are the primary sources of
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+4
+market growth in the industry and miniaturization can be considered as a global trend of
+the ultrasound industry: available technologies and innovations are progressively integrated
+in portable systems.
+The figure below summarizes the evolution of ultrasound in the last decades.
+Fig. 1. A few important innovations in ultrasound imaging and their corresponding
+technology enablers.
+Today a new technological breakthrough is ongoing with the advent of massive parallel
+computing capabilities. This results from the incredible demand in processing and display
+performances needed in the videogame industry. In addition to multicore architecure
+CPU's, new graphical processing units (GPU) allow parallel processing on thousands of
+channels simultaneously. This technology is available for the ultrasound industry and is the
+enabler to full software-based architecture systems. In 2009, SuperSonic Imagine introduced
+the first full software-based ultrasound system (Aixplorer®): instead of increasing
+integrated hardware processing channels, all the processing is performed by the software
+unit (CPU and GPUs). The concept of processing channels disappears - the system is able to
+compute in parallel as many channels as required by the acquisition.
+This architecture paves a new way to perform ultrasound imaging: ultrafast ultrasound
+imaging. This is the focus of this chapter: what is ultrafast imaging (section 2), what new
+information can be assessed using it (section 3), how can we revisit standard ultrasound
+modes using ultrafast capabilities and enhance performances of current ultrasound devices
+(sections 4) and what innovations could it bring in the future (section 5) ?
+2. Ultrafast ultrasound imaging: definition and example
+2.1 Conventional ultrasound imaging
+Ultrasound imaging is usually performed by sequential insonification of the medium using
+focused beams. Each focused beam allows the reconstruction of one image line. A typical 2D
+image is made of a few tens of lines (64 to 512). The overall sequence is illustrated on Fig. 2.
+The frame rate of the imaging mode is set by the time required to transmit a beam, receive
+and process the backscattered echoes from the medium and repeat that for all the lines of
+the image.
+For a conventional 2D image, the time to build an image is:
+* 2 *
+lines
+image
+N Z
+T
+c
+ (1)
+www.intechopen.com
+Ultrafast Ultrasound Imaging 5
+Fig. 2. Conventional imaging acquisition process
+Where Z is the image depth, c the speed of ultrasound waves assumed constant (1540 m/s)
+and Nlines the number of lines in the image.
+The maximum frame rate that can be reached with this technique is:
+max
+1
+image
+FR
+T
+ (2)
+For example, an image of 5cm in depth and 256 lines in width would have the following
+frame rate:
+max 60
+FR Hz
+ (3)
+Ultrasound system architectures were designed to process one image line at a time.
+2.2 Increasing ultrasound imaging frame rate
+Limitations of the conventional approach appears as soon as higher frame rates are
+required, typically in echocardiography for the heart motion analysis, as well as in 3D/4D
+imaging where the number of lines become significant (~ a few thousands).
+Parallelization schemes have been considered to overcome these limitations. In the academic
+area this has been reported as soon as the late 70's (Delannoy, 1979; Shattuck, 1984; Von
+Ramm, 1991). Most current systems have multiline capabilities: for each transmit beam,
+several lines (typically from 2 to 16) are computed. Multiline processing can be used either
+to increase the frame rate (for echocardiography for example) either to increase the number
+of lines computed per image (for 3D imaging).
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+6
+2.3 Ultrafast imaging
+With or without multiline capabilities, current ultrasound systems are built on a serialized
+architecture and images are reconstructed sequentially from several equivalent transmits.
+Ultrafast imaging breaks this paradigm. An ultrafast imaging system is able to compute in
+parallel as many lines as requested and is therefore capable of computing a full image from
+one single transmit whatever the size and the characteristics of the image. In such a system
+the image frame rate is no longer limited by the number of lines reconstructed but by the
+time of flight of a single pulse to propagate in the medium and get back to the transducer.
+Table 1 gives typical frame rates for different ultrasound clinical applications using
+conventional and ultrafast architectures.
+Application
+Typical imaging
+depth
+Conventional
+architecture
+Ultrafast architecture
+Abdominal imaging 20 cm 20 Hz 3800Hz
+Cardiac Imaging 15 cm 150 Hz 5000Hz
+Breast imaging 5 cm 60 Hz 15000 Hz
+Table 1. Example of typical frame rates in different clinical applications for conventional and
+ultrafast architectures.
+New applications of ultrafast systems have been reported in the literature. Fink
+demonstrated for the first time that transient shear waves, never visualized before on an
+ultrasound scanner, can be imaged (Sandrin, 2000). Jensen used an ultrafast device to
+implement synthetic imaging techniques and derive vectorial estimation of flow motion
+(Jensen 2005). Ultrafast prototypes reported in those works allowed the storage of
+acquisitions in a digital memory stack and then the transfer to a PC. Processing was then
+performed offline on the stored data.
+Although the concept of ultrafast imaging has been explored in academics during the last
+decade, it is only recently that this technology has entered the commercial realm due to
+major technological barriers that had to be overcome.
+For example, to achieve ultrafast imaging, the image computation must be performed on a
+fully parallelized platform, typically a software-based platform.
+There are two technologically challenging aspects to building a fully software-based platform:
+- the data transfer rate from the acquisition module to the processing unit. As raw (non
+beamformed) Radio Frequency (RF) signals are directly transferred to the PC, the data
+rate required to perform real time imaging is huge: several GigaBytes/s.
+- the processing unit needs to be powerful enough to ensure real time imaging. As an
+example, conventional gray scale imaging requires 1 to 2 Gigaflops (multiplication +
+addition) per second.
+New powerful processing units (GPUs) have reached a satisfactory level of performance at
+the end of the 2000s. Consequently, GPU's are more and more used in the medical field to
+speed up processing algorithms (Schiwietz, 2006; Xu, 2007; Rosenzweig, 2011). The ultrafast
+architecture leverages this processing power by combining it with fast numerical links (PCI
+express technology) capable of transferring huge volume of data to these units. This
+combination allows the shift of the beamforming process - the most demanding processing
+step of an ultrasound system - from hardware to software, enabling full parallelization of
+ultrasound image computation.
+Fig. 3 represents the architecture of an ultrafast system compared to a conventional one.
+www.intechopen.com
+Ultrafast Ultrasound Imaging 7
+Fig. 3. As beamforming is performed in software, full parallelization of image formation can
+be performed. Each insonification can therefore lead to a full image. (TX refers to Transmit
+and RX to Receive).
+2.4 Ultrafast imaging using coherent plane wave compound
+There are many ways to leverage an Ultrafast imaging architecture (Lu, 1998; Jensen 2005).
+SuperSonic Imagine's approach is based on the use of plane wave insonifications. A plane
+wave is generated by applying flat delays on the transmit elements of the ultrasound probe
+as illustrated on Fig. 4. The generated wave will insonify the whole area of interest.
+Fig. 4. A plane wave is sent by a linear transducer and insonifies the whole region of
+interest. An ultrasound image is computed from this single insonification.
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+8
+The backscattered echoes are then recorded and processed by the ultrafast scanner to
+compute an image of the insonified area.
+Plane wave imaging allows the computation of one full ultrasound image per transmit at the
+expense of the image quality. As the transmit focalization step is removed, the image
+contrast and resolution are reduced, as illustrated in the figure below:
+Fig. 5. Image of a phantom with anechoic inclusion of different sizes with plane wave
+insonification (left) and standard focused method (right). The images were acquired with
+a 5 MHz linear probe.
+Fig. 6. Ultrasound image obtained using ultrafast coherent plane wave compound
+To overcome this limitation, several tilted plane waves are sent into the medium (Montaldo,
+2009) and coherently summed to compute a full image. Using this method the transmit
+focalization step is retrospectively done by this summation (Fig. 6). The quality of the final
+www.intechopen.com
+Ultrafast Ultrasound Imaging 9
+image is therefore dependent on the number of angles used to reconstruct it as illustrated
+on Fig. 7.
+There is a trade off between the maximum ultrafast frame rate achievable by the mode and
+the image quality: the higher the number of angles, the better the image quality.
+Fig. 7. Image quality as a function of the number of angles used to compute the final
+ultrasound image for a 40mm depth image.
+The ultrafast compounded acquisition sequence presents several advantages:
+- Firstly, the retrospective transmit focalization can be done dynamically for each pixel of
+the image increasing the homogeneity of the final image compared to physical
+insonification.
+- Secondly, the number of firings required to obtain an image of a quality equivalent to a
+focused mode (in terms of contrast and resolution) is around 5 to 10 times lower
+(Montaldo, 2009). As a consequence, frame rates of ultrasound imaging can be
+increased by the same factor using coherent plane wave strategies on an ultrafast
+system. Fig. 8 shows an example of equivalent quality ultrasound images using the
+coherent plane wave approach and the focused one. Maximum reachable frame rates
+increase from 30 Hz to more than 300 Hz.
+- Finally by cleverly trading off the compromises in the image quality, imaging frame
+rates of a few thousands of Hz can be reached and allow a full new range of
+applications and innovations.
+This chapter presents two innovations that leverage ultrafast imaging on an ultrasound
+system: the first one is a new imaging mode called Shear Wave Elastography that provides
+quantitative visco-elastic analysis of tissues. The second one is a new way to perform
+Doppler flow analysis changing the performances and workflow paradigms of current
+available Color and PW modes.
+3. Shear wave elastography
+3.1 Transient shear waves for tissue mechanical investigation
+Ultrasound imaging provides both morphological (gray scale images) and functional
+imaging (flow imaging) of soft tissue. Using ultrafast capabilities, a third dimension can be
+added to ultrasound: physio-pathological information through the assessment of tissue
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+10
+Fig. 8. 2 images of equivalent quality using focused (left) and ultrafast (right) techniques.
+Maximum achievable frame rates are respectively 30 and 325 Hz.
+viscoelasticity. Ultrafast imaging can be used to capture phenomena that have never been
+imaged on commercial ultrasound devices: transient shear waves propagating in soft tissue.
+Shear wave imaging leads to quantification of tissue mechanical properties.
+3.1.1 Shear waves in soft tissues
+Two types of mechanical waves propagate in soft tissue: compressional waves (ultrasound
+waves are compressional waves in a given frequency range) and shear waves.
+Compressional waves travel much faster than shear waves in soft tissue: typically 1 to
+1500m/s compared to 10m/s for shear waves. In other words, the bulk modulus (K) of soft
+tissue is much larger than the shear modulus (µ) (a factor 106 higher).
+K>>µ (4)
+This has two important consequences:
+- Tissue viscoelasticity is only dependent on the shear modulus. The Young's modulus,
+that quantifies tissue viscoelasticity, can be written :
+9 * *
+3
+3
+K µ
+E µ
+K µ
+ 
+
+(5)
+- The difference in propagation speed is so large that shear wave motion can be
+considered as negligible during the propagation time of a compressional wave. Imaging
+methods relying on compressional waves such as ultrasound can therefore be used to
+record propagation of shear waves. Note that this is not true in other solids such as
+metals or rocks (in seismology for example, bulk waves cannot image shear waves)
+In summary, shear waves reflect tissue viscoelasticity properties and they can be imaged
+using ultrasound.
+3.1.2 Imaging shear waves: need for ultrafast imaging
+If compressional waves can propagate within tissue on a very large frequency range [up to
+the GHz), shear waves suffer from much stronger viscous/attenuation effects. Maximum
+shear wave frequencies propagating in human tissue are organ-dependent and typically
+vary between 500 Hz and 2000 Hz. As a consequence the minimum frame rate required to
+www.intechopen.com
+Ultrafast Ultrasound Imaging 11
+correctly sample transient waves are of a few thousands Hertz (from 1000 Hz to 4000Hz
+taking the Nyquist limit).
+Those frame rates are only achievable using ultrafast imaging.
+In order to image shear waves, the system must be tuned to maximize the imaging frame
+rate. Typically a single flat wave is sent to compute a full image (Fig. 4), allowing to reach
+the required frame rates (a few thousands Hz), the maximum value only depending on the
+considered image depth (time of flight of the wave back and forth from the maximum depth
+imaged).
+3.1.3 Generating transient shear waves
+There are three different types of source of transient shear waves in the body.
+The first type is natural body vibrations: heart beating, arterial pulses or voice are examples
+of vibrating sources that induce shear waves. It is a free source of information but the
+assessment of reliable information is challenging outside of the vicinity of the vibrating
+organ.
+To better control the generation of the vibration, external vibrators that create controlled
+transient pulses have been proposed. The first report of externally generated transient shear
+wave analysis was published in the 1990s (Catheline, 1999). A that time, ultrafast imaging
+was not used and shear wave propagation was analyzed along a single ultrasound line. The
+work was extended to 2D shear wave imaging using the first ultrafast imaging prototype
+(Sandrin, 2000) and the first quantitative elasticity image was shown.
+Also in the late 1990s, Sarvazyan proposed a third way to generate transient shear waves in
+the body (Sarvazyan, 1998): the acoustic radiation force induced by ultrasound beams. If
+sufficient energy if applied at the focus of an ultrasound beam, tissue can be remotely
+pushed in the direction of the ultrasound wave propagation. A transient shear wave that
+propagates transversally is generated as illustrated on Fig. 9.
+Fig. 9. Radiation force from an ultrasound focused beam generates a transverse bipolar
+shear wave.
+In Sarvazyan's setup, the shear wave was induced with a specific transducer and the motion
+was recorded using a separate conventional scanner and iterative methods.
+In 2004, a new imaging mode has been introduced coupling radiation force induced
+transient shear waves and ultrafast imaging called Supersonic Shear Imaging (Bercoff, 2004).
+In this approach, the shear wave is generated and imaged with the same ultrasound probe.
+The generation method was based on the induction of a shear wave source that moves into
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+12
+the body at a supersonic speed, allowing, through the equivalent of a sonic boom, the
+creation of high amplitude shear waves in human organs.
+3.1.4 Measuring tissue viscoelasticity
+Once properly generated and imaged, a transient shear wave can provide many insights on
+the mechanical properties of the imaged tissue. Fig. 10 illustrates the propagation of a shear
+wave in a tissue-mimicking phantom using Supersonic Shear Imaging. The wave is captured
+on a 2D imaging plane thanks to ultrafast imaging.
+Fig. 10. 3 snapshots of a shear wavefront propagating in a phantom. The gray level indicates
+amplitude of the displacements generated by the shear in the tissue. The wavefront is
+distorted when passing through a harder inclusion (right image) as the shear wave
+propagates faster in the inclusion.
+The phase velocity as a function of the frequency as well as the group velocity can be
+calculated locally.
+Fig. 11 shows a group velocity map derived from the ultrafast imaging scanner in the same
+mimicking phantom.
+Fig. 11. Shear wave velocity map superimposed on the ultrasound image of the phantom.
+The harder spherical inclusion appears on the velocity map in red while it is barely visible
+on the ultrasound image. This enhances the fact that the contrast given by both imaging
+modes are uncorrelated.
+www.intechopen.com
+Ultrafast Ultrasound Imaging 13
+Because the shear wave is imaged inside the medium, all wave components can be assessed
+and used for velocity estimation including evanescent waves. The resolution of the shear
+wave velocity image is therefore not limited by the shear wavelength but by the wavelength
+of the imaging method, i.e. ultrasound. In the above example, the resolution of the image is
+1mm while the shear wavelength is around 15 mm.
+Depending on the organ, different rheological models can be used to derive tissue
+mechanical characteristics from the shear wave propagation map.
+- In a purely elastic medium, phase velocity does not vary as a function of frequency
+(Royer, 2000) and is equal to the group velocity. The velocity is directly linked to tissue
+Young's modulus E through the formula where c is the shear wave speed and ρ the
+tissue density.
+2
+3
+E c
+  (6)
+- In a viscoelastic medium such as breast or liver, the phase velocity increases as a
+function of frequency. Many rheological models can be considered such as the Voigt or
+the thermoviscous models. Most of them appear to be consistent only in a limited
+frequency range (Orescanin, 2010). A well-established model for compressional waves
+is the time causal model (Szabo, 2004) which shows a power law dependence of the
+attenuation and phase velocity as a function of frequency and works on the full
+frequency range. It can also be applied to shear waves:
+1 1
+0
+0
+1 1
+tan
+( ) ( ) 2
+y y
+y
+f f
+c f c f
+ 
+
+  
+   
+  
+ 
+ 
+(7)
+f and fo represents frequencies of analysis, α and y the two parameters modelizing the
+power law dependence of the attenuation. Analysis of the shear wave propagation
+allows deduction of c(fo), α and y enabling full rheological characterization of the
+tissue. In such cases, the estimation of group velocity values gives a representation of
+medium viscoelasticity at the central frequency of the wave spectral content.
+- In a thin medium that has geometrical characteristics much smaller than the shear
+wavelength, such as arteries, guidance of the shear waves through medium leads to
+geometrical dispersion effects. Depending on the medium external environment and its
+geometrical characteristics, shear wave velocity propagation can be modeled and
+Young modulus can be deduced. The formula for a cylindrical artery can be written
+(Couade, 2010):
+3
+hc
+v K
+
+ (8)
+Where c is the shear wave speed in an infinite medium, ω the frequency, h the height of the
+artery and K a correction factor. Young's modulus can then be deduced using the formula (6).
+3.2 A new imaging mode in ultrasound imaging
+3.2.1 Presentation
+Basic concepts introduced in the Supersonic Shear Imaging technique (Bercoff, 2004) have been
+used to create a real time imaging mode, called ShearWave Elastography (SWE), on a
+commercially available system. Two key aspects have made this innovation transfer possible:
+- An new technology (multicore CPU, GPUs, as explained above) for the building of a
+ultrafast imaging system able to image transient shear waves.
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+14
+- A user workflow enabler: using this approach, the generation and imaging of the shear
+wave is performed with the same ultrasound probe as the one conventionally used for
+other imaging modes. No additional material is necessary to perform elasticity imaging.
+Acceptance of the mode in the clinical workflow is easier and the learning curve for the
+new mode is minimized.
+The SWE mode is an additional real-time imaging mode that provides tissue elasticity
+estimation in kiloPascal (Fig. 12).
+In its primary implementation, the mode estimates the shear wave group velocity locally
+and deduces the value in kPa assuming the medium is purely elastic (eq 6). This is done in
+real time on a 2D image plane as illustrated on figure below.
+Fig. 12. ShearWave Elastography mode: Elasticity Information is displayed in real time in a
+box with color coded values.
+Recently, the mode has been implemented on a specific probe providing volumetric
+imaging. In addition to axial view, transverse and coronal views of lesions elasticity
+distribution can be assessed as illustrated on figure below:
+Fig. 13. 3D ShearWave Elastography. 3 planes can be viewed. By navigating within the
+volume the displayed imaging plane can be chosen.
+www.intechopen.com
+Ultrafast Ultrasound Imaging 15
+Volume assessment can be performed allowing more accurate visualization and
+quantification of elastic distribution. 3D SWE may be extremely useful in the framework of
+therapy monitoring.
+Indeed complementary information of tissue stiffness changes can increase information on
+response to therapy compared to simple tumor volume size. Additional modules for specific
+applications requiring more complex rheological modelizations can be envisioned. In the
+example below, it is possible to measure and display the phase velocity as a function of the
+wave frequency in a region of interest of the liver. In addition to the group velocity, the
+slope of the phase velocity variation can be assessed. This full assessment of the liver
+viscoelasticity could be of great interest for diffuse liver disease diagnostics and staging.
+Fig. 14. Dispersion of shear waves in liver assessed by ShearWave Elastography. The white
+curve represents the shear wave phase velocity as a function of the frequency calculated in the
+square box displayed on the gray scale image. The yellow one is the spectrum amplitude of the
+transient wave. The group velocity, the central frequency of the shear wave and the relaxation
+time (in ms) corresponding to the slope of the curve are displayed to the left of the image.
+The same principle can be applied to reconstruct the arterial Young's modulus by combining
+the group velocity measurement and the thickness of the artery as described in (8).
+3.2.2 Clinical value
+The ShearWave Elastography (SWE) mode has recently been implemented for different
+organs. Fig. 15 shows elasticity images in the breast, tendons, liver and prostate.
+Multicentric studies to assess the clinical value of the mode are currently ongoing:
+- Breast: SWE could potentially help improve the diagnosis of breast lesions by increasing
+the overall accuracy of the BI-RADS® (Mendelson, 2001) classification. Recent studies have
+shown promising results for breast cancer diagnostic (Evans, 2010). SWE could help
+correctly reclassify malignant lesions that would have been missed with ultrasound alone
+and declassify benign lesions that would have been biopsied. From a global perspective
+this could lead to a reduction of the number of unnecessary biopsies and an increase in
+positive biopsy rate reducing healthcare cost and patient’s stressful experience.
+A multicentric study on 1800 patients and 17 clinical sites is ongoing to confirm these
+preliminary results.
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+16
+Fig. 15. SWE images in a) breast , b) MSK, c) liver, d) prostate
+- Liver: SWE is currently being evaluated in the framework of diffuse liver disease staging
+and on its ability to improve the diagnosis of focal lesions. A preliminary study on
+113 patients (Bavu, 2011) demonstrated high accuracy of fibrosis staging using
+SWE.
+- Thyroid: As for breast, SWE could increase the diagnosis accuracy . The number of
+benign nodules that are undergoing Fine Needle Aspiration is currently extremely high.
+A preliminary study (Sebag, 2010) demonstrated very promising results on the
+pertinence of elasticity images for nodule characterization. More importantly, the
+specific case of follicular neoplasm raises an important issue as 85% of surgeries of this
+type of lesions are done for benign lesions.
+- Prostate: SWE could be of great interest for improved detection rate of prostate cancer,
+through localization of prostate lesions, monitor localized treatments. Ongoing studies
+intend to demonstrate the value of SWE for increased positive biopsy rate in the
+prostate diagnostic workflow.
+3.2.3 Perspectives for SWE
+Today, SWE is mainly positioned in the disease diagnosis of specific static organs (cited
+above). However, given its specificities, other domains could benefit from the mode:
+- Its resolution (up to 1mm in superficial organs) and sensitivity (elastic contrasts of 20 %
+can be detected) could improve screening for specific organs.
+- Its quantitative aspect, implemented on a 3D imaging system, can target the emerging
+field of localized and minimally (or non) invasive therapy monitoring (RF,
+Cryoablation, HIFU).
+- Its ability to acquire the elasticity information on a wide region of interest in a few tens
+of milliseconds allows elasticity imaging of moving organs and the analysis of elasticity
+variation in time. Cardiology is one of the areas where SWE could bring tremendous
+clinical value. Preliminary studies demonstrated that SWE could be a reliable and easy
+tool to assess heart myocardial stiffening (Couade, 2011).
+www.intechopen.com
+Ultrafast Ultrasound Imaging 17
+4. Changing the paradigm in blood flow analysis using ultrafast imaging
+We demonstrated how ultrafast imaging could bring new information to the medical
+community by imaging fast transient phenomena such as shear waves. Ultrafast imaging
+can also be used to re-think conventional ultrasound modes. We will investigate in this
+section the potential of ultrafast imaging for flow analysis.
+Doppler analysis is one of the most demanding features in ultrasound from a technical
+standpoint - the number and complexity of firings to acquire the information is huge - and
+from a performance standpoint - quantitative measurements are expected, raising the
+requirements of the mode in term of accuracy and reproducibility. Due to this complexity,
+Doppler tools suffer from technical limitations that impact the user in a significant way. It is
+shown here how ultrafast imaging can overcome those limitations and open new
+perspectives in Doppler analysis both in terms of performance and user workflow.
+4.1 Ultrafast sequence for Doppler imaging
+The same type of ultrafast sequences as the ones described above for B-mode (2.4) are used
+in Doppler imaging. Several tilted plane waves are sent into the medium and backscattered
+echoes are coherently summed to reconstruct ultrasound images. Then Doppler processing
+can be performed as on conventional images.
+Fig. 16. Ultrafast compound imaging for Doppler analysis of flow.
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+18
+The maximum number of angles that can be used to compute an image is limited by the
+acquisition Pulse Repetition Frequency (PRFdoppler) needed to measure the desired Doppler
+velocity scale (usually this value is set by the user).
+max
+doppler
+PRF
+Nangles
+PRF
+ (9)
+Where PRFmax is the maximal PRF reachable given the imaging depth considered.
+Interestingly, it has been shown, in Color flow imaging, that resolution and sensitivity
+equivalent to classical schemes can be obtained using only 9 different angles (Bercoff, 2011).
+This indicates that Doppler images can be acquired 10 to 15 times faster than with
+conventional approaches (For a typical 20 to 30 mm color box, around 100 lines are
+acquired). Such a huge gain in acquisition time can be used in several ways:
+- Increase Doppler imaging modes performance: we demonstrate below increases in
+temporal resolution and sensitivity (4.2).
+- Improve user workflow: this gain in time can be used to perform other acquisition types
+such as PW, potentially increasing performances of highly demanding modes such as
+triple mode (Bmode, Color flow imaging and PW simultaneously).
+- Change Doppler mode paradigm by merging Color flow imaging and PW Doppler
+modes in a single acquisition and with this, increase the accuracy of the examination
+and reduce its overall time (4.3).
+The use of several tilted plane compounded waves as described above is essential for the
+performance of the mode in terms of sensitivity and accuracy (Udesen, 2008).
+4.2 Improving color flow imaging (CFI)
+Conventional schemes offer limited frame rates for color flow imaging (typically 20 Hz) and
+suffer from severe trade-offs between image size and frame rate (that can go down to a
+few Hertz for boxes covering the whole image area). Ultrafast compound based Doppler
+imaging provides flow images with a temporal resolution never reached before on ultrasound
+systems whatever the box size. Complex and fast flows can be visualized in a much finer
+way potentially leading to a more reliable diagnosis of cardiovascular diseases such as
+stenoses.
+The figure below shows images of a color flow clip acquired at 200 Hz (around 10 times
+faster than the conventional mode). A histogram of the velocities in one sample volume is
+provided as a function of time. It demonstrates the ability to quantify flow with very high
+temporal resolution.
+With such high frame rates as demonstrated above (100- 200Hz), the visualization of the
+color clip can be done after acquisition through a slow motion movie.
+For slower flow imaging, high frame rates are not necessary. Ultrafast sequences can therefore
+be tuned to increase spatial resolution and sensitivity. In a sensitive ultrafast acquisition, as the
+PRF required to measure slow flows is lower, the number of angles to compute a color image
+is increased to calculate the Doppler frequency shift. Sensitive color images acquired on the
+thyroid of a healthy volunteer is shown below and compared to classical color flow imaging.
+Deep small vessels are detected only on the ultrafast compounded image.
+Increasing the ensemble length can even further optimize sensitivity. The number of
+samples used to calculate the flow per pixel can be increased up to a factor 15. Ultrasensitive
+images can be obtained like the ones reported by Institut Langevin on the rat brain (Macé,
+2010) and may be of great interest in many applications: functional imaging of the brain,
+imaging of tumor vascularization, obstetrics....
+www.intechopen.com
+Ultrafast Ultrasound Imaging 19
+Fig. 17. Ultrafast color flow imaging provides very fine temporal resolution. The plot is
+computed by displaying a histogram of the velocity on the small ROI indicated as a function
+of time.
+Fig. 18. Sensitive flow images based on ultrafast plane wave acquisition on the thyroid.
+Images have been acquired using 16 angles to compute ultrasound images and an ensemble
+length of 16 to deduce flow images.
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+20
+From a general perspective, ultrafast imaging breaks usual limitations and compromises of
+color flow imaging:
+- Clips of color data can be generated with higher sensitivity and frame rate than on
+conventional systems.
+- The increase quality is maintained whatever the box size. Usual schemes suffer from
+trade-offs between frame rate and color box size. Using plane waves, the whole area
+of interest can be filled with color Doppler information without any drop in frame
+rate.
+The information is consistent and synchronous all over the imaged area. Doppler pixels
+have been assessed at the same time on the contrary of focused strategies where lines
+are sequentially acquired. In a classical approach, the Doppler signals on the sides of the
+box are therefore acquired with a time lag that can reach several hundreds of
+milliseconds.
+4.3 Quantitative ultrafast Doppler imaging
+Conventional Doppler analysis is usually performed using in two ultrasound modes:
+- the color flow imaging mode to spatially locate a region of interest
+- the Pulsed Wave mode to perform quantitative measurements at the region of interest
+depicted by color flow imaging. PW mode is a local assessment of quantitative
+information - information is assessed at one single location at a time.
+In clinical exams, the user constantly goes back and forth between those two modes and
+successively analyzes with the PW the locations pointed out by the color flow imaging
+mode. Triple mode (simultaneous color and PW) has been introduced to improve the user
+workflow. Despite some compromises on the PW spectrum quality, it facilitates the
+acquisition of information in many cases.
+Using an ultrafast architecture, Doppler can be envisioned in a completely different manner:
+quantitative information is acquired at the same time in all pixels of the color box breaking
+the incompatibility between imaging and quantitative measurements. In a typical
+implementation, a one shot acquisition can be launched from the conventional color flow
+imaging mode. A full clip of Doppler data is acquired (typically 2 to 6 s) and the system is
+frozen. The user can then review the color flow imaging clip, locate the frame of interest that
+better depicts flow properties and perform PW measurements at several locations, allowing
+for the first time a comparison of spectra from different regions of interest from the same
+cardiac cycle.
+The quantitative ultrafast Doppler acquisition workflow is illustrated on the figure 19.
+Using the retrospective review of ultrafast data, many automatic tools can be added to help
+physician diagnosis:
+- Comparison of flow data from several locations (as described above)
+- Automatic localization of peak velocities within the image for accurate flow
+quantification
+- Calculation and display of the mean and peak velocities all over the image
+- Automatic calculation and compensation of the Doppler angle.
+Ultrafast imaging opens perspectives to Doppler imaging by enhancing its performances,
+allowing visualization of very fast flow characteristics, perform accurate quantification and
+comparison of flow velocities through the whole image area and provide new types of
+www.intechopen.com
+Ultrafast Ultrasound Imaging 21
+visualization and automation tools. It will probably allow a significant reduction of the
+vascular exam duration as all data necessary for the diagnosis of a given area is acquired in a
+few seconds.. In the future, ultrafast Doppler could be used to derive new information such as
+the shear stress on the arterial wall, perform accurate vortex analysis and quantification
+5. Conclusion
+ShearWave Elastography and Ultrafast Doppler are two important innovations that are
+made possible thanks to ultrafast imaging. They are the first demonstrations of many other
+benefits that an ultrafast architecture can bring to the clinical world. Cardiovascular is one of
+the fields that could tremendously benefit from this technology. Ultrafast imaging can change
+the way moving organs are imaged. Recent works demonstrated, for example, the ability to
+locally measure Pulse Wave Velocity in the artery in less than one second (Couade 2010).
+Other publications reported dynamic analysis of heart mechanics using SWE for higher
+performance and more accurate detection of cardiovascular diseases. Elasticity of myocardium
+has been assessed locally as a function of time through a whole heart cycle (Couade 2011).
+Ultrafast imaging can also provide analysis of other transient phenomena that have not been
+extensively explored such as the dissolution of ultrasound contrast agents (Couture 2009) or
+the monitoring of brain activity (Macé 2010) through ultrasensitive flow images - positioning
+for the first time ultrasound in the field of functional brain imaging.
+Fig. 19. Doppler analysis workflow.
+There is no doubt that such ultrafast imaging based academic works will create new
+standards in ultrasound imaging in the next coming years - in 2D, as well as, on a longer
+perspective, in 4D.
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+22
+6. Acknowledgment
+I would like to thank Jessica Bercoff, Claude Cohen-Bacrie, Aline Criton, Michèle Debain
+and Jacques Souquet for their support, feedback and enthusiasm on this chapter as well as
+all scientific contributors of the reported work (Matt Bruce, Mathieu Couade, Nicolas Felix,
+Mathias Fink, Christophe Fraschini, Jean Luc Gennisson, Fabien Mezière, Emilie Macé,
+Gabriel Montaldo, Thanasis Loupas, Mathieu Pernot, David Savéry, Mickael Tanter ….)
+7. References
+Bavu, E.; Gennisson,J.L.; Couade, M.; Bercoff, J.; Mallet, V.; Fink, M.; Nalpasc, B.; Tanter, M.;
+Pol, S. (2011). Non-invasive in-vivo Liver Fibrosis evaluation using Supersonic Shear
+Imaging: a clinical Study on 113 Hepatitis C Virus patients. accepted for publication in
+Ultrasound in Medicine and Biology.
+Bercoff, J.; Tanter, M.; Fink, M. (April 2004). Supersonic shear imaging: A new technique for soft
+tissues elasticity mapping, IEEE Transactions on Ultrasonics, Ferroelectrics and
+Frequency Control, vol. 51, no. 4, pp. 396–409.
+Bercoff, J.; Montaldo, G.; Loupas, T.; Savery, D.; Mézière, F.; Fink, M.; Tanter, M. (January
+2011). Ultrafast compound Doppler imaging: providing full blood flow characterization, IEEE
+Transactions on Ultrasonics, Ferroelectrics and Frequency Control, 58(1), pp.
+134-47.
+Catheline, S.; Wu, F.; Fink M. (May 1999). A solution to diffraction biases in sonoelasticity: the
+acoustic impulse technique. J Acoust Soc Am, 105(5), pp. 2941-50.
+Christensen, C. M. ( 2003). The Innovator's Dilemma, HarperBusiness Essentials, 2003
+Couade, M.; Pernot, M.; Prada, C.; Messas, E.; Emmerich, J.; Bruneval, P.; Criton, A.;
+Fink, M.; Tanter, M. (October 2010). Quantitative assessment of arterial wall
+biomechanical properties using shear wave imaging, Ultrasound Med Biol., 36(10), pp.
+1662-76.
+Couade, M.; Pernot, M.; Messas, E.; Bel, A.; Ba, M.; Hagege, A.; Fink, M.; Tanter, M. (February
+2011). In vivo quantitative mapping of myocardial stiffening and transmural anisotropy
+during the cardiac cycle. IEEE Trans Med Imaging. 2011 Feb, 30(2), pp. 295-
+305.
+Couture, O.; Bannouf, S.; Montaldo, G.; Aubry, J.F.; Fink, M.; Tanter, M. (November 2009).
+Ultrafast imaging of ultrasound contrast agents. Ultrasound Med Biol, 35(11), pp.
+1908-16.
+Delannoy, B.; Torgue, R.; Bruneel, C.; Bridou, E. (1979). Ultrafast electronic image
+reconstruction device, Echocardiology, Vol. 1, C. T. Lancee, Ed., ch. 3, pp 447-
+450.
+Evans, A.; Whelehan, P.; Thomson, K.; McLean, D.; Brauer, K.; Purdie, C.; Jordan, L.; Baker,
+L.; Thompson, A. (2010). Quantitative shear wave ultrasound elastography: initial
+experience in solid breast masses. Breast Cancer Res. 12(6).
+Jensen, J.A.; Holm, O.; Jerisen, L.J.; Bendsen, H.; Nikolov, S.I.; Tomov, B.G.; Munk, P.;
+Hansen, M.; Salomonsen, K.; Hansen, J.; Gormsen, K.; Pedersen, H.M.;
+Gammelmark, K.L. (May 2005). Ultrasound research scanner for real-time synthetic
+www.intechopen.com
+Ultrafast Ultrasound Imaging 23
+aperture data acquisition, IEEE Transactions on Ultrasonics, Ferroelectrics and
+Frequency Control, Volume 52, Issue 5, pp. 881 - 891
+Lu, J-Y. (January 1998). Experimental study of high frame rate imaging with limited diffraction
+beams, IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control,
+Volume 45, Issue 1, pp. 84 – 97
+Macé, E.; Montaldo, G.; Bercoff, J.; Cohen, I.; Fink, M.; Tanter, M. (2010). Ultrafast Doppler Imaging
+and its application to high sensitivity brain angiography. IEEE UFFC conference.
+Mendelson, E.B.; Berg, W.A.; Merritt, C.R. (July 2001). Toward a standardized breast ultrasound
+lexicon, BI-RADS: ultrasound. Semin Roentgenol. 36(3), pp. 217-25.
+Montaldo, G.; Tanter, M.; Bercoff, J.; Benech, N.; Fink, M. (March 2009). Coherent plane-wave
+compounding for very high frame rate ultrasonography and transient elastography,
+IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control, 56(3), pp.
+489-506.
+Orescanin, M.; Qayyum, M.A.; Toohey, K.S.; Insana, M.F. (October 2011) Dispersion and shear
+modulus measurements of porcine liver. Ultrasonic Imaging, 32(4), pp. 255-66.
+Rosenzweig, S.; Palmeri, M.; Nightingale, K. (February 2011). GPU-Based Real-Time Small
+Displacement Estimation With Ultrasound, IEEE Transactions on Ultrasonics,
+Ferroelectrics and Frequency Control, 58(2), pp. 399-405.
+Royer, D.; Dieulesaint, E. (2000). Elastic Waves in Solids: Free and guided propagation, Springer.
+Sandrin, L.; Catheline, S.; Tanter, M.; Vinçonneau, C.; Fink, M. (2000), 2D transient
+elastography, Acoust. Imaging, vol 25, pp. 485-492
+Sarvazyan, A.P.; Rudenko, O.V.; Swanson, S.D.; Fowlkes, J.B.; Emelianov, S.Y. (November
+1998). Shear wave elasticity imaging: a new ultrasonic technology of medical diagnostics.
+Ultrasound Med Biol. 24(9), pp. 1419-35.
+Schiwietz, T.; Chang, T.; Speier, P.; Westermann, R. (2006). Mr image reconstruction using the
+GPU, Proc. SPIE, vol. 6142, no. 1.
+Sebag, F.; Vaillant-Lombard, J.; Berbis, J.; Griset, V.; Henry, J.F.; Petit, P.; Oliver, C. (December
+2010). Shear wave elastography: a new ultrasound imaging mode for the differential diagnosis
+of benign and malignant thyroid nodules. J Clin Endocrinol Metab. 95(12), pp.
+5281-8.
+Shattuck, D. P.; Weinshenker, M. D.; Smith, S. W.; Von Ramm, O. T. (April 1984). Explososcan:
+A parallel processing technique for high speed ultrasound imaging with linear phased arrays,
+The Journal of the Acoustical Society of America, Volume 75, Issue 4, pp.1273-
+1282
+Szabo, T. L. (2004). Diagnostic ultrasound imaging: inside out, Elsevier Academic Press.
+Von Ramm, O.T.; Smith, S.W.; Pavy, H.G., Jr. (March 1991), High-speed
+ultrasound volumetric imaging system. II. Parallel processing and image display Ultrasonics,
+Ferroelectrics and Frequency Control, IEEE Transactions on Volume 38, Issue 2, pp.109 -
+115
+Szabo, T.L. (1994). Time domain wave equations for lossy media obeying a frequency power law, J.
+Acoust. Soc. Am. Volume 96, Issue 1, pp. 491-500.Xu, F.; Mueller, K. (2007). Real-
+time 3d computed tomographic reconstruction using commodity graphics hardware, Phys.
+Med. Biol., vol. 52, no. 12, pp. 3405–3419.
+www.intechopen.com
+Ultrasound Imaging – Medical Applications
+24
+Udesen, J.; Gran, F.; Hansen, K. L.; Jensen, J. A.; Thomsen, C.; Nielsen, M. B. (August 2008).
+High Frame-Rate Blood Vector Velocity Imaging Using Plane Waves: Simulations and
+Preliminary Experiments, IEEE Transactions on Ultrasonics, Ferroelectrics and
+Frequency Control, vol. 55, no. 8, pp. 1729-1743
+Xu, F.; Mueller, K. (2007). Real-time 3d computed tomographic reconstruction using commodity
+graphics hardware Phys. Med. Biol., vol. 52, no. 12, pp. 3405–3419
+www.intechopen.com
+Ultrasound Imaging - Medical Applications
+Edited by Prof. Oleg Minin
+ISBN 978-953-307-279-1
+Hard cover, 330 pages
+Publisher InTech
+Published online 23, August, 2011
+Published in print edition August, 2011
+InTech Europe
+University Campus STeP Ri
+Slavka Krautzeka 83/A
+51000 Rijeka, Croatia
+Phone: +385 (51) 770 447
+Fax: +385 (51) 686 166
+www.intechopen.com
+InTech China
+Unit 405, Office Block, Hotel Equatorial Shanghai
+No.65, Yan An Road (West), Shanghai, 200040, China
+Phone: +86-21-62489820
+Fax: +86-21-62489821
+This book provides an overview of ultrafast ultrasound imaging, 3D high-quality ultrasonic imaging, correction
+of phase aberrations in medical ultrasound images, etc. Several interesting medical and clinical applications
+areas are also discussed in the book, like the use of three dimensional ultrasound imaging in evaluation of
+Ashermanâ€™s syndrome, the role of 3D ultrasound in assessment of endometrial receptivity and follicular
+vascularity to predict the quality oocyte, ultrasound imaging in vascular diseases and the fetal palate, clinical
+application of ultrasound molecular imaging, Doppler abdominal ultrasound in small animals and so on.
+How to reference
+In order to correctly reference this scholarly work, feel free to copy and paste the following:
+Jeremy Bercoff (2011). Ultrafast Ultrasound Imaging, Ultrasound Imaging - Medical Applications, Prof. Oleg
+Minin (Ed.), ISBN: 978-953-307-279-1, InTech, Available from: http://www.intechopen.com/books/ultrasound-
+imaging-medical-applications/ultrafast-ultrasound-imaging
+

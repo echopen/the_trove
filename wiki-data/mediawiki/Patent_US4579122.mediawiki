@@ -1,0 +1,63 @@
+# Patent US4579122
+
+
+
+
+
+=US4579122 : Ultrasonic scanner = 
+
+
+
+== Invention date ==
+
+Apr 1, 1986
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Kabushiki Gaisha SG]]
+* [[Kabushiki Kaisha Toshiba]]
+=== Beneficiaires === 
+* * [[Wataru Shimizu]]
+* [[Jitsuo Toda]]
+* [[Teruhumi Akama]]
+* [[Youshichi Kikuchi]]
+
+
+= Abstract =
+
+The rotation of a motor is converted into a swinging movement of an ultrasonic transducer by a conversion mechanism. The relationship between a rotation angle  of the motor and a swinging angle  of the ultrasonic transducer can be expressed by =tan-1 (sin). The rotation of the motor is detected by a rotation detector of a reluctance type having an eccentric rotor. A signal having a nonlinear relationship with respect to an actual rotation angle  of the motor, which can be expressed by the following equation, is supplied to a motor driver from the rotation detector:
+= Patents Backwards =
+
+* [[Patent US3927661]]
+* [[Patent US4106492]]
+* [[Patent US4120291]]
+* [[Patent US4149419]]
+* [[Patent US4151834]]
+* [[Patent US4215585]]
+* [[Patent US4399703]]
+* [[Patent US4418698]]
+* [[Patent US4421118]]
+* [[Patent US4424813]]
+* [[Patent US4479388]]
+= Patents Forwards =
+
+* [[Patent US4762002]]
+* [[Patent US4880011]]
+* [[Patent US5258699]]
+* [[Patent US5678552]]
+* [[Patent US5720285]]
+* [[Patent US5869945]]
+* [[Patent US6780153]]
+* [[Patent US6876383]]
+* [[Patent US7457654]]
+* [[Patent US8454515]]
+* [[Patent US20090082670]]
+* [[Patent EP0403349A1]]
+* [[Patent EP0410154A2]]
+* [[Patent EP0654245A1]]
+* [[Patent EP1350471A1]]
+* [[Patent EP1938753A1]]
+* [[Patent WO1990016061A1]]
+* [[Patent WO2004006773A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

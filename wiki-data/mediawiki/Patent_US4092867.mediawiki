@@ -1,0 +1,115 @@
+# Patent US4092867
+
+
+
+
+
+=US4092867 : Ultrasonic scanning apparatus = 
+
+
+
+== Invention date ==
+
+Jun 6, 1978
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Terrance Matzuk]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An ultrasonic scanner having a housing, an ultrasonic transducer disposed within the housing and mounted for movement in a predetermined path therewithin. Magnetic means are provided for effecting movement of the transducer in a predetermined path, and electrical means are provided for energizing the transducer and receiving signals therefrom.
+= Patents Backwards =
+
+* [[Patent US870938]]
+* [[Patent US3406564]]
+* [[Patent US3678736]]
+* [[Patent US3690311]]
+* [[Patent US3721227]]
+* [[Patent US3765229]]
+* [[Patent US3784805]]
+* [[Patent US3789833]]
+* [[Patent US3927661]]
+* [[Patent US3955561]]
+* [[Patent US3974826]]
+* [[Patent US3990300]]
+* [[Patent SU461349A1]]
+= Patents Forwards =
+
+* [[Patent US4184094]]
+* [[Patent US4246792]]
+* [[Patent US4257270]]
+* [[Patent US4257272]]
+* [[Patent US4274421]]
+* [[Patent US4377088]]
+* [[Patent US4398425]]
+* [[Patent US4399703]]
+* [[Patent US4418698]]
+* [[Patent US4470122]]
+* [[Patent US4531412]]
+* [[Patent US4565095]]
+* [[Patent US4572200]]
+* [[Patent US4587971]]
+* [[Patent US4652820]]
+* [[Patent US4664121]]
+* [[Patent US4671292]]
+* [[Patent US4841979]]
+* [[Patent US4896672]]
+* [[Patent US4913155]]
+* [[Patent US4947351]]
+* [[Patent US5005579]]
+* [[Patent US5111412]]
+* [[Patent US5212580]]
+* [[Patent US5329194]]
+* [[Patent US5351692]]
+* [[Patent US5357963]]
+* [[Patent US5402789]]
+* [[Patent US5438247]]
+* [[Patent US5465724]]
+* [[Patent US5515340]]
+* [[Patent US5529070]]
+* [[Patent US5531119]]
+* [[Patent US5844140]]
+* [[Patent US5904652]]
+* [[Patent US6131459]]
+* [[Patent US6159149]]
+* [[Patent US6198956]]
+* [[Patent US6248073]]
+* [[Patent US6325757]]
+* [[Patent US6379304]]
+* [[Patent US6454716]]
+* [[Patent US6626834]]
+* [[Patent US6752761]]
+* [[Patent US7255678]]
+* [[Patent US7351204]]
+* [[Patent US7422709]]
+* [[Patent US7771351]]
+* [[Patent US7806828]]
+* [[Patent US7819810]]
+* [[Patent US8147414]]
+* [[Patent US8285362]]
+* [[Patent US8403858]]
+* [[Patent US8403859]]
+* [[Patent US8500648]]
+* [[Patent US8506490]]
+* [[Patent US8535232]]
+* [[Patent US8827907]]
+* [[Patent US20130030296]]
+* [[Patent DE3735121A1]]
+* [[Patent EP0098202A1]]
+* [[Patent EP0118206A1]]
+* [[Patent EP0142832A2]]
+* [[Patent EP0183312A2]]
+* [[Patent EP0186231A2]]
+* [[Patent EP0278993A1]]
+* [[Patent EP0336057A1]]
+* [[Patent EP0487339A1]]
+* [[Patent EP0668051A2]]
+* [[Patent EP0882949A1]]
+* [[Patent WO2000065338A1]]
+* [[Patent WO2001089359A2]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

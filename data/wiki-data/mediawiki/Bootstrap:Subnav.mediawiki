@@ -1,0 +1,31 @@
+# Bootstrap:Subnav
+
+* About
+* Hardware
+** [[:Category:HardIntroduction|Introduction]]
+** [[:Category:Emission|Emission]]
+** [[:Category:Mechanics|Mechanics]]
+** [[:Category:Transducer|Transducer]]
+** [[:Category:Receiving|Receiving]]
+** [[:Category:Transmitting|Transmitting]]
+** [[:Category:Microcontroller|Microcontroller]]
+** [[:Category:Electronics|Electronics]]
+* Software
+** [https://github.com/echopen/android-app#user-content-echopen-android-app README]
+** [[Challenges]]
+** [https://github.com/echopen/android-app/ GitHub Account]
+* How to Contribute
+** [[:Category:Challenge|Engage in Challenges]]
+** [https://github.com/echopen/android-app/issues/ Solve Software Issues]
+** [https://github.com/echopen/hard/issues/ Solve Hardware Issues]
+** [[Contributor Guide]]
+** [[Wiki Contributor Guide|Wiki Guide]]
+* Community
+**[[Become a member]]
+**[[Special:ContributionScores | Top Contributions]]
+**[http://github.com/echopen/ GitHub]
+**[https://www.facebook.com/groups/599174686826294/ Our Facebook group]
+**[[:Category:Workshops|Workshops]]
+**[[:Category:Apéro|Aperos]]
+* Resources
+** [[Category:Patents|Patents list]]

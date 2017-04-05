@@ -1,0 +1,25 @@
+# Cahier des charges V0.0
+
+
+Le prototype V0.0 ne sera pas une sonde échographique en soit, mais simplement un transducteur immergé dans un aquarium et entraîné en rotation par un moteur. Il permettra de sortir un signal électronique, de développer les prémices du logiciel d’imagerie et de faire une démonstration de principe.
+
+Idéalement, ce prototype sort pour Octobre 2015. Il pourra être alimenté par les partenaires techniques, et pourra servir de base aux partenaires plus décalés dans le temps comme l’AFORP, proto 204 ''et al.''.
+
+=Transducteur=
+*Transducteur immersible.
+*Transducteur focalisé faible puissance idéalement ne nécessitant pas d'amplification à l'émission ; l'eau atténuant peu les ondes acoustiques il ne nécessitera pas d’amplification en réception.
+*Dimensions du piézo inférieure à 2x2x2 cm^3.
+*Gamme de fréquences envisageable : 1 MHz - 10 MHz.
+*Détermination de l'impulsion optimale pour l'excitation du piézo (dirac, gaussienne, etc...).
+
+=Mécanisme de rotation=
+*Le transducteur sera entraîné en rotation par un moteur quelconque probablement recyclé d’une sonde qu’on aura démontée ; ce prototype étant un test de faisabilité, il n'est pas nécessaire d'avoir une cadence de 30 images par seconde. Le transducteur étant en rotation, on aura besoin d'un collecteur rotatif qu'on pourra recycler d'une sonde qu'on va démonter.
+
+=Synchronisation des tirs=
+*Un émetteur (fixe) et un récepteur (entraîné en rotation par le moteur) optique permettront de connaître la position du transducteur. 
+*A voir si une carte d’acquisition couplée au système peut suffire ou s’il faudra rajouter un GBF (générateur basses fréquences) pour l'excitation du transducteur.
+
+=Logiciel=
+*Le logiciel donnera les ordres de départ et d’arrêt du processus d’imagerie. Il affichera en temps réel l’image échographique.
+*OS sur lequel il tourne : pas de contraintes, linux ''a priori''.
+*Langage de programmation : C++ ou python ou autre - selon les besoins de prototypage.

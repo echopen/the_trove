@@ -1,0 +1,88 @@
+# Patent US4094306
+
+
+
+
+
+=US4094306 : Apparatus for ultrasonic examination = 
+
+
+
+== Invention date ==
+
+Jun 13, 1978
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[George Kossoff]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+Apparatus for the pulse-echo ultrasonic examination of an object comprised of transducer means for transmitting pulses of ultrasonic energy and receiving reflected echoes of said pulses immersed in a coupling medium contained within a housing, the pulses being transmitted and echoes received through an aperture in the housing which may be covered with a flexible coupling membrane and the housing including a storage header tank open to the atmosphere to maintain the pressure to the coupling medium on the membrane constant during flexing of the membrane.
+= Patents Backwards =
+
+* [[Patent US3470868]]
+* [[Patent US3480002]]
+* [[Patent US3547101]]
+* [[Patent US3577772]]
+* [[Patent US3603303]]
+* [[Patent US3752255]]
+* [[Patent US3765403]]
+* [[Patent US3936791]]
+* [[Patent US3973235]]
+* [[Patent US3990296]]
+= Patents Forwards =
+
+* [[Patent US4186747]]
+* [[Patent US4209022]]
+* [[Patent US4216766]]
+* [[Patent US4231373]]
+* [[Patent US4233988]]
+* [[Patent US4241608]]
+* [[Patent US4248090]]
+* [[Patent US4252125]]
+* [[Patent US4311147]]
+* [[Patent US4457311]]
+* [[Patent US4476873]]
+* [[Patent US4608979]]
+* [[Patent US4649925]]
+* [[Patent US4681120]]
+* [[Patent US4705026]]
+* [[Patent US4858597]]
+* [[Patent US5080101]]
+* [[Patent US5083550]]
+* [[Patent US5258922]]
+* [[Patent US5303708]]
+* [[Patent US5316003]]
+* [[Patent US5617864]]
+* [[Patent US5658239]]
+* [[Patent US5820552]]
+* [[Patent US5833627]]
+* [[Patent US5938613]]
+* [[Patent US5983123]]
+* [[Patent US5987983]]
+* [[Patent US6027457]]
+* [[Patent US6277076]]
+* [[Patent US6364837]]
+* [[Patent US6491635]]
+* [[Patent US6520914]]
+* [[Patent US6524246]]
+* [[Patent US6685639]]
+* [[Patent US6733448]]
+* [[Patent US6808495]]
+* [[Patent US6825838]]
+* [[Patent US6932768]]
+* [[Patent US7445599]]
+* [[Patent US7556603]]
+* [[Patent US7950297]]
+* [[Patent US20120236258]]
+* [[Patent USRE33590]]
+* [[Patent DE3033598A1]]
+* [[Patent DE3152827A1]]
+* [[Patent EP0018269A2]]
+* [[Patent WO1980000193A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

@@ -1,0 +1,54 @@
+# Patent US4269066
+
+
+
+
+
+=US4269066 : Ultrasonic sensing apparatus = 
+
+
+
+== Invention date ==
+
+May 26, 1981
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* [[Christopher L. Fischer]]
+
+
+= Abstract =
+
+An ultrasound sensing apparatus suitable for human body scanning, particularly regions which are difficult to scan with larger ultrasound heads. The ultrasound transducers are mounted for rotation in an off-axis configuration. With this configuration, transmission and reception of sound occurs without the sound being normal to the membrane contacting the body. This eliminates reverberation problems and permits viewing of shallow tissue with a relatively small apparatus.
+= Patents Backwards =
+
+* [[Patent US3415111]]
+* [[Patent US3423993]]
+* [[Patent US3577772]]
+* [[Patent US3693415]]
+* [[Patent US3938502]]
+* [[Patent US4034744]]
+* [[Patent US4143554]]
+* [[Patent US4163394]]
+* [[Patent US4181120]]
+* [[Patent US4210028]]
+* [[Patent US4231373]]
+* [[Patent US4233988]]
+* [[Patent GB1121903A]]
+* [[Patent GB1359187A]]
+* [[Patent GB1428370A]]
+= Patents Forwards =
+
+* [[Patent US4398425]]
+* [[Patent US4453410]]
+* [[Patent US4485819]]
+* [[Patent US4567895]]
+* [[Patent US4649926]]
+* [[Patent US4896672]]
+* [[Patent US5255684]]
+* [[Patent US5450851]]
+* [[Patent US5465724]]
+* [[Patent US5611343]]
+* [[Patent WO2000069340A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

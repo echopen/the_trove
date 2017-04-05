@@ -1,0 +1,102 @@
+# Patent US4034744
+
+
+
+
+
+=US4034744 : Ultrasonic scanning system with video recorder = 
+
+
+
+== Invention date ==
+
+Jul 12, 1977
+
+== Lien vers Brevet ==
+
+http://www.google.com/patents/US4034744
+
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* [[Paul R. Goldberg]]
+
+
+= Abstract =
+
+An ultrasonic scanning system for observing the internal organs of the body including at least one ultrasonic transducer for sequentially scanning a region of the body and pulsing means for periodically pulsing said transducer as it begins a scan. Video recording means records a composite signal including scanning, pulse rate and echo information for reproduction. Display means are included for directly displaying the information or for displaying the play-back from the video recorder. The display is interlaced, providing minimum jitter and maximum resolution.
+= Patents Backwards =
+
+* [[Patent US3547101]]
+* [[Patent US3690311]]
+* [[Patent US3778756]]
+* [[Patent US3779234]]
+* [[Patent US3817089]]
+* [[Patent US3828609]]
+= Patents Forwards =
+
+* [[Patent US4106492]]
+* [[Patent US4149419]]
+* [[Patent US4151834]]
+* [[Patent US4174705]]
+* [[Patent US4181120]]
+* [[Patent US4228687]]
+* [[Patent US4233988]]
+* [[Patent US4248090]]
+* [[Patent US4269066]]
+* [[Patent US4271842]]
+* [[Patent US4310853]]
+* [[Patent US4375818]]
+* [[Patent US4385521]]
+* [[Patent US4454763]]
+* [[Patent US4494548]]
+* [[Patent US4494549]]
+* [[Patent US4567895]]
+* [[Patent US4572202]]
+* [[Patent US4649926]]
+* [[Patent US4688576]]
+* [[Patent US4802458]]
+* [[Patent US4869258]]
+* [[Patent US5031626]]
+* [[Patent US5131393]]
+* [[Patent US5647364]]
+* [[Patent US5797848]]
+* [[Patent US5902245]]
+* [[Patent US6004273]]
+* [[Patent US6017311]]
+* [[Patent US6039695]]
+* [[Patent US6221015]]
+* [[Patent US6409673]]
+* [[Patent US6572554]]
+* [[Patent US6764450]]
+* [[Patent US7131948]]
+* [[Patent US7255678]]
+* [[Patent US7674228]]
+* [[Patent US7758599]]
+* [[Patent US7887556]]
+* [[Patent US8052704]]
+* [[Patent US8192452]]
+* [[Patent US8226674]]
+* [[Patent US8246640]]
+* [[Patent US8328829]]
+* [[Patent US8414604]]
+* [[Patent US8469979]]
+* [[Patent US8496677]]
+* [[Patent US8574249]]
+* [[Patent US8597315]]
+* [[Patent US8784333]]
+* [[Patent US8784440]]
+* [[Patent US8808186]]
+* [[Patent US8827907]]
+* [[Patent DE2822261A1]]
+* [[Patent DE2857246C2]]
+* [[Patent DE3727212A1]]
+* [[Patent EP0028325A1]]
+* [[Patent EP0157408A2]]
+* [[Patent EP0176878A1]]
+* [[Patent EP0233724A2]]
+* [[Patent EP0355175A1]]
+* [[Patent WO1996025099A1]]
+* [[Patent WO1998033428A2]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

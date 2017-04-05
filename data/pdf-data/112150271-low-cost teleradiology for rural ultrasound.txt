@@ -1,0 +1,573 @@
+Low-cost teleradiology for rural ultrasound
+Kristen K. DeStigter, MD & G. Eli Morey, MPH
+Dept. of Radiology, Fletcher Allen Health Care
+University of Vermont College of Medicine
+Burlington, VT, USA
+Matthew R. Rielly, PhD & Martin E. Anderson, PhD
+Ultrasound Research and Development
+Philips Healthcare
+Bothell, WA, USA
+Alphonsus Matovu, MBChB, MMed
+Kamuli Mission Hospital
+Kamuli, Uganda
+Brian S. Garra, MD
+Washington DC VA Medical Center and Division of
+Imaging and Applied Mathematics,
+CDRH, FDA. Silver Spring, MD, USA
+Michael G. Kawooya, MBChB, MMed, PhD
+Ernest Cook Ultrasound Research and Education Institute
+Mengo Hospital
+Kampala, Uganda
+Frank R. Miele, MSEE
+Pegasus Lectures, Inc.
+Forney, TX, USA
+Abstract: In under-resourced communities, there are several
+preventable pregnancy complications that can lead to significant
+maternal or perinatal morbidity and mortality when left
+untreated. The lack of access to prenatal imaging is one of many
+factors that contribute to the greater mortality rates in such
+populations. Analysis of the most common complications suggest
+that even limited access to obstetric ultrasound imaging could
+have a positive impact, particularly in a rural context in which
+imaging can prompt transport of the patient to a capable facility.
+The authors describe their work to establish and validate an
+obstetric care model in Uganda, and the design and for a clinical
+study to measure this model’s efficacy in terms of improving
+outcomes at delivery. The central objective of this care model is
+to reduce mortality in remote locations by providing expectant
+mothers and their primary care-givers with advance notice of
+complications so that women at risk can be referred to
+appropriate care centers in time. The components of this model
+are described, including portable ultrasound machine, scanning
+protocols for clinical data acquisition by local operators, custom
+clinical data compression and transmission capabilities, and
+internet-based infrastructure for remote reading and reporting.
+The objectives, hypotheses, and design of the associated clinical
+outcomes study and progress to date are also presented.
+Keywords: Healthcare access, under-resourced, ultrasound,
+imaging protocols, high-risk pregnancies, teleradiology
+I. INTRODUCTION
+Worldwide, complications of pregnancy and childbirth
+contribute to 358,000 maternal deaths annually, 99% of which
+occur in developing nations. More than 80% of mortality
+occurs in areas of high birthrate with limited access to
+healthcare, such as sub-Saharan Africa and south Asia [1].
+More than half of these deaths are attributable to hemorrhage or
+obstructed labor. Peripartum hemorrhage is responsible for
+25% of maternal deaths. It is also a factor in fetal and neonatal
+deaths. Approximately 5% of pregnancies are affected by
+postpartum hemorrhage. Many are from uterine atony, which
+has several causes, including but not limited to multiple
+gestations, grand multiparity, and prolonged labor. At least 20-
+30% of maternal hemorrhage is due to abnormal placentation:
+placenta previa, placental abruption, and/or placenta accreta.
+Abnormal placentation is an even greater issue in developing
+nations than in developed nations because it is associated with
+greater parity, particularly where contraceptive services may be
+limited [2].
+A certain number of these pregnancy complications could
+be precluded with the use of ultrasound as a diagnostic tool.
+However, under-resourced areas rarely have either ultrasound
+equipment or trained personnel to operate them. Because
+antenatal ultrasound is an obvious solution to these problems, it
+is not surprising that ultrasound outreach programs are plentiful
+in developing nations. Such programs may have limited
+sustainability when they involve expensive and time-
+consuming ongoing training of medical personnel and/or
+outdated ultrasound machines that are difficult to maintain and
+can demand considerable electrical power. These factors can
+become obstacles for local workers after foreign-based trainers
+and support personnel have left.
+To the authors’ knowledge, the use of volume ultrasound in
+prevention of maternal and fetal morbidity and mortality has no
+precedent in the literature, such that the only known references
+are the report of the authors’ previous work and preliminary
+results from an IRB-approved study with Kamuli Mission
+Hospital (KMH) and from a clinical project at Nawanyago
+Health Center in Kamuli District, Uganda. This study is the
+first major clinical outcomes test of the new technique in an
+under-resourced country.
+The long-term aim of this work is to mitigate the ultrasound
+imaging deficit in the most under-resourced areas of the world
+This work is supported by the Imaging the World Corporation (ITW) and the
+Bill and Melinda Gates Foundation (Seattle,WA), The Joseph Fineberg
+Foundation (Los Angeles, CA), with in-kind and technical support from
+Philips Healthcare (Andover, MA), GE Healthcare (Fairfield, CT), the
+McKesson Corporation (San Francisco, CA), and peerVue, Inc. (Sarasota,
+FL).
+using a sustainable, low-cost technology-based solution. The
+proposed care model enables minimally-trained primary
+healthcare workers to capture and transmit ultrasound freehand
+sweeps of key regions of interest. An integrated exam data
+compression and transmission system automatically detects the
+available network bandwidth and appropriately adjusts the file
+sizes prior to transmission. These data are then uploaded to a
+server where they can be accessed by expert readers either
+locally or remotely. These readers can then review the images
+for key indications and transmit their findings via text message
+back to the rural areas via the cellular phone network, enabling
+medical diagnosis anywhere such a phone network is in place.
+The high-level objectives of the authors’ outcomes study
+are to test whether (1) for certain common diagnoses, operators
+with no technical knowledge or training will be able to acquire
+and transmit images that equal the utility of traditional
+ultrasound imaging (performed by an operator with years of
+training), and (2) remote obstetric ultrasound diagnoses will
+improve maternal and perinatal outcomes. These objectives
+specifically target the World Health Organization Millennium
+Development Goal #5, which aims to improve maternal health
+by reducing maternal mortality and increasing skilled care [3].
+II. STUDY METHODOLOGY
+A. Overall study design
+Through this study, the authors will test the health impact
+of the use of special ultrasound volume imaging protocols
+designed to allow non-physician health personnel with minimal
+training in ultrasound to perform basic ultrasound
+examinations. Up to six non-physician health workers with no
+prior exposure to ultrasound will be trained to perform these
+protocols, which do not require knowledge of internal anatomy
+or ultrasound physics. After completing training, these trainees
+will begin recruiting and examining patients at their respective
+clinics. At experimental sites, each eligible, consenting patient
+will receive an ultrasound examination using the obstetric scan
+protocol.
+Initial reports of the use of volume imaging in ultrasound
+date from the late 1990s [4], and much of the original focus
+was on 3D display in obstetrics [5-8]. This work coincided
+with the development of mechanical 4D transducers that
+created semi-real-time spatially calibrated 3D images. As
+ultrasound instrumentation developed, the ability to create 3D
+images of larger volumes was added by allowing users to
+manually sweep a transducer over a large distance creating a
+3D volume set of images. The development and deployment of
+PACS capable of displaying these sweeps as a series of images
+much like a CT or MRI series forms the basis of body volume
+imaging [9, 10], which has now become part of the standard
+ultrasound examination [11] because of its ability to provide
+much more complete organ coverage than the older
+“representative image” approach. The Imaging the World
+(ITW) protocols take advantage of the exceptional organ
+coverage provided by volume scanning not to further enhance
+diagnostic accuracy, but to provide basic diagnostic capability
+in a situation where the operator has minimal ultrasound
+knowledge. During preliminary testing, these ITW protocols
+have been shown to produce diagnostic quality images of
+multiple organs [12].
+Volumetric images are sent via the internet to health worker
+expert ultrasound professionals at the Ernest Cook Ultrasound
+Research and Education Institute, Kampala, Uganda
+(ECUREI), and the Imaging the World Corporation (ITW),
+who will provide interpretations. The interpretations are made
+available to the local primary care provider to guide patient
+management. Patients recruited at the control site will not
+receive an ultrasound examination. Patients at both
+experimental and control sites are followed throughout the
+remainder of the pregnancy, delivery and in the postpartum
+period, and specific outcomes data will be gathered and used to
+evaluate improvements in maternal and perinatal morbidity and
+mortality. Data from experimental sites will be compared with
+contemporary and historical data from the control site to
+determine whether utilization of special volume ultrasound
+technology is an effective means of reducing pregnancy-
+associated maternal and perinatal morbidity and mortality.
+B. Clinical site selection and historical data
+The training portion of the protocol concept was tested at
+one study locale in July 2010. A group of volunteers traveled
+to Nawanyago in Kamuli District, Uganda and, under
+Institutional Review Board supervision, spent two days training
+nurse midwives in a rural health clinic to use external
+anatomical landmarks to obtain hundreds of obstetrical images.
+A team of radiologists in the US and Uganda is currently
+evaluating the images for key indicators, such as placental
+location, fetal number, and fetal presentation. Early indications
+show that the images are of diagnostic quality.
+In order to power the statistical analysis and allow detection
+of a significant difference in outcomes, it is necessary to
+properly account for underlying trends in the outcomes
+variables that existed prior to the start of the study. To estimate
+these trends, historic clinical outcomes data will be compiled
+by accessing clinic logbooks that are kept at each of the clinics.
+These logbooks contain pooled clinical data in the form of
+monthly statistical reports. Data collected from these logbooks
+will include, but will not be limited to, the number of prenatal
+visits, the number of maternal admissions, and the numbers of
+deliveries, live births, still births, and maternal deaths. Data
+will be collected retrospectively at each clinic for a period of 3
+years prior to the start of the current study.
+In addition, an independent community of comparable size
+and demographic makeup to the experimental groups will be
+selected as a control site. The control site will remain
+ultrasound naïve for the course of data collection.
+Simultaneous enrollment of all eligible and consenting
+participants for the duration of the study will occur at this
+control site, just as with the experimental groups. Enrolled
+patients will be followed throughout the course of their
+pregnancy and childbirth. Although no recommendations for
+care will be made, data will be gathered for each of the
+previously mentioned clinical outcomes variables. Through
+comparison of the control site and the intervention site, it will
+be possible to isolate the effects of the diagnostic ultrasound
+protocol being tested.
+C. Technical infrastructure
+A hardware reference system has been developed and tested
+at the University of Vermont, Fletcher Allen Health Care with
+the support of industrial partners (GE Healthcare and Philips
+Healthcare). This system currently comprises a laptop
+ultrasound system and a low-power netbook computer-based
+local storage and transmission server connected to the
+ultrasound system via wireless Ethernet, and to the remote
+imaging collaboration server (Datarealm Services, Inc.,
+Phoenix, AZ) via either a cellular modem or other internet
+connection, e.g. satellite. The large volume of image data
+contained in volume imaging must be highly compressed for
+transmission over slow and sometimes unreliable connections
+in developing countries. A method for doing this has been
+developed and successfully tested using data from the existing
+IRB-approved study [13].
+D. Patient recruitment
+Patient enrollment in the study will occur at each of the
+three health centers and continue throughout the study period.
+Health workers and patients are recruited by word of mouth in
+each locale by talking to the community and pregnant mothers
+who present at the clinics. The following criteria will be
+applied:
+a) Inclusion criteria: All female patients presenting at the
+study sites within the study period, who are 16 years and
+older, who are assumed or proven to be pregnant, and who are
+willing to give informed consent will be enrolled.
+b) Exclusion criteria: Patients not meeting the inclusion
+criteria, or who are in an unstable medical condition (unless
+ultrasound is necessary to define treatment) will be excluded
+from the study. Patients with conditions requiring emergency
+attention as determined by the attending clinical officer or
+physician will also be excluded from enrollment.
+Emergencies are conditions that require urgent medical or/and
+surgical intervention, like severe bleeding from orifices, coma
+or other deranged levels of consciousness.
+c) Withdrawal or Discontinuation Criteria: Any health
+worker trainee may withdraw at any point. A health worker
+trainee may be asked to withdraw if he or she is physically
+unable to perform the maneuvers required to scan patients (for
+example hand arthritis preventing a person from gripping the
+ultrasound transducer). If a person withdraws, another person
+from a “reserve” pool of health workers, if available, will be
+brought into the study. Any patient may, as is normally the
+case, refuse participation in any part of this study, including
+the diagnostic test (the scan).
+E. Examiner Training:
+Local health personnel at each of the experimental clinics
+will undergo on-site training if they have not previously been
+trained to administer volume protocol ultrasound scans. The
+complete training sessions will last as long as needed for the
+examiner to become comfortable performing the scan.
+Training will involve both didactic modules for the
+fundamentals of ultrasound, as well as hands-on training to
+learn how to generate images with the protocol. The training
+will be conducted by experienced project personnel from ITW
+and from ECUREI as has been done in past ITW studies. The
+trainees will pair off and one trainee will act as examiner and
+the other will act as the “patient” during the training process.
+This allows the trainees to experience what having an
+ultrasound scan is like as well as learning how to perform a
+simplified volume ultrasound scan. Typically at least four
+practice scans of each type of scan are required to gain some
+proficiency. The time required for this phase will be recorded
+by the ITW trainer performing the training. The training will
+include some physics and training on data security and patient
+confidentiality as well as how to receive reports and act upon
+results. Following completion of the training program, nurse
+midwives will begin generating images at their clinic according
+to the study protocol, when indicated by clinical history, signs
+and symptoms. Much of the training will be conducted by
+ECUREI trainers who have undergone a “train the trainers”
+course by ITW staff. This approach is aimed at building
+capacity within Uganda for this new type of ultrasound
+training.
+F. Scanning Protocols and Image Acquisition:
+Because the ITW model is implemented in Nawanyago as a
+proof of concept, all patients attending antenatal visits at the
+health center are offered ultrasound scans, once per trimester,
+aiming for 10-12 weeks, 18-22 weeks, and 34-36 weeks.
+Ultrasound may be recommended by the nurse midwife at any
+time based on clinical signs and symptoms. Patient data,
+including clinical presentation and history, is entered into the
+data field in the ultrasound machine. All patients are given
+individual ITW numbers that allow confidentiality to be
+maintained during image transmission, clinical data collection,
+and outcomes analysis.
+The ITW obstetric protocol incorporates six 3-D volume
+sweeps over the pregnant abdomen (e.g. Fig. 1). These sweeps
+(cine loops) can be learned by an untrained person with limited
+knowledge of internal anatomy in a few hours. The protocol is
+designed to evaluate basic but potentially life-saving findings:
+to confirm intrauterine pregnancy, to assess fetal number, fetal
+presentation, placenta position, and amniotic fluid volume, and
+to look for a pelvic mass. A low-frequency curved transducer
+is used to obtain sweeps with the pregnant patient in a supine
+position, having a full bladder. The ultrasound machine has
+been configured by the manufacturer and ITW experts to
+provide three presets for three body mass index (BMI)
+categories, (small, medium, and large) and the operator needs
+only to choose one of the presets based on known BMI. Often,
+the BMI correlates to the gestational age (e.g. large for third
+trimester).
+Figure 2. A schematic of the information flow among the centers
+involved. Exam data from rural clinics is compressed and transmitted to
+a remote PACS, via which remote readers can review them and report
+their findings to the rural clinic and the regional referral hospital.
+Figure 1. One example of the free-hand sweeps defined by the ITW
+protocol for obstetrical imaging.
+Three transverse (transducer notch to the patient’s right)
+sweeps are obtained from the pubic bone to the level of the
+breast bone, one midline, one to the right of midline, and one to
+the left of midline, arcing the transducer at either end of the
+sweep. Sweeps are acquired at 3-4 cm per second with each
+sweep no longer than 10 seconds to maintain diagnostic quality
+during compression for transfer. Subsequently, longitudinal
+(notch toward the patient’s chin) sweeps are generated, the first
+one low just above the pelvic bone, angled toward the pelvic
+bone, from the left hip to the right hip; the second is obtained in
+the same manner at the level of the umbilicus; a third
+longitudinal sweep is generated in the same fashion just below
+the breast bone.
+Images are saved as volume sweeps that are then sent via a
+wireless router to a netbook/laptop computer. Custom-built
+compression software in the laptop is used to compress the
+images for transmission over a regular cellular telephone
+network (MTN modem inserted into the USB port of the
+laptop). The images are then sent to a secure server where they
+are decompressed and sent to the secure distributed client of the
+picture archiving and communications system on the internet.
+As stated above, enrolled patients who have met the
+selection criteria will continue to receive the normal level of
+care, with the addition of ultrasound imaging. Initial
+ultrasound exams will be performed for all participants at the
+first visit to establish intrauterine gestation and assess for
+multiples. This first visit will generally occur during the first
+trimester of pregnancy. Subsequent ultrasound exams will be
+performed during the second trimester if indicated, or if an
+earlier scan was not performed. Third trimester scans will be
+performed on all participants for fetal and placenta positioning
+as well as amniotic fluid volume. Each study participant will
+receive these imaging tests regardless of their risk of pregnancy
+complications. The nurse or midwife health worker will
+perform each transabdominal ultrasound according to the
+protocol described above. At each ultrasound visit, other
+health indicators will be assessed and reported using the
+standard form.
+G. Image Interpretation
+As shown in the schematic in Fig. 2, once a volume scan is
+completed on an enrolled patient, it is sent in compressed
+format over the internet to an internationally accessible secure
+server. Qualified ultrasound experts in Uganda and the USA
+who have undergone a selection process, including credentials
+verification, will have access to the server’s images (e.g. Fig. 3)
+using an electronic database (peerVue, Sarasota, FL).
+The interpretation will be recorded using a specially
+designed structured reporting form within this database. A
+simplified version of the finalized report will automatically be
+sent to the nurse midwife at the clinic as a text message to the
+cell phone. The full report can be made available on-line or
+sent as an email for electronic access by the nurse midwife or
+KMH. Image data and results data will be kept secure on the
+ITW server behind firewalls with password protection.
+H. Recommending care:
+As described above, interpretations of ultrasound images
+rendered by volunteer radiologists in Uganda and the USA will
+be communicated to the patient in the form of clinical
+recommendations from the nurse midwife to the patient, often
+necessary after consulting with the doctor at KMH (e.g. a
+diagnosis of placenta previa may be communicated to the
+patient with a recommendation for transfer to a regional
+hospital). These recommendations will be passed on to the
+patient during the same visit in case of emergencies or at a
+follow-up visit for routine exams. All mothers will be
+encouraged to have their labor attended by a skilled practitioner
+at the clinic. Adherence to these recommendations will be
+tracked.
+I. The outcomes study objectives and hypothesis
+The objectives of the study are as follows:
+a) Track the number of deliveries attended by skilled
+health care providers.
+b) Track the number of antenatal visits per patient at each
+location.
+Figure 3. Representative images stored on the secure
+above are from a 2nd
+trimester fetal presentation obtain
+Health Center, showing the fetal head (top) and the p
+c) Track the number and causes of patien
+the clinic to a regional hospital.
+d) Track the number and causes of ma
+and mortality.
+e) Track the number and causes of per
+and mortality.
+f) Track the number and description
+findings that are identified from remote image
+g) Track the number and type of ultr
+that are associated with maternal and perinat
+mortality
+h) Track the number of ultrasound scans
+change in patient management.
+server. The images
+ned at Nawanyago
+placenta (bottom).
+nts referrals from
+aternal morbidity
+rinatal morbidity
+n of diagnostic
+e review.
+rasound findings
+tal morbidity and
+that resulted in a
+i) Track the number of ultraso
+patient being successfully treated.
+j) Compare each of the tr
+between the experimental group
+determine changes in outcomes th
+implementation of ultrasound techn
+k) Determine the proportion
+than can be prevented with the mod
+The volume exam data will allo
+diagnoses (e.g. placenta previa,
+multiple births). An analysis of
+from pilot studies conducted in Bel
+2010 suggest that use of this pro
+increase diagnostic rates for impor
+It is hypothesized that the experime
+show statistically significant impro
+site and, when compared to historic
+rates of births attended by a sk
+increased number of antenatal vis
+pregnancy, and significantly decrea
+perinatal morbidity and mortality.
+J. Data analysis:
+Analysis of clinical outcome d
+difference-of-means tests that dete
+experimental groups and the contr
+implementations of this type of test t
+• One-sample t-test to determ
+significantly different from
+the average infant mortality
+• Independent sample t-test b
+and population [this assum
+both; with this test all exp
+collapsed into one]
+• Paired t-test between expe
+versus Time 2 [e.g. bef
+diagnoses are introduced]
+• ANOVA + post-hoc analy
+groups to identify any dif
+individual groups, and then
+location of these difference
+infant mortality rate in the t
+and then another or the broa
+Given the data sets that this s
+analyses to be applied to test the
+independent sample t-test and the AN
+III. PROGRESS
+A. Progress to date
+While evaluating the training p
+quality of images captured using th
+observed that during a one year pe
+increase in both antenatal visits an
+clinic compared to the correspond
+year. In addition, several patients w
+to the regional hospital, Kamuli Mi
+ound scans that resulted in a
+racked clinical outcomes
+and the control data to
+hat are attributable to the
+ology.
+of each adverse outcome
+del.
+ow remote readers to make
+breech presentation, and
+preliminary data collected
+lize in 2008 and Uganda in
+otocol can be expected to
+rtant gestational conditions.
+ental sites in this study will
+ovements over the control
+trends, significantly higher
+killed health care worker,
+sits during the duration of
+ased rates of maternal and
+data will consist of simple
+ct differences between the
+rol group. There a several
+that can be used:
+mine if treatment groups are
+some constant value [e.g. if
+rate in Uganda is known]
+between experimental group
+mes individual data from
+erimental groups would be
+erimental group at Time 1
+fore and after ultrasound
+ysis: tests across all four
+fferences among means of
+further tests to identify the
+es [e.g. difference in mean
+three affected health centers
+ader population]
+study will collect, the two
+overall hypotheses are the
+NOVA + post-hoc analysis.
+S TO DATE
+protocols and studying the
+he ITW model, it has been
+eriod there has been a 70%
+nd deliveries at Nawanyago
+ding period of the previous
+were successfully transferred
+ission Hospital (KMH), for
+surgical delivery. So far over five hundred patients have been
+scanned and successfully stored on a remote PACS server as
+part of the image quality evaluation.
+ACKNOWLEDGMENTS
+The authors thank the study sponsors and partners for their
+support of this study.
+REFERENCES
+[1] World Health Organization, UNICEF, UNFPA, The World Bank,
+“Trends in maternal mortality: 1990 to 2008”, 2010,
+http://www.who.int/reproductivehealth/publications/monitoring/
+9789241500265/en/.
+[2] S. E. Geller et al., “Postpartum hemorrhage in resource-poor settings,”
+Int J Gynaecol Obstet. 2006 Mar 92(3), pp. 202-11.
+[3] “MDG 5: improve maternal health”, United Nations Millennium
+Declaration, September 2015, http://www.who.int/topics/
+millennium_development_goals/about/en/index.html.
+[4] “Volume ultrasound: useful tool for musculoskeletal, breast and
+pediatric imaging” MedicExchange.com, November 30, 1999,
+http://www.medicexchange.com/Breast-Mammary-Gland/volume-
+ultrasound-useful-tool-for-musculoskeletal-breast-and-pediatric-
+imaging.html.
+[5] M. Riccabona, D. H. Pretorius, T. R. Nelson, et al., “Three-dimensional
+ultrasound: display modalities in obstetrics”, J Clin Ultrasound 1997;
+25(4), pp. 157-167.
+[6] E. Merz, F. Bahlmann, G. Weber, “Volume scanning in the evaluation of
+fetal malformations: a new dimension in prenatal diagnosis”, Ultrasound
+Obstet Gynecol 1995; 5(4), pp. 222-227.
+[7] T. R. Nelson, D. H. Pretorius, “Three-dimensional ultrasound of fetal
+surface features”, Ultrasound Obstet Gynecol 1992; 2, pp. 166-174.
+[8] D. Jurkovic, K. Gruboeck, “Three-dimensional ultrasound of the uterus”
+In: K. Baba, D. Jurkovic, eds. Three-dimensional ultrasound in
+obstetrics and gynecology. New York: Parthenon, 1997, pp.67-74.
+[9] B. S. Garra, J. T. Doherty, “Advanced applications make ultrasound
+more competitive”, Diagnostic Imaging, Nov 2, 2005.
+[10] S. R. Wilson, C. Gupta, M. Eliasziw, and A. Andrew, “Volume Imaging
+in the Abdomen With Ultrasound: How We Do It”, Am J Roentgenol,
+July 1, 2009; 193(1), pp. 79-85.
+[11] T. S. Elliott, “Volume ultrasound: the next big thing?”, British Journal
+of Radiology 2008; 81, pp. 8-9.
+[12] B.S.Garra, K. Destigter, B McEathron, A.Dattamajumdar, R. Widmer,
+R. Jakobovits, M. Fiuczynski, G.Rouillard, S. Maguire, J. Richbourg, D.
+Zion, R. Peterson, and S. Braff, “Scan protocols for use by nonmedical
+personnel in developing countries: organ visibility and reproducibility
+evaluation” J Ultrasound Med 2008; 27(3): S16-17.
+[13] B.S.Garra, K. DeStigter, S. Maguire, L. Mobbs, G. Rouillard, D. Smith,
+et.al., “Data Compression for Transmission of Volume Imaging From
+Developing Countries”. Presented at the 2008 Convention of the
+Radiological Society of North America, 30 November 2008, Chicago,
+IL, USA.
+

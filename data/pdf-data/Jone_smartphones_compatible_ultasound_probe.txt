@@ -1,0 +1,292 @@
+Journal of Diagnostic Medical Sonography
+2014, Vol. 30(4) 200­
+–204
+© The Author(s) 2014
+Reprints and permissions:
+sagepub.com/journalsPermissions.nav
+DOI: 10.1177/8756479314534523
+jdms.sagepub.com
+Original Article
+Technologic advances over the years have had a signifi-
+cant impact on sonography, for both image-processing
+systems and ultrasound probes.1,2
+Probe technology in
+particular has seen evolvement from static single-crystal
+systems to mechanical sector scanners to linear arrays
+and real-time 3D systems. A recent addition to this tech-
+nology is an ultrasound probe compatible with a smart-
+phone.3,4
+This article discusses this emerging technology
+considering the physics, development, function, and the
+potential applications of a smartphone system, along with
+the limitations and disadvantages of such a system.
+The Smartphone Probe
+InApril 2009, two investigators at Washington University
+in St Louis announced the development of a smartphone-
+compatible ultrasound probe (Figure 1).5
+The work repre-
+sented the culmination of two and a half decades of
+research and development, reducing the size of the sys-
+tem from a full electronic cabinet to a small 1 × 3–inch
+circuit board (Figure 2). The size of the device allows
+physicians and sonographers to use a mobile device small
+enough to fit easily in the hand (Figure 3a,b and Figure 4).
+The present system is only compatible with Windows
+(Microsoft, Redmond, Washington)–based smartphones.
+The technologic challenges that had to be overcome were
+primarily the trade-offs associated with battery power
+consumption and the speed of data transfer. A secondary
+challenge was creation of the necessary algorithms that
+allowed the display of the image on the smartphone
+screen. A device was approved for use by the Food and
+Drug Administration (FDA) in 2011 after meeting strict
+regulatory requirements for medical “apps.”6,7
+Today a
+variety of specialized probes have been developed cover-
+ing a frequency range of 2 to 18 MHz. These probes can
+be plugged into a USB port not only on smartphones but
+534523JDMXXX10.1177/8756479314534523Journal of Diagnostic Medical Sonography X(X)Jones
+research-article2014
+Corresponding Author:
+Delores Jones, RDMS, RT(S), BDMS, PO Box 262, Monroe, NC
+28111, USA.
+Email: delolo1979@yahoo.com
+Smartphone-Compatible Ultrasound
+Probe
+Delores Jones, RDMS, RT(S), BDMS
+Abstract
+Smartphones are one of the most widely used cell phones in the United States today. They perform multiple functions,
+and in April 2009, another capability was added to that list. Smartphones are now able to display sonographic images
+of the human body and organs through use of a smartphone-compatible ultrasound probe. The probe can be plugged
+into the USB slot of a smartphone and used to allow gray-scale image visualization. This article discusses the function
+and structure of this new and emerging technology while looking at the impact of this technology on the field of
+sonography.
+Keywords
+emerging technology, smartphone, ultrasound probe, point of care
+Figure 1.  Photograph of a smartphone probe connected
+to the USB port of a Windows operating system–based
+mobile phone. From http://billkosloskymd.typepad.com/
+wirelessdoc/2009/05/ultrasound-imaging-with-smartphones-
+using-a-usbbased-probe.html
+at UCSF LIBRARY & CKM on March 18, 2015
+jdm.sagepub.com
+Downloaded from
+Jones	 201
+also tablets, laptops, and desktop computers. The probes
+can be used for typical applications in imaging such
+structures as the liver, kidney, bladder, and endocavitary
+applications, with special-purpose probes designed for
+applications such as very high-frequency imaging, ultra-
+sound guidance for biopsies, vascular access, and central
+line placement (Figures 5 and 6).
+Clinical Applications
+The primary use for a handheld smartphone-based ultra-
+sound system is the wide variety of point-of-care (POC)
+applications: office or bedside examinations in primary
+care, emergency care, critical care, obstetrics, and ultra-
+sound-guided procedures. It has not been the intent of
+the developers of these systems to provide comprehen-
+sive diagnostic sonographic studies but to quickly answer
+a specific clinical question. For example, in the emer-
+gency care setting, a FAST examination (focused assess-
+ment with sonography for trauma, evaluating the
+perihepatic space or Morison’s pouch, the perisplenic
+space, the pericardium, and the pelvis) or the extended
+FAST examination (eFAST, which includes an evalua-
+tion for pneumothorax) can be carried out quickly with
+such a handheld device with very good sensitivity and
+specificity.8–10
+An additional area of application for such devices
+would be extremely remote areas such as rural regions of
+developing countries or military battlefields where acces-
+sibility, including access to electricity, may be a signifi-
+cant issue. A battery-powered, rechargeable handheld
+device would provide rapid sonographic imaging to many
+more potential patients than could be done using conven-
+tional high-end ultrasound systems.
+A smartphone-based ultrasound system has the poten-
+tial to become the stethoscope of the future if appropriate
+training of medical students and residents not in formal
+radiology programs can be implemented.11,12
+A number of
+medical schools—such as the University of South
+Carolina; the University of California, Irvine; Harvard
+Medical School; and the Icahn School of Medicine at Mt
+Sinai—have introduced ultrasound training early in their
+Figure 2.  Current size of the printed circuit board (approximately 1 × 3 inches, shown with a penny for comparison) used for
+the smartphone probe. From www.medgadget.com/2009/04/mobile_clinical_imaging_on_a_smart_phone.html
+at UCSF LIBRARY & CKM on March 18, 2015
+jdm.sagepub.com
+Downloaded from
+202	 Journal of Diagnostic Medical Sonography 30(4)
+programs. Emergency medicine residency programs now
+are required to include basic training in abdominal, car-
+diac, and obstetric ultrasound as well as ultrasound guid-
+ance of procedures. Studies have shown the enhanced
+diagnostic capabilities of medical students when they use
+a POC ultrasound device compared with the physical
+examination.11,13
+Despite these advancements it is likely
+to take a full generation for the medical community as a
+whole to incorporate this technology throughout physi-
+cian training and practice.
+There are advantages as well as limitations associ-
+ated with this emerging technology. The advantages of
+its compact size and thus its inherent mobility allow
+sonographic studies to be performed in virtually any set-
+ting no matter how remote or cramped for space. By
+linking the probe to a smartphone device, it takes advan-
+tage of the ubiquitous nature of such devices. There are
+other compact handheld ultrasound systems available,
+but these are not physically linked to a smartphone.
+Systems such as the VScan (GE Healthcare Ultrasound,
+Milwaukee, Wisconsin), the Acuson P10 (Siemens
+Healthcare Ultrasound, Malvern, Pennsylvania), or the
+Signos (Signostics, Adelaide, Australia) have the probe
+hard-wired to a dedicated image viewing system and at
+present do not offer plug-in capabilities. Using a USB
+port to connect the probe to the smartphone allows some
+degree of future flexibility for probe selection and the
+potential for expanding the areas of application to all
+systems of the body. (Of note, however, the manufac-
+turer of the current FDA-approved device [MobiSante,
+Redmond, WA] sells the probe, with two different fre-
+quency ranges available [3.5–5 MHz and 7.5–12 MHz],
+and a specific smartphone with USB capabilities as a
+coupled unit, so the potential for fully expanded appli-
+cations remains in the future.) When smartphone manu-
+facturers in the United States fully implement USB
+features on their devices, this will open up a vast net-
+work of possible users and will be a factor in driving
+the price down. The present system is able to take
+Figure 3.  (a, b) Gray-scale sonographic images displayed on
+a smartphone. From (a) http://gpsmedical.typepad.com/gps_
+medical/page/2/ and (b) https://www.engineeringforchange.org/
+news/2011/06/02/ultrasound_is_now_on_smart_phones.html
+Figure 4.  Smartphone probe being used to evaluate the
+carotid artery. From http://www.gizmag.com/ultrasound-
+images-a-snap-with-a-smartphone/11556/
+at UCSF LIBRARY & CKM on March 18, 2015
+jdm.sagepub.com
+Downloaded from
+Jones	 203
+advantage of smartphones’ cellular and Wi-Fi capabili-
+ties to transmit stored images to other sites and/or a pic-
+ture archiving and communication system, creating the
+possibility of not only imaging in remote regions but
+remote interpretation as well.
+There are drawbacks and limitations to this new tech-
+nology. The cost of a system is in the range of $5000 to
+$10,000, which is too high to be able to place them in all
+the areas of need. Most smartphones in the United States
+are not set up with USB 2.0 support, which significantly
+limits widespread applicability of the technology. As with
+all of sonography, the results of an examination depend
+not only on the technology but also on the skill level of
+the operator. A great deal of research and work remains to
+be done to determine the necessary amount of education
+and training required to make the technology useful at the
+level of the stethoscope.14
+A significant potential draw-
+back to the technology is once most smartphones have the
+capability to add an ultrasound probe at a low cost, the
+technology will be available to a wide lay audience with
+no training whatsoever. It does not take much imagina-
+tion to see that abuse of this development would drive the
+public image of ultrasound from one of diagnostic medi-
+cine to a means of producing unique entertainment
+images and video.
+Overall, the possible impact of this technology is sig-
+nificant. Mobile, POC sonography is likely to change
+the way medicine is practiced in many areas and cer-
+tainly will affect the role of the sonographer. The future
+remains uncertain whether sonographers will be called
+on more and more to do focused, rapid screening types
+of examinations rather than full diagnostic examina-
+tions. The advantage of using very small compact sys-
+tems is the likelihood of decreasing the risk of developing
+musculoskeletal problems related to poor ergonomics
+and large high-end ultrasound systems. Will trained
+sonographers become more of a teacher to groups need-
+ing to develop the scanning skills needed for POC
+sonography rather than acquiring the images them-
+selves? Who ultimately will interpret the images
+acquired? Ideally, and the potential strength of POC
+sonography, is for interpretation to be done at the time
+of image acquisition, but will POC users be adequately
+trained for this role? These questions, the ethical
+Figure 5.  A wide variety of probe types that plug into a USB port are currently available. (a) Abdominal probe, frequency range
+3.5 to 5 MHz; (b) general-purpose probe, frequency range 3.5 to 5 MHz; (c) vascular probe, frequency range 8 to 24 MHz; (d)
+endocavitary probe, frequency range 7.5 to 24 MHz. From http://www.interson.com/products/seemore-153-usb-probes
+at UCSF LIBRARY & CKM on March 18, 2015
+jdm.sagepub.com
+Downloaded from
+204	 Journal of Diagnostic Medical Sonography 30(4)
+questions of placing sonography in the hands of
+untrained laypersons, and others remain to be answered.
+It is certain that this technology and the trend to “minia-
+turization” will continue; what is uncertain is how the
+technology will be integrated into medicine and good
+patient care.
+Declaration of Conflicting Interests
+The author declared no potential conflicts of interest with
+respect to the research, authorship, and/or publication of this
+article.
+Funding
+The author received no financial support for the research,
+authorship, and/or publication of this article.
+References
+	 1.	 Newman PG, Rozycki GS: The history of ultrasound. Surg
+Clin North Am 1998;78(2):179–195.
+	 2.	 O’Brien WD Jr: Assessing the risks for modern diagnostic
+ultrasound imaging. Jpn J Appl Phys 1998;37:2781–2788.
+	 3.	 Richard WD, Zar DM, Solek R: A low-cost B-mode USB
+ultrasound probe. Ultrasonic Imaging 2008;30:21–28.
+	4.	 Gravitz L: Ultrasound to go. MIT Tech Rev 2009;113(2):
+36–37.
+	5.	Fitzpatrick T: Ultrasound imaging now possible with a
+smartphone. Washington University in St. Louis Newsroom
+2009. http://news.wustl.edu/news/Pages/13928.aspx
+	 6.	 DolanB:FDAapprovesMobisante’ssmartphoneultrasound.
+2011. http://mobihealthnews.com/10165/fda-approves-
+mobisantes-smartphone-ultrasound
+	 7.	 Goodier R: Ultrasound in now on smartphones. Engineering
+for Change 2011. https://www.engineeringforchange.org/
+news/2011/06/02/ultrasound_is_now_on_smart_phones.html
+	8.	Rozycki G, Shackford S: Ultrasound, what every trauma
+surgeon should know. J Trauma 1996;40(1):1–4.
+	 9.	 Sirlin CB, Brown MA, Andrade-Barreto OA, et al: Blunt
+abdominal trauma: clinical value of negative screening US
+scans. Radiology 2004;230(3):661–668.
+	
+10.	 Farahmand N, Sirlin CB, Brown MA, et al: Hypotensive
+patients with blunt abdominal trauma: performance of
+screening US. Radiology 2005;235(2):436–443.
+	
+11.	 Mouratev G, Howe D, Hoppmann R, et al: Teaching medi-
+cal students ultrasound to measure liver size: comparison
+with experienced clinicians using physical examination
+alone. Teach Learn Med 2013;25:84–88.
+	
+12.	 Solomon SD, Saldana F: Point-of-care ultrasound in medi-
+cal education—stop listening and look. N Engl J Med
+2014;370(12):1083–1085.
+	
+13.	Kobal SL, Trento L, Baharami S, et al: Comparison
+of effectiveness of hand-carried ultrasound to bedside
+cardiovascular physical examination. Am J Cardiol
+2005;96:1002–1006.
+	
+14.	 Liebo MJ, Israel RL, Lillie EO, Smith MR, Rubenson DS,
+Topol EJ: Is pocket mobile echocardiography the next-
+generation stethoscope? A cross-sectional comparison of
+rapidly acquired images with standard transthoracic echo-
+cardiography. Ann Intern Med 2011;155:33–38.
+Figure 6.  (a) An ophthalmic ultrasound probe operating at
+a 24-MHz frequency with a USB port interface. (b) An image
+using that probe of the anterior compartment of the eye.
+From http://www.ocuscience.us/id78.html
+at UCSF LIBRARY & CKM on March 18, 2015
+jdm.sagepub.com
+Downloaded from
+

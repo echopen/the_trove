@@ -1,0 +1,67 @@
+# Challenge filtrage signal
+
+== DEFI ==
+
+Filtrer le signal en sortie analogique-numérique sur la bande de fréquence d’intérêt 3.4MHz - 6MHz
+
+{| class="wikitable"
+|----
+|Issue
+|#tags
+|Skills
+|Difficulty (1-5)
+|Notes
+|----
+|Filtrer le signal AN sur bande de fréquence d'intérêt 
+|#soft #display #traitement_du_signal #pre processing #mid-end processing
+|#traitement du signal #c/c++ #python
+|1
+|
+|----
+|}
+
+== MISSION ==
+
+=== PROBLEME ===
+
+Les données en sortie de CAN (convertisseur analogique-numérique) sont du 8bits ou du 14bits signés. ll s’agit de filtrer la data dans le domaine spectral d’intérêt : par example, en utilisant un fenêtrage de Hamming ou Hanning ou autre !
+
+Il existe deux types de filtrage
+      fondamental
+          réservé pour l’exploration des organes profonds
+      harmonique
+          solution permettant une meilleure résolution
+
+dans un premier temps, un filtre fondamental sera la solution idoine.
+
+[[File:Screen Shot 2015-09-08 at 15.10.24.png|900px]]
+
+== REWARD ==
+
+possibilité de résidence temporaire + echo-badge + hall of fame des projets Open Source.
+
+== RESSOURCES ==
+
+#les data de simulations sont accessibles ici : https://github.com/echopen/project/tree/master/phantom, we'll be able to find raw data to test your code one, more precisely (à des fins de réalisme, il s’agit d’images de foie et de foetus en gestation), 
+##img_kydney/txt
+##img_obs/txt
+#les data de simulation sont fournies ?
+#librairies : les librairies servant la FFT
+#de nombreuses techniques existent : fenêtrage de Hamming, Hanning,
+#littérature générale : physique des ultrasons, traitement du signal
+
+== REPOS ==
+
+*Soumission des pull-requests sur https://github.com/echopen/project
+
+== SUDOERS ==
+
+@jerôme [jerome@echopen.org]
+
+== ECHPERTS ==
+
+ @nowami [mehdi@echopen.org]
+
+[[Category:Challenge]]
+[[Category:DataProcessing]]
+[[Category:Display]]

@@ -1,0 +1,4 @@
+Signal temporel émis (gauche) et reçu (droite)
+Module de la fonction de transfert pulse-écho
+Pulse Echo n° 1
+

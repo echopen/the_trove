@@ -1,0 +1,338 @@
+1475 views
+where expertise comes together since 1996
+The Web's Largest Open Access Database of Nondestructive Testing (NDT) ISSN 1435-4934
+Conference Proceedings, Articles, News, Exhibition, Forum and a Professional Network
+|About| |Advertise| |Publish| |Contact| |Login|
+search
+Home Exhibition Web Resources Events NDT A-Z Database Forum Jobs MyNDT Network
+All Forum Boards
+Technical Discussions
+>
+Ultrasonic with 7.5 Mhz
+Transceiver and Arduino
+Due Microcontroller
+General Discussions
+Job Offers
+Job Seeks
+Classified Ads
+About NDT.net
+Italian NDT Talk
+About Articles & News
+Special Sessions
+Vallen-Systeme GmbH
+The Acoustic Emission Company! Since 1987 Vallen
+stands for competence and continuity in AE and for
+reliable business cooperation and support.
+Technical Discussions
+18:22
+Nov-25-2014
+Ali Ahmadian
+Mazraeh
+Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+Greetings everyone,
+Im using an Ultrasonic Transceiver model " N07 " from TMTECK (china), which is capable
+of emitting frequencies up to 7.5 Mhz through objects and receiving it. I am also using an
+arduino Due which has a 84Mhz Arm processor to analyse the data. By using assembly
+codes I am able to program the microcontroller to produce the 7.5Mhz frequency for the
+transducer but the returned signal to the receiver is too fast the the mictocontroller is
+unable to comprehend it, so I decided to use decade counters to divide the frequency by
+ten. five of them were used and the frequency was divided by 100,000 .
+the problem I have now is that the signals received from the receiver sensor to the first
+counter have many noises which are considered as pulses, hence causing wrong output
+pulse durations from the first counter which is fed into the second counter and so on.
+I hoping if anyone can help me with a hardware filter design to eliminate the noises and
+bring the pulses to a certain level which are comprehend-able for the first counter.
+any other suggestions for the whole system is highly appreciated.
+thank you in advance,
+cheers.
+21:37
+Nov-25-2014
+Frank Lund
+R & D, ,
+United Kingdom,
+Joined Apr 2005
+163
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 18:22 Nov-25-2014 (Opening).
+Ali,
+I don't yet understand what you aim to do. Are you driving your transducer with a
+continuous 7.5MHz waveform? Are you sampling and processing the received echo within
+each 2/15 of a microsecond?
+If you use a digital divider to reduce the pulse rate of the returned signal you lose the
+amplitude information that is essential in techniques such as in this link and others from
+the same source.
+http://www.olympus-ims.com/en/ndt-tutorials/instrumententation/ascan/
+Cheers,
+Frank
+03:11
+Nov-28-2014
+Ali Ahmadian
+Mazraeh
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 18:22 Nov-25-2014 (Opening).
+Dear Frank,
+Yes I am able to derive 7.5Mhz to and out of the transducer but the arduino is not able to
+analyse the data because the programming environment has pre-defined functions for
+delay which is minimum in Microseconds.
+There are many questions un-answered for me such as:
+1) is the 5V output of the arduino which is fed into the transducer as pulses enough for
+deriving the required frequency or do I need a transformer to increase the amplitude of
+input voltage?
+2) the minimum delay which is defined for the programming environment is
+microseconds, is that enough for analysing and processing the signals?
+3) is the decade counter suitable for this application ?
+4)what sort of circuitry is required for this sort of inapection before and after the signal
+transition
+5)what sort of filters is it required for noise cancellation ?
+Please help me understand the ultrasonic inspection requirements.
+Appreciate your concern and attention,
+Cheers,
+Ali.
+10:17
+Nov-28-2014
+John Norman
+Consultant, owner
+of business,
+NTS Ultrasonics Pty
+Ltd,
+Australia,
+Joined Oct 2012
+51
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 18:22 Nov-25-2014 (Opening).
+Hi Ali,
+If you are working in a pulse mode you cannot just divide the frequency down by 10 and
+necessarily get a good result. I am not sure how the No7 from TMTECK works, but be
+aware that things could go wrong with this approach.
+We sell a pulser receiver module with on board high voltage generation for the
+transmitter, with software controllable gain, with 10 bit A/D conversion up to 100 MHz,
+and with an SPI control port, so it should work with the Arduino Due. It has been used
+NDT Forum: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due Mi... http://www.ndt.net/forum/thread.php?admin=&msgID=56300&rootID=...
+1 sur 4 20/08/2015 15:42
+for sub-sea work interfaced through the SPI port to a PIC microcontroller.
+Let me know if you would like more information.
+Regards
+John Norman
+15:49
+Nov-28-2014
+Frank Lund
+R & D, ,
+United Kingdom,
+Joined Apr 2005
+163
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 03:11 Nov-28-2014 .
+Ali,
+I take it that you are using a continuous wave (square wave) at 7.5MHz.
+The speed of sound in steel is almost 6km per second. So, in 1 microsecond it would
+have travelled just less than 6mm. At 7.5MHz, the sound would have travelled nearly
+0.8mm before the next pulse of the same polarity at the transmitter.
+Traditional UT work is based upon "pitch - catch" in which a single pulse is transmitted
+(the transmitting piezo-electric crystal may "ring" after being hit with the electical
+transmission pulse). Then, the acoustic pulse travels through the tested material until it
+hits a reflector and some energy is returned to the transducer, where it produces a
+voltage on the piezo-electric crystal. The time for this journey would be a lot longer than
+the 2/15 of a microsecond at 7.5 MHz.
+The A-Scan presentation is basically an amplitude / time display just as on an analogue
+oscilloscope. Modern digital instuments run fast ADCs to capture a sequence of
+measurements which record the time, amplitude and shapes of returned signals. How
+fast can you run the ADC on your Arduino Due to capture that detail?
+A single combined Rx/Tx crystal is often used. But, combinations of separate Tx and Rx
+may be used.
+In UT, defects may act as acoustic mirrors, ceate acoustic shadows or act in other ways
+that replicate optical processes such as diffraction.
+You will find diagrams off the way UT works on the Internet.
+Cheers,
+Frank
+23:55
+Nov-28-2014
+Frank Lund
+R & D, ,
+United Kingdom,
+Joined Apr 2005
+163
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 18:22 Nov-25-2014 (Opening).
+Ali,
+Is this the transducer that you are using?
+http://www.ebay.co.uk/itm/NEW-Mitech-N07-Probe-Transducer-6mm-7MHz-
+for-Ultrasonic-Thickness-Gauge-Meter-/321037078059
+Cheers,
+Frank
+19:35
+Nov-30-2014
+Ali Ahmadian
+Mazraeh
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Frank Lund on 23:55 Nov-28-2014 .
+Dear Frank,
+Yes this is the Transducer Im working with. After purchasing it I asked the seller to send
+me any sort of datasheet which can give me information about it but he said it doesnt
+have any datasheet ! I even asked many other sellers to see if they have datasheets but
+neither of them gave me anything.
+I have driven some OK results from it usning assembly language of arduino but I dont
+know how much voltage do I have to supply to the transducer for it to have a clear
+projection and receive of signals.
+I basically have not used any circuitry for its connection. just directly the transducer to
+the board. it is highly appreciated if you can guide me with what sort of circuitry is
+required. I have red this article and it seems pretty in depth ! please take a look at it
+and let me know your idea about it
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5440783&url=http%3A%2F
+%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5440783
+cheers,
+Ali
+12:45
+Dec-01-2014
+Frank Lund
+R & D, ,
+United Kingdom,
+Joined Apr 2005
+163
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 19:35 Nov-30-2014 .
+Ali,
+There are "demo boards" available for various commercial Ultrasonic pulsers, you can
+find these on teh internet from various suppliers.
+A very simple pulser would use a high voltage power supply (tens of volts to the low
+hundreds, PLEASE TAKE CARE) to charge a capacitor through a high value resistor. The
+low end of that capacitor would connect to supply 0V through a low value resistor with
+the transmitting transducer connected across that resistor. A high voltage switch (bipolar
+1
+NDT Forum: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due Mi... http://www.ndt.net/forum/thread.php?admin=&msgID=56300&rootID=...
+2 sur 4 20/08/2015 15:42
+transistor or FET) is connected from the high voltage end of the capacitor to supply 0V.
+The capacitor charges to the voltage of the power supply, then you give a short pulse (
+from e.g. Arduino) to the base or gate of the transistor to turn it on hard. The capacitor
+is discharged rapidly and puts a short high voltage pulse onto the low value resistor so
+that the transducer gets a high energy kick.
+The PRF of this simple circuit is limited by the time taken to recharge the capacitor, but
+it gives something to experiment with.
+Cheers,
+Frank
+13:59
+Dec-01-2014
+Frank Lund
+R & D, ,
+United Kingdom,
+Joined Apr 2005
+163
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 19:35 Nov-30-2014 .
+Ali,
+Here is a link to similar sort of pulser. This one free runs but, I've used avalanche
+transistors as triggered fast spike generators by applying an adjustable reverse bias to
+the base so that the the transistor doesnt avalanche until a forward bias pulse (AC
+coupled from PIC, Arduino etc.) on the base triggers it.
+http://www.kerrywong.com/2013/05/18/avalanche-pulse-generator-build-using-2n3904/
+Cheers,
+Frank
+1
+14:58
+Dec-01-2014
+Ed Ginzel
+R & D, -,
+Materials Research
+Institute,
+Canada,
+Joined Nov 1998
+872
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Frank Lund on 13:59 Dec-01-2014 .
+Ali/Frank, here is a link to another supplier of an off-the-shelf high voltage supply for a
+pulser.
+http://www.datasheetlib.com/datasheet/1134092/e03ct_emco-high-voltage-
+corporation.html
+I am not clear on if you are using CW or pulsed driving of the transducer...this would be
+for the pulsed version. The units on that page have an output center tap feature which,
+when grounded, provides both positive and negative high voltage outputs from one
+module.
+1
+01:16
+Dec-02-2014
+John Norman
+Consultant, owner
+of business,
+NTS Ultrasonics Pty
+Ltd,
+Australia,
+Joined Oct 2012
+51
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Ali Ahmadian Mazraeh on 18:22 Nov-25-2014 (Opening).
+Hi Ali.
+If you are looking up reference material on ultrasonic transmitter design, have a look at
+http://www.researchgate.net/publication
+/222130071_Modeling_NDT_piezoelectric_ultrasonic_transmitters. This paper gives an
+overview of the design of a basic mosfet transmitter that produces a single -ve voltage
+spike for driving a piezoelectric transducer. You could drive the mosfet with a +5 v pulse
+from your Arduino if you select a suitable mosfet with a low gate threshold voltage, but
+better to use a mosfet driver to get more current and step up the pulse to about 12 v.
+The output pulse will be -ve and the voltage will be close to the voltage of your high
+voltage supply - anything from 10s of volts to 100s of volts.
+The width of your driving pulse should be about half the period of the frequency you
+want, ie about 66 ns for 7.5 MHz. If you can make the pulse width variable with fine
+resolution (probably tricky with an Arduino), you could then vary the pulse width to
+optimize the response of your transducer.
+The high voltage from the transmitter circuit can damage the input to your amplifier, so
+you will need to include a protection circuit. Back to back shunt diodes work, but there
+are better options.
+I mentioned in an earlier email that we can supply a circuit that does all this and more
+and could be controlled from your Arduino through the SPI port.
+Regards
+John Norman
+1
+04:56
+Dec-04-2014
+Ali Ahmadian
+Mazraeh
+R & D, ,
+Malaysia,
+Joined Dec 2014
+2
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Frank Lund on 13:59 Dec-01-2014 .
+Thank you so much everyone for your great advice, I didnt expect such an excellent
+support from people in this website. I will be posting my future doubts and problems as
+well and I will be very glad if you guys can support me through my studies and
+researches.
+Cheers,
+Ali
+15:08
+Dec-20-2014
+Re: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due
+Microcontroller
+In Reply to Frank Lund on 13:59 Dec-01-2014 .
+Dear Frank,
+NDT Forum: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due Mi... http://www.ndt.net/forum/thread.php?admin=&msgID=56300&rootID=...
+3 sur 4 20/08/2015 15:42
+Ali Ahmadian
+Mazraeh
+R & D, ,
+Malaysia,
+Joined Dec 2014
+2
+could you please provide a schematic of your proposed system because I was able to
+develop the Avalanche circuit to provide the pulse but I couldnt develop the second part
+of circuit.
+furthermore, the output voltage of the Avalanche phenomena has a voltage drop which
+is not desirable for this application. I need rapid pulses of 0-200 volts but in this case the
+output will only be around 40V. is there any recommendation for this issue as well.
+Highly appreciate your concerns.
+Ali.
+Your Email Address:
+© NDT.net |Advertise| |Contact| |About Us|
+NDT Forum: Ultrasonic with 7.5 Mhz Transceiver and Arduino Due Mi... http://www.ndt.net/forum/thread.php?admin=&msgID=56300&rootID=...
+4 sur 4 20/08/2015 15:42
+

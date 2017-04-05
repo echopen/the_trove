@@ -1,0 +1,788 @@
+40 Jahre
+Ultraschall-Realtime-Diagnostik
+Inhalt
+1. Einleitung
+2. Grundlagenforschung
+3. Pionierleistungen in der Medizin
+4. Beginnende klinische Akzeptanz
+5. Durchbruch des Realtime-Verfahrens
+6. Ultraschalltechnologie heute
+7. Neue Systeme, neue Horizonte
+2
+1. Einleitung
+Ultraschall wird heute in der Medizin wie auch
+in vielen Zweigen der industriellen Technik mit
+großem Erfolg angewendet. Sein Einsatz ist fast
+ebenso vielseitig wie der der elektromagnetischen
+Wellen.
+Man verwendet Ultraschall z.B. zum Orten von
+Fischschwärmen im Ozean, von Rissen und
+Lunkern in Industriewerkstücken, bohrt mit
+Ultraschall Löcher in die härtesten Materialien
+und verschweißt Kunststoffe aller Art.
+Ein weiteres Einsatzgebiet ist die Reinigung
+komplexer Teile und Baugruppen der Elektro-
+technik, Elektronik, Feinmechanik, Optik usw.
+In der Medizin hat sich die Ultraschalltechnik
+innerhalb der letzten 40 Jahre zum weltweit
+meistgenutzten Diagnoseverfahren etabliert.
+In allen medizinischen Fachbereichen ist eine
+zuverlässige und sichere Diagnostik ohne
+bildgebenden Ultraschall nicht mehr vorstellbar.
+Die nicht belastende, nebenwirkungsfreie
+Anwendung, der geringe Zeitaufwand für die
+Untersuchung sowie der im Vergleich zu anderen
+bildgebenden Verfahren kostengünstige Einsatz
+haben zur schnellen Verbreitung wesentlich bei-
+getragen.
+Und die stetigen Innovationen weisen darauf hin,
+dass die Entwicklung auf diesem Gebiet bei weitem
+noch nicht abgeschlossen ist.
+Kommen Sie mit uns, dem Wegbereiter der
+Realtime-Diagnostik, auf eine interessante und
+spannende Zeitreise durch 125 Jahre Geschichte
+des Ultraschalls.
+3
+2. Grundlagenforschung
+Ultraschall als physikalisches Phänomen in der
+Natur sowie in der Technik ist seit langem bekannt.
+Spallanzani postulierte 1774 den „Sechsten Sinn“
+der Fledermäuse, der 1938 von Griffin und
+Galambos experimentell als Ultraschall-Echo-
+verfahren bewiesen wurde.
+Die Gebrüder Pierre und Jaques Curie legten
+1880 in Paris den Grundstein für unsere heutige
+Ultraschall-Technologie mit der Entdeckung des
+reziproken piezoelektrischen Effektes:
+Das Auftreten elektrischer Ladungen auf Kristall-
+oberflächen, wenn der Kristall mechanisch bean-
+sprucht wird – und umgekehrt – die mechanische
+Verformung des Kristalls bei Anlegen einer elektri-
+schen Spannung an dessen Oberfläche.
+Durch weiter führende Forschungen, die Pierre
+zusammen mit seiner Frau Marie und Henri
+Becquerel betrieb, war 1913 das Basiswissen
+für die gezielte Erzeugung von Ultraschallwellen
+vorhanden.
+Im selben Jahr – als Antwort auf die Tragödie des
+Untergangs der Titanic im April 1912 – machte der
+Physiker Alexander Behm erstmals den Vorschlag,
+Eisberge mittels Schallwellen nach dem Reflexions-
+verfahren zu orten (Reichspatent Nr. 282009 vom
+22. Juli 1913).
+Eine Realisierung war zu diesem Zeitpunkt wegen
+fehlender technischer Möglichkeiten zwar noch
+nicht möglich, das Prinzip des Echolotes war jedoch
+damit erklärt.
+Pierre Curie, 1859-1906 Alexander Behm, 1880-1952
+4
+1917, nur vier Jahre später – inzwischen war die
+Elektronenröhre entwickelt – konstruierte der
+Physiker Paul Langevin das erste praktische
+Echolotgerät mit einer Ultraschall-Leistung von
+1 kW, allerdings nicht zur Ortung von Eisbergen,
+sondern zum Aufspüren von Unterseebooten.
+Diese Technologie wurde dann während des
+zweiten Weltkrieges unter dem Namen SONAR
+(Sound Navigation and Ranging) gezielt weiter-
+entwickelt und mit spektakulärem strategischen
+Erfolg eingesetzt.
+1929 unternahmen Sokolov und Firestone erste
+Untersuchungen zur zerstörungsfreien Werkstoff-
+prüfung mittels Ultraschall nach dem Durchschal-
+lungsverfahren. Mit dieser Methode war es ihnen
+erstmals möglich, von außen nicht sichtbare Fehler
+wie Risse, Lunker oder Fremdkörpereinschlüsse in
+metallenen Werkstücken nachzuweisen, ohne den
+Prüfling zu zerstören.
+Eine deutliche Verbesserung dieser Methode wurde
+erreicht durch die ab 1950 erstmalig zur Verfügung
+stehenden Ultraschall-Impulsgeräte, die nach
+dem Echoverfahren arbeiteten. Die damit nutz-
+baren hohen Ultraschallfrequenzen im Bereich
+von 1MHz bis 10 MHz forderten eine medizinisch-
+diagnostische Anwendung geradezu heraus.
+Materialprüfung einer
+Antriebswelle mit Ultraschall
+(Siemens 1953)
+Paul Langevin, 1872-1946
+5
+3. Pionierleistungen in der Medizin
+1934 bereits begannen J. Pätzold und T. Hüter
+bei den Siemens Reiniger Werken in Erlangen
+(heute Siemens Medical Solutions) mit Forschungs-
+arbeiten auf dem Gebiet des therapeutischen
+Einsatzes von Ultraschallwellen.
+Ein Ziel dieser Methode war es, Tumoren durch
+Ultraschallexposition „abzuschmelzen“. Nur zwei
+Jahre später war das erste Ultraschalltherapie-
+Serienprodukt, der SONOSTAT, auf dem Markt.
+Der Neurologe K.-T. Dussik aus Wien hatte 1938
+erstmals den Gedanken, Ultraschallwellen für die
+medizinische Diagnostik nutzbar zu machen. 1942
+publizierte er in der Zeitschrift für Neurologische
+Psychiatrie seine Methode der Hyperphonographie
+zum Nachweis pathologischer Veränderungen der
+geschlossenen Schädelkapsel.
+Interne Gehirnstrukturen sollten aufgrund unter-
+schiedlicher Schallschwächung im Durchschallungs-
+verfahren analog zur Röntgendurchleuchtung
+dargestellt werden.
+Zwischen der Abtasteinheit seines Hyperphono-
+graphen, bestehend aus dem Sender und dem
+damit mechanisch verbundenen Empfänger, wurde
+der Kopf des Patienten im Wasserbad (Koppel-
+medium für die Ultraschallwellen) gelagert und
+mäanderförmig abgetastet. Die am Empfänger
+auftreffenden Signale steuerten die Helligkeit eines
+ebenfalls mit der Abtasteinheit verbundenen
+Registrierlämpchens, welches ein fotografisches
+Papier punktuell belichtete.
+Das Ergebnis waren die ersten medizinischen
+Ultraschallbilder nach dem Durchschallungsprinzip.
+SONOSTAT,
+eines der ersten
+Ultraschall-
+therapiegeräte
+K.-T. Dussik, 1908-1968,
+mit seinem Hyperphonographen 1941
+K.-T. Dussik,
+Durchschallungsbild des Schädels 1942
+6
+40 Jahre später, 1982, wurde mit hohem Forschungs-
+aufwand am Stanford Research Institute zusammen
+mit Siemens dieses Verfahren erneut untersucht
+und klinisch bewertet.
+Es entstand der Prototyp einer sogenannten
+Transmissionskamera. Die klinischen Studien
+sind an der Orthopädischen Klinik in Münster
+durchgeführt worden.
+Die Durchleuchtungssonographie konnte sich
+jedoch wegen grundsätzlicher physikalischer
+Limitierungen in der medizinischen Diagnostik
+nicht etablieren.
+Auf dem ersten Kongress Der Ultraschall in der
+Medizin vom 2. bis 4. Mai 1948 in Erlangen
+berichtete neben K.-T. Dussik auch noch der
+Physiologe W. D. Keidel über seine Versuche,
+mit Hilfe des Durchschallungsverfahrens das
+Herzvolumen zu bestimmen.
+Alle anderen Vorträge befassten sich ausschließlich
+mit der Ultraschalltherapie und deren Wirkung.
+Die Euphorie, mit der die Ultraschalltherapie
+zunächst bewertet wurde, wich jedoch nach
+widersprüchlichen Statistiken über die damit
+erzielten Heilerfolge nach und nach einer
+nüchternen Betrachtung.
+Sie konnte sich aber bei einer Reihe von
+Erkrankungen z. B. bei Sportverletzungen
+erfolgreich behaupten.
+Seit 1980 wird die Ultraschalltherapie vermehrt
+zur Entfernung von Nieren- und Harnleitersteinen
+durch Stoßwellen (LITHOSTAR) und später auch
+zur Schmerztherapie in der Orthopädie (SONOCUR)
+klinisch angewendet.
+Erlanger Kongress 1948.
+Wirkungsberichte zur
+Ultraschalltherapie: Abszesse
+7
+Eindimensionale Ultraschallbilder
+Wie bereits erwähnt, konnten sich die zunächst
+in Analogie zur Röntgendurchleuchtung vorge-
+schlagenen Verfahren zur Durchleuchtung des
+menschlichen Körpers mit Ultraschallwellen in
+der klinischen Praxis nicht etablieren.
+Gute Ergebnisse lieferte dagegen das eindimen-
+sionale Ultraschall-Echoimpulsverfahren (A-Scan:
+A wie Amplitude), das bereits aus der zerstörungs-
+freien Materialprüfung bekannt war.
+Beim A-Verfahren wird die diagnostische Frage
+gestellt, ob längs einer ganz bestimmten Schall-
+einstrahlrichtung normale oder pathologische
+Strukturen oder Konturen vorhanden sind.
+Bereits 1949 konnten G. Ludwig und F. Struthers
+mit einem derartigen Gerät Gallensteine diagnosti-
+zieren.
+L. Leksell, Lund/Schweden erarbeitete 1953 die
+Grundlagen der Ultraschall-Echoenzephalographie
+und erzielte beachtliche diagnostische Erfolge.
+Zur selben Zeit haben I. Edler und C. H. Hertz,
+ebenfalls in Lund, dieses Verfahren erfolgreich zur
+Diagnostik des Herzens eingesetzt und damit erste
+Grundlagen der Echokardiographie entwickelt.
+Beide, L. Leksell wie auch I. Edler, verwendeten
+für ihre Studien das selbe Ultraschall-Material-
+prüfgerät Typ 1 von Siemens.
+Zeigen Amplitudenzacken des A-Bildes eine perio-
+dische Bewegung in Strahlrichtung, lässt sich dar-
+aus eine körperinterne Bewegung ableiten.
+Stellt einer dieser Amplitudenzacken z.B. das Echo
+einer Herzklappe dar, so wird sie sich analog zu
+deren Bewegungsrhythmus längs der Achse
+bewegen.
+Das brachte H. Hertz auf den Gedanken, diesen peri-
+odischen Vorgang in seinem zeitlichen Verlauf zu
+dokumentieren. Das aufgezeichnete Zeit-Weg-
+Diagramm hat dem Verfahren den Namen gege-
+ben: Time Motion (TM-Mode).
+4. Beginnende klinische Akzeptanz
+Schematische Darstellung der
+Beschallungstechnik
+bei einem extrazerebralen Hämatom
+Darstellung der Herzbewegung,
+die untere Spur zeigt
+das EKG als Zeitreferenz
+I. Edler und C. H. Hertz 1977
+mit dem historischen
+Siemens-Echokardiographen
+aus dem Jahr 1953
+8
+Compound-Scanner,
+Prinzipdarstellung
+1954, erster zweidimensionaler
+Compound-Scanner mit
+kreisförmig umlaufendem
+Schallkopf
+Ein typisches „bistabiles“
+Compound-Bild aus jener Zeit
+J. Holmes,
+Compound-Scanner 1960
+Zweidimensionale Ultraschall-Schnittbilder
+Tastet man mit dem Schallstrahl einen Körperquer-
+schnitt ab und bildet die reflektierten Echos ortsge-
+treu als Helligkeitspunkte auf einem Bildschirm ab,
+so erhält man ein zweidimensionales Ultraschall-
+Schnittbild (B-Bild: B = brightness/Helligkeit) der
+entsprechenden Körperregion. Anfängliche Versuche
+(D. Howry/R. Bliss 1950, Wild/Reid 1951), bei wel-
+chen der Patient in einem Wasserbad lag, waren
+die Basis für die Weiterentwicklung der zweidimen-
+sionalen Ultraschalldiagnostik.
+1955 berichtete J. Holmes erstmalig über das von
+D. Howry entwickelte sogenannte Compound-
+Verfahren. Als Wasserbad diente nunmehr ein
+Bombenauswurfschacht einer B29. Der Schallkopf
+bewegte sich kreisförmig um den Patienten und
+beschallte ihn aus allen Richtungen.
+1957 arbeitete I. Donald aus Glasgow mit seinem
+Kontakt-Compound-Scanner. Hier war es nicht mehr
+nötig, den Patienten in ein Wasserbad zu tauchen,
+sondern der Schallkopf wurde nach Auftragen
+eines Ultraschall-Koppel-Gels direkt auf die Haut
+aufgesetzt und von Hand geführt.
+Der Schallkopf war mit einem beweglichen Ausleger
+mechanisch verbunden.
+Positionsgeber in den Gelenken des Gestänges
+gewährleisteten eine ortsgetreue Abbildung auf
+einem Bildschirm. Dieses Verfahren geht davon
+aus, dass eine Überlagerung mehrerer unterschied-
+licher Einzelbilder ein und derselben Schnittfläche
+zu einem auswertbaren Bild führt.
+Nach ersten Erprobungen in der Gynäkologie, führte
+er dieses Verfahren in den darauf folgenden Jahren
+zur klinischen Reife.
+Für die Untersuchung und den Aufbau eines Ge-
+samtbildes wurden Sekunden bis Minuten benötigt,
+d.h. die Darstellung von Bewegungsvorgängen war
+deshalb mit diesem Ultraschall Bildgebungsverfahren
+nicht möglich.
+Bildartefakte, hervorgerufen durch Bewegungen,
+Schallbrechung oder Dejustierung des Abtast-
+systems erschwerten die klinische Diagnostik.
+Trotz der entscheidenden Limitierungen des
+Compound-Verfahrens erkämpfte sich diese Art
+der Ultraschall-Bildgebung in den folgenden Jahren
+als schonendes, nichtinvasives diagnostisches
+Verfahren in vielen Disziplinen fortschreitende
+Akzeptanz in der klinischen Routine.
+9
+Im Jahre 1960 wurde einem jungen Ingenieur,
+Richard Soldner, das Ultraschallgebiet in der Ent-
+wicklungsabteilung der Siemens Reiniger Werke
+übertragen.
+Zunächst nur mit der Weiterentwicklung der
+Ultraschall-Therapiegeräte befasst, arbeitete er im
+selben Jahr an der Entwicklung eines Ultraschall-
+bildgerätes, mit dem der Wert dieser Methode bei
+der Differenzierung von Tumoren der weiblichen
+Brust verifiziert werden sollte.
+R. Soldner kam sehr bald zu der Erkenntnis, dass
+das Bild gebende Ultraschallverfahren für die
+Diagnostik in allen medizinischen Fachdisziplinen
+wertvolle Informationen bieten kann, dass aber für
+die vorgesehene Anwendung der damalige Stand
+der Technik – das Compound-Verfahren – in der
+klinischen Routine keinen Erfolg haben würde:
+Der Bildaufbau und damit die gesamte Untersuchung
+dauerten für einen Routineeinsatz entschieden zu
+lang, eine mehrfache manuelle Abtastung des wei-
+chen Gewebes würde unweigerlich zu Bildartefakten
+führen.
+Der einzige Ausweg zur Lösung dieser Probleme war
+eine einmalige schnelle Abtastung der gesamten
+Schnittebene mit hoher Wiederholungsrate. Realtime
+war somit bereits bei Beginn der Entwicklung das
+Ziel, von dessen Realisierung R. Soldner überzeugt
+war.
+In seinem Laborleiter W. Krause, Mitentwickler
+des Siemens Materialprüfgerätes, hatte er einen
+kooperativen Förderer für sein Vorhaben.
+Bereits im Jahre 1963 konnte er einen Prototyp
+des legendären VIDOSON, des ersten Realtime-
+Ultraschallgerätes auf dem Weltmarkt, in der
+Frauenklinik der Universität Würzburg klinisch
+erproben.
+5. Durchbruch des Realtime-Verfahrens
+Richard Soldner 1961
+in seinem Ultraschall-Labor
+Erster Prototyp des VIDOSON 1963
+10
+Die revolutionäre automatische Scantechnik des
+VIDOSON – zwei im Brennpunkt einer hochwerti-
+gen Spiegeloptik rotierende Ultraschall-Richtstrahl-
+sender – ermöglichte es erstmalig, Schnittbilder
+vom menschlichen Körper in so kurzen Zeitinter-
+vallen und in so schneller Aufeinanderfolge
+(15 Bilder pro Sekunde mit je 140 Zeilen) auf
+einem Bildschirm darzustellen, dass sich nicht
+nur stationäre Zustände direkt und augenblicklich
+betrachten, sondern auch Bewegungsvorgänge im
+Körperinneren unmittelbar beobachten, fotografie-
+ren und filmen ließen.
+Das Zeit- wie auch das Dokumentationsproblem
+waren hiermit eliminiert, Bildartefakte bedingt
+durch Bewegungsunschärfen oder Deckungsfehler
+konnten systembedingt nicht mehr auftreten.
+Der wesentliche Vorteil des VIDOSON-Bildes
+aber war die Darstellung von Grauwerten,
+eine unverzichtbare Bedingung für die
+Gewebsdifferenzierung.
+Das Ultraschall-Realtime-Verfahren war geboren!
+Die ersten Anwendungsgebiete waren die
+Gynäkologie und die Geburtshilfe. Im Vergleich
+zur Röntgendiagnostik war die Gefahr von Frucht-
+und Erbschädigungen beseitigt, und die diagnosti-
+sche Information wie Lage des Embryos und der
+Plazenta im Uterus, Größe des kindlichen Kopfes
+sowie Vorliegen von Zwillingsschwangerschaften
+oder Vorhandensein von Tumoren und Zysten
+ließen sich frühzeitig und mit hoher Sicherheit
+erkennen.
+VIDOSON 1963,
+erstes klinisches
+Realtime-Bild
+der Mamma
+VIDOSON,
+Prinzip der
+automatischen
+Abtastung
+11
+Der klinische Durchbruch
+dieser neuen Methode
+gelang 1965 einem jungen
+Assistenzarzt der
+Universitäts-Frauenklinik
+Münster, H.-J. Holländer,
+mit seinem Vortrag vor der
+Medizinischen Gesellschaft
+Münster mit dem Titel:
+„Neue Möglichkeiten der
+Ultraschalldiagnostik in
+der Gynäkologie und
+Geburtshilfe“.
+H.-J. Holländer erklärte nach der ersten klinischen
+Erprobung:
+„Unser primäres Ziel war die Darstellung gynäkolo-
+gischer Tumoren z.B. Myome und Ovarialtumoren.
+Hierbei waren wir rasch erfolgreich. Wir wunderten
+uns allerdings zunächst, dass die Binnenstruktur
+der Myome nicht zur Darstellung kam, bis wir
+lernten, mit dem Einstellknopf „Verstärkerschwelle“
+zu spielen. Durch Optimierung der Verstärkung
+wurden plötzlich auch Binnenstrukturen deutlich
+sichtbar.
+Nachdem das neue VIDOSON zunächst von manchen
+Kollegen mit Skepsis oder gar Spott betrachtet wurde,
+änderte sich deren Einschätzung, als es mir gelang,
+bei einer 81-jährigen, adipösen Patientin eindeutig
+einen Ovarialtumor darzustellen, der vorher selbst
+in Narkose nicht getastet worden war.“
+H.-J. Holländer 1965,
+Myom
+H.-J. Holländer 1965,
+Blasenmole, 18. SSW
+Verbessertes VIDOSON aus dem Jahre 1966
+12
+Sehr schnell sprach sich der entscheidende
+diagnostische Vorteil des VIDOSON herum,
+und es folgten weitere klinische Studien mit
+einem neuen VIDOSON, das eine wesentlich
+verbesserte Bildqualität aufwies:
+• Höhere laterale Auflösung
+• Größere Detailerkennbarkeit
+• Bessere Gewebsdifferenzierung
+• Kontrastreicheres und ruhigeres Bild
+Schon 1966 stellte man in Münster den Embryo
+ab der 12. Woche p.m. und die Herzaktion ab
+der 13. Woche dar. Auch Messungen des fetalen
+Schädels waren bereits ab der 13. Woche möglich.
+H.-J. Holländer 1966,
+entsprechende hydropische Plazenta
+H.-J. Holländer 1966,
+Schädeldarstellung bei Hydrops fetalis
+H.-J. Holländer 1966,
+Zwillinge in der 17. SSW
+13
+M. Hansmann,
+intrauterine Transfusion,
+Transfusionsnadel in situ
+1968 konnte das 100. VIDOSON an den Kunden
+übergeben werden.
+Wilhelm Glombik (Bild oben Mitte), damals
+verantwortlich für den Vertrieb, hat jedes
+einzelne Gerät persönlich übergeben und
+jeden Kunden bei der Geräteeinstellung und
+der Applikation in der Klinik unterstützt.
+Die Anzahl der Röntgen-Schwangerschafts-
+Untersuchungen reduzierte sich in diesen
+ersten Jahren des VIDOSON-Einsatzes in
+der Frauenheilkunde bereits um ca. 90%.
+1972 dokumentierte M. Hansmann an der Univ.-
+Frauenklinik Bonn den ersten interventionellen
+Eingriff, eine intrauterine Transfusion in die
+Bauchhöhle unter Realtime-Ultraschallkontrolle.
+VIDOSON, Übergabe des 100. Gerätes 1969
+14
+Bald wuchs auch zunehmend das Interesse der
+Kollegen aus den internistischen Abteilungen.
+1966 wurde der wissenschaftliche Assistent der
+Medizinischen Universitäts-Klinik in Erlangen,
+Gerhard Rettenmaier, damit beauftragt, den
+Nutzen der Realtime-Diagnostik mit dem
+VIDOSON für die Innere Medizin zu bewerten.
+Seine grundlegenden Arbeiten im Bereich der
+Oberbauchdiagnostik sind Meilensteine in der
+Geschichte der Realtime-Sonographie:
+• Auf dem Internationalen Gastroenterologen-
+Kongress, der 1968 in Prag stattfand, hielt
+er seinen ersten, stark beachteten Vortrag
+zum Thema „Realtime-Lebersonographie“.
+• Auf dem ersten Ultraschall-Weltkongress im
+Juni 1969 in Wien berichtete G. Rettenmaier
+über die intrahepatischen Echomuster im
+VIDOSON-Bild und ihre diagnostische
+Bedeutung sowie über die diagnostische
+Nutzung der Bewegungsphänomene wie
+Pulsation, Atemverschieblichkeit und
+Palpationseffekte, die nur im Realtime-
+Verfahren möglich sind.
+G. Rettenmaier,
+Untersuchung eines Leberpatienten
+15
+Im Ultraschall-Labor der Medizinischen Univ.-Klinik
+in Erlangen ließ sich bald Harald Lutz als erster
+fester Mitarbeiter von G. Rettenmaier einweisen.
+G. Rettenmaier:
+„Manch einer der Gastärzte, die wegen der
+Endoskopie nach Erlangen gekommen waren,
+ließ sich vom hellen, metallischen Klicken der
+elektromagnetischen Bremsen am VIDOSON-Stativ
+verführen und lief zur Sonographie über.”
+H. Lutz übernahm das Erlanger Labor, nachdem
+G. Rettenmaier in Böblingen Chefarzt geworden
+war und in Karlheinz Seitz einen begeisterten
+und einfallsreichen langjährigen Mitarbeiter und
+Co-Autor gefunden hatte.
+Die Ultraschallwelt war zu dieser Zeit noch in zwei
+Lager gespalten: Compound-Scan contra RealTime.
+Zwischen beiden Parteien wurden lebhafte Diskus-
+sionen über die Vor- und Nachteile der verschiede-
+nen Methoden geführt, die noch Jahre andauerten,
+bis sich schließlich das Realtime-Verfahren durch-
+setzte.
+H.-J. Holländer:
+„In Wien lernte ich 1969 auch Herrn Rettenmaier
+kennen, den Pionier der VIDOSON-Anwendung auf
+internistischem Gebiet. Er trug dort seine Unter-
+suchungsergebnisse über normale und krankhafte
+Ultraschallreflexionen in der Leber vor. Danach
+hatte er heftigen Streit mit den Anwendern der
+Compound-Technik mit Speicherröhre, welche die
+normale Leber echoleer fanden, während Retten-
+maier mit dem VIDOSON auch in der normalen
+Leber ein Echomuster fand. Er bezeichnete später
+die fehlende Darstellung von Grauwerten als einen
+Geburtsfehler der Speicherbild-Technologie, der erst
+1977 durch eine neue Grauwerttechnik der
+Compound-Geräte beseitigt wurde.“
+H. Lutz 1973,
+Pankreaspseudozyste
+G. Rettenmaier 1968,
+Metastasenleber
+G. Rettenmaier 1968,
+fortgeschrittene Leberzirrhose,
+Aszites
+16
+1973 begann Jürgen Gehrke im Hammersmith
+Hospital, London, mit seinen Arbeiten, zweidi-
+mensionale Herzschnittbilder darzustellen und
+erweiterte die Echokardiographie mit den welt-
+weit ersten EKG-getriggerten VIDOSON-Video-
+aufnahmen. Das VIDOSON erlaubte es, das ganze
+Herz mit der damals sonst nicht möglichen
+Graustufendarstellung zu zeigen.
+Schon 1974 führte er seine Methode im Depart-
+ment of Cardiology als Routinediagnostik ein.
+Mit den zunehmenden Erfolgen der Ultraschall-
+Realtime-Diagnostik setzte bald auch eine Flut
+von Hospitanten ein, die an den wenigen erfahre-
+nen Stellen in die Geheimnisse der Ultraschall-
+diagnostik eingeweiht werden wollten. Das
+führte dazu, dass G. Rettenmaier in Böblingen
+im November 1973 in einem ersten Ultraschall-
+Trainingskurs 15 interessierte Anwender in die
+Sonographie einführte.
+Der Unterrichtsstoff dieser Kurse nahm mit
+größer werdender Erfahrung sehr bald zu,
+sodass er schließlich in einem dreistufigen
+Konzept vermittelt wurde.
+Mitarbeiter aus dem Ultraschall-Labor von
+Siemens referierten dabei über die physikalisch-
+technischen Grundlagen der Methode.
+Dieses Konzept wurde zum Vorbild für weitere
+zahlreiche Ultraschallkurse in Deutschland. Weit
+über 1.000 Kollegen aus dem In- und Ausland
+wurden im Laufe der Zeit von ihm ausgebildet.
+Das Ultraschall-Realtime-Verfahren konnte
+sich schließlich in vielen Bereichen der
+klinischen Routinediagnostik durchsetzen.
+In den darauf folgenden Jahren wurden bei
+Siemens ständig weitere innovative High-Tech-
+Systeme für die Ultraschall-Diagnostik entwickelt
+und erfolgreich auf den Markt gebracht, z.B. das
+erste elektronische Linear-Array der Welt (1969),
+das erste Annular-Array der Welt mit dynamischer
+Fokussierung (1971), das erste volldigitale Ultra-
+schallsystem der Welt (1980), Dopplergeräte für
+die Anwendung in der Angiologie und Neurologie
+sowie Phased-Array-Systeme für die Kardiologie
+mit farbcodierter Darstellung des Blutflusses.
+J. Gehrke 1973,
+Längsschnitt des Herzens, beträchtlich
+vergrößerter linker Vorhof bei Mitralstenose
+Mittelgradige
+Trikuspidal-Regurgitation
+G. Rettenmaier und
+K.-H. Seitz in einem
+Ultraschall-Trainingskurs
+J. Gehrke, Dept. of Medicine,
+Hammersmith Hospital, London
+17
+6. Ultraschalltechnologie heute
+Die heutigen Entwicklungstrends in der Sonographie
+basieren auf den ständig wachsenden technischen
+Möglichkeiten der Elektronik.
+Sie bieten dem Anwender immer höhere diagnosti-
+sche Sicherheit durch bessere Auflösung, aber auch
+Arbeitserleichterung in der täglichen Routine bis
+hin zu neuen Anwendungsfeldern für die wissen-
+schaftliche Forschung.
+Einige Verfahren werden beispielhaft im Folgenden
+beschrieben.
+Verfahren der Signalverarbeitung beim
+Empfang zur Verbesserung von Kontrast und
+Auflösung (Tissue Harmonic Imaging, THI)
+Die heutigen volldigitalen Systeme bieten auf
+kleinstem Raum höchste Signalverarbeitungs-
+Geschwindigkeiten und hochfrequente Speicher-
+möglichkeiten, die u.a. für Tissue-Harmonic-
+Imaging zur Verbesserung der Bildqualität beitragen.
+Durch Nutzung der harmonischen Frequenzanteile
+in den Gewebsechos können Gefäßwände klarer
+und artefaktfreier dargestellt werden.
+A.c.c., Bild in Standardpräsentation A.c.c., Bild mit Tissue Harmonic Imaging
+Tissue Harmonic Imaging bedeutet eine
+überragende Steigerung der Bildqualität
+und erhöht die Anzahl der mit Ultraschall
+diagnostizierbaren Patienten entscheidend.
+18
+Verfahren der Signalerzeugung
+beim Senden zur Erhöhung der Eindringtiefe
+(Chirp Coded Excitation, CCE)
+Hierbei wird der ausgesendete Ultraschallpuls zeit-
+lich verlängert und zusätzlich frequenzmoduliert.
+Der Puls besitzt somit bei gleicher Amplitude höhere
+Energie.
+Die nach einem patentierten Verfahren kompri-
+mierten Echos führen zu Bildern hervorragender
+axialer und lateraler Auflösung. Hierdurch gewinnt
+man eine größerer Eindringtiefe, die sonst nur mit
+niedrigeren Frequenzen erzielt worden wäre.
+Schilddrüse, Bild in Standardpräsentation
+Schilddrüse, Bild mit Chirp Coded Excitation
+Chirp Coded Excitation erhöht die Eindringtiefe
+auf ein bisher nicht für möglich gehaltenes
+Maß und bietet dabei höchste Auflösung
+durch die Nutzung hoher Frequenzanteile im
+Spektrum der Sendeimpulse.
+19
+Verfahren der Bildverrechnung und
+Bildpräsentation zur Unterstützung
+einer differenzierteren Diagnose
+Panoramabild (SieScape)
+Diese Bildpräsentation bietet die hohe Detail- und
+Kontrastauflösung des Einzelbildes bei einer maxi-
+malen geometrischen Darstellung von bis zu 60 cm.
+Die Darstellung erhält man nur durch Verrechnung
+der Einzelbilder – ohne zusätzliche Sensoren.
+Das Panoramabild eignet sich zur Dokumentation
+von großräumigen Befunden sowie zur
+Verdeutlichung anatomischer Zusammenhänge.
+3D/4D-Bildgebung
+Für die 3D-Bildgebung wird der Schallkopf entweder
+von Hand oder automatisch quer zur Scan-Ebene
+bewegt.
+Die dabei gewonnenen Informationen beinhalten
+entweder nur das B-Bild oder auch die Flussinfor-
+mation. Aus diesem Datensatz können mit Hilfe
+schneller Rechenoperationen dreidimensionale
+Oberflächenbilder oder diskrete Schnittebenen
+zur Ansicht gebracht werden.
+Ist die Bildrate ausreichend hoch, um die Bewegung
+innerhalb des betrachteten Volumens verfolgen zu
+können, wird dies 4D-Bildgebung genannt.
+Die 4. Dimension ist dabei die Zeit.
+Darstellung der A. femoralis und der A. tibialis
+mit ColorSiescape
+3D-Bild eines Feten
+20
+Spatial Compounding (SieClear)
+und Frequency Compounding zur
+deutlicheren Darstellung von Konturen
+Beim Spatial Compounding-Verfahren werden
+die Echosignale eines Zielgebietes in Realtime
+aus unterschiedlichen Richtungen aufgenommen.
+Die erhaltenen Einzelinformationen werden orts-
+richtig zu einem Gesamtbild verrechnet.
+Beim Frequency Compounding-Verfahren werden
+für die Bildberechnung die Informationen unter-
+schiedlicher Frequenzen ausgewertet.
+Automatische Abtastung des Zielgebietes
+aus unterschiedlichen Richtungen
+Abdominelles SieClear,
+Spatial Compounding mit 3 Subaperturen
+Abdominelles FreeStyle Frequency-
+Compounding mit 2 Sendefrequenzen
+Der große Vorteil dieser beiden
+Verfahren ist die bessere
+Differenzierbarkeit kleinster
+Gewebsunterschiede.
+21
+Automatische Optimierung des
+Gesamtsystems für schnelles,
+reproduzierbares Untersuchen
+(Tissue Equalization, TEQ)
+Der Anwender kann normalerweise mit den klassi-
+schen Bedienelementen eines Ultraschallgerätes
+(DGC) nur die für eine bestimmte Tiefe wirkende
+Verstärkung einstellen. Die Einstellung der lateralen
+Verstärkung kann jedoch nicht beeinflusst werden.
+Durch intelligente Bildverarbeitungsalgorithmen ist
+es heute möglich, eine automatische Bildoptimierung
+vorzunehmen. Das Ergebnis ist die bestmögliche
+Einstellung für die unterschiedlichsten Frage-
+stellungen.
+Diese automatische Optimierung führt zu kürzeren
+Untersuchungszeiten und erhöht die Konzentration
+auf den Patienten.
+Einen wichtigen Beitrag liefert dieses Verfahren
+in Bezug auf die Standardisierung der Ultraschall-
+untersuchung, die dadurch reproduzierbar gemacht
+werden kann.
+Spezialverfahren bei der Verwendung von
+Ultraschall-Kontrastmitteln zur Darstellung
+und Differenzierung von Raumforderungen
+(Contrast Pulse Sequencing, CPS)
+Bei der Bildgebung mit Hilfe von Kontrastmitteln
+der 2. Generation (Low-MI-Imaging) gibt es ganz
+neue Ansätze, um das Einfließen und Verbleiben
+des Kontrastmittels im Gewebe beurteilen zu
+können.
+Dafür ermöglicht das Contrast Pulse Sequencing-
+Verfahren durch eine optimierte Anregungs-
+sequenz und eine sequentiell unterschiedliche
+Verarbeitung der empfangenen Echosignale die
+klare Differenzierung von Gewebe und Kontrast-
+mittel.
+Dies kann soweit optimiert werden, dass das
+Gewebe vollständig unterdrückt ist, und nur
+das Kontrastmittel als Bild präsentiert wird.
+Prof. C. Dietrich, Bad Mergentheim,
+Leberdarstellung/FNH mit Kontrastmittel
+Prinzip der Tissue Equalization
+22
+7. Neue Systeme, neue Horizonte
+Eine extrem hohe technologische Leistung stellt
+aktuell das Phased Array AcuNav dar. Es ist ein
+vollständiges 7,5 MHz-Array mit 64 Elementen, das
+in der Spitze eines Katheters mit dem Durchmesser
+von ca. 3 mm untergebracht ist.
+Es wird über den venösen Zugang in das rechte
+Herz eingeführt und liefert Bilder höchster Qualität
+direkt aus dem Herzen.
+Ein weiteres Highlight auf Grund der zur Verfügung
+stehenden hohen Rechnerleistungen ist, die Dreh-
+bewegung des schlagenden Herzens zu erfassen und
+die komplexen Wandbewegungen dreidimensional
+vektoriell darzustellen sowie auszuwerten
+(Velocity Vector Imaging, VVI).
+In naher Zukunft werden weitere intelligente Ver-
+fahren und insbesondere neue Schallkopf-Technolo-
+gien auf Siliziumbasis die Einsatzmöglichkeiten der
+Ultraschalldiagnostik ungeahnt erweitern und zu
+immer leistungsfähigeren Systemen führen.
+Zuverlässige Informationen dieses kostengünsti-
+gen und vielseitig einsetzbaren bildgebenden
+Verfahrens erlauben eine frühzeitige, schnelle
+und sichere Diagnose. Das nützt nicht nur dem
+Patienten, sondern optimiert auch die Prozesse
+im Krankenhaus, trägt also damit entscheidend
+zur Kostensenkung im Gesundheitswesen bei.
+Bei steigender Lebenserwartung, die zu vermehr-
+ten Anforderungen an das Gesundheitswesen
+führt, ist dieser Aspekt – gepaart mit dem
+hohen diagnostischen Nutzen – ein ganz
+wesentliches Kriterium für den einzigartigen
+Wert und den universellen Einsatz der
+Ultraschalldiagnostik in der Medizintechnik.
+Velocity Vector Imaging
+AcuNav, das intrakardiale Phased Array
+23
+Bildquellen:
+Kongressband „Der Ultraschall in der Medizin,
+Mai 1948”
+Archive:
+· Prof. H. J. Holländer
+· Prof. G. Rettenmaier
+· Prof. C.H. Hertz
+· Siemens Medical Solutions
+Siemens AG
+Wittelsbacherplatz 2
+D-80333 München
+Deutschland
+Headquarters
+Siemens AG, Medical Solutions
+Henkestr. 127, D-91052 Erlangen
+Deutschland
+Telefon +49 9131 84-0
+www.Siemens.com/medical
+Siemens AG, Medical Solutions
+Ultraschalldiagnostik
+Henkestr. 127, D-91052 Erlangen
+Deutschland
+Telefon +49 9131 84-6907
+www.Siemens.com/medical
+© 2005 Siemens Medical Solutions
+Order No. A91ES-1-10C1
+Printed in Germany
+

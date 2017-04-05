@@ -1,0 +1,273 @@
+A Low Cost Open Source High Frame-Rate High-
+Frequency Imaging System
+J.A. Brown1,2
+, J. Leadbetter1,2
+, M. Leung1
+, A. Bezanson1,2
+, R. Adamson1,2
+1
+Biomedical Engineering
+Dalhousie University, Halifax, NS, Canada
+2
+Daxsonics Ultrasound Inc.
+Halifax, NS Canada
+j.brown@dal.ca
+Abstract— In this paper a low cost open source approach to
+high-frequency ultrasound imaging is described. This complete
+imaging system is based around four core components: A single-
+element geometrically focused imaging transducer, a low cost
+high frame-rate mechanical scanner, a field programmable gate
+array (FPGA) controlled pulser-receiver unit, and a data
+acquisition system running open source interface software. The
+single-element imaging transducer is spherically curved
+composite based on Lithium Niobate that has a centre frequency
+of 45 MHz, a bandwidth of 65%, and an insertion loss of -19dB.
+The mechanical scanning mechanism is based on a 45 mm long
+PZT bimorph attached to an extension arm. The mechanism can
+scan up to a 10 mm displacements at 100 Hz and is driven with a
+low cost Arduino microcontroller. The mechanism is mounted in
+an enclosed probe holder filled with deionized water. The FPGA
+accurately controlling the variable timing of the pulser-receiver
+unit is a Xilinx Virtex V and the data acquisition hardware
+consists of an off the shelf AlazarTech PCIe digitizing card and a
+PC. The hardware communication, GUI/plotting libraries, and
+data collection is all controlled with an open source Python
+application we have named OpenHiFUS.
+Keywords—high frequency ultrasound, low cost; open source
+I. INTRODUCTION
+High-frequency ultrasound is still a relatively new technology
+that uses micro-fabricated ultrasound transducers operating in
+the 20-70MHz range to achieve imaging resolutions of a few
+tens of microns, an order of magnitude higher resolution than
+conventional ultrasound systems used in human diagnostic
+medical imaging. In recent years, there has been a big push to
+move high-frequency ultrasound systems to linear array-based
+technology instead of the previous generation of mechanically
+scanned single-element systems [1]. The most obvious
+advantage to using an array-based system is that the depth-of-
+field of the imaging transducer is increased over the single-
+element fixed-focus transducers. There are some other less
+dramatic advantages to the array system such as slightly higher
+frame rates and more versatile Doppler imaging. After noting
+the advantages of the array based system, it is also important to
+note the disadvantages. Perhaps the largest disadvantage of the
+array based system is the large channel count, which increases
+the system cost dramatically. Whether it be because the
+complexity of array micro-fabrication and interconnect issues,
+parallelized high speed data acquisition, or parallelized pulser-
+receiver hardware, it is obvious that the system cost is much
+higher for a linear array based system. Another significant
+disadvantage to the linear array-based system is the weakly
+focused elevation plane or poor slice resolution. In fact, if one
+were only interested in a region that falls within the depth of
+field of a single element imaging transducer, the image quality
+would be superior to that of a linear array-based system in that
+same region. Because of the large difference in price point, and
+the moderate difference in image quality, it is our belief that
+there is still a place for a low cost mechanically scanned high
+frequency ultrasound systems.
+A high-frequency mechanically scanned ultrasound system
+typically consists of an imaging transducer, a scanning system,
+pulser-receiver unit, data acquisition hardware, and image
+processing/display software to turn the acquired signal into a
+set of images. We have developed a low cost open source
+imaging system with these components by using open source
+software, a low cost scanning actuator, and, for the most part,
+low cost electronic hardware. The system, as conceptually
+illustrated in Figure 1, is a progression from early work
+conducted to develop the mechanical scanning mechanism [2].
+Figure 1: Block diagram of complete imaging system.
+II. SYSTEM DESIGN
+Figure 2 shows a photograph of the complete imaging system
+with all components mounted within a commercially available
+medical cart (Ergotron, Saint Paul, MN). The system
+electronics are contained within the main drawer, a small form
+factor PC is mounted on the back of the cart, and the imaging
+probe with its integrated mechanical scanning mechanism is
+shown on top of the main drawer (A).
+549
+978-1-4673-5686-2/13/$31.00 ©2013 IEEE 2013 Joint UFFC, EFTF and PFM Symposium
+10.1109/ULTSYM.2013.0142
+Figure 2: Photograph of complete imaging system.
+A. Imaging Probe and Mechanica Scanner
+The imaging transducers used are commercially available
+45 MHz single-element geometrically focused Lithium Niobate
+composite transducers (Daxsonics Inc. Halifax, NS). Two
+different transducers were used for data collected during this
+study with slightly different apertures and f/numbers. Both
+transducers have bandwidths of 65% and a single cycle
+excitation pulse insertion loss of -19dB (once compensated for
+water attenuation and the quartz reflector loss [3]). The first
+transducer was 3.0 mm in diameter and geometrically focused
+at f/3.0, the second was 2.5 mm in diameter and geometrically
+focused at f/2.8. Beam diffraction predictions for lateral beam
+widths are approximately 120 μm and 110 μm at the focus, and
+the anticipated depth-of-field values are 2.4 mm and 2.1 mm.
+As shown in Figure 3, the imaging probes are mounted onto
+stainless steel extension arms and then epoxied to the free end
+of a 40 mm x 10 mm x 0.6 mm cantilevered piezoelectric
+bimorph. This bimorph serves as the mechanical scanning
+mechanism for the imaging probe [2]. When cantilevered at the
+base of the bimorph, and with the imaging probe submerged in
+water for acoustic transmission, the scanner operates at its
+resonance frequency of 95 Hz, potentially allowing up to 190
+unique frames per second.
+The probe and bimorph assembly is mounted inside a 3D
+printed plastic probe housing and filled with de-ionized water.
+For the acoustic window at the front of the casing, a 100
+micron film of poly-methyl-pentene (TPX) was used. A fully
+assembled imaging probe and mechanical scanner is shown as
+held during use in Figure 4.
+Figure 3: Imaging probe mounted onto stainless steel extension arm and
+piezoelectric bimorph (left); External casing for imaging probe and
+mechanical scanner (right).
+Figure 4: Assembled imaging probe and mechanical scanner.
+B. System Electroinics
+As shown in Figure 5, all system electronics (aside from
+the PC) are contained within a small drawer on the medical
+cart.
+The bimorph driving electronics are based on an open
+source micro-controller (Arduino Nano), which is programmed
+to act as a sine wave generator using a direct digital synthesis
+(DDS) method. The signal synthesis is synchronized to the
+acquisition sequence using hardware triggers from the FPGA.
+The microcontroller also receives instructions to start/stop and
+to adjust signal amplitude and phase from the system PC.
+Output from the bimorph driver is passed through a low cost
+high voltage amplifier circuit and the signal can be adjusted up
+to ± 120 V, from which lateral displacements of over 10 mm
+can easily be achieved.
+The pulser-receiver used is a custom design, very similar to
+the one described in [4]. The pulser is triggered by a low cost
+FPGA (Xilinx, Virtex V, San Jose, CA) using accurately
+controlled transmit pulses that correspond to 100 equally
+spaced image lines as the bimorph transitions from high
+velocity near the centre of the image to zero velocity at the
+frame edges. Additionally, this FPGA is used to generate a
+reference clock and corresponding timing triggers for the data
+acquisition system, along with the previously mentioned
+synchronization triggers for the bimorph driver. Generally
+speaking, the FPGA’s primary function would be to accurately
+550 2013 Joint UFFC, EFTF and PFM Symposium
+synchronize the pulser, the scan-head, and the data acquisition
+clock.
+The data acquisition, processing, and display system
+consisted of a PC containing a commercially available 500
+MHz 12 bit PCIe digitizer (Alazar Technologies Inc., Pointe-
+Claire, QC) with acquisition synchronized to the triggers
+generated by the Arduino. The commercially available Alazar
+data acquisition card is by far the most expensive component in
+the system.
+Figure 5: Photograph of system electronics contained in medical cart drawer.
+C. Software Description
+The open source software developed for the system
+performs real-time data acquisition and processing using the
+Python language. A version of this software is currently
+available under the title OpenHiFUS [5] (Open High
+Frequency Ultrasound). The Python language was chosen to
+allow for simple customization by end users in various
+applications, and for the wealth of open source libraries
+available.
+OpenHiFUS is predominantly based on a PyQt [6]
+framework, where a series of software widgets and objects are
+connected by internal Qt signals. This structure is illustrated in
+Figure 6, where the main application hosts three primary
+components: a micro-controller interface, a group of display
+windows imaging modalities, and a data processing object
+responsible for interacting with a secondary data collection
+process.
+The micro controller widget interacts with the bimorph
+scanner via USB communication to start, stop, and adjust
+oscillation amplitude. Display windows are available for B and
+M mode ultrasound imaging as well as to display the
+unprocessed high frequency signal. Once processed, data is
+displayed in these widgets using the efficient Python library,
+guiqwt [7].
+Figure 6: Illustration of OpenHiFUS software design.
+The third and most critical component to OpenHiFUS is the
+data processing object. This is responsible for transmitting
+newly processed data to the display windows, for receiving
+processing instruction from the display windows (settings for
+averaging, noise threshold, time gain amplification, etc.), and
+for interfacing with the independently running data collection
+process. Data collection and interaction with the external DAQ
+hardware is handled by a second independently running
+process and communication between the main application and
+this second process is handled using software sockets. By using
+this approach the overall acquisition rate is maximized and
+unaffected by user interaction with the main application.
+III. RESULTS
+A. System Performance
+Currently, the described low-cost hardware system running
+with OpenHiFUS on a standard contemporary PC has achieved
+80 frames per second (fps) of simultaneous acquisition,
+processing and display. On the system discussed in the
+remainder of the paper a display rate of 47.5 fps was chosen,
+corresponding to every second oscillation of the 95 Hz
+mechanical scanner. Currently, the limitation preventing higher
+display frame rates is the serial calculations used to produce B
+mode images from the captured high frequency data.
+Additional work is underway to move these calculations to a
+parallel graphical processing unit to increase overall
+performance. It should be noted however that the system can
+save and replay images at the full potential frame rate of 190
+fps.
+B. Imaging Results
+Early stage evaluation of the system’s imaging
+performance is presented here for a wire phantom, a human
+wrist image, and for a mouse cardiac sequence.
+Figure 7 shows a wire phantom image obtained using 15
+μm aluminum wire nominally spaced at 1 mm in a de-ionized
+water bath. The probe used for this image was 3.0 mm in
+diameter with a relatively low focus of f/3.0; these results
+551 2013 Joint UFFC, EFTF and PFM Symposium
+show, as expected, the image focal region and the achieved
+resolution. The best resolution is at the focal depth of 9 mm,
+but since the f/number is relatively low, there is a fairly large
+depth of field.
+Figure 7: Water bath wire phantom image with 15 μm aluminum wire.
+Figure 8 shows a B mode image of a vessel in a human
+wrist, taken using the same imaging probe as in the wire
+phantom image. Clearly visible is the structure of the dermus
+tissue, the boundaries of the artery, and speckel produced by
+blood flow within the artery.
+Figure 8: B mode image of human wrist artery.
+Figure 9 shows an M mode sequence from a short-axis
+view of a mouse heart ventricle. Used for this sequence was
+the 2.5 mm, f/2.8 imaging probe. In this image the periodicity
+in the M sequence cleary shows a a heart rate of 370 bpm, as
+well as mimimum and maximum ventricle diameters. The
+open nature of the processing module should make it
+straightforward to add strain imaging and volumetric
+estimation, for instance, to the system.
+Figure 9: M mode sequence from short-axis cross section of mouse ventricle.
+ACKNOWLEDGMENT
+The authors would like to thank Robert Rose and
+Emmanuel Egom (Dalhousie University Department of
+Physiology and Biophysics) for obtaining the presented mouse
+cardiac sequence using the described imaging system.
+REFERENCES
+[1] F. S. Foster, J. Mehi, M. Lukacs, D. Hirson, C. White, C. Chaggares,
+and A. Needles, “A New 15–50 MHz Array-Based Micro-Ultrasound
+Scanner for Preclinical Imaging,” Ultrasound Med. Biol., vol. 35, no. 10,
+pp. 1700–1708, 2009.
+[2] A. Bezanson, R. Adamson, J.A. Brown, “A Low-Cost High Frame-Rate
+Piezoelectric Scanning Mechanism for High-Frequency Ultrasound
+Systems,” Proc. IEEE International Ultrasonics Symposium, 2011
+[3] J. M. Cannata, T. A. Ritter, Wo-Hsing Chen, R. H. Silverman, K. K.
+Shung, "Design of efficient, broadband single-element (20-80 MHz)
+ultrasonic transducers for medical imaging applications," Ultrasonics,
+Ferroelectrics and Frequency Control, IEEE Transactions on , vol.50,
+no.11, pp.1548,1557, 2003
+[4] J.A. Brown, G.R. Lockwood, A Digital Beamformer for High-
+Frequency Annular Arrays, IEEE Transactions on Ultrasonics
+Ferroelectrics & Frequency Control, Vol. 52, pp.1262-1269, 2005.
+[5] J. Leadbetter, “OpenHiFUS” [Computer software]. Halifax, Canada.
+2013. Available from https://github.com/j-leadbetter/OpenHiFUS
+[6] Riverbank Computing Limited, “PyQt” [Computer software library].
+Dorset, UK. 2013. Available from
+http://www.riverbankcomputing.com/software/pyqt/intro
+[7] Raybaut, P., “guiqwt” [Computer software library]. France. 2009
+Available from https://code.google.com/p/guiqwt/
+552 2013 Joint UFFC, EFTF and PFM Symposium
+

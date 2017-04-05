@@ -1,0 +1,73 @@
+1.  Category:Transmitting
+
+**[Transmitting](:Category:Transmitting "wikilink")**
+-----------------------------------------------------
+
+-   **Objective**
+    -   Converting the digital format to a data pipe accessible by the
+        terminal
+-   **Requirements**
+    -   Outputting the data samples to a readable address through an
+        accesssible endpoint (wifi, usb, …)
+    -   At a rate acceptable for the display and/or processing unit
+
+Communication protocols tests
+-----------------------------
+
+### UDP Test
+
+Though we tried to work on the Red Pitaya WebApp, so far, what was
+successful was to used the [| UDP
+Protocol](http://echopen.org/index.php?title=V0.0_Sprint_log_-_Getting_an_image#Soft_so_far)
+get send and receive data.
+
+To resume working with the RedPitaya data, without being actually
+connected to it, we have developed something to pursue [Emulating the
+Red Pitaya through UDP](Emulating_the_Red_Pitaya_through_UDP "wikilink")
+
+### Data preparation
+
+We had fun with the logs we had at the previous [Compressing with
+FFT](Compressing_with_FFT "wikilink")
+
+Data rate for our prototype
+---------------------------
+
+### Data quantity
+
+The data quantity to send depend on either the raw data or filtered
+data. Problem is the raw data correspond to a high quantity of data and
+can't be sent *via* USB or WIFI to a smart phone or a computer. One
+solution can be to send filtered data as we show below.
+
+Raw data
+
+The quantity of data **Q** per second sampled by a probe is given by:
+
+`Q = npN_lf_r, (4)`
+
+where **n** is the number of point on each line:
+
+`n = \dfrac{2d}{c}f_e. (5)`
+
+Considering the parameter of Philippe Levesque for example, Q = 137 and
+687 Mbps and for f\_e = 20 and 100 MHz respectively. With our parameter
+(considering f\_r = 15 fps), Q = 468, 585 and 702 Mbps for p = 8, 10 and
+12 bits respectively.
+
+Filtered data
+
+If you filter data on a bandwidth **\\Delta f**, then you only have to
+send the data of the Fourier Transform of the signal between this
+bandwidth (center on the central frequency of the transducer), *cf.* the
+wiki page on the introduction to acoustic imaging. The total quantity of
+data is then:
+
+`Q = n\dfrac{\Delta f}{f_e}pN_lf_r = \dfrac{4d}{c}\Delta f pN_lf_r. (6)`
+
+It appears that with this method the data quantity does not depend
+anymore on the sampling frequency.
+
+Considering the parameters of Philippe Levesque and \\Delta f = 4MHz,
+the Q reduces to 53.5 Mbps. With our parameters we have Q = 37.5, 47 and
+56 Mbps. This data rate can be trasmitted *via* WIFI or USB for example.

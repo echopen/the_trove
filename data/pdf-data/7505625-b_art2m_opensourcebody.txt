@@ -1,0 +1,277 @@
+OPEN SOURCE BODY
+(working title)
+OH MY GOSH!
+Un rendez-vous sur l’art, le corps, la performance
+la biopolitique et le matériel médical open source
+Résidence d’artistes, ateliers, conférences et performances
+Le Makery Medialab se propose, en partenariat avec Echopen et La Paillasse, d’organiser
+un Gathering for Open Science Hardware (GOSH!) spécialement dédié aux convergences
+entre artistes, performers, et designers et hackers de matériel&logiciel open source pour
+la santé.
+La réduction considérable des coûts provoquée par le mouvement de matériel de science
+ouverte pour la santé et le développement de « forks », ces variantes pour la création,
+ouvrent des possibilités nouvelles de medium pour la pratique artistique : imagerie par
+ultra-sons (échographie), microscopie numérique par webcam ou loupes binoculaires
+numériques, endoscopie numérique, robotique pour la chirurgie, analyse des fluides,
+sonification des échanges bactériens et cellulaires (bio-sémiotique), etc.
+L’originalité des artistes est de faire converger la radicalité de l’art corporel, la
+performance et le bioart, pour soulever la biopolitique de l’autonomie corporelle, les
+politiques de l’accès à la santé par la libération du matériel&logiciel scientifique et
+médical, les enjeux globaux liés à l’aide au développement par la formation et la
+capacitation (des minorités désocialisées des pays industrialisés aux nécessités du Sud
+Global).
+Cet événement sur 7 jours prévu pour le printemps 2017 (date à confirmer) prendra la
+forme d’un workshop de 5 jours sur la pratique artistique en performance autour de
+l’imagerie à ultra-sons (échographie open source) au fablab Echopen situé à l’Hôpital de
+l’Hôtel-Dieu à Paris ; d’une présentation-conférence à l’Hôtel-Dieu de rendu d’une
+résidence d’artistes organisée en amont au fablab Echopen de septembre à février
+2016 ; d’une série de performances artistiques intermédia ; de deux jours de conférence
+au biohacker space La Paillasse sur l’impact de l’open source sur le futur de la médecine,
+sur la biopolitique de l’accès à la santé publique et le rôle d es pratiques artistiques
+intermédia comme agents discursifs des controverses scientifiques et sociales
+contemporaines.
+Anarcha, Lucy, Betsey, y otra chicas del montón, Klau Kinky, 2015 Open Surgery, Frank Kolkman, Kapelica Galerija, Ljubljana (Si), 2016 Non Human Rythms, Interspecifics, Inoculum @ CLB Berlin, 2016
+Note Conceptuelle
+Depuis de nombreuses années, on trouve sur Youtube des vidéos tutorielles postées par des Américains sans assurance
+santé qui pratiquent sur eux-mêmes ou leurs amis des opérations chirurgicales ou dentaires basiques. Les coûts du
+matériel médical ou des services de santé sont parfois bien trop prohibitifs pour les pays n’ayant pas de bons services
+publics ou sous-équipés en matériel médical.
+Le matériel joue un rôle déterminant dans les expérimentations et avancées du monde de l’instrumentation scientifique.
+Il a été d’ailleurs central dans les différentes révolutions scientifiques qui ont permis d’étendre les observations au-delà
+des cinq sens humains. Bien que les scientifiques soient des bricoleurs nés, la chaîne actuelle de fourniture en matériel
+scientifique limite l’accès et entrave la créativité et la customisation. Le domaine de l’Open Science Hardware questionne
+en partie ce problème par le partage de designs ouverts, s’inspirant souvent des techniques de fabrication numérique
+modernes. L’éducation populaire et la science citoyenne cherchent à étendre la portée de cette approche au-delà du
+contexte de la recherche académique. L’objectif est d’augmenter l’accès aux outils de recherche, de faciliter leur
+customisation et leur recyclage et de réduire les coûts. Alors que les universités et les centres de recherche travaillent
+avec de l’équipement très cher, de nombreux groupes travaillent au développement d’outils accessibles et organisent
+des ateliers pour former aux techniques et disséminer les instruments. Ainsi, ces dernières années, et sous l’impulsion de
+hackers, artistes et designers, émergent de nombreux prototypes qui pourraient révolutionner la médecine.
+Forgée par Michel Foucault, la notion de « biopolitique » est couramment employée dans différentes disciplines des
+sciences médico-sociales pour désigner l’évolution historique des politiques de santé publique sur la longue durée, et en
+particulier pour évoquer les pressions exercées par le contrôle social des corps individuels dans les dispositifs de santé
+publique les plus récents. Parfois « impérialiste » dans son rapport aux autres rationalités gouvernementales, parfois
+« tyrannique »dans son rapport aux populations qu’elle surveille, la biopolitique n’apparaît ainsi plus comme une simple
+ 
+reconfiguration de l’action publique, mais comme une entreprise politique à part entière, portée par des acteurs en
+concurrence les uns avec les autres dans un contexte d’évolution constante de l’action publique et de ses objectifs.
+Les artistes rappellent que Michel Foucault avait lui-même posé la subversion, ou au moins l’établissement de points de
+résistance, comme condition préalable pour la reprise en main citoyenne de l’orientation des défis posés par la science.
+Contrairement aux « bioart » magnifiant la science des laboratoires clos le mouvement du Do-it-Yourself en bioart et en
+art corporel cherche à faire descendre la science et la techno-médecine de leur piédestal. Il considère qu’il y a urgence
+sanitaire à ouvrir le matériel scientifique et médical pour des objectifs humanistes de première ligne (soutien aux
+personnes en dessous du seuil de pauvreté, solidarité avec les minorités sexuelles, réponse aux pollutions endémiques,
+capacitation des déserts médicaux, etc.) et souhaite pointer la responsabilité des corporations scientifiques et médicales
+face aux inégalités d’accès aux services de santé. Le langage de leur expression artistique se construit dès lors sur une
+triple stratégie : revendication de l’autonomie corporelle, subversion biopolitique et désacralisation de la science et de la
+santé académique.
+Commissariat
+Ewen Chardronnet a participé depuis le début des années 1990 à de nombreuses initiatives artistiques et éditoriales et
+écrit comme essayiste dans de multiples publications en France et à l'étranger.
+L'essentiel de ses activités d'auteur, de journaliste ou de commissaire s'intéresse aux impacts politiques, artistiques et
+sociétaux des transformations scientifiques et technologiques. Il a donné de nombreuses conférences, été membre de
+divers jurys et comités de sélection sur les arts et technologies et a travaillé en tant que consultant dans le domaine de la
+coopération culturelle européenne. Il a également coordonné des publications pour des organismes de réduction des
+risques chez les usagers de drogues.
+Ewen Chardronnet a co-fondé en 2007 avec le collectif Bureau d'études le journal La Planète Laboratoire de critique des
+sciences et techniques et écrit sur la culture maker/hacker et art-science dans les magazines MCD et Makery.info.
+À partir de 2000 il a exercé des activités de commissaire d'exposition et de chargé de production et conception
+d'événement pour des festivals internationaux et des institutions culturelles (parmi lesquels : saisons culturelles
+Étonnante Lettonie en France 2005 et Printemps Français en Lettonie 2007 ; direction artistique Futur en Seine 2009 ;
+commissaire invité - Sonores - Guimarães capitale européenne de la culture 2012 ; direction artistique festival Accès(s) à
+Pau en 2012 - artisans électroniques - et 2013 - soleils numériques ; commissaire invité, Rencontres Bandits-Mages,
+Bourges, 2014 ; commissaire invité de la plateforme art&science ArtLabo, 2015-2017 ; commissaire invité festival
+Gamerz, Aix-en-Provence, 2016.
+Ewen a travaillé sur des créations pour la scène et la performance avec Projekt Atol (Signal Sever!, 2002-2004) ; Rodolphe
+Burger et Yves Dormoy (Planetarium, 2005-2007) ; la Compagnie Off à Tours (Désert de Piste, cosmos d'opérations,
+2006 ; Paraboles 1.0, pièce pour soprano et dispositif vidéo, 2007) ; le collectif Soopa à Porto (Sputnik Day, 200715;
+Maquina de Selva / Mundo de Cristal, 2009-16) ; Loreto Martinez Troncoso (Cómo asustar al pulpo?, 2011-2012 ; Los
+Escapados, 2010-2012). Il a également co-réalisé des créations radiophoniques.
+Actif dans le domaine de la culture spatiale depuis 1995, il a récemment publié Mojave Epiphanie, une non-fiction
+narrative sur la face cachée de la genèse du programme spatial américain (Inculte, 2016).
+Rendez-vous GOSH! au CERN en mars 2016 Collectif Interspecifics, 2015
+Makery Medialab
+Makery est un média d’information en ligne (newsletter, site web www.makery.info, réseaux sociaux), bilingue
+français/anglais, fondé en juin 2014 par Anne-Cécile Worms, gérante de Digital Art International-Art2M, une entreprise
+labellisée jeune entreprise innovante (JEI) dont les bureaux se situent à la Gaîté Lyrique au sein de l'incubateur Créatis.
+A l'origine, un médialab est orienté vers l'expérimentation avec les médias numériques, qu’il soit orienté design
+nouveaux médias dans le cas du Medialab du MIT, art et culture libre pour le Medialab Prado à Madrid, ou pour la
+sociologie dans le cas du Medialab de Sciences-Po à Paris. Au sens de l'information et des médias d'aujourd'hui, il existe
+quelques labs comme le Nieman's lab ou le Knight Lab, issus d'écoles et universités, développant des modules, outils et
+services pour le journalisme en ligne.
+Nouvelle initiative, le médialab de Makery se veut être à mi-chemin de ces médialabs de design (MIT, Prado, Sciences-
+Po) et journalistiques (Nieman's lab). A la fois observatoire et laboratoire d’expérimentation, ses objectifs principaux sont
+de fournir des réflexions, investigations et expérimentations autour de l’impact sociétal de la culture des labs ; proposer
+des moments de rencontres publiques (forums, journées de conférences, ateliers, rencontres trans-disciplinaires, etc.) ;
+prototyper des outils et méthodes pour les médias et outils de publication en ligne (cartographie, visualisation de
+données, e-democratie et outils de décision collaborative, etc.). Le Makery Medialab est dirigé par Ewen Chardronnet.
+Programme Prévisionnel
+Le rendez-vous « Oh my Gosh! » se déroulera sur une semaine au printemps 2017. Il se découpera comme suit :
+– Du lundi au vendredi, atelier de création autour de l’imagerie ultra-son open source (échographie) au
+Fablab Echopen de l’Hôtel-Dieu. L
+’atelier sera piloté par l’artiste Shu Lea Cheang et les autres artistes
+invités. Il fera l’objet d’un appel à participation ouvert.
+– Vendredi, présentation de sortie de résidence à l’Hôtel-Dieu
+– Samedi et dimanche en journée, cycle de conférences à La Paillasse
+– Samedi soir, performances de Klau Kinky et du collectif Interspecifics
+– Dimanche soir, performance de clôture par Hackteria et les artistes de l’atelier
+Sortie de résidence d’artiste(s)
+au Fablab Echopen, Hôtel-Dieu (Paris)
+Echopen (Paris)
+Echopen est à l’origine du premier écho-stéthoscope open source connecté à une tablette ou un smartphone.
+Echopen est un fablab associatif dédié à l’Open Hardware
+médical hébergé à l’hôpital de l’Hôtel-Dieu à Paris. Il a lancé en
+mars la première version de sa sonde d’échographie open source
+connectée à une tablette ou un smartphone. Ce prototype
+d’écho-stéthoscope à destination des professionnels de santé
+innove, deux cents ans après l’invention du stéthoscope par René
+Laennec. Echopen est un outil qui permet de diagnostiquer le
+tout venant de la pathologie médicale afin de pouvoir faire des
+orientations diagnostiques rapides. L’écho-stéthoscope open
+source permettrait de gagner énormément de temps dans les
+services d’urgence bien sûr, mais ouvrirait également de
+nouvelles perspectives aux généralistes en cabinet, dans les
+déserts médicaux ou dans le cadre de missions humanitaires.
+http://echopen.org
+Artiste(s) en résidence : Shu Lea Cheang (Taïwan/USA/France) et invités
+Artiste, cinéaste et metteur-en-scène de créations en réseau basée à Paris, Cheang construit des installations en réseau
+et des performances multi-joueurs selon des modalités participatives impromptues. Elle écrit des scénarios narratifs de
+science-fiction pour ses films et oeuvres artistiques. Elle construit des interfaces sociales aux objectifs transgressifs et des
+réseaux ouverts qui permettent la participation du public. Engagée dans l’activisme média durant deux décennies (les
+années 1980 et 1990) à New York et a conclu sa période newyorkaise par le film cybernoïaque Fresh Kill (1994) et
+Brandon, la première collection/commission d’art web du Musée Guggenheim (1998-1999). Elle s’est relocalisée en
+Europe en 2000 et a développé des installations et performances en réseau à grande échelle tout en co-fondant des
+collectifs développant des projets trans-disciplinaires. Après un travail sur le cybersespace Cheang s’intéresse
+maintenant à l’amour viral et au biohack dans ses travaux. En 2016 elle a tournée son biogame collectif UKI-enter the
+BioNet ; est en post-production à Berlin de son long-métrage cypherpunk FLUIDØ ; et développe UKI, du cinéma
+interrompu par les applications de médias mobiles.
+http://www.mauvaiscontact.info
+Le projet de Shu Lea Cheang fait l’objet d’une demande d’aide au développement auprès du CNC-Dicréam.
+Conférences
+Le cycle de conférence sera animé par le Makery Medialab en partenariat avec les animateurs du fablab Echopen et du
+biohacker space La Paillasse. Il rassemblera les artistes invités mais organisera également des croisements
+transdisciplinaires en rassemblant historiens de la médecine et de l’art, spécialiste du droit médical, practiciens de la
+médecine, philosophes et sociologues.
+Art et biopolitique, la transgression des normes par les artistes comme facteur de progrès social
+Les pratiques artistiques intermédia contemporaines (au sens de Fluxus) intègrent dans la création toujours plus de
+domaines scientifiques inédits. Nous souhaitons nous intéresser aux enjeux de l’autonomie biopolitique des corps que
+font émerger les pratiques artistiques au carrefour de la performance, de la danse, de l’art corporel, de l’art sonore et
+multimédia, du design, et du hacking, de l’open source, de la biologie et de la médecine, de l’activisme et de la science
+citoyenne.
+Artistes et hackers au carrefour du développement de matériel ouvert pour la médecine
+Une bonne communauté d’artistes-hackers chevronnés pourraient très bien dans les prochaines années faire avancer le
+nouveau domaine du matériel médical ouvert et le rendre accessible à beaucoup de monde. Artistes et hackers
+présenteront les prototypes et les pratiques artistiques associées et comment ceux-ci peuvent constituer un excellent
+levier pour ouvrir le débat public sur l’accessibilité à la santé.
+Design critique et enjeux légaux du matériel ouvert pour par la médecine
+Le monde du matériel médical est extrêmement régulé. De l’homologation à la formation reconnue, il y a un vaste débat
+à engager sur l’avenir de technologies low cost pouvant révolutionner la médecine. Bien qu’approximatifs les projets et
+prototypes que nous souhaitons présenter montrent néanmoins comment artistes et activistes de l’open source et de
+l’open hardware s’engagent dans le développement de scénarios que la société devra considérer.
+Médecine de première ligne : quels outils pour le diagnostic rapide
+Nous souhaitons faire se rencontrer historien de la médecine, acteurs d’ONG médicales et développeurs de matériel
+ouvert pour discuter des perspectives ouvertes par ces nouveaux équipements low cost. Et qui sait... créer les
+opportunités pour les premières mises en pratique sur le terrain.
+Artistes – performances et atelier
+Interspecifics (Mexique-Europe)
+Interspecifics (Leslie García et Paloma López) est un collectif multi-espères nomade qui expérimente à la frontière de l’art
+et de la science. La base de leur recherche est l’utilisation du son pour comprendre l’activité bio-électrique de
+consortiums bactériens, de plantes, de champignons et des humains en utilisant des équipements électroniques DIY et
+customisés qu’elles appellent des machines ontologiques.
+L’Energy Bending Lab est un de ces instruments sonores composé d’un synthétiseur modulaire customisé et d’outils de
+traitement de signaux qui ont pour objectif de créer une bio-sonification en temps réel par l’utilisation des signaux
+électriques provenant de différents organismes pour influencer les paramètres sonores. L’interface amplifie d’abord le
+micro-voltage produit par ces micro-organismes et transforme leurs caractéristiques oscillatoires en signaux de contrôle
+de voltage qui ajuste l’horloge interne du système dans son ensemble, dynamisant la composition d’un côté et
+apportant des motifs de données de l’autre, le son constituant la passerelle de transduction. L’objet explore la relation
+entre les formes d’ondes et la matière.
+Interspecifics seront invitées à participer à l’atelier imagerie ultra-sons open source chez Echopen ainsi qu’à donner une
+performance sonore le samedi soir et à contribuer aux cycle de conférences.
+http://www.interspecifics.cc/-/
+https://soundcloud.com/lessnullvoid
+Klau Kinky, Anarcha, Lucy, Betsey, y otra chicas del montón, (Chili, Espagne)
+Klau Kinky est une artiste-performeuse chilienne vivant à Barcelone dans la « colonie éco-industrielle post-capitaliste »
+de Calafou. Klau Kinky s’intéresse dans son travail à la question de la décolonisation du corps de la femme et est à
+l’origine du mouvement féministe Gynepunk.
+La performance Anarcha, Betsey, Lucy y otras chicas del montón raconte comment en faisant des recherches en
+sexologie Klau Kinky a découvert que deux gynécologues américains du XIXème siècle, J. Marion Sims et Alexander
+Skene, ont laissé leur nom dans l’histoire. Le premier est à l’origine du speculum et le second donna son nom aux
+glandes de Skene, l’équivalent de la prostate chez l’homme et qui sont à l’origine de l’éjaculation féminine. Ces pères
+de la gynécologie moderne ont pratiqué leurs recherches gynécologiques sur des esclaves des plantations, et ce, sans
+anesthésie. De 1845 à 1849, Sims expérimenta sur trois esclaves d’Alabama, Anarcha, Betsy, et Lucy, qui souffraient de
+fistules. Anarcha fut opérée trente fois sans anesthésie. Ce n’est qu’après le succès de ces opérations qu’il commença
+à intervenir sur des femmes blanches, cette fois sous anesthésie. Ces expériences, considérées comme une étape vers la
+chirurgie vaginale moderne, permirent à Sims de concevoir des instruments, dont le spéculum de Sims. Avec cette
+performance Klau Kinky rebaptise les glandes de Skene et Bartholin en glande Anarcha et glandes de Lucy et Betsey, en
+hommage aux esclaves victimes des expériences de Sims.
+La performance Anarcha, Betsey, Lucy y otras chicas del montón doit son titre en hommage à un des premiers films de
+Pedro Almodóvar, Pepi, Luci, Bom y otras chicas del montón (1980).
+Klau Kinky sera invitée à intervenir lors du cycle de conférence.
+http://anarchagland.hotglue.me/
+Frank Kolkman, Open Surgery (Amsterdam)
+Open Surgery est un projet de design spéculatif d’un robot chirurgical Open Hardware pour réaliser des opérations
+abdominales simplesa été récompensé par un « Award of Distinction » au Prix Ars Electronica 2016.
+Frank Kolkman est un designer expérimental qui combine sa curiosité pour l’intérieur des machines avec la pensée
+analytique et la fabrication intuitive. Frank Kolkman cherche par son travail d’artiste-designer à comprendre les
+implications sociopolitiques des technologies contemporaines et celles d’un futur proche.
+Frank Kolkman a développé en relation avec lMSk Lab de l’Imperial College Hospital de Londres un robot chirurgical
+open source pour des opérations chirurgicales simples de cœlioscopie (opération abdominale réalisée sans ouvrir la
+paroi abdominale). L’objectif principal du projet n’a pas été de développer une machine “opératoire” utilisable tout de
+suite en conditions réelles. Il s’agissait plus d’une expérimentation pour vérifier la plausibilité de l’idée de créer un robot
+chirurgical DiY et d’ouvrir un débat sur les alternatives possibles à la biopolitique contemporaine.
+Frank Kolkman sera invité à participer à l’atelier d’imagerie ultra-sons et au cycle de conférences.
+http://www.frankkolkman.nl/
+http://www.opensurgery.net/
+http://prix2016.aec.at/prixwinner/21396/
+Hackteria (Genève, international)
+Hackteria est un réseau international d’artistes oeuvrant dans le bioart Do-It-Yourself open source depuis 8 ans. Initié
+suite à une collaboration entre des artistes suisses et indiens, Hackteria s’est rapidement élargi au monde entier et
+compte des membres en Indonésie, Taïwan, États-Unis, Slovénie, etc.
+Hackteria développe des outils Do-it-Yourself et low cost pour analyser les fluides corporels (sang, urine, fluides
+vaginaux, etc.) à partir de matériels issus du commerce (webcam, moteur de lecteur CD, etc.) customisés en fablab.
+La centrifugeuse permet de séparer le solide du liquide, de décanter, pour ensuite passer le résultat au microscope. Le
+microscope, outil utile pour la cytologie (l’étude de la morphologie des cellules) et l’histologie (morphologie des tissus),
+permet d’identifier (par coloration) les infections urinaires et autres mycoses génitales. Enfin l’incubateur peut faire
+croître les bactéries dans une boîte de Petri, en les nourrissant afin de révéler leur présence.
+http://hackteria.org/
+GOSH (International)
+La communauté Gosh! est convaincue que le matériel libre pour la science peut élargir les perspectives des
+scientifiques, des techniciens, des entrepreneurs et des défenseurs de la communauté, dans le développement de leur
+travail ; mais également de la multitude de groupes citoyens qui souhaite garder le contrôle sur leurs propres
+recherches. La communauté Gosh! est constituée d’ingénieurs, d’artistes, de hackers, d’enseignants, d’étudiants et de
+citoyens.
+http://openhardware.science/
+Bibliographie
+Articles de Ewen Chardronnet dans la cadre des recherches du Makery Medialab :
+« Interspecifics: explorer en Diy la communication inter-espèces »
+http://www.makery.info/2016/04/15/interspecifics-explorer-en-diy-la-communication-inter-especes/
+« Frank Kolkman veut ouvrir la chirurgie avec son robot DIY » :
+http://www.makery.info/2016/03/04/frank-kolkman-veut-ouvrir-la-chirurgie-avec-son-robot-diy/
+« Gynepunk : les sorcières cyborg de la gynécologie DIY »
+http://www.makery.info/2015/06/30/gynepunk-les-sorcieres-cyborg-de-la-gynecologie-diy/
+« Gosh réunit le mouvement Open Science Hardware au Cern »
+http://www.makery.info/2016/03/14/gosh-reunit-le-mouvement-open-science-hardware-au-cern/
+« La manifeste Gosh pour libérer le matériel scientifique »
+http://www.makery.info/2016/06/07/le-manifeste-gosh-pour-liberer-le-materiel-scientifique/
+« Echopen lance une sonde d’échographie open source »
+www.makery.info/2016/03/29/echopen-lance-une-sonde-dechographie-open-source/
+« L’oeuf, la poule et les hormones DIY »
+http://www.makery.info/2016/05/18/loeuf-la-poule-et-les-hormones-diy/
+Livres :
+Tracey Warr (éd.) et Amelia Jones (2000), Le Corps de l'artiste (Artist's Body), New York/Paris, Phaidon Press, 2011
+Sally O'Reilly, Le Corps dans l'art contemporain, coll. « L'Univers de l'art », Paris/Londres, Thames & Hudson, 2010
+Paul Ardenne, L'image corps : Figures de l'humain dans l'art du XXe
+siècle, Paris, Éditions du Regard, 2011
+J.M. Pearce, Open-Source Lab: How to Build Your Own Hardware and Reduce Research Costs, Elsevier, 2014.
+Bernard Vandewalle, Michel Foucault, Savoir et pouvoir de la médecine, Hippocrate et Platon, études de philosophie de
+la médecine, 2006
+Michel Foucault, Histoire de la sexualité, vol. 1 : La volonté de savoir, Paris, Gallimard, 1976
+Michel Foucault, Histoire de la sexualité, vol. 2 : L'usage des plaisirs, Paris, Gallimard, 1984
+Michel Foucault, Histoire de la sexualité, vol. 3 : Le souci de soi, Paris, Gallimard, 1984
+Michel Foucault, cours au Collège de France, 1978-1979 : Naissance de la biopolitique, Paris, Gallimard, 2004
+Guy Valencien, La médecine sans médecin ? Le numérique au service du malade, Gallimard, 2015
+Harold Speert, Histoire illustrée de la gynécologie et de l'obstétrique, R. Dacosta, 1976
+Jean-Yves Robin, Santé, l’urgence numérique, L’Harmattan, 2014
+Rosi Braidotti, La philosophie - là où on ne l'attend pas, Larousse, 2009
+Pascale Cossart, La nouvelle microbiologie, des microbiotes au CRISPR, Odile Jacob, juin 2016
+

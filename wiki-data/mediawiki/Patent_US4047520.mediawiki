@@ -1,0 +1,47 @@
+# Patent US4047520
+
+
+
+
+
+=US4047520 : Ultrasonic imaging apparatus operating according to the impulse-echo technique = 
+
+
+
+== Invention date ==
+
+Sep 13, 1977
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Richard Ernst Soldner]]
+* [[Rudolf Rattmann]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An ultrasonic applicator including a parabolic reflector for reflecting ultrasonic beam energy for ultrasonic sectional scanning particularly for medical diagnostic purposes, has its image registering system compensated for the variable sweep velocity of the ultrasonic beam energy within the body region under examination by the provision of a rotary mark carrier with a series of angularly offset marks of variable spacing such that as the mark carrier rotates at a constant rate in synchronism with the rotary ultrasonic transducer head, the marks are scanned at a relatively rapid rate as the ultrasonic impulses are reflected at the border regions of the parabola and are scanned at a progressively slower rate during transducing via points progressively closer to the central region of the parabola.
+= Patents Backwards =
+
+= Patents Forwards =
+
+* [[Patent US4222274]]
+* [[Patent US4231373]]
+* [[Patent US4246791]]
+* [[Patent US4317369]]
+* [[Patent US4317370]]
+* [[Patent US4375818]]
+* [[Patent US4567895]]
+* [[Patent US4892103]]
+* [[Patent US5131393]]
+* [[Patent US5935071]]
+* [[Patent US6409669]]
+* [[Patent US7684846]]
+* [[Patent US7841982]]
+* [[Patent US8246543]]
+* [[Patent US8366617]]
+* [[Patent EP0696435A2]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

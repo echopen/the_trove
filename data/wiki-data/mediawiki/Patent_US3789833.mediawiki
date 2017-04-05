@@ -1,0 +1,78 @@
+# Patent US3789833
+
+
+
+
+
+=US3789833 : Heart examination by means of ultrasound waves = 
+
+
+
+== Invention date ==
+
+Mar 23, 1972
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Bom N]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An examination of the human heart is carried out by means of ultrasound waves emitted by piezo-electric crystals. The crystals are inserted in a holder adapted to be placed on the body of a patient; they are arranged in a row and have parallel axes of radiation. The crystals are cyclically excited at a high scanning frequency, and the echo signals reflected by the heart walls and received by the crystals are displayed on the screen of a cathode ray tube to obtain a cross-sectional picture of the heart. In a modification of the invention, the holder comprises two or more rows of crystals radiating at different angles; in this case the echo signals related to a common point of the heart wall are superposed on the screen of the cathode ray tube by means of a coordinate transformation.
+= Patents Backwards =
+
+* [[Patent US2628335]]
+* [[Patent US2700895]]
+* [[Patent US3279242]]
+* [[Patent US3561430]]
+* [[Patent US3577772]]
+* [[Patent US3605724]]
+* [[Patent US3624744]]
+= Patents Forwards =
+
+* [[Patent US3881466]]
+* [[Patent US3888238]]
+* [[Patent US3927662]]
+* [[Patent US3938502]]
+* [[Patent US3951140]]
+* [[Patent US4008713]]
+* [[Patent US4012952]]
+* [[Patent US4016862]]
+* [[Patent US4029084]]
+* [[Patent US4070905]]
+* [[Patent US4092867]]
+* [[Patent US4099419]]
+* [[Patent US4100916]]
+* [[Patent US4127034]]
+* [[Patent US4137775]]
+* [[Patent US4170142]]
+* [[Patent US4183249]]
+* [[Patent US4206653]]
+* [[Patent US4240440]]
+* [[Patent US4241608]]
+* [[Patent US4246792]]
+* [[Patent US4252026]]
+* [[Patent US4372323]]
+* [[Patent US4410910]]
+* [[Patent US4672975]]
+* [[Patent US5111412]]
+* [[Patent US5699805]]
+* [[Patent US5704361]]
+* [[Patent US5713363]]
+* [[Patent US6039693]]
+* [[Patent US6059731]]
+* [[Patent US6099475]]
+* [[Patent US6129672]]
+* [[Patent US6171247]]
+* [[Patent US6306096]]
+* [[Patent US6352512]]
+* [[Patent US6398736]]
+* [[Patent US6544187]]
+* [[Patent US7156812]]
+* [[Patent USRE30397]]
+* [[Patent DE2645738A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

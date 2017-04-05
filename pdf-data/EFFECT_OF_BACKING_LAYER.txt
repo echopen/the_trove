@@ -1,0 +1,128 @@
+EFFECT OF BACKING LAYER COMPOSITION ON ULTRASONIC PROBE
+BANDWIDTH
+KESAN KOMPOSISILAPISAN BELAKANG KE ATAS LEBAR JALUR
+PROB ULTRASONIK
+Amry Amin Abas, Dr Mohamad Pauzi Ismail, Suhairy Sani, Mohd Noorul
+Ikhsan Ahmed
+NDT Group Industrial Technology Division
+Malaysian Nuclear AgencyBangi43000 Kajang Malaysia
+Abstract
+Backing layer of an ultrasonic probe plays an important role in determining the
+characteristic of waves that is produced. Previous study has showed that the
+composition of backing layer determines the sensitivity and signal to noise ratio. In
+this paper, the relationship between backing layer composition and bandwidth of
+probes will be discussed. The probes fabricated are 2MHz and 5MHz using Lead
+Zirconate Titanate (PZT) with Alumina as wear plate. Backing layer is a mixture of
+tungsten powder 100/am and slow setting epoxy at a ratio of 4:1 and 8:1 by weight.
+The bandwidth of fabricated probes is measured using Wayne-Kerr impedance
+analyser. From the results, it isfound that the composition of backing layer effects the
+bandwidth of ultrasonic probes.
+Abstrak
+Lapisan belakang pada prob ultrasonik memainkan peranan yang penting dalam
+penentuan ciri-ciri gelombang yang dihasilkan. Kajian terdahulu menunjukkan
+bahawa komposisi lapisan belakang menentukan kepekaan dan nisbah isyarat ke
+hingar. Dalam kertas kerja ini, perkaitan antara komposisi lapisan belakang dan
+lebar jalur prob akan dibincangkan. Prob yang difabrikasi adalah 2MHz dan 5MHz
+dengan menggunakan Plumbum Zirkonat Titanat(PZT) dan Alumina sebagai plat
+perlindungan. Lapisan belakang adalah campuran serbuk tungsten JOOjumdan epoksi
+lambat keras pada nisbah 4:1 dan 8:1 mengikut berat. Jalur gelombang prob yang
+difabrikasi diukur menggunakan penganalisis impedans Wayne-Kerr. Daripada
+keputusan, didapati komposisi lapisan belakang memberi kesan ke atas jalur
+gelombang prob ultrasonik.
+Katakunci/keywords : backing layer, ultrasonic probe
+INTRODUCTION
+The main component of an ultrasonic equipment for Non-Destructive Testing
+(NDT) is the ultrasonic transducer as it converts electrical energy into mechanical
+energy and vice versa by utilizing piezoelectric effect. The characteristics of the pulse
+produced by the equipment depend on the electrical pulse produced by ultrasonic
+pulsers that triggers the transducers and the characteristics of the transducers
+themselves. The frequency, pulse length, bandwidth and near field depends on the
+design of the transducers, making them the most important component within an
+ultrasonic equipment.
+Ultrasonic testing (UT) is used in NDT to measure thickness, detect flaws in
+components such as casting, rolling products such as plates, weldments and etc.
+Therefore, ultrasonic transducers should have high sensitivity and resolution. The two
+properties can be achieved by producing transducers with short pulse length and high
+bandwidth which can be obtained by placing a matching layer at the front face of the
+transducer, using an appropriate backing layer and adding a tuned circuit to the
+transducer. In this paper, only the second method which is attaching an appropriate
+backing layer will be discussed.
+The backing layer should have acoustic impedance which matches the piezoelectric
+material to ensure good transmission of wave at the boundary. It should also have high
+attenuation factor to ensure that the wave is absorbed fully and preventing it to be
+reflected back into the piezoelectric material. The acoustic impedance, Z, is a product
+of density, p, and wave velocity, v, given as
+Z = p.v (1)
+METHODOLOGY
+A few backing layer samples with different tungsten powder to epoxy weight ratio
+ranging from 1:1 to 8:1 were fabricated. Tungsten powder with 100|im size and
+Selley’s EpoxyFix with 60 minutes cure time were used. Tungsten is selected due to
+its high density value which is around 19.25gcm'3 while epoxy functions as binding
+material. Tungsten is used in powder form to obtain a homogenous mixture with
+epoxy. The two components are mixed according to the appropriate weight ratio and
+placed in a vacuum chamber to ensure entrapped air bubbles are removed. Then the
+samples are left to be cured at room temperature and condition. The samples were then
+characterized according to sound velocity, density, acoustic impedance and attenuation
+factor.
+Ultrasonic transducers with three main components namely wear plate,
+piezoelectric material and backing layer were fabricated. The wear plate used is made
+of pink Alumina with one-quarter wavelength thickness. The piezoelectric material
+used is Pz27 from Ferroperm Piezoceramics with two different resonance frequency of
+2MHz and 5MHz. The Z value of the Pz27 is about 40MRayls. Several transducers
+with different mixture ratio of tungsten powder and epoxy were fabricated.
+Electrical impedance of the fabricated transducers was measured using Wayne-Kerr
+impedance analyzer. From the impedance chart, the bandwidth is measured. The upper
+and lower frequencies of -6dB drop of the conductance amplitude is measured. From
+these upper and lower frequencies fu and fi, the centre frequency f0is calculated as in
+(2).
+fo = ( f » x f i ) 1/2 (2 )
+Bandwidth is given as
+Bw = (fu- fi) / fo x 100 (3)
+Figure 1 : Impedance profile of an ultrasonic probe
+RESULTS AND DISCUSSION
+Wave velocity inside the backing layer as in figure 2 showc reduction as the
+mixture ratio increases. As expected, the density of backing layer increased (figure 3)
+as the ratio of tungsten increases. Acoustic Impedance value also increases as the
+tungsten content increase. The highest mix ratio of 8:1 only produces backing layer
+with acoustic impedance of 7.5MRayls (figure 4). Further attempt to mix higher ratio
+of tungsten to epoxy failed because it has reached saturation. The attenuation factor
+reduces significantly at ratio of 0.1:1, but stabilizes when the tungsten ratio increases
+(figure 5).
+Figure 1 : Wave Velocity vs Tungsten -
+Epoxy Mixture Ratio
+Figure 2 : Density vs Tungsten - Epoxy
+Mixture Ratio
+Figure 3 : Acoustic Impedance vs Figure 4 : Attenuation vs Tungsten -
+Tungsten - Epoxy Mixture Ratio Epoxy Mixture Ratio
+The bandwidth of both transducers increases with higher tungsten content (Table
+1). For 2MHz transducer, the bandwidth increases from 4.06% to 21.70% as the
+tungsten content increases. For 5MHz transducer, the bandwidth increases from 2.77%
+to 13.45% as the tungsten content increases. For both transducers, there is not much
+difference in term of bandwidth between ratio 4:1 and 8:1. For manufacturing
+purposes, selection of ratio 4:1 is sufficient as cost of tungsten powder is high and
+there is no significant performance gain if higher ratio is used.
+TABLE 1: Bandwidth for 2MHz and 5MHz transducer
+Bandwidth (%)
+2MHz 5MHz
+Single disc 4.06 2.77
+Disc + wear plate 3.32 3.34
+Tungsten : Epoxy - 1:1 12.47 10.74
+Tungsten : Epoxy - 4:1 20.22 12.77
+Tungsten : Epoxy - 8:1 21.70 13.45
+CONCLUSION
+Mixture of tungsten and epoxy clearly increases the acoustic impedance of the
+backing layer, but it still does not match the impedance of PZT. The usage of backing
+layer with high tungsten content increases the bandwidth of both 2MHz and 5MHz
+transducers. For manufacturing purposes where cost is a factor, ratio of 4:1 is already
+sufficient to obtain a wideband transducer.
+REFERENCES
+1. J. Krautkramer and H. Krautkramer, Ultrasonic Testing ofMaterials, Springer - Verlag 1983.
+2. G. Kossoff, The Effects of Backing and Matching on the Performance of Piezoelectric Ceramic
+Transducers, IEEE Transactions on Sonics and Ultrasonics, March 1966.
+3. J. Souquet, P. Defranould and J. Desbois, Design of Low-Loss Wide Band Ultrasonic Transducers
+for Noninvasive Medical Application, IEEE Transactions on Sonic and Ultrasonics Vol Su-26,
+No.2, March 1979.
+4. M.G. Silk, Ultrasonic Transducersfor Nondestructive Testing, Adam Hilger Ltd. Bristol, 1984.
+5. BS EN 12268-2:2001, Non-destructive testing-Characterization and Verification of Ultrasonic
+Examination- Equipment-Part2 : Probes, May 2001.
+

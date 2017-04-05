@@ -1,0 +1,79 @@
+# Patent US4233988
+
+
+
+
+
+=US4233988 : High resolution rotating head ultrasonic scanner = 
+
+
+
+== Invention date ==
+
+Nov 18, 1980
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Donald E. Dick]]
+* [[Robert L. Metz]]
+* [[D. Scott RoJohn]]
+* [[Raymond D. Elliott]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An improved high resolution rotating head ultrasonic scanner is provided for use in an ultrasonic scanning subsystem of an ultrasonic breast scanning system. The scanning subsystem of the breast scanning system includes a pair of high resolution ultrasonic rotating scanning heads mounted on a transport mechanism. A scan is conducted by moving the transport mechanism while the scanning heads rotate so that a series of parallel uniformly spaced cross-sectional scans of the tissue of the breast are conducted from the inferior to the superior border of the breast. Each scanning head has three ultrasonic transducers uniformly spaced around its perimeter. The focal ranges of the transducers of a given scanning head are chosen so that a sector scan conducted by each head is divided into slightly overlapping zones with the depth of each zone corresponding to the focal range of one of the transducers on each scanning head. The angular velocity and phase of the scanning heads are controlled so that during one revolution of the scanning heads each transducer of each head conducts a sector scan primarily through its zone. However, only one such transducer will conduct such a scan at any one time.
+= Patents Backwards =
+
+* [[Patent US3247709]]
+* [[Patent US3308652]]
+* [[Patent US3480002]]
+* [[Patent US3886490]]
+* [[Patent US4012952]]
+* [[Patent US4016751]]
+* [[Patent US4034744]]
+* [[Patent US4075883]]
+* [[Patent US4078435]]
+* [[Patent US4094306]]
+* [[Patent US4161121]]
+= Patents Forwards =
+
+* [[Patent US4269066]]
+* [[Patent US4282880]]
+* [[Patent US4341222]]
+* [[Patent US4346867]]
+* [[Patent US4368644]]
+* [[Patent US4421118]]
+* [[Patent US4457311]]
+* [[Patent US4485819]]
+* [[Patent US4541436]]
+* [[Patent US4649926]]
+* [[Patent US4693120]]
+* [[Patent US4850363]]
+* [[Patent US4860758]]
+* [[Patent US4880009]]
+* [[Patent US4986274]]
+* [[Patent US5713356]]
+* [[Patent US5999842]]
+* [[Patent US6102857]]
+* [[Patent US6104942]]
+* [[Patent US6126599]]
+* [[Patent US6216025]]
+* [[Patent US6292682]]
+* [[Patent US6296610]]
+* [[Patent US6416477]]
+* [[Patent US6490470]]
+* [[Patent US6633774]]
+* [[Patent US6666833]]
+* [[Patent US6780153]]
+* [[Patent US7264592]]
+* [[Patent US7963918]]
+* [[Patent CN100444802C]]
+* [[Patent WO1983000993A1]]
+* [[Patent WO2000020888A1]]
+* [[Patent WO2004064644A1]]
+* [[Patent WO2012108172A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

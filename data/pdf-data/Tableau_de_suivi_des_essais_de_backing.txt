@@ -1,0 +1,37 @@
+Tableau de suivi des essais de backing – echOpen
+Numéro de
+backing
+Colle époxy Tungstène
+(g)
+Verre
+(g)
+Durcisseur époxy
+(g)
+Résine époxy
+(g)
+Densité moyenne
+du backing
+(kg/m3)
+Vitesse moyenne
+du son
+(m/s)
+Impédance
+acoustique moyenne
+(MRayl)
+Observations
+1 Araldite 20-20 2,668 0 1,17 3,9 - - - échec : débordement pendant le dégazage
+2 Araldite 20-20 2,668 0 1,17 3,9 - - - échec : tout le tungstène a sédimenté
+3 Araldite 20-20 2,668 0 1,17 3,9 - - - échec : polymérisation avant moulage
+(chauffé à la plaque chauffante)
+4 Araldite 20-20 2,668 0 1,17 3,9 - - - échec : tout le tungstène a sédimenté
+5 SADER 2,668 0 2,48209 2,50771 1322,6 2341,3 3,09660338 impédance acoustique trop faible
+6 Araldite 20-20 0 0,79 1,17 2,63 - - - échec : polymérisation avant moulage
+(chauffé à la plaque chauffante)
+7 SADER 0 0,79404 1,89 1,91 1137,763333 2597,306667 2,955120291 impédance acoustique trop faible
+8 SADER 2,66 0 2,56 2,55 1531,55 2265,89 3,47032383 impédance acoustique trop faible
+9 SADER 0 0,78502 1,65467 1,60046 1093,13 2311,05 2,526278087 impédance acoustique trop faible
+10 SADER 0 1,29369 1,59488 1,5554 1259,6975 2753,4475 3,468510932 impédance acoustique trop faible
+11 SADER 0,98754 1,26306 1,51925 1,56147 1525,863333 2279,173333 3,47770702 impédance acoustique trop faible
+12 SADER 6,05836 1,03598 1,48075 1,4872 2837,245 1972,47 5,596380645 impédance acoustique trop élevée
+13 SADER 3,40021 0,99483 1,51173 1,55647 2209,54 2056,19 4,543234053 impédance acoustique correcte
+

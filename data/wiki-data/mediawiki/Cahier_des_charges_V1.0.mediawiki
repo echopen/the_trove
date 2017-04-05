@@ -1,0 +1,23 @@
+# Cahier des charges V1.0
+
+=Cahier des charges du prototype V1.0=
+
+Le prototype V1, premier prototype fonctionnel d’echOpen, est attendu pour la fin du mois de novembre 2015. Prototype simple mais complet, il sera alors composé d'un seul transducteur (monofréquence) afin de valider les différentes techniques de prototypage.
+
+==Transducteur==
+*Un transducteur focalisé de 5 MHz a été choisi pour cette version, sa fréquence pouvant sonder une large gamme de zones corporelles. Son encombrement doit être faible pour avoir une sonde compacte et légère. 
+*Définir la profondeur de focalisation ; si sa focalisation théorique est déterminée par des relations relativement simples, il peut s'avérer que l'inhomogénéité et la géométrie des régions sondées, modifient cette valeur.
+*Ce premier prototype ne contiendra pas le transducteur dans une boite avec liquide d’adaptation d’impédance, mais pourrait être en contact direct avec le patient (hors gel de couplage).
+
+==Mécanisme de rotation==
+
+Le transducteur étant directement au contact, il sera donc fixé sur une cloche à ras. Pour la maniabilité, la cloche doit être légère donc en aluminium ou en plastique. Il faudra définir si on tourne à 30 tours par seconde ou moins dans un premier temps. 
+
+La position de transducteur sera donné grâce à un émetteur (en rotation) et un récepteur (fixe) optique. Le mécanisme devra incorporer un système permettant de délivrer de l’électricité à des pièces en rotation.
+
+==Sonde==
+''Independance en énergie nécessaire ?
+
+Connectique non imposée: besoin d’une connectique USB/bluetooth/wifi/analog?
+
+Est que que ce produit doit tourner sur un smartphone ou un PC est acceptable?''

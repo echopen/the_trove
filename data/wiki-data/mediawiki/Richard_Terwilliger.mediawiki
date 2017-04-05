@@ -1,0 +1,23 @@
+# Richard Terwilliger
+
+
+= Inventeur =
+Jr.
+= Brevets =
+* [[Patent US4149419]]: '''Ultrasonic transducer probe''' (''Apr 17, 1979'').
+* [[Patent US4402223]]: '''Ultrasonic sector scanner utilizing rotating transducer''' (''Sep 6, 1983'').
+* [[Patent US4453409]]: '''Ultrasonic sector scanner utilizing rotating transducer''' (''Jun 12, 1984'').
+* [[Patent US4951677]]: '''Acoustic imaging catheter and the like''' (''Aug 28, 1990'').
+* [[Patent US5372138]]: '''Acousting imaging catheters and the like''' (''Dec 13, 1994'').
+
+= CoInventeurs =
+* [[Axel F. Brisken]]
+* [[John E. Abele]]
+* [[John M. Santacroce]]
+* [[Lucien A. Couvillon]]
+* [[Prutech Research And Development Partnership Ii]]
+* [[Raymond S. Connell]]
+* [[Robert J. Crowley]]
+* [[Ronald C. Carnes]]
+* [[Ted F. Naumann]]
+[[Category:Inventors]][[Category:CoolHand]]

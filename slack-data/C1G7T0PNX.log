@@ -1,0 +1,952 @@
+1465805748.000002> @U04DFTZ7D: <@U04DFTZ7D> has joined the channel
+1465805762.000003> @U0B47KC3S: <@U0B47KC3S> has joined the channel
+1465805762.000004> @U1G9AEN7L: <@U1G9AEN7L> has joined the channel
+1465806657.000005> @U1G9AEN7L: la carte utilisé c'est une Arduino ?
+1465806713.000006> @U04DFTZ7D: Non, une Red Pitaya pour le moment
+1465806760.000007> @U07UEJC2H: <@U07UEJC2H> has joined the channel
+1466416432.000002> @U1JCFS7N3: <@U1JCFS7N3> has joined the channel
+1467731264.000002> @U0AAL4W13: <@U0AAL4W13> has joined the channel
+1467826298.000002> @U1PAGSKGU: <@U1PAGSKGU> has joined the channel
+1467826309.000003> @U0B47KC3S: <@U0B47KC3S> and commented: these are the key metrics for image denoising
+1467826767.000004> @U1P9ARRU3: <@U1P9ARRU3> has joined the channel
+1467883698.000005> @U0B47KC3S: hello à tous, voici le lien vers le dossier gDrive, où je vous propose d'ajouter les docs de revue de littérature
+1467883720.000007> @U0B47KC3S: <@U0B47KC3S>
+1467883820.000009> @U0B47KC3S: j'ai donc récupéré deux des articles dont nous discutions hier. Je reste à la recherche de celui-ci "Comparative evaluation of despeckle filtering in ultrasound imaging of the carotid artery, IEEE Trans. Ultrason. Feroelctr. Freq."
+1467883841.000010> @U0B47KC3S: le doc. "Quality evaluation...." semble détailler les métriques que nous cherchons
+1467902957.000011> @U1PKXQVDW: <@U1PKXQVDW> has joined the channel
+1467965116.000012> @U0B47KC3S: <@U1P9ARRU3>: je remarque ce jour que si tu télécharges l’app desktop de slack, tu peu gérer tous tes comptes slack dans la même interface :wink:
+1468395135.000002> @U0B47KC3S: hello à tous, <@U1PAGSKGU> je suis navré d’apprendre que tu t’es blessé. J’espère rien de trop grave.
+1468395196.000003> @U0B47KC3S: btw, <@U1P9ARRU3> as-tu pu avancer sur le script ?
+1468395708.000004> @U0B47KC3S: du coup, si ce n’est pas le cas, on peut soit remettre à la semaine pro ou alors <@U1PKXQVDW>  tu peux nous raconter ce que tu as fait en débruitage et ce dont on peut s'inspirer, si tu penses cela pertinent ;!
+1468395991.000006> @U1PAGSKGU: salut, pas grave, genou enfle. Ca demande quelque jour de repos.
+1468397417.000007> @U1P9ARRU3: cc !! j'ai avancer un peu mais jen'ai pas encore récupérer toutes les metrics attendu
+1468411919.000008> @U1P9ARRU3: Je penses que l'on devrait se voir la semaine pro
+1468422274.000002> @U0B47KC3S: et bien reposez-vous bien et on se dit à la semaine prochaine, <@U1PKXQVDW> j’imagine que toi aussi tu es Ok ?
+1468786487.000002> @U0B47KC3S: ca va vous intéresser ;)1 cours sur l’image processing , ca commence en septembre <https://www.coursera.org/learn/image-processing> (reactions: @U1P9ARRU3)
+1469035273.000002> @U1P9ARRU3: <http://xmcvs.free.fr/astroart/Chapitre4.pdf>
+1469191802.000002> @U0B47KC3S: hello à tous, je me suis mis en relation avec Loizou et Pattichis pour leur demander de partager ceci <http://www.morganclaypool.com/doi/abs/10.2200/S00116ED1V01Y200805ASE001>. Je vous tiens au courant, pour la suite
+1469212112.000002> @U0B47KC3S: set up a reminder “un message automatique pour nous rappeler la réunion du mercredi” in this channel at 12:18pm every Monday, Central European Summer Time. (reactions: @U04DFTZ7D)
+1469212145.000003> @U0B47KC3S: set up a reminder “un message automatique pour nous rappeler la réunion du mercredi” in this channel at 12:18pm every Monday, Central European Summer Time.
+1469212185.000004> @U0B47KC3S: set up a reminder “"un message automatique pour nous rappeler la réunion du mercredi" at 18:00h eve” in this channel at 9am every Monday, Central European Summer Time.
+1469212211.000005> @U0B47KC3S: set up a reminder “un message automatique pour nous rappeler la réunion du mercredi” in this channel at 6pm every Monday, Central European Summer Time.
+1469462400.000002> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1469613380.000002> @U0B47KC3S: hello à tous, je suis absolument confus mais contrairement à ce que je prévoyais, je ne peux être à Paris ce jour. Bien entendu, vous pouvez vous rencontrer ou alors nous décalons à la fin de semaine ou à mercredi en 8. Bien à vous, Mehdi
+1469620584.000002> @U1P9ARRU3: Ok, je crois qu'on se reverra mercredi alors
+1469620592.000003> @U1P9ARRU3: bonne journée
+1469627883.000004> @U0B47KC3S: parfait @mercredi alors !
+1470067200.000002> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1470242717.000003> @U0B47KC3S: <@U1PAGSKGU> : pour l'update du README du dossier `signal_processing`, voici la liste des packages installés -&gt; packages installés   libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev libv4l-dev  installation archi i386   opencv installé, version 3.0.0   scipy
+1470262209.000004> @U0B47KC3S: <@U1PAGSKGU>: ayé, g réussi à faire un sparse checkout, je vais updater la doc :wink:
+1470263646.000005> @U0B47KC3S: <@U1PAGSKGU>: si tu peux relire mon pull request et l’accepter le cas échéant, c top !
+1470672000.990188> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1470924651.000002> @U20C8CKTL: <@U20C8CKTL> has joined the channel
+1470924740.000003> @U0B47KC3S: hello à tous, un mot pour vous présenter Loic. Loic est développeur python et nous rejoint notamment autour de l’écriture de script de validation des soumissions + update du leaderboadr. Welcome :wink: !
+1470924808.000004> @U0B47KC3S: <@U20C8CKTL>: pour info, il n’ets pas impossible que je double parfois les infos sur une boucle mail car certains d’entre nous n’utilisent pas slack. Néanmoins c ici qu’on va basculer l’essentiel de la circulation de l’information (reactions: @U04DFTZ7D)
+1471021147.000002> @U0AAL4W13: pour ceux que ca pourrait amuser, petit dump de data brutes de 32M d'une loop echo sortie d'une sonde ATL3 <https://github.com/kelu124/echomods/blob/7550201f092bcc825ad175e80f880b3f18b0f153/toadkiller/data/sonde3Vnobitscpe.bin.bz2> - avec pour défi d'en sortir une image / loop ^^ (ok, j'avoue, ca fait beaucoup)
+1471097876.000002> @U0B47KC3S: ok on a pas encoire fini le set-up mais on regardera ça asap
+1471276800.000002> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1471465125.000002> @U0B47KC3S: hello <@U1PAGSKGU> <@U1P9ARRU3> <@U1PKXQVDW>, hackolite  vient de soumettre un pull request : c la routine qui permet de valider une soumission, de comparer input et output. La mécanique est en place, il ne reste plus qu’à ajouter les scripts de Soobash. <@U1PAGSKGU> on review le code qd tu veux
+1471466134.000003> @U20C8CKTL: hi
+1471466146.000004> @U20C8CKTL: francais
+1471466174.000005> @U20C8CKTL: j'ai une question, pour les tests de perfs vous avez des préférences pour un choix de vm android ?
+1471466196.000006> @U20C8CKTL: <@U0B47KC3S>
+1471505012.000002> @U0B47KC3S: <@U20C8CKTL>: je ne suis pas sûr de comprendre la question. A priori il s’agit de la VM dalvik pour android, on n’a pas vraiment le choix non ?
+1471506060.000003> @U0B47KC3S: btw si les algo agissent localement sur l’image, on peut envisager l’usage de GPU :wink:
+1471506558.000005> @U20C8CKTL: Jai vu sur le wiki qu il y avait une evalutiob des  perfs de lalgo en consommation memoire cpu etc. Pour etre dans les conditions de fonctionnement de lalgo je voulais savoir si vous aviez un systeme d emulation android phone.
+1471508255.000002> @U0B47KC3S: je pense que le plus simple est d’installer AndroidStudio et de lancer l’émulateur depuis là. Sinon, j’ai vu des tuto pour installer dalvik dans virtualbox sur linux ou sur Windows, tu peux checker ce post de SO : <http://stackoverflow.com/questions/7622157/android-is-it-possible-to-run-dalvik-vm-on-any-kind-of-oss-in-order-to-run-andr>
+1471513811.000002> @U20C8CKTL: Yes j invedtigue thanx
+1471515211.000002> @U20C8CKTL: Plus maintenu apparement
+1471515216.000003> @U20C8CKTL: Dalkit...
+1471515223.000004> @U20C8CKTL: Dalvik pardon
+1471525486.000002> @U0B47KC3S: en fait qd tu utilises android studio, tu crées des virtual machine, dont la legacy des versions antérieures. Du coup, dalvik est un peu partout, sinon Google a en effet remplacé dalvik par android runtime
+1471530831.000003> @U0B47KC3S: [Point Documentation] nous sommes en train de structurer l’ensemble de la documentation d’echOpen sous la forme de GitBook. Voici deux examples : le premier sur l’espace echOpen et le second sur l’app android (en cours d’écriture). L’avantage est que la doc devient éditable, collaborative et surtout plus aisée à structurer qu’un wiki. Je vais donc vous faire une proposition d’architecture qui sera notre base commune de collaboration
+1471530833.000004> @U0B47KC3S: <https://echopen.gitbooks.io/echtopian/content/>
+1471530840.000006> @U0B47KC3S: <https://echopen.gitbooks.io/android-app/content/>
+1471530919.000007> @U0B47KC3S: une précision : ces documents sont automatiquement synchronisé sur GitHub :wink:
+1471603228.000002> @U0B47KC3S: hello à tous, voici donc notre GitBook avec la doc updatée <https://benchoufi.gitbooks.io/image-processing/content/>
+1471603234.000003> @U0B47KC3S: <@U20C8CKTL> dans la section `How to contribute`, je te laisse compléter ce qui mérite de l’être
+1471603236.000004> @U0B47KC3S: <@U1PKXQVDW> peux-tu dans la partie KPIs faire une rapide synthèse du mini-cours que tu nous a fait la fois dernière :wink:
+1471603534.000005> @U0B47KC3S: [MAJ] conversion de l’url du gitbook -&gt; <https://echopen.gitbooks.io/image-processing/content/>
+1471608054.000007> @U20C8CKTL: oki !
+1471608182.000008> @U20C8CKTL: <@U0B47KC3S> par scan_converted tu entends le .csv ou .bitmap?
+1471608199.000009> @U20C8CKTL: .png ou watever
+1471608720.000010> @U0B47KC3S: le .csv en fait :wink:
+1471608834.000011> @U0AAL4W13: Avant la scan conversion aussi, histoire que l'algorithme de scan conversion ne joue pas?
+1471612494.000012> @U0B47KC3S: yo c ce que <@U1PAGSKGU> a prévu pour ses scripts-&gt;le fichier de base data/data_kydney.csv, non scan converté
+1471612553.000013> @U0AAL4W13: Top
+1471617180.000014> @U20C8CKTL: question : est ce qu'un system de ticketing ne pourrait pas etre intéressant ?
+1471617185.000015> @U20C8CKTL: comme track ?
+1471617229.000016> @U20C8CKTL: ou jira ?
+1471632363.000002> @U0B47KC3S: je crains que cela soit un peu oversize pour le moment mais tu penses à quel usage utile d’ores et déjà ?
+1471639607.000002> @U20C8CKTL: Alors par exemple dans github tu as les issues.  Mais ca fonctionne  pareil  pour les enhancements. Pour kitsoft quelqun voit un soucis ouvre un ticket et la personne qui veut s en charger prend le ticket. Il crée sa pull request et si c validé on clos le ticket.
+1471639705.000003> @U20C8CKTL: Pour les enhancements cest pareils. Ce qui est bien cest quon peut faire des tickets ouverts au public de facon a orienter les devs qui veulent aider le projet. Comme vous avez commencé a faire.
+1471639750.000004> @U20C8CKTL: Les devs ou electronicien ou autre pour la doc.
+1471654046.000002> @U0B47KC3S: ok je comprends. Du coup, une suggestion, exploiter à fond github. Ce qu’on pourrait faire c utiliser extensivement les labels (et aussi les milestones qui seraient intéressants d’implémenter dans notre cas). Car, non seulement on garde une homogénéité, on laisse des archives accessibles par les moteurs de recherches, on peut y cross-référencer des commits, mais surtout le point qui me paraît capitale c que les personnes qui “watch” le projet sont notifiées. De plus et de façon plus anecdotique, github est intégré à gmail désormais, si bien que si on a un label genre “task” ou “feature request”, ce qui ont un compte gmail reçoivent un joli email estampillé “task” ou “feature request”.   Qu’en penses-tu ?
+1471677367.000004> @U20C8CKTL: Yes ca peut etre une idee
+1471677440.000005> @U20C8CKTL: Cest un debut
+1471881600.000002> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1471892891.000002> @U0B47KC3S: <@U20C8CKTL> suis en train de tester le site que tu m’indiquais <http://zube.io>. Ca m’a l’air particulièrement adapté et la synchro label/milestones est bi-directionnelle. C exactement ce qu’il nous faut thks :grinning:
+1471934905.000002> @U0B47KC3S: <@U20C8CKTL> dans le même esprit et complétement intégré à github, <@U04DFTZ7D> m’a indiqué ceci <http://zenhub.io>. Tu connais ?
+1471951794.000002> @U20C8CKTL: <@U0B47KC3S>:  a non je ne connaissais pas. Le concept est le meme a premiere vu. Il y a waffle aussi. 
+1471956690.000002> @U0B47KC3S: oui en revanche il n’y pas de système de tickets mais tant qu’on n’est pas en prod, ca ne doit pas poser de problème ?
+1471958083.000003> @U20C8CKTL: Les tickets ca peut servir pour les enhancements. Car tu peux attribuer une amélioration a quelqu un ou mieux. Tu crees tout plein de tickets et si ils  ne sont pas dependants les un des autres les gens qui veulznt contribuer prennent ce quil veulent.
+1471958114.000004> @U20C8CKTL: Et si la merge request passe. Tu clos.
+1471964370.000002> @U0B47KC3S: ok, suis OK pour tester anyway. Donc soit tu penses qu’à ce stade on a besoin des features complètes de <http://zube.io>, alors on y va !  :wink:
+1471964475.000003> @U20C8CKTL: Oui je pense que c est une plus value. Je te tiens au courant de mob avancée.
+1471989159.000002> @U0B47KC3S: top
+1472023248.000002> @U0B47KC3S: ce qui suis est juste un test de l’app polly
+1472023273.000004> @U24BZF8UR: <@U24BZF8UR> has joined the channel
+1472023290.000007> @U24BZF8UR: <@U0B47KC3S> used `/poll`! Vote using the buttons below. View results <https://app.polly.ai/slackvote/tvexwFKLoT6m4zLPs>
+1472023294.000008> @U0B47KC3S: sympa :wink:
+1472024372.000014> @U0B47KC3S: c juste pour le fun
+1472027999.000021> @U20C8CKTL: slt, je suis en train de regarder zenhub et ça marche vraiment comme zube,  avec les issus tu peut faire comme tu veux
+1472028081.000022> @U20C8CKTL: attribuer a plusieurs personnes. c'est équivalent a zube j'ai l'impression
+1472029448.000023> @U0B47KC3S: dis-moi c toi qui nous dit :wink:
+1472031442.000024> @U20C8CKTL: il semble qu'il soit impossbile de modifier le contenue de la page
+1472031450.000025> @U20C8CKTL: gitbook echopen
+1472031466.000026> @U20C8CKTL: image processing /ow to contribute
+1472031538.000027> @U20C8CKTL: <https://echopen.gitbooks.io/image-processing/content/how_to_contribute.html>
+1472035950.000028> @U0B47KC3S: en effet, je viens de t’ajouter ainsi que toute la boucle parmi les auteurs du gitbook. Dis-moi si ça marche
+1472036487.000029> @U20C8CKTL: toujours rien
+1472036492.000030> @U20C8CKTL: j'ai read mais pa write
+1472036525.000031> @U0B47KC3S: tu as reçu un mail ?
+1472036568.000032> @U0B47KC3S: car je ne vois pas que tu as accepté l’invitation
+1472036610.000033> @U20C8CKTL: non, pas demail
+1472037250.000034> @U0B47KC3S: arg
+1472037252.000035> @U0B47KC3S: wait
+1472037540.000036> @U0B47KC3S: il est proposé d’entrer une adresse email sans + de précision. Je pense qu’il faut rentrer une adresse correspondant déjà à un username enregistré. Peux-tu t’enregistrer sur gitbook et me donner ton username plz
+1472038480.000037> @U20C8CKTL: ok
+1472038584.000038> @U20C8CKTL: normalement, c'est hackolite
+1472041576.000039> @U0B47KC3S: en pcpe c envoyé
+1472042968.000040> @U20C8CKTL: bon, je n'ai rien reçu.
+1472043144.000041> @U0B47KC3S: ah là je te vois comme ayant accepté, on est dac ?
+1472043163.000042> @U0B47KC3S: tu as les droits RW
+1472043371.000043> @U20C8CKTL: oui, c'est bon
+1472043379.000044> @U20C8CKTL: thx
+1472043472.000045> @U0B47KC3S: :+1:
+1472043489.000046> @U0B47KC3S: now tout le monde est invité
+1472120257.000047> @U0B47KC3S: #Implémentation du LeaderBoard <@U20C8CKTL> on se met donc sur zenhub ou zube (je ne sais plus que ce qui te convient le mieux;)) ? je commence à créer des tickets ?
+1472126200.000051> @U20C8CKTL: Va pour zenhub si olivier connais
+1472127996.000052> @U0B47KC3S: je viens de t’inviter à zenhub - et j’ai crée un milestone
+1472128316.000053> @U0B47KC3S: + une première todo
+1472128683.000054> @U0B47KC3S: g créé 4 sous-tâches -  c à titre indicatif, tu peux éditer si tu le juges nécessaire
+1472135816.000055> @U0B47KC3S: j’ajoute au canal <@U2404BG5N> qui est le master du serveur node installé à ce jour
+1472135827.000056> @U2404BG5N: <@U2404BG5N> has joined the channel
+1472457302.000002> @U0B47KC3S: création d’une bibliothèque familiale sur l’espace Google Books afin de partager l’ouvrage “Despeckle filtering for ultrasound imaging and video, Vol. I: Algorithms and software”. Testé avec Benjamin, vous tiens au courant du succès de l'opération
+1472486400.000003> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1473091200.000002> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1473234669.000003> @U0B47KC3S: reminder -&gt; on se retrouve à 18H30 ce soir !
+1473696000.000002> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1473888217.000003> @U20C8CKTL: Github a annoncé des mises a jour  importantes notamment au niveau du management des issus. 
+1473893075.000004> @U0B47KC3S: ah c bon ça, on est sur le qui-vive;)
+1473948351.000005> @U0B47KC3S: bonjour à tous, pour simplifier l’accès à une bibliothèque partagée d’ouvrages qui ne sont pas accessibles depuis mes accès universitaires, j’ai crée une adresse gmail commune : login : <mailto:echopenshare@gmail.com>` et clicquer sur `my library` et vous trouverez l’ouvrage `Despeckle Filtering for Ultrasound Imaging and Video: Algorithms ..., Volume 1: Algorithms and Software, Second Edition Christos P. Loizou, Constantinos S. Pattichis - Apr 1, 2015 - 180 pages `
+1473948354.000006> @U0B47KC3S: Bonne lecture !
+1474300800.000007> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1474305506.000008> @U20C8CKTL: #benchoufi PR envoyé. j'ai packagé le module imageprocessing.
+1474305528.000009> @U20C8CKTL: <@U0B47KC3S>
+1474305534.000010> @U20C8CKTL: oups
+1474305588.000011> @U20C8CKTL: Il reste pas mal de boulot mais la verson actuel est utilisable.
+1474306393.000012> @U20C8CKTL: pour l'évaluation des algos je suggère d'utiliser jenkins
+1474306444.000013> @U20C8CKTL: jenkins fera passer les tests (je vais en écrire quelques uns pour le principe), et des tests de perfs sur l'algo.
+1474306487.000014> @U20C8CKTL: je trouve l'algo de denoising par défaut très lent. :confused:
+1474371676.000015> @U0B47KC3S: hello <@U20C8CKTL> j’ai fait le merge à la main du PR
+1474371716.000016> @U20C8CKTL: oui, j'ai vérifié ça al'air de tourner. :smile:
+1474371803.000017> @U0B47KC3S: pour ce qui est de l’intégration continue, pour l’app android j’utilise travisCI. c plus simple à utiliser non ? si je ne m’abuse, jenkins exige d’installer sur 1 serveur dédié. Ceci étant, si tu connais ça bien, on peut l’installer sur notre dédié. Qu’en penses-tu ?
+1474371927.000018> @U20C8CKTL: je veux bien regarder travis, ça me permettra de découvrir
+1474372318.000019> @U20C8CKTL: il faut un server pour jenkins oui
+1474442068.000020> @U0B47KC3S: top, voici un peu de doc pour travis python : <https://docs.travis-ci.com/user/languages/python/>
+1474442147.000021> @U0B47KC3S: l’idée est simple. tu ajoutes un fichier caché `.travis.yml`, qui tient lieu de fichier de config et les test sont lancés automatiquement. Btw, ce qui est pratique avec ce fichier, c qu’il supporte l’execution de script sur la VM distante, ce qui donne une grande flexibilité !
+1474905600.000022> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1475485693.000023> @U0B47KC3S: hello à tous, on se retrouve donc mercredi prochain avec à la clé un debrief de la semaine au MIT qui était #toptoptop :wink:
+1475485731.000024> @U20C8CKTL: Slt. Mercredi qui vient ?
+1475485765.000025> @U20C8CKTL: Ou le 12 ?
+1475499770.000026> @U0B47KC3S: yes mercredi qui vient :wink:
+1475499804.000027> @U0B47KC3S: Soobash sera là à 18H00 et Benjamin un peu plus tard
+1475510400.000028> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1475654845.000029> @U0GMX7QUB: <@U0GMX7QUB> has joined the channel
+1476095877.000002> @U04DFTZ7D: <@U04DFTZ7D> has renamed the channel from "signal_processing" to "prj_medtec_sigproc"
+1476095919.000003> @U04DFTZ7D: <@U04DFTZ7D> set the channel purpose: De-noising and signal processing
+1476113506.000004> @U0B47KC3S: <@U20C8CKTL> : qd tu en sera au moment documentation, sache que nous la produisons en format GitBook, soit ici pour ce qui nous intéresse : <https://www.gitbook.com/book/echopen/image-processing/details>. Et, cf ici -&gt; <https://www.gitbook.com/@echopen> pour tous les gitbooks d'echOpen !
+1476113580.000006> @U20C8CKTL: Yes. Je regarde ca.
+1476113591.000007> @U20C8CKTL: Cette semaine
+1476113939.000008> @U0B47KC3S: top !
+1476115200.000009> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1476358275.000010> @U20C8CKTL: Salut, pour le leaderboard, quel est votre préférence : afficher les 100 meilleurs valeurs, les 200 ?
+1476361049.000011> @U04DFTZ7D: 100 c'est bien, non ? <@U0B47KC3S> ?
+1476365730.000012> @U20C8CKTL: on peut changer ça facilement, ce que je vais faire pour le moment c'est afficher le score du code soumis et les 100 premiers
+1476452918.000013> @U0B47KC3S: ok top pour les 100 premiers. Btw, on fera un peu de js pour faire un scroll dynamique
+1476453115.000014> @U20C8CKTL: Ok. Il y a un module pip que jutilise pour automatiser l installation de package tiers de pipy
+1476453245.000015> @U20C8CKTL: def install_packages():     pip.main(['install', 'aesop'])
+1476453328.000016> @U20C8CKTL: donc on peut envisager un IDE.
+1476456492.000017> @U2PFHNN3C: <@U2PFHNN3C> has joined the channel
+1476720000.000018> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1476951228.000019> @U0B47KC3S: hi all et je dirais même + hi <@U20C8CKTL>  : voici le lien qui t’emmènera vers le challenge kaggle que nous évoquions hier -&gt; <https://www.kaggle.com/c/ultrasound-nerve-segmentation> et vers la data de ce challenge <https://www.kaggle.com/c/ultrasound-nerve-segmentation/data>
+1477324800.000021> @USLACKBOT: Reminder: un message automatique pour nous rappeler la réunion du mercredi.
+1477425221.000022> @U0B47KC3S: set up a reminder “un memo pour la réunion du jeudi” in this channel at noon every Wednesday, Central European Summer Time.
+1477476000.000025> @USLACKBOT: Reminder: un memo pour la réunion du jeudi.
+1477663903.000026> @U20C8CKTL: salut, le code du leaderboard est sur mon repo github
+1477663908.000027> @U20C8CKTL: <https://github.com/hackolite/kit-soft/tree/master/leaderboard>
+1477663960.000029> @U20C8CKTL: Pour le moment je n'ai pas encore fait de pull-request le code étant encore en chantier
+1477664017.000030> @U20C8CKTL: le nouveau metrics.py ne fonctionne pas chez moi
+1477667096.000031> @U0B47KC3S: top <@U20C8CKTL>, btw qd on a du temps, c bien de pouvoir updater la doc sur le gitbook ! <https://echopen.gitbooks.io/image-processing/content/>
+1477667106.000032> @U0B47KC3S: j’envoie un mail dans ce sens à la team;à
+1477667108.000033> @U0B47KC3S: :wink:
+1477667572.000034> @U20C8CKTL: A oui ! Je vais mettre a jour. Noté.
+1477730797.000035> @U0B47KC3S: top !
+1478084400.000002> @USLACKBOT: Reminder: un memo pour la réunion du jeudi.
+1478104679.000003> @U04DFTZ7D: <!channel> interesting seminar tomorrow at IHP (2.00 pm room 314 with Stéphane Mallat &amp; Emilie Chouzenoux.) : Unsupervised Learning and Inverse Problems with Deep Neural Networks...  If anyone is available to go and send the others a note, that would be cool !!   <https://imaging-in-paris.github.io/next/>
+1478106220.000006> @U0B47KC3S: :+1: thanks Oliv too bad de ne pas être à Paris !
+1478109764.000008> @U0B47KC3S: Il y a plein de projets notamment 1 bioréacteur
+1478109833.000012> @U0B47KC3S: special dédicace <@U20C8CKTL> :wink:
+1478115003.000016> @U20C8CKTL: :smile:
+1478115011.000017> @U20C8CKTL: des colaborations en perspective !
+1478115096.000018> @U20C8CKTL: sinon voici le proto du leaderboard en ligne ! dites moi ce que vous en pensez, je l'ai fais un peu en mode microsocial pour permettre aux participant d'échanger plus facilement sur leur code. dites moi si je suis sur la bonne voie, si il manque des choses si il y en a trop, etc ...
+1478115129.000020> @U20C8CKTL: par ici la demo du leaderboard du challenge echopen :  <http://37.187.117.106/>
+1478115233.000021> @U20C8CKTL: le code a uploader est le suivant :
+1478115253.000022> @U20C8CKTL: <@U20C8CKTL>
+1478115411.000024> @U20C8CKTL: la partie IDE n'est pas encore fonctionnelle mais je bosse dessus, ce serait bien d'avoir une branch sur le repo echopen pour qu'on puisse bosser dessus enseemble.
+1478125328.000029> @U0B47KC3S: merci <@U20C8CKTL> ! y a-t-il un username et un password ?
+1478125389.000031> @U20C8CKTL: Inscrit toi
+1478125499.000032> @U20C8CKTL: Tu as un lien tout en bas. Sign up
+1478126054.000033> @U2PFHNN3C: Super job <@U20C8CKTL> :slightly_smiling_face:
+1478126172.000034> @U20C8CKTL: Merci <@U2PFHNN3C> !
+1478127883.000036> @U0B47KC3S: top job <@U20C8CKTL> !!
+1478128075.000037> @U20C8CKTL: <@U0B47KC3S>  super. Je vous tiens au courant pour la suite au plus vite.
+1478128140.000038> @U0B47KC3S: cc <@U04DFTZ7D> check
+1478366344.000039> @U0AAL4W13: Trouvé un truc fun: <https://github.com/sigurdstorve/OpenBCSim> pour émuler des images.. or so it seems. (reactions: @U0B47KC3S)
+1478543195.000041> @U0B47KC3S: <@U0B47KC3S> set the channel topic: dedicated to  signal processing, image denoising software tools
+1478622758.000042> @U0B47KC3S: <@U1PAGSKGU> je suis en train de cleaner le repo `kit-soft`. peux-tu pusher tes scripts ? @++
+1478624416.000043> @U20C8CKTL: Il faudrait fusionner Image Processing et EchoImageProcessing
+1478624527.000044> @U0B47KC3S: yes exactement ce que g en tête;)
+1478650894.000045> @U20C8CKTL: Plop ! Je viens de mettre en place les notifications pour les jobs soumis par les developpeurs avec des couleurs et un fik d actu des jobs soumis pour voir l activité zn temps réel. Vous pouvez  tester tout ça  par ici : <http://37.187.117.106/> (reactions: @U0B47KC3S)
+1478684139.000046> @U2PFHNN3C: <@U20C8CKTL> ya moyen de reset le password? oups...
+1478688040.000047> @U0B47KC3S: <@U20C8CKTL> peux-tu prévoir une PR -  je vais mettre notre dev UI sur le coup, de façon à intégrer notre charte de style
+1478689200.000048> @USLACKBOT: Reminder: un memo pour la réunion du jeudi.
+1478702112.000049> @U20C8CKTL: <@U0B47KC3S> Ok je tenvoie ca dans la soirée.
+1478702240.000051> @U20C8CKTL: <@U2PFHNN3C>  la base de donnée est reseté il faut que tu recrées un compte.
+1478702264.000052> @U2PFHNN3C: <@U20C8CKTL> thanks!
+1478713690.000053> @U20C8CKTL: <@U0B47KC3S>  Pull request  envoyé.
+1478717552.000054> @U0B47KC3S: @loic relecture effectuée, et PR accepté ! thkx
+1478783420.000055> @U20C8CKTL: <@U1PKXQVDW>  <@U0B47KC3S>  j'ai une question :smile:. La métrique spécifique à l'échographie donnera un meilleur score pour une méthode de dénoise spécifique aux images échographiques par rapport  à un dénoise  par patch ?
+1478783479.000056> @U20C8CKTL: je regarde le dénoise par patch et je n'ai pas du tout l'impressio que ça correspond aux images échographiques.
+1478803879.000057> @U0B47KC3S: <@U1PKXQVDW> les appareils sont au nombre de 5 -&gt;  Cardio-Thoracique, Abdomino-Pelvien, Gynéco-Obsétrique, Ostéo-articulaire, Vasculaire (ex. de la carotide)
+1478804029.000058> @U2PFHNN3C: <@U20C8CKTL> ramp.studio
+1478804108.000059> @U2PFHNN3C: <@U20C8CKTL> <http://www.ramp.studio/>
+1478804425.000060> @U2PFHNN3C: <@U20C8CKTL> libs: tensorflow + keras
+1478805426.000061> @U2PFHNN3C: <@U1PKXQVDW> <https://github.com/echopen/kit-soft/tree/master/EchoImageProcessing>
+1478805461.000063> @U20C8CKTL: <https://github.com/echopen/kit-soft/tree/master/echopen-leaderboard/bootcamp/leaderboard>
+1478807013.000065> @U0B47KC3S: top merci <@U20C8CKTL>
+1478807023.000066> @U0B47KC3S: btw, voici le CR de la réu <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#heading=h.xsjhfeqw1gz9>
+1478807024.000067> @U0B47KC3S: <@U0B47KC3S>
+1478807108.000068> @U0B47KC3S: questions pour la prochaine fois, pensons-nous qu’il faille sur github un repo dédi au sigproc ?
+1478809788.000069> @U20C8CKTL: Je pense que si le code a coté bouge beaucoup oui ça sera plus simple a merger.
+1478809814.000070> @U20C8CKTL: Plus simple pour la relecture.
+1478816962.000071> @U0B47KC3S: en effet
+1478888440.000072> @U0B47KC3S: <@U20C8CKTL> <@U1PKXQVDW> <@U2PFHNN3C> <@U1PAGSKGU>  since we begin to receive contributions from outdoor France, so I try to switch in english !
+1478888448.000073> @U0B47KC3S: Btw, here's some news of the day.
+1478888452.000074> @U0B47KC3S: we  received today 2 more requests to participate in echOpen
+1478888457.000075> @U0B47KC3S: -&gt; 1 Togolese dev, python dev, that I will therefore plugge into our team
+1478888462.000076> @U0B47KC3S: -&gt; 1 dev from Turkey, PhD student on ultra-sound and mobile devices;)  he has just developed the android drivers for the data transfer via usb !!
+1478888561.000077> @U0B47KC3S: + 1 a core developer of ruby language is currently spending some time @ echopen/hôtel dieu. He loves the project and ready to contribute in hackathon format &amp; nicolas
+1478948439.000078> @U0B47KC3S: <@U20C8CKTL> I'm back: I made an update on the Android app's gitbook. I updated the "Challenges" section. Last year, there was consensus to make visible a section "Challenges" in every GitBook. The idea is, alongside those who want to develop a full instance of echOpen, to engage contributors around what deserves to be done, but which is considered as  difficult. It is a rather stimulating approach, has the merit of being able to harmonize our format of contributions , without compromising the possibilities of free contributions which would not be within the scope of the challenges. So, it would be nice if we think about what we consider to be the "Image Processing" challenges. What do you think?
+1478979641.000079> @U32FZ0QLX: <@U32FZ0QLX> has joined the channel
+1479060146.000081> @U31UCUFPW: <@U31UCUFPW> has joined the channel
+1479060146.000082> @U3210MXC5: <@U3210MXC5> has joined the channel
+1479122457.000083> @U20C8CKTL: <@U0B47KC3S>  could you provide me on server for leaderboard testing ?
+1479122545.000084> @U20C8CKTL: I will separate webserver with image processing server to avoid interference between processes.
+1479123008.000085> @U0B47KC3S: sure, I send this !
+1479172072.000086> @U1NTT0ZPH: <@U1NTT0ZPH> has joined the channel
+1479172072.000087> @U1NM17NHF: <@U1NM17NHF> has joined the channel
+1479172072.000088> @U1NLWV4BZ: <@U1NLWV4BZ> has joined the channel
+1479226930.000089> @U0B47KC3S: as soon as Eklou kodjo, registers on slack, he will present himself. He is a python developer. <@U20C8CKTL> you have some friend !
+1479235711.000090> @U20C8CKTL: Nice <@U0B47KC3S> :dizzy_face: 
+1479285533.000091> @U32AR6TED: <@U32AR6TED> has joined the channel
+1479294000.000092> @USLACKBOT: Reminder: un memo pour la réunion du jeudi.
+1479302641.000093> @U20C8CKTL: hi everyboy, a new echopen-leaderboard is avalaible at <http://92.243.29.92:8000/>.
+1479302739.000094> @U20C8CKTL: i split webserver and image processing on two diffrente VM to reduce time processing variabilty.
+1479302880.000095> @U20C8CKTL: I use 'message passing'-rpc to connect 2 servers.
+1479302999.000097> @U20C8CKTL: code example :
+1479303065.000101> @U20C8CKTL: next two days i will provide you every implementation details on gitbook
+1479303099.000102> @U20C8CKTL: <@U20C8CKTL>
+1479304147.000103> @U0B47KC3S: great <@U20C8CKTL>, we re going to check
+1479305877.000104> @U0B47KC3S: /monkeytest <http://92.243.29.92:8000>
+1479305877.000105> @Hyacinthe: Got it! I'll let you know once I'm done testing :monkey_face:
+1479305890.000106> @Hyacinthe: All done :see_no_evil::hear_no_evil::speak_no_evil: Check your results here: <https://monkeytest.it/test/6b7afcf6-112b-4474-95b1-6730f4cfd3d7>
+1479305964.000107> @U0B47KC3S: <@U20C8CKTL> <@U2PFHNN3C> <@U1PKXQVDW> <@U1PAGSKGU>  the site passes well the MonkeyTest :zap::muscle:
+1479306738.000110> @U20C8CKTL: :D
+1479306791.000111> @U20C8CKTL: well done. I guess you can schedule tests
+1479308146.000112> @U32UWGGN9: <@U32UWGGN9> has joined the channel
+1479308206.000113> @U0B47KC3S: yes it is nice :wink:
+1479309133.000114> @U34231VFH: <@U34231VFH> has joined the channel
+1479369893.000115> @U32V2JWFJ: <@U32V2JWFJ> has joined the channel
+1479403849.000116> @U20C8CKTL: I will be connected by skype for our meeting
+1479403856.000117> @U20C8CKTL: If needed
+1479404197.000118> @U0B47KC3S: ok on air in 10mn !
+1479404663.000119> @U0B47KC3S: loic, can’t join you
+1479404696.000120> @U0B47KC3S: btw djalel is reaching us on skype in a few minutes
+1479404724.000122> @U20C8CKTL: Ok je mz connect
+1479406207.000124> @U2PFHNN3C: joblib
+1479406212.000125> @U2PFHNN3C: wrapper sur multiprocessing
+1479406234.000126> @U2PFHNN3C: en python
+1479408482.000127> @U0B47KC3S: <@U20C8CKTL>  tu es là ?
+1479408624.000128> @U0B47KC3S: #booboo on t’a perdu
+1479408988.000129> @U20C8CKTL: plus de batterie sur mon phone
+1479408999.000130> @U20C8CKTL: j'ai siwtché sur mon windoxs
+1479409079.000131> @U0B47KC3S: can’t reach you my dear fellow
+1479409124.000132> @U0B47KC3S: ok now I can see you;)
+1479409196.000133> @U20C8CKTL: :smile:
+1479409225.000134> @U20C8CKTL: it could be cool to hav some kind of word clood
+1479409365.000135> @U20C8CKTL: 'cloud'
+1479423507.000136> @U0B47KC3S: hi guys, anyone interested by the weekly signal processing session, here’s the review :wink: <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#>
+1479423508.000137> @U0B47KC3S: <@U0B47KC3S>
+1479474132.000138> @U20C8CKTL: the leaderboard IDE is online you can test it here :  <http://echopen.org:8000>
+1479474212.000139> @U20C8CKTL: a lot of stufs are missing but you can for instance compare  denoise with  opencv with skimage
+1479474238.000140> @U20C8CKTL: <@U20C8CKTL>
+1479474307.000141> @U20C8CKTL: <@U20C8CKTL>
+1479476382.000143> @U0B47KC3S: great job hackolite :zap::zap::zap: Could you .htacess protect the website untill we  make it public ?
+1479479178.000145> @U20C8CKTL: Oki
+1479504193.000146> @U34N7NQNR: <@U34N7NQNR> has joined the channel
+1479544639.000147> @U33817K25: <@U33817K25> has joined the channel
+1479750568.000148> @U20C8CKTL: Hey. Question : 
+1479750623.000149> @U20C8CKTL: Burgerquizz:could you tell me the minimal fps for an echographe ?
+1479750687.000150> @U0AAL4W13: Ballpark guess: 10 is low, 15 acceptable?
+1479821328.000151> @U0B47KC3S: <#C1G7T0PNX> : To inform you that the acquirium with a dived probe inside will be up and running at the beginning of next week [Can’ WAIT] !!:grinning:
+1479825506.000152> @U0B47KC3S: <@U20C8CKTL> as you suggested, there is now a dev branch on the kit-soft repo. You can know collaborate in proper conditions cc <@U34N7NQNR> (reactions: @U34N7NQNR)
+1479828309.000153> @U20C8CKTL: <@U34N7NQNR> a dev version is  available  on PR. try to install it and tell me if something goes wrong
+1479828535.000155> @U34N7NQNR: cool <@U20C8CKTL> , where can I find the PR repository. I'll intall it this nite
+1479841471.000156> @U0B47KC3S: <@U20C8CKTL> <@U34N7NQNR> PR merged !
+1479850721.000157> @U20C8CKTL: <@U34N7NQNR> yu can now use <https://github.com/echopen/kit-soft/tree/dev>
+1479850797.000159> @U20C8CKTL: echopen-leaderboard is the server side, DenoiseServer is the processing side
+1479898800.000160> @USLACKBOT: Reminder: un memo pour la réunion du jeudi.
+1479919829.000161> @U35LGETA4: <@U35LGETA4> has joined the channel
+1480020178.000162> @U0B47KC3S: hi there, the report of today's Signal Processing session is there
+1480020179.000163> @U0B47KC3S: <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#heading=h.9eq4h2sb5dhw>
+1480020179.000164> @U0B47KC3S: <@U0B47KC3S>
+1480020189.000165> @U0B47KC3S: for the hacker team <@U0AAL4W13> <@U0GMX7QUB> <@U20C8CKTL>
+1480020209.000166> @U0B47KC3S: we need to acquire in a week long session ultrasound data with moving target in the aquarium, the several positions should be as precise as possible. You in ?
+1480020331.000169> @U36QEPF51: <@U36QEPF51> has joined the channel
+1480021703.000170> @U37GZRZU6: <@U37GZRZU6> has joined the channel
+1480026957.000171> @U0AAL4W13: <@U0B47KC3S> can be there this Saturday afternoon, why not? What specs for the signal being acquired ?
+1480027890.000172> @U0B47KC3S: cool :wink: won't be in Paris this week-end, and we want to acquire images, and there are no untypical constraints, at least from the image denoising point of view, on the specs. Besides, <@U07UEJC2H> is about to finish the redpitaya cleaning. <@U07UEJC2H> when do you think we will be able to put the probe in the acquarium ?
+1480063190.000173> @U0AAL4W13: So you just need the scan converted images?
+1480064413.000174> @U0B47KC3S: I am not sure I am very clear :wink: in fact we need a mini hardware system moving with precision a target inside the acquarium
+1480064543.000175> @U0AAL4W13: Ahh the stuff <@U0GMX7QUB> was proposing some time ago, moving a point in the shooting range with floppy servos! You'd be able to cover a 50x50mm area relatively precisely 
+1480064577.000176> @U0AAL4W13: What's the coverage you need in terms of area ? And accuracy for the position ?
+1480064759.000177> @U0B47KC3S: great if it ws already imagined !!! the critical idea is to get several **angles** of presentation of the target
+1480064833.000178> @U0AAL4W13: So not only a point
+1480064847.000179> @U0AAL4W13: Cause a 0d item has no angle 
+1480064868.000180> @U0AAL4W13: 3 parameters to be fed in the system: x,y,theta
+1480064894.000181> @U07UEJC2H: <@U0B47KC3S>, first tests will be made today :slightly_smiling_face:
+1480065610.000182> @U0B47KC3S: <@U07UEJC2H>
+1480065612.000183> @U0B47KC3S: great !!
+1480065637.000185> @U0B47KC3S: <@U0AAL4W13> : moving target should be a 3D object
+1480066980.000186> @U0AAL4W13: @Benchoufi in this case you could imagine a funny thing: you could do a 3D scan of your object, radon-transform the raw data, and get a volume ultrasound of your item ^^
+1480067787.000187> @U0B47KC3S: funny indeed :wink: but we get there a digital image of an object. But how to process ultrasound scanning, with the idea to train your ML stuff to understand the specific noise ?
+1480068396.000188> @U0AAL4W13: Hum
+1480068414.000189> @U0AAL4W13: First get "empty" images and you'll get some noise already 
+1480068470.000190> @U0AAL4W13: Then have an image a "dot" (thin wire) to see the focal characteristics (and resolution) of the setup
+1480068519.000191> @U0AAL4W13: Those two are relatively simple quick wins, with no need for a complex moving system (at first) and can provide feedback on the noise
+1480068583.000192> @U0AAL4W13: It depends what noise also you want to study: at the amplified signal stage, or at the image stage, or after scan conversion stage ? I assume the noise won't be exactly the same at each stage :)
+1480068872.000193> @U0AAL4W13: <@U2PFHNN3C> lemme know if I'm saying stupid stuff 
+1480068902.000194> @U0AAL4W13:  getting those quick wins may still provide some info on basic noise 
+1480074954.000195> @U2PFHNN3C: <@U0AAL4W13> that was also discussed yesterday (provided I got exactly what you mean)
+1480078720.000196> @U37GZRZU6: <@U2PFHNN3C> yes + <@U0AAL4W13> proposes to study the whole detection system on top of the noise that was discussed yesterday (e.g. spatial resolution)
+1480078729.000197> @U37GZRZU6: if I got it right :slightly_smiling_face:
+1480078787.000198> @U37GZRZU6: <@U2PFHNN3C> what’s still not clear to me is : can we really use those « empty » images to train a ML model
+1480078803.000200> @U0AAL4W13: Plus a focus on the specific noise characteristic from this setup - especially from empty images
+1480078846.000201> @U0AAL4W13: For example a black image (from a camera) won't be black, you'll still see some noise
+1480078853.000202> @U37GZRZU6: yep :slightly_smiling_face:
+1480078875.000203> @U0AAL4W13: Confusing for me is the moving target: I don't see how movement generates noise 
+1480078935.000204> @U37GZRZU6: the noise doesn’t come from the movement at all. The noise is the one from the acquisition system. But for the denoising model to be trained we need many different images actually
+1480078957.000205> @U37GZRZU6: one way to get that is to move the target
+1480079063.000207> @U0AAL4W13: Okay !
+1480080586.000208> @U0GMX7QUB: One (or more) goldfish with a GPS tracker collar ?
+1480081683.000209> @U0B47KC3S: <@U0GMX7QUB> :wink: funny. the pb is that the fixed focus distance interval can miss the moving fish, and moving too constantly is not the real exam conditions. unless we put a dead floating fish :wink:
+1480083546.000211> @U0GMX7QUB: Some possible solutions: - two cd-rom mechanisms - an XY plotter kit: <http://www.lextronic.fr/P35072-table-plotter-xy---v20.html> - recycle mechanisms of old printers - two stepping motors winding a wire tensioned by a spring like a "Y".  We can also save time in the realization by using mechanical elements like: <http://www.lextronic.fr/R3931-makerbeam--openbeam.html> (reactions: @U0AAL4W13,@U32FZ0QLX)
+1480091171.000213> @U2PFHNN3C: Guys, as a general remark, I think we should use python 3 rather than 2. By definition, it has a brighter future :slightly_smiling_face:
+1480091255.000214> @U2PFHNN3C: and if it’s really painful to some, at least, we ca write some code that is compatible with both versions
+1480091272.000215> @U2PFHNN3C: Simply _never_ using the print statement (i.e without parenthesis)
+1480091315.000216> @U2PFHNN3C: and, better, comply with these guidelines <http://python-future.org/compatible_idioms.html> (reactions: @U37GZRZU6)
+1480091326.000217> @U2PFHNN3C: (using the `six` library etc.)
+1480093160.000220> @U20C8CKTL: Good suggestion. The problem is about the availability of exotics library in python3
+1480093170.000221> @U20C8CKTL: future is a good practice for compatibility
+1480094028.000223> @U0B47KC3S: <@U04DFTZ7D> what do you think buying this plotter table ?
+1480178685.000224> @U20C8CKTL: Hi. Does the hardware  support queuing ?
+1480180247.000225> @U0B47KC3S: humm, <@U07UEJC2H> do you know that ?
+1480334447.000226> @U34231VFH: Hi ! About high precision positioning devices in water there is water tanks used for radiation therapy linear accelerators calibration and quality control ( <http://www.ptw.de/water_tanks.html> for example) with 0.1 mm accuracy, remote control and queuing softwares. But they are quite expensive (far from plotter table + aquarium). 
+1480335271.000227> @U0B47KC3S: <@U34231VFH> yes there is quite like a mystery on the cost :wink:
+1480336409.000228> @U34231VFH: As any medical device :disappointed: 
+1480337206.000229> @U07UEJC2H: <@U20C8CKTL>, the hardware support multiple connexion, but not queuing. But normally, the website that will interact with the kit support queuing
+1480338168.000230> @U20C8CKTL: <@U07UEJC2H> thanks, Could you link me the  server  source code  please. I dont want do useless job.:D
+1480338253.000231> @U20C8CKTL: We are just missing the ftp server ? And the software part will be ok.
+1480369428.000232> @U38HVMZ6K: <@U38HVMZ6K> has joined the channel
+1480419392.000233> @U07UEJC2H: <@U20C8CKTL>, I don't know where are the sources of the website, but <@U0B47KC3S> know it
+1480419500.000234> @U07UEJC2H: <@U07UEJC2H>
+1480419639.000235> @U07UEJC2H: <@U07UEJC2H>
+1480420033.000236> @U2PFHNN3C: Classe :sunglasses: <@U07UEJC2H>
+1480420192.000237> @U0B47KC3S: Bien trop bien <@U07UEJC2H> !!
+1480420305.000239> @U0B47KC3S: [:muscle::clap::zap:] <@U20C8CKTL> <@U2PFHNN3C> <@U1PKXQVDW> <@U1PAGSKGU> <@U34N7NQNR> <@U36QEPF51> <@U37GZRZU6> + nourredine_elouze we are going to begin have fun with the platform !! (reactions: @U37GZRZU6,@U34N7NQNR)
+1480492772.000241> @U20C8CKTL: Yeah !! Echopen ce soir ? <@U2PFHNN3C> <@U1PKXQVDW>  <@U1PAGSKGU>  <@U36QEPF51>  <@U37GZRZU6>  <@U0B47KC3S> <@U34N7NQNR>
+1480494712.000245> @U0B47KC3S: sure !! it is on Wednesday now. See you later !
+1480496011.000246> @U38JDLY2E: <@U38JDLY2E> has joined the channel
+1480503600.000247> @USLACKBOT: Reminder: un memo pour la réunion du jeudi.
+1480504411.000249> @U0B47KC3S: set up a reminder “:mega: a memo for our weekly meeting  on wednesday” in this channel at noon every Wednesday, Central European Time.
+1480504463.000251> @U0B47KC3S: set up a reminder “:mega: a memo for our weekly meeting  on wednesday” in this channel at 12:30pm every Wednesday, Central European Time.
+1480505400.000252> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday. (reactions: @U37GZRZU6,@U20C8CKTL)
+1480530474.000253> @U38TWKY9Y: <@U38TWKY9Y> has joined the channel
+1480530557.000254> @U38TWKY9Y: Bonjour à tous, <@U2PFHNN3C> m'a invité !
+1480536165.000255> @U04DFTZ7D: Welcome <@U38TWKY9Y> !! Nice to see you here ;)
+1480614534.000256> @U0B47KC3S: hi there, a quasi report of the session of the SigProc team : <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#heading=h.xsjhfeqw1gz9>
+1480614535.000257> @U0B47KC3S: <@U0B47KC3S>
+1480614571.000258> @U0B47KC3S: <@U2PFHNN3C> <@U38TWKY9Y> if you want to complete, you’re welcome because I reported until I left
+1480671290.000259> @U0KLG7CP8: <@U0KLG7CP8> has joined the channel
+1480950104.000002> @U0B47KC3S: [:mega:] at last, we bought an ultrasound phantom, after scrutinizing for more than a year on ebay an affordable one. For the record, it is dreadfully costy :wink: (reactions: @U04DFTZ7D,@U20C8CKTL,@U37GZRZU6)
+1480950137.000003> @U0B47KC3S: <@U0B47KC3S>
+1480950140.000004> @U0B47KC3S: Practical consequence, All the stuffs for the challenge are ready, it only remains to hang up the wagons :grinning:
+1481010492.000006> @U38HVMZ6K: :heart_eyes: great !!!
+1481080112.000007> @U3ARRLDQ8: <@U3ARRLDQ8> has joined the channel
+1481103116.000008> @U0B47KC3S: hey channel ! one word to say our weekly meeting will hold 30 minutes later than usual cc <@U20C8CKTL> <@U34N7NQNR> <@U2PFHNN3C> <@U37GZRZU6> <@U1PKXQVDW> <@U38TWKY9Y> <@U1PAGSKGU> (reactions: @U37GZRZU6,@U20C8CKTL)
+1481103398.000009> @U20C8CKTL: Ok. ill be there at 18h30
+1481104033.000011> @U0B47KC3S: <@U20C8CKTL>, you re welcome :wink: just to make sure I delivered a clear information, the meeting the meeting will begin 30mn later so at 19H00
+1481104137.000012> @U20C8CKTL: Ahah. Ok ! 
+1481108400.000013> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1481119102.000017> @U3BN2NTFU: <@U3BN2NTFU> has joined the channel
+1481133839.000018> @U1PKXQVDW: <@U1PKXQVDW> and commented: Article sur real time denoising
+1481135059.000019> @U0B47KC3S: <@U0B47KC3S>
+1481135337.000020> @U0B47KC3S: <@U0B47KC3S>
+1481135452.000021> @U0B47KC3S: <@U0B47KC3S> and commented: an other thesis
+1481138712.000022> @U0B47KC3S: web todos 4 <@U34N7NQNR> and <@U20C8CKTL> :
+1481138747.000025> @U0B47KC3S: * Investigation Connection * mongondb-django * Creation of the data model * Metric Resource host: cpu / memory * Deployment scripts and update * Secure executions: -scripts SHA-1 -analysis of the source -capcha Improved graphical interface -Display detailed info by run -Displays images by run -Displaying the code for each run * Automation control of ultrasound * Production process * Clean source code
+1481148146.000026> @U2PFHNN3C: <@U2PFHNN3C>
+1481149886.000027> @U0B47KC3S: interesting <@U2PFHNN3C>, unfortunately there is no reference when it is said “a speckle  noise… is added”,  however, this goes in the sense that it is quite common
+1481184276.000028> @U2PFHNN3C: <@U36QEPF51> as promised, here’s a great course on ConvNets, along with an introduction to NN in general <http://cs231n.github.io/>
+1481184289.000030> @U2PFHNN3C: please let me know if you want to discuss it at some point
+1481188741.000031> @U0B47KC3S: btw, here the report of yesterday’s session ! <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#>
+1481188742.000032> @U0B47KC3S: <@U0B47KC3S>
+1481192171.000033> @U2PFHNN3C: Merci <@U0B47KC3S> tu assures :slightly_smiling_face:
+1481212798.000034> @U36QEPF51: Thank's <@U2PFHNN3C>  i'll start reading it and i'll tell you when I finish it
+1481212810.000035> @U2PFHNN3C: awesome <@U36QEPF51>
+1481230988.000036> @U3CDR25JP: <@U3CDR25JP> has joined the channel
+1481282235.000037> @U0B47KC3S: <@U20C8CKTL> <@U34N7NQNR> <@U07UEJC2H> <@U04DFTZ7D> <@U0GMX7QUB> renaming of github’s repo are up and running. So we have, `PRJ-medtec_kit` for the all software kit related stuffs and `PRJ-medtec_sigproc` for the signal processing project !
+1481282834.000039> @U20C8CKTL: Ok. The dev branch is ok ?
+1481282884.000040> @U0B47KC3S: maintenant oui :wink:
+1481282929.000041> @U20C8CKTL: A oui. Javais peur que tu zappes. Super ca sera plus propre.
+1481283522.000042> @U0B47KC3S: Yes c up and running. And indeed I did not quite have that in mind. So we can take advantage of it to “ticket" our repo! :ok_hand:
+1481283884.000043> @U20C8CKTL: Est ce que tu peux creer un ticket et m attribuer ? On verra si je suis notifié
+1481285465.000046> @U0B47KC3S: I have just added you as a contributor
+1481285768.000047> @U0B47KC3S: I created a project and issue but I couldn’t attach the issue to the project. Maybe a matter of time ?
+1481301051.000048> @U3CV9P9NH: <@U3CV9P9NH> has joined the channel
+1481548291.000049> @U2PFHNN3C: I’m at HD, <@U3CV9P9NH> just in case you’re around :slightly_smiling_face:
+1481617800.000050> @U3D9HA0N4: <@U3D9HA0N4> has joined the channel
+1481643024.000051> @U0B47KC3S: when we’ll be ready to denoise image through neural networks, we could submit a PR on this repo :wink:
+1481643024.000052> @U0B47KC3S: <https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap?imm_mid=0ea317&amp;cmp=em-data-na-na-newsltr_20161102>
+1481657336.000054> @U37GZRZU6: <@U37GZRZU6> and commented: here's a comparative evaluation of despeckle filters applied to ultrasound imaging of carotid arteries. the evaluations include image quality (PSNR and so on...) but also percentages of correct classifications (symptomatic vs. asymptomatic) obtained with a kNN classifier and form experts :wink:
+1481713200.000056> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1481727574.000057> @U0B47KC3S: tonight we have two visiting physicists in our sigproc meeting ! <@U2MF267L2> <@U3D9HA0N4> (reactions: @U37GZRZU6)
+1481727606.000060> @U37GZRZU6: yeees physicists :hugging_face: (reactions: @U0AAL4W13)
+1481728765.000061> @U0AAL4W13: <@U2MF267L2> oO you were in microflu, you may have met Eloise C. (who left last year?)
+1481728771.000062> @U2MF267L2: <@U2MF267L2> has joined the channel
+1481743234.000063> @U37GZRZU6: a thesis about GPU ultrasound simulation :  <http://campar.in.tum.de/twiki/pub/Main/AthanasiosKaramalis/Thesis.pdf>
+1481749548.000064> @U2PFHNN3C: Awesome <@U37GZRZU6> Thankiess! (reactions: @U37GZRZU6)
+1481806614.000065> @U0AAL4W13: Hey sigproc guys, a quick thought. Cheap, chinese wireless probes exist. The images are streamed over wifi. I'm confident it's feasible to hack the communication protocol and have a server up and running on a computer to capture images from this type of probe, and acquiring those, to get a feel of real images. What do you think?
+1481806750.000066> @U38HVMZ6K: :+1::skin-tone-2: +1 for me depending on the price
+1481806774.000067> @U38HVMZ6K: and I'm ready to reverse engineer and hack the gadget for testing
+1481806839.000068> @U0AAL4W13: EBay is like 700$
+1481806855.000069> @U0AAL4W13: Could be cheaper when asking for a sample from alibaba directly 
+1481806880.000070> @U0AAL4W13: I'd be in to play with wireshark 
+1481806950.000071> @U38HVMZ6K: OK. I already have to invest in 2 devkits (CPU and ADC) so this would make the bill a bit high for this year end (with Christmas gifts)
+1481806962.000072> @U0AAL4W13: Haha
+1481806968.000073> @U0AAL4W13: What have you ordered ?
+1481807018.000074> @U38HVMZ6K: Board OMAP: <http://www.ti.com/tool/tmdslcdk138> 195$ Eval kit ADC: <http://www.ti.com/tool/ads6142evm> 299$
+1481808867.000075> @U0AAL4W13: Nice !
+1481825230.000076> @U3FE9KW4D: <@U3FE9KW4D> has joined the channel
+1481922517.000077> @U0B47KC3S: hey <#C2MAANG0P>, one word to let you know that the node app for controlling the ultrasound probe from remote, is all set up ! we can now feed you with echOpen data. We will deploy it in the next few days :wink: (reactions: @U37GZRZU6,@U38HVMZ6K,@U20C8CKTL)
+1481922549.000078> @U0B47KC3S: now going back to GPU stuffs #CapMed hackathon :wink:
+1481984340.000079> @U3GQS8JTZ: <@U3GQS8JTZ> has joined the channel
+1482055698.000080> @U0AAL4W13: Still about phantoms: mixing 3d printing and wax molding - <http://link.springer.com/article/10.1007%2Fs10439-016-1757-5>
+1482151886.000082> @U3GHS132Q: <@U3GHS132Q> has joined the channel
+1482169748.000083> @U0AAL4W13: Hey, got a question for you guys :) Say you have a ultrasound-like signal, centered around zero, but that you set all negative elements to zero. Would you find a way to rebuild the original signal?
+1482169887.000084> @U0AAL4W13: Knowing that you miss half the signal, maybe half the information, may be a challenge - still, using the signal "physical" origin could help. Or not.
+1482318000.000085> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1482329391.000086> @U3HH0CEAW: <@U3HH0CEAW> has joined the channel
+1482412423.000087> @U3J40RUDT: <@U3J40RUDT> has joined the channel
+1482416047.000088> @U2PTWF6SX: <@U2PTWF6SX> has joined the channel
+1482416047.000089> @U1N5Q9334: <@U1N5Q9334> has joined the channel
+1482416047.000090> @U07SS18MT: <@U07SS18MT> has joined the channel
+1482416047.000091> @U1DGN6S80: <@U1DGN6S80> has joined the channel
+1482416048.000092> @U33KM85FA: <@U33KM85FA> has joined the channel
+1482416048.000093> @U0LPTV0Q4: <@U0LPTV0Q4> has joined the channel
+1482416048.000094> @U33389FRA: <@U33389FRA> has joined the channel
+1482416048.000095> @U2NAWHM9N: <@U2NAWHM9N> has joined the channel
+1482416048.000096> @U0GN7EB32: <@U0GN7EB32> has joined the channel
+1482416049.000097> @U0HF2S3QX: <@U0HF2S3QX> has joined the channel
+1482416049.000098> @U0DRKLMS4: <@U0DRKLMS4> has joined the channel
+1482416049.000099> @U2Q4137LL: <@U2Q4137LL> has joined the channel
+1482416049.000100> @U3B1RKVSP: <@U3B1RKVSP> has joined the channel
+1482416049.000101> @U2V03QR8E: <@U2V03QR8E> has joined the channel
+1482416049.000102> @U2UU194RZ: <@U2UU194RZ> has joined the channel
+1482416049.000103> @U3BFTB7M4: <@U3BFTB7M4> has joined the channel
+1482416049.000104> @U3BAH0X62: <@U3BAH0X62> has joined the channel
+1482416049.000105> @U394HRZ1B: <@U394HRZ1B> has joined the channel
+1482416050.000106> @U336DPZV4: <@U336DPZV4> has joined the channel
+1482416050.000107> @U352MKG4V: <@U352MKG4V> has joined the channel
+1482416050.000108> @U2X419KJS: <@U2X419KJS> has joined the channel
+1482416050.000109> @U2YN8FREG: <@U2YN8FREG> has joined the channel
+1482416050.000110> @U2Y7FPEUB: <@U2Y7FPEUB> has joined the channel
+1482416050.000111> @U2XLJS5L0: <@U2XLJS5L0> has joined the channel
+1482416051.000112> @U0FN1B8KD: <@U0FN1B8KD> has joined the channel
+1482416051.000113> @U3FCS2UP3: <@U3FCS2UP3> has joined the channel
+1482416051.000114> @U0JFW4XTQ: <@U0JFW4XTQ> has joined the channel
+1482510672.000115> @U0B47KC3S: hi SigProc friends : here’s the bunch of data you required :open_file_folder: !
+1482510680.000116> @U0B47KC3S: you ‘ll find here <https://drive.google.com/drive/u/0/folders/0B0V8htWBLPWBQ1l5aHdjSkdtVms>  datasets related to Jérôme’s hand, a sponge and a gel inside its box which provides several interfaces
+1482510690.000118> @U0B47KC3S: You’ll find in the `readme` the main specs :balloon:
+1482510695.000119> @U0B47KC3S: Here are the pics of the object we passed through ultrasound :camera:
+1482510788.000120> @U0B47KC3S: <@U0B47KC3S>
+1482510828.000122> @U0B47KC3S: <@U0B47KC3S>
+1482510846.000123> @U0B47KC3S: <@U2PFHNN3C> <@U37GZRZU6> <@U1PKXQVDW> : hope you'll have fun !
+1482512116.000124> @U37GZRZU6: thanks <@U0B47KC3S> and <@U07UEJC2H> :slightly_smiling_face:
+1482616062.000125> @U2PFHNN3C: Thanks a lot folks!
+1482762222.000126> @U0B47KC3S: oups, j’avis oublié de shooter le CR de la séance du 20.12.16 :wink: <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit>
+1482762223.000127> @U0B47KC3S: <@U0B47KC3S>
+1482920310.000128> @U0B47KC3S: hi there, for people around in paris, the SigProc meeting is rescheduled for tomorrow 18H30, precise :wink:
+1482920539.000129> @U0AAL4W13: Will try to join by curiosity, though it's really early :) (reactions: @U37GZRZU6)
+1482947171.000132> @U0AAL4W13: I'm there, where are you guys?
+1482948060.000133> @U0AAL4W13:  Ooops shoot that was tomorrow, my bad ;)
+1482948208.000134> @U0AAL4W13: #boulay :squirrel:  (reactions: @U37GZRZU6)
+1483024378.000135> @U37GZRZU6: <@U0AAL4W13> are you coming today ? actually I think I'm the only one from sigproc who will be there, but if you're available I'd like to benefit from your expertise in ultrasound images / data acquisition, just let me know :blush:
+1483026303.000137> @U0AAL4W13: Sure  (reactions: @U37GZRZU6)
+1483026340.000138> @U0AAL4W13: <@U0B47KC3S>: you there as well? By the way, team has rebuilt some images from the data ?
+1483027038.000139> @U0B47KC3S: yes I’ll be there and I am going to check with <@U07UEJC2H> for the metadata
+1483027106.000140> @U0AAL4W13: Wîiiiiii 
+1483050348.000141> @U37GZRZU6: <@U37GZRZU6> made the assumption that it may come from some high-frequency noise... do you have any explanation ?
+1483082060.000142> @U0AAL4W13: (or an enveloppe detection with a small characteristic time maybe  (reactions: @U37GZRZU6)
+1483090170.000143> @U07UEJC2H: It's not noise, I think it's a trigger problem, we don't have exactly the same "0" on each line. It looks like there a shift of one point some times (RedPitaya issue)
+1483091074.000144> @U37GZRZU6: <@U07UEJC2H> there's something else that surprises me : on a given line there are some discontinuities from one pixel to its neighbour. This can't be explained by a trigger problem, right ?
+1483093845.000145> @U07UEJC2H: <@U37GZRZU6> Yes, it is the same issue but the shift is not of one point but many... It happen some times
+1483094301.000146> @U0AAL4W13: Strange.. If the trigger was in cause it would not alter the content of the line itself, rather have a general offset of the line.
+1483094350.000147> @U0AAL4W13: What was the sampling frequency? It'd be interesting to know the frequency of this "sponge-parasite"  :) 
+1483094443.000148> @U37GZRZU6: <@U07UEJC2H> (we're talking about horizontal lines, i.e. discontinuities at a fixed angle)
+1483099950.000149> @U07UEJC2H: We're talking about the same thing, if you look carefully you will see that the shift is on all contiguous lines. Does it happen often? Cause dynamically I didn't notice that
+1483102960.000150> @U07UEJC2H: * all along some continuous lines, not all lines...
+1483103114.000151> @U0AAL4W13: What was the sampling frequency ?
+1483104446.000152> @U07UEJC2H: 125/8 MHz
+1483105123.000153> @U37GZRZU6: <@U07UEJC2H> it happens in every image actually
+1483118012.000154> @U07UEJC2H: It might come from an error in my C script I've just found. I have to check
+1483125162.000155> @U0AAL4W13: <@U0AAL4W13>
+1483125918.000156> @U0AAL4W13: c'est moins prononcé sur d'autres lignes, mais on voit dans tous les cas des patates à haute fréquence (vers 4MHz+) alors qu'on a un passe bas normalement (via la détection d'enveloppe). Strange.
+1483126537.000157> @U0AAL4W13: <@U0AAL4W13>
+1483369474.000158> @U0AAL4W13: <@U37GZRZU6> - si ca te tente, j'ai rajouté une scan conversion moche ( <https://github.com/kelu124/PRJ-medtec_sigproc/blob/master/dataquarium/explore.ipynb> ) (reactions: @U37GZRZU6)
+1483369562.000160> @U0AAL4W13: I've tried as well to do some filtering in fourier, but I have sort of a bug (the three images, with different filtering, produce the same output). Anyhow, the basis is here to explore in jupyter the dataset produced by <@U07UEJC2H>
+1483370235.000161> @U0AAL4W13: Corrected. The notebook can serve as a basis for exploration, including FFT hacking.
+1483521541.000162> @U0B47KC3S: hi there, since there were some rescheduling on tuesday for our last session, let’s remind and confirm that the meeting will hold today at echOpen HD ! (reactions: @U37GZRZU6,@U0AAL4W13)
+1483527600.000163> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1483543252.000164> @U0AAL4W13: Still 18.30?
+1483543613.000165> @U37GZRZU6: <@U0AAL4W13> yes! :slightly_smiling_face: (reactions: @U0AAL4W13)
+1483571258.000166> @U0B47KC3S: hi there, here’s the report of today’s meeting : <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit>
+1483571258.000167> @U0B47KC3S: <@U0B47KC3S>
+1483571727.000182> @U2PFHNN3C: Merci beaucoup <@U0B47KC3S> !
+1483573601.000183> @U0AAL4W13: Done. A first draft of SigProc101 has been published. It also gives access to an artificial raw signal of a ultrasound phantom to play with in CSV, as well as a basic error function to assess the different signal-to-image transformation, at <https://github.com/kelu124/PRJ-medtec_sigproc/blob/master/SigProc_101/SigProc-101.ipynb> -- <@U37GZRZU6> , there's is something to play with in python at least. This would also enable the SigProc team to test different envelope detection algorithms. References to two papers have been added at the end of the notebook. (reactions: @U0B47KC3S,@U38HVMZ6K,@U37GZRZU6)
+1483573672.000185> @U37GZRZU6: thaaanks <@U0AAL4W13> and  <@U0B47KC3S> :smiley:
+1483600696.000187> @U38HVMZ6K: Great job <@U0AAL4W13>!
+1483606442.000195> @U3BAH0X62: thanks <@U0AAL4W13>, <@U0B47KC3S> !
+1483612560.000196> @U07UEJC2H: There is an echopen github for signal processing: <https://github.com/echopen/PRJ-medtec_sigproc> we must clean it a little but there is one
+1483612656.000198> @U0AAL4W13: Indeed, that's the one I forked, but I don't have the rights to accept pull requests :) if I have those, I could push on it 
+1483612670.000199> @U0AAL4W13: <@U0B47KC3S>  is it solvable ?
+1483612780.000200> @U0B47KC3S: sure :wink:
+1483612871.000201> @U0B47KC3S: you should receive an invitation soon
+1483612989.000202> @U0AAL4W13: Thx! 
+1483613013.000203> @U0AAL4W13: May I take this opportunity to ask for the meltec_kit one as well?
+1483613697.000204> @U0AAL4W13: <@U07UEJC2H> : done! Merged on the echOpen repo :)
+1483615377.000205> @U0B47KC3S: btw, a best practice is that the pull-requester should not merge his own PR :wink: (reactions: @U37GZRZU6)
+1483615496.000206> @U0AAL4W13: Apologies :) I saw a PR accepted by the its author today, thought that wasn't an issue :/
+1483615507.000207> @U0AAL4W13: Btw, who is the maintainer on this repo ?
+1483615866.000208> @U0B47KC3S: yep my response was not complete : in fact, as a rule of thumb, I remember we suggested each other some times ago that beyond 48H of no reviewing, this could happen. Anyway, in our meeting yesterday, <@U38HVMZ6K> raised some questions related to the “how to manage a github repo”. With no emergency, we should begin to write some notes on a kinda of MetaGitBook
+1483616258.000209> @U0AAL4W13: For the sake of memory (dunno where to post it on Slack), some first points were discussed earlier, at <https://github.com/echopen/echOpen_starterkit/issues/3> (reactions: @U38HVMZ6K,@U0B47KC3S)
+1483619648.000211> @U38HVMZ6K: Thanks <@U0AAL4W13> for pulling out this old conversation. I think it raises several questions I also asked myself and on which we should discuss and agree. If we can put in place a general strategy applied to all repos the same way it will be easier for everyone to contribute than having different policies on different repos.
+1483619870.000212> @U38HVMZ6K: The question is then how to organize the teams/repos... By experience, having a single maintainer per repo is often awkward an can lead to delay (holidays, business trips, temporary external load: job, family,...), overload for the maintainer and "democracy" issues where the maintainer is the only one deciding  to merge or not.
+1483620380.000213> @U38HVMZ6K: On the other hand, opening the repos to many/all contributors may also be problematic.
+1483620469.000214> @U38HVMZ6K: The approach we had on several projects I worked on was to work on a single repo with everyone working on his own branch (not a fork) with the golden rule that no one directly commit to the master branch. (reactions: @U0AAL4W13,@U37GZRZU6)
+1483620555.000215> @U38HVMZ6K: This way we could work in a similar fashion as with fork+pull requests but with the "emergency" possibility of being able to merge on the master branch in case of necessity.
+1483628186.000223> @U3ML4L01Z: <@U3ML4L01Z> has joined the channel
+1483654425.000224> @U3GHS132Q: Sorry for sneeking in this channel but how does the master branch move forward if no one commit on it and everyone work on his own branch ?
+1483654504.000225> @U37GZRZU6: <@U3GHS132Q> you can send some pull requests to merge your own branch on master then :slightly_smiling_face:
+1483654525.000226> @U3GHS132Q: Ah ok all is clear now, thank you
+1483654548.000227> @U3GHS132Q: I think it is a good idea !
+1483654747.000228> @U37GZRZU6: So do I by the way! thanks <@U38HVMZ6K> and <@U0AAL4W13>, it's an important matter :slightly_smiling_face:
+1483806994.000229> @U0AAL4W13: Some reading: (may be interesting to get a standard bibliography (bibtex ?) in the repo) both for signal and image processing. 
+1483806997.000230> @U0AAL4W13: SigProc: Frequency Domain Compressive Sampling for Ultrasound Imaging: <https://www.researchgate.net/publication/258382829_Frequency_Domain_Compressive_Sampling_for_Ultrasound_Imaging>
+1483807009.000232> @U0AAL4W13: Image processing: ML for fetal standard planes: <https://arxiv.org/abs/1612.05601>
+1483807022.000233> @U0AAL4W13: The later is really neat 
+1483828800.000234> @U38HVMZ6K:  I also thought about a general bibliography for the echOpen community and I would recommend Mendeley (<http://www.mendeley.com>) to keep this bibliography. It's not only a bibliography but a full-featured references/documents management. You can upload PDFs in your library and they will be accessible online from anywhere in "My Library". You can create groups or communities based on topics/project. With the desktop version all PDFs in your library are indexed to allow full-text search in them (very useful!). Authors, title,... are automatically resolved when you import the PDF. It can also easily export bibliographies from selected entries in your library in different formats (bibtex, word,...) This is a life-saver when you have 500+ entries in your library, select 20 of them for a publication, click generate bibliography and done, you have your bibtex :wink:  (reactions: @U37GZRZU6,@U0B47KC3S)
+1483828873.000235> @U38HVMZ6K: It's also helpful to manage personal annotations on PDFs you can put while you are reading the document.
+1483832564.000236> @U37GZRZU6: <@U38HVMZ6K>  Mendeley is pretty cool but when you exceed a certain amount of uploaded PDFs then you have to pay... I don't know what's the limit though, but we should be careful with that :wink:
+1483832804.000237> @U37GZRZU6: Anyway we can still use Mendeley to share some references. It's possible to use it without PDF sync. But then we lose some of the magic of this tool actually :thinking_face:
+1483837128.000238> @U0B47KC3S: <@U04DFTZ7D> what you think ? cc <@U2MF267L2> do you know that ?
+1483861791.000239> @U38HVMZ6K: <@U37GZRZU6> free plan gives 2GB of storage. For more pricing is here: <https://www.mendeley.com/upgrade/storage/>
+1483861817.000241> @U38HVMZ6K: 2GB of PDFs is already quite large...
+1483862008.000242> @U38HVMZ6K: My bad... 2GB for personal library and 100MB for shared... That's a limit indeed.
+1483862142.000243> @U38HVMZ6K: We may apply for an "Institutional Edition" <https://www.elsevier.com/solutions/mendeley/Mendeley-Institutional-Edition>
+1483862196.000245> @U38HVMZ6K: It seems to be eligible for Society/Association... With 5GB of personal library and 20GB for shared... (reactions: @U37GZRZU6)
+1483877989.000246> @U37GZRZU6: <@U38HVMZ6K> this rocks! have you an idea if that's free or not ?!
+1483878602.000247> @U38HVMZ6K: No idea if this is free or if discount price is available for non-profit open source... We should ask
+1483878658.000248> @U37GZRZU6: <@U0B47KC3S> <@U04DFTZ7D> what do you think? :hugging_face:
+1483880293.000249> @U0AAL4W13: Fi I've also been using zotero, quite nice for collaborating.. In terms of functionalities seems similar to this one :)
+1483880874.000250> @U37GZRZU6: <@U0AAL4W13> didn't know about zotero, but I really like the way it allows to organize documents into collections :slightly_smiling_face: seems really useful !
+1483882135.000251> @U0AAL4W13: Yup, you can also tag them, annote them,..  It's also collaborative, so quite good. 
+1483885071.000252> @U38HVMZ6K: <@U0AAL4W13> seems quite cool as well. Can you do a full-text search in your whole library with zotero? Never used it and I found this to be very useful in Mendeley
+1483886008.000253> @U0B47KC3S: <@U37GZRZU6> seems nice ! but I think <@U04DFTZ7D>’s point of view can be interesting :wink:
+1483886674.000255> @U0AAL4W13: <@U38HVMZ6K>  : yup, you can. (reactions: @U37GZRZU6)
+1483886740.000256> @U37GZRZU6: <@U0AAL4W13> is it completely free without limitations ? :heart_eyes:
+1483888982.000257> @U0AAL4W13: there are plans in terms of storage
+1483957002.000258> @U2PFHNN3C: I’m trying to use Zotero but not quite satisfied AFAIK :slightly_smiling_face: so for now, I’m just using Bibdesk...
+1483957048.000259> @U2PFHNN3C: coupled with Sublime Text and its latex plugin, it’s super easy to add references after a .bib lookup
+1483957160.000260> @U2PFHNN3C: but lacks annotation, collaboration etc
+1483957322.000261> @U04DFTZ7D: De mon côté, j'utilise <https://www.refme.com/> Que je trouve génial pour la bibliographie :wink:
+1483957410.000263> @U38HVMZ6K: and I used JabRef (<http://www.jabref.org/>) in the past... seems to have evolved a lot since the last time I used it :slightly_smiling_face:
+1483957487.000265> @U38HVMZ6K: I think we have plenty of tools and ideas to do this. We should then align on a common tool. All of them are good for personal/standalone use I think. The difference will be in the sharing/aggregating options and storage.
+1483957506.000266> @U38HVMZ6K: we should collect info on all of them and decide after I would say
+1483958339.000267> @U0B47KC3S: <@U04DFTZ7D> indeed `refme` is amazing and simple
+1483958349.000268> @U2PFHNN3C: I’m gonna give RefMe a try! Thanks <@U04DFTZ7D>
+1483958368.000270> @U2PFHNN3C: (or we can code one from scratch…)
+1483958414.000271> @U38HVMZ6K: &gt;(or we can code one from scratch…) this is the last option I go for :joy:
+1483958483.000272> @U38HVMZ6K: this often an issue in professional life... "let's code a bugtracker/documentation system/reference manager/editor/simulator/..." where thousands of good free tools exist
+1483958515.000273> @U38HVMZ6K: at the end of the day you spend more time on the homegrown tools than on your effective project :slightly_smiling_face:
+1483958677.000274> @U2PFHNN3C: <@U38HVMZ6K> I totally agree in fact :)) (it was even half-provocative). That said, in the present case, there is no “thousands of good free tools”, as for myself, I’m still looking for the right bib management tool
+1483959192.000275> @U3NT8G2BC: <@U3NT8G2BC> has joined the channel
+1483959496.000276> @U2PFHNN3C: “Highlighter is unavailable for PDF” in RefMe :disappointed: that’s was I was looking for
+1484090287.000277> @U0AAL4W13: SigProbeBiblio.append ( UsimagTool: An Open source Freeware Software for Ultrasound Imaging and Elastography  @ <http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.98.4549> ) (reactions: @U0B47KC3S,@U38HVMZ6K)
+1484093771.000279> @U0B47KC3S: nice tool indeed :wink: did you install it ?
+1484132400.000280> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1484176713.000281> @U3PLYAJPJ: <@U3PLYAJPJ> has joined the channel
+1484209189.000282> @U0B47KC3S: here’s the report of 11.01.17 meeting + the report of 14.12.16 by <@U1PKXQVDW> <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#heading=h.xsjhfeqw1gz9> <@U2PFHNN3C> if you want to complete, go !
+1484209189.000283> @U0B47KC3S: <@U0B47KC3S>
+1484209227.000301> @U2PFHNN3C: I was thinking about that this morning :) thanks!
+1484210337.000302> @U37GZRZU6: thanks !
+1484210496.000303> @U2PFHNN3C: Btw guys (<@U0B47KC3S> and <@U20C8CKTL>), putting jupyter notebooks on the challenge platform is nice (awesome even IMO) but will it serve to generate a new submission?
+1484210982.000304> @U0B47KC3S: <@U2PFHNN3C> you mean how to submit ? I think <@U37GZRZU6> wants to complete the doc of the challenge, <@U37GZRZU6> am I right ?
+1484211055.000305> @U37GZRZU6: yes I will probably do that today in the lunchtime, but not sure if <@U2PFHNN3C>  is talking about this notebook :thinking_face:
+1484211488.000307> @U2PFHNN3C: the thing is, if you want to use the notebooks as a way to make a submission to the server, you’ll need to parse it and execute with `nbconvert`
+1484211633.000308> @U0B47KC3S: ah ok got it :wink:
+1484211635.000309> @U37GZRZU6: for submission we could imagine submitting only the processed image, or the processing function, what would be the best practice ?
+1484211664.000310> @U37GZRZU6: not sure if submitting a whole notebook is worth it
+1484211915.000311> @U37GZRZU6: <@U2PFHNN3C> I'm thinking about the RAMPS where we had some ready-to-use notebooks which were really useful for explaining the challenge, but then we only submitted a .py implementing the classifier function, right ?
+1484211917.000312> @U0B47KC3S: yes I agree, perhaps it is the simplest
+1484216671.000313> @U2PFHNN3C: yep, the notebooks serve as a starting-kit, with some basic code and the explanation of the problem and the metric. Now whether submitting the code or the image is subject to a couple of questions:  - do you want the participants to see (and potentially reuse) others’ submission? if yes, you’ll need to send the code - what’s the size of the predictions made by the algorithm? if it’s a binary classification it’s just a boolean, so it’s lightweight, but if it’s about denoising, then the whole image needs to be sent. In this case, you’d better send the python algorithm instead. (reactions: @U37GZRZU6,@U0AAL4W13)
+1484216689.000314> @U2PFHNN3C: both approaches have their use cases as well as their pros and cons
+1484217110.000315> @U37GZRZU6: ok so I think we have the answer : the best approach here is to submit the code implementing the envelope detection function, in the form of a .py script, as it might be interesting for people to see other challengers' ideas. I'll work on that by the end of the week.  :slightly_smiling_face: (reactions: @U2PFHNN3C,@U0B47KC3S,@U0AAL4W13)
+1484261086.000319> @U0AAL4W13: <@U37GZRZU6> count on me to finish the signal processing (not image though, I leave this to you guys ^^) (reactions: @U37GZRZU6)
+1484389846.000320> @U0AAL4W13: A sweet repo for ultrasound : <https://kitwaremedical.github.io/SlicerITKUltrasoundDoc/Modules/ScanConversion/index.html>
+1484389881.000321> @U0AAL4W13: "A 3D Slicer [Fedorov2012] extension for ultrasound image formation, processing, and analysis. Interfaces are built off the ITKUltrasound library [McCormick2014]. The modules available in this extension are useful for both 2D and 3D image generation for traditional B-mode imaging [McCormick2010], but also next-generation ultrasound image modalities like ultrasound spectroscopy [Aylward2016], acoustic radiation force imaging (ARFI) [Palmeri2016], acoustic radiation force shear wave imaging (ARFI-SWEI), and others."
+1484664310.000324> @U3T7KBEMV: <@U3T7KBEMV> has joined the channel
+1484737200.000325> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1484835251.000334> @U20C8CKTL: Hi, does the notebook have to be used as a documentation page or for submission plateform ?
+1484835378.000335> @U37GZRZU6: <@U20C8CKTL> the notebook is a doc / starting kit but is not supposed to be submitted
+1484835397.000336> @U20C8CKTL: Aaaaaah ok.
+1484835461.000337> @U37GZRZU6: the submit_function.py is an example of what should be submitted to the leaderboard
+1484835934.000338> @U20C8CKTL: Right. I just need to investigate further because the leaderboard is under bootstrap and the notebook have  to fit  with bootstrap
+1484837789.000339> @U0AAL4W13: We could do everything in python
+1484837801.000340> @U0AAL4W13: The notebook is only here for understanding 
+1484838316.000341> @U20C8CKTL: Ok. I will probably need help to add some new features on the leaderboard to do something cooler 
+1484838354.000342> @U20C8CKTL: Its a mix of django, bootsrap(javascript), html.
+1484853471.000343> @U3TUWV3SQ: <@U3TUWV3SQ> has joined the channel
+1484861969.000344> @U3PLYAJPJ: Hi everybody I browsed the history of this channel a bit.  Is there any specific task needs to be done now? I try to participate in the next week meeting.
+1484862906.000345> @U0B47KC3S: <@U20C8CKTL> <@U37GZRZU6> <@U0AAL4W13>, do you have some fancy tasks to boot it up :wink: or perhaps <@U3PLYAJPJ>   you have in mind next saturday’s meeting on the android app ?
+1484863064.000346> @U0AAL4W13: what would be great for a "hands-on" approach is this enveloppe detection challenge
+1484863094.000347> @U0AAL4W13: We have reconstructed a raw signal file, would be interesting to know how you would approach the challenge of enveloppe detection :smiley:
+1484863137.000348> @U0AAL4W13: see <https://github.com/echopen/PRJ-medtec_sigproc/blob/master/SigProc_101/SigProc-101.ipynb> (reactions: @U37GZRZU6)
+1484863173.000350> @U3PLYAJPJ: Thanks, I start playing with it
+1484864063.000351> @U37GZRZU6: <@U3PLYAJPJ> don't hesitate to tell us if something's not clear enough in the explanations provided in the notebook :slightly_smiling_face:
+1484864159.000352> @U3PLYAJPJ: Thanks <@U37GZRZU6>, sure  I'll do. (reactions: @U0AAL4W13)
+1484941539.000353> @U0AAL4W13: <https://news.ycombinator.com/item?id=13446086> -- A software solution to ultrasound blood flow monitoring ^^ (direct link: <http://bigwww.epfl.ch/algorithms/blood-flow-monitoring/#outline> ) (reactions: @U37GZRZU6)
+1484942162.000355> @U38HVMZ6K: Great! And nice to see top-level scientists publishing source code together with their publication and adding a "disclaimer":  &gt; 'We are seeking to develop this solution further, as we feel it has potential for continuous monitoring applications. We would be happy to discuss potential applications and technology transfers with any interested institution or company.'
+1484942253.000356> @U38HVMZ6K: This lab is located at EPFL in Lausanne, I'll try to get in contact with them. (reactions: @U37GZRZU6,@U0B47KC3S)
+1484942280.000357> @U0AAL4W13: Sweet!
+1485019575.000358> @U0FN1B8KD: Phantom :
+1485020196.000359> @U0B47KC3S: <@U0FN1B8KD> love it :wink:
+1485342000.000360> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1485358251.000361> @U0B47KC3S: <@U3QGT3Q74> <@U1PKXQVDW> in the flow of our conversations, check this <http://www.sciencedirect.com/science/article/pii/S0923596514001854> it is about JPEG2000 compression optimizing with wavelets, the implementation is related to, among other, ultrasound images
+1485359667.000362> @U38HVMZ6K: Please keep in mind that this kind of operations are intensive in terms of computing resources and that hardware accelerators/decoders are often used to minimize CPU load of algorithms implemented in software.
+1485359790.000363> @U38HVMZ6K: Before going to JPEG2000 check that we have hardware support for it or we will waste a lot of processing time just for that. (reactions: @U0AAL4W13,@U37GZRZU6,@U37GZRZU6)
+1485359844.000364> @U38HVMZ6K: Or check that we have really optimized software implementations.
+1485360874.000365> @U0B47KC3S: <@U38HVMZ6K> :nerd_face: shared thoughts about benchmark explorations - btw, this article is mainly aimed at screening more in depth wavelets approaches #SigProc team, especially <@U1PKXQVDW>. So this is perfect example of how 11th february CapMeth can bring some concrete way to share infos between teams in a more accurate way (reactions: @U37GZRZU6,@U20C8CKTL)
+1485389330.000366> @U0B47KC3S: hi again, here is the report of tonight sig session :wink: <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#>
+1485389331.000367> @U0B47KC3S: <@U0B47KC3S>
+1485390706.000386> @U37GZRZU6: Thanks a lot <@U0B47KC3S> :slightly_smiling_face:  (reactions: @U0B47KC3S)
+1485434742.000405> @U2PFHNN3C: Awesome <@U0B47KC3S> !
+1485447390.000406> @U3WRNP30B: <@U3WRNP30B> has joined the channel
+1485773657.000470> @U3Y2FPGBV: <@U3Y2FPGBV> has joined the channel
+1485791341.000471> @U3XHSAQHE: <@U3XHSAQHE> has joined the channel
+1485946800.000472> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1485947384.000473> @U0AAL4W13: I have a diner at 8 but will try to stay till 7:30 :) (reactions: @U37GZRZU6)
+1485977260.000483> @U0B47KC3S: hi there here’s the report of the SigProc session !
+1485977260.000484> @U0B47KC3S: <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit#heading=h.s1gxxl6n2mxl>
+1486038852.000503> @U07UEJC2H: Hey, so yesterday I have solve the jitter problem (the shift of +- one pixel between contiguous line). This was due to non synchronise clock between RedPitaya and Arduino. Now the image are regular.
+1486039194.000504> @U07UEJC2H: <@U07UEJC2H> we have made some test to check if we have linearity between time and distance, hopefully it is true and we find a speed of sound in water about 1450 m.s^{-1}. We also tried to determined the "envelope" of the focal of the transducer, it seems that the amplitude is constance versus distance. But we need calibrated stuff to do proper measurement. If it is truly flat it might means that the transducer is not focalised...
+1486039299.000505> @U07UEJC2H: Not that in the file I put points for 2 cm because when the target move 1 cm, the acoustic echo have 2 cm more to do due to back and forth
+1486042926.000518> @U3QGT3Q74: <@U3QGT3Q74> has joined the channel
+1486067630.000529> @U37GZRZU6: Great Jerome thanks!! Is there a way we could get some images ? :grinning: 
+1486212608.000593> @U41049CQ2: <@U41049CQ2> has joined the channel
+1486237961.000603> @U0AAL4W13: btw, it that helps, some doc on sig/img processing : <http://www.ti.com/lit/wp/sprab12/sprab12.pdf> (reactions: @U37GZRZU6)
+1486479222.000658> @U42P4AT7Z: <@U42P4AT7Z> has joined the channel
+1486549328.000668> @U1PAGSKGU: <@U07UEJC2H>, <@U38TWKY9Y> and <@U1PAGSKGU> meeting today at 1430 for probe tests. (reactions: @U37GZRZU6,@U0B47KC3S)
+1486549379.000670> @U37GZRZU6: great!! :smiley:
+1486551600.000672> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1486570634.000673> @U0AAL4W13: excellent !
+1486570694.000674> @U37GZRZU6: luc: <http://giphy.com/gifs/the-simpsons-excellent-IeLOBZb7ZdQ1G> (reactions: @U0AAL4W13)
+1486574227.000678> @U3QGT3Q74: I'm in for the evening meeting (reactions: @U0B47KC3S)
+1486575787.000680> @U0AAL4W13: slacking from Algiers tonight :) (reactions: @U0B47KC3S,@U38HVMZ6K,@U37GZRZU6)
+1486588123.000684> @U2PFHNN3C: Cool <@U0AAL4W13> where are you exactly :slightly_smiling_face: ?
+1486588388.000685> @U0AAL4W13: Algiers centre, I was at the center for renewable energy today - superb view :) (reactions: @U2PFHNN3C)
+1486588417.000686> @U1PAGSKGU: soobash [11:22 AM]  <@U07UEJC2H>, <@U38TWKY9Y> and <@U1PAGSKGU> did test of rotating probe. Replaced faulty transducer with old one. Tested rotating probe on stationary target in water tank. System can do one image per second. System can show target image even without envelope detection. Bottle neck is digital envelope detection. Need to speed up the enveloppe detection code to reach 15 frame per second to have a real-time system. Discussed the signal processing chain and the need to have an onboard DSP.
+1486588502.000687> @U0AAL4W13: what is the bottleneck for framerate? enveloppe détection?
+1486588566.000688> @U0AAL4W13: it would be interesting to see analog enveloppe detection too - at least compared to dsp
+1486588662.000689> @U0AAL4W13: ie, if the aim is an image (no dialer, pure b-mode) - wouldn't it be possible to do with a cheaper adc + no dsp, vs having a dsp+rapid adc ?
+1486588668.000690> @U0AAL4W13: just challenging ;)
+1486591689.000692> @U1PAGSKGU: It would be interesting to compare the analog v/s digital envelope detection in view of the lightening of the load on the onboard system. Whether the reduction in flexibibility can be offset by the gain in slower (lower cost) ADC  and lower DSP requirement.
+1486645002.000693> @U0AAL4W13: it's easily done :)
+1486645051.000694> @U0AAL4W13: I have a all integrated board which includes input -&gt; tgc -&gt; envelope detection and a "slow adc"
+1486645062.000695> @U0AAL4W13: one can get all the intermediary signals
+1486645231.000696> @U0AAL4W13: see
+1486645233.000697> @U0AAL4W13: <https://kelu124.gitbooks.io/echomods/content/Chapter2/goblin.html>
+1486645598.000698> @U0AAL4W13: <https://raw.githubusercontent.com/kelu124/echomods/master/goblin/images/slide_principle.png>
+1486646859.000700> @U1PAGSKGU: Thanks. I would like to do a calculation of the size of  input/output signals and processing times using the two configurations discussed in the previous message. Back of the envelope calculations only (pun intended).
+1486650230.000701> @U07UEJC2H: <@U1PAGSKGU>, data of the image of screen with raw data and analogic envelope data can be found in <https://github.com/echopen/PRJ-medtec_sigproc>, dataquarium/screen Informations about number of points, lines... are written on the header of each file
+1486650338.000703> @U1PAGSKGU: <@U07UEJC2H>  Thanks
+1486654090.000704> @U0AAL4W13: <@U1PAGSKGU> two points you may be interested in: 1 is using a waveform generator to qualify the processed image: it's easier to quantify the image -- with a well known input form. 2 there's also a discussion about the sampling rate necessary on the adc end with or without the analog detection - we may need to understand what we need in terms of adc in both cases :)
+1486660664.000705> @U0AAL4W13: <@U0AAL4W13>
+1486676611.000706> @U1PAGSKGU: <@U0AAL4W13> Thanks
+1486711323.000707> @U20C8CKTL: hi everybody. the leaderboard is in beta test phase, could you try it please for last improvment before release. <http://37.187.117.106:8888/>
+1486711596.000709> @U20C8CKTL: here is the envelloppe extraction code to submit  : <https://github.com/echopen/PRJ-medtec_sigproc/blob/master/echopen-leaderboard/processor_node/uploaded_custom.py>
+1486711661.000712> @U20C8CKTL: you can submit something else to test, stress it following the model. (reactions: @U0AAL4W13)
+1486711787.000713> @U20C8CKTL: a  job can take sometime to be processed so be patient if you want your rank.
+1486712094.000714> @U37GZRZU6: Yeees thanks <@U20C8CKTL> :smiley: 
+1486712325.000715> @U20C8CKTL: :wink:
+1486716620.000716> @U0B47KC3S: hey, thanks so much <@U20C8CKTL>
+1486716773.000717> @U0B47KC3S: btw <@U42P4AT7Z> you sign in the site to get a taste of the upcoming css homogenisation work :wink:
+1486718524.000718> @U0B47KC3S: here’s the 08.02.17 last meeting report (reactions: @U37GZRZU6)
+1486718524.000719> @U0B47KC3S: <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo>
+1486725082.000724> @U20C8CKTL: maybe he can work on docker images and deployment too
+1486725138.000725> @U0B47KC3S: ok we ll have a meeting with us both cc <@U42P4AT7Z>
+1486725308.000726> @U20C8CKTL: ya. and i think on more server will be required
+1486725363.000727> @U20C8CKTL: for processing, because process images on the web server will be hazardous
+1486725737.000728> @U0B47KC3S: <@U20C8CKTL> we increased the size of the actual server. We have 15 more Go. Is it not enough ?
+1486726126.000729> @U20C8CKTL: The problem : we need to isolate image processing  from wordpress/django leaderboard . For safety and  Performance consistency. for Safety we can use docker, but for Performance consistency i don't have solution. (reactions: @U0AAL4W13,@U37GZRZU6)
+1486726261.000732> @U0B47KC3S: ah ok I understand the schema you have in mind
+1486727073.000734> @U20C8CKTL: what we can do is to use my 'kimsufi vm', but the load will be to heavy
+1486731124.000735> @U37GZRZU6: <@U20C8CKTL> I'm not sure if the submission is reaaaally long or if it doesn't work... But I uploaded a file 10 minutes ago and still no answer from the server :thinking_face:
+1486731147.000736> @U20C8CKTL: it's broken
+1486731150.000737> @U20C8CKTL: XD
+1486731159.000738> @U37GZRZU6: ah :sweat_smile:
+1486731164.000739> @U20C8CKTL: shame on you hacker (reactions: @U37GZRZU6)
+1486731165.000740> @U20C8CKTL: lol
+1486731204.000742> @U20C8CKTL: did you use the example code ?
+1486731226.000743> @U37GZRZU6: yes ^^
+1486731229.000744> @U20C8CKTL: or did you modify something. i even don't have ssh access
+1486731244.000745> @U37GZRZU6: no i just tried to upload_custom.py
+1486731262.000746> @U20C8CKTL: the response don't excess 30 seconds, most of the time
+1486731267.000747> @U20C8CKTL: ok
+1486731386.000749> @U37GZRZU6: haha I know what happened
+1486731411.000750> @U37GZRZU6: I submitted a former version of uploaded_custom.py
+1486731421.000751> @U20C8CKTL: with numpy ?
+1486731444.000752> @U20C8CKTL: could you send me the code ? (reactions: @U20C8CKTL)
+1486731497.000754> @U37GZRZU6: ```def install_packages():     import pip     pip.main(['install', 'aesop'])  def run():     print('toto')     import io     import os     import sys     import argparse     from skimage import io     from skimage import filter     from skimage import restoration     from skimage import measure      kidney_image = io.imread('manu.jpg')     # estimate the noise in the image     # do a test denosing using a total variation filter     kidney_image_denoised_tv = restoration.denoise_tv_chambolle( kidney_image, weight=0.1)     io.imsave('denoise_image.jpg', kidney_image_denoised_tv)```
+1486731581.000755> @U20C8CKTL: i don't see problem with that. :c, i think ythe problem come from  ovh
+1486731628.000756> @U37GZRZU6: maybe to the fact that the run() function takes no argument in this case?
+1486731726.000758> @U20C8CKTL: this is something with ovh,  hardware, infra ...  because i don't have ssh access, nor access to the website. I sent a ticket to ovh. (reactions: @U37GZRZU6)
+1487156400.000763> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1487156608.000764> @U1PAGSKGU: <@U07UEJC2H>, <@U38TWKY9Y> and <@U1PAGSKGU> to test imaging wit the probe today at Echopen from 1430. (reactions: @U0AAL4W13,@U37GZRZU6,@U0B47KC3S)
+1487156682.000767> @U37GZRZU6: thaaanks <@U07UEJC2H> <@U1PAGSKGU> <@U38TWKY9Y> you rock !! see you tonight !
+1487180336.000769> @U38HVMZ6K: A bit late...
+1487180357.000770> @U38HVMZ6K: We are joining with <@U3PLYAJPJ> in 5 minutes
+1487180430.000771> @U38HVMZ6K: Where are we joining online? Skype, jitsi?
+1487181220.000773> @U38HVMZ6K: est-ce que qqn prend des minutes ?
+1487181921.000774> @U2PFHNN3C: Hello! Any link?
+1487200247.000775> @U0B47KC3S: hi all <@U2PFHNN3C> <@U3GHS132Q> took the report, we are going to share it with you :wink: (reactions: @U2PFHNN3C,@U37GZRZU6)
+1487204098.000776> @U1PAGSKGU: <@U07UEJC2H>, <@U38TWKY9Y> and <@U1PAGSKGU> tested probe setup today for imaging. With analog front-end system able to do lagless imaging of moving screen. Tested sampling rate for detected envelope. Found envelope to be contaminated with high frequency carrier wave. Fine-tuned envelope detector to supprress carrier. This test continues this coming Monday to fine-tune and validate analog envelope detector. (reactions: @U0AAL4W13)
+1487326946.000782> @U2PFHNN3C: Hi All,
+1487327032.000784> @U2PFHNN3C: From last SigProc meeting report, "Tous les calculs (traitement du signal) doivent se faire sur le dispositif. Il faut réduire au possible l'exécution sur le téléphone." So is the strategy changed now? Previously we aimed at making the most of software so remote updates become easy.
+1487327189.000785> @U0AAL4W13: idea: can't you imagine the smartphone doing an upgrade Ota to the probe internal software?
+1487327218.000786> @U2PFHNN3C: ok
+1487327221.000787> @U2PFHNN3C: thanks <@U0AAL4W13>
+1487327285.000788> @U0AAL4W13: (not sure if that was discussed, just an idea like that)
+1487327308.000789> @U2PFHNN3C: ah I thought it was the plan :slightly_smiling_face:
+1487327318.000790> @U38HVMZ6K: processing separation (what's done on the embedded platform and what's done on the smartphone/app) has been a question I asked myself and the team at the very beginning
+1487327340.000791> @U38HVMZ6K: and the answer I got was that most of the processing would be done on the phone...
+1487327352.000792> @U38HVMZ6K: this is then also a question of capability...
+1487327367.000793> @U0AAL4W13: there are two types of processing -  signal and image
+1487327392.000794> @U0AAL4W13: plus a bottleneck to be considered : data speed between phone and probe ;)
+1487327424.000795> @U38HVMZ6K: if we go with a low-end CPU/DSP in the probe then we should defer most of the processing to the phone (taking into account point mentioned right above by <@U0AAL4W13> :slightly_smiling_face: )
+1487327488.000797> @U38HVMZ6K: if we have a powerful CPU on target we can perform most of the processing signal+image on the probe and only send a lightweight video stream for display to the smartphone
+1487327521.000798> @U38HVMZ6K: but this is not the direction taken up to now with the processing in the Android App...
+1487327551.000799> @U38HVMZ6K: &gt; doing an upgrade Ota to the probe internal software? keep in mind that we are on a medical device...
+1487327616.000800> @U38HVMZ6K: software updates OTA or by wire are not seen well by regulators (many device recalls have been induced by software updates not well managed)
+1487327666.000801> @U38HVMZ6K: depending on the changes you apply to the new software you want to download to the probe you may have to go through a lot of testing and potentially new certification! (reactions: @U37GZRZU6,@U0AAL4W13)
+1487327748.000803> @U38HVMZ6K: see <https://fcw.com/articles/2016/08/08/gunter-fda-software.aspx> for example
+1487327827.000806> @U38HVMZ6K: with the official guidance from FDA
+1487327830.000807> @U38HVMZ6K: <http://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/UCM514737.pdf>
+1487327962.000808> @U0AAL4W13: yeah having an update transforming a probe into a sonic screwdriver may not be great for patients ;)
+1487328058.000809> @U38HVMZ6K: sure... but the distinction between "small updates" with no impact and more intrusive updates (subject to approval) is not always easy to establish and justify
+1487328098.000810> @U38HVMZ6K: sometimes small changes have unexpected/unwanted side effects
+1487328126.000811> @U38HVMZ6K: I'm right in this process now on my project and this is a nightmare
+1487328175.000812> @U38HVMZ6K: as a connected device we should roll out frequent updates to keep the device safe
+1487328225.000813> @U38HVMZ6K: but on the other side, it's difficult to be sure that such "small changes" won't have impact on the rest of the system without going through intensive testing
+1487328265.000814> @U38HVMZ6K: timings and concurrency are always points to take into account
+1487328637.000815> @U2PFHNN3C: (BTW, it doesn’t have to be OTA, but just a soft(ware) update)
+1487328701.000816> @U38HVMZ6K: the same applies for OTA, USB, ... updates
+1487328703.000817> @U37GZRZU6: <@U2PFHNN3C> actually as regards the signal processing, we mainly talked about the envelope detection for which we have no choice : it has to be done in the probe, otherwise we won't be able to reach 15frames/sec because of the data transmission speed between the device and the phone. we discussed the idea of performing envelope detection on the phone and compressing the raw signal before sending it to the phone, but <@U3QGT3Q74> made us realize that medical norms may be quite strict as regards compression, so we should avoid compression (or any transformation of the signal that would lead to a deterioration / loss of information). Now, if you're thinking about denoising for example, where we would perform this operation is not clear right now :wink:  <@U38HVMZ6K> very interesting remarks, thanks! Those discussions are very constructive, I think we should find a way to keep a track of this somewhere else (because on slack it will end forgotten :disappointed: ) (reactions: @U0AAL4W13)
+1487328742.000818> @U37GZRZU6: Besides, this points the importance of keeping the medical certification in mind while discussing those kind of technical issues
+1487329045.000820> @U37GZRZU6: ping <@U04DFTZ7D> we should brainstorm about that tonight :wink:
+1487329614.000821> @U07UEJC2H: <@U37GZRZU6>, you have many possible stage of denoising: - an electronic analogical denoising  - a numerical denoising in probe (during 1D signal processing)
+1487329637.000822> @U07UEJC2H: - a numerical denoising in the phone (image processing)
+1487329697.000823> @U07UEJC2H: We have to work in all of them, all can be done for one image, they are not exclusive (reactions: @U37GZRZU6,@U0AAL4W13)
+1487329795.000824> @U2PFHNN3C: Interesting <@U07UEJC2H> ! Can we somehow decompose everything and look more closely on the individual contribution of each part?
+1487329924.000827> @U07UEJC2H: Sure <@U2PFHNN3C>, when you whant (reactions: @U2PFHNN3C)
+1487350351.000828> @U07UEJC2H: <@U1PAGSKGU>, <@U38TWKY9Y>, I don't think I will have time on Monday to play with the envelope detection, must prepare Wednesday meeting
+1487352102.000831> @U1PAGSKGU: <@U07UEJC2H> <@U38TWKY9Y> OK.
+1487355678.000833> @U3GHS132Q: About compression, during a class I met the founder of the CIRA society which develop (with LIP6, UPMC and others) the Waaves compression algorithm. You can find some information here <http://ysitcom.com/page/447/Waaves-Le-codec-concu-pour-l-imagerie-industrielle>  If you want more information or find that this solution is interesting I can get in touch with the founder or someone which work on this at LIP6 (easier solution) (reactions: @U38HVMZ6K,@U0B47KC3S)
+1487355718.000835> @U3GHS132Q: More information here <http://www.systematic-paris-region.org/en/node/24000> and here <http://www.lemondeinformatique.fr/actualites/lire-cira-de-la-compression-d-images-au-bracelet-medical-connecte-58785.html>
+1487356469.000839> @U0B47KC3S: hello <@U1PKXQVDW> should be interesting for you’re doing !
+1487356920.000841> @U38HVMZ6K: <@U3GHS132Q> thanks for sharing! Seems very interesting.
+1487357156.000842> @U38HVMZ6K: For me, just reading through the specs and description... Facts I :heart_eyes: :  "Waaves est conforme aux normes des Dispositifs Médicaux ISO14971 et UTE62304" --&gt; no need to verify, document and mitigate its use in a medical application! It was developed using a process and under a quality system which are compliant with medical devices regulations
+1487357322.000843> @U38HVMZ6K: And also available as hardware IP easily integrated in FPGA or Hybrid-SoC
+1487359122.000844> @U38HVMZ6K: Facts I :triumph: : Proprietary codec (not open source/community friendly) Only viewer is free, SDK and libs come at cost. 
+1487438562.000848> @U37GZRZU6: <@U20C8CKTL> did you fix the leaderboard? I just tried to submit a .py, it looks like the upload is ok but then nothing appears in the leaderboard :disappointed:
+1487438666.000849> @U37GZRZU6: <@U20C8CKTL> btw we should change "Submit your code for image denoising" to "Submit your code for envelope detection" :wink:
+1487504806.000850> @U20C8CKTL: yes i have to change it
+1487609305.000860> @U07UEJC2H: <@U07UEJC2H> and commented: A pool of files with last raw data can be found on PRJ-medtec_sigproc github repo (/dataquarium/raw_hand). We have now interesting images
+1487609317.000861> @U07UEJC2H: <@U07UEJC2H>
+1487708664.000868> @U20C8CKTL: hi, guys, you can investigate C embedded in python with this tutorial : <http://sametmax.com/appeler-du-code-c-depuis-python-avec-ctypes/>. (reactions: @U0AAL4W13)
+1487761200.000881> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1487807470.000882> @U20C8CKTL: hey, the leaderboard description and enhancement issues can be found here : <https://hackpad.com/Unti-fJao8eB2HPJ> feel free to improve the doc (in french) .
+1487808851.000884> @U0B47KC3S: thanks <@U20C8CKTL> :wink:
+1487852854.000885> @U1PAGSKGU: <@U1PAGSKGU> and commented: This is the first of a series of flowcharts where I detail the echograph.
+1487852984.000886> @U1PAGSKGU: This is a buildup to our coming Wednesday meeting where we document the existing system.
+1487931792.000887> @U492PCSE9: <@U492PCSE9> has joined the channel
+1487977500.000888> @U3GHS132Q: <@U38HVMZ6K> about waaves it is not open source :s but I think that I can avoid or reduce the cost if I speak withh one of my prof which worked on this :slightly_smiling_face:
+1488123553.000889> @U37GZRZU6: Nice slides gathering essential measurements for performance assessment of ultrasound imaging systems :wink:  <https://www.aapm.org/meetings/03AM/pdf/9905-9858.pdf> (reactions: @U0B47KC3S,@U38HVMZ6K)
+1488134360.000892> @U38HVMZ6K: For performance and minimum requirements, many criteria are already defined in norms and standards: <https://www.fda.gov/Radiation-EmittingProducts/RadiationEmittingProductsandProcedures/MedicalImaging/ucm115357.htm> contains a huge amount of information for manufacturers, patients, physicians,... (reactions: @U37GZRZU6)
+1488134576.000894> @U38HVMZ6K: <https://www.fda.gov/downloads/MedicalDevices/DeviceRegulationandGuidance/GuidanceDocuments/UCM070911.pdf> linked on that page contains detailed information on what should be submitted for pre-market clearance. This covers testing, performance, important figures to document, risks to consider,...
+1488134780.000895> @U38HVMZ6K: By chance, ultrasound probes are now widely available and very precise guidances exist. For some other device kinds, requirements are not so precise and norms and standards need much more interpretation which is not always easy.
+1488222460.000899> @U0AAL4W13: <@U37GZRZU6> I'm challenging your Hilbert approach with the <@U0GMX7QUB>  "track and hold" approach :smiley: <http://37.187.117.106:8888/feeds/48/> .
+1488222481.000900> @U0AAL4W13: Ranked first - beat this :wink:
+1488239420.000902> @U0B47KC3S: <@U0AAL4W13>, tried to go to the link but there is some issue with the web app
+1488273191.000903> @U37GZRZU6: <@U0B47KC3S> I think you have to log in <http://37.187.117.106:8888/> (reactions: @U0B47KC3S)
+1488274559.000904> @U0B47KC3S: <@U37GZRZU6> thanks !
+1488282041.000905> @U20C8CKTL: <@U0AAL4W13>   <@U37GZRZU6> luc, really ? :smile: great !
+1488307472.000909> @U0AAL4W13: A seemingly excellent paper : <http://home.ustc.edu.cn/~zhanghan/cs/Candes%20et%20al.06.pdf> - and my discovery of the "famous" Shepp–Logan phantom. <@U37GZRZU6> : a phantom to add to the test? :wink: (reactions: @U0B47KC3S,@U37GZRZU6)
+1488307536.000910> @U0AAL4W13: ping <@U0B47KC3S> as you are the one studying this type of functions :smiley:
+1488309154.000911> @U0B47KC3S: wouaou in fact radon transform and fourier transform are tigtly bound. my subject of interest is to reconstruct objects from an other type of partial knowledge. Btw, seing the authors, it should be major, candès + tao (infinite erdös number) = אzero  if I can help for the maths part, I am in :grinning: (reactions: @U37GZRZU6)
+1488313152.000915> @U1PAGSKGU: This is now called compressive sensing. Relevant to us as we look into ways to reduce the sampling rate at the front end.
+1488313193.000916> @U1PAGSKGU: It is already being used in MRI imaging (reactions: @U0B47KC3S,@U37GZRZU6)
+1488366000.000921> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1488375680.000922> @U1PAGSKGU: <@U07UEJC2H> <@U38TWKY9Y> <@U1PAGSKGU> testing probe at Echopen today as from 2:30 pm (reactions: @U37GZRZU6,@U20C8CKTL,@U0B47KC3S,@U37GZRZU6,@U37GZRZU6)
+1488383919.000936> @U37GZRZU6: <@U20C8CKTL> I can't log in the leaderboard, is it down ? :sob:
+1488383963.000937> @U20C8CKTL: nan
+1488384021.000938> @U37GZRZU6: When I log in with my usual account, I get :  ```DoesNotExist at /login Site matching query does not exist. Request Method: POST Request URL: <http://37.187.117.106:8888/login> Django Version: 1.9.8 Exception Type: DoesNotExist Exception Value:  Site matching query does not exist. Exception Location: /usr/local/lib/python2.7/dist-packages/django/db/models/query.py in get, line 387 Python Executable: /usr/bin/python Python Version: 2.7.12 Python Path:  ['/root/echopen-leaderboard-1',  '/usr/lib/python2.7',  '/usr/lib/python2.7/plat-x86_64-linux-gnu',  '/usr/lib/python2.7/lib-tk',  '/usr/lib/python2.7/lib-old',  '/usr/lib/python2.7/lib-dynload',  '/usr/local/lib/python2.7/dist-packages',  '/usr/lib/python2.7/dist-packages']```
+1488384061.000939> @U20C8CKTL: this is the debug option, it means, wrong password or something else.
+1488384101.000940> @U20C8CKTL: i guess you try to broke someone else password (reactions: @U37GZRZU6)
+1488384102.000941> @U20C8CKTL: XD
+1488384127.000944> @U37GZRZU6: <@U20C8CKTL> stop calling me a hacker !! (reactions: @U20C8CKTL)
+1488390641.000946> @U0B47KC3S: meeting is begining !
+1488390856.000947> @U1PAGSKGU: <@U1PAGSKGU> and commented: Block diagram of signal transmission in the probe
+1488391010.000948> @U1PAGSKGU: <@U1PAGSKGU> and commented: Block diagram of reception in the probe
+1488391109.000949> @U1PAGSKGU: <@U1PAGSKGU> and commented: Block diagram of envelope detector
+1488391308.000950> @U1PAGSKGU: <@U1PAGSKGU> and commented: Block diagram of image formation
+1488395110.000951> @U0AAL4W13: <@U1PAGSKGU> found some interesting papers on compressive sensing : <http://asa.scitation.org/doi/abs/10.1121/1.4919302?journalCode=jas> by <https://www.researchgate.net/profile/Guillaume_David>
+1488453439.000952> @U37GZRZU6: minutes of yesterday's meeting are available here : <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/> <@U1PAGSKGU> <@U20C8CKTL>  <@U3QGT3Q74> <@U0B47KC3S> don't hesitate to modify it :wink:
+1488453440.000953> @U37GZRZU6: <@U37GZRZU6>
+1488453548.000984> @U1PAGSKGU: <@U0AAL4W13> Thanks. Looking to apply compressive sensing to solve the problem of high sampling rate and enveloppe detection at the front end.
+1488453850.000985> @U0AAL4W13: <@U1PAGSKGU> cool! BTW, I'm using a adl5511 for enveloppe détection ( and did some tests with it) which seems to do a log compression -- which enable slower ADCs :) it could be tested as a benchmark / alternative to qualify the advantages of dsp enveloppe detection vs analog one. what do you think?
+1488495502.000996> @U4DFR8RN3: <@U4DFR8RN3> has joined the channel
+1488499163.000997> @U4CAG5ZFW: <@U4CAG5ZFW> has joined the channel
+1488557655.000998> @U0AAL4W13: <@U0GMX7QUB>  did you get a chance to check your algo for enveloppe détection - the track and hold?
+1488557689.000999> @U0AAL4W13: and to submit one of your tries ?
+1488563838.001010> @U1PAGSKGU: <@U0AAL4W13> This seems to a board for doing enveloppe detection in the GSM RF ranges. A bit of an overkill, but if it is handy and low-cost then why not. If one can characterise its operation in a notebook, it will be handy to compare with the digital enveloppe detection in term of quality of the image we can get.
+1488564260.001012> @U0AAL4W13: <@U1PAGSKGU> no that expensive - but I'm happy to pay for the reliability. I adjusted it to work at around 3.5MHz  and it seems to work.
+1488564260.001014> @U0AAL4W13: 
+1488564625.001015> @U1PAGSKGU: <@U0AAL4W13>  how to characterise its performance in a python notebook ?
+1488564677.001017> @U0AAL4W13: <@U1PAGSKGU>  id be keen on doing the measurements would you have any tips
+1488564801.001019> @U1PAGSKGU: <@U0AAL4W13> I think a mathematical description of its operation from the litterature should be the starting place to build a python notebook of performance.
+1488567386.001021> @U0AAL4W13: <@U1PAGSKGU> the datasheet should have this
+1488569948.001023> @U0AAL4W13: <@U0AAL4W13>
+1488569964.001024> @U0AAL4W13: <@U1PAGSKGU> here's what the adl5511 does in practice
+1488790017.001025> @U1PAGSKGU: <@U0AAL4W13> It is cool that this card does the enveloppe detection. What kind of image it produces is the question.
+1488799556.001027> @U0AAL4W13: <@U1PAGSKGU> sure - this is the kind :) <https://raw.githubusercontent.com/kelu124/echomods/master/include/20160814/sonde3V_1-4.csv-SC.png> it's tough to quantify as this includes tgc, enveloppe detection and amp
+1488799556.001029> @U0AAL4W13: 
+1488800025.001032> @U0AAL4W13: <@U1PAGSKGU> it would be worth it sending a know signal and record (at v high speed) both input and output to quantify the perfs of the overall board
+1488801475.001034> @U0AAL4W13: will do a modélisation though using the specs
+1488808176.001036> @U0AAL4W13: tricky, the specs just mention envelope detection - not possible to extract a python friendly model 
+1488809933.001038> @U1PAGSKGU: <@U0AAL4W13> maybe if you record the raw data before enveloppe detection and then do an enveloppe detection offline. Compare the offline digital enveloppe detection with the online analog detection. That should be a way to compare and contrast.
+1488810955.001040> @U0AAL4W13: the issue is I don't have the tool to do this :/ anyhow, will try! do you think 10msps at acquisition could be enough ? that's the max I could do :/
+1488810984.001042> @U0AAL4W13: with a long enough acquisition I could also get the transfer function
+1488828858.001044> @U0AAL4W13: <@U1PAGSKGU> managed to try a significant acquisition with the prudaq, the results are here: <https://github.com/kelu124/echomods/tree/master/toadkiller/data/test_enveloppe>
+1488828880.001046> @U0AAL4W13: I can't really do a diff between the two because of the gain which is a bit high between the two signals
+1488830078.001048> @U0AAL4W13: <@U1PAGSKGU> managed to try a significant acquisition with the prudaq, the results are here: <https://github.com/kelu124/echomods/tree/master/toadkiller/data/test_enveloppe> . The diff does not work as there is a significant gain between input and output.  Data file is also available, and the code to show how the signal were images is at <https://github.com/kelu124/echomods/blob/master/toadkiller/data/test_enveloppe/In-Out.ipynb>
+1488836324.001049> @U37GZRZU6: <@U0AAL4W13> what am I looking at? Is this what is achieved with the adl5511?  BTW <@U0AAL4W13> <@U1PAGSKGU> it's a really good idea to challenge analog vs. digital envelope detection :wink: however I think the performances of one or the other depends : 1. on the device that is used for analog envelope detection (so the question is : is this adl5511 supposed to be tested on the echopen kit? if not, I'm not sure we'll get any re-usable information from your tests) 2. on the quality of the raw signal : if it's more or less noisy, the digital/analog envelope detection might not be impacted in the same way --&gt; even if the adl5511 could be used on the echopen kit, I doubt that doing such tests on a raw signal which is out of a different acquisition chain will be informative…  What do you think guys? Question : could we plan that kind of tests with the echopen kit (which by the way has been discussed not a long time ago --&gt; it's one of our next steps actually :wink: )
+1488836982.001050> @U0AAL4W13: <@U37GZRZU6> it's the input of the board (TGC,ADL5511,AOP), not the ADL5511 only. It's definitely usable with the kit - for example plugging the board which hosts the ADL5511 on the same line coming from the transducer :smiley: . BTW, as said, it does not exist to replace a DSP+60Msps ADC, rather to give a benchmark for a analog option, which could  give insights to estimate the complexity vs quality balance.
+1488837003.001051> @U0AAL4W13: so 1. yup, sure.
+1488837064.001052> @U0AAL4W13: 2. Having a "standard" signal on which the different processing solutions can be used can be useful to determine the quality of each processing chain. If you dont' have a repeatable input, it may be difficult to standardize the tests :smiley:
+1488837103.001054> @U0AAL4W13: -&gt; Tests are most doable with the kit (i could leave one board at the HD for example)
+1488882021.001060> @U1PAGSKGU: <@U0AAL4W13> how do i copy this directory to my laptop ? The clone command is not working for this directory
+1488882644.001062> @U07UEJC2H: <@U37GZRZU6>, <@U0AAL4W13>, @ soobash, Hilbert transform don't have to be challenged because Hilbert transform give true envelope (following mathematical definition) so you can't do better (envelope). ADL5511 is an overkill (bandwidth), expensive and can not be solder with our tools. It can be tested to see the performances, but it not match with low cost constraint.
+1488883051.001063> @U0AAL4W13: It's true it's expensive (12$) - still can be used to benchmark. Moreover, with analog envelope detection you may not need high speed adc + dsp, which in turn are also expensive (and tough to program, not to mention solder too!).
+1488883096.001064> @U0AAL4W13: After, it's true the performance of this chip can't beat a very high speed adc + dsp .
+1488883164.001065> @U0AAL4W13: Hey <@U1PAGSKGU> - the bin file, as well as either the python file or the jupyter notebook are sufficient 
+1488883196.001067> @U0AAL4W13: However, if you want to clone this, you may need to clone the full repo (echomods)
+1488883893.001069> @U1PAGSKGU: Thanks.
+1488884364.001071> @U1PAGSKGU: <@U07UEJC2H> It's true the Hilbert Transform in DSP cannot be challenged in term of quality. Can we get a high speed adc + dsp within the same cost constaint ? (reactions: @U0AAL4W13)
+1488889886.001073> @U0AAL4W13: <@U1PAGSKGU> à piece of info: the input signal is at 2mhz since I had no faster dac.
+1488890223.001075> @U0AAL4W13: The capas used on the adl5511 to set it up are adjusted for 3.5MHz - hence the jiggling enveloppe is due to the input frequency that is lower than the target carrier
+1488892544.001077> @U07UEJC2H: <@U0AAL4W13>, don't put words in my mouth, I didn't say that we must not make analogical envelope detection (which can reduce cost), just that adl5511 don't fit with low cost. <@U1PAGSKGU>, we have to search what we can obtain,  image quality is the priority target
+1488897587.001078> @U38HVMZ6K: I'm a bit lost again regarding the direction we want to take... Do we want to develop a medical device or another maker kit ? We need to find some compromises because all the constraints specified for the device cannot all be fullfilled... If 12$ is too expensive and the fact that the chip cannot be easily soldered by a maker is a hard requirement then we should directly forget the idea of building a compact and performant device and build "yet another Ultramark".
+1488897785.001079> @U38HVMZ6K: Putting all requirements I heard about in a very simple and exagerated way we would like: - to do high speed acquisition (50-100MHz) - handle 15 fps - keep costs at the lowest - use only hacker-friendly chips and components - fit everything in a housing which can be held with only one hand
+1488898488.001080> @U0B47KC3S: hi there, sorry <@U38HVMZ6K> it can be quite misleading
+1488898495.001081> @U0B47KC3S: First, the aim of echOpen is to build a medical device, we can stress the fact that it is the core objective of echOpen
+1488898502.001082> @U0B47KC3S: Second, we are working hard with <@U04DFTZ7D> and <@U37GZRZU6> and anybody that wants to join to implement concretely all the decisions that we took in the CapMeth meeting. In about 3 weeks, we will have deployed the main methodologies and global technical config informations, and from next week, we will begin to structure the meetings conformally with these methodologies
+1488898508.001083> @U0B47KC3S: So, for the moment we still have some divergent informations which is quite normal since the working groups don’t already have the right materials to focus on the medical device. Besides, as soon as the methods will be implemented in groups, we'll program a global CapTech to harmonise and fix the main trimestrial objectives, this would be the perfect time for the discussions we have just had in this feed  :wink: !
+1488899645.001084> @U0AAL4W13: Don't forget to include the overall, multi-year plan ;)
+1488900565.001085> @U0B47KC3S: sure, just talking about the very next steps
+1488921540.001086> @U0AAL4W13: Always great to see how the small steps pave the way to the bigger picture ;)
+1488970800.001087> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1488995542.001088> @U2PFHNN3C: Hey guys, to meet or not to meet? That is the question: …
+1488995669.001089> @U20C8CKTL: will be there in 45mn
+1488995993.001090> @U0AAL4W13: In da bus, here in 15 mins
+1489015339.001092> @U0B47KC3S: here’s the report of the <#C1G7T0PNX>
+1489015341.001093> @U0B47KC3S: <@U0B47KC3S>
+1489151033.469784> @U1PAGSKGU: <@U0AAL4W13> 2 Mhz is too low to have a usable signal for the hilbert transform.
+1489152507.701937> @U1PAGSKGU: Assuming you have a 50% bandwidth, that gives 1.75 MHz bandwidth centered on 3.5 MHz. Nyquist abndpass sampling is ta a rate of 3.5 MHz. If you are using 2 MHz sampling you will have aliasing.  If your adc is fied at 2 MHz , one solution would be to reduce your bandwidth further by bandbass filtering to something at or below 1 MHz.
+1489152828.757380> @U0AAL4W13: <@U1PAGSKGU> : well noted! the adc I have is at 10msps when capturing raw signal (the bin file)
+1489152851.760674> @U0AAL4W13: The 2mhz is for the digital to analog tool I'm using, I have no better :/
+1489152874.764406> @U0AAL4W13: Soon the signal recorded is at 10msps (edit: so there should be no aliasing / signal folding)
+1489152910.770384> @U0AAL4W13: I'm acquiring at 2msps only on the post enveloppe detection stage
+1489152920.772202> @U0AAL4W13: Hope that clarifies
+1489153253.828353> @U0AAL4W13: So to come back to hilbert - I'm not doing any, but, knowing the sampling frequency on the binary file, one could possibly try
+1489503396.172130> @U4J138ZTL: <@U4J138ZTL> has joined the channel
+1489575600.080760> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1489598967.501480> @U2PFHNN3C: So what time guys?
+1489603861.305920> @U2PFHNN3C: ???
+1489606762.289398> @U0AAL4W13: yup?
+1489609316.134159> @U2PFHNN3C: nothing :slightly_smiling_face: was just waiting for the meeting to start
+1489652679.609967> @U0B47KC3S: 15.03.17 SigProc report <https://docs.google.com/document/d/1kn_oJnskOg4OONO4MK5Ft724OLPkn4NYzj-qJHVMMXo/edit>
+1489652679.610074> @U0B47KC3S: <@U0B47KC3S>
+1489669044.909343> @U4J138ZTL: <@U4J138ZTL> and commented: Found a great article on envelope detection for DSP processing
+1489670307.238424> @U0B47KC3S: <@U4J138ZTL> seems to be nice article, do they provide some code ?
+1489683712.248146> @U4J138ZTL: <@U4J138ZTL> and commented: Et Voilà !
+1489684318.476695> @U4J138ZTL: can you read this ? I can also send python code/jupiter Notebook.
+1490180400.622719> @USLACKBOT: Reminder: :mega: a memo for our weekly meeting  on wednesday.
+1490208529.849603> @U37GZRZU6: Hey guys, we're about to launch the envelope detection challenge, but we need some backup to finalize the score assessment on the leaderboard (python+django), it might not need more than 1hour of development... Would someone have some spare time this week to help us?? ping <@U2PFHNN3C> <@U3GHS132Q> <@U0AAL4W13> :hatching_chick: :blush: :heart_eyes: :smiley_cat: :wink:
+1490209367.143906> @U2PFHNN3C: Just became available. Is it late for the meeting?
+1490209401.156262> @U2PFHNN3C: aurelie: can you please elaborate on the task at stake​?
+1490211651.882459> @U0B47KC3S: sorry <@U2PFHNN3C> I have just seen your post ! we finished 30mn ago and we are going to finish the <#C3F765DT7> meeting !
+1490211673.889256> @U2PFHNN3C: :disappointed: sorry, I was with a colleague and didn’t look at the clock
+1490212489.151268> @U37GZRZU6: Ping <@U20C8CKTL> :D by now the score is computed on the same image that is used in the notebook, we want to replace it by a loop that allows to evaluate the score on several images and then compute the average... Not that difficult to implement though, we just don't have time :/
+1490225221.488405> @U0B47KC3S: no worry <@U2PFHNN3C> :wink:
+1490225242.492167> @U0B47KC3S: Here’s the report of 22.03.17 SigProc meeting <https://echopen.gitbooks.io/echopen_prototyping/content/followup/meetings_sigproc.html> (reactions: @U2PFHNN3C,@U3QGT3Q74,@U37GZRZU6)
+1490271494.022322> @U20C8CKTL: Aurelie i suggest you to create a github issues. in github.
+1490278150.884790> @U3GHS132Q: I do not know python so I do not think that I will be useful... But I can try do it next week :slightly_smiling_face:
+1490278720.091251> @U20C8CKTL: <@U3GHS132Q> i can share the python basics and django basics with you next week. 1 april. :smile: it can be an open stuff with other people too. (reactions: @U37GZRZU6)
+1490281849.320447> @U2PFHNN3C: The Github issue is a good idea <@U20C8CKTL>. It provides clarity and allows to keep track of the changes. If the 1st of April is not late, let’s work on that then
+1490281979.372291> @U20C8CKTL: <@U2PFHNN3C>  ok !!! good !
+1490347222.960871> @U3GHS132Q: <@U20C8CKTL> I know a bit of python (basic scripting and object programming) but I never used django.
+1490350550.651474> @U20C8CKTL: <@U3GHS132Q> i think it's enought to understand django basics
+1490355208.542102> @U20C8CKTL: bon, on est tous français dans le thread :slightly_smiling_face:, je vais vous envoyer une petite note ce week end avec les grandes lignes du principe de django et des concepts à connaitre. ça reste du web quand même. ça peut plaire comme ça peut ne pas plaire. :smile:

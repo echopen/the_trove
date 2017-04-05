@@ -1,0 +1,295 @@
+Development of an ultra-portable echo device connected to USB port
+Yoshifumi Saijo a,*, Shin-ichi Nitta a
+, Kazuto Kobayashi b
+, Hitoshi Arai b
+,
+Yukiko Nemoto b
+a
+Department of Medical Engineering and Cardiology, Institute of Development, Aging and Cancer, Tohoku University,
+4-1 Seiryomachi, Aoba-ku, Sendai 980-8575, Japan
+b
+Honda Electronics Co. Ltd., 20 Oyamazuka, Oiwa-cho, Toyohashi 441-3193, Japan
+Abstract
+In practical cardiology, a stethoscope based auscultation has been used to reveal the patient’s clinical status. Recently, several
+hand-held echo devices are going on market and they are expected to play a role as ‘‘visible’’ auscultation instead of stethoscope. We
+have developed a portable and inexpensive echo device which can be used for screening of cardiac function. Two single element
+transducers were attached 180 apart to a rotor with 14-mm diameter. The mechanical scanner, integrated circuits for transmitting
+and receiving ultrasonic signals and an A/D converter were encapsulated in a 150 · 40 mm probe weighing 200 g. The scan
+was started and the image was displayed on a Windows based personal computer (PC) as soon as the probe was connected to USB
+2.0 port of the PC. The central frequency was available between 2.5 and 7.5 MHz, the image depth was 15 cm and the frame rate was
+30/s. The estimated price of this ultra-portable ultrasound is about 3000 US$ with software. For 69 cardiac patients with informed
+consent, image quality was compared with those obtained with basic range diagnostic echo machines. Left ventricular ejection
+fraction (EF) derived from normal M-mode image of standard machines (EFm) were compared with visual EF of the ultra-portable
+ultrasound device (EFv). The image quality was comparable to the basic range diagnostic echo machines although short axis view of
+aortic root was not clearly visualized because the probe was too large for intercostal approach. EFv agreed well with EFm. The
+ultra-portable ultrasound may provide useful information on screening and health care.
+ 2003 Elsevier B.V. All rights reserved.
+Keywords: Echography; Portable; Personal computer; USB 2.0
+1. Introduction
+In practical cardiology, a stethoscope based auscul-
+tation has been used to reveal the clinical status of pa-
+tients. Recently, several hand-held echo devices have
+been going on market and they are expected to play
+a role as ‘‘visible’’ auscultation instead of stethoscope.
+Previous studies have shown that portable ultrasound
+devices detect major cardiovascular pathology better
+than the physical examination [1–6]. The miniaturized
+devices have been achieved by the development of
+nano-machining and informative technologies. Besides
+those innovations, the social need for the small and
+inexpensive ultrasound diagnosis is arising because the
+increase of elderly population and their high-quality in-
+home care are the common social problem in devel-
+oped countries. For example, new insurance system
+for elderly care was established in Japan because the
+former social health care insurance system had
+not been able to cover the treatment in all ages. The
+ultra-portable ultrasound system may provide useful
+information for early detection of the disease and
+complications of the elderly people and patients at
+home.
+We have developed an ultra-portable echo device
+which operated in connection with a USB 2.0 port of a
+personal computer (PC). The objectives of the present
+study were to evaluate the image quality of the ultra-
+portable echo device and to assess the feasibility for
+measuring cardiac function, by comparing the images
+obtained with the ultra-portable device to those
+obtained with conventional echocardiography ma-
+chines.
+*
+Corresponding author. Tel.: +81-22-717-8517; fax: +81-22-717-
+8518.
+E-mail address: saijo@idac.tohoku.ac.jp (Y. Saijo).
+0041-624X/$ - see front matter  2003 Elsevier B.V. All rights reserved.
+doi:10.1016/j.ultras.2003.11.009
+Ultrasonics 42 (2004) 699–703
+www.elsevier.com/locate/ultras
+2. Materials and methods
+Fig. 1 shows the appearance of the transducer con-
+nected to the USB 2.0 port of a laptop PC. A mechanical
+scanner, integrated circuits for transmitting and re-
+ceiving ultrasonic signals and an A/D converter were
+encapsulated in a 150 · 40 mm probe weighing 200 g.
+The sampling frequency of the A/D converter was 12
+MHz and the resolution was 8-bit. Envelope of the RF
+signal was sent to the PC through USB 2.0 connection.
+The depth of the image, sensitivity of receiving ultra-
+sound and frame rate were controllable by PC. How-
+ever, pulse repetition frequency or transmission power
+was ﬁxed and these parameters were not controlled by
+PC.
+Fig. 2 shows the schematic illustration of the scan-
+ning. Two single element transducers were attached 180
+apart to a rotor with 14-mm diameter. The rotor rotated
+one-directional way to make mechanical scan. The
+electrical power was supplied via the USB 2.0 port. The
+scan was started and the image was displayed on a
+Windows based PC as soon as the probe was connected
+to USB 2.0 port of the PC. Both still images and movies
+were stored in the hard disk of PC. Measurements and
+analysis were available when the stored images and
+movies were displayed on the screen. In the present
+study, 3.5 MHz ultrasound transducer was used al-
+though the central frequency was available between 2.5
+and 7.5 MHz for the system. The depth of the image was
+up to 15 cm and the frame rate was 30/s.
+Thirty three healthy volunteers at a mass general
+examination and 36 patients at cardiology clinics with-
+out previous history of myocardial infarction were in-
+volved in the study. Each volunteer and patient accepted
+the study with written informed consent. Commercially
+available ultrasound machines used in the study were
+Nemio (Toshiba, Tokyo, Japan), SONOS 2500 (Philips,
+Mountainview, USA) and SSD 2000 (Aloka, Tokyo,
+Japan).
+The assessment of the image quality was performed
+by comparing the movies stored in the hard disk from
+the portable ultrasound system and those recorded on S-
+VHS video tapes from the commercial ultrasound
+machines. Two blinded cardiologists experienced in
+echocardiography were involved in the comparison
+study. One cardiologist recorded the parasternal long
+axis view, parasternal short axis view, apical two
+chamber view and apical four chamber view of the
+identical patient by both portable and conventional
+machines. The other cardiologist observed the movies
+and scored the image quality according to the following
+criteria: 0 point as poor image, 0.5 point as fair image
+and one point as good image, respectively. The portions
+of the interest were (1) motion of mitral valve (MV) for
+rapid movement, (2) visualization of left ventricular
+posterior wall (PW) of parasternal long axis view for
+blood-myocardium interface traceability, (3) visualiza-
+tion of aortic valve (AV) for short axis view, (4) visu-
+alization of left main trunk of coronary artery (LMT)
+for precise image, (5) visualization of pulmonary vein
+(PV) by apical approach for far ﬁeld image, (6) visuali-
+zation of apex (APEX) of left ventricle by apical ap-
+proach for near ﬁeld image, and (7) myocardium
+(MYO) for echo pattern.
+Eﬃciency for clinical cardiology of the ultra-portable
+device was tested in assessment of systolic function. M-
+mode based calculation of left ventricular ejection
+fraction (LVEF) with Teicholtz method (EFm) was
+performed using the conventional machines. By viewing
+the stored movies, subjective estimation of LVEF from
+two-dimensional echocardiography (EFv) was per-
+formed. EFm and EFv were compared and correlation
+coeﬃcient was calculated.
+Fig. 1. Appearance of the transducer connected to USB 2.0 port of
+laptop PC.
+Fig. 2. Schematic illustration of the scanning.
+700 Y. Saijo et al. / Ultrasonics 42 (2004) 699–703
+3. Results
+Fig. 3 is an example of the image taken by the ultra-
+portable ultrasound device. This is normal heart. Fig. 4
+is a case of pericardial eﬀusion in a cardiology clinic.
+Fig. 5 shows the absolute values of image quality.
+Signiﬁcant diﬀerences were observed in all items. Fig. 6
+shows the relative values of image quality compared
+with the conventional machines. LMT and AV of the
+ultra-portable machines scored half values of those in
+conventional machines. APEX and PW scored compa-
+rable to those of the conventional machines.
+Fig. 7 shows the correlation between EFm and EFv.
+The open circle and dotted line indicated the correlation
+of the volunteer and the closed circle and the solid line
+indicated the relation in patients. The correlation coef-
+ﬁcient of EFm and EFv in the volunteers was R2
+¼ 0:75
+and the coeﬃcient in the patients was R2
+¼ 0:94.
+Fig. 3. An image of a normal heart obtained with the ultra-portable
+ultrasound system.
+Fig. 4. A case of a patient with pericardial eﬀusion found at a cardi-
+ology clinic.
+Fig. 5. Absolute values of image quality. Signiﬁcant diﬀerences were
+observed in all items.
+Fig. 6. Relative values of image quality compared with the conven-
+tional machines. (LMT: left main trunk of coronary artery, PV: pul-
+monary vein, Apex: apex of left ventricle, MV: mitral valve, AV: aortic
+valve, Myo: myocardium).
+Fig. 7. Correlation between computed EF (EFm) and visual EF (EFv).
+Y. Saijo et al. / Ultrasonics 42 (2004) 699–703 701
+4. Discussion
+The latest development in echocardiography is the
+hand-held ultrasound device. Previous studies have
+shown that portable ultrasound devices detect major
+cardiovascular pathology better than the physical ex-
+amination, but their diagnostic accuracy is still un-
+known. Some reports indicated that the image quality
+and signal accuracy were comparable to those obtained
+by the commercial machines. We have developed more
+portable and inexpensive ultrasound device which can
+be operated just by linking it to the USB 2.0 port of
+a PC. This ‘‘ultra-portable’’ ultrasound device featured
+only B-mode imaging. However, the targeted market
+price is 3000 US$ for the probe and software and it may
+be used not only screening at the clinics but also for
+elderly care at home. The purpose of this study was to
+compare the results of examinations made with ultra-
+portable devices to those obtained with conventional
+echocardiography.
+The image quality of the device was inferior to that of
+conventional machines. Especially, scores for AV and
+LMT visualization were half of those in conventional
+machines. The limitation may cause from the large size
+transducer head for intercostal approach. The image
+quality of the PW and MV was comparable to those of
+conventional machines. Pericardial eﬀusion was rightly
+detected by the ultra-portable machine. The minimum
+requirements of echocardiography in cardiology may be
+assessing left ventricular function and detecting peri-
+cardial eﬀusion or aneurysms. In the period of ﬁrst
+clinical testing of the device, a patient with aneurysm did
+not appear but a patient with pericardial eﬀusion was
+detected at the clinic. This patient admitted to the hos-
+pital for further evaluation and treatments. The fact
+suggested that this ultra-portable device would be useful
+for mass screening for cardiac patients.
+Another important requirement for cardiology is
+assessment of left ventricular function, especially sys-
+tolic function. LVEF was derived from M-mode based
+formula and visual EF estimation from the ultra-por-
+table device. Both values were correlated well. This
+indicates the ultra-portable ultrasound is useful in the
+some situations. One is the follow-up of the contractility
+of the patient once fully examined by high-end ultra-
+sound machines. Other possibility of the use of this
+device is in-home care. Besides the conventional bio-
+logical parameters such as body temperature, heart rate
+and blood pressure, this device may provide the infor-
+mation of nutrition or heart failure by observing heart
+movement and detecting pericardial and/or pleural
+eﬀusions. The early detection of the abnormal status
+may rescue the patient’s life and it may reduce the total
+medical cost. The device can also be applied for tele-
+medicine in corporation with the development of
+broadband communication systems.
+For the use of hand-carried cardiac ultrasound
+(HCU) devices, American Society of Echocardiography
+(ASE) concerned about the inappropriate use or inac-
+curate data acquisition, interpretation, and response to
+the result [5]. ASE recommended a minimum of level 1
+(number of personally performed examinations is 75 and
+number of personally interpreted examinations is 150)
+training for independent performance or interpretation
+of HCU and level 2 (number of personally per-
+formed examinations is 150 and number of personally
+interpreted examinations is 300) for independent per-
+formance or interpretation of comprehensive echocar-
+diography. These recommendations indicate that
+experienced examiner and proper education system are
+required for the practical use in mass screening or in-
+home care although the cost for this ultra-portable de-
+vice is low.
+5. Conclusions
+An ultra-portable ultrasound system was developed
+and its clinical eﬃciency was tested. The image quality
+was comparable of that in lower-range ultrasound de-
+vices except the short axis view. The visually estimated
+EF by this device was accurate and the result suggested
+the appropriate use of the device may open the new
+possibility in practical cardiology and in-home care.
+Although it requires skill and knowledge to visualize
+and to understand the image, this ultra-portable device
+provides more chance for general physicians, nurses
+working for in-home care to use the echo for monitoring
+patients.
+Acknowledgements
+A part of this study was supported by a research
+grant from The Mechanical Social Systems Foundation
+in Tokyo, Japan.
+References
+[1] V. Burdjalov, P. Srinivasan, S. Baumgart, A.R. Spitzer, Hand-held,
+portable ultrasound in the neonatal intensive care nursery: a new,
+inexpensive tool for the rapid diagnosis of common neonatal
+problems, J. Perinatol. 22 (6) (2002) 478.
+[2] A.W. Kirkpatrick, R.K. Simons, R. Brown, S. Nicolaou, S.
+Dulchavsky, The hand-held FAST: experience with hand-held
+trauma sonography in a level-I urban trauma center, Injury 33 (4)
+(2002) 303.
+[3] S.M. Ryan, E. Smith, P.S. Sidhu, Comparison of the SonoSite and
+Acuson 128/XP10 ultrasound machines in the Ôbed-side’ assessment
+of the post liver transplant patient, Eur. J. Ultrasound 15
+(1–2) (2002) 37.
+[4] M. Rugolotto, C.P. Chang, B. Hu, I. Schnittger, D.H. Liang,
+Clinical use of cardiac ultrasound performed with a hand-carried
+702 Y. Saijo et al. / Ultrasonics 42 (2004) 699–703
+device in patients admitted for acute cardiac care, Am. J. Cardiol.
+90 (9) (2002) 1040.
+[5] J.B. Seward, P.S. Douglas, R. Erbel, R.E. Kerber, I. Kronzon,
+H. Rakowski, L.D. Sahn, E.J. Sisk, A.J. Tajik, S. Wann,
+Hand-carried cardiac ultrasound (HCU) device: recommenda-
+tions regarding new technology. A report from the Echocardio-
+graphy Task Force on New Technology of the Nomenclature
+and Standards Committee of the American Society of
+Echocardiography, J. Am. Soc. Echocardiogr. 15 (4) (2002)
+369.
+[6] P.D. Garrett, S.Y. Boyd, T.D. Bauch, B.J. Rubal, J.R. Bulgrin,
+E.S. Kinkler Jr., Feasibility of real-time echocardiographic evalu-
+ation during patient transport, J. Am. Soc. Echocardiogr. 16 (3)
+(2003) 197.
+Y. Saijo et al. / Ultrasonics 42 (2004) 699–703 703
+

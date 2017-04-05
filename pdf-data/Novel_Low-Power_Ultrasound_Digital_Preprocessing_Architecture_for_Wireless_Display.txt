@@ -1,0 +1,1045 @@
+0885–3010/$25.00 © 2010 IEEE
+757
+IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 57, no. 3, March 2010
+Abstract—A complete hardware-based ultrasound prepro-
+cessing unit (PPU) is presented as an alternative to available
+power-hungry devices. Intended to expand the ultrasonic ap-
+plications, the proposed unit allows replacement of the cable of
+the ultrasonic probe by a wireless link to transfer data from the
+probe to a remote monitor. The digital back-end architecture
+of this PPU is fully pipelined, which permits sampling of ul-
+trasonic signals at a frequency equal to the field-programmable
+gate array-based system clock, up to 100 MHz. Experimental
+results show that the proposed processing unit has an excel-
+lent performance, an equivalent 53.15 Dhrystone 2.1  MIPS/
+MHz (DMIPS/MHz), compared with other software-based ar-
+chitectures that allow a maximum of 1.6 DMIPS/MHz. In ad-
+dition, an adaptive subsampling method is proposed to operate
+the pixel compressor, which allows real-time image zooming
+and, by removing high-frequency noise, the lateral and axial
+resolutions are enhanced by 25% and 33%, respectively. Real-
+time images, acquired from a reference phantom, validated the
+feasibility of the proposed architecture. For a display rate of
+15 frames per second, and a 5-MHz single-element piezoelec-
+tric transducer, the proposed digital PPU requires a dynamic
+power of only 242 mW, which represents around 20% of the
+best-available software-based system. Furthermore, composed
+by the ultrasound processor and the image interpolation unit,
+the digital processing core of the PPU presents good power-
+performance ratios of 26 DMIPS/mW and 43.9 DMIPS/mW
+at a 20-MHz and 100-MHz sample frequency, respectively.
+I. Introduction
+Ultrasound imaging is frequently used in modern
+medicine as a diagnostic tool. For instance, this tech-
+nology can detect various anomalies and cancers. Further-
+more, ultrasonic imaging tools have proven highly useful
+for visualizing internal organs and the vascular system [1].
+Although this technology offers substantial advantages,
+many applications still do not incorporate it. For example,
+cattle and porcine breeding would greatly benefit from
+ultrasound imaging for reproduction and genetic purpos-
+es. However, the lack of portability and autonomy of the
+available apparatuses limits their expansion potential [2].
+In addition, in medicine, the times required for these di-
+agnostic devices to start up and display an image become
+crucial in emergency situations, and today’s systems still
+have considerable boot times. To add to these limiting
+factors, many applications required a cumbersome cable
+to connect the electronic device to the ultrasound trans-
+ceiver.
+On the other hand, ultrasound signal processing is gen-
+erally performed by either a generic processor or a digi-
+tal signal processor (DSP). This method provides more
+flexibility but comes with high energy consumption and
+space requirements [3]–[5]. To reduce power and size re-
+quirements while preserving real-time processing capabil-
+ity and flexibility, an analysis must be conducted and the
+processing algorithms must be ported on an alternative
+platform. For battery-powered hand-held systems with
+limited power budgets, this implementation is essential
+[6], [7]. Despite its high throughput rates and complex
+tasking, hardware-based digital beamformer implementa-
+tion has demonstrated its advantages over conventional
+design methods [8], [9] and dedicated or adaptable field-
+programmable gate array (FPGA)-based beamformers are
+proposed in the literature [10], [11]. On the other hand,
+due to its lower computational complexity, software imple-
+mentation is used for RF demodulation and digital scan
+converter algorithms [3], [12]–[14]. Therefore, power and
+size can be effectively reduced in a fully hardware-based
+digital preprocessing unit (PPU) [15] [16]. Novel point-
+of-care systems where FPGA-based advanced processing
+tasks are performed, such as digital scan converter and
+echo processing, support this trend [6], [7]. However, these
+systems continue to integrate a digital signal processor,
+which increases power consumption. In addition, remov-
+ing the cable is a challenge due to the large amount of
+data throughput to display real-time ultrasound images.
+When wireless links are available for remote display with
+ultrasound systems, they are used to share data and im-
+ages between different systems and do not allow removal
+of the transducer cable because such system do not pres-
+ent an efficient power-performance ratio, which enables its
+integration within the transducer.
+We propose, in this paper, a novel ultrasound imaging
+architecture for both built-in and wireless display intend-
+ed to improve, facilitate, and reduce cost of ultrasound
+imaging diagnostics. This new device will expand applica-
+tion to the veterinary sector and provide accessibility to
+rural environment, ambulatory medicine, and emergency
+situations.
+The remainder of this paper is organized as follows:
+Section II describes the proposed ultrasound system archi-
+tecture for remote imaging display, Section III presents its
+Novel Low-Power Ultrasound Digital
+Preprocessing Architecture for
+Wireless Display
+Philippe Levesque and Mohamad Sawan, Fellow, IEEE
+Manuscript received July 18, 2009; accepted November 16, 2009. The
+authors would like to thank Kyvox Technologies for financial and equip-
+ment support.
+The authors are with Polystim Neurotechnologies Laboratory,
+École Polytechnique de Montréal, Montréal, Québec, Canada (e-mail:
+philippe.levesque@polymtl.ca).
+Digital Object Identifier 10.1109/TUFFC.2010.1474
+implementation, experimental results are given in Section
+IV, and Section V provides the conclusion.
+II. Proposed Ultrasound Imaging System
+The proposed system (Fig. 1) is composed of 2 main
+parts: an ultrasound preprocessing transducer (UPT) and
+a remote display panel (RDP). These 2 parts are inter-
+connected by a wireless communication link (WCL). In
+addition to conventional ultrasound transducer, the UPT
+includes a PPU that performs several analog and digital
+tasks before transferring achieved ultrasound images and
+corresponding data to the RDP via the WCL. The RDP
+displays the received images and serves as a postprocess-
+ing system. To modify the UPT configuration for bet-
+ter imaging, bidirectional communication is implemented
+through the RDP as a user interface.
+The PPU performs several imaging tasks to reduce the
+transmitted data through the WCL and meet needed real-
+time wireless throughput specifications. The PPU includes
+an analog front-end that is composed of a time-gain-com-
+pensator (TGC), an analog-to-digital converter (ADC),
+and a high-voltage pulser. In addition, a digital back-end
+enables wireless communication of high throughput data
+with real-time processing of various ultrasound imaging
+tasks, such as beamforming, quadrature demodulation, im-
+age construction, and image interpolation. The proposed
+ultrasound processor, part of the digital back-end of the
+PPU (Fig. 2), computes ultrasound signals received from
+the beamforming block or a single element transducer into
+real-time B-mode raw images. The data memory is shared
+through a memory controller between the ultrasound pro-
+cessor and an image interpolation module, which is used
+to enhance the raw image and the digital RF output mod-
+ule. In addition, the proposed hardware-based implemen-
+tation provides a very short boot-up time, less than one
+second, which is suitable for emergency needs.
+A. Ultrasound Processor
+The ultrasound processor is composed of 2 separate
+pipelined processors (Fig. 3), one computes the position
+of all data in the image (scan convertor pipeline), the
+other computes the values of all data (data preprocessing
+pipeline). These 2 data elements are grouped together by
+the pixel compressor to obtain a pixel: intensity (I) and
+position (x, 
+y).
+Synchronization, line calibration, and computation are
+first performed in the scan convertor pipeline to get the
+scan line number. Then, the line process module computes
+the depth and its calibration on each line. In parallel to
+the line process, high-voltage pulse trigger is generated at
+each new line. Next, depth data are scaled in a suitable
+manner related to the scan depth to form the polar coor-
+dinates and then are converted into Cartesian coordinates.
+Finally, data synchronization is performed to adapt the
+2 pipeline lengths. On the other hand, the first stage of
+the data preprocessing pipeline is the intensity calibration
+[17]. Then a fully hardware-based quadrature demodula-
+tion is performed [15]. The last stages are a noise rejection
+and digital amplification.
+Finally, the pixel compressor decimates the number
+of data by combining values representing the same pixel.
+The adaptive subsampling performed by this unit depends
+on the speed of sound in soft tissue, image resolution, and
+depth of the displayed image. The unit also performs low-
+pass filtering by finding the average value of pixel inten-
+sity at the pixel coordinates. At best, this process removes
+Gaussian white noise. In addition, this architecture allows
+zooming of real data, because downsampling is adapted
+to the final display image resolution, sample frequency,
+758 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 57, no. 3, March 2010
+Fig. 1. Proposed ultrasound imaging system with wireless data link.
+Fig. 2. Digital preprocessing unit.
+and transceiver characteristics, which result in minimally
+interpolated data. In addition, a grayscale [18] module
+is used to set the display bit resolution and provide the
+requested contrast.
+However, applying the real average algorithm to all
+pixels can result in considerable hardware complexity be-
+cause, with sector scanning, different scan lines produce
+the same intensity at the same position in the near field.
+Therefore, the proposed pseudo-average algorithm, (1),
+computes the average intensity value of independent pix-
+els at location (x,y) on a line-by-line basis, with the last
+line overwriting the previous line computation.
+The proposed pseudo-average pixel intensity is
+	
+I x y
+N
+I x y
+N k
+k
+N
+1
+1
+1
+( , ) ( , ) ,
+=
+=
+å
+	
+(1)
+where N is the number of oversampled data for a pixel at
+the same position (x, 
+y). The 1/N term in (1) introduces
+a division operation that increases hardware complexity;
+in addition to the algorithm presented in [19], 3 recursive
+pseudo-average equations that do not require such divi-
+sion operation are used to evaluate the performance-com-
+plexity ratio. These equations are designed for real-time
+processing and give good complexity coverage.
+The first variation is
+	 I x y
+I x y I x y
+k
+k k
+2
+2 1
+2
+
+
+( , )
+( , ) ( , )
+,
+=
++
+-
+	 (2)
+where k = 2, 
+3, 
+4, 
+..., 
+N and I x y I x y
+2 1 1
+( , ) ( , ) .
+=
+The second variation becomes
+	 I x y
+I x y
+k
+I x
+k
+k
+I x y I x y
+k k
+3
+3 1 2
+3
+1
+2
+
+
+
+( , )
+( , )
+,
+( ,
+( , ) ( , )
+=
++
+-
++
+-
+for even
+y
+y k
+k
+) ,
+-
+ì
+í
+ï
+ï
+ï
+ï
+î
+ï
+ï
+ï
+ï 1 for odd
+	 (3)
+where k = 2, 
+3, 
+4, 
+..., 
+N and I x y I x y
+3 1 1
+( , ) ( , ) .
+=
+And the third variation gives (4), see above, where
+k = 2, 
+3, 
+4, 
+..., 
+N and I x y I x y
+4 1 1
+( , ) ( , ) .
+=
+B. Memory Controller
+Throughput to memory is limited and, as presented in
+Fig. 2, shared between the ultrasound processor, image in-
+terpolation, and RF unit. To improve resource utilization
+and obtain more efficient power consumption compared
+with a higher throughput solution, the memory controller
+incorporates a dynamic priority assignment scheme. Thus,
+the first-in first-out (FIFO) buffer flags enable a prior-
+ity assignment strategy using earliest deadline first (EDF)
+scheduling [20] and allow crossing asynchronous boundar-
+ies. Table I presents the minimum payload throughput
+requirement for the memory bus to process 256 real ultra-
+sonic lines composed of 200, 8-bit data pixels per line and
+a 320 × 240 × 8-bit image frame with 15 frames per second
+(FPS) real-time display. It also presents the required 8.8-
+Mb/s payload throughput for wireless transfer. Note that
+today’s technologies such as IEEE 802.11a/g/n (Wi-Fi) or
+IEEE 802.15.3 (High Rate WPAN) support this wireless
+throughput and that emerging wireless technologies such
+as ultra wideband (UWB) radio technology integration to
+Bluetooth (UWB WiMedia and IEEE 802.15.1) will also
+meet the data rate requirement as well as the low power
+requirement. On the other hand, to reduce the RF data
+throughput requirement, a data compression unit could
+759
+levesque and sawan: low-power digital preprocessing architecture for wireless display
+Fig. 3. Pipelined architecture of the ultrasound processor.
+	 I x y
+I x y
+k
+k
+I x y I x y I x y I x
+k k k k
+4
+4 1 2
+2 3 2 1
+
+
+( , )
+( , )
+( , ) ( , ) ( , ) (
+=
++
+-
++
++
++
+- - - ,
+, )
+, mod
+( , ) , mod
+y
+k
+k
+k
+I x y k
+2
+4 1
+4
+4 0
+4 0
+=
+¹
+ì
+í
+ï
+ï
+ï
+ï
+î
+ï
+ï
+ï
+ï -
+
+	 (4)
+be added in a same way as the image interpolation mod-
+ule. Furthermore, the 32.3-Mb/s total required payload
+throughput can be achieved with currently available low-
+power memory architectures such as PSRAM [21].
+III. Implementation of the Proposed System
+The proposed system goal is a wireless transducer in-
+terfaced to a remote display unit. However, its architec-
+ture is implemented as a standalone unit for validation
+and evaluation of its efficiency compared with traditional
+software-based architecture. It also gives the possibility
+to display, in real-time, the exact content of the shared
+memory. A wireless module implementation would affect
+the digital back-end interface and would request the same
+data throughput as the implemented display controller.
+In fact, any standard wireless device can easily be used
+as a plug-and-play interface with a personnel computer
+(PC). On the other hand, because enhanced resolution
+obtained with a transducer array would affect the beam-
+former implementation and the demodulator performance
+but not the proposed PPU architecture, a single-element
+transducer is used to reduce the complexity of this first
+implementation.
+For this implementation, a display controller replaces
+the RF unit. The display controller consists of a video
+graphic controller combined with an on-screen display
+unit. It processes 15 FPS, and real-time data throughput
+is equivalent to that of the RF unit without data compres-
+sion. In addition, the power consumption of the display
+(LCD, analog, and digital circuits) is also similar to a
+conventional Wi-Fi module [22]. Thus, it is possible to dis-
+play real-time ultrasonic images to validate implemented
+algorithms as well as the whole architecture. The block-
+diagram depicted in Fig. 4 represents this first architec-
+ture implementation of the proposed PPU, subdivided
+into 3 parts: analog preprocessing, digital preprocessing,
+and power supply units. This single channel ultrasound
+platform, introduced in [15], allows analysis of constraints
+and highlighting of the important parameters of the pro-
+posed PPU architecture.
+A. Analog Preprocessing Unit
+As presented in [15], the analog preprocessing unit ar-
+chitecture is similar to those found in the literature [1]
+and attempts are ongoing to integrate this architecture
+into a single ASIC [23]. The single-channel front end con-
+sists of an analog variable gain amplifier (VGA), a time
+gain compensator (TGC) amplifier, an ultrasound trans-
+mission block, an echo receiver, and a passive band-pass
+filter. Position references of the transducer generated by
+a mechanical scanning probe (GP2000 5 MHz, Interson
+Corporation, Pleasanton, CA) are used to produce a 90°
+sector image composed of a maximum of 256 real ultra-
+sonic lines. A trigger is sent to the pulser (MD1210 and
+TC6320, SuperTex Inc., Carson, CA) for each new line to
+generate a selectable −100-V impulse of 12.5- to 400-ns
+duration. The received echoes are first amplified by an
+ultra low-noise preamplifier (LNA) with a gain of 19 dB
+and a bandwidth of 130 MHz, then 2 VGAs, each with a
+gain range of 48 dB and a large signal (2 VPP) bandwidth
+of 110  MHz (AD8332, Analog Devices, Norwood, MA),
+are used with a linear voltage ramp to form the time gain
+compensation amplifier that provides precise linear-in-dB
+scaling of 100 dB/V for control voltages from 40 mV to
+1 V. Finally, the amplified echoes are filtered through a
+passive second-order band-pass filter with a −3-dB cut-off
+frequency of 1 to 10 MHz before being digitized with a
+10-bit ADC (ADC10040, National Semiconductor, Santa
+Clara, CA) at 20 MHz.
+B. Digital Preprocessing Unit
+Most functions of the digital preprocessing unit are im-
+plemented in a single FPGA (Spartan3L1500, Xilinx, Inc.,
+San Jose, CA), with only an external 32-Mbit pseudo-
+static DRAM (PSRAM/CellularRAM, Micron Technol-
+ogy, Inc., Boise, ID) used as 2 circular buffers to store up
+to 16 different frames of 600 kb (320 × 240 × 8 bit). Dur-
+ing the interpolation processing, the image interpolation
+module transfers each frame from the first buffer to the
+second one. The core of the data preprocessing pipeline
+block consists of a real-time digital wideband quadrature
+760 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 57, no. 3, March 2010
+TABLE I. Minimum Required Payload Throughput for the Memory Bus.
+ID Transfer description
+Payload
+(lines × pixels/line × bits/
+pixel × fps)
+Required
+throughput
+(Mb/s)
+A11 Ultrasonic processor to memory 256 × 200 × 8 × 15 5.9
+B12 Memory to image interpolation3 320 × 240 × 8 × 15 8.8
+B24 Image interpolation to memory 320 × 240 × 8 × 15 8.8
+A25 Memory to RF6 320 × 240 × 8 × 15 8.8
+Total 32.3
+1Data transfer from the ultrasonic processor to memory.
+2Data transfer from memory to image interpolation unit.
+3Based on a 2-D image interpolation algorithm.
+4Data transfer from image interpolation unit back to memory.
+5Data transfer from memory to RF unit.
+6Required payload throughput for wireless transfer without data compression.
+demodulator based on the Hilbert transform and a piece-
+wise linear approximation architecture that performs the
+required square root operations [15]. Sine and cosine func-
+tions for the pipelined scan converter (Fig. 3) are based
+on look-up tables (LUTs). The image interpolation unit is
+based on a one dimension (x-axe) linear nearest-neighbor
+interpolation. First-in first-out (FIFO) depth is set by
+simulation to ensure they are as shallow as possible and
+that no overflow or underflow occurs.
+Table II presents the hardware complexity for each
+averaging equation applied to each scan line and imple-
+mented in an FPGA, and Fig. 5 presents the normalized
+residual sum of squares of presented equations related
+to the average processed on a single pixel with injected
+Gaussian white noise for different numbers of oversampled
+values. The quantity of oversampled data is 1 through 24
+to display a scan depth of 1 cm through 18 cm, respec-
+tively, with 200-pixels height and 20-MHz sampling clock
+frequency. Consequently, the chosen equation must show
+good performance in this oversampled range. Therefore,
+neither (3) nor (4) should be used. However, improved (5),
+built from a combination of (2), (3), and (4), gives good
+results and requires almost the same amount of hardware
+as (1) and the one presented in [19]. Nevertheless, due to
+its performance and the LUT complexity (32 elements),
+(1) was chosen for the implementation. Besides, the algo-
+rithm proposed by [19] can be useful when it is not pos-
+sible to build the 1/N LUT.
+	
+I x y I x y
+I x y I x y
+I x y I x y
+I
+5 1 1
+5 2 2 2
+5 3 3 3
+5
+
+ 
+ 
+
+( , ) ( , )
+( , ) ( , )
+( , ) ( , )
+=
+=
+=
+(
+( , ) ( , )
+x y I x y
+k k
+= 4
+
+	 (5)
+where k = 4, 
+5, 
+6, 
+…, 
+N.
+Shared memory used includes 2 main tasks. The first
+task (Transfer-A) concerns data transfer from the ultra-
+sonic processor to memory (A1) and then from memory
+to display unit (A2). The second task (Transfer-B) drives
+data from memory to image interpolation unit (B1) and
+from the later back to memory (B2). The first step to
+761
+levesque and sawan: low-power digital preprocessing architecture for wireless display
+Fig. 4. First architecture version of the integrated ultrasound imaging
+system.
+TABLE II. Hardware Complexity for Each Averaging Algorithm.
+Algorithm Adder Divider Other
+I x y
+1
+ ,
+( ) 1 1 counter (N),
+1 LUT (1/N), 1 multiplier
+1 buffer
+I x y
+2
+ ,
+( ) 1 0 1 buffer
+I x y
+3
+ ,
+( ) 2 0 1 comparator, 1 MUX,
+2 buffers
+I x y
+4
+ ,
+( ) 3 0 2 comparators,
+1 MUX, 3 buffers
+I x y
+5
+ ,
+( ) 3 0 3 comparators,
+3 MUXs, 4 buffers
+[19] 3 1 counter (N),
+1 multiplier (barrel shifter)
+1 comparator,
+2 MUXs, 2 buffers
+Fig. 5. Simulated normalized residual sum of squares of proposed pseu-
+do-average algorithms.
+perform is task A1, then B1 followed by B2, and finally
+A2. Table III presents the targeted PSRAM bus usage in
+asynchronous mode for all types of memory transfer. The
+memory controller manages Transfer-A and Transfer-B
+with 8 priority levels related to FIFO status.
+IV. Experimental Results
+A. System Implementation and Validation
+The proposed PPU architecture was successfully im-
+plemented and tested with the miniaturized ultrasound
+imaging system (Fig. 6). The entire digital part of the
+PPU is integrated within a single Xilinx FPGA (XC-
+3S1500L-FG320) and an external PSRAM (MT45W2M-
+W16BAFB-708, Micron). Table IV summarizes the used
+resources in the FPGA to incorporate the digital process-
+ing unit using the Xilinx ISE WebPACK 9.2.01i design
+tools software. On the other hand, the analog front-end
+and power supplies are implemented with commercially
+available off-the-shelf components. Finally, the images are
+real-time displayed on a 3.6-inch 320 × 240 × 6-bit TFT-
+LCD Color Display Module (LQ036Q1DA01, Sharp Elec-
+tronics, Mahwah, NJ).
+To validate the proposed architecture experimentally,
+real-time B-mode ultrasound images were obtained using
+an ultrasonic general-purpose phantom (Model 040, CIRS,
+Norfolk, VA) and a 12-mm single-element mechanical scan-
+ning 5-MHz 90° sectorial probe (GP2000 5 MHz, Interson)
+having a transducer focus at 8 cm and 85% frequency band-
+width. According to its specification, the best resolutions
+that can be obtained with the GP2000 5-MHz probe are
+1 mm for both axial and lateral resolution.
+Agreeing with our predictions, Fig. 7 shows that (1) and
+the algorithm proposed by [19] give lower noise B-mode
+images compared with images obtained with (2) or (5). In
+fact, the proposed pixel compressor based on (1) or the one
+proposed by [19] removes sufficient high-frequency noise to
+perform a noise smoothing operation that is equivalent to
+apply a low-pass filter to the image. The removed noise
+corresponds to the off-band high-frequency interference
+produced by electronic noise, quantization noise, acoustic
+noise, quadrature demodulator FIR filter band-pass ripple
+[15], and so on. With such reduction of noise, the axial and
+lateral resolutions are enhanced by 0.5 mm, as shown in
+Fig. 7(a), with the same configuration and settings. Such
+762 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 57, no. 3, March 2010
+TABLE III. Targeted Memory Bus Usage in Asynchronous Mode.
+Transfer identification
+Payload
+(Mb/s)
+Bus width
+(bits)
+Burst
+length Required cycles1
+% Bus
+utilization2
+Transfer-A3 A1 5.9 8 1 13 
+824 
+000 17.28
+A24 8.8 16 16 6 
+048 
+000 7.56
+Total for Transfer-A 19 
+872 
+000 24.84
+Transfer-B5 B1 8.8 16 16 6 
+048 
+000 7.56
+B2 8.8 16 1 10 
+036 
+800 12.55
+Total for Transfer-B 10 
+972 
+800 20.11
+Total: Transfer-A + Transfer-B 31 
+968 
+000 44.95
+1Number of cycles in asynchronous mode: 10 cycles per data and 8 cycles per burst.
+2Related to 80 000 000 cycles per second (clock at 80 MHz).
+3Data transfer from the ultrasonic processor to memory (A1) and then from memory to digital RF unit (A2).
+4The transfer from memory to the digital RF unit in Fig. 2 is equivalent to the transfer from memory to the
+display controller unit in Fig. 4.
+5Data transfer from memory to image interpolation unit (B1) and then from the later back to memory (B2).
+Fig. 6. Photographs of the imaging system: (a) the whole platform, (b)
+PCB top side showing the FPGA and the PSRAM, and (c) PCB bottom
+side showing the LCD.
+improvement increases the axial and lateral resolutions for
+about 33% and 25%, respectively. Lateral resolution was
+measured as the full-width-at-half maximum (FWHM)
+of resolution target of the ultrasound phantom at focus
+(8 cm), and its axial resolution was also measured with the
+same resolution target at 8 cm. Obtained axial and lateral
+resolutions are, respectively, 1 mm and 1.5 mm. On the
+other hand, Fig. 8 presents examples of real-time zoomed
+B-mode images obtained through the adaptive hardware-
+based decimation performed by the pixel compressor. Note
+that the Moiré pattern in Fig. 7 and Fig. 8 is normal be-
+cause no image interpolation was applied to fill in missing
+data between 2 ultrasonic lines to evaluate the real impact
+of the proposed pseudo-average algorithm. However, there
+are no missing pixels on each ultrasonic line, because the
+pixel compressor adapts the subsampling rate to the dis-
+763
+levesque and sawan: low-power digital preprocessing architecture for wireless display
+TABLE IV. Device Utilization Summary for the XILINX 3s1500lfg320–4 FPGA.
+Digital processing unit
+Slices
+BRAMs MULT18 ×18s
+LUT FF Total
+Ultrasonic processor 7951 2509 4473 0 12
+     Pixel compressor (1)1 116 74 65 0 1
+     Pixel compressor (2) 79 55 45 0 0
+     Pixel compressor (5) 236 82 127 0 0
+     Pixel compressor [15] 218 98 121 0 1
+Memory controller 682 308 354 0 0
+Display controller 562 57 302 0 3
+Image interpolation 616 302 334 0 0
+System controller 1307 677 716 0 0
+4 FIFOs 469 222 265 8 0
+Total2 11 
+587 4075 6444 8 15
+System synthesis3 11 
+536 4118 6303 8 15
+1Pixel compressor (1) is included in the ultrasonic processor module.
+2Total resources utilization by all units (independent synthesis of each unit).
+3Resources utilization by the digital processing unit (synthesis of all units together as a system).
+Fig. 7. LCD photographs of experimental ultrasonic B-mode images obtained by the proposed miniaturized system with algorithm based on (a)
+equation proposed by [19], (b) (1), (c) (2), and (d) (5).
+play resolution, scan depth, and sampling frequency. In ad-
+dition, Fig. 9 shows interpolated images.
+B. Wireless Data Transfer Architecture Validation
+Obtained memory bus average utilization is 42% for
+a frame period and bus peak utilization is 58%, which
+occurs during displayed line periods. The display control
+unit, which emulates the RF unit, requires a memory bus
+usage peak of 24% during each display line and drops to
+0% between them. In fact, the 240 displayed line periods
+are spread and use only 33% of the total available time
+slot, which makes the display control unit use the memory
+bus during 8% of the time on a full-frame period. Because
+wireless communication can be uniformly distributed over
+time, memory bus peak usage would be lower with the real
+RF unit. In addition, because only the interpolated data
+in the image zone are transferred to the shared memory
+by the image interpolation unit, the bus utilization for
+transfer-B2 is reduced, depending on the shape of the im-
+age, by about 20%.
+On the other hand, with synchronous transfer, bus utili-
+zation would be considerably reduced because the number
+of cycles per data can be reduced from 10 to 1 (discount-
+ing collisions between refresh operations and row bound-
+ary crossings). Synchronous transfer enables use of very
+low power wireless technology. In fact, a data compression
+unit (image or video) can be used to reduce wireless data
+rate requirement.
+C. Power-Performance Results
+Table V presents the total power requirements for
+all system parts, which is measured at 2.36 W, includ-
+ing 500 mW for the probe motor and 600 mW for the
+TFT-LCD. The processing core, FPGA, and memory use
+102 mW, or 4.3% of the overall power budget. Only 16.8%
+of the total power is consumed by the hardware-based
+digital ultrasound preprocessing core. This would be less
+if implemented with an ASIC, because FPGA static power
+is high and accounts for 40% of the FPGA power con-
+sumption for this architecture.
+In order to compare the power-performance ratio of
+proposed architectures, equivalences must be determined.
+In fact, a benchmark is a point of reference for a measure-
+ment and provides a method of comparison for computer
+764 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 57, no. 3, March 2010
+Fig. 8. LCD photographs of experimental ultrasonic B-mode images obtained by the proposed miniaturized system: (a) 1 cm to 4 cm and (b) 2 cm
+to 10 cm.
+Fig. 9. LCD photographs of experimental interpolated ultrasonic B-mode images obtained by the proposed miniaturized system: (a) 0 cm to 10 cm
+and (b) 2 cm to 10 cm.
+system performance [24], [25]. Due to the complexity of
+comparing different architectures [26], [27], Dhrystones 2.1
+MIPS (DMIPS) is used as a baseline CPU benchmark. Run-
+ning at 500 kIPS, the VAX-11/780 achieves 1757 Dhrys-
+tones per second and is defined as the reference 1 MIPS in
+Dhrystones 2.1. Although the Dhrystones benchmark may
+not be the ideal reference, for historical purpose, scores
+are almost always available for each CPU and can be used
+as approximate performance evaluations.
+To find an approximated Dhrystones equivalent score
+for the proposed hardware-based ultrasound processor, a
+comparison with a software-based system (SV1, Scanview)
+implemented with an Intel Pentium MMX 200 MHz pro-
+cessor (~170 DMIPS) is performed [28]. Three major dif-
+ferences between these 2 implementations are used to find
+a conversion ratio. The proposed architecture processes
+256 real ultrasonic lines at 20 MS/s compared with 120
+real ultrasonic lines at 16 MS/s for the reference software-
+based system. The FPS is also different. For 10-cm depth,
+the proposed architecture theoretically allows processing
+30 FPS (limited by the speed of ultrasound), but the refer-
+enced software-based system completes processing at 12.8
+FPS when its postprocessing is disabled. It is important
+to mention that the SV1 scanner uses the same probe
+as the proposed system, and it generates similar B-mode
+ultrasound images [15]. Consequently, with a conversion
+ratio of 6.25, the proposed ultrasonic processor score is
+53.15 DMIPS/MHz, which gives 1063 DMIPS at 20 MHz
+and 5315 DMIPS at 100 MHz. In addition, the reference
+software-based system requires 25% additional processing
+resources when its postprocessing interpolation is enabled.
+Because the hardware-based image interpolation module
+uses the same algorithm complexity as the reference, a
+score of 42.5 DMIPS to this process can be obtained.
+On the other hand, Intel 486DX2/66, Intel Pentium Pro,
+AMD Athlon XP, and Intel Pentium III x86-based proces-
+sors have conversion ratios between MIPS and DMIPS of
+0.648, 0.578, 0.600, and 0.589, respectively. Consequently,
+with an approximated MIPS-DMIPS conversion ratio of
+0.6, the proposed ultrasonic processor performs an x86
+equivalent 89 MIPS/MHz, which agreed with our approxi-
+mation.
+Finally, to illustrate the good power-performance ra-
+tio of the proposed hardware-based PPU, Table VI shows
+performance and power requirement of software-based ar-
+chitectures implemented with embedded systems, soft-core
+765
+levesque and sawan: low-power digital preprocessing architecture for wireless display
+TABLE V. Power Budget of the Overall Ultrasound Imaging System.
+Unit
+System power
+% Subsystem
+power
+% System
+power
+Dynamic
+(mW)
+Static
+(mW)
+Total
+(mW)
+Display (TFT-LCD) 600 25.4
+Probe (mechanical) 500 21.2
+High-voltage 15 0.6
+Analog 850 36.0
+Digital 397 16.81
+  FPGA core (1.2 V) 40 55 95 23.9 4.0
+  PSRAM core (1.8 V) 6.85 0.15 7 1.8 0.3
+ Digital IOs (3.3 V) 120 10 130 32.7 5.5
+  FPGA DCM (2.5 V) 75 90 165 41.6 7.0
+Total 2362 100
+1Comprises the 4 components listed below.
+TABLE VI. Power and Performance of Different Architectures.
+Proposed
+ultrasonic
+processor
+(20 MHz)
+Proposed
+ultrasonic
+processor
+(100 MHz)
+Image
+inter.
+unit
+PowerPC
+405EP1
+Xilinx Microblaze2
+(v.7.00)
+Altera NIOS II3
+(v6.1 /f)
+Tensilica Diamond
+(570T)
+DMIPS
+Dhrystone 2.1
+10634 53154 42.54 404 132 165 617
+Freq (MHz) 20 100 20 266 100 135 380
+Power (mW) 72.255 1635 3.755 4000 336 129 58.46
+Dynamic 315 1215 15 — 132 64 —
+Static 41.255 427 2.758 — 203 65 —
+1Kontron EB405.
+25 stages pipeline, XC3S1600E-5, Core, UART, and Timer, 50% toggle rate, XPower Estimator (XPE) 9.1.03.
+3Cyclone III, Core, UART, Timer and SDRAM controller, 50% toggle rate, Altera PowerPlay Early Power Estimator V7.2 SP1.
+4Estimated.
+5Xpower Estimator (XPE) 10.1.03.
+6CPU only.
+775% of total FPGA core static power (55 mW at 20 MHz and 56 mW at 100 MHz).
+85% of total FPGA core static power (55 mW).
+and hard-core processors. With its power consumption of
+3.75 mW, the power-performance ratio of the image inter-
+polation unit is 11.3 DMIPS/mW. With such ratio, the
+interpolation can be performed efficiently by the hard-
+ware-based digital PPU. On the other hand, the power-
+performance ratios of the proposed ultrasound processor
+are 14.7 DMIPS/mW and 32.6 DMIPS/mW at 20 MHz
+and 100 MHz, respectively. In addition, when using a sam-
+pling rate at 20  MHz, the obtained power-performance
+ratio of the proposed ultrasound processor is similar to
+high-performance hard-core processors, although, when
+operating at 100 MHz, its power-performance ratio can-
+not be achieved with software-based architecture using the
+fastest processing platforms. Note that these numbers are
+only for order-of-magnitude comparison and are used for
+guideline. For example, 2 ultra-high-performance RISC
+CPU cores would be needed to build an embedded hard
+core software-based architecture, which would require 36%
+more power than the proposed ultrasonic processor run-
+ning at 20 MHz. At a sample rate of 100 MHz, the pro-
+posed ultrasonic processor can be compared with a paral-
+lel architecture that used 9 ultra-high-performance RISC
+CPU cores, which would require 297% more power.
+V. Conclusion
+We presented the design and implementation of a new
+ultrasound imaging system architecture that is built for
+a wireless data link instead of conventional cable con-
+necting the probe to the image processor. The digital ar-
+chitecture is completely implemented in a single low-cost
+FPGA and an external PSRAM. Both the adaptive hard-
+ware-based decimation unit and the memory dynamic pri-
+ority assignment controller demonstrate the feasibility of
+such architecture. In addition, with 53.15 DMIPS/MHz,
+the ultrasound processor presents a good performance
+compared with software solutions. In addition, with its
+image interpolation unit and its ultrasound processor,
+the processing core of the proposed hardware-base digi-
+tal PPU shows power-performance ratios of 26 DMIPS/
+mW and 43.9 DMIPS/mW at a 20-MHz and 100-MHz
+sample frequency, respectively. Furthermore, when imple-
+mented as described here, the proposed architecture can
+be incorporated in a high-frequency ultrasound imaging
+device, because its fully pipelined architecture operates
+at the same frequency, up to 100 MHz (the maximum
+operation frequency of used FPGA), and has the same
+frequency as the sampling clock of the ultrasound signal.
+Finally, the architecture was validated by the acquisi-
+tion of experimental signals and images using a 5-MHz
+single-element piezoelectric transducer and a reference
+ultrasound phantom. Experimental B-mode images show
+that the proposed adaptive subsampling method enhanc-
+es the lateral and axial resolutions by 25% and 33%,
+respectively. Note that equivalent circuits of the piezo-
+electric array, PPU, and RF unit can be integrated in a
+single system-on-chip (SoC) device, leaving room in the
+transducer for a battery pack. Finally, desktop, laptop,
+and ultra-mobile PC and customized systems are a few
+of the possibilities for the application of the powerful
+postprocessing unit, which can be integrated within the
+remote display panel.
+Acknowledgments
+This works is being done under the Canada research
+chair on smart medical devices. The authors would like to
+thank Virginie Simard for her contribution to the develop-
+ment of the VHDL system.
+References
+[1]	C. R. Hill, J. C. Bamber, and G. R. ter Harr, “Physical principles of
+medical ultrasonics,” 2nd ed. Hoboken, NJ: Wiley, 2004, p. 511.
+[2]	 M. I. Fuller, K. Ranganathan, S. Zhou, T. N. Blalock, J. A. Hossack,
+and W. F. Walker, “Experimental system prototype of a portable
+low-cost, C-scan ultrasound imaging device,” IEEE Trans. Biomed.
+Eng., vol. 55, no. 2, pp. 519–530, 2008.
+[3]	H.-C. Kim, J.-H. Sim, H.-Y. Sohn, and T.-K. Song, “An optimized
+software-based echo-processing algorithm for small scale ultrasound
+systems,” in Proc. IEEE Ultrasonics Symp., 2004, vol. 3, pp. 2053–
+2056.
+[4]	N. Dutt and K. Choi, “Configurable processors for embedded com-
+puting,” Computer, vol. 36, pp. 120–123, 2003.
+[5]	 M. Schlett, “Trends in embedded-microprocessor design,” Comput-
+er, vol. 31, no. 8, pp. 44–49, 1998.
+[6]	H. S. Han, J. Cho, J. H. Song, G. D. Kim, T.K. Song, K. S. Kim,
+“A hand-held ultrasound imaging system for point-of-care applica-
+tions,” in Proc. IEEE Ultrasonics Symp., Oct. 2–6, 2006, pp. 1099–
+1102.
+[7]	S.-W. Yang, H.-C. Yoon, J. Cho, S.-B. Kye, and T.-K. Song, “A
+mobile medical device for point-of-care applications,” in Proc. Ultra-
+sonics Symp., Nov. 2–3, 2008, pp. 1346–1349.
+[8]	C.-H. H. Hu, X.-C. Xu, J. M. Cannata, J. T. Yen, and K. K. Shung,
+“Development of a real-time, high-frequency ultrasound digital
+beamformer for high-frequency linear array transducers,” IEEE
+Trans. Ultrason. Ferroelectr. Freq. Control, vol. 53, pp. 317–323, Feb.
+2006.
+[9]	C.-H. Hu, K. A. Snook, X.-C. Xu, J. T. Yen, and K. K. Shung,
+“FPGA based digital high frequency beamformers for arrays,” in
+Proc. IEEE Ultrasonics Symp., 2004, vol. 2, pp. 1347–1350.
+[10]	H. Lay and G. Lockwood, “A 64-channel beamformer for 50 MHz
+linear arrays,” in Proc. IEEE Ultrasonics Symp., Oct. 28–31, 2007,
+pp. 28–31.
+[11]	S. I. Nikolov, J. A. Jensen, and B. G. Tomov, “Fast parametric
+beamformer for synthetic aperture imaging,” IEEE Trans. Ultrason.
+Ferroelectr. Freq. Control, vol. 55, pp. 1755–1767, Aug. 2008.
+[12]	H.-C. Kim, J.-H. Sim, H.-Y. Sohn, and T.-K. Song, “An optimized
+software-based echo-processing algorithm for small scale ultrasound
+systems,” in Proc. IEEE Ultrasonics Symp., 2004, vol. 3, pp. 2053–
+2056.
+[13]	J. Ophir and N. F. Maklad, “Digital scan converters in diagnostic
+ultrasound imaging,” Proc. IEEE, vol. 67, pp. 654–664, 1979.
+[14]	J. D. Owen, “A comparison of wide bandwidth quadrature demodu-
+lators using computer modeling,” Radar, vol. 97, pp. 506–511, Oct.
+1997.
+[15]	P. Levesque and M. Sawan, “Real-time hand-held ultrasound medi-
+cal-imaging device based on a new digital quadrature demodulation
+processor,” IEEE Trans. Ultrason. Ferroelectr. Freq. Control, vol. 56,
+pp. 1654–1665, Aug. 2009.
+[16]	J. M. P. Langlois, D. Al-Khalili, and R. J. Inkol, “A high perfor-
+mance, wide bandwidth, low cost FPGA-based quadrature demodu-
+lator,” in IEEE Conf. Electrical and Computer Engineering, vol. 1,
+pp. 497–502, 1999.
+766 IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 57, no. 3, March 2010
+[17]	I. Furukawa, J. Suzuki, and S. Ono, “Required quantizing resolution
+for perceptually linearized medical x-ray images on display moni-
+tor,” Syst. Comput. Japan, vol. 34, no. 5, pp. 14–24, 2003.
+[18]	Digital Imaging and Communications in Medicine (DICOM)—Part
+14: Grayscale Standard Display Function, National Electrical Manu-
+facturers Association, Rosslyn, VA, 2007, p. 55.
+[19]	J. C. Majithia, “Fast algorithms for continuous estimation of mean
+value of a random variable,” Electron. Lett., vol. 7, no. 20, pp. 626–
+628, 1971.
+[20]	A. A. Jerraya and W. Wolf, Multiprocessor Systems-On-Chips. San
+Francisco, CA: Elsevier, 2005, p. 581.
+[21]	T. Janik, E. Liau, H. Lorenz, M. Menke, E. Plaettner, J. Schwe-
+den, H. Seitz, and E. Vega-Ordonez, “A 1.8V p(seudo)SRAM us-
+ing standard 140nm DRAM technology with self adapting clocked
+standby operation,” in Proc. ISCAS 2006, May 2006, pp. 4143–
+4146.
+[22]	S.-P. Liu, C.-T. Wang, C.-H. Lee, and W. Wang, “Miniaturized
+WiFi system module using SiP/IPD for handheld device applica-
+tions,” in Proc. IMPACT 2007, Oct. 2007, pp. 146–148.
+[23]	R. Chebli and M. Sawan, “Fully integrated high-voltage front-end
+interface for ultrasonic sensing applications,” IEEE Trans. Circ.
+Syst., vol. 54, pp. 179–190, 2007.
+[24]	W. J. Price, “A benchmark tutorial,” IEEE Micro, vol. 9, no. 10, pp.
+28–43, 1989.
+[25]	A. R. Weiss, “Dhrystone benchmark: History, analysis, ‘scores’ and
+recommendations white paper,” EC/LLC p. 14, Nov. 2002.
+[26]	P. Lapsley and G. Blalock, “How to estimate DSP processor perfor-
+mance,” IEEE Spectr., vol. 33, no. 7, pp. 74–78, 1996.
+[27]	A. Ray, T. Srikanthan, and W. Jigang, “Practical techniques for
+performance estimation of processors,” in Proc. Systems-on-Chip for
+Real-Time Applications 2005, Jul. 2005, pp. 308–311.
+[28]	A. Ray, T. Srikanthan, and W. Jigang, (2009, July 5). Intel Pen-
+tium MMX 200—CPU Information and Benchmarks.” [On-
+line]. Available: http://www.cpu-world.com/CPUs/Pentium/
+Intel-Pentium%20MMX%20200%20-%20FV80503200.html
+Philippe Levesque was born in Rouyn-Noranda,
+Québec, Canada, in 1977. He received the B.Eng.
+and M.Eng. degrees in electrical engineering from
+Ecole Polytechnique de Montréal in 2000 and
+2004, respectively, and is currently a Ph.D. candi-
+date. From 2000 to 2003, he worked at Kontron
+Canada in the R&D department, and in 2006, he
+launched Kyvox Technologies, an R&D electronic
+systems company. His research interests include
+mixed-signal embedded system, real-time signal
+processing, and ultrasound medical imaging.
+Mohamad Sawan (S’88–M’89–SM’96–F’04) re-
+ceived a Ph.D. degree from Université de Sher-
+brooke, Sherbrooke, QC, Canada, in 1990, in elec-
+trical engineering. He joined Ecole Polytechnique
+de Montréal in 1991, where he is currently a pro-
+fessor in microelectronics and biomedical engi-
+neering. His scientific interests are the design and
+test of mixed-signal circuits and systems, digital
+and analog signal processing, modeling, integra-
+tion, and assembly. He holds the Canada Research
+Chair in Smart Medical Devices, and he is leading
+the Microsystems Strategic Alliance of Quebec (ReSMiQ). He is editor of
+the Mixed-Signal Letters and associate editor of the Transactions on
+Biomedical Circuits and Systems. Dr. Sawan received the Barbara Turn-
+bull 2003 Award for spinal cord research, the Medal of Merit from the
+President of Lebanon, the Bombardier Medal of Merit from the French
+Canadian Association for the Advancement of Sciences, and the Ameri-
+can University of Science and Technology Medal of Merit. Dr. Sawan is
+a fellow of the IEEE, the Canadian Academy of Engineering, and the
+Engineering Institutes of Canada. He is also an officer of the National
+Order of Quebec.
+767
+levesque and sawan: low-power digital preprocessing architecture for wireless display
+

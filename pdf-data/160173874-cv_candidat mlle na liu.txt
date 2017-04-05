@@ -1,0 +1,51 @@
+CURRICULUM VITAE
+Na LIU
+Chez M. William BAUCHAU Née le 20 décembre 1988
+328, rue Saint-Jacques Email : annaliu.iris@hotmail.com
+75005 Paris, France Portable : +33 7 62 64 69 71
+EXPÉRIENCE EN RECHERCHE SCIENTIFIQUE :
+10/2012--12/2014 : Ingénieur biomédical, 2 ans, Institut Langevin, ESPCI/CNRS/INSERM, Paris, France
+ Développement de nouveaux algorithmes d’imagerie par ultrasons ou échocardiographie.
+ Amélioration de la thérapie cérébrale ultrasonique guidée par IRM avec l’entreprise Supersonic Imagine.
+ Traitement de données d’échographie abdominale du foie des bébés à l’Hôpital Bicêtre.
+09/2010--08/2011: R&D Ingénieur, 1 an, Jason biotechnologie Co., Ltd, Shanghai, Chine
+ Développent d’un moniteur ECG avec électrodes de surface corporelle programmé en C.
+ Participation à un projet de transmission sans fil, construction d’un modèle animal.
+09/2009--08/2010 : Assistant de recherche, 1 an, Med-X institut, Université Jiao Tong de Shanghai, Chine
+ Etude sur l'imagerie médicale par rayonnement synchrotron: chef d’une équipe de 3 personnes, responsable
+de la planification d'expériences, de l'analyse des données et de la rédaction du rapport.
+ Etude sur l’effet d’un médicament sur les lésions cérébrales induites par l'hypoxie ischémique.
+ Injection intra-nasale de sonde fluorescente Cy5.5: suivi de médicament par Micro-CT, PET
+EXPÉRIENCE EN COMMUNICATION, GESTION ET VENTE:
+09/2011-04/2012: Assistant administratif, 8 mois, Bristol-Myers Squibb, Shanghai, Chine
+ Correspondances email, téléphone, courrier (réception, réponse, transmission).
+ Classement, archivage (papier et électronique) au sein du département cardiologie.
+ Gestion de l’agenda, Centralisation et classement des contacts.
+06/2010-08/2010: Enseignant Chinois, 3 mois, Université de JiaoTong , Shanghai, Chine
+ Enseignante de langue chinoise à l’Institut d'éducation internationale
+ Echange avec des étudiants de l’Université du Michigan
+09/2006-08/2007 : Vendeuse de journaux en anglais (porte à porte), 1 an, Université de Zhengzhou, Chine
+ Vente et promotion d’un journal : le China Daily - 21st Century au sein de l’Université
+ Ecouter, chercher l’intérêt des clients, et négocier avec des clients différents afin de les convaincre.
+ACTIVITÉS BÉNÉVOLES:
+ Directrice du département de la culture et de la communication à destination des anciens élèves d’Université
+Jiao Tong de Shanghai (SJTU) en France (2012-présent)
+ Promotion du 50e anniversaire des relations franco-chinoises (04/2014-12/2014)
+ Bénévole au "2011 SJTU-KTH Symposium conjoint" (10/10/2011-12/10/2011)
+ Assistant de technologie du "forum 2011 des imageries médicales" à Shanghai (14/04/2011-15/04/2011)
+ Bénévole à la célébration du 30e anniversaire de l’ouverture du département biomédical de l’Université Jiao
+Tong (26/12/2011-27/12/2011)
+ Collaboratrice au journal de l'école de l'Université de Zhengzhou (2005-2008)
+FORMATION :
+2009--2012 : Master d’ingénierie biomédicale,
+École des sciences de la vie et de biotechnologie, Université Jiao Tong de Shanghai, Chine
+2005--2009 : Diplôme d’ingénierie (grade licence), Spécialité biomédicale,
+École du génie électrique, Université de Zhengzhou, Chine
+2002--2005 : Gao Kao (équivalant bac) spécialité science et technologie,
+Premier Lycée de Shangqiu, Chine
+LANGUES ET COMPÉTENCES INFORMATIQUES :
+ Chinois (mandarin) : Langue maternelle
+ Anglais : Bilingue, TOEFL: 102/120 Points, GRE: 1180 (V: 500, Q: 680, AW: 3.5)
+ Français : Courant (Cours de FLE, B2)
+ Pack Office (Word/Excel/ PowerPoint/Outlook), Python, illustrator, MatLab, Labview, VB, LaTeX , C, C++
+

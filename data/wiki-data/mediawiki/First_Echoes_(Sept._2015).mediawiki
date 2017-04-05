@@ -1,0 +1,42 @@
+# First Echoes (Sept. 2015)
+
+[[Category:Electronics]] [[Category:Emission]] [[Category:Hardware]]  [[Category:Emile]]
+
+== Setup ==
+
+== Echo 0 - Using Red ==
+=== Pictures ===
+
+<gallery>
+File:Echo-0 Paillasse.JPG
+</gallery>
+
+<gallery>
+File:Echo-0 full signal.png
+File:Echo-0 echo signal.png
+File:Echo-0 detail.png
+</gallery>
+
+=== Details ===
+
+== Echo 1 - Using Yellow ==
+=== Pictures ===
+Documenting the workspace
+<gallery>
+File:Echo 1 - Paillasse Overall.jpg
+File:Echo 1 - Paillasse ScopePlugs.jpg
+</gallery>
+
+Finding the pulse
+<gallery>
+File:Echo 1 - Overall Signal.png
+File:Echo 1 - Locating the pulse A.png
+File:Echo 1 - Locating the pulse B.png
+File:Echo 1 - Pulse.png
+</gallery>
+
+Slightly moving the transducer, the echo changes of position.
+<gallery>
+File:Echo 1 - Position 1.png
+File:Echo 1 - Position 2.png
+</gallery>

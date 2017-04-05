@@ -1,0 +1,403 @@
+1-3 Piezo Composites & Transducers
+for Ultrasound Applications
+Arrange&Fill 1-3 Piezo Fiber Composites
+Dice&Fill 1-3 Piezo Composites
+for SONAR, NDT, MEDICAL
+Transducer Design Services
+www.smart-material.com
+What is a
+1-3 Piezo Composite?
+1-3 Piezo Composites have become the
+material of choice for many high perfor-
+mance ultrasound transducer since
+invented by R.E. Newnham and L.E. Cross in
+the late1970's .
+A variety of piezocomposite materials can
+be made by combining piezo ceramic
+elements with a polymer. Piezo composites
+are classified according to their connectivi-
+ty, defined as the number of dimensions
+through which the material is continuous.
+It is conventional for the first digit to refer
+to the piezoelectrically active phase.
+Prof. Newnham defined the family of
+interconnectivity of piezo electric compos-
+ites as shown in the schematics. Today, the
+majority of piezo composites on the
+market are with the 1-3 and 2-2 connec-
+tivity used in ultrasound transducers,
+actuators and sensors.
+Piezo composite materials offer additional
+design parameters over bulk piezo ceram-
+ics. Major acoustic parameters such as
+acoustic impedance, bandwidth, receiver
+sensitivity or electric source capacitance
+can now be easily adjusted by combining
+different piezo ceramic and polymer mate-
+rials with different fill factors.
+Furthermore, due to the uniaxial dimen-
+sions of the piezo electric material, phase
+lateral clamping effects, sometimes
+referred to as lateral modes, can be
+minimized which allows for much higher
+coupling coefficients compared with
+monolithic transducer elements.
+Pictures and graphs ©, courtesy
+Fraunhofer IKTS; S. Gebhardt
+Piezo Composite Benefits - higher coupling coefficients
+- better sensitivity
+- adjustable acoustic impedance
+- built-in bandwidth enhancement
+- suppressed lateral modes
+Arrange & Fill Technology
+Piezo Fiber Composites
+Smart Material manufactures piezo
+electric 1-3 composites using up to
+150mm long piezo fibers as active
+rods.
+Our piezo ceramic fibers are manu-
+factured using a textile spinning
+process.
+Next the 1-3 piezo fiber composites
+are prepared by epoxy infiltration of
+fiber bundles and cutting of the
+plate-shaped slices perpendicular
+to the direction of the fibers. This
+unique and patented method is also
+called Arrange & Fill.
+Due to this special manufacturing
+process the Arrange & Fill tech-
+nology offers both a random fiber
+distribution as well as composite
+elements with a regularly distribut-
+ed fiber pattern.
+The overview in the table below lists
+the most common combinations of
+the various fiber diameters,
+frequency range, fill factor and type
+of rod distribution.
+All composites are available either
+in Ceramtec’s SP505 or SP53 piezo
+ceramic material.
+Random Fiber Distribution
+Regular Fiber Distribution
+random regular
+frequency range 40kHz … 10MHz 40kHz … 1MHz
+available fill factors ∅ 800µm fiber 80%*
+∅ 250µm fiber 65%*
+∅ 105µm fiber 35%*
+∅ 800 µm fiber 25% ... 48%
+acoustic impedance ~14 … 24 MRayl ~9 … 16 MRayl
+coupling coefficient ~0.65 ~0.65
+maximum dimensions 60mmx60mm 60mmx60mm
+max. temperatures 100°C (130°C HT version) 100°C (130°C HT version)
+matrix material Epoxy / Polyurethane Epoxy / Polyurethane
+available electrodes 1.5µm CuSn ≤ 5MHz ≤ 800nm Au 1.5µm CuSn
+* fiber diameter & fill factor depend on frequency
+Arrange&Fill Trade-Offs:
+- element-to-element variation
+- reduced PZT properties in fiber
+compared with bulk piezo ceramic
+material
+Arrange&Fill Advantages:
++ low frequencies possible
++ only minor lateral modes
++ spurious mode suppression
++ 3D shaping possible
++ cost efficient mass production
+Dice&Fill Technology
+Dice&Fill method
+frequency range 500kHz … 10MHz
+available fill factors 45% ... 65%
+acoustic impedance ~18 … 22 MRayl
+coupling coefficient ~0.68
+maximum dimensions 30mmx30mm / 80mmx80mm
+max. temperatures 100°C (130°C HT version)
+matrix material Epoxy / Polyurethane
+available electrodes 1.5µm CuSn ≤ 5MHz ≤ 800nm Au
+-
+Dice&Fill Trade-Offs:
+- not for low frequencies < 500kHz
+- spurious or lateral modes may occur
+- expensive mass production
+Dice&Fill Advantages:
++ low element-to-element tolerance
++ only minor lateral modes
++ adjustable fill factors
++ variable pixel patterns (shading)
+Smart Material utilizes the Dice&Fill
+method as the second production line to
+manufacture 1-3 composites.
+Currently, the Dice&Fill method is the
+industry standard for manufacturing 1-3
+piezo composites. For more than 3
+decades now, Dice&Fill methods have
+mainly been used for frequencies above
+1MHz, especially for medical ultrasound
+and NDT, including phased arrays for
+imaging transducers. 1-3 Dice&Fill piezo
+composites are prepared by dicing a
+piezoceramic plate into an orthogonal
+array, cutting 80%-90% into the plate
+thickness. The pitch (distance between
+rods) must be very small.
+For a 5MHz resonance frequency, for example, it
+is typically near 100um to avoid lateral and
+grating modes The kerfs or trenches are filled
+with an epoxy or other polymer material. After
+the interstitial material has cured, the uncut
+side of the ceramic is grinded down to the rod
+structure and the thickness is adjusted to the
+desired resonance frequency. This yields a regu-
+lar pixel or rod distribution, which is required
+for phased array ultrasound transducers.Dice&-
+Fill composites are available in APC’s 840, 850
+or CTS 3203HD piezo ceramic materials.
+Advanced Ultrasound
+Transducers & Arrays
+3D shaped elements transducer casting and housing broadband transducers
+Manufacturing of complex ultrasound transducers elements
+The unique capabilities of the Arrange &
+Fill technology, featuring fiber length
+(rod) off up to 150mm, enables us to
+manufacture complex, 3-dimensional,
+and even curved transducer elements.
+Smart Material’s fully equipped,
+in-house workshop can handle most
+any shapes that our customers request.
+At Smart Material we provide a
+complete vertical manufacturing service
+for complex ultrasound transducers.
+This includes piezo composite element
+production, machining of backing and
+matching layers, assembling of the final
+water proof casting or housing of the
+transducer.
+Smart Material also offers the develop-
+ment, production and assembly of
+suitable backing and matching materials
+for our piezo composite materials.
+This enables an increased bandwidth
+and reduces insertion losses into the
+target medium.
+Highly sensitive sonar systems require
+both multiple elements arranged as an
+array and a composite design that
+allows for an elastic deformation due to
+the incoming pressure wave.
+At Smart Material we use micro spheres
+filled polymers in combination with a
+sophisticated assembling to meet these
+product requirements successfully.
+Furthermore, Smart Material is able to
+provide complex assembling services for
+array modules in a plane or curved
+configuration. In cooperation with our
+customers we develop suitable technol-
+ogies, manufacturing tools and offering
+innovative wiring technologies which
+are often used in other in-house prod-
+ucts.
+This is especially useful very low
+frequency applications, most of which
+often require transducer designs that
+are typically incompatible with design
+space or voltage limitations of the
+amplifiers. As a result Smart Material
+also offers new composite material
+approaches (2-2 composite) to increase
+the overall efficiency of low frequency
+applications.
+Manufacturing of complex ultrasound transducers elements
+Curved phased array
+Linear receiver arrays Low frequency array solutions
+Piezo electric materials
+available for Arrange&Fill and Dice&Fill
+Arrange & Fill
+Technology 1
+Dice & Fill
+Technology
+Piezo Characteristics Symbol Unit SP505 SP53 840 850 3203 HD
+DoD Standard 1376A (SH) Type II Type VI Type I Type II Type VI
+Electrical Properties
+Permittivity @1kHz ε33
+T
+/ε0 1850 3600 1274 1900 3800
+Dielectric dissipation factor @1kHz tan δ 0.015 0.016 0.006 ≤0.02 0.02
+Curie temperature TC °C 335 215 325 360 235
+Electromechanical Properties
+Coupling factors Kp
+k31
+k33
+kt
+k51
+0.65
+0.33
+0.73
+0.53
+0.71
+0.65
+0.38
+0.74
+0.51
+0.73
+0.59
+0.35
+0.72
+0.70
+0.63
+0.36
+0.72
+0.68
+0.75
+0.43
+0.75
+0.55
+0.78
+Piezoelectric charge coefficients d33
+-d31
+d15
+10-12 C
+/N 475
+180
+670
+680
+275
+770
+290
+125
+480
+400
+175
+590
+650
+320
+Piezoelectric voltage coefficients g33 10-3 Vm
+/N 28.5 20.2 26.5 24.8 19.0
+Frequency constants NL
+NT
+NP
+kHz·mm 1360
+1880
+2010
+1420
+1890
+1960
+1524
+2005
+2130
+1500
+2040
+1980
+2020
+Mechanical properties
+Compliance S11
+E
+S33
+E
+10-12 m²
+/N 17.9
+24.0
+15.8
+22.9 15.26 18.1
+16.6
+21.0
+Stiffness C33
+D
+C55
+D
+1010 N
+/m² 14.7
+4.0
+15.2
+6.1
+13.6 11.5 11.0
+Mechanical Quality Factor Qm 80 75 500 80 30
+Vendor
+The listed piezo ceramic materials are the standard materials used by Smart Material for the var-
+ious technologies. Material specifications are for bulk piezo ceramic materials as published by
+the respective manufacturer.
+Other Piezo Ceramic materials are available on request and are treated as custom orders.
+1
+PZT fibers (Arrange & fill Technology) do not achieve full bulk material properties due to the fiber manufacturing process and the
+small dimensions. PZT fibers normally achieve between 65% to 75% of typical bulk material characteristics.
+1-3 Composite related Questions
+Q: What type of electrodes are available for 1-3 Piezo Composite?
+A:
+How do I connect wires to electroded 1-3 composites?
+Q:
+A:
+-
+What solders should I use? What is a good solder procedure?
+Q:
+A:
+-
+Q: Can I glue wires to an electroded 1-3 composites?
+A:
+What is the difference between “dice-and-fill” and “arrange-and-fill” manufacturing methods?
+Q:
+A:
+-
+We offer Copper-Tin (CuSn), Gold (Au) or Silver (Ag) electrodes for our 1-3 composites. All electrodes are
+applied using a vacuum deposition process and range between 700nm and 1.2 µm in thickness.Our standard
+electrode is the copper-tin electrode which combines cost effectivness with electrical properties similar to
+gold. Soldering wires to CuSn is much easier compared to gold. Our CuSn-electrode is about 1µm thick with
+a 500 nm tin-coating as a protective layer to prevent the copper from corroding.
+Most customers report successful soldering of wires to the 1-3 composites using a low temperature solder.
+Special care should be taken when soldering on a 1-3 composites due to the fact that a considerable area of
+the composite under the electrode is made of plastic. If the solder iron is too hot or applied too long, the plas-
+tic will become soft and the bonding with the sputtered electrode material will fail causing the electrode to
+come off.
+Because of this, special attention should be taken to minimize the contact time between the composite and
+solder bit. We recommend using a lead-free solder wire with temperatures around 270°C and a contact time
+less than 0.5 seconds.
+If you can not attach the wire to the composite in the first attempt, please give the composite some time to
+cool down, otherwise this spot will become over-heated and the electrode will fail.
+Skin the wire from its insulation, plate the stripped length with tin. Use some flux, e.g. "Fludor" to cover the
+wire tip, take a drop of liquid tin with the solder bit, hold the wire to the solder bit contact the electrode
+with both solder bit and wire, remove solder bit, keep wire on electrode, do not apply any loads until the tin
+has cooled. We recommend the following Materials.
+Flux: Alpha-Grillo "Fludor"
+Wires: stranded, 0,06...0,14 sq.mm or enameled copper wire
+Solder wire: leadfree FLUITIN 1532 per ISO 12224-1/1.12,
+alloy SAC305 of Cookson Electronics/Alphametals
+Dice-and-fill technique has been around for many years and is more expensive than the arrange-and-fill
+method used by Smart Material.
+Essentially, dice-and-fill begins with a bulk block of PZT, many grooves are diced using a diamond saw, and
+the grooves are filled with polymer. The extensive cutting is the primary factor in driving up manufacturing
+cost.
+With arrange-and-fill, long strands of fibers are arranged randomly on end, and polymer is poured around
+them forming a large block of piezo composite. This block can then be diced into different length pieces
+according to the frequency desired. This translates into a faster, more cost-effective process.
+Yes, you can by using a conductive glue for attaching wires to the composites.
+Conductive glues allow for a reliable way to connect wires to our 1-3 composites, with comparable and
+better adhesion as standard soldering.
+We recommend the following glues from Epoxy Technology (www.epotek.com):
+Epo-Tek 430, Epo-Tek H20E, Epo-Tek EE 129-4.
+All Information subject to change without notice
+© 2000-2014 Smart Material Corp.
+SMART DOC# 13K-V1.0en-0414
+Smart Material Corporation
+2170 Main Street, Suite 302
+Sarasota, FL 34237 • U.S.A.
+Tel: +1 (941) 870 3337
+Fax: +1 (941) 847 0788
+E-Mail: sarasota@smart-material.com
+http://www.smart-material.com
+http://www.smart-material.com
+Smart Material GmbH
+Löbtauer Strasse 69
+D - 01159 Dresden • Germany
+Tel: +49 (0)351 4977 145
+Fax: +49 (0)351 4977 146
+E-Mail: dresden@smart-material.com
+http://www.trekj.com
+Distributor Japan
+TREK Japan K.K.
+C/O Motobayashi Building
+1-2-12 Nihonbashi-Ningyocho, Chuo-ku
+Tokyo, 103-0013 • Japan
+Tel: +81 (3) 6264-8692
+Fax: +81 (3) 6264-8693
+E-Mail: smart-trek@trekj.com
+

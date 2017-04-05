@@ -1,0 +1,605 @@
+Ident-No: ARALDITE 2020 RESIN(E)/HARZ
+Version 3 Print Date 28.02.2004
+Revision Date 31.01.2004
+1/7
+1. IDENTIFICATION OF THE SUBSTANCE/PREPARATION AND THE
+COMPANY/UNDERTAKING
+Product information
+Trade name : ARALDITE 2020 RESIN(E)/HARZ
+Use : Resin for adhesive systems
+Company : Huntsman Advanced Materials (Europe)BVBA
+Everslaan 45
+3078 Everberg / Belgium
+Telephone : +41619661599
+Telefax : +41619661589
+Emergency telephone
+number
+: +41 61 966 40 00 (in France ORFILA : +33(0)145425959)
+2. COMPOSITION/INFORMATION ON INGREDIENTS
+Chemical nature
+Bisphenol A epoxy resin
+preparation
+Hazardous components
+Chemical Name CAS-No. Symbol(s): R-phrase(s) Concentration [%]
+butanedioldiglycidyl ether
+EC-No.: 219-371-7
+2425-79-8 Xn R20/21 R36/38 R43
+R52/53
+40.00 - 52.00
+reaction product: bisphenol A-
+(epichlorhydrin); epoxy resin
+(number average molecular
+weight < 700)
+25068-38-
+6
+Xi, N R36/38 R43 R51/53 50.00 - 62.00
+3. HAZARDS IDENTIFICATION
+Harmful by inhalation and in contact with skin.
+Irritating to eyes and skin.
+May cause sensitization by skin contact.
+Toxic to aquatic organisms, may cause long-term adverse effects in the aquatic environment.
+4. FIRST AID MEASURES
+Inhalation : Move to fresh air.
+Call a physician immediately.
+Eye contact : Rinse immediately with plenty of water for at least 15 minutes.
+If eye irritation persists, consult a specialist.
+Skin contact : Wash off with soap and plenty of water.
+If skin irritation persists, call a physician.
+Ingestion : Do not induce vomiting.
+Immediately give plenty of water (if possible charcoal slurry).
+Obtain medical attention.
+RS CHIP3 MSDS Date 01/01/07
+Supplied by:
+RS Components Ltd,
+Birchington Road, Corby, Northants, NN17 9RS.
+Tel: (01536) 402888
+SAFETY DATA SHEET according to applicable EC directive
+CP0645A v4.1 RS 332-1754
+Ident-No: ARALDITE 2020 RESIN(E)/HARZ
+Version 3 Print Date 28.02.2004
+Revision Date 31.01.2004
+2/7
+5. FIRE-FIGHTING MEASURES
+Suitable extinguishing
+media
+: Water spray.
+Dry powder.
+Carbon dioxide (CO2).
+Foam.
+Extinguishing media which
+must not be used for safety
+reasons
+: High volume water jet.
+Specific hazards during fire
+fighting
+: Burning produces obnoxious and toxic fumes.
+Carbon oxides.
+Special protective
+equipment for fire-fighters
+: Wear self-contained breathing apparatus and protective suit.
+6. ACCIDENTAL RELEASE MEASURES
+Personal precautions : Do not breathe vapours/dust.
+Avoid contact with skin, eyes and clothing.
+Ensure adequate ventilation.
+Environmental precautions : Do not allow material to contaminate ground water system.
+Methods for cleaning up : Soak up with inert absorbent material (e.g. sand, silica gel, acid
+binder, universal binder, sawdust).
+Sweep up and shovel into suitable containers for disposal.
+7. HANDLING AND STORAGE
+Handling
+Advice on safe handling : Provide sufficient air exchange and/or exhaust in work rooms.
+Handle and open container with care.
+Storage
+Further information on
+storage conditions
+: Keep away from food, drink and animal feeding stuffs.
+Keep container tightly closed.
+Keep at temperatures between 2 and 40°C.
+Storage hazard class
+Huntsman Advanced
+Materials
+: Storage class 10, Environmentally hazardous liquids
+SAFETY DATA SHEET according to applicable EC directive
+CP0645A v4.1 RS 332-1754
+Ident-No: ARALDITE 2020 RESIN(E)/HARZ
+Version 3 Print Date 28.02.2004
+Revision Date 31.01.2004
+3/7
+8. EXPOSURE CONTROLS / PERSONAL PROTECTION
+Components with workplace control parameters
+Components CAS-No. Control
+parameters
+Update Basis
+Engineering measures
+Ensure adequate ventilation, especially in confined areas.
+Personal protective equipment
+Respiratory protection : In the case of hazardous fumes, wear self contained breathing
+apparatus.
+Eye protection : goggles
+Hand protection : rubber or plastic gloves
+Skin and body protection : long sleeved clothing
+Hygiene measures : Keep away from food, drink and animal feeding stuffs.
+Wash hands before breaks and immediately after handling the
+product.
+Protective measures : Avoid contact with skin, eyes and clothing.
+9. PHYSICAL AND CHEMICAL PROPERTIES
+Form : liquid
+Colour : clear
+Odour : slight
+pH : approx.7
+at (20 °C)
+1:1 in water
+Boiling point : > 200 °C
+Flash point : 140 °C
+Method: DIN 51758 (Pensky-Martens Closed Cup)
+Vapour pressure : < 0.00001 kPa
+at 20 °C
+Density : 1.12 g/cm3
+at 25 °C
+Water solubility : at 20 °C
+Note: practically insoluble
+Miscibility with water : immiscible
+SAFETY DATA SHEET according to applicable EC directive
+CP0645A v4.1 RS 332-1754
+Ident-No: ARALDITE 2020 RESIN(E)/HARZ
+Version 3 Print Date 28.02.2004
+Revision Date 31.01.2004
+4/7
+at 20 °C
+Viscosity, dynamic : 150 mPa.s
+at 25 °C
+10. STABILITY AND REACTIVITY
+Conditions to avoid : Note: Take necessary action to avoid static electricity
+discharge.
+Materials to avoid : Strong acids and strong bases.
+Strong oxidizing agents.
+Hazardous decomposition
+products
+: Carbon oxides. Burning produces obnoxious and toxic fumes.
+11. TOXICOLOGICAL INFORMATION
+Acute oral toxicity : LD50 rat
+Dose: > 5,000 mg/kg
+Eye irritation : irritating
+rabbit
+Skin irritation : irritating
+rabbit
+dermal
+Sensitization : Causes sensitization.
+guinea pig
+dermal
+Further information : Epoxy resins with an average molecular weight of less than
+700 may cause sensitization.
+12. ECOLOGICAL INFORMATION
+Ecotoxicity effects
+Further information on ecology
+Additional ecological
+information
+: Avoid subsoil penetration.
+Prevent product from entering drains.
+Do not contaminate surface water.
+13. DISPOSAL CONSIDERATIONS
+Product : Waste Key Number: 070208
+Must be incinerated, when in compliance with local regulations.
+Container : Empty containers can be landfilled after cleaning, when in
+SAFETY DATA SHEET according to applicable EC directive
+CP0645A v4.1 RS 332-1754
+Ident-No: ARALDITE 2020 RESIN(E)/HARZ
+Version 3 Print Date 28.02.2004
+Revision Date 31.01.2004
+5/7
+compliance with the Environmental Protection (Duty of Care)
+Regulations 1991.
+14. TRANSPORT INFORMATION
+Land transport
+ADR:
+UN-No: 3082
+Class: 9
+Classification code: M6
+Packaging group: III
+Risk No.: 90
+ADR/RID-Labels: 9
+Proper shipping name: ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID,
+N.O.S.
+contains: BISPHENOL A EPOXY RESIN
+RID:
+UN-No: 3082
+Class: 9
+Packaging group: III
+Risk No.: 90
+ADR/RID-Labels: 9
+Proper shipping name: ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID,
+N.O.S.
+contains: BISPHENOL A EPOXY RESIN
+Sea transport
+IMDG:
+UN-No: 3082
+Class: 9
+Packaging group: III
+ADR/RID-Labels: 9
+MFAG:
+EmS: F-A S-F
+Proper shipping name: ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID,
+N.O.S.
+contains: (BISPHENOL A EPOXY RESIN)
+Air transport
+IATA-DGR:
+UN/ID No.: UN 3082
+Class: 9
+Packaging group: III
+Packing instruction (cargo
+aircraft):
+914
+Max. Qty/Pack.:
+( 999.00 = No limit )
+999.00 L
+SAFETY DATA SHEET according to applicable EC directive
+CP0645A v4.1 RS 332-1754
+Ident-No: ARALDITE 2020 RESIN(E)/HARZ
+Version 3 Print Date 28.02.2004
+Revision Date 31.01.2004
+6/7
+Packing instruction
+(passenger aircraft):
+914
+Max. Qty/Pack.:
+( 999.00 = No limit )
+999.00 L
+ADR/RID-Labels: 9
+Proper shipping name: ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID,
+N.O.S.
+contains: (BISPHENOL A EPOXY RESIN)
+15. REGULATORY INFORMATION
+Labelling according to EEC Directive
+Labelling required
+Symbol(s): : Xn Harmful
+N Dangerous for the environment
+R-phrase(s) : R20/21 Harmful by inhalation and in contact with
+skin.
+R36/38 Irritating to eyes and skin.
+R43 May cause sensitization by skin contact.
+R51/53 Toxic to aquatic organisms, may cause
+long-term adverse effects in the aquatic
+environment.
+S-phrase(s) : S26 In case of contact with eyes, rinse
+immediately with plenty of water and seek
+medical advice.
+S28 After contact with skin, wash immediately
+with plenty of soap and water.
+S37/39 Wear suitable gloves and eye/face
+protection.
+S61 Avoid release to the environment. Refer to
+special instructions/Safety data sheets.
+Exceptional labelling of
+special preparations
+: Contains epoxy constituents. See information supplied by the
+manufacturer.
+Hazardous components
+which must be listed on the
+label
+: butanedioldiglycidyl ether
+EC-No.: 219-371-7
+reaction product: bisphenol A-(epichlorhydrin); epoxy resin
+(number average molecular weight < 700)
+National legislation
+Notification status
+: EINECS yes
+SAFETY DATA SHEET according to applicable EC directive
+CP0645A v4.1 RS 332-1754
+Ident-No: ARALDITE 2020 RESIN(E)/HARZ
+Version 3 Print Date 28.02.2004
+Revision Date 31.01.2004
+7/7
+: TSCA yes
+:
+16. OTHER INFORMATION
+List of R-phrases (Section 2)
+R20/21 Harmful by inhalation and in contact with skin.
+R36/38 Irritating to eyes and skin.
+R43 May cause sensitization by skin contact.
+R51/53 Toxic to aquatic organisms, may cause long-term adverse effects in the
+aquatic environment.
+R52/53 Harmful to aquatic organisms, may cause long-term adverse effects in the
+aquatic environment.
+The provision of Safety Data Sheets comes under Regulation 6 of CHIP (CHIP is the recognised
+abbreviation for the Chemicals Hazard Information and Packaging Regulations). This is an addition
+to the Health and Safety at Work Act 1974.Users of products supplied by Huntsman Advanced
+Materials should take appropriate measures to ensure working practices are in accordance with the
+Control of Substances Hazardous to Health Regulations (COSHH).
+All information is based on results gained from experience and tests and is believed to be accurate
+but is given without acceptance of liability for loss or damage attributable to reliance thereon as
+conditions of use lie outside our control. Users should always carry out sufficient tests to establish
+the suitability of any products for their intended applications. No statements shall be incorporated in
+any contract unless expressly agreed in writing nor construed as recommending the use of any
+product in conflict of any patent. All goods are supplied subject to Huntsman Advanced Materials
+General Conditions of Sale.
+SAFETY DATA SHEET according to applicable EC directive
+CP0645A v4.1 RS 332-1754
+Ident-No: ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Version 4 Print Date 28.02.2004
+Revision Date 31.01.2004
+1/7
+1. IDENTIFICATION OF THE SUBSTANCE/PREPARATION AND THE
+COMPANY/UNDERTAKING
+Product information
+Trade name : ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Use : Hardener for adhesive systems
+Company : Huntsman Advanced Materials (Europe)BVBA
+Everslaan 45
+3078 Everberg / Belgium
+Telephone : +41619661599
+Telefax : +41619661589
+Emergency telephone
+number
+: +41 61 966 40 00 (in France ORFILA : +33(0)145425959)
+2. COMPOSITION/INFORMATION ON INGREDIENTS
+Chemical nature
+Formulated polyamine
+preparation
+Hazardous components
+Chemical Name CAS-No. Symbol(s): R-phrase(s) Concentration [%]
+isophorone diamine
+EC-No.: 220-666-8
+2855-13-2 C R21/22 R34 R43
+R52/53
+39.00 - 51.00
+trimethylhexamethylenediami
+ne
+EC-No.: 247-134-8
+25620-58-
+0
+C R22 R34 R43 R52/53 14.00 - 20.00
+3. HAZARDS IDENTIFICATION
+Harmful in contact with skin and if swallowed.
+Causes burns.
+May cause sensitization by skin contact.
+Harmful to aquatic organisms, may cause long-term adverse effects in the aquatic environment.
+4. FIRST AID MEASURES
+Inhalation : Move to fresh air.
+If symptoms persist, call a physician.
+Eye contact : Rinse immediately with plenty of water for at least 15 minutes.
+Call a physician immediately.
+Skin contact : Wash off with soap and plenty of water.
+If skin irritation persists, call a physician.
+Ingestion : Immediately give plenty of water (if possible charcoal slurry).
+Do not induce vomiting.
+Obtain medical attention.
+RS CHIP3 MSDS Date 01/10/05
+Supplied by:
+RS Components Ltd,
+Birchington Road, Corby, Northants, NN17 9RS.
+Tel: (01536) 402888
+SAFETY DATA SHEET according to applicable EC directive
+CP0645B v1.0 RS 332-1754
+Ident-No: ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Version 4 Print Date 28.02.2004
+Revision Date 31.01.2004
+2/7
+5. FIRE-FIGHTING MEASURES
+Suitable extinguishing
+media
+: Water spray.
+Carbon dioxide (CO2).
+Foam.
+Dry powder.
+Extinguishing media which
+must not be used for safety
+reasons
+: High volume water jet.
+Special protective
+equipment for fire-fighters
+: Wear self-contained breathing apparatus and protective suit.
+Further information : Burning produces obnoxious and toxic fumes.
+Carbon oxides.
+Nitrogen oxides.
+6. ACCIDENTAL RELEASE MEASURES
+Environmental precautions : Do not allow material to contaminate ground water system.
+Prevent product from entering drains.
+Methods for cleaning up : Soak up with inert absorbent material (e.g. sand, silica gel, acid
+binder, universal binder, sawdust).
+Sweep up and shovel into suitable containers for disposal.
+7. HANDLING AND STORAGE
+Handling
+Advice on safe handling : Provide sufficient air exchange and/or exhaust in work rooms.
+Ensure adequate ventilation.
+Handle and open container with care.
+Storage
+Further information on
+storage conditions
+: Keep away from food, drink and animal feeding stuffs.
+Keep container tightly closed.
+Keep at temperatures between 2 and 40°C.
+Storage hazard class
+Huntsman Advanced
+Materials
+: Storage class 8, Corrosive substances
+SAFETY DATA SHEET according to applicable EC directive
+CP0645B v1.0 RS 332-1754
+Ident-No: ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Version 4 Print Date 28.02.2004
+Revision Date 31.01.2004
+3/7
+8. EXPOSURE CONTROLS / PERSONAL PROTECTION
+Components with workplace control parameters
+Components CAS-No. Control
+parameters
+Update Basis
+Personal protective equipment
+Eye protection : Tightly fitting safety goggles.
+Face-shield.
+Hand protection : rubber or plastic gloves
+Skin and body protection : Protective suit.
+Safety shoes.
+Protective measures : Keep away from sources of ignition - No smoking.
+Avoid contact with skin, eyes and clothing.
+9. PHYSICAL AND CHEMICAL PROPERTIES
+Form : liquid
+Colour : clear
+Odour : strong
+Thermal decomposition : > 200 °C
+Flash point : > 120 °C
+Method: DIN 51758 (Pensky-Martens Closed Cup)
+Density : 0.95 g/cm3
+at 25 °C
+Water solubility : at 20 °C
+Note: soluble
+Miscibility with water : immiscible
+at 20 °C
+Viscosity, dynamic : 150 mPa.s
+at 25 °C
+10. STABILITY AND REACTIVITY
+Conditions to avoid : Note: Take necessary action to avoid static electricity
+discharge.
+Materials to avoid : Strong acids and strong bases.
+Strong oxidizing agents.
+SAFETY DATA SHEET according to applicable EC directive
+CP0645B v1.0 RS 332-1754
+Ident-No: ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Version 4 Print Date 28.02.2004
+Revision Date 31.01.2004
+4/7
+Hazardous decomposition
+products
+: Carbon oxides.
+Nitrogen oxides. Burning produces obnoxious and toxic
+fumes.
+11. TOXICOLOGICAL INFORMATION
+Acute oral toxicity : LD50 rat
+Dose: approx. 950 mg/kg
+Eye irritation : Corrosive
+rabbit
+Skin irritation : Corrosive
+rabbit
+dermal
+Sensitization : Causes sensitization.
+guinea pig
+dermal
+12. ECOLOGICAL INFORMATION
+Ecotoxicity effects
+Further information on ecology
+Additional ecological
+information
+: Avoid subsoil penetration.
+Prevent product from entering drains.
+Do not contaminate surface water.
+13. DISPOSAL CONSIDERATIONS
+Product : Waste Key Number: 070204
+Must be incinerated, when in compliance with local regulations.
+Container : Empty containers can be landfilled after cleaning, when in
+compliance with the Environmental Protection (Duty of Care)
+Regulations 1991.
+14. TRANSPORT INFORMATION
+Land transport
+ADR:
+UN-No: 2289
+Class: 8
+Classification code: C7
+SAFETY DATA SHEET according to applicable EC directive
+CP0645B v1.0 RS 332-1754
+Ident-No: ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Version 4 Print Date 28.02.2004
+Revision Date 31.01.2004
+5/7
+Packaging group: III
+Risk No.: 80
+ADR/RID-Labels: 8
+Proper shipping name: ISOPHORONEDIAMINE SOLUTION
+RID:
+UN-No: 2289
+Class: 8
+Packaging group: III
+Risk No.: 80
+ADR/RID-Labels: 8
+Proper shipping name: ISOPHORONEDIAMINE SOLUTION
+Sea transport
+IMDG:
+UN-No: 2289
+Class: 8
+Packaging group: III
+ADR/RID-Labels: 8
+MFAG:
+EmS: F-A S-B
+Proper shipping name: ISOPHORONEDIAMINE SOLUTION
+Air transport
+IATA-DGR:
+UN/ID No.: UN 2289
+Class: 8
+Packaging group: III
+Packing instruction (cargo
+aircraft):
+820
+Max. Qty/Pack.:
+( 999.00 = No limit )
+60.00 L
+Packing instruction
+(passenger aircraft):
+818
+Max. Qty/Pack.:
+( 999.00 = No limit )
+5.00 L
+ADR/RID-Labels: 8
+Proper shipping name: ISOPHORONEDIAMINE SOLUTION
+15. REGULATORY INFORMATION
+Labelling according to EEC Directive
+Labelling required
+Symbol(s): : C Corrosive
+R-phrase(s) : R21/22 Harmful in contact with skin and if
+swallowed.
+R34 Causes burns.
+SAFETY DATA SHEET according to applicable EC directive
+CP0645B v1.0 RS 332-1754
+Ident-No: ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Version 4 Print Date 28.02.2004
+Revision Date 31.01.2004
+6/7
+R43 May cause sensitization by skin contact.
+R52/53 Harmful to aquatic organisms, may cause
+long-term adverse effects in the aquatic
+environment.
+S-phrase(s) : S26 In case of contact with eyes, rinse
+immediately with plenty of water and seek
+medical advice.
+S36/37/39 Wear suitable protective clothing, gloves
+and eye/face protection.
+S45 In case of accident or if you feel unwell,
+seek medical advice immediately (show
+label where possible).
+S61 Avoid release to the environment. Refer to
+special instructions/Safety data sheets.
+Hazardous components
+which must be listed on the
+label
+: isophorone diamine
+EC-No.: 220-666-8
+National legislation
+Notification status
+: EINECS yes
+: TSCA yes
+16. OTHER INFORMATION
+List of R-phrases (Section 2)
+R21/22 Harmful in contact with skin and if swallowed.
+R22 Harmful if swallowed.
+R34 Causes burns.
+R43 May cause sensitization by skin contact.
+R52/53 Harmful to aquatic organisms, may cause long-term adverse effects in the
+aquatic environment.
+The provision of Safety Data Sheets comes under Regulation 6 of CHIP (CHIP is the recognised
+abbreviation for the Chemicals Hazard Information and Packaging Regulations). This is an addition
+to the Health and Safety at Work Act 1974.Users of products supplied by Huntsman Advanced
+Materials should take appropriate measures to ensure working practices are in accordance with the
+Control of Substances Hazardous to Health Regulations (COSHH).
+All information is based on results gained from experience and tests and is believed to be accurate
+but is given without acceptance of liability for loss or damage attributable to reliance thereon as
+conditions of use lie outside our control. Users should always carry out sufficient tests to establish
+the suitability of any products for their intended applications. No statements shall be incorporated in
+SAFETY DATA SHEET according to applicable EC directive
+CP0645B v1.0 RS 332-1754
+Ident-No: ARALDITE 2020 HARDENER/HAERTER/DURCISSEUR
+Version 4 Print Date 28.02.2004
+Revision Date 31.01.2004
+7/7
+any contract unless expressly agreed in writing nor construed as recommending the use of any
+product in conflict of any patent. All goods are supplied subject to Huntsman Advanced Materials
+General Conditions of Sale.
+SAFETY DATA SHEET according to applicable EC directive
+CP0645B v1.0 RS 332-1754
+

@@ -1,0 +1,81 @@
+US4374525
+US5715825
+US5902245
+US6221015
+US6409673
+US6572554
+US6764450
+US7131948
+US4151834
+US4515017
+US4579122
+US4228687
+US4271842
+US4454763
+US4494548
+US4802458
+US7255678
+US8827907
+US4241608
+US4337661
+US4341120
+US4282879
+US4664121
+US4398425
+US5255684
+US5329194
+US5351692
+US5402789
+US5450851
+US5531119
+US8285362
+US8500648
+US8506490
+US8535232
+US4143554
+US4841979
+US5465724
+US5005579
+US4106492
+US3938502
+'Ultrasonic catheter with rotating transducers'
+'Ultrasonic transducer system'
+US3547101
+'Ultrasonic scanning system with video recorder'
+'Ultrasonic sector scanner utilizing rotating transducer'
+'Ultrasonic wave diagnosis apparatus with galvanometer-driven probe'
+US3480002
+'Ultrasonic scanning apparatus'
+'Heart examination by means of ultrasound waves'
+US3690311
+'Self-contained ultrasonic scanner'
+US4181120
+'Ultrasonic sensing apparatus'
+'Rotating probe assem
+'Ultrasonic transducer scanning system'
+'Rotating probe high data acquistion rate apparatus'
+'Ultrasonic scanning apparatus'
+US3308652
+'High resolution rotating head ultrasonic scanner'
+US3964296
+ning probe with mechanical sector scanning means'
+'Cardioscan probe'
+US3974826
+'Ultrasonic scanning apparatus'
+'Ultrasonic section plane examination and display'
+'Ultrasonic compound scan with rotating transducer'
+US4231373
+'Fully wetted mechanical ultrasound scanhead'
+'Ultrasonic sector scanner'
+'Ultrasonic sector scanner utilizing rotating transducer'
+US3577772
+'Apparatus for ultrasonic examination'
+'Ultrasonic inspection of plywood panel'
+'Ultrasonic inspection apparatus'
+'Ultrasonic transducer probe'
+'Ultrascope'
+'Ultrasonic imaging apparatus operating according to the impulse-echo technique'
+US4375818
+'Acoustical transducer with rotary pulse coupler'
+US4030344
+

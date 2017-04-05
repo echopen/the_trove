@@ -1,0 +1,91 @@
+Hamlin USA Tel: +1 920 648 3000 • Fax: +1 920 648 3001 • Email: sales.us@hamlin.com
+Hamlin UK Tel: +44 (0)1379 649700 • Fax: +44 (0)1379 649702 • Email: sales.uk@hamlin.com
+Hamlin Germany Tel: +49(0) 6142 923920 • Fax: +49(0) 6142 923921 • Email: sales.de@hamlin.com
+Hamectrol France Tel: +33 (0) 1 6047 3000 • Fax: +33(0) 1 6015 9136 • Email: sales.fr@hamlin.com
+Issue No: 1 Date: 01/03/07 DCR: B5013
+FLEX-14 Features and Benefits
+DETAILS PROVIDED ONTHIS DATA SHEET ARE PROVIDED FOR
+INFORMATION PURPOSES ONLY AND SHOULD NOT BE RELIED
+UPON AS BEING ACCURATE FOR ANY PARTICULAR PURPOSE.
+Product performance may be affected by the application to which the
+product is applied. Upon request, HAMLIN will assist purchasers by
+providing information specific to any particular application. HAMLIN
+disclaims any and all liability whatsoever for any purchaser’s reliance
+upon the information contained on this data sheet without further
+consultation with authorised representatives of HAMLIN.
+www.hamlin.com
+(.872) REF.
+22,15 (.090) MAX.
+2,28
+(.0185) DIA. REF.
+0,47
+CL OF OVERLAP
+(.583) MIN.
+14,80
+(.551) MAX.
+14,00
+(1.744) NOM.
+44,30
+DIMENSIONS (in) mm
+Notes 1) Contact rating-Product of the switching voltage and current should never exceed the wattage rating.
+Contact Hamlin for additional load/life information.
+2) Operate (inc. bounce) /Release Time-per EIA/NARM RS421A, diode suppressed coil.
+3) Pull in Range-Contact Hamlin for tolerances available within this range.
+4) Rating Sensitivity-The value at which contact ratings and operating characteristics are determined. Derating
+may be required below this value.
+5) Storage Temperature-Long time exposure at elevated temperature may degrade solderability of the leads.
+Switch Type FLEX-14
+Contact Form A
+ELECTRICAL RATINGS
+Contact Rating (See note 1) Watt - max. 10
+Voltage Switching Vdc - max. 200
+Breakdown Vdc - min. 250
+Current Switching A - max. 0.5
+Carry A - max. 1.0
+Resistance Contact, Initial Ω - max. 0.100
+Insulation Ω - min. 1010
+Capacitance Contact pF - typ. 0.2
+Temperature Operating °C -40 to +125
+Storage (5) °C -65 to +125
+OPERATING CHARACTERISTICS
+Operate Time (2) ms - max. 0.55
+Release Time (2) ms - max. 0.20
+Shock 11ms 1
+⁄2 sine wave G - max. 100
+Vibration 50-2000 Hertz G - max. 30
+Resonant Frequency Hz - typ. 5200
+MAGNETIC CHARACTERISTICS
+Pull-In Range (3) Ampere Turns 10-30
+Drop-out Ampere Turns- min 5
+Rating Sensitivity (4) Ampere Turns 20
+Test Coil L4989
+Features
+• Sub-miniature normally open switch
+with 14.00mm x 2.28mm (0.551” x
+0.090”) glass envelope
+• Longer than standard, easily formed
+leads
+• 1010
+Ohms insulation resistance
+• Capable of switching up to 200Vdc
+• Maximum contact rating 10Watts
+• Available sensitivity range
+10-30 AT
+Benefits
+• Hermetically sealed switch contacts are
+not effected by and have no effect on
+their external environment
+• Low, stable contact resistance
+• Soft leads enable reliable hand forming
+• Zero operating power required for
+contact closure
+• Fit and forget durability
+• Well suited to signal switching
+Applications
+• Reed relays
+• Security
+• Limit switching
+• Telecoms
+• Office equipment
+• Household appliances
+

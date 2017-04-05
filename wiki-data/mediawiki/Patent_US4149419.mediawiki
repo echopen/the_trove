@@ -1,0 +1,102 @@
+# Patent US4149419
+
+
+
+
+
+=US4149419 : Ultrasonic transducer probe = 
+
+
+
+== Invention date ==
+
+Apr 17, 1979
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Raymond S. Connell]]
+* [[Jr.]]
+* [[John M. Santacroce]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An ultrasonic transducer probe having a sealed rotor housing, a plurality of transducers mounted on a rotor disposed in said housing. A rotor shaft mounts the rotor and extends through the housing. A drive assembly including commutating and position indicating means receives said housing and rotor shaft and serves to drive the rotor, commutate electrical energy to and from said transducers and indicate the angular position of said rotor. A handle including means for driving said drive assembly is attached to said drive assembly to position the rotor housing and drive assembly against the body the rotate said rotor to cause the transducers to scan a sector of the body.
+= Patents Backwards =
+
+* [[Patent US3130577]]
+* [[Patent US3423991]]
+* [[Patent US3714817]]
+* [[Patent US3779234]]
+* [[Patent US3927661]]
+* [[Patent US4034744]]
+= Patents Forwards =
+
+* [[Patent US4231373]]
+* [[Patent US4399703]]
+* [[Patent US4410910]]
+* [[Patent US4442842]]
+* [[Patent US4453409]]
+* [[Patent US4454763]]
+* [[Patent US4479388]]
+* [[Patent US4489728]]
+* [[Patent US4517840]]
+* [[Patent US4529401]]
+* [[Patent US4543960]]
+* [[Patent US4567895]]
+* [[Patent US4579122]]
+* [[Patent US4732156]]
+* [[Patent US4748985]]
+* [[Patent US4766905]]
+* [[Patent US4773268]]
+* [[Patent US4802458]]
+* [[Patent US4805155]]
+* [[Patent US4850362]]
+* [[Patent US4868476]]
+* [[Patent US4958639]]
+* [[Patent US4974211]]
+* [[Patent US5255684]]
+* [[Patent US5329194]]
+* [[Patent US5351692]]
+* [[Patent US5402789]]
+* [[Patent US5450851]]
+* [[Patent US5465724]]
+* [[Patent US5505089]]
+* [[Patent US5531119]]
+* [[Patent US5625148]]
+* [[Patent US5634466]]
+* [[Patent US5715825]]
+* [[Patent US6017312]]
+* [[Patent US6142947]]
+* [[Patent US6378376]]
+* [[Patent US6722202]]
+* [[Patent US6862467]]
+* [[Patent US7031865]]
+* [[Patent US7234354]]
+* [[Patent US7431698]]
+* [[Patent US7491172]]
+* [[Patent US7494469]]
+* [[Patent US7613493]]
+* [[Patent US8070685]]
+* [[Patent US8285362]]
+* [[Patent US8286491]]
+* [[Patent US8378771]]
+* [[Patent US8499622]]
+* [[Patent US8500648]]
+* [[Patent US8506490]]
+* [[Patent US8535232]]
+* [[Patent US20110113883]]
+* [[Patent DE3029449A1]]
+* [[Patent DE3214887A1]]
+* [[Patent EP0071921A1]]
+* [[Patent EP0071922A1]]
+* [[Patent EP0142862A2]]
+* [[Patent EP0174167A2]]
+* [[Patent EP0227013A2]]
+* [[Patent EP0455273A2]]
+* [[Patent WO1985004507A1]]
+* [[Patent WO2011004101A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

@@ -1,0 +1,69 @@
+# Patent US4120291
+
+
+
+
+
+=US4120291 : Ultrasonic scanning apparatus = 
+
+
+
+== Invention date ==
+
+Oct 17, 1978
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[John Stewart Paton]]
+* [[Alexander Shaw]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An ultrasonic scanning device having an ultrasonic transmissionreception probe arranged for rapid scanning in a plane while a housing of the device is being held stationary so that real time ultrasonic pictures of moving organs such as the heart, can be obtained. The probe is arranged to scan through a window of the housing and mounting means for the probe ensure that ultrasonic signals from the probe have a constant reference point of departure which is at a well-defined small distance from the window. Ultrasonic coupling means are provided between the probe and window, and the window, coupling means and probe may form a sub-assembly removable from the housing.
+= Patents Backwards =
+
+* [[Patent US3403671]]
+* [[Patent US3480002]]
+* [[Patent US3516401]]
+* [[Patent US3752255]]
+* [[Patent US3763463]]
+* [[Patent US3974826]]
+= Patents Forwards =
+
+* [[Patent US4215585]]
+* [[Patent US4222274]]
+* [[Patent US4274421]]
+* [[Patent US4282879]]
+* [[Patent US4317369]]
+* [[Patent US4341120]]
+* [[Patent US4350045]]
+* [[Patent US4358869]]
+* [[Patent US4398422]]
+* [[Patent US4399822]]
+* [[Patent US4494548]]
+* [[Patent US4524623]]
+* [[Patent US4572200]]
+* [[Patent US4579122]]
+* [[Patent US4664121]]
+* [[Patent US5094243]]
+* [[Patent US5423332]]
+* [[Patent US6080108]]
+* [[Patent US6282969]]
+* [[Patent US6468220]]
+* [[Patent US7334478]]
+* [[Patent US7635335]]
+* [[Patent US7684846]]
+* [[Patent US7841982]]
+* [[Patent US7931596]]
+* [[Patent US8246543]]
+* [[Patent US8366617]]
+* [[Patent USRE34566]]
+* [[Patent EP0037012A2]]
+* [[Patent EP0919189A1]]
+* [[Patent EP1744178A2]]
+* [[Patent EP1744179A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

@@ -1,0 +1,522 @@
+Ultrasons et Échographie IV:
+Les sondes d'échographie
+• PRINCIPES DE L'IMAGERIE
+ECHOGRAPHIQUE
+• ANATOMIE D'UNE SONDE
+• LES TRANSDUCTEURS
+• BALAYAGE DU PLAN DE COUPE
+• FOCALISATION DU FAISCEAU US
+• DIFFERENTS TYPES DE SONDE
+1
+D.GOUNOT DU 2010
+Principes de l ’imagerie
+échographique
+Principes de l'imagerie
+• Les US sont émis et reçus par la sonde
+– La sonde émet une impulsion d’ US dans une
+direction
+– Les US interagissent avec les tissus
+– Les échos renvoyés sont reçus par la sonde
+– Ils sont traités et représentés sur l'écran
+– La sonde émet une autre impulsion dans une
+direction légèrement décalée
+• L’image se construit en approx. 50 ms (20 images/s)
+50 ms = 200 lignes * 250 µs ( 250 µs -> 18 cm prof.)
+3
+D.GOUNOT DU 2010
+Émission
+pulsée
+• Les U.S. sont émis presque
+toujours sous forme d'impulsions
+très brèves (≈1 µs).
+• Les US forment un faisceau fin
+(focalisé) pour assurer une bonne
+résolution de l’image
+• Ce faisceau est dirigé dans une
+direction ajustable contrôlée par
+la sonde.
+émission émission
+reception reception
+période de recurrence
+4
+D.GOUNOT DU 2010
+• Caractéristiques de l'émission:
+* la fréquence de récurrence des impulsions
+(PRF) détermine le nombre de lignes et
+d'images par seconde produites
+* la durée de l'impulsion détermine la résolution
+longitudinale (résolution le long du faisceau)
+* la fréquence des U.S. détermine la pénétration
+des US dans les tissus
+émission émission
+reception reception
+période de recurrence
+5
+Émission
+pulsée
+D.GOUNOT DU 2010
+Réception
+• La sonde "écoute" les échos en
+provenance des tissus pendant
+tout le reste de la période de
+récurrence. Elle fonctionne en
+récepteur.
+• Cette réception est focalisée et la
+zone focale se déplace.
+• La durée de la réception (période
+de récurrence) détermine la
+profondeur d'exploration
+Zone focale
+6
+D.GOUNOT DU 2010
+Balayage du plan de coupe
+La sonde fait tourner le
+faisceau d’US qui balaye
+le plan de coupe
+Dans chaque direction
+elle enregistre les échos
+7
+D.GOUNOT DU 2010
+Représentation des échos sur
+l’écran
+• En imagerie (mode B),
+l’image est une carte de
+l'amplitude des échos dans
+la coupe: la brillance de
+chaque point de l’écran
+indique l’amplitude de
+l’écho à la position
+correspondante dans la
+coupe.
+• Il existe d’autres modes de
+représentation des échos 8
+D.GOUNOT DU 2010
+Fonctionnement des
+sondes échographiques
+Anatomie d'une sonde
+• Sonde
+mode
+A
+
+ Sonde d'imagerie
+Sonde d'imagerie
+2D : la barrette
+2D : la barrette
+transducteurs
+adaptation
+d'impédance
+gel
+peau
+amortisseur
+10
+D.GOUNOT DU 2010
+Anatomie d'une sonde
+
+ Sonde d'imagerie 3D : la matrice de
+Sonde d'imagerie 3D : la matrice de
+transducteurs permet d
+transducteurs permet d ’
+’orienter le
+orienter le
+faisceau dans n
+faisceau dans n ’
+’importe quelle
+importe quelle
+direction.
+direction.
+11
+D.GOUNOT DU 2010
+Les tranducteurs
+piezo-électriques
+Les transducteurs piezo-
+électriques
+• Un transducteur US transforme
+un signal électrique en un signal
+mécanique et inversement. Ce
+sont les transducteurs des
+sondes qui permettent de
+générer les ondes acoustiques et
+de les recueillir.
+• La piezo-électricité est la
+propriété de certains cristaux de
+générer de l'électricité sous l'effet
+d'une pression et inversement.
++ + + + +
+- - - - -
++
+-
+cristal
+p
+p
+E
+13
+D.GOUNOT DU 2010
+Les
+transducteurs:
+la piezo-électricité
++ + + + + + + + +
+Si
++
+Si
++
+Si
++
+O
+- O
+-
+O
+-
+- - - - - - - - - - - - - -
+E
+compression
++ + + + + + + + +
+Si
++
+Si
++
+Si
++
+O
+-
+O
+-
+O
+-
+- - - - - - - - - - - - - -
+E
+dilatation
+Exemple du cristal de quartz (silice)
+piezo électricité naturelle
+Si
++
+Si
++
+Si
++
+O
+- O
+-
+O
+-
+au repos
+14
+D.GOUNOT DU 2010
+La fréquence de
+fonctionnement
+Chaque céramique possède une
+fréquence de résonance
+caractéristique, à laquelle elle
+émet les ultrasons.
+Cette fréquence est choisie en
+fonction de l ’organe à étudier.
+15
+Les sondes large bande peuvent travailler dans une
+gamme de fréquence étendue, ce qui est en particulier
+nécessaire pour l ’émission d ’impulsion courtes (résol),
+la fusion d’image, l ’imagerie harmonique.
+céramique e
+D.GOUNOT DU 2010
+Balayage du plan de coupe
+Types de
+balayages
+• Balayage 2D linéaire sectoriel
+• Balayage en 3D :
+– sonde 2D déplacée à la
+main avec mesure de
+position (infrarouge ..)
+– sonde 2D + moteur
+– sonde matricielle 3D et
+balayage électronique 17
+D.GOUNOT DU 2010
+Mécanismes de
+balayage (images 2D)
+• Balayage mécanique :
+– un moteur fait tourner le transducteur
+d’émission/réception
+• Balayage électronique :
+– la sonde comporte une barrette de
+transducteurs indépendants. Les signaux
+de ces transducteurs se combinent pour
+délimiter un faisceau orientable.
+Focalisation du faisceau
+d’US et résolution latérale
+• La résolution latérale des
+images dépend des dimensions
+latérales du faisceau.
+• Un faisceau s’évase
+naturellement à cause de la
+diffraction.
+• La résolution latérale change
+donc avec la profondeur si la
+focalisation est fixe.
+Focalisation du faisceau
+d’US et résolution latérale
+• La résolution
+latérale des
+images
+change avec
+la profondeur.
+Focalisation dynamique
+• Focalisation mécanique fixe
+– Lentilles acoustiques
+– Transducteurs de forme sphérique
+• Focalisation dynamique
+– En réception, la focalisation s’adapte
+dynamiquement à la profondeur d’où
+provient l’écho (focalisation
+poursuite).
+– En émission plusieurs répétitions
+sont nécessaires.
+Focalisation transversale et
+épaisseur de coupe
+
+ Sonde d'imagerie matricielle :
+Sonde d'imagerie matricielle :
+permet de focaliser
+permet de focaliser
+dynamiquement en
+dynamiquement en
+profondeur et de garder une
+profondeur et de garder une
+é
+épaisseur e de coupe fixe.
+paisseur e de coupe fixe.
+
+ Meilleure focalisation : plus
+Meilleure focalisation : plus
+d
+d’é
+’énergie en profondeur et
+nergie en profondeur et
+meilleure p
+meilleure pé
+én
+né
+étration (+3 cm)
+tration (+3 cm)
+22
+D.GOUNOT DU 2010
+e
+Différents types
+de sonde
+23
+D.GOUNOT DU 2010
+• Sondes à balayage
+linéaire et sondes sectorielles
+• Sondes externes et sondes endoscopiques
+• Barrettes (2D) et matrices (pour la 3D)
+• Fréquence des ultrasons émis, sondes
+multifréquences
+Ultrasons et Échographie V:
+L’échographe
+• LES MODES DE REPRESENTATION :
+Modes A, B, TM, modes Doppler.
+• TRAITEMENT DU SIGNAL DES ECHOS
+• TRAITEMENT DES IMAGES
+24
+D.GOUNOT DU 2010
+Les modes de
+représentation de l ’image
+et du signal :
+Modes A, B, TM,
+modes Doppler.
+Échographie A
+• Le mode le plus simple : représentation
+de l'Amplitude (A) des échos en fonction
+du temps
+• Un mode historique.
+– naissance de l'échographie (1950)
+– le pantographe (1957)
+– imagerie noir et blanc
+– seuillage
+Hyperphonography
+of the brain (1942)
+26
+D.GOUNOT DU 2010
+Échographie A
+Amplitude
+des
+échos
+Temps/distance
+Utilisation actuelle du mode A :
+Echobiometrie : mesure précise de dimensions.
+Exemple : Ophtalmologie : mesure de l’axe
+optique (précision 0.2-0.3 mm)
+Du mode A au mode B
+Fin des années 60
+27
+D.GOUNOT DU 2010
+Imagerie (Échographie B)
+• Le mode fondamental
+(Brightness/Bidimensionnel : mode B)
+• Cartographie de l'amplitude des échos (après
+traitement) en fonction de la position du tissu
+échogéne, dans une coupe
+• Imagerie temps réel
+• Possibilité de représentations
+en 3D, après extraction des
+surfaces
+D.GOUNOT DU 2010
+Imagerie en temps réel
+Valves
+aortiques
+D.GOUNOT DU 2010
+Echographie TM
+• Échographie Temps/Mouvement
+• Représentation de la distance entre la
+sonde et les structures échogènes en
+fonction du temps (donc représentation
+du mouvement de ces structures)
+• Utilisation en cardiologie
+(échocardiologie), surtout pour le
+mouvement des valves cardiaques.
+30
+D.GOUNOT DU 2010
+Échographie TM
+Temps ->
+<-
+Distance
+à
+la
+sonde
+Valves
+mitrales
+31
+Echographie B Echographie TM
+D.GOUNOT DU 2010
+Effet Doppler
+• Décalage de fréquence entre émetteur et
+récepteur quand ils se déplacent l’un par
+rapport à l’autre.
+S
+Recepteur fixe:
+la source s’approche
+f app > f source
+Recepteur fixe:
+la source s’éloigne
+f app < f source
+S
+Recepteur
+et source
+immobile : R
+32
+f rec = f app = f source
+Échographie Doppler
+• L’effet Doppler : en se déplaçant par rapport à
+la sonde, le sang retourne des échos dont la
+fréquence est décalée par rapport aux
+ultrasons émis à cause de l’effet Doppler.
+33
+D.GOUNOT DU 2010
+sonde
+θ
+V
+f0
+f0+∆f
+∆f = 2 f (s cos θ) / v
+s : vitesse du sang θ : angle entre s et v
+* Représentation de ∆f par un spectre, par une couleur
+sur l’image ou par un son.
+s
+Temps ->
+Fréquence/vitesse
+->
+Échographie Doppler spectrale
+34
+D.GOUNOT DU 2010
+Échographie Doppler couleur
+Veines hépatiques 35
+D.GOUNOT DU 2010
+Échographie Doppler couleur
+Cordon ombilical
+36
+D.GOUNOT DU 2010
+* 2 artères pour le sang qui va du fœtus au placenta * 1 veine pour le sang qui va du placenta au fœtus
+Traitement du signal
+échographique
+Compensation
+de l’atténuation
+• Compensation de l'atténuation
+augmentant avec la
+profondeur (donc le temps):
+Amplification poursuite.
+• ->compensation moyenne
+pour tous les tissus, quelque
+soit leur atténuation.
+• Artefact de renforcement
+postérieur aux tissus de faible
+atténuation (t.s. liquides)
+signal
+Temps, profondeur
+amplification
+sur l’écran
+dans les tissus
+38
+D.GOUNOT DU 2010
+L'échographe :
+Traitement du signal
+• Compression du signal : la dynamique des
+signaux échographique est énorme : 100 dB
+(c.a.d. 100.000)
+• Il est impossible de représenter les échos
+par une brillance proportionnelle, même
+après compensation de l ’atténuation.
+(dynamique de l ’écran : 25-30 dB)
+• Compression logarithmique (cf Dolby)
+39
+D.GOUNOT DU 2010
+Traitement d ’image
+échographique
+41
+Calcul des volumes VG et de la FEVG
+Méthode de Simpson : planimétrie des contours
+endocardiques en diastole et en systole
+D.GOUNOT DU 2010
+Fusion d’image (Compounding)
+• Objectif : combiner les signaux présents
+dans plusieurs images de la même coupe,
+pour fabriquer une image synthétique plus
+informative.
+• Fusion multi-fréquences : plusieurs images
+prises à des fréquences US différentes.
+• Fusion multi-incidences : plusieurs images
+prises avec des orientations de faisceau
+différentes. Réduction du speckle.
+42
+D.GOUNOT DU 2010
+Fusion d’image (Compounding)
+• Dr. Richard Barr
+• American Institute of Ultrasound in Medicine
+• Meeting in Orlando, FL 43
+D.GOUNOT DU 2010
+Traitement d'image informatique
+• Raccordement
+d'images prises en
+déplaçant la sonde
+44
+D.GOUNOT DU 2010
+Traitement d'image informatique
+• Visualisation 3D
+– Segmentation d'images (séparation des
+differents types de tissus, par exemple face
+fœtal/liquide amiotique)
+– Extraction des surfaces de séparation
+– Projections dans une certaine direction pour
+représenter le volume, ombrage, ... ( 3D->2D )
+45
+D.GOUNOT DU 2010
+Imagerie 3D
+En mode B
+En Power Doppler
+46
+D.GOUNOT DU 2010
+Bibliographie (française)
+• L’image par échographie
+JM Bourgois, M Boynard, P Espinasse
+Suramps Médical, 1995
+ISBN : 2 84023 069 0
+Consultable à la bibliothèque
+de la Faculté de médecine
+47
+D.GOUNOT DU 2010
+

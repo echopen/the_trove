@@ -1,0 +1,80 @@
+1.  Réunion - 28 Mars 2015
+
+Le but serait de re-créer une sonde à partir de matériaux existants:
+
+-   Transducteurs déjà assemblés de chez Alibaba
+-   Moteurs
+
+Approches aujourd'hui
+---------------------
+
+### Exemples concrets de sondes à analyser
+
+-   On a une sonde [IR1510AK](IR1510AK "wikilink") trouvée sur ebay
+    @70USD (sonde en cours de démontage, détails sur
+    [IR1510AK](IR1510AK "wikilink")).
+-   Une autre KRETZ TECHNICK [S-VRW77AK](S-VRW77AK "wikilink") (IPX7)
+    ULTRASOUND PROBE TRANSDUCER
+    -   <http://www.accessdata.fda.gov/cdrh_docs/pdf/K940942.pdf> pour
+        la fiche
+    -   <http://www.icacommission.org/Proceedings/ICA1998Seattle/pdfs/vol_2/1069_1.pdf>
+        pour les usages
+-   Une ATL / Philips [A6-3](A6-3 "wikilink") (The ATL A6-3 has a wide
+    aperature and has a frequency range of 3 to 6 MHz. - Annular array
+    probe // Wide aperature // Mechanical sector )
+    -   <http://www.ebay.com/itm/ATL-Philips-A6-3-Wide-Aperature-Ultrasound-Probe-Transducer-for-UM9-HDI-/221763430549?pt=LH_DefaultDomain_0&hash=item33a2216895>
+
+### MAteriel à récupérer
+
+-   Sondes en général : les sondes à retroengineerer sont les suivantes:
+    -   sondes mécaniques sectorielles
+    -   sondes mécaniques mono-élément
+    -   sondes à balayage
+    -   "wobbler probes"
+-   Celles à ne pas récupérer sont:
+    -   sondes à matrice
+    -   sondes multiélément
+    -   sondes linéaires/sondes linéaires courbes
+    -   sondes à balayage électronique
+
+### Approche raspberry pi
+
+-   Existant : démonstration d'un sonar
+-   
+
+Sourcing Potentiel
+------------------
+
+### Electronique
+
+### Neuf mais ...
+
+### Occasion
+
+-   leboncoin : meilleur prix, 400€ used
+    -   <http://www.leboncoin.fr/materiel_medical/747007800.htm>
+    -   <http://www.leboncoin.fr/materiel_medical/781199518.htm?ca=12_s>
+-   tous les sites de sourcing de matériel d'occasion..
+    -   <http://bestengineer.chez.com/ultrasound.html>
+    -   <http://www.dotmed.com/listing/vet.-ultrasound/kontron/sigma-1ac-&-2-probes/1194647>
+    -   <http://www.dotmed.com/listing/ultrasound-transducer/kontron/instruments-w-5-mhz-ds-type-:-wobbler-ultrasound-transducer-probe/1557682>
+    -   <http://www.dotmed.com/listing/ultrasound-transducer/kontron/5-mhz-b-/1557669>
+    -   <http://www.umed-ultrasound.com/StockSondes_KONTRON.htm>
+-   Autres
+    -   <http://www.leboncoin.fr/materiel_medical/?f=a&th=1&q=sonde+ultrasons>
+    -   <http://www.leboncoin.fr/materiel_medical/?f=a&th=1&q=echographe>
+    -   <http://medical.fr/fr/1105-sonde>?&orderby=price&orderway=asc
+    -   <http://www.dotmed.com/listings/search/equipment.html?key=wobbler&type=equipment>
+    -   <http://www.ebay.com/sch/i.html?_odkw=sector+ultrasound&_sop=3&_from=R40&_osacat=0&_ssc=1&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xwobbler+ultrasound&_nkw=wobbler+ultrasound&_sacat=0>
+-   A suivre
+    -   <http://www.ebay.com/itm/Aloka-ASU-32CWD-5-Mechanical-Doppler-Probe-/331496509627>?
+    -   <http://www.ebay.com/itm/GE-2-5-48S-P-N-45-231613G1-Sector-Ultrasound-Transducer-Probe-/111626681515?pt=LH_DefaultDomain_0&hash=item19fd77fcab>
+    -   <http://www.ebay.com/itm/ATL-Philips-A6-3-Wide-Aperature-Ultrasound-Probe-Transducer-for-UM9-HDI-/221763430549?pt=LH_DefaultDomain_0&hash=item33a2216895>
+        -- ATL / Philips A6-3
+
+Manuels
+-------
+
+-   <http://www.frankshospitalworkshop.com/equipment/documents/ultrasonographs/user_manuals/Kontron_Sigma_1_-_Usermanual.pdf>
+
+<Category:TechTeam> <Category:RetroEngineering>

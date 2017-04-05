@@ -1,0 +1,609 @@
+ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 49, no. 2, february 2002 169
+Design, Fabrication, and Evaluation of High
+Frequency, Single-Element Transducers
+Incorporating Diﬀerent Materials
+Kevin A. Snook, Jian-Zhong Zhao, Carlos H. F. Alves, Associate Member, IEEE, Jonathan M. Cannata,
+Wo-Hsing Chen, Richard J. Meyer, Jr., Timothy A. Ritter, Associate Member, IEEE,
+and K. Kirk Shung, Fellow, IEEE
+Abstract—The performance of high frequency, single-
+element transducers depends greatly on the mechanical
+and electrical properties of the piezoelectric materials used.
+This study compares the design and performance of trans-
+ducers incorporating diﬀerent materials. The materials in-
+vestigated include 1-3 lead zirconate titanate (PZT) ﬁber
+composite, lead titanate (PbTiO3) ceramic, poly(vinylidene
+ﬂuoride) (PVDF) ﬁlm, and lithium niobate (LiNbO3) sin-
+gle crystal. All transducers were constructed with a 3-mm
+aperture size and an f-number between 2 and 3. Backing and
+matching materials were selected based on design goals and
+fabrication limitations. A simpliﬁed coaxial cable tuning
+method was employed to match the transducer impedance
+to 50 Ω for the PZT ﬁber composite and PbTiO3 ceramic
+transducers. Transducers were tested for two-way loss and
+;6 dB bandwidth using the pulse/echo response from a ﬂat
+quartz target. Two-way loss varied from 21 to 46 dB, and
+bandwidths measured were in the range from 47 to 118%.
+In vitro ultrasonic backscatter microscope (UBM) images
+of an excised human eye were obtained for each device and
+used to compare imaging performance. Both press-focusing
+and application of a lens proved to be useful beam focus-
+ing methods for high frequency. Under equal gain schemes,
+the LiNbO3 and PbTiO3 transducers provided better image
+contrast than the other materials.
+I. Introduction
+High frequency (30 to 150 MHz) transducers are
+needed for ultrasonic imaging of the eye, skin, blood
+vessels, and small animals [1], [2]. The selection of an ap-
+propriate piezoelectric material in the design and fabri-
+cation of high frequency transducers is of paramount im-
+portance [3], [4]. Frequently used piezoelectric materials
+include piezoelectric polymers [5], LiNbO3 crystals [6],
+PbTiO3 ceramics [4], PZT ceramics [4], and ZnO ﬁlms
+[7]. Each material mentioned has its own advantages and
+disadvantages. Piezoelectric polymers possess a low acous-
+tic impedance (∼4 Mrayl), which is similar to human tis-
+Manuscript received February 28, 2000; accepted August 28, 2001.
+This work has been supported by NIH Grant #P41-RR11795.
+K. A. Snook, J.-Z. Zhao, J. M. Cannata, W.-H. Chen, T. A. Rit-
+ter, and K. K. Shung are with NIH Resource on Medical Ultra-
+sonic Transducer Technology, Department of Bioengineering, The
+Pennsylvania State University, University Park, PA 16802 (e-mail:
+kas412@psu.edu).
+C. H. F. Alves is with Federal Center of Technological Education,
+CEFET/RJ, Bolsista CAPES, Brazil.
+R. J. Meyer, Jr. is with Materials Research Laboratory, The Penn-
+sylvania State University, University Park, PA 16802.
+sues, and a low dielectric constant, but suﬀer from low
+electromechanical coupling (kt < 0.3). Conversely, PZT
+ceramics have high electromechanical coupling, but their
+relatively high dielectric constants cause a severe electrical
+impedance mismatch to the typical 50-Ω load of electronic
+instruments.
+Fine scale, 1-3 oriented PZT ﬁber piezo-composite is a
+recent development that provides a novel piezoelectric ma-
+terial [8], [9]. They have high electromechanical coupling
+in the thickness mode that approaches the k33 of the piezo-
+ceramic in the composite. Furthermore, their acoustic and
+electrical impedances can be adjusted over a broad range.
+A 40-MHz transducer with an aperture size of 2 mm dis-
+played a bandwidth of 54% and 47-dB two-way loss [8], [9].
+As discussed previously, the transducers’ performances
+vary greatly depending on the piezoelectric material. At
+high frequencies, fabrication methods and passive mate-
+rial properties also greatly aﬀect overall transducer per-
+formance. The objectives of this study are to improve the
+sensitivity and bandwidth of these devices while maintain-
+ing the aperture size, compare transducers that use similar
+fabrication methods, and discuss design and fabrication
+limitations that aﬀect sensitivity and bandwidth.
+Four materials were chosen to represent the range of
+piezoelectric materials used in transducer applications; the
+ﬁber composite was selected as a typical ceramic/polymer
+composite, PVDF as a typical piezo-polymer, LiNbO3 as
+a typical piezo-crystal, and PbTiO3 as a typical piezo-
+ceramic. PbTiO3 was chosen as the ceramic because it
+has coupling similar to that of PZT without the detriment
+of the large dielectric constant; better electrical matching
+makes it more conducive to single-element design. A fre-
+quency of 50 MHz was chosen as the center frequency for
+all of the transducers because transducers at this frequency
+can satisfy a wide range of imaging requirements for eye,
+skin, blood vessels, and small animals. Performance results
+including insertion loss (which is a measure of the sensitiv-
+ity [5]), bandwidth, and a comparison of images acquired
+by a high frequency UBM will be reported. It is hoped
+that these results will provide useful design information
+for transducer engineers and investigators.
+0885–3010/$10.00 c
+ 2002 IEEE
+170 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 49, no. 2, february 2002
+II. Materials and Methods
+All of the transducers were designed with a 3-mm diam-
+eter and an f-number between 2 and 3. This low f-number
+results in improved lateral resolution but maintains a rea-
+sonable focal distance. The thickness of the materials was
+less than the required λ/2 because it has been demon-
+strated that the center frequency will be down-shifted by
+the load of backing and matching [10] as well as electrodes.
+One-dimensional modeling has shown that near 50 MHz, a
+thick electrode can noticeably alter the shape of the wave-
+form because of its ﬁnite thickness relative to a wavelength
+and mass-loading eﬀect.
+To compare the diﬀerent piezoelectric materials, one
+goal was to attempt to keep the fabrication speciﬁcations,
+i.e., backing, matching, and focusing schemes, as uniform
+as possible. Another goal was to fabricate the transducers
+with greater than 40% bandwidth, maximum sensitivity,
+and tractable fabrication schemes. Because of the diﬀerent
+material properties and mechanical characteristics of the
+piezoelectrics, it was a challenge to satisfy every goal. Each
+material was subject to diﬀerent fabrication issues; thus,
+in designing these devices, there was a level of trade-oﬀ be-
+tween optimized design and feasibility of manufacturing.
+The 1-3 ﬁber composite used in this paper consisted
+of 45% ﬁber volume fraction with 17-µm diameter ﬁbers
+[8], [9]. The electromechanical properties of the composite
+are listed in Table I. The backing was made using EPO-
+TEK 301 epoxy (Epoxy Tech. Inc., Billerica, MA) mixed
+with silver-coated microspheres (PQ Corp., Valley Forge,
+PA), which yielded a low acoustic impedance (∼1 Mrayl)
+and maximum sensitivity [11]. The matching layer was a
+vapor-deposited parylene ﬁlm with an acoustic impedance
+of 3.0 Mrayl. For a 50-MHz transducer with an aperture
+size of 3 mm, the relative dielectric constant (εs
+/ε0) of 200
+resulted in a low electrical impedance, which was <5 Ω
+near the center frequency. To impedance match to the 50-
+Ω electronics, a 1:9 impedance ratio transformer was con-
+nected in series with an open-circuited, 15-cm long coax
+cable. This tuning raised the impedance at 50 MHz to 40 Ω
+as listed in Table II. Focusing was achieved by spherically
+shaping the material as described by Lockwood et al. [12].
+The PVDF was purchased from Ktech Corp. (Albu-
+querque, NM), and its properties are also listed in Ta-
+ble I. It has the lowest acoustic impedance (3.89 MRayl),
+large mechanical losses, and the highest electrical losses
+of all of the piezoelectric materials studied. This trans-
+ducer was designed using unloaded EPO-TEK 301 epoxy,
+which has an impedance of 3.15 MRayl [13], as the back-
+ing. This was the lowest feasible acoustic impedance back-
+ing, because the spheres in the microsphere-loaded backing
+reduced the quality of the output waveform when press-
+focused with the PVDF. This eﬀect was due to the pack-
+ing of the spheres; the PVDF was only attached at certain
+points across the front face of the backing. In between
+these points, the PVDF did not conform to the spherical
+shape of the press-focusing, and the pressure waveform be-
+came distorted, resulting in loss of signal amplitude and
+bandwidth. No acoustic matching layer was used because
+of the polymer’s intrinsically low acoustic impedance.
+The LiNbO3 crystal with 36◦
+-rotated Y-cut was pro-
+cured from Boston Piezo-optics Inc. (Medway, MA). Com-
+pared with other piezoelectric materials, the most valu-
+able feature of the LiNbO3 crystal is that this material
+simultaneously possesses a high electromechanical cou-
+pling coeﬃcient and a low dielectric constant, as listed
+in the Table I. This feature makes it possible to build a
+high sensitivity device without electrical tuning. Details
+of the acoustic design are listed in Table II. The acous-
+tic impedance mismatch between the crystal and tissue
+was overcome by using two materials as matching layers.
+The ﬁrst layer, a 7.3-MRayl [14], [15] quarter-wavelength
+matching layer, was fabricated by centrifuging a mixture of
+Insulcast 501 epoxy (Insulcast, Roseland, NJ) and ﬁne size
+(2 to 3.5 µm) silver powder (Aldrich Chem. Co., Milwau-
+kee, WI). A lens fabricated from an unloaded epoxy (EPO-
+TEK 301) was used to focus the beam and to provide a
+second impedance step. Centrifuged conductive epoxy (E-
+SOLDER 3022, Von Roll Isola Inc., New Haven, CT) with
+an impedance of 5.9 MRayl [13] was used as the backing.
+LiNbO3 is a large Q material and, therefore, has an in-
+trinsically narrow bandwidth. This moderate impedance
+backing enhanced the overall device bandwidth but did
+not result in a severe degradation in sensitivity.
+The PbTiO3 (EC 97) was obtained from Edo Corp.
+(Salt Lake City, UT) and was hot isostatically pressed at
+the Materials Research Laboratory at Penn State Univer-
+sity to increase the density and eliminate pores in the ce-
+ramic. As indicated in Table I, the PbTiO3 ceramic has as
+high an electromechanical coupling coeﬃcient as LiNbO3
+crystal; however, it displays a high relative dielectric con-
+stant and requires electrical tuning to improve the per-
+formance. As summarized in Table II, the PbTiO3 device
+used the same backing as LiNbO3, because it also has a
+relatively large Q, and focusing was achieved by spheri-
+cal press-focusing the material. To simplify the process of
+spherical shaping and avoid complexity in matching layer
+fabrication, a single matching layer was used, consisting
+of a quarter-wavelength thick parylene ﬁlm that was de-
+posited after press-focusing.
+A modiﬁed tuning technique was employed in this work.
+It is derived from the concept that the impedance of a
+transmission line changes continuously from capacitive to
+inductive in half-wavelength periods if the end is electri-
+cally open. Therefore, the coaxial cable can be used as a
+reactive tuning element with capacitive or inductive prop-
+erties depending on the cable length. Combined with trans-
+formers, the coaxial transmission cable can be used to tune
+high frequency (>40 MHz) transducers, yielding a bet-
+ter electrical impedance match to 50-Ω electronics. Fig. 1
+shows the electrical impedance of a 45-MHz PbTiO3 trans-
+ducer before and after the electrical tuning via a trans-
+former (T9-1-KK81; Mini-Circuits, Brooklyn, NY) and a
+16-cm long coaxial cable (BELDEN, 9239 low noise coax,
+Richmond, IN). As shown in the Fig. 1(a), the impedance
+at 45 MHz was only 5.3 Ω without the tuning, but was
+snook et al.: high frequency, single-element transducers 171
+TABLE I
+Piezoelectric Material Parameters.
+Material kt εs/ε0 ρ(g/cm3) c (m/s) Qm QE Za (MRayl)
+Fiber composite 0.60 201 3.30 3943 9.2 25 13.0
+PVDF 0.13 6.5 1.8 2150 12 4 3.87
+LiNbO3 crystal 0.49 28 4.64 7340 10 000 1000 34.0
+PbTiO3 ceramic 0.49 200 6.90 5200 120 111 35.9
+kt is the thickness mode electromechanical coupling coeﬃcient εs/ε0 is the clamped dielectric constant; ρ
+is the density; c is the longitudinal wave velocity; Qm and QE are the mechanical and electrical quality
+factors, respectively; and Za is the acoustic impedance.
+TABLE II
+Design Parameters.
+Thickness Zb Zm
+Material (µm) (MRayl) (MRayl) Tuning |Ze| (Ω) θ (◦) Focusing
+Fiber composite 32 ∼1 3 yes 40 −40 spherical shaping
+PVDF 9 3.15 no no 22 −50 spherical shaping
+LiNbO3 crystal 60 5.9 7.3 no 60 −70 EPO-TEK 301 lens
+PbTiO3 ceramic 32 5.9 3 yes 40 45 spherical shaping
+Zb and Zm are the acoustic impedances of the backing and matching materials respectively; |Ze| is the
+magnitude of electrical impedance; and θ is the phase angle of transducers at their center frequencies. The
+electrical impedance values for PbTiO3 and ﬁber composite transducers are those after electrical tuning.
+raised to 40.2 Ω after the tuning, as shown in the Fig. 1(b).
+Fig. 2 shows a diagram of the electrical tuning circuit.
+All of the transducers were tested in a distilled, de-
+gassed water bath in pulse/echo mode by reﬂecting the
+signal oﬀ a smooth quartz target placed at the fo-
+cal point. During bandwidth measurements, excitation
+was achieved with a Panametrics (Waltham, MA) model
+5900PR pulser/receiver. Coupling was 50 Ω during both
+send and receive modes. Cable length between the pulser
+and transducer was 30 mm. The reﬂected waveforms were
+received and digitized by a 500-MHz LC534 Lecroy (Chest-
+nut Ridge, NY) oscilloscope set to 50-Ω coupling. An il-
+lustration of the experimental arrangement is shown in
+Fig. 3(a). The measured pulse/echo waveforms are dis-
+played in Fig. 4. Insertion loss was measured using the
+same approach reported by Sherar and Foster [5] and,
+therefore, did not include compensation for losses caused
+by diﬀraction. The experimental arrangement is shown in
+Fig. 3(b). Excitation was achieved using a 10-cycle sine
+wave burst from a Wavetek (San Diego, CA) model 81
+function generator with 50-Ω coupling. The reﬂected wave-
+forms were received by the Lecroy oscilloscope in 1-MΩ
+coupling mode. The cable length between the transducer
+and function generator was 1 m, and that between the
+function generator and oscilloscope was 15 to 20 cm.
+The UBM system is a high frequency ultrasound scan-
+ning system that acquires adjacent A-scan lines to obtain a
+high resolution two-dimensional image of tissue. The prin-
+ciple involved in the UBM was described elsewhere [16]
+and will not be repeated. The UBM system utilized in this
+work included three components. The ﬁrst component was
+a position control system. The transducer was translated
+linearly using a servo motor with a 15-mm travel distance
+Fig. 1. The electrical impedance magnitude and phase angle of the
+45-MHz PbTiO3 ceramic transducer with a 3-mm aperture before
+(a) and after (b) the electrical tuning is applied. The solid line is
+magnitude, and the dashed line is the phase.
+172 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 49, no. 2, february 2002
+Fig. 2. Diagram of the electrical tuning circuit used with the PbTiO3
+device.
+(Model LAR37; SMAC, Carlsbad, CA) and an encoder
+with 5-µm resolution. Stepper motors (Parker Hanniﬁn
+Corp., Cleveland, OH) provided positioning in the two
+planes orthogonal to the servo motor using a combination
+hardware and software controller (DMC-1700; Galil Mo-
+tion Control, Inc., Mountain View, CA). The second com-
+ponent consisted of imaging electronics designed in-house,
+including a pulser, a receiver with time gain compensation
+(TGC), a bandpass ﬁlter, and two signal compression cir-
+cuits. The pulser provided a negative 60-V pulse of 20-ns
+duration; the receiver incorporated 14 dB of linear gain
+and 40 dB of TGC gain. The bandpass ﬁlter eliminated
+noise outside the transducer bandwidth. After ﬁltering, the
+RF signal was compressed logarithmically to a 70-dB dy-
+namic range. The last component was a data acquisition
+and image display unit. The output signal from the log
+compression ampliﬁer was digitized by an A/D converter
+(CS8500; GAGE Applied Sciences Inc., Montreal, Quebec,
+Canada) to 8-bit resolution at a 500-MHz sampling rate.
+After digitization and data reconstruction, the information
+was stored in the hard drive of a Pentium PC for image
+processing. A software image processing tool (MATLAB
+Image Processing Toolbox; The Math Works, Inc., Natick,
+MA) was used for scan conversion, image processing, and
+display. One frame of a B-mode image was obtained by
+moving the transducer in a 6-mm linear range and obtain-
+ing 256 equidistant scan lines. The image size was 6 mm
+(width) × 8 mm (depth) and is displayed using 256 gray
+levels. All of the devices were subject to these same excita-
+tion and gain conditions and post-processiong algorithms.
+The test object, an excised human eye, was submerged in a
+saline solution (sodium chloride, 0.85%, w/v). The object
+was mounted on a block of wax and ﬁxed in position with
+needles.
+Fig. 3. Experimental arrangement for the measurement of transducer
+pulse/echo response (a) and transducer insertion loss (b).
+III. Results and Discussion
+Table III summarizes the measured results and com-
+pares them to Krimholtz, Leedom, and Matthaei (KLM)
+simulations (PiezoCAD; Sonic Concepts, Woodinville,
+WA).
+The ﬁber composite transducer displayed a 47% band-
+width and 34.4 dB insertion loss as shown in Fig. 4(a) and
+Table III. The −20 dB pulse length is 67 ns. The material
+properties should yield high bandwidth and sensitivity for
+the transducer; however, its relatively high dielectric con-
+stant makes electrical tuning a necessity given the 53-MHz
+frequency and 3-mm aperture size. The large discrepancy
+between the modeled and experimental insertion loss may
+be the result of a number of factors. It is speculated that
+the non-uniform distribution of ﬁbers results in a poor
+transfer of stress between the polymer matrix and ceramic
+ﬁbers. Although electromechanical coupling as measured
+using resonance techniques is high, the surface displace-
+ment is probably far from iso-strain. Other losses may re-
+sult from disbonding between the polymer and ceramic or
+from the non-ideal properties of the transformer.
+Shown in the Fig. 4(b) is the pulse/echo response of
+the PVDF transducer. The measured results show a band-
+width as wide as 118%, as summarized in Table III, and
+snook et al.: high frequency, single-element transducers 173
+TABLE III
+Comparison Between Theoretical Modeling and Measured Results.
+KLM modeling Measured results
+Materials CF (MHz) BW (%) IL (dB) CF (MHz) BW (%) IL (dB)
+Fiber composite 53 50.7 17.1 53.6 47 34.4
+PVDF 55 87 30 48.1 118 45.6
+LiNbO3 crystal 50 61 21 44.5 74 21.3
+PbTiO3 ceramic 61 27.7 19 45.1 47 23.7
+CF is the center frequency, BW is bandwidth, and IL is the insertion loss.
+Fig. 4. Time-domain pulse/echo response and normalized frequency spectrum for ﬁber composite (a), PVDF (b), LiNbO3 crystal (c), and
+PbTiO3 ceramic transducers (d).
+174 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 49, no. 2, february 2002
+Fig. 5. UBM images of a human eye acquired using, from top to
+bottom, the ﬁber composite, PVDF, LiNbO3 crystal, and PbTiO3
+ceramic transducers.
+−20 dB pulse length of 44 ns. However, the low electrome-
+chanical coupling and high loss displayed by PVDF lead
+to a low sensitivity as indicated by an insertion loss of
+46 dB at the center frequency. The KLM model again pre-
+dicted an insertion loss considerably lower than the ob-
+served value. Because the PVDF properties used in the
+model were acquired at frequencies <10 MHz, most of this
+disagreement may be attributed to frequency dispersion of
+the electromechanical properties.
+The LiNbO3 transducer displayed excellent sensitivity
+as demonstrated by an insertion loss of 21 dB, a signiﬁ-
+cant improvement in sensitivity compared with the ﬁber
+composite and PVDF designs. In addition, the LiNbO3 de-
+vice still maintained a large bandwidth of 74% as shown
+in the Fig. 4(c). The −20 dB pulse length was 56 ns. Good
+agreement between theory and experiment was observed.
+The PbTiO3 ceramic transducer yielded an insertion
+loss of 23.7 dB at the center frequency, a value similar to
+that observed for the LiNbO3 device. It is worth noting
+that the shape of the spectrum was approximately Gaus-
+sian as shown in the Fig. 4(d). The bandwidth was 47%,
+and the −20 dB pulse length was 74 ns. Variation between
+the experimental and modeled values again may be at-
+tributed to the inadequacy of the PiezoCAD program to
+represent the coaxial transmission cable properly.
+The images of the excised human eye acquired with dif-
+ferent transducers are shown in Fig. 5. The transducers
+with better sensitivity, such as LiNbO3 and PbTiO3, dis-
+play improved image contrast. The cornea and a portion of
+the iris are clearly seen. The quality of the images acquired
+by ﬁber composite and PVDF transducers is poorer, a re-
+sult attributed to their lower sensitivities.
+IV. Conclusions
+Four diﬀerent transducers of 3-mm aperture size and
+center frequencies near 50 MHz were designed and built.
+Their performances were compared by pulse/echo re-
+sponses and human eye images. The results show that
+transducer designs incorporating LiNbO3 crystal and
+PbTiO3 ceramic show excellent sensitivity with good
+bandwidth, indicating that both the lens focusing and
+press-focusing techniques are useful at high frequency. Al-
+though the PVDF transducer displays the largest band-
+width, it suﬀers from poor sensitivity; the ﬁber composite
+transducer displays medium sensitivity and bandwidth.
+Although it has been shown that the LiNbO3 and
+PbTiO3 transducers provided a larger signal, a general-
+ized statement cannot be made about whether these de-
+vices produce superior ultrasound images. Given the spe-
+ciﬁc electronics and signal gain schemes of this UBM sys-
+tem, the LiNbO3 and PbTiO3 did produce superior im-
+ages; however, other schemes could yield diﬀerent results.
+Fabricating the transducers from diﬀerent materials
+with similar designs was a great challenge; thus, it was
+very diﬃcult to compare the performances and imaging
+abilities of the piezoelectrics directly. Although there was
+snook et al.: high frequency, single-element transducers 175
+uniformity among the designs, it was necessary to incorpo-
+rate unique fabrication aspects to each device to optimize
+its performance.
+Acknowledgment
+The authors thank Mr. Eugene Gerber for his help in
+fabricating the transducers.
+References
+[1] F. S. Foster, C. J. Pavlin, G. R. Lockwood, L. K. Ryan, K. A.
+Harasiewicz, L. Berube, and A. M. Rauth, “Principles and ap-
+plications of ultrasonic backscatter microscopy,” IEEE Trans.
+Ultrason., Ferroelect., Freq. Contr., vol. 40, no. 5, pp. 608–616,
+Sep. 1993.
+[2] G. R. Lockwood, D. H. Turnbull, D. A. Christopher, and F. S.
+Foster, “Beyond 30 MHz: Applications of high frequency ultra-
+sonic imaging,” IEEE Eng. Med. Biol., vol. 15, no. 6, pp. 60–71,
+Nov.-Dec. 1996.
+[3] K. K. Shung and M. J. Zipparo, “Ultrasonic transducers and
+arrays,” IEEE Eng. Med. Biol., vol. 15, no. 6, pp. 20–30, Nov.–
+Dec. 1996.
+[4] M. J. Zipparo, K. K. Shung, and T. R. Shrout, “Piezoceramics
+for high-frequency (20–100 MHz) single-element imaging trans-
+ducers,” IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol.
+44, no. 5, pp. 1038–1048, Sep. 1997.
+[5] M. D. Sherar and F. S. Foster, “The design and fabrication of
+high frequency poly(vinylidene ﬂuoride) transducers,” Ultrason.
+Imaging, vol. 11, no. 2, pp. 75–94, 1989.
+[6] D. A. Knapik, B. Starkoski, C. J. Pavlin, and F. S. Foster, “A
+real time 200 MHz ultrasound B-scan imager,” in 1997 IEEE
+Ultrason. Symp. Proc., pp. 1457–1460.
+[7] K. Yokosawa, R. Shinomura, S. Sano, Y. Ito, S. Ishikawa, and
+Y. Sato, “A 120-MHz ultrasound probe for tissue imaging,” Ul-
+trason. Imaging, vol. 18, no. 4, pp. 231–239, 1996.
+[8] R. J. Meyer, Jr., “High frequency (15–70 MHz) 1-3
+PZT ﬁber/polymer composites: Fabrication and characteriza-
+tion,” Ph.D. dissertation, The Pennsylvania State University,
+University Park, PA, 1999.
+[9] R. J. Meyer, Jr., P. Lopath, S. Yoshikawa, and T. R. Shrout,
+“High frequency 1-3 composite transducers fabricated from
+alkoxide-derived PZT ﬁbers,” in 1997 IEEE Ultrason. Symp.
+Proc., pp. 915–918.
+[10] R. E. McKeighen, “Design guidelines for medical ultrasonic ar-
+rays,” Proc. of SPIE, vol. 3341, pp. 2–18, May 1998.
+[11] C. S. Desilets, J. D. Fraser, and G. S. Kino, “The design of eﬃ-
+cient broad-band piezoelectric transducers,” IEEE Trans. Son-
+ics Ultrason., vol. SU-25, pp. 115–125, 1978.
+[12] G. R. Lockwood, D. H. Turnbull, and F. S. Foster, “Fabrication
+of high frequency spherically shaped ceramic transducers,” IEEE
+Trans. Ultrason., Ferroelect., Freq. Contr., vol. 41, no. 2, pp.
+231–235, Mar. 1994.
+[13] H. Wang, T. R. Ritter, W. Cao, and K. K. Shung, “Passive
+materials for high frequency ultrasonic transducers,” in Proc.
+SPIE Med. Imag. Symp., vol. 3664, pp. 35–42, 1999.
+[14] Z.-Y. Cheng, V. Bharti, T.-B. Xu, S. Wang, and Q. M. Zhang,
+“Transverse strain responses in electrostrictive poly(vinylidene
+ﬂuoride-triﬂuoroethylene) ﬁlms and development of a dilatome-
+ter for the measurement,” J. Appl. Phys., vol. 86, no. 4, pp.
+2208–2214, 1999.
+[15] J. M. Cannata, J.-Z. Zhao, S. Ayyappan, T. A. Ritter, W. Chen,
+and K. K. Shung, “Fabrication of high frequency (25–75 MHz)
+spherically shaped ultrasonic transducers,” in 1999 IEEE Ultra-
+son. Symp. Proc., vol. 2, pp. 1099–1103.
+[16] D. Turnbull, B. G. Starkoski, K. A. Harasiewicz, J. L. Sem-
+ple, L. From, A. K. Gupta, D. N. Sauder, and F. S. Foster, “A
+40–100 MHz B-scan ultrasound backscatter microscope for skin
+imaging,” Ultrason. Med. Biol., vol. 21, no. 1, pp. 79–88, 1995.
+Kevin A. Snook was born in Lehighton,
+PA on July 17, 1976. He received B.S. de-
+grees in biomedical and electrical engineering
+from Johns Hopkins University, Baltimore,
+MD, in 1998 and an M.S. in bioengineering
+from Penn State University, University Park,
+PA, in 2000. He is currently a Ph.D. student
+in the Bioengineering Department at Penn
+State University and works in the NIH Ul-
+trasound Transducer Resource Center. His in-
+terests include characterization of high fre-
+quency devices, transducer modeling, piezo-
+electric single-element transducers, and high frequency annular ar-
+rays.
+Jian-Zhong Zhao received his B.S. degree in physics from Henan
+Normal University, China in 1982, his M.S. degree in physics from
+JinLin University, China in 1988, and the Ph.D. in materials engi-
+neering from The Pennsylvania State University in 1998.
+From 1988 to 1991, he was an assistant professor in the Physics
+Department in ZhengZhou Institute of Technology, China. In 1992,
+he joined the research team in the Materials Research Laboratory
+at Penn State as a visiting scientist and worked in the development
+of new piezoelectric materials for transducer, actuator, and sensor
+applications. From 1998 to 2000, he worked in NIH Transducer Re-
+source Center at Penn State as a postdoctor and then a research
+associate, working on the development of high frequency transducers
+for medical applications. He joined GE Parallel Design as an acoustic
+engineer in 2000 and now is currently working for Siemens Acuson
+as a product engineer.
+Carlos H. F. Alves (S’96–A’97) was born
+in Rio de Janeiro, Brazil on July 9, 1961. He
+received the B.S. degree in electrical engineer-
+ing from the Pontiﬁcie Catholic University,
+PUC/RJ, Brazil, in 1987 and the M.S. and
+D.S. degrees in biomedical engineering from
+the Federal University of Rio de Janeiro, RJ,
+Brazil in 1991 and 1997, respectively. From
+January 1998 to December 1999, he was a
+postdoctor with the NIH Resource Center for
+Medical Ultrasonic Transducer Engineering at
+The Penn State University, where he worked
+on the development of an ultrasound backscatter microscopy system
+and design and fabrication of high frequency ultrasonic single ele-
+ment and annular array transducers.
+Since 1991, he has been a professor of the Federal Center of Tech-
+nological Education, CEFET/RJ, Brazil. His interests include high
+frequency ultrasound imaging systems and transducer design.
+Jonathan M. Cannata was born in Car-
+son, CA on August 4, 1975. He received his
+B.S. degree in bioengineering from the Uni-
+versity of California at San Diego in 1998, and
+his M.S. degree from The Pennsylvania State
+University in 2000. Mr. Cannata is currently
+pursuing a doctorate degree in Bioengineering
+at The Pennsylvania State University. There,
+he studies under the guidance of Dr. K. Kirk
+Shung at the NIH Ultrasonic Transducer Re-
+source Center. His current research interests
+include the design, modeling, and fabrication
+of high frequency single element transducers and arrays for medical
+imaging applications.
+176 ieee transactions on ultrasonics, ferroelectrics, and frequency control, vol. 49, no. 2, february 2002
+Wo-Hsing Chen is a doctoral candidate
+in bioengineering at The Pennsylvania State
+University. He received the B.S. degree in
+Biomedical Engineering from Chung-Yuan
+Christian University in Taiwan in 1991, and
+the M.S. degree in medical engineering from
+the George Washington University in 1995.
+His research interests include high frequency
+ultrasound backscatter microscopy and ultra-
+sound 3-D imaging.
+Richard J. Meyer, Jr. was born in Pitts-
+burgh, PA on May 7, 1971. He studied ceramic
+science and engineering and graduated with a
+B.S. degree in 1993 from The Penn State Uni-
+versity. He received his Masters in 1995 in ma-
+terials at the Materials Research Laboratory
+under the direction of Thomas Shrout and
+Shoko Yoshikawa and completed his Ph.D. in
+October 1998 with the development of high
+frequency 1-3 composite transducers.
+After graduation, he studied two years as
+a research associate working with Dr. Robert
+E. Newnham at the Materials Research Laboratory, The Penn State
+University and was promoted to his current position at the Applied
+Research Laboratory, Penn State. His research interests include ce-
+ramic processing, development of undersea and medical ultrasonic
+devices, and composite materials for actuators and transducers.
+Timothy A. Ritter (A’97) was born in Har-
+risburg, Pennsylvania on February 19, 1965.
+He earned his B.S. in mechanical engineer-
+ing from The Pennsylvania State University,
+University Park, PA, in 1987 and his M.S. in
+physics from the University of Connecticut,
+Storrs, CT, in 1991.
+Mr. Ritter is presently a Ph.D. student in
+the Bioengineering Department at The Penn-
+sylvania State University and serves as a man-
+ager of the NIH Resource Center for Medi-
+cal Ultrasonic Transducer Technology. His re-
+search interests are piezoelectric transducers, transducer modeling,
+and high frequency arrays. He is an Associate Member of the IEEE.
+K. Kirk Shung (S’73–M’75–SM’89–F’93)
+was born on June 2, 1945. He received a
+B.S. degree in electrical engineering from
+Cheng-Kung University in Taiwan in 1968,
+M.S. and Ph.D. degrees in electrical engineer-
+ing, respectively, from University of Missouri,
+Columbia, MO, in 1970, and the University
+of Washington, Seattle, WA, in 1975. Follow-
+ing postdoctoral work, he was employed as a
+research scientist at Providence Medical Cen-
+ter, Seattle, WA, while holding a position of
+research engineer at the Institute of Applied
+Physiology and Medicine, Seattle. In 1979, he moved to the Penn-
+sylvania State University as an assistant professor of bioengineering
+and became a professor in 1989. He was appointed director of the
+Whitaker Center for Medical Ultrasonic Transducer Engineering at
+Penn State in 1994.
+Dr. Shung is a fellow of the IEEE, of the American Institute of
+Ultrasound in Medicine, and of the Acoustical Society of America.
+He is a founding fellow of the American Institute of Medical and Bi-
+ological Engineering. He served as a member on National Institutes
+of Health Diagnostic Radiology Study Section from 1985 to 1989. He
+was the recipient of the IEEE Engineering in Medicine and Biology
+Society early career achievement award in 1985.
+Dr. Shung has published more than 100 papers and is the author
+of a textbook, Principles of Medical Imaging, published by Academic
+Press in 1992 and the co-editor of a book, Ultrasonic Scattering by
+Biological Tissues, published by CRC Press in 1993. His research
+interests are in ultrasonic imaging and tissue characterization, ultra-
+sonic transducers and arrays, and contrast agents.
+

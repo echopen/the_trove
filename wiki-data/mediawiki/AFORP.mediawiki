@@ -1,0 +1,14 @@
+# AFORP
+
+<div class="jumbotron">
+<h1><span class="mw-headline" id="Cabals">echOpen's Main Challenges 
+</span></h1>
+<p><br>We are facing a bunch of challenges, here's the main of them
+<br>
+ -> '''[http://echopen.org/index.php?title=Challenge_scan_conversion Challenge scan conversion]'''
+<br>
+ -> '''[http://echopen.org/index.php?title=Challenge_detection_signal/ Challenge detection signal]'''
+<br>
+ -> '''[http://echopen.org/index.php?title=Challenge_filtrage_signal/ Challenge filtrage signal]'''
+</p>
+</div>

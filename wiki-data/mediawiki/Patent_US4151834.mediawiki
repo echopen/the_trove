@@ -1,0 +1,80 @@
+# Patent US4151834
+
+
+
+
+
+=US4151834 : Ultrasonic diagnostic apparatus = 
+
+
+
+== Invention date ==
+
+May 1, 1979
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Tokyo Shibaura Electric Co.]]
+* [[Ltd.]]
+=== Beneficiaires === 
+* * [[Shigeru Sato]]
+* [[Michiyoshi Uranishi]]
+
+
+= Abstract =
+
+An ultrasonic diagnostic apparatus comprises a probe having at least one electro-acoustic transducing element, a motor for imparting a sector motion to the probe, a pulse oscillator for energizing the electro-acoustic transducing element to generate ultrasonic pulses, and a signal processing circuit connected to receive from the electro-acoustic transducing element electric signals corresponding to the ultrasonic signals received by the probe and to process the electric signals so as to provide information on the living body being examined. The apparatus further comprises a first control circuit connected to receive first reference signals of a predetermined frequency and control the rotation of the motor according to the first reference signals, a second control circuit connected to receive second reference signals and control the rotation of the motor according to the second reference signals, and a switching circuit for connecting the first and second control circuits alternatively to the motor.
+= Patents Backwards =
+
+* [[Patent US2769949]]
+* [[Patent US3403671]]
+* [[Patent US3555888]]
+* [[Patent US3654479]]
+* [[Patent US3665282]]
+* [[Patent US3927661]]
+* [[Patent US3952236]]
+* [[Patent US3974826]]
+* [[Patent US4020348]]
+* [[Patent US4034744]]
+= Patents Forwards =
+
+* [[Patent US4274421]]
+* [[Patent US4274422]]
+* [[Patent US4282879]]
+* [[Patent US4381787]]
+* [[Patent US4385521]]
+* [[Patent US4399822]]
+* [[Patent US4483344]]
+* [[Patent US4494548]]
+* [[Patent US4517985]]
+* [[Patent US4535781]]
+* [[Patent US4541434]]
+* [[Patent US4567896]]
+* [[Patent US4576175]]
+* [[Patent US4579122]]
+* [[Patent US4722345]]
+* [[Patent US4779239]]
+* [[Patent US4785819]]
+* [[Patent US4805155]]
+* [[Patent US4850362]]
+* [[Patent US4930512]]
+* [[Patent US5005579]]
+* [[Patent US5148700]]
+* [[Patent US5402048]]
+* [[Patent US5427107]]
+* [[Patent US5720285]]
+* [[Patent US5868685]]
+* [[Patent US6634234]]
+* [[Patent US6852081]]
+* [[Patent US7837627]]
+* [[Patent US8409102]]
+* [[Patent US8706194]]
+* [[Patent US20090318799]]
+* [[Patent US20120053468]]
+* [[Patent DE3100717A1]]
+* [[Patent EP0227013A2]]
+* [[Patent EP2315047A1]]
+* [[Patent WO1993010434A1]]
+* [[Patent WO1995018422A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

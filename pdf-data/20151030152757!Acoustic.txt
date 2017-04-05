@@ -1,0 +1,117 @@
+Contents
+1 Propagation of acoustic waves 2
+1.1 Wave types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+1.2 Mathematical formulation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3 Refraction and diffusion of acoustic waves . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3.1 Refraction of a wave . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3.2 Scattering of a wave . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2 Transducer 4
+3 Signal Processing 4
+1
+In this document, we will explain some basis of the acoustic theory to understand the propagation
+of acoustic waves and the echographic process.
+1 Propagation of acoustic waves
+In this section, we will define the differents type of acoustic waves and some basic equations and
+properties of the propagation of acoustic waves.
+1.1 Wave types
+An acoustic wave is a perturbation of the local state without displacement of the global state. Acoustic
+waves are periodic, their spatial periodicity is given by the wavelength λ. Consider a medium at rest
+such as on Fig. 1, where the particles are represented by the dots. Such a period structure represent a
+metal for examples. When an acoustic wave propagate in this medium, the particles will have a local
+displacement.
+Figure 1: Medium at rest.
+Their is two types of acoustic waves, the longitudinal waves (Fig. 2 also named P waves and the
+transverse waves (Fig: 3 also named SH or SV waves. The longitudinal waves are compressional waves,
+the direction of the displacement of the particles is the same than the direction of propagation of the
+wave. The transverse waves are shear waves, the direction of displacement is then perpendicular to
+the direction of propagation of the wave. In a fluid, such as the water, only longitudinal waves can
+propagate. In the human body, the shear modulus is very small, it can be considered as a fluid, and
+so only longitudinal waves will be generated.
+wave direction
+particles displacement
+Figure 2: Longitudinal wave.
+In the rest of the document, we will only consider longitudinal waves.
+2
+wave direction
+particles
+displacement
+λ
+Figure 3: Shear wave.
+1.2 Mathematical formulation
+In acoustic, a fluid medium is describe by two mecanical parameters: the mass density ρ and the bulk
+modulus κ. The bulk modulus relate the change of volume of a medium to the isostatic pressure apply
+on it. The velocity of the acoustic wave c is:
+c =
+r
+κ
+ρ
+, (1)
+for example, for the water we have: ρ = 1000 kg.m−3
+, κ = 2.19 MPa and c = 1480 m.s−1.
+The mathematical formulation is obtained by solving the Helmholtz equation, for exemple, the
+acoustic pressure p (x, t) can be expressed as:
+p (x, t) =
+
+A+
+ei kx
++A−
+e− i kx
+
+e− i ωt
+, (2)
+A+ ei kx is a wave of amplitude A+, propagating toward the positive x, A− e− i kx is a wave of amplitude
+A−, propagating toward the negative x. k =
+ω
+c
+is the wavenumber, ω = 2πf the angular pulsation
+and f the frequency.
+When we make an echographic image, we are intresting only on the intensity of the wave:
+I =
+1
+2
+< [p (x, t) v∗
+(x, t)] , (3)
+where v (x, t) is the velocity of the particle, and x∗ represent the complex conjugate of x. It can be
+shown with the Euler’s equation that the intensity is directly proportional to the square modulus of
+the pressure.
+1.3 Refraction and diffusion of acoustic waves
+When an acoustic wave passes from a medium (0) to a second medium (1), a part of the wave is
+reflected an the over part is transmitted through the interface. When the interface is flat in the point
+of view of the wave, we have refraction (it is a quasi one dimensional problem, because the wave is
+reflected only on only one direction of the space). When the wave see the curvature of the interface,
+the wave is scattered on all the directions of the space, we talk then about diffusion.
+1.3.1 Refraction of a wave
+We consider a incident wave φinc normal to an interface, the reflected φR = Rφinc and the transmitted
+φT = Tφinc waves are also normal to the interface (Fig. 4). R and T represent respectively the reflexion
+3
+(0) (1)
+φT
+φR
+φinc
+Figure 4: Refraction of a wave.
+and transmission coefficient. By solving this problem, we show that:
+R =
+Z2 − Z1
+Z2 + Z1
+(4)
+where Zi = rhoici is the acoustic impedance of the medium i.
+If we consider, for example the reflection of a wave at an interface between water (ρ0 = 1000 kg.m−3
+,
+c0 = 1480 m.s−1) and a muscle (ρ1 = 1070 kg.m−3
+, c1 = 1590 m.s−1), the the reflection coefficient is
+equal to 69.10−3, so only 7% of the pressure is reflected. If we know consider an interface between wa-
+ter and bone (ρ1 = 2175 kg.m−3
+, c1 = 4000 m.s−1), then nearly 70% of the incident wave is reflected.
+The echos due to bones are much more higher than the ones due to the muscles.
+1.3.2 Scattering of a wave
+Even if an object is very small in front of a wave, it always scattered the wave (Fig. 5). It is much
+more complicated to determine the scattered wave than a reflected such as in sec. 1.3.1.
+φinc
+φdiff
+Figure 5: Scattering of a wave.
+The diffused wave go in every direction of the space, it lead that its amplitude decreases with the
+distance from the object.
+2 Transducer
+3 Signal Processing
+4
+

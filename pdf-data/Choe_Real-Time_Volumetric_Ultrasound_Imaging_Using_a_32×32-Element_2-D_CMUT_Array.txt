@@ -1,0 +1,399 @@
+1
+
+Abstract—2-D transducer arrays provide 3-D ultrasound imaging capability without mechanically moving parts. We fabricated a
+32×32-element 2-D capacitive micromachined ultrasonic transducer (CMUT) array with a 5-MHz center frequency and a 250-µm
+element-to-element pitch, and integrated it with a custom-designed application-specific integrated circuit (ASIC) to provide the
+front-end circuitry. In this paper, we present the development of the back-end system and the software for real-time volumetric imaging
+with 2-D transducer arrays. Their real-time imaging capabilities were demonstrated using the 32×32-element 2-D CMUT array that we
+fabricated.
+Implemented using an ultrasound data acquisition system and a field-programmable gate array (FPGA) board, the back-end system
+collects the raw data needed for real-time image reconstruction, which is performed by the custom software. As the reconstruction of a
+volume requires a large amount of computation, we developed the software on a graphics processing unit (GPU) platform. With parallel
+data processing on GPU, the software reconstructs the whole volume of interest and performs real-time volume-rendering in every
+frame. The volume-rendered image is then displayed on the software user interface, as well as three cross-sectional images, to effectively
+visualize the volume. The multiple-beam transmit feature included in the ASIC enables faster imaging, by reducing the number of data
+acquisition events occurring in each frame. Using this feature, we experimentally obtained real-time volumetric images at a rate of 10.5
+frames per second (fps) for a 75-mm imaging depth, a 60˚×60˚ viewing angle, and 2,803,712 voxels in the reconstructed volume. This
+frame rate was limited by the data transfer rate from the data acquisition system to the PC, and is expected to approach the theoretical
+maximum rate of 40 fps, which is limited by the ultrasound time of flight, through system upgrade with faster data interface and
+higher-performance GPU.
+Index Terms—2-D transducer array, Capacitive micromachined ultrasonic transducer, Real-time volumetric ultrasound imaging, GPU
+Manuscript received January 20, 2015. This work was supported by the National Institutes of Health under Grants HL67647 and CA134720.
+J. W. Choe, B. C. Lee, A. Nikoozadeh, and B. T. Khuri-Yakub are with the Edward L. Ginzton Laboratory, Stanford University, Stanford, CA 94305, USA
+(e-mail: choejw@ stanford.edu).
+A. Bhuyan is with Apple, Cupertino, CA 95014, USA.
+C. Chang is with Canon Research Center, Canon Inc., Tokyo, Japan.
+Real-Time Volumetric Ultrasound Imaging
+Using a 32×32-Element 2-D CMUT Array
+Jung Woo Choe, Member, IEEE, Anshuman Bhuyan, Student Member, IEEE,
+Chienliu Chang, Byung Chul Lee, Student Member, IEEE, Amin Nikoozadeh, Member, IEEE,
+and Butrus T. Khuri-Yakub, Fellow, IEEE
+2
+I. INTRODUCTION
+2-D transducer arrays enable volumetric ultrasound imaging without mechanically scanning the probe. However, due to severe
+difficulties in fabricating 2-D arrays, early 3-D ultrasound imaging systems made use of mechanically scanned 1-D transducer
+arrays to acquire a series of 2-D images. These systems had a limitation in the achievable image acquisition rate due to the moving
+part, and were not suitable for real-time volumetric imaging. In addition, fixed focusing on the elevational direction led to poor
+spatial resolution away from the focal point, resulting in blurry 3-D images [1], [2]. There have been many efforts to fabricate 2-D
+transducer arrays in the last few decades [3], [4], and as a result, real-time 3-D imaging systems employing 2-D transducer arrays
+are now commercially available [5].
+Capacitive micromachined ultrasonic transducers (CMUTs) have strong advantages over conventional piezoelectric transducers
+in manufacturing 2-D transducer arrays. As they are fabricated using standard micromachining processes, it is easy to make a 2-D
+CMUT array with a large number of transducer elements through simple photolithography. In addition, 2-D CMUT arrays can
+conveniently and seamlessly be integrated with their supporting front-end electronics using the flip-chip bonding technology [6].
+The electrical connections to the individual CMUT array elements are provided by through-silicon vias (TSVs) [7]. 2-D CMUT
+arrays with up to 128×128 transducer elements and the front-end electronics to support these 2-D CMUT arrays have already been
+fabricated and characterized [6], [8], [9].
+We have previously integrated a 16×16-element 2-D CMUT array with its supporting front-end electronics and demonstrated
+real-time imaging of three cross-sectional images [10]. For imaging with a bigger aperture, four of these 16×16-element CMUT
+arrays were tiled on an interposer layer to form a 32×32-element array [11]. More recently, we fabricated 32×32-element 2-D
+CMUT arrays and integrated them with front-end electronics designed specifically for these arrays. Initial imaging results with this
+32×32-element device assembly as well as with the tiled 32×32-element array were briefly reported in [12], where we used the
+same back-end as in [10] and performed volume-rendering offline using an image processing application, Osirix (Pixmeo SARL,
+Bernex, Switzerland).
+Fig. 1 shows the 32×32-element 2-D CMUT array flip-chip bonded with its supporting front-end application-specific integrated
+circuit (ASIC). Designed with an element-to-element pitch of 250 µm in both directions and a center frequency of 5 MHz in
+immersion, the CMUT array was fabricated using the polysilicon sacrificial release process with TSVs [13]. For imaging with this
+array, we developed new custom back-end system and software capable of full real-time volumetric image reconstruction and
+real-time volume-rendering. The back-end system incorporates a PC-based data acquisition system (Verasonics data acquisition
+system, Verasonics Inc., Redmond, WA, USA) and a field-programmable gate array (FPGA) board (Virtex-6 FPGA ML605,
+Xilinx Inc., San Jose, CA, USA). The raw data acquired by the back-end system are processed by real-time volumetric image
+reconstruction software that we implemented on a graphics processing unit (GPU) platform using compute unified device
+3
+architecture (CUDA) [14].
+In this paper, we present our work on the real-time volumetric imaging with a 32×32-element 2-D CMUT array. In Section II, we
+describe the design and the implementation of a custom imaging system developed for imaging with 2-D transducer arrays
+including this specific CMUT array. In Sections III and IV, the beamforming schemes and the real-time image reconstruction
+methods that we used for fast volumetric imaging are discussed, respectively. The experimental real-time volumetric imaging
+results are presented in Section V.
+Fig. 1. Optical picture of a 32×32-element 2-D CMUT array flip-chip bonded
+with its supporting front-end ASIC.
+4
+II. SYSTEM DESIGN
+The front-end electronics packaged in ASIC contains both electric pulsers for transmit (TX) and preamplifiers for receive (RX).
+We designed a custom back-end imaging system to control the front-end ASIC, and to process the raw data received by the CMUT
+array and then preamplified by this ASIC. Fig. 2 depicts the top level architecture of this back-end system, which consists of an
+FPGA board, a Verasonics data acquisition system, a PC, and a custom printed circuit board (PCB) for providing interface to the
+system components.
+A. Control Path
+The front-end ASIC was designed to use the 64 CMUT elements on the two diagonals of the 32×32-element 2-D array as
+receivers and the other 960 elements as transmitters, as shown in Fig. 3. These TX and RX apertures help achieve fast imaging rate
+as well as reduce the number of cable connections to the back-end imaging system, without significant loss of image resolution
+[15], [16]. The TX circuitry for each transmitting element includes a 60-V unipolar pulse generator, shift registers to store TX delay
+bits, and a 10-bit comparator. The comparator compares the global counter value with the TX delay, and generates a pulser trigger
+signal when these two values are equal. The RX circuitry for each receiving element consists of a transimpedance amplifier (TIA)
+and a following buffer [12].
+We programmed an FPGA board to control the TX and the RX circuitry of the ASIC, and to generate trigger signals for the
+Verasonics data acquisition system. Table I lists the digital signals generated by the FPGA, and Fig. 4 shows the state diagram of
+Fig. 2. The custom-developed back-end imaging system for real-time
+volumetric imaging with a 2-D CMUT array.
+5
+the FPGA. In the delay loading phase, the FPGA generates TX delay bit streams, each of which contains the TX delays of all 30
+transmitting elements in one row of the 2-D array. Each delay is a 10-bit integer, Gray-coded to avoid possible glitches in the digital
+circuitry, and one transmitting element can have up to four different delays to enable multiple-beam transmit that is discussed in
+Section III. Therefore, each bit stream consists of 1200 bits for the 30 transmitting elements and it takes 30 µs to load these TX
+delay bits at a 40-MHz delay loading clock frequency. When the delay loading is done, the FPGA enables TX circuitry of the ASIC
+and increases the global Gray code counter value by one in every 20 ns. After all transmitting elements finish pulsing, the RX
+circuitry of the ASIC is enabled and the Verasonics data acquisition system is triggered to sample and collect the received RF data.
+The idle time after the receive phase ensures that the echo dies out before the beginning of the next data acquisition event, and
+another idle phase at the end of each frame gives Verasonics data acquisition system enough time to transfer the collected frame
+data to the PC through the PCI Express (PCIe) interface.
+Fig. 3. TX and RX apertures of the 32×32-element 2-D CMUT array.
+6
+B. Data Path
+The echo signals received by the 64 receiving CMUT elements are preamplified by the front-end ASIC, and then sampled by the
+Verasonics data acquisition system, which also performs time gain compensation (TGC) and optional band-pass filtering. The
+Verasonics data acquisition system is triggered by the FPGA to collect the data and to transfer them to the PC at the end of each
+frame. The collected data are transferred via an 8-lane PCIe interface, at a theoretical rate of 1.2 GB/s that is limited by the PCIe to
+local bus translator chip (PEX 8311, PLX Technology, Sunnyvale, CA, USA). However, our data transfer speed tests
+experimentally revealed that we can achieve up to 0.71 GB/s using the current setup. This data rate is about 20% slower than what
+we measured in 2011 using the same setup, which was 0.88 GB/s [10]. Custom software running on the PC processes these data in
+real-time and displays the reconstructed image on a monitor. Since 3-D image reconstruction requires a large amount of
+computation, the real-time imaging software was developed on a GPU platform for fast image reconstruction.
+TABLE I
+DIGITAL SIGNALS GENERATED BY THE FPGA TO CONTROL THE FRONT-END
+ASIC AND THE VERASONICS DATA ACQUISITION SYSTEM
+Signal Description
+CLK_PH1 /
+CLK_PH2
+40-MHz clocks with opposite phases for
+delay loading
+RX_ENABLE Enable receive circuitry
+TX_ENABLE Enable transmit circuitry
+DL[0:31]
+TX delay bits (One bit stream for all 30
+TX elements in one row)
+COUNT[0:9] Global counter bits for pulsers
+TR_ACQ
+Verasonics trigger for start of data
+acquisition
+TR_EOF
+Verasonics trigger to indicate the end of
+a frame
+Fig. 4. State diagram of the FPGA.
+7
+III. BEAMFORMING
+With 1024 transducer elements in the array, it is challenging to acquire the data from all array elements and process them. We
+have previously shown that an image resolution comparable to that of the full 2-D array aperture can be achieved using only the
+diagonal elements for TX and the rest for RX [15]. In this work, we switched the TX and the RX apertures, as shown in Fig. 3, to
+get a higher signal-to-noise ratio (SNR) and reduce the RX complexity.
+To scan a 3-D volume, we steer TX beams in two dimensions with a fixed focal depth. The delay of each transmitting element is
+calculated based on the ultrasound propagation time from the transducer element to the desired focal point, and then loaded on the
+shift registers of the ASIC. The delayed pulses from the 960 transmitting elements create an ultrasound beam propagating along a
+scan line in the volume, and the echo signals received by the other 64 elements on the two diagonals are acquired by the back-end
+system for data processing. On the RX side, conventional delay-and-sum beamforming is performed with dynamic focusing to
+reconstruct the image along the TX beam line. This line acquisition is repeated for different steering angles, until the whole volume
+of interested is scanned.
+According to the Nyquist criteria, the number of beams required to sample a pyramidal volume with a viewing angle of (𝜃𝑥×𝜃𝑦)
+is
+(
+4𝑁𝑥𝑑𝑥
+𝜆
+sin (
+𝜃𝑥
+2
+)) × (
+4𝑁𝑦𝑑𝑦
+𝜆
+sin (
+𝜃𝑦
+2
+)), (1)
+where 𝜆 is the ultrasound wavelength, (𝑁𝑥×𝑁𝑦) is the number of transducer elements in the 2-D array, and (𝑑𝑥, 𝑑𝑦) is the
+element-to-element pitch of the array in the corresponding direction. For our 32×32-element 2-D CMUT array with a pitch of 250
+µm in both directions and a center frequency of 5 MHz, 52×52 beams or 73×73 beams are required to meet this criteria for a
+viewing angle of 60˚×60˚ or 90˚×90˚, respectively. Assuming a 60˚×60˚ viewing angle and a 75-mm imaging depth, the 52×52
+beams per frame requirement results in a maximum achievable frame rate of 3.8 frames per second (fps) when limited only by the
+ultrasound time of flight. However, in our system implementation, the achievable frame rate with 52×52 beams per frame drops to
+1 fps due to the data transfer rate between the Verasonics data acquisition system and the host PC, which is about 3.8 times slower
+than the data acquisition rate when acquiring the data at a 20-MHz sampling frequency.
+For faster volumetric image acquisition, we incorporated the multiple-beam transmit capability in our ASIC design, which
+allows transmission of up to four beams in each firing event [11], [17], [18]. As the pulsers in this ASIC can only generate a pulse
+with a fixed amplitude, determined by an external voltage supply in the range of between 25 V and 60 V, the four beams are fired
+sequentially as shown in Fig. 5, instead of being fired simultaneously with all four beams superposed on top of each other. After
+transmitting the four beams, the receivers are turned on to receive the echo data from all these four beams. The beams transmitted
+first, second, and third in each firing lose the echo data in the first 15, 10, and 5 µs, respectively, because the receiver is turned on
+8
+only after finishing the transmission of the last beam in each acquisition event. Therefore, it is desirable to transmit the center
+beams last and the edge beams first, to avoid data loss near the axis where we are most interested in.
+Interference among these four beams exists in the received signal, and may introduce artifacts in the reconstructed images.
+However, by intelligently choosing the four beams being fired together, we can minimize this beam-to-beam interference. One
+method to achieve this is, to group the beams in such a way that the main lobe of a beam falls into the null of the other three beams
+fired together. Studies on the optimal beam grouping are currently ongoing.
+In the initial demonstration of the multiple-beam transmit functionality presented in this paper, we used a simpler beam grouping
+scheme described in Fig. 6, which is shown for a simple case where we transmit only 256 beams in 64 firing events. This grouping
+scheme provides good beam-to-beam isolation in the XZ cross-sectional images because only one beam in an XZ-plane is
+transmitted at a time, along with three other beams that are not close to this plane. However, it produces significant artifacts in the
+YZ cross-section due to transmitting two beams in the same YZ plane, that are not chosen with optimal spacing, together in each
+firing event. Therefore, this scheme would be useful when we are especially interested in imaging the cross-section in a specific
+direction.
+Fig. 5. Sequential firing of four TX beams in each firing event.
+9
+Fig. 6. The beam grouping scheme used in the initial demonstration of the
+multiple-beam transmit feature. The 256 beams shown in this figure are
+grouped into 64 firings, with four beams, one from each group, in every firing.
+The number associated with each beam indicates the firing event number, and
+the four beams with the same firing event number are fired together. In each
+firing event, the beam in Group 1 is fired first, and then Group 2, Group 3, and
+Group 4.
+10
+IV. REAL-TIME DATA PROCESSING
+The raw RF data received by the 2-D CMUT array are acquired by the Verasonics data acquisition system, and then transferred
+to a PC for real-time data processing. The data processing software running on the PC performs RX beamforming with dynamic
+focusing on the received data to reconstruct a volumetric image. The reconstructed image is then sent to the user interface of the
+software and displayed on a screen. Fig. 7 summarizes the data processing procedure executed by the software. Due to the large
+amount of computation for reconstructing a volumetric image, most operations are implemented on a GPU platform to enable fast
+real-time imaging [19], [20].
+Upon receiving the raw data, the software optionally averages them over multiple frames before sending them to the GPU
+memory, when additional SNR is desired at the expense of reduced frame rate. In parallel with receiving the data from the CPU
+memory, the GPU performs analytic signal conversion on the previously received data blocks using two CUDA streams [21]. In
+order to save processing time for analytic signal conversion, which is ideally implemented by Hilbert transform, the direct
+sampling process was adopted in our custom software [22]. The complex RF data obtained from the analytic signal conversion are
+saved in a 2-D texture memory, with the two dimensions representing the {TX beam, RX channel} pair and the time delay, to
+enhance the memory access efficiency in the following delay-and-sum stage. This 2-D texture memory configuration spatially
+localizes the data samples used for reconstructing adjacent image voxels, and makes the memory access efficient when the threads
+reconstructing adjacent image voxels are grouped together in the same thread block.
+The complex image data of all voxels in the volume of interest are computed through conventional delay-and-sum operations
+with dynamic RX focusing. The volume of interest is defined as a 3-D voxel matrix with (X, Y, Z) coordinates in the Cartesian
+coordinate system. To reconstruct these image voxels, multiple CUDA threads are created and run in parallel. For a volume with
+millions of voxels, it is not possible to use as many parallel threads as the number of image voxels. Therefore, fewer threads than
+the number of voxels run in parallel, and each thread reconstructs multiple image voxels. The optimal number of parallel CUDA
+threads is empirically chosen based on the size of the volume of interest. However, it is always ensured that the threads in charge of
+adjacent voxels are grouped in the same thread block, for efficient memory access.
+The complex image data are reconstructed by
+𝐼(𝑥, 𝑦, 𝑧) = ∑ 𝐴𝐵,𝑟(𝑡𝑑(𝑥, 𝑦, 𝑧, 𝑟))
+𝑁𝑅𝑋
+𝑟=1 , (2)
+where 𝐼(𝑥, 𝑦, 𝑧) is the complex image value at a voxel (𝑥, 𝑦, 𝑧), 𝑁𝑅𝑋 is the number of RX elements, 𝐴𝑏,𝑟(𝑡) is the complex RF data
+from 𝑏'th TX beam and 𝑟'th RX element at time 𝑡, and 𝑡𝑑(𝑥, 𝑦, 𝑧, 𝑟) is the round-trip time delay from the 2-D transducer array to
+the field point (𝑥, 𝑦, 𝑧), and then back to the 𝑟'th RX element. 𝐵'th TX beam is the beam that passes through the field point (𝑥, 𝑦, 𝑧).
+Therefore, 𝐴𝐵,𝑟(𝑡𝑑(𝑥, 𝑦, 𝑧, 𝑟)) is the echo data from a reflector at (𝑥, 𝑦, 𝑧), received by the 𝑟'th RX element. Following the complex
+11
+image reconstruction of each voxel, envelope detection for the voxel is also performed in the same thread by
+𝐼𝑒𝑛𝑣(𝑥, 𝑦, 𝑧) = √𝑅𝑒𝑎𝑙{𝐼(𝑥, 𝑦, 𝑧)}2 + 𝐼𝑚𝑎𝑔{𝐼(𝑥, 𝑦, 𝑧)}2, (3)
+where 𝐼𝑒𝑛𝑣(𝑥, 𝑦, 𝑧) is the image intensity at a voxel (𝑥, 𝑦, 𝑧).
+To display a volumetric image on a 2-D screen, we implemented a simple real-time volume-rendering algorithm based on the
+maximum intensity projection (MIP). The reconstructed volume is projected on a plane, and the MIP value of a pixel on the
+projection plane is determined by the maximum intensity of all the image voxels projected on this pixel. For example, if the
+projection plane is parallel to the XZ-plane, the MIP is calculated by
+𝑀𝐼𝑃(𝑥, 𝑧) = max
+𝑦=1,⋯,𝑌
+(𝐼𝑒𝑛𝑣(𝑥, 𝑦, 𝑧)), (4)
+where 𝑀𝐼𝑃(𝑥, 𝑧) is the MIP value at a pixel (𝑥, 𝑧) and 𝑌 is the number of voxels in the 𝑦 direction. The MIP calculation is also
+performed within the same threads that are created for the voxel data reconstruction, through the parallel reduction technique [23].
+Fig. 8 shows a simple pseudo code for delay-and-sum, envelope detection, and MIP calculation, which are all executed in a single
+thread kernel.
+Fig. 7. Real-time volumetric image reconstruction procedure for a 2-D CMUT
+array.
+Fig. 8. Pseudo code of a thread kernel that performs delay-and-sum, envelope detection, and MIP calculation.
+12
+V. EXPERIMENTS
+We programmed the FPGA and the Verasonics data acquisition system for imaging with the 32×32-element 2-D CMUT array.
+Due to the limitation in the Verasonics RX buffer size, it was difficult to transmit as many beams as required by the Nyquist criteria
+with a reasonable viewing angle. Therefore, we limited the viewing angle to 50˚×50˚ (±25˚), and the number of TX beams to 25×25
+per frame. For imaging with the multiple-beam transmit feature, this limitation is alleviated because 4 TX beams are fired together
+in each data acquisition event. So we could increase the viewing angle and the number of TX beams per frame to 60˚×60˚ (±30˚)
+and 32×32, respectively, in imaging with multiple-beam transmit.
+An imaging phantom was made for these experiments using ten nylon wires with a diameter of 300 µm. Figs. 9 (a) and (b) show
+cross-sectional B-mode images of this wire phantom, obtained using single-beam transmit and multiple-beam transmit,
+respectively. The same 32×32-element 2-D CMUT array and the same imaging setup were used for these two different imaging
+schemes. For multiple-beam transmit, the grouping scheme described in Fig. 6 was extended to group the 32×32 beams used in this
+experiment into 256 firing events.
+Real-time image reconstruction and volume-rendering are performed by custom software running on a PC (Mac Pro, Apple Inc.,
+Cupertino, CA) with two quad-core CPUs (Intel Xeon Processor X5570, Intel Corporation, Santa Clara, CA) and a GPU card
+(Tesla C2070, Nvidia, Santa Clara, CA). Most of the real-time operations are processed on the GPU platform as depicted in Fig. 7.
+Fig. 10 shows screenshots of real-time wire phantom images displayed on the user interface of the custom software, taken from
+both single-beam transmit and multiple-beam transmit experiments. Full videos from which these screenshots were captured are
+available online (Links to videos). In every frame, the software reconstructs all image voxels in the volume of interest and performs
+volume-rendering, which is currently implemented using a simple MIP algorithm. The real-time volume-rendered image is
+displayed on the screen, along with three cross-sectional images orthogonal to each other, to effectively deliver the volume
+information.
+Excluding the computational load on the software side, the frame rate of real-time imaging is limited by the speed of data
+transfer from the Verasonics data acquisition system to the PC, which was measured to be 0.71 GB/s. Therefore, for single-beam
+transmit with 25×25 beams per frame and multiple-beam transmit with 32×32 beams per frame, the maximum achievable frame
+rates are limited to 4.3 fps and 10.5 fps, respectively, with 2048 2-byte data samples in each A-scan. Computational load in data
+processing increases with the size of raw input data and the number of image voxels reconstructed in every frame. It can be a bottle
+neck limiting the frame rate further, when the volume of interest contains a large number of voxels. The volume of interest in Fig.
+10 included only five wires out of ten, which are closer to the transducer array, not to severely decrease the frame rate. With
+2,803,712 voxels in the reconstructed volume, the real-time data processing did not affect the frame rate for the multiple-beam
+transmit case. However, for single-beam transmit imaging, the data processing time is longer due to the larger input data size, and
+13
+it reduced the frame rate from 4.3 fps to 3.3 fps with the same number of voxels. Table II presents the imaging conditions in detail
+and compares the real-time imaging performance of the two different imaging schemes.
+With multiple-beam transmit, the number of data acquisition events and the amount of raw data are reduced, increasing the
+achievable frame rate. However, as can be seen in Fig. 10, there exist artifacts in multiple-beam transmit images due to the
+beam-to-beam interference among the four beams transmitted together in the same firing event. The effect of these artifacts will be
+reduced with the optimal beam grouping scheme that minimizes the beam-to-beam interference, which is currently under
+development.
+(a) (b)
+Fig. 9. Cross-sectional B-mode images of an imaging phantom with ten nylon wires, obtained using (a) single-beam transmit and (b) multiple-beam transmit.
+14
+(a)
+(b)
+Fig. 10. Volumetric images of an imaging phantom with ten nylon wires, obtained using (a) single-beam transmit and (b) multiple-beam transmit. The custom
+software user interface displays four images, a volume-rendered image (large) and three cross-sectional images orthogonal to each other (small). The volume of
+interest includes only five wires not to slow down the real-time frame rate significantly.
+15
+TABLE II
+EXPERIMENTAL CONDITIONS AND REAL-TIME IMAGING PERFORMANCE OF THE TWO DIFFERENT IMAGING SCHEMES
+Single-beam transmit Multiple-beam transmit
+Sampling frequency 20 MHz 20 MHz
+Operation frequency 5 MHz 5 MHz
+CMUT bias voltage 30 V 30 V
+Transmit pulse amplitude 25 V (unipolar, rectangular) 25 V (unipolar, rectangular)
+Imaging phantom Ten nylon wires (300-µm diameter) Ten nylon wires (300-µm diameter)
+Image acquisition depth 75 mm 75 mm
+Number of data samples per A-scan 2048 2048
+Viewing angle 50˚×50˚ (±25˚) 60˚×60˚ (±30˚)
+Number of TX beams per frame 25×25 per frame 32×32 per frame
+Number of TX beams fired together 1 4
+Number of data acquisition events 625 per frame 256 per frame
+Number of RX channels 64 (diagonal elements) 64 (diagonal elements)
+Bandwidth of RX band-pass filter 130% 130%
+Data averaging None None
+Reconstructed volume size 22.05×22.05×19.05 mm3
+22.05×22.05×19.05 mm3
+Number of voxels reconstructed 148×148×128 = 2,803,712 148×148×128 = 2,803,712
+Voxel size 150×150×150 µm3
+150×150×150 µm3
+Image scale Linear Linear
+Experimental frame rate 3.3 frames per second 10.5 frames per second
+Frame rate limiting factor Data processing Data transfer
+16
+VI. CONCLUSION
+We developed a back-end imaging system and GPU-based 3-D imaging software for imaging with a 2-D transducer array. Using
+a 32×32-element 2-D CMUT array flip-chip bonded with a front-end ASIC, real-time volumetric imaging was successfully
+demonstrated. In this paper, we presented two different imaging schemes, both of which are based on the conventional phased array
+beamforming and the dynamic RX focusing. Compared to simple single-beam transmit, the multiple-beam transmit scheme is
+beneficial for achieving faster imaging rate by reducing the number of data acquisition events and the raw data size. Adapting this
+imaging scheme, we could obtain a real-time imaging rate of 10.5 fps for an imaging depth of 75 mm and a viewing angle of
+60˚×60˚, which was limited by the data transfer rate from the data acquisition system to the PC. Through system upgrade with
+faster data interface and higher-performance GPU, the theoretical maximum imaging rate limited by the ultrasound time of flight,
+which is 3.8 times faster than the experimentally obtained rate, would be achievable.
+Compared to imaging with a 16×16-element 2-D CMUT array reported in [10], we could increase the imaging depth from 25
+mm to 75 mm with a bigger transducer array. The software implemented on GPU enabled real-time image reconstruction for the
+whole volume of interest, not only the three cross-sectional planes, and real-time volume-rendering without loss of the frame rate.
+Various volume-rendering techniques that are more sophisticated and useful than the simple MIP-based technique, including
+translucency rendering, can be developed on GPU for improved image display [24]-[26]. In addition, the growing computational
+power of GPUs will enable even more demanding operations such as 3-D flow imaging in real-time.
+2-D transducer arrays are ideal for 3-D ultrasound imaging, and useful for various applications involving 3-D imaging. We
+recently fabricated a new front-end ASIC for this 32×32-element 2-D CMUT array, which includes high-voltage switches. This
+ASIC will be used to develop high-intensity focused ultrasound (HIFU) applications combined with real-time 3-D imaging. Other
+applications of 2-D CMUT arrays we are currently studying include neurostimulation with focused ultrasound and dual-mode 3-D
+imaging with both ultrasound and photoacoustic signals.
+ACKNOWLEDGMENT
+This work was funded by the National Institutes of Health. CMUTs were fabricated at the Stanford Nanofabrication Facility
+(Stanford, CA), a member of National Nanotechnology Infrastructure Network. We would like to thank Intersil Corporation
+(Milpitas, CA) for their support in design and fabrication of the ASIC, and Pauline Prather for her help in the device assembly. We
+also thank Nvidia for donating a C2070 graphics card, and Verasonics, Inc. for providing technical support.
+17
+REFERENCES
+[1] X. Wang, C. J. Ritchie, and Y. Kim, "Elevation direction deconvolution in three dimensional ultrasound imaging," IEEE Trans. Med. Imag., vol. 15, pp.
+389-394, Jun. 1996.
+[2] Ö . Oralkan, A. S. Ergun, C. H. Cheng, J.A. Johnson, M. Karaman, T.H. Lee, and B.T. Khuri-Yakub, "Volumetric ultrasound imaging using 2-D CMUT
+arrays," IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol. 50, no. 11, pp. 1581-1594, Nov 2003.
+[3] P. Alais, "Real time acoustical imaging with a 256 × 256 matrix of electrostatic transducers," Acoustical Holography, vol. 5, pp. 671-684, 1974.
+[4] A. K. Nigam, K. J. Taylor, and G. M. Sessler, "Foil-electret transducer arrays for real-time acoustical holography," Acoustical Holography, vol. 4, pp.
+173-194, 1972.
+[5] T. L. Szabo, “Diagnostic ultrasound imaging: inside out”, 2nd ed., Elsevier Academic Press, 2014.
+[6] I. O. Wygant, X. Zhuang, D. Yeh, Ö . Oralkan, A. S. Ergun, M. Karaman, and B. T. Khuri-Yakub, "Integration of 2D CMUT arrays with front-end electronics
+for volumetric ultrasound imaging," IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol. 55, no. 2, pp. 327-342, Feb. 2008.
+[7] C.H. Cheng, E.M. Chow, X.C. Jin, A.S. Ergun, and B.T. Khuri-Yakub, "An efficient electrical addressing method using through-wafer vias for
+two-dimensional ultrasonic arrays," in Proc. IEEE Ultrason. Symp., pp.1179-1182, Oct. 2000.
+[8] C. H. Cheng, A. S. Ergun, and B. T. Khuri-Yakub, "Electrical through wafer interconnects with 0.05 picofarad parasitic capacitance on 400-µm thick silicon
+substrate," in Proc. Solid-State Sensor, Actuator Microsystems Workshop, pp. 157-160, Jun, 2002.
+[9] I. O. Wygant, N. S. Jamal, H. J. Lee, A. Nikoozadeh, Ö . Oralkan, M. Karaman, and B. T. Khuri-Yakub, "An integrated circuit with transmit beamforming
+flip-chip bonded to a 2-D CMUT array for 3-D ultrasound imaging," IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol. 56, no. 10, pp. 2145-2156, Oct.
+2009.
+[10] J. W. Choe, Ö . Oralkan, A. Nikoozadeh, A. Bhuyan, B. C. Lee, M. Gencel, and B. T. Khuri-Yakub, "Real-time volumetric imaging system for CMUT arrays,"
+in Proc. IEEE Ultrason. Symp., pp. 1064-1067, Oct. 2011.
+[11] A. Bhuyan, J. W. Choe, B. C. Lee, I. Wygant, A. Nikoozadeh, Ö . Oralkan, B. T. Khuri-Yakub, "3-D volumetric ultrasound imaging with a 32x32 CMUT array
+integrated with front-end ICs using flip-chip bonding technology," ISSCC Dig. Tech. Papers, pp. 396–397, Feb. 2013.
+[12] A. Bhuyan, J. W. Choe, B. C. Lee, I. O. Wygant, A. Nikoozadeh, Ö . Oralkan, and B. T. Khuri-Yakub, "Integrated Circuits for Volumetric Ultrasound Imaging
+With 2-D CMUT Arrays," IEEE Trans. Biomed. Circuits and Systems, vol. 7, no. 6, pp. 796-804, Dec. 2013.
+[13] A.S. Ergun, Y. Huang, X. Zhuang, Ö . Oralkan, G.G. Yarahoglu, and B.T. Khuri-Yakub, "Capacitive micromachined ultrasonic transducers: fabrication
+technology," IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol. 52, no. 12, pp. 2242-2258, Dec. 2005.
+[14] J. W. Choe, A. Nikoozadeh, Ö . Oralkan, and B. T. Khuri-Yakub, "GPU-based real-time imaging software suite for medical ultrasound," in Proc. IEEE
+Ultrason. Symp., pp. 2057-2060, Jul. 2013.
+[15] M. Karaman, I. O. Wygant, Ö . Oralkan, B. T. Khuri-Yakub, "Minimally redundant 2-D array designs for 3-D medical ultrasound imaging," IEEE Trans.
+Medical Imaging, vol. 28, no. 7, pp. 1051-1061, Jul. 2009.
+[16] O. T. von Ramm and S. W. Smith, "Real time volumetric imaging system," Journal of Digital Imaging, vol. 3, no. 4, pp. 261-266, Nov. 1990.
+[17] L. Tong, H. Gao, and J. D’hooge, "Multi-transmit beam forming for fast cardiac imaging-a simulation study," IEEE Trans. Ultrason., Ferroelect., Freq. Contr.,
+vol. 60, no. 8, pp. 1719-1731, Aug. 2013.
+[18] L. Tong, A. Ramalli, R. Jasaityte, P. Tortoli, and J. D’hooge, "Multi-transmit beam forming for fast cardiac imaging – Experimental validation and in vivo
+application," IEEE Trans. Medical Imaging, vol. 33, no. 6, pp. 1205-1219, Jun. 2014.
+[19] B. Y. S. Yiu, I. K. H. Tsang, and A. C. H. Yu, "GPU-based beamformer: fast realization of plane wave compounding and synthetic aperture imaging," IEEE
+Trans. Ultrason., Ferroelect., Freq. Contr., vol. 58, no. 8, pp. 1698-1705, Aug. 2011.
+18
+[20] H. K. –H. So, J. Chen, B. Y. S. Yiu, and A. C. H. Yu, "Medical ultrasound imaging: To GPU or not to GPU?," IEEE Micro, vol. 31, no. 5, pp. 54-65, Sep.
+2011.
+[21] J. W. Choe, A. Nikoozadeh, Ö . Oralkan, and B. T. Khuri-Yakub, "GPU-based real-time volumetric ultrasound image reconstruction for a ring array," IEEE
+Trans. Medical Imaging, vol. 32, no 7, pp. 1258-1264, Jul. 2013.
+[22] K. Ranganathan, M. K. Santy, T. N. Blalock, J. A. Hossack, and W. F. Walker, "Direct sampled I/Q beamforming for compact and very low cost ultrasound
+imaging," IEEE Trans. Ultrason., Ferroelect., Freq. Contr., vol. 51, no. 9, pp. 1082-1094, Sep. 2004.
+[23] M. Harris, "Optimizing parallel reduction in CUDA," presentation packaged with CUDA Toolkit, NVIDIA Corporation, 2007.
+[24] E. Steen and B. Olstad, "Volume rendering of 3D medical ultrasound data using direct feature mapping," IEEE Trans. Medical Imaging, vol. 13, no. 3, pp.
+517-525, Sep. 1994.
+[25] A. Fenster, D. B. Downey, and H. N. Cardinal, "Three-dimensional ultrasound imaging," Phys. Med. Biol., vol. 46, no. 5, pp. R67-R99, May. 2001.
+[26] T. Sumanaweera, "Applying real-time shading to 3D ultrasound visualization," GPU Gems, pp. 693-707, NVIDIA Corporation, 2004.
+

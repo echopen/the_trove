@@ -1,0 +1,23 @@
+# Kenneth W. Johnston
+
+
+= Inventeur =
+Inc.
+= Brevets =
+* [[Patent US3955561]]: '''Cardioscan probe''' (''May 11, 1976'').
+* [[Patent US4424813]]: '''Multi-mode ultrasound scanner''' (''Jan 10, 1984'').
+* [[Patent US5329194]]: '''Ultrasonic peripheral vascular probe assembly''' (''Jul 12, 1994'').
+
+= CoInventeurs =
+* [[Albert S. Waxman]]
+* [[Capistrano Labs]]
+* [[David E. Stepner]]
+* [[Diasonics]]
+* [[Henry L. Schwartz]]
+* [[Indianapolis Center For Advanced Research]]
+* [[James F. Havlice]]
+* [[Julian Dow]]
+* [[Michael Waddell]]
+* [[Paul F. Meyers]]
+* [[Reginald C. Eggleton]]
+[[Category:Inventors]][[Category:CoolHand]]

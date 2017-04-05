@@ -1,0 +1,89 @@
+30/9/2014 Re: Will ultrasound scanners replace the stethoscope? | The BMJ
+http://www.bmj.com/content/348/bmj.g3463/rr/700464 1/2
+This site uses cookies. More info Close By continuing to browse the site you are agreeing to our use
+of cookies. Find out more here Close
+Feature Ultrasonography
+Will ultrasound scanners replace the
+stethoscope?
+BMJ 2014; 348 doi: http://dx.doi.org/10.1136/bmj.g3463 (Published 29 May 2014) Cite this as: BMJ
+2014;348:g3463
+Article
+Related content
+Article metrics
+Rapid responses
+Response
+Re: Will ultrasound scanners replace the stethoscope?
+Though I greatly welcome Marc Wittenberg’s article “Will ultrasound scanners replace the stethoscope?”, I
+find it frustrating to see that as ultrasound technology races forward we seem to still be wrestling with
+many of the same questions highlighted years ago. Compare, for example, BMJ’s 2008 article by Wise in
+which fundamental questions of who should be able to use diagnostic ultrasound imaging, where, and for
+what purpose(s) were similarly highlighted. 1
+If ultrasound really is to become the future stethoscope as claimed time and again, training therein needs
+to start much earlier than as a simple optional add-on after qualification. Many an educator will doubtlessly
+protest that there is no room in overcrowded medical school curricula to include additional subjects such
+as ultrasound physics, theory, and image interpretation. However, we already have examples of where
+ultrasound is already used to augment anatomy lessons or are forming a core part of training medical
+students.2, 3 I am interested in seeing to what degree these efforts have an impact on further roll-out of
+this increasingly portable and affordable technology and, more importantly, how this might impact patient
+care.
+The challenges of collectively improving ultrasound training and maintaining competence therein, neatly
+summarised by Edwards, seem to have progressed little over the years. 4 Indeed, the key issue of
+capacity and/or willingness of hospital Radiology Departments to support training of other specialties
+highlighted as early as 1997 is unlikely to have improved whilst radiology departments continue to
+struggle with increasing workloads.5 Moreover, as more emphasis is placed on introducing market forces
+into healthcare, there may be a significant financial disincentive for some to support such training if doing
+so is likely to result in decreased demand for lucrative activities such as ultrasound-guided injections.
+The claim that non-radiologists need to be trained and governed like a radiologist makes for an imminently
+attractive sound byte, but naïvely lumps all uses of ultrasound into the same category. Indeed, given the
+context above, does it represent an outdated way of thinking almost akin to proposing that anyone
+auscultating heart sound should be trained and governed like a cardiologist?
+In terms of point of care ultrasound (POCUS), the short answer is that the purpose of POCUS may vary
+from traditional ultrasound examination and, therefore, require a different approach . Bargin outlined a
+critical difference between ‘échographie’ and ‘échoscopie’ which could be translated as sonography and
+sonoscopy, respectively.6 The former is essentially ultrasound as we traditionally know it carried out in
+30/9/2014 Re: Will ultrasound scanners replace the stethoscope? | The BMJ
+http://www.bmj.com/content/348/bmj.g3463/rr/700464 2/2
+radiology departments: a well-defined standard examination to answer (a) defined question(s) reimbursed
+with the reward of a defined tariff. This differs from sonoscopy which it is argued forms an extension of
+physical examination (much like auscultation, pulse oximetry, or thermometer readings) in order to
+support or negate findings during initial clinical assessment. Though there remains significant blurring of
+the border between each approach, greater clarity in drawing distinctions between similar but varying
+applications of the same tool might help future debate move forward. Moreover, perhaps there are
+lessons to be learned from studying other types of technology-enhanced examination such as
+dermoscopy which seems to have flourished with relatively little controversy.
+Where comprehensive sonography is taking place in the community, further advances in technology may
+help address some of these long-standing questions regarding governance. For example, inclusion of
+internal gyroscopes within handheld probes – a technology already used in my phone – would allow an
+extra layer of information which could be recorded in parallel to whole scan videos which could be stored
+and shared as need facilitating the reinterpretation and quality control.
+Finally, for those like myself with in an interest in studying the spread of this technology, a central register
+of ultrasound machines capable of diagnostic imaging and their users, especially in community settings or
+primary care, would potentially facilitate much needed research into the use of what is largely a hidden
+practice, thus making it easier to try to answer some of these stubborn questions in due course.
+Dr. Mark Karaczun
+Academic Clinical Fellow in Primary Care
+m.karaczun@uea.ac.uk
+1) BMJ 2008; 336:7652; 1041-1043.
+2) Sweetman, Greg M., Gail Crawford, Kathryn Hird, and Mark W. Fear. "The benefits and limitations of
+using ultrasonography to supplement anatomical understanding." 2013: Anatomical sciences education 6,
+no. 3: 141-148.
+3) Hoppmann, Richard A., Victor V. Rao, Mary Beth Poston, Duncan B. Howe, Patrick S. Hunt, Stanley D.
+Fowler, Lance E. Paulman et al. "An integrated ultrasound curriculum (iUSC) for medical students: 4-year
+experience." 2011: Critical ultrasound journal 3, no. 1: 1-12.
+4) Edwards, Hazel. « Let’s all jump on the ultrasound bandwagon : further debate on the use of ultrasound
+» 2010: Ultrasound; 18 : 4-7.
+5) Robinson, Louise, Jane Potterton, and Philip Owen. "Diagnostic ultrasound: a primary care-led
+service?." 1997: The British Journal of General Practice 47, no. 418: 293
+6) Bargin, Jean-Rémi. "Évaluation de l'indice de confiance des patients réalisant une échographie chez un
+médecin généraliste diplômé en échographie." 2014: Université Joseph Fourier, Faculté de Médecine de
+Grenoble (Thesis)
+Competing interests: Received several weeks registrar-level training in basic ultrasound.
+02 June 2014
+Mark E. Karaczun
+Academic Clinical Fellow in Primary Care
+Norwich Medical School, University of East Anglia
+Norwich Research Park, Norwich, NR4 7TJ
+Click to like:
+8
+
+

@@ -1,0 +1,255 @@
+# Conception
+
+La conception de la sonde corresponds à la réflexion autour des enjeux globaux du projet et à al manière de mettre en résonance les différentes parties du prototypage, ainsi que d'inclure les reflexions des participants aux projet. 
+
+= Philosophie de travail =
+en cours... 
+
+= Méthode de travail =
+De par son aspect communautaire, Echopen est une entité pluri-sites et a pour vocation a permettre la création de centres de recherches sur n'importe quel endroit du globe. Aujourd'hui, la société compte principalement sur un laboratoire à l'hôtel Dieu, au coeur de Paris, ainsi qu'à l'ENS Cachan, sans compter les multiples ressources intellectuelles mobilisées en home office. Cette volonté, destinée à mobiliser un réseau de chercheurs et d'ingénieurs à travers le monde se traduit par une communication constante des travaux, à un rythme quasi-journalier, et une [[LabTools]], listant les équipement de base, nécessaire à la création d'un espace de travail pour la sonde.
+
+= Plan d'action = 
+
+{| class="wikitable"
+!Phase
+!Livrables à 4 mois [1er mai - 31 aout]
+!Livrables à 4 mois [1er septembre - 31 décembre]
+|----
+!colspan="3" | Enjeux medico-techniques
+|----
+|Retro-ingénérie
+|Démonter des sondes d'occasion  - OK, [[:Category:RetroEngineering|here]]
+|
+|----
+|
+|Explorer un échographe ultra-portable (analyse complète des éléments) (OK - [[http://echopen.org/index.php?title=Challenge:_the_echOpen_shield#Block_Diagram  |here]
+|
+|----
+|Transducteur
+|Développement du transducteur (our [[EchOpen Transducer]])
+|
+|----
+|
+|Assurer le backing (OK - [[EchOpen Transducer | here]])
+|
+|----
+|Carte électronique 
+|
+| [[:Category:RetroEngineering | Retro-ingénieurie]] de l'electronique en traitement du signal de ces anciennes sondes existantes - (OK - [[:Category:Emile|here]] )
+|----
+|
+|
+|Schéma logique - (OK - [[:Category:Emile|here]
+|----
+|Mécanique 
+|
+|Explorer les options en termes de mécanique (rotative / balancier) - OK, [[:Category:Mechanics|here]]
+|----
+|
+|
+|Tester plusieurs géométries  - OK, [[:Category:Mechanics|here]]
+|----
+|Alimentation
+|
+|Système d’alimentation
+|----
+|Protocole de comunication
+|
+|Benchmark les protocoles de communication possibles
+|----
+|
+|
+|Tester les différents protocoles
+|----
+|Traitement du signal
+|
+|Revue des filtres à l'interface sonde/soft
+|----
+|Enveloppe de la sonde
+|
+|Schémas possibles du design extérieur de la sonde
+|----
+|Application mobile
+|Features &amp; MockUp
+|
+|----
+|
+|UI / UX + draft du design
+|
+|----
+|
+|Ebauche du cahier des charges
+|
+|----
+|
+|Architecture du soft
+|
+|----
+|
+|
+|Developpement back
+|----
+|
+|
+|Développement front
+|----
+|
+|
+|Design
+|----
+|
+|
+|Deboeug
+|----
+|
+|
+|Testing app + sonde
+|----
+|Approche médicale
+|Définir précisément les besoins des professionnels de santé
+|
+|----
+|
+|
+|Définir un protocole d'essai clinique
+|----
+!colspan="3" |  [http://echopen.org/index.php?title=Enjeux_collaboratifs_et_communautaires#Friday_evening_Meetup_.26_ap.C3.A9ro Enjeux collaboratifs et communautaires] )
+|----
+|Mobiliser
+|Mobiliser une communauté =&gt; 60
+|
+|----
+|
+|3 Camp / MeetUp
+|
+|----
+|
+|
+|Mobiliser une communauté =&gt; &gt;100
+|----
+|
+|
+|4 à 5 Camp / MeetUp
+|----
+|Documenter
+|Wiki clair organisé et fonctionnel
+|
+|----
+|
+|
+|Wiki complet avec tous les éléments hard et soft
+|----
+|
+|
+|Extraire les bonnes pratiques + méthodologie
+|----
+!colspan="3" | Enjeux juridiques et Open Source
+|----
+|Licences
+|Benchmark des licences existantes (voir [[Licence_echopen]])
+|
+|----
+|
+|
+|Sélection des licences de chaque partie de la sonde et argumenter le-s choix
+|----
+|
+|
+|Publier les éléments du projet sous format Open Source...
+|----
+!colspan="3" | Enjeux normatifs
+|----
+|Les normes
+|Identifier des bureaux d’études et des partenaires experts
+|
+|----
+|
+|Identifier la liste des normes de l'équipement
+|
+|----
+|
+|
+|Récolter les contenus des normes
+|----
+|
+|
+|Rédiger les spec. normatives de la sonde
+|----
+!colspan="3" | Enjeux de communication
+|----
+|Commnuiquer 
+|Identité visuelle &amp; charte graphique
+|
+|----
+|
+|Définir la stratégie de communication
+|
+|----
+|
+|Définir le plan de communication
+|
+|----
+|
+|
+|Communication de concert avec Fabre =&gt; Fait connaître le projet et diffusé largement
+|----
+!colspan="3" | Enjeux éthiques
+|----
+|Ethique
+|Canevas d’une charte éthique
+|
+|----
+|
+|
+|Charte éthique
+|----
+|
+|
+|Documentation éthique nécéssaire à la conception de la sonde son utilisation et sa diffusion.
+|----
+!colspan="3" | Enjeux de formation
+|
+|----
+|Former des formateurs pour former des utilisateurs
+|Etat des lieux de la formation en échographie / quelles formations pour l’écho-stéthoscopie ?
+|
+|----
+|
+|Une formation de l’équipe en écho-ctéthoscopie [relayé sur le wiki]
+|
+|----
+|
+|
+|Rédiger les premiers scripts des modules de formation + les méthodes
+|----
+!colspan="3" | Enjeux de santé publique 
+|----
+|Analyser et comprendre les impacts et bénéfices
+|
+|Réaliser une méta-analyse de la littérature sur l’utilisation d’echographes portables
+|----
+|
+|
+|Définir une méthodologie d’évaluation des bénéfices et des impacts
+|----
+|
+|
+|Evaluer l’impact de l’échostéthoscopie - dans les pays du nord et les pays du sud
+|----
+|
+|
+|Documenter la méthodologie et publier les résultats
+|----
+!colspan="3" | Enjeux économiques 
+|----
+|Modèles économiques pour difuser la sonde
+|
+|Benchmark des projets Open HardWare (BM / X-Factors / Issues / etc.) + bonnes pratiques
+|----
+|
+|
+|Identifier les modèles possibles et leurs impacts
+|----
+|}
+
+[[Category:Orga]]

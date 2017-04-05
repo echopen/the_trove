@@ -1,0 +1,828 @@
+Low-Cost, High-Speed Back-End Processing System for High-
+Frequency Ultrasound B-Mode Imaging
+Jin Ho Chang [Member, IEEE],
+National Institutes of Health Resource Center for Medical Ultrasonic Transducer Technology,
+Department of Biomedical Engineering, University of Southern California, Los Angeles (e-mail:
+jhchang@ieee.org)
+Lei Sun,
+Department of Health Technology and Informatics, Hong Kong Polytechnic University, Hung Hom,
+Kowloon, Hong Kong SAR.
+Jesse T. Yen [Member, IEEE], and
+National Institutes of Health Resource Center for Medical Ultrasonic Transducer Technology,
+Department of Biomedical Engineering, University of Southern California, Los Angeles
+K. Kirk Shung [Fellow, IEEE]
+National Institutes of Health Resource Center for Medical Ultrasonic Transducer Technology,
+Department of Biomedical Engineering, University of Southern California, Los Angeles
+Abstract
+For real-time visualization of the mouse heart (6 to 13 beats per second), a back-end processing
+system involving high-speed signal processing functions to form and display images has been
+developed. This back-end system was designed with new signal processing algorithms to achieve a
+frame rate of more than 400 images per second. These algorithms were implemented in a simple and
+cost-effective manner with a single field-programmable gate array (FPGA) and software programs
+written in C++. The operating speed of the back-end system was investigated by recording the time
+required for transferring an image to a personal computer. Experimental results showed that the back-
+end system is capable of producing 433 images per second. To evaluate the imaging performance of
+the back-end system, a complete imaging system was built. This imaging system, which consisted
+of a recently reported high-speed mechanical sector scanner assembled with the back-end system,
+was tested by imaging a wire phantom, a pig eye (in vitro), and a mouse heart (in vivo). It was shown
+that this system is capable of providing high spatial resolution images with fast temporal resolution.
+I. INTRODUCTION
+High-frequency ultrasound is capable of providing a spatial resolution on the order of several
+tens of micrometers and a temporal resolution of more than 200 images per second. These
+characteristics have opened up applications to high frequency ultrasound: ophthalmic,
+dermatologic, intravascular, small animal, and molecular imaging [1]–[4]. The high temporal
+and spatial resolutions, in particular, are perfectly suited for real-time imaging of the mouse
+heart in vivo, which is often needed for the evaluation of gene and drug therapy and monitoring
+the progression of diseases. Because the mouse heart rate is approximately 6 to 13 beats per
+second [5], an imaging system is required to provide a frame rate of more than 200 images per
+second to adequately capture the cardiac activity. This requirement can only be satisfied with
+both a high-speed scanning capability for the acquisition of echo signals (front-end system
+[3], [6]–[9]) and for real-time display (back-end system).
+NIH Public Access
+Author Manuscript
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July
+29.
+Published in final edited form as:
+IEEE Trans Ultrason Ferroelectr Freq Control. 2009 July ; 56(7): 1490–1497. doi:10.1109/TUFFC.
+2009.1205.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+The back end of a real-time ultrasound imaging system usually includes an envelope detector,
+a logarithmic compressor, and a digital scan converter (DSC). To reach a higher signal
+processing speed, the implementation of such functions requires a more sophisticated
+electronic design integrating more expensive components, and is consequently relatively
+costly. This is particularly true when the operating speed of these functions is pushed higher
+and higher because more expensive electronic components and a more sophisticated design
+are required to meet timing constraints of electronic signals.
+This paper describes a high-speed back-end system suitable for cardiac imaging in mice. The
+back-end system employed a recently reported high-speed envelope detector [10] and a linear
+interpolation algorithm for digital scan conversion. A combination of these functions and
+efficient look-up table (LUT) strategy enabled us to implement the high-speed back-end system
+in a simple and cost-effective manner by using a single field-programmable gate array (FPGA).
+The electronics and signal processing involved in the back-end system will be described and
+their overall performance will be reported. To evaluate the imaging performance of the back-
+end system, a complete imaging system equipped with a high-speed mechanical sector scanner
+[6] as a front-end system was built. With this imaging system, in vivo experiments in a mouse
+were performed, and the test results will be shown.
+II. BACK-END SYSTEM IMPLEMENTATION
+A functional diagram of the overall back-end system designed to meet the requirements
+imposed by mouse cardiac imaging is shown in Fig. 1. In this design, echo signals from a front-
+end system were digitized with an analog to digital converter (ADC; AD9430, Analog Devices
+Inc., Norwood, MA, 12 bits, maximum sampling frequency of 210 MHz). Digitized echo
+signals (or RF samples) were transmitted to the main board (Fig. 1, dashed box) via a low
+voltage differential (LVDS) bus. Envelope detection and image formation functions were
+implemented in a single FPGA (Stratix EP1S60F1020C6, Altera Corporation, San Jose, CA).
+There were 4 steps of data preconditioning before digital scan conversion (DSC), which were,
+in order of execution: dc cancellation, digital time gain compensation (TGC), quadrature
+demodulation (QDM), and logarithmically-compressed envelope calculation. All these
+operations, which were performed at a 200 MHz clock rate, will be detailed later. Envelope
+samples were stored temporarily in one of 3 line buffers, which could each store one scanline
+consisting of 2048 samples. Two sets of the 3 line buffers were used for efficient storing and
+simple control logic. From these envelope samples, image pixel values were produced by the
+DSC operating at a 100 MHz clock and stored in one of 2 on-chip display memory banks. Each
+memory bank was capable of storing 65,536 pixel values, corresponding to an image size of
+256 × 256. To improve data transfer efficiency, one memory bank stored pixel data while data
+stored in the other bank were being transferred to a personal computer (PC) via a 64-bit, 33-
+MHz PCI bus.
+A graphical user interface (GUI) written in C++ controlled the transfer of images to the PC
+memory and the storage of these images in a hard disk, along with the time stamps indicating
+when these images have been stored in the memory. The software also handled a high-
+performance video card (RADEON 9800 PRO, ATL corporation, Frederick, MD) using the
+OpenGL application programming interface (API). This standard graphic API allowed the
+enlargement of small-sized images with a texture mapping method which required minimal
+computational power when they were displayed on a monitor.
+A. DC Cancellation
+Digitized echo signals collected may contain time-variant noise such as thermal noise from the
+transducer and acoustic loads as well as flicker (or 1/f) or burst noises from electronic
+components. These noises have large spectral components in the dc and low frequency range,
+Chang et al. Page 2
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+which distort the echo signals and prevent an accurate calculation of their envelopes. In the
+back-end system, dc and low frequency noise cancellation was performed by implementing a
+digital 33-tap high-pass filter with a cutoff frequency of 20 MHz.
+B. Digital Time Gain Compensation
+Because of the attenuation due to both absorption and scattering, the amplitude of ultrasound
+waves propagating in biological tissues decreases exponentially as a function of depth [11].
+For example, the attenuation coefficient in bovine heart muscle has a value of 8.2 dB/mm
+measured at 70 MHz [12] and a value of 3.4 dB/mm extrapolated to 40 MHz [13]. Note that
+diffraction also affects the amplitude of the beam as a function of depth. To compensate for
+the changes in amplitude of the propagating sound wave in tissue, it was necessary to implement
+a gain compensator which was a function of depth, and consequently of time; a TGC was
+implemented digitally. In the design, the imaging depth was divided into 8 partial zones, and
+the selection of an individual linear gain increment and an overall linear gain for the entire
+imaging depth were provided. The total linear gain was calculated by software for each sample
+along the scanline and saved into a 2048 15-bit word random access memory in the FPGA. In
+addition, the TGC allowed for selecting bits for final signals out of 17 bits of input signals to
+the R-shifter block. For this, a bit position, indicating several least significant bits from the 17
+bits to be discarded, was set in the cutting bits block so as to secure the maximum viable
+amplitude of the resulted signals without saturation. Fig. 2 illustrates the functional block
+diagram of the implemented digital time gain compensator.
+C. High-Speed Envelope Detection and Logarithmic Compression
+The envelope of RF signals is calculated from the inphase (I) and quadrature-phase (Q) signals
+obtained by quadrature demodulation. In the back-end system, demodulation was performed
+digitally by multiplying the digitized RF samples, r(n), by sine and cosine waveforms (Fig. 3),
+which were initially calculated and stored as 16-bit fixed-point vectors in 2 separate LUT.
+Traditionally, after low-pass filtering, the resultant digital in-phase, I(n), and quadrature-phase,
+Q(n), signals are used for the calculation of the envelope by . In addition, the
+envelope is logarithmically compressed before scan conversion.
+The calculation of the square root involves complicated and time-consuming signal processing,
+which can hamper the frame rate. In the system presented in this paper, a previously developed
+envelope detector was used to surpass the barrier. This envelope detector employed an efficient
+LUT strategy which was based on the use of a binary logarithmic number system (BLNS)
+instead of a fixed-point number system (see [10] for details).
+The efficiency of the calculation of envelope in this algorithm relied on the use of 3 LUTs
+containing the base-2 logarithms of I(n), Q(n), and of the square root term as shown in Fig. 3.
+The sizes of these LUTs were 2m × k bits for I(n) and Q(n), and 2k+1 × k bits for the square
+root term, where m is the number of bits over which I(n) and Q(n) are coded and k is the number
+of bits in the BLNS. The envelope detector presented here used 12-bit fixed-point numbers for
+I(n) and for Q(n) and 10-bit binary logarithmic numbers, so that the total size of these LUTs
+was 102,400 bits, dramatically reducing the size compared with approximately 160 Mbits
+(212 × 212 × 10) in the case of the direct use of LUT.
+This BLNS LUT strategy was a relatively easy to implement and allowed the production of
+logarithmically compressed envelope samples at every clock cycle. Because this envelope
+detector operated at 200 MHz, its computation of a 2048-sample envelope corresponding to a
+scanline was performed in 10.4 µs (including a 32-clock-cycle latency arising from low-pass
+filtering and fetching date from LUTs). This allowed a maximum pulse repetition frequency
+(PRF) of 96 kHz for data acquisition, which was sufficient for mouse cardiac imaging. Because
+Chang et al. Page 3
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+of this fast processing speed, no decimation was required. For the DSC, this allowed the
+adoption of a linear interpolation algorithm requiring over-sampled envelope data for accuracy
+[14], instead of a more complex bilinear interpolation algorithm [15], [16].
+D. High-Speed Digital Scan Conversion
+The linear interpolation performs only angular interpolation, thus calculating a pixel value
+Vp by
+(1)
+where S1 and S2 are 2 nearest samples to an object pixel along the radius direction, and α and
+β are angular differences between the object pixel and the 2 samples. Fig. 4 shows a functional
+block diagram of the high-speed DSC adopting the linear interpolation algorithm expressed as
+(1). In this implementation, 4 LUTs were used; these contained the pixel addresses (LUT1),
+the line buffer read addresses (LUT2), the angles of pixels (LUT3), and the angles of left-side
+(SLi, Fig. 5) of the sector scan slices delimited by 2 successive scanlines SLi and SLi+1
+(LUT4), respectively.
+To reduce the size of LUT1, the pixel addresses were encoded. Therefore, for each pixel P, a
+decoder was used to decode the pixel address first. Using this address, the addresses at which
+the data points S1 (from SLi) and S2 (from SLi+1) were located in the line buffers were extracted
+from LUT2, and the angle of P was extracted from LUT3. Using the index i of the scanline
+SLi, in addition, the angle of SLi was extracted from LUT4. Note that SLi+1 could be obtained
+by adding SLi to 255 because a sector scan slice was quantized to 8-bit resolution. Then, S1
+and S2 were read in the line buffers, and the angles α and β were calculated from the angles of
+pixel P and scanlines SLi and SLi+1. Finally, the value of pixel P, Vp, was calculated by linear
+interpolation using (1). By using the symmetry property of a sector scan image, the size of the
+LUTs also was reduced by approximately a factor of 2. The decoder represented the bottleneck
+of the back-end system because it required 3 clock cycles to decode a pixel address. However,
+it was shown that, for a 256 × 256 image size and a 100 MHz clock, it limited the frame rate
+to a value of 500 Hz, which met the requirement for mouse cardiac imaging.
+With these new signal processing algorithms and the efficient use of LUTs, the high-speed
+back-end processing system could be implemented in a simple and cost-effective manner. As
+seen in Table I, only about 3 Mbits of memory was used for LUTs in performing these functions,
+enabling us to use only a single middle-range FPGA without any external memory for the
+implementation.
+III. METHODS
+The signal processing performance of the back-end system was assessed in terms of accuracy
+and speed. In addition, its imaging performance for a beating mouse heart was tested by
+assembling a complete imaging device equipped with a recently reported high-speed
+mechanical sector scanner (see [6] and [17] for details).
+The accuracy of the back-end system employing new signal processing algorithms was
+quantitatively evaluated by computing the normalized root mean square error (RMSE) between
+images from the new algorithms, the conventional counterparts, and ideal images. The
+evaluation was undertaken by Field II simulation [18] in which a 40-MHz single-element
+transducer model was used; its focal depth was 6.2 mm, F-number was 2.1, and its fractional
+bandwidth was 83%. Five targets, 1 mm apart along the lateral direction at a depth of 6.2 mm,
+Chang et al. Page 4
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+were scanned by means of the mechanical sector scanning in which a viewing angle was 12.8°.
+Because the envelope sampling rate of the back-end system was fixed at 200 MHz, the same
+value as the RF sampling rate, the number of scanlines and pixel spacing would mainly affect
+the accuracy of the system. Therefore, this test was performed for the number of scanlines of
+256, 128, 108, and 56 under the various pixel spacing values, i.e., 30.9, 15.45, and 7.725 µm.
+As a standard image used for the comparison, an ideal image was created using RF signals
+simulated at a sampling rate of 3.2 GHz with the transducer orientated at successive angles
+such that its axis intercepts, one after the other, all the pixels of the image. The value of the
+pixel was computed by Hilbert transformation and logarithmically compressed to a 72 dB
+dynamic range.
+To produce images by the conventional algorithms, RF signals were generated at a sampling
+rate of 1.6 GHz and their envelope information was extracted by QDM with numerical
+calculation of (1). The envelope samples were decimated by a factor of 8 to obtain a 200 MHz
+envelope sample rate. The decimated samples were logarithmically compressed to a 72 dB
+dynamic range and then the bilinear interpolation was performed.
+In addition, the accuracy of the back-end system was evaluated by comparing a 20 µm-diameter
+tungsten wire (California Fine Wire Co., Grover Beach, CA) image from the system with that
+created from acquired RF data with the conventional signal processing algorithms, i.e., QDM
+with numerical calculation of (1) and the bilinear interpolation algorithm. Note that the
+characteristics of the single-element transducer were the same as those of the transducer used
+in the simulation. To compare −6 dB lateral and axial resolutions, a pixel with the maximum
+value was found and then point spread functions including the pixel along the axial and lateral
+directions were interpolated by a factor of 32.
+The maximum processing speed of the back-end system was evaluated by using 4-cycle 25
+MHz sinusoidal burst signals; they were generated by a function generator (33250A, Agilent
+Technologies Inc., Palo Alto, CA) and fed into the input port of the back-end system. In this
+experiment, the burst signals were regarded as echo signals acquired by a front-end subsystem.
+Back-end signal processing with the signals was performed under the condition where the
+number of scanlines was 210 and total view angle was 21°. Scan converted images were sent
+to the host processing block and stored in the hard disk of a PC with a time stamp indicating
+when an image had been completely transferred to the PC. To measure the maximum image
+rate, the pulse repetition period of the function generator was decreased by 1 µs from 15 µs
+until its minimum value supported by the back-end system was found.
+In vivo imaging of the mouse heart was performed under a protocol approved by the
+Institutional Animal Care and Use Committee (IACUC ) at the University of Southern
+California. For the experiment, a 2-week old mouse was anesthetized with pentobarbital
+sodium diluted in saline to 4 mg/ml via the intraperitoneal injection of a dose of 10 µL/g body
+weight, and it was cleaned with a chemical hair remover. The bottom of a de-ionized-water-
+filled container was in contact with the mouse with ultrasound gel as a coupling medium.
+IV. RESULTS
+The simulation results for the evaluation of accuracies of each algorithm were summarized in
+Table II, and they show that the conventional algorithms perform better than new ones. This
+inferior accuracy of the back-end system to the conventional counterpart was mainly due to
+the linear interpolation algorithm because the high-speed envelope detection algorithm
+imposed only quantization error on the final results [10]. However, the mean value of
+differences in accuracy between the new and conventional algorithms was 0.56%, which we
+Chang et al. Page 5
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+considered to be acceptable and capable of providing similar image quality as the conventional
+counterparts.
+Fig. 6 shows images of the wire phantom. The total scanlines were 108, the scanning angle
+was 12.8°, logarithmic compression with a 72 dB dynamic range was performed, and the pixel
+spacing was 7.725 µm. As a result, the −6dB axial and lateral resolutions of Fig. 6(b) acquired
+by the system were 42.0 µm and 75.8 µm, respectively. This spatial resolution was comparable
+to that computed from RF data in Fig. 6(a) of which the −6 dB axial and lateral resolutions
+were 42.5 µm and 71.7 µm, respectively. Furthermore, the correlation coefficient of these
+images was 94.25%. This means that the back-end system presented here is capable of
+providing accurate results because of its negligible signal processing error.
+The number used in this experiment was 108 scanlines because it was the maximum value that
+the subsystem in the front end could provide when the sweep rate was about 34 Hz and PRF
+20 kHz; the PRF was the maximum value that could be supplied by the pulse generator (5900PR
+ultrasonic analyzer, Panametrics Inc., Waltham, MA) used in the experiment. With this sweep
+rate, the subsystem could collect RF data at 34 frames per second (fps) during one-way swings
+or at 68 fps during 2-way swings. Under this situation, the PRF should be theoretically 7.344
+kHz for 108 scanlines (68 × 108). Practically, however, the PRF should be around 20 kHz
+because the sector motor frequently decelerates and accelerates. Therefore, the time duration
+during which the motor maintained a constant speed, was a relatively short. To avoid irregular
+spacing of scanlines, the PRF should be generated within the period, thus being faster than the
+theoretical value. With the number of scanlines, the back-end system could provide good
+quality images as shown in Fig. 7, which was an excised pig eye image illustrating the sclera,
+commonly known as the white of the eye; the iris and cornea join forming anterior chamber
+angle; zonular fibers located behind the iris; and the ciliary body.
+The maximum processing speed of the back-end system was estimated to be 433 images per
+second according to the time stamp recorded in a file. This value was determined because the
+minimum value of the pulse repetition period of the function generator was 11 µs. In fact, this
+image rate was not an obtainable maximum value of the back-end system with 100 MHz
+operation clock and a 256 × 256 image size, which is theoretically 457 images per second
+computed by 1/(TED × NSL) where TED is the minimum computation time for envelope
+detection of 10.4 µs in the case of 2048 RF samples per scanline and NSL is 210 scanlines. This
+difference arose from the limitation of the function generator’s capability to provide the
+minimum step of pulse repetition period, 1 µs. Note that it was not necessary to take into account
+the computational time for DSC when computing the theoretical image rate. This was so
+because the envelope detection was performed in parallel with DSC and its computational time
+was longer than that for DSC, i.e., 2 ms (500 images per second) computed in the previous
+section.
+In vivo imaging of the mouse heart was carried out under the same condition as the previous
+experiments for the wire phantom test and the in vitro experiment, except using 56 scanlines.
+This was the maximum usable value to retain the PRF of 20 kHz for the pulse generator when
+the sweep rate was increased to 67 Hz, so that the frame rate became 67 fps for one-way swing.
+This frame rate was the maximum obtainable scanning rate of the front-end subsystem for one-
+way swing. Fig. 8 shows still images of a mouse beating heart acquired at a rate of 67 fps. In
+addition, a cineloop of a beating mouse heart was obtained from the in vivo experiments ( ).
+In the first image, acquired at t = 0 ms, we can see the left ventricle (LV), the left atrium (LA),
+and the coronary sinus (CS). Because the mitral valve (MV) closes, however, it is not shown
+in the first image. The MV starts opening from the second image acquired at t = 15 ms and is
+fully opened at t = 45 ms as shown in the third image. This experimental result indicates that
+the imaging system developed in the work is capable of adequately providing real-time
+Chang et al. Page 6
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+visualization of important events occurring in the mouse heart, although the image quality is
+still lacking due to the sparse line density, i.e., 51 scanlines provided by the front-end subsystem
+used in the experiment.
+V. CONCLUSIONS
+This paper has described a recently developed high-speed back-end processing system for high-
+frequency ultrasound B-mode imaging, and demonstrated from several experiments that the
+system might be used in a high-frequency imaging device suitable for cardiac imaging in mice
+to produce images with small signal processing error in real time. The new signal processing
+algorithms and the efficient use of LUTs allowed the back-end processing system to be
+implemented in a simple and cost-effective manner.
+The back-end processing system presented in this paper may be equally useful for other types
+of front-end sub-systems equipped with high-frequency ultrasound phased arrays and convex
+arrays; these are capable of scanning at much faster rate than mechanical scanners if these
+arrays become available for cardiac imaging in mice. This is so because array imaging systems
+provide a segment of RF data per scanline after beam-formation which has the same
+configuration of input data to the back-end system as does the mechanical sector scanner.
+Acknowledgments
+The support of NIH grants number R01-HL079976 and P41-EB2182 is gratefully acknowledged.
+REFERENCES
+1. Foster FS, Pavlin CJ, Lockwood GR, Ryan LK, Harasiewicz KA, Berube L, Rauth AM. Principles and
+applications of ultrasound backscatter microscopy. IEEE Trans. Ultrason. Ferroelectr. Freq. Control
+1993;vol. 40(no 5):608–616. [PubMed: 18263226]
+2. Passmann C, Ermert H. A 100-MHz ultrasound imaging system for dermatologic and ophthalmologic
+diagnostics. IEEE Trans. Ultrason. Ferroelectr. Freq. Control 1996;vol. 43(no 4):545–552.
+3. Xu, X-C.; Hu, C-H.; Sun, L.; Yen, JT.; Shung, KK. Proc. IEEE Ultrason. Symp. 2005. High-frequency
+high frame rate ultrasound imaging system for small animal imaging with linear arrays; p. 1431-1434.
+4. Liang H-D, Blomley MJK. The role of ultrasound in molecular imaging. Br. J. Radiol 2003;vol.
+76:S140–S150. [PubMed: 15572336]
+5. Kramer K, Van Acker SABE, Voss H-P, Grimbergen JA, van der Vijgh WJF, Bast A. Use of telemetry
+to record electrocardiogram and heart rate in freely moving mice. J. Pharmacol. Toxicol. Methods
+1993;vol. 30(no 4):209–215. [PubMed: 8123902]
+6. Sun L, Richard WD, Cannata JM, Ching F, Johnson JA, Yen JT, Shung KK. A high frame rate high
+frequency ultrasonic system for cardiac imaing in mice. IEEE Trans. Ultrason. Ferroelectr. Freq.
+Control 2007;vol. 54(no 8):1648–1655. [PubMed: 17703669]
+7. Chérin E, Williams R, Needles A, Liu G, White C, Brown AS, Zhou Y-Q, Foster FS. Ultrahigh frame
+rate retrospective ultrasound microimaging and blood flow visualization in mice in vivo. Ultrasound
+Med. Biol 2006;vol. 32(no 5):683–691.
+8. Liu J-H, Jeng G-S, Wu T-K, Li P-C. ECG triggering and gating for ultrasonic small animal imaging.
+IEEE Trans. Ultrason. Ferroelectr. Freq. Control 2006;vol. 53(no 9):1590–1596. [PubMed: 16964909]
+9. Kim, HH.; Chang, JH.; Cannata, JM.; Shung, KK. Proc. IEEE Ultrason. Symp. 2007. Design of 20
+MHz convex array transducers for high frequency ophthalmic imaging; p. 88-91.
+10. Chang JH, Yen JT, Shung KK. A novel envelope detector for high-frame rate, high-frequency
+ultrasound imaging. IEEE Trans. Ultrason. Ferroelectr. Freq. Control 2007;vol. 54(no 9):1792–1801.
+[PubMed: 17941385]
+11. Shung, KK. Diagnostic Ultrasound: Imaging and Blood Flow Measurements. Boca Raton, FL: Taylor
+and Francis; 2005.
+Chang et al. Page 7
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+12. Akashi N, Kushibiki J, Chubachi N. Acoustic properties of selected bovine tissues in the frequency
+range 20–200 MHz. J. Acoust. Soc. Am 1995;vol. 98(no 6):3035–3039. [PubMed: 8550930]
+13. Foster FS, Pavlin CJ, Harasiewicz KA, Christopher DA, Turnbull DH. Advances in ultrasound
+biomicroscopy. Ultrasound Med. Biol 2000;vol. 26(no 1):1–27. [PubMed: 10687788]
+14. Richard WD, Arthur RM. Real-time ultrasonic scan conversion via linear interpolation of
+oversampled vectors. Ultrason. Imaging 1994;vol. 16(no 2):109–123. [PubMed: 7974907]
+15. Larsen, HG.; Leavitt, SC. Proc. IEEE Ultrason. Symp. 1980. An image display algorithm for use in
+real time sector scanners with digital scan converters; p. 763-765.
+16. Lee MH, Kim JH, Park SB. Analysis of a scan conversion algorithm for a real-time sector scanner.
+IEEE Trans. Med. Imaging 1986;vol. MI-5(no 2):96–105. [PubMed: 18243993]
+17. Cannata JM, Ritter TA, Chen W-H, Silverman RH, Shung KK. Design of efficient, broadband single-
+element (20–80 MHz) ultrasonic transducers for medical imaging applications. IEEE Trans. Ultrason.
+Ferroelectr. Freq. Control 2003;vol. 50(no 11):1548–1557. [PubMed: 14682638]
+18. Jensen JA. Field: A program for simulating ultrasound system. 10th Nordic-Baltic Conf. Biomedical
+Imaging 1996;vol. 4:351–353.
+Chang et al. Page 8
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 1.
+Functional block diagram of the back-end processing system used for high-speed, high-
+frequency ultrasound B-mode imaging systems. QDM stands for quadrature demodulation,
+and the high-speed envelope detector produces logarithmically compressed envelope samples.
+The block arrows indicate signal processing paths.
+Chang et al. Page 9
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 2.
+Functional block diagram of the implemented digital time gain compensator. The bold line box
+represents a look-up table. The u and s denote unsigned and signed integer numbers,
+respectively. The R-shifter represents an arithmetic right shift register. The dashed lines
+indicate control signals and the solid lines represent data flow paths.
+Chang et al. Page 10
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 3.
+Functional block diagram of the implemented quadrature demodulator and envelope detector.
+The bold line boxes represent look-up tables. The u and s denote unsigned and signed integer
+numbers, respectively.
+Chang et al. Page 11
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 4.
+Functional block diagram of the high-speed digital scan converter with linear interpolation.
+The bold line boxes represent look-up tables. The u and s denote unsigned and signed integer
+numbers, respectively. In this design, a sector scan slice was quantized to 8-bit resolution, i.e.,
+256 levels so that α could be obtained by subtracting a given β value from 256.
+Chang et al. Page 12
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 5.
+Pixel addressing configuration for a 256 × 256 image. The multiplication signs (×) represent
+the location of the image pixels. SLi and SLi+1 represent the directions of 2 successive acquired
+sector scanlines. The black dots on these scanlines represent acquired samples. P is the pixel
+of which the value will be calculated by interpolation from the values of the 2 acquired samples
+S1 and S2. α and β are angles of SLi and SLi+1, respectively, relative to the virtual scanline
+intercepting P.
+Chang et al. Page 13
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 6.
+Images of a 20 µm diameter tungsten wire phantom; (a) was created from acquired RF data by
+using the conventional signal processing algorithms, and (b) was acquired by the back-end
+system developed. These images were acquired by using a 40-MHz, single-element transducer
+and logarithmically compressed with a 72 dB dynamic range.
+Chang et al. Page 14
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 7.
+Pig eye image illustrating the sclera, commonly known as the white of the eye; the iris and
+cornea join forming anterior chamber angle; zonular fibers located behind the iris; and the
+ciliary body. The image was acquired by using a 40-MHz, single-element transducer and
+logarithmically compressed with a 60 dB dynamic range.
+Chang et al. Page 15
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Fig. 8.
+Still images of a mouse beating heart acquired at 67 frames per second. LA: left atrium, LV:
+left ventricle, MV: mitral valve, CS: coronary sinus. These images were acquired by using a
+40-MHz, single-element transducer and logarithmically compressed with a 60 dB dynamic
+range.
+Chang et al. Page 16
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Chang et al. Page 17
+TABLE
+I
+The
+Usage
+of
+Internal
+Memory
+of
+the
+Field-programmable
+Gate
+Array
+FPGA
+(Stratix
+EP1S60F1020C6,
+Altera
+Corporation,
+San
+Jose,
+CA)
+Used
+for
+Look-up
+Tables
+(LUT)
+in
+Each
+Function.
+1
+Functions
+DTGC
+QDM
+Envelope
+detector
+DSC
+Line
+buffers
+Display
+memory
+LUT
+size
+(bits)
+30
+720
+65
+536
+102
+400
+1
+646
+834
+98
+304
+1
+048
+576
+Usage
+rate
+57.3%
+(2
+990
+370/5
+215
+104
+bits)
+2
+1
+DTGC
+=
+digital
+time
+gain
+compensation;
+QDM
+=
+quadrature
+demodulation;
+and
+DSC
+=
+digital
+scan
+conversion.
+2
+The
+total
+amount
+of
+the
+memory
+used
+in
+the
+system
+is
+2
+990
+370
+bits
+of
+the
+5
+215
+104
+bits
+available
+in
+the
+FPGA.
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+NIH-PA
+Author
+Manuscript
+Chang et al. Page 18
+TABLE
+II
+Comparison
+of
+Accuracy
+of
+New
+and
+Conventional
+Signal
+Processing
+at
+Varying
+Pixel
+Spacings.
+1
+30.9
+µm
+15.45
+µm
+7.725
+µm
+Number
+of
+scanlines
+Conventional
+New
+Conventional
+New
+Conventional
+New
+256
+6.19%
+7.16%
+5.68%
+6.36%
+6.00%
+6.70%
+128
+7.26%
+8.14%
+7.17%
+7.74%
+7.55%
+8.15%
+108
+8.63%
+9.25%
+8.53%
+9.03%
+8.96%
+9.48%
+56
+23.95%
+24.26%
+24.14%
+24.28%
+24.21%
+24.38%
+1
+Accuracy
+of
+algorithms
+was
+compared
+by
+computer
+simulation
+using
+the
+Field
+II
+program;
+the
+accuracy
+of
+both
+algorithms
+was
+evaluated
+as
+a
+function
+of
+the
+number
+of
+scanlines
+and
+pixel
+spacing
+under
+the
+condition
+of
+200
+MHz
+envelope
+sampling
+rate.
+The
+accuracy
+was
+quantitatively
+examined
+by
+computing
+the
+normalized
+root
+mean
+square
+error
+(RMSE)
+between
+pixel
+values
+from
+each
+algorithm
+and
+the
+ideal
+pixel
+values.
+The
+mean
+value
+of
+difference
+in
+accuracy
+between
+the
+new
+and
+conventional
+algorithms
+was
+0.56%.
+IEEE Trans Ultrason Ferroelectr Freq Control. Author manuscript; available in PMC 2009 July 29.
+

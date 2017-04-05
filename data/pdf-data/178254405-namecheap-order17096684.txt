@@ -1,0 +1,41 @@
+RECEIPT
+Namecheap.com
+11400 W. Olympic Blvd. Suite 200,
+Los Angeles,
+CA 90064
+US
+www.namecheap.com Order # 17096684 support@namecheap.com
+Order Date : 8/31/2015 6:18:32 PM
+Order Number : 17096684
+Transaction ID : 20902276
+User Name : bimanbhai
+Address : Luc Jonveaux
+14 rue des lyonnais
+PARIS
+PARIS , 75000
+FR
+Payment Source : PAYPAL
+Initial Charge : $45.49
+Final Cost : $45.49
+Total Refund : $0.00
+Refund Transaction
+ID
+: N/A
+Refunded To : N/A
+TYPE NAME QTY DURATION PRICE SUB TOTAL
+RENEW Whoisguard
+for echopen.org
+1 Sync to
+domain
+$8.65 $8.65
+ICANN Fee $0.00
+RENEW Domain Renewal
+echopen.org
+1 3 year $12.28 $36.84
+ICANN Fee $0.00
+Sub Total $45.49
+TOTAL $45.49
+Additional Transaction Details:
+Order # 173.245.49.101-BIMANBHAI-NC-TRAN:20902276-1441045112.670
+Approval # 9R803702EB3140901
+

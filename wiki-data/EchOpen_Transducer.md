@@ -1,0 +1,113 @@
+1.  EchOpen Transducer
+
+Transducteur acoustique d'echOpen
+=================================
+
+Qu'est-ce qu'un transducteur piézoélectrique ?
+----------------------------------------------
+
+![Schéma d'une capsule
+piézoélectrique](SchemaPiezo.gif "fig:Schéma d'une capsule piézoélectrique")
+Un transducteur est un dispositif permettant de convertir une grandeur
+physique en une autre. Par exemple, un haut-parleur transforme un signal
+électrique en ondes acoustiques.\
+Une sonde échographique requiert justement un transducteur
+électro-acoustique. Nous n'allons pas utiliser un haut-parleur mais un
+transducteur piézoélectrique. Le fonctionnement de ce dernier est
+simple. Sous une contrainte mécanique, la capsule piézoélectrique se
+polarise, induisant une tension entre ses bornes (effet piézoélectrique
+direct). Inversement, sous l'effet d'un champ électrique la capsule
+piézoélectrique se déforme (effet piézoélectrique indirect).
+
+Cahier des charges
+------------------
+
+Le transducteur doit respecter plusieurs contraintes techniques.
+
+-   Focalisation à 10 cm.
+-   Fréquence centrale de 3,5, 5,5 et 7,5 MHz
+
+Evidemment, un transducteur a une fréquence centrale fixée ce qui
+nécessite de concevoir trois transducteurs différents.
+
+Solution technique retenue
+--------------------------
+
+Pour l'instant nous ne fabriquons pas nos propres capsules
+piézoélectriques. Nous avons acheté des capsules piézoélectriques
+concaves (focalisation à 10 cm) en Pz27 chez Ferroperm. Elles ont un
+diamètre de 1,5 cm.\
+\
+Nous venons de terminer la conception du backing pour le transducteur.
+Le backing est un élément essentiel du transducteur. Il permet d'éviter
+une résonnance néfaste des ondes acoustiques dans le cristal
+piézoélectrique. Sans cet élément il est impossible d'obtenir des images
+échographiques. Avec ce backing nous avons maintenant un transducteur
+fonctionnel.\
+\
+La conception de cet élément nécessite du temps puisqu'il faut faire de
+nombreux essais expérimentaux pour obtenir un résultat concluant.
+Finalement, nous avons bien un backing caractérisé par son impédance
+acoustique de 4,5 MRayl, homogène. Notre backing est un mélange de
+poudre de verre, de poudre de tungstène et de colle époxy. Voici le
+tableau récapitulatif de nos essais : [:File:Tableau de suivi des essais
+de
+backing.pdf](:File:Tableau_de_suivi_des_essais_de_backing.pdf "wikilink").\
+\
+Afin d'améliorer la qualité de notre sonde, nous souhaitons ajouter une
+lame adaptatrice d'impédance acoustique en sortie du transducteur (sur
+la face concave). C'est un défi technologique à relever puisque cette
+lame a une épaisseur de 0,1 mm et doit épouser une surface concave.
+
+Backing
+-------
+
+### Composition
+
+La composition pour un backing à 4,5 MRayl homogène est la suivante.
+
+-   Colle époxy (type SADER) : 3,0 g.
+    -   Durcisseur : 1,5 g.
+    -   Résine : 1,5 g.
+-   Poudre de tungstène (grain 12 µm) : 3,4 g.
+-   Poudre de verre (grain 12 µm) : 1,0 g.
+
+Il faut respecter les proportions de chaque composants. Les masses ne
+sont données qu'à titre indicatif.
+
+### Processus de fabrication
+
+Six étapes sont indispensables pour concevoir un backing fonctionnel.
+
+-   Ajouter les composants sus-cités dans un contenant ouvert
+    (type bécher).
+-   Mélanger et homogénéiser.
+-   Dégazer le mélange sous vide.
+-   Couler le mélange dans un moule.
+-   Dégazer le mélange sous vide.
+-   Laisser polymériser (à température ambiante ou à l'étuve).
+
+Piézoélectrique et backing
+--------------------------
+
+L'assemblage de la capsule piézoélectrique et du backing se fait en dix
+étapes.
+
+-   Coller un fil électrique sur la face convexe de la capsule.
+-   Ajouter les composants nécessaires au backing dans un contenant
+    ouvert (type bécher).
+-   Mélanger et homogénéiser.
+-   Dégazer le mélange sous vide.
+-   Placer la capsule piézoélectrique dans un moule adapté, face concave
+    au fond en laissant ressortir le fil électrique.
+-   Couler le mélange du backing dans le moule, sur la
+    capsule piézoélectrique.
+-   Dégazer le mélange sous vide.
+-   Laisser polymériser (à température ambiante ou à l'étuve).
+-   Démouler.
+-   Coller un deuxième fil électrique sur la face concave de la capsule.
+
+\
+
+<Category:Sonde> <Category:Balayage> <Category:Transducer>
+<Category:TechTeam>

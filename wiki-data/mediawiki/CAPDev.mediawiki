@@ -1,0 +1,56 @@
+# CAPDev
+
+'''DATE''' : 19 décembre 2015 | '''HORAIRES''' : 09.00 - 18.00 | '''LIEU''' : [https://www.google.fr/maps/place/1+Parvis+Notre-Dame+-+Pl.+Jean-Paul+II,+75004+Paris-4E-Arrondissement/@48.8539541,2.346142,17z/data=!3m1!4b1!4m2!3m1!1s0x47e671e1a22a2c85:0xa21c95b447836ce8 echopen]  Hotel Dieu 1, place du parvis Notre Dame 75004 Paris (Batiment A1, 6ème étage)
+
+= Overview =
+
+{| class="wikitable"
+|-
+|<div style="text-align: center;"><b>'''Qu'allons-nous faire ?'''</b>
+|<div style="text-align: center;"><b>'''De qui avons-nous besoin ?'''</b>
+|<div style="text-align: center;"><b>'''Quels seront les livrables ?'''</b>
+|-
+|
+* Se réunir, échanger, passer un bon moment
+* Choisir et implémenter des solutions pour optimiser le traitement du signal reçu par l'objet mobile
+* Améliorer l'application mobile
+* Coder!
+|
+* De chacun car tout regard est le bienvenu
+* Développeurs et informaticiens
+|
+* Un software optimisé (scan conversion, choix algo...)
+* Achever le développement de l'application mobile
+* L'intégration des participants dans le projet
+|}
+
+= Programme du workshop du 19.12.2015 =
+=== 9.00 - 9.30 | Accueil et petit déjeuner ===
+
+=== 9.30 - 10.30 | Rappel du projet echOpen, présentation du Kit Emile (V0.0), conclusions de CAPTech ===
+; 9.30 - 9.45 Objectif du projet echopen 
+: Bâtir un outil de primo-diagnostic simple à bas-coût, universel qui permet de fixer la prise en charge sanitaire
+: Philosophie du projet : c’est un projet communautaire, l’implémentation est Open Source 
+: Revenir à un dispositif mécanique, utilisant des technologies laissé en friche, dès que possible, softwariser (en embarqué / déporté), dès que possible, universaliser : concevoir avec l’idée d’une ré-utilisabilité des modules développés, notamment software
+; 9.45 - 10.00 Présentation détaillée Kit et conclusions CAPTech
+: Hardware & Software (challenges)
+; 10.00- 10.30 Présentation du software [https://github.com/echopen/android-app]
+: Application Android - Architecture
+: Algorithme de scan conversion (interpolation) : [http://echopen.org/index.php?title=Challenge_scan_conversion]
+: Outil collaboratif GitHub
+
+=== 10.30- 13.00 | Kick-off du Hackathon ===
+Améliorer les deux indicateurs suivants:
+#Intervalle de la scan conversion (ajd 200ms)
+#Vitesse de rafraîchissement (ajd 3 image par s)
+
+Explorer et comparer différentes implémentations de l'architecture du traitement du signal
+#Langage / JNI
+#GNU : OpenCl, Coco2dx, RenderScript
+
+Achever le développement de l'application mobile 
+=== 13.00 - 14.00 | Déjeuner ===
+Miam!
+
+=== 14.00 - 18.00 | Reprise Hackathon ===
+...

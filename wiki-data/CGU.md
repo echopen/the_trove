@@ -1,0 +1,267 @@
+1.  CGU
+
+Conditions générales d'utilisation (CGU) du wiki Echopen
+
+Article 1. Définitions
+----------------------
+
+CGU : renvoient aux présentes Conditions Générales d’Utilisation.
+
+Compte Utilisateur : désigne le compte créé par l’Utilisateur.
+
+Contenu : désigne toute intervention de l’Utilisateur sur le site
+Echopen
+
+Echopen : désigne le présent site www.Echopen.org, ainsi que tous les
+liens URL subséquents.
+
+Utilisateur(s) : se réfère(nt) à toute personne physique utilisant
+Echopen.
+
+Wiki : correspond à la plateforme de mise en partage de connaissances
+définie à l’article 2 proposée par Echopen.
+
+Article 2. Objet
+----------------
+
+Les CGU ont pour objet de définir les modalités de mise à disposition et
+d'utilisation du Wiki proposés. Echopen est une plateforme gratuite de
+mises en commun d’informations relatives à la création d'un échographe
+en open source.
+
+Article 3 : Accès au Wiki
+-------------------------
+
+L’accès et/ou l’utilisation de Echopen par l’Utilisateur est
+conditionné(e) à l’acceptation des CGU. Les CGU constituent
+l’intégralité des relations contractuelles entre Echopen et
+l’Utilisateur. Ainsi, le refus de l’acceptation des CGU par
+l’Utilisateur prohibe l’accès à ce dernier l’accès au Wiki.
+
+Echopen est un wiki accessible gratuitement à tout Utilisateur disposant
+d'un accès à internet. Tous les coûts afférents à l'accès à Echopen, que
+ce soient les frais matériels, logiciels ou d'accès à internet sont et
+restent exclusivement à la charge de l'Utilisateur. L’Utilisateur est
+seul responsable du bon fonctionnement de son équipement informatique
+ainsi que de son accès à internet.
+
+Echopen met en oeuvre tous les moyens à sa disposition pour assurer un
+accès de qualité au Wiki, mais n'est tenu à aucune obligation de
+continuité.
+
+Echopen se réserve la possibilité d'interrompre, de suspendre
+momentanément ou de modifier sans préavis l'accès à tout ou partie de
+son Wiki, afin d'en assurer la maintenance, ou pour toute autre raison,
+sans que l'interruption n'ouvre droit à aucune obligation ni
+indemnisation.
+
+Outre l’acceptation des CGU, l’accès au Wiki est soumis à la création
+d’un Compte Utilisateur. Pour cela des informations personnelles seront
+demandées au travers d’un formulaire d’inscription. Celui-ci demandera à
+l’Utilisateur, entre autres, un mot de passe dont l’élaboration devra
+contenir une complexité minimale.
+
+Ces informations seront ensuite conservées et accessibles dans la
+rubrique « Profil ». Cette rubrique est disponible en haut à droite de
+l’écran sous votre photographie de profil. En qualité de souscripteur
+des présentes CGU, l’Utilisateur s’engage :
+
+-   -   à fournir des informations vraies, exactes, et complètes,
+    -   à les maintenir à jour régulièrement.
+
+Le Compte Utilisateur est strictement personnel. Il ne peut être utilisé
+qu’uniquement à titre individuel et ne peut EN AUCUN CAS ni être partagé
+ni être cédé.
+
+L’Utilisateur est responsable (i) de la conservation du caractère
+confidentiel de son mot de passe et (ii) des actions effectuées sous
+votre identifiant.
+
+Article 4 : Modération et prohibitions
+--------------------------------------
+
+### 4.1. Règles d'utilisation
+
+L’Utilisateur est entièrement responsable de tout Contenu (i) qu’il rend
+accessible à des tiers, (ii) qu’il envoie par courrier électronique ou
+(iii) qu’il stocke sur des espaces personnels de Echopen ou (iv) sur des
+espaces accessibles à des tiers, (v) qu’il télécharge sur le forum, ou
+(vi) qu’il transmet de toute autre manière au travers de l’interface
+proposée par Echopen. L’Utilisateur est par ailleurs conscient que tout
+Contenu accessible au public mis en ligne par un autre Utilisateur de
+Echopen relève de son entière responsabilité. Echopen n'exerçant pas de
+contrôle a priori sur lesdits Contenus, Echopen n'est pas tenu à une
+obligation générale de surveillance du contenu stocké sur Echopen par
+les Utilisateurs.
+
+Echopen se réserve néanmoins le droit de supprimer tout Contenu
+contraire aux règles ci-dessous. L’Utilisateur s’interdit dans le cadre
+de l'utilisation de Echopen de se livrer à des actes, de quelque nature
+que ce soit (notamment à des actes d’envoi, diffusion, édition,
+émission, mise en ligne, publication ou de toute autre manière), qui
+seraient contraires aux lois françaises. En particulier, et sans que
+cette liste soit limitative, il est interdit de :
+
+-   se livrer à des actes constitutifs d'apologie des crimes contre
+    l'humanité, de négation de génocides, du terrorisme, d'incitation à
+    la violence, à la haine raciale ou à la pornographie infantile ;
+-   se livrer à des actes de diffamation, d'injure, de menace, de
+    chantage, de harcèlement ou à des actes attentatoires à la vie
+    privée ou à la dignité humaine ;
+-   tenter d'induire en erreur d'autres Utilisateurs en usurpant
+    l'identité ou une dénomination sociale ou en portant atteinte à
+    l'image ou à la réputation d'autres personnes et/ou en se faisant
+    passer pour un tiers ou pour un employé, un Wiki habilité ou un
+    affilié de Echopen ;
+-   se livrer à une violation des droits de propriété intellectuelle
+    (notamment en matière de musique, vidéo, animations, jeux,
+    logiciels, bases de données, images, sons et textes), tout autre
+    droit de propriété appartenant à un tiers ou tout secret commercial
+    appartenant à un de ces tiers;
+-   expédier ou de faire expédier des courriers électroniques ou des
+    messages instantanés à des personnes qui ne les ont pas sollicités
+    ou sans avoir respecté leurs droits reconnus par la loi, tels que
+    des publicités, du matériel promotionnel, des chaîne de lettres ou
+    toute autre forme de prospection directe non sollicitée ; mettre en
+    ligne des messages à caractère promotionnel sur Echopen ;
+-   télécharger sciemment, afficher, émettre, diffuser, transmettre ou
+    rendre accessible de toute autre manière tout Contenu comprenant ou
+    constituant des virus informatiques ou tout autre code ou programme
+    informatique conçus pour interrompre, détruire, détourner ou limiter
+    les fonctionnalités ou les performances de tout logiciel,
+    ordinateur, Wiki ou outil de communications électroniques sans que
+    cette énumération ne soit limitative ;
+-   perturber, ralentir, bloquer ou altérer le flux normal des données
+    échangées dans le cadre de Echopen, accélérer le rythme de
+    défilement des Contenus de Echopen de telle manière que le
+    fonctionnement de Echopen soit modifié ou altéré ou commettre toute
+    autre action ayant un effet perturbateur équivalent sur les
+    fonctionnalités de Echopen;
+-   accéder frauduleusement, se maintenir, entraver ou perturber les
+    systèmes d'information de Echopen, les serveurs, les réseaux
+    connectés au Wiki, ou refuser de se conformer aux conditions
+    requises, aux procédures, aux règles générales ou aux dispositions
+    réglementaires applicables aux réseaux connectés à Echopen.
+
+### 4.2. Signalement des abus
+
+En cas de présence d’un Contenu stocké sur Echopen présente un caractère
+manifestement illicite, celui-ci peut être signalé à Echopen en envoyant
+un mail à contact@Echopen.org.
+
+La notification doit impérativement permettre à Echopen d'identifier le
+Contenu illicite et le chemin d'accès à ce contenu. Cette notification
+doit contenir les éléments suivants :
+
+-   le nom, prénom et domicile de la personne signalant le Contenu
+    illicite ;
+-   une copie du Contenu qui potentiellement litigieux ainsi que
+    l'adresse URL de la page concernée ou les nom et prénom ou
+    pseudonyme de l’auteur du contenu litigieux ;
+-   les motifs pour lesquels le contenu devrait être retiré.
+
+Toute notification d'un Contenu abusivement présenté comme illicite dans
+le but d'en obtenir le retrait vous exposerait à des sanctions civiles
+et/ou pénales.
+
+### 4.3. Sanctions
+
+En cas de contravention aux interdictions susmentionnées, Echopen est en
+droit de sommer l’Utilisateur contrevenant à arrêter ses agissements dès
+lors que ces derniers sont minimes. Néanmoins dans le cas de récidive ou
+dans le cadre d’un agissement tombant sous le coup de la loi pénale, et
+en sus d’avoir suspendu l’accès aux Wikis, Echopen signalera ces
+agissements aux forces de l’ordre.
+
+Article 5. Responsabilités
+--------------------------
+
+Echopen ne peut, en outre, être tenue responsable de tout
+dysfonctionnement du réseau ou des serveurs de son hébergeur ou de tout
+autre événement échappant à son contrôle raisonnable, qui empêcherait ou
+dégraderait l'accès à son Wiki.
+
+Article 6 : Propriétés intellectuelles & Données personnelles
+-------------------------------------------------------------
+
+### 6.1. Marque Echopen
+
+La marque Echopen est et demeure la propriété exclusive de Echopen.
+Toute reproduction totale ou partielle, modification ou utilisation de
+cette marque pour quelque motif et sur quelque support que ce soit, sans
+accord exprès et préalable de Echopen, est strictement interdite. Il en
+est de même de toute combinaison ou conjonction avec toute autre marque,
+symbole, logotype et plus généralement tout signe distinctif destiné à
+former un logo composite.
+
+### 6.2. Reproduction des contenus
+
+Les Utilisateurs, auteurs respectifs, acceptent explicitement que les
+Contenus partagés sur le Wiki quant à la désignation de l'échographe
+ouvert soient mises sous des licences ouvertes spécifiques choisies par
+Echopen. Les Utilisateurs acceptent de se soumettre à la charte
+d'agrégation des liens disponible depuis le lien suivant : ££
+
+En publiant du Contenu sur le Wiki l'Utilisateur-auteur accepte que
+Echopen reproduise ce contenu publiquement sur Echopen et que ce contenu
+soit organisé et enrichi par les automatismes de publication de Echopen.
+En outre, l’Utilisateur-auteur du Contenu autorise expressément Echopen
+à reproduire et à représenter ce contenu gratuitement à des fins de
+recherche et développement. Cette autorisation est faite pour toute la
+durée des droits d’auteur et vers le monde entier. Cette reproduction
+sera faite sur support papier ou électronique accessible par tout
+support électromagnétique.
+
+Les Contenus des Utilisateurs-auteurs sont susceptibles d'être modifiés
+ou supprimés par Echopen ou par des tiers. Toutefois, une copie cache
+sera gardée jusqu’à la prescription prévue par les lois pénales.
+
+### 6.3. Données personnelles
+
+Dans une logique de respect de la vie privée des utilisateurs, Echopen
+s'engage à ce que la collecte et le traitement d'informations
+personnelles, effectués à l’occasion du Wiki, soient effectués
+conformément à la loi n°78-17 du 6 janvier 1978 relative à
+l'informatique, aux fichiers et aux libertés, dite Loi « Informatique et
+Libertés ». A ce titre, Echopen a fait l'objet d'une déclaration à la
+CNIL.
+
+Conformément à l'article 34 de la loi « Informatique et Libertés »,
+Echopen garantit à ses Utilisateurs un droit d'opposition, d'accès et de
+rectification sur les données nominatives le concernant. Les
+Utilisateurs ont la possibilité d'exercer ce droit en écrivant à
+l'adresse suivante :contact@Echopen.fr
+
+### 6.4. Liens hypertextes vers les Contenus
+
+Le site www.Echopen.org autorise, sans autorisation préalable, la mise
+en place de liens hypertextes pointant vers ses pages. Les sites qui
+font le choix de pointer vers une page de www.Echopen.org engagent leur
+responsabilité dès lors qu’ils porteraient atteinte à l’image du site
+public.
+
+Echopen propose des liens hypertextes vers des sites web édités et/ou
+gérés par des tiers. Dans la mesure où aucun contrôle n'est exercé sur
+ces liens comme sur les contenus, les Utilisateurs reconnaissent que
+Echopen n'assume aucune responsabilité relative à la mise à disposition
+de ces ressources, et ne peut être tenu responsable quant à leur
+contenu.
+
+Article 7. Durée et résiliation
+-------------------------------
+
+Le présent contrat est conclu pour une durée indéterminée à compter de
+l'inscription des utilisateurs sur Echopen. Il ne s’éteindra que par une
+volonté exprès des Parties ou dans l’hypothèse d’une suspension motivée
+sur une violation décrite à l’article 4.
+
+Article 8. Droit applicable et juridiction compétente
+-----------------------------------------------------
+
+Nonobstant les règles applicables aux licences des contenus mis à
+disposition par Echopen, telle que mentionnées à l'article , les règles
+en matière de droit, applicables aux contenus et aux transmissions de
+données sur et autour du site, sont déterminées par la loi française. En
+cas de litige, n'ayant pu faire l'objet d'un accord à l'amiable, seuls
+les tribunaux français du ressort de la cour d'appel de Paris sont
+compétents.

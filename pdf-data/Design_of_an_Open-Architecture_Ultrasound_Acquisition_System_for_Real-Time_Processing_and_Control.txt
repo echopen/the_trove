@@ -1,0 +1,1231 @@
+Design of an Open-Architecture Ultrasound
+Acquisition System for Real-Time Processing and
+Control
+Wilson Fung and Robert Rohling
+UBC-ECE Technical Report
+Number UBC-ECE-TR-002
+January 2003
+Electrical and Computer Engineering
+The University of British Columbia
+2356 Main Mall
+Vancouver, B.C., Canada
+V6T 1Z4
+URL: http://www.ece.ubc.ca
+1
+Design of an Open-Architecture Ultrasound Acquisition
+System for Real-Time Processing and Control.
+Wilson Fung and Robert Rohling
+University of British Columbia, Dept. of ECE, UBC-ECE-TR-002
+January 2003
+1 Introduction
+1.1 Principles of Ultrasound Imaging
+Ultrasound is a sound wave whose frequency is beyond human’s audible range. When a
+pulse of ultrasound encounters a medium transition, part of it is reflected, forming
+echoes, while the rest penetrates. Ultrasound pulses are assumed to propagate in straight
+lines, resulting in echoes of various magnitudes along this line. Different parts of a body
+can be interrogated by scanning in different directions. An ultrasound image is created
+from an array of such scan lines,revealing cross-sectional information of the body
+noninvasively.
+Thus, to sample a scan line of depth d into the object, each ultrasound pulse needs to
+travel the same path twice, to and from the transducer. With the propagation speed c of
+ultrasound in the object, the time t for sampling of a scan line of depth d is:
+c
+d
+t 2
+=
+Because each scan line cannot be sampled simultaneously due to their interference with
+each other, the total sampling time of an image with n scan lines is:
+c
+nd
+nt
+T 2
+=
+=
+In medical applications, the propagation speed of ultrasound through soft tissue is
+approximately 1540m/s [1], thus an ultrasound image with 512 scan lines of depth 10cm
+will take at least 66.5ms to sample, restricting the maximum frame rate to about 15
+frames per second (fps). In recent years, more advanced image acquisition methods have
+arisen, such as spatial compound imaging and coded excitation, which involve different
+timing parameters. Nevertheless, these calculations are a good approximation of the
+frame rate for most ultrasound system.
+1.2 Current Ultrasound Image Acquisition
+Due to the safe nature of ultrasound, low cost of equipment and ability to image both
+soft-tissue and blood flow, ultrasound is used in a number of fields including obstetrics,
+gynecology, radiology, cardiology, and surgery, among others. Commercial ultrasound
+machine are also used in a wide range of application in academic research. In most
+academic research laboratories, these applications use conventional 2D ultrasound
+UBC-ECE-TR-002 2
+machines, where images are captured via the analog video output by a frame-grabber
+board and converted to digital images on a personal computer (PC).
+The format for the analog video output was originally designed for the transmission of
+color television signals in the 1950’s and has several drawbacks. The transmission rate is
+limited to 30 images per second; regardless of how fast the ultrasound images are actually
+produced (typically 1 to 100 images per second). The analog format also introduces
+distortions and artifacts in the image. In addition, the various processing techniques such
+as echo-Doppler image fusion, filtering, and gain have already been applied to the video
+images and cannot be undone. Furthermore, overlays such as patient names, axes and
+labels are “burned” into the image and cannot be easily separated from the actual image.
+More recently, ultrasound machines have been able to export digital images in DICOM
+format over a computer network. DICOM (Digital Imaging and Communications in
+Medicine) is a transfer standard for the communication of medical images in a hospital
+network. Currently the DICOM format only supports fully-formed (bitmap) images, and
+thus suffers from some of the same limitations as video. Moreover, the DICOM format is
+not intended for, nor capable of, real-time image transfer.
+Ultrasonix Medical Corporation overcomes these limits with a PC-based open
+architecture that allows access to the entire digital-image formation process. The name of
+the system is called Ultrasonix 500RP, where RP stands for research package. This is a
+special system based on the standard Ultrasonix 500, but with additional software for
+research and a software development kit (SDK). This paper starts with an introduction to
+this machine and follows with description of PUPIL (Programmable Ultrasound Platform
+and Interface Library). PUPIL extends the machine with additional high-speed
+computational ability to process the ultrasound images in real-time. The use of the PUPIL
+allows for easy upgrade of the workstation, graphics cards and other hardware as new
+technologies are developed. Of course, since the Ultrasonix machine is based on general-
+purpose PC hardware, it can also be upgraded easily by the manufacturer. Issues include
+retrieving ultrasound data in real-time, format of the ultrasound data, choosing the
+appropriate type of network and processor, and designing the software architecture.
+Performance tests are also done on the system to demonstrate its viability as a flexible
+high performance ultrasound system for researchers.
+UBC-ECE-TR-002 3
+2 PUPIL (Programmable Ultrasound Platform and Interface Library)
+Ultrasonix
+500RP
+Console High
+Performance
+Computing
+Workstation
+Display Display
+Ultrasound Probe Sensors
+Data: Image
+Feedback
+Ultrasound
+Data
+Exportation
+Network
+Figure 1. Block Diagram presenting PUPIL. The region of Ultrasound Data Exportation
+Network includes part of Ultrasonix 500RP and High Performance Computing
+Workstation, indicating that parts of the network are on the machines.
+2.1 Ultrasonix 500RP
+Instead of the closed-architecture found on conventional ultrasound machines, the
+Ultrasonix 500RP has an open software and hardware architecture that allow access to
+raw echo data, pre-scan converted data, post-scan converted data, and individual access to
+echo and Doppler data streams. It also allows both measurement and control of internal
+parameter such as, frequency, focal points, gain, depth, beamforming and image
+processing parameters. Because the architecture is based on that of PC, new software
+applications and hardware developed for the PC in other markets immediately become
+available to the ultrasound system as well. This includes advances in graphics and
+communications.
+Ultrasound
+Probe
+Programmable
+Ultrasound
+Acquisition
+Module
+General
+Purpose PC
+Video Card
+Ethernet
+Myrinet
+Display
+DICOM
+server
+(for off-line
+access)
+High Performance
+Computing
+Workstation
+(for real-time
+image processing
+Ultrasonix 500RP
+CPU
+USB
+Console
+Figure 2. Ultrasonix 500RP. (Right) The external appearance of the machine. (Left)
+Block diagram presenting internal structure of the machine.
+UBC-ECE-TR-002 4
+The Ultrasonix 500RP, shown in Figure 2, is basically a general-purpose PC appended
+with specialized hardware devices for ultrasound image acquisition. Such specialized
+devices include a programmable ultrasound acquisition board and a Console. The
+ultrasound acquisition board connects a set of ultrasound probe to the Ultrasonix 500RP,
+performs beam forming, processes the analog signals from the probe and converts the
+signals to digital signals accessible by the rest of the machine. The board can be
+reprogrammed in real-time by the Research Package (RP) software to operate in the
+desired imaging mode, which also allows easy integration of new features.
+The Console provides manual controls similar to a conventional ultrasound machine.
+Unlike conventional ultrasound machines, the Console communicates with the Ultrasonix
+500RP through the USB bus, instead of directly with the ultrasound acquisition board, so
+that manual commands may collaborate with internal software commands of the machine
+before they are sent to the ultrasound acquisition board. Table 1 is the complete list of
+parameter controllable by the Console in each mode.
+Modes Parameters of the Mode
+B-Mode
+Dual B-Mode
+Quad B-Mode
+BX-Mode (Compound Imaging)
+Harmonic Imaging
+Trapezoidal Imaging
+Frequency
+Gain
+TCG Curve
+Display Map
+Number of Focal points
+Position of Focal points
+Sector (Number of scan lines)
+Depth
+Pulsed Doppler Mode
+Continuous Wave (Color) Doppler
+Mode
+Power (Color) Mode
+Gain
+Display Map
+Pulse Repetition Period
+Baseline
+Position of Window (area to apply Doppler)
+Size of Window (area to apply Doppler)
+Angle
+M-Mode (movement measurement) All parameters from B-Mode
+Scan line to perform M-Mode
+Table 1. Parameters controllable by the Console
+Aside from the console, ultrasound acquisition board and probes, the main component of
+the Ultrasonix 500RP is a general-purpose dual processor PC. Running the Microsoft
+Windows 2000, it has dual 1.13GHz Pentium III processors with 1GB of 133MHz
+SDRAM. According to Ultrasonix, a dual processor system with a reasonable amount of
+RAM will ensure the cohesive software for scan-conversion, post-processing and user
+interface runs smoothly on one of the processor while the other processor is available for
+other application such as image analysis or transfer.
+UBC-ECE-TR-002 5
+The Ultrasonix Research Package (RP) software that controls the ultrasound machine,
+like its hardware counterpart, offers flexible control over the user-interface, image
+formation pipeline and I/O. For example, all components of the user interface, including
+the ultrasound image display, the TGC curve and the patient’s information, can be moved
+to any location of the window as desired. The RP software also provides digital export of
+images through a DICOM compliant network.
+When this software is running, other programs may communicate with it through a
+research package software development kit (RP-SDK). The SDK allows researchers to
+write software to acquire data, control acquisition parameters and customize the user
+interface. This can all be done in real-time during image acquisition. The image
+formation pipeline is easily accessed at any location. This includes access to raw radio
+frequency echo data, pre-scan-converted and post-scan-converted data, and Doppler data.
+All of these formats are at the native resolution. The RP-SDK has control over all the
+parameters for both the Console and the RP software. Appendix A includes a list of the
+966 parameters accessible by the SDK.
+With the RP-SDK, a limited amount of real-time image processing with limited
+complexity can be implemented directly on the Ultrasonix 500RP through the second
+CPU. Once the complexity exceeds, the processing power of the second CPU, the speed
+of software interpolation may be hindered thus unnecessarily slowing down the frame
+rate. Therefore, to achieve real-time image processing for applications with higher
+complexity, ultrasound images are exported to a high performance computing
+workstation for advanced image processing forming the PUPIL.
+2.2 Ultrasound Data Exportation Network (UDEN)
+2.2.1 Ultrasound Data Access and Format
+As mentioned, when the Ultrasonix RP software is running, other software may access
+the Ultrasonix 500RP’s internal data through the RP-SDK. Communication between the
+RP software and the RP-SDK is done through the Windows Message System, in which
+the RP-SDK posts a message requesting an ultrasound image and the RP software replies
+with a message containing a pointer to the image together with other information about
+the image. Accesses to other internal data including read and write operations are done in
+similar fashion as well.
+Currently, the RP-SDK provides access to the ultrasound data in two ways: post-scan-
+converted image equivalent to the one displayed on the RP-software, and the pre-scan-
+converted image with echo and Doppler data separated. The post-scan-converted image
+has constant dimensions of 552 by 438 with 32-bit resolution regardless of the depth
+setting and number of active crystals for the ultrasound acquisition. On the other hand,
+dimensions of the pre-scan-converted image varies with depth and number of active
+crystals and the resolutions for echo and Doppler data are 8-bit and 32-bit respectively.
+This paper will focus on the post-scan-converted image because it has constant data size
+of 967104 bytes, which is larger than the pre-scan-converted data in most instances.
+UBC-ECE-TR-002 6
+2.2.2 Network Comparison
+As stated ultrasound images are transferred to an external high performance computing
+workstation for processing. Because the size of the ultrasound image is large and transfer
+time is critical for real-time applications, choosing the appropriate network becomes a
+crucial part of the system’s construction. In this paper, Fast Ethernet, Gigabit Ethernet
+and Myrinet are chosen as candidates, because of their superior software support over
+other types of networks. Table 2 summarizes information about the three networks. These
+figures are obtained from manufacturers’ specifications.
+Fast Ethernet Gigabit Ethernet Myrinet
+Theoretical
+Bandwidth
+100Mbps
+(12.5MBps)
+1000Mbps
+(125MBps)
+1920Mbps
+(240MBps)
+Latency >75us >75us 9us
+Price (USD) <$100
+(NIC supplied by
+most commercial
+PCs)
+Adapter:
+Intel® PRO/1000 XT
+(Copper) Server
+Adapter $169
+Switches (10-ports):
+Dell PowerConnect
+5012 $1,199
+Adapter:
+M3F-PCI64B-2
+$995
+Switches (8-port):
+M3F-SW8 $4,050
+Cable(1m – 200m):
+$100 - $350
+Theoretical transfer
+time for a ultrasound
+image
+77.3ms 7.7ms 4.0ms
+Table 2. Comparison Between Various Types of Network
+The ultrasound image transfer time directly indicates that Fast Ethernet, despite of its low
+cost, does not suit PUPIL, because it is too slow to meet the real-time requirement, which
+we will state here as 50ms maximally or 20fps minimally. Gigabit Ethernet’s transfer
+time meets the real-time requirement and may work for the current system, which has
+only one workstation. Moreover, the RP-SDK has a built-in Windows Socket transfer, so
+very little or no implementation is needed for image exportation. However, one of the
+future goals is to create a network of HPCW for further speed improvement with parallel
+processing. Expanding the system to 5 nodes increases the bandwidth requirement to 5.8
+times as much (5 transfer to workstations plus 0.8 transfer to combine results). In this
+case, the bandwidth of Gigabit Ethernet reaches the real-time limit and does not permit
+further expansion. Also, its latency makes short control messages to the Ultrasonix
+500RP costly.
+Myrinet is the most expensive option, but it has the lowest latency and the highest
+bandwidth. With its bandwidth, the system can expand to at least 10 workstations.
+Further more, since Myrinet has separate channels for input and output, every
+workstation can possibly send a ultrasound image to another workstation while receiving
+it, meaning that the only data transfer time penalty in system expansion is N*latency
+UBC-ECE-TR-002 7
+where N is number of workstations. To reduce cost for current system configuration, the
+Myrinet adapters on both machines can connect to each other directly without a switch.
+Recently, advances in the networking field make IP Multicast available for Gigabit
+Ethernet. IP Multicast is a technology in which data packets are duplicated on the switch
+and are sent to multiple host simultaneously. In other words, it removes the penalty of
+broadcasting off the Gigabit Ethernet. However, due to its small packet size, Gigabit
+Ethernet exhibits a very high CPU utilization, range from ~30% to ~80% depending on
+the vendor of NIC. On the other hand, with DMA and a RISC processor to manage all the
+data flow across the NIC, Myrinet’s CPU utilization is extremely low and is independent
+of message size (0.28us to send a message and 0.56us to receive a message). Because
+CPU computational time is extremely precious in real-time application and network cost
+is only a small portion of the total cost for the whole system, given its advantages,
+Myrinet is chosen for PUPIL.
+2.2.3 Bottlenecks
+One issue that the above comparison has not addressed is the bandwidth of the system
+bus, more precisely the device I/O bus, available on the Ultrasonix 500RP and the high
+performance computing workstation. Since bandwidth of Myrinet (240MB/s per
+direction, effectively 480MB/s) is far exceeding that of 32-bit 33MHz PCI bus
+(132MB/s), a bottleneck automatically forms between the Myrinet adapter and the CPU if
+it is as the connection. Because of this issue, Myrinet adapter uses the 64-bit 66MHz PCI
+bus, which has a bandwidth of (528MB/s) and is compatible to 32-bit 33MHz PCI bus.
+The high performance computing workstation can be chosen so that it has such a bus so
+bottleneck will not form on its side. The Ultrasonix RP500, however, offers only the 64-
+bit 33MHz PCI bus and not the 64-bit 66MHz PCI; thus any Myrinet transfer involving
+the Ultrasonix RP500 will be slowed down to (264MB/s), forming a serious bottleneck.
+Myrinet is still chosen under this concern because in most applications, the Ultrasonix
+RP500 would only stream out images and take in short control messages, which is
+effectively a unidirectional transfer. Under such condition, the bottleneck is virtually
+eliminated, as the bandwidth of a 64-bit 66MHz PCI bus should be able to sustain the
+unidirectional transfer with negligible penalty.
+2.3 High Performance Computing Workstation
+2.3.1 Limiting Choices
+As mentioned above, because the high performance computing workstation must have a
+64-bit PCI bus to fully utilize the bandwidth of Myrinet, only server and workstation
+class PC can be used in the PUPIL. This limits us to options from Intel, due to the
+immaturity and lack of support in these areas by the other CPU developers such as AMD
+and Transmeta. For the server and workstation class, Intel offers two completely different
+solutions: Xeon and Itanium 2.
+UBC-ECE-TR-002 8
+2.3.2 Introducing Xeon and Itanium 2
+Xeon is the general brand name for Intel’s Pentium-based server class CPU. The current
+model of Xeon is based on the Pentium 4 architecture with support for multiprocessor
+system. Like the Pentium 4, its Streamline SIMD Extension 2 (SSE2) gives high
+performance in parallel processing, especially in multimedia areas such as image
+processing. In branch dependent application such as segmentation, however, it suffers a
+performance penalty due to its deep pipeline (20 stages vs. 10 stages in Pentium III). To
+accommodate this problem, Intel places 512kB of on-die L2 cache in Xeon, anticipating
+that the cache will contain data of both branches thus reducing the branch miss penalty.
+Itanium is Intel’s brand name for its 64-bit architecture. Instead of extending the current
+x86 architecture to 64-bit, Intel introduced a new architecture which uses a new 64-bit
+instruction set incompatible with x86 called IA-64 in 2001. Based on the theory of
+Explicitly Parallel Instruction Computing (EPIC), each IA-64 instruction contains three
+operations to be executed in parallel by Itanium. It also contain new features such as
+speculation, which is similar to data pre-fetch in Pentium 4, and predication, which
+eliminates branches by executing them in parallel. Such architecture, unfortunately,
+requires a suitable compiler to produce programs that fully utilize its parallelism.
+Unfortunately, compiler development lags behind hardware development and a fully
+optimized compiler is not yet available. In addition, optimized for float-point operation,
+Itanium does poorly on integer operations, thus on multimedia applications such as image
+processing. However, the 3MB on-die L3 cache on the new Itanium 2 improves the
+situation somewhat.
+2.3.3 Benchmarking
+To determine which architecture to use for PUPIL, we performed benchmarking of
+typical image processing algorithms. We obtained a Pentium 4 system and an Itanium 2
+workstation for the purpose. The Itanium 2 demo workstation we obtained is a prototype
+model running at 800 MHz with 1.5MB L3 cache, whereas commercial models run at
+900 MHz with the same amount of cache. But we expect that the demo system will
+approximate the performance close enough for a valid comparison.
+The benchmarking program tests the image processing ability of the systems. To
+maximize the performance of each system, image processing routines from the Intel
+Integrated Performance Primitives (IPP) is used and the programs are compiled using
+Intel C++ Compiler for Windows. To make the benchmark more realistic, ultrasound
+images of a typical size of 516x512 are used. The processing sequence of the images is
+arranged to achieve the streaming nature found in real-time image processing. Table 3
+shows the results generated by averaging the reciprocal of the normalized processing time
+for each system according to that of the Ultrasonix machine running on 1 CPU only.
+Details of the benchmark can be found in appendix B.
+UBC-ECE-TR-002 9
+Image Size (516x512) Itanium 2 800MHz Pentium 4 2.0GHz
+8-bit: 264192 1.640135 1.7753392
+24-bit: 729576 1.068842 1.7442254
+Table 3. Benchmarking Results Comparing Itanium 2 and Pentium 4. Higher numbers
+are better.
+For 8-bit images, Itanium 2 seems to perform closely with Pentium 4; however, this
+happens only because the Itanium 2 executes parallel adding much faster than Pentium 4.
+In other tests, Itanium 2 performs worse than the Ultrasonix machine, which almost never
+occurred for Pentium 4. The Pentium 4 thus holds a small advantage over the Itanium.
+Moreover, the most recent machines released in 2003 are an Itanium 2 running at
+900MHz and a Xeon running at 2.8GHz. Both models share similar prices so that Xeon
+offers a considerable higher performance/cost ratio, so it is chosen as the HPCW for
+PUPIL.
+2.4 Software Architecture
+Well-designed software is needed to optimize hardware resources of PUPIL. Figure 3 is
+the block diagram representing the architecture to be used in it.
+Communication
+Layer
+Communication
+Layer
+Data
+Buffer(s)
+Workers Group
+Viewer
+Manager
+Data
+Buffer(s)
+Ultrasound
+Device
+Image
+Acquirer
+Ultrasonix 500RP
+High Performance
+Computing Workstation
+Original Image
+Processed Image
+Control Signal
+Feedback Signal
+Controller
+Figure 3. Block Diagram of PUPIL software
+In the block diagram, the Ultrasonix ultrasound machine sends the ultrasound image to
+the high performance computing workstation and the workstation replies with a control
+signal regarding the next sampling of ultrasound image. Inside the workstation, the
+communication layer deals with the external communication with the ultrasound
+machine, the workers process the image, the viewer displays the image, and the manager
+synchronizes the whole process.
+For non-real-time applications, such a block-diagram would be sufficient. In real-time
+application development, however, a timing diagram is needed to optimize the
+parallelism for the best performance. Figure 4 is the timing diagram presenting the
+optimized process to be used by PUPIL.
+UBC-ECE-TR-002 10
+Image
+Acquisition
+Comm.
+Layer
+Comm.
+Layer
+Manager
+Workers
+Group
+Viewer
+Ultrasonix 500RP High Performance Computing Workstation
+S
+R
+S R
+S
+R
+S
+R
+S R
+Wait New Img
+Wait for
+Image
+S R
+Wait for
+Notice
+Cal. ROI
+S R
+Image Proc.
+S
+R
+S
+Sampling
+S
+R
+S R
+S
+R
+S
+R
+Wait New Img
+Wait for
+Image
+S R
+Wait for
+Notice
+Wait for
+Image
+Request
+S
+S R
+Figure 4. Timing Diagram of PUPIL software
+R
+R
+Display Imgs
+Wait for
+Next Display
+Display Imgs
+Wait for
+Next Display
+In the diagram, each column represents a single thread or a group of threads with the
+same purpose and the horizontal dashed line represents the boundary of each cycle. The
+Ultrasonix 500RP has an image acquisition thread and a communication thread, whereas
+the high performance computing workstation has a viewer thread, a manager thread, a
+group of worker threads, and another communication thread.
+The cycle begins with the workstation sending an image request to the Ultrasonix 500RP.
+If the image acquisition thread has captured a new ultrasound image, the thread will
+immediately request the communication thread to send it. If not, the thread will wait for a
+new one. The communication thread on the workstation receives it and notifies the
+manager thread, which then calculates the working region for each worker thread and
+informs them to process the image. When each worker finishes with its region, it will
+notify the manager for completion. After the manager has received a completion message
+from each of the workers, it will inform the viewer thread to display the resultant image
+along with the original one. Finally, it will instruct the communication thread to send an
+image request to the Ultrasonix 500RP and begin another cycle. The optimization done in
+the process presented is achieved by solely having the Ultrasonix 500RP to pre-sample
+the next image while the current image is processed.
+UBC-ECE-TR-002 11
+3 Implementation and Results
+With both the hardware and the software architecture settled, a Xeon system with dual
+processors running at 2.8GHz was purchased. A pair of Myrinet NICs were purchased as
+well and were installed on the Ultrasonix 500RP and HPCW. On the software side,
+Myrinet supports several protocols: Message Passing Interface Chameleon (MPICH),
+Parallel Virtual Machine (PVM), and Glenn's Messages (GM). MPICH is a portable
+implementation of the Message Passing Interface (MPI) standard. It is a industrial
+standard and is well optimized for Myrinet. However, it requires all the user’s source
+code to be compiled into one executable, which is inconvenient when combining with
+Windows Messaging System. The next alternative is PVM, which is another well defined
+industrial standard, but its implementation over Myrinet is immature. Hence, the choice
+naturally flows to GM, a low-level protocol specialized for Myrinet on which other
+protocol implementation over Myrinet is based. An API has been implemented to
+encapsulate the complexity of data transmission through Myrinet using GM.
+A sample application, featuring basic image acquisition, display and feedback ability, has
+been built based on the API to prepare users with a starting point for their projects. In
+addition, various timing characteristics was measured from the sample application to
+provide user with a rough estimate of the amount of image processing time available.
+Table 4 shows the image transfer time and the image display time with respect to the
+image size, and the feedback-response time are available in Appendix C.
+Image Size Image Transfer Time Image Display Time
+1/16x: 138x110 0.64 ms 0.90 ms
+1/4x: 276x219 2.13 ms 2.05 ms
+1x: 552x438 8.37 ms 7.12 ms
+Table 4. Image transfer time and display time with respect to size
+The actual image transfer time is considerably higher than theoretical one and is even
+worse than that of Gigabit Ethernet. This mainly owes to the poor implementation of PCI
+buses on the Ultrasonix 500RP, which formed a bottleneck to the whole system. The
+display time is not impressive as well, due to the implementation of the displaying routine
+using standard Windows GUI library instead of hardware-accelerated library such as
+DirectX. However, the two operations can be run concurrently on HPCW because the
+image transfer is almost solely performed by the Myrinet NIC thus consumes no CPU
+resources, meaning that the CPU resource may be dedicated to displaying the processed
+image while the HPCW is waiting for the new image to be transferred.
+With the pipeline configuration in Figure 4, if the ultrasound machine produces 20
+images per second, there is 41.7ms (50ms - 8.3ms) available for the HPCW to perform
+real-time image processing. This is sufficient time for image processing algorithms with
+moderate complexity to be implemented. For example, with the HPCW described earlier,
+a 17x17 median filter, or 55x55 if the image is down-sampled to 8-bit before processing,
+can be implemented in real-time using the Intel Integrated Performance Primitives
+library. To give the users a more concrete idea of the amount of image processing the
+UBC-ECE-TR-002 12
+HPCW can do with the time allowed, the custom benchmark used in evaluating the image
+processing ability of the Pentium 4 and Itanium 2 has been performed on the new dual
+Xeon system as well, and the results is available in Appendix D.
+The control response times shown in Appendix C are measured from the perspective of
+the HPCW indicating the amount of time that the HPCW would need to wait before a
+command, such as change of depth, would be properly reflected onto the image
+transferred to the HPCW. Unfortunately, all of the response times are in the order of
+100ms, because for every command issued, the RP software will need to reprogram the
+Ultrasound Acquisition Module to realise the command, which is a slow process and will
+definitely be subjected for future improvements.
+To demonstrate the PUPIL allow a developer to quickly and easily develop new
+applications using ultrasound images without needing to understand the internals of data
+acquisition and control, a needle visualization application was developed and tested in six
+weeks. The application tries to improve the ultrasound visualization of needle within
+tissues by first detecting the angle of the needle with respect to the ultrasound probe and
+then steering the ultrasound beam perpendicular to the needle. The needle detection
+involves cross-correlation and motion detection, both of which are seldom applied to real-
+time image processing because of their computational complexity, but are now applicable
+with the computational power available in PUPIL. The actual processing time of the
+algorithm is only about 5.2ms, and the complete cycle including image transmission takes
+only 13.5ms, meaning that the application can be running at 74fps. However, due to the
+slow control response time of the system, the ultrasound beam steering cannot be
+achieved real-time thus decreases the robustness of the application. Nevertheless, if the
+needle holds its angle to allow the beam steering to occur, the result, shown in Figure 5,
+is extremely impressive.
+Figure 5. Results of the needle visualization application based on PUPIL. (Left) Before
+beam steering, the needle is hardly recognizable even by human eye. (Right) After beam
+steering, the needle is extremely clear and distinct.
+UBC-ECE-TR-002 13
+4 Conclusion
+The needle visualization application demonstrate that PUPIL have met its design
+requirements: a PC-based research platform with the ability to access and process
+ultrasound data and control parameter in real-time. In addition, the PUPIL API allows a
+developer to rapid develop new algorithms without understanding the internals of data
+acquisition and control, making PUPIL even more research friendly.
+Future research of PUPIL will be focused in several aspects. First, any decrease on the
+control response time of the Ultrasonix 500RP will improve the performance of the
+needle visualization application as well as other PUPIL based application which has a
+feedback architecture. In addition, new image processing algorithms, such as real-time
+registration and spatial compounding, will soon be implemented, meaning that demand
+for more computational power will soon arise. This demand can be accommodated by
+adding more HPCWs into PUPIL. This will require purchase of a Myrinet switch and an
+extension on PUPIL API with ability to distribute image over the HPCWs.
+PUPIL will also help incorporate the 500RP into larger image-guided applications such
+as brachytherapy and neurosurgery. Finally, the ability to control the ultrasound machine
+through software also opens up new areas of research in computer-assisted surgery.
+UBC-ECE-TR-002 14
+Appendix A – List of 966 Variables Available in Ultrasonix 500RP
+Name of Variable Type Name of Variable Type
+Special "Freeze" Integer MeasurementsmodezoneactionID Integer
+AnnotationB-modezonecontainer Integer Measurementsmodezonecheck value Integer
+AnnotationB-modezonerectangle Rectangle Measurementsmodezonecontainer Integer
+Datezoneborder color Color Measurementsmodezonerectangle Rectangle
+Datezoneborder style Integer BMeasurement zonecontainer Integer
+Datezonecolor Color MMeasurement zonecontainer Integer
+Datezonecontainer Integer MScalezonecmgridsize Integer
+Datezonefont style Integer MScalezonesecondsgridsize Integer
+Datezonepresentationstyle Integer DatezoneGradient Used Integer
+Datezonerectangle Rectangle InstitutionzoneGradient Used Integer
+Constant "Date/timefieldisdate" Integer PatientIDzoneGradient Used Integer
+Exit zonecontainer Integer Patient namezoneGradient Used Integer
+Exit zonerectangle Rectangle TimezoneGradient Used Integer
+Exit zoneactionID Integer BWDeviationAngle-BzoneGradient Used Integer
+Frequency-Bzoneborder color Color FrameRatezoneGradient Used Integer
+Frequency-Bzoneborder style Integer Gain-BzoneGradient Used Integer
+Frequency-Bzonecolor Color Gamma-BzoneGradient Used Integer
+Frequency-Bzonecontainer Integer Orientation-BzoneGradient Used Integer
+Frequency-Bzonefont style Integer Power zoneGradient Used Integer
+Frequency-Bzonepresentationstyle Integer Internet dialogzoneactionID Integer
+Frequency-Bzonerectangle Rectangle Internet dialogzonecontainer Integer
+Frequency-B Integer Internet dialogzonerectangle Rectangle
+Constant "Modifiablewhenfrozen" Integer Support zoneactionID Integer
+Constant "Not modifiablewhenfrozen" Integer Support zonecontainer Integer
+BWDeviationAngle-Bzoneborder color Color Support zonerectangle Rectangle
+BWDeviationAngle-Bzoneborder style Integer RectangleB1- B/BMode Rectangle
+BWDeviationAngle-Bzonecolor Color RectangleB2- B/BMode Rectangle
+BWDeviationAngle-Bzonecontainer Integer RectangleB1-B2- B/BMode Rectangle
+BWDeviationAngle-Bzonefont style Integer ActivationbuttonB/B-modezonezdRectangle Rectangle
+BWDeviationAngle-Bzonepresentationstyle Integer ActivationbuttonB/B-modezonezdContainer ID Integer
+BWDeviationAngle-Bzonerectangle Rectangle ActiveBB-Display Integer
+Gain-Bzoneborder color Color ActivationbuttonB/B-modezonedisplay count Integer
+Gain-Bzoneborder style Integer BWFocuszoneB2display side Integer
+Gain-Bzonecolor Color BWFocuszoneB1display side Integer
+Gain-Bzonecontainer Integer ActivationButton4B-modezonezdRectangle Rectangle
+Gain-Bzonefont style Integer ActivationButton4B-modezonezdContainer ID Integer
+Gain-Bzonepresentationstyle Integer ActivationButton4B-modezonedisplay count Integer
+Gain-Bzonerectangle Rectangle Active4B-Display Integer
+Gain-B Integer RectangleB1- 4Bmode Rectangle
+Constant "Modifiablezone" Integer RectangleB2- 4Bmode Rectangle
+Constant "Non-modifiablezone" Integer RectangleB3- 4Bmode Rectangle
+Gamma-B Integer RectangleB4- 4Bmode Rectangle
+Gamma-Bzonecontainer Integer RectangleB1-B4- 4Bmode Rectangle
+Gamma-Bzonerectangle Rectangle BWFocuszoneB3display side Integer
+Gamma-Bzoneborder color Color BWFocuszoneB4display side Integer
+Gamma-Bzoneborder style Integer BWFocuszoneB2style Integer
+Gamma-Bzonecolor Color BWFocuszoneB3style Integer
+Gamma-Bzonefont style Integer BWFocuszoneB4style Integer
+Gamma-Bzonepresentationstyle Integer SweepCount Integer
+Constant "Gammanumber function" Integer SweepAngle Integer
+Gamma-Bcurvezonecontainer Integer SweepCount zoneborder color Color
+Gamma-Bcurvezonerectangle Rectangle SweepCount zoneborder style Integer
+BWRectangle-B Rectangle SweepCount zonecolor Color
+ColorRectangle Rectangle SweepCount zonecontainer Integer
+Originx-BB-mode Integer SweepCount zonefont style Integer
+Originy-BB-mode Integer SweepCount zonepresentationstyle Integer
+Micronsperpixelx-BB-mode Integer SweepCount zonerectangle Rectangle
+Micronsperpixely-BB-mode Integer SweepCount zoneGradient Used Integer
+BWSamplingFrequency-B Integer SweepAnglezonecontainer Integer
+ColorSamplingFrequency Integer SweepAnglezonepresentationstyle Integer
+BWDeviationAngle-B Integer SweepAnglezonerectangle Rectangle
+UBC-ECE-TR-002 15
+ColorDeviationAngle Integer PDTest zoneactionID Integer
+BWLineDensity-B Integer PDTest zonecontainer Integer
+ColorLineDensity Integer PDTest zonerectangle Rectangle
+ImageSpan-Bzonecontainer Integer Gain-BW Integer
+Institutionzoneborder color Color Doppler Gainscroll zonecontainer Integer
+Institutionzoneborder style Integer Doppler Gainscroll zonerectangle Rectangle
+Institutionzonecolor Color Doppler Gainscroll zonestyle Integer
+Institutionzonecontainer Integer Doppler Gainscroll zonecolor Color
+Institutionzonefont style Integer PulsedDopplerPRP Integer
+Institutionzonepresentationstyle Integer PRPzoneborder color Color
+Institutionzonerectangle Rectangle PRPzoneborder style Integer
+LogozoneactionID Integer PRPzonecolor Color
+Logozonecontainer Integer PRPzonecontainer Integer
+Logozonerectangle Rectangle PRPzonefont style Integer
+Mapzoneborder color Color PRPzonepresentationstyle Integer
+Mapzoneborder style Integer PRPzonerectangle Rectangle
+Mapzonecolor Color PRF zoneborder color Color
+Mapzonecontainer Integer PRF zoneborder style Integer
+Mapzonefont style Integer PRF zonecolor Color
+Mapzonepresentationstyle Integer PRF zonecontainer Integer
+Mapzonerectangle Rectangle PRF zonefont style Integer
+Map-BW Integer PRF zonerectangle Rectangle
+Map-Bscalezonecontainer Integer PRF zonetext String
+Map-Bscalezonerectangle Rectangle Rectangle-BBW-mode Rectangle
+Micronsperpixelx-Bzonecontainer Integer Rectangle-MBW-mode Rectangle
+Micronsperpixelx-Bzonepresentationstyle Integer Line-BWposition Integer
+Micronsperpixelx-Bzonerectangle Rectangle Line-BWangle Integer
+Micronsperpixely-Bzonecontainer Integer Line-BWy position Integer
+Micronsperpixely-Bzonepresentationstyle Integer Line-BWy size Integer
+Micronsperpixely-Bzonerectangle Rectangle Doppler-linezonemainlinecolor Color
+Newpatient zoneactionID Integer Doppler-linezonemeasurement linescolor Color
+Newpatient zonecontainer Integer LineRepetitionPeriod-BW Integer
+Newpatient zonerectangle Rectangle BWLineDensity-BX Integer
+Orientation-Bzoneborder color Color NFocusBX Integer
+Orientation-Bzoneborder style Integer CapturezoneactionID Integer
+Orientation-Bzonecolor Color Capturezonecontainer Integer
+Orientation-Bzonecontainer Integer Capturezonerectangle Rectangle
+Orientation-Bzonefont style Integer Doppler Thresholdscroll zonecontainer Integer
+Orientation-Bzonepresentationstyle Integer Doppler Thresholdscroll zonerectangle Rectangle
+Orientation-Bzonerectangle Rectangle Doppler Thresholdscroll zonestyle Integer
+Orientation-B Integer Doppler Thresholdscroll zonecolor Color
+PatientIDzoneborder color Color PulsedDopplerThreshold Integer
+PatientIDzoneborder style Integer FreezeTogglebuttonzonerectangle- BW Rectangle
+PatientIDzonecolor Color Doppler Measurement zoneContainer ID Integer
+PatientIDzonecontainer Integer Bdisplay descriptor Rectangle
+PatientIDzonefont style Integer Rectangle-BBD-mode Rectangle
+PatientIDzonerectangle Rectangle Color SelectionzoneID Integer
+Patient namezoneborder color Color Map-Color Integer
+Patient namezoneborder style Integer Constant "Color Available" Integer
+Patient namezonecolor Color Color SamplingFrequency zonecontainer Integer
+Patient namezonecontainer Integer Color SamplingFrequency zonepresentationstyle Integer
+Patient namezonefont style Integer Color SamplingFrequency zonerectangle Rectangle
+Patient namezonepresentationstyle Integer Color LineDensity zonecontainer Integer
+Patient namezonerectangle Rectangle Color LineDensity zonepresentationstyle Integer
+Persistence-Bzoneborder color Color Color LineDensity zonerectangle Rectangle
+Persistence-Bzoneborder style Integer ColorPRP Integer
+Persistence-Bzonecolor Color ColorNLines Integer
+Persistence-Bzonecontainer Integer Color NLineszonecontainer Integer
+Persistence-Bzonefont style Integer Color NLineszonepresentationstyle Integer
+Persistence-Bzonepresentationstyle Integer Color NLineszonerectangle Rectangle
+Persistence-Bzonerectangle Rectangle PersistenceColor zoneborder color Color
+Persistence-B Integer PersistenceColor zoneborder style Integer
+UBC-ECE-TR-002 16
+Power zoneborder color Color PersistenceColor zonecolor Color
+Power zoneborder style Integer PersistenceColor zonecontainer Integer
+Power zonecolor Color PersistenceColor zonefont style Integer
+Power zonecontainer Integer PersistenceColor zonepresentationstyle Integer
+Power zonefont style Integer PersistenceColor zonerectangle Rectangle
+Power zonepresentationstyle Integer PersistenceColor zoneGradient Used Integer
+Power zonerectangle Rectangle Persistence-Color Integer
+Power Integer Col/BWThresholdzonecontainer Integer
+Constant "Frequency number function" Integer Col/BWThresholdzonepresentationstyle Integer
+Constant "Power number function" Integer Col/BWThresholdzonerectangle Rectangle
+Originx-Bzonecontainer Integer Color BWthreshold Integer
+Originx-Bzonepresentationstyle Integer Color Mode Integer
+Originx-Bzonerectangle Rectangle Color Modezoneborder color Color
+Originy-Bzonecontainer Integer Color Modezoneborder style Integer
+Originy-Bzonepresentationstyle Integer Color Modezonecolor Color
+Originy-Bzonerectangle Rectangle Color Modezonecontainer Integer
+Recall setupzoneactionID Integer Color Modezonefont style Integer
+Recall setupzonecontainer Integer Color Modezonepresentationstyle Integer
+Recall setupzonerectangle Rectangle Color Modezonerectangle Rectangle
+SavesetupzoneactionID Integer FIRSelect zoneborder color Color
+Savesetupzonecontainer Integer FIRSelect zoneborder style Integer
+Savesetupzonerectangle Rectangle FIRSelect zonecolor Color
+ScreensetupzoneactionID Integer FIRSelect zonecontainer Integer
+Screensetupzonecontainer Integer FIRSelect zonefont style Integer
+Screensetupzonerectangle Rectangle FIRSelect zonepresentationstyle Integer
+SetupsdialogzoneactionID Integer FIRSelect zonerectangle Rectangle
+Setupsdialogzonecontainer Integer FIRSelect zoneGradient Used Integer
+Setupsdialogzonerectangle Rectangle Color Gain Integer
+SystemsetupszoneactionID Integer Avi buttonzoneactionID Integer
+Systemsetupszonecontainer Integer Avi buttonzonecontainer Integer
+Systemsetupszonerectangle Rectangle Avi buttonzonerectangleB Rectangle
+Constant "Date/timefieldistime" Integer Avi buttonzoneAnimatevariable Integer
+Timezoneborder color Color Avi buttonzoneAnimatevalue Integer
+Timezoneborder style Integer BWTGCCurvezoneBWrectangle Rectangle
+Timezonecolor Color BWTGCCurvezoneBDrectangle Rectangle
+Timezonecontainer Integer BWTGCCurvezoneBMrectangle Rectangle
+Timezonefont style Integer Doppler MapzoneBDrectangle Rectangle
+Timezonepresentationstyle Integer Doppler MapscalezoneBDrectangle Rectangle
+Timezonerectangle Rectangle TGCDoppler curvezoneBDrectangle Rectangle
+Rectangle-BB-mode Rectangle TGCDoppler digital curvezoneBDrectangle Rectangle
+Special "Systemmenuposition" Integer FreezeTogglebuttonzonerectangle- BM Rectangle
+Special "Systemmenucolor" Color MlineRepetitionPeriodzonerectangleBW Rectangle
+Special "Systemmenusize" Integer Scroll modezonerectangleBW Rectangle
+Special "Modemenuposition" Integer GammaSecondary zonerectangleBW Rectangle
+Special "Modemenucolor" Color ReceiveFIRlength Integer
+Special "Modemenusize" Integer GainCurvezonecontainer Integer
+Special "Mousemenuposition" Integer GainCurvezonerectangle Rectangle
+Special "Mousemenucolor" Color GainCurvezonelinecolor Color
+Special "Mousemenusize" Integer GainCurve GainCurve
+Special "Develpt menuposition" Integer GainCurvezonetimeout Integer
+Special "Develpt menucolor" Color Constant "Not modifiablewhenzoomed" Integer
+Special "Develpt menusize" Integer Baseline- Doppler Integer
+Special "ModeID" Integer Gain-Audio Integer
+Rectangle-BM-mode Rectangle AudioGainscroll zonecontainer Integer
+Rectangle-MM-mode Rectangle AudioGainscroll zonerectangle Rectangle
+Line-Mposition Integer AudioGainscroll zonestyle Integer
+Scroll mode-Mzoneborder color Color AudioGainscroll zonecolor Color
+Scroll mode-Mzoneborder style Integer BWLineDensity-BW-BM Integer
+Scroll mode-Mzonecolor Color Tracehalf (of spectrum) Integer
+Scroll mode-Mzonecontainer Integer Tracemode Integer
+Scroll mode-Mzonefont style Integer Tracemodezoneborder color Color
+Scroll mode-Mzonepresentationstyle Integer Tracemodezoneborder style Integer
+UBC-ECE-TR-002 17
+Scroll mode-Mzonerectangle Rectangle Tracemodezonecolor Color
+Scroll mode-M Integer Tracemodezonecontainer Integer
+LineRepetitionPeriod-M Integer Tracemodezonefont style Integer
+Gain-Mzoneborder color Color Tracemodezonepresentationstyle Integer
+Gain-Mzoneborder style Integer Tracemodezonerectangle Rectangle
+Gain-Mzonecolor Color Tracehalf zoneborder color Color
+Gain-Mzonecontainer Integer Tracehalf zoneborder style Integer
+Gain-Mzonefont style Integer Tracehalf zonecolor Color
+Gain-Mzonepresentationstyle Integer Tracehalf zonecontainer Integer
+Gain-Mzonerectangle Rectangle Tracehalf zonefont style Integer
+Gain-M Integer Tracehalf zonepresentationstyle Integer
+Gamma-Mcurvezonecontainer Integer Tracehalf zonerectangle Rectangle
+Gamma-Mcurvezonerectangle Rectangle PulsedDopplerAutoMeasurePos1 Integer
+Gamma-Mscroll zonecolor Color PulsedDopplerAutoMeasurePos2 Integer
+Gamma-Mscroll zonecontainer Integer MScalezoneactivationvalue Integer
+Gamma-Mscroll zonerectangle Rectangle Tracecolor Color
+Gamma-Mscroll zonestyle Integer BWTGCCurveCompensFocus-B Curve
+Gamma-Mzoneborder color Color TGCcompensationcurvezonecontainer Integer
+Gamma-Mzoneborder style Integer TGCcompensationcurvezoneBrectangle Rectangle
+Gamma-Mzonecolor Color TGCcompensationcurvezonebackcolor Color
+Gamma-Mzonecontainer Integer TGCcompensationcurvezonebordercolor Color
+Gamma-Mzonefont style Integer TGCcompensationcurvezonelinecolor Color
+Gamma-Mzonepresentationstyle Integer TGCcompensationcurvezoneBWrectangle Rectangle
+Gamma-Mzonerectangle Rectangle TGCcompensationcurvezoneBDrectangle Rectangle
+Gamma-M Integer TGCcompensationcurvezoneBMrectangle Rectangle
+Micronsperpixelx-BM-mode Integer SaveDSPLogzoneactionID Integer
+Micronsperpixely-BM-mode Integer SaveDSPLogzonecontainer Integer
+Originx-BM-mode Integer SaveDSPLogzonerectangle Rectangle
+Originy-BM-mode Integer BWEnvelopeFIRMultiplier Integer
+BWLineDensity-Bzonecontainer Integer Color thresholdzonecontainer Integer
+BWLineDensity-Bzonepresentationstyle Integer Color thresholdzonepresentationstyle Integer
+BWLineDensity-Bzonerectangle Rectangle Color thresholdzonerectangle Rectangle
+BWEnvelopeNoiseLevel Integer ColThresholdAmplitudeMax Integer
+BWEnvelopeNoiseLevel zonecontainer Integer ImageRatiozonecontainer Integer
+BWEnvelopeNoiseLevel zonepresentationstyle Integer ImageRatiozonerectangle Rectangle
+BWEnvelopeNoiseLevel zonerectangle Rectangle ImageRatiozonenumber Integer
+BWEnvelopeSaturationLevel Integer Full Zoomzoneborder color Color
+BWEnvelopeSaturationLevel zonecontainer Integer Full Zoomzoneborder style Integer
+BWEnvelopeSaturationLevel zonepresentationstyle Integer Full Zoomzonecolor Color
+BWEnvelopeSaturationLevel zonerectangle Rectangle Full Zoomzonecontainer Integer
+BWEnvelopeGamma Integer Full Zoomzonefont style Integer
+BWEnvelopeGammazonecontainer Integer Full Zoomzonepresentationstyle Integer
+BWEnvelopeGammazonepresentationstyle Integer Full Zoomzonerectangle Rectangle
+BWEnvelopeGammazonerectangle Rectangle Full ZoomzoneGradient Used Integer
+BWSamplingFrequency-Bzonecontainer Integer Full Zoomzonenumber Integer
+BWSamplingFrequency-Bzonepresentationstyle Integer InterpolationminPzonecontainer Integer
+BWSamplingFrequency-Bzonerectangle Rectangle InterpolationminPzonepresentationstyle Integer
+BWFilterHFFrequency Integer InterpolationminPzonerectangle Rectangle
+BWFilterHFFrequency zonecontainer Integer InterpolationMinP Integer
+BWFilterHFFrequency zonepresentationstyle Integer InterpolationminLzonecontainer Integer
+BWFilterHFFrequency zonerectangle Rectangle InterpolationminLzonepresentationstyle Integer
+BWFilterLFFrequency Integer InterpolationminLzonerectangle Rectangle
+BWFilterLFFrequency zonecontainer Integer InterpolationMinL Integer
+BWFilterLFFrequency zonepresentationstyle Integer CineScroll zonestyle Integer
+BWFilterLFFrequency zonerectangle Rectangle Constant "UseGradient" Integer
+BWFilterCompoundCurve Curve Constant "Mouse&AutoLock" Integer
+BWTGCCurve-B Curve Constant "Not Released" Integer
+ApertureReceiveCurve Curve Full ZoomzoneB/Bnumber Integer
+ApertureTransmitCurve Curve GainCurvezonerectangleM Rectangle
+BWHilbertSustain Integer CineScroll zonerectangleBM Rectangle
+BWHilbertSustainzonecontainer Integer Special "Wrapvalue" Integer
+BWHilbertSustainzonepresentationstyle Integer Special "FrameRate" Integer
+UBC-ECE-TR-002 18
+BWHilbertSustainzonerectangle Rectangle ColThresholdR0Min Integer
+BWHilbertPhase Integer ColThresholdSigmamax Integer
+BWHilbertPhasezonecontainer Integer ColThreshR0minzonecontainer Integer
+BWHilbertPhasezonepresentationstyle Integer ColThreshR0minzonepresentationstyle Integer
+BWHilbertPhasezonerectangle Rectangle ColThreshR0minzonerectangle Rectangle
+BWTGCCurvezonecontainer Integer ColThreshSigmax zonecontainer Integer
+BWTGCCurvezoneBrectangle Rectangle ColThreshSigmax zonepresentationstyle Integer
+Persistence-Bscroll zonecolor Color ColThreshSigmax zonerectangle Rectangle
+Persistence-Bscroll zonecontainer Integer Color Invert Integer
+Persistence-Bscroll zonerectangle Rectangle Invert zoneborder color Color
+Persistence-Bscroll zonestyle Integer Invert zoneborder style Integer
+BWEnvelopeFIRFreq Integer Invert zonecolor Color
+BWEnvelopeFIRFreqzonecontainer Integer Invert zonecontainer Integer
+BWEnvelopeFIRFreqzonepresentationstyle Integer Invert zonefont style Integer
+BWEnvelopeFIRFreqzonerectangle Rectangle Invert zonepresentationstyle Integer
+BWFilterCompoundCurvezonecontainer Integer Invert zonerectangle Rectangle
+BWFilterCompoundCurvezonerectangle Rectangle ExcitationStyle Integer
+ApertureReceiveCurvezonecontainer Integer ExcitationStylezonecontainer Integer
+ApertureReceiveCurvezonerectangle Rectangle ExcitationStylezonepresentationstyle Integer
+ApertureTransmitCurvezonecontainer Integer ExcitationStylezonerectangle Rectangle
+ApertureTransmitCurvezonerectangle Rectangle Dynv1zoneborder color Color
+BWTGCCurvezonebackcolor Color Dynv1zoneborder style Integer
+BWFocuszonecontainer Integer Dynv1zonecolor Color
+BWTGCCurvezonebordercolor Color Dynv1zonecontainer Integer
+BWTGCCurvezonelinecolor Color Dynv1zonefont style Integer
+BWFocuszonedistmark color Color Dynv1zonepresentationstyle Integer
+BWFocuszonefocusmarker color Color Dynv1zonerectangle Rectangle
+BWFocuszoneB1style Integer Dynv1zoneGradient Used Integer
+BWTGCDigitalCurve-B Curve DynamicRange Integer
+BWTGCDigitalCurve-Bzonebackcolor Color Envelopelogv2zonecontainer Integer
+BWTGCDigitalCurve-Bzonebordercolor Color Envelopelogv2zonepresentationstyle Integer
+BWTGCDigitalCurve-Bzonecontainer Integer Envelopelogv2zonerectangle Rectangle
+BWTGCDigitalCurve-Bzonelinecolor Color EnvelopeLogv2 Integer
+BWTGCDigitalCurve-Bzonerectangle Rectangle BX-LuminanceScaleoutput Integer
+BWFocusRect Rectangle BXLuminancezonecontainer Integer
+NFocusB Integer BXLuminancezonefont style Integer
+ZoommodezoneactionID Integer BXLuminancezonepresentationstyle Integer
+Zoomzonecheck value Integer BXLuminancezonerectangle Rectangle
+Zoommodezonecontainer Integer Gamma-BX Integer
+Zoommodezonerectangle Rectangle ReceiveFIRLengthzonecontainer Integer
+Special "Cursor mode" Integer ReceiveFIRLengthzonepresentationstyle Integer
+Annotationmodezonecheck value Integer ReceiveFIRLengthzonerectangle Rectangle
+BWEnvelopeFIRSpeckleFreq Integer ReceiveFIRBandpasszonecontainer Integer
+BWEnvelopeFIRMultiplierzonecontainer Integer ReceiveFIRBandpasszonepresentationstyle Integer
+BWEnvelopeFIRMultiplierzonepresentationstyle Integer ReceiveFIRBandpasszonerectangle Rectangle
+BWEnvelopeFIRMultiplierzonerectangle Rectangle ReceiveFIRType Integer
+ApertureReceiveMax Integer GainCurveDepth Integer
+ApertureTransmitMax Integer Gaincurvedepthzonecontainer Integer
+CurvesDepthReceive Integer Gaincurvedepthzonepresentationstyle Integer
+BWEnvelopeZeroLevel Integer Gaincurvedepthzonerectangle Rectangle
+BWEnvelopeZeroLevel zonecontainer Integer PostProcess0zonecontainer Integer
+BWEnvelopeZeroLevel zonepresentationstyle Integer PostProcess0zonerectangle Rectangle
+BWEnvelopeZeroLevel zonerectangle Rectangle PostProcess0 Integer
+ApertureTransmitMax zonecontainer Integer PostProcess1zonecontainer Integer
+ApertureTransmitMax zonepresentationstyle Integer PostProcess1zonerectangle Rectangle
+ApertureTransmitMax zonerectangle Rectangle PostProcess1 Integer
+ApertureReceiveMax zonecontainer Integer PostProcess2zonecontainer Integer
+ApertureReceiveMax zonepresentationstyle Integer PostProcess2zonerectangle Rectangle
+ApertureReceiveMax zonerectangle Rectangle PostProcess2 Integer
+CurvesDepthzonecontainer Integer PostProcess3zonecontainer Integer
+CurvesDepthzonepresentationstyle Integer PostProcess3zonerectangle Rectangle
+CurvesDepthzonerectangle Rectangle PostProcess3 Integer
+UBC-ECE-TR-002 19
+Zoomzonecontainer Integer PostProcess4zonecontainer Integer
+Normal modezoneactionID Integer PostProcess4zonerectangle Rectangle
+Normal modezonecheck value Integer PostProcess4 Integer
+Normal modezonecontainer Integer PostProcess5zonecontainer Integer
+Normal modezonerectangle Rectangle PostProcess5zonerectangle Rectangle
+BWNIdenticalLines Integer PostProcess5 Integer
+BWNIdenticalLineszonecontainer Integer Wall Filter zoneborder color Color
+BWNIdenticalLineszonepresentationstyle Integer Wall Filter zoneborder style Integer
+BWNIdenticalLineszonerectangle Rectangle Wall Filter zonecolor Color
+DopplerFrequency Integer Wall Filter zonecontainer Integer
+BFlowFrequency zoneborder color Color Wall Filter zonefont style Integer
+BFlowFrequency zoneborder style Integer Wall Filter zonepresentationstyle Integer
+BFlowFrequency zonecolor Color Wall Filter zonerectangle Rectangle
+BFlowFrequency zonecontainer Integer Wall Filter zoneGradient Used Integer
+BFlowFrequency zonefont style Integer WallFilterID Integer
+BFlowFrequency zonepresentationstyle Integer Sweepgainadj 0zonecontainer Integer
+BFlowFrequency zonerectangle Rectangle Sweepgainadj 0zonepresentationstyle Integer
+PulsedDopplerNPulses Integer Sweepgainadj 0zonerectangle Rectangle
+BFlowNPulseszoneborder color Color SweepAdjGain0 Integer
+BFlowNPulseszoneborder style Integer Sweepgainadj 1zonecontainer Integer
+BFlowNPulseszonecolor Color Sweepgainadj 1zonepresentationstyle Integer
+BFlowNPulseszonecontainer Integer Sweepgainadj 1zonerectangle Rectangle
+BFlowNPulseszonefont style Integer SweepAdjGain1 Integer
+BFlowNPulseszonepresentationstyle Integer BWTGCDigitalCurve-BX Curve
+BFlowNPulseszonerectangle Rectangle Gainoffset BD Integer
+BFlowNSimultaneousLines Integer Curvesdepthtransmit zonecontainer Integer
+BFlowNSimultaneousLineszoneborder color Color Curvesdepthtransmit zonepresentationstyle Integer
+BFlowNSimultaneousLineszoneborder style Integer Curvesdepthtransmit zonerectangle Rectangle
+BFlowNSimultaneousLineszonecolor Color CurvesDepthTransmit Integer
+BFlowNSimultaneousLineszonecontainer Integer Gainoffset BDzonecontainer Integer
+BFlowNSimultaneousLineszonefont style Integer Gainoffset BDzonefont style Integer
+BFlowNSimultaneousLineszonepresentationstyle Integer Gainoffset BDzonepresentationstyle Integer
+BFlowNSimultaneousLineszonerectangle Rectangle Gainoffset BDzonerectangle Rectangle
+BFlowDecimationFactor Integer OptimizationModezoneborder color Color
+BFlowDecimationFactor zoneborder color Color OptimizationModezoneborder style Integer
+BFlowDecimationFactor zoneborder style Integer OptimizationModezonecolor Color
+BFlowDecimationFactor zonecolor Color OptimizationModezonecontainer Integer
+BFlowDecimationFactor zonecontainer Integer OptimizationModezonefont style Integer
+BFlowDecimationFactor zonefont style Integer OptimizationModezonepresentationstyle Integer
+BFlowDecimationFactor zonepresentationstyle Integer OptimizationModezonerectangle Rectangle
+BFlowDecimationFactor zonerectangle Rectangle Constant "0" Integer
+BFlowTGCCurve Curve BXEnvelopeNoiseLevel Integer
+BFlowTGCCurvezonebackcolor Color Color Invert zoneborder color Color
+BFlowTGCCurvezonebordercolor Color Color Invert zoneborder style Integer
+BFlowTGCCurvezonecontainer Integer Color Invert zonecolor Color
+BFlowTGCCurvezonelinecolor Color Color Invert zonecontainer Integer
+BFlowTGCCurvezonerectangle Rectangle Color Invert zonefont style Integer
+BFlowTGCDigitalCurve Curve Color Invert zonepresentationstyle Integer
+BFlowTGCDigitalCurvezonebackcolor Color Color Invert zonerectangle Rectangle
+BFlowTGCDigitalCurvezonebordercolor Color ColorThresholdVzonecontainer Integer
+BFlowTGCDigitalCurvezonecontainer Integer ColorThresholdVzonepresentationstyle Integer
+BFlowTGCDigitalCurvezonelinecolor Color ColorThresholdVzonerectangle Rectangle
+BFlowTGCDigitalCurvezonerectangle Rectangle ColThresholdV Integer
+Line-Mangle Integer ColorBlur zonecontainer Integer
+MlineRepetitionPeriodzoneborder color Color ColorBlur zonepresentationstyle Integer
+MlineRepetitionPeriodzoneborder style Integer ColorBlur zonerectangle Rectangle
+MlineRepetitionPeriodzonecolor Color ColBlur Integer
+MlineRepetitionPeriodzonecontainer Integer Special "Systemmenuvisibility" Integer
+MlineRepetitionPeriodzonefont style Integer Special "Mousemenuvisibility" Integer
+MlineRepetitionPeriodzonepresentationstyle Integer Special "Modemenuvisibility" Integer
+MlineRepetitionPeriodzonerectangleBM Rectangle Special "Develpt menuvisibility" Integer
+GammaSecondary zonecontainer Integer VCAAmplificationzonecontainer Integer
+UBC-ECE-TR-002 20
+GammaSecondary zonerectangleBM Rectangle VCAAmplificationzonepresentationstyle Integer
+GammaSecondary zoneborder color Color VCAAmplificationzonerectangle Rectangle
+GammaSecondary zoneborder style Integer VCAAmplification Integer
+GammaSecondary zonecolor Color ExcitationPulses zonecontainer Integer
+GammaSecondary zonefont style Integer ExcitationPulseszonepresentationstyle Integer
+GammaSecondary zonepresentationstyle Integer ExcitationPulses zonerectangle Rectangle
+Scroll modezoneborder color Color ExcitationPulses Integer
+Scroll modezoneborder style Integer OptimizationModezonetype Integer
+Scroll modezonecolor Color EnvelopeFIRaddupzonecontainer Integer
+Scroll modezonecontainer Integer EnvelopeFIRaddupzonepresentationstyle Integer
+Scroll modezonefont style Integer EnvelopeFIRaddupzonerectangle Rectangle
+Scroll modezonepresentationstyle Integer BWEnvelopeFIRAddup Integer
+Scroll modezonerectangleBM Rectangle Max (+) Vzonecontainer Integer
+M-linezonemainlinecolor Color Max (+) Vzonepresentationstyle Integer
+M-linezonemeasurement linescolor Color Max (+) Vzonerectangle Rectangle
+Line-My position Integer Max (+) voltage Integer
+Line-My size Integer Max (-) Vzonecontainer Integer
+FreezeTogglebuttonzoneactionID Integer Max (-) Vzonepresentationstyle Integer
+FreezeTogglebuttonzonecheck value Integer Max (-) Vzonerectangle Rectangle
+FreezeTogglebuttonzonecontainer Integer Max (-) voltage Integer
+FreezeTogglebuttonzonerectangle- B Rectangle TempoDelayCurve Curve
+WallFilterFrequency Integer TempoDelayCurvezonecontainer Integer
+Constant "Frequency fromperiodnumber function" Integer TempoDelayCurvezoneBrectangle Rectangle
+Wall Filter zoneborder color Color TempoDelayCurvezonebackcolor Color
+Wall Filter zoneborder style Integer TempoDelayCurvezonebordercolor Color
+Wall Filter zonecolor Color TempoDelayCurvezonelinecolor Color
+Wall Filter zonecontainer Integer TempoDelayCurvezoneBWrectangle Rectangle
+Wall Filter zonefont style Integer TempoDelayCurvezoneBDrectangle Rectangle
+Wall Filter zonepresentationstyle Integer TempoDelayCurvezoneBMrectangle Rectangle
+Wall Filter zonerectangle Rectangle Max (-) voltageColor Integer
+Doppler pulseszonecontainer Integer Max (+) voltageColor Integer
+Doppler pulseszonepresentationstyle Integer Max (-) voltagePulsed Integer
+Doppler pulseszonerectangle Rectangle Max (+) voltagePulsed Integer
+Doppler freqzonecontainer Integer Acoustic Display zonezdRectangle Rectangle
+Doppler freqzonepresentationstyle Integer Acoustic Display zoneContainer Integer
+Doppler freqzonerectangle Rectangle Acoustic Display zoneBorder color Color
+Line-BWvessel angle Integer Acoustic Display zoneText String
+Doppler modezoneborder color Color Acoustic Display zoneFont style Integer
+Doppler modezoneborder style Integer Acoustic Display zoneBorder style Integer
+Doppler modezonecolor Color Color ModezonefunctionID Integer
+Doppler modezonecontainer Integer Color SeqTypezonecontainer Integer
+Doppler modezonefont style Integer Color SeqTypezonepresentationstyle Integer
+Doppler modezonepresentationstyle Integer Color SeqTypezonerectangle Rectangle
+Doppler modezonerectangle Rectangle ColSequencingType Integer
+PulsedDopplerMode Integer BXEnvelopeFIRMultiplier Integer
+DepthSelectionzonecontainer Integer BWSamplingFrequency-BM-BW-BD Integer
+DepthSelectionzonerectangle Rectangle Avi buttonzonerectangleBM Rectangle
+Depth Integer Avi buttonzonerectangleBW Rectangle
+Constant "Imagezoomed" Integer CineScroll zonerectangleBW Rectangle
+Zoomzoneimagezoomed Integer AnimateTogglebuttonzonerectangleBM Rectangle
+Doppler Mapzoneborder color Color AnimateTogglebuttonzonerectangleBW Rectangle
+Doppler Mapzoneborder style Integer Line-Mwindowpercentage Integer
+Doppler Mapzonecolor Color Line-BWwindowpercentage Integer
+Doppler Mapzonecontainer Integer ScanDirection Integer
+Doppler Mapzonefont style Integer CacheBlock Integer
+Doppler Mapzonepresentationstyle Integer PostProc zonepresentationstyle Integer
+Doppler Mapzonerectangle Rectangle ProgKeysDisplay zonezdRectangle Rectangle
+Map-Doppler Integer ProgKeysDisplay zonezdContainer ID Integer
+Doppler Mapscalezonecontainer Integer BWRectangle-BX Rectangle
+Doppler MapscalezoneBWrectangle Rectangle SavesetupaszoneactionID Integer
+Ext GammaCurvezonerectangle Rectangle Savesetupaszonecontainer Integer
+Ext GammaCurvezonecontainer Integer Savesetupas zonerectangle Rectangle
+UBC-ECE-TR-002 21
+CompressionCurvemanual Integer Array ApplicationDisplay zoneborder color Color
+TGCDoppler curvezonecontainer Integer ApplicationDisplay zoneborder style Integer
+TGCDoppler curvezoneBWrectangle Rectangle ApplicationDisplay zonecolor Color
+TGCDoppler curvezonebackcolor Color ApplicationDisplay zonecontainer Integer
+TGCDoppler curvezonebordercolor Color ApplicationDisplay zonefont style Integer
+TGCDoppler curvezonelinecolor Color ApplicationDisplay zonepresentationstyle Integer
+ColTGCCurve-B Curve ApplicationDisplay zonerectangle Rectangle
+TGCDoppler digital curvezonebackcolor Color ApplicationDisplay zoneGradient Used Integer
+TGCDoppler digital curvezonebordercolor Color ColMinVelocity zonecontainer Integer
+TGCDoppler digital curvezonecontainer Integer ColMinVelocity zonepresentationstyle Integer
+TGCDoppler digital curvezonelinecolor Color ColMinVelocity zonerectangle Rectangle
+TGCDoppler digital curvezoneBWrectangle Rectangle ColMinVelocity Integer
+ColTGCDigitalCurve-B Curve ColVelocitySensitivity zonecontainer Integer
+MScalezonecontainer Integer ColVelocitySensitivity zonepresentationstyle Integer
+GainLevelCenterLine-B Integer ColVelocitySensitivity zonerectangle Rectangle
+Color Selectionzonelinecolor Color ColVelocitySensitivity Integer
+Color Selectionzonehighlightedlinecolor Color OverlapFineAdj zonecontainer Integer
+Filter curvedepthzonecontainer Integer OverlapFineAdj zonepresentationstyle Integer
+Filter curvedepthzonepresentationstyle Integer OverlapFineAdj zonerectangle Rectangle
+Filter curvedepthzonerectangle Rectangle OverlapFineAdj Integer
+FilterCurveDepth Integer Map-BX Integer
+Compressioncurvemanual zonecontainer Integer OptimizationModezonegroup Integer
+Compressioncurvemanual zonerectangle Rectangle OptimizationModeCol FrameRatezoneborder color Color
+LPF Scalezonecontainer Integer OptimizationModeCol FrameRatezoneborder style Integer
+LPF Scalezonepresentationstyle Integer OptimizationModeCol FrameRatezonecolor Color
+LPF Scalezonerectangle Rectangle OptimizationModeCol FrameRatezonecontainer Integer
+LPF Scale Integer OptimizationModeCol FrameRatezonefont style Integer
+HPF Scalezonecontainer Integer OptimizationModeCol FrameRatezonerectangle Rectangle
+HPF Scalezonepresentationstyle Integer OptimizationModeCol FrameRatezonetype Integer
+HPF Scalezonerectangle Rectangle OptimizationModeCol FrameRatezonegroup Integer
+HPF Scale Integer OptimizationModeCol Flowzoneborder color Color
+FrameRatezonezdRectangle Rectangle OptimizationModeCol Flowzoneborder style Integer
+FrameRatezoneContainer Integer OptimizationModeCol Flowzonecolor Color
+FrameRatezoneBorder color Color OptimizationModeCol Flowzonecontainer Integer
+FrameRatezoneText String OptimizationModeCol Flowzonefont style Integer
+FrameRatezoneFont style Integer OptimizationModeCol Flowzonepresentationstyle Integer
+FrameRatezoneBorder style Integer OptimizationModeCol Flowzonerectangle Rectangle
+CineScroll zonecontainer Integer OptimizationModeCol Flowzonetype Integer
+CineScroll zonerectangleB Rectangle OptimizationModeCol Flowzonegroup Integer
+CineScroll zoneposition Integer BWLineDensity-BD Integer
+FigurezoneContainer ID Integer Special "CineLoop" Integer
+FigurezoneFigurePosition Rectangle Constant "1" Integer
+AnimateTogglebuttonzoneactionID Integer Full ZoomzoneB/Mnumber Integer
+AnimateTogglebuttonzonecontainer Integer Patient Agezoneborder color Color
+AnimateTogglebuttonzonerectangleB Rectangle Patient Agezoneborder style Integer
+AnnotationB-modezonefont color Color Patient Agezonecolor Color
+AnnotationB-modezonefont size Integer Patient Agezonecontainer Integer
+AnnotationB-modezonefont type String Patient Agezonefont style Integer
+GainCurvezonerectangleBW Rectangle Patient Agezonerectangle Rectangle
+Doppler modezonefunctionID Integer Patient AgezoneGradient Used Integer
+UBC-ECE-TR-002 22
+Appendix B – Benchmarking Results on Itanium 2 and Pentium 4
+Raw ipptest Results
+8-bit Image
+1x : 516 x 512 x 1 = 264192 4x : 1032 x 1024 x 1 = 1056768 16x : 2064 x 2048 x 1 = 4227072
+I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G
+Pyramid Up Function Test 0.015578 0.008169 0.013791 0.067048 0.033847 0.059319 0.269739 0.131537 0.223153
+Pyramid Down Function Test 0.002335 0.000853 0.001598 0.010537 0.002828 0.004412 0.043812 0.010617 0.017091
+Distance Transform Test 0.018053 0.019776 0.025533 0.091804 0.080028 0.098936 0.396775 0.324241 0.385981
+Canny Edge Detector Test 0.049385 0.035338 0.040435 0.187924 0.133233 0.126440 0.646776 0.479607 0.400036
+Cross-Correlation Test 0.851407 0.531772 0.799175 3.409269 2.148044 3.251012 13.809983 8.718966 14.235695
+LUT Test 0.001061 0.001164 0.003268 0.005122 0.006287 0.010458 0.027656 0.023082 0.040990
+Threshold Test 0.001952 0.001102 0.001770 0.009529 0.004886 0.008596 0.049708 0.016478 0.031892
+Linear Filter Test 0.006147 0.004376 0.008590 0.025378 0.018759 0.040088 0.104626 0.071475 0.150465
+Median Filter (25x25) Test 0.084327 0.070863 0.086414 0.351980 0.327657 0.342455 1.462677 1.383113 1.355245
+Adder Test 0.000451 0.000891 0.002367 0.003174 0.005502 0.008186 0.015171 0.020319 0.033448
+Normalize ipptest Results
+8-bit Image
+1x : 516 x 512 x 1 = 264192 4x : 1032 x 1024 x 1 = 1056768 16x : 2064 x 2048 x 1 = 4227072
+I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G
+Pyramid Up Function Test 0.885282 1.688328 1.000000 0.884729 1.752562 1.000000 0.827294 1.696507 1.000000
+Pyramid Down Function Test 0.684026 1.873446 1.000000 0.418748 1.559964 1.000000 0.390086 1.609800 1.000000
+Distance Transform Test 1.414338 1.291076 1.000000 1.077682 1.236266 1.000000 0.972796 1.190416 1.000000
+Canny Edge Detector Test 0.818771 1.144234 1.000000 0.672825 0.949009 1.000000 0.618509 0.834092 1.000000
+Cross-Correlation Test 0.938652 1.502853 1.000000 0.953580 1.513476 1.000000 1.030826 1.632727 1.000000
+LUT Test 3.079174 2.807660 1.000000 2.041816 1.663333 1.000000 1.482162 1.775849 1.000000
+Threshold Test 0.906936 1.606224 1.000000 0.902119 1.759483 1.000000 0.641571 1.935447 1.000000
+Linear Filter Test 1.397615 1.963033 1.000000 1.579623 2.136972 1.000000 1.438119 2.105147 1.000000
+Median Filter (25x25) Test 1.024750 1.219460 1.000000 0.972939 1.045165 1.000000 0.926551 0.979851 1.000000
+Adder Test 5.251802 2.657079 1.000000 2.579364 1.487784 1.000000 2.204820 1.646185 1.000000
+Average 1.640135 1.7753392 1 1.208343 1.5104014 1 1.053274 1.5406021 1
+Raw ipptest Results
+24bit Image
+1x : 516 x 512 x3 = 729576 4x : 1032 x 1024 x3 = 3170304 16x : 2064 x 2048 x3 = 12681216
+I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G
+Pyramid Up Function Test 0.049112 0.023001 0.045819 0.200774 0.097323 0.159444 0.808013 0.393632 0.615157
+Pyramid Down Function Test 0.007662 0.002223 0.003217 0.031438 0.008204 0.015407 0.129059 0.030961 0.050849
+Distance Transform Test
+Canny Edge Detector Test
+Cross-Correlation Test 3.101803 1.770813 2.546744 12.477394 7.374708 10.833934 53.178804 0.150495 0.189998
+LUT Test 0.004189 0.005622 0.009243 0.023560 0.017522 0.036283 0.100848 0.077274 0.147698
+Threshold Test 0.006677 0.003177 0.006285 0.036987 0.012825 0.025623 0.154463 0.056704 0.098950
+Linear Filter Test 0.018646 0.012103 0.025245 0.078181 0.050491 0.095281 0.336630 0.210848 0.368851
+Median Filter (25x25) Test 0.260740 0.154413 0.258552 1.090343 0.623381 1.022055 4.539531 2.462383 4.163954
+Adder Test 0.007167 0.003740 0.006332 0.008727 0.014919 0.024992 0.040708 0.066589 0.107818
+Normalize ipptest Results
+24bit Image
+1x : 516 x 512 x3 = 729576 4x : 1032 x 1024 x3 = 3170304 16x : 2064 x 2048 x3 = 12681216
+I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G I2 64-bit P4 2.0A P3 1.13G
+Pyramid Up Function Test 0.932957 1.992085 1.000000 0.794146 1.638298 1.000000 0.761321 1.562774 1.000000
+Pyramid Down Function Test 0.419930 1.447177 1.000000 0.490067 1.877901 1.000000 0.393997 1.642377 1.000000
+Distance Transform Test
+Canny Edge Detector Test
+Cross-Correlation Test 0.821053 1.438177 1.000000 0.868285 1.469066 1.000000
+LUT Test 2.206475 1.644236 1.000000 1.540015 2.070651 1.000000 1.464561 1.911356 1.000000
+Threshold Test 0.941194 1.978424 1.000000 0.692747 1.997952 1.000000 0.640605 1.745038 1.000000
+Linear Filter Test 1.353971 2.085956 1.000000 1.218722 1.887099 1.000000 1.095716 1.749366 1.000000
+Median Filter (25x25) Test 0.991606 1.674421 1.000000 0.937370 1.639536 1.000000 0.917265 1.691026 1.000000
+Adder Test 0.883547 1.693326 1.000000 2.863847 1.675105 1.000000 2.648552 1.619148 1.000000
+Average 1.068842 1.7442254 1 1.175650 1.781951 1 1.131717 1.7030121 1
+Note: Results from 16x Cross-Correlation Test are ignored because both the Pentium 4 and the Ultrasonix machine performed the test erroneously.
+UBC-ECE-TR-002 23
+Appendix C – Control Response Time
+Depth Change Response Time
+From\To 10mm 20mm 30mm 40mm 50mm 60mm 70mm
+10mm 0.218 0.495 0.494 0.493 0.637 0.657 0.678
+20mm 0.483 0.219 0.487 0.485 0.610 0.642 0.661
+30mm 0.470 0.476 0.219 0.485 0.607 0.635 0.652
+40mm 0.473 0.481 0.473 0.220 0.611 0.648 0.641
+50mm 0.612 0.611 0.612 0.605 0.234 0.647 0.659
+60mm 0.627 0.629 0.632 0.623 0.637 0.247 0.680
+70mm 0.629 0.639 0.632 0.644 0.649 0.676 0.307
+Focal Point Amount Change Response Time Power Change Response Time
+From\To 1 2 3 4 0.576
+1 0.301 0.431 0.552 0.683
+2 0.390 0.351 0.564 0.703
+3 0.449 0.506 0.531 0.777 TCG Change Response Time
+4 0.507 0.567 0.704 0.688 0.251
+Focal Point Position Change Response Time Active Crystal Amount Change Response
+FPNum Time From\To 128 196 256
+1 0.299 128 0.219 0.438 0.413
+2 0.356 196 0.387 0.300 0.374
+3 0.527 256 0.334 0.350 0.283
+4 0.618
+5 0.752
+UBC-ECE-TR-002 24
+Appendix D – Benchmarking Results on the 2.8GHz Xeon System
+Raw ipptest Results
+8-bit Image
+1x : 516 x 512 x 1 = 264192 4x : 1032 x 1024 x 1 = 1056768 16x : 2064 x 2048 x 1 = 4227072
+Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G
+Pyramid Up Function Test 0.004071 0.002217 0.013791 0.015774 0.008691 0.059319 0.062882 0.034084 0.223153
+Pyramid Down Function Test 0.000493 0.000344 0.001598 0.001577 0.001052 0.004412 0.005998 0.003683 0.017091
+Distance Transform Test 0.011500 0.008509 0.025533 0.045335 0.032287 0.098936 0.188168 0.151130 0.385981
+Canny Edge Detector Test 0.024581 0.008271 0.040435 0.091633 0.041185 0.126440 0.346794 0.167089 0.400036
+Cross-Correlation Test 0.364053 0.366186 0.799175 1.478631 1.487167 3.251012 6.094012 6.012154 14.235695
+LUT Test 0.000518 0.000589 0.003268 0.003399 0.002814 0.010458 0.012828 0.010526 0.040990
+Threshold Test 0.000357 0.000246 0.001770 0.001726 0.001383 0.008596 0.005549 0.006008 0.031892
+Linear Filter Test 0.002738 0.001410 0.008590 0.011379 0.005902 0.040088 0.044617 0.023504 0.150465
+Median Filter (25x25) Test 0.051269 0.030325 0.086414 0.234009 0.125644 0.342455 0.993186 0.515998 1.355245
+Adder Test 0.000390 0.000365 0.002367 0.001562 0.001448 0.008186 0.006040 0.005544 0.033448
+Normalize ipptest Results
+8-bit Image
+1x : 516 x 512 x 1 = 264192 4x : 1032 x 1024 x 1 = 1056768 16x : 2064 x 2048 x 1 = 4227072
+Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G
+Pyramid Up Function Test 3.387939 6.221528 1.000000 3.760695 6.825297 1.000000 3.548746 6.547150 1.000000
+Pyramid Down Function Test 3.241736 4.647001 1.000000 2.798571 4.194505 1.000000 2.849156 4.640007 1.000000
+Distance Transform Test 2.220279 3.000555 1.000000 2.182319 3.064311 1.000000 2.051255 2.553971 1.000000
+Canny Edge Detector Test 1.644976 4.888770 1.000000 1.379851 3.070014 1.000000 1.153528 2.394145 1.000000
+Cross-Correlation Test 2.195217 2.182427 1.000000 2.198663 2.186044 1.000000 2.336013 2.367819 1.000000
+LUT Test 6.312323 5.550443 1.000000 3.076389 3.716163 1.000000 3.195353 3.894292 1.000000
+Threshold Test 4.959128 7.191162 1.000000 4.981452 6.213957 1.000000 5.747487 5.307872 1.000000
+Linear Filter Test 3.138002 6.092875 1.000000 3.523049 6.791754 1.000000 3.372337 6.401677 1.000000
+Median Filter (25x25) Test 1.685506 2.849626 1.000000 1.463431 2.725601 1.000000 1.364543 2.626453 1.000000
+Adder Test 6.073518 6.486380 1.000000 5.239165 5.654515 1.000000 5.538199 6.033077 1.000000
+Average 3.485862 4.9110767 1 3.060358 4.4442161 1 3.115662 4.2766461 1
+Raw ipptest Results
+24bit Image
+1x : 516 x 512 x3 = 729576 4x : 1032 x 1024 x3 = 3170304 16x : 2064 x 2048 x3 = 12681216
+Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G
+Pyramid Up Function Test 0.011303 0.006172 0.045819 0.044740 0.023501 0.159444 0.188191 0.098415 0.615157
+Pyramid Down Function Test 0.001366 0.000905 0.003217 0.004525 0.002772 0.015407 0.017513 0.011506 0.050849
+Distance Transform Test
+Canny Edge Detector Test
+Cross-Correlation Test 1.262796 1.260761 2.546744 5.234126 5.233105 10.833934 0.675536 0.001626 0.189998
+LUT Test 0.003262 0.001949 0.009243 0.010331 0.007831 0.036283 0.047252 0.031346 0.147698
+Threshold Test 0.001409 0.001101 0.006285 0.004853 0.004594 0.025623 0.013838 0.017377 0.098950
+Linear Filter Test 0.007476 0.003920 0.025245 0.030161 0.015880 0.095281 0.124431 0.064026 0.368851
+Median Filter (25x25) Test 0.113126 0.055403 0.258552 0.453656 0.223622 1.022055 1.723122 0.865633 4.163954
+Adder Test 0.001168 0.001161 0.006332 0.004533 0.004608 0.024992 0.018545 0.016094 0.107818
+Normalize ipptest Results
+24bit Image
+1x : 516 x 512 x3 = 729576 4x : 1032 x 1024 x3 = 3170304 16x : 2064 x 2048 x3 = 12681216
+Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G Xeon UP Xeon DP P3 1.13G
+Pyramid Up Function Test 4.053541 7.424316 1.000000 3.563814 6.784591 1.000000 3.268796 6.250652 1.000000
+Pyramid Down Function Test 2.355580 3.556155 1.000000 3.405071 5.556964 1.000000 2.903564 4.419456 1.000000
+Distance Transform Test
+Canny Edge Detector Test
+Cross-Correlation Test 2.016749 2.020005 1.000000 2.069865 2.070269 1.000000
+LUT Test 2.833328 4.741981 1.000000 3.511841 4.632928 1.000000 3.125729 4.711847 1.000000
+Threshold Test 4.460291 5.706233 1.000000 5.279475 5.577844 1.000000 7.150731 5.694283 1.000000
+Linear Filter Test 3.376748 6.440193 1.000000 3.159139 6.000113 1.000000 2.964305 5.760989 1.000000
+Median Filter (25x25) Test 2.285515 4.666708 1.000000 2.252929 4.570454 1.000000 2.416517 4.810300 1.000000
+Adder Test 5.420807 5.451945 1.000000 5.513608 5.423135 1.000000 5.813905 6.699437 1.000000
+Average 3.350320 5.0009419 1 3.594468 5.0770373 1 3.949078 5.4781374 1
+Note: Results from 16x Cross-Correlation Test are ignored because both the Xeon and the Ultrasonix machine performed the test erroneously.
+UBC-ECE-TR-002 25
+

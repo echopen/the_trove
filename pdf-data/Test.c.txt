@@ -1,0 +1,14 @@
+File: /home/mouha/Desktop/RedPitaya-master/SDK/test.c Page 1 of 1
+#include <stdio.h>
+#include "include/rp.h"
+int main(int argc, char **argv){
+/* Init the red pitaya resources */
+if(rp_Init() != RP_OK){
+return -1;
+}
+/* -- Code goes here -- */
+/* Release the red pitaya module resources */
+rp_Release();
+return RP_OK;
+}
+

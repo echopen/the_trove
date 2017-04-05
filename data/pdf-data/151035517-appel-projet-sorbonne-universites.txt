@@ -1,0 +1,273 @@
+1 / 8
+1- Contexte :
+L’Institut d’Ingénierie en Santé (IUIS) a été créé le 1er
+juin 2014 grâce à l’aide de l’Etat
+gérée par l’Agence Nationale de la Recherche (ANR) au titre de l’IDEX Sorbonne Universités
+dans le cadre du programme Investissements d’Avenir.
+L’IUIS rassemble les Facultés d’Ingénierie et de Médecine de l’Université Pierre et Marie
+Curie (UPMC) ainsi que l’Université de Technologie de Compiègne (UTC). L’UPMC et
+l’UTC sont membres de Sorbonne Universités.
+Dans ce contexte l’IUIS lance un quatrième Appel à Projet (AAP4) ouvert aux membres de
+Sorbonne Universités : http://www.sorbonne-universites.fr/a-propos-de/les-membres-de-
+sorbonne-universites/
+Ces projets seront susceptibles d’être co-financés/co-labelisés par les Labex portés par
+Sorbonne–Universités concernés par la thématique Ingénierie en Santé:
+- Labex SMART : http://www.smart-labex.fr/
+Contact : contact@smart-labex.fr
+- Labex CAMI : http://cami-labex.fr/
+Contact : Guillaume Morel
+morel@isir.upmc.fr
+- Labex MS2T : https://www.hds.utc.fr/labex-ms2t-484/
+Contact : Marie-Christine Ho Ba Tho
+marie-christine.ho-ba-tho@utc.fr
+2- Objectif :
+L’objectif général de cet Appel à Projet (AAP) est d’encourager les chercheurs,
+enseignants-chercheurs et praticiens hospitaliers, membres des établissements de
+Sorbonne Universités à promouvoir des projets favorisant l’interdisciplinarité et les
+interactions entre sciences, ingénierie et médecine au travers de programmes
+collaboratifs. Le projet scientifique doit s’intégrer dans les 4 axes et items définis ci-
+dessous :
+a. Modélisation et simulation du sujet sain et pathologique (patient spécifique) :
+Systèmes biomécaniques (cardio-vasculaires, musculo-squelettiques, neuro-
+musculo- squelettiques) ; signaux électro-physiologiques ; neurosciences
+computationnelles (système sensori-moteur et cognitif) ; simulateurs et « serious
+games », génomique et santé
+b. Conception et réalisation de dispositifs biomédicaux :
+Dispositifs d’assistance aux gestes en médecine ; dispositifs d’imagerie ; dispositifs
+implantables (électronique, mécatronique, systèmes embarqués) ; robotique
+(chirurgicale, domotique) ; organes artificiels ; dispositifs d’assistance à la
+personne (« care »)
+Appel à Projet n°4 (AAP4)
+AVRIL 2015
+2 / 8
+c. E-santé :
+Aide au diagnostic, à la personnalisation des soins ; maintien à domicile ;
+regroupement géographique des expertises médicales (infrastructures) ;
+télémédecine ; données massives pour la santé (Big Data) ; ingénierie des
+connaissances en santé
+d. Traitement et analyse des images et signaux médicaux (multi-modalité et
+interaction) :
+Exploitation des signaux bruts pour l’aide au diagnostic et au suivi thérapeutique ;
+imagerie biomédicale ; signaux sociaux ; informatique émotionnelle
+3- Conditions d’éligibilité :
+Un des 2 types de projets suivants peut être soumis à l’IUIS pour financement:
+Projet exploratoire : Evaluation de la faisabilité d’un concept innovant
+pouvant être mené par des étudiants d’école d’ingénieur (4 ou 5ième année) ou
+Master (1 ou 2) et éventuellement des internes en médecine avec implication
+d’enseignants–chercheurs et cliniciens confirmés (cf. grille budgétaire 1, page 6) :
+- 10 000 euros maximum en fonctionnement comprenant la gratification (6 mois
+max.) pour étudiants d’école d’ingénieur (4 ou 5ième année) ou Master (1 ou 2)
+Et éventuellement en sus
+o 1 900 euros brut/mois ; pour 12 mois de salaires d’un interne en
+médecine (soit un budget global brut toutes charges incluses de 37 664 euros
+pour 12 mois maximum)
+Ou
+o 2 830 euros brut / mois ; pour 6 mois de salaires d’un ingénieur/
+technicien support (soit un budget global brut toutes charges incluses de
+25 200 euros pour 6 mois maximum)
+Projet avancé : Elaboration de premières études ou prototypes pouvant être
+mené par des étudiants d’école d’ingénieur (4 ou 5ième année) ou Master (1 ou 2)
+et éventuellement des internes en médecine avec implication d’enseignants-
+chercheurs et cliniciens confirmés.
+Une phase exploratoire a déjà été réalisée (financée ou pas par l’IUIS) et doit être
+décrite dans la réponse (cf. grille budgétaire 2, page 7) :
+- 25 000 euros maximum en fonctionnement comprenant la gratification (6 mois
+max.) pour étudiants d’école d’ingénieur (4 ou 5ième année) ou Master (1 ou 2)
+Et éventuellement en sus
+o 1 900 euros brut/mois ; pour 12 mois de salaires d’un interne en
+médecine (soit un budget global brut toutes charges incluses de 37 664 euros
+pour 12 mois maximum)
+Ou
+o 2 830 euros brut / mois ; pour 6 mois de salaires d’un ingénieur/
+technicien support (soit un budget global brut toutes charges incluses de
+25 200 euros pour 6 mois maximum)
+La durée du projet peut s’étendre du jour de déblocage des fonds au 30 avril
+2016 maximum.
+3 / 8
+Attention : les internes en médecine ont l’obligation de faire une demande
+d’autorisation de mise en disponibilité pour l’année financée avant le 30 juin 2015.
+Ils doivent fournir une attestation de préinscription en Master 2 ainsi qu’une
+attestation du directeur du laboratoire de recherche
+Information auprès de Patrick GRABER patrick.graber@aphp.fr tel : 01 40 27 52 22
+- Facteur Indispensable : binôme de porteurs scientifique–clinicien, tous deux
+membres de Sorbonne Universités
+o scientifiques : supervision par un chercheur ou enseignant-chercheur des
+laboratoires de recherche
+et
+o cliniciens : supervision par un chef de service ou chef de clinique
+hospitalier (GH Pitié-Salpetrière-Charles Foix/ GH-HUEP : Tenon, St
+Antoine, Trousseau, Rothschild, Quinze-Vingts)
+- Facteur favorisant : nouvelle collaboration
+- Facteur favorisant : projet multi sites
+- Facteur favorisant : présence d’un interne en médecine
+Le comité d’évaluation examinera les dossiers et déterminera le financement attribué.
+La délibération sera rendue le vendredi 19 juin 2015.
+La personne contact indiquée dans la réponse sera informée par mail de la décision dans
+les meilleurs délais.
+4- Procédure
+Les porteurs devront faire une proposition conformément au formulaire ci-dessous avant le
+lundi 18 mai 2015, 18h dernier délai.
+Un point d’étape (état d’avancement, bilan des dépenses) sera demandé à mi-parcours
+pour le 30 novembre 2015.
+Un bilan final décrivant les actions menées et leurs résultats ainsi qu’un bilan des dépenses
+devra parvenir à l’IUIS avant le 30 avril 2016 dernier délai.
+Les propositions de projets (au format .pdf) ainsi que toutes questions sont à envoyer par
+voie électronique au guichet unique des AAP de l’IUIS (un accusé de bonne réception vous
+sera adressé par retour de mail) à l’adresse suivante:
+christine.boutet-rixe-iuis@sorbonne-universites.fr
+Dr Christine BOUTET-RIXE, MD
+Secrétaire Générale IUIS
+Institut Universitaire d’Ingénierie en Santé
+4 / 8
+SECTION 1/ Coordonnées
+Type de projet :
+Indiquer si le projet est
+Exploratoire ou Avancé
+Acronyme :
+ACRONYME
+Nom du fichier :
+Acronyme_IUIS_AAP4_ProjetExploratoire.pdf
+ou
+Acronyme_IUIS_AAP4_ProjetAvance.pdf
+Interlocuteur projet :
+Nom :
+Email :
+Tel :
+Résumé :
+10 lignes maximum
+Mots clés :
+8 mots maximum
+FORMULAIRE DE REPONSE
+Appel à Projet n°4 (AAP4)
+Date limite de dépôt :
+18 mai 2015 18H
+5 / 8
+SECTION 2/ Références
+Porteurs du projet :
+Porteur scientifique
+Chercheur ou enseignant-chercheur
+nom, téléphone, adresse électronique, grade,
+établissement ou organisme d’appartenance,
+nom et adresse du laboratoire ou du service.
+Porteur médical
+Chef de service ou chef de clinique
+nom, téléphone, adresse électronique, grade,
+établissement ou organisme d’appartenance,
+nom et adresse du laboratoire ou du service.
+Thématiques :
+Scientifique Description/plus-values (20 mots max.)
+Médicale Description/plus-values (20 mots max.)
+Axes :
+Modélisation et simulation du sujet sain et
+pathologique (patient spécifique)
+Indiquer le ou les items (cf. objectif en p.1)
+Conception et réalisation de dispositifs
+biomédicaux
+Indiquer le ou les items (cf. objectif en p.1)
+E-santé Indiquer le ou les items (cf. objectif en p.1)
+Traitement et analyse des images et
+signaux médicaux (multi-modalité et
+interaction)
+Indiquer le ou les items (cf. objectif en p.1)
+6 / 8
+SECTION 3/ Budget demandé
+Projet exploratoire /Grille budgétaire 1 :
+Demande de financement détaillée selon la grille suivante :
+Financement pour Fonctionnement
+10 000 euros max.
+Gratification
+(Etudiant M1ou 2
+ou
+Etudiant ingénieur
+4 ou 5ième année)
+560 euros/mois
+(6 mois max.)
+Nom prénom coordonnées (si identifié):
+Nombre de mois :
+Montant total pour la période € :
+Achat de matériel Description :
+Montant € :
+Consommables Description :
+Montant € :
+Frais de mission Description :
+Montant € :
+Autres Description :
+Montant € :
+Financement pour Salaires
+Interne en médecine
+1 900 € brut/mois
+Soit un budget total pour
+salaires bruts chargés de
+37 664 € pour 12 mois
+max.
+Nom prénom coordonnées (si identifié):
+Nombre de mois :
+Montant brut chargé € :
+Ingénieur -
+technicien support
+2 830€ brut/mois
+Soit un budget total pour
+salaires bruts chargés de
+25 200€ pour 6 mois max.
+Nom prénom coordonnées (si identifié) :
+Nombre de mois :
+Montant brut chargé € :
+TOTAL demandé Montant € :
+Financements
+complémentaires
+indiquez si votre projet bénéficie d’un autre financement et
+précisez s’il est d’ordre public ou privé.
+7 / 8
+SECTION 3/ Budget demandé
+Projet avancé /Grille budgétaire 2 :
+Demande de financement détaillée selon la grille suivante :
+Financement pour Fonctionnement
+25 000 euros max.
+Gratification
+(Etudiant M1ou 2
+ou
+Etudiant ingénieur
+4 ou 5ième année)
+560 euros/mois
+(6 mois max.)
+Nom prénom coordonnées (si identifié):
+Nombre de mois :
+Montant total pour la période € :
+Achat de matériel Description :
+Montant € :
+Consommables Description :
+Montant € :
+Frais de mission Description :
+Montant € :
+Autres Description :
+Montant € :
+Financement pour Salaires
+Interne en médecine
+1 900 € brut/mois
+Soit un budget total pour
+salaires bruts chargés de
+37 664 € pour 12 mois
+max.
+Nom prénom coordonnées (si identifié):
+Nombre de mois :
+Montant brut chargé € :
+Ingénieur -
+technicien support
+2 830€ brut/mois
+Soit un budget total pour
+salaires bruts chargés de
+25 200€ pour 6 mois max.
+Nom prénom coordonnées (si identifié) :
+Nombre de mois :
+Montant brut chargé € :
+TOTAL demandé Montant € :
+Financements
+complémentaires
+indiquez si votre projet bénéficie d’un autre financement et
+précisez s’il est d’ordre public ou privé.
+8 / 8
+SECTION 4/ Description du projet
+4 pages maximum de texte descriptif et références bibliographiques en annexe
+En particulier, indiquer clairement la problématique, le positionnement par rapport à l’état de
+l’art et les résultats attendus.
+

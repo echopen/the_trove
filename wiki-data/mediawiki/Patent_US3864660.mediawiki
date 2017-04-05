@@ -1,0 +1,52 @@
+# Patent US3864660
+
+
+
+
+
+=US3864660 : Ultrascope = 
+
+
+
+== Invention date ==
+
+Sep 10, 1973
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Ralph Ranalli]]
+* [[Kenneth R Torrence]]
+=== Beneficiaires === 
+* * [[]]
+
+
+= Abstract =
+
+An improved ultrasonic system of the pulse-echo type for medical diagnosis and the like. An ultrasonic system with transmitter, ultrasonic transducer, receiver and display unit, with a scan converter in the display unit for picture storage and readout by conventional TV sweep patterns and presentation on a conventional TV monitor. A write-read selection system providing a write mode with a high rate of data entry, such as more than one thousand ultrasonic pulses per second with present day 525 line 60 hertz TV displays.
+= Patents Backwards =
+
+= Patents Forwards =
+
+* [[Patent US3993995]]
+* [[Patent US4010466]]
+* [[Patent US4030344]]
+* [[Patent US4099179]]
+* [[Patent US4121250]]
+* [[Patent US4167753]]
+* [[Patent US4174705]]
+* [[Patent US4230124]]
+* [[Patent US4241608]]
+* [[Patent US4257256]]
+* [[Patent US4265121]]
+* [[Patent US4271842]]
+* [[Patent US4282577]]
+* [[Patent US4317370]]
+* [[Patent US4350045]]
+* [[Patent US5911133]]
+* [[Patent US6909397]]
+* [[Patent USRE30397]]
+* [[Patent EP0001933A2]]
+* [[Patent EP0002541A1]]
+* [[Patent WO1980000532A1]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

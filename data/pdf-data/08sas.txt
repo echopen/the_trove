@@ -1,0 +1,733 @@
+Abstract—Piezoelectricity is an ability of some materials to
+generate an electric potential in response to applied mechanical
+stress. Piezoelectric ceramics are often used for sensory systems
+to monitor mechanical characteristics of structures through an
+electrical signal. Thus, to support system level analysis and
+evaluation of sensory systems, understanding and estimating the
+electrical behavior of piezoelectric ceramics with a minimum
+effort is valuable. This paper proposes an equivalent circuit
+model for piezoelectric ceramics, with a PZT patch as the
+specimen. The proposed model approximates the electrical
+behavior of piezoelectric ceramics with up to 100% accuracy for
+unloaded and 93% accuracy for loaded PZT, and provides a
+modeling procedure that can easily be automated.
+Index Terms—Equivalent circuits, Modeling, Piezoelectric
+materials, PZT ceramics
+I. INTRODUCTION
+Piezoelectricity is an ability to generate an electric potential
+in response to applied mechanical stress [1]. As the
+piezoelectric effect is reversible, materials that demonstrate the
+direct piezoelectric effect, which is the generation of electricity
+upon applied mechanical stress, also demonstrate the converse
+piezoelectric effect, which is the generation of stress and strain
+upon applied electric field [2]. There are different types of
+piezoelectric materials, and some representative materials
+include quartz and Lead-Zirconate Titanate (PZT), which are a
+natural crystal and a man-made ceramic, respectively.
+Impedance-based structural health monitoring (SHM) is one
+of the applications, where a piezoelectric ceramic is used. A
+piezoelectric transducer made of a single layer piezoelectric
+ceramic is usually utilized for impedance-based SHM as a
+collocated sensor/actuator to monitor mechanical conditions of
+a structure through electrical signals. PZT, which is a
+surface-mountable sensor/actuator in a form of a thin patch, is
+the most widely used piezoelectric ceramic due to its high
+actuation ability [1][3]. When an electric field is placed across
+the thickness of a PZT patch as the original polarization field,
+the PZT patch expands along the axis of polarization (thickness
+Jina Kim, Jeong K. Kim and Dong S. Ha are with the Virginia Tech VLSI
+for Telecommunications (VTVT) Lab, Department of Electrical and Computer
+Engineering, Virginia Tech, Blacksburg, VA 24061, USA (phone:
+540-231-2424; fax: 540-231-3362; e-mail: jikim4, jeongki, ha@vt.edu).
+Benjamin L. Grisso and Daniel J. Inman are with the Center for Intelligent
+Material Systems and Structures (CIMSS), Department of Mechanical
+Engineering, Virginia Tech, Blacksburg, VA 24061 USA (e-mail: begrisso,
+dinman@vt.edu).
+direction) and contracts perpendicular to the axis of
+polarization (length and width direction) [6]. PZT typically
+changes its shape up to 0.1% of the original dimension [1][2].
+For sensory systems relying on piezoelectricity, such as
+impedance-based SHM systems, it is important to model the
+piezoelectric behavior of a piezoelectric ceramic itself and the
+interaction between a piezoelectric ceramic and the structure in
+terms of an electrical equivalent circuit, to conduct system level
+analysis and performance evaluation intensively. There are
+several previous approaches on modeling the piezoelectric
+behavior with an electrical equivalent circuit, but they do not
+provide a modeling procedure that can be easily automated, and
+do not present quantitative performance of their equivalent
+circuit models [3]-[5]. This work proposes a systematic
+procedure to model the piezoelectric behavior of an unloaded or
+loaded piezoelectric ceramic. It also presents quantitative
+performance of the proposed model in terms of correlation
+coefficients.
+II. EXISTING EQUIVALENT CIRCUIT MODELS
+A. Unloaded Piezoelectric Ceramics
+The most basic equivalent circuit model characterizing a
+piezoelectric ceramic near the resonant frequency is the Van
+Dyke Model shown in Figure 1, which is often adopted to
+model electromechanical resonance characteristics of crystal
+oscillators [7][8]. The Van Dyke Model is a parallel connection
+of a series RLC representing mechanical damping, mass, and
+elastic compliance, and a capacitor representing the
+electrostatic capacitance between the two parallel plates of the
+PZT patch [7].
+Figure 1 The Van Dyke Model
+The Van Dyke Model cannot accurately model the material
+characteristics, particularly for materials with significant losses
+[4]. The Sherrit Model employs complex circuit components,
+as shown in Figure 2, to model the piezoelectric ceramic with
+piezoelectric losses. Circuit component values of the Sherrit
+Model are complex numbers, while those of the Van Dyke
+Model are real numbers.
+Electrical Modeling of Piezoelectric Ceramics
+for Analysis and Evaluation of Sensory Systems
+Jina Kim, Benjamin L. Grisso, Jeong K. Kim, Dong Sam Ha, and Daniel J. Inman
+SAS 2008 – IEEE Sensors Applications Symposium
+Atlanta, GA, February 12-14, 2008
+978-1-4244-1963-0/08/$25.00 ©2008 IEEE 122
+Figure 2 The Sherrit Model – Unloaded piezoelectric ceramics
+The Guan Model, which is the most recently proposed,
+estimates values of the electrical components based on the
+electrical behavior of the piezoelectric ceramics [3]. The Guan
+model, as shown in Figure 3, adds a series resistor Rs and a
+parallel resistor Rp to C0 of the Van Dyke Model to account for
+the energy dissipation. Determination of the values of the
+electric components C0, C1, L1 and R1 relies on visual inspection
+on the magnitude and phase of the impedance, and values of Rs
+and Rp are decided by the amount of energy dissipation [3].
+The Guan Model attempts to improve the accuracy of the
+Van Dyke Model by encompassing Rs and Rp as a consideration
+of the energy dissipation. However, the values of Rs and Rp
+may introduce inaccuracy as the energy loss is dependent on the
+amplitude and the frequency of the excitation signal [3].
+Figure 3 The Guan Model – Unloaded piezoelectric ceramics
+B. Loaded Piezoelectric Ceramics
+When a piezoelectric ceramic is mounted to a mechanical
+structure, the mechanical boundary conditions of the
+piezoelectric ceramic change [3], and, accordingly, a different
+circuit model is required for a loaded piezoelectric ceramic.
+Since a loaded piezoelectric ceramic experiences multiple
+resonances, a circuit model for a wide frequency range with
+multiple resonant frequencies can be employed to model the
+behavior of a loaded piezoelectric ceramic. As shown in Figure
+4, additional R-C-L branches are added in parallel to the
+R1-C1-L1 branch of the Van Dyke Model [7].
+The Guan Model is also extended to accommodate a loaded
+piezoelectric ceramic based on the extended Van Dyke Model,
+as shown in Figure 5. Each series RLC branch physically
+stands for a mechanical resonant mode. The values of Ri, Ci,
+and Li, for i from 1 to n, are determined by the same method to
+obtain the values of R1, C1, and L1 discussed in Section II.A.
+The complete Guan Model has difficulty in determining values
+of Ri, Ci, and Li when the resonant frequencies of the
+piezoelectric ceramic and structure are close to or overlapping
+with each other [3].
+Figure 4 The extended Van Dyke Model – Loaded piezoelectric ceramics
+Figure 5 The complete Guan Model – Loaded piezoelectric ceramics
+III. TEST CONFIGURATIONS
+We present a systematic procedure to model a piezoelectric
+ceramic, and its model is called the Easy Model. As the first
+step to develop the Easy Model, the electrical properties of the
+piezoelectric ceramic are investigated by measuring the
+electrical impedance of the piezoelectric ceramic using an
+impedance analyzer such as HP 4194A. The impedance is
+measured from 10 KHz to 100 KHz with a frequency resolution
+of 20 Hz. A PZT sheet PSI-5H4E-T110 available from Piezo
+Systems, Inc. is selected as a piezoelectric ceramic in
+developing the Easy Model and cut into a smaller piece to be
+used as a specimen.
+The test configurations for unloaded PZT and loaded PZT
+are illustrated in Figure 6. The PZT patch is excited with an
+electrical signal to produce a mechanical actuation on the
+structure, and the mechanical response from the structure is
+measured through the PZT patch in the form of an electrical
+signal. Thus, a pair of wires should be connected to each face
+of the PZT patch. Since the PZT patch is attached to the surface
+of a structure, one side of a loaded PZT patch is not accessible.
+Thus, a piece of copper tape is used to provide a route to the
+bottom of the PZT patch that is contacting the structure as
+shown in Figure 6 (b). For the purpose of symmetry, a piece of
+copper tape with the same size is also attached to the top of the
+PZT patch, and q wire is soldered to each of the two pieces of
+copper tape. Since the copper tape thickness shown in Figure 6
+is only 35 µm, a loaded PZT patch has almost full contact with
+the structure, and the gap between the PZT patch and a structure
+shown in Figure 6 (b) is not to scale. As presented in Figure 6
+(a), unloaded PZT includes the PZT patch and the copper tape
+123
+pieces to keep test conditions of the specimen identical for
+unloaded and loaded cases.
+(a) Unloaded PZT (b) Loaded PZT
+Figure 6 Test configurations (not to scale) – PZT
+In the loaded PZT measurement and modeling cases, an
+aluminum beam is used as a test structure whose dimension and
+PZT bonding location is depicted in Figure 7.
+Figure 7 PZT on a test structure (not to scale)
+IV. PROPOSED EASY MODEL FOR UNLOADED PIEZOELECTRIC
+CERAMICS
+A. Proposed Model
+The measured impedance of unloaded PZT is presented in
+Figure 8. From the reactance curve shown in Figure 8 (a) and
+the magnitude curve in Figure 8 (b), one can observe that the
+specimen has a series resonance at 45 KHz and a parallel
+resonance at 55 KHz. Note that the magnitude becomes the
+maximum (minimum) at the parallel (series) resonance. Figure
+8 (a) indicates that the PZT patch is inductive between the
+series resonant frequency and the parallel resonant frequency
+and capacitive in other frequency ranges. In a low frequency
+range, the reactance approaches negative infinity as the
+frequency decreases. It can also be noted from the resistance
+curve that the base resistance outside the resonant frequency
+range is about 5 Ω.
+Since it is easy to identify the parallel resonant frequency
+from the measured impedance, the resonance characteristics of
+unloaded PZT can be modeled using a parallel RLC tank
+circuit. A resistor in series to the RLC tank circuit is connected,
+as unloaded PZT demonstrates nearly constant resistance over
+the frequency range away from the resonant frequency. Also,
+as the reactance converges to negative infinity as the frequency
+approaches DC, a series capacitor to an RLC tank circuit is
+added. The Easy Model is shown in Figure 9. The model has
+an RLC tank circuit with a resistor and a capacitor in series.
+The impedance of unloaded PZT through the Easy Model is
+given as:
+( )
+, 0
+0
+1
+1 1
+1 1
+1 1
+pm unloaded
+Z R
+j C j C
+R j L
+ω
+ω ω
+ω
+= + +
++ +
+(1)
+Note that the Easy Model is another form of the Van Dyke
+Model. The series RLC branch and a parallel capacitor of the
+Van Dyke Model are transformed into a parallel RLC tank and
+a series capacitor in the Easy Model. The series to parallel
+conversion of the RLC components makes the calculation of
+the electrical component values of the model simple. So the
+Easy Model is suitable for automating the modeling process.
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+0
+50
+100
+150
+Frequency (Hz)
+Resistance
+(Ohm)
+Unloaded PZT Impedance - Resistance and Reactance
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+-100
+-50
+0
+50
+Frequency (Hz)
+Reactance
+(Ohm)
+(a) Resistance and Reactance
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+0
+50
+100
+150
+Frequency (Hz)
+Magnitude
+(Ohm)
+Unloaded PZT Impedance - Magnitude and Phase
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+-1
+0
+1
+Frequency (Hz)
+Phase
+(Radian)
+(b) Magnitude and Phase
+Figure 8 Unloaded PZT impedance – Measured
+Figure 9 The Easy Model – Unloaded PZT
+B. Determination of Component Values
+The next step for the Easy Model is to determine the values
+of electrical components. The resistance value R0 can be
+determined from the resistance curve at a DC or very high
+frequency. It is approximately 5 Ω from Figure 8 (a). The
+series capacitor value C0 is from the reactance curve by taking a
+negative inverse of the reactance value at DC. It is 150 nF from
+Figure 8 (a). The parallel resonant frequency ωp is determined
+124
+also from the reactance curve, and is 55 KHz from Figure 8 (a).
+The resistance value of R1 can be calculated as
+( )
+1 , 0
+p unloaded p
+R R R
+ω
+= − (2)
+where ( )
+,
+p unloaded p
+R ω is the measured resistance of unloaded
+PZT at the parallel resonant frequency ωp. The measured value
+of ( )
+,
+p unloaded p
+R ω is 120 Ω for the above PZT, and hence R1 is
+obtained as 115 Ω. Since 1
+p LC
+ω = and the quality factor
+Q R C L
+= [9], the value of L1 can be calculated as
+1
+1
+p
+R
+L
+Q
+ω
+=
+⋅
+(3)
+and the value of C1 can be obtained as
+1 2
+1
+1
+p
+C
+L ω
+=
+⋅
+(4)
+The Q factor appeared in equation (3) can be obtained from
+the magnitude curve of Figure 8 (b) using a relationship
+p
+Q BW
+ω
+= , where BW is the 3-dB bandwidth. The Q factor is
+obtained as 1100, and L1 and C1 as 30.253 µH and 0.277 µF,
+respectively, for the above PZT. Note that the above procedure
+is straightforward from the measured impedance and can easily
+be automated. The component values are summarized in Table
+1.
+TABLE 1 THE EASY MODEL CIRCUIT COMPONENTS – UNLOADED PZT
+R0 (Ω) 5 R1 (Ω) 115
+C0 (µF) 0.15 C1 (µF) 0.277
+L1 (µH) 30.253
+C. Performance Analysis
+The dotted lines in Figure 10 show the estimated impedance
+of the specimen based on the Easy Model. From a visual
+inspection, the Easy Model follows the trends of the measured
+impedance in four aspects, resistance, reactance, magnitude
+and phase. Correlation coefficient indicates the strength and
+direction of a linear relationship between two variables [10].
+Thus, for a quantitative comparison, correlation coefficients
+between the measured and the modeled impedance are
+calculated, and summarized in
+Table 2. As seen in the table, the correlation coefficients are
+about 0.99 for all the four parameters.
+TABLE 2 UNLOADED PZT CORRELATION COEFFICIENTS – MEASUREMENT VS.
+EASY MODEL
+Impedance Component Correlation Coefficient
+Resistance 0.9887
+Reactance 0.9922
+Magnitude 0.9932
+Phase 0.9926
+The unloaded PZT illustrated in this section includes
+impurities, two pieces of copper tape, as shown in Figure 6 (a),
+and the impurities cause a local resonant frequency around 68
+KHz. The local resonant frequency is ignored for the unloaded
+PZT, but is discussed in the next section.
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+0
+50
+100
+Frequency (Hz)
+Resistance
+(Ohm)
+Unloaded PZT Resistance and Reactance - Measurement vs. Model
+Measurement
+Easy Model
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+-100
+-50
+0
+50
+100
+Frequency (Hz)
+Reactance
+(Ohm)
+Measurement
+Easy Model
+(a) Resistance and Reactance
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+0
+50
+100
+150
+Frequency (Hz)
+Magnitude
+(Ohm)
+Unloaded PZT Magnitude and Phase - Measurement vs. Model
+Measurement
+Easy Model
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+-1
+0
+1
+Frequency (Hz)
+Phase
+(Radian)
+Measurement
+Easy Model
+(b) Magnitude and Phase
+Figure 10 Unloaded PZT impedance – Measurement vs. Easy Model
+V. EASY MODEL FOR LOADED PIEZOELECTRIC CERAMICS
+A. Proposed Model
+As mentioned in Section II.B, mechanical structures usually
+have multiple resonant frequencies depending on their
+mechanical characteristics. Thus, when a PZT patch is bonded
+to a structure, the resonant mode of unloaded PZT has
+interaction with each resonant mode of the structure, as shown
+in Figure 11. In the figure, n is the number of resonant
+frequencies of the structure, and the subscripts pmu and s
+denote unloaded PZT Model and Structure, respectively.
+Figure 11 Interaction between unloaded PZT and a structure
+The interaction between PZT and the structure can be
+explained with a concept of a transformer as shown in Figure
+12. The top two figures of Figure 12 show the equivalent
+circuit model of PZT and a structure at a resonant frequency
+125
+using an RLC tank circuit based on the Easy Model. The Zpmu1
+block represents the resonance of PZT, and the Zsi block
+represents one of the resonances of the structure. When a PZT
+patch is bonded to the surface of a structure, the interaction
+between a PZT patch and a resonance frequency of the structure
+may be modeled as a transformer with a transfer ratio of Np:Ns
+as shown in the second figure of Figure 12. Note the inductors
+of RLC tank circuits, Lpmu1 and Lsi, are distributed into two
+elements satisfying Lpmu1 = Lpmu11 || Lpmu12 and Lsi = Lsi1 || Lsi2.
+As illustrated in the third figure of Figure 12, the inductance
+of PZT constituting the transformer, Lpmu12, can be replaced
+with the structure’s impedance seen by PZT, Zsi’, where
+( )
+2
+'
+si si p s
+Z Z N N
+= ⋅ . The impedance of loaded PZT at a
+resonant frequency ωi, Zpmli, becomes a parallel connection of
+an RLC tank circuit of unloaded PZT excluding the inductance
+forming a transformer, Zpmu11, and an impedance of the
+structure seen by PZT, Zsi
+’
+, as expressed in equation (5).
+' '
+11 1 1 11
+|| || || ||
+pmli pmu si pmu pmu pmu si
+Z Z Z R C L Z
+= = (5)
+Finally, by distributing RLC components of Zsi’ into Zpmu11, a
+new equivalent RLC tank circuit representing the behavior at a
+resonant frequency ωi is obtained with Rpmli, Cpmli, and Lpmli as
+shown in the last row of Figure 12.
+Lpmu12
+Lpmu11
+Cpmu1
+Rpmu1 Lsi2 Lsi1 Csi Rsi
+Zpmu11
+Lpmu1
+Cpmu1
+Rpmu1
+Zpmu1
+Lsi Csi Rsi
+Zsi
+Zsi1
+Zpmu1 Zsi
+Np : Ns
+PZT Structure
+Transformer
+Lpmu11
+Cpmu1
+Rpmu1
+Zpmu11
+Zsi’
+Zpmli
+Lpmli
+Cpmli
+Rpmli
+Zpmli
+Figure 12 PZT and structure as a transformer
+The procedure elaborated in Figure 12 is applied to all
+resonant frequencies of the structure, and the Easy Model for
+unloaded PZT is extended as shown in Figure 13 to compose
+the Easy Model for loaded PZT. Note the values of R0 and C0
+should be determined according to the measured impedance of
+loaded PZT, rather than duplicating the values determined for
+an unloaded PZT model. The total estimated impedance of
+loaded PZT ( )
+,
+pm loaded
+Z ω becomes
+( )
+, 0
+1
+0
+1 1
+1 1
+n
+pm loaded
+i
+i
+i i
+Z R
+j C j C
+R j L
+ω
+ω ω
+ω
+=
+= + +
++ +
+∑
+(6)
+Figure 13 Easy Model – Loaded PZT
+B. Performance Analysis
+It is observed from the measured impedance curves that
+loaded PZT exhibits multiple resonant frequencies, especially
+in frequency ranges from 12 KHz to 20 KHz and from 65 KHz
+to 72 KHz. To demonstrate the performance of the Easy Model
+for loaded PZT, a representative frequency range from 12 KHz
+to 20 KHz is selected for experiments.
+The component values for loaded PZT are obtained in the
+same manner for unloaded PZT covered in Section IV.A.
+There are 50 resonant frequencies in the selected frequency
+range. The dotted lines in Figure 14 show the estimated
+impedance of loaded PZT based on the Easy Model. From a
+visual inspection, the Easy Model follows the trend of the
+measured impedance of loaded PZT in all the four values,
+resistance, reactance, magnitude, and phase.
+1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2
+x 10
+4
+0
+100
+200
+300
+400
+Frequency (Hz)
+Resistance
+(Ohm)
+Loaded PZT Resistance and Reactance - Measurement vs. Model
+Measurement
+Easy Model
+1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2
+x 10
+4
+-300
+-200
+-100
+0
+100
+Frequency (Hz)
+Reactance
+(Ohm)
+Measurement
+Easy Model
+(a) Resistance and Reactance
+1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2
+x 10
+4
+0
+100
+200
+300
+400
+Frequency (Hz)
+Magnitude
+(Ohm)
+Loaded PZT Magnitude and Phase - Measurement vs. Model
+Measurement
+Easy Model
+1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 2
+x 10
+4
+-2
+-1
+0
+1
+Frequency (Hz)
+Phase
+(Radian)
+Measurement
+Easy Model
+(b) Magnitude and Phase
+Figure 14 Loaded PZT impedance – Measurement vs. Easy Model
+For a quantitative comparison, correlation coefficients
+between the measured impedance and the modeled impedance
+are calculated separately for resistance, reactance, magnitude,
+and phase, as summarized in Table 3. The Easy Model
+126
+estimates the loaded PZT impedance with an average
+agreement rate of 93%. A higher agreement rate is expected if
+the frequency resolution of the measured impedance is
+increased.
+TABLE 3 LOADED PZT CORRELATION COEFFICIENTS – MEASUREMENT VS.
+EASY MODEL
+Impedance Component Correlation Coefficient
+Resistance 0.9743
+Reactance 0.8888
+Magnitude 0.9269
+Phase 0.9409
+C. Revisit to Unloaded Model
+Based on the Easy Model accommodating multiple resonant
+frequencies, the unloaded PZT estimation conducted in Section
+IV.C is revisited to incorporate a local resonant frequency using
+the model developed for loaded PZT illustrated in Figure 13.
+We considered two RLC tank circuits accounting for the
+primary and local resonance frequencies. The values for two
+tank circuits based on measurements are given in Table 4. Note
+that the values for a primary parallel resonance remain the
+same.
+TABLE 4 THE EASY MODEL CIRCUIT COMPONENTS – UNLOADED PZT WITH
+TWO RESONANT FREQUENCIES
+R0 (Ω) 5 R1 (Ω) 115 R2 (Ω) 15
+C0 (µF) 0.15 C1 (µF) 0.277 C2 (µF) 1.727
+L1 (µH) 30.253 L2 (µH) 3.211
+The revised model for unloaded PZT with two resonant
+frequencies offers a better agreement with the measured
+impedance as shown in Figure 15. The correlation between the
+estimated impedance and the measured one is given in Table 5.
+The average correlation improves to nearly 100 % compared to
+99 % for the previous model with only a primary resonant
+circuit.
+TABLE 5 UNLOADED PZT CORRELATION COEFFICIENTS WITH TWO RESONANT
+FREQUENCIES – MEASUREMENT VS. EASY MODEL
+Impedance Component Correlation Coefficient
+Resistance 0.9969
+Reactance 0.9963
+Magnitude 0.9958
+Phase 0.9966
+VI. CONCLUSION
+This paper proposes an equivalent circuit model that can
+represent the electrical behaviors of unloaded and loaded
+piezoelectric ceramics. A circuit model offers easy analysis
+and quick performance estimation of sensory systems without
+lengthy measurements. The proposed model can be developed
+solely from the measured impedance of PZT and does not
+require any information about the material itself. The proposed
+model also provides high accuracy, average 99 % or above
+agreement rate for an unloaded PZT ceramic and 93 % for a
+loaded piezoelectric ceramic. The modeling procedure is
+straightforward for easy automation.
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+0
+50
+100
+Frequency (Hz)
+Resistance
+(Ohm)
+Unloaded PZT Resistance and Reactance - Measurement vs. Model
+Measurement
+Easy Model
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+-100
+-50
+0
+50
+100
+Frequency (Hz)
+Reactance
+(Ohm)
+Measurement
+Easy Model
+(a) Resistance and Reactance
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+0
+50
+100
+150
+Frequency (Hz)
+Magnitude
+(Ohm)
+Unloaded PZT Magnitude and Phase - Measurement vs. Model
+Measurement
+Easy Model
+1 2 3 4 5 6 7 8 9 10
+x 10
+4
+-1
+0
+1
+Frequency (Hz)
+Phase
+(Radian)
+Measurement
+Easy Model
+(b) Magnitude and Phase
+Figure 15 Unloaded PZT impedance with two resonant frequencies –
+Measurement vs. Easy Model
+ACKNOWLEDGMENT
+This material is based upon work supported by the National
+Science Foundation under Grant No. 0426777. Any opinions,
+findings, and conclusions or recommendations expressed in
+this material are those of the authors and do not necessarily
+reflect the views of the National Science Foundation.
+REFERENCES
+[1] G.H. Gautschi, Piezoelectric Sensorics: Force, Strain, Pressur,
+Acceleration and Acoustic Emission Sensors, Materials and Amplifiers,
+Springer, 2002.
+[2] D.A. Skoog, F.J. Holler, and S.R. Crouch, Principles of Instrumental
+Analysis, 6th
+edition, Brooks and Cole, 2006.
+[3] M. Guan and W.-H. Liao “Studies on the Circuit Models of Piezoelectric
+Ceramics,” International Conference on Information Acquisition, pp.
+26-31, June 2004.
+[4] S. Sherrit, H.D. Wiederick, B.K. Mukherjee, and M. Sayer, “An Accurate
+Equivalent Circuit for the Unloaded Piezoelectric Vibrator in the
+Thickness Mode,” Journal of Physics D: Applied Physics, vol. 30, no. 16,
+pp. 2354-2363, August 1997.
+[5] C.H. Park, “On the Circuit Model of Piezoceramics,” Journal of
+Intelligent Material Systems and Structures, vol. 12, pp. 515-522, July
+2001.
+[6] http://www.piezo.com/prodsheet2sq5H.html, PSI-5H4E Piezoceramic
+Sheets and Their Properties, Piezo Systems, Inc.
+[7] ANSI/IEEE Std 176-1987, IEEE Standard on Piezoelectricity, 1987.
+[8] A.S. Sedra and K.C. Smith, Microelectronic Circuits, 5th
+edition, Oxford
+University Press, 2003.
+[9] T.H. Lee, The Design of CMOS Radio-Frequency Integrated Circuits, 2nd
+edition, Cambridge University Press, 2003.
+[10] P.Z. Peebles Jr., Probability, Random Variables, and Random Signal
+Principles, 4th
+edition, McGraw-Hill, 2001.
+127
+

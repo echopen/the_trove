@@ -1,0 +1,20 @@
+# Ultrasonic Endoscopic Probe UM 2
+
+[[Category:Historique]]
+[[Category:Sonde]]
+[[Category:Balayage]]
+
+= Vidoson 735= 
+<br />
+Transducer for mechanical linear scanner
+(Vidoson 735)
+Rotating transducer mount with three
+identical periodically-activated transmitters
+for the Vidoson 735 series.
+The elliptic shape of the transducer is a
+consequence of the opto-acoustical
+characteristics of the corresponding
+parabolic reflector.
+<br />
+<br />
+[[File:Vidoson3.png]]

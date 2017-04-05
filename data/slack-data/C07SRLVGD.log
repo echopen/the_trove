@@ -1,0 +1,93 @@
+1437384586.000002> @U04DFTZ7D: <@U04DFTZ7D> has joined the channel
+1437386491.000002> @U04DFTZ7D: <@U07SS18MT>: voilà le lien des licences du projet OCP de Facebook : <http://www.opencompute.org/blog/request-for-comment-ocp-hardware-license-agreement/>
+1437386494.000003> @U07SS18MT: <@U07SS18MT> has joined the channel
+1437386499.000005> @U04DFTZ7D: Dis moi ce que tu en penses
+1437387536.000006> @U07SS18MT: ROCK'N'ROLL
+1437387544.000007> @U07SS18MT: (dès que j'ai une imprimante :simple_smile: )
+1437387557.000008> @U04DFTZ7D: cad
+1437387576.000009> @U07SS18MT: (j'aime le papier :disappointed: )
+1437387580.000010> @U04DFTZ7D: ok
+1437387588.000011> @U07SS18MT: (je peux surligner, stabiloter, déchirer, anoté)
+1437387599.000012> @U04DFTZ7D: j’ai compris
+1437387607.000013> @U07SS18MT: (des fois que ... )
+1442925435.000002> @U0AAL4W13: <@U0AAL4W13> has joined the channel
+1442925459.000003> @U0AAL4W13: <@U04DFTZ7D>: tu penses que le PDF que tu as ajouté au wiki on peut le mettre en full text ?
+1442925488.000004> @U0AAL4W13: enfin, mettre le contenu du doc en page wiki
+1442926487.000005> @U04DFTZ7D: Oui, on peut si on ne laisse pas tout le monde changer le contenu :wink:
+1442926930.000006> @U0AAL4W13: On verra de ttes facons, ou une fois loggué on peut protéger la page
+1442926933.000007> @U0AAL4W13: :simple_smile:
+1442927201.000008> @U04DFTZ7D: Ok, cool
+1445499768.000002> @U0AAL4W13: <@U04DFTZ7D>: j'archive temporairement le basecamp juridique si ca te va, je vais créer un pour FPGA
+1445499804.000003> @U0AAL4W13: BTW, t'as le doc de la license en éditable? Au pire tu me l'envoie je le mets demain sur le wiki comme on avait discuté
+1445517320.000002> @U04DFTZ7D: <@U04DFTZ7D> and commented: Voilà le document :wink:
+1460618560.000002> @U04DFTZ7D: <@U04DFTZ7D> has renamed the channel from "juridique" to "legal"
+1460618737.000003> @U04DFTZ7D: <@U04DFTZ7D> has renamed the channel from "legal" to "3_legal_opensource"
+1469085330.000002> @U1N5Q9334: <@U1N5Q9334> has joined the channel
+1473702725.000002> @U0AAL4W13: <@U0B47KC3S>: pour info, en préparation de la discussion sur les contributions, une page chouette sur les CLA at <https://en.m.wikipedia.org/wiki/Contributor_License_Agreement>
+1475654759.000002> @U0GMX7QUB: <@U0GMX7QUB> has joined the channel
+1476086134.000002> @U04DFTZ7D: <@U04DFTZ7D> has renamed the channel from "3_legal_opensource" to "prj_legal_opensource"
+1478627193.000002> @U04DFTZ7D: <@U0AAL4W13>, i prefer we discuss this topic in the right channel it will be easier for everybody to have structured information.
+1478627211.000003> @U04DFTZ7D: 
+1478627261.000004> @U04DFTZ7D: Concerning the questions asked there were two and i mentioned, we planed on finishing the work by November the 16th. So as soon as it will be done, it will be shared to all.
+1478627306.000005> @U0AAL4W13: Sure thing.
+1478627310.000006> @U04DFTZ7D: Great :wink:
+1478627449.000007> @U04DFTZ7D: To organize a workshop, we first need to precise what we want to achieve and what are our needs precisely. And then we will mobilize jurists to help the community and enlighten us during our discussions.
+1478627543.000008> @U0AAL4W13: I'll be copying the exchanges we had with <@U1NM17NHF> on basecamp too here
+1478627580.000009> @U04DFTZ7D: Because it has become unclear to me. We have already setup licences (one for the hardware and one for the software) after the community discussed about this matter. And i imagine that when a contributor wants to contribute, he will then push its contribution under the dedicated licence, no ?
+1478627766.000010> @U0AAL4W13: The aim of the CLA.md file is to have the same info on what are CLAs, you'll find an answer to your question :)
+1478627829.000011> @U0AAL4W13: It makes sense also to gather the info from all who provided inputs to this question, including those jurist. There is no clear justification (to me) of the current stance towards copyright assignment. 
+1478627904.000012> @U0AAL4W13: Last but not least, the echOpen license itself is inconsistent with a position of copyright assignment (which is the association position as of today).
+1478628508.000013> @U04DFTZ7D: Just to give some context the licence has been established before the association by the community including you <@U0AAL4W13>. And for my part I agree with the idea of setting up a workshop to clarify all this and considering the idea of a CLA, which I find a good idea. So as you were ready to organize it <@U0AAL4W13>, please go. Just start by setting up the challenge (context, problem and ideas of solutions) then, if needed we will ask some jurists to review the workshop document and launch the workshop inviting bustiers and the community. Is that fine for you ?
+1478628633.000014> @U0AAL4W13: Nope, I really want to have at least some discussion with the jurists in question to understand their position: it would be useless to prepare a workshop to which a legal advisor says "that's true but not applicable to echopen because Xxxxx" in which case it'd be a loss of time for everyone. 
+1478628643.000015> @U0AAL4W13: Also, I hate unprepared meetings :)
+1478628830.000016> @U04DFTZ7D: I agree !! That is the reason why we need to first document the question and prepare everything to avoid wasting their time, I mean the jurists as they are very busy in general. 
+1478628975.000018> @U0AAL4W13: We're all busy :) That's why the CLA.md file has been compiled,  for a first sharing amongst us. It's always better to be able to get to know stuff before the meeting. Don't hesitate to comment about this doc. Sort of a online meeting preparation, if you want.
+1478629086.000019> @U0AAL4W13: Good link BTW is : <https://github.com/kelu124/echomods/blob/master/include/ppt_CLA.md> :smiley:
+1479302857.000002> @U04DFTZ7D: The Open Hardware practical guide we are working on is a little bit late to reach its final version… After having talked with the team, we need to set up a few more meetings to finalize the document. I’ll let you know about the release date soon.
+1481080112.000002> @U3ARRLDQ8: <@U3ARRLDQ8> has joined the channel
+1481230988.000002> @U3CDR25JP: <@U3CDR25JP> has joined the channel
+1481301051.000002> @U3CV9P9NH: <@U3CV9P9NH> has joined the channel
+1481617802.000002> @U3D9HA0N4: <@U3D9HA0N4> has joined the channel
+1481984340.000002> @U3GQS8JTZ: <@U3GQS8JTZ> has joined the channel
+1482151886.000002> @U3GHS132Q: <@U3GHS132Q> has joined the channel
+1482329391.000002> @U3HH0CEAW: <@U3HH0CEAW> has joined the channel
+1483628185.000002> @U3ML4L01Z: <@U3ML4L01Z> has joined the channel
+1483654075.000003> @U3N1SENJY: <@U3N1SENJY> has joined the channel
+1483959192.000002> @U3NT8G2BC: <@U3NT8G2BC> has joined the channel
+1484142933.000002> @U3PC2A4GZ: <@U3PC2A4GZ> has joined the channel
+1484346979.000003> @U0AAL4W13: Petite citation du jour, de Jérôme Pinguet:  "De mon point de vue, l'avantage central de participer à 1 logiciel libre, c'est avoir l'assurance qu'on peut continuer à utiliser et réutiliser le fruit de son travail. A ma connaissance, il n'y a aucun autre moyen pour 1 développeur qui ne serait pas le propriétaire unique de son entreprise de conserver le fruit et la matière de son travail." -- d'où l'importance de garder des droits pour les auteurs -contributeurs :) 
+1484476130.000002> @U0AAL4W13: Petit papier sympa: <http://www.nature.com/news/gates-foundation-research-can-t-be-published-in-top-journals-1.21299>. : Publications such as Nature and Science have policies that clash with the global health charity's open-access mandate.
+1484664311.000002> @U3T7KBEMV: <@U3T7KBEMV> has joined the channel
+1484853471.000002> @U3TUWV3SQ: <@U3TUWV3SQ> has joined the channel
+1485447389.000002> @U3WRNP30B: <@U3WRNP30B> has joined the channel
+1485791341.000002> @U3XHSAQHE: <@U3XHSAQHE> has joined the channel
+1486479222.000002> @U42P4AT7Z: <@U42P4AT7Z> has joined the channel
+1486493812.000003> @U0AAL4W13: a good read on clarifying (if needed) rights between projects and contributors: <http://contributoragreements.org/faq/> - worth reading. Could be one point of the CapMeth ^^
+1488353690.000002> @U0AAL4W13: Still from Joel Spolsky (thx <@U20C8CKTL>  for driving me back to his articles :wink: ) <https://www.joelonsoftware.com/2016/12/09/developers-side-projects/> (from <@U38HVMZ6K>) 
+1488353694.000004> @U20C8CKTL: <@U20C8CKTL> has joined the channel
+1488353695.000005> @U38HVMZ6K: <@U38HVMZ6K> has joined the channel
+1488397653.000006> @U0AAL4W13: <https://www.mirbsd.org/wlog-10_all.htm> :smiley:
+1490002423.627029> @U0AAL4W13: to bounce on <@U38HVMZ6K> comment on licences for <@U4KSRKW9W> , especially  "echopen General Public License" <https://github.com/echopen/PRJ-medtec_kit/blob/master/license/echopen_general_public_licence_20150915.wiki> - there's a description at 11. Patents of the rights granted by the contributor. Quite explicit that there's no need for copyright assignment from these lines - ping <@U0B47KC3S> following our chat last sunday
+1490002425.627484> @U0B47KC3S: <@U0B47KC3S> has joined the channel
+1490002520.646198> @U0AAL4W13: and for the chat with <@U3GHS132Q> - see <https://www.mirbsd.org/wlog-10_all.htm> for github questions :)
+1490006452.443935> @U3GHS132Q: <@U0AAL4W13> thank you for the link
+1490006526.457522> @U3GHS132Q: About licenses' problem I ask myself some question about the use of FFTW since this library is licensed under GPL3. Does its usage will force us to put the android app under GPL3 (which is for me not a problem :stuck_out_tongue: :stuck_out_tongue: :stuck_out_tongue: ) ?
+1490007613.669854> @U38HVMZ6K: <@U3GHS132Q> , yes, if you use the GPL-licensed version of FFTW, you'll have to license your application under a GPLv3-compatible license. This is not necessarily GPLv3 but hardly recommended. For a list of licenses compatible with GPL see: <https://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses> and <https://www.gnu.org/licenses/license-compatibility.en.html>
+1490007720.692241> @U38HVMZ6K: if needed, a non-free license of FFTW can be obtained (<http://www.fftw.org/>: "Non-free licenses may also be purchased from MIT, for users who do not want their programs protected by the GPL")
+1490010044.118559> @U0AAL4W13: the #eiffel license is gplv3 compatible ;)
+1490010077.124449> @U0AAL4W13: More seriously it seems gplv3 can work with modified bsd licenses 
+1490024887.624477> @U38HVMZ6K: This is a tricky area... You can use BSD licensed libraries in an application you release under GPL but AFAIK your application must then be licensed under GPL as well.
+1490024956.651886> @U38HVMZ6K: Saying that BSD is compatible with GNU GPL means that the BSD license allows this "re-licensing" of the original work into GPL.
+1490024987.664089> @U38HVMZ6K: This is already quite old but was good help at the time I read it <http://www.newmediarights.org/open_source/new_media_rights_open_source_licensing_guide>
+1490025014.674575> @U38HVMZ6K: "The GPL license is ‘viral,’ meaning any derivative work you create containing even the smallest portion of the previously GPL licensed software must also be licensed under the GPL license."
+1490025090.704523> @U38HVMZ6K: In my understanding, you can use GPL-compatible components in a GPL-licensed application (e.g. BSD library in an application you release under GPL).
+1490025139.723559> @U38HVMZ6K: The opposite is not true. You cannot use GPL-licensed code/libraries in an application you release under any other license.
+1490025166.734707> @U38HVMZ6K: The 'viral' nature of GPL is the difference...
+1490025245.765106> @U38HVMZ6K: As soon as you touch GPL, you automatically become GPL.
+1490027954.792509> @U3GHS132Q: &gt; As soon as you touch GPL, you automatically become GPL. <@U38HVMZ6K> I understand the same thing (reactions: @U0AAL4W13)
+1490028112.850581> @U38HVMZ6K: so the 3 alternatives are: 1. keep the Android App under a BSD license (or similar) and buy a FFTW license if FFTW is needed 2. don't use FFTW  3. re-license the Android App under GPL (contaminated by FFTW)
+1490028138.860002> @U38HVMZ6K: I would personnally go for 1 or 2 but not re-license under GPL
+1490028229.893208> @U38HVMZ6K: I know this topic has already been discussed many times but this is really a difficult and moving area where inputs by   law specialists would really help the poor engineers we are :slightly_smiling_face: (reactions: @U3GHS132Q)
+1490028495.992276> @U38HVMZ6K: Regarding Android, the whole licensing topic should be clear as well. I know that Google rewrote some major parts of Android themselves partially for licensing reasons (bionic libc vs glibc) or changed some subcomponents to move away from GPL: e.g. Bluedroid stack (Apache 2.0) used instead of Bluez (GPL)
+1490028933.159763> @U0B47KC3S: btw <@U3QGT3Q74> just found a renderscript implemention of FFT :wink: it is under BSD3 licence
+1490032125.347326> @U3GHS132Q: Anyway if we have to FFT we will do it on the device so we do not have to argue a lot about FFTW and the android app just to keep it in mind :slightly_smiling_face:

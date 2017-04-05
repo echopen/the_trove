@@ -1,0 +1,76 @@
+# Patent US2628335
+
+
+
+
+
+=US2628335 : Ultrasonic rail flaw detector search unit = 
+
+
+
+== Invention date ==
+
+Aug 10, 1950
+
+== Inventeurs et beneficiaires ==
+
+=== Inventeur(s) === 
+* * [[Sperry Prod Inc]]
+=== Beneficiaires === 
+* * [[Drake Harcourt C]]
+
+
+= Abstract =
+
+Description(OCR text may contain errors)
+Feb. 10, 1953 H. c. DRAKE 2,628,335 
+ULTRASONIC RAIL FLAW DETECTOR SEARCH UNIT Filed Aug. 10, 1950 2 sums-swam 1 050! LLOSCOPE IN VENTOR. HARCOURT C. DRAKE ATTORNEY. 
+H. c. DRAKE ULTRASONIC RAIL FLAW DETECTOR SEARCH UNIT Filed Aug. 10, 1950 Feb. 10, 1953 2 SHEETS-SHEET 2 INVENTOR. 
+ HARCOURT c. DRAKE a% ATTORNEY. 
+Patented Feb. 10, 1953 ULTRASONIC RAIL FLAW DETECTOR SEARCH UNIT Harcourt C. Drake, Hempstead, N. Y., assignor to Sperry Products, Inc., Danbury, Conn., a corporation of New York Application August 10, 1950, Serial No; 178,626 6 Claims. (01. 318-414) countered the condition of internal fissureswhich i may be located either in a vertical transverse plane or at various angles to such plane. It will be apparent that when the pulses are transmitted into the rail at a given angle it may occur that internal defect are located in such planes that the reflections of the pulse do not return=to the transmitting and receiving crystal. In stationary testing systems it is possible at any given point to change the angle of transmission so as to effect a scanning action inthe course of which certain of the transmitted pulses will strike the defect at such angle of incidence that the reflections of the pulses will be received by the. transmitting and receiving crystal. However, in the continuous testing of rail, as, for instance, by an ultrasonic test car which moves continuously along the rail at a steady rate, such movement of the transmitting crystal is not feasible. 
+It is therefore one ofthe principal objectsof I: 
+this invention to provide an ultrasonic search' unit which is capable of beingemployed on a test 7 car moving continuously in a given direction and which will nevertheless receive reflections of the pulse from substantially all internal reflection surfaces regardless of their angular position. 
+ Further objects and advantages of this invention will become apparentirl thedollowing detailed description thereof. 
+In the accompanying drawings,- 
+ Fig. 1 is a side elevation'of a piece of rail showing one embodiment ofmysea'rch unit applied thereto. 
+ Fig. 2 is a vertical section taken substantially on the line 2-2 of Fig; -1.- I 
+ Fig. 3 is an isometric projectionof a modified form of search unit. M V 
+ Fig. 4 is a plan view of a section of rail showing diagrammatically the theory of the Fig. 3 form of the invention. 
+Referring to Fig. 1 there is disclosed a jportion of a rail 0 on the tread surface H of which there is adapted to be moved continuously in a; given direction the ultrasonic search unit indicated generally at 12. series of piezo-electric elements in the form of This unit maycomprise oneor a quartz crystals 4, l5, l6 connected in parallel to .a pulse generator energized periodically from a suitable source such as -cycle A. C. All of the crystals will thus be simultaneously and periodi- .cally energized. These crystals may be mounted on a face i! of the search unit l2, said face being inclined from thevertical in the plane of the longitudinal axis of the rail. The search unit is provided with a. face 8 adapted to ride on the rail tread surface I I. The face I! is inclined at such angle that the transmitters l4, l5, and 16 when energized by ultrasonic pulses will transmit said pulses through the supporting block 20 of the search unit l2 at an angle a to the tread surface. Under these conditions if the pulses transmitted by crystals 4, l5, and I6 strike a defect within the rail, and said defect is positioned so that the pulses strike the defect substantially normally, the reflection of these pulses ,will be received by one or more of the crystals M, 5, and I6. Since these crystals are connected in parallel, if any one of them is energized by the returning reflections the presence of such reflection will be indicated on any suitable receiver indicator. 
+ However, if a defect is located in such plane that the transmitted pulses are not incident substantially normally to the surface of the defect then the reflections will not return in sufilcient strength to the transmitting crystals. Thus as shown in Fig. 1 if the defect D is located as shown the incident pulses P will be reflected in a direction Rawayfrom the crystals rather than in a direction to return to the crystals. To overcome this difliculty, bearing in mind that in a continuously moving ultrasonic test apparatus is not feasible to change the angles of transmission of crystals l4, l5. and I6, I provide an additional surface 1' inclined from the vertical in the plane of the longitudinal axisof the rail, preferably in the same block 20 of the ultrasonic search unit. The direction of the angle of inclination of sur-- face I1 with respect to the vertical is opposite to the direction of inclination of surface ll. The eifect of thiswould be that as the car proceeds in the direction of the arrow L in Fig. 1, the 
+pulses from crystals. I4, 5, It, will be transmitted at the angla' into the rail and the reflections R. of these pulses P will be returned so as to be'received by the same crystals which transmitted the pulses. The crystals l4, l5, 16' 
+are connected in parallel to the same pulse generator as crystals I4, l5, 6. Thus in the case of a defect D which is positioned at an angle of inclination such as indicated in Fig. l the crystals l4. I5, I 6, would probably not detect the presence 
+
+= Patents Backwards =
+
+* [[Patent US2416314]]
+* [[Patent US2463328]]
+* [[Patent US2505867]]
+* [[Patent US2536128]]
+* [[Patent US2545309]]
+= Patents Forwards =
+
+* [[Patent US2649550]]
+* [[Patent US2683821]]
+* [[Patent US2740289]]
+* [[Patent US2784325]]
+* [[Patent US2946904]]
+* [[Patent US3021706]]
+* [[Patent US3042904]]
+* [[Patent US3106839]]
+* [[Patent US3174120]]
+* [[Patent US3192418]]
+* [[Patent US3213676]]
+* [[Patent US3299695]]
+* [[Patent US3363117]]
+* [[Patent US3482122]]
+* [[Patent US3789833]]
+* [[Patent US3962671]]
+* [[Patent US4137779]]
+* [[Patent US4718277]]
+* [[Patent US4910718]]
+* [[Patent US5974890]]
+* [[Patent USRE32323]]
+* [[Patent DE1573572B1]]
+* [[Patent WO2001050097A2]]
+[[Category:Patents]][[Category:Brevets]][[Category:CoolHand]]

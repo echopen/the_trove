@@ -1,0 +1,1774 @@
+iPHONE ULTRASOUND
+By
+Jonathan Adam
+Adam Keen
+Dean Santarinala
+Final Report for ECE 445, Senior Design, Spring 2012
+TA: Mustafa Mir
+2 May 2012
+Project No. 2
+ii
+Abstract
+Commercially-available, portable ultrasound devices are increasingly ubiquitous, but they all utilize ad-hoc
+processing and display hardware. This inevitably drives up the cost of these devices and usually results in poor
+user-interface. Many doctors now already carry this hardware around in their pocket on a smartphone, so why not
+use it to drive down medical device costs and provide a familiar user-interface? Our project involved development
+of an A-scan biometry ultrasound device that seamlessly connects to an iPhone 4S. Results demonstrate that the
+concept is feasible as an ultrasound device, but its complete functionality was not attainable in the time allotted.
+iii
+Contents
+1 Introduction..........................................................................................................................................................1
+1.1 Purpose ........................................................................................................................................................1
+1.2 Functions......................................................................................................................................................2
+1.3 Blocks ...........................................................................................................................................................2
+2 Design ...................................................................................................................................................................3
+2.1 DGH Ultrasound Probe.................................................................................................................................3
+2.2 T/R Switch ....................................................................................................................................................3
+2.3 Transmit Pulser ............................................................................................................................................3
+2.4 Analog Front End..........................................................................................................................................4
+2.5 FPGA.............................................................................................................................................................5
+2.6 iPhone Software...........................................................................................................................................8
+2.7 Power Electronics.........................................................................................................................................9
+3 Design Verification..............................................................................................................................................11
+3.1 DGH Ultrasound Probe...............................................................................................................................11
+3.2 T/R Switch ..................................................................................................................................................13
+3.3 Transmit Pulser ..........................................................................................................................................13
+3.4 Analog Front End........................................................................................................................................14
+3.5 FPGA...........................................................................................................................................................16
+3.6 iPhone Software.........................................................................................................................................17
+3.7 Power Electronics.......................................................................................................................................17
+4 Costs....................................................................................................................................................................18
+4.1 Parts ...........................................................................................................................................................18
+4.2 Labor ..........................................................................................................................................................18
+5 Conclusion...........................................................................................................................................................19
+5.1 Accomplishments.......................................................................................................................................19
+5.2 Uncertainties..............................................................................................................................................19
+5.3 Ethical considerations ................................................................................................................................19
+5.4 Future work................................................................................................................................................20
+References...................................................................................................................................................................21
+Appendix A Design Supplements..........................................................................................................................23
+Appendix B Requirement and Verification Table .................................................................................................33
+1
+1 Introduction
+1.1 Purpose
+The purpose of our project is to create a low-cost, portable A-scan biometric ultrasound circuit driven by an iPhone
+4S. This would provide an inexpensive ultrasound alternative with a more user-friendly interface compared to
+existing optical ultrasound solutions.
+Figure 1. Typical Biometric A-Scan [1]
+Traditional A-scan machines perform 1-dimensional biometric scans that ophthalmologists use to measure the
+axial lengths of eyeball components. These measurements of the eye are used to calculate intraocular lens (IOL)
+power for cataract surgeries. Ultrasound transducers typically operate at 10MHz, since the short distances in the
+eyeball require high resolution. While there are handheld ultrasound probes available, they all use
+processor/video/input hardware created specifically for that device - driving up its cost while having a poor user
+interface. In addition, many third-world countries lack structured landline communication networks, making the
+sharing of this kind of medical information a heavy task. A system of sharing this information over modern,
+conventional wireless networks may aid in the health-care of ailing citizens. Our project aims to alleviate these
+problems by improving upon the user interface of existing devices, driving down costs with the use of hardware
+many doctors already own (the iPhone 4S), and securely sending eye scan results over established cellular
+networks.
+2
+1.2 Functions
+A user can expect the following benefits from using our device:
+■ Lower medical device costs with the use of existing hardware
+■ Highly portable form factor
+■ Immediate/live ultrasound measurements
+■ Axial Eye Length (AEL) measurements accurate to within 0.1mm for anterior chamber depth, lens depth,
+vitreous length, and axial eye length
+A user can expect the following functionality from our device:
+■ 10 MHz single-element ultrasonic transducer probe
+■ Manchester Encoded Transmission of A-scan data to iPhone 4S over 3.5mm Headphone Audio Jack
+■ Provides user with one echogram per second
+■ User-friendly interface on 3.5” iPhone 4S LCD display with touch user interface
+■ Choice of contact or immersion measurement
+■ Numeric values displayed for anterior chamber depth, lens thickness, vitreous length, and AEL with 0.1 mm
+resolution
+■ Integrated IOL power calculator
+■ Storage of up to 500 echograms for review and critiquing
+■ Ability to send echogram images over MMS or e-mail
+1.3 Blocks
+Figure 2. Project Block Diagram Overview
+■ Ultrasound Probe: Responsible for transmitting and receiving ultrasonic pulses.
+■ Transmit Pulser: Generates the high-frequency, high-voltage pulses sent to the ultrasound probe.
+■ Analog Front End (AFE): Amplifies and samples the received signal.
+■ T/R Switch: Protects the AFE from the Pulser’s high-voltage output.
+■ FPGA: Controls the transmit/receive circuit, buffers sampled data, communicates with the iPhone.
+■ iPhone: Provides data processing and user-interface, communicates with the FPGA.
+■ Power Electronics: Regulates voltages and supplies power to all device components.
+3
+2 Design
+2.1 DGH Ultrasound Probe
+The DGH 6000 Scanmate A transducer provides the basis of our pulse-echo system. It allows for the production of
+longitudinal sound waves resulting from piezoelectric excitation by voltage pulses. The transducer consists of a
+single piezo-ceramic element that runs at a center frequency of 10.0 MHz nominal. It focuses an acoustic beam at
+23.0 mm nominal and has a circular patient contact area 0.275” in diameter. It also contains a fixation LED to help
+center the patient’s iris upon examination [2].
+At the start of our project, we had a sample ultrasound transducer formerly made by the company Storz, but no
+longer in production. Given that we had no documentation or product support for this probe, we sought out
+sponsorship from DGH Technology, who graciously donated their DGH 6000 transducer probe. Probe dimensions
+and pin-outs are provided in Figure 3 of Appendix A.1.
+2.2 T/R Switch
+The TX810 chip protects the receiver circuit’s amplifiers from high voltage pulses on the probe transmission line. It
+is an 8-channel, programmable T/R switch for medical ultrasound applications, but since our project is only a 1-
+dimensional ultrasound with a single element transducer, only one channel is required. Internally, it consists of a
+diode bridge, bias network, clamp diodes, and logic controller. This T/R switch can be programmed to allow for
+different bias currents, but for our purposes, the mode that allows for the minimum amount of insertion loss is the
+most ideal (B1,B2,B3 inputs set to HIGH) [3]. National Semiconductor provides a similar option for an ultrasound
+T/R switch chip in its LM96530 offering. However, we deemed the cost of the TX810 more economical, given both
+chips offer the same functionality in similar chip packages. A pin assignment schematic and construction of our
+TX810 breakout board is provided in Figures 4 and 5 of Appendix A.2.
+2.3 Transmit Pulser
+The transmit pulser’s primary function is to accept a digital pulse from a controller (in our case, the FPGA) and
+relay a high-voltage pulse to the transducer probe [2]. Specifically in our application, we will send a 50ns-wide
+digital pulse to the pulser and expect a +30V output pulse of equivalent width. Recall that this ultrasound device
+operates at 10MHz, thus 50ns corresponds to a unipolar half-period of that frequency. Our original design
+employed Texas Instrument’s LM96550 ultrasound transmit pulser. After several failed attempts to achieve
+correct operation, however, we used Maxim IC’s MAX4940 high-voltage digital pulser instead. The MAX4940’s
+design includes four channels, as well as positive and negative high-voltage supplies up to +220V and -220V,
+respectively. Since our application is a one-dimensional scan, only one channel was utilized. In addition, no
+complex beamforming (typical of multi-dimensional ultrasounds) was required, so we simply sent one unipolar
+(positive) pulse. This allowed us to avoid the need for a negative high voltage. For the positive high voltage,
+however, the DGH probe’s specifications require that the pulse voltage be no higher than 32V [2]. In accordance
+with this, we selected +30V as the positive high-voltage supply (VPP). In order to operate correctly, the pulser also
+requires +10V and –10V output driver supplies (VCC, VEE), as well as a +3.3V logic voltage supply (VDD). Other
+than the positive digital pulse input from the FPGA (INP1A), all other digital input lines are grounded. This
+configuration drives output channels to high-impedance when not pulsing at high-voltage. Since we are only
+interested in utilizing one channel, all high-voltage outputs other than that of channel 1A are left floating. In order
+to keep the chip enabled, we tie the enable pin to the logic voltage supply [4]. Finally, 3.3nF AC-coupling
+capacitors are placed between each channel’s amplifier and switch, and 0.1µF decoupling capacitors bypass all
+power supply inputs. A pin assignment schematic and construction of our MAX4940 breakout board is provided in
+Figures 6 and 7 of Appendix A.3.
+4
+2.4 Analog Front End
+The AFE5801 is the receiver of our ultrasound circuit, taking in echoed voltage pulses and amplifying, then
+digitizing the received signals. To accomplish this, the AFE5801 includes an 8-channel variable-gain amplifier (VGA)
+and an 8-channel, 12bit, high-speed analog-to-digital converter (ADC) based on a switched capacitor design. Again,
+since our design only uses a single element transducer and makes a 1-D measurement, only one of these channels
+is implemented, while pin-outs of other channels are either grounded or left floating. National Semiconductor
+provides a similar option for a variable gain amplifier and data sampling chip in its LM96511 offering. However, we
+deemed its 376-pin BGA configuration too complicated for our circuit design given the soldering complexity
+compared to other surface mount packages, like the AFE5801’s QFN package. A pin assignment schematic and
+construction of our AFE5801 breakout board is provided in Figures 8 and 9 of Appendix A.4.
+Programming the modes of operation for the AFE5801 occurs over a Serial Peripheral Interface bus and is
+controlled by the FPGA. Upon power-up, the chip’s internal registers are initialized to the default (zero) value by
+applying a positive pulse to the Reset pin. The SPI bus is formed by the following pins: (SEN)’, SCLK, SDATA, and
+RESET. Serial shifting of bits on the SDATA line into the device occur when (SEN)’ is set to low. Input bits on the
+SDATA line are latched on rising edges of SCLK, loading a new instruction to completion on every 24th rising edge.
+The first 8 of the 24 bits comprise of a register address, while the remaining 16 comprise of the data to be loaded
+onto the addressed register. Figure 10 below illustrates this process:
+Figure 10. Timing Diagram for AFE Serial Data Protocol [5]
+Internal registers are divided into two groups: general-purpose registers and gain control operation registers.
+Access to gain control registers is granted when bit 2 of address zero (labeled “TGC_REGISTER_WREN” is set to 1.
+Various modes of operation are adjusted in this way. A “TGC calculator” document accompanying the AFE chip
+helped specify register values for correct time gain curve application [5]. Table 1 in Appendix A.4 lists register
+configurations that were deemed necessary to achieve correct operation of the AFE.
+On the output end of the AFE, sampled data from ADC is sent to the FPGA using Low Voltage Differential Signaling
+(LVDS). The LVDS output is sent out to the FPGA on pins D1P/M, along with LVDS frame clocks FCLKP/M and bit
+clocks DCLKP/M. In order to properly convert the analog input from the amplifier side of the chip to digital data,
+the sampling rate of our ADC can simply be calculated at the Nyquist Rate:
+( ) (1)
+5
+Achieving this data rate for the 10MHz probe operating frequency ensures a resolution of 0.075mm, well below
+our target accuracy of 0.1mm. Since our anti-aliasing filter will not attenuate signals above 10MHz perfectly, the
+next highest sampling rate is chosen instead (25MHz). Since each sample is 12 bits in resolution, the actual output
+data rate equals 300Mbps – necessitating the use of an FPGA with LVDS to buffer data [6].
+2.5 FPGA
+The Altera Cyclone III is a powerful Field-Programmable Gate Array (FPGA) featuring 10,320 Logic Elements. Its 144
+pins are divided into three sections below by function, and the communication protocol with the iPhone is
+discussed.
+2.5.1 Power
+Four different DC voltage levels power the FPGA: 1.2V, 1.8V, 2.5V, and 3.3V. All supplies have 0.1uF capacitors
+connected to ground to filter out any AC noise. Internal logic voltages (VCCINT) and PLL digital power (VCCD_PLL)
+are all set to 1.2V. PLL analog power (VCCA) and I/O Bank 2 (VCCIO2) are set to 2.5V. I/O Bank 2 handles
+communications with the AFE over Low-voltage Differential Signaling (LVDS), a high-speed communication
+protocol requiring 2.5V supply. I/O Bank 3 (VCCIO3) is set to 1.8V, the logic level used for serial communication
+with the AFE. All other I/O bank supplies are set to 3.3V. VREF pins are not used and tied to ground. The power pin
+assignment schematic is provided as Figure 11 in Appendix A.5.
+2.5.2 I/O
+The FPGA features eight I/O banks, five of which are utilized for our circuit. I/O Bank 1 is used solely for sending a
+control signal (ASDI) to the serial programming device to read out configuration data. I/O Bank 2 accepts LVDS
+waveform data from the AFE. A 100Ω resistor is connected between the positive and negative leads of the
+differential signal as recommended by Altera for signal stability. 25Ω pull-up and pull-down resistors are connected
+to RUP and RDN to enable on-chip termination, which improves signal clarity. I/O Bank 3 handles serial
+programming of the AFE using one input (AFE SDATA) and three outputs (AFE SELECT, AFE RESET, and AFE SOUT).
+I/O Bank 4 has two outputs: the 10MHz pulsing signal (Pulser CTRL) and an LED to indicate if a scan is in progress.
+I/O Bank 5 is unused. I/O Bank 6 is unused except for a required connection to 3.3V across a 10k resistor. I/O Bank
+7 transmits and receives data from the iPhone. I/O Bank 8 is unused. The I/O pin assignment schematic is provided
+as Figure 12 in Appendix A.5.
+2.5.3 Programming and Clocks
+An ASV-30.000MHZ-EJ-T oscillator is used as a 30MHz clock for the FPGA and AFE ADC. This is the primary clock for
+the FPGA and I/O Bank 1. I/O Bank 2 receives two clock signals from the AFE to synchronize LVDS communication:
+a frame clock and bit clock. An Altera EPCS16 chip serves as the interface for Active Serial (AS) non-volatile
+programming of the FPGA. The chip can be programmed using Quartus II software and a Serial-USB Blaster cable,
+which connects to a 10-pin male connector on the board. Per Altera recommendations, 10k resistors are
+connected serially with voltage sources and a 25Ω resistor is connected serially on the DATA line. See [7] for the
+connection guide between the FPGA and EPCS16. The programming and clock pin assignment schematic is
+provided as Figure 13 in Appendix A.5. Four changes made since the Design Review are included in Figure 13:
+rearranging of the SerialUSB Port’s pin locations, connecting nStatus only to 3.3V through a 10k resistor,
+connecting Vcc to the EPCS16 and ASV30Mhz ahead of their respective 10k resistors, and connecting Conf_Done
+separately to 3.3V through a 10k resistor and to AS pin 2.
+2.5.4 FPGA Software
+VHDL code loaded onto the FPGA enables the desired functionality of: accepting iPhone scan commands and
+changing the scan state accordingly, sending out 3.3V logic level 50ns pulses to the HV pulser, accepting and
+6
+buffering LVDS scan data to memory, and reading the buffered memory out to the iPhone. The system clock is fed
+into a fractional clock divider that generates a clock signal at 16 times the chosen iPhone communication baud
+rate. This clock, along with the input from the iPhone, is fed into the Manchester decoder block where the data is
+deserialized. The received data then goes into the message decoder block where each received byte is interpreted
+to be a start or stop command. On the data sending side, scan data is read from a scan memory block sequentially
+every time a pulse command is generated. The data at each address and a ready bit is sent to the Manchester
+encoder block where the data is serialized for output to the iPhone [8].
+2.5.5 iPhone Communication
+Data is sent to and from the iPhone over the headphone audio jack using a Manchester encoded signal.
+Manchester encoding allows for digital encoding with a sinusoidal analog signal. A positive voltage represents
+digital “1”, and negative voltage represents digital “0”. Since a long string of 1s or 0s would saturate the audio
+channel, each bit is encoded using a complete AC cycle as either “01” for 0 or “10” for 1. Data is transmitted
+according to the UART protocol in 10 bit packets, including 1 data byte, 1 start bit, and 1 stop bit. A test signal was
+generated from the iPhone and probed with an oscilloscope as shown below. This shows transmission of x02 with
+a start bit 1 and stop bit 0. When no data is being sent, the UART line is high and represented by a long string of
+01s. The start bit creates a double baud length 1 pulse, resynchronizing the receiver with the incoming data byte.
+iPhone code libraries to produce and receive Manchester encoded audio are provided by University of Michigan’s
+Project HiJack [9]. This communication protocol was chosen for its simplicity over Bluetooth and Wi-Fi, and due to
+the inaccessibility of the iPhone’s USB data protocol.
+Figure 14. Sample Manchester Encoded x02 from iPhone Left Audio
+Data Rate
+The limiting factor for data transmission rate is the iPhone’s audio sampling rate of 44.1 kHz, corresponding to
+22.05 kbaud in Manchester encoding. The calculation below shows what this corresponds to in kB/sec.
+( )( )
+(2)
+The faster data is transmitted the higher the likelihood of dropped bits, so a safer data rate of 4900 baud (0.49
+kB/sec) is chosen. This data rate corresponds to the ability to send nearly 1 ultrasound image per second to the
+iPhone. Calculations for the size of one ultrasound image are below.
+(3)
+-0.01
+-0.005
+0
+0.005
+0.01
+-0.006 -0.004 -0.002 0 0.002 0.004 0.006
+Volts
+Seconds
+7
+( ) ( ) (4)
+Sending Data from the iPhone
+Figure 15. iPhone Receiver Circuitry
+The Manchester encoded AC data signal is generated on the iPhone’s left audio channel at a maximum Vpp of
+2.76V. This signal must be converted to a digital signal with 3.3V logic before entering the FPGA. To accomplish
+this, an LM311 comparator is used with a Vref = 0V to convert positive voltages to 3.3V and negative voltages to 0V.
+A simple voltage divider at the output regulates the 5V chip supply to 3.3V. This chip replaces the LMV331
+specified in the design review as the LMV331’s output voltage was too low to be used as logic input. Simulation of
+this circuit operating is shown below with the analog input sinusoid in green and digital output signal in red.
+Figure 16. iPhone Receiver Circuitry PSpice Simulation
+Sending Data from the FPGA
+Figure 17. iPhone Transmission Circuitry
+0
+R14
+20k
+iPhone Lef t Audio OUT
+5VCC
+FPGA iPhone IN
+U9
+LM311
+OUT
+7
++
+2
+-
+3
+G
+1
+V+
+8
+V-
+4
+B/S
+6
+B
+5
+-5VCC
+R18
+40k
+C4
+10u
+R15
+1k
+R4
+220k
+0
+iPhone Mic IN
+FPGA iPhone OUT
+C13
+47n
+0
+8
+Manchester encoded data from the FPGA is a digital signal at 3.3V logic and must be converted to an AC signal. The
+signal will be received by the iPhone’s microphone input, which expects AC signals with no DC offset and Vpp of less
+than 20mV. The 10uF capacitor in series AC couples the DC signal, and the two resistors attenuate the incoming
+signal using the voltage divider rule. The 1k resistor in parallel is necessary for the circuit to be recognized as a
+microphone input by the iPhone.
+( )( ) ( )( )
+(5)
+Simulation of this circuit is shown below with a 3.3V logic signal input in green and attenuated, AC coupled signal
+output in red.
+Figure 18. iPhone Transmission Circuitry PSpice Simulation
+2.6 iPhone Software
+The device’s corresponding iPhone application is written in Objective-C using the iPhone 5.1 SDK. Since the circuit
+communication protocol is over the audio jack, this application can operate on any iOS device. While an Android or
+Windows phone application could foreseeably be written for our project, iOS was chosen for this project since no
+ultrasound application existed on the platform at the time. The application serves a variety of purposes, including:
+cataloguing patient identification and scan data, initiating new scans, viewing scans and calculating eye
+measurements, exporting scan data, and performing IOL calculations. A navigation style XCode storyboard is
+utilized to lay out the application’s views, provided as Figure 19 in Appendix A.6. Each view requires its own view
+controller class, to be instantiated when its view is displayed. The initial view is a list of patients, from which the
+user can select a patient, search for a patient, or add a patient. Selecting or adding a patient will bring up a details
+view. This allows the user to edit the patient’s name, date of birth, and eye type. Here the user can also start a new
+scan or access saved scans for the left or right eye. Starting a new scan displays a view containing a graph of the
+current data, live measurements from the scan, a stop button, and a save button. The user can repeatedly press
+the save button to capture the current scan data or press the stop button and return to the details view. At the
+saved scans view, the user can scroll through saved scans, email the currently displayed scan, open the currently
+displayed scan image in another program, or delete scans. Most importantly, pressing the IOL Calculator button
+pulls up a view where the user can calculate required lens power from the currently displayed scan. Many different
+IOL formulas exist, including the Holladay, Haigis, SRK/T, and HofferQ. This application uses the SRK II formula [10],
+both for its simplicity and general-purpose use. Given in Equation 6, the formula takes into account axial length L,
+corneal refractive power K, and lens constant A. K is found using a keratometer instrument, A is selected in the
+application from a list of implantable lenses, and L is automatically entered for the scan selected. In the SRK II
+formula, A changes not only based on the lens but by the axial length as well.
+(6)
+9
+Several other classes handle data and background tasks. The HiJack class encodes and decodes Manchester audio
+signals for use within the application. The Sparkline class [11] handles drawing the scan graphs as they are updated
+by incoming data. The AppDelegate class generally acts as the central class for the application, passing data
+between view controllers and dealing with system notifications.
+2.7 Power Electronics
+A single 9-volt battery, the Energizer LA522 in particular, provides power to our device’s front-end circuitry. Due to
+the relative complexity of this circuitry, nine different voltage levels require regulation: +30V, +10V, -10V, +5V, -5V,
++3.3V, +2.5V, +1.8V, and +1.2V. The hierarchy below describes how these levels will be achieved.
+Figure 20. Power Electronics Hierarchy
+The above approach was taken for several reasons:
+ Boost converters, buck converters, and inverting regulators require more area and components than linear
+regulators, but they provide better power conversion efficiency
+ The analog front end’s high-speed ADC (+1.8V) pulls a significant amount of current compared to the other
+components, so we wanted to achieve high conversion efficiency for that voltage level, in particular
+ We couldn’t find a suitable LDO to regulate +1.2V from a +1.8V supply, so we chose one that regulated from a
++5V supply, instead
+In order to maximize battery life while maintaining a relatively small form factor, we chose to implement a scheme
+that would provide a fair tradeoff between area and energy efficiency. Furthermore, to estimate the power drawn
+from our front-end circuitry, we examined each component’s data sheet and made conservative approximations of
+current draw. These estimates are summarized in the table below.
+Table 2. Current Draw from Device Components
++30V +10V -10V +5V -5V +3.3V +2.5V +1.8V +1.2V
+FPGA [8] - - - - - 10mA 17mA - 41mA
+Analog Front End [9] - - - - - 9mA - 220mA -
+T/R Switch [10] - - - 7mA 7mA 0.05mA - - -
+Transmit Pulser [6] 6mA 30mA 0.2mA - - 0.1mA - - -
+Total 6mA 30mA 0.2mA 7mA 7mA 19.15mA 17mA 220mA 41mA
+10
+Using this information, the following calculations were made:
+Approximate power drawn by major components:
+∑ | | (7)
+Approximate power dissipated in LDOs:
+∑(| | | |) (8)
+Approximate power dissipated in other converters (assume 70% efficiency):
+∑( ) | | (9)
+Approximate total power drawn from 9V battery source:
+(10)
+When drawing 500mA, the capacity of an Energizer LA522 is about 750mAh and operates at 7V [12]. Given this
+information, the ultrasound device can last
+(11)
+Two hours of battery life seems reasonable, considering that it’s a portable ultrasound device which would
+typically require a larger, rechargeable battery. In addition, it’s worth emphasizing that these calculations were
+fairly conservative.
+As indicated in the voltage regulation tree above, the power electronics module consists of nine voltage converters
+and regulators. At the time of our design review, we had selected converters and regulators to be ordered online.
+Soon after the review, however, we found different ones that were much more appropriate for our project.
+Specifically, the ECE Parts Shop carries a configurable DC/DC converter that can serve as a boost, buck, or inverting
+converter, depending on how the external components are wired. Additionally, this IC comes in a DIP package,
+making it very easy for bread board prototyping. We also found much simpler voltage regulators that provide a
+fixed voltage output and merely require input and output decoupling capacitors.
+The following devices are an updated list of the power electronics ICs we employed in our design:
+ TL497ACN configurable boost, buck, inverting DC/DC converter [13]
+ KA78L10AZTA +10V fixed positive voltage regulator [14]
+ MC79L05ACPG -5V fixed negative voltage regulator [15]
+ MCP1700-3302E/TO +3.3V fixed positive voltage regulator [16]
+ MCP1702-1202E/TO +2.5V fixed positive voltage regulator [16]
+ MCP1700-2502E/TO +1.2V fixed positive voltage regulator [16]
+Appendix A.7 provides detailed design procedures related to the power electronics circuit.
+11
+3 Design Verification
+3.1 DGH Ultrasound Probe
+In order to verify the proper operation of our T/R switch, we tested the TX810 under the conditions prescribed by
+the power electronics requirements and verifications. First, we must ensure that the fixation LED lights up,
+provided that it receives 3.3V with a series 100 Ohm resistor to limit the LED bias current. We observed that the
+LED correctly lit up in this configuration.
+Next, we measured the input impedance of the transducer probe. The datasheet of the transducer probe, given to
+us by DGH, did not provide information regarding the input impedance of the probe at 10MHz. This information is
+important because it determines the maximum current that the probe will draw during a nominal 30V, 10MHz
+pulse. In order to find this, we set up a test bench in which a pulse generator sends 50ns-wide pulses to the
+transducer probe with a period of 5ms. We placed a 50.15Ω resistor in series for current measurement, and
+employed an oscilloscope to measure voltage drops across the resistor and transducer probe. The test setup is
+illustrated in Figure 25 below.
+Figure 25. Probe Input Impedance Test Setup
+Upon generating a 50ns-wide pulse, the voltage across the resistor measured 3.625V and the voltage across the
+probe measured 4.000V. According to Ohm’s Law, the current through this system calculates out as:
+(36)
+and the impedance of the transducer probe at its nominal operating frequency calculates as:
+(37)
+Moving forward, we verified the focus and frequency of operation for the DGH transducer probe with the help of
+Prof. William O’Brien’s group at the University of Illinois Bioacoustics Research Laboratory. The equipment we used
+there included an Olympus Panametrics 5900 Pulser/Receiver, Labview DAQ system, an ultrasound tank, and a
+probe clamp on an actuating stepper motor. The setup for our testing is shown in the figure below, followed by
+test results.
+12
+Figure 26. Probe Nominal Frequency and Focus Test Setup
+With research assistant Michael Kurowski’s help, we determined that the nominal operating frequency occurred at
+10MHz as expected.
+Figure 27. Transducer Probe Bode Plot
+We also tested the depth of focus of the probe and found that the optimum focus occurred at 23mm.
+Figure 28. Transducer Probe Focus
+13
+3.2 T/R Switch
+In order to verify the proper operation of our T/R switch, we tested the TX810 under the conditions prescribed by
+the power electronics requirements and verifications. Specifically, upon receiving a high voltage input signal at the
+channel 0 input pin, the channel 0 output pin must yield an analogous signal, scaled down to within 2 Vpp. We
+achieved the required input by configuring the Maxim Pulser to generate 50ns-wide, 23V pulses every 1 ms. The
+high-voltage output pin of the pulser and input of T/R switch shared a transmission line connection with the input
+of the transducer probe. Both the input and output of the T/R switch were captured using an oscilloscope. The
+test setup described is illustrated below in Figure 29, followed by test results.
+Figure 29. TX810 Test Setup
+Figure 30. High Voltage Input Pulse to TX810
+Figure 31. <2Vpp Output Pulse from TX810
+3.3 Transmit Pulser
+In order to verify the proper operation of our transmit pulser, we tested the MAX4940 under the conditions
+prescribed by the power electronics requirements and verifications. Specifically, upon its digital input pulse pin
+receiving a 50ns-wide, positive pulse at logic-level voltage, its high-voltage output pin must generate a 50ns-wide,
+positive pulse at +30V. This required input was achieved by configuring the FPGA to generate 50ns-wide digital
+pulses every 5ms. The high-voltage output pin of the pulser was connected to the input of the transducer probe.
+Both the input and output of the pulser were captured using an oscilloscope. The test setup described is
+illustrated below in Figure 32, followed by test results.
+14
+Figure 32. Transmit Pulser Test Setup
+Figure 33. Digital Input Pulse to MAX4940
+Figure 34. High-voltage Output Pulse from MAX4940
+As evident in Figure 33, the FPGA correctly sends a 50ns-wide pulse at logic-level voltage to the transmit pulser
+about every 5ms. At the output, Figure 34 shows that the MAX4940 correctly generates +30V, 50ns-wide pulses
+with the same periodicity. These results verify that the transmit pulser operates correctly.
+3.4 Analog Front End
+In order to verify the proper operation of our AFE chip, we tested the AFE5801 under the conditions prescribed by
+the power electronics requirements and verifications. Specifically, the SPI communications bus must have a logic
+level high between 1.4-3.6V and logic level low less than 0.8V. In addition, data sent over the SDATA line must
+correctly latch on the rising edge of SCLK and be correctly framed within the SEN signal.
+The test setup described is illustrated below in Figure 35, followed by test results.
+15
+Figure 35. AFE SPI Verification Setup
+As shown in the Figure 36 below, we were able to verify that SPI data lines were sending correct programming
+sequences at a 3.3V logic level and were being correctly latched and framed.
+Figure 36. AFE SPI Programming Verification. SCLK (top left); SRESET(top right);
+SDATA (bottom left); SEN (bottom right)
+We were also able to verify that the AFE’s internal memory TGC registers were getting programmed by sending the
+appropriate commands to read the register contents for any chosen address. We observed this data on the SDOUT
+line and displayed in hexadecimal format onto the Altera DE2 FPGA Development Board’s 7-segment display.
+As for the digitized output signal from the AFE’s analog to digital converter, we tasked ourselves with verifying that
+the LVDS output had a common mode output voltage of 0.9-1.5V and transmitted data at 25MSPS. We applied
+2Vpp pulses at the input pin of channel 1 of the AFE, applied no particular gain on the AFE’s Variable Gain
+16
+Amplifiers, and observed a differential, digitized signal at the output pin of channel 1 on the AFE. The test setup is
+shown below, followed by the test results:
+Figure 37. AFE LVDS Output Verification Setup
+Observing the output data on an oscilloscope, we verified that the output data transmitted differentially at a low
+voltage of 1.12V. We placed each differential output pin on a separate oscilloscope channel, and used the
+oscilloscope’s math functionality to observe the overall differential output signal. To verify bit rate, we used
+cursors to count the number of low bits and high bits within a 50nS window.
+Figure 38. AFE LVDS Output Verification
+We counted 15 bits in such a window. Given that each sample is comprised of 12 bits for our AFE chip, we verified
+that we were correctly achieving a data rate at about 25MSPS, according to our calculations:
+(38)
+3.5 FPGA
+Our FPGA PCB was fabricated by the ECE parts shop and tested. The board’s pin assignment schematic and
+construction are provided as Figures 39 and 40 in Appendix A.5. Despite many small modifications in numerous
+attempts to make the board operational, complete functionality of the board was not obtained. Requirement 1
+was verified by connecting an oscilloscope at the output of the 30MHz oscillator and observing its frequency and
+amplitude. Though the signal was quite noisy and included 60Hz components from the wall power, 30MHz
+components were detected. Requirement 2 was verified by attempting to load the EPCS16 memory with a test
+program and having Quartus II verify that the program contents were correctly written. Unfortunately, the Cyclone
+III was unable to program itself from the EPCS16 upon startup. The nCSO bit on the FPGA should have been pulled
+low to initialize configuration, but this never occurred. The possible reasons for this issue are plentiful, and it was
+decided that an Altera DE2 board would be used instead to verify remaining requirements. Without the Cyclone III
+and its LVDS inputs, Requirement 3 could not be verified. For requirement 6, an oscilloscope was connected to the
+PULSE control signal output and verified to be 50ns wide and 3.3Vpp. Requirements 4 and 5 were verified in
+conjunction with iPhone requirements 2 and 3. The DE2 was connected to the iPhone via audio cable, and a scan
+17
+was initiated by the iPhone. This triggered the FPGA to repeatedly read and send data from a memory buffer of
+manually entered scan data to the iPhone. An LED verified the correct scan state on the DE2, and the Xcode
+console correctly read the data received from the FPGA.
+3.6 iPhone Software
+All requirements for the iPhone software were verified. At the time of demo, the device was fully charged to fulfill
+requirement 1. As described in Section 3.5, Requirements 2 and 3 were verified in conjunction with the FPGA.
+Requirement 4 covers smaller features of the user interface, which were all manually verified on the device. For
+requirement 4e, MMS of a scan image must be done after the scan image is saved to the user’s camera roll on the
+iPhone. It is an iPhone SDK limitation that an MMS cannot be sent directly from a 3
+rd
+party application. For
+requirement 4f, the ability to select “phakic” or “aphakic” for eye type eliminates the need for a separate “change
+sound velocity” button, as selecting eye type is preferred to entering a sound velocity manually.
+3.7 Power Electronics
+In order to verify the proper operation of our power electronics module, we tested each component under the
+conditions prescribed by the power electronics requirements and verifications. Specifically, the output voltage of
+each converter and regulator must remain within 5% of its nominal value throughout a DC input voltage sweep
+from 6.5V to 9.5V. This specific range of input voltages was chosen because a 9V battery can provide anywhere
+between 6.5V and 9.5V, depending on its charge [12]. The test setup is illustrated below in Figure 41.
+Figure 41. Power Electronics Test Setup
+Essentially, we connected a tunable DC power supply to the input of the power electronics module and probed the
+output of each converter and regulator with a digital multimeter. The output values were recorded and verified
+for tolerance satisfaction. The test results are provided in Table 3 below, and they verify that each component of
+the power electronics module correctly regulates its nominal voltage level.
+Table 3. Power Electronics Test Results
+Component Nominal Voltage (V) Min. Voltage (V) Max. Voltage (V) Max. Error
+Boost converter +30.00 +31.40 +31.40 4.7%
+Buck converter +5.00 +5.17 +5.17 3.4%
+Buck converter +1.80 +1.80 +1.80 0.0%
+Inverting converter -10.00 -10.11 -10.10 1.1%
+Positive regulator +10.00 +10.09 +10.09 0.9%
+Positive regulator +3.30 +3.32 +3.32 0.6%
+Positive regulator +2.50 +2.53 +2.53 1.2%
+Positive regulator +1.20 +1.22 +1.22 1.7%
+Negative regulator -5.00 -4.98 -4.98 0.4%
+18
+4 Costs
+4.1 Parts
+Table 4. Cost of Parts
+Part Manufacturer Qty. Retail Cost
+($)
+Bulk Purchase
+Cost ($)
+Actual Cost ($)
+iPhone 4S
+(without contract)
+Apple 1 699.00 699.00 0.00
+iOS Developer
+License (1-year)
+Apple 1 99.00 99.00 99.00
+LM311 National
+Semiconductor
+1 0.26 0.12 0.00
+EP3C10E144 Altera 1 19.20 19.20 19.20
+EPCS16 Altera 1 14.75 14.75 14.75
+JTAG Cable Altera 1 12.99 12.99 12.99
+ASV-30.000MHZ-
+EJ-T
+Abricon 1 2.89 0.84 2.89
+SJ-43514-SMT 4-
+pole female jack
+CUI 1 1.47 0.43 1.47
+CP-35401SP-ND
+3.5mm plug
+Conn 2 2.80 1.12 2.80
+TL497ACN Texas Instruments 4 2.02 0.81 0.00
+KA78L10AZTA Fairchild
+Semiconductor
+1 0.10 0.10 0.10
+MC79L05ACPG ON
+Semiconductor
+1 0.58 0.14 0.58
+MCP1700-
+3302E/TO
+Microchip
+Technologies
+1 0.44 0.28 0.44
+MCP1702-
+1202E/TO
+Microchip
+Technologies
+1 0.52 0.36 0.52
+MCP1700-
+2502E/TO
+Microchip
+Technologies
+1 0.44 0.28 0.44
+MAX4940CTN+ Maxim Integrated
+Products
+1 15.19 15.19 0.00
+LA522 Energizer 1 10.00 5.00 9.81
+AFE5801 Texas Instruments 1 48.40 48.00 0.00
+TX810 Texas Instruments 1 7.68 7.68 0.00
+Probe 6000 DGH Technologies 1 699.99 699.99 0.00
+Total 1646.58 1628.83 168.38
+4.2 Labor
+Table 5. Cost of Labor
+Person Ideal Salary/Hour ($) Actual Hours Spent Labor (x2.5) ($)
+Jonathan Adam 40 240 24,000
+Adam Keen 40 240 24,000
+Dean Santarinala 40 240 24,000
+Total 120 720 72,000
+19
+5 Conclusion
+5.1 Accomplishments
+Despite our project not attaining full functionality, we are quite pleased with the progress made towards a
+marketable iPhone Ultrasound system. Overall, we saw that it is feasible to use a 9V battery to power the entire
+system and expect reasonable battery life of over two hours. We proved that an iPhone could control circuitry to
+provide pulses to an ultrasonic transducer, and received high-speed digital data from its echo pulses. While unable
+to check the validity of this data, we modeled an FPGA buffering this data by manually creating a memory bank of
+scan data. On each pulse command, we could read this data onto the iPhone and display it to the screen. We are
+also extremely pleased with the full functionality of our iPhone application. The project as a whole demonstrates
+the feasibility of an iPhone controlled and monitored ultrasound device that could be compacted into a handheld
+form factor.
+5.2 Uncertainties
+Upon completion of the spring 2012 semester, we look back at our ambitious ultrasound product and find a few
+incomplete deliverables. Because of the modular nature of our design and testing, we had a relatively simple time
+rooting out any unresolved issues with our circuitry. Our overall signal data-path remains incomplete with our
+failure to deliver a programmable and working Altera Cyclone III FPGA board. The inoperable nature of our Cyclone
+III FPGA remains unknown but a few possible sources of error exist in incorrect board capacitances, suboptimal
+board layout, or a variety of other problems. Because of this, and the lack of time to implement a backup digital to
+analog converter (DAC), we were left unable to verify the LVDS output of our AFE chip. Time permitting, we would
+use a DAC to verify that the input signal of the AFE was being amplified according to the TGC curve and digitized
+without any bit errors.
+With this important data link left incomplete, the overall operation of our ultrasound project is still only
+theoretically possible given that all the other modular blocks work correctly. After fixing this disconnect in our
+circuit, more testing and design work would be required to optimize the time gain compensation curve to sync
+with the returned echo pulses from our transducer. Also, the timing required to send control pulses from the FPGA
+to individual chips would also require some fine-tuning.
+5.3 Ethical considerations
+Because the end-goal of this device is for medical uses, there are many ethical points we must consider in its
+design. The following portions of the IEEE Code of Ethics are especially pertinent to our project:
+1. “to accept responsibility in making decisions consistent with the safety, health and welfare of the public, and to
+disclose promptly factors that might endanger the public or the environment;”
+Though a-scan ultrasound probes are non-invasive when used properly, incorrect operation or a faulty probe could
+potentially cause damage to the eye. Special care must be taken to ensure our device is not used on humans until
+approved by the FDA, and only operated by trained physicians after FDA approval. The probe circuitry must also be
+designed to emit sound waves within amplitude and frequency limits.
+2. “to avoid real or perceived conflicts of interest whenever possible, and to disclose them to affected parties
+when they do exist;”
+Since we are using a donated probe from DGH Technologies, it is important we avoid discussing our project with
+other medical companies to avoid conflicts of interest.
+20
+3. “to be honest and realistic in stating claims or estimates based on available data;”
+Our device’s tested performance metrics must be stated clearly and not exaggerated to ensure physicians know
+what to expect from our device.
+9. “to avoid injuring others, their property, reputation, or employment by false or malicious action;”
+Our device’s intent is not malicious, but rather potentially beneficial for several groups. We will not falsify any
+information regarding the device that may lead to personal injury.
+5.4 Future work
+In retrospect, there are many things we would've done differently this semester. To start, we should have taken a
+bit more time at the beginning to fully understand our system design. This would have been particularly helpful in
+providing us an earlier realization of the need for an FPGA (or other high-speed controller) on our front-end circuit.
+Instead, this conclusion wasn't reached until almost a month into the semester, when Mustafa suggested we
+consider the feasibility of achieving our expected data rates. Designing and fabricating our own breakout boards
+from the beginning is another major thing we would have done differently. Due to the QFN packing of our front-
+end ICs, we required breakout boards for modular testing of each component. The universal QFN breakout boards
+we ordered online were horrendous, and we invested a great deal of effort to make them work. After a long
+struggle, we decided to simply design our own, and they worked out wonderfully. One last thing we would have
+done differently would be to order backup components at the same time as our first options. For the transmit
+pulser, in particular, we had to wait a few days for the MAX4940 to arrive in the mail, after finally giving up on the
+LM96550.
+If we had more time to continue working on this project, we would first debug and test the component of the
+project that did not reach completion: the LVDS data link between the AFE and FPGA. After that, we would move
+forward to transform our working prototype into a polished product. In order to enable the LVDS data link, we
+would need to finish debugging our FPGA board's inability to correctly flash the FPGA from the serial programmer.
+With an operational FPGA board, we would be able to collect and decode the LVDS data from the AFE. After
+verifying correct output from the AFE, we would design a single PCB for the entire front-end circuitry to achieve a
+smaller form factor. Finally, we would optimize the time-gain control amplification of the AFE and synchronize the
+sample buffer timing of the FPGA.
+21
+References
+[1] S. Byrne, R.Green, "Axial Eye Length Measurements," Ultrasound of the Eye and Orbit, 2nd ed., Ed
+Philadelphia: Mosby, p. 250, 2002.
+[2] DGH6000 Scanmate A Transducer Data Sheet. DGH Technology Inc., Pennsylvania.
+[3] TX810 Data Sheet. Texas Instruments Inc., Texas. [Online] Available:
+http://www.ti.com/lit/ds/symlink/tx810.pdf
+[4] MAX4940 Data Sheet. Maxim Integrated Products, California. [Online] Available:
+http://datasheets.maxim-ic.com/en/ds/MAX4940-MAX4940A.pdf
+[5] AFE5801 and AFE5851 TGC Calculator. Texas Instruments Inc., Texas. Program documentation. Vers. 1.0.
+[Online] Available: http://www.ti.com/litv/zip/sloc145
+[6] AFE5801 Data Sheet. Texas Instruments Inc., Texas. [Online] Available:
+http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=afe5801&fileType=pdf
+[7] Serial Configuration (EPCS) Devices Datasheet. Altera Inc., California. [Online]Available:
+http://www.altera.com/literature/hb/cfg/cyc_c51014.pdf
+[8] Manchester Encoder-Decoder for Xilinx CPLDs. Xilinx Inc., California. [Online] Available:
+http://www.xilinx.com/support/documentation/application_notes/xapp339.pdf
+[9] Hijacking Power and Bandwidth from the Mobile Phone’s Audio Jack. Kuo, Verma, et. al. [Online] Available:
+http://www.eecs.umich.edu/~prabal/pubs/papers/kuo10hijack.pdf
+[10] W. Haigis. “IOL Calculation Using the SRK II Formula.” [Online] Available: http://www.augenklinik.uni-
+wuerzburg.de/uslab/ioltxt/srk2e.htm
+[11] CKSparkline iOSLibrary. Connex Key Solutions. [Online] Available:
+http://key-solutions.ca/cksparkline.html
+[12] Energizer LA522 Data Sheet. Energizer, Missouri. [Online] Available:
+http://data.energizer.com/PDFs/la522.pdf
+[13] TL497ACN Data Sheet. Texas Instruments Inc., Texas. [Online] Available:
+http://www.ti.com/lit/ds/symlink/tl497a.pdf
+[14] KA78L10AZTA Data Sheet. Fairchild Semiconductor, California. [Online] Available:
+http://www.fairchildsemi.com/ds/KA/KA78L05A.pdf
+[15] MC79L05ACPG Data Sheet. ON Semiconductor, Arizona. [Online] Available:
+http://www.onsemi.com/pub_link/Collateral/MC79L00-D.PDF
+[16] MCP1700-3302E/TO, MCP17021202E/TO,MCP1700-2502E/TO Data Sheet. Microchip Technology, Arizona.
+[Online] Available:http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
+[17] EP3C10E144 Data Sheet. Altera Inc., California. [Online] Available:
+http://www.altera.com/literature/hb/cyc3/cyc3_ciii52001.pdf
+22
+[18] LM96550 Data Sheet. Texas Instruments Inc., Texas. [Online] Available:
+http://www.ti.com/lit/ds/symlink/lm96550.pdf
+[19] EP3C10E144 Data Sheet. Altera Inc., California. [Online] Available:
+http://www.altera.com/literature/hb/cyc3/cyc3_ciii52001.pdf
+[20] LM311 Data Sheet. Texas Instruments Inc., Texas. [Online] Available:
+http://www.ti.com/lit/ds/symlink/lm311.pdf
+23
+Appendix A Design and Testing Supplements
+A.1 Transducer Probe
+Figure 3. DGH Probe Dimensions and Pin-outs [7]
+A.2 T/R Switch
+Figure 4. T/R Switch Pin Assignments
+Figure 5. TX810 Breakout Board
+Pin Outs:
+Pin 1: 3.3V LED power
+(connected to 100Ohm
+resistor in series to limit
+current)
+Pin 2: Rx Pulser Circuit
+Input
+24
+A.3 Transmit Pulser
+Figure 6. Transmit Pulser Pin Assignments
+Figure 7. MAX4940 Breakout Board
+25
+A.4 Analog Front End
+Figure 8. Analog Front End Pin Assignments
+Figure 9. AFE5801 Breakout Board
+Table 1. AFE Register Configuration
+Address Register Contents Purpose
+x01 23F8 1x Output Rate;
+External Reference;
+No Low Noise Suppression;
+Power Down Channels 1-7
+Enable Output
+x00 0004 Enable Write to TGC Registers
+x99 0020 Enable Soft Sync Mode
+x97 0000 Start Gain Level;
+Disable Interpolation
+x95 0000 Establish Start Index
+x96 001A Establish Stop Index
+x9B 001A Set Uniform Gain Slope
+x98 0059 Set Hold Gain Time
+26
+A.5 FPGA
+Figure 11. FPGA Power Pin Assignments
+Figure 12. FPGA I/O Pin Assignments
+U7A
+ALTERA EP3C10E144
+Version = 1.2
+GNDA 1
+36
+GNDA 2
+108
+VCCA1
+35
+VCCA2
+107
+VCCD_PLL1
+37
+VCCD_PLL2
+109
+VCCIO1
+17
+VCCIO2
+26
+VCCIO3
+40
+VCCIO3
+47
+VCCIO4
+62
+VCCIO4
+56
+VCCIO5
+81
+VCCIO6
+93
+VCCIO7
+117
+VCCIO7
+122
+VCCIO8
+130
+VCCIO8
+139
+VCCINT
+5
+VCCINT
+29
+VCCINT
+45
+VCCINT
+61
+VCCINT
+78
+VCCINT
+102
+VCCINT
+116
+VCCINT
+134
+GND
+19
+GND
+27
+GND
+41
+GND
+48
+GND
+57
+GND
+63
+GND
+82
+GND
+95
+GND
+118
+GND
+123
+GND
+131
+GND
+140
+VREFB8N0
+136
+VREFB7N0
+119
+VREFB6N0
+105
+VREFB5N0
+80
+VREFB4N0
+65 VREFB3N0
+46 VREFB1N0
+7 VREFB2N0
+31
+3.3VCC
+C7
+.1u
+2.5VCC 1.2VCC
+C8
+.1u
+C9
+.1u
+3.3VCC
+C10
+.1u
+1.8VCC
+C11
+.1u
+Pulser CTRL
+R7
+25
+R8
+25
+U1B
+ALTERA EP3C10E144
+Version = 1.2
+IO_VB1N0_1
+1
+IO_VB1N0_2
+2
+IO_VB1N0_3
+3
+IO_VB1N0_4/DQS2L/CQ3L
+4
+IO_VB1N0_6/ASDO/DATA1/DIFFIO_L1n
+6
+IO_VB1N0_10/DIFFIO_L4p
+10
+IO_VB1N0_11/DIFFIO_L4n
+11
+RUP1
+32
+RDN1
+33
+IO_VB2N0_28/DIFFIO_L6n
+28
+IO_VB2N0_34
+34 IO_VB2N0_30/DIFFIO_L8p
+30
+IO_VB3N0_38/DIFFIO_B1p
+38
+IO_VB3N0_39/DIFFIO_B1n
+39
+IO_VB3N0_42/DQS1B/CQ1B#,DPCLK2
+42
+IO_VB3N0_43/PLL1_CLKOUTp
+43
+IO_VB3N0_44/PLL1_CLKOUTn
+44
+IO_VB3N0_49/DIFFIO_B9p
+49
+IO_VB3N0_50/DIFFIO_B9n
+50
+IO_VB3N0_51/DIFFIO_B10p
+51
+IO_VB3N0_52/DIFFIO_B11p
+52
+IO_VB3N0_53/DIFFIO_B11n
+53
+RUP2
+66
+RDN2
+67
+IO_VB4N0_54/DIFFIO_B12p
+54
+IO_VB4N0_55/DIFFIO_B12n
+55
+IO_VB4N0_58/DIFFIO_B15p
+58
+IO_VB4N0_59/DIFFIO_B16p
+59
+IO_VB4N0_60/DIFFIO_B16n
+60
+IO_VB4N0_64/DQS2B/CQ3B
+64
+IO_VB4N0_68/DIFFIO_B20n
+68
+IO_VB4N0_69
+69
+IO_VB4N0_70/DIFFIO_B21p
+70
+IO_VB4N0_71/DIFFIO_B21n
+71
+IO_VB4N0_72/DIFFIO_B22p
+72
+RUP3
+76
+RDN3
+77
+IO_VB5N0_73
+73
+IO_VB5N0_74
+74
+IO_VB5N0_75
+75
+IO_VB5N0_79/DIFFIO_R10n
+79
+IO_VB5N0_83
+83
+IO_VB5N0_84/DIFFIO_R8n
+84
+IO_VB5No_85
+85
+IO_VB5NO_86/DIFFIO_R7n/DEV_OE
+86
+IO_VB5NO_87/DIFFIO_R7p/DEV_CLRn
+87
+IO_VB6NO_98/DIFFIO_R4n/INIT_DONE
+98
+IO_VB6NO_98/DIFFIO_R4p/CRC_ERROR
+99
+IO_VB6N0_100
+100
+IO_VB6N0_101/DIFFIO_R3n/nCEO
+101
+IO_VB6NO_103/DIFFIO_R3p/CLKUSR
+103
+IO_VB6N0_104/DQS0R/CQ1R,DPCLK5
+104
+IO_VB6N0_106/DIFFIO_R1n
+106
+RUP4
+114
+RDN4
+115
+IO_VB7N0_110/DIFFIO_T20p/DQS0T/CQ1T,DPCLK6
+110
+IO_VB7N0_111/DIFFIO_T19p
+111
+IO_VB7N0_112/PLL2_CLKOUTn
+112
+IO_VB7N0_113/PLL2_CLKOUTp
+113
+IO_VB7N0_120/DIFFIO_T16n
+120
+IO_VB7N0_121/DIFFIO_T16p
+121
+IO_VB7N0_124/DIFFIO_T13p
+124
+IO_VB7N0_125/DQS4T/CQ5T
+125
+IO_VB7N0_126/DIFFIO_T12n
+126
+IO_VB7N0_127/DIFFIO_T12p
+127
+IO_VB8N0_128/DIFFIO_T11n
+128
+IO_VB8N0_129/DIFFIO_T11p
+129
+IO_VB8N0_132/DIFFIO_T10n/DATA2/DQ1T
+132
+IO_VB8N0_133/DIFFIO_T10p/DATA3/DQ1T
+133
+IO_VB8N0_135/DIFFIO_T8n
+135
+IO_VB8N0_137/DATA5/DQ1T
+137
+IO_VB8N0_138/DATA6
+138
+IO_VB8N0_141/DIFFIO_T5p
+141
+IO_VB8N0_142/DIFFIO_T2p/DQS1T/CQ1T#,DPCLK7
+142
+IO_VB8N0_143/DIFFIO_T1n
+143
+IO_VB8N0_144/DIFFIO_T1p
+144
+3.3VCC
+R16
+300
+D1
+R9
+25
+R10
+25
+3.3VCC
+ASDI
+iPhone OUT
+iPhone IN
+R11
+25
+R12
+25
+3.3VCC
+AFE LVDS +
+AFE LVDS -
+R6
+100
+AFE SDATA
+AFE SELECT
+AFE RESET
+AFE SOUT
+R13
+10k
+27
+Figure 13. FPGA Programming and Clock Pin Assignments
+Figure 39. FPGA Pin Assignments
+U2C
+ALTERA EP3C10E144
+Version = 1.2
+DCLK
+12
+nSTATUS
+9
+TCK
+16 TDI
+15
+TDO
+20 TMS
+18
+CONF_DONE
+92
+CLK0/IO_VB1N0_22
+22
+CLK1/IO_VB1N0_23
+23
+DATA0
+13
+nCE
+21
+nCONFIG
+14
+MSEL0
+94
+MSEL1
+96
+MSEL2
+97
+CLK2/IO_VB2N0_24
+24
+CLK3/IO_VB2N0_25
+25
+CLK5/IO_VB6N0_90
+90
+CLK4/IO_VB6N0_91
+91
+CLK7/IO_VB5N0_88
+88
+CLK6/IO_VB5N0_89
+89
+FLASH_nCE, nCSO
+8
+3.3VCC
+2.5VCC
+SerialUSB Port
+1 2
+3 4
+5 6
+7 8
+9 10
+ADSO
+Altera EPCS16
+Vcc
+8 Vcc
+7 DCLK
+6
+ADSI
+5
+nCS
+1
+DATA
+2
+Vcc
+3
+GND
+4
+R1
+25
+R2
+10k
+2.5VCC
+3.3VCC
+R17
+10k
+R3
+10k
+3.3VCC
+3.3VCC
+R5
+10k
+ASV-30MHZ CLOCK
+1
+2 3
+4
+C1
+.01u
+AFE Bit Clock
+AFE Frame Clk
+28
+Figure 40. FPGA Printed Circuit Board
+A.6 iPhone
+Figure 19. iPhone Application Flow Diagram
+A.7 Power Electronics
+A.7.1 Boost Converter
+The regulation of +30V was achieved by configuring the TL497ACN as a boost converter. The schematic, provided
+by the IC’s datasheet, is shown in Figure 21 below.
+29
+Figure 21. Boost configuration of TL497ACN DC/DC converter [1]
+Calculations in determining appropriate values for the external components are provided below. Note that I(PK)
+must be less than 500mA [1], and we expect no more than 50mA to be drawn by components downstream of this
+converter.
+( ) ( ) (
+( )
+) ( ) (12)
+Since tON can be chosen between 25µs and 150µs, I choose tON = 25µs.
+( ) (13)
+Since the ECE Parts Shop does not carry inductors, I ordered a 390µH inductor with 10% tolerance and 0.74A
+rating (RLB9012-391KL).
+(14)
+( ) (15)
+( )
+(16)
+Choose a ripple voltage of 250mV.
+(
+( )
+( ) ( ))
+(17)
+A.7.2 Buck Converters
+The regulation of +5V and +1.8V were achieved by configuring the TL497ACN as a buck converter. The schematic,
+provided by the IC’s datasheet, is shown in Figure 22 below.
+30
+Figure 22. Buck configuration of TL497ACN DC/DC converter [1]
+Calculations in determining appropriate values for the external components of each converter are provided below.
+Note that I(PK) must be less than 500mA [1]. We expect no more than 50mA to be drawn by components
+downstream of the +5V converter and no more than 225mA to be drawn by components downstream of the +1.8V
+converter.
++5V buck converter:
+( ) ( ) (18)
+Since tON can be chosen between 10µs and 150µs, I choose tON = 20µs.
+( ) (19)
+Since the ECE Parts Shop does not carry inductors, we ordered a 390µH inductor with 10% tolerance and
+0.74A rating (RLB9012-391KL).
+(20)
+( ) (21)
+( )
+(22)
+Choose a ripple voltage of 50mV.
+( ( ) ( ))
+(23)
++1.8V buck converter:
+( ) ( ) (24)
+Since tON can be chosen between 10µs and 150µs, we choose tON = 25µs.
+31
+( ) (25)
+Since the ECE Parts Shop does not carry inductors, we ordered a 270µH inductor with 10% tolerance and
+0.94A rating (RLB9012-271KL).
+(26)
+( ) (27)
+( )
+(28)
+Choose a ripple voltage of 25mV.
+( ( ) ( ))
+(29)
+A.7.3 Inverting Converter
+The regulation of -10V was achieved by configuring the TL497ACN as an inverting converter. The schematic,
+provided by the IC’s datasheet, is shown in Figure 23 below.
+Figure 23. Inverting configuration of TL497ACN DC/DC converter [1]
+Calculations in determining appropriate values for the external components of the converter are provided below.
+Note that I(PK) must be less than 500mA [1]. We expect no more than 50mA to be drawn by components
+downstream of this converter.
+( ) ( ) (
+| |
+) ( ) (30)
+Since tON can be chosen between 25µs and 150µs, we choose tON = 50µs.
+( ) (31)
+Since the ECE Parts Shop does not carry inductors, we ordered a 150µH inductor with 10% tolerance and
+1.15A rating (RLB9012-151KL).
+32
+(32)
+( ) (33)
+( )
+(34)
+Choose a ripple voltage of 50mV.
+(
+| | ( ) ( ))
+(35)
+Choose rectifier to be a standard 1N4002 diode.
+A.7.4 Voltage Regulators
+The regulation of +10V, +3.3V, +2.5V, +1.2V, and -5V were achieved by employing fixed voltage regulators onto
+their respective source converter’s output. Figure 24 below shows the regulators connected to their respective
+DC/DC converters with appropriate input and output decoupling capacitors.
+Figure 24. Power Electronics Schematic including Voltage Regulators
+33
+Appendix B Table 6. Requirement and Verification Table
+Probe Requirements Verification Verified?
+1. Fixation LED must light up.
+a. LED must draw 16mA or
+less from 3.3V Power
+Electronics
+b. Probe must be attached to
+circuit ground
+1. Observe that the Fixation LED lights
+up
+a. A current draw of 16mA or less
+is measured across the 100Ohm
+series resistor.
+b. The probe nodes are correctly
+connected to 3.3V and ground
+YES
+2. Transducer must convert 30V
+pulse input into sound wave
+oscillating at 9.5-10.5 MHz
+2. Use pulse generator to drive
+transducer using a 30V, 10MHz input
+pulse. Observe return echo voltage
+signal on an oscilloscope, noting their
+peak amplitude values and a nominal
+frequency of 9.5-10.5 MHz.
+YES
+3. Transducer must convert return
+echo sound waves to voltage
+signal.
+3. Use pulse generator to drive
+transducer using a 30V, 10MHz input
+pulse. Observe return echo voltage
+signal on an oscilloscope, noting their
+peak amplitude values and the
+nominal frequency.
+YES
+Contingency Plan: Temporarily use Storz probe until DGH Technologies can be contacted for a replacement ultrasound probe.
+T/R Switch Requirements Verification Verified?
+1. Diode Bridge and Voltage
+Clamp must prevent high
+voltage input spikes (greater than
+2 Vpp) to leak to the output.
+1. Apply 30V pulse to the input end of
+Measure output voltage on DMM.
+Verify that the output signal does not
+exceed 2 Vpp.
+YES
+Contingency Plan: Replace malfunctioning TX810 chip with spare TX810 Chip
+AFE Requirements Verification Verified?
+1. Input SPI data on SDATA bus
+must have:
+a. a logic level high voltage
+between 1.4-3.6V
+b. a logic level low voltage of
+less than 0.8V
+1. Use a logic analyzer to observe data
+communications on the SPI bus. Verify
+logic levels are:
+a. between 1.4-3.6V for a high data
+bit
+b. less than 0.8V for a low data bit
+YES
+2. SDATA must correctly latch on
+the rising edge of SCLK.
+2. Use a logic analyzer to observe data
+communications on the SPI bus. Verify
+SDATA bits correctly latch on the
+rising edge of SCLK.
+YES
+3. Output LVDS signal should
+have a common mode output
+voltage of 0.9-1.5V
+3. Measure output voltage at nodes D1P
+and D1M on a DMM. Voltage output
+should read between 0.9-1.5V.
+YES
+4. Output LVDS signal should
+maintain a data rate of between
+25-35 MSPS .
+4. Use a digital waveform analyzer to
+observe data communications on the
+LVDS bus. Verify data rate of between
+25-35 MSPS.
+YES
+Contingency Plan: Replace malfunctioning AFE5801 chip with spare AFE5801 Chip.
+34
+FGPA Requirements Verification Verified?
+1. Clock must operate properly
+a. 30 MHz frequency ±1%
+b. 3.3Vpp ±5%
+1. Connect oscillator pins to Vcc and
+GND. Probe clock output with
+oscilloscope.
+a. A clock frequency of 30 MHz
+frequency ±1% is measured at
+the clock output
+b. Clock logic level of 3.3Vpp ±5%
+is measured at the clock output.
+YES
+2. Serial Programmer must program
+FPGA correctly with Active Serial
+(AS) programming.
+2. Connect USB Blaster cable to board
+using 10pin connector. Use Quartus II
+software to load a sample program
+onto FPGA using AS programming.
+Quartus II loads the program
+successfully with no errors.
+YES
+3. FPGA must receive and buffer
+incoming AFE data correctly.
+3. Implement test RAM array (8x12bit)
+on FPGA. Send eight 12bit frames of
+known test data over LVDS protocol
+at 360MSPS into RAM. Memory array
+is read out correctly in 1bit increments
+to the FPGA’s LED.
+NO
+4. FPGA must correctly interpret
+Manchester encoded command
+signals sent at 8820 baud rate or
+higher.
+c. FPGA LED is turned on
+when x01 is received.
+d. FPGA LED is turned off
+when x02 is received.
+4. Setup signal generator to make
+Manchester encoded bytes of x01 and
+x02 using an AC signal of 8820 baud
+and 2.76Vpp.
+a. LED turns on when x01 is sent
+from signal generator.
+b. LED turns off when x02 is sent
+from signal generator.
+YES
+5. FPGA must correctly send
+Manchester encoded data at 8820
+baud rate or higher.
+a. DC offset of sent signal is
+within ±0.5mV.
+b. Vpp of sent signal is between
+1mV and 2mV.
+c. Data is correctly encoded.
+5. Connect oscilloscope to FPGA signal
+output. Send a known Manchester
+encoded byte using a digital signal at
+8820 baud repeatedly once per second
+from the FPGA. Repeat this
+verification for several known bytes.
+a. DC offset of sent signal is
+measured on oscilloscope to be
+within ±0.5mV.
+b. Vpp of sent signal is measured on
+oscilloscope to be between 1mV
+and 2mV.
+c. Data byte waveform seen on
+oscilloscope is correct
+Manchester encoded byte.
+YES
+6. FPGA must correctly send digital
+pulses to the Pulser CTRL line.
+a. Vp of pulse is 3V ±5%.
+b. Pulse width is 50ns ±1%.
+6. Connect oscilloscope to Pulser CTRL
+signal output. Send pulse signal from
+FPGA repeatedly at a frequency of
+1Hz.
+a. Vp of pulse measured with
+oscilloscope is 3V ±5%.
+b. Pulse width measured with
+oscilloscope is 50ns ±1%.
+YES
+Contingency Plan: Use Altera DE2 Board instead of Cyclone III board.
+35
+Transmit Pulser Requirements Verification Verified?
+1. The Vout0 node transmits a
+nominal +30V, 50ns-wide pulse
+upon receiving a 50ns-wide
+digital pulse on its Pin0 node.
+1. Using a pulse generator, send a 50ns-
+wide pulse of +3.3V amplitude to
+Pin0. Verify that a +30V, 50ns-wide
+pulse is instantaneously transmitted
+from Vout0.
+YES
+Contingency Plan: Replace malfunctioning Transmit Pulser, or use a different Transmit Pulser (TX734).
+Power Electronics Requirements Verification Verified?
+1.
+a. 9V lithium battery must
+provide a voltage between
++6.5V and +9.5V
+b. Battery must be connected to
+the 30V boost converter
+c. Battery must be connected to
+the 5V buck converter
+d. Battery must be connected to
+the 1.8V buck converter
+e. Battery must be connected to
+the -10V inverting converter
+1.
+a. A voltage between +6.5V and
++9.5V is measured across the
+battery’s terminals.
+b. A voltage between +6.5V and
++9.5V is measured at the input
+node of the 30V boost
+converter.
+c. A voltage between +6.5V and
++9.5V is measured at the input
+node of the 5V buck converter.
+d. A voltage between +6.5V and
++9.5V is measured at the input
+node of the 1.8V buck
+converter.
+e. A voltage between +6.5V and
++9.5V is measured at the input
+node of the -10V inverting
+converter.
+YES
+2.
+a. The output node of the 30V
+boost converter must regulate
+a nominal voltage of +30V,
+within a tolerance of ±5%
+b. Boost converter must be
+connected to the Transmit
+Pulser
+c. Boost converter must be
+connected to the 10V LDO
+Regulator
+2.
+a. A voltage between +28.5V and
++31.5V is measured at the
+output node of the 30V boost
+converter.
+b. A voltage between +28.5V and
++31.5V is measured at the VPP
+nodes of the Transmit Pulser.
+c. A voltage between +28.5V and
++31.5V is measured at the input
+node of the 10V LDO
+Regulator.
+YES
+3.
+a. The output node of the 5V
+buck converter must regulate a
+nominal voltage of +5V,
+within a tolerance of ±5%
+b. Buck converter must be
+connected to the T/R Switch
+c. Buck converter must be
+connected to the 3.3V LDO
+Regulator
+d. Buck converter must be
+connected to the 2.5V LDO
+Regulator
+e. Buck converter must be
+connected to the 1.2V LDO
+Regulator
+3.
+a. A voltage between +4.75V and
++5.25V is measured at the
+output node of the 5V buck
+converter.
+b. A voltage between +4.75V and
++5.25V is measured at the VP
+node of the T/R Switch.
+c. A voltage between +4.75V and
++5.25V is measured at the input
+node of the 3.3V LDO
+Regulator.
+d. A voltage between +4.75V and
++5.25V is measured at the input
+node of the 2.5V LDO
+Regulator.
+YES
+36
+e. A voltage between +4.75V and
++5.25V is measured at the input
+node of the 1.2V LDO
+Regulator.
+4.
+a. The output node of the 1.8V
+buck converter must regulate a
+nominal voltage of +1.8V,
+within a tolerance of ±5%
+b. Buck converter must be
+connected to the AFE
+c. Buck converter must be
+connected to the FPGA
+4.
+a. A voltage between +1.71V and
++1.89V is measured at the
+output node of the 1.8V buck
+converter.
+b. A voltage between +1.71V and
++1.89V is measured at the
+AVDD18 and DVDD18 nodes
+of the AFE.
+c. A voltage between +1.71V and
++1.89V is measured at the
+VCCIO3 node of the FPGA.
+YES
+5.
+a. The output node of the -10V
+inverting converter must
+regulate a nominal voltage of -
+10V, within a tolerance of
+±5%
+b. Inverting converter is
+connected to the Transmit
+Pulser
+5.
+a. A voltage between -9.5V and -
+10.5V is measured at the output
+node of the -10V inverting
+converter.
+b. A voltage between -9.5V and -
+10.5V is measured at the VPF,
+VDN, and VSUB nodes of the
+Transmit Pulser.
+YES
+6.
+a. The output node of the 10V
+LDO Regulator must regulate
+a nominal voltage of +10V,
+within a tolerance of ±5%
+b. LDO Regulator is connected
+to the Transmit Pulser
+6.
+a. A voltage between +9.5V and
++10.5V is measured at the
+output node of the 10V LDO
+Regulator.
+b. A voltage between +9.5V and
++10.5V is measured at the VNF
+and VDD nodes of the Transmit
+Pulser.
+YES
+7.
+a. The output node of the 3.3V
+LDO Regulator must regulate
+a nominal voltage of +3.3V,
+within a tolerance of ±5%
+b. LDO Regulator must be
+connected to the FPGA
+c. LDO Regulator must be
+connected to the AFE
+d. LDO Regulator must be
+connected to the T/R Switch
+e. LDO Regulator must be
+connected to the Transmit
+Pulser
+7.
+a. A voltage between +3.135V and
++3.465V is measured at the
+output node of the 3.3V LDO
+Regulator.
+b. A voltage between +3.135V and
++3.465V is measured at the
+VCCIO1, VCCIO4, VCCIO5,
+VCCIO6, VCCIO7, VCCIO8,
+RUP1, RUP2, and RUP4 nodes
+of the FPGA.
+c. A voltage between +3.135V and
++3.465V is measured at the
+AVDD node of the AFE.
+d. A voltage between +3.135V and
++3.465V is measured at the VD
+node of the T/R Switch.
+e. A voltage between +3.135V and
++3.465V is measured at the
+VLL, EN, and MODE nodes of
+the Transmit Pulser.
+YES
+8.
+a. The output node of the 2.5V
+8.
+a. A voltage between +2.375V and
+YES
+37
+LDO Regulator must regulate
+a nominal voltage of +2.5V,
+within a tolerance of ±5%
+b. LDO Regulator must be
+connected to the FPGA
++2.625V is measured at the
+output node of the 2.5V LDO
+Regulator.
+b. A voltage between +2.375V and
++2.625V is measured at the
+VCCIO2, VCCA1, VCCA2
+nodes of the FPGA.
+9.
+a. The output node of the 1.2V
+LDO Regulator must regulate
+a nominal voltage of +1.2V,
+within a tolerance of ±5%
+b. LDO Regulator must be
+connected to the FPGA
+9.
+a. A voltage between +1.14V and
++1.26V is measured at the
+output node of the 2.5V LDO
+Regulator.
+b. A voltage between +1.14V and
++1.26V is measured at the
+VCCINT, VCC_PLL1, and
+VCC_PLL2 nodes of the FPGA.
+YES
+10.
+a. The output node of the -5V
+Negative Regulator must
+regulate a nominal voltage of -
+5V, within a tolerance of ±5%
+b. Negative Regulator must be
+connected to the T/R Switch
+c. Negative Regulator must be
+connected to the Transmit
+Pulser
+10.
+a. A voltage between -4.75V and -
+5.25V is measured at the output
+node of the -5V Negative
+Regulator.
+b. A voltage between -4.75V and -
+5.25V is measured at the VN
+node of the T/R Switch.
+c. A voltage between -4.75V and -
+5.25V is measured at the VNN
+node of the Transmit Pulser.
+YES
+Contingency Plan #1: Replace malfunctioning power electronics IC.
+Contingency Plan #2: Choose a different power electronics IC.
+Contingency Plan #3: If a DC/DC converter continues to fail, choose to use a regulator instead; if a regulator continues to fail, choose to use
+a DC/DC converter instead.
+iPhone 4S Requirements Verification Verified?
+1. Device must be charged above
+50%.
+1. Go to iPhone settings and turn on
+battery percentage under General-
+>Usage. Verify percentage is above
+50%. If not, charge device.
+YES
+2. iPhone must correctly interpret
+Manchester encoded data
+received at 8820 baud rate or
+higher.
+2. Setup signal generator to make a
+Manchester encoded byte of xA9 using
+an AC signal of 8820 baud and
+1.5mVpp with 0V DC offset. Connect
+the signal generator to the iPhone’s
+microphone input. The iPhone will
+correctly display xA9 to the screen.
+YES
+3. iPhone must correctly send
+Manchester encoded command
+signals at 8820 baud rate or higher.
+a. DC offset of sent signal is
+within ±0.5mV.
+b. Vpp of sent signal is 2.76Vpp
+±5%.
+c. Data is correctly encoded.
+3. Connect oscilloscope to iPhone left
+audio output. Turn iPhone volume to
+100%. Send x01 using Manchester
+encoding from the iPhone at 8820
+baud at a frequency of 1Hz.
+a. DC offset of sent signal is
+measured on oscilloscope to be
+within ±0.5mV.
+b. Vpp of sent signal is measured on
+oscilloscope to be 2.76Vpp ±5%.
+YES
+38
+c. Data byte waveform seen on
+oscilloscope is the correct
+Manchester encoded byte.
+4. User interface should handle user
+inputs correctly.
+a. Start scan
+b. Stop scan
+c. Save scan
+d. Email scan
+e. MMS scan
+f. Change sound velocity
+4. Navigate between user interface views
+to access various commands.
+a. Pressing “start scan” switches to
+view 4.
+b. Pressing “stop scan” switches to
+view 3.
+c. Pressing “save scan” saves the
+last scan to the iPhone camera
+roll.
+d. Pressing “email scan” switches to
+compose email view with scan
+image attached.
+e. Pressing “MMS scan” switches to
+MMS view with scan image
+attached.
+f. Pressing “change sound velocity”
+allows the user to manually enter
+a value for sound velocity which
+changes subsequent scan data.
+YES
+Contingency Plan: Use an Android phone.
+Overall AEL Measurement
+Requirements
+Verification Verified?
+1. Upon performing an A-scan with
+our device, calculated depths
+should be within 0.1mm of the
+actual thickness.
+1. Two polystyrene test blocks will be
+used to verify the accuracy of our
+device. Each will be of known
+thickness (measured with digital
+calipers). One will have a thickness
+equal to a typical anterior chamber
+depth. The other will have a thickness
+equal to a typical axial eye length.
+These correspond to the smallest and
+largest length measurements to be
+calculated. The percent difference
+between expected values and
+measurements when performed in a
+sequential experiment should be
+minimal (<6.7% or within 3σ).
+YES
+2. AEL Measurements must be
+performed on tissues similar to
+structures in the human eye.
+2. AEL measurements will be taken on
+sample animal eyeballs procured from
+the Meat Sciences Laboratory or the
+College of Veterinary Medicine.
+Compare animal AEL lengths with
+known values for animal and human.
+YES
+

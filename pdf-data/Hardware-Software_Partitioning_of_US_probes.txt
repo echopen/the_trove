@@ -1,0 +1,721 @@
+1
+Hardware-Software Partitioning of
+Digital Signal Processing in Ultrasound
+Medical Devices a Case Study
+Marcin Lewandowski
+Institute of Fundamental Technological Research, Polish Academy of Sciences
+Pawinskiego 5B, 02-106 Warsaw,
+Poland
+1. Introduction
+The development of ultrasound devices and diagnostic methods is closely related with the
+development of microelectronics and digital signal processing. In most of the state of the art
+electronic devices, the signal is digitally processed. These devices may be generally
+categorized based on the number of parallel processing channels. Imaging devices with
+multi-element linear or phased arrays usually have 16-256 transmission/reception channels.
+Single channel processing is usually performed in imaging devices with mechanically
+moved single element sector heads, the so-called “wobbler” and in dedicated Doppler
+devices. The methods of signal processing are much the same in all device categories.
+The paper presents a general overview of ultrasound signal processing and its digital
+implementation with emphasis on hardware-software partitioning. The available state of the
+art methods and systems of digital signal processing using both hardware and software are
+presented as well as the issues pertaining to algorithm implementation methodology. The
+state of the art system solutions are presented based on the descriptions of representative
+ultrasound devices, found in literature. The similarities between the presented devices and
+radio signal processing systems used in telecommunication are also discussed in the paper.
+Based on device description, the authors present the architecture of processing and
+communication as well as specific design solutions. The discussed issues and system
+solutions are analyzed based on two ultrasound medical devices, namely:
+• uScan - high frequency ultrasonograph with coded transmission (Lewandowski &
+Nowicki, 2008),
+• digiTDS - transcranial Doppler system (Lewandowski et al., 2009).
+Both devices have been designed and built by the author and co-workers at the Institute of
+Fundamental Technological Research, Polish Academy of Sciences. They have been
+designed for commercial purposes, in conformity with medical standards and economic
+limitations.
+The analysis of the presented solution comprises:
+• description of the presented systems architecture and of the processing algorithm
+implementation,
+• decisions concerning the design and hardware-software partitioning.
+www.intechopen.com
+Ultrasound Imaging
+2
+2. Digital signal processing of the ultrasound echoes
+Diagnostic medical ultrasound devices utilize ultrasound waves at the frequency of
+1-15 MHz. The transmitted ultrasound wave, mainly in the form of a train of short pulses,
+propagates in the tissue where the structures are reflected and returned to the head as
+echoes. The signal of echoes is initially amplified and filtered in an analogue chain and next,
+digitally processed using ADC (Analog-Digital Converter) with 8-14 bit of resolution
+(Thomenius, 2006). The received high frequency signal (called RF – radio frequency) of the
+echoes is amplitude- and phase modulated carrier frequency signal. The signal is
+demodulated in the device to obtain baseband frequency. The demodulated echo signal is
+further processed, depending on the application (Ali et al., 2008).
+TX/RX switch
+US Head
+Demodulation
+Imaging/Doppler
+processing
+TX Pulser
+A/DConvetrer
+RFsignal
+Post-processing
+& Display
+VGA
+I/Q signal
+Fig. 1. Simplified block diagram of an ultrasound diagnostic device
+The chain of ultrasound signal processing (Fig. 1) is much the same as the chain used in
+digital telecommunication. Therefore, in both cases, similar system solutions and processing
+methods are applied. For adaptation to quickly changing processing algorithms used in
+telecommunication, the Software-Defined Radio (SDR) was developed, in which RF signals
+are processed using software (Reed, 2002).
+The generic architecture of SDR systems composed of GPP (General Purpose Processor),
+DSP (Digital Signal Processor), FPGA (Field Programmable Gate Array) and high frequency
+front-end blocks was proposed by (Bassam et al., 2009). According to the authors, universal
+systems of RF signal processing can be implemented based on this architecture.
+The most popular example of an SDR platform is the GNU Radio project, and the
+compatible Universal Software Radio Peripheral (USRP) module, designed by a group of
+enthusiasts, later used in multiple designs and studies. The USRP module consists of a set of
+broadband ADC and DAC connected to the FPGA, which in turn communicates with the PC
+via USB interface. The board is prepared to host analogue transmitter and receiver modules,
+which tailor the solution to specific applications. The FPGA is responsible for signal
+modulation and demodulation and stream data to and from PC. The developed digital
+signal processing in C language with interface to Python script language enables quick and
+easy prototyping of radio signal processing algorithms. With its universal design and
+availability of a relatively cheap hardware module, the system is quite popular. The project
+website (http://gnuradio.org) contains information on the application of the project, as well
+as protocols and telecommunication standards including WiFi, RFID, DVB, DAB, GSM and
+DECT.
+The newer and more advanced version of SDR platform named SORA was developed by
+Microsoft® Research. It has a significantly larger FPGA (Xilinx Virtex 5) chip and a faster
+www.intechopen.com
+Hardware-Software Partitioning of Digital Signal Processing
+in Ultrasound Medical Devices a Case Study 3
+PCI-e x8 interface. Moreover, a software stack for multicore processors containing drivers
+and processing libraries, optimized for efficiency and latency minimization was developed
+(Tan et al., 2009). The authors also presented a demonstrative implementation of SoftWiFi
+supporting the 802.11a/b/g communication protocol.
+The reader will probably notice a very high similarity between the USRP solution and
+coder-digitizer module of the uScan system described later in the paper. It definitely
+indicates a similarity between the system solutions and the architecture of SDR and
+ultrasound devices. Interestingly, the author has not found any report on using SDR
+solutions for ultrasound RF signal processing.
+3. Digital signal processing systems
+Nowadays, there is a vast number and diversity of digital signal processing systems and
+methods. Therefore, it is extremely difficult to select an optimal system solution for signal
+processing of suitable processing power, data throughput and power consumption at
+a reasonable price. If we limit our choice to the solutions commonly applied in
+ultrasonography, these will include:
+• hardware processing – programmable logic systems (FPGA) and ASIC (Application
+Specific Integrated Circuits),
+• software processing - general purpose processors (GPP), digital signal processors (DSP)
+and graphic processors (GPU).
+Recently there is a tendency to increase software processing because of the development of
+processor systems and significantly easier implementation process and algorithm
+debugging as compared to hardware implementations. This tendency has resulted in the
+development of ultrasound medical devices, requiring a more efficient digital processing
+and working in a real time regime.
+The main advantage of software solutions is easy code modification and simpler testing and
+debugging methods. Implementations in high level languages (e.g. C language) can be
+easily simulated and verified on different platforms before being implemented on the target
+platform. Nowadays, the majority of DSP are programmed in C language and have more
+advanced tools for development. Thanks to their computing power, easy high-level code
+development, DSP are the core of processing chain in modern devices. There is an
+alternative trend in software processing, namely general purpose processors (GPP). Modern
+PC processors have high computing power and special parallel executive units for
+multimedia processing. These units are in fact separate vector processors, optimized for
+digital signal processing. Adequate use of parallel processing and multimedia units can
+replace several DSP working at the same time. As PCs are frequently part of these devices
+and are used both as controller and user interface, the implementation of processing
+algorithms using PC seems natural. Real time application of operational systems, such as
+Microsoft® Windows is problematic as these are not real time systems and therefore they do
+not guarantee adequate time precision and the required operations being performed in the
+required time period.
+Recently, graphic processor units (GPU) are used for signal processing; they are
+traditionally used for 3D graphics rendering in PCs. The quick development of computer
+graphics resulted in the development of graphic processors with new capabilities. From
+specialized 3D processors, GPU have been developed into versatile programmable vector
+processors. Thanks to its massive parallel internal architecture and advanced memory
+www.intechopen.com
+Ultrasound Imaging
+4
+interfaces, the floating point processing power of GPUs can be even 100 times higher than
+the power of the fastest PC processors. The new tools for graphic processor programming
+allow to utilize new computing power, not only for graphic purposes, but also in other,
+more general applications (Owens et al., 2005).
+Hardware implementation of digital signal processing is presently dominated by
+programmable logic systems (FPGA). Thanks to the availability of cheap FPGA versions,
+they are used not only in small scale production, but also in products released onto the
+consumer market. The possibility of reprogramming within the system (also during
+operation), a very wide range of system density (from thousands to millions of gates) and
+increasingly advanced design tools (McDonald, 2009) contribute to the growing popularity
+of FPGA systems. Hardware methods offer the highest potential processing speed (Sirowy
+& Forin, 2008), however the implementation costs are also high, probably the highest.
+Therefore, hardware and software methods are frequently applied as complementary
+methods to achieve the required efficiency and versatility at minimal costs.
+The discussion presented above indicates that digital processing algorithms can be
+implemented in different ways, based on different solutions. The optimal use of various
+computational tools and system architecture providing development opportunities is
+a complex problem from the point of view of science and engineering.
+4. Ultrasound devices - state of the art
+The combined architecture of hardware-software processing devices is currently the main
+feature of various digital signal processing devices, requiring high processing speed and
+characterized by a high bandwidth of input data stream. The combined architecture
+incorporates hardware systems (FPGA/ASIC), responsible for initial processing and
+aggregation and/or distribution and further software processing systems (DSP, GPP, GPU
+processors). We can see a clear tendency to extend the scope of software processing and
+minimize hardware solutions. The popularity of software solutions results not only from
+easier implementation, testing and debugging, but also from the possibility of adaptation of
+these devices to quickly changing market requirements and new algorithms.
+On the other hand, the state of the art FPGA systems should be now more frequently treated
+as programmable SOC (System on Chip) systems rather than simple gate arrays. The
+availability of new tools for algorithm implementation in FPGA (e.g. Xilinx® AccelDSP,
+Altera® DSP Builder) significantly facilitates the design and transfer of complex
+computational algorithms without the need to encode them in hardware description
+languages. The available IP (Intellectual Property) processor blocks (e.g. Xilinx® Microblaze,
+Altera® NIOS, Actel® Cortex-M) enable the creation of single- and multiprocessor systems
+directly in FPGA structures. The processor blocks support the implementation of extended
+instruction sets using hardware solutions built from the surrounding logic (the so called
+instruction accelerators). Alter® C2H tool is an example of such solution that compiles
+selected code fragments in C language directly for hardware implementation, warranting
+15-73-fold speedup for selected functions (Altera, 2006). Integrated systems based on the
+reprogrammable FPGA were described by (Garcia et al., 2006).
+The model example of combined ultrasound system architecture is a Doppler device
+developed by (Ricci et al., 2008). The construction of this system is much the same as that of
+digiTDS system presented below. The module designed by Ricci et al. is composed of FPGA
+(Altera® Stratix) executing hardware processing functions, and DSP (Texas Instruments®
+www.intechopen.com
+Hardware-Software Partitioning of Digital Signal Processing
+in Ultrasound Medical Devices a Case Study 5
+TMS320C67). The module communicates with a PC and is responsible for the control and
+display functions through the USB interface. The FPGA has implemented a quadrature
+demodulator, a set of digital filters and a decimator. The initially demodulated and
+decimated data stream is transferred to the DSP, executing standard Doppler algorithms.
+Although the reported system is not a commercial solution, its construction is similar to that
+of the devices offered on the market.
+Another device, an ultrasonograph platform ULA-OP, was designed by the same group
+(Tortoli et al., 2009). Although it is a 64-channel system, it is based on the same general
+concept. The basic difference is that this system utilizes multiple FPGA chips connected to
+multichannel ADC and a central hub FPGA, responsible for data aggregation (in total: 5
+FPGA Altera® Stratix systems, each having its own 512 MB of DDR memory). The efficient
+DSP (Texas Instruments® TMS320C6455) is responsible for software processing. The system
+is connected to PC via USB port and the PC controls the system and displays the results. As
+we can see, although it has many channels, the general scheme of device design does not
+differ from that of a dual channel Doppler system.
+The next system described in literature is a hand-held 32-channel ultrasonograph,
+developed by (Lee et al., 2009). Its architecture resembles the ULA-OP system. The main
+differences are that the ultrasonograph uses a single large FPGA (Xilinx® Virtex 4) and an
+additional application processor (Intel® XScale PXA270), executing the user interface and
+display on the integrated LCD panel. The system is completely independent (does not
+require connection to PC) and optimized for the size and power consumption. The
+distribution of processing tasks between the hardware and software is in conformity with
+previous solutions.
+1024-channel SARUS (Jensen et al., 2007) system is a unique ultrasound research platform.
+Unlike the previously described solutions, the system is mainly based on the on-line
+hardware and off-line software processing. It consists of 64 identical DAUP (Digital
+Acquisition and Ultrasound Processing) boards, each operating 16 transmitting-receiving
+channels and an external computer cluster with a disk array. Each of the DAUP boards
+contains 4 FPGA (Xilinx® Virtex XC4VFX100) with a dedicated 1-4 GB DDR2 memory and
+one control FPGA (Xilinx® Virtex XC4VFX12). Technical solutions and the potential of
+SARUS system are overwhelming, however, this is only a research system and its
+architecture does not allow it to be directly adapted to commercial systems.
+The hardware only processing chain for ultrasound system was presented by (Chang et al.,
+2009). A single-channel acquisition and processing system consists of ADC (Analogue
+Devices® AD9430) connected to FPGA (Altera® Stratix EP1S60F1020C6), executing the
+entire processing. Due to the planned application of the above system in studies on mice
+whose heart rate reaches 13 beats per second, the authors made an attempt to perform
+imaging with the speed of 400 images per second. The application of simplified and
+optimized processing algorithms (including envelope detector) allowed to obtain the
+designed processing speed. The reconstructed images were next transmitted to PC via PCI
+interface and displayed using a graphics card with the implemented scan-converter. The
+presented solution indicates how high processing speed can be obtained in systems using
+hardware processing.
+A completely different solution is a C-scan imaging system presented by (Fuller et al., 2009).
+It has a custom built ultrasonic array transducer, composed of 3600 elements with an
+integrated transmission-reception electronics. The echoes received from selected depth are
+then transmitted to a DSP (Analog Devices® Blackfin BF561) which executes the entire
+www.intechopen.com
+Ultrasound Imaging
+6
+digital signal processing and display on the built-in LCD monitor screen. The obtained
+display speed of 43 images per second for the C-scan indicates that in some applications,
+pure software processing is sufficient to obtain a practical outcome.
+Interestingly, ready-to–use solutions for commercial ultrasound scanners are offered by
+Texas Instruments® company, the leading manufacturer of DSP. Texas Instruments® has
+developed an optimized function library for applications in ultrasonography using the
+offered TMS320C64 series DSPs (Thomas, 2010). Moreover, (Pailoor & Pradhan, 2008)
+present specific architectures and solutions for portable medical ultrasonography systems.
+These are systems with combined hardware-software processing. As in the previous
+presented systems, the first processing stage (beamforming and demodulation) is executed
+by hardware, while the subsequent stages are executed by DSP. The TI offers a complete
+development environment and integrated circuits portfolio to build almost the complete
+systems (TI doesn’t offer FPGA).
+The final solution presented in this paper is a cheap ultrasonograph with a single processing
+channel in the form of an integrated head connected to PC via USB port (Richard et al.,
+2008). The entire simplified electronics is integrated on a miniature board, placed directly in
+the ultrasound head. The RF echo signal undergoes analogue demodulation and it is
+digitally processed and transmitted to PC via USB interface. An analogue demodulation of
+RF signals is no longer used in the devices; in the presented case its application results from
+construction simplification. Due to low power consumption, the head is supplied directly
+from PC via USB. The whole processing and visualization were implemented as software for
+PC. The quality of an ultrasound image fails to meet contemporary standards, however, on
+the other hand, its price is unmatched. The concept of system solution, minimization of
+electronics and total PC processing is similar to that of the uScan described further in the
+paper.
+5. Case study
+Both systems are based on a mixed model of hardware-software signal processing. The
+systems of RF echo signal acquisition are based on a fast A/D converter and FPGA, being an
+interface to the further part of the system. The application of FPGA at the beginning of the
+digital chains is now a standard solution. Apart from signal acquisition, the FPGA most
+often executes hardware processing of a digital signal, whose goal is to reduce the data
+stream for further processing. Next, the processing is executed by DSP, GPP, GPU or
+combinations of these processors.
+5.1 High frequency ultrasound scanner - uScan
+High frequency ultrasonography is an imaging method using ultrasound waves of more
+than 20 MHz frequency. Due to the obtained high resolution and low penetration depth of
+imaging, this method is applied in dermatology, ophthalmology, cosmetology and for
+examining small animals.
+uScan system is a high frequency ultrasound scanner (20-40 MHz) with the implemented
+coded transmission/excitation function. The coded transmission method involves
+transmission of long series of impulses and subsequent time compression of the received
+echoes to restore resolution. With the long bursts, it is possible to obtain a better signal-to-
+noise ratio, and the resulting image contrast improvement. Unfortunately, the echo time
+www.intechopen.com
+Hardware-Software Partitioning of Digital Signal Processing
+in Ultrasound Medical Devices a Case Study 7
+compression algorithm, which is in fact, matched filter to the transmitted signal, requires
+a very high computing power.
+The device is based on the concept of absolute minimization of electronics and computation
+based solely on CPU and GPU. The electronic module of coder-digitizer (Fig. 2) executing all
+the transmission and reception functions is 90 mm × 90 mm in size and is based on a single
+low-cost FPGA chip (Xilinx® Spartan 3 XC3S200). The transmission involves the use of an
+arbitrary waveform generator with a 14-bit DAC (Analogue Devices® AD9744) operating at
+200 MSPS speed. The acquisition is performed using a 12-bit DAC (Maxim® MAX1214) also
+working at a speed of 200 MSPS. The digital RF echo signal is transmitted to PC via USB 2.0
+interface (Cypress Semiconductor® CY7C68013A). The processing software executes the
+function of time compression on a CPU processor. The sector geometry conversion function
+(scan-converter) required to obtain a correct display of an image generated by the sector
+head is executed by a graphics processor.
+FPGA
+Xilinx
+ADC
+USB 2.0
+interface
+DAC 1
+Input
+Amplifier
+Power
+Amplifier
+Head
+PC
+USB
+DAC 2
+TGC
+Fig. 2. Block diagram of the coder-digitizer module (left), and the board photo of size
+90 mm x 90 mm (right)
+The module was designed for stream data transmission; therefore it contains only a buffer in
+FPGA for a single RF signal line. The line data have to leave the buffer before the next
+acquisition, i.e. they have to be sent to the USB controller system. The USB system contains 4
+buffers 512 bytes each, which are used for communication in the ping-pong mode. A typical
+length of a RF line is 2048 samples, which gives 4096 bytes of data (two bytes per sample).
+On an ACER TravelMate 4650 notebook (Intel® Pentium M processor with a clock 1.7 GHz,
+512 MB of RAM), the USB transmission throughput obtained in the test mode was close to
+40 MB/s. However, in real conditions, when signal line acquisition was released
+periodically by ultrasound head movements, buffer overflow errors were observed. This
+indicates minor transmission interruption, i.e. changes in instantaneous data reception
+speed by PC. It was concluded that the “interruptions” occurred at system driver level.
+Microsoft® Windows does not guarantee the time limit of event and interruptions handling
+from the input/output devices. The overflow errors result in image loss and entail the
+necessity of subsequent image acquisition synchronization with the extreme position of the
+head movement. As the coder-digitizer module featured no larger data buffer, it was
+necessary to limit the head movement speed (and thus image display) to 10 images per
+www.intechopen.com
+Ultrasound Imaging
+8
+second, which is still a sufficient speed for still structure imaging. An alternative solution
+would be to number the transmitted lines and an additional image filling algorithm with the
+obtained complete lines. Incomplete or deleted lines of the image would be filled by the
+fragments of previous lines or by interline interpolation.
+The digital RF signal processing functions were implemented as a whole in the software
+domain and distributed between the CPU of the PC and graphic card processor depending
+on their specificity (Fig. 3). The code compression and detection algorithm is executed on
+CPU, while the scan-converter and additional post-processing functions are executed on
+GPU. Such architecture enables execution of more demanding processing systems without
+the need to employ specialized and expensive multiprocessor systems.
+Coder-digitizer
+module
+CPU Processing
+Digital RF
+GPU Processing
+Software RF processing
+Code
+compression
+Envelope
+detection
+Image filtering
+Scan conversion
+Image display
+Fig. 3. Data flow of the software RF digital signal processing
+Fig. 4. Photo of the complete uScan system
+Software efficiency tests for processing and visualization were performed on ACER
+TravelMate 4650 notebook in configuration: Intel® Pentium M processor with 1.7 GHz clock,
+2 MB second level cache, 512 MB RAM, graphic processor Nvidia GeForce Go 6600 with
+www.intechopen.com
+Hardware-Software Partitioning of Digital Signal Processing
+in Ultrasound Medical Devices a Case Study 9
+64 MB of video memory. For an ultrasound head scanning with the speed of 7 images/s, the
+CPU load was 37%. When extrapolating the processing time, the system was found to be
+able to run at the speed up to 25 images/s in this configuration.
+The obtained solution meets the presented requirements for processing speed and image
+display in a real time regime (up to 10 frames per second). The applied balanced
+architecture of digital processing with task distribution between CPU and GPU ensures very
+high processing efficiency with simultaneous limitation of electronic systems and hardware
+processing. The limitation of this system is the speed of data transfer via USB interface, as
+the computing power would allow for significantly faster display. The quick development
+and increase of CPU/GPU system efficiency ensures the possibility of increasingly complex
+processing algorithms without the need of hardware replacement.
+5.2 Transcranial Doppler System - digiTDS
+The pulse wave Doppler method is applied as a standard for intracranial diagnosing
+allowing to measure the flow at selected depth. The state of the art diagnostic solutions are
+mainly focused on complex assessment and monitoring of cerebrovascular flow in different
+pathological conditions, especially those potentially affecting normal function of the central
+nervous system.
+The digiTDS device is a multigate transcranial Doppler system. This system is composed of
+two electronic modules of 130 mm × 82 mm dimensions (Fig. 5), responsible for high
+frequency signal transmission, acquisition and demodulation, and the PC responsible for
+Doppler signal processing after demodulation and data presentation. Fig. 6 presents the
+Fig. 5. Photos of the digiTDS’s electronic modules: digital module (left), mixed-signal
+module (right)
+www.intechopen.com
+Ultrasound Imaging
+10
+FPGA
+Altera Cyclone3
+ADC
+14-bit
+USB
+controler
+RF input
+Generator
+low jitter
+USB 2.0
+Stereo
+CODEC
+Audio out
+Power
+Supply
++5V
++12V
+PC
+RS-232
+PPI
+DSP
+Blackfin 537
+SD Card
+128MB
+SDRAM
+EBIU
+SPORT
+SPI
+Prog
+Boot
+DataFlash
+EBIU
+TX DAC
+TX circuit
+JTAG
+UART
+Config
+SPI
+Ethernet 10/100TX
+TGC DAC
+TGC ctrl
+4MB
+FLASH
+Fig. 6. Simplified block diagram of the digiTDS system
+system block scheme. On an analogue-digital module board, there are two independent
+transmission-reception channels (the device supports two heads operation, the so called
+bilateral operation). A 10-bit DAC (Texas Instruments® DAC5652A) operating at a speed of
+64 MSPS is used to generate the transmitted signal. The reception track contains amplifiers
+with the function of time gain compensation (Analogue Devices® AD8331) and a dual 14-bit
+ADC (Analogue Devices® AD9640) with sampling frequency of 64 MHz. The digital signals
+from/to converters are connected to FPGA on the digital module board via intermodule
+connector. The digital module consists of FPGA (Altera® Cyclone 3 EP3C25), DSP (Analog
+Devices® Blackfin BF537) as well as USB device controller (PLX® NET2272) and an Ethernet
+interface.
+Unlike the uScan, digiTDS may run independently of PC, thanks to its own control
+resources - DSP processor. The system communicates with PC via USB 2.0 interface. The
+digital processing chain consists of hardware processing in the FPGA and software
+processing using DSP and PC’s CPU. The application of hardware resources during early
+processing stage allowed to significantly decrease the required data throughput and
+computing load of PC. It also allowed to use a low-power single-board PC with Intel®
+ATOM processor and to extend the operating time on batteries. The distribution and
+implementation of processing tasks were performed on a constructed device prototype.
+Especially moving the realization of filtration in multiple gates from the software to FPGA
+enabled significant processor time saving.
+Fig. 7 presents the Doppler digital signal processing track on digiTDS device with task
+distribution between the FPGA system and software.
+www.intechopen.com
+Hardware-Software Partitioning of Digital Signal Processing
+in Ultrasound Medical Devices a Case Study 11
+DDC
++
+CIC
+Audio
+reconstruction
+(directional)
+DISPLAY
+ADC
+Delay Line
+Canceler
+(DLC)
+Gate
+Velocity
+Estimator
+Phase domain –
+auto-correlation
+I
+Q
+Integrate over
+the gate
+Band pass filter
+* Low-pass - variable
+(PRF/2)
+* High-pass - variable
+50-300Hz
+FFT
+Audio out
+Sonogram
+post-processing
+* 2D filter
+* Min/Max/Mean
+* Indices PI/RI
+RF
+analog signal
+RF Demodulation,
+Filtration,
+Decimation
+Done in
+FPGA
+LEGEND
+Done in
+software
+Fig. 7. Doppler digital signal processing chain
+Reference
+signal buffer
+Digital RF
+signal
+Phase shift
+π/2
+Baseband
+signal
+decimation
+z-1
+z-1
+z-1 z-1
+z-1
+-1
+z-1
+-1
+z-1
+-1
+z-1
+-1
+I
+CIC filter
+CIC filter
+Q
+Fig. 8. Block diagram of the digital quadrature demodulator with CIC filter implemented in
+the FPGA
+The received RF echo signal, after the amplification and digital conversion, is sent to the
+quadrature demodulator (DDC – Digital Down Converter) and CIC (Cascaded Integrator
+Comb) filter, implemented in the FPGA (Fig. 8). The demodulator is composed of two
+multipliers, memory containing reference signal samples with the frequency of 1-16 MHz
+and two low-pass filters. The samples of high frequency echo signal are mixed with 14-bit
+www.intechopen.com
+Ultrasound Imaging
+12
+samples of reference sine and cosine signals. As a result, two signals are formed, namely in-
+phase (I) and quadrature (Q) signals, which are next subjected to low-pass filtration and
+decimation so that only baseband frequency components were retained in the signal. The
+low pass filters and the decimator were implemented in the FPGA as a CIC filter (Harris,
+2004). The 4th order CIC filter enables regulation of the Doppler gate size and the degree of
+filtration and decimation.
+The subsequent processing component of the FPGA system is a set of constant echo filters.
+In a multigate system, the signal in each gate has to be filtered in order to eliminate slow
+changing signals from still or slowly moving structures. In the FPGA, 200 parallel FIR filters
+are implemented, each with the length of 64 coefficients; they provide filtration in real time
+in 100 Doppler gates (independently I & Q signals are filtered in each gate). The cumulative
+utilization of logical resources of the applied FPGA (Altera® EP3C25) amounted to 5% of
+logic cells, 39% of internal block RAM and 3% of dedicated 18-bit multipliers. Time closure
+was obtained for the frequency of 64 MHz, and thus the processing speed matched the
+speed of input data stream (RF signal sampling). It is of note that the software execution of
+such a task on Intel® ATOM processor would be impractical.
+The processed signal is next sent to PC where it is processed specifically for a given
+application. Recently, standard Doppler processing methods have been implemented,
+namely Color and Spectrum. Digital signal processing software algorithms have been
+implemented using Intel® IPP libraries (Taylor, 2004), which use SSE (Streaming SIMD
+Extensions) vector extensions of x86 family processors. SSE extensions enable execution of
+floating point operations on multiple data at the same time, which ensures a very high
+efficiency of multimedia applications (Martinez-Nieto et al., 2009).
+Microsoft®
+WinUSB
+UIApplication
+Helperlibrary
+DXHlp.dll
+Intel®IPP
+library
+.NETFramework
+WPF
+Fig. 9. PC software stack of the digiTDS system
+The control and user software (Fig. 9) was implemented in Microsoft® Windows Embedded
+Standard 2009 environment, based on NET 3.5 framework. For communication with the
+digital module via USB interface, Microsoft® WinUSB drivers were applied. User interface
+was created based on on .NET WPF (Windows Presentation Foundation). Obtaining short
+delay of Doppler signal transmission, processing and visualization required optimal data
+buffering, processing optimization and multithreaded implementation.
+www.intechopen.com
+Hardware-Software Partitioning of Digital Signal Processing
+in Ultrasound Medical Devices a Case Study 13
+Fig. 10. Photo of the complete digiTDS system
+6. Conclusions
+The paper presents technical issues pertaining to the architecture of digital signal processing
+and task distribution between software and hardware in ultrasound diagnostic devices. The
+solutions reported in literature were reviewed and the similarities between the presented
+solutions and SDR systems used in digital telecommunication were discussed.
+The two presented examples of combined hardware-software processing architecture in the
+ultrasound devices represent current state of the art.
+The experience gained during designing and implementation of digital processing
+algorithms on these platforms show their unquestionable advantages, namely:
+• possibility of algorithm migration between hardware and software solutions,
+• possibility of equalization of load distribution in all system elements and data transfer
+between sub-systems,
+• possibility of optimization of the selected system parameter (time delay, data transfer,
+power consumption, etc.) by changing the method/place of processing execution.
+It is also of note that the problems can be encountered during system development
+requiring advanced real time processing, namely:
+• difficulty in defining the required efficiency and throughput of each system component
+at the design stage,
+www.intechopen.com
+Ultrasound Imaging
+14
+• problems with operating the system in real time with minimal time delay of result
+presentation (image, audio),
+• time synchronization of hardware and software subsystems (particularly those
+controlled by not real-time operating system),
+• complicated verification & validation of the whole system, as required for medical
+device.
+The future development of ultrasound medical systems will be interrelated with the
+development of electronics and digital signal processing systems. The present trend of
+extending the scope of software processing will be probably continued with the next
+generation of multicore GPP, DSP and GPU. Rapid development of portable devices can be
+expected, due to the availability of increasingly fast, integrated and low-power System on
+Chip integrated circuits.
+7. Acknowledgements
+Acknowledgements to my co-workers from the Institute of Fundamental Technological
+Research, Polish Academy of Sciences who cooperated with me in the project development:
+Andrzej Nowicki, Bogusław Zienkiewicz, Mateusz Walczak, Paweł Karłowicz,
+Ryszard Tymkiewicz, Piotr Karwat, and Beata Witek.
+Funding: The European Regional Development Fund under the Innovative Economy
+Operational Programme & Ministry of Science and Higher Education, Poland.
+8. References
+Ali M., Magee D., Dasgupta U. (2008). Signal Processing Overview of Ultrasound Systems
+for Medical Imaging, Texas Instruments, White Paper SPRAB12
+Altera (2006). Automated Generation of Hardware Accelerators With Direct Memory Access from
+ANSI/ISO Standard C Functions, ALTERA White Paper, WP-AGHRDWR-1.0
+Bassam S. A., Ebrahimi M. M., Kwan A., Helaoui M., Aflaki M. P., Hammi O., Fattouche M.,
+Ghannouchi F. M. (2009). A Generic architecture for smart multi-standard software
+defined radio systems, SDR'09 Technical Conference and Product Exposition, 1-4
+December 2009, Washington, DC, USA
+Chang J. H., Sun L., Yen J.T., Shung K. K. (2009). Low-cost, high-speed back-end processing
+system for high-frequency ultrasound B-mode imaging, IEEE Transactions on
+Ultrasounds, Ferroelectrics, and Frequency Control, Vol. 56, No. 7
+Fuller M. I., Owen K., Blalock T. N., Hossack J. A., Walker W. F. (2009). Real Time Imaging
+with the Sonic Window: A Pocket-Sized, C-Scan, Medical Ultrasound Device,
+Proceedings of IEEE International Ultrasounds Symposium, pp. 196-199, Roma, Italy,
+20-23 September 2009, IEEE
+Garcia P., Compton K., Schulte M., Blem E., Fu W. (2006). An Overview of Reconfigurable
+Hardware in Embedded Systems , EURASIP Journal on Embedded Systems, Volume
+2006, Article ID 56320
+Harris F. J. (2004). Multirate Signal Processing for Communication Systems, Prentice Hall PTR,
+ISBN 978-0131465114
+www.intechopen.com
+Hardware-Software Partitioning of Digital Signal Processing
+in Ultrasound Medical Devices a Case Study 15
+Jensen J. A., Hansen M., Tomov B. G., Nikolov S. I., Holten-Lund H. (2007). System
+Architecture of an Experimental Synthetic Aperture Real-Time Ultrasound System,
+Proceedings of IEEE International Ultrasounds Symposium, pp. 636-640, New York,
+USA, 28-31 October 2007, IEEE
+Lee H., Sohn H., Yoon Ch., Mo Yoo Y., Song T. (2009). Software-based Hand-Held
+Ultrasound Color Doppler Imaging System, Proceedings of IEEE International
+Ultrasounds Symposium, pp. 1844-1847, Roma, Italy, 20-23 September 2009, IEEE
+Lewandowski M., Nowicki A. (2008). High Frequency Coded Imaging System with RF
+Software Signal Processing, IEEE Transactions on Ultrasounds, Ferroelectrics, and
+Frequency Control, 55(8):1878-82
+Lewandowski M., Walczak M., Nowicki A. (2009). Compact Modular Doppler System with
+Digital RF Processing, Proceedings of IEEE International Ultrasounds Symposium,
+pp. 1848-1851, Roma, Italy, 20-23 September 2009, IEEE
+Martinez-Nieto D., McDonnell M., Carlston P., Reynolds K., Santos V. (2009). Digital
+Signal Processing on Intel® Architecture, Intel® Technology Journal, Vol. 13,
+No. 1
+McDonald J., (2009). Insiders’ Guide: FPGAs, Tools, and Boards,
+http://www.eg3.com
+Owens J. D., Luebke D., Govindaraju N., Harris M., Krüger J., Lefohn A.E., Purcell T.J.
+(2005). A Survey of General-Purpose Computation on Graphics Hardware,
+Eurographics 2005 State of the Art Reports, August 2005, pp. 21-51.
+Reed J. H. (2002). Software Radio: A Modern Approach to Radio Engineering, Prentice Hall,
+ISBN 978-0130811585
+Ricci S., Dallai A., Boni E., Bassi L., Guidi F., Cellai A., Tortoli P. (2008). Embedded System
+for Real-Time Digital Processing of Medical Ultrasound Doppler Signals, EURASIP
+Journal on Advances in Signal Processing, Volume 2008, Article ID 418235
+Richard W. D., Zar D. M., Solek R. (2008). A low-cost B-mode USB ultrasound probe,
+Ultrason Imaging, Vol. 30, No. 1, pp. 21-8
+Pailoor R, Pradhan D. (2008). Digital Signal Processor (DSP) for Portable Ultrasound, Texas
+Instruments , Application Report SPRAB18A
+Sirowy S., Forin A. (2008). Where’s the Beef? Why FPGAs Are So Fast, Microsoft Research,
+Technical Report MSR-TR-2008-130
+Tan T., Zhang J., Fang J., Liu H., Ye Y., Wang S., Zhang Y., Wu H., Wang W., Voelker
+G. M. (2009). Sora: High Performance Software Radio Using General
+Purpose Multi-core Processors, Proceedings of the 6th USENIX Symposium on
+Networked Systems Design and Implementation, April 22–24, 2009, Boston, MA,
+USA
+Taylor S. (2004). Intel Integrated Performance Primitives, Intel Press, ISBN 978-0971786134
+Thomas D. (2010). Using TI’s Embedded Processor Software Toolkit for Medical Imaging
+(STK-MED), Texas Instruments, Application Report SPRABB8
+Thomenius K. E. (2006). Instrumentation Design For Ultrasound Imaging, In: Biomedical
+Engineering And Design Handbook Vol. 2: Applications, Myer Kutz, (Ed.), 249-256,
+McGraw-Hill, ISBN 978-0-07-170474-8
+www.intechopen.com
+Ultrasound Imaging
+16
+Tortoli P., Bassi L., Boni E., Dallai A., Guidi F., Ricci S. (2009). ULA-OP: An Advanced Open
+Platform for Ultrasound Research. IEEE Transactions on Ultrasounds, Ferroelectrics,
+and Frequency Control, Vol. 56, No. 10
+www.intechopen.com
+Ultrasound Imaging
+Edited by Mr Masayuki Tanabe
+ISBN 978-953-307-239-5
+Hard cover, 210 pages
+Publisher InTech
+Published online 11, April, 2011
+Published in print edition April, 2011
+InTech Europe
+University Campus STeP Ri
+Slavka Krautzeka 83/A
+51000 Rijeka, Croatia
+Phone: +385 (51) 770 447
+Fax: +385 (51) 686 166
+www.intechopen.com
+InTech China
+Unit 405, Office Block, Hotel Equatorial Shanghai
+No.65, Yan An Road (West), Shanghai, 200040, China
+Phone: +86-21-62489820
+Fax: +86-21-62489821
+In this book, we present a dozen state of the art developments for ultrasound imaging, for example, hardware
+implementation, transducer, beamforming, signal processing, measurement of elasticity and diagnosis. The
+editors would like to thank all the chapter authors, who focused on the publication of this book.
+How to reference
+In order to correctly reference this scholarly work, feel free to copy and paste the following:
+Marcin Lewandowski (2011). Hardware-Software Partitioning of Digital Signal Processing in Ultrasound
+Medical Devices a Case Study, Ultrasound Imaging, Mr Masayuki Tanabe (Ed.), ISBN: 978-953-307-239-5,
+InTech, Available from: http://www.intechopen.com/books/ultrasound-imaging/hardware-software-partitioning-
+of-digital-signal-processing-in-ultrasound-medical-devices-a-case-stu
+

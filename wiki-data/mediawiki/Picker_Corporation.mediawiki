@@ -1,0 +1,11 @@
+# Picker Corporation
+
+
+= Inventeur =
+Terrance Matzuk
+= Brevets =
+* [[Patent US4092867]]: '''Ultrasonic scanning apparatus''' (''Jun 6, 1978'').
+* [[Patent US4246792]]: '''Self-contained ultrasonic scanner''' (''Jan 27, 1981'').
+
+= CoInventeurs =
+[[Category:Inventors]][[Category:CoolHand]]

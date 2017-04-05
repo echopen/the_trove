@@ -1,0 +1,59 @@
+1.  Design: DSP example
+
+Medical Imaging – Portable Ultrasound Systems
+---------------------------------------------
+
+Ultrasound is a non–invasive medical imaging technique used to visualize
+muscles, tendons, pathological lesions and many internal organs and
+other structures. An ultrasound system generates and transmits
+high–frequency sound waves into body tissues with different acoustic
+impedances and captures the echoes, which are then converted into images
+to be displayed on a monitor. Because it uses sound waves instead of
+radiation, ultrasound is commonly believed to be safer than X–rays. It
+plays an important role during prenatal care and is commonly used as a
+diagnostic tool.
+
+Portable ultrasound systems vary in size from a laptop to a handheld
+weighing 10 pounds or less, and can run on batteries. The device’s key
+attributes are the same as any portable device: size, weight, battery
+life, cost and performance.
+
+With increasing demand for ultrasound diagnostic imaging, the market
+will be primarily driven by portable ultrasound systems, which is
+expanding rapidly as the functionality of these systems approaches that
+of cart–based systems with less costs. In 2009, the portable ultrasound
+systems market was valued at \$739 million and by 2016 the portable
+ultrasound systems market is expected to reach \$1.4 billion. (Source:
+[http://www.businesswire.com/news/home/20110208007030/en/Research-Markets-Ultrasound-Systems—Global-Pipeline](http://www.businesswire.com/news/home/20110208007030/en/Research-Markets-Ultrasound-Systems—Global-Pipeline).)
+
+The basic functional building blocks of a diagnostic ultrasound imaging
+system are transducer, signal conditioning, TX/RX beam former, digital
+signal processor (DSP), power management and user interface as shown in
+Figure 2.
+
+<http://eecatalog.com/pcie/files/2011/11/15.jpg>
+
+In the design of a portable ultrasound system, a low-cost FPGA is widely
+used to get high throughput data from analog– to–digital converters
+(ADCs), perform beam forming and connect to the back–end
+signal–processing block. After the beam former, it is generally better
+to move the rest of the processing onto a DSP, as its highly
+programmable architecture is better–suited for the remainder of the
+ultrasound processing, resulting in systems with better power
+efficiency, smaller footprints and increased flexibility.
+
+As shown in Figure 2, a portable ultrasound system contains many
+components. Each of these components may have different interface
+requirements, creating the need for a versatile interconnect solution.
+Furthermore, this is becoming a more difficult problem due to increasing
+bandwidth requirement in the system. The combination of requirements for
+versatility and high bandwidth places a big burden on the component
+interconnection, especially in high–end ultrasound systems. Designers
+need a standard interface that is inexpensive and widely adopted by many
+customers. A PCIe backplane fits this description and can handle the
+high–bandwidth requirement with its established ecosystem. Figure 2
+shows the PCIe interface used in modern portable ultrasound systems.
+
+High–performance DSPs provide enough computational capability to
+efficiently perform all the back–end ultrasound processing for a
+portable ultrasound design.

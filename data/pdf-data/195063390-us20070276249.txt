@@ -1,0 +1,386 @@
+US 20070276249A1
+(19) United States
+(12) Patent Application Publication (10) Pub. No.: US 2007/0276249 A1
+Abascal (43) Pub. Date: NOV. 29, 2007
+(54) ECHOGRAPHIC PROBE WTIH SECTOR (30) Foreign Application Priority Data
+SCANNING USING A TRANSDUCER
+CAPABLE OF COMING INTO CONTACT Feb. 27, 2004 (FR) .............................................. 0402209
+WITH THE STRUCTURE TO BE EXAMINED
+Publication Classi?cation
+(75) Inventor: Jean Abascal, Arcueil (FR)
+(51) Int. Cl.
+Correspondence Address: A61B 8/00 (2006.01)
+BROWDY AND NEIMARK, P-L-L-C- (52) US. Cl. .............................................................. 600/459
+624 NINTH STREET, NW
+SUITE 300
+WASHINGTON, DC 20001-5303 (US) (57) ABSTRACT
+(73) Assignee: Quantel Medical, Clermond Ferrand
+(PR) The inventive probe comprises a tubular body (1, 2) that
+accommodates a transducer (11), Which emits a focussed
+(21) Appl' No‘: 10/590566 incident ultrasonic Wave toWard structures to be examined
+. and Which receives the ultrasonic Waves re?ected b these
+(22) PCT Filed~ Feb 25 2005 y
+' ' ’ structures. This transducer (11) is coupled to actuating
+(86) PCT NO; PCT/FR05/00465 means (4), comprises a piezoelectric assembly (15) capable
+of focussmg the em1tted beams and, adjacent to this assem
+§ 371(c)(1), bly, comprises a spherical layer (20) made of a material that
+(2), (4) Date; Aug, 24, 2006 ensures a good transmission of the ultrasonic Waves.
+28 ' I
+Q l
+.32
+Patent Application Publication Nov. 29, 2007 Sheet 1 0f 3 US 2007/0276249 A1
+FIG? 7, 2O 16
+75 23
+8
+72
+73
+22
+74
+77
+70
+O)
+7
+Patent Application Publication Nov. 29, 2007 Sheet 2 0f 3 US 2007/0276249 A1
+76.20
+17 75
+FIG.2
+' 23
+22
+79 ' 78
+w 77
+9
+6 70
+5
+3
+Patent Application Publication Nov. 29, 2007 Sheet 3 0f 3
+FIG.3
+FIG.4
+30 29
+I11
+28
+US 2007/0276249 A1
+26
+US 2007/0276249 A1
+ECHOGRAPHIC PROBE WTIH SECTOR
+SCANNING USING A TRANSDUCER CAPABLE OF
+COMING INTO CONTACT WITH THE
+STRUCTURE TO BE EXAMINED
+[0001] The invention relates to an echographic probe With
+sector scanning using a transducer capable of coming into
+contact With the structure to be examined.
+[0002] It is notably but not exclusively applied to echog
+raphy of eye structures.
+[0003] Generally, it is knoWn that in opthalmology, 2-D
+echography at 10 MHZ is used in current practice for
+exploring the anatomy and pathologies of eye structures and
+more particularly that of the posterior pole (retina, optical
+nerve, vitreous).
+[0004] The technique of the probes uses sector scanning,
+With Which probes may be obtained of small siZes, com
+paratively to bar probes.
+[0005] In order to perform this type of scan, echographic
+probes are used, including an open tubular casing in its front
+portion and the inner volume of Which is divided into tWo
+compartments by a sealed partition, i.e.:
+[0006] a rear compartment Which extends on the side of
+the bottom of the casing: this compartment comprises
+motoriZation and poWer supply circuits for the control
+and processing parts of the apparatus,
+[0007] a front compartment adjacent to the aperture of
+the casing, Which contains a mobile transducer as Well
+as all or part of its actuation mechanism.
+[0008] The aperture of the front compartment is usually
+closed by a ?exible or hard sealed membrane, in order to
+obtain a sealed interior space containing a coupling liquid
+Which should have high transmissibility for ultrasonic
+Waves.
+[0009] This membrane Which is intended to come into
+contact With the eye of the patient, should be made in a
+biocompatible material Which does not damp high frequency
+ultrasound. lt con?nes the coupling liquid While alloWing
+the eye to be protected from any accidental contact With
+mechanical parts, i.e., notably the transducer and/or its
+actuation mechanism. NoW, these are results Which are
+dif?cult to obtain, Which explains the invention’s advantage
+of reducing these problems to the making of the transducer
+itself, i.e., at the source of ultrasound, so as to be able to act
+more easily on the global features of the transducer.
+[0010] Echographic apparatuses of this type nevertheless
+prove to have a certain number of draWbacks. Indeed:
+[0011] Before reaching the eye, the ultrasonic Wave
+focused by the concave curvature of the pieZoelectric ele
+ment of the transducer, has to pass through several layers of
+material having different properties and this, With different
+propagation velocities, the path of these Waves inside these
+layers varying according to the (variable) position of the
+transducer.
+[0012] This causes variations in the focal length of the
+transducer and inaccuracies in the obtained echographic
+image.
+[0013] Moreover, it is seen that in the case of a high
+frequency transducer (from 15 MHZ), liquids and mem
+Nov. 29, 2007
+branes become increasingly absorptive. Consequently, the
+frequencies Which effectively penetrate the tissues are much
+less than the frequencies emitted by the transducer.
+[0014] Thus, as an example, for a transducer emitting With
+a frequency of 20 MHZ, the transmitted central frequency
+Will be 18 MHZ With a loss of 10 dB.
+[0015] Within the scope of open probes, all these draW
+backs are suppressed since the coupling medium consists in
+a Water bath Which has good acoustic properties. HoWever,
+the transducer performs its motion at a very small distance
+from the structure to be examined and even ifit has a circular
+shape, its edges are aggressive and accordingly, it is not
+possible to suppress any risk oftrauma by accidental contact
+of the transducer With the eye (scratching of the cornea by
+the circular edge of the transducer).
+[0016] Accordingly, more particularly, the object of the
+invention is to suppress these draWbacks.
+[0017] For this purpose it proposes an echographic probe
+With sector scanning comprising a tubular body at least
+partially housed in its front end, a transducer designed so as
+to emit an incident ultrasonic Wave focused in the direction
+of the structures to be examined and to receive ultrasonic
+Waves generated by these structures under the effect of this
+incident Wave, this transducer being associated With actua
+tion means so as to be able to perform displacements, at least
+partially in rotation in order to obtain a sector scan of the
+structures to be examined.
+[0018] According to the invention, the transducer com
+prises a pieZoelectric assembly having a poWer of focusing
+emitted beams While having at its end, an axisymmetric
+surface, the generatrix of Which has a curved shape and the
+director axis of Which corresponds to the axis of rotation of
+the transducer, this surface being intended to come into
+contact With the structure to be examined. This curved shape
+may be circular in order to obtain a toric shape or a spherical
+shape.
+[0019] By means of these arrangements, the presence of
+any aggressive edge in the transducer portion Which may
+come into contact With the eye is suppressed. The ?rst
+problem of the open probes is thereby solved, as the trans
+ducer Will no longer be a member capable of damaging the
+eye and this, even in the case of a Wrong move by the
+clinician. On the other hand, the material used is such that
+it Withstands all decontamination protocols With soakings.
+[0020] With the direct transducer/tissue-to-be-examined
+contact, the aforementioned inaccuracies may be avoided.
+Only the application of a gel on the tissues is required for
+providing good transmission of ultrasound.
+[0021] The frequencies Which effectively penetrate into
+the tissues are actually those emitted by the transducer.
+[0022] Embodiments of the invention Will be described
+hereafter, as non-limiting examples, With reference to the
+appended draWings Wherein:
+[0023] FIG. 1 is an axial section ofa probe With a spherical
+transducer;
+[0024] FIG. 2 is a 90° axial section of the section illus
+trated in FIG. 1;
+US 2007/0276249 A1
+[0025] FIG. 3 is a sectional vieW With a reduced scale of
+a probe of the type shown in FIGS. 1 and 2 applied on the
+eye of a patient;
+[0026] FIG. 4 is a schematic illustration of an alternative
+embodiment of the probe according to the invention.
+[0027] In the example illustrated in FIGS. 1 and 2, the
+probe has a double-Walled tubular body, partly illustrated,
+including an outer Wall 1, for example in stainless steel, and
+an inner Wall 2, for example in plastic.
+[0028] The inner Wall 2 delimits tWo successive compart
+ments, i.e.:
+[0029] a rear compartment 3, in Which is housed a
+coaxial gear motor 4, the central shaft 5 ofWhich drives
+into rotation a driving rotating plate 6 bearing a per
+manent magnet 7, and
+[0030] a front compartment 8, open at its end opposite
+to the posterior compartment 3.
+[0031] The separation betWeen both compartments 3, 8, is
+provided by a spherical partition 9, obtained by molding or
+machining With the inner Wall 2 and the concavity of Which
+is directed toWards the front compartment 8. This spherical
+partition 9 is found in the extension of an inner ?ange 10
+forming a throat betWeen both chambers 3, 8.
+[0032] The permanent magnet 7 housed in a cavity of the
+rotating plate 6 has a cylindrical and frustro-conical shape
+obliquely centered relatively to the drive axis 5 of the motor
+4 and the large base of Which extends tangentially to the
+spherical partition 9.
+[0033] Inside the front chamber 8, a spherical transducer
+11 is rotatably mounted, including a main supporting part 12
+With a substantially cylindrical shape and a staged bore,
+rotatably mounted on the inner Wall 2 by means of tWo
+coaxial pins 13, 14, centered perpendicularly to the main
+axis of the part 12. In this example, both pins 13, 14 are
+borne by bearings mounted in coaxial cylindrical housings
+provided in the inner Wall 2.
+[0034] This main supporting part 12 comprises on one side
+at a predetermined distance from the axis ofboth pins 13, 14,
+a bore discontinuity delimiting a cavity open outWards in
+Which a pieZoelectric assembly 15 is positioned, having a
+outWard focusing poWer and its outer shape 20 of Which is
+spherical.
+[0035] On the side of the axis of the pins, opposite to the
+element 15, the main supporting part forms a shell Which
+delimits a cavity into Which a drive permanent magnet 17 is
+engaged, having a spherical surface centered perpendicu
+larly to the axis ofthe pins 13, 14, thereby ?tting to the shape
+of the spherical partition 9.
+[0036] On the lateral sides ofthe main supporting part 12,
+Which extend parallel to the axis of the pins 13, 14, tWo
+respective side magnets 18, 19 are attached (FIG. 2),
+intended for cooperating With a Hall effect detector in order
+to determine the angular position ofthe transducer 11. These
+side magnets 18, 19 have an outer spherical shape concentric
+With the transducer 11.
+[0037] According to the invention, the front part of the
+transducer 11 (located on the side of the pieZoelectric
+element, relatively to the axis of the pins) is coated With a
+Nov. 29, 2007
+molded material layer 20 With high transmissibility for
+ultrasonic Waves emitted by the pieZoelectric assembly 15.
+[0038] In this example, this layer 20, Which has a spherical
+outer surface coaxial With the transducer 11, stops at a height
+of about 5° relatively to the equatorial plane of the trans
+ducer 11. This layer 20 coats the transducer su?iciently so as
+to provide contact With the structures to be explored during
+the Whole rotation.
+[0039] The seal betWeen the outer 7 and inner 2 Walls in
+the vicinity of the ori?ce, is for example provided by a
+elastomeric gasket 22 With a cylindrical shape including a
+radial ?ange 23 directed toWards the inside, Which Will cover
+the end ofthe inner Wall 2 in order to rest With its inner edge
+on the spherical surface of the layer 20.
+[0040] With this gasket 22, it is therefore possible to avoid
+introduction of liquid or solid material inside the front
+chamber 8 of the probe 11.
+[0041] By means ofthe arrangements described earlier, by
+supplying electrical energy to the motor 4, the rotary plate 6
+and therefore the magnet is caused to rotate, the magnet
+performing a circular trajectory around the longitudinal axis
+of the probe in the immediate vicinity of the spherical
+partition 9.
+[0042] Under the effect of the rotating magnetic ?eld
+generated by the magnet 7, the permanent magnet 17 is
+subject to an attractive/repulsive force Which causes an
+alternating rotary movement of the spherical transducer 11
+around the axis of the pins 13, 14. The transducer 11
+performs a sector scan, the angular position of Which is
+detected by means of the action of the side magnets 18, 19
+on the Hall effect detector.
+[0043] The front part ofthe spherical transducer 11, Which
+emerges from the ?ange 23 of the elastomeric gasket 22,
+may be directly put into contact With the eye, as indicated in
+FIG. 3. Only a slight gel layer may be applied on the eye to
+provide good transmission ofultrasound and to improve the
+sliding betWeen the eye and the spherical transducer.
+[0044] Of course, the invention is not limited to the
+embodiment described earlier.
+[0045] Thus, for example, the probe 25 (FIG. 4) may
+comprise a spherical transducer 26 rotatably mounted
+around an axis parallel to the longitudinal axis of the body
+of the probe 25.
+[0046] In this case, the pieZoelectric element 27 may be
+centered perpendicularly to the axis of rotation of the
+transducer 26 as illustrated in FIG. 4.
+[0047] In this case, the pieZoelectric assembly 27 is coated
+in a spherical part 28 in a material providing proper trans
+mission of ultrasonic Waves.
+[0048] Driving the assembly 27 into rotation is here pro
+vided by means of a motor 31 coaxial With the probe and the
+output shaft thereof connected to the transducer by means of
+a transmission component 32, provides the mechanical
+attachment of the spherical part 28.
+[0049] The electrical connection of the active component
+is achieved by the screW connector 35 of the SMC or
+equivalent type, accessible through the recessed portions of
+the transmission element 32. A permanent magnet 29 facing
+US 2007/0276249 A1
+a Hall effect sensor 30 integral With the casing of the probe
+25, enables the position information to be sent back to the
+card 33 controlling the motor for an alternating reciprocal
+movement.
+[0050] Taking into account the fact that the angular sector
+scanned by the transducer 27 is centered perpendicularly to
+the axis of the probe 25, the front end of the body of the
+probe 25 ends on one side as a slightly curved bevel so as
+to delimit an oblique aperture and to expose the useful area
+ofthe transducer 27 Which should be applied to the eye. The
+advantage of this solution consists in that during echogra
+phy, vision of the eye of the patient by the operator is only
+very partially hidden by the probe 25 (only by its front end).
+The hand Which holds the probe 25 Will be outside the ?eld
+of vision, Which Was not the case in the example described
+earlier.
+[0051] Moreover, the movements ofthe transducer are not
+limited to simple alternating rotational movements. Indeed,
+these movements may be ofthe arc-shaped type. In this case,
+the transducer may be mounted on an actuated device for
+example of the type of the one Which is described in Patent
+Application NO 02 05780 as of May 7, 2002, on behalfofthe
+applicant.
+[0052] In this case, the spherical shape of a transducer
+provides considerable limitation of the risk of any accident.
+1. An echographic probe With sector scanning comprising
+a tubular body at least partly housed in its front end, a
+transducer designed to emit an incident ultrasonic Wave
+focused toWards the structures to be examined and to receive
+ultrasonic Waves generated by these structures under the
+effect of this incident Wave, this transducer being rotatably
+mounted inside the probe around an axis of rotation and
+being coupled With actuating means so as to be able to
+perform displacements at least partly in rotation relatively to
+the probe in order to obtain a sector scan of the structure to
+be examined, Wherein the transducer comprises a pieZoelec
+tric assembly having poWer for focusing the emitted beams
+and adjacent to this assembly, a layer made in a material
+providing good transmission of ultrasonic Waves, this layer
+having, opposite to said pieZoelectric component, a convex
+axisymmetric outer surface, the generatrix of Which has a
+curved shape and the director axis of Which corresponds to
+the axis ofrotation ofthe transducer so as to be able to come
+into contact With the structure to be examined.
+Nov. 29, 2007
+2. The probe according to claim 1, Wherein the aforesaid
+generatrix has a circular shape.
+3. The probe according to claim 1, Wherein the aforesaid
+axisymmetric surface is spherical.
+4. The probe according to claim 1, Wherein the transducer
+comprises a permanent magnet cooperating With a Hall
+effect sensor integral With the body in order to provide
+detection of the position of said transducer.
+5. The probe according to claim 1, Wherein the transducer
+is rotatably mounted on the tubular body along an axis of
+rotation and comprises a ?rst permanent magnet located
+opposite the pieZoelectric component relatively to said axis,
+contactless actuation of said transducer being provided by
+means of a second permanent magnet mounted on a rotary
+driving plate Which performs a circular trajectory centered
+perpendicularly to said axis of rotation.
+6. The probe according to claim 5, Wherein the aforesaid
+transducer and the aforesaid drive plate provided With the
+aforesaid second permanent magnet are positioned in tWo
+compartments of the body, separated by a partition, respec
+tively.
+7. The probe according to claim 6, Wherein the aforesaid
+partition has a spherical shape concentric With the aforesaid
+transducer.
+8. The probe according to claim 1, Wherein said tubular
+body is With double Walls, the seal betWeen both Walls at the
+ori?ce of the body crossed by the transducer is provided by
+a cylindrical gasket including a radial ?ange directed
+inWards, the interior edge of Which Will rest on the spherical
+surface of the transducer.
+9. The probe according to claim 1, comprising an at least
+partially spherical transducer mounted around an axis par
+allel to the longitudinal axis of the body of the probe, this
+transducer including a pieZoelectric element centered per
+pendicularly to the axis of rotation of the transducer; the
+front end ofthe body ofthe probe ending as a bevel in order
+to delimit an oblique aperture exposing a useful area of the
+transducer centered transversally to the longitudinal axis of
+the body.
+10. The probe according to claim 1, Wherein the aforesaid
+transducer is mounted on an actuation mechanism With
+Which an arc-shaped scan may be obtained.
+

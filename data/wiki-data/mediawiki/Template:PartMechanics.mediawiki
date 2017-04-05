@@ -1,0 +1,11 @@
+# Template:PartMechanics
+
+==== '''FPGA-related bibliography''' ====
+* Structuring a whole ultrasound system on a board: an excellent thesis from P. Levesques (Kyvox),  [[File:2011 PhilippeLevesque.pdf]].
+** A first corresponding article: [[:File:Real-Time Hand-Held Ultrasound Medical-Imaging Device Based on a New Digital Quadrature Demodulation Processor.pdf]]
+** the second corresponding article: [[:File:Novel Low-Power Ultrasound Digital Preprocessing Architecture for Wireless Display.pdf]]
+* Hardware-Software Partitioning of Digital Signal Processing in Ultrasound Medical Devices a Case Study : [[File:Hardware-Software Partitioning of US probes.pdf]]
+* [[:File:A Single FPGA-Based Portable Ultrasound Imaging System for Point-of-Care Applications.pdf]]
+* [[:File:Low-Cost, High-Speed Back-End Processing System for High-Frequency Ultrasound B-Mode Imaging.pdf]]
+* Xilinx WhitePaper: portable ultrasound system : http://www.xilinx.com/support/documentation/white_papers/wp378-Xilinx-in-Portable-Ultrasound.pdf
+[[Category:FPGA]]

@@ -1,0 +1,105 @@
+1.  MiniVisor
+
+Richard Ernest Soldner was born in 1935 in Nurnberg, Germany. After
+graduating from school in 1950 he became trainee and toolmaker with
+Siemens AG between 1950 and 1954. He received a scholarship from Siemens
+AG in 1955. From 1956-1960 Soldner completed a study of high-frequency
+engineering at the Ohm polytechnic institute, Nurnberg, the forerunner
+of the professional school. In 1960 he started work at the Department of
+Electromedicine at Siemens AG in Erlangen as development engineer in the
+area of accoustics, ultrasonic therapy and sonar metal flaw diagnostics.
+Other engineers who were there included Walter Erich Krause and Otto
+Heinz Kresse.
+
+Siemens was a long-time maker of medical equipment, including X-ray
+apparatus. After Guttner had shown the impossibility of transmission
+imaging of the skull in 1952 (see Dussik), Siemens lost interest in
+diagnostic ultrasound. At around 1950 both Siemens and the smaller
+company Krautkramer, based in Cologne, started to make flaw-detecting
+equipment. Located close to the steel industry', Krautkramer had
+provided better service than Siemens, and ran a more profitable
+operation. Siemens decided to stop producing flaw-detection equipment in
+1956. It was Carl Hellmuth Hertz who revived the company's interest in
+diagnostic ultrasound. Hertz adapted three of their flaw detectors in
+1957 for cardiac investigations, and these were placed in hospitals in
+Germany. Sven Effert used it with good success in his hospital at
+Dusseldorf, and initiated ultrasound's use in echocardiography. Others
+such as S Blume contributed to some of the early electronics employed in
+the ultrasonic work.
+
+Directly into the making of B-mode scanners, Soldner and others at
+Siemens felt at that time the compound devices of Howry and Bliss in
+Denver and of Ian Donald in Scotland were too static to be
+diagnostically useful. They began work on an apparatus which will
+furnish a moving picture on the screen, which was particularly suited
+for Obstetrical work.
+
+This led to the development of the device Vidoson, which had a
+relatively large, somewhat unmanageable ultrasound transducer head. By
+turning the transducer against a parabolic reflector, a wide useful
+picture in real-time sequences of more than 10 frames per second could
+be obtained. Initial testing was done at the University of Wurzburg and
+the image quality was however disappointing with both poor lateral
+resolution and penetration. The device took another two years to
+perfect. The final version had a much improved mirror and electronics,
+had 2 focused tranducers mounted on a small wheel and producing
+real-time images at 15 frames per second. The output was fed into an
+advanced Krautkramer oscilloscope.
+
+Prototypes of these devices were field-tested by Hans J. Hollander,
+Gynaecologist at the University of Munster in 1964 and by E Gerhard
+Rettenmaier, Internist at the Erlangen Medical Clinic in the following
+year. The real-time device was received with great enthusiasm. The
+models 635/635S, 635ST, 735 and 735SM were commercially available from
+1965 onwards. More than 3000 units were sold.
+
+D Hofmann, Hans Holländer and P Weiser published it's first use in
+Obstetrics and Gynecology in 1966 in the German language. Hofmann and
+Holländer's paper in 1968 on "Intrauterine diagnosis of hydrops fetus
+universalis using ultrasound" also in German, is probably the first
+paper in the medical literature describing formally the diagnosis of a
+fetal malformation using ultrasound.
+
+Malte Hinselmann, in Switzerland, using the Vidoson, demonstrated in
+1969 the universal visualization of fetal cardiac action from 12 weeks
+onwards. The Vidoson was popular in the ensuing 10 years or so and were
+used in many scientific work published from centers in Germany, France,
+Switzerland, Austria, Belgium, Italy and some other European countries.
+The initial popularity was not based on its image resolution but rather
+its ability to allow the operator to display and study movements, such
+as fetal cardiac motion, gross body movements and fetal breathing
+movements. The device nevertheless did not sell well in non-German
+speaking countries and particularly in North America (see" Obstetric US
+imaging: the First 40 Years" by Dr. Barry Golberg).
+
+Due to the handling problem of the large sound head with the Vidoson
+Soldner also developed in 1968 smaller handy linear array transducer
+heads. The group in 1971 put out improved versions of the scanner with
+multi-channel dynamic focusing using annula arrays. 1970-1977 further
+advancements took place in form of the device Echopan and also from
+doppler systems in form of the device Partecast.
+
+Between 1977 and 1981 Soldner was active in the USA and participated in
+the system testing and special development of an ultrasonic transmission
+camera, which operated in the time of flight procedure. From 1981 up to
+his retirement in 1994, Soldner worked as a Senior engineer at Siemens
+AG, particularly in standardization procedures in IEC and TC 87. He also
+participated and in various ultrasonic reference committees in the
+federation KV in Cologne.
+
+Today Soldner takes care of the devices of the ultrasound museum of the
+Deutsche Gesellschaft für Ultraschall in der Medizin (DEGUM) in Dresden
+and repairs the apparatus personally and keeps them in constantly
+functioning conditions. His efforts determined not only the developments
+at Siemens AG, but also the development of medical ultrasonics in
+general.
+
+-   Read an Interview with Richard Soldner on the development
+    of ultrasound.
+-   Read also an article 40 Years of Realtime-Ultrasound Diagnostics by
+    Hans Holländer.
+-   Read also a history of the development of ultrasonography at
+    Siemens, Germany.
+
+<Category:Historique> <Category:Sonde> <Category:Balayage>
+<Category:Inventor>
