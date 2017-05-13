@@ -2,8 +2,8 @@
 
 Listing some information on the different platforms already used:
  
-* [Slack](slack.md)
-* [Basecamp 2](bc2.md)
-* [Basecamp 3](bc3.md)
-* [PDF](pdf.md)
-* [Wiki](wiki.md)
+* [Slack](slack.html)
+* [Basecamp 2](bc2.html)
+* [Basecamp 3](bc3.html)
+* [PDF](pdf.html)
+* [Wiki](wiki.html)
