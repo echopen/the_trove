@@ -2606,7 +2606,7 @@ pouvoir en motiver un a échanger ici?
 Hyacinthe Lacenne posted this Mar 19, 2016 at 7:14 PM · 1 person applauded
 
 la team de Tedx est revenu vers nous pour nous faire intervenir à l'occas de
-leur deuxième gros event de l'année : l'échappée  
+leur deuxième gros event de l'année : `l'échappée`  
   
 au pgm 3 jours : conf + ateliers de sensibilisation/onboarding (RH +
 financeurs) + rencontre.  
@@ -3091,7 +3091,7 @@ La version anglaise de l'article : <http://www.makery.info/en/2016/03/29
 
 ### **Hyacinthe Lacenne** - Nov 01, 2016 at 10:53 AM
 
-une équipe de chercheurs de la Simon Bhyacinthear University nous a contacté ce
+une équipe de chercheurs de la `Simon Bhyacinthear University` nous a contacté ce
 matin car ils souhaitent concevoir un échographe frugal à usage pour les pays
 du Sud, et souhaitent faire cela avec nous ;)  
 après Bruxelles, notre 2ème entité d'internationalisation -&gt; à suivre, on
@@ -3145,7 +3145,7 @@ _la page de FAQ_
 
   
 
-_le groupe de pages correspond à l'onglet Enjeux sur la home_
+_le groupe de pages correspond à l'onglet `Enjeux` sur la home_
 
 <http://echopen.org/>
 
@@ -3759,7 +3759,7 @@ une conséquence pratique sera de mener une refonte de l'orga des  repo.
 btw,  ![Hyacinthe Lacenne, echopen](./../../zz_assets/images/avatars/2157822.png)
 Hyacinthe  en collatéral de l'holacratie, ce serait pas mal d'adopter un  
 [Contributor Covenant](http://contributor-
-covenant.org/version/1/4/code_of_conduct.md), dont rails est adopteur
+covenant.org/version/1/4/code_of_conduct.md), dont `rails` est adopteur
 
 ### **Hyacinthe Lacenne** - Jul 17, 2016 at 10:06 AM
 
@@ -3895,10 +3895,10 @@ Hyacinthe Lacenne posted this Jan 18, 2016 at 5:15 PM
 
 hello,  
   
-notre github mérite un coup de cleaning. J'ai supprimé le repo vide soft  
+notre github mérite un coup de cleaning. J'ai supprimé le repo vide `soft`  
   
-que fait-on du repo hard &amp; such  ? je vais demander à Yannick pour
-image builder  
+que fait-on du repo `hard` &amp; such  ? je vais demander à Yannick pour
+``image builder`  
   
 @++
 
@@ -6159,13 +6159,13 @@ ah bah j'ai suivi ton lien ;)
 en effet, ce n'est pas une bonne pratique de mettre cela dans le head, et c ce
 que fait les instructions js du LocalSettings.  
   
-à la console, javais un message d'erreur ReferenceError: GoogleAnalytics is
-not defined et en effet j'en ai  trouvé la trace dans MediaWiki:Common.js,
-il y a avait une extension genre {{mediawiki:googleanalytics}}. c toi ? on
+à la console, javais un message d'erreur `ReferenceError: GoogleAnalytics is
+not defined` et en effet j'en ai  trouvé la trace dans `MediaWiki:Common.js`,
+il y a avait une extension genre 'mediawiki:googleanalytics'. c toi ? on
 doit toujours avoir 0 erreurs à la console ;). anyway me suis permis de le
 supprimer  
   
-j'ai mis le code dans MediaWiki:Common.js protégé par un async loader
+j'ai mis le code dans `MediaWiki:Common.js` protégé par un async loader
 
 ### **Hyacinthe Lacenne** - May 23, 2016 at 4:47 PM
 
@@ -6949,7 +6949,7 @@ la semaine qui vient
 
 \- les reverse engeneerer par réseaux de neurones. A ce titre, Djalel,
 animateur du groupe IA d'echOpen était présent, car important de maintenir une
-articulation entre le groupe Image processing et le groupe IA et a donné
+articulation entre le groupe `Image processing` et le groupe `IA` et a donné
 des pistes de travail : débruitage, compression du signal  
   
 au plan pratique, les membres du groupe choisissent de se retrouver tous les
@@ -7601,7 +7601,7 @@ _la page de FAQ_
 
   
 
-_le groupe de pages correspond à l'onglet Enjeux sur la home (avec trad des
+_le groupe de pages correspond à l'onglet `Enjeux` sur la home (avec trad des
 ongles)_
 
 <http://echopen.org/>  
@@ -9154,7 +9154,7 @@ un thread dédié au design : indus/app
 ### **Hyacinthe Lacenne** - Nov 01, 2016 at 10:50 AM
 
 un [design camp](https://echopen.github.io/UXCamp20161025.html) était organisé
-le 25.10.11 à des fins d'UX. L'output est un templating psd prêt à être
+le 25.10.11 à des fins d'UX. L'output est un templating `psd` prêt à être
 intégré  
   
 gros sujet complexe car l'opérateur  
@@ -9163,10 +9163,10 @@ gros sujet complexe car l'opérateur
 intuitivement  
   
 \- doit utiliser le device d'une seule main, car l'autre tient la sonde et est
-souvent pleine de gel, ce qui prévient tout usage de type click  
+souvent pleine de gel, ce qui prévient tout usage de type `click`  
   
 On a eu des design high level, qui ont craqué le sujet. Thomas Robillard, web
-designer de l'epitech en stage chez echOpen a produit les psd. Ces derniers
+designer de l'epitech en stage chez echOpen a produit les `psd`. Ces derniers
 sont ouverts à la co-contribution sur InVision.  
   
 Les templates sont stabilisés pour jeudi, date du workshop d'intégration
@@ -9470,7 +9470,7 @@ If I understand well, you have some simulated data running on a local TCP
 server and you want to bring them in the app. If this is the case, you have
 indeed to follow the doc and then I think we'll have to interact together in
 order to fine tune the configuration settings that you'll find int the
-Hyacinthes class. Moreover our hyacinthes are set in 1 element probe context,
+`Hyacinthes` class. Moreover our hyacinthes are set in 1 element probe context,
 so we should adapt them. We are at disposal to work on that.  
   
 If you don't have any simulated data, we could work and ship to you a TCP
@@ -9566,7 +9566,7 @@ fake data of your TCP server and set correctly the hyacinthes.
 What I propose  you is to have some skype meeting in order for me to show you
 what are the main configuration setting that need to be set
 
-in the Hyacinthes class. It will be the opportunity to present you the state
+in the `Hyacinthes` class. It will be the opportunity to present you the state
 of the art of our work and we will measure the interactions we can have.
 
   
