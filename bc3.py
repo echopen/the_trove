@@ -87,6 +87,9 @@ for item in Messages:
 
 		#print MessageBC2
 
+	BC2 = MessageBC2.replace("\n\n", "$$$$$$$")
+	BC2 = MessageBC2.replace("\n", "")
+	BC2 = MessageBC2.replace("$$$$$$$", "\n\n")
 
 	file = open("./bc3-data/"+SaveFile, 'w')
 	file.write(MessageBC2)
