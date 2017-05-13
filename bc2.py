@@ -76,6 +76,9 @@ for item in Messages:
 		    MessageBC2 += "### "+Clean(comment.find_all('p')[0]) +"\n\n" 
 		    MessageBC2 += Clean(comment.find_all('div', {'class' : 'content'})[0]) +"\n\n"
 		    titre = ""
+	BC2 = MessageBC2.replace("\n\n", "$$$$$$$")
+	BC2 = MessageBC2.replace("\n", "")
+	BC2 = MessageBC2.replace("$$$$$$$", "\n\n")
 
 	BigFile += "\n\n"+MessageBC2
 	file = open("./bc2-data/"+SaveFile, 'w')
