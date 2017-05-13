@@ -38,7 +38,8 @@ def Clean(txt):
 	oldPath = "./../../echopen-155345/all%20files%20-%20images%20pdfs%20spreadsheets%20etc/"
 	newPath = "bc3-raw/files/"
 	CleanTxt = CleanTxt.replace(oldPath,newPath)
-	CleanTxt = CleanTxt.replace("`","")
+	CleanTxt = CleanTxt.replace("{{","")
+	CleanTxt = CleanTxt.replace("}}","")
 	return CleanTxt.strip()
 
 
