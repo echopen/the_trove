@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import re
 import os
 import urllib2
+import datetime
 import html2text
 
 import sys
@@ -17,32 +18,61 @@ sys.setdefaultencoding('utf-8')
 
 Messages = []
 
-Noms = ["Mehdi","Kelu","Olivier","Jerome","Jérôme","Jérome","Jerôme","Benoit","Vincent","Constant","Benoît","Pierre","Carlos","Farad","Laurel","Oliv","Luc"]
-Family = ["Benchoufi","De Fresnoye","de Fresnoye", "De fresnoye", "Jonveaux","Vincent","Dubois","Bourdeloux"]
+Noms = ["Mehdi","Kelu","Olivier","Emilie","Djalel","Benjamin","Muriel","Jerome","Jérôme","Jérome","Jerôme","Benoit","Vincent","Constant","Benoît","Pierre","Carlos","Farad","Laurel","Oliv","Luc"]
+Family = ["Benchoufi","De Fresnoye","Mayer","Vincent","KHOYRATEE","de Fresnoye", "De fresnoye", "Jonveaux","Vincent","Dubois","Bourdeloux","LICCIONI"]
 
 BigFile = ""
 
 def Clean(txt):
 	CleanTxt = str(txt)
 	CleanTxt = html2text.html2text(CleanTxt)
-	CleanTxt = CleanTxt.replace("<br/>","")
+	CleanTxt = CleanTxt.replace("<br/>"," ")
+	CleanTxt = CleanTxt.replace("\n\n","$$$$$$")
+	CleanTxt = CleanTxt.replace("\n"," ")
+	CleanTxt = CleanTxt.replace("$$$$$$","\n\n")
+
+	CleanTxt = CleanTxt.replace("  "," ")
+	CleanTxt = CleanTxt.replace(" ]","]")
+	CleanTxt = CleanTxt.replace("[ ","[")
+
 	for nom in Noms:
 		CleanTxt = CleanTxt.replace(nom,"Hyacinthe")
-		CleanTxt = CleanTxt.replace(nom.lower(),"hyacinthe")
+		CleanTxt = CleanTxt.replace(nom.lower(),"Hyacinthe")
 	for family in Family:
 		CleanTxt = CleanTxt.replace(family,"Lacenne")
 		CleanTxt = CleanTxt.replace(family.lower(),"lacenne")
 
-	CleanTxt = CleanTxt.replace("lacenne hyacinthe","Hyacinthe Lacenne")
+	CleanTxt = CleanTxt.replace("lacenne hyacinthe","Hyacinthe")
+	CleanTxt = CleanTxt.replace("hyacinthe lacenne","Hyacinthe")
+	CleanTxt = CleanTxt.replace("Hyacinthe VINCENT","Hyacinthe")
+	CleanTxt = CleanTxt.replace("Hyacinthe LACENNE","Hyacinthe")
+	CleanTxt = CleanTxt.replace("Hyacinthe Lacenne","Hyacinthe")
+	CleanTxt = CleanTxt.replace("lacenne Hyacinthe","Hyacinthe")
 
 	oldPath = "./../../echopen-155345/all%20files%20-%20images%20pdfs%20spreadsheets%20etc/"
 	newPath = "bc3-raw/files/"
 	CleanTxt = CleanTxt.replace(oldPath,newPath)
 	CleanTxt = CleanTxt.replace("{{","'")
 	CleanTxt = CleanTxt.replace("}}","'")
+	if GetDateBC3(CleanTxt)[0]:
+		CleanTxt = CleanTxt.replace(GetDateBC3(CleanTxt)[1],GetDateBC3(CleanTxt)[0])
+		#print "stripped!"
+	CleanTxt = CleanTxt.replace(",**","**")
+	CleanTxt = CleanTxt.replace("hyancinthe","Hyacinthe")
 	return CleanTxt.strip()
 
+def GetDateBC3(text):
+	match = re.search(r'[A-Za-z]{3} \d{2}, \d{4}', text)
+	#print match
+	if match:
+		rawdate =  str(match.group())
+		date= str(datetime.datetime.strptime(match.group(), '%b %d, %Y').date())
+		
+	else:
+		date = 0
+		rawdate = 0
 
+	return date,rawdate
 
 for root, directories, filenames in os.walk('./'):
 	for filename in filenames: 
@@ -65,9 +95,16 @@ for item in Messages:
 
 
 	titre = soup.find_all('h1', {'class' : 'flush--top'})[0]
-	MessageBC2 += Clean(titre) +"\n\n"
+	MessageBC2 += Clean(titre) +" "
 
-	MessageBC2 += str(Clean(soup.find_all('small', {'class' : 'metadata'})[0]))+"\n\n"
+	DateAChopper = str(soup.find_all('small', {'class' : 'metadata'})[0])
+	TimeSTAMP = ""
+	if GetDateBC3(DateAChopper)[0]:
+	    	TimeSTAMP += " - "+ GetDateBC3(DateAChopper)[0]
+	else:
+		TimeSTAMP += " - "+ DateAChopper
+	MessageBC2 += TimeSTAMP+"\n\n"
+
 
 	Contenu = soup.find_all('div', {'class' : 'formatted_content'})
 	if len(Contenu):
@@ -81,7 +118,11 @@ for item in Messages:
 		for comment in realComment:
 			if comment.find_all('strong', {'class' : 'thread-entry__author'}):
 			    MessageBC2 += "### "+Clean(comment.find_all('strong', {'class' : 'thread-entry__author'})[0])
-			    MessageBC2 += " - "+ Clean(comment.find_all('span', {'class' : 'thread-entry__metadata__time'})[0])
+			    Date = Clean(comment.find_all('span', {'class' : 'thread-entry__metadata__time'})[0])
+			    if GetDateBC3(Date)[0]:
+			    	MessageBC2 += " - "+ GetDateBC3(Date)[0]
+			    else:
+				MessageBC2 += " - "+ Date
 			    MessageBC2 += "\n\n" 
 			    MessageBC2 += Clean(comment.find_all('div', {'class' : 'formatted_content'})[0]) +"\n\n"
 
