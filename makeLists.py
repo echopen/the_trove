@@ -37,16 +37,16 @@ for item in Messages:
 	print item + " " + nom
 	if "bc2-data" in item:
 		
-		BC2 += "* ["+nom+"]("+item+")\n"
+		BC2 += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
 	if "bc3-data" in item:
-		BC3 += "* ["+nom+"]("+item+")\n"
+		BC3 += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
 	if "pdf-data" in item:
-		PDF += "* ["+nom+"]("+item+")\n"
+		PDF += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
 	if "slack-data" in item:
-		Slack += "* ["+nom+"]("+item+")\n"
+		Slack += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
 
 	if "wiki-data" in item:
-		Wiki += "* ["+nom+"]("+item+")\n"
+		Wiki += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
 
 
 file = open("wiki.md", 'w')

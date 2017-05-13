@@ -91,3 +91,19 @@
 1490028495.992276> @U38HVMZ6K: Regarding Android, the whole licensing topic should be clear as well. I know that Google rewrote some major parts of Android themselves partially for licensing reasons (bionic libc vs glibc) or changed some subcomponents to move away from GPL: e.g. Bluedroid stack (Apache 2.0) used instead of Bluez (GPL)
 1490028933.159763> @U0B47KC3S: btw <@U3QGT3Q74> just found a renderscript implemention of FFT :wink: it is under BSD3 licence
 1490032125.347326> @U3GHS132Q: Anyway if we have to FFT we will do it on the device so we do not have to argue a lot about FFTW and the android app just to keep it in mind :slightly_smiling_face:
+1490611890.925468> @U3GQS8JTZ: <@U3GQS8JTZ> has left the channel
+1492130498.817484> @U4YF0KAJU: <@U4YF0KAJU> has joined the channel
+1492491781.316873> @U38HVMZ6K: Regarding patents, a very interesting article: <http://www.economist.com/news/special-report/21720076-copycats-are-out-innovators-are-shenzhen-hothouse-innovation> ping <@U0AAL4W13> "Shenzhen shrug" is getting professional and aligning/taking over on other parts of the world...
+1492497075.256889> @U0AAL4W13: Yup.. Interesting !
+1492505345.978103> @U3GHS132Q: You post an article about patent in <#C07SRLVGD> ? Seriously ?
+1492505643.083687> @U38HVMZ6K: This ils where licenses, patents, copyrights and copylefts have been discussed so far. For your information, the channel name also includes "legal" and not only "opensource". Patents are a legal concept/issue. Any suggestion for a better channel where to post is welcome.
+1492505722.113878> @U38HVMZ6K: And for your information, patents and open source are not contradictory. If you want to guarantee free and open access to your technology you often fill a protective patent.
+1492505783.138088> @U38HVMZ6K: This was an option which was discussed for echOpen at some point. Clear out with <@U04DFTZ7D>  and <@U0B47KC3S>  to get the latest info on this.
+1492505801.144999> @U3GHS132Q: I know that it is possible to fill patent and being open source like Mozilla does
+1492505844.162115> @U3GHS132Q: But seriously you link the economist, do you think that it is about open source patent ?  &gt; Any suggestion for a better channel where to post is welcome. Yes : #prj_proprietary_hell or simply <#C04DFTZ81>
+1492550651.799983> @U0AAL4W13: <@U3GHS132Q> the content of the remark (shenzen scaling up and better) is of deep interest to me. I'm really convinced that an intelligent partnership with shenzen - the real cradle of building and selling "opensource" devices - is a powerful leverage in designing low cost, efficient devices from elementary bricks. They still lack some certification skills but that won't last long. 
+1492550739.824058> @U0AAL4W13: The rapidity at which these guys operates, building smartly on what exists, what plans/source they have, and to make devices people do need is the trademark of the real hacker craftmanship.
+1492550871.860211> @U0AAL4W13: They are doing single elements probes at 800$ and piezo arrays probes at 1400$, using quick and dirty tricks - fine with me. They have left code behind them and in practice they deliver hackable devices (even the Matlab code they used for their fpga), that enables good hacks.
+1492550879.862587> @U0AAL4W13: Proof: esp8266 ;) (reactions: @U38HVMZ6K)
+1493234493.995216> @U0FN1B8KD: <@U0FN1B8KD> has joined the channel
+1494484390.466296> @U0AAL4W13: Some pointers on tensorflow approach to cla:  <https://cla.developers.google.com/clas/new?domain=DOMAIN_GOOGLE&amp;kind=KIND_INDIVIDUAL> 
