@@ -1,13 +1,11 @@
 # Summary
 
 * [Slack](slack.md)
-    * [Slack](slack.html)
-* [Basecamp 2](bc2.md)
-    * [Basecamp 2](bc2.html)
+* [Basecamp 2](bc2.md) 
+    * [All BC2 data](bc2-data/Readme.md)
 * [Basecamp 3](bc3.md)
-    * [Basecamp 3](bc3.html)
+    * [All BC3 data](bc3-data/Readme.md)
 * [PDF](pdf.md)
-    * [PDF](pdf.html)
 * [Wiki](wiki.md)
-    * [Wiki](wiki.html)
+
 

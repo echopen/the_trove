@@ -20,6 +20,7 @@ Messages = []
 Noms = ["Mehdi","Kelu","Olivier","Jerome","Jérôme","Jérome","Jerôme","Benoit","Vincent","Constant","Benoît","Pierre","Carlos","Farad","Laurel","Oliv","Luc"]
 Family = ["Benchoufi","De Fresnoye","de Fresnoye", "De fresnoye", "Jonveaux","Vincent","Dubois","Bourdeloux"]
 
+BigFile = ""
 
 def Clean(txt):
 	CleanTxt = str(txt)
@@ -85,9 +86,16 @@ for item in Messages:
 
 
 		#print MessageBC2
+
+
 	file = open("./bc3-data/"+SaveFile, 'w')
 	file.write(MessageBC2)
 	file.close()
+	BigFile += "\n\n"+MessageBC2
+
+file = open("./bc3-data/Readme.md", 'w')
+file.write(BigFile)
+file.close()
 
 #html2text.html2text()
 
