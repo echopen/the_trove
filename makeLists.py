@@ -21,7 +21,7 @@ for root, directories, filenames in os.walk('./'):
 
 	for filename in filenames: 
 		#print os.path.join(root,filename) 
-		if ((".md" in filename) or (".txt" in filename)) and ("-data" in root):
+		if ((".md" in filename) or (".txt" in filename)) and ("-data" in root) and ("the_trove-raw" not in root):
 			Messages.append(os.path.join(root,filename) )	
 
 Wiki = "# Items in the Wiki\n\n"
@@ -37,16 +37,16 @@ for item in Messages:
 	print item + " " + nom
 	if "bc2-data" in item:
 		
-		BC2 += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
+		BC2 += "* ["+nom+"](https://echopen.gitbooks.io/the_trove/content/"+item.split(".")[0]+".html)\n"
 	if "bc3-data" in item:
-		BC3 += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
+		BC3 += "* ["+nom+"](https://echopen.gitbooks.io/the_trove/content/"+item.split(".")[0]+".html)\n"
 	if "pdf-data" in item:
-		PDF += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
+		PDF += "* ["+nom+"](https://echopen.gitbooks.io/the_trove/content/"+item.split(".")[0]+".html)\n"
 	if "slack-data" in item:
-		Slack += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
+		Slack += "* ["+nom+"](https://echopen.gitbooks.io/the_trove/content/"+item.split(".")[0]+".html)\n"
 
 	if "wiki-data" in item:
-		Wiki += "* ["+nom+"]("+item.split(".")[0]+".html)\n"
+		Wiki += "* ["+nom+"](https://echopen.gitbooks.io/the_trove/content/"+item.split(".")[0]+".html)\n"
 
 
 file = open("wiki.md", 'w')
