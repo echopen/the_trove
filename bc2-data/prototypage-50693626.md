@@ -130,7 +130,7 @@ Petit ping, me suis fait relancer par le fournisseur: on a pu essayer leurs
 transducteurs?  
   
 On Tue, Jun 7, 2016 at 8:12 PM, Hyacinthe Lacenne
-&lt;[kelu124@gmail.com](mailto:kelu124@gmail.com)&gt; wrote:
+&lt;[hyacinthe124@gmail.com](mailto:hyacinthe124@gmail.com)&gt; wrote:
 
 
 
@@ -142,7 +142,7 @@ Yop, les gars de SmartMaterials m'ont encore relancé, on a pu essayer ces
 piezos?  
   
 On Mon, Jun 20, 2016 at 4:22 PM, Hyacinthe Lacenne
-&lt;[kelu124@gmail.com](mailto:kelu124@gmail.com)&gt; wrote:
+&lt;[hyacinthe124@gmail.com](mailto:hyacinthe124@gmail.com)&gt; wrote:
 
 
 
