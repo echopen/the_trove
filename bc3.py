@@ -38,7 +38,7 @@ def Clean(txt):
 	oldPath = "./../../echopen-155345/all%20files%20-%20images%20pdfs%20spreadsheets%20etc/"
 	newPath = "bc3-raw/files/"
 	CleanTxt = CleanTxt.replace(oldPath,newPath)
-
+	CleanTxt = CleanTxt.replace("`","")
 	return CleanTxt.strip()
 
 
@@ -87,9 +87,7 @@ for item in Messages:
 
 		#print MessageBC2
 
-	BC2 = MessageBC2.replace("\n\n", "$$$$$$$")
-	BC2 = MessageBC2.replace("\n", "")
-	BC2 = MessageBC2.replace("$$$$$$$", "\n\n")
+
 
 	file = open("./bc3-data/"+SaveFile, 'w')
 	file.write(MessageBC2)

@@ -35,7 +35,7 @@ def Clean(txt):
 
 	CleanTxt = CleanTxt.replace("lacenne hyacinthe","Hyacinthe Lacenne")
 
-
+	CleanTxt = CleanTxt.replace("`","")
 	return CleanTxt
 
 
