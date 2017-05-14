@@ -10,7 +10,7 @@ yop, il y a des trucs sympas pour faire du breadboard avec des SMT, des "PCB bre
 
  
 
-  Ping  ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe
+  Ping  Hyacinthe Hyacinthe
 
 ### **Hyacinthe** - 2016-01-20 at 10:00 AM
 
@@ -40,27 +40,27 @@ Je viens juste de regarder, je n'ai pas trouvé de breakout pour boitier QSOP 20
 
 [
 
-![](bc3-raw/files/935595-20160120_082829.jpg)
+![](../bc3-images/935595-20160120_082829.jpg)
 
-](bc3-raw/files/935595-20160120_082829.jpg)
+](../bc3-images/935595-20160120_082829.jpg)
 
-[20160120_082829.jpg 2.15 MB • Download](bc3-raw/files/935595-20160120_082829.jpg)
-
-[
-
-![](bc3-raw/files/935600-20160120_004503.jpg)
-
-](bc3-raw/files/935600-20160120_004503.jpg)
-
-[20160120_004503.jpg 2.05 MB • Download](bc3-raw/files/935600-20160120_004503.jpg)
+[20160120_082829.jpg 2.15 MB • Download](../bc3-images/935595-20160120_082829.jpg)
 
 [
 
-![](bc3-raw/files/935603-20160120_004438.jpg)
+![](../bc3-images/935600-20160120_004503.jpg)
 
-](bc3-raw/files/935603-20160120_004438.jpg)
+](../bc3-images/935600-20160120_004503.jpg)
 
-[20160120_004438.jpg 2.08 MB • Download](bc3-raw/files/935603-20160120_004438.jpg)
+[20160120_004503.jpg 2.05 MB • Download](../bc3-images/935600-20160120_004503.jpg)
+
+[
+
+![](../bc3-images/935603-20160120_004438.jpg)
+
+](../bc3-images/935603-20160120_004438.jpg)
+
+[20160120_004438.jpg 2.08 MB • Download](../bc3-images/935603-20160120_004438.jpg)
 
 Premiers essais de tir avec le laser, ça ne se passe pas trop mal :
 
@@ -96,41 +96,41 @@ En fait j'ai regardé, ta formule ne donne pas un pas angulaire Hyacinthe :
 
 [
 
-![](bc3-raw/files/944822-psi_Hyacinthe.png)
+![](../bc3-images/944822-psi_Hyacinthe.png)
 
-](bc3-raw/files/944822-psi_Hyacinthe.png)
+](../bc3-images/944822-psi_Hyacinthe.png)
 
-[psi_Hyacinthe.png 81.4 KB • Download](bc3-raw/files/944822-psi_Hyacinthe.png)
+[psi_Hyacinthe.png 81.4 KB • Download](../bc3-images/944822-psi_Hyacinthe.png)
 
   mais donne un pas en z Hyacinthe sur le plan de projection : 
 
 [
 
-![](bc3-raw/files/944835-projection_Hyacinthe.png)
+![](../bc3-images/944835-projection_Hyacinthe.png)
 
-](bc3-raw/files/944835-projection_Hyacinthe.png)
+](../bc3-images/944835-projection_Hyacinthe.png)
 
-[projection_Hyacinthe.png 39.3 KB • Download](bc3-raw/files/944835-projection_Hyacinthe.png)
+[projection_Hyacinthe.png 39.3 KB • Download](../bc3-images/944835-projection_Hyacinthe.png)
 
   Avec ma formule c'est l'inverse, un pas angulaire Hyacinthe : 
 
 [
 
-![](bc3-raw/files/944908-regular_pulse2.png)
+![](../bc3-images/944908-regular_pulse2.png)
 
-](bc3-raw/files/944908-regular_pulse2.png)
+](../bc3-images/944908-regular_pulse2.png)
 
-[regular_pulse2.png 79.5 KB • Download](bc3-raw/files/944908-regular_pulse2.png)
+[regular_pulse2.png 79.5 KB • Download](../bc3-images/944908-regular_pulse2.png)
 
   et du coup un pas en z variable sur le plan de projection : 
 
 [
 
-![](bc3-raw/files/944932-projection_gg.png)
+![](../bc3-images/944932-projection_gg.png)
 
-](bc3-raw/files/944932-projection_gg.png)
+](../bc3-images/944932-projection_gg.png)
 
-[projection_GG.png 33.3 KB • Download](bc3-raw/files/944932-projection_gg.png)
+[projection_GG.png 33.3 KB • Download](../bc3-images/944932-projection_gg.png)
 
 ### **Hyacinthe** - 2016-01-20 at 4:45 PM
 
@@ -146,7 +146,7 @@ En fait, ta formule à l'avantage d'avoir un temps minimal entre deux pulses (au
 
 ### **Hyacinthe** - 2016-01-20 at 9:54 PM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe , oui, je pense que c'est peut-être pas plus compliqué d'intégrer un Espruino pico sur la carte analogique qui jouerait un peu le rôle de PRU (sans la mémoire partagée) si on a trop de soucis de Tps réel avec la RedPitaya.  Actuellement l'asservissement est très rustique, rebouclé tous les 1/2 tours de sonde. Avec les moteurs de Hyacinthe on aura une plus grande finesse (57 fois plus de tops, je crois).  Cette architecture remet peut-être dans la course le RPi 2 (RPi 2 + Pico) qui est quand même plus puissant que le BeagleBone black (choisi un peu pour ses PRU, je crois).  Actuellement je fais le moteur, le top/tour, le tir avec 1 pico, 2 résistances, 1 diode, 1 mosfet et une alim unique 5V.  Ça nous donnerait aussi un degré de liberté pour tester d'autres cartes de haut niveau (traitement du signal à partir de l'ADC et transmission) dans se préoccuper de re-coder tout l'automate de pilotage de la mécanique et de l'analogique pour chaque carte CPU de haut niveau. L'interface entre les deux pourrait se résumer à qq chose comme :
+Hyacinthe Hyacinthe , oui, je pense que c'est peut-être pas plus compliqué d'intégrer un Espruino pico sur la carte analogique qui jouerait un peu le rôle de PRU (sans la mémoire partagée) si on a trop de soucis de Tps réel avec la RedPitaya.  Actuellement l'asservissement est très rustique, rebouclé tous les 1/2 tours de sonde. Avec les moteurs de Hyacinthe on aura une plus grande finesse (57 fois plus de tops, je crois).  Cette architecture remet peut-être dans la course le RPi 2 (RPi 2 + Pico) qui est quand même plus puissant que le BeagleBone black (choisi un peu pour ses PRU, je crois).  Actuellement je fais le moteur, le top/tour, le tir avec 1 pico, 2 résistances, 1 diode, 1 mosfet et une alim unique 5V.  Ça nous donnerait aussi un degré de liberté pour tester d'autres cartes de haut niveau (traitement du signal à partir de l'ADC et transmission) dans se préoccuper de re-coder tout l'automate de pilotage de la mécanique et de l'analogique pour chaque carte CPU de haut niveau. L'interface entre les deux pourrait se résumer à qq chose comme :
 
  * 1 entrée M/A  * 1 sortie top de synchro trame  * 1 sortie top de synchro ligne  * 1 sortie analogique (sortie détection enveloppe)
 
@@ -154,7 +154,7 @@ Le plus délicat serait peut-être la création de la rampe de gain de l'ampli. 
 
 ### **Hyacinthe** - 2016-01-21 at 6:51 AM
 
-Agreed comme archi.  Avoir des modules communiquants permettrait de cloisonner le temps réel la ou il y en a besoin :)  En parallèle, je jette un coup d'oeil curieux aux dsp (si il y a des Hilbert / enveloppe déjà pré programmés) + un truc du style PIC24FJ128GC010 (  ![Hyacinthe, FPGA at echopen](./../../zz_assets/images/avatars/1249124.png) Hyacinthe  tu connais? - uc/adc/usb/tcpip) pour ce qui est de détection + preassemblage.. Mais le uc à l'air trop récent pour être bien compris et utilisé.
+Agreed comme archi.  Avoir des modules communiquants permettrait de cloisonner le temps réel la ou il y en a besoin :)  En parallèle, je jette un coup d'oeil curieux aux dsp (si il y a des Hilbert / enveloppe déjà pré programmés) + un truc du style PIC24FJ128GC010 (  Hyacinthe Hyacinthe  tu connais? - uc/adc/usb/tcpip) pour ce qui est de détection + preassemblage.. Mais le uc à l'air trop récent pour être bien compris et utilisé.
 
 ### **Hyacinthe** - 2016-01-21 at 1:49 PM
 
@@ -242,7 +242,7 @@ Question : Quelle est l'heure du meeting? Est-ce toute la journée?
 
 ### **Hyacinthe** - 2016-01-29 at 5:49 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  merci.
+Hyacinthe Hyacinthe  merci.
 
 
 
@@ -252,7 +252,7 @@ Bonjour à tous,   Grâce à toutes vos contributions, nous sommes sur le point 
 
 ### **Hyacinthe** - 2016-01-27 at 7:52 AM
 
-![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe   ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe   ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe   ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe ![Hyacinthe, FPGA at echopen](./../../zz_assets/images/avatars/1249124.png) Hyacinthe   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne ![Hyacinthe, Contributeur méthodologie at echopen](./../../zz_assets/images/avatars/1269173.png) Hyacinthe   ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  Petite relance pour animer ce fil de discussion avec vos idées, vos points de vue afin de pouvoir caler notre réunion dans les meilleurs délais.   Bonne journée,
+Hyacinthe Hyacinthe  Petite relance pour animer ce fil de discussion avec vos idées, vos points de vue afin de pouvoir caler notre réunion dans les meilleurs délais.   Bonne journée,
 
 ### **Hyacinthe** - 2016-01-27 at 8:31 AM
 
@@ -272,7 +272,7 @@ Disclaimer, braindump :   # Contexte  Après la présentation, 6 mois pour fair
 
 ### **Hyacinthe** - 2016-01-29 at 1:14 PM
 
-Merci  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  c'est top. J'invite tous les autres à ajouter vos points ;)
+Merci  Hyacinthe Hyacinthe  c'est top. J'invite tous les autres à ajouter vos points ;)
 
 ### **Hyacinthe** - 2016-01-29 at 3:06 PM
 
@@ -284,7 +284,7 @@ Caler des tâches sur les activités restantes de la page "conception" du wiki?
 
 ### **Hyacinthe** - 2016-01-29 at 4:41 PM
 
-Merci  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  et  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe on avance... C'est top. Oui, reprendre bien entendu les éléments de la page conception, mais surtout évaluer les modules à faire évoluer dans les mois qui viennent pour aller au devant d'essais cliniques.   N'hésitez pas aussi dans vos ajouts à préciser les compétences nécessaires à chacun des points évoqués.
+Merci  Hyacinthe Hyacinthe on avance... C'est top. Oui, reprendre bien entendu les éléments de la page conception, mais surtout évaluer les modules à faire évoluer dans les mois qui viennent pour aller au devant d'essais cliniques.   N'hésitez pas aussi dans vos ajouts à préciser les compétences nécessaires à chacun des points évoqués.
 
 ### **Hyacinthe** - 2016-01-29 at 9:32 PM
 
@@ -296,7 +296,7 @@ En électronique je rajoute l'étude du circuit pour la miniaturisation et la ba
 
 ### **Hyacinthe** - 2016-02-01 at 7:58 AM
 
-Hello @all, merci pour vos retours.   Est-ce que samedi prochain, le 6 février, vous pensez être disponible pour clarifier tout cela ?  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  ne sera pas là, mais a partagé l'ensmeble de ses points et si sa connexion le permet pourrait nous rejoindre par skype ?   Dites moi et continuer à ajouter vos points.   Bonne journée,
+Hello @all, merci pour vos retours.   Est-ce que samedi prochain, le 6 février, vous pensez être disponible pour clarifier tout cela ?  Hyacinthe Hyacinthe  ne sera pas là, mais a partagé l'ensmeble de ses points et si sa connexion le permet pourrait nous rejoindre par skype ?   Dites moi et continuer à ajouter vos points.   Bonne journée,
 
 ### **Hyacinthe** - 2016-02-02 at 6:48 AM
 
@@ -304,11 +304,11 @@ Je rajouterai, au niveau des questions à se poser samedi (prospectifs, peut êt
 
 ### **Hyacinthe** - 2016-02-02 at 9:57 AM
 
-merci  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe   Pour tous les autres, on se retrouve samedi vers 10.30 / 11.00 pour le brainstorm The Future Of Echopen... On déjeunera ensemble.
+merci  Hyacinthe Hyacinthe   Pour tous les autres, on se retrouve samedi vers 10.30 / 11.00 pour le brainstorm The Future Of Echopen... On déjeunera ensemble.
 
 ### **Hyacinthe** - 2016-02-03 at 9:40 AM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  Tu pourras nous skyper samedi?
+Hyacinthe Hyacinthe  Tu pourras nous skyper samedi?
 
 ### **Hyacinthe** - 2016-02-03 at 4:50 PM
 
@@ -316,15 +316,15 @@ merci  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avata
 
 ### **Hyacinthe** - 2016-02-04 at 7:18 AM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe : quelle heure ?  @Hyacinthe: damn jloupe tout !
+Hyacinthe Hyacinthe : quelle heure ?  @Hyacinthe: damn jloupe tout !
 
 ### **Hyacinthe** - 2016-02-04 at 7:29 AM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  je précise qu'il y aura plusieurs séances... Une samedi donc, et une autre en programmation pour s'assurer que tout le monde sera bien présent. On se calera sur tes dipso, sans doute un vendredi lui ai-je dit.
+Hyacinthe Hyacinthe  je précise qu'il y aura plusieurs séances... Une samedi donc, et une autre en programmation pour s'assurer que tout le monde sera bien présent. On se calera sur tes dipso, sans doute un vendredi lui ai-je dit.
 
 ### **Hyacinthe** - 2016-02-04 at 6:07 PM
 
-Je ne sais pas pour l'heure,  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe ?
+Je ne sais pas pour l'heure,  Hyacinthe Hyacinthe ?
 
 ### **Hyacinthe** - 2016-02-05 at 1:41 PM
 
@@ -344,7 +344,7 @@ Qques insights, ça doit être le bon thread pour ça :)   Quick réunion avec N
 
 ### **Hyacinthe** - 2016-07-02 at 4:45 PM
 
-![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe : PIC à 75$ (il y a une promo de 25%) pour une dev board PIC32MZ (dont un ADC 12 bits 28Msps)  -&gt; <http://www.microchipdirect.com/ProductSearch.aspx?Keywords=DM320007-C>  La chip en tant que telle est a 10€
+Hyacinthe Hyacinthe : PIC à 75$ (il y a une promo de 25%) pour une dev board PIC32MZ (dont un ADC 12 bits 28Msps)  -&gt; <http://www.microchipdirect.com/ProductSearch.aspx?Keywords=DM320007-C>  La chip en tant que telle est a 10€
 
 
 
@@ -362,7 +362,7 @@ Non, mais je connais bien les gens d'un labo de l'ENSAM qui fait de la recherche
 
 ### **Hyacinthe** - 2016-06-17 at 9:48 AM
 
-Excellent, merci ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  je passe le mot et te tiens au courant ;)
+Excellent, merci Hyacinthe Hyacinthe  je passe le mot et te tiens au courant ;)
 
 ### **Hyacinthe** - 2016-06-17 at 3:50 PM
 
@@ -390,7 +390,7 @@ Discussion avec un pote de Withings, qui fait des balances qui mesurent la rigid
 
 ### **Hyacinthe** - 2016-07-13 at 3:14 PM
 
-![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe tu vas aiiimé : des labs de physiques open source   via ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe <http://www.physdev.org/open-source/>   btw, il passe ce lundi est echOpen ;)
+Hyacinthe Hyacinthe <http://www.physdev.org/open-source/>   btw, il passe ce lundi est echOpen ;)
 
 ### **Hyacinthe** - 2016-07-15 at 9:09 AM
 
@@ -458,7 +458,7 @@ Ce qu'on veut faire :  <http://sci-hub.io/10.1109/ULTSYM.2015.0517>   =)
 
 ### **Hyacinthe** - 2016-02-16 at 6:59 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne  : je ne sais pas si tu as vu, mais y'a des trucs funky. W. K. Kong, W. Lee, K. C. Kim, Y. Yoo, and T. –K. Song, “Implementation and optimization of ultrasound signal processing algorithms on mobile GPU,” Proc. SPIE Medical Imaging, pp. 90401F-90401F, 2014.
+Hyacinthe lacenne  : je ne sais pas si tu as vu, mais y'a des trucs funky. W. K. Kong, W. Lee, K. C. Kim, Y. Yoo, and T. –K. Song, “Implementation and optimization of ultrasound signal processing algorithms on mobile GPU,” Proc. SPIE Medical Imaging, pp. 90401F-90401F, 2014.
 
 ### **Hyacinthe** - 2016-02-16 at 8:41 PM
 
@@ -470,7 +470,7 @@ greg parle d'echOpen - avec une majuscule grande comme un O -  dans 10xmanageme
 
 ### **Hyacinthe** - 2016-02-22 at 3:23 PM
 
-![Hyacinthe, FPGA at echopen](./../../zz_assets/images/avatars/1249124.png) Hyacinthe ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe   du FPGA avec un IDE d'arduino et en open source - ca s'appelle [papilio](http://papilio.cc/)
+Hyacinthe Hyacinthe   du FPGA avec un IDE d'arduino et en open source - ca s'appelle [papilio](http://papilio.cc/)
 
 ### **Hyacinthe** - 2016-02-22 at 3:30 PM
 
@@ -482,7 +482,7 @@ Date de lancement du Lumify en France : septembre 2016.  Les démarches d'enregi
 
 ### **Hyacinthe** - 2016-03-01 at 12:24 AM
 
-merci  ![Hyacinthe, Contributeur méthodologie at echopen](./../../zz_assets/images/avatars/1269173.png) Hyacinthe  on a encore 1 peu  de marge ;)
+merci  Hyacinthe Hyacinthe  on a encore 1 peu  de marge ;)
 
 ### **Hyacinthe** - 2016-03-01 at 10:58 AM
 
@@ -508,7 +508,7 @@ Je pose ça là !   [http://www.fiercemedicaldevices.com/story/ge-healthcare-han
 
 ### **Hyacinthe** - 2016-03-21 at 4:20 PM
 
-special  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe   après le dej avec Hyacinthe &amp; Hyacinthe, où nous sommes convenus de chercher des datasets afin de pouvoir étancher la soif de data des learning machines   voici un premier set de data ouvert d'images echo : <http://cimlaboratory.com/applications/thyroid/>.
+special  Hyacinthe Hyacinthe   après le dej avec Hyacinthe &amp; Hyacinthe, où nous sommes convenus de chercher des datasets afin de pouvoir étancher la soif de data des learning machines   voici un premier set de data ouvert d'images echo : <http://cimlaboratory.com/applications/thyroid/>.
 
  
 
@@ -538,11 +538,11 @@ Elle est grosse la clarius..
 
 [
 
-![](bc3-raw/files/2899590-img_20160324_104447.jpg)
+![](../bc3-images/2899590-img_20160324_104447.jpg)
 
-](bc3-raw/files/2899590-img_20160324_104447.jpg)
+](../bc3-images/2899590-img_20160324_104447.jpg)
 
-[IMG_20160324_104447.jpg 52.8 KB • Download](bc3-raw/files/2899590-img_20160324_104447.jpg)
+[IMG_20160324_104447.jpg 52.8 KB • Download](../bc3-images/2899590-img_20160324_104447.jpg)
 
 ### **Hyacinthe** - 2016-03-24 at 11:30 AM
 
@@ -572,15 +572,15 @@ Ou mettre un xenomai / RTAI =)
 
 # Sonde d'expérimentation en aquarium  - 2016-06-10
 
-![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe , ![Joris JEAN- BAPTISTE, Elec analog & digit + Soft at echopen](./../../zz_assets/images/avatars/4392629.png) Joris , voici quelques infos pour réaliser une sonde d'expérimentation à pincer sur le bord de l'aquarium. 
+Hyacinthe Joris , voici quelques infos pour réaliser une sonde d'expérimentation à pincer sur le bord de l'aquarium. 
 
 [
 
-![](bc3-raw/files/6221602-20160319_194819_hdr.jpg)
+![](../bc3-images/6221602-20160319_194819_hdr.jpg)
 
-](bc3-raw/files/6221602-20160319_194819_hdr.jpg)
+](../bc3-images/6221602-20160319_194819_hdr.jpg)
 
-[20160319_194819_HDR.jpg 4.35 MB • Download](bc3-raw/files/6221602-20160319_194819_hdr.jpg)
+[20160319_194819_HDR.jpg 4.35 MB • Download](../bc3-images/6221602-20160319_194819_hdr.jpg)
 
   **Ingrédients**
 
@@ -592,7 +592,7 @@ Ou mettre un xenomai / RTAI =)
 
   Ci-joint, un source, un peu expérimental ;-), en µPython d'une version n'utilisant pas au maximum des timers et qui consomme déjà 22% de CPU sur un STM32F405 à 160 MHz. 
 
-[![](./../../zz_assets/images/file-types/py.png) main-v1.py 3.95 KB • Download](bc3-raw/files/6223271-main-v1.py)
+[![](./../../zz_assets/images/file-types/py.png) main-v1.py 3.95 KB • Download](../bc3-images/6223271-main-v1.py)
 
   PS 1: je ne peux pas passer ce vendredi 10/06 mais je vous prêterai qq composants lundi pour commencer à maniper et éviter de perdre du temps pendant l'appro.   PS 2 : @tous, ce post est peut-être un peu technique pour être déposé sur BaseCamp ? Qu'en pensez-vous ?.**  **
 
@@ -612,11 +612,11 @@ Yep ! C'est vrai. Je suis tjs un peu coincé sur GH tant que je n'ai pas fait le
 
 [
 
-![](bc3-raw/files/2844289-screenshot_2016-03-23-02-06-57.png)
+![](../bc3-images/2844289-screenshot_2016-03-23-02-06-57.png)
 
-](bc3-raw/files/2844289-screenshot_2016-03-23-02-06-57.png)
+](../bc3-images/2844289-screenshot_2016-03-23-02-06-57.png)
 
-[Screenshot_2016-03-23-02-06-57.png 193 KB • Download](bc3-raw/files/2844289-screenshot_2016-03-23-02-06-57.png)
+[Screenshot_2016-03-23-02-06-57.png 193 KB • Download](../bc3-images/2844289-screenshot_2016-03-23-02-06-57.png)
 
    ;)
 
@@ -630,11 +630,11 @@ Plus je la vois et plus c'est canon =)   Hyacinthe, tu peux jouer sur les niveau
 
 [
 
-![](bc3-raw/files/2849167-image1.png)
+![](../bc3-images/2849167-image1.png)
 
-](bc3-raw/files/2849167-image1.png)
+](../bc3-images/2849167-image1.png)
 
-[Image1.png 81.8 KB • Download](bc3-raw/files/2849167-image1.png)
+[Image1.png 81.8 KB • Download](../bc3-images/2849167-image1.png)
 
 ### **Hyacinthe** - 2016-03-23 at 8:14 AM
 
@@ -654,27 +654,27 @@ Hyacinthe debeir nous adresse un article sur echOpen dans un journal belge
 
 [
 
-![](bc3-raw/files/3384084-img_20160406_184742.jpg)
+![](../bc3-images/3384084-img_20160406_184742.jpg)
 
-](bc3-raw/files/3384084-img_20160406_184742.jpg)
+](../bc3-images/3384084-img_20160406_184742.jpg)
 
-[IMG_20160406_184742.jpg 1.69 MB • Download](bc3-raw/files/3384084-img_20160406_184742.jpg)
-
-[
-
-![](bc3-raw/files/3384127-img_20160406_184832.jpg)
-
-](bc3-raw/files/3384127-img_20160406_184832.jpg)
-
-[IMG_20160406_184832.jpg 1.49 MB • Download](bc3-raw/files/3384127-img_20160406_184832.jpg)
+[IMG_20160406_184742.jpg 1.69 MB • Download](../bc3-images/3384084-img_20160406_184742.jpg)
 
 [
 
-![](bc3-raw/files/3384190-img_20160406_184840.jpg)
+![](../bc3-images/3384127-img_20160406_184832.jpg)
 
-](bc3-raw/files/3384190-img_20160406_184840.jpg)
+](../bc3-images/3384127-img_20160406_184832.jpg)
 
-[IMG_20160406_184840.jpg 1.35 MB • Download](bc3-raw/files/3384190-img_20160406_184840.jpg)
+[IMG_20160406_184832.jpg 1.49 MB • Download](../bc3-images/3384127-img_20160406_184832.jpg)
+
+[
+
+![](../bc3-images/3384190-img_20160406_184840.jpg)
+
+](../bc3-images/3384190-img_20160406_184840.jpg)
+
+[IMG_20160406_184840.jpg 1.35 MB • Download](../bc3-images/3384190-img_20160406_184840.jpg)
 
 ### **Hyacinthe** - 2016-04-14 at 8:49 AM
 
@@ -796,11 +796,11 @@ Joris Jean-Baptiste, étudiant en 4ème année à l'UPMC va nous rejoindre pour 
 
  * ADC  * Micro-contrôleur   * Electronique (modules) 
 
-Cela cadre bien avec les exigences de son stage. On attends le retour de son établissement pour signer la convention. Il devrait nous rejoindre dès demain pour commencer à avancer à nos côtés.   Ensuite, ![Michel Bala, Electronique analogique at echopen](./../../zz_assets/images/avatars/2008321.png) Michel qui a fini se examens d'agrégation est passé aujourd'hui et va continuer l'aventure une partie de l'été ;)   Enfin, nous attendons le retour de deux étudiants chinois (UPMC &amp; Spelec) qui pourraient eux aussi nous rejoindre pour deux mois.   @+
+Cela cadre bien avec les exigences de son stage. On attends le retour de son établissement pour signer la convention. Il devrait nous rejoindre dès demain pour commencer à avancer à nos côtés.   Ensuite, Hyacinthe Michel qui a fini se examens d'agrégation est passé aujourd'hui et va continuer l'aventure une partie de l'été ;)   Enfin, nous attendons le retour de deux étudiants chinois (UPMC &amp; Spelec) qui pourraient eux aussi nous rejoindre pour deux mois.   @+
 
 ### **Hyacinthe** - 2016-06-02 at 3:44 PM
 
-quelques efforts plus tard   Daniel Reinzine, qui pilote la partie SI de toute l’imagerie de l’AP-HP et Hyacinthe Naon, qui travaille à la R&amp;D du PACS (Picture Archiving and Communication System) de l'AP veulent nous aider ;))) je leu ai proposé de passer le 18   au bonheur de la data, de l'IA et de ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  !   btw, je vois Hyacinthe demain, la team IA bientôt UP
+quelques efforts plus tard   Daniel Reinzine, qui pilote la partie SI de toute l’imagerie de l’AP-HP et Hyacinthe Naon, qui travaille à la R&amp;D du PACS (Picture Archiving and Communication System) de l'AP veulent nous aider ;))) je leu ai proposé de passer le 18   au bonheur de la data, de l'IA et de Hyacinthe Hyacinthe  !   btw, je vois Hyacinthe demain, la team IA bientôt UP
 
 ### **Hyacinthe** - 2016-06-22 at 7:32 AM
 
@@ -832,9 +832,9 @@ Par ailleurs Makery est en train de monter sur un appel à subvention CNC qui se
 
 ![](./../../zz_assets/images/previews/7505625-b_art2m_opensourcebody.png)
 
-](bc3-raw/files/7505625-b_art2m_opensourcebody.pdf)
+](../bc3-images/7505625-b_art2m_opensourcebody.pdf)
 
-[B_Art2M_opensourcebody.pdf 3.76 MB • Download](bc3-raw/files/7505625-b_art2m_opensourcebody.pdf)
+[B_Art2M_opensourcebody.pdf 3.76 MB • Download](../bc3-images/7505625-b_art2m_opensourcebody.pdf)
 
 ### **Hyacinthe** - 2016-07-07 at 6:29 PM
 
@@ -842,7 +842,7 @@ Top ce projet de programme, et encore plus si l'HD/APHP sont partants pour ça! 
 
 ### **Hyacinthe** - 2016-07-11 at 1:51 PM
 
-rdv chez Thalès le 26 août, ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  comme l'an dernier you in ?
+rdv chez Thalès le 26 août, Hyacinthe Hyacinthe  comme l'an dernier you in ?
 
 ### **Hyacinthe** - 2016-07-11 at 3:02 PM
 
@@ -886,7 +886,7 @@ super visite de Shu Lea Cheang, une artiste qui va faire un projet de performanc
 
 ### **Hyacinthe** - 2016-09-12 at 10:24 AM
 
-rdv ce matin avec le CEO de Qwant, et son project manager wiz ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe . Pour mémoire Qwant est le moteur de recherche qui veut concurrencer Google, sur la base du respect de la privacy. Springer est un des leurs investisseurs principaux à hauteur de plusieurs 100M€   -&gt; grosse culture de l'open source, pas mal de release de leurs algo en open et le project manager est l'ancien CTO de Firefox OS   -&gt; prise de contact après le concours Solve vendredi, rdv ce matin. Ils souhaitent travailler avec nous sur la partie IA/data : calcul, stockage, algo et proposent un partenariat   -&gt; on vient de lancer un doodle pour rencontre technique avec Hyacinthe et leur CDO/IA   vous tiens au courant de la suite
+rdv ce matin avec le CEO de Qwant, et son project manager wiz Hyacinthe Hyacinthe . Pour mémoire Qwant est le moteur de recherche qui veut concurrencer Google, sur la base du respect de la privacy. Springer est un des leurs investisseurs principaux à hauteur de plusieurs 100M€   -&gt; grosse culture de l'open source, pas mal de release de leurs algo en open et le project manager est l'ancien CTO de Firefox OS   -&gt; prise de contact après le concours Solve vendredi, rdv ce matin. Ils souhaitent travailler avec nous sur la partie IA/data : calcul, stockage, algo et proposent un partenariat   -&gt; on vient de lancer un doodle pour rencontre technique avec Hyacinthe et leur CDO/IA   vous tiens au courant de la suite
 
 ### **Hyacinthe** - 2016-09-12 at 2:12 PM
 
@@ -914,7 +914,7 @@ rdv le 03 octobre avec le resp Big Data lake de l'APHP et le DSI imagerie   obje
 
 ### **Hyacinthe** - 2016-09-22 at 10:26 AM
 
-rdv ce matin avec le directeur de la fondation Altran + ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe   \- echOpen rencontre tous leurs critères   \- proposition de RH sur leurs pôles compétences  électronique embarquée  soft et data analytics  certification   les décisions d'accompagnement seront prises entre fin octobre et décembre et activation début 2017   vous tiens au jus;)
+rdv ce matin avec le directeur de la fondation Altran + Hyacinthe Hyacinthe   \- echOpen rencontre tous leurs critères   \- proposition de RH sur leurs pôles compétences  électronique embarquée  soft et data analytics  certification   les décisions d'accompagnement seront prises entre fin octobre et décembre et activation début 2017   vous tiens au jus;)
 
 ### **Hyacinthe** - 2016-09-30 at 4:54 PM
 
@@ -926,7 +926,7 @@ Sweet! Et n'hésitez pas à mettre une synthèse pour les pauvres hères en tran
 
 ### **Hyacinthe** - 2016-11-05 at 7:11 PM
 
-hi les amis,   je vais faire un peu de redite du slack pour les news du marathon trip à Lausanne, Génève et Marrakech. Btw, on a réfléchi avec Hyacinthe une solution de meilleur usage des espaces slack/basecamp/etc.   \- en Suisse   prez d'echOpen à Hackquarium , accueilli dans un large enthousiasme avec   1) 1 dev FPGA/DSP high level qui va nous aider en review et nous mettre ne relation avec une école qui forme des ingé spécialisés dans ces domaines   2) 1 doctorant de l'EPFL qui fait sa thèse sur des MEMS et qui propose de trouver des points d'articulation avec nous . J'ai un call avec lui demain   pour l'essentiel car il y a plein d'autres choses   \- @Marackech   1) d’une part la over-wonder team de phaino, une dev agency (soft, archi/infra, web, app),  a produit en 48 une app hybride de l’UI, que l’on va porter en natif dans les jours qui viennent.   btw : ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe phaino a groupe de R&amp;D sur les enjeux native vs. hybride vs webapp. confirmation de l'intérêt du natif, notamment pour les perf. de l'UI/gestures. Ce à quoi j'ajoute les possibilités d'interfaçages avec les langues de bas niveau + usage de la GPU --&gt; à ce sujet, g dev une mini-app avec opengl, c top   2) 1 des pointures mondiales de JAVA et son gang, à donf d’Open Source - qu’on s’entende,  il code JAVA directly et était le meilleur contributeur du monde en 2012 - propose un hackathon android/echOpen à Casablanca en décembre /janvier   3) le ministre de la Santé du Togo est très intéressé par echOpen, un entretien est en train de se monter, je vous tient au courant   4) Des chercheurs veulent déployer un lab echOpen au Bénin, rdv mardi   \+ 1 grosse nouvelle dans les prochaines heures/jours   oilà;)
+hi les amis,   je vais faire un peu de redite du slack pour les news du marathon trip à Lausanne, Génève et Marrakech. Btw, on a réfléchi avec Hyacinthe une solution de meilleur usage des espaces slack/basecamp/etc.   \- en Suisse   prez d'echOpen à Hackquarium , accueilli dans un large enthousiasme avec   1) 1 dev FPGA/DSP high level qui va nous aider en review et nous mettre ne relation avec une école qui forme des ingé spécialisés dans ces domaines   2) 1 doctorant de l'EPFL qui fait sa thèse sur des MEMS et qui propose de trouver des points d'articulation avec nous . J'ai un call avec lui demain   pour l'essentiel car il y a plein d'autres choses   \- @Marackech   1) d’une part la over-wonder team de phaino, une dev agency (soft, archi/infra, web, app),  a produit en 48 une app hybride de l’UI, que l’on va porter en natif dans les jours qui viennent.   btw : Hyacinthe Hyacinthe phaino a groupe de R&amp;D sur les enjeux native vs. hybride vs webapp. confirmation de l'intérêt du natif, notamment pour les perf. de l'UI/gestures. Ce à quoi j'ajoute les possibilités d'interfaçages avec les langues de bas niveau + usage de la GPU --&gt; à ce sujet, g dev une mini-app avec opengl, c top   2) 1 des pointures mondiales de JAVA et son gang, à donf d’Open Source - qu’on s’entende,  il code JAVA directly et était le meilleur contributeur du monde en 2012 - propose un hackathon android/echOpen à Casablanca en décembre /janvier   3) le ministre de la Santé du Togo est très intéressé par echOpen, un entretien est en train de se monter, je vous tient au courant   4) Des chercheurs veulent déployer un lab echOpen au Bénin, rdv mardi   \+ 1 grosse nouvelle dans les prochaines heures/jours   oilà;)
 
 ### **Hyacinthe** - 2016-11-10 at 7:43 PM
 
@@ -990,7 +990,7 @@ Hi Hyacinthe,   Vu la densité de la réu de samedi, et tout ce qui a ete abord�
 
 ### **Hyacinthe** - 2016-02-08 at 8:19 AM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne  Je ne saisie pas de quelles questions tu parles. En tout cas n'hésites pas à ajouter des points dans le google doc directement.
+Hyacinthe lacenne  Je ne saisie pas de quelles questions tu parles. En tout cas n'hésites pas à ajouter des points dans le google doc directement.
 
 ### **Hyacinthe** - 2016-02-08 at 8:34 AM
 
@@ -1024,11 +1024,11 @@ Hello All,   Pour le réunion de ce soir, voici l'ODJ disponible [ici](https://d
 
 ### **Hyacinthe** - 2016-02-22 at 9:24 PM
 
-Re-bonsoir,   Quel est le fin-mot de la réunion d'aujourd'hui  concernant BitMaker? Autre solution : tenter l'essai avec Murgen?  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe   ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe
+Re-bonsoir,   Quel est le fin-mot de la réunion d'aujourd'hui  concernant BitMaker? Autre solution : tenter l'essai avec Murgen?  Hyacinthe Hyacinthe
 
 ### **Hyacinthe** - 2016-02-22 at 9:40 PM
 
-Pour Murgen, c'est peut etre prématuré =)   Plus sérieusement, si le probleme c'est le bruit, y'a pas moyen de le diminuer avec un moyennage quelquonque (suréchantillonage de lignes soit en montant le nb de tirs, soit en baissant un peu le framerate) ? Ca permettrait d'arreter les travaux sur l'électronique et de figer le systeme à aujourd'hui? On revient sur le besoin d'assembler la ligne entiere comme recommandé par ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  , pour prendre une décision.   De toute facon, meme si l'electronique est couverte par bitmaker, on n'a pas de garantie sur l'assemblage de leur part, c'est bien ça?   D'autre part, si on part sur bitmaker, il faut qu'ils respectent le Cahier des charges sur la livraison des points suivants:   \- Facteur clé de succès : SNR (ou rapport signal sur bruit) de 20dB sur un écho chair/os dans tissu organique (cuisse de poulet / épaule d'agneau?)  \- Livraison de la documentation afférente:   
+Pour Murgen, c'est peut etre prématuré =)   Plus sérieusement, si le probleme c'est le bruit, y'a pas moyen de le diminuer avec un moyennage quelquonque (suréchantillonage de lignes soit en montant le nb de tirs, soit en baissant un peu le framerate) ? Ca permettrait d'arreter les travaux sur l'électronique et de figer le systeme à aujourd'hui? On revient sur le besoin d'assembler la ligne entiere comme recommandé par Hyacinthe Hyacinthe  , pour prendre une décision.   De toute facon, meme si l'electronique est couverte par bitmaker, on n'a pas de garantie sur l'assemblage de leur part, c'est bien ça?   D'autre part, si on part sur bitmaker, il faut qu'ils respectent le Cahier des charges sur la livraison des points suivants:   \- Facteur clé de succès : SNR (ou rapport signal sur bruit) de 20dB sur un écho chair/os dans tissu organique (cuisse de poulet / épaule d'agneau?)  \- Livraison de la documentation afférente:   
 
  1. System Block Diagram  2. Block-by-Block Breakdown   1. Function   2. Schematic block   3. Layout block   4. Parts selection (and critical specs)   5. Performance metrics (if applicable)
 
@@ -1060,7 +1060,7 @@ Moi j'aimerais bien voir qu'on ne voit rien. Ce serait déjà un grand pas.
 
 ### **Hyacinthe** - 2016-02-23 at 1:54 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe   où en êtes vous avec bitmaker, est ce possible d'attendre un jour le temps de "voir qu'on ne voit rien"? Concrètement  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe   ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe   que préconisez vous ? On fait un vote?
+Hyacinthe Hyacinthe   que préconisez vous ? On fait un vote?
 
 ### **Hyacinthe** - 2016-02-23 at 2:06 PM
 
@@ -1084,7 +1084,7 @@ Liste des pistes carte mere : <http://echopen.org/index.php?title=Modules_:_a_mo
 
 ### **Hyacinthe** - 2016-04-12 at 9:54 AM
 
-ton lien  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  ne fonctionne pas
+ton lien  Hyacinthe Hyacinthe  ne fonctionne pas
 
 ### **Hyacinthe** - 2016-04-12 at 11:53 AM
 
@@ -1100,11 +1100,11 @@ Suite aux discussions sur les breakouts pour chips, il me reste qques breakouts 
 
 [
 
-![](bc3-raw/files/3668504-dsc_0280.JPG)
+![](../bc3-images/3668504-dsc_0280.JPG)
 
-](bc3-raw/files/3668504-dsc_0280.JPG)
+](../bc3-images/3668504-dsc_0280.JPG)
 
-[DSC_0280.JPG 4.1 MB • Download](bc3-raw/files/3668504-dsc_0280.JPG)
+[DSC_0280.JPG 4.1 MB • Download](../bc3-images/3668504-dsc_0280.JPG)
 
 ### **Hyacinthe** - 2016-06-13 at 10:36 AM
 
@@ -1144,7 +1144,7 @@ jy serai
 
 ### **Hyacinthe** - 2016-07-25 at 6:56 AM
 
-Bonjour à tous,   Pour la réunion de ce soir qui sera présent ? Je crois me souvenir que ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe et ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe vous aviez dit être absent ?
+Bonjour à tous,   Pour la réunion de ce soir qui sera présent ? Je crois me souvenir que Hyacinthe Hyacinthe vous aviez dit être absent ?
 
 ### **Hyacinthe** - 2016-07-25 at 10:52 AM
 
@@ -1174,7 +1174,7 @@ perfect   @++
 
 ### **Hyacinthe** - 2016-10-17 at 8:50 PM
 
-Date tentative repoussée au 04/11 pour cause de vacances ;)   Pour ceux que ca interesse, premier draft de slidedeck at <https://github.com/Hyacinthe124/echomods/blob/master/include/ppt_CLA.md>
+Date tentative repoussée au 04/11 pour cause de vacances ;)   Pour ceux que ca interesse, premier draft de slidedeck at <https://github.com/kelu124/echomods/blob/master/include/ppt_CLA.md>
 
 ### **Hyacinthe** - 2016-10-18 at 7:42 PM
 
@@ -1182,7 +1182,7 @@ ah du coup nous on sera à Africa4Tech, décalage encore d'une semaine ?
 
 ### **Hyacinthe** - 2016-10-28 at 12:10 PM
 
-Plus besoin forcément de faire le workshop, sous la license echOpen, on note que: "_Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version_". Ca répond à ma question sur les droits d'auteurs: ils restent bien aux contributeurs, qui donnent l'autorisation au projet d'utiliser leur contribution.   Solved! Du coup, où je peux pusher les modules? ;)   Ca peut valoir le coup néanmoins de garder la discussion du 4/11, pas forcément en mode workshop, mais discussion de la pertinence des CLAs pour le projet, qu'en pensez vous ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe   ?
+Plus besoin forcément de faire le workshop, sous la license echOpen, on note que: "_Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version_". Ca répond à ma question sur les droits d'auteurs: ils restent bien aux contributeurs, qui donnent l'autorisation au projet d'utiliser leur contribution.   Solved! Du coup, où je peux pusher les modules? ;)   Ca peut valoir le coup néanmoins de garder la discussion du 4/11, pas forcément en mode workshop, mais discussion de la pertinence des CLAs pour le projet, qu'en pensez vous Hyacinthe Hyacinthe   ?
 
 ### **Hyacinthe** - 2016-10-28 at 12:59 PM
 
@@ -1194,7 +1194,7 @@ Je suis d'accord avec toi, il y avait une ambiguïté à la base. Normalement, l
 
 ### **Hyacinthe** - 2016-11-01 at 2:33 PM
 
-Version du doc de réflexion updaté ici <https://github.com/Hyacinthe124/echomods/blob/master/include/ppt_CLA.md> .  A noter qu'usuellement dans le FOSS, il n'y a pas de cession de droits d'auteurs, mais création lors du CLA d'une license qui est accordée par le contributeur au projet auquel il contribue, d'exploiter sa contribution.  Une remarque: la cession des droits n'est pas obligatoire, même pour les personnes rémunérées par une structure. Une simple cession de droits d'exploitation (mais pas de droits d'auteurs) suffit pour que la structure sécurise l'utilisation des contributions.
+Version du doc de réflexion updaté ici <https://github.com/kelu124/echomods/blob/master/include/ppt_CLA.md> .  A noter qu'usuellement dans le FOSS, il n'y a pas de cession de droits d'auteurs, mais création lors du CLA d'une license qui est accordée par le contributeur au projet auquel il contribue, d'exploiter sa contribution.  Une remarque: la cession des droits n'est pas obligatoire, même pour les personnes rémunérées par une structure. Une simple cession de droits d'exploitation (mais pas de droits d'auteurs) suffit pour que la structure sécurise l'utilisation des contributions.
 
 ### **Hyacinthe** - 2016-11-05 at 6:51 PM
 
@@ -1222,7 +1222,7 @@ Oui, merci pour l’éclaircissement. ça me semble correcte et logique..
 
 ### **Hyacinthe** - 2016-11-06 at 10:45 AM
 
-hello à tous,   de prime abord, ça paraît en effet logique mais les juristes que nous avons rencontrés, y compris du libre, pensent que ce n'est pas si simple, précisément pour protéger  le travail de la communauté. Suis à ce titre d'accord avec l'ami ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe . Et c important que cette réflexion soit menée en communauté et que le modèle que nous adopterons ne soit pas pensé pour protéger un travail ou en fonction d'intérêts particuliers   @++
+hello à tous,   de prime abord, ça paraît en effet logique mais les juristes que nous avons rencontrés, y compris du libre, pensent que ce n'est pas si simple, précisément pour protéger  le travail de la communauté. Suis à ce titre d'accord avec l'ami Hyacinthe Hyacinthe . Et c important que cette réflexion soit menée en communauté et que le modèle que nous adopterons ne soit pas pensé pour protéger un travail ou en fonction d'intérêts particuliers   @++
 
 ### **Nassim Chadli** - 2016-11-06 at 11:06 AM
 
@@ -1230,15 +1230,15 @@ Oui justement mais après coup, trop de contributeurs et ça va rendre le travai
 
 ### **Hyacinthe** - 2016-11-06 at 12:24 PM
 
-bien sûr ![Nassim Chadli, Instanciator at echopen](./../../zz_assets/images/avatars/4069013.png) Nassim , ca restera complètement Open ! en fait, sur les élts que le device medical utilisera, ca sera open/libre et il faut qu'on protège précisément la communauté des usages qui ne respecteraient pas les principes de l'open/libre et pour lesquels la communauté doit pouvoir se fédérer pour se défendre. C ce point que les juristes soulèvent.   Ceci étant, le sens de mon message est qu'il faut qu'on pèse tous ensemble les pour et les contre, et que ca doit faire partie d'un débat qui impliquent notamment des juristes. Pour ma part, je n'ai pas de positions définies à ce sujet.   Au total, ce que je retiens de ce fil de discussion et des points de vue ici échangés, c que ce sujet n'est pas simple, que l'identité même du projet est l'open et qu'il nous faut un workshop, celui-là même dont nous discutions avec Hyacinthe, et qu'on ne peut pas trancher par évidence.   On vous dit la date et vous pourrez participer par skype !!
+bien sûr Hyacinthe Nassim , ca restera complètement Open ! en fait, sur les élts que le device medical utilisera, ca sera open/libre et il faut qu'on protège précisément la communauté des usages qui ne respecteraient pas les principes de l'open/libre et pour lesquels la communauté doit pouvoir se fédérer pour se défendre. C ce point que les juristes soulèvent.   Ceci étant, le sens de mon message est qu'il faut qu'on pèse tous ensemble les pour et les contre, et que ca doit faire partie d'un débat qui impliquent notamment des juristes. Pour ma part, je n'ai pas de positions définies à ce sujet.   Au total, ce que je retiens de ce fil de discussion et des points de vue ici échangés, c que ce sujet n'est pas simple, que l'identité même du projet est l'open et qu'il nous faut un workshop, celui-là même dont nous discutions avec Hyacinthe, et qu'on ne peut pas trancher par évidence.   On vous dit la date et vous pourrez participer par skype !!
 
 ### **Hyacinthe** - 2016-11-06 at 12:24 PM
 
-True. Dans tous les cas, c'est bien de savoir quelles sont les choses qui sont cédées lors d'une contribution - droit d'auteurs ou license d'exploitation, et que ce soit transparent pour les contributeurs qui n'ont pas signé de cession de droits.   Dans tous les cas, la license echopen telle qu'ecrite aujourd'hui dit clairement que les contributeurs gardent ces droits d'auteurs, et donc pas de souci pour moi de partager mes modules =)   Il est possible de ceder une license d'exploitation qui garantit basiquement les memes droits que les droits d'auteurs, c'est le principe des licenses en mode inbound (contributeur-&gt;projet) plutot que license outboud (projet-&gt;users).   De mon côté, c'est simple, les modules que j'ai développé peuvent être utilisés dans d'autres applications, et j'aimerai les y voir. Garder des droits sur ces contributions permets du coup de faire profiter les communautés open hardware par exemple d'un DAQ haute vitesse, wireless =)   Des notes sont prises sur <https://github.com/Hyacinthe124/echomods/blob/master/include/ppt_CLA.md>, n'hésitez pas à pointer des incohérences.
+True. Dans tous les cas, c'est bien de savoir quelles sont les choses qui sont cédées lors d'une contribution - droit d'auteurs ou license d'exploitation, et que ce soit transparent pour les contributeurs qui n'ont pas signé de cession de droits.   Dans tous les cas, la license echopen telle qu'ecrite aujourd'hui dit clairement que les contributeurs gardent ces droits d'auteurs, et donc pas de souci pour moi de partager mes modules =)   Il est possible de ceder une license d'exploitation qui garantit basiquement les memes droits que les droits d'auteurs, c'est le principe des licenses en mode inbound (contributeur-&gt;projet) plutot que license outboud (projet-&gt;users).   De mon côté, c'est simple, les modules que j'ai développé peuvent être utilisés dans d'autres applications, et j'aimerai les y voir. Garder des droits sur ces contributions permets du coup de faire profiter les communautés open hardware par exemple d'un DAQ haute vitesse, wireless =)   Des notes sont prises sur <https://github.com/kelu124/echomods/blob/master/include/ppt_CLA.md>, n'hésitez pas à pointer des incohérences.
 
 ### **Hyacinthe** - 2016-11-06 at 12:36 PM
 
-![Nassim Chadli, Instanciator at echopen](./../../zz_assets/images/avatars/4069013.png) Nassim , c'est plutot l'inverse que je trouverais dommage: que le projet soit ouvert aux usages, mais fermé aux contributions bénévoles pour des raisons que je ne comprends pas vraiment.  Ceci étant dit, je suis curieux et intéressé de voir le raisonnement des juristes à préconiser cette assignation de copyrights.   En parallèle, je trouve ça bien aussi de faire un distingo entre les contributeurs bénévoles, et ceux rémunérés par l'asso, dont les contribs sont de facto celles de l'asso.
+Hyacinthe Nassim , c'est plutot l'inverse que je trouverais dommage: que le projet soit ouvert aux usages, mais fermé aux contributions bénévoles pour des raisons que je ne comprends pas vraiment.  Ceci étant dit, je suis curieux et intéressé de voir le raisonnement des juristes à préconiser cette assignation de copyrights.   En parallèle, je trouve ça bien aussi de faire un distingo entre les contributeurs bénévoles, et ceux rémunérés par l'asso, dont les contribs sont de facto celles de l'asso.
 
 ### **Hyacinthe** - 2016-11-06 at 3:38 PM
 
@@ -1246,7 +1246,7 @@ ok nice, ca nous promet des débats riches ! partons sur un workshop dans les to
 
 ### **Hyacinthe** - 2016-11-06 at 8:38 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne   ce serait cool qu'un juriste puisse exposer son point de vue ici et échanger en amont de cet atelier, histoire de le préparer, tu penses pouvoir en motiver un a échanger ici?
+Hyacinthe lacenne   ce serait cool qu'un juriste puisse exposer son point de vue ici et échanger en amont de cet atelier, histoire de le préparer, tu penses pouvoir en motiver un a échanger ici?
 
 
 
@@ -1260,7 +1260,7 @@ Chouette ! C'est quand? Ça peut être sympa d'y aller en équipe si l'événeme
 
 ### **Hyacinthe** - 2016-03-21 at 10:57 AM
 
-sure ! ;) ensuite je crois que le nb de billets est limité   en pcpe ce sont des keynotes en one-man dont le format 10' est réglé (comme ted) mais j'ai insisté sur la nature communautaire du projet et la nécessité que l'on soit plusieurs à le présenter - ils doivent me faire un retour - ce serait d'ailleurs pas mal qu'il y a ait une fille  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe ;)
+sure ! ;) ensuite je crois que le nb de billets est limité   en pcpe ce sont des keynotes en one-man dont le format 10' est réglé (comme ted) mais j'ai insisté sur la nature communautaire du projet et la nécessité que l'on soit plusieurs à le présenter - ils doivent me faire un retour - ce serait d'ailleurs pas mal qu'il y a ait une fille  Hyacinthe Hyacinthe ;)
 
 ### **Hyacinthe** - 2016-03-21 at 1:45 PM
 
@@ -1314,7 +1314,7 @@ Petit thread dédié.   Première question du coup :) c'est vrai qu'on recherche
 
 ### **Hyacinthe** - 2016-08-19 at 10:51 AM
 
-c pour le pipe maker, c joris qui était dessus cc  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe
+c pour le pipe maker, c joris qui était dessus cc  Hyacinthe Hyacinthe
 
 ### **Joris JEAN-BAPTISTE** - 2016-08-19 at 12:27 PM
 
@@ -1330,11 +1330,11 @@ Ensuite,  ça dépend pour quoi on veut d'en servir dans le pipe maker, et quel
 
 ### **Hyacinthe** - 2016-08-19 at 1:01 PM
 
-![Joris JEAN-BAPTISTE, Elec analog & digit + Soft at echopen](./../../zz_assets/images/avatars/4392629.png) Joris ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe your point of view sur beagle bone ?
+Hyacinthe Hyacinthe your point of view sur beagle bone ?
 
 ### **Joris JEAN-BAPTISTE** - 2016-08-19 at 1:10 PM
 
-Si la maîtrise de l'ADC beaglebone est au point pourquoi pas. ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe devrait confirmer
+Si la maîtrise de l'ADC beaglebone est au point pourquoi pas. Hyacinthe Hyacinthe devrait confirmer
 
 ### **Hyacinthe** - 2016-08-19 at 1:15 PM
 
@@ -1356,7 +1356,7 @@ A comparer ce qui est comparable ;)  Le pic a un adc, et si on ne veut qu'un adc
 
 # apéros  - 2016-02-15
 
-hello,   laurent bloch, spé de sécurité info, DSI de Paris Dauphine est ok pour faire un apéro le 26 février ;) voici son [blog](http://www.laurentbloch.org/MySpip3/) et ses [skills](https://www.linkedin.com/in/laurentbloch1)   ceci a vocation à accueillir les posts dédiés aux apéros  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  c bien comme ça qu'on fait ?
+hello,   laurent bloch, spé de sécurité info, DSI de Paris Dauphine est ok pour faire un apéro le 26 février ;) voici son [blog](http://www.laurentbloch.org/MySpip3/) et ses [skills](https://www.linkedin.com/in/laurentbloch1)   ceci a vocation à accueillir les posts dédiés aux apéros  Hyacinthe Hyacinthe  c bien comme ça qu'on fait ?
 
 ### **Hyacinthe** - 2016-02-15 at 1:51 PM
 
@@ -1438,11 +1438,11 @@ Voilà ;)
 
 [
 
-![](bc3-raw/files/1232043-img_1824.JPG)
+![](../bc3-images/1232043-img_1824.JPG)
 
-](bc3-raw/files/1232043-img_1824.JPG)
+](../bc3-images/1232043-img_1824.JPG)
 
-[IMG_1824.JPG 480 KB • Download](bc3-raw/files/1232043-img_1824.JPG)
+[IMG_1824.JPG 480 KB • Download](../bc3-images/1232043-img_1824.JPG)
 
 
 
@@ -1452,11 +1452,11 @@ voici qqs news de la semaine   \- bitmaker a quasiment fini son travail -&gt; on
 
 [
 
-![](bc3-raw/files/2734027-screenshot_2016-03-19-19-58-15.png)
+![](../bc3-images/2734027-screenshot_2016-03-19-19-58-15.png)
 
-](bc3-raw/files/2734027-screenshot_2016-03-19-19-58-15.png)
+](../bc3-images/2734027-screenshot_2016-03-19-19-58-15.png)
 
-[Screenshot_2016-03-19-19-58-15.png 340 KB • Download](bc3-raw/files/2734027-screenshot_2016-03-19-19-58-15.png)
+[Screenshot_2016-03-19-19-58-15.png 340 KB • Download](../bc3-images/2734027-screenshot_2016-03-19-19-58-15.png)
 
 ### **Hyacinthe** - 2016-03-19 at 7:25 PM
 
@@ -1472,23 +1472,23 @@ bon la même image qu'en haut mais deux jours plus tard
 
 [
 
-![](bc3-raw/files/2841835-screenshot_2016-03-23-00-13-00.png)
+![](../bc3-images/2841835-screenshot_2016-03-23-00-13-00.png)
 
-](bc3-raw/files/2841835-screenshot_2016-03-23-00-13-00.png)
+](../bc3-images/2841835-screenshot_2016-03-23-00-13-00.png)
 
-[Screenshot_2016-03-23-00-13-00.png 223 KB • Download](bc3-raw/files/2841835-screenshot_2016-03-23-00-13-00.png)
+[Screenshot_2016-03-23-00-13-00.png 223 KB • Download](../bc3-images/2841835-screenshot_2016-03-23-00-13-00.png)
 
    et là le derme, le ligament un peu de muscles et de l'os de l'extrémité radiale du Hyacinthe   
 
 [
 
-![](bc3-raw/files/2841847-screenshot_2016-03-23-00-18-18.png)
+![](../bc3-images/2841847-screenshot_2016-03-23-00-18-18.png)
 
-](bc3-raw/files/2841847-screenshot_2016-03-23-00-18-18.png)
+](../bc3-images/2841847-screenshot_2016-03-23-00-18-18.png)
 
-[Screenshot_2016-03-23-00-18-18.png 224 KB • Download](bc3-raw/files/2841847-screenshot_2016-03-23-00-18-18.png)
+[Screenshot_2016-03-23-00-18-18.png 224 KB • Download](../bc3-images/2841847-screenshot_2016-03-23-00-18-18.png)
 
-   nice job  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  ;)
+   nice job  Hyacinthe Hyacinthe  ;)
 
 ### **Hyacinthe** - 2016-03-23 at 8:34 AM
 
@@ -1524,7 +1524,7 @@ Si besoin je parle espagnol (à peu près)
 
 ### **Hyacinthe** - 2016-11-08 at 12:54 AM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  si ca te branche un starter-kit en espagnol, tu es la bienvenue ;) je blague
+Hyacinthe Hyacinthe  si ca te branche un starter-kit en espagnol, tu es la bienvenue ;) je blague
 
 
 
@@ -1558,11 +1558,11 @@ On les ajoute à ce basecamp ? Je sais en tout cas qu'on gagnerait à y mettre N
 
 ### **Hyacinthe** - 2016-02-08 at 8:15 AM
 
-Si vous voulez.  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne  qu'en penses tu ? sont-ils de futures contributeurs réguliers ?   De quel Nicolas parles tu ? Si c'est Nicolas Nallet, je peux lui demander s'il le souhaite.
+Si vous voulez.  Hyacinthe lacenne  qu'en penses tu ? sont-ils de futures contributeurs réguliers ?   De quel Nicolas parles tu ? Si c'est Nicolas Nallet, je peux lui demander s'il le souhaite.
 
 ### **Hyacinthe** - 2016-02-08 at 8:39 AM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  je pense que  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  parle des traducteurs du wiki : catehrine philips et nicolas etaix
+Hyacinthe Hyacinthe  parle des traducteurs du wiki : catehrine philips et nicolas etaix
 
 ### **Hyacinthe** - 2016-02-08 at 9:34 AM
 
@@ -1590,7 +1590,7 @@ Bonjour!
 
 ### **Hyacinthe** - 2016-02-08 at 3:41 PM
 
-Bonjour  ![Nicolas, Tech & such at echopen](./../../zz_assets/images/avatars/1946185.png) Nicolas  bienvenue sur le basecamp echopen. A ta dispo si tu as des questions.
+Bonjour  Hyacinthe Nicolas  bienvenue sur le basecamp echopen. A ta dispo si tu as des questions.
 
 ### **Hyacinthe** - 2016-02-08 at 5:48 PM
 
@@ -1602,7 +1602,7 @@ Salut, maintenant que vous avez déplacé les fichiers sur votre drive je peux e
 
 ### **Hyacinthe** - 2016-02-08 at 6:40 PM
 
-![Nicolas, Tech & such at echopen](./../../zz_assets/images/avatars/1946185.png) Nicolas  je t'ai ajouté au dossier. Tu devrais alors pouvoir ajouter ce que tu veux.
+Hyacinthe Nicolas  je t'ai ajouté au dossier. Tu devrais alors pouvoir ajouter ce que tu veux.
 
 ### **Nicolas** - 2016-02-08 at 6:44 PM
 
@@ -1614,7 +1614,7 @@ Re-bonjour tout le monde,  Petite question pour les personnes ayant rédigé la 
 
 ### **Hyacinthe** - 2016-02-08 at 10:57 PM
 
-hello  ![Nicolas, Tech & such at echopen](./../../zz_assets/images/avatars/1946185.png) Nicolas ,   le module de formation est en cours de conception en fait ;)   par ailleurs, je ping  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  pour la question que tu soulèves   @++
+hello  Hyacinthe Hyacinthe  pour la question que tu soulèves   @++
 
 ### **Nicolas** - 2016-02-09 at 8:15 AM
 
@@ -1626,7 +1626,7 @@ Sur un week-end c'est ça?
 
 ### **Hyacinthe** - 2016-02-09 at 8:21 AM
 
-Bonjour  ![Nicolas, Tech & such at echopen](./../../zz_assets/images/avatars/1946185.png) Nicolas  merci pour tes remaruqes.
+Bonjour  Hyacinthe Nicolas  merci pour tes remaruqes.
 
  * La formation a pour ambition d'être effectuée en 48h  (soir un week-end par exemple) =&gt; 2 days training est parfait.   * Pour l'utilisation de l'outils basecamp, l'idée est de réussir insérer les informations au bon endroit. S'il s'agit d'une remarques qui s'insère dans un fil de discussion, alors c'est parfait, sinon, il est intéressant de créer un nouveau fil, uniquement si la thématique mérite des échanges au sein de la communauté. Pour ce qui est des petites questions, nous avons un slack, sorte d'outils de chat dans lequel je viens de t'ajouter.
 
@@ -1682,7 +1682,7 @@ yes cloud9 est bien aussi - de git mais   en fait d'abord une interface de displ
 
 ### **Hyacinthe** - 2016-02-16 at 8:40 PM
 
-btw,  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe propose que l'on ajoute une notion de coopétition - ayant en tête le RAMP #epidemium dont l'expérience a été concluante.   Du coup, on peut ajouter à chaque run de production, un executable qui update un leaderboard sur la web-interface de la redpitaya   oilà;)
+btw,  Hyacinthe Hyacinthe propose que l'on ajoute une notion de coopétition - ayant en tête le RAMP #epidemium dont l'expérience a été concluante.   Du coup, on peut ajouter à chaque run de production, un executable qui update un leaderboard sur la web-interface de la redpitaya   oilà;)
 
 ### **Hyacinthe** - 2016-02-17 at 8:43 AM
 
@@ -1742,7 +1742,7 @@ Tout ça me parait super :) ! Elle sera là vendredi? On peut éventuellement la
 
 # journée de l'imagerie du vivant  - 2016-01-17
 
-hello,   ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe   nous fait savoir que cet [event](http://www.cite-sciences.fr/fr/au-programme/lieux- ressources/cite-de-la-sante/au-programme/cycle-innovation-sante/) peut être intéressant   btw, on peut se proposer une sortie/débarquement tous ensemble le 10/11/12 février pour la [journée](http://www.cite-sciences.fr/fr/au-programme/lieux- ressources/cite-de-la-sante/au-programme/cycle-innovation-sante/%20) de l'imagerie du vivant   @++
+hello,   Hyacinthe Hyacinthe   nous fait savoir que cet [event](http://www.cite-sciences.fr/fr/au-programme/lieux- ressources/cite-de-la-sante/au-programme/cycle-innovation-sante/) peut être intéressant   btw, on peut se proposer une sortie/débarquement tous ensemble le 10/11/12 février pour la [journée](http://www.cite-sciences.fr/fr/au-programme/lieux- ressources/cite-de-la-sante/au-programme/cycle-innovation-sante/%20) de l'imagerie du vivant   @++
 
 
 
@@ -1752,7 +1752,7 @@ Bonjour à tous,   Alors j'ai discuté avec Colin et voilà ce que j'ai comprit:
 
 ### **Hyacinthe** - 2016-01-11 at 9:22 AM
 
-![Hyacinthe, FPGA at echopen](./../../zz_assets/images/avatars/1249124.png) Hyacinthe  tu nous fais un petit update ?
+Hyacinthe Hyacinthe  tu nous fais un petit update ?
 
 ### **Hyacinthe** - 2016-01-11 at 10:08 AM
 
@@ -1770,7 +1770,7 @@ un thread autour de l'app, native, semi-native ou web
 
 ### **Hyacinthe** - 2016-04-28 at 5:13 PM
 
-installé un ide collboratif sur cloud9   pour y accéder   <https://ide.c9.io/newben/echotest>   toutes les utilités de python sont installés en natif sur le cloud : pip, virtualenv...   version python 2.7.6 ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe si vous avez des habitudes sur d'autres versions, notamment les plus récentes, dites-moi
+installé un ide collboratif sur cloud9   pour y accéder   <https://ide.c9.io/newben/echotest>   toutes les utilités de python sont installés en natif sur le cloud : pip, virtualenv...   version python 2.7.6 Hyacinthe Hyacinthe si vous avez des habitudes sur d'autres versions, notamment les plus récentes, dites-moi
 
  
 
@@ -1794,15 +1794,15 @@ scipy installé   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822
 
 ### **Hyacinthe** - 2016-04-28 at 5:55 PM
 
-Sweet ! Tu minvites dessus? Id: Hyacinthe124   Avec mon coloc on avait comparé les deux, c9 en termes de ux générale l'emportait. Ensuite, on était sur une App rails "standard" donc le plan gratuit était largement suffisant :)   Pour tes 3 points, vla un peu de food for thoughts ci dessous :)   \- Pour déjà travailler sur des images, il y a le dump <https://github.com/Hyacinthe124/murgen-dev- kit/blob/master/software/examples/Readme.md> qui liste qques images brutes (en sortie d'acquisition) - on avait échangé sur le format, il a été utilisé là :) . On connaît les caractéristiques de l'image, et celles du fantôme, donc on peut essayer de reconstruire des images avec différents algos :) le nom des fichiers est le md5 de l'image brute. Peuvent ils être servis par le serveur de Michel ? Y'a déjà les thumbs :)  \- Les specs du fantôme: il y aura une image du fantôme avec une règle, comme ça ça en donnera les specs de base.  \- Output: oui, qu'attendre en output? Une image? Un temps de conversion? Une notation par un médecin? Quel kpi ?   Y'a déjà de quoi jouer un peu :)
+Sweet ! Tu minvites dessus? Id: kelu124   Avec mon coloc on avait comparé les deux, c9 en termes de ux générale l'emportait. Ensuite, on était sur une App rails "standard" donc le plan gratuit était largement suffisant :)   Pour tes 3 points, vla un peu de food for thoughts ci dessous :)   \- Pour déjà travailler sur des images, il y a le dump <https://github.com/kelu124/murgen-dev- kit/blob/master/software/examples/Readme.md> qui liste qques images brutes (en sortie d'acquisition) - on avait échangé sur le format, il a été utilisé là :) . On connaît les caractéristiques de l'image, et celles du fantôme, donc on peut essayer de reconstruire des images avec différents algos :) le nom des fichiers est le md5 de l'image brute. Peuvent ils être servis par le serveur de Michel ? Y'a déjà les thumbs :)  \- Les specs du fantôme: il y aura une image du fantôme avec une règle, comme ça ça en donnera les specs de base.  \- Output: oui, qu'attendre en output? Une image? Un temps de conversion? Une notation par un médecin? Quel kpi ?   Y'a déjà de quoi jouer un peu :)
 
 ### **Hyacinthe** - 2016-04-30 at 9:11 AM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne tu as aussi codeanywhere :)
+Hyacinthe lacenne tu as aussi codeanywhere :)
 
 ### **Hyacinthe** - 2016-05-01 at 5:06 PM
 
-Pour les fantomes utilisés dans les exemples cités, ca se passe sur <https://github.com/Hyacinthe124/murgen-dev- kit/blob/master/software/examples/Readme.md>  -- rubrique "Specs des fantomes". Ca peut etre l'occasion d'une part de tester des algos de scan conversion et de traitement de l'image (reduction du bruit?) -- tout en faisant de la segmentation.
+Pour les fantomes utilisés dans les exemples cités, ca se passe sur <https://github.com/kelu124/murgen-dev- kit/blob/master/software/examples/Readme.md>  -- rubrique "Specs des fantomes". Ca peut etre l'occasion d'une part de tester des algos de scan conversion et de traitement de l'image (reduction du bruit?) -- tout en faisant de la segmentation.
 
 ### **Hyacinthe** - 2016-05-03 at 7:27 PM
 
@@ -1814,7 +1814,7 @@ je t'y ai invité - je regarde le reste
 
 ### **Hyacinthe** - 2016-05-13 at 9:14 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe le cloud9 est installé avec 1 bench de scanconversion façon OpenCV/python  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe j'ai installé octave. dis-moi si tu vois d'autres packages utiles   next step, installer les utilités pour monitoring de perf   fabriquer un script qui compare I/O de la soumission avec le bench.   à cette fin , discussion des KPI qd vous voulez
+Hyacinthe Hyacinthe j'ai installé octave. dis-moi si tu vois d'autres packages utiles   next step, installer les utilités pour monitoring de perf   fabriquer un script qui compare I/O de la soumission avec le bench.   à cette fin , discussion des KPI qd vous voulez
 
 ### **Hyacinthe** - 2016-06-22 at 9:58 AM
 
@@ -1826,11 +1826,11 @@ mise en place de l'infra tests sur VM et sans VM   mise en place de tests unitai
 
 ### **Hyacinthe** - 2016-07-09 at 1:01 AM
 
-[1 ptit écusson sur la page github]   ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe on franchit un cap qualité sur l'app -&gt; elle vient de passer sous CI ;)   Github n'intègre malheureusement pas Jenkins donc j'ai utilisé Travis, 1 rmq : usage plus simple pour les tâches habituelles mais twistés pour les besoins customs (genre ndk &amp; such)   en tout cas le build passe et on a notre petite écusson sur la page github ;)   <https://github.com/echopen/android-app>   je ferai l'update sur le wiki pour les règles de soumission qui désormais devront passer le build   dès que j'ai une fenêtre de tir je m'occupe de la couverture de code - j'ai rédigé pas mal de tests mais on doit être à peine à 10 % -  -&gt; d'une part ca complétera les labels et bon signal qualité pour les contributeurs à venir  -&gt; par ailleurs, ca donne une métrique pour un challenge -&gt; genre passer notre code coverage à 99% ! 1 #hackathon de rentrée ? ;)
+[1 ptit écusson sur la page github]   Hyacinthe Hyacinthe on franchit un cap qualité sur l'app -&gt; elle vient de passer sous CI ;)   Github n'intègre malheureusement pas Jenkins donc j'ai utilisé Travis, 1 rmq : usage plus simple pour les tâches habituelles mais twistés pour les besoins customs (genre ndk &amp; such)   en tout cas le build passe et on a notre petite écusson sur la page github ;)   <https://github.com/echopen/android-app>   je ferai l'update sur le wiki pour les règles de soumission qui désormais devront passer le build   dès que j'ai une fenêtre de tir je m'occupe de la couverture de code - j'ai rédigé pas mal de tests mais on doit être à peine à 10 % -  -&gt; d'une part ca complétera les labels et bon signal qualité pour les contributeurs à venir  -&gt; par ailleurs, ca donne une métrique pour un challenge -&gt; genre passer notre code coverage à 99% ! 1 #hackathon de rentrée ? ;)
 
 ### **Hyacinthe** - 2016-07-16 at 11:54 PM
 
-après discussion avec ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe   cet am, lundi on va proposer une architecture pour un site lisible, qu'à base de gitbooks. c une propale hein ;) qui aura pour mérite de  l'architecture et de la synchronisation de la base de connaissance avec github   une conséquence pratique sera de mener une refonte de l'orga des  repo.   btw, ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe en collatéral de l'holacratie, ce serait pas mal d'adopter un  [Contributor Covenant](http://contributor- covenant.org/version/1/4/code_of_conduct.md), dont `rails` est adopteur
+après discussion avec Hyacinthe Hyacinthe en collatéral de l'holacratie, ce serait pas mal d'adopter un  [Contributor Covenant](http://contributor- covenant.org/version/1/4/code_of_conduct.md), dont `rails` est adopteur
 
 ### **Hyacinthe** - 2016-07-17 at 10:06 AM
 
@@ -1842,7 +1842,7 @@ il n'y a pas de tels threads dédiés, orga, suis pas sur que ca soit pertinent 
 
 ### **Hyacinthe** - 2016-07-18 at 12:38 PM
 
-Il faudrait discuter de l'architecture du site avec un "pro" du domaine.   Comme je t'ai la semaine dernière ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne , j'ai un contributeur pour monter un site web. Ce fut son boulot à une époque.
+Il faudrait discuter de l'architecture du site avec un "pro" du domaine.   Comme je t'ai la semaine dernière Hyacinthe lacenne , j'ai un contributeur pour monter un site web. Ce fut son boulot à une époque.
 
 ### **Hyacinthe** - 2016-07-18 at 12:39 PM
 
@@ -1858,7 +1858,7 @@ Pas mal - un dev RoR en somme. Moins orienté architecture de contenu though.   
 
 ### **Hyacinthe** - 2016-07-18 at 1:37 PM
 
-hello, merci ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe simplement il avait l'air chaud pour faire du test sur android. IL connait java. C un plus stimulant pour un bon dev que du faire du rails. Btw, tout est en place pour l'écriture de tests config : templating de base, base de helper, structure de mocking   Du coup, pour un site statique, on peut mettre david sur le coup. Il faut voir si un générateur est le mieux, on en discute ce soir ;)
+hello, merci Hyacinthe Hyacinthe simplement il avait l'air chaud pour faire du test sur android. IL connait java. C un plus stimulant pour un bon dev que du faire du rails. Btw, tout est en place pour l'écriture de tests config : templating de base, base de helper, structure de mocking   Du coup, pour un site statique, on peut mettre david sur le coup. Il faut voir si un générateur est le mieux, on en discute ce soir ;)
 
 ### **Hyacinthe** - 2016-07-18 at 1:43 PM
 
@@ -1870,7 +1870,7 @@ Que demande le peuple !
 
 ### **Hyacinthe** - 2016-08-13 at 2:31 PM
 
-![David Isnard, Dev php js html css symfony2 nodejs at echopen](./../../zz_assets/images/avatars/4693510.png) David a terminé le travail entamé il y a quelques mois par Mathieu Régnier
+Hyacinthe David a terminé le travail entamé il y a quelques mois par Mathieu Régnier
 
 interface node de récupération de données depuis la sonde dans l’aquarium
 
@@ -1992,7 +1992,7 @@ OUi à fond !:)
 
 ### **Hyacinthe** - 2016-11-10 at 7:41 PM
 
-Meeting prévu le 17.11.16 avec Eric Deharo de l’IRD avec ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe
+Meeting prévu le 17.11.16 avec Eric Deharo de l’IRD avec Hyacinthe Hyacinthe
 
  
 
@@ -2008,7 +2008,7 @@ hello,   juste un update sur le dev   les deux juniors de l'epitech travaillent 
 
 # Organisation Release 24 Mars Archived  - 2016-02-11
 
-Le 24 mars prochain, nous présenterons le premier prototype echopen V1 fonctionnel. Je vous invite à ce que nous discutions de cet event sur ce fil de discussion.     hello, pour le 10 mars l'hôtel dieu nous mets à disposition l'amphi Lapersonne qui a une capacité d'accueil d'une centaine de personnes  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  je te le montre tout à l'heure s'il est ouvert   @++
+Le 24 mars prochain, nous présenterons le premier prototype echopen V1 fonctionnel. Je vous invite à ce que nous discutions de cet event sur ce fil de discussion.     hello, pour le 10 mars l'hôtel dieu nous mets à disposition l'amphi Lapersonne qui a une capacité d'accueil d'une centaine de personnes  Hyacinthe Hyacinthe  je te le montre tout à l'heure s'il est ouvert   @++
 
 ### **Hyacinthe** - 2016-02-11 at 12:22 PM
 
@@ -2036,11 +2036,11 @@ Bonjour à tous,   Afin d'inviter les gens à la soirée de présentation de la 
 
 [
 
-![](bc3-raw/files/2553919 -invitation-echopen-24-mars-2016.jpg)
+![](../bc3-images/2553919 -invitation-echopen-24-mars-2016.jpg)
 
-](bc3-raw/files/2553919 -invitation-echopen-24-mars-2016.jpg)
+](../bc3-images/2553919 -invitation-echopen-24-mars-2016.jpg)
 
-[Invitation Echopen 24 Mars 2016.jpg 448 KB • Download](bc3-raw/files/2553919 -invitation-echopen-24-mars-2016.jpg)
+[Invitation Echopen 24 Mars 2016.jpg 448 KB • Download](../bc3-images/2553919 -invitation-echopen-24-mars-2016.jpg)
 
 ### **Hyacinthe** - 2016-03-15 at 12:17 PM
 
@@ -2070,9 +2070,9 @@ Bonsoir à tous,   Voilà donc le draft de présentation avec l'ajout des élém
 
 ![](./../../zz_assets/images/previews/2875588-echopen_presentation_24_mars_2016.png)
 
-](bc3-raw/files/2875588-echopen_presentation_24_mars_2016.pdf)
+](../bc3-images/2875588-echopen_presentation_24_mars_2016.pdf)
 
-[echopen_presentation_24_mars_2016.pdf 11.2 MB • Download](bc3-raw/files/2875588-echopen_presentation_24_mars_2016.pdf)
+[echopen_presentation_24_mars_2016.pdf 11.2 MB • Download](../bc3-images/2875588-echopen_presentation_24_mars_2016.pdf)
 
 ### **Hyacinthe** - 2016-03-23 at 8:17 PM
 
@@ -2086,7 +2086,7 @@ Beau boulot !  Qq petits pb dans la partie méca :
 
 ### **Hyacinthe** - 2016-03-24 at 7:28 AM
 
-Merci  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe , bien vue... Désolé pour ces boeugs. C'est corrigé.  En effet les photos sont un peu floues. Si tu m'envoies les originaux, je peux les intégrer dans la journée, j'ai des masques d'images sur les slides, ça devrait donc ne pas poser de soucis. J'ai exporté en pptx et intégré les éléments sur keynote.
+Merci  Hyacinthe Hyacinthe , bien vue... Désolé pour ces boeugs. C'est corrigé.  En effet les photos sont un peu floues. Si tu m'envoies les originaux, je peux les intégrer dans la journée, j'ai des masques d'images sur les slides, ça devrait donc ne pas poser de soucis. J'ai exporté en pptx et intégré les éléments sur keynote.
 
 ### **Hyacinthe** - 2016-06-02 at 9:54 AM
 
@@ -2110,9 +2110,9 @@ un étudiant de l'ISEP, 3èmeA #FPGA cherche un stage à compter de juillet   rd
 
 ![](./../../zz_assets/images/previews/3383116-cv-stage.png)
 
-](bc3-raw/files/3383116 -cv-stage.pdf)
+](../bc3-images/3383116 -cv-stage.pdf)
 
-[CV stage.pdf 413 KB • Download](bc3-raw/files/3383116 -cv-stage.pdf)
+[CV stage.pdf 413 KB • Download](../bc3-images/3383116 -cv-stage.pdf)
 
 ### **Hyacinthe** - 2016-04-07 at 9:36 AM
 
@@ -2128,27 +2128,27 @@ L'idée est de trouver des ressources circulantes qui viendraient compléter l'�
 
 ### **Hyacinthe** - 2016-04-07 at 10:11 AM
 
-![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe   tu as un moment pour un call pour qu'on te debriefe sur les choix du captech  ?
+Hyacinthe Hyacinthe   tu as un moment pour un call pour qu'on te debriefe sur les choix du captech  ?
 
 ### **Hyacinthe** - 2016-04-07 at 10:14 AM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  Je comprends bien l'idée (et ce serait effectivement génial), mais j'imagine (peut être que je me trompes) que s'il faut prendre un stagiaire, ce dernier doit valider auprès de son administration un sujet précis et en accord avec sa spécialité (je parles en connaissance de cause, notre administration est bien chiante :p). Et même pour le stagiaire en question savoir vers ou il part serait une bonne chose. Après je suppose que ça a été décidé lors du Captech!   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne  Bien sur, je bosses toutes la journée mais rien ne m'empêche de m'absenter quelques temps! :)
+Hyacinthe lacenne  Bien sur, je bosses toutes la journée mais rien ne m'empêche de m'absenter quelques temps! :)
 
 ### **Hyacinthe** - 2016-04-07 at 10:29 AM
 
-Merci  ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe  pour ton retour. Le responsable de l'Isep était au CAPTech et c'est lui qui a circonscrit la thématique et proposé la dynamique ;)
+Merci  Hyacinthe Hyacinthe  pour ton retour. Le responsable de l'Isep était au CAPTech et c'est lui qui a circonscrit la thématique et proposé la dynamique ;)
 
 ### **Hyacinthe** - 2016-04-07 at 10:39 AM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe Super! :D je vois que tout est prévu ;)
+Hyacinthe Hyacinthe Super! :D je vois que tout est prévu ;)
 
 ### **Hyacinthe** - 2016-04-07 at 3:49 PM
 
-![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe  un peu d'exercice de dérouillage mathématique en vue de cet été   pour tout entier n, on note In, le nombre d'entier p tel que   50^{n} &lt; 7^{p} &lt; 50^{n+1} // sorry, je n'ai pas latex, mais il s'agit de symboles de puissance   1) prouver que pour tout n entier, In = 2 ou 3   2) prouver qu'il existe une infinité d'entiers n tels que In=3   oilà
+Hyacinthe Hyacinthe  un peu d'exercice de dérouillage mathématique en vue de cet été   pour tout entier n, on note In, le nombre d'entier p tel que   50^{n} &lt; 7^{p} &lt; 50^{n+1} // sorry, je n'ai pas latex, mais il s'agit de symboles de puissance   1) prouver que pour tout n entier, In = 2 ou 3   2) prouver qu'il existe une infinité d'entiers n tels que In=3   oilà
 
 ### **Hyacinthe** - 2016-04-11 at 1:01 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  attention, si tu likes, c que tu en redemandes !!!   donc voilà :   trouver les triplets d'entiers (a,b,c) tels que ab-c,bc-a,ca-b sont chacun une puissance de 2 !
+Hyacinthe Hyacinthe  attention, si tu likes, c que tu en redemandes !!!   donc voilà :   trouver les triplets d'entiers (a,b,c) tels que ab-c,bc-a,ca-b sont chacun une puissance de 2 !
 
 ### **Hyacinthe** - 2016-04-25 at 7:10 AM
 
@@ -2174,15 +2174,15 @@ orga réu mercredi 25.05 avec Soobash et Zahra (étudiante ISEP) pour coordinati
 
 ### **Hyacinthe** - 2016-05-18 at 8:48 PM
 
-Bonsoir ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe , ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe , et tout le monde ;)   Voici le CV d'une de mes amies : Zhor, qui est entre son M1 et M2 du master MONABIPHOT de l'ENS Cachan.  Elle cherche un stage cet été idéalement à partir du 4 juillet et jusqu'à fin août et même 1er septembre, ça fait longtemps que je lui ai parlé d'Echopen et ça lui plairait bien de rejoindre le projet dans le cadre de son stage.  Elle a notamment eu des cours sur les matériaux et le traitement du signal qui pourraient être utiles ....  Voilà son mail : [zhor.khadir@gmail.com](mailto:zhor.khadir@gmail.com)  Elle est en Erasmus à Madrid en ce moment mais peut vous skyper, envoyer une lettre de recommandation, et/ou de motivation ...   
+Bonsoir Hyacinthe Hyacinthe , et tout le monde ;)   Voici le CV d'une de mes amies : Zhor, qui est entre son M1 et M2 du master MONABIPHOT de l'ENS Cachan.  Elle cherche un stage cet été idéalement à partir du 4 juillet et jusqu'à fin août et même 1er septembre, ça fait longtemps que je lui ai parlé d'Echopen et ça lui plairait bien de rejoindre le projet dans le cadre de son stage.  Elle a notamment eu des cours sur les matériaux et le traitement du signal qui pourraient être utiles ....  Voilà son mail : [zhor.khadir@gmail.com](mailto:zhor.khadir@gmail.com)  Elle est en Erasmus à Madrid en ce moment mais peut vous skyper, envoyer une lettre de recommandation, et/ou de motivation ...   
 
 [
 
 ![](./../../zz_assets/images/previews/5175574-cv-zhor-khadir-2016.png)
 
-](bc3-raw/files/5175574 -cv-zhor-khadir-2016.pdf)
+](../bc3-images/5175574 -cv-zhor-khadir-2016.pdf)
 
-[cv-zhor-khadir-2016.pdf 139 KB • Download](bc3-raw/files/5175574 -cv-zhor-khadir-2016.pdf)
+[cv-zhor-khadir-2016.pdf 139 KB • Download](../bc3-images/5175574 -cv-zhor-khadir-2016.pdf)
 
 ### **Hyacinthe** - 2016-05-18 at 9:23 PM
 
@@ -2198,19 +2198,19 @@ hello des news sur la RH !!   3 ingénieurs de M1 de l'Université Libre de Brux
 
 ### **Hyacinthe** - 2016-10-27 at 11:55 PM
 
-#brightday   nous avons accueilli aujourd'hui 3 ingé de l'ULB et leurs prof Hyacinthe Debeir. journée pleine d'enthousiasme et de bonnes énergies   Hyacinthe était impressionné et ravi par la qualité des images que l'on obtient - et nous aussi : doigts, paume, avant-bras ;)   ils travaillent sur echOpen jusqu'en mars 2017.   l'idée d'Hyacinthe est d'instancier echOpen à l'ULB, de façon autonome   embryon d'internationalisation   ![Nassim Chadli, Instanciator at echopen](./../../zz_assets/images/avatars/4069013.png) Nassim : on vous attend aussi ;) n'hésitez pas à nous solliciter !   @++
+#brightday   nous avons accueilli aujourd'hui 3 ingé de l'ULB et leurs prof Hyacinthe Debeir. journée pleine d'enthousiasme et de bonnes énergies   Hyacinthe était impressionné et ravi par la qualité des images que l'on obtient - et nous aussi : doigts, paume, avant-bras ;)   ils travaillent sur echOpen jusqu'en mars 2017.   l'idée d'Hyacinthe est d'instancier echOpen à l'ULB, de façon autonome   embryon d'internationalisation   Hyacinthe Nassim : on vous attend aussi ;) n'hésitez pas à nous solliciter !   @++
 
 ### **Hyacinthe** - 2016-11-07 at 7:30 PM
 
-CV d'un étudiant des Mines de deuxième année, intéréssé pour faire son [stage "ingenieur"](http://www.mines-paristech.fr/Formation/Cycle-ingenieurs- civils/Cursus/Stages/) chez echopen sur la période estivale (12 à 16 semaines). Je ne l'ai jamais rencontré mais son CV est impressionnant, + dimension internationale + Wiki +TedX +robotique + java + intéréssé par la santé (c'est dans son mail ) ! ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne
+CV d'un étudiant des Mines de deuxième année, intéréssé pour faire son [stage "ingenieur"](http://www.mines-paristech.fr/Formation/Cycle-ingenieurs- civils/Cursus/Stages/) chez echopen sur la période estivale (12 à 16 semaines). Je ne l'ai jamais rencontré mais son CV est impressionnant, + dimension internationale + Wiki +TedX +robotique + java + intéréssé par la santé (c'est dans son mail ) ! Hyacinthe lacenne
 
 [
 
 ![](./../../zz_assets/images/previews/18112132-cv_mahdi_mohamed.png)
 
-](bc3-raw/files/18112132-cv_mahdi_mohamed.pdf)
+](../bc3-images/18112132-cv_mahdi_mohamed.pdf)
 
-[CV_Mahdi_Mohamed.pdf 341 KB • Download](bc3-raw/files/18112132-cv_mahdi_mohamed.pdf)
+[CV_Mahdi_Mohamed.pdf 341 KB • Download](../bc3-images/18112132-cv_mahdi_mohamed.pdf)
 
 ### **Nassim Chadli** - 2016-11-07 at 7:32 PM
 
@@ -2222,7 +2222,7 @@ Ah non ! Waw C son double alors. Notre ingénieur (Hyacinthe Dib) à presque le 
 
 ### **Hyacinthe** - 2016-11-08 at 12:53 AM
 
-excellent ;) ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe je nous met en contact avec lui demain et vous tiens au courant   @bientôt
+excellent ;) Hyacinthe Hyacinthe je nous met en contact avec lui demain et vous tiens au courant   @bientôt
 
 
 
@@ -2240,11 +2240,11 @@ Je plussois le coté pratique et économique de faire des 1/2 cartes mères, en 
 
 ### **Hyacinthe** - 2016-04-13 at 4:55 PM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe on pourrait voir à quoi ça ressemble avant d'envoyer en fab ? Sinon si tu as déjà un jeu de pistes d'interface qui est suffisant pour tes modules c'est déjà une bonne référence.
+Hyacinthe Hyacinthe on pourrait voir à quoi ça ressemble avant d'envoyer en fab ? Sinon si tu as déjà un jeu de pistes d'interface qui est suffisant pour tes modules c'est déjà une bonne référence.
 
 ### **Hyacinthe** - 2016-04-13 at 5:11 PM
 
-![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe , ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe , la remarque :   "_dans tel solution c'est tel signal logique et dans tel autre, c'est tel signal logique... _"  ... me rend aussi très perplexe ...   Si on est pas capable d'avoir un design unique de carte mère (mécanique et électrique), je crois qu'on a tout faux.  J'ai effectivement proposé une alternative pour les deux signaux pwm de moteur CC et les 4 signaux du stepper. Mais ce sont des signaux de sortie externes qui squattent des pistes libres et des solutions qui sont exclusives. Par ailleurs, j'espère qu'on ne va pas s'accrocher trop longtemps à la solution moteur CC dès qu'on aura validé un minimum le moteur stepper.
+Hyacinthe Hyacinthe , la remarque :   "_dans tel solution c'est tel signal logique et dans tel autre, c'est tel signal logique... _"  ... me rend aussi très perplexe ...   Si on est pas capable d'avoir un design unique de carte mère (mécanique et électrique), je crois qu'on a tout faux.  J'ai effectivement proposé une alternative pour les deux signaux pwm de moteur CC et les 4 signaux du stepper. Mais ce sont des signaux de sortie externes qui squattent des pistes libres et des solutions qui sont exclusives. Par ailleurs, j'espère qu'on ne va pas s'accrocher trop longtemps à la solution moteur CC dès qu'on aura validé un minimum le moteur stepper.
 
 ### **Hyacinthe** - 2016-04-14 at 10:09 AM
 
@@ -2252,11 +2252,11 @@ En ce qui concerne les 3 possibilités de cartes filles, pour_ _la troisième j
 
 [
 
-![](bc3-raw/files/3697306-cartemere_cartefille.jpg)
+![](../bc3-images/3697306-cartemere_cartefille.jpg)
 
-](bc3-raw/files/3697306-cartemere_cartefille.jpg)
+](../bc3-images/3697306-cartemere_cartefille.jpg)
 
-[cartemere_cartefille.jpg 252 KB • Download](bc3-raw/files/3697306-cartemere_cartefille.jpg)
+[cartemere_cartefille.jpg 252 KB • Download](../bc3-images/3697306-cartemere_cartefille.jpg)
 
   Aux quatre coins pour la stabilité mécanique. Après si on trouve des entretoises qui vont biens ça serait cool. Pourquoi 2 pins? Pour s'assurer qu'on soude les pins bien perpendiculairement à la plaque, avec une seule pin on a de fortes chances de souder de travers et après on ne pourra pas plugger les modules.   En ce qui concerne la modularité des signaux logiques, par exemple la commande moteur sera une PWM pour moteur CC, une PWM pour servo et je ne sais pas quoi pour le moteur pas à pas. La commande logique est différente mais le signal à la même fonction. Je pose ça à plat et je reviens vers vous.  Mais bien vu Hyacinthe, on peut mettre les alims les plus utilisées et des masses sur les pins de support.
 
@@ -2272,7 +2272,7 @@ Pourquoi ne pas passer à la production de carte électronique pour réaliser vo
 
 Yop,@Hyacinthe : tu es sur du 15 pins sur tes photos, c'est voulu?   Attaché, un petit excel avec les tables sur les pistes requises par nos différentes approches, pour mémoire (et pour édition facile).   On avait commencé à drafter la table des pistes, qui est sur : <http://echopen.org/index.php?title=Modules_:_a_motherboard> pour référence.   Cheers! 
 
-[![](./../../zz_assets/images/file-types/xlsx.png) Pistes.xlsx 10.5 KB • Download](bc3-raw/files/3697900-pistes.xlsx)
+[![](./../../zz_assets/images/file-types/xlsx.png) Pistes.xlsx 10.5 KB • Download](../bc3-images/3697900-pistes.xlsx)
 
 ### **Hyacinthe** - 2016-04-14 at 10:27 AM
 
@@ -2290,15 +2290,15 @@ Noté.   Nous avions convenu lors de la réunion de lundi de partir sur une list
 
 Quelques remarques :
 
- * ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe ,  pour souder bien perpendiculairement n'importe quel connecteur il suffit de le plugger sur un autre connecteur d'une carte possèdant 2 rangées de pins et de mettre un autre connecteur monté à vide dans la carte : un mini montage de mise en place. Et là on fait ce qu'on veut, proprement.  * ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe ,  Ok pour produire des PCBs spécifiques pour les modules . Mais ça ne me semble pas nécessaire dans un premier temps pour la carte mère. Ce sera forcément plus cher et moins évolutif. Quel est l'intéret de faire fabriquer une carte à bande et de faire plein de trous dedans ? Il faut penser aussi au maker qui voudrait reproduire le kit, plus il y aura de composants dispo sur étagère mieux ce sera.  * ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe , sur l'exemple de soudure présenté avec uniquement les pins nécessaires si tu commences à spécialiser les connecteurs femelles de la carte mère on perd toute souplesse. Ok pour ne mettre que les pins males nécessaires sur le module mais gardons une barrette femelle complète sur la carte mère. Elle pourra accueillir n'importe quel module.  * ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe , je modifierai bien le doc des pistes pour rejeter une masse et les alims sur les bords. De toute façon, maintenant le principe d'affectation en commençant au centre est moins important puisque tout est plein. Cela permettra de garder une stabilité mécanique relative des modules si on décide de n'y souder que les pins males nécessaires. Par ailleurs si on veut quand même aller à 24 pistes on pourra les ajouter à l'extérieur. Ce qui compte c'est qu'il y ait un bon écartement entre le gnd et le 5v (qu'on soudera sur tout module). Je propose une nouvelle version du fichier (en bougeant un peu tout pour essayer aussi de minimiser les risques de bruit).  * Je réserverai bien un espace sans composant de 5mmx5mm sur les deux coins inférieurs des modules pour y souder une pin (beurk!) ou y pincer une agraffe plastique (hmmm!) afin d'assurer la stabilité mécanique.
+ * Hyacinthe Hyacinthe , je modifierai bien le doc des pistes pour rejeter une masse et les alims sur les bords. De toute façon, maintenant le principe d'affectation en commençant au centre est moins important puisque tout est plein. Cela permettra de garder une stabilité mécanique relative des modules si on décide de n'y souder que les pins males nécessaires. Par ailleurs si on veut quand même aller à 24 pistes on pourra les ajouter à l'extérieur. Ce qui compte c'est qu'il y ait un bon écartement entre le gnd et le 5v (qu'on soudera sur tout module). Je propose une nouvelle version du fichier (en bougeant un peu tout pour essayer aussi de minimiser les risques de bruit).  * Je réserverai bien un espace sans composant de 5mmx5mm sur les deux coins inférieurs des modules pour y souder une pin (beurk!) ou y pincer une agraffe plastique (hmmm!) afin d'assurer la stabilité mécanique.
 
   A vous de jouer !
 
-[![](./../../zz_assets/images/file-types/xlsx.png) Pistes v2.xlsx 12.7 KB • Download](bc3-raw/files/3701963-pistes-v2.xlsx)
+[![](./../../zz_assets/images/file-types/xlsx.png) Pistes v2.xlsx 12.7 KB • Download](../bc3-images/3701963-pistes-v2.xlsx)
 
 ### **Hyacinthe** - 2016-04-14 at 1:28 PM
 
-![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  Pour le prix ça dépend vers quel option tu te dirige et encore vu que ce sont de petites cartes avec peu de faces et pas forcement beaucoup de composants,  Intérêt:  *permettre d'optimiser en place (sur 2 couches en CMS face aux matrices à trous) et c'est pas négligeable de réduire la taille de la carte mère (en hauteur, en longueur et en largeur)  *Amélioration des performances (ça évite les mauvaises brasures, les rayonnement électromagnétiques et autres magies obscures)  *Gestion de la précision mécanique, tu n'est pas limité par la taille des pins, ni par l'espace entre les pins etc et tu peux même imaginer plusieurs autres alternatives aux pins :       - un sock type PCI ou tu viens pluguer ta carte fille       - un connecteur FMC (trop de pin je suppose) ou autre       - je connais pas masse de différents type de connecteurs mais on peux ainsi ne pas se limiter à cette façon de faire
+Hyacinthe Hyacinthe  Pour le prix ça dépend vers quel option tu te dirige et encore vu que ce sont de petites cartes avec peu de faces et pas forcement beaucoup de composants,  Intérêt:  *permettre d'optimiser en place (sur 2 couches en CMS face aux matrices à trous) et c'est pas négligeable de réduire la taille de la carte mère (en hauteur, en longueur et en largeur)  *Amélioration des performances (ça évite les mauvaises brasures, les rayonnement électromagnétiques et autres magies obscures)  *Gestion de la précision mécanique, tu n'est pas limité par la taille des pins, ni par l'espace entre les pins etc et tu peux même imaginer plusieurs autres alternatives aux pins :       - un sock type PCI ou tu viens pluguer ta carte fille       - un connecteur FMC (trop de pin je suppose) ou autre       - je connais pas masse de différents type de connecteurs mais on peux ainsi ne pas se limiter à cette façon de faire
 
 ### **Hyacinthe** - 2016-04-14 at 1:29 PM
 
@@ -2346,11 +2346,11 @@ Le connecteur ISA ... toute ma jeunesse ...
 
 ### **Hyacinthe** - 2016-04-14 at 4:31 PM
 
-![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe , "_ PS: pourquoi 4 signaux pour le pas à pas?_ "  Les steppers ont 2 bobines qui sont alimentées en +/- 5v à travers des ponts en H. Eux même pilotés en PWM pour gérer les courants et les micros-pas. Mais c'est le driver qui fait tout ça.  <https://a.pololu- files.com/picture/0J4344.600.png?519b6c6d74c2f655dd6637eccd4590c0>  Celui que j'utilise est aussi capable de driver 2 moteurs CC en marche avant/arrière.
+Hyacinthe Hyacinthe , "_ PS: pourquoi 4 signaux pour le pas à pas?_ "  Les steppers ont 2 bobines qui sont alimentées en +/- 5v à travers des ponts en H. Eux même pilotés en PWM pour gérer les courants et les micros-pas. Mais c'est le driver qui fait tout ça.  <https://a.pololu- files.com/picture/0J4344.600.png?519b6c6d74c2f655dd6637eccd4590c0>  Celui que j'utilise est aussi capable de driver 2 moteurs CC en marche avant/arrière.
 
 ### **Hyacinthe** - 2016-04-15 at 7:38 AM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe Ah si classe!
+Hyacinthe Hyacinthe Ah si classe!
 
 ### **Hyacinthe** - 2016-04-15 at 8:46 AM
 
@@ -2362,7 +2362,7 @@ Top.  On essaye de se fixer une solution ce soir, histoire de ?
 
 ### **Hyacinthe** - 2016-04-15 at 9:40 AM
 
-![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe , en fait les 4 signaux sont interne au module moteur, les signaux logiques qui nous intéressent pour la carte mère sont plus step et dir non?
+Hyacinthe Hyacinthe , en fait les 4 signaux sont interne au module moteur, les signaux logiques qui nous intéressent pour la carte mère sont plus step et dir non?
 
 ### **Hyacinthe** - 2016-04-15 at 9:41 AM
 
@@ -2374,7 +2374,7 @@ Ouiiii
 
 ### **Hyacinthe** - 2016-04-15 at 10:11 AM
 
-![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe , la question est : est-ce qu'on embarque le driver moteur (CC ou stepper) dans le module µC ou est-ce qu'on fait deux modules séparés ?  Moi j'envisageait un seul module µC avec le driver de stepper (qui est aussi capable de driver un moteur CC) et qq composants annexes (transistors, condos,...) d'adaptation pour les autres signaux pour ne pas trop multiplier les modules.  Les quatres fils peuvent sortir directement du module mais je me dis que, si on le peut, c'est plus élégant qu'ils sortent en bout de CM (avec d'autres fils externes) vers le moteur, transducteur, top/tour,... Si on change un module, on a juste à le (dé/re)plugger sans (dé/re)brancher tous les fils externes. On pourrait presque se passer de connecteurs pour les composants externes en soudant directement les fils sur la CM qu'on est pas prets, elle, de changer (quoique ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe réussira peut- être à la cramer... ). ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe pt'être qu'on peut même plugger directement un connecteur ISA en bout de CM ;-)
+Hyacinthe Hyacinthe pt'être qu'on peut même plugger directement un connecteur ISA en bout de CM ;-)
 
 ### **Hyacinthe** - 2016-04-15 at 10:25 AM
 
@@ -2402,11 +2402,11 @@ hé, hé...
 
 ### **Hyacinthe** - 2016-04-15 at 1:44 PM
 
-C'est quoi que je dois cramer? Je suis un spécialiste pour ça :p pour les explosions faut voir avec ![Hyacinthe, FPGA at echopen](./../../zz_assets/images/avatars/1249124.png) Hyacinthe   vu qu'il est italien/corse
+C'est quoi que je dois cramer? Je suis un spécialiste pour ça :p pour les explosions faut voir avec Hyacinthe Hyacinthe   vu qu'il est italien/corse
 
 ### **Hyacinthe** - 2016-04-20 at 9:40 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe , ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe , ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe , ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe , je me rends compte qu'on a pas validé définitivement les noms des interfaces. Même si on est globalement d'accord, pour que l'ensemble du dépot Git, de la doc, des schémas des sources soit un tout cohérent il faut qu'on utilise tous exactement les mêmes noms. J'avais donc proposé les termes suivants :   **Name** **Title** **Amplitude**  | [ITF-A_gnd](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-A_gnd)  | _Ground_  | [0v, 0v]  | [ITF-B_5v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-B_5v)  | _5v alimentation_  | [5v, 5v]  | [ITF- C_amplified_raw_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-C_amplified_raw_signal)  | _Amplified raw signal_  | [0v, 2v]  | [ITF- D_amplified_filtered_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-D_amplified_filtered_signal)  | _Amplified filtered signal_  | [0v, 2v]  | [ITF- E_signal_envelope](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-E_signal_envelope)  | _Signal envelope_  | [0v, 2v]  | [ITF-F_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-F_12v)  | _12v alimentation_  | [12v, 12v]  | [ITF- G_amplifier_gain](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-G_amplifier_gain)  | _Amplifier gain_  | [0v, 1v]  | [ITF- H_neg_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces/ITF- H_neg_12v)  | _-12v alimentation_  | [-12v, -12v]  | [ITF- I_pulse_on](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-I_pulse_on)  | _Pulse on_  | [0v, 5v]  | [ITF- J_pulse_off](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-J_pulse_off)  | _Pulse off_  | [0v, 5v]  | [ITF- K_pulse_redpitaya](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-K_pulse_redpitaya)  | _Pulse info for Redpitaya_  | [0v, 5v]  | [ITF- L_18v_alimentation](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-L_18v_alimentation)  | _18v external alimentation_  | [15v, 20v]  | [ITF- M_abs_angle](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-M_abs_angle)  | _Absolute tranducer position_  | [0v, 5v]  | [ITF- N_cc_motor_pwm](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_cc_motor_pwm)  | _CC motor pwm_  | [0v, 5v]  | [ITF- N_stepper_b2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_stepper_b2)  | _Stepper motor B2 signal_  | [-5v, 5v]  | [ITF- O_cc_motor_encoder](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_cc_motor_encoder)  | _CC motor incremental encoder_  | [0v, 5v]  | [ITF- O_stepper_b1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_stepper_b1)  | _Stepper motor B1 signal_  | [-5v, 5v]  | [ITF- P_stepper_a1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-P_stepper_a1)  | _Stepper motor A1 signal_  | [-5v, 5v]  | [ITF- Q_stepper_a2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-Q_stepper_a2)  | _Stepper motor A2 signal_  | [-5v, 5v]  | [ITF- R_reserved](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-R_reserved)  | _reserved track_  |  | [ITF-S_3_3v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-S_3_3v)  | _3.3v alimentation_  | [3.3v, 3.3v]   
+Hyacinthe Hyacinthe , je me rends compte qu'on a pas validé définitivement les noms des interfaces. Même si on est globalement d'accord, pour que l'ensemble du dépot Git, de la doc, des schémas des sources soit un tout cohérent il faut qu'on utilise tous exactement les mêmes noms. J'avais donc proposé les termes suivants :   **Name** **Title** **Amplitude**  | [ITF-A_gnd](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-A_gnd)  | _Ground_  | [0v, 0v]  | [ITF-B_5v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-B_5v)  | _5v alimentation_  | [5v, 5v]  | [ITF- C_amplified_raw_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-C_amplified_raw_signal)  | _Amplified raw signal_  | [0v, 2v]  | [ITF- D_amplified_filtered_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-D_amplified_filtered_signal)  | _Amplified filtered signal_  | [0v, 2v]  | [ITF- E_signal_envelope](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-E_signal_envelope)  | _Signal envelope_  | [0v, 2v]  | [ITF-F_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-F_12v)  | _12v alimentation_  | [12v, 12v]  | [ITF- G_amplifier_gain](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-G_amplifier_gain)  | _Amplifier gain_  | [0v, 1v]  | [ITF- H_neg_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces/ITF- H_neg_12v)  | _-12v alimentation_  | [-12v, -12v]  | [ITF- I_pulse_on](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-I_pulse_on)  | _Pulse on_  | [0v, 5v]  | [ITF- J_pulse_off](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-J_pulse_off)  | _Pulse off_  | [0v, 5v]  | [ITF- K_pulse_redpitaya](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-K_pulse_redpitaya)  | _Pulse info for Redpitaya_  | [0v, 5v]  | [ITF- L_18v_alimentation](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-L_18v_alimentation)  | _18v external alimentation_  | [15v, 20v]  | [ITF- M_abs_angle](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-M_abs_angle)  | _Absolute tranducer position_  | [0v, 5v]  | [ITF- N_cc_motor_pwm](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_cc_motor_pwm)  | _CC motor pwm_  | [0v, 5v]  | [ITF- N_stepper_b2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_stepper_b2)  | _Stepper motor B2 signal_  | [-5v, 5v]  | [ITF- O_cc_motor_encoder](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_cc_motor_encoder)  | _CC motor incremental encoder_  | [0v, 5v]  | [ITF- O_stepper_b1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_stepper_b1)  | _Stepper motor B1 signal_  | [-5v, 5v]  | [ITF- P_stepper_a1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-P_stepper_a1)  | _Stepper motor A1 signal_  | [-5v, 5v]  | [ITF- Q_stepper_a2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-Q_stepper_a2)  | _Stepper motor A2 signal_  | [-5v, 5v]  | [ITF- R_reserved](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-R_reserved)  | _reserved track_  |  | [ITF-S_3_3v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-S_3_3v)  | _3.3v alimentation_  | [3.3v, 3.3v]   
 
  * Si les lettres posent un pb on peut revenir sur 2 chiffres  * Si des termes ne conviennent pas on peut encore changer sans problème pour l'instant. Mais ce sera plus compliqué dès qu'ils commenceront à être utilisés dans les sources.
 
@@ -2424,7 +2424,7 @@ Les ITF C,D et E sont dans la fourchette (0, 2.5V).  G je mettrais plutôt gain 
 
 ### **Hyacinthe** - 2016-04-21 at 10:50 AM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe , oui, bien sûr, c'est le principe. On peut même le traduire ;-)  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe , va pour ITF- G_gain_control. Et je corrigerai les amplitudes. Par contre pas de majuscules dans les nom des interfaces hors ITF et la lettre (plus facile à parser ensuite) par contre dans la partie Title en clair, pas de pb je le ferai.
+Hyacinthe Hyacinthe , va pour ITF- G_gain_control. Et je corrigerai les amplitudes. Par contre pas de majuscules dans les nom des interfaces hors ITF et la lettre (plus facile à parser ensuite) par contre dans la partie Title en clair, pas de pb je le ferai.
 
 ### **Hyacinthe** - 2016-04-21 at 3:20 PM
 
@@ -2436,11 +2436,11 @@ b1, a1 ce n'est pas très explicite...
 
 ### **Hyacinthe** - 2016-04-21 at 3:41 PM
 
-Moi ça me va :)  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe Personnellement je trouve alimentation très bien, pourquoi potentiel?  a1,b1 sont les noms des entrées sur un moteur pas à pas :) A et B représentent les bobines et les chiffres la phase si je dis pas de bêtises
+Moi ça me va :)  Hyacinthe Hyacinthe Personnellement je trouve alimentation très bien, pourquoi potentiel?  a1,b1 sont les noms des entrées sur un moteur pas à pas :) A et B représentent les bobines et les chiffres la phase si je dis pas de bêtises
 
 ### **Hyacinthe** - 2016-04-22 at 11:42 AM
 
-Màj de la tables des interfaces (<https://github.com/Bivi/medicotechnical/blob/master/doc/build/configurations.md>) :  **  Name** **Title** **Amplitude**  | [ITF-A_gnd](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-A_gnd)  | _Ground_  | [0V]  | [ITF-B_5v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-B_5v)  | _5V alimentation_  | [5V, 5V]  | [ITF- C_amplified_raw_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-C_amplified_raw_signal)  | _Amplified raw signal_  | [0V, 2.5V]  | [ITF- D_amplified_filtered_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-D_amplified_filtered_signal)  | _Amplified filtered signal_  | [0V, 2.5V]  | [ITF- E_signal_envelope](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-E_signal_envelope)  | _Signal envelope_  | [0V, 2.5V]  | [ITF-F_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-F_12v)  | _12V alimentation_  | [12V, 12V]  | [ITF- G_gain_control](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-G_gain_control)  | _Amplifier gain_  | [0V, 1V]  | [ITF- H_neg_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces/ITF- H_neg_12v)  | _-12V alimentation_  | [-12V, -12V]  | [ITF- I_pulse_on](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-I_pulse_on)  | _Pulse on_  | [0V, 3.3V-5V]  | [ITF- J_pulse_off](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-J_pulse_off)  | _Pulse off_  | [0V, 5V]  | [ITF- K_pulse_redpitaya](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-K_pulse_redpitaya)  | _Pulse info for Redpitaya_  | [0V, 3.3V]  | [ITF- L_18v_alimentation](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-L_18v_alimentation)  | _18V external alimentation_  | [15V, 20V]  | [ITF- M_abs_angle](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-M_abs_angle)  | _Absolute tranducer position_  | [0V, 5V]  | [ITF- N_cc_motor_pwm](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_cc_motor_pwm)  | _CC motor pwm_  | [0V, 5V]  | [ITF- N_stepper_b2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_stepper_b2)  | _Stepper motor B2 signal_  | [-5V, 5V]  | [ITF- O_cc_motor_encoder](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_cc_motor_encoder)  | _CC motor incremental encoder_  | [0V, 5V]  | [ITF- O_stepper_b1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_stepper_b1)  | _Stepper motor B1 signal_  | [-5V, 5V]  | [ITF- P_stepper_a1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-P_stepper_a1)  | _Stepper motor A1 signal_  | [-5V, 5V]  | [ITF- Q_stepper_a2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-Q_stepper_a2)  | _Stepper motor A2 signal_  | [-5V, 5V]  | [ITF- R_reserved](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-R_reserved)  | _reserved track_  |  | [ITF-S_3_3v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-S_3_3v)  | _3.3V alimentation_  | [3.3V, 3.3V]   ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe effectivement, dans "potentiel",  ce qui est important c'est la tension (une tension de référence, par ex.) par contre dans "alimentation", c'est plus la puissance : on va devoir débiter un courant sous cette tension. D'ailleurs à terme on devra spécifier les courants max consommés par chaque module pour dimensionner correctement les modules d'alimentation.
+Màj de la tables des interfaces (<https://github.com/Bivi/medicotechnical/blob/master/doc/build/configurations.md>) :  **  Name** **Title** **Amplitude**  | [ITF-A_gnd](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-A_gnd)  | _Ground_  | [0V]  | [ITF-B_5v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-B_5v)  | _5V alimentation_  | [5V, 5V]  | [ITF- C_amplified_raw_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-C_amplified_raw_signal)  | _Amplified raw signal_  | [0V, 2.5V]  | [ITF- D_amplified_filtered_signal](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-D_amplified_filtered_signal)  | _Amplified filtered signal_  | [0V, 2.5V]  | [ITF- E_signal_envelope](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-E_signal_envelope)  | _Signal envelope_  | [0V, 2.5V]  | [ITF-F_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-F_12v)  | _12V alimentation_  | [12V, 12V]  | [ITF- G_gain_control](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-G_gain_control)  | _Amplifier gain_  | [0V, 1V]  | [ITF- H_neg_12v](https://github.com/Bivi/medicotechnical/blob/master/interfaces/ITF- H_neg_12v)  | _-12V alimentation_  | [-12V, -12V]  | [ITF- I_pulse_on](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-I_pulse_on)  | _Pulse on_  | [0V, 3.3V-5V]  | [ITF- J_pulse_off](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-J_pulse_off)  | _Pulse off_  | [0V, 5V]  | [ITF- K_pulse_redpitaya](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-K_pulse_redpitaya)  | _Pulse info for Redpitaya_  | [0V, 3.3V]  | [ITF- L_18v_alimentation](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-L_18v_alimentation)  | _18V external alimentation_  | [15V, 20V]  | [ITF- M_abs_angle](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-M_abs_angle)  | _Absolute tranducer position_  | [0V, 5V]  | [ITF- N_cc_motor_pwm](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_cc_motor_pwm)  | _CC motor pwm_  | [0V, 5V]  | [ITF- N_stepper_b2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-N_stepper_b2)  | _Stepper motor B2 signal_  | [-5V, 5V]  | [ITF- O_cc_motor_encoder](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_cc_motor_encoder)  | _CC motor incremental encoder_  | [0V, 5V]  | [ITF- O_stepper_b1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-O_stepper_b1)  | _Stepper motor B1 signal_  | [-5V, 5V]  | [ITF- P_stepper_a1](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-P_stepper_a1)  | _Stepper motor A1 signal_  | [-5V, 5V]  | [ITF- Q_stepper_a2](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-Q_stepper_a2)  | _Stepper motor A2 signal_  | [-5V, 5V]  | [ITF- R_reserved](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-R_reserved)  | _reserved track_  |  | [ITF-S_3_3v](https://github.com/Bivi/medicotechnical/blob/master/interfaces /ITF-S_3_3v)  | _3.3V alimentation_  | [3.3V, 3.3V]   Hyacinthe Hyacinthe effectivement, dans "potentiel",  ce qui est important c'est la tension (une tension de référence, par ex.) par contre dans "alimentation", c'est plus la puissance : on va devoir débiter un courant sous cette tension. D'ailleurs à terme on devra spécifier les courants max consommés par chaque module pour dimensionner correctement les modules d'alimentation.
 
 ### **Hyacinthe** - 2016-04-24 at 4:01 PM
 
@@ -2448,7 +2448,7 @@ Excellent!   Un petit point, que je penses tu as réglé à coup de reverse quot
 
 ### **Hyacinthe** - 2016-07-10 at 8:54 AM
 
-Bon, histoire de continuer sur les modules, le module 'TGC-Enveloppe-Ampli- ADC' est né! Goblin de son petit nom (histoire de rester dans la thématique des modules). Sa doc (et les premiers tests) se trouvent sur [https://github.com/Hyacinthe124/echomods/tree/master/goblin](https://github.com/Hyacinthe124/echomods/tree/master/goblin%20)   Encore qques points à vérifier, mais le nouveau né semble avoir toutes ses pins, dans l'ordre, et fonctionelles, donc intégrables sur la carte mère plutot directement =)   Reste à tester avec une meilleure alim, et également tester les limites de l'ADC (avec un Raspberry Pi Zero, un BBB, ... tout ce qui a du SPI en fait!
+Bon, histoire de continuer sur les modules, le module 'TGC-Enveloppe-Ampli- ADC' est né! Goblin de son petit nom (histoire de rester dans la thématique des modules). Sa doc (et les premiers tests) se trouvent sur [https://github.com/kelu124/echomods/tree/master/goblin](https://github.com/kelu124/echomods/tree/master/goblin%20)   Encore qques points à vérifier, mais le nouveau né semble avoir toutes ses pins, dans l'ordre, et fonctionelles, donc intégrables sur la carte mère plutot directement =)   Reste à tester avec une meilleure alim, et également tester les limites de l'ADC (avec un Raspberry Pi Zero, un BBB, ... tout ce qui a du SPI en fait!
 
 
 
@@ -2478,9 +2478,9 @@ Super idée - though a tad late .. J'ai commencé à corriger des typos =)   Si 
 
 ![](./../../zz_assets/images/previews/3034651-kwan_bmes_2015_v1.png)
 
-](bc3-raw/files/3034651-kwan_bmes_2015_v1.pdf)
+](../bc3-images/3034651-kwan_bmes_2015_v1.pdf)
 
-[Kwan_BMES_2015_v1.pdf 734 KB • Download](bc3-raw/files/3034651-kwan_bmes_2015_v1.pdf)
+[Kwan_BMES_2015_v1.pdf 734 KB • Download](../bc3-images/3034651-kwan_bmes_2015_v1.pdf)
 
 ### **Hyacinthe** - 2016-03-31 at 2:39 PM
 
@@ -2508,7 +2508,7 @@ Quelques autres pistes:  **Avec une imp laser:**
 
 **Avec une imp 3D  ** 
 
- * La gravure comme propose ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe  * Le dépot du masque directement sur le PCB (<http://www.instructables.com/id/Make-Flexible-Circuit-Boards-Using-A-3D-Printer/>)
+ * La gravure comme propose Hyacinthe Hyacinthe  * Le dépot du masque directement sur le PCB (<http://www.instructables.com/id/Make-Flexible-Circuit-Boards-Using-A-3D-Printer/>)
 
  
 
@@ -2516,7 +2516,7 @@ Et aussi peut-être en profiter pour se développer une compétence en CMS (comp
 
 ### **Hyacinthe** - 2016-06-21 at 8:56 AM
 
-Très intéressant, l'utilisation d'imprimante, à essayer! Si ça m'est accessible je tente le coup!   Pour compléter ce que dit ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe à propos des CMS, réfléchir sur le sujet me parait aussi important car les CMS ne permettent pas seulement de gagner en place (plus besoin de percer sa carte et le montage est possible en double face assez facilement) mais aussi de gagner en performances  (distorsion en HF, CEM, bruit, etc). Il existe des façons assez simple de braser le CMS grâce à un four à refusion :  <http://wiki.jelectronique.com/doku.php?id=souder_des_cms>
+Très intéressant, l'utilisation d'imprimante, à essayer! Si ça m'est accessible je tente le coup!   Pour compléter ce que dit Hyacinthe Hyacinthe à propos des CMS, réfléchir sur le sujet me parait aussi important car les CMS ne permettent pas seulement de gagner en place (plus besoin de percer sa carte et le montage est possible en double face assez facilement) mais aussi de gagner en performances  (distorsion en HF, CEM, bruit, etc). Il existe des façons assez simple de braser le CMS grâce à un four à refusion :  <http://wiki.jelectronique.com/doku.php?id=souder_des_cms>
 
 ### **Hyacinthe** - 2016-06-21 at 9:07 AM
 
@@ -2544,7 +2544,7 @@ Excellent modèle, intéressant! Pour clarifier, est ce que le signal (en vert) 
 
 ### **Hyacinthe** - 2016-05-03 at 7:43 PM
 
-En image : <https://github.com/Hyacinthe124/murgen-dev- kit/blob/master/worklog/Session_8.md>   A 1Msps on a très peu de finesse, et 2.5Msps est clairement plus proche de 5Msps que de 1Msps =)
+En image : <https://github.com/kelu124/murgen-dev- kit/blob/master/worklog/Session_8.md>   A 1Msps on a très peu de finesse, et 2.5Msps est clairement plus proche de 5Msps que de 1Msps =)
 
 ### **Hyacinthe** - 2016-05-04 at 9:27 AM
 
@@ -2566,7 +2566,7 @@ Si j'interprète bien la boucle sur k, tu dis que la valeur d'un pixel est égal
 
 ### **Hyacinthe** - 2016-05-04 at 10:18 AM
 
-L'effet de moyenne est surtout (je pense) du au redimensionnement de l'image : à 1Msps, l'image sans redimensionnement (normalization) fait cette taille : <https://github.com/Hyacinthe124/murgen-dev- kit/blob/master/worklog/Images/Session_8/source_files/2c10128b362d2e1652c1b97111ba0ae2 .data-DEC5-SC-4T.png>   Effectivement, c'est la bonne boucle dans le bon script. Jpeux rajouter un comparatif de l'image a 1Msps avec un point choisi au pif parmis les DEC points, ca sera plus rigoureux =) A vue de nez, ca introduira une image plus "piquée", mais le redimensionnement ultérieur va de toutes facons "lisser" ces pics.   A voir donc avec cet effet de randomization des points de l'image, bien vu!
+L'effet de moyenne est surtout (je pense) du au redimensionnement de l'image : à 1Msps, l'image sans redimensionnement (normalization) fait cette taille : <https://github.com/kelu124/murgen-dev- kit/blob/master/worklog/Images/Session_8/source_files/2c10128b362d2e1652c1b97111ba0ae2 .data-DEC5-SC-4T.png>   Effectivement, c'est la bonne boucle dans le bon script. Jpeux rajouter un comparatif de l'image a 1Msps avec un point choisi au pif parmis les DEC points, ca sera plus rigoureux =) A vue de nez, ca introduira une image plus "piquée", mais le redimensionnement ultérieur va de toutes facons "lisser" ces pics.   A voir donc avec cet effet de randomization des points de l'image, bien vu!
 
 ### **Hyacinthe** - 2016-05-04 at 10:35 AM
 
@@ -2590,7 +2590,7 @@ Oui donc en faisant un moyennage tu n'as pas fait une décimation mais changé l
 
 ### **Hyacinthe** - 2016-05-04 at 6:06 PM
 
-Comparatif done at : <https://github.com/Hyacinthe124/murgen-dev- kit/blob/master/worklog/Session_8.md> et les sources (en quick and dirty : <https://github.com/Hyacinthe124/murgen-dev- kit/tree/master/worklog/Images/Session_8/source_files> ) en particulier le makeTest.sh Hope that helps!   (edit : Session_8bis -&gt; Session_8 updated)
+Comparatif done at : <https://github.com/kelu124/murgen-dev- kit/blob/master/worklog/Session_8.md> et les sources (en quick and dirty : <https://github.com/kelu124/murgen-dev- kit/tree/master/worklog/Images/Session_8/source_files> ) en particulier le makeTest.sh Hope that helps!   (edit : Session_8bis -&gt; Session_8 updated)
 
 ### **Hyacinthe** - 2016-05-09 at 8:23 AM
 
@@ -2604,7 +2604,7 @@ Un petit thread sur les questions de matériaux:  \- <http://www.signal-processi
 
 ### **Hyacinthe** - 2016-04-27 at 9:21 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe rigolo ;)   <http://www.developpez.com/actu/98164/Un-ingenieur-propose-un-clone-d-Arduino- de-la-taille-d-une-pile-AA-le-dispositif-tourne-avec-un-controleur-ATmega328P- et-32-Ko-de-memoire-flash/>
+Hyacinthe Hyacinthe rigolo ;)   <http://www.developpez.com/actu/98164/Un-ingenieur-propose-un-clone-d-Arduino- de-la-taille-d-une-pile-AA-le-dispositif-tourne-avec-un-controleur-ATmega328P- et-32-Ko-de-memoire-flash/>
 
 ### **Hyacinthe** - 2016-05-17 at 9:14 AM
 
@@ -2650,7 +2650,7 @@ Excellent !!
 
 ### **Hyacinthe** - 2016-06-13 at 5:49 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  --  lien pour le matos sur hackaday: <https://hackaday.io/project/11478-open-source- ultrasound-phantoms>
+Hyacinthe Hyacinthe  --  lien pour le matos sur hackaday: <https://hackaday.io/project/11478-open-source- ultrasound-phantoms>
 
 ### **Hyacinthe** - 2016-06-17 at 12:18 PM
 
@@ -2690,15 +2690,15 @@ Je regarde ca en fin daprem!
 
 ### **Hyacinthe** - 2016-04-09 at 7:27 AM
 
-Hello,   Hier,  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  et  ![Michel Bala, Electronique analogique at echopen](./../../zz_assets/images/avatars/2008321.png) Michel , sur la base du premier brouillon de la fiche module, ont réalisé un premier module celui du détecteur d'enveloppe (3 composants sur un bout de plaque).   L'idée étant de poser une première proposition à vous présenter lundi soir lors de la réunion hebdomadaire pour que tous puissiez faire vos retours, remarques et suggestions et qu'on l'améliore par itérations et prendre en compte les avancées et travaux des uns et des autres.   La documentation, est disponible [ici](https://docs.google.com/document/d/1ZrQnQYbzWZsSQswlGicaGloDg0jS_OSDsJJOcuHyHIk). Là encore il s'agit d'un premier test en vue d'obtenir les retours de la communauté et d'identifier les améliorations possibles.   Voici une photo du module en question, la photo méritera d'être améliorer avec une réf métrique et une vue plus explicite.   Tous vos retours sont les bienvenus.   
+Hello,   Hier,  Hyacinthe Michel , sur la base du premier brouillon de la fiche module, ont réalisé un premier module celui du détecteur d'enveloppe (3 composants sur un bout de plaque).   L'idée étant de poser une première proposition à vous présenter lundi soir lors de la réunion hebdomadaire pour que tous puissiez faire vos retours, remarques et suggestions et qu'on l'améliore par itérations et prendre en compte les avancées et travaux des uns et des autres.   La documentation, est disponible [ici](https://docs.google.com/document/d/1ZrQnQYbzWZsSQswlGicaGloDg0jS_OSDsJJOcuHyHIk). Là encore il s'agit d'un premier test en vue d'obtenir les retours de la communauté et d'identifier les améliorations possibles.   Voici une photo du module en question, la photo méritera d'être améliorer avec une réf métrique et une vue plus explicite.   Tous vos retours sont les bienvenus.   
 
 [
 
-![](bc3-raw/files/3504719-fullsizerender.jpg)
+![](../bc3-images/3504719-fullsizerender.jpg)
 
-](bc3-raw/files/3504719-fullsizerender.jpg)
+](../bc3-images/3504719-fullsizerender.jpg)
 
-[FullSizeRender.jpg 1.05 MB • Download](bc3-raw/files/3504719-fullsizerender.jpg)
+[FullSizeRender.jpg 1.05 MB • Download](../bc3-images/3504719-fullsizerender.jpg)
 
 ### **Hyacinthe** - 2016-04-09 at 12:20 PM
 
@@ -2712,17 +2712,17 @@ Top!  Je comprends que les IO (inputs/outputs) se font sur la plaque physiquemen
 
 [
 
-![](bc3-raw/files/3514906-20160410_112533_hdr2.jpg)
+![](../bc3-images/3514906-20160410_112533_hdr2.jpg)
 
-](bc3-raw/files/3514906-20160410_112533_hdr2.jpg)
+](../bc3-images/3514906-20160410_112533_hdr2.jpg)
 
-[20160410_112533_HDR2.jpg 805 KB • Download](bc3-raw/files/3514906-20160410_112533_hdr2.jpg)
+[20160410_112533_HDR2.jpg 805 KB • Download](../bc3-images/3514906-20160410_112533_hdr2.jpg)
 
  * A priori une seule rangée de pins est nécessaire au lieu deux. En plus ça libère la largeur des modules.
 
 ### **Hyacinthe** - 2016-04-10 at 11:07 AM
 
-Apropos de la proposition de  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  sur le Wiki : "_une configuration de pistes du style proposé earlier cette semaine (_[_tof remise sur le wiki ici _](http://echopen.org/index.php?title=Worklog_- _the_module_approach#A_rough_draft)_)_".  Je me suis permis de proposer qq modifs :
+Apropos de la proposition de  Hyacinthe Hyacinthe  sur le Wiki : "_une configuration de pistes du style proposé earlier cette semaine (_[_tof remise sur le wiki ici _](http://echopen.org/index.php?title=Worklog_- _the_module_approach#A_rough_draft)_)_".  Je me suis permis de proposer qq modifs :
 
  * Ajout d'une colonne pour commencer à figer des id des signaux  * Ajout de 3 pistes qui permettraient de piloter aussi les steppers. On y voir apparaitre une particularité : si on sait que deux technologies ne coexisteront jamais dans un même modèle de sonde, alors deux signaux différents peuvent se partager une même piste (cf. SIG-cc_motor_pwm ; SIG-stepper_b2).  * SIG-pulser_on et SIG-pulser_off continuent de me gêner : une contrainte techno dans un des modules qui "remonte" sur le fond de panier. Si un jour qq'un refait un autre pulser sans cette contrainte, il sera obligé d'émuler les "faiblesses" du module historique. Mais, ça peut se justifier au nom du principe "KISS". Sinon ne pourrait-on pas ajouter une détection du front montant et du front descendant d'un SIG-pulse unique ?
 
@@ -2736,7 +2736,7 @@ Oui, très fier de ma contribution wiki ;-). Quoique rendu un peu perplexe par l
 
 ### **Hyacinthe** - 2016-04-11 at 4:44 PM
 
-j'ai commenté le doc de  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  et liens vers les précédents documents que j'avais fait :    
+j'ai commenté le doc de  Hyacinthe Hyacinthe  et liens vers les précédents documents que j'avais fait :    
 
 <https://docs.google.com/document/d/1RrCh8tkR_IoBdsZZnKcKZwsHm70WCpwMV6Ac_HJxho8/edit>
 
@@ -2750,7 +2750,7 @@ et le suivant:
 
 ### **Hyacinthe** - 2016-04-12 at 12:42 PM
 
-![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  comme convenu, voici la doc des submodules de git. ca peut inspirer
+Hyacinthe Hyacinthe  comme convenu, voici la doc des submodules de git. ca peut inspirer
 
 ### **Hyacinthe** - 2016-04-12 at 4:17 PM
 
@@ -2848,11 +2848,11 @@ Bug identified: les mails de remise à zéro de mots de passe pour le wiki ne ma
 
 ### **Hyacinthe** - 2016-06-01 at 4:02 PM
 
-ca marche maintenant de mon côté - ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe   tu confirmes ?
+ca marche maintenant de mon côté - Hyacinthe Hyacinthe   tu confirmes ?
 
 ### **Hyacinthe** - 2016-06-02 at 8:02 AM
 
-Bizarre, tjrs rien recu :/   Je suppose que l'adresse mail est tjrs [Hyacinthe@echopen.org](mailto:Hyacinthe@echopen.org) dans la DB, peut etre qu'en la changeant en [Hyacinthe124@gmail.com](mailto:Hyacinthe124@gmail.com) la notif arrivera?
+Bizarre, tjrs rien recu :/   Je suppose que l'adresse mail est tjrs [Hyacinthe@echopen.org](mailto:Hyacinthe@echopen.org) dans la DB, peut etre qu'en la changeant en [kelu124@gmail.com](mailto:kelu124@gmail.com) la notif arrivera?
 
 ### **Hyacinthe** - 2016-06-02 at 9:34 AM
 
@@ -2884,7 +2884,7 @@ Page d'accueil atteinte, 4 IPs différentes spammaient: <http://echopen.org/inde
 
 ### **Hyacinthe** - 2016-07-07 at 5:18 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe   : si tu as déjà implémenté, tu peux prendre la main sur le sujet ?   @++
+Hyacinthe Hyacinthe   : si tu as déjà implémenté, tu peux prendre la main sur le sujet ?   @++
 
 ### **Hyacinthe** - 2016-07-07 at 5:25 PM
 
@@ -2898,7 +2898,7 @@ done
 
 # un petit coucou Archived  - 2016-02-08
 
-hello, j'ai eu un coup de fil de Hyacinthe qui vous passe tous un coucou et qui passera de temps à autre le lundi soir   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe   ce serait pas mal de l'ajouter à ce basecamp ?   @++
+hello, j'ai eu un coup de fil de Hyacinthe qui vous passe tous un coucou et qui passera de temps à autre le lundi soir   Hyacinthe Hyacinthe   ce serait pas mal de l'ajouter à ce basecamp ?   @++
 
 
 
@@ -2912,7 +2912,7 @@ yes je vais lui faire une réponse du type, on a pas encore développé et lui p
 
 ### **Hyacinthe** - 2016-02-08 at 8:18 AM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  pourrais tu mettre ce type de sujets dans le il de discussion ondoarding ? Cela nous évitera que les discussions se multiplient et qu'on finisse par perdre toutes les informations ?
+Hyacinthe Hyacinthe  pourrais tu mettre ce type de sujets dans le il de discussion ondoarding ? Cela nous évitera que les discussions se multiplient et qu'on finisse par perdre toutes les informations ?
 
 ### **Hyacinthe** - 2016-02-08 at 9:43 AM
 
@@ -2920,7 +2920,7 @@ Le doppler peut se faire si on ne fait pas de détection d'enveloppe. Le traitem
 
 ### **Hyacinthe** - 2016-02-08 at 9:56 AM
 
-ok ;) nice   il s'agit de Marie-Thérèse Barrellier, elle passe nous voir le vendredi 18. ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  on lui fera un update, et elle précise que sur la partie veineuse, le doppler est moins critique que sur l'artériel. Or, une des pathologies le plus fréquemment suspectée aux urg. est la phlébite, donc pathologie veineuse ;)
+ok ;) nice   il s'agit de Marie-Thérèse Barrellier, elle passe nous voir le vendredi 18. Hyacinthe Hyacinthe  on lui fera un update, et elle précise que sur la partie veineuse, le doppler est moins critique que sur l'artériel. Or, une des pathologies le plus fréquemment suspectée aux urg. est la phlébite, donc pathologie veineuse ;)
 
 ### **Hyacinthe** - 2016-02-08 at 10:27 AM
 
@@ -2936,7 +2936,7 @@ jeudi 18 ou vendredi 19?
 
 ### **Hyacinthe** - 2016-02-08 at 10:56 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  oups elle passera le vendredi 18 mars   @++
+Hyacinthe Hyacinthe  oups elle passera le vendredi 18 mars   @++
 
 
 
@@ -2962,7 +2962,7 @@ Parfait. Et +1 sur la remarque de Hyacinthe. Pourrait on imaginer ajouter la dim
 
 ### **Hyacinthe** - 2016-06-19 at 8:07 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe : tjrs d'actu la restructuration? Fais signe si besoin d'un coup de main =)
+Hyacinthe Hyacinthe : tjrs d'actu la restructuration? Fais signe si besoin d'un coup de main =)
 
 ### **Hyacinthe** - 2016-06-20 at 12:10 PM
 
@@ -2984,7 +2984,7 @@ Top, @all si on pouvait profiter de ce temps pour caler l'ensemble des autres é
 
 ### **Hyacinthe** - 2016-02-21 at 3:15 PM
 
-Re!  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  ,  ![Hyacinthe, FPGA at echopen](./../../zz_assets/images/avatars/1249124.png) Hyacinthe  ,  ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe   - pour ce qui est de la discussion de vendredi sur la partie HV, deux solutions à proposer:  \- Jatin Sharma et sa version sonar marin : <https://www.duo.uio.no/handle/10852/47813> . Il passe de 12V à 180V, circuit basé sur un [MAX1771](https://www.maximintegrated.com/en/products/power /switching-regulators/MAX1771.html), et les gerbers et schematics sont dans sa thèse de master. Ca vaut peut etre le coup de faire un board proprette comme ca pour echopen, un HV supply séparé (pour appuyer la modularisation du design ;) ).  \- Murgen: utilisation d'un [R05-100B](http://www.mouser.fr/ProductDetail /RECOM-Power/R05-100B/?qs=3sBZtWOgbifm1JY3UuaavA%3D%3D) - plus simple (5V -&gt; 120V).  Le cablage revient à 3 condos à voir donc.  Ce n'est plus un circuit home-made, mais ca peut peut etre débloquer cette histoire de bruit? A voir en tout cas =)
+Re!  Hyacinthe Hyacinthe   - pour ce qui est de la discussion de vendredi sur la partie HV, deux solutions à proposer:  \- Jatin Sharma et sa version sonar marin : <https://www.duo.uio.no/handle/10852/47813> . Il passe de 12V à 180V, circuit basé sur un [MAX1771](https://www.maximintegrated.com/en/products/power /switching-regulators/MAX1771.html), et les gerbers et schematics sont dans sa thèse de master. Ca vaut peut etre le coup de faire un board proprette comme ca pour echopen, un HV supply séparé (pour appuyer la modularisation du design ;) ).  \- Murgen: utilisation d'un [R05-100B](http://www.mouser.fr/ProductDetail /RECOM-Power/R05-100B/?qs=3sBZtWOgbifm1JY3UuaavA%3D%3D) - plus simple (5V -&gt; 120V).  Le cablage revient à 3 condos à voir donc.  Ce n'est plus un circuit home-made, mais ca peut peut etre débloquer cette histoire de bruit? A voir en tout cas =)
 
 ### **Hyacinthe** - 2016-02-22 at 8:58 AM
 
@@ -3002,7 +3002,7 @@ Moi je pensais les modules à plat mais en épis ... why not ? C'est plus compac
 
 ### **Hyacinthe** - 2016-02-22 at 9:45 PM
 
-Ensuite, j'aime bien aussi le mode pins (breadboard compatible) - ca permet de modulariser encore plus facilement !!  Par exemple, une carte type murgen pourrait s'interfacer assez facilement avec une xula2, hein  ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe   =)
+Ensuite, j'aime bien aussi le mode pins (breadboard compatible) - ca permet de modulariser encore plus facilement !!  Par exemple, une carte type murgen pourrait s'interfacer assez facilement avec une xula2, hein  Hyacinthe Hyacinthe   =)
 
 
 
@@ -3012,11 +3012,11 @@ Hey hey tout le monde.   On vient de tester le circuit analogique (pulse à envi
 
 [
 
-![](bc3-raw/files/789676-tek0002.JPG)
+![](../bc3-images/789676-tek0002.JPG)
 
-](bc3-raw/files/789676-tek0002.JPG)
+](../bc3-images/789676-tek0002.JPG)
 
-[TEK0002.JPG 165 KB • Download](bc3-raw/files/789676-tek0002.JPG)
+[TEK0002.JPG 165 KB • Download](../bc3-images/789676-tek0002.JPG)
 
   Ca demande encore du travail, mais c'est déjà une bonne avancée :)
 
@@ -3052,7 +3052,7 @@ En zoomant c'est vrai qu'il y a plusieurs échos qui semblent apparaître!  Ça 
 
 # Traitement signal et image  - 2016-06-02
 
-la team Traitement d'Image est UP   il s'agit de ![Soobash, Feature extractor at echopen](./../../zz_assets/images/avatars/4399577.png) Soobash ![Zahra Barwane, Image Cleaner at echopen](./../../zz_assets/images/avatars/4179741.png) Zahra (étudiante ISEP)   ils travailleront sur l'interface cloud9   les premiers steps identifiés par soobash sont :   \- débruitage sur image en coordonnées polaires, i.e. avant scan conversion pour que le denoising soit le plus efficace possible : sur images échos + images de synthèse   \- mesure des KPIs et stress test des soumissions d'algo   \- utilisation de fantomes en situation réelle   \- passage à GPU   great ;) !
+la team Traitement d'Image est UP   il s'agit de Hyacinthe Zahra (étudiante ISEP)   ils travailleront sur l'interface cloud9   les premiers steps identifiés par soobash sont :   \- débruitage sur image en coordonnées polaires, i.e. avant scan conversion pour que le denoising soit le plus efficace possible : sur images échos + images de synthèse   \- mesure des KPIs et stress test des soumissions d'algo   \- utilisation de fantomes en situation réelle   \- passage à GPU   great ;) !
 
 ### **Hyacinthe** - 2016-06-07 at 4:40 PM
 
@@ -3064,7 +3064,7 @@ soobash produit ses premiers filtres de denoising   le process de soumission est
 
 ### **Hyacinthe** - 2016-06-14 at 7:43 PM
 
-Nickel! Suite à nos échanges sur le format de l'image (dont les specs sont r[ésumées ici](https://github.com/Hyacinthe124/murgen-dev- kit/blob/master/software/examples_csv/ReadMe.md) \-- on les valide une bonne fois pour toute pour le stockage des données, good pour toi ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne   ?), des images sont [sorties au bon format CSV et prêtes à être exploitées sur ce repo](https://github.com/Hyacinthe124/murgen-dev- kit/tree/master/software/examples_csv).  A noter, le filereader.py devra etre ajusté, et le Hyacinthes.py as well, puisque ces données sont caractéristiques de chaque CSV.
+Nickel! Suite à nos échanges sur le format de l'image (dont les specs sont r[ésumées ici](https://github.com/kelu124/murgen-dev- kit/blob/master/software/examples_csv/ReadMe.md) \-- on les valide une bonne fois pour toute pour le stockage des données, good pour toi Hyacinthe lacenne   ?), des images sont [sorties au bon format CSV et prêtes à être exploitées sur ce repo](https://github.com/kelu124/murgen-dev- kit/tree/master/software/examples_csv).  A noter, le filereader.py devra etre ajusté, et le Hyacinthes.py as well, puisque ces données sont caractéristiques de chaque CSV.
 
 ### **Hyacinthe** - 2016-06-16 at 9:29 AM
 
@@ -3080,7 +3080,7 @@ Je débarque un peu tard, mais si j'ai bien compris, c'est du CSV avec les meta-
 
 ### **Hyacinthe** - 2016-06-16 at 10:53 AM
 
-@Hyacinthe : indeed, dans le dossier examples_csv, tu as les data au nouveau format, et bzippées. ( <https://github.com/Hyacinthe124/murgen-dev- kit/tree/master/software/examples_csv> ) -- avec un preview des raw data en PNG, classés par timestamp.   @bivi: oui et non, en une passe de fichier, lecture ligne à ligne, tu peux structurer ton jeu de données quand tu construis ton reader. Dans tous les cas, tu dois lire ttes les données, avant de pouvoir tout processer. C'est vrai que les méta en tete du fichier sont plus classiques (exemple du DICOM) mais l'un dans l'autre on n'est pas sur des fichiers monstrueux, et quand on voudra finaliser ca dans un format de distribution on pourra tout encapsuler en DICOM classique.   @Hyacinthe: page challenge et banniere modifiées
+@Hyacinthe : indeed, dans le dossier examples_csv, tu as les data au nouveau format, et bzippées. ( <https://github.com/kelu124/murgen-dev- kit/tree/master/software/examples_csv> ) -- avec un preview des raw data en PNG, classés par timestamp.   @bivi: oui et non, en une passe de fichier, lecture ligne à ligne, tu peux structurer ton jeu de données quand tu construis ton reader. Dans tous les cas, tu dois lire ttes les données, avant de pouvoir tout processer. C'est vrai que les méta en tete du fichier sont plus classiques (exemple du DICOM) mais l'un dans l'autre on n'est pas sur des fichiers monstrueux, et quand on voudra finaliser ca dans un format de distribution on pourra tout encapsuler en DICOM classique.   @Hyacinthe: page challenge et banniere modifiées
 
 ### **Hyacinthe** - 2016-06-16 at 11:14 AM
 
@@ -3088,7 +3088,7 @@ Bon, prenons le sujet dans l'autre sens ;-) : quel est l'intérêt d'avoir les d
 
 ### **Hyacinthe** - 2016-06-16 at 3:35 PM
 
-ok ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe : j'ai updaté aussi cette page
+ok Hyacinthe Hyacinthe : j'ai updaté aussi cette page
 
 ### **Soobash** - 2016-06-16 at 7:09 PM
 
@@ -3136,11 +3136,11 @@ soobash a fait un premier algo de débruitage : plus adapté à du débruitage s
 
 ### **Hyacinthe** - 2016-07-07 at 6:00 PM
 
-Si vous voulez vous faire la main sur un signal normalisé acquis a tres haute vitesse, d'un fantome simple, n'hésitez pas à vous faire la main, c'est sur <https://github.com/Hyacinthe124/murgen-dev- kit/blob/master/worklog/Zach/2016-07-06.md> =)   Attention, il s'agit des données brutes, donc vous pouvez aussi simuler le detecteur d'enveloppe avec un Hilbert.   Have fun!
+Si vous voulez vous faire la main sur un signal normalisé acquis a tres haute vitesse, d'un fantome simple, n'hésitez pas à vous faire la main, c'est sur <https://github.com/kelu124/murgen-dev- kit/blob/master/worklog/Zach/2016-07-06.md> =)   Attention, il s'agit des données brutes, donc vous pouvez aussi simuler le detecteur d'enveloppe avec un Hilbert.   Have fun!
 
 ### **Hyacinthe** - 2016-07-21 at 11:28 AM
 
-réu hebdo hier   \- synthèse de revue de la littérature  \- relecture du code de zhara pour script de validation, analyse des soumissions  \- présentation par Hyacinthe shannes des principales métriques de signal-bruit  \- script de testing de toutes les métriques pour la semaine prochaine par ![Soobash, Feature extractor at echopen](./../../zz_assets/images/avatars/4399577.png) Soobash   et ![Zahra Barwane, Image Cleaner at echopen](./../../zz_assets/images/avatars/4179741.png) Zahra   de l'avis de Hyacinthe et ![Soobash, Feature extractor at echopen](./../../zz_assets/images/avatars/4399577.png) Soobash   : on devrait garder des métriques classiques et en déduire métrique qui nous sera propre , sur la base de quoi ![Soobash, Feature extractor at echopen](./../../zz_assets/images/avatars/4399577.png) Soobash  propose une publication
+réu hebdo hier   \- synthèse de revue de la littérature  \- relecture du code de zhara pour script de validation, analyse des soumissions  \- présentation par Hyacinthe shannes des principales métriques de signal-bruit  \- script de testing de toutes les métriques pour la semaine prochaine par Hyacinthe Soobash  propose une publication
 
 ### **Hyacinthe** - 2016-08-03 at 5:06 PM
 
@@ -3154,7 +3154,7 @@ Séance hebdo du 10.08.16
 
 \- l’équipage est en vacances et échange d’ordre général avec Hyacinthe
 
-\- ![Soobash, Feature extractor at echopen](./../../zz_assets/images/avatars/4399577.png) Soobash livre les scripts de calcul des métriques ces tous prochains jours
+\- Hyacinthe Soobash livre les scripts de calcul des métriques ces tous prochains jours
 
 \- nous sommes rejoint dans la team par Loic, aka hackolite, spécialiste de python
 
@@ -3238,11 +3238,11 @@ monter un challenge à partir de datasets, soit existant &amp; accessibles via u
 
 ### **Hyacinthe** - 2016-10-20 at 7:11 AM
 
-réu 19.10.16   1) discussion du challenge online qui sera lancé dès que tout est prêt   2) interface web, django app, de récupération, d'analyse des soumissions et de leaderboard achevée thanks @loic;)  @todo :  analyse non d'une image mais d'une boucle d'images + système de login   3) scripts de métriques des soumissions terminés thanks ![Soobash, Feature extractor at echopen](./../../zz_assets/images/avatars/4399577.png) Soobash ;)  @todo constituer les métriques qui nous sont propres   4) demeure la question de l'analyse de la typologie de bruit en vue de pouvoir l'injecter à des "images saines" à des fins d'apprentissage.  C @Hyacinthe qui s'y colle pour la semaine pro thanks;)   oilà !
+réu 19.10.16   1) discussion du challenge online qui sera lancé dès que tout est prêt   2) interface web, django app, de récupération, d'analyse des soumissions et de leaderboard achevée thanks @loic;)  @todo :  analyse non d'une image mais d'une boucle d'images + système de login   3) scripts de métriques des soumissions terminés thanks Hyacinthe Soobash ;)  @todo constituer les métriques qui nous sont propres   4) demeure la question de l'analyse de la typologie de bruit en vue de pouvoir l'injecter à des "images saines" à des fins d'apprentissage.  C @Hyacinthe qui s'y colle pour la semaine pro thanks;)   oilà !
 
 ### **Hyacinthe** - 2016-10-27 at 11:49 PM
 
-réu 27.10.16   1) proposition par ![Soobash, Feature extractor at echopen](./../../zz_assets/images/avatars/4399577.png) Soobash d'un score pour le ranking du leaderboard + discussion sur l'adaptation des métriques de frames d'images   2) évolution de l'interface leaderboard par @hackolite @todo : adaptation de l'algo pour calculer les métriques sur une séquence image, plutôt qu'une image tel que c'est le cas aujourd'hui   3) présentation par @Hyacinthe d'une méthode d'injection sur images de bruit spécifique à l'écho. @todo : implémentation d'un premier réseau de neurones pour débruiter des images;)   nota bene : les réu se tiennent maintenant tous les jeudis !   oilà;)
+réu 27.10.16   1) proposition par Hyacinthe Soobash d'un score pour le ranking du leaderboard + discussion sur l'adaptation des métriques de frames d'images   2) évolution de l'interface leaderboard par @hackolite @todo : adaptation de l'algo pour calculer les métriques sur une séquence image, plutôt qu'une image tel que c'est le cas aujourd'hui   3) présentation par @Hyacinthe d'une méthode d'injection sur images de bruit spécifique à l'écho. @todo : implémentation d'un premier réseau de neurones pour débruiter des images;)   nota bene : les réu se tiennent maintenant tous les jeudis !   oilà;)
 
 ### **Hyacinthe** - 2016-11-10 at 7:41 PM
 
@@ -3256,43 +3256,43 @@ Bonjour à tous,   Nous venons de recevoir les visuels de Barbara ;)   Les voici
 
 [
 
-![](bc3-raw/files/2647132-echopen-1.png)
+![](../bc3-images/2647132-echopen-1.png)
 
-](bc3-raw/files/2647132-echopen-1.png)
+](../bc3-images/2647132-echopen-1.png)
 
-[echopen-1.png 107 KB • Download](bc3-raw/files/2647132-echopen-1.png)
-
-[
-
-![](bc3-raw/files/2647134-echopen-2.png)
-
-](bc3-raw/files/2647134-echopen-2.png)
-
-[echopen-2.png 77.2 KB • Download](bc3-raw/files/2647134-echopen-2.png)
+[echopen-1.png 107 KB • Download](../bc3-images/2647132-echopen-1.png)
 
 [
 
-![](bc3-raw/files/2647136-echopen-3.png)
+![](../bc3-images/2647134-echopen-2.png)
 
-](bc3-raw/files/2647136-echopen-3.png)
+](../bc3-images/2647134-echopen-2.png)
 
-[echopen-3.png 74.2 KB • Download](bc3-raw/files/2647136-echopen-3.png)
-
-[
-
-![](bc3-raw/files/2647137-echopen-4.png)
-
-](bc3-raw/files/2647137-echopen-4.png)
-
-[echopen-4.png 49.3 KB • Download](bc3-raw/files/2647137-echopen-4.png)
+[echopen-2.png 77.2 KB • Download](../bc3-images/2647134-echopen-2.png)
 
 [
 
-![](bc3-raw/files/2647140-echopen-5.png)
+![](../bc3-images/2647136-echopen-3.png)
 
-](bc3-raw/files/2647140-echopen-5.png)
+](../bc3-images/2647136-echopen-3.png)
 
-[echopen-5.png 45.2 KB • Download](bc3-raw/files/2647140-echopen-5.png)
+[echopen-3.png 74.2 KB • Download](../bc3-images/2647136-echopen-3.png)
+
+[
+
+![](../bc3-images/2647137-echopen-4.png)
+
+](../bc3-images/2647137-echopen-4.png)
+
+[echopen-4.png 49.3 KB • Download](../bc3-images/2647137-echopen-4.png)
+
+[
+
+![](../bc3-images/2647140-echopen-5.png)
+
+](../bc3-images/2647140-echopen-5.png)
+
+[echopen-5.png 45.2 KB • Download](../bc3-images/2647140-echopen-5.png)
 
 ### **Hyacinthe** - 2016-03-17 at 1:23 PM
 
@@ -3308,7 +3308,7 @@ Cool! J'aurais cependant quelques remarques (surtout sur la première), s'il n'e
 
 ### **Hyacinthe** - 2016-03-20 at 10:13 AM
 
-Merci  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  pour tes remarques. je les ai fait passer. J'ettends leur retour pour savoir s'il est encore temps.   Concernant ton point 3. Pour les pro de santé (hors médecins) il s'agit d'une demi-journée de formation, puisque c'est une formation au geste et non à la lecture, d'où la télémédecine qui permet ensuite d'envoyer les images aux médecins qui pourront alors donner leurs avis. C'est d'ailleurs le modèle principale de l'utilisation des échographes portables dans les pays émérgents.   En ce qui concerne la notion de kit, comme elle n'est as encore très claire, nous pourrons voir cela dans un second temps.   Enfin, en effet, c'est plutôt une aide au diag. Je leur envoi l'information.   Merci.   A demain,
+Merci  Hyacinthe Hyacinthe  pour tes remarques. je les ai fait passer. J'ettends leur retour pour savoir s'il est encore temps.   Concernant ton point 3. Pour les pro de santé (hors médecins) il s'agit d'une demi-journée de formation, puisque c'est une formation au geste et non à la lecture, d'où la télémédecine qui permet ensuite d'envoyer les images aux médecins qui pourront alors donner leurs avis. C'est d'ailleurs le modèle principale de l'utilisation des échographes portables dans les pays émérgents.   En ce qui concerne la notion de kit, comme elle n'est as encore très claire, nous pourrons voir cela dans un second temps.   Enfin, en effet, c'est plutôt une aide au diag. Je leur envoi l'information.   Merci.   A demain,
 
 ### **Hyacinthe** - 2016-03-21 at 8:31 AM
 
@@ -3316,7 +3316,7 @@ Yop,   Je plussoie Hyacinthe, la télémedecine n'est pas du tout dans le top us
 
 ### **Hyacinthe** - 2016-03-21 at 9:13 AM
 
-Merci  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  pour ton retour.   Concernant le télé-médecine, deux raisons nous pousse à la mettre en avant. Sachant qu’elle se définie (selon les ARS) comme **une forme de pratique médicale à distance utilisant les technologies de l’information et de la communication.** Elle met en rapport, […] plusieurs professionnels de santé, parmi lesquels figure nécessairement un professionnel médical et, le cas échéant, d’autres professionnels apportant leurs soins au patient.
+Merci  Hyacinthe Hyacinthe  pour ton retour.   Concernant le télé-médecine, deux raisons nous pousse à la mettre en avant. Sachant qu’elle se définie (selon les ARS) comme **une forme de pratique médicale à distance utilisant les technologies de l’information et de la communication.** Elle met en rapport, […] plusieurs professionnels de santé, parmi lesquels figure nécessairement un professionnel médical et, le cas échéant, d’autres professionnels apportant leurs soins au patient.
 
 
 
@@ -3324,7 +3324,7 @@ Merci  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyac
 
  
 
-Enfin, concernant le kit, je leur ai fait la demande et j’attends leur retour, ils regardent ça aujorud'hui. J'espère qu'ils pourront ajuster rapidement pour que nous soyons prêts jeudi. Si besoin,  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  je te mets en contact s'ils ont des quesitons sur le kit.   A dispo,   Bonne journée.
+Enfin, concernant le kit, je leur ai fait la demande et j’attends leur retour, ils regardent ça aujorud'hui. J'espère qu'ils pourront ajuster rapidement pour que nous soyons prêts jeudi. Si besoin,  Hyacinthe Hyacinthe  je te mets en contact s'ils ont des quesitons sur le kit.   A dispo,   Bonne journée.
 
 
 
@@ -3378,7 +3378,7 @@ Je veux dire : Hyacinthe est-il sur le basecamp?
 
 ### **Hyacinthe** - 2016-04-11 at 6:07 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  je vais lui demander demain   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  le truc cqu'il faut bcp bcp de data pour entraîner les réseuax de neurones mais on en parle ;)
+Hyacinthe Hyacinthe  le truc cqu'il faut bcp bcp de data pour entraîner les réseuax de neurones mais on en parle ;)
 
 ### **Hyacinthe** - 2016-04-11 at 10:49 PM
 
@@ -3444,11 +3444,11 @@ prochain meetup prévu pour le vedredi 21.10.16   rdv ce lundi avec le responsab
 
 # Maintenance Contenus Echopen  - 2016-02-02
 
-**Récupération des données echopen sur plates-formes tierces   **  Petit recap sur l'accessibilité des données sur les services tiers - et la faisabilité d'en extraire les données pour les mettre sur une archive, un dump, explorable offline.   **Wiki **: Export possible : par exemple<https://www.mediawiki.org/wiki/Help:Export/fr>  **Basecamp**: <https://basecamp.com/help/2/guides/account/exports> - explorable en html  **Github**: assez evident de chopper une archive -- clone des différents repos  **Slack**:  \- Dumper Slack: <https://get.slack.help/hc/en-us/articles/201658943 -Exporting-your-team-s-Slack-history>  \- Formater Slack en explorable html :<https://levels.io/slack-export-to- html/>   **Twitter:** exportation facile :<https://support.twitter.com/articles/20170160?lang=en#>, explorable en html  **  Drive: **export... facile, oui ;)(j'en oublie?)  On peut aussi imaginer un script qui scrap l'ensemble des archives pour reformater l'ensemble sous la forme d'un "portail" au format web - doublé d'une archive fichiers qui reprennent l'ensemble des fichiers drive, wiki, basecamp -- ca donnerait un dump echopen à une date t. On peut se baser sur le fait que les dumps de services sont, aujourd'hui, déjà exploitables tels quels au format HTML.  Hyacinthe a commencé à mettre les dumps (dont slack) sur le drive dans "0.1 MAINTENANCE" - j'y ajoute dump wiki, basecamp, et twitter pour ceux qui ont envie d'explorer ca.  Ping  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  @Hyacinthe
+**Récupération des données echopen sur plates-formes tierces   **  Petit recap sur l'accessibilité des données sur les services tiers - et la faisabilité d'en extraire les données pour les mettre sur une archive, un dump, explorable offline.   **Wiki **: Export possible : par exemple<https://www.mediawiki.org/wiki/Help:Export/fr>  **Basecamp**: <https://basecamp.com/help/2/guides/account/exports> - explorable en html  **Github**: assez evident de chopper une archive -- clone des différents repos  **Slack**:  \- Dumper Slack: <https://get.slack.help/hc/en-us/articles/201658943 -Exporting-your-team-s-Slack-history>  \- Formater Slack en explorable html :<https://levels.io/slack-export-to- html/>   **Twitter:** exportation facile :<https://support.twitter.com/articles/20170160?lang=en#>, explorable en html  **  Drive: **export... facile, oui ;)(j'en oublie?)  On peut aussi imaginer un script qui scrap l'ensemble des archives pour reformater l'ensemble sous la forme d'un "portail" au format web - doublé d'une archive fichiers qui reprennent l'ensemble des fichiers drive, wiki, basecamp -- ca donnerait un dump echopen à une date t. On peut se baser sur le fait que les dumps de services sont, aujourd'hui, déjà exploitables tels quels au format HTML.  Hyacinthe a commencé à mettre les dumps (dont slack) sur le drive dans "0.1 MAINTENANCE" - j'y ajoute dump wiki, basecamp, et twitter pour ceux qui ont envie d'explorer ca.  Ping  Hyacinthe Hyacinthe  @Hyacinthe
 
 ### **Hyacinthe** - 2016-02-03 at 8:20 AM
 
-![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  merci. Je pense qu'on a tout en sauvegarde de contenu...   Il reste peut-être le gitbook...  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne  ?   Ensuite, je pense qu'il va falloir penser à une sauvegarde automatique des éléments pour nous simplifier la vie et être certain que tout est bien safe ;)   ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  si tu as des idées de comment cela peut-être envisagé ? Je suis preneur.
+Hyacinthe Hyacinthe  si tu as des idées de comment cela peut-être envisagé ? Je suis preneur.
 
 ### **Hyacinthe** - 2016-02-03 at 8:21 AM
 
@@ -3582,7 +3582,7 @@ Cool ;)
 
 # Ressources echOpen Diverses  - 2016-03-30
 
-Hello à tous,   Un fil de discussion pour échanger sur les ressources echopen. En effet, nous produisons pas mal de choses en plus du hard &amp; du soft comme des photos, etc. Du coup, comment pourrions nous imaginer une solution pour partager ces éléments tous ensemble ?   Sachant que nous devons penser les licences liées à ces productions. Nous avons par exemple les dessins de Barbara en CC BY NC ND,  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe qui nous a donné ses photos sous les mêmes conditions de CC BY NC ND et mes photos aussi, mais nous n'avons pas encore mentionné ces licences sur ces images.   Par ailleurs, nous allons recevoir les photos de Karine (commandées par Fabre) qui seront sous : _ ©Karine S. Bouvatier pour la Fondation Hyacinthe Fabre _sachant que l'association pourra les utiliser comme elle le souhaite pour ses activités. _  _  Alors quelles seraient vos idées pour que nous puissions partager tout ça en **prenant bien en compte ces différentes licences**.   Merci pour vos retours.
+Hello à tous,   Un fil de discussion pour échanger sur les ressources echopen. En effet, nous produisons pas mal de choses en plus du hard &amp; du soft comme des photos, etc. Du coup, comment pourrions nous imaginer une solution pour partager ces éléments tous ensemble ?   Sachant que nous devons penser les licences liées à ces productions. Nous avons par exemple les dessins de Barbara en CC BY NC ND,  Hyacinthe Hyacinthe qui nous a donné ses photos sous les mêmes conditions de CC BY NC ND et mes photos aussi, mais nous n'avons pas encore mentionné ces licences sur ces images.   Par ailleurs, nous allons recevoir les photos de Karine (commandées par Fabre) qui seront sous : _ ©Karine S. Bouvatier pour la Fondation Hyacinthe Fabre _sachant que l'association pourra les utiliser comme elle le souhaite pour ses activités. _  _  Alors quelles seraient vos idées pour que nous puissions partager tout ça en **prenant bien en compte ces différentes licences**.   Merci pour vos retours.
 
 ### **Hyacinthe** - 2016-05-23 at 12:29 PM
 
@@ -3594,11 +3594,11 @@ One Git repos to rule them all !!!
 
 ### **Hyacinthe** - 2016-05-24 at 9:53 PM
 
-![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe tu veux dire que tout est sur git ? si oui, que fait-on des échanges de type slack ?
+Hyacinthe Hyacinthe tu veux dire que tout est sur git ? si oui, que fait-on des échanges de type slack ?
 
 ### **Hyacinthe** - 2016-05-25 at 9:57 AM
 
-slackin installé accessible à <http://echopen.org:3000/>   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe crée un sous-domaine slack.echopen.org pour lading page + badge sur la home d'échopen
+slackin installé accessible à <http://echopen.org:3000/>   Hyacinthe Hyacinthe crée un sous-domaine slack.echopen.org pour lading page + badge sur la home d'échopen
 
 ### **Hyacinthe** - 2016-05-25 at 1:41 PM
 
@@ -3606,7 +3606,7 @@ slackin installé accessible à <http://echopen.org:3000/>   ![Hyacinthe, echope
 
 ### **Hyacinthe** - 2016-05-25 at 7:42 PM
 
-merci pour ces informations circonstanciés. côté slack, on peut y inclure des échanges bcp plus informelles, il ne s'agit pas vraiment d'une base de connaissance mais d'une modalité d'inclusion de notre communauté au sens très lâche, du community management inclusif en somme. Pour ma part, je ne suis pas pratiquant de slack mais ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe et ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  sont utilisateurs et je laisse la parole à leur point de vue plus précis
+merci pour ces informations circonstanciés. côté slack, on peut y inclure des échanges bcp plus informelles, il ne s'agit pas vraiment d'une base de connaissance mais d'une modalité d'inclusion de notre communauté au sens très lâche, du community management inclusif en somme. Pour ma part, je ne suis pas pratiquant de slack mais Hyacinthe Hyacinthe  sont utilisateurs et je laisse la parole à leur point de vue plus précis
 
 ### **Hyacinthe** - 2016-05-25 at 7:49 PM
 
@@ -3624,13 +3624,13 @@ ok donc on met cela à l'odj de lundi et on tranche alors ;)
 
 # Génération De Documentation (automatique)  - 2016-04-06
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  : ton outils d'extraction automatique de documentation à partir des sources me semble être la bonne voie.  J'avais glâné quelques ressources :   
+Hyacinthe Hyacinthe  : ton outils d'extraction automatique de documentation à partir des sources me semble être la bonne voie.  J'avais glâné quelques ressources :   
 
  * [Static Site Generators](https://staticsitegenerators.net/) : une synthèse des outils  * [GPP 2.23 — Generic Preprocessor](http://files.nothingisreal.com/software/gpp/gpp.html) : je savait même pas que ça existait. A creuser ;-)  * [Building Publishing Workflows with Pandoc and Git](http://publishing.sfu.ca/2013/11/building-publishing-workflows-with-pandoc-and-git/)  * [HF Antennas: Vertical or Horizontal?](http://hamwaves.com/vertical-horizontal/en/index.html#summary) : Un exemple de site statique (pas beau) &gt;&gt;&gt; **ouvrir le fichier "make"** : lien en haut à gauche.  * [Writing, Markdown and Pandoc](http://brizzled.clapper.org/blog/2010/11/26/writing-markdown-and-pandoc/)  * [Pandoc Extras](https://github.com/jgm/pandoc/wiki/Pandoc-Extras) : d'autres outils  * [EspruinoDocs](https://github.com/espruino/EspruinoDocs#espruinodocs) : sous /bin, je générateur de doc.**         **
 
 ### **Hyacinthe** - 2016-04-06 at 9:07 AM
 
-Merci  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  je vous invite avec  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  comme vous avez commencé à avancer ce sujet à proposer un draft de solution à la réunion de  Lundi prochain. Ça vous va ?
+Merci  Hyacinthe Hyacinthe  comme vous avez commencé à avancer ce sujet à proposer un draft de solution à la réunion de  Lundi prochain. Ça vous va ?
 
 ### **Hyacinthe** - 2016-04-06 at 10:38 AM
 
@@ -3662,7 +3662,7 @@ Dans ce cadre et aussi en rapport avec <https://3.basecamp.com/3152267/buckets/1
 
 ### **Hyacinthe** - 2016-04-12 at 6:20 AM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe  et ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  par rapport à ce qui a été dit hier, pensez-vous qu'il serait intéressant de créer un repo GitHub pour tester le modèle discuté de documentation ?   
+Hyacinthe Hyacinthe  par rapport à ce qui a été dit hier, pensez-vous qu'il serait intéressant de créer un repo GitHub pour tester le modèle discuté de documentation ?   
 
  1. Créer un repo sur le Github "medico-technique"   2. Ajouter un readme avec l'essentiel des règles (que nous pourrons modifier au fur et à mesure) incluant :    1. How to contribute    2. File name (nomenclature)    3. Principles / flow and merge conditions    4. Glossaire (inclu ou non dans le readme) - fait par  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe    3. Ajouter le premier module (réalisé par Michel) avec doc &amp; source files puis avancer avec  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  sur les autres modules petit à petit et voir comment ajuster ? On pourrait ainsi faire un bilan à chaque ajout et ajuster l'ensemble en conséquence. 
 
@@ -3678,7 +3678,7 @@ Top.   J'ai créé le repo, @Hyacinthe tu en es admin également, comme ca tu po
 
 ### **Hyacinthe** - 2016-04-12 at 9:38 AM
 
-ok. top. Do it, fail it fix it ;)  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  on te laisse le temps de voir et dès qu'on a ton feu vert, on tenter d'ajouter le module de michel pour test.   On pourra en effet tout à fait le refaire ensuite après avoir tester.   Merci.
+ok. top. Do it, fail it fix it ;)  Hyacinthe Hyacinthe  on te laisse le temps de voir et dès qu'on a ton feu vert, on tenter d'ajouter le module de michel pour test.   On pourra en effet tout à fait le refaire ensuite après avoir tester.   Merci.
 
 ### **Hyacinthe** - 2016-04-12 at 12:27 PM
 
@@ -3698,11 +3698,11 @@ yep pour l'autodoc   btw, je suis déjà dessus sur les communs de doc : non seu
 
 ### **Hyacinthe** - 2016-08-19 at 12:01 PM
 
-du coup il faut qu'on fasse un point sur   \- l'harmonisation du soft et du modèle de doc de ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  \- la génération de gitbook à partir de l a doc   -&gt; mini-workshop sur la doc vendredi prochain ? en mode reprise de saison pour les apéros
+du coup il faut qu'on fasse un point sur   \- l'harmonisation du soft et du modèle de doc de Hyacinthe Hyacinthe  \- la génération de gitbook à partir de l a doc   -&gt; mini-workshop sur la doc vendredi prochain ? en mode reprise de saison pour les apéros
 
 ### **Hyacinthe** - 2016-10-17 at 9:20 PM
 
-A y est, le PDF généré dépasse les [250 pages](https://www.gitbook.com/book/Hyacinthe124/echomods/) sur le kit, quand on le DL en PDF =)
+A y est, le PDF généré dépasse les [250 pages](https://www.gitbook.com/book/kelu124/echomods/) sur le kit, quand on le DL en PDF =)
 
 
 
@@ -3724,11 +3724,11 @@ Sinon, voilà le schéma...
 
 [
 
-![](bc3-raw/files/751401-capture-d-ecran-2016-01-12-a-10-32-27.png)
+![](../bc3-images/751401-capture-d-ecran-2016-01-12-a-10-32-27.png)
 
-](bc3-raw/files/751401-capture-d-ecran-2016-01-12-a-10-32-27.png)
+](../bc3-images/751401-capture-d-ecran-2016-01-12-a-10-32-27.png)
 
-[Capture d’écran 2016-01-12 à 10.32.27.png 506 KB • Download](bc3-raw/files/751401-capture-d-ecran-2016-01-12-a-10-32-27.png)
+[Capture d’écran 2016-01-12 à 10.32.27.png 506 KB • Download](../bc3-images/751401-capture-d-ecran-2016-01-12-a-10-32-27.png)
 
 
 
@@ -3816,7 +3816,7 @@ Et je suis resté un peu ensuite pour faire un tour du Fablab :
 
 ### **Hyacinthe** - 2016-03-31 at 11:05 AM
 
-Pour le Captech de mardi prochain :  Le document de base de référence est disponible [ici](https://docs.google.com/document/d/1vNT7Ir01gAAjsohgqN5a_Y9ZoAEBHPQmQlIxxvTKVGc/edit#). Pour ce qui est des points fonctions &amp; such, on voit cela demain matin avec  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  et  ![Hyacinthe, Contributeur méthodologie at echopen](./../../zz_assets/images/avatars/1269173.png) Hyacinthe . On finalise aujourd'hui avec  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  le schéma de la sonde.   Vos remarques sont les bienvenues ;)
+Pour le Captech de mardi prochain :  Le document de base de référence est disponible [ici](https://docs.google.com/document/d/1vNT7Ir01gAAjsohgqN5a_Y9ZoAEBHPQmQlIxxvTKVGc/edit#). Pour ce qui est des points fonctions &amp; such, on voit cela demain matin avec  Hyacinthe Hyacinthe  le schéma de la sonde.   Vos remarques sont les bienvenues ;)
 
 ### **Hyacinthe** - 2016-03-31 at 8:23 PM
 
@@ -3826,13 +3826,13 @@ Merci!  J'ai avancé sur le doc.
 
 Bonjour à tous,   En prévision du CAPTech de mardi prochain, voici les premiers éléments de présentation
 
- * Le [Schéma](https://docs.google.com/presentation/d/1X4QVfOYeUJSIhjSg8QRVOj-x31x2ZA7QWVpnQNl3qtY/edit#slide=id.p4) de la sonde (revu par  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe ) que je mettrai en forme lundi après-midi sur la base du travail déjà réalisé par  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  puis avec  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  et  ![Hyacinthe, Contributeur méthodologie at echopen](./../../zz_assets/images/avatars/1269173.png) Hyacinthe  et parti du [tableau](https://docs.google.com/spreadsheets/d/17jtXg-r6_nDEFxN0xtRFjEYXCeVaxZG9clrJDgage0o/edit) général.   * Nous parlerons aussi des aspects de documentation pour le quel  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  et  ![Hyacinthe, Contributeur méthodologie at echopen](./../../zz_assets/images/avatars/1269173.png) Hyacinthe  on commencé une [document](https://docs.google.com/document/d/11dJB4cTPcXkxdXE4P0HZj2o6fjAQtg2ZvGt33IAwT-s/edit#) que je vous invite à regarder et vos remarques sont les bienvenues. Notez que dans ce travail de documentation il est important que la lecture soit simple et qu'il y aura, à terme, des normes à respecter.  
+ * Le [Schéma](https://docs.google.com/presentation/d/1X4QVfOYeUJSIhjSg8QRVOj-x31x2ZA7QWVpnQNl3qtY/edit#slide=id.p4) de la sonde (revu par  Hyacinthe Hyacinthe  on commencé une [document](https://docs.google.com/document/d/11dJB4cTPcXkxdXE4P0HZj2o6fjAQtg2ZvGt33IAwT-s/edit#) que je vous invite à regarder et vos remarques sont les bienvenues. Notez que dans ce travail de documentation il est important que la lecture soit simple et qu'il y aura, à terme, des normes à respecter.  
 
   Bonne journée à tous.
 
 ### **Hyacinthe** - 2016-04-12 at 2:12 PM
 
-![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe  voici le gdoc d'  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe pour la prépa du hackaton méca ;)   <https://docs.google.com/document/d/1T0rcg9NmNtdjPB8jdhmQ5RWkwCaVaP7IqTzbHIdKJgM/edit#heading=h.51pvtcdf4smh>
+Hyacinthe Hyacinthe pour la prépa du hackaton méca ;)   <https://docs.google.com/document/d/1T0rcg9NmNtdjPB8jdhmQ5RWkwCaVaP7IqTzbHIdKJgM/edit#heading=h.51pvtcdf4smh>
 
 
 
@@ -3884,7 +3884,7 @@ On a toute la partie contrôle du système. Il reste à réaliser l'asservisseme
 
 ### **Hyacinthe** - 2016-01-14 at 4:30 PM
 
-![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe  c dans ta boîte ;)
+Hyacinthe Hyacinthe  c dans ta boîte ;)
 
 
 
@@ -3902,7 +3902,7 @@ Done...
 
 ### **Hyacinthe** - 2016-02-10 at 8:40 AM
 
-welcome  ![Michel Bala, Electronique analogique at echopen](./../../zz_assets/images/avatars/2008321.png) Michel  qui nous rejoint dans le cadre de son projet pour l'agrégation et qui va travailler avec nous sur la partie éléctronique analogique.   ![Hyacinthe, Electronique at echopen](./../../zz_assets/images/avatars/1249123.png) Hyacinthe  et  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  je vous laisse lui donner les éléments importants.
+welcome  Hyacinthe Hyacinthe  je vous laisse lui donner les éléments importants.
 
 ### **Michel Bala** - 2016-02-10 at 8:54 AM
 
@@ -3922,7 +3922,7 @@ Pour ce qui est pédagogique, n'hésite pas à me pinguer, je suis déjà un peu
 
 ### **Hyacinthe** - 2016-04-29 at 12:07 PM
 
-Hello,   Virginie est venue cette semaine et nous l'avons rencontré avec ![Hyacinthe, echopen](./../../zz_assets/images/avatars/2157822.png) Hyacinthe . Voici ce qu'elle propose de regarder se son côté:   \- fantômes : matériaux, procédés, besoins des cliniciens pour l'apprentissage
+Hello,   Virginie est venue cette semaine et nous l'avons rencontré avec Hyacinthe Hyacinthe . Voici ce qu'elle propose de regarder se son côté:   \- fantômes : matériaux, procédés, besoins des cliniciens pour l'apprentissage
 
 \- dialogue entre médecins et ingénieurs, pour cerner les vrais besoin, le ressenti, voir le quand le comment et le pourquoi de l'utilisation   Elle souhaite rejoindre le projet à partir de la fin juin et l'an prochain et devrait nous rejoindre dans les réunions du lundi.   Pour mémoire, elle est en thèse en medical imaging &amp; oncology à l'IGR.
 
@@ -3932,7 +3932,7 @@ J'en profite pour rajouter un autre contributeur "SWAT medic, CBRNE officer, bee
 
 ### **Hyacinthe** - 2016-06-02 at 7:24 AM
 
-Bonjour à tous,   Nous accueillons ![Joris JEAN-BAPTISTE, Elec analog & digit + Soft at echopen](./../../zz_assets/images/avatars/4392629.png) Joris qui nous rejoint pour deux mois au sein du projet qui va travailler sur :
+Bonjour à tous,   Nous accueillons Hyacinthe Joris qui nous rejoint pour deux mois au sein du projet qui va travailler sur :
 
  * ADC  * Micro-contrôleur  * &amp; such
 
@@ -3952,7 +3952,7 @@ Salut Joris,   Bienvenue =)   Hyacinthe
 
 ### **Hyacinthe** - 2016-06-13 at 8:31 AM
 
-Nous accueillons ![saa sa, Javascript server web at echopen](./../../zz_assets/images/avatars/4574039.png) saa et ![Feng WANG, Mecatronique at echopen](./../../zz_assets/images/avatars/4574256.png) Feng pour respectivement 3 semaines pour travailler sur le server web signal  la suite de Matthieu et 2 mois pour avancer sur les modules et une partie Mecatronique ;) welcome !!
+Nous accueillons Hyacinthe Feng pour respectivement 3 semaines pour travailler sur le server web signal  la suite de Matthieu et 2 mois pour avancer sur les modules et une partie Mecatronique ;) welcome !!
 
 ### **Hyacinthe** - 2016-06-14 at 3:07 PM
 
@@ -3962,7 +3962,7 @@ hello à tous, ce serait pas mal qu'il poste un welcome message sur la page face
 
 # crowdsourcing rép. journaleux  - 2016-02-05
 
-Quentin Noirfalisse, journaliste de [medor ](https://medor.coop/fr/)(les yeux ouverts), qui nous a connu par Nicolas Pettiaux (université lilbre de bruxelles, qui était présent au captech ), nous a adressé une série de questions, en vue d'un billet sur leur site   voici un doc pour recceuillir vos contributions.  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  a formulé les premières réponses.   <https://drive.google.com/drive/folders/0B0V8htWBLPWBZW5sN25WNUwzX0k>   il faudrait converger pour lundi   @++
+Quentin Noirfalisse, journaliste de [medor ](https://medor.coop/fr/)(les yeux ouverts), qui nous a connu par Nicolas Pettiaux (université lilbre de bruxelles, qui était présent au captech ), nous a adressé une série de questions, en vue d'un billet sur leur site   voici un doc pour recceuillir vos contributions.  Hyacinthe Hyacinthe  a formulé les premières réponses.   <https://drive.google.com/drive/folders/0B0V8htWBLPWBZW5sN25WNUwzX0k>   il faudrait converger pour lundi   @++
 
 ### **Hyacinthe** - 2016-02-08 at 9:22 AM
 
@@ -3970,7 +3970,7 @@ Je n'y ai pas accès :-(
 
 ### **Hyacinthe** - 2016-02-08 at 9:31 AM
 
-![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe   je viens de te renvoyer le lien  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  tu confirmes qu'on a tous accès au drive d'échopen qd on ouvre un document ?
+Hyacinthe Hyacinthe  tu confirmes qu'on a tous accès au drive d'échopen qd on ouvre un document ?
 
 ### **Hyacinthe** - 2016-02-08 at 9:40 AM
 
@@ -4012,7 +4012,7 @@ nice ;)
 
 # Administration serveur dédié  - 2016-02-18
 
-Avec  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  on se disait lundi soir qu'il serait peut-être bien d'équiper le serveur Gandi d'une surcouche d'administration qui permettrait une gestion via le Web plus facile à aborder pour ceux qui, comme moi,  ne sont pas des dieux du ssh.  ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  parlait de cPanel (qu'il connait bien) et moi de Webmin (que j'utilise quotidiennement). Après un petit tour sur <http://alternativeto.net/software/webmin/> il s'avère que le trio gagnant serait :
+Avec  Hyacinthe Hyacinthe  parlait de cPanel (qu'il connait bien) et moi de Webmin (que j'utilise quotidiennement). Après un petit tour sur <http://alternativeto.net/software/webmin/> il s'avère que le trio gagnant serait :
 
  1. Webmin (128) - Open source : <http://www.webmin.com/>  2. Ajenti (87) - Open source : <http://ajenti.org/>  3. cPanel (63) - Commercial : <http://www.cpanel.com/>
 
@@ -4030,11 +4030,11 @@ Hello à tous,   Suite à une rencontre ce matin avec Maxime, un urgentiste de l
 
  1. Présentation et retours d'expériences des urgentistes de LARIBOISIÈRE (2 ans avec un Vscan + formations à l'échographie clinique) + 2 ou 3 cas cliniques   2. Brainstorm et itération avec la communauté =&gt; Quel besoin médical   3. Déjeuner   4. Convergence et expression du besoin médical   5. Synthèse  6. Ouverture sur les enjeux de formation 
 
-  ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe , je sais que le sujet t'intéresse, serais tu dispo pour nous aider dans l'organisation ?  ![Hyacinthe, Contributeur méthodologie at echopen](./../../zz_assets/images/avatars/1269173.png) Hyacinthe , Comment nous conseilles tu de structurer la définition de ce besoin ?   @All, vos retours et votre présence seront/sera bienvenue.
+  Hyacinthe Hyacinthe , Comment nous conseilles tu de structurer la définition de ce besoin ?   @All, vos retours et votre présence seront/sera bienvenue.
 
 ### **Hyacinthe** - 2016-05-10 at 9:40 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe  Tout dépend des dates qu'ils te donnent, sur le principe, très motivée !
+Hyacinthe Hyacinthe  Tout dépend des dates qu'ils te donnent, sur le principe, très motivée !
 
 ### **Hyacinthe** - 2016-05-10 at 9:41 PM
 
@@ -4046,11 +4046,11 @@ en effet, on est mûr pour réfléchir au portage de la formation en ligne -&gt;
 
 ### **Hyacinthe** - 2016-05-11 at 9:38 AM
 
-Hello,   Merci ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe pour ton retour. Je pense qu'il est surtout important de voir, qui dans les médecins de la communauté sont prêts à accompagner l'enjeu de formation, car il est évident que nous n'aurons pas suffisamment de temps pour aller au delà d'une simple définition du scope et de la mobilisation des médecins présents sur cet enjeu.   Dès que je reçois leurs propositions de dates, je vous les communique.   Il va aussi falloir que nous définissions la liste des éléments sur lesquels nous souhaitons que les médecins se prononcent dans cette définition du besoin médical.   @+
+Hello,   Merci Hyacinthe Hyacinthe pour ton retour. Je pense qu'il est surtout important de voir, qui dans les médecins de la communauté sont prêts à accompagner l'enjeu de formation, car il est évident que nous n'aurons pas suffisamment de temps pour aller au delà d'une simple définition du scope et de la mobilisation des médecins présents sur cet enjeu.   Dès que je reçois leurs propositions de dates, je vous les communique.   Il va aussi falloir que nous définissions la liste des éléments sur lesquels nous souhaitons que les médecins se prononcent dans cette définition du besoin médical.   @+
 
 ### **Hyacinthe** - 2016-05-11 at 2:00 PM
 
-Séance de travail rapide cet après-midi avec ![Hyacinthe, Contributeur méthodologie at echopen](./../../zz_assets/images/avatars/1269173.png) Hyacinthe pour tenter de poser les bases d'un cadre de définition du besoin médical.   Le document est disponible sur le drive et [ici](https://docs.google.com/document/d/1GFbr_EVgpueh3udHefIvB8nSU5UNe2lCPHE3wb8Vs0M/edit#).   ![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne , ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe et tous les autres, je vous invite à y jeter un oeil et à ajouter vos commentaires, remarques &amp; such pour ensuite l'envoyer aux urgentistes de Lariboisière en vue du CAPMed.  L'objectif de ce document est d'être un cadre de travail pour la définition des besoins d'usages afin d'en déduire les exigences et les spéc. techniques nécessaires pour le développement de la sonde et enfin, de prioriser les applications médicales.   @+
+Séance de travail rapide cet après-midi avec Hyacinthe Hyacinthe et tous les autres, je vous invite à y jeter un oeil et à ajouter vos commentaires, remarques &amp; such pour ensuite l'envoyer aux urgentistes de Lariboisière en vue du CAPMed.  L'objectif de ce document est d'être un cadre de travail pour la définition des besoins d'usages afin d'en déduire les exigences et les spéc. techniques nécessaires pour le développement de la sonde et enfin, de prioriser les applications médicales.   @+
 
 ### **Hyacinthe** - 2016-05-11 at 5:09 PM
 
@@ -4062,7 +4062,7 @@ J'ai lu rapidement et c'est top ! Il y a une chose importante à rajouter : Quan
 
 ### **Hyacinthe** - 2016-05-11 at 5:18 PM
 
-Merci ![Hyacinthe, Community & knowledge at echopen](./../../zz_assets/images/avatars/1269172.png) Hyacinthe pour ton retour. Pour ce qui est de la qualification et quantification des usages, c'est ce que propose la dernière partie du document. N'hésites pas à clarifier si cela n'est pas suffisamment clair.   L'aspect télémédecine devrait apparaitre dans les cas d'usages qu'on déduira avec les médecins, ce qui nous permettra d'ailleurs de le valider. On est resté pour le moment à un niveau framework générique, sans rentrer dans trop de détails. La prochaine étape sera de réaliser la matrice et de la remplir petit à petit et surtout lors du CAPMed.   A bientôt,
+Merci Hyacinthe Hyacinthe pour ton retour. Pour ce qui est de la qualification et quantification des usages, c'est ce que propose la dernière partie du document. N'hésites pas à clarifier si cela n'est pas suffisamment clair.   L'aspect télémédecine devrait apparaitre dans les cas d'usages qu'on déduira avec les médecins, ce qui nous permettra d'ailleurs de le valider. On est resté pour le moment à un niveau framework générique, sans rentrer dans trop de détails. La prochaine étape sera de réaliser la matrice et de la remplir petit à petit et surtout lors du CAPMed.   A bientôt,
 
 ### **Hyacinthe** - 2016-05-13 at 2:50 PM
 
@@ -4082,7 +4082,7 @@ Bonjour à tous,   Une nouvelle version du document est désormais disponible av
 
 ### **Hyacinthe** - 2016-05-13 at 11:59 PM
 
-pour moi le 18 est OK. Etienne Englais de KB est ok ?  ![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe   comment s'appelle l'echo-pneumologue avec lequel on s'était entretenu il y a un an ? ca peut être intéressant de l'avoir avec nous.   dès que la date est Ok, je rameute de l'interne et du chef de clinique ;)
+pour moi le 18 est OK. Etienne Englais de KB est ok ?  Hyacinthe Hyacinthe   comment s'appelle l'echo-pneumologue avec lequel on s'était entretenu il y a un an ? ca peut être intéressant de l'avoir avec nous.   dès que la date est Ok, je rameute de l'interne et du chef de clinique ;)
 
 ### **Hyacinthe** - 2016-05-17 at 10:27 AM
 
@@ -4120,37 +4120,37 @@ Vla qques uns des fichiers échangés sur le groupe FB =)  On profitera du chann
 
 ![](./../../zz_assets/images/previews/5636730-32f6353f5f012be42194e2288025effce83d81177acb2707b6c4afe8bded5f28.png)
 
-](bc3-raw/files/5636730-32f6353f5f012be42194e2288025effce83d81177acb2707b6c4afe8bded5f28.pdf)
+](../bc3-images/5636730-32f6353f5f012be42194e2288025effce83d81177acb2707b6c4afe8bded5f28.pdf)
 
-[32f6353f5f012be42194e2288025effce83d81177acb2707b6c4afe8bded5f28.pdf 146 KB • Download](bc3-raw/files/5636730-32f6353f5f012be42194e2288025effce83d81177acb2707b6c4afe8bded5f28.pdf)
+[32f6353f5f012be42194e2288025effce83d81177acb2707b6c4afe8bded5f28.pdf 146 KB • Download](../bc3-images/5636730-32f6353f5f012be42194e2288025effce83d81177acb2707b6c4afe8bded5f28.pdf)
 
 [
 
 ![](./../../zz_assets/images/previews/5636737-echoscopy-atlas-vscan.png)
 
-](bc3-raw/files/5636737 -echoscopy-atlas-vscan.pdf)
+](../bc3-images/5636737 -echoscopy-atlas-vscan.pdf)
 
-[echoscopy-atlas-vscan.pdf 2.22 MB • Download](bc3-raw/files/5636737 -echoscopy-atlas-vscan.pdf)
+[echoscopy-atlas-vscan.pdf 2.22 MB • Download](../bc3-images/5636737 -echoscopy-atlas-vscan.pdf)
 
 [
 
 ![](./../../zz_assets/images/previews/5636738-horizon-scanning- report0036-ultrasound.png)
 
-](bc3-raw/files/5636738 -horizon-scanning-report0036-ultrasound.pdf)
+](../bc3-images/5636738 -horizon-scanning-report0036-ultrasound.pdf)
 
-[Horizon scanning report0036 Ultrasound.pdf 343 KB • Download](bc3-raw/files/5636738 -horizon-scanning-report0036-ultrasound.pdf)
+[Horizon scanning report0036 Ultrasound.pdf 343 KB • Download](../bc3-images/5636738 -horizon-scanning-report0036-ultrasound.pdf)
 
 [
 
 ![](./../../zz_assets/images/previews/5636739-rfe_ecmu1_2016.png)
 
-](bc3-raw/files/5636739-rfe_ecmu1_2016.pdf)
+](../bc3-images/5636739-rfe_ecmu1_2016.pdf)
 
-[rfe_ecmu1_2016.pdf 322 KB • Download](bc3-raw/files/5636739-rfe_ecmu1_2016.pdf)
+[rfe_ecmu1_2016.pdf 322 KB • Download](../bc3-images/5636739-rfe_ecmu1_2016.pdf)
 
 ### **Hyacinthe** - 2016-05-31 at 8:26 AM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/791737.png) Hyacinthe g fait qqs remarques sur le doc. Pour la partie usage médical, je proposerai qu'on ouvre le gdoc aux contributions remote. Je ferai l'animation sur les groupes facebook de médecins, notamment eppocrate. Si ok, on peut ouvrir le jour même, ou en amont ?
+Hyacinthe Hyacinthe g fait qqs remarques sur le doc. Pour la partie usage médical, je proposerai qu'on ouvre le gdoc aux contributions remote. Je ferai l'animation sur les groupes facebook de médecins, notamment eppocrate. Si ok, on peut ouvrir le jour même, ou en amont ?
 
 ### **Hyacinthe** - 2016-06-06 at 8:47 PM
 
@@ -4160,15 +4160,15 @@ Un petit truc marrant de la part du [mec qui bosse au SWAT](https://hackaday.io/
 
 # Câblage capteur optique  - 2016-01-26
 
-![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  dit : "_dis moi, ton capteur et la diode sont alimentés en 3.3V ou en 5V?_"   Tout est alimenté en 5V (par l'USB). On vise un courant de 20 mA dans la diode.  Par contre la résistance de 40 Ko n'est pas présente sur le breadboard car on utilise celle présente en interne de l'Espruino car on configure l'entrée utilisée A8 en mode "input_pulldown" donc avec résistance de 40 Ko de mise à la masse.  Donc, au final on présente du 5V sur l'entrée du µC, il a l'air de supporter mais c'est vrai que je devrais essayer de mettre du 3.3V sur la pin 4. 
+Hyacinthe Hyacinthe  dit : "_dis moi, ton capteur et la diode sont alimentés en 3.3V ou en 5V?_"   Tout est alimenté en 5V (par l'USB). On vise un courant de 20 mA dans la diode.  Par contre la résistance de 40 Ko n'est pas présente sur le breadboard car on utilise celle présente en interne de l'Espruino car on configure l'entrée utilisée A8 en mode "input_pulldown" donc avec résistance de 40 Ko de mise à la masse.  Donc, au final on présente du 5V sur l'entrée du µC, il a l'air de supporter mais c'est vrai que je devrais essayer de mettre du 3.3V sur la pin 4. 
 
 [
 
-![](bc3-raw/files/1092201-20160126_222450.jpg)
+![](../bc3-images/1092201-20160126_222450.jpg)
 
-](bc3-raw/files/1092201-20160126_222450.jpg)
+](../bc3-images/1092201-20160126_222450.jpg)
 
-[20160126_222450.jpg 2.19 MB • Download](bc3-raw/files/1092201-20160126_222450.jpg)
+[20160126_222450.jpg 2.19 MB • Download](../bc3-images/1092201-20160126_222450.jpg)
 
 ### **Hyacinthe** - 2016-01-26 at 10:32 PM
 
@@ -4228,9 +4228,9 @@ Hyacinthe SHAN SEI FAN, resp. [Groupe thématique Logiciel Libre](http ://syste
 
 ![](./../../zz_assets/images/previews/3355976-guidedesmembresdugtll.png)
 
-](bc3-raw/files/3355976-guidedesmembresdugtll.pdf)
+](../bc3-images/3355976-guidedesmembresdugtll.pdf)
 
-[GuideDesMembresDuGTLL.pdf 232 KB • Download](bc3-raw/files/3355976-guidedesmembresdugtll.pdf)
+[GuideDesMembresDuGTLL.pdf 232 KB • Download](../bc3-images/3355976-guidedesmembresdugtll.pdf)
 
 ### **Hyacinthe** - 2016-05-03 at 4:50 PM
 
@@ -4308,7 +4308,7 @@ call ce jour avec Isabelle Wachsmuth, Project manager Health Innovation &amp; Sy
 
 # prod. echopen versionnée  - 2016-02-15
 
-hello à tous,   dans la suite des intuitions de  ![Hyacinthe, Libre faiseur at echopen](./../../zz_assets/images/avatars/1275581.png) Hyacinthe   sur le versionning de toute la prod., vo[ICI](https://github.com/LibreHealthcare/LibreHealthcare)  l'example de librehealthcare   @++
+hello à tous,   dans la suite des intuitions de  Hyacinthe Hyacinthe   sur le versionning de toute la prod., vo[ICI](https://github.com/LibreHealthcare/LibreHealthcare)  l'example de librehealthcare   @++
 
 ### **Hyacinthe** - 2016-02-15 at 9:51 AM
 
@@ -4412,7 +4412,7 @@ Gaffe à la license donc, ils font un truc commercial, et tant que y'a pas de li
 
 ### **Hyacinthe** - 2016-02-03 at 9:37 AM
 
-Yes je me demande ce qu'ils font comme sonde exactement...   ![Hyacinthe, hardware thinker at echopen](./../../zz_assets/images/avatars/782574.png) Hyacinthe  je ne comprend pas ta phrase pas de licence sur le repo?
+Yes je me demande ce qu'ils font comme sonde exactement...   Hyacinthe Hyacinthe  je ne comprend pas ta phrase pas de licence sur le repo?
 
 ### **Hyacinthe** - 2016-02-04 at 5:33 AM
 
@@ -4420,7 +4420,7 @@ Le repository ne contenait pas de licence, le contenu n'était donc pas couvert,
 
 ### **Hyacinthe** - 2016-02-04 at 10:53 AM
 
-hello,   je ne comprends pas bien car le code de l'app est sous licence depuis qu'on a eu les éléments de jonathan.  ![Hyacinthe, FPGA at echopen](./../../zz_assets/images/avatars/1249124.png) Hyacinthe   et  ![Hyacinthe, Danseur du ventre at echopen](./../../zz_assets/images/avatars/1248689.png) Hyacinthe  confirment que leur kit-soft est bien sous licence   btw, selon jonathan, il s'agissait de mettre sous contrôle de licence la racine des repo   @Hyacinthe: qu'as tu précisément en tête ?   @+
+hello,   je ne comprends pas bien car le code de l'app est sous licence depuis qu'on a eu les éléments de jonathan.  Hyacinthe Hyacinthe  confirment que leur kit-soft est bien sous licence   btw, selon jonathan, il s'agissait de mettre sous contrôle de licence la racine des repo   @Hyacinthe: qu'as tu précisément en tête ?   @+
 
 ### **Hyacinthe** - 2016-02-04 at 10:59 AM
 
@@ -4458,11 +4458,11 @@ Si ça peut aider, j'ai trouvé un mec qui a désossé la même trifrequence que
 
 [
 
-![](bc3-raw/files/3845549-screenshot_2016-04-18-21-31-43.png)
+![](../bc3-images/3845549-screenshot_2016-04-18-21-31-43.png)
 
-](bc3-raw/files/3845549-screenshot_2016-04-18-21-31-43.png)
+](../bc3-images/3845549-screenshot_2016-04-18-21-31-43.png)
 
-[Screenshot_2016-04-18-21-31-43.png 486 KB • Download](bc3-raw/files/3845549-screenshot_2016-04-18-21-31-43.png)
+[Screenshot_2016-04-18-21-31-43.png 486 KB • Download](../bc3-images/3845549-screenshot_2016-04-18-21-31-43.png)
 
 ### **Hyacinthe** - 2016-04-24 at 4:04 PM
 
@@ -4474,7 +4474,7 @@ il me dit qu'il est en partiel jusqu'à fin mai et qu'il commence le désossage 
 
 ### **Hyacinthe** - 2016-06-18 at 2:37 PM
 
-![Hyacinthe, echopen](./../../zz_assets/images/avatars/782178.png) lacenne   Faut lui dire  qu'on a fait remarcher la notre sur : <https://github.com/Hyacinthe124/echomods/tree/master/retro10PV>
+Hyacinthe lacenne   Faut lui dire  qu'on a fait remarcher la notre sur : <https://github.com/kelu124/echomods/tree/master/retro10PV>
 
 ### **Hyacinthe** - 2016-06-30 at 9:47 AM
 
