@@ -59,6 +59,19 @@ def Clean(txt):
 		#print "stripped!"
 	CleanTxt = CleanTxt.replace(",**","**")
 	CleanTxt = CleanTxt.replace("hyancinthe","Hyacinthe")
+
+	CleanTxt = CleanTxt.replace("Hyacinthe124","kelu124")
+
+	CleanTxt = CleanTxt.replace("(bc3-raw/files/","(../bc3-images/")
+
+
+	# Removing the stuff !\[\](*avatar*)
+	#([\w.-]+)@([\w.-]+)
+
+	match = re.search(r'!\[.*avatar.*\.png\)', CleanTxt)
+	if match:
+	    print str(match.group())
+	    CleanTxt = CleanTxt.replace(str(match.group()),"Hyacinthe") 
 	return CleanTxt.strip()
 
 def GetDateBC3(text):
