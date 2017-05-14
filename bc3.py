@@ -59,6 +59,10 @@ def Clean(txt):
 		#print "stripped!"
 	CleanTxt = CleanTxt.replace(",**","**")
 	CleanTxt = CleanTxt.replace("hyancinthe","Hyacinthe")
+
+	CleanTxt = CleanTxt.replace("Hyacinthe124","kelu124")
+
+
 	return CleanTxt.strip()
 
 def GetDateBC3(text):
