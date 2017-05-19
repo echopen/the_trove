@@ -43,11 +43,21 @@ for item in BC3MDs:
 ## BC3
 
 BC3MDs = GetFiles("bc3",".md")
-SUMMARYMD += "* [Basecamp 3](bc3.md)\n"
+SUMMARYMD += "\n"+"* [Basecamp 3](bc3.md)\n"
 
 for item in BC3MDs:
 	print item
 	SUMMARYMD += "    * ["+item.split("/")[-1]+"]("+item.split("./")[-1]+")\n"
+
+## Slack
+
+BC3MDs = GetFiles("slack",".md")
+SUMMARYMD += "\n"+"* [Slack](slack.md)\n"
+
+for item in BC3MDs:
+	print item
+	SUMMARYMD += "    * ["+item.split("/")[-1].split(".")[0]+"]("+item.split("./")[-1]+")\n"
+
 
 ## Writing
 
